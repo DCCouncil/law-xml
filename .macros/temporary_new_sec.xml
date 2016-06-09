@@ -1,0 +1,12 @@
+<macro xmlns="https://code.dccouncil.us/schemas/macro" name="temporary-new-sec" lifecycle="amend">
+  <attribute name="doc" required="false"/>
+  <attribute name="interim-path" required="true"/>
+  <attribute name="path" required="true"/>
+  <attribute name="perm-eff" default=""/>
+  <transform>
+    <![CDATA[
+      <codify:annotation history="false" type="Temporary Legislation" {{ attributes|set_attribute('doc') }} path="{{attributes.interim_path}}" expire="{{ attributes.perm_eff }}">For temporary (225 days) creation of § {{ attributes.path.lstrip('§') }}, see <cite {{ parent|ref }}>{{ parent.citations.full }}</cite>.</codify:annotation>
+      <codify:annotation history="false" type="Temporary Legislation" {{ attributes|set_attribute('doc', 'path') }} applicability="{{ attributes.perm_eff or 'tbd'}}" delay="50">For temporary (225 days) creation of this section, see <cite {{ parent|ref }}>{{ parent.citations.full }}</cite>.</codify:annotation>
+    ]]>
+  </transform>
+</macro>
