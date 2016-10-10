@@ -29,8 +29,8 @@ before_build:
   # run the tests here (instead of AppVeyor's "test" phase, which runs *after* the "build" phase)
   - xcore\app ..\dc-law-xml
   # now install the HTML files and tools prior to building the HTML
-  - git clone --branch %APPVEYOR_REPO_BRANCH% git@github.com:openlawlibrary/dc-law-html.git ..\dc-law-html
-  - git clone git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
+  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:openlawlibrary/dc-law-html.git ..\dc-law-html
+  - git clone --depth 1 git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
   # dc-law-tools has some requirements that must be installed before building
   - "%PYTHON%\\python.exe -m pip install wheel"
   - "%PYTHON%\\python.exe -m pip install    ..\\dc-law-tools\\requirements\\lxml-3.6.4-cp35-cp35m-win32.whl"
