@@ -40,6 +40,9 @@ build_script:
   - cd ..\dc-law-tools
   - "%PYTHON%\\python.exe build html all"
 
+test_script:
+  # skip: tests are run in the before_build phase
+
 deploy_script:
   - cd ..\dc-law-html
   # index.bulk is too large to commit
