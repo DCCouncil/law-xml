@@ -1,0 +1,52 @@
+environment:
+  matrix:
+    - PYTHON: "C:\\Python35"
+  deploy_key:
+    # this is a private SSH key paired to the public deploy key for the dc-law-tools private repo
+    # it is encrypted with AppVeyor's encryption tool: https://ci.appveyor.com/tools/encrypt
+    secure: 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
+  access_token:
+    secure: Li8PQF3m/bb71zN1Ud8Cocb4fs83pgZZVPuOvX93DJUGG5PuF/4NvRUEvjdBM1cK
+
+init:
+  - git config --global user.name oll-bot
+  - git config --global user.email developers@openlawlib.org
+
+install:
+  # the only way we can use the deploy key is by putting it in an environment variable (see above)
+  # and then using PowerShell (ps) to copy the environment variable into a file (see below)
+  - ps: $key = "-----BEGIN RSA PRIVATE KEY-----`n"
+  - ps: $key += $env:deploy_key.Replace(" ", "`n")
+  - ps: $key += "`n-----END RSA PRIVATE KEY-----`n"
+  - ps: Set-Content c:\users\appveyor\.ssh\id_rsa $key
+
+before_build:
+  # download the latest release of xcore so that we can validate the XML files
+  # NOTE: we assume that the first (or only) asset of the release is the xcore.zip file
+  - ps: $dl_link = (Invoke-RestMethod "https://api.github.com/repos/openlawlibrary/xcore/releases/latest?access_token=$($env:access_token)").assets[0].url
+  - ps: Invoke-WebRequest "$($dl_link)?access_token=$($env:access_token)" -OutFile xcore.zip -Headers @{"Accept"="application/octet-stream"}
+  - 7z e xcore.zip -oxcore
+  # run the tests here (instead of AppVeyor's "test" phase, which runs *after* the "build" phase)
+  - xcore\app ..\dc-law-xml
+  # now install the HTML files and tools prior to building the HTML
+  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-html.git ..\dc-law-html
+  - git clone --depth 1 git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
+  # dc-law-tools has some requirements that must be installed before building
+  - "%PYTHON%\\python.exe -m pip install wheel"
+  - "%PYTHON%\\python.exe -m pip install    ..\\dc-law-tools\\requirements\\lxml-3.6.4-cp35-cp35m-win32.whl"
+  - "%PYTHON%\\python.exe -m pip install -r ..\\dc-law-tools\\requirements.txt"
+
+build_script:
+  - cd ..\dc-law-tools
+  - "%PYTHON%\\python.exe build html all"
+
+test_script:
+  # skip: tests are run in the before_build phase
+
+deploy_script:
+  - cd ..\dc-law-html
+  # index.bulk is too large to commit
+  - git checkout HEAD -- index.bulk
+  - git add -A
+  - git diff --quiet || git commit -m "deploy HTML from AppVeyor build %appveyor_build_version%"
+  - git push
