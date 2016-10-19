@@ -45,8 +45,6 @@ test_script:
 
 deploy_script:
   - cd ..\dc-law-html
-  # index.bulk is too large to commit
-  - git checkout HEAD -- index.bulk
   - git add -A
-  - git diff --quiet || git commit -m "deploy HTML from AppVeyor build %appveyor_build_version%"
-  - git push
+  - git diff --cached --quiet || git commit -m "deploy HTML from AppVeyor build %appveyor_build_version%"
+  - git push origin %appveyor_repo_branch%
