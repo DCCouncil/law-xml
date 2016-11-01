@@ -1,14 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Subtitle">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <prefix>Title</prefix>
   <num>39</num>
   <heading>Libraries and Cultural Institutions.</heading>
-  <container childPrefix="Chapter">
+  <container>
+    <prefix>Subtitle</prefix>
     <num>I</num>
     <heading>Libraries.</heading>
-    <container childPrefix="Subchapter">
+    <container>
+      <prefix>Chapter</prefix>
       <num>1</num>
       <heading>Public Libraries.</heading>
       <container>
+        <prefix>Subchapter</prefix>
         <num>I</num>
         <heading>General.</heading>
         <ns0:include href="./sections/39-101.xml"/>
@@ -31,6 +35,7 @@
         <ns0:include href="./sections/39-117.xml"/>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>II</num>
         <heading>Miscellaneous.</heading>
         <ns0:include href="./sections/39-121.xml"/>
@@ -41,10 +46,12 @@
       </container>
     </container>
   </container>
-  <container childPrefix="Chapter">
+  <container>
+    <prefix>Subtitle</prefix>
     <num>II</num>
     <heading>Cultural Institutions.</heading>
     <container>
+      <prefix>Chapter</prefix>
       <num>2</num>
       <heading>Commission on the Arts and Humanities.</heading>
       <ns0:include href="./sections/39-201.xml"/>
@@ -56,11 +63,13 @@
       <ns0:include href="./sections/39-206.xml"/>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>2A</num>
       <heading>District of Columbia Cultural Plan.</heading>
       <ns0:include href="./sections/39-231.xml"/>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>3</num>
       <heading>Museum of the City of Washington.</heading>
       <ns0:include href="./sections/39-301.xml"/>
@@ -74,6 +83,7 @@
       <ns0:include href="./sections/39-309.xml"/>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>4</num>
       <heading>Arts and Cultural Facilities Support.</heading>
       <ns0:include href="./sections/39-401.xml"/>

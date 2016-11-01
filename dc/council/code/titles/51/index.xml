@@ -1,14 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Chapter">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <prefix>Title</prefix>
   <num>51</num>
   <heading>Social Security.</heading>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>1</num>
     <heading>Unemployment Compensation.</heading>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>General.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>Administration of The District Unemployment Fund.</heading>
         <ns0:include href="./sections/51-101.xml"/>
@@ -41,6 +45,7 @@
         <ns0:include href="./sections/51-127.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Domestic Violence.</heading>
         <ns0:include href="./sections/51-131.xml"/>
@@ -52,12 +57,14 @@
       </container>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Miscellaneous.</heading>
       <ns0:include href="./sections/51-151.xml"/>
       <ns0:include href="./sections/51-152.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III</num>
       <heading>Shared Work Program.</heading>
       <ns0:include href="./sections/51-171.xml"/>
