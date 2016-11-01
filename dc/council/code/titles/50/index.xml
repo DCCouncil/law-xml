@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Subtitle">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
   <num>50</num>
   <heading>Motor and Non-Motor Vehicles and Traffic.</heading>
-  <container childPrefix="Chapter">
+  <container>
     <num>I</num>
     <heading>Commercial and Government Vehicles.</heading>
     <container>
@@ -14,7 +14,7 @@
       <ns0:include href="./sections/50-104.xml"/>
       <ns0:include href="./sections/50-105.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>2</num>
       <heading>Public-Owned Vehicles.</heading>
       <container>
@@ -37,8 +37,9 @@
         <ns0:include href="./sections/50-211.06.xml"/>
         <ns0:include href="./sections/50-211.07.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>3</num>
       <heading>Regulation of Taxicabs.</heading>
       <container>
@@ -120,6 +121,7 @@
         <ns0:include href="./sections/50-383.04.xml"/>
         <ns0:include href="./sections/50-383.05.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>4</num>
@@ -135,8 +137,9 @@
       <ns0:include href="./sections/50-408.xml"/>
       <ns0:include href="./sections/50-409.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>II</num>
     <heading>Consumer Protection.</heading>
     <container>
@@ -167,8 +170,9 @@
       <ns0:include href="./sections/50-609.xml"/>
       <ns0:include href="./sections/50-610.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>III</num>
     <heading>Environmental Protection.</heading>
     <container>
@@ -203,11 +207,12 @@
       <ns0:include href="./sections/50-801.xml"/>
       <ns0:include href="./sections/50-802.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>IV</num>
     <heading>Motorized Vehicle Registration, Inspection, Licensing.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>9</num>
       <heading>Department of Motor Vehicles.</heading>
       <container>
@@ -225,8 +230,9 @@
         <heading>Regulations.</heading>
         <ns0:include href="./sections/50-921.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>9A</num>
       <heading>Department of Transportation.</heading>
       <container>
@@ -287,6 +293,7 @@
         <ns0:include href="./sections/50-921.76.xml"/>
         <ns0:include href="./sections/50-921.77.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>10</num>
@@ -294,7 +301,7 @@
       <ns0:include href="./sections/50-1001.xml"/>
       <ns0:include href="./sections/50-1002.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>11</num>
       <heading>Inspection.</heading>
       <container>
@@ -316,6 +323,7 @@
         <ns0:include href="./sections/50-1121.xml"/>
         <ns0:include href="./sections/50-1122.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>12</num>
@@ -339,7 +347,7 @@
       <ns0:include href="./sections/50-1217.xml"/>
       <ns0:include href="./sections/50-1218.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>13</num>
       <heading>Motor Vehicle Owners and Operators Responsibility.</heading>
       <container>
@@ -457,6 +465,7 @@
         <ns0:include href="./sections/50-1301.85.xml"/>
         <ns0:include href="./sections/50-1301.86.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>13A</num>
@@ -471,7 +480,7 @@
       <ns0:include href="./sections/50-1331.08.xml"/>
       <ns0:include href="./sections/50-1331.09.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>14</num>
       <heading>Operators’ Permits and Identification Cards.</heading>
       <container>
@@ -497,8 +506,9 @@
         <heading>Driver Education.</heading>
         <ns0:include href="./sections/50-1405.01.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>15</num>
       <heading>Registration of Motor Vehicles.</heading>
       <container>
@@ -541,6 +551,7 @@
         <ns0:include href="./sections/50-1507.06.xml"/>
         <ns0:include href="./sections/50-1507.07.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>15A</num>
@@ -579,14 +590,15 @@
       <ns0:include href="./sections/50-1541.27.xml"/>
       <ns0:include href="./sections/50-1541.28.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>V</num>
     <heading>Non-Motorized Vehicles.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>16</num>
       <heading>Regulation of Bicycles.</heading>
-      <container childPrefix="Part">
+      <container>
         <num>I</num>
         <heading>General Provisions.</heading>
         <container>
@@ -608,6 +620,7 @@
           <ns0:include href="./sections/50-1611.xml"/>
           <ns0:include href="./sections/50-1612.xml"/>
         </container>
+        <prefix>Part</prefix>
       </container>
       <container>
         <num>I-A</num>
@@ -636,6 +649,7 @@
         <ns0:include href="./sections/50-1641.08.xml"/>
         <ns0:include href="./sections/50-1641.09.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>16A</num>
@@ -643,8 +657,9 @@
       <ns0:include href="./sections/50-1651.xml"/>
       <ns0:include href="./sections/50-1652.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>VI</num>
     <heading>Safety.</heading>
     <container>
@@ -687,7 +702,7 @@
       <ns0:include href="./sections/50-1806.xml"/>
       <ns0:include href="./sections/50-1807.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>19</num>
       <heading>Motor Vehicle Operators; Implied Consent to Chemical Testing.</heading>
       <container>
@@ -716,6 +731,7 @@
         <ns0:include href="./sections/50-1911.xml"/>
         <ns0:include href="./sections/50-1912.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>19A</num>
@@ -739,14 +755,15 @@
       <heading>Safety Impact of Fine Reductions.</heading>
       <ns0:include href="./sections/50-2111.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>VII</num>
     <heading>Traffic.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>22</num>
       <heading>Regulation of Traffic.</heading>
-      <container childPrefix="Part">
+      <container>
         <num>I</num>
         <heading>General Provisions.</heading>
         <container>
@@ -788,6 +805,7 @@
           <ns0:include href="./sections/50-2201.32.xml"/>
           <ns0:include href="./sections/50-2201.33.xml"/>
         </container>
+        <prefix>Part</prefix>
       </container>
       <container>
         <num>II</num>
@@ -803,7 +821,7 @@
         <ns0:include href="./sections/50-2205.02.xml"/>
         <ns0:include href="./sections/50-2205.03.xml"/>
       </container>
-      <container childPrefix="Part">
+      <container>
         <num>III-A</num>
         <heading>Impaired Operating or Driving.</heading>
         <container>
@@ -849,6 +867,7 @@
           <ns0:include href="./sections/50-2206.58.xml"/>
           <ns0:include href="./sections/50-2206.59.xml"/>
         </container>
+        <prefix>Part</prefix>
       </container>
       <container>
         <num>IV</num>
@@ -856,7 +875,7 @@
         <ns0:include href="./sections/50-2207.01.xml"/>
         <ns0:include href="./sections/50-2207.02.xml"/>
       </container>
-      <container childPrefix="Part">
+      <container>
         <num>V</num>
         <heading>Automated Traffic Enforcement.</heading>
         <container>
@@ -871,9 +890,11 @@
           <heading>Automated Enforcement Expansion Plan.</heading>
           <ns0:include href="./sections/50-2209.11.xml"/>
         </container>
+        <prefix>Part</prefix>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>23</num>
       <heading>Traffic Adjudication.</heading>
       <container>
@@ -933,6 +954,7 @@
         <ns0:include href="./sections/50-2305.01.xml"/>
         <ns0:include href="./sections/50-2305.02.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>23A</num>
@@ -942,11 +964,12 @@
       <ns0:include href="./sections/50-2353.xml"/>
       <ns0:include href="./sections/50-2354.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>VIII</num>
     <heading>Vehicles On Public And Private Space.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>24</num>
       <heading>Abandoned and Junk Vehicle Removal.</heading>
       <container>
@@ -978,6 +1001,7 @@
         <ns0:include href="./sections/50-2421.14.xml"/>
         <ns0:include href="./sections/50-2421.15.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>25</num>
@@ -1018,7 +1042,7 @@
       <ns0:include href="./sections/50-2551.xml"/>
       <ns0:include href="./sections/50-2552.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>26</num>
       <heading>Regulation of Parking.</heading>
       <container>
@@ -1066,6 +1090,7 @@
         <ns0:include href="./sections/50-2651.xml"/>
         <ns0:include href="./sections/50-2652.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>27</num>
@@ -1079,5 +1104,7 @@
       <ns0:include href="./sections/50-2707.xml"/>
       <ns0:include href="./sections/50-2708.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
+  <prefix>Subtitle</prefix>
 </container>

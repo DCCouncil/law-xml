@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Subtitle">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
   <num>35</num>
   <heading>Railroads and Other Carriers.</heading>
-  <container childPrefix="Chapter">
+  <container>
     <num>I</num>
     <heading>General.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>1</num>
       <heading>Railroads.</heading>
       <container>
@@ -23,8 +23,9 @@
         <ns0:include href="./sections/35-123.xml"/>
         <ns0:include href="./sections/35-124.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>2</num>
       <heading>Street Railways and Bus Lines.</heading>
       <container>
@@ -75,6 +76,7 @@
         <heading>Merger of Street Railways.</heading>
         <ns0:include href="./sections/35-271.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>3</num>
@@ -85,8 +87,9 @@
       <ns0:include href="./sections/35-304.xml"/>
       <ns0:include href="./sections/35-305.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>II</num>
     <heading>Repealed Provisions.</heading>
     <container>
@@ -101,5 +104,7 @@
       <ns0:include href="./sections/35-407.xml"/>
       <ns0:include href="./sections/35-408.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
+  <prefix>Subtitle</prefix>
 </container>

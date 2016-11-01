@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Subtitle">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
   <num>9</num>
   <heading>Transportation Systems.</heading>
-  <container childPrefix="Chapter">
+  <container>
     <num>I</num>
     <heading>Highways, Bridges, Streets, and Alleys.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>1</num>
       <heading>Highway Plans.</heading>
       <container>
@@ -48,7 +48,7 @@
         <ns0:include href="./sections/9-105.03.xml"/>
         <ns0:include href="./sections/9-105.04.xml"/>
       </container>
-      <container childPrefix="Part">
+      <container>
         <num>IV</num>
         <heading>Federal-Aid Highway Projects.</heading>
         <container>
@@ -75,6 +75,7 @@
           <ns0:include href="./sections/9-107.61.xml"/>
           <ns0:include href="./sections/9-107.62.xml"/>
         </container>
+        <prefix>Part</prefix>
       </container>
       <container>
         <num>V</num>
@@ -106,7 +107,7 @@
         <ns0:include href="./sections/9-113.05.xml"/>
         <ns0:include href="./sections/9-113.06.xml"/>
       </container>
-      <container childPrefix="Part">
+      <container>
         <num>VIII</num>
         <heading>Council Review of the Planned Use of Klingle Road, N.W.</heading>
         <container>
@@ -120,12 +121,14 @@
           <heading>Klingle Road Restoration.</heading>
           <ns0:include href="./sections/9-115.11.xml"/>
         </container>
+        <prefix>Part</prefix>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
-    <container childPrefix="Unit">
+    <container>
       <num>2</num>
       <heading>Street and Alley Closing and Acquisition Procedures.</heading>
-      <container childPrefix="Subchapter">
+      <container>
         <num>A</num>
         <heading>Street and Alley Closings.</heading>
         <container>
@@ -165,7 +168,7 @@
           <ns0:include href="./sections/9-203.08.xml"/>
           <ns0:include href="./sections/9-203.09.xml"/>
         </container>
-        <container childPrefix="Part">
+        <container>
           <num>IV</num>
           <heading>Public Space Names and Commemorative Works.</heading>
           <container>
@@ -196,6 +199,7 @@
             <ns0:include href="./sections/9-204.18.xml"/>
             <ns0:include href="./sections/9-204.19.xml"/>
           </container>
+          <prefix>Part</prefix>
         </container>
         <container>
           <num>V</num>
@@ -208,6 +212,7 @@
           <ns0:include href="./sections/9-206.01.xml"/>
           <ns0:include href="./sections/9-206.02.xml"/>
         </container>
+        <prefix>Subchapter</prefix>
       </container>
       <container>
         <num>B</num>
@@ -223,6 +228,7 @@
         <ns0:include href="./sections/9-221.09.xml"/>
         <ns0:include href="./sections/9-221.10.xml"/>
       </container>
+      <prefix>Unit</prefix>
     </container>
     <container>
       <num>3</num>
@@ -254,7 +260,7 @@
       <ns0:include href="./sections/9-325.xml"/>
       <ns0:include href="./sections/9-326.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>4</num>
       <heading>Street Repair and Construction.</heading>
       <container>
@@ -311,7 +317,7 @@
         <ns0:include href="./sections/9-425.02.xml"/>
         <ns0:include href="./sections/9-425.03.xml"/>
       </container>
-      <container childPrefix="Part">
+      <container>
         <num>IV</num>
         <heading>Cutting of Trenches.</heading>
         <container>
@@ -326,6 +332,7 @@
           <ns0:include href="./sections/9-433.01.xml"/>
           <ns0:include href="./sections/9-433.02.xml"/>
         </container>
+        <prefix>Part</prefix>
       </container>
       <container>
         <num>V</num>
@@ -334,6 +341,7 @@
         <ns0:include href="./sections/9-451.02.xml"/>
         <ns0:include href="./sections/9-451.03.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>5</num>
@@ -368,8 +376,9 @@
       <ns0:include href="./sections/9-633.xml"/>
       <ns0:include href="./sections/9-634.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>II</num>
     <heading>Airports.</heading>
     <container>
@@ -445,11 +454,12 @@
       <ns0:include href="./sections/9-1010.xml"/>
       <ns0:include href="./sections/9-1011.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>III</num>
     <heading>National Capital Region Transportation.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>11</num>
       <heading>National Capital Region Transportation.</heading>
       <container>
@@ -562,9 +572,11 @@
         <ns0:include href="./sections/9-1117.04.xml"/>
         <ns0:include href="./sections/9-1117.05.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>IV</num>
     <heading>Miscellaneous.</heading>
     <container>
@@ -590,7 +602,7 @@
       <ns0:include href="./sections/9-1173.xml"/>
       <ns0:include href="./sections/9-1174.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>12</num>
       <heading>Miscellaneous Provisions.</heading>
       <container>
@@ -682,7 +694,7 @@
         <ns0:include href="./sections/9-1215.07.xml"/>
         <ns0:include href="./sections/9-1215.08.xml"/>
       </container>
-      <container childPrefix="Part">
+      <container>
         <num>IX</num>
         <heading>Street Closings and Acquisitions.</heading>
         <container>
@@ -713,8 +725,9 @@
           <ns0:include href="./sections/9-1217.28.xml"/>
           <ns0:include href="./sections/9-1217.29.xml"/>
         </container>
+        <prefix>Part</prefix>
       </container>
-      <container childPrefix="Part">
+      <container>
         <num>X</num>
         <heading>Alleys and Minor Streets.</heading>
         <container>
@@ -757,7 +770,11 @@
           <ns0:include href="./sections/9-1219.40.xml"/>
           <ns0:include href="./sections/9-1219.41.xml"/>
         </container>
+        <prefix>Part</prefix>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
+    <prefix>Chapter</prefix>
   </container>
+  <prefix>Subtitle</prefix>
 </container>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Subtitle">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
   <num>48</num>
   <heading>Foods and Drugs.</heading>
-  <container childPrefix="Chapter">
+  <container>
     <num>I</num>
     <heading>Food.</heading>
     <container>
@@ -58,7 +58,7 @@
       <ns0:include href="./sections/48-502.xml"/>
       <ns0:include href="./sections/48-503.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>6</num>
       <heading>Milk, Cream, and Ice Cream. [Repealed].</heading>
       <container>
@@ -81,9 +81,11 @@
         <ns0:include href="./sections/48-631.xml"/>
         <ns0:include href="./sections/48-632.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>II</num>
     <heading>Prescription Drugs.</heading>
     <container>
@@ -105,7 +107,7 @@
       <ns0:include href="./sections/48-714.xml"/>
       <ns0:include href="./sections/48-715.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>8</num>
       <heading>Prescription Drug Price Information.</heading>
       <container>
@@ -145,11 +147,12 @@
         <heading>Definitions.</heading>
         <ns0:include href="./sections/48-804.51.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>8A</num>
       <heading>Affordability of Prescription Drugs — AccessRx Program.</heading>
-      <container childPrefix="Part">
+      <container>
         <num>I</num>
         <heading>AccessRx.</heading>
         <container>
@@ -193,6 +196,7 @@
           <ns0:include href="./sections/48-831.41.xml"/>
           <ns0:include href="./sections/48-831.42.xml"/>
         </container>
+        <prefix>Part</prefix>
       </container>
       <container>
         <num>II</num>
@@ -214,6 +218,7 @@
         <ns0:include href="./sections/48-833.08.xml"/>
         <ns0:include href="./sections/48-833.09.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>8B</num>
@@ -268,11 +273,12 @@
       <ns0:include href="./sections/48-853.09.xml"/>
       <ns0:include href="./sections/48-853.10.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>III</num>
     <heading>Illegal Drugs.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>9</num>
       <heading>Controlled Substances Act.</heading>
       <container>
@@ -353,13 +359,14 @@
         <ns0:include href="./sections/48-907.02.xml"/>
         <ns0:include href="./sections/48-907.03.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>9A</num>
       <heading>Marijuana Consumption in Public Space.</heading>
       <ns0:include href="./sections/48-911.01.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>9B</num>
       <heading>Controlled Substances Generally.</heading>
       <container>
@@ -375,6 +382,7 @@
         <ns0:include href="./sections/48-931.01.xml"/>
         <ns0:include href="./sections/48-931.02.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>10</num>
@@ -385,7 +393,7 @@
       <ns0:include href="./sections/48-1004.xml"/>
       <ns0:include href="./sections/48-1005.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>11</num>
       <heading>Drug Paraphernalia.</heading>
       <container>
@@ -402,12 +410,14 @@
         <heading>Prohibition on Distribution of Needles and Syringes Near Schools.</heading>
         <ns0:include href="./sections/48-1121.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>IV</num>
     <heading>Marijuana Possession.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>12</num>
       <heading>Marijuana Possession Decriminalization.</heading>
       <container>
@@ -425,6 +435,9 @@
         <ns0:include href="./sections/48-1212.xml"/>
         <ns0:include href="./sections/48-1213.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
+    <prefix>Chapter</prefix>
   </container>
+  <prefix>Subtitle</prefix>
 </container>

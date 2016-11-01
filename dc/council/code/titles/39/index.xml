@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Subtitle">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
   <num>39</num>
   <heading>Libraries and Cultural Institutions.</heading>
-  <container childPrefix="Chapter">
+  <container>
     <num>I</num>
     <heading>Libraries.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>1</num>
       <heading>Public Libraries.</heading>
       <container>
@@ -39,9 +39,11 @@
         <ns0:include href="./sections/39-124.xml"/>
         <ns0:include href="./sections/39-125.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>II</num>
     <heading>Cultural Institutions.</heading>
     <container>
@@ -83,5 +85,7 @@
       <ns0:include href="./sections/39-404.xml"/>
       <ns0:include href="./sections/39-405.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
+  <prefix>Subtitle</prefix>
 </container>
