@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Chapter">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
   <num>51</num>
   <heading>Social Security.</heading>
-  <container childPrefix="Subchapter">
+  <container>
     <num>1</num>
     <heading>Unemployment Compensation.</heading>
-    <container childPrefix="Part">
+    <container>
       <num>I</num>
       <heading>General.</heading>
       <container>
@@ -50,6 +50,7 @@
         <ns0:include href="./sections/51-135.xml"/>
         <ns0:include href="./sections/51-136.xml"/>
       </container>
+      <prefix>Part</prefix>
     </container>
     <container>
       <num>II</num>
@@ -69,5 +70,7 @@
       <ns0:include href="./sections/51-177.xml"/>
       <ns0:include href="./sections/51-178.xml"/>
     </container>
+    <prefix>Subchapter</prefix>
   </container>
+  <prefix>Chapter</prefix>
 </container>

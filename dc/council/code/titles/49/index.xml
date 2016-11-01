@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Subtitle">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
   <num>49</num>
   <heading>Military.</heading>
-  <container childPrefix="Chapter">
+  <container>
     <num>I</num>
     <heading>District of Columbia Military Organization.</heading>
     <container>
@@ -54,7 +54,7 @@
       <ns0:include href="./sections/49-312.xml"/>
       <ns0:include href="./sections/49-313.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>4</num>
       <heading>Composition, Organization, and Control.</heading>
       <container>
@@ -78,6 +78,7 @@
         <ns0:include href="./sections/49-433.xml"/>
         <ns0:include href="./sections/49-434.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>5</num>
@@ -124,8 +125,9 @@
       <ns0:include href="./sections/49-905.xml"/>
       <ns0:include href="./sections/49-906.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>II</num>
     <heading>Office of Veterans Affairs.</heading>
     <container>
@@ -138,8 +140,9 @@
       <ns0:include href="./sections/49-1005.xml"/>
       <ns0:include href="./sections/49-1006.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>III</num>
     <heading>Military Compacts.</heading>
     <container>
@@ -166,5 +169,7 @@
       <ns0:include href="./sections/49-1101.19.xml"/>
       <ns0:include href="./sections/49-1101.20.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
+  <prefix>Subtitle</prefix>
 </container>

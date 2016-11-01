@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Subtitle">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
   <num>42</num>
   <heading>Real Property.</heading>
-  <container childPrefix="Chapter">
+  <container>
     <num>I</num>
     <heading>General.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>1</num>
       <heading>Acknowledgments.</heading>
-      <container childPrefix="Part">
+      <container>
         <num>I</num>
         <heading>General.</heading>
         <container>
@@ -35,6 +35,7 @@
           <ns0:include href="./sections/42-128.xml"/>
           <ns0:include href="./sections/42-129.xml"/>
         </container>
+        <prefix>Part</prefix>
       </container>
       <container>
         <num>II</num>
@@ -48,6 +49,7 @@
         <ns0:include href="./sections/42-147.xml"/>
         <ns0:include href="./sections/42-148.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>2</num>
@@ -163,7 +165,7 @@
       <ns0:include href="./sections/42-819.xml"/>
       <ns0:include href="./sections/42-820.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>8A</num>
       <heading>Mortgages, Deeds of Trust, and Foreclosure. [Repealed].</heading>
       <container>
@@ -346,6 +348,7 @@
         <ns0:include href="./sections/42-846.01.xml"/>
         <ns0:include href="./sections/42-846.02.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>9</num>
@@ -477,11 +480,12 @@
       <ns0:include href="./sections/42-1603.xml"/>
       <ns0:include href="./sections/42-1604.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>II</num>
     <heading>Brokers and Realtors.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>17</num>
       <heading>Real Estate Brokers’ Duties.</heading>
       <container>
@@ -545,17 +549,19 @@
         <ns0:include href="./sections/42-1763.xml"/>
         <ns0:include href="./sections/42-1764.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>18</num>
       <heading>Real Estate Sale or Rent Signs.</heading>
       <ns0:include href="./sections/42-1801.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>III</num>
     <heading>Condominiums.</heading>
-    <container childPrefix="Subchapter">
+    <container>
       <num>19</num>
       <heading>Condominiums.</heading>
       <container>
@@ -651,8 +657,9 @@
         <ns0:include href="./sections/42-1904.17.xml"/>
         <ns0:include href="./sections/42-1904.18.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>20</num>
       <heading>Horizontal Property Regimes.</heading>
       <container>
@@ -695,9 +702,11 @@
         <heading>Council Authority.</heading>
         <ns0:include href="./sections/42-2051.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>IV</num>
     <heading>Housing Enhancement Programs.</heading>
     <container>
@@ -716,7 +725,7 @@
       <ns0:include href="./sections/42-2110.xml"/>
       <ns0:include href="./sections/42-2111.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>21A</num>
       <heading>Housing Affordability.</heading>
       <container>
@@ -741,6 +750,7 @@
         <ns0:include href="./sections/42-2151.01.xml"/>
         <ns0:include href="./sections/42-2151.02.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>22</num>
@@ -753,8 +763,9 @@
       <ns0:include href="./sections/42-2206.xml"/>
       <ns0:include href="./sections/42-2207.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>V</num>
     <heading>Housing Finance and Assistance.</heading>
     <container>
@@ -795,7 +806,7 @@
       <ns0:include href="./sections/42-2506.xml"/>
       <ns0:include href="./sections/42-2507.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>26</num>
       <heading>Home Purchase Assistance Fund.</heading>
       <container>
@@ -817,13 +828,14 @@
         <ns0:include href="./sections/42-2625.xml"/>
         <ns0:include href="./sections/42-2626.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>26A</num>
       <heading>Homeownership Counseling.</heading>
       <ns0:include href="./sections/42-2651.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>27</num>
       <heading>Housing Finance Agency.</heading>
       <container>
@@ -890,8 +902,9 @@
         <ns0:include href="./sections/42-2706.04.xml"/>
         <ns0:include href="./sections/42-2706.05.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>28</num>
       <heading>Housing Production Trust Fund.</heading>
       <container>
@@ -921,6 +934,7 @@
         <ns0:include href="./sections/42-2812.11.xml"/>
         <ns0:include href="./sections/42-2812.12.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>28A</num>
@@ -963,8 +977,9 @@
       <ns0:include href="./sections/42-3001.xml"/>
       <ns0:include href="./sections/42-3002.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>VI</num>
     <heading>Nuisance Property.</heading>
     <container>
@@ -987,7 +1002,7 @@
       <ns0:include href="./sections/42-3113.xml"/>
       <ns0:include href="./sections/42-3114.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>31A</num>
       <heading>Abatement of Nuisance Property.</heading>
       <container>
@@ -1016,6 +1031,7 @@
         <ns0:include href="./sections/42-3131.16.xml"/>
         <ns0:include href="./sections/42-3131.17.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>31A1</num>
@@ -1049,7 +1065,7 @@
       <ns0:include href="./sections/42-3151.12.xml"/>
       <ns0:include href="./sections/42-3151.13.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>31C</num>
       <heading>Quick Acquisition of Abandoned and Nuisance Property.</heading>
       <container>
@@ -1076,9 +1092,11 @@
         <ns0:include href="./sections/42-3173.11.xml"/>
         <ns0:include href="./sections/42-3173.12.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>VII</num>
     <heading>Rental Housing.</heading>
     <container>
@@ -1137,7 +1155,7 @@
       <ns0:include href="./sections/42-3306.xml"/>
       <ns0:include href="./sections/42-3307.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>34</num>
       <heading>Rental Housing Conversion and Sale.</heading>
       <container>
@@ -1226,8 +1244,9 @@
         <ns0:include href="./sections/42-3405.12.xml"/>
         <ns0:include href="./sections/42-3405.13.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>35</num>
       <heading>Rental Housing Generally.</heading>
       <container>
@@ -1338,6 +1357,7 @@
         <ns0:include href="./sections/42-3509.07.xml"/>
         <ns0:include href="./sections/42-3509.08.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>35A</num>
@@ -1353,7 +1373,7 @@
       <ns0:include href="./sections/42-3531.09.xml"/>
       <ns0:include href="./sections/42-3531.10.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>36</num>
       <heading>Residential Drug-Related Evictions.</heading>
       <container>
@@ -1384,6 +1404,7 @@
         <ns0:include href="./sections/42-3639.xml"/>
         <ns0:include href="./sections/42-3640.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
     <container>
       <num>36A</num>
@@ -1397,8 +1418,9 @@
       <ns0:include href="./sections/42-3651.07.xml"/>
       <ns0:include href="./sections/42-3651.08.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>VII-A</num>
     <heading>Personal Property.</heading>
     <container>
@@ -1419,8 +1441,9 @@
       <ns0:include href="./sections/42-3671.13.xml"/>
       <ns0:include href="./sections/42-3671.14.xml"/>
     </container>
+    <prefix>Chapter</prefix>
   </container>
-  <container childPrefix="Chapter">
+  <container>
     <num>VIII</num>
     <heading>Repealed and Expired Provisions.</heading>
     <container>
@@ -1480,7 +1503,7 @@
       <ns0:include href="./sections/42-3931.xml"/>
       <ns0:include href="./sections/42-3932.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
       <num>40</num>
       <heading>Rent Control. [Repealed].</heading>
       <container>
@@ -1566,6 +1589,9 @@
         <ns0:include href="./sections/42-4096.xml"/>
         <ns0:include href="./sections/42-4097.xml"/>
       </container>
+      <prefix>Subchapter</prefix>
     </container>
+    <prefix>Chapter</prefix>
   </container>
+  <prefix>Subtitle</prefix>
 </container>
