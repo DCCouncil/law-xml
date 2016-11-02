@@ -1,11 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Subtitle">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <prefix>Title</prefix>
   <num>10</num>
   <heading>Parks, Public Buildings, Grounds, and Space.</heading>
-  <container childPrefix="Chapter">
+  <container>
+    <prefix>Subtitle</prefix>
     <num>I</num>
     <heading>Parks and Playgrounds.</heading>
     <container>
+      <prefix>Chapter</prefix>
       <num>1</num>
       <heading>General Provisions.</heading>
       <ns0:include href="./sections/10-101.xml"/>
@@ -79,10 +82,12 @@
       <ns0:include href="./sections/10-166.01.xml"/>
       <ns0:include href="./sections/10-167.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
+      <prefix>Chapter</prefix>
       <num>2</num>
       <heading>Recreation Board.</heading>
       <container>
+        <prefix>Subchapter</prefix>
         <num>I</num>
         <heading>Membership of the Recreation Board.</heading>
         <ns0:include href="./sections/10-201.xml"/>
@@ -94,6 +99,7 @@
         <ns0:include href="./sections/10-207.xml"/>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>II</num>
         <heading>Functions and Administrative Responsibilities.</heading>
         <ns0:include href="./sections/10-211.xml"/>
@@ -104,6 +110,7 @@
         <ns0:include href="./sections/10-215.xml"/>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>III</num>
         <heading>Relationship to Other Agencies.</heading>
         <ns0:include href="./sections/10-221.xml"/>
@@ -115,6 +122,7 @@
       </container>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>3</num>
       <heading>Fundraising for Recreational Facilities.</heading>
       <ns0:include href="./sections/10-301.xml"/>
@@ -130,6 +138,7 @@
       <ns0:include href="./sections/10-308.xml"/>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>4</num>
       <heading>Recreation Volunteer Background Check and Screening. [Repealed].</heading>
       <ns0:include href="./sections/10-401.xml"/>
@@ -147,13 +156,16 @@
       <ns0:include href="./sections/10-413.xml"/>
     </container>
   </container>
-  <container childPrefix="Chapter">
+  <container>
+    <prefix>Subtitle</prefix>
     <num>II</num>
     <heading>Public Buildings and Grounds.</heading>
-    <container childPrefix="Subchapter">
+    <container>
+      <prefix>Chapter</prefix>
       <num>5</num>
       <heading>Regulatory Provisions.</heading>
       <container>
+        <prefix>Subchapter</prefix>
         <num>I</num>
         <heading>Wharf Property.</heading>
         <ns0:include href="./sections/10-501.01.xml"/>
@@ -161,16 +173,19 @@
         <ns0:include href="./sections/10-501.03.xml"/>
         <ns0:include href="./sections/10-501.04.xml"/>
       </container>
-      <container childPrefix="Part">
+      <container>
+        <prefix>Subchapter</prefix>
         <num>II</num>
         <heading>Capitol Grounds.</heading>
         <container>
+          <prefix>Part</prefix>
           <num>A</num>
           <heading>Authority to Make Regulations; Duty of Capitol Police.</heading>
           <ns0:include href="./sections/10-503.01.xml"/>
           <ns0:include href="./sections/10-503.02.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>B</num>
           <heading>General.</heading>
           <ns0:include href="./sections/10-503.11.xml"/>
@@ -191,15 +206,18 @@
           <ns0:include href="./sections/10-503.26.xml"/>
         </container>
       </container>
-      <container childPrefix="Part">
+      <container>
+        <prefix>Subchapter</prefix>
         <num>III</num>
         <heading>Details and Transfers from MPD to Capitol Police.</heading>
         <container>
+          <prefix>Part</prefix>
           <num>A</num>
           <heading>Details.</heading>
           <ns0:include href="./sections/10-505.01.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>B</num>
           <heading>Transfers.</heading>
           <ns0:include href="./sections/10-505.02.xml"/>
@@ -211,11 +229,13 @@
         </container>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>IV</num>
         <heading>Control of District Buildings.</heading>
         <ns0:include href="./sections/10-507.01.xml"/>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>V</num>
         <heading>Protection of Property Outside of District.</heading>
         <ns0:include href="./sections/10-509.01.xml"/>
@@ -226,6 +246,7 @@
         <ns0:include href="./sections/10-509.05.xml"/>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>VI</num>
         <heading>Capitol Grounds and Botanic Garden Tunnel.</heading>
         <ns0:include href="./sections/10-511.01.xml"/>
@@ -237,12 +258,14 @@
         <ns0:include href="./sections/10-511.07.xml"/>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>VII</num>
         <heading>Federal Activities Affecting District Property.</heading>
         <ns0:include href="./sections/10-513.01.xml"/>
       </container>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>5A</num>
       <heading>Department of General Services.</heading>
       <ns0:include href="./sections/10-551.01.xml"/>
@@ -259,6 +282,7 @@
       <ns0:include href="./sections/10-551.10.xml"/>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>6</num>
       <heading>Construction of Public Buildings.</heading>
       <ns0:include href="./sections/10-601.xml"/>
@@ -283,6 +307,7 @@
       <ns0:include href="./sections/10-620.xml"/>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>7</num>
       <heading>Repairs and Improvements of Public Buildings.</heading>
       <ns0:include href="./sections/10-701.xml"/>
@@ -290,14 +315,17 @@
       <ns0:include href="./sections/10-703.xml"/>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>7A</num>
       <heading>Removal of Trees on the Public Land.</heading>
       <ns0:include href="./sections/10-731.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
+      <prefix>Chapter</prefix>
       <num>8</num>
       <heading>Sale of Public Lands.</heading>
       <container>
+        <prefix>Subchapter</prefix>
         <num>I</num>
         <heading>General.</heading>
         <ns0:include href="./sections/10-801.xml"/>
@@ -311,6 +339,7 @@
         <ns0:include href="./sections/10-807.xml"/>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>II</num>
         <heading>Special Disposal Procedures for Certain Properties.</heading>
         <ns0:include href="./sections/10-831.xml"/>
@@ -325,6 +354,7 @@
       </container>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>9</num>
       <heading>Exchange of District-Owned Land.</heading>
       <ns0:include href="./sections/10-901.xml"/>
@@ -333,6 +363,7 @@
       <ns0:include href="./sections/10-904.xml"/>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>10</num>
       <heading>Department of Real Estate Services. [Repealed].</heading>
       <ns0:include href="./sections/10-1001.xml"/>
@@ -357,22 +388,27 @@
       <ns0:include href="./sections/10-1018.xml"/>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>10A</num>
       <heading>District Facilities Planning Advisory Committee.</heading>
       <ns0:include href="./sections/10-1031.xml"/>
       <ns0:include href="./sections/10-1032.xml"/>
     </container>
   </container>
-  <container childPrefix="Chapter">
+  <container>
+    <prefix>Subtitle</prefix>
     <num>III</num>
     <heading>Use of Public Space.</heading>
-    <container childPrefix="Subchapter">
+    <container>
+      <prefix>Chapter</prefix>
       <num>11</num>
       <heading>Rental and Utilization of Public Space.</heading>
-      <container childPrefix="Part">
+      <container>
+        <prefix>Subchapter</prefix>
         <num>I</num>
         <heading>General.</heading>
         <container>
+          <prefix>Part</prefix>
           <num>A</num>
           <heading>Definitions; Assessment of Government Rent; Minor Uses.</heading>
           <ns0:include href="./sections/10-1101.01.xml"/>
@@ -380,6 +416,7 @@
           <ns0:include href="./sections/10-1101.03.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>B</num>
           <heading>Rental of Public Space on or Above Surface of Ground.</heading>
           <ns0:include href="./sections/10-1102.01.xml"/>
@@ -389,6 +426,7 @@
           <ns0:include href="./sections/10-1102.03.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>C</num>
           <heading>Rental of Subsurface Space.</heading>
           <ns0:include href="./sections/10-1103.01.xml"/>
@@ -405,6 +443,7 @@
           <ns0:include href="./sections/10-1103.10.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>D</num>
           <heading>General.</heading>
           <ns0:include href="./sections/10-1104.01.xml"/>
@@ -419,6 +458,7 @@
         </container>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>II</num>
         <heading>Rental of Airspace.</heading>
         <ns0:include href="./sections/10-1121.01.xml"/>
@@ -436,6 +476,7 @@
         <ns0:include href="./sections/10-1121.13.xml"/>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>III</num>
         <heading>Rental of Public Structures in Public Space.</heading>
         <ns0:include href="./sections/10-1141.01.xml"/>
@@ -450,6 +491,7 @@
       </container>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>11A</num>
       <heading>Abatement of Dangerous Conditions on Public Space.</heading>
       <ns0:include href="./sections/10-1181.01.xml"/>
@@ -461,21 +503,26 @@
       <ns0:include href="./sections/10-1181.07.xml"/>
     </container>
   </container>
-  <container childPrefix="Chapter">
+  <container>
+    <prefix>Subtitle</prefix>
     <num>IV</num>
     <heading>Specific Locales.</heading>
-    <container childPrefix="Subchapter">
+    <container>
+      <prefix>Chapter</prefix>
       <num>12</num>
       <heading>Washington Convention and Sports Authority.</heading>
-      <container childPrefix="Part">
+      <container>
+        <prefix>Subchapter</prefix>
         <num>I</num>
         <heading>General Provisions.</heading>
         <container>
+          <prefix>Part</prefix>
           <num>A</num>
           <heading>Declaration of Policy.</heading>
           <ns0:include href="./sections/10-1201.01.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>B</num>
           <heading>General Provisions.</heading>
           <ns0:include href="./sections/10-1202.01.xml"/>
@@ -506,6 +553,7 @@
           <ns0:include href="./sections/10-1202.18.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>C</num>
           <heading>Land Lease Authority for Hotel.</heading>
           <ns0:include href="./sections/10-1202.21.xml"/>
@@ -516,6 +564,7 @@
           <ns0:include href="./sections/10-1202.24.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>D</num>
           <heading>Eminent Domain for Hotel.</heading>
           <ns0:include href="./sections/10-1202.31.xml"/>
@@ -523,6 +572,7 @@
           <ns0:include href="./sections/10-1202.33.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>D-i</num>
           <heading>Construction of the Convention Center Hotel.</heading>
           <ns0:include href="./sections/10-1202.41.xml"/>
@@ -531,6 +581,7 @@
           <ns0:include href="./sections/10-1202.44.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>E</num>
           <heading>Miscellaneous.</heading>
           <ns0:include href="./sections/10-1203.01.xml"/>
@@ -553,6 +604,7 @@
         </container>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>II</num>
         <heading>New Convention Center Hotel Financing.</heading>
         <ns0:include href="./sections/10-1221.01.xml"/>
@@ -571,16 +623,19 @@
         <ns0:include href="./sections/10-1221.14.xml"/>
         <ns0:include href="./sections/10-1221.15.xml"/>
       </container>
-      <container childPrefix="Part">
+      <container>
+        <prefix>Subchapter</prefix>
         <num>III</num>
         <heading>Washington Convention Center Board of Directors.</heading>
         <container>
+          <prefix>Part</prefix>
           <num>A</num>
           <heading>General.</heading>
           <ns0:include href="./sections/10-1271.xml"/>
           <ns0:include href="./sections/10-1272.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>B</num>
           <heading>Repealed Provisions.</heading>
           <ns0:include href="./sections/10-1273.xml"/>
@@ -594,16 +649,19 @@
         </container>
       </container>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
+      <prefix>Chapter</prefix>
       <num>13</num>
       <heading>John A. Wilson Building.</heading>
       <container>
+        <prefix>Subchapter</prefix>
         <num>I</num>
         <heading>John A. Wilson Building Designation.</heading>
         <ns0:include href="./sections/10-1301.xml"/>
         <ns0:include href="./sections/10-1302.xml"/>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>II</num>
         <heading>John A. Wilson Building Foundation.</heading>
         <ns0:include href="./sections/10-1331.xml"/>
@@ -614,10 +672,12 @@
         <ns0:include href="./sections/10-1336.xml"/>
       </container>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
+      <prefix>Chapter</prefix>
       <num>14</num>
       <heading>National Children’s Island.</heading>
       <container>
+        <prefix>Subchapter</prefix>
         <num>I</num>
         <heading>General.</heading>
         <ns0:include href="./sections/10-1401.xml"/>
@@ -628,6 +688,7 @@
         <ns0:include href="./sections/10-1406.xml"/>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>II</num>
         <heading>Children’s Island Development Plan.</heading>
         <ns0:include href="./sections/10-1431.xml"/>
@@ -635,6 +696,7 @@
       </container>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>15</num>
       <heading>Reservation 13.</heading>
       <ns0:include href="./sections/10-1501.xml"/>
@@ -643,13 +705,16 @@
       <ns0:include href="./sections/10-1504.xml"/>
       <ns0:include href="./sections/10-1505.xml"/>
     </container>
-    <container childPrefix="Subchapter">
+    <container>
+      <prefix>Chapter</prefix>
       <num>16</num>
       <heading>Ballpark Development.</heading>
-      <container childPrefix="Part">
+      <container>
+        <prefix>Subchapter</prefix>
         <num>I</num>
         <heading>Construction of Ballpark.</heading>
         <container>
+          <prefix>Part</prefix>
           <num>A</num>
           <heading>General.</heading>
           <ns0:include href="./sections/10-1601.01.xml"/>
@@ -662,6 +727,7 @@
           <ns0:include href="./sections/10-1601.08.xml"/>
         </container>
         <container>
+          <prefix>Part</prefix>
           <num>B</num>
           <heading>Ballpark Construction Hard and Soft Costs Cap.</heading>
           <ns0:include href="./sections/10-1601.31.xml"/>
@@ -671,6 +737,7 @@
         </container>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>II</num>
         <heading>Community Benefit Fund Associated with Ballpark.</heading>
         <ns0:include href="./sections/10-1602.01.xml"/>
@@ -679,6 +746,7 @@
         <ns0:include href="./sections/10-1602.04.xml"/>
       </container>
       <container>
+        <prefix>Subchapter</prefix>
         <num>III</num>
         <heading>Soccer Stadium Development.</heading>
         <ns0:include href="./sections/10-1603.01.xml"/>
@@ -692,11 +760,13 @@
       </container>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>17</num>
       <heading>Wilson Building and Baseball Stadium Message Boards.</heading>
       <ns0:include href="./sections/10-1701.xml"/>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>18</num>
       <heading>Waterfront Park at the Yards.</heading>
       <ns0:include href="./sections/10-1801.xml"/>
@@ -706,6 +776,7 @@
       <ns0:include href="./sections/10-1805.xml"/>
     </container>
     <container>
+      <prefix>Chapter</prefix>
       <num>19</num>
       <heading>Walter Reed Army Medical Center.</heading>
       <ns0:include href="./sections/10-1901.xml"/>
