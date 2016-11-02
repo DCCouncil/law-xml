@@ -27,7 +27,7 @@ before_build:
   - ps: Invoke-WebRequest "$($dl_link)?access_token=$($env:access_token)" -OutFile xcore.zip -Headers @{"Accept"="application/octet-stream"}
   - 7z e xcore.zip -oxcore
   # run the tests here (instead of AppVeyor's "test" phase, which runs *after* the "build" phase)
-  - xcore\app ..\dc-law-xml
+  - xcore\console ..\dc-law-xml
   # now install the HTML files and tools prior to building the HTML
   - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-html.git ..\dc-law-html
   - git clone --depth 1 git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
