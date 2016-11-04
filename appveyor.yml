@@ -9,6 +9,8 @@ environment:
     secure: Li8PQF3m/bb71zN1Ud8Cocb4fs83pgZZVPuOvX93DJUGG5PuF/4NvRUEvjdBM1cK
 
 init:
+  # exit if secure variables are unset (saves time if fired by a non-team pull request)
+  - ps: if ($env:deploy_key -eq $null) { exit }
   - git config --global user.name oll-bot
   - git config --global user.email developers@openlawlib.org
 
