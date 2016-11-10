@@ -1,11 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<container xmlns:ns0="http://www.w3.org/2001/XInclude" childPrefix="Chapter">
+<container xmlns:ns0="http://www.w3.org/2001/XInclude">
+  <prefix>Title</prefix>
   <num>2</num>
   <heading>Government Administration.</heading>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>1</num>
     <heading>Inspections.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>Steam Boilers.</heading>
       <ns0:include href="./sections/2-101.xml"/>
@@ -28,6 +31,7 @@
       <ns0:include href="./sections/2-118.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Inspectors Generally.</heading>
       <ns0:include href="./sections/2-131.xml"/>
@@ -42,13 +46,16 @@
       <ns0:include href="./sections/2-140.xml"/>
     </container>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>2</num>
     <heading>Contracts.</heading>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>Bonding Requirement.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>General.</heading>
         <ns0:include href="./sections/2-201.01.xml"/>
@@ -56,29 +63,34 @@
         <ns0:include href="./sections/2-201.03.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Contracts Less Than a Certain Amount.</heading>
         <ns0:include href="./sections/2-201.11.xml"/>
       </container>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Retents.</heading>
       <ns0:include href="./sections/2-203.01.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III</num>
       <heading>Government Insurance.</heading>
       <ns0:include href="./sections/2-205.01.xml"/>
       <ns0:include href="./sections/2-205.02.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IV</num>
       <heading>Sewerage Agreements.</heading>
       <ns0:include href="./sections/2-207.01.xml"/>
       <ns0:include href="./sections/2-207.02.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>V</num>
       <heading>Reciprocal Police Mutual Aid Agreements.</heading>
       <ns0:include href="./sections/2-209.01.xml"/>
@@ -87,6 +99,7 @@
       <ns0:include href="./sections/2-209.04.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>VI</num>
       <heading>Pay-for-Success Contract Authorization.</heading>
       <ns0:include href="./sections/2-211.01.xml"/>
@@ -94,6 +107,7 @@
       <ns0:include href="./sections/2-211.03.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>VII</num>
       <heading>Automated Data Processing.</heading>
       <ns0:include href="./sections/2-213.01.xml"/>
@@ -101,12 +115,14 @@
       <ns0:include href="./sections/2-213.03.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>VII-A</num>
       <heading>Minority and Women-Owned Business Assessment.</heading>
       <ns0:include href="./sections/2-214.01.xml"/>
       <ns0:include href="./sections/2-214.02.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>VIII</num>
       <heading>Local Business Opportunity.</heading>
       <ns0:include href="./sections/2-215.01.xml"/>
@@ -123,6 +139,7 @@
       <ns0:include href="./sections/2-215.11.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IX</num>
       <heading>Equal Opportunity for Local, Small, and Disadvantaged Business Enterprises. [Repealed].</heading>
       <ns0:include href="./sections/2-217.01.xml"/>
@@ -133,16 +150,19 @@
       <ns0:include href="./sections/2-217.06.xml"/>
       <ns0:include href="./sections/2-217.07.xml"/>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>IX-A</num>
       <heading>Small and Local Business Enterprise Development and Assistance.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>Short Title and Definitions.</heading>
         <ns0:include href="./sections/2-218.01.xml"/>
         <ns0:include href="./sections/2-218.02.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Department of Small and Local Business Development.</heading>
         <ns0:include href="./sections/2-218.11.xml"/>
@@ -151,6 +171,7 @@
         <ns0:include href="./sections/2-218.14.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>C</num>
         <heading>District of Columbia Small and Local Business Opportunity Commission.</heading>
         <ns0:include href="./sections/2-218.21.xml"/>
@@ -159,10 +180,12 @@
         <ns0:include href="./sections/2-218.24.xml"/>
         <ns0:include href="./sections/2-218.25.xml"/>
       </container>
-      <container childPrefix="Subpart">
+      <container>
+        <prefix>Part</prefix>
         <num>D</num>
         <heading>Programs for Certified Business Enterprises.</heading>
         <container>
+          <prefix>Subpart</prefix>
           <num>1</num>
           <heading>Certified business enterprises.</heading>
           <ns0:include href="./sections/2-218.31.xml"/>
@@ -177,6 +200,7 @@
           <ns0:include href="./sections/2-218.39a.xml"/>
         </container>
         <container>
+          <prefix>Subpart</prefix>
           <num>2</num>
           <heading>Requirements of programs.</heading>
           <ns0:include href="./sections/2-218.41.xml"/>
@@ -198,6 +222,7 @@
           <ns0:include href="./sections/2-218.55.xml"/>
         </container>
         <container>
+          <prefix>Subpart</prefix>
           <num>3</num>
           <heading>Certification.</heading>
           <ns0:include href="./sections/2-218.61.xml"/>
@@ -207,6 +232,7 @@
           <ns0:include href="./sections/2-218.65.xml"/>
         </container>
         <container>
+          <prefix>Subpart</prefix>
           <num>3A</num>
           <heading>Stabilization and Job Creation Strategy.</heading>
           <ns0:include href="./sections/2-218.66.xml"/>
@@ -215,12 +241,14 @@
           <ns0:include href="./sections/2-218.69.xml"/>
         </container>
         <container>
+          <prefix>Subpart</prefix>
           <num>4</num>
           <heading>Triennial review and rulemaking.</heading>
           <ns0:include href="./sections/2-218.71.xml"/>
           <ns0:include href="./sections/2-218.72.xml"/>
         </container>
         <container>
+          <prefix>Subpart</prefix>
           <num>5</num>
           <heading>Financial Assistance.</heading>
           <ns0:include href="./sections/2-218.75.xml"/>
@@ -228,16 +256,19 @@
         </container>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>E</num>
         <heading>Repealers.</heading>
         <ns0:include href="./sections/2-218.81.xml"/>
         <ns0:include href="./sections/2-218.82.xml"/>
       </container>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>X</num>
       <heading>First Source Employment.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>General.</heading>
         <ns0:include href="./sections/2-219.01.xml"/>
@@ -251,6 +282,7 @@
         <ns0:include href="./sections/2-219.05.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>First Source Compliance.</heading>
         <ns0:include href="./sections/2-219.31.xml"/>
@@ -260,6 +292,7 @@
         <ns0:include href="./sections/2-219.35.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>C</num>
         <heading>Stimulus Accountability.</heading>
         <ns0:include href="./sections/2-219.51.xml"/>
@@ -267,6 +300,7 @@
       </container>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>X-A</num>
       <heading>Living Wage Requirements.</heading>
       <ns0:include href="./sections/2-220.01.xml"/>
@@ -282,6 +316,7 @@
       <ns0:include href="./sections/2-220.11.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>XI</num>
       <heading>Quick Payment Provisions.</heading>
       <ns0:include href="./sections/2-221.01.xml"/>
@@ -292,6 +327,7 @@
       <ns0:include href="./sections/2-221.06.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>XII</num>
       <heading>Employees of District Contractors and Instrumentality Whistleblower Protection.</heading>
       <ns0:include href="./sections/2-223.01.xml"/>
@@ -302,10 +338,12 @@
       <ns0:include href="./sections/2-223.06.xml"/>
       <ns0:include href="./sections/2-223.07.xml"/>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>XIII</num>
       <heading>Repealed and Expired Provisions.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>General.</heading>
         <ns0:include href="./sections/2-225.01.xml"/>
@@ -326,6 +364,7 @@
         <ns0:include href="./sections/2-225.16.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Equal Opportunity for Local, Small, and Disadvantaged Business Enterprises.</heading>
         <ns0:include href="./sections/2-225.21.xml"/>
@@ -338,15 +377,18 @@
       </container>
     </container>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>2A</num>
     <heading>Public-Private Partnerships.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>Definitions.</heading>
       <ns0:include href="./sections/2-271.01.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Establishment of the Office of Public-Private Partnerships.</heading>
       <ns0:include href="./sections/2-272.01.xml"/>
@@ -355,6 +397,7 @@
       <ns0:include href="./sections/2-272.04.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III</num>
       <heading>Procurement of Public-Private Partnerships.</heading>
       <ns0:include href="./sections/2-273.01.xml"/>
@@ -368,222 +411,240 @@
       <ns0:include href="./sections/2-273.09.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IV</num>
       <heading>Rules.</heading>
       <ns0:include href="./sections/2-274.01.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>V</num>
       <heading>Applicability; Construction.</heading>
       <ns0:include href="./sections/2-275.01.xml"/>
     </container>
   </container>
-  <container childPrefix="Unit">
+  <container>
+    <prefix>Chapter</prefix>
     <num>3</num>
     <heading>Procurement.</heading>
-    <container childPrefix="Subchapter">
-      <num>A</num>
-      <heading>Procurement Practices for the District Government.</heading>
+    <subheading>Unit A. Procurement Practices for the District Government.</subheading>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>I</num>
+      <heading>General.</heading>
+      <ns0:include href="./sections/2-301.01.xml"/>
+      <ns0:include href="./sections/2-301.02.xml"/>
+      <ns0:include href="./sections/2-301.03.xml"/>
+      <ns0:include href="./sections/2-301.04.xml"/>
+      <ns0:include href="./sections/2-301.05.xml"/>
+      <ns0:include href="./sections/2-301.05a.xml"/>
+      <ns0:include href="./sections/2-301.05b.xml"/>
+      <ns0:include href="./sections/2-301.05c.xml"/>
+      <ns0:include href="./sections/2-301.05d.xml"/>
+      <ns0:include href="./sections/2-301.05e.xml"/>
+      <ns0:include href="./sections/2-301.05f.xml"/>
+      <ns0:include href="./sections/2-301.06.xml"/>
+      <ns0:include href="./sections/2-301.07.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>II</num>
+      <heading>Procurement Organization.</heading>
+      <ns0:include href="./sections/2-302.01.xml"/>
+      <ns0:include href="./sections/2-302.02.xml"/>
+      <ns0:include href="./sections/2-302.03.xml"/>
+      <ns0:include href="./sections/2-302.04.xml"/>
+      <ns0:include href="./sections/2-302.05.xml"/>
+      <ns0:include href="./sections/2-302.06.xml"/>
+      <ns0:include href="./sections/2-302.07.xml"/>
+      <ns0:include href="./sections/2-302.08.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>III</num>
+      <heading>Source Selection and Contract Formation.</heading>
+      <ns0:include href="./sections/2-303.01.xml"/>
+      <ns0:include href="./sections/2-303.02.xml"/>
+      <ns0:include href="./sections/2-303.03.xml"/>
+      <ns0:include href="./sections/2-303.04.xml"/>
+      <ns0:include href="./sections/2-303.05.xml"/>
+      <ns0:include href="./sections/2-303.06.xml"/>
+      <ns0:include href="./sections/2-303.06a.xml"/>
+      <ns0:include href="./sections/2-303.07.xml"/>
+      <ns0:include href="./sections/2-303.07a.xml"/>
+      <ns0:include href="./sections/2-303.08.xml"/>
+      <ns0:include href="./sections/2-303.09.xml"/>
+      <ns0:include href="./sections/2-303.10.xml"/>
+      <ns0:include href="./sections/2-303.11.xml"/>
+      <ns0:include href="./sections/2-303.12.xml"/>
+      <ns0:include href="./sections/2-303.13.xml"/>
+      <ns0:include href="./sections/2-303.14.xml"/>
+      <ns0:include href="./sections/2-303.15.xml"/>
+      <ns0:include href="./sections/2-303.16.xml"/>
+      <ns0:include href="./sections/2-303.17.xml"/>
+      <ns0:include href="./sections/2-303.18.xml"/>
+      <ns0:include href="./sections/2-303.19.xml"/>
+      <ns0:include href="./sections/2-303.19a.xml"/>
+      <ns0:include href="./sections/2-303.20.xml"/>
+      <ns0:include href="./sections/2-303.21.xml"/>
+      <ns0:include href="./sections/2-303.22.xml"/>
+      <ns0:include href="./sections/2-303.23.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>IV</num>
+      <heading>Specifications.</heading>
+      <ns0:include href="./sections/2-304.01.xml"/>
+      <ns0:include href="./sections/2-304.02.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>V</num>
+      <heading>Bonds and Construction Procurement.</heading>
+      <ns0:include href="./sections/2-305.01.xml"/>
+      <ns0:include href="./sections/2-305.02.xml"/>
+      <ns0:include href="./sections/2-305.03.xml"/>
+      <ns0:include href="./sections/2-305.04.xml"/>
+      <ns0:include href="./sections/2-305.05.xml"/>
+      <ns0:include href="./sections/2-305.06.xml"/>
+      <ns0:include href="./sections/2-305.07.xml"/>
+      <ns0:include href="./sections/2-305.08.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>VI</num>
+      <heading>Cost Principles.</heading>
+      <ns0:include href="./sections/2-306.01.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>VII</num>
+      <heading>Supply Management.</heading>
+      <ns0:include href="./sections/2-307.01.xml"/>
+      <ns0:include href="./sections/2-307.02.xml"/>
+      <ns0:include href="./sections/2-307.03.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>VIII</num>
+      <heading>Administrative and Civil Remedies.</heading>
       <container>
-        <num>I</num>
-        <heading>General.</heading>
-        <ns0:include href="./sections/2-301.01.xml"/>
-        <ns0:include href="./sections/2-301.02.xml"/>
-        <ns0:include href="./sections/2-301.03.xml"/>
-        <ns0:include href="./sections/2-301.04.xml"/>
-        <ns0:include href="./sections/2-301.05.xml"/>
-        <ns0:include href="./sections/2-301.05a.xml"/>
-        <ns0:include href="./sections/2-301.05b.xml"/>
-        <ns0:include href="./sections/2-301.05c.xml"/>
-        <ns0:include href="./sections/2-301.05d.xml"/>
-        <ns0:include href="./sections/2-301.05e.xml"/>
-        <ns0:include href="./sections/2-301.05f.xml"/>
-        <ns0:include href="./sections/2-301.06.xml"/>
-        <ns0:include href="./sections/2-301.07.xml"/>
-      </container>
-      <container>
-        <num>II</num>
-        <heading>Procurement Organization.</heading>
-        <ns0:include href="./sections/2-302.01.xml"/>
-        <ns0:include href="./sections/2-302.02.xml"/>
-        <ns0:include href="./sections/2-302.03.xml"/>
-        <ns0:include href="./sections/2-302.04.xml"/>
-        <ns0:include href="./sections/2-302.05.xml"/>
-        <ns0:include href="./sections/2-302.06.xml"/>
-        <ns0:include href="./sections/2-302.07.xml"/>
-        <ns0:include href="./sections/2-302.08.xml"/>
-      </container>
-      <container>
-        <num>III</num>
-        <heading>Source Selection and Contract Formation.</heading>
-        <ns0:include href="./sections/2-303.01.xml"/>
-        <ns0:include href="./sections/2-303.02.xml"/>
-        <ns0:include href="./sections/2-303.03.xml"/>
-        <ns0:include href="./sections/2-303.04.xml"/>
-        <ns0:include href="./sections/2-303.05.xml"/>
-        <ns0:include href="./sections/2-303.06.xml"/>
-        <ns0:include href="./sections/2-303.06a.xml"/>
-        <ns0:include href="./sections/2-303.07.xml"/>
-        <ns0:include href="./sections/2-303.07a.xml"/>
-        <ns0:include href="./sections/2-303.08.xml"/>
-        <ns0:include href="./sections/2-303.09.xml"/>
-        <ns0:include href="./sections/2-303.10.xml"/>
-        <ns0:include href="./sections/2-303.11.xml"/>
-        <ns0:include href="./sections/2-303.12.xml"/>
-        <ns0:include href="./sections/2-303.13.xml"/>
-        <ns0:include href="./sections/2-303.14.xml"/>
-        <ns0:include href="./sections/2-303.15.xml"/>
-        <ns0:include href="./sections/2-303.16.xml"/>
-        <ns0:include href="./sections/2-303.17.xml"/>
-        <ns0:include href="./sections/2-303.18.xml"/>
-        <ns0:include href="./sections/2-303.19.xml"/>
-        <ns0:include href="./sections/2-303.19a.xml"/>
-        <ns0:include href="./sections/2-303.20.xml"/>
-        <ns0:include href="./sections/2-303.21.xml"/>
-        <ns0:include href="./sections/2-303.22.xml"/>
-        <ns0:include href="./sections/2-303.23.xml"/>
-      </container>
-      <container>
-        <num>IV</num>
-        <heading>Specifications.</heading>
-        <ns0:include href="./sections/2-304.01.xml"/>
-        <ns0:include href="./sections/2-304.02.xml"/>
-      </container>
-      <container>
-        <num>V</num>
-        <heading>Bonds and Construction Procurement.</heading>
-        <ns0:include href="./sections/2-305.01.xml"/>
-        <ns0:include href="./sections/2-305.02.xml"/>
-        <ns0:include href="./sections/2-305.03.xml"/>
-        <ns0:include href="./sections/2-305.04.xml"/>
-        <ns0:include href="./sections/2-305.05.xml"/>
-        <ns0:include href="./sections/2-305.06.xml"/>
-        <ns0:include href="./sections/2-305.07.xml"/>
-        <ns0:include href="./sections/2-305.08.xml"/>
-      </container>
-      <container>
-        <num>VI</num>
-        <heading>Cost Principles.</heading>
-        <ns0:include href="./sections/2-306.01.xml"/>
-      </container>
-      <container>
-        <num>VII</num>
-        <heading>Supply Management.</heading>
-        <ns0:include href="./sections/2-307.01.xml"/>
-        <ns0:include href="./sections/2-307.02.xml"/>
-        <ns0:include href="./sections/2-307.03.xml"/>
-      </container>
-      <container childPrefix="Part">
-        <num>VIII</num>
-        <heading>Administrative and Civil Remedies.</heading>
-        <container>
-          <num>A</num>
-          <heading>General Provisions.</heading>
-          <ns0:include href="./sections/2-308.01.xml"/>
-          <ns0:include href="./sections/2-308.02.xml"/>
-          <ns0:include href="./sections/2-308.03.xml"/>
-          <ns0:include href="./sections/2-308.04.xml"/>
-          <ns0:include href="./sections/2-308.05.xml"/>
-          <ns0:include href="./sections/2-308.06.xml"/>
-        </container>
-        <container>
-          <num>B</num>
-          <heading>Procurement Related Claims.</heading>
-          <ns0:include href="./sections/2-308.07.xml"/>
-          <ns0:include href="./sections/2-308.08.xml"/>
-          <ns0:include href="./sections/2-308.09.xml"/>
-          <ns0:include href="./sections/2-308.10.xml"/>
-          <ns0:include href="./sections/2-308.11.xml"/>
-          <ns0:include href="./sections/2-308.12.xml"/>
-          <ns0:include href="./sections/2-308.13.xml"/>
-          <ns0:include href="./sections/2-308.14.xml"/>
-          <ns0:include href="./sections/2-308.15.xml"/>
-          <ns0:include href="./sections/2-308.16.xml"/>
-          <ns0:include href="./sections/2-308.17.xml"/>
-          <ns0:include href="./sections/2-308.18.xml"/>
-          <ns0:include href="./sections/2-308.19.xml"/>
-          <ns0:include href="./sections/2-308.20.xml"/>
-          <ns0:include href="./sections/2-308.21.xml"/>
-        </container>
+        <prefix>Part</prefix>
+        <num>A</num>
+        <heading>General Provisions.</heading>
+        <ns0:include href="./sections/2-308.01.xml"/>
+        <ns0:include href="./sections/2-308.02.xml"/>
+        <ns0:include href="./sections/2-308.03.xml"/>
+        <ns0:include href="./sections/2-308.04.xml"/>
+        <ns0:include href="./sections/2-308.05.xml"/>
+        <ns0:include href="./sections/2-308.06.xml"/>
       </container>
       <container>
-        <num>IX</num>
-        <heading>Contract Appeals Board.</heading>
-        <ns0:include href="./sections/2-309.01.xml"/>
-        <ns0:include href="./sections/2-309.02.xml"/>
-        <ns0:include href="./sections/2-309.03.xml"/>
-        <ns0:include href="./sections/2-309.04.xml"/>
-        <ns0:include href="./sections/2-309.05.xml"/>
-        <ns0:include href="./sections/2-309.06.xml"/>
-        <ns0:include href="./sections/2-309.07.xml"/>
-        <ns0:include href="./sections/2-309.08.xml"/>
-      </container>
-      <container>
-        <num>X</num>
-        <heading>Ethics in Public Contracting.</heading>
-        <ns0:include href="./sections/2-310.01.xml"/>
-      </container>
-      <container>
-        <num>X-A</num>
-        <heading>South Africa Contracting Sanctions.</heading>
-        <ns0:include href="./sections/2-310.01a.xml"/>
-        <ns0:include href="./sections/2-310.01b.xml"/>
-        <ns0:include href="./sections/2-310.01c.xml"/>
-        <ns0:include href="./sections/2-310.01d.xml"/>
-        <ns0:include href="./sections/2-310.01e.xml"/>
-        <ns0:include href="./sections/2-310.01f.xml"/>
-      </container>
-      <container childPrefix="Part">
-        <num>XI</num>
-        <heading>Miscellaneous.</heading>
-        <ns0:include href="./sections/2-311.01.xml"/>
-        <ns0:include href="./sections/2-311.02.xml"/>
-        <ns0:include href="./sections/2-311.03.xml"/>
-        <container>
-          <num>XII</num>
-          <heading>Electronic Commerce; Acquisition and Disposition.</heading>
-          <ns0:include href="./sections/2-312.01.xml"/>
-          <ns0:include href="./sections/2-312.02.xml"/>
-          <ns0:include href="./sections/2-312.03.xml"/>
-        </container>
+        <prefix>Part</prefix>
+        <num>B</num>
+        <heading>Procurement Related Claims.</heading>
+        <ns0:include href="./sections/2-308.07.xml"/>
+        <ns0:include href="./sections/2-308.08.xml"/>
+        <ns0:include href="./sections/2-308.09.xml"/>
+        <ns0:include href="./sections/2-308.10.xml"/>
+        <ns0:include href="./sections/2-308.11.xml"/>
+        <ns0:include href="./sections/2-308.12.xml"/>
+        <ns0:include href="./sections/2-308.13.xml"/>
+        <ns0:include href="./sections/2-308.14.xml"/>
+        <ns0:include href="./sections/2-308.15.xml"/>
+        <ns0:include href="./sections/2-308.16.xml"/>
+        <ns0:include href="./sections/2-308.17.xml"/>
+        <ns0:include href="./sections/2-308.18.xml"/>
+        <ns0:include href="./sections/2-308.19.xml"/>
+        <ns0:include href="./sections/2-308.20.xml"/>
+        <ns0:include href="./sections/2-308.21.xml"/>
       </container>
     </container>
-    <container childPrefix="Subchapter">
-      <num>B</num>
-      <heading>General.</heading>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>IX</num>
+      <heading>Contract Appeals Board.</heading>
+      <ns0:include href="./sections/2-309.01.xml"/>
+      <ns0:include href="./sections/2-309.02.xml"/>
+      <ns0:include href="./sections/2-309.03.xml"/>
+      <ns0:include href="./sections/2-309.04.xml"/>
+      <ns0:include href="./sections/2-309.05.xml"/>
+      <ns0:include href="./sections/2-309.06.xml"/>
+      <ns0:include href="./sections/2-309.07.xml"/>
+      <ns0:include href="./sections/2-309.08.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>X</num>
+      <heading>Ethics in Public Contracting.</heading>
+      <ns0:include href="./sections/2-310.01.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>X-A</num>
+      <heading>South Africa Contracting Sanctions.</heading>
+      <ns0:include href="./sections/2-310.01a.xml"/>
+      <ns0:include href="./sections/2-310.01b.xml"/>
+      <ns0:include href="./sections/2-310.01c.xml"/>
+      <ns0:include href="./sections/2-310.01d.xml"/>
+      <ns0:include href="./sections/2-310.01e.xml"/>
+      <ns0:include href="./sections/2-310.01f.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>XI</num>
+      <heading>Miscellaneous.</heading>
+      <ns0:include href="./sections/2-311.01.xml"/>
+      <ns0:include href="./sections/2-311.02.xml"/>
+      <ns0:include href="./sections/2-311.03.xml"/>
       <container>
-        <num>I</num>
-        <heading>Deadline for Appointment of Inspector General.</heading>
-        <ns0:include href="./sections/2-321.01.xml"/>
+        <prefix>Part</prefix>
+        <num>XII</num>
+        <heading>Electronic Commerce; Acquisition and Disposition.</heading>
+        <ns0:include href="./sections/2-312.01.xml"/>
+        <ns0:include href="./sections/2-312.02.xml"/>
+        <ns0:include href="./sections/2-312.03.xml"/>
       </container>
-      <container>
-        <num>II</num>
-        <heading>Year 2000 District Government Computer Liability Immunity.</heading>
-        <ns0:include href="./sections/2-323.01.xml"/>
-        <ns0:include href="./sections/2-323.02.xml"/>
-      </container>
-      <container>
-        <num>III</num>
-        <heading>Miscellaneous.</heading>
-        <ns0:include href="./sections/2-325.01.xml"/>
-        <ns0:include href="./sections/2-325.02.xml"/>
-        <ns0:include href="./sections/2-325.03.xml"/>
-        <ns0:include href="./sections/2-325.04.xml"/>
-        <ns0:include href="./sections/2-325.05.xml"/>
-      </container>
-      <container>
-        <num>IV</num>
-        <heading>Repealed and Expired Provisions.</heading>
-        <ns0:include href="./sections/2-327.01.xml"/>
-        <ns0:include href="./sections/2-327.02.xml"/>
-        <ns0:include href="./sections/2-327.03.xml"/>
-      </container>
+    </container>
+    <subheading>Unit B. General.</subheading>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>I</num>
+      <heading>Deadline for Appointment of Inspector General.</heading>
+      <ns0:include href="./sections/2-321.01.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>II</num>
+      <heading>Year 2000 District Government Computer Liability Immunity.</heading>
+      <ns0:include href="./sections/2-323.01.xml"/>
+      <ns0:include href="./sections/2-323.02.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>III</num>
+      <heading>Miscellaneous.</heading>
+      <ns0:include href="./sections/2-325.01.xml"/>
+      <ns0:include href="./sections/2-325.02.xml"/>
+      <ns0:include href="./sections/2-325.03.xml"/>
+      <ns0:include href="./sections/2-325.04.xml"/>
+      <ns0:include href="./sections/2-325.05.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>IV</num>
+      <heading>Repealed and Expired Provisions.</heading>
+      <ns0:include href="./sections/2-327.01.xml"/>
+      <ns0:include href="./sections/2-327.02.xml"/>
+      <ns0:include href="./sections/2-327.03.xml"/>
     </container>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>3A</num>
     <heading>Government Procurement.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>General Provisions.</heading>
       <ns0:include href="./sections/2-351.01.xml"/>
@@ -593,6 +654,7 @@
       <ns0:include href="./sections/2-351.05.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Procurement Organization.</heading>
       <ns0:include href="./sections/2-352.01.xml"/>
@@ -603,12 +665,14 @@
       <ns0:include href="./sections/2-352.06.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III</num>
       <heading>Contractor Standards.</heading>
       <ns0:include href="./sections/2-353.01.xml"/>
       <ns0:include href="./sections/2-353.02.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IV</num>
       <heading>Source Selection and Contract Formation.</heading>
       <ns0:include href="./sections/2-354.01.xml"/>
@@ -633,6 +697,7 @@
       <ns0:include href="./sections/2-354.20.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>V</num>
       <heading>Types of Contracts.</heading>
       <ns0:include href="./sections/2-355.01.xml"/>
@@ -641,6 +706,7 @@
       <ns0:include href="./sections/2-355.04.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>VI</num>
       <heading>Procurement of Construction Projects and Related Services.</heading>
       <ns0:include href="./sections/2-356.01.xml"/>
@@ -649,6 +715,7 @@
       <ns0:include href="./sections/2-356.04.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>VII</num>
       <heading>Bonds and Other Forms of Security.</heading>
       <ns0:include href="./sections/2-357.01.xml"/>
@@ -659,6 +726,7 @@
       <ns0:include href="./sections/2-357.06.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>VIII</num>
       <heading>Supply Management.</heading>
       <ns0:include href="./sections/2-358.01.xml"/>
@@ -669,6 +737,7 @@
       <ns0:include href="./sections/2-358.05.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IX</num>
       <heading>Prohibited Actions; Remedies.</heading>
       <ns0:include href="./sections/2-359.01.xml"/>
@@ -683,6 +752,7 @@
       <ns0:include href="./sections/2-359.10.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>X</num>
       <heading>Contract Appeals Board.</heading>
       <ns0:include href="./sections/2-360.01.xml"/>
@@ -695,6 +765,7 @@
       <ns0:include href="./sections/2-360.08.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>XI</num>
       <heading>Miscellaneous Provisions.</heading>
       <ns0:include href="./sections/2-361.01.xml"/>
@@ -705,6 +776,7 @@
       <ns0:include href="./sections/2-361.06.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>XII</num>
       <heading>Repealed Provisions; Transfers and Continuation.</heading>
       <ns0:include href="./sections/2-362.01.xml"/>
@@ -712,10 +784,12 @@
       <ns0:include href="./sections/2-362.03.xml"/>
     </container>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>3B</num>
     <heading>Other Procurement Matters.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>Procurement Related Claims.</heading>
       <ns0:include href="./sections/2-381.01.xml"/>
@@ -730,6 +804,7 @@
       <ns0:include href="./sections/2-381.10.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Electronic Commerce; Acquisition and Disposition.</heading>
       <ns0:include href="./sections/2-381.21.xml"/>
@@ -737,12 +812,14 @@
       <ns0:include href="./sections/2-381.23.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III</num>
       <heading>Year 2000 District Government Computer Liability Immunity.</heading>
       <ns0:include href="./sections/2-381.31.xml"/>
       <ns0:include href="./sections/2-381.32.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IV</num>
       <heading>Miscellaneous.</heading>
       <ns0:include href="./sections/2-381.41.xml"/>
@@ -750,10 +827,12 @@
       <ns0:include href="./sections/2-381.43.xml"/>
     </container>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>4</num>
     <heading>Claims Against District.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>General Provisions.</heading>
       <ns0:include href="./sections/2-401.xml"/>
@@ -765,6 +844,7 @@
       <ns0:include href="./sections/2-407.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Non-Liability of District Employees.</heading>
       <ns0:include href="./sections/2-411.xml"/>
@@ -775,6 +855,7 @@
       <ns0:include href="./sections/2-416.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III</num>
       <heading>Unjust Imprisonment.</heading>
       <ns0:include href="./sections/2-421.xml"/>
@@ -784,15 +865,18 @@
       <ns0:include href="./sections/2-425.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IV</num>
       <heading>Risk Management.</heading>
       <ns0:include href="./sections/2-431.xml"/>
     </container>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>5</num>
     <heading>Administrative Procedure.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>Administrative Procedure.</heading>
       <ns0:include href="./sections/2-501.xml"/>
@@ -808,6 +892,7 @@
       <ns0:include href="./sections/2-511.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Freedom of Information.</heading>
       <ns0:include href="./sections/2-531.xml"/>
@@ -822,6 +907,7 @@
       <ns0:include href="./sections/2-540.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III</num>
       <heading>Legal Publication.</heading>
       <ns0:include href="./sections/2-551.xml"/>
@@ -838,6 +924,7 @@
       <ns0:include href="./sections/2-562.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IV</num>
       <heading>Open Meetings.</heading>
       <ns0:include href="./sections/2-571.xml"/>
@@ -852,6 +939,7 @@
       <ns0:include href="./sections/2-580.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>V</num>
       <heading>Open Government Office.</heading>
       <ns0:include href="./sections/2-591.xml"/>
@@ -860,10 +948,12 @@
       <ns0:include href="./sections/2-594.xml"/>
     </container>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>6</num>
     <heading>Codification and Publication of Acts, Resolutions, Rules, and Orders.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>General Provisions.</heading>
       <ns0:include href="./sections/2-601.xml"/>
@@ -873,17 +963,20 @@
       <ns0:include href="./sections/2-605.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>District of Columbia Office of Documents.</heading>
       <ns0:include href="./sections/2-611.xml"/>
       <ns0:include href="./sections/2-612.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III</num>
       <heading>Government Notices in Newspapers.</heading>
       <ns0:include href="./sections/2-621.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IV</num>
       <heading>Respectful Language Modernization.</heading>
       <ns0:include href="./sections/2-631.xml"/>
@@ -892,6 +985,7 @@
     </container>
   </container>
   <container>
+    <prefix>Chapter</prefix>
     <num>7</num>
     <heading>Official Correspondence.</heading>
     <ns0:include href="./sections/2-701.xml"/>
@@ -905,10 +999,12 @@
     <ns0:include href="./sections/2-709.xml"/>
     <ns0:include href="./sections/2-710.xml"/>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>8</num>
     <heading>Presidential Inaugural Ceremonies.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>After August 12, 1998.</heading>
       <ns0:include href="./sections/2-801.xml"/>
@@ -923,6 +1019,7 @@
       <ns0:include href="./sections/2-810.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>After August 6, 1956.</heading>
       <ns0:include href="./sections/2-821.xml"/>
@@ -936,10 +1033,12 @@
       <ns0:include href="./sections/2-829.xml"/>
     </container>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>9</num>
     <heading>Submission of State Energy Plans. [Recodified].</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>General Provisions.</heading>
       <ns0:include href="./sections/2-901.xml"/>
@@ -951,6 +1050,7 @@
       <ns0:include href="./sections/2-907.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Submission of State Energy Plans.</heading>
       <ns0:include href="./sections/2-911.xml"/>
@@ -959,6 +1059,7 @@
     </container>
   </container>
   <container>
+    <prefix>Chapter</prefix>
     <num>10</num>
     <heading>National Capital Planning Commission.</heading>
     <ns0:include href="./sections/2-1001.xml"/>
@@ -974,6 +1075,7 @@
     <ns0:include href="./sections/2-1011.xml"/>
   </container>
   <container>
+    <prefix>Chapter</prefix>
     <num>11</num>
     <heading>Washington Metropolitan Region Development.</heading>
     <ns0:include href="./sections/2-1101.xml"/>
@@ -983,6 +1085,7 @@
     <ns0:include href="./sections/2-1105.xml"/>
   </container>
   <container>
+    <prefix>Chapter</prefix>
     <num>11A</num>
     <heading>Chesapeake Regional Olympic Games Authority.</heading>
     <ns0:include href="./sections/2-1131.xml"/>
@@ -994,10 +1097,12 @@
     <ns0:include href="./sections/2-1137.xml"/>
     <ns0:include href="./sections/2-1138.xml"/>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>12</num>
     <heading>Business and Economic Development.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>Office of Business and Economic Development.</heading>
       <ns0:include href="./sections/2-1201.01.xml"/>
@@ -1007,22 +1112,26 @@
       <ns0:include href="./sections/2-1201.05.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Economic Development Liaison Office.</heading>
       <ns0:include href="./sections/2-1203.01.xml"/>
       <ns0:include href="./sections/2-1203.02.xml"/>
       <ns0:include href="./sections/2-1203.03.xml"/>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>II-A</num>
       <heading>Film and Television Industry Development.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>Office of Motion Picture and Television Development.</heading>
         <ns0:include href="./sections/2-1204.01.xml"/>
         <ns0:include href="./sections/2-1204.02.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Entertainment Economic Incentives and Rebates.</heading>
         <ns0:include href="./sections/2-1204.11.xml"/>
@@ -1036,6 +1145,7 @@
       </container>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III</num>
       <heading>Office of Local Business Development.</heading>
       <ns0:include href="./sections/2-1205.01.xml"/>
@@ -1044,6 +1154,7 @@
       <ns0:include href="./sections/2-1205.04.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IV</num>
       <heading>Economic Development Finance Corporation. [Repealed].</heading>
       <ns0:include href="./sections/2-1207.01.xml"/>
@@ -1061,6 +1172,7 @@
       <ns0:include href="./sections/2-1207.12.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IV-A</num>
       <heading>Economic Development Budget Transparency.</heading>
       <ns0:include href="./sections/2-1208.01.xml"/>
@@ -1069,6 +1181,7 @@
       <ns0:include href="./sections/2-1208.04.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>V</num>
       <heading>Business Incubator Facilitation.</heading>
       <ns0:include href="./sections/2-1209.01.xml"/>
@@ -1087,6 +1200,7 @@
       <ns0:include href="./sections/2-1209.14.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>V-A</num>
       <heading>Access to Capital for Businesses and Nonprofit Organizations.</heading>
       <ns0:include href="./sections/2-1210.01.xml"/>
@@ -1103,12 +1217,14 @@
       <ns0:include href="./sections/2-1210.12.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>V-B</num>
       <heading>Emerging Business Districts.</heading>
       <ns0:include href="./sections/2-1210.31.xml"/>
       <ns0:include href="./sections/2-1210.32.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>VI</num>
       <heading>Enterprise Zone Study Commission.</heading>
       <ns0:include href="./sections/2-1211.01.xml"/>
@@ -1118,15 +1234,18 @@
       <ns0:include href="./sections/2-1211.05.xml"/>
       <ns0:include href="./sections/2-1211.06.xml"/>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>VI-A</num>
       <heading>Commercial Food Store Development.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>Definitions.</heading>
         <ns0:include href="./sections/2-1212.01.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Grocery Store Development Program.</heading>
         <ns0:include href="./sections/2-1212.21.xml"/>
@@ -1135,6 +1254,7 @@
         <ns0:include href="./sections/2-1212.24.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>C</num>
         <heading>Healthy Food Retail Program.</heading>
         <ns0:include href="./sections/2-1212.31.xml"/>
@@ -1143,22 +1263,26 @@
         <ns0:include href="./sections/2-1212.34.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>D</num>
         <heading>Rules.</heading>
         <ns0:include href="./sections/2-1212.41.xml"/>
       </container>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>VII</num>
       <heading>Contractors Guarantee Association [Expired].</heading>
       <ns0:include href="./sections/2-1213.01.xml"/>
       <ns0:include href="./sections/2-1213.02.xml"/>
       <ns0:include href="./sections/2-1213.03.xml"/>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>VIII</num>
       <heading>Business Improvement Districts.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>General.</heading>
         <ns0:include href="./sections/2-1215.01.xml"/>
@@ -1188,6 +1312,7 @@
         <ns0:include href="./sections/2-1215.22.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>BID Formations.</heading>
         <ns0:include href="./sections/2-1215.51.xml"/>
@@ -1202,15 +1327,18 @@
         <ns0:include href="./sections/2-1215.60.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>C</num>
         <heading>Application of Law.</heading>
         <ns0:include href="./sections/2-1215.71.xml"/>
       </container>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>IX</num>
       <heading>Tax Increment Financing.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>General.</heading>
         <ns0:include href="./sections/2-1217.01.xml"/>
@@ -1226,20 +1354,24 @@
         <ns0:include href="./sections/2-1217.11.xml"/>
         <ns0:include href="./sections/2-1217.12.xml"/>
       </container>
-      <container childPrefix="Subpart">
+      <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Identified Projects.</heading>
         <container>
+          <prefix>Subpart</prefix>
           <num>1</num>
           <heading>Gallery Place Project</heading>
           <ns0:include href="./sections/2-1217.31.xml"/>
         </container>
         <container>
+          <prefix>Subpart</prefix>
           <num>2</num>
           <heading>Mandarin Oriental Hotel Project</heading>
           <ns0:include href="./sections/2-1217.32.xml"/>
         </container>
         <container>
+          <prefix>Subpart</prefix>
           <num>3</num>
           <heading>City Market at O Street Project</heading>
           <ns0:include href="./sections/2-1217.33a.xml"/>
@@ -1258,6 +1390,7 @@
           <ns0:include href="./sections/2-1217.33n.xml"/>
         </container>
         <container>
+          <prefix>Subpart</prefix>
           <num>4</num>
           <heading>Howard Theatre Redevelopment Project</heading>
           <ns0:include href="./sections/2-1217.34a.xml"/>
@@ -1276,6 +1409,7 @@
           <ns0:include href="./sections/2-1217.34n.xml"/>
         </container>
         <container>
+          <prefix>Subpart</prefix>
           <num>5</num>
           <heading>Skyland Town Center</heading>
           <ns0:include href="./sections/2-1217.35a.xml"/>
@@ -1292,6 +1426,7 @@
           <ns0:include href="./sections/2-1217.35l.xml"/>
         </container>
         <container>
+          <prefix>Subpart</prefix>
           <num>6</num>
           <heading>Union Market District.</heading>
           <ns0:include href="./sections/2-1217.36a.xml"/>
@@ -1301,6 +1436,7 @@
         </container>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>C</num>
         <heading>Disposition and Redevelopment of Lot 854 in Square 441.</heading>
         <ns0:include href="./sections/2-1217.41.xml"/>
@@ -1318,6 +1454,7 @@
       </container>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IX-A</num>
       <heading>Tax Increment Financing For Retail Development.</heading>
       <ns0:include href="./sections/2-1217.71.xml"/>
@@ -1338,6 +1475,7 @@
       <ns0:include href="./sections/2-1217.84.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IX-B</num>
       <heading>Qualified Zone Academy Revenue Bond Projects.</heading>
       <ns0:include href="./sections/2-1217.101.xml"/>
@@ -1358,10 +1496,12 @@
       <ns0:include href="./sections/2-1217.116.xml"/>
       <ns0:include href="./sections/2-1217.117.xml"/>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>IX-C</num>
       <heading>Southwest Waterfront Redevelopment.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>Bond Financing.</heading>
         <ns0:include href="./sections/2-1217.131.xml"/>
@@ -1379,15 +1519,18 @@
         <ns0:include href="./sections/2-1217.143.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Affordable Housing.</heading>
         <ns0:include href="./sections/2-1217.151.xml"/>
       </container>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>X</num>
       <heading>National Capital Revitalization Corporation.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>National Capital Revitalization Corporation.</heading>
         <ns0:include href="./sections/2-1219.01.xml"/>
@@ -1421,6 +1564,7 @@
         <ns0:include href="./sections/2-1219.29.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>RLA Revitalization Corporation. [Repealed].</heading>
         <ns0:include href="./sections/2-1219.31.xml"/>
@@ -1434,6 +1578,7 @@
         <ns0:include href="./sections/2-1219.38.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>C</num>
         <heading>Transfer of Certain NCRC and RLARC Properties.</heading>
         <ns0:include href="./sections/2-1219.51.xml"/>
@@ -1442,6 +1587,7 @@
       </container>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>XI</num>
       <heading>Assistance for Qualified High Technology Companies.</heading>
       <ns0:include href="./sections/2-1221.01.xml"/>
@@ -1449,6 +1595,7 @@
       <ns0:include href="./sections/2-1221.03.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>XI-A</num>
       <heading>Technology Opportunity Development Task Force.</heading>
       <ns0:include href="./sections/2-1221.31.xml"/>
@@ -1456,15 +1603,18 @@
       <ns0:include href="./sections/2-1221.33.xml"/>
       <ns0:include href="./sections/2-1221.34.xml"/>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>XII</num>
       <heading>Anacostia Waterfront Corporation.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>Definitions. [Repealed].</heading>
         <ns0:include href="./sections/2-1223.01.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Establishment of Anacostia Waterfront Corporation; Purposes; General Powers. [Repealed].</heading>
         <ns0:include href="./sections/2-1223.02.xml"/>
@@ -1472,6 +1622,7 @@
         <ns0:include href="./sections/2-1223.04.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>C</num>
         <heading>Board of Directors; Officers and Employees.</heading>
         <ns0:include href="./sections/2-1223.05.xml"/>
@@ -1482,6 +1633,7 @@
         <ns0:include href="./sections/2-1223.10.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>D</num>
         <heading>Other Powers and Authorities of the Corporation. [Repealed].</heading>
         <ns0:include href="./sections/2-1223.11.xml"/>
@@ -1489,6 +1641,7 @@
         <ns0:include href="./sections/2-1223.13.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>E</num>
         <heading>Financial Affairs; Bonding Authority. [Repealed].</heading>
         <ns0:include href="./sections/2-1223.14.xml"/>
@@ -1500,12 +1653,14 @@
         <ns0:include href="./sections/2-1223.20.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>F</num>
         <heading>Relation to Other Government Entities. [Repealed].</heading>
         <ns0:include href="./sections/2-1223.21.xml"/>
         <ns0:include href="./sections/2-1223.22.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>G</num>
         <heading>Relation to Other Laws and Policies. [Repealed].</heading>
         <ns0:include href="./sections/2-1223.23.xml"/>
@@ -1513,6 +1668,7 @@
         <ns0:include href="./sections/2-1223.25.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>H</num>
         <heading>Miscellaneous Provisions. [Repealed].</heading>
         <ns0:include href="./sections/2-1223.26.xml"/>
@@ -1525,10 +1681,12 @@
         <ns0:include href="./sections/2-1223.33.xml"/>
       </container>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>XIII</num>
       <heading>District Assumption of Authority of NCRC and AWC.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>Reorganization of NCRC and AWC.</heading>
         <ns0:include href="./sections/2-1225.01.xml"/>
@@ -1537,6 +1695,7 @@
         <ns0:include href="./sections/2-1225.04.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Transfer of Assets and Liabilities.</heading>
         <ns0:include href="./sections/2-1225.11.xml"/>
@@ -1544,27 +1703,32 @@
         <ns0:include href="./sections/2-1225.13.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>C</num>
         <heading>Economic Development Special Account.</heading>
         <ns0:include href="./sections/2-1225.21.xml"/>
         <ns0:include href="./sections/2-1225.22.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>D</num>
         <heading>Urban Renewal Plans Administered by the Former RLA and NCRC.</heading>
         <ns0:include href="./sections/2-1225.31.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>E</num>
         <heading>Eminent Domain.</heading>
         <ns0:include href="./sections/2-1225.41.xml"/>
         <ns0:include href="./sections/2-1225.42.xml"/>
       </container>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>XIV</num>
       <heading>Economic Development along the Anacostia Waterfront.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>Anacostia Waterfront Initiative and Framework Plan.</heading>
         <ns0:include href="./sections/2-1226.01.xml"/>
@@ -1573,6 +1737,7 @@
         <ns0:include href="./sections/2-1226.04.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Anacostia Waterfront Environmental Standards.</heading>
         <ns0:include href="./sections/2-1226.31.xml"/>
@@ -1591,61 +1756,62 @@
       </container>
     </container>
   </container>
-  <container childPrefix="Unit">
+  <container>
+    <prefix>Chapter</prefix>
     <num>13</num>
     <heading>Latino Community.</heading>
-    <container childPrefix="Subchapter">
-      <num>A</num>
-      <heading>Latino Community Development.</heading>
-      <container>
-        <num>I</num>
-        <heading>General Provisions.</heading>
-        <ns0:include href="./sections/2-1301.xml"/>
-      </container>
-      <container>
-        <num>II</num>
-        <heading>Definitions.</heading>
-        <ns0:include href="./sections/2-1302.xml"/>
-      </container>
-      <container>
-        <num>III</num>
-        <heading>Office on Latino Affairs.</heading>
-        <ns0:include href="./sections/2-1311.xml"/>
-        <ns0:include href="./sections/2-1312.xml"/>
-        <ns0:include href="./sections/2-1313.xml"/>
-        <ns0:include href="./sections/2-1314.xml"/>
-      </container>
-      <container>
-        <num>IV</num>
-        <heading>Commission on Latino Community Development.</heading>
-        <ns0:include href="./sections/2-1321.xml"/>
-        <ns0:include href="./sections/2-1322.xml"/>
-        <ns0:include href="./sections/2-1323.xml"/>
-        <ns0:include href="./sections/2-1324.xml"/>
-        <ns0:include href="./sections/2-1325.xml"/>
-        <ns0:include href="./sections/2-1326.xml"/>
-        <ns0:include href="./sections/2-1327.xml"/>
-        <ns0:include href="./sections/2-1328.xml"/>
-        <ns0:include href="./sections/2-1329.xml"/>
-        <ns0:include href="./sections/2-1330.xml"/>
-      </container>
-      <container>
-        <num>V</num>
-        <heading>Authorization.</heading>
-        <ns0:include href="./sections/2-1341.xml"/>
-      </container>
+    <subheading>Unit A. Latino Community Development.</subheading>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>I</num>
+      <heading>General Provisions.</heading>
+      <ns0:include href="./sections/2-1301.xml"/>
     </container>
     <container>
-      <num>B</num>
-      <heading>Bilingual Translation Services. [Repealed].</heading>
-      <ns0:include href="./sections/2-1342.xml"/>
-      <ns0:include href="./sections/2-1343.xml"/>
-      <ns0:include href="./sections/2-1344.xml"/>
-      <ns0:include href="./sections/2-1345.xml"/>
-      <ns0:include href="./sections/2-1346.xml"/>
+      <prefix>Subchapter</prefix>
+      <num>II</num>
+      <heading>Definitions.</heading>
+      <ns0:include href="./sections/2-1302.xml"/>
     </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>III</num>
+      <heading>Office on Latino Affairs.</heading>
+      <ns0:include href="./sections/2-1311.xml"/>
+      <ns0:include href="./sections/2-1312.xml"/>
+      <ns0:include href="./sections/2-1313.xml"/>
+      <ns0:include href="./sections/2-1314.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>IV</num>
+      <heading>Commission on Latino Community Development.</heading>
+      <ns0:include href="./sections/2-1321.xml"/>
+      <ns0:include href="./sections/2-1322.xml"/>
+      <ns0:include href="./sections/2-1323.xml"/>
+      <ns0:include href="./sections/2-1324.xml"/>
+      <ns0:include href="./sections/2-1325.xml"/>
+      <ns0:include href="./sections/2-1326.xml"/>
+      <ns0:include href="./sections/2-1327.xml"/>
+      <ns0:include href="./sections/2-1328.xml"/>
+      <ns0:include href="./sections/2-1329.xml"/>
+      <ns0:include href="./sections/2-1330.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>V</num>
+      <heading>Authorization.</heading>
+      <ns0:include href="./sections/2-1341.xml"/>
+    </container>
+    <subheading>Unit B. Bilingual Translation Services. [Repealed].</subheading>
+    <ns0:include href="./sections/2-1342.xml"/>
+    <ns0:include href="./sections/2-1343.xml"/>
+    <ns0:include href="./sections/2-1344.xml"/>
+    <ns0:include href="./sections/2-1345.xml"/>
+    <ns0:include href="./sections/2-1346.xml"/>
   </container>
   <container>
+    <prefix>Chapter</prefix>
     <num>13A</num>
     <heading>Office on Asian and Pacific Islander Affairs.</heading>
     <ns0:include href="./sections/2-1371.xml"/>
@@ -1656,6 +1822,7 @@
     <ns0:include href="./sections/2-1376.xml"/>
   </container>
   <container>
+    <prefix>Chapter</prefix>
     <num>13B</num>
     <heading>Office of Gay, Lesbian, Bisexual, Transgender and Questioning Affairs.</heading>
     <ns0:include href="./sections/2-1381.xml"/>
@@ -1664,6 +1831,7 @@
     <ns0:include href="./sections/2-1384.xml"/>
   </container>
   <container>
+    <prefix>Chapter</prefix>
     <num>13C</num>
     <heading>Office and Commission on African Affairs.</heading>
     <ns0:include href="./sections/2-1391.xml"/>
@@ -1673,146 +1841,153 @@
     <ns0:include href="./sections/2-1395.xml"/>
     <ns0:include href="./sections/2-1396.xml"/>
   </container>
-  <container childPrefix="Unit">
+  <container>
+    <prefix>Chapter</prefix>
     <num>14</num>
     <heading>Human Rights.</heading>
-    <container childPrefix="Subchapter">
-      <num>A</num>
-      <heading>Human Rights Law.</heading>
+    <subheading>Unit A. Human Rights Law.</subheading>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>I</num>
+      <heading>General Provisions.</heading>
+      <ns0:include href="./sections/2-1401.01.xml"/>
+      <ns0:include href="./sections/2-1401.02.xml"/>
+      <ns0:include href="./sections/2-1401.03.xml"/>
+      <ns0:include href="./sections/2-1401.04.xml"/>
+      <ns0:include href="./sections/2-1401.05.xml"/>
+    </container>
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>II</num>
+      <heading>Prohibited Acts of Discrimination.</heading>
       <container>
+        <prefix>Part</prefix>
+        <num>A</num>
+        <heading>General.</heading>
+        <ns0:include href="./sections/2-1402.01.xml"/>
+      </container>
+      <container>
+        <prefix>Part</prefix>
+        <num>B</num>
+        <heading>Employment.</heading>
+        <ns0:include href="./sections/2-1402.11.xml"/>
+        <ns0:include href="./sections/2-1402.12.xml"/>
+        <ns0:include href="./sections/2-1402.13.xml"/>
+      </container>
+      <container>
+        <prefix>Part</prefix>
+        <num>C</num>
+        <heading>Housing and Commercial Space.</heading>
+        <ns0:include href="./sections/2-1402.21.xml"/>
+        <ns0:include href="./sections/2-1402.22.xml"/>
+        <ns0:include href="./sections/2-1402.23.xml"/>
+        <ns0:include href="./sections/2-1402.24.xml"/>
+      </container>
+      <container>
+        <prefix>Part</prefix>
+        <num>D</num>
+        <heading>Public Accommodations.</heading>
+        <ns0:include href="./sections/2-1402.31.xml"/>
+      </container>
+      <container>
+        <prefix>Part</prefix>
+        <num>E</num>
+        <heading>Educational Institutions.</heading>
+        <ns0:include href="./sections/2-1402.41.xml"/>
+        <ns0:include href="./sections/2-1402.42.xml"/>
+      </container>
+      <container>
+        <prefix>Part</prefix>
+        <num>F</num>
+        <heading>General Requirements.</heading>
+        <ns0:include href="./sections/2-1402.51.xml"/>
+        <ns0:include href="./sections/2-1402.52.xml"/>
+        <ns0:include href="./sections/2-1402.53.xml"/>
+      </container>
+      <container>
+        <prefix>Part</prefix>
+        <num>G</num>
+        <heading>Other Prohibited Practices.</heading>
+        <ns0:include href="./sections/2-1402.61.xml"/>
+        <ns0:include href="./sections/2-1402.62.xml"/>
+        <ns0:include href="./sections/2-1402.63.xml"/>
+        <ns0:include href="./sections/2-1402.64.xml"/>
+        <ns0:include href="./sections/2-1402.65.xml"/>
+        <ns0:include href="./sections/2-1402.66.xml"/>
+        <ns0:include href="./sections/2-1402.67.xml"/>
+        <ns0:include href="./sections/2-1402.68.xml"/>
+      </container>
+      <container>
+        <prefix>Part</prefix>
+        <num>H</num>
+        <heading>Miscellaneous Provisions.</heading>
+        <ns0:include href="./sections/2-1402.71.xml"/>
+        <ns0:include href="./sections/2-1402.72.xml"/>
+        <ns0:include href="./sections/2-1402.73.xml"/>
+      </container>
+      <container>
+        <prefix>Part</prefix>
         <num>I</num>
-        <heading>General Provisions.</heading>
-        <ns0:include href="./sections/2-1401.01.xml"/>
-        <ns0:include href="./sections/2-1401.02.xml"/>
-        <ns0:include href="./sections/2-1401.03.xml"/>
-        <ns0:include href="./sections/2-1401.04.xml"/>
-        <ns0:include href="./sections/2-1401.05.xml"/>
-      </container>
-      <container childPrefix="Part">
-        <num>II</num>
-        <heading>Prohibited Acts of Discrimination.</heading>
-        <container>
-          <num>A</num>
-          <heading>General.</heading>
-          <ns0:include href="./sections/2-1402.01.xml"/>
-        </container>
-        <container>
-          <num>B</num>
-          <heading>Employment.</heading>
-          <ns0:include href="./sections/2-1402.11.xml"/>
-          <ns0:include href="./sections/2-1402.12.xml"/>
-          <ns0:include href="./sections/2-1402.13.xml"/>
-        </container>
-        <container>
-          <num>C</num>
-          <heading>Housing and Commercial Space.</heading>
-          <ns0:include href="./sections/2-1402.21.xml"/>
-          <ns0:include href="./sections/2-1402.22.xml"/>
-          <ns0:include href="./sections/2-1402.23.xml"/>
-          <ns0:include href="./sections/2-1402.24.xml"/>
-        </container>
-        <container>
-          <num>D</num>
-          <heading>Public Accommodations.</heading>
-          <ns0:include href="./sections/2-1402.31.xml"/>
-        </container>
-        <container>
-          <num>E</num>
-          <heading>Educational Institutions.</heading>
-          <ns0:include href="./sections/2-1402.41.xml"/>
-          <ns0:include href="./sections/2-1402.42.xml"/>
-        </container>
-        <container>
-          <num>F</num>
-          <heading>General Requirements.</heading>
-          <ns0:include href="./sections/2-1402.51.xml"/>
-          <ns0:include href="./sections/2-1402.52.xml"/>
-          <ns0:include href="./sections/2-1402.53.xml"/>
-        </container>
-        <container>
-          <num>G</num>
-          <heading>Other Prohibited Practices.</heading>
-          <ns0:include href="./sections/2-1402.61.xml"/>
-          <ns0:include href="./sections/2-1402.62.xml"/>
-          <ns0:include href="./sections/2-1402.63.xml"/>
-          <ns0:include href="./sections/2-1402.64.xml"/>
-          <ns0:include href="./sections/2-1402.65.xml"/>
-          <ns0:include href="./sections/2-1402.66.xml"/>
-          <ns0:include href="./sections/2-1402.67.xml"/>
-          <ns0:include href="./sections/2-1402.68.xml"/>
-        </container>
-        <container>
-          <num>H</num>
-          <heading>Miscellaneous Provisions.</heading>
-          <ns0:include href="./sections/2-1402.71.xml"/>
-          <ns0:include href="./sections/2-1402.72.xml"/>
-          <ns0:include href="./sections/2-1402.73.xml"/>
-        </container>
-        <container>
-          <num>I</num>
-          <heading>Breastfeeding Mothers.</heading>
-          <ns0:include href="./sections/2-1402.81.xml"/>
-          <ns0:include href="./sections/2-1402.82.xml"/>
-          <ns0:include href="./sections/2-1402.83.xml"/>
-        </container>
-      </container>
-      <container>
-        <num>III</num>
-        <heading>Procedures.</heading>
-        <ns0:include href="./sections/2-1403.01.xml"/>
-        <ns0:include href="./sections/2-1403.02.xml"/>
-        <ns0:include href="./sections/2-1403.03.xml"/>
-        <ns0:include href="./sections/2-1403.04.xml"/>
-        <ns0:include href="./sections/2-1403.05.xml"/>
-        <ns0:include href="./sections/2-1403.06.xml"/>
-        <ns0:include href="./sections/2-1403.07.xml"/>
-        <ns0:include href="./sections/2-1403.08.xml"/>
-        <ns0:include href="./sections/2-1403.09.xml"/>
-        <ns0:include href="./sections/2-1403.10.xml"/>
-        <ns0:include href="./sections/2-1403.11.xml"/>
-        <ns0:include href="./sections/2-1403.12.xml"/>
-        <ns0:include href="./sections/2-1403.13.xml"/>
-        <ns0:include href="./sections/2-1403.14.xml"/>
-        <ns0:include href="./sections/2-1403.15.xml"/>
-        <ns0:include href="./sections/2-1403.16.xml"/>
-        <ns0:include href="./sections/2-1403.17.xml"/>
-      </container>
-      <container>
-        <num>IV</num>
-        <heading>Commission on Human Rights.</heading>
-        <ns0:include href="./sections/2-1404.01.xml"/>
-        <ns0:include href="./sections/2-1404.02.xml"/>
-        <ns0:include href="./sections/2-1404.03.xml"/>
-        <ns0:include href="./sections/2-1404.04.xml"/>
+        <heading>Breastfeeding Mothers.</heading>
+        <ns0:include href="./sections/2-1402.81.xml"/>
+        <ns0:include href="./sections/2-1402.82.xml"/>
+        <ns0:include href="./sections/2-1402.83.xml"/>
       </container>
     </container>
     <container>
-      <num>B</num>
-      <heading>Office of Human Rights.</heading>
-      <ns0:include href="./sections/2-1411.01.xml"/>
-      <ns0:include href="./sections/2-1411.02.xml"/>
-      <ns0:include href="./sections/2-1411.03.xml"/>
-      <ns0:include href="./sections/2-1411.04.xml"/>
-      <ns0:include href="./sections/2-1411.05.xml"/>
-      <ns0:include href="./sections/2-1411.06.xml"/>
+      <prefix>Subchapter</prefix>
+      <num>III</num>
+      <heading>Procedures.</heading>
+      <ns0:include href="./sections/2-1403.01.xml"/>
+      <ns0:include href="./sections/2-1403.02.xml"/>
+      <ns0:include href="./sections/2-1403.03.xml"/>
+      <ns0:include href="./sections/2-1403.04.xml"/>
+      <ns0:include href="./sections/2-1403.05.xml"/>
+      <ns0:include href="./sections/2-1403.06.xml"/>
+      <ns0:include href="./sections/2-1403.07.xml"/>
+      <ns0:include href="./sections/2-1403.08.xml"/>
+      <ns0:include href="./sections/2-1403.09.xml"/>
+      <ns0:include href="./sections/2-1403.10.xml"/>
+      <ns0:include href="./sections/2-1403.11.xml"/>
+      <ns0:include href="./sections/2-1403.12.xml"/>
+      <ns0:include href="./sections/2-1403.13.xml"/>
+      <ns0:include href="./sections/2-1403.14.xml"/>
+      <ns0:include href="./sections/2-1403.15.xml"/>
+      <ns0:include href="./sections/2-1403.16.xml"/>
+      <ns0:include href="./sections/2-1403.17.xml"/>
     </container>
     <container>
-      <num>C</num>
-      <heading>Disability Rights Protection.</heading>
-      <ns0:include href="./sections/2-1431.01.xml"/>
-      <ns0:include href="./sections/2-1431.02.xml"/>
-      <ns0:include href="./sections/2-1431.03.xml"/>
-      <ns0:include href="./sections/2-1431.04.xml"/>
-      <ns0:include href="./sections/2-1431.05.xml"/>
-      <ns0:include href="./sections/2-1431.06.xml"/>
-      <ns0:include href="./sections/2-1431.07.xml"/>
-      <ns0:include href="./sections/2-1431.08.xml"/>
+      <prefix>Subchapter</prefix>
+      <num>IV</num>
+      <heading>Commission on Human Rights.</heading>
+      <ns0:include href="./sections/2-1404.01.xml"/>
+      <ns0:include href="./sections/2-1404.02.xml"/>
+      <ns0:include href="./sections/2-1404.03.xml"/>
+      <ns0:include href="./sections/2-1404.04.xml"/>
     </container>
+    <subheading>Unit B. Office of Human Rights.</subheading>
+    <ns0:include href="./sections/2-1411.01.xml"/>
+    <ns0:include href="./sections/2-1411.02.xml"/>
+    <ns0:include href="./sections/2-1411.03.xml"/>
+    <ns0:include href="./sections/2-1411.04.xml"/>
+    <ns0:include href="./sections/2-1411.05.xml"/>
+    <ns0:include href="./sections/2-1411.06.xml"/>
+    <subheading>Unit C. Disability Rights Protection.</subheading>
+    <ns0:include href="./sections/2-1431.01.xml"/>
+    <ns0:include href="./sections/2-1431.02.xml"/>
+    <ns0:include href="./sections/2-1431.03.xml"/>
+    <ns0:include href="./sections/2-1431.04.xml"/>
+    <ns0:include href="./sections/2-1431.05.xml"/>
+    <ns0:include href="./sections/2-1431.06.xml"/>
+    <ns0:include href="./sections/2-1431.07.xml"/>
+    <ns0:include href="./sections/2-1431.08.xml"/>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>15</num>
     <heading>Youth Affairs.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>Office of Youth Advocacy.</heading>
       <ns0:include href="./sections/2-1501.xml"/>
@@ -1828,10 +2003,12 @@
       <ns0:include href="./sections/2-1510.xml"/>
       <ns0:include href="./sections/2-1511.xml"/>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>I-A</num>
       <heading>Department of Youth Rehabilitation Services.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>General.</heading>
         <ns0:include href="./sections/2-1515.01.xml"/>
@@ -1848,6 +2025,7 @@
         <ns0:include href="./sections/2-1515.10.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Limitations on the Use of Restraints.</heading>
         <ns0:include href="./sections/2-1515.51.xml"/>
@@ -1857,26 +2035,31 @@
       </container>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I-B</num>
       <heading>Youth Jobs Fund.</heading>
       <ns0:include href="./sections/2-1516.01.xml"/>
     </container>
-    <container childPrefix="Part">
+    <container>
+      <prefix>Subchapter</prefix>
       <num>I-C</num>
       <heading>Youth Behavioral Health.</heading>
       <container>
+        <prefix>Part</prefix>
         <num>A</num>
         <heading>Youth Behavioral Health Epidemiology Report.</heading>
         <ns0:include href="./sections/2-1517.01.xml"/>
         <ns0:include href="./sections/2-1517.02.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>B</num>
         <heading>Early Childhood and School-Based Behavioral Health Infrastructure.</heading>
         <ns0:include href="./sections/2-1517.31.xml"/>
         <ns0:include href="./sections/2-1517.32.xml"/>
       </container>
       <container>
+        <prefix>Part</prefix>
         <num>C</num>
         <heading>Child Welfare and Juvenile Justice Behavioral Health Infrastructure.</heading>
         <ns0:include href="./sections/2-1517.51.xml"/>
@@ -1884,6 +2067,7 @@
       </container>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Commission on Youth Affairs. [Repealed].</heading>
       <ns0:include href="./sections/2-1521.xml"/>
@@ -1897,17 +2081,20 @@
       <ns0:include href="./sections/2-1529.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II-A</num>
       <heading>Gang and Crew Intervention Joint Working Group.</heading>
       <ns0:include href="./sections/2-1531.01.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II-B</num>
       <heading>Commission on Juvenile Justice Reform.</heading>
       <ns0:include href="./sections/2-1533.01.xml"/>
       <ns0:include href="./sections/2-1533.02.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II-C</num>
       <heading>Youth Bullying Prevention.</heading>
       <ns0:include href="./sections/2-1535.01.xml"/>
@@ -1921,6 +2108,7 @@
       <ns0:include href="./sections/2-1535.09.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III</num>
       <heading>Juvenile Curfew.</heading>
       <ns0:include href="./sections/2-1541.xml"/>
@@ -1928,6 +2116,7 @@
       <ns0:include href="./sections/2-1543.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III-A</num>
       <heading>Children and Youth Initiative.</heading>
       <ns0:include href="./sections/2-1551.xml"/>
@@ -1936,6 +2125,7 @@
       <ns0:include href="./sections/2-1554.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IV</num>
       <heading>Youth Advisory Council.</heading>
       <ns0:include href="./sections/2-1561.xml"/>
@@ -1944,6 +2134,7 @@
       <ns0:include href="./sections/2-1564.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>IV-A</num>
       <heading>Youth Council of the District of Columbia.</heading>
       <ns0:include href="./sections/2-1565.01.xml"/>
@@ -1954,6 +2145,7 @@
       <ns0:include href="./sections/2-1565.06.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>V</num>
       <heading>Mayor’s Youth Leadership Institute.</heading>
       <ns0:include href="./sections/2-1571.xml"/>
@@ -1962,6 +2154,7 @@
       <ns0:include href="./sections/2-1574.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>VI</num>
       <heading>Youth Development Plan.</heading>
       <ns0:include href="./sections/2-1581.xml"/>
@@ -1971,6 +2164,7 @@
       <ns0:include href="./sections/2-1585.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>VII</num>
       <heading>Interagency Collaboration and Services Integration Commission.</heading>
       <ns0:include href="./sections/2-1591.xml"/>
@@ -1983,6 +2177,7 @@
     </container>
   </container>
   <container>
+    <prefix>Chapter</prefix>
     <num>16</num>
     <heading>Public Defender Service.</heading>
     <ns0:include href="./sections/2-1601.xml"/>
@@ -1995,6 +2190,7 @@
     <ns0:include href="./sections/2-1608.xml"/>
   </container>
   <container>
+    <prefix>Chapter</prefix>
     <num>17</num>
     <heading>Public Records Management.</heading>
     <ns0:include href="./sections/2-1701.xml"/>
@@ -2012,10 +2208,12 @@
     <ns0:include href="./sections/2-1713.xml"/>
     <ns0:include href="./sections/2-1714.xml"/>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>18</num>
     <heading>Administrative Review of Civil Infractions.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>Purposes; Definitions; Administrative Law Judges and Attorney Examiners; Sanctions; Regulations.</heading>
       <ns0:include href="./sections/2-1801.01.xml"/>
@@ -2026,6 +2224,7 @@
       <ns0:include href="./sections/2-1801.06.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Procedures.</heading>
       <ns0:include href="./sections/2-1802.01.xml"/>
@@ -2035,6 +2234,7 @@
       <ns0:include href="./sections/2-1802.05.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>III</num>
       <heading>Administrative Review.</heading>
       <ns0:include href="./sections/2-1803.01.xml"/>
@@ -2043,6 +2243,7 @@
     </container>
   </container>
   <container>
+    <prefix>Chapter</prefix>
     <num>18A</num>
     <heading>Office of Administrative Hearings.</heading>
     <ns0:include href="./sections/2-1831.01.xml"/>
@@ -2065,10 +2266,12 @@
     <ns0:include href="./sections/2-1831.18.xml"/>
     <ns0:include href="./sections/2-1831.19.xml"/>
   </container>
-  <container childPrefix="Subchapter">
+  <container>
+    <prefix>Chapter</prefix>
     <num>19</num>
     <heading>Government Language Accessibility.</heading>
     <container>
+      <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>Interpreters.</heading>
       <ns0:include href="./sections/2-1901.xml"/>
@@ -2086,6 +2289,7 @@
       <ns0:include href="./sections/2-1912.01.xml"/>
     </container>
     <container>
+      <prefix>Subchapter</prefix>
       <num>II</num>
       <heading>Language Access.</heading>
       <ns0:include href="./sections/2-1931.xml"/>
