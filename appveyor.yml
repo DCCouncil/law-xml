@@ -48,6 +48,7 @@ test_script:
 
 deploy_script:
   - cd ..\dc-law-html
+  - echo "%APPVEYOR_BUILD_VERSION%" > version.html
   - git add -A
   - git diff --cached --quiet || git commit -m "deploy HTML from AppVeyor build %appveyor_build_version%"
   - git push origin %appveyor_repo_branch%
