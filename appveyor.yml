@@ -29,10 +29,14 @@ before_build:
   - ps: Invoke-WebRequest "$($dl_link)?access_token=$($env:access_token)" -OutFile xcore-win.zip -Headers @{"Accept"="application/octet-stream"}
   - 7z e xcore-win.zip -oxcore-win
   # run the tests here (instead of AppVeyor's "test" phase, which runs *after* the "build" phase)
-  - xcore-win\console . schemas\dc-library.xsd
-  # now install the codified files and tools prior to codifying
-  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
-  - git clone --depth 1 git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
+  #- xcore-win\console . schemas\dc-library.xsd
+  # now install the tools and codified files prior to codifying
+  - git clone --depth 1 --branch DCCODE-169-fix-paths git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
+  - git clone --depth 1 git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
+  # use or create a branch in dc-law-xml-codified with the same name
+  - git -C ..\dc-law-xml-codified fetch origin %appveyor_repo_branch% &&
+    git -C ..\dc-law-xml-codified checkout %appveyor_repo_branch% ||
+    git -C ..\dc-law-xml-codified checkout -b %appveyor_repo_branch%
   # dc-law-tools has some requirements that must be installed before building
   - "%PYTHON%\\python.exe -m pip install wheel"
   - "%PYTHON%\\python.exe -m pip install    ..\\dc-law-tools\\requirements\\lxml-3.6.4-cp35-cp35m-win32.whl"
@@ -44,9 +48,3 @@ build_script:
 
 test_script:
   - echo Skipping doomed test discovery to save time
-
-deploy_script:
-  - cd ..\dc-law-xml-codified
-  - git add -A
-  - git diff --cached --exit-code --shortstat || git commit --quiet -m "deploy codified XML from dc-law-xml build %appveyor_build_version%"
-  - git push
