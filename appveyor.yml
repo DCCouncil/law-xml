@@ -30,9 +30,8 @@ before_build:
   - 7z e xcore.zip -oxcore
   # run the tests here (instead of AppVeyor's "test" phase, which runs *after* the "build" phase)
   - xcore\console ..\dc-law-xml
-  # now install the HTML files and tools prior to building the HTML
-  - git clone --depth 1 git@github.com:openlawlibrary/dc-law-static.git ..\dc-law-static
-  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-html.git ..\dc-law-html
+  # now install the codified files and tools prior to codifying
+  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:openlawlibrary/dc-law-xml-codified.git ..\dc-law-xml-codified
   - git clone --depth 1 git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
   # dc-law-tools has some requirements that must be installed before building
   - "%PYTHON%\\python.exe -m pip install wheel"
@@ -41,14 +40,13 @@ before_build:
 
 build_script:
   - cd ..\dc-law-tools
-  - "%PYTHON%\\python.exe build html all"
+  - "%PYTHON%\\python.exe build codify"
 
 test_script:
   - echo Skipping doomed test discovery to save time
 
 deploy_script:
-  - cd ..\dc-law-html
-  - echo "%APPVEYOR_BUILD_VERSION%" > version.html
+  - cd ..\dc-law-xml-codified
   - git add -A
-  - git diff --cached --quiet || git commit -m "deploy HTML from AppVeyor build %appveyor_build_version%"
-  - git push origin %appveyor_repo_branch%
+  - git diff --cached --quiet || git commit -m "deploy codified XML from dc-law-xml build %appveyor_build_version%"
+  - git push
