@@ -51,10 +51,11 @@
 	      <xs:element ref="register" />
 	      <xs:element name="law">
 		    <xs:complexType>
-		      <xs:attribute name="lawId" type="xs:string" use="required" />
-		      <xs:attribute name="period" type="xs:unsignedByte" use="optional" />
+		      <xs:attribute name="lawId" type="xs:string" use="optional" />
+		      <xs:attribute name="period" type="xs:string" use="optional" />
 		      <xs:attribute name="url" type="xs:string" use="optional" />
-		      <xs:attribute name="session" type="xs:unsignedByte" use="optional" />
+		      <xs:attribute name="session" type="xs:string" use="optional" />
+          <xs:attribute name="chapter" type="xs:string" use="optional" />
 		    </xs:complexType>
 	      </xs:element>
 	    </xs:choice>
@@ -97,6 +98,7 @@
           <xs:element ref="container" />
         </xs:choice>
       </xs:sequence>
+      <xs:attribute name="enacted" type="xs:boolean" use="optional" />
     </xs:complexType>
   </xs:element>
 
@@ -266,7 +268,7 @@
   <xs:element name="register">
     <xs:complexType>
       <xs:attribute name="page" type="xs:string" use="required" />
-      <xs:attribute name="vol" type="xs:unsignedByte" use="required" />
+      <xs:attribute name="vol" type="xs:string" use="required" />
     </xs:complexType>
   </xs:element>
   
