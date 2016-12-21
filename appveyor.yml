@@ -32,7 +32,7 @@ before_build:
   - xcore-win\console . schemas\dc-library.xsd
   # now install the tools and codified files prior to codifying
   - git clone --depth 1 git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
-  - git clone --depth 1 git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
+  - git clone --depth --no-single-branch 1 git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
   # use or create a branch in dc-law-xml-codified with the same name
   - git -C ..\dc-law-xml-codified fetch origin %appveyor_repo_branch% &&
     git -C ..\dc-law-xml-codified checkout %appveyor_repo_branch% ||
