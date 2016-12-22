@@ -55,5 +55,5 @@ deploy_script:
         & cd ..\dc-law-xml-codified
         & git add -A
         (& git diff --cached --exit-code --shortstat) -or (& git commit --quiet -m "deploy codified XML from dc-law-xml build $env:appveyor_build_version")
-        & git push origin $env:appveyor_repo_branch
+        & git push --porcelain origin $env:appveyor_repo_branch
       }
