@@ -50,10 +50,5 @@ test_script:
   - echo Skipping doomed test discovery to save time
 
 deploy_script:
-  - ps: >-
-      if ($env:appveyor_repo_branch -eq "master" -or $env:appveyor_repo_branch -eq "development") {
-        & cd ..\dc-law-xml-codified
-        & git add -A
-        (& git diff --cached --exit-code --shortstat) -or (& git commit --quiet -m "deploy codified XML from dc-law-xml build $env:appveyor_build_version")
-        & git push --porcelain origin $env:appveyor_repo_branch
-      }
+  - cd ..\dc-law-xml
+  - appveyor-deploy.cmd
