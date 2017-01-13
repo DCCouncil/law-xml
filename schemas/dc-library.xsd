@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://code.dccouncil.us/schemas/dc-library"
+           xmlns:ns0="http://www.w3.org/2001/XInclude"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://code.dccouncil.us/schemas/dc-library"
+           elementFormDefault="qualified">
+  <xs:import namespace="http://www.w3.org/2001/XInclude"
+             schemaLocation="http://www.w3.org/2001/XInclude/XInclude.xsd"/>
+  <xs:element name="aftertext">
+    <xs:complexType>
+      <xs:complexContent mixed="true">
+        <xs:extension base="xs:anyType"/>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="annotation">
+    <xs:complexType>
+      <xs:complexContent mixed="true">
+        <xs:extension base="xs:anyType">
+          <xs:attribute name="doc" type="xs:string" use="optional"/>
+          <xs:attribute name="type" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:enumeration value="History"/>
+                <xs:enumeration value="Mayor's Statement"/>
+                <xs:enumeration value="Prior Codifications"/>
+                <xs:enumeration value="Section References"/>
+                <xs:enumeration value="Effect of Amendments"/>
+                <xs:enumeration value="Cross References"/>
+                <xs:enumeration value="Expiration of Law"/>
+                <xs:enumeration value="Applicability"/>
+                <xs:enumeration value="Emergency Legislation"/>
+                <xs:enumeration value="Temporary Legislation"/>
+                <xs:enumeration value="Legislative History"/>
+                <xs:enumeration value="Short Title"/>
+                <xs:enumeration value="Transfer of Functions"/>
+                <xs:enumeration value="References in Text"/>
+                <xs:enumeration value="Effective Dates"/>
+                <xs:enumeration value="Editor's Notes"/>
+                <xs:enumeration value="Repeal of Law"/>
+                <xs:enumeration value="Mayor's Orders"/>
+                <xs:enumeration value="Delegation of Authority"/>
+                <xs:enumeration value="New Implementing Regulations"/>
+                <xs:enumeration value="Uniform Commercial Code Comment"/>
+                <xs:enumeration value="Change in Government"/>
+                <xs:enumeration value="Construction of Law"/>
+                <xs:enumeration value="Severability of Law"/>
+                <xs:enumeration value="Congressional Disapproval of Acts of the Council"/>
+                <xs:enumeration value="Resolutions"/>
+                <xs:enumeration value="Omission of Text"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="annotations">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="text"/>
+        <xs:element ref="annotation"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cites">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="register"/>
+          <xs:element name="law">
+            <xs:complexType>
+              <xs:attribute name="lawId" type="xs:string" use="optional"/>
+              <xs:attribute name="period" type="xs:string" use="optional"/>
+              <xs:attribute name="url" type="xs:string" use="optional"/>
+              <xs:attribute name="session" type="xs:string" use="optional"/>
+              <xs:attribute name="chapter" type="xs:string" use="optional"/>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="collection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="heading"/>
+        <xs:element ref="ns0:include" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="document" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="congressReview">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="lawEffectiveDate" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="container">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:sequence>
+          <xs:element name="prefix" type="xs:string"/>
+          <xs:element ref="num"/>
+          <xs:element ref="heading"/>
+        </xs:sequence>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="ns0:include" minOccurs="0"/>
+          <xs:element name="subheading" type="xs:string"/>
+          <xs:element ref="section"/>
+          <xs:element ref="container"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="enacted" type="xs:boolean" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="details">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="congressReview" minOccurs="0"/>
+        <xs:element ref="mayorReview" minOccurs="0"/>
+        <xs:element ref="votingSummary" maxOccurs="unbounded"/>
+        <xs:element ref="legislation"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="num" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="meta" minOccurs="0" maxOccurs="1"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="ns0:include" minOccurs="0"/>
+          <xs:element ref="container"/>
+          <xs:element ref="section" minOccurs="0"/>
+          <xs:element name="subheading" type="xs:string"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+      <xs:attribute name="flag" type="xs:boolean" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="emergency">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="law" type="xs:string"/>
+        <xs:element name="effective" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="federal">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="law" type="xs:string"/>
+        <xs:element name="effective" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="heading">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="type" type="xs:string" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="history">
+    <xs:complexType>
+      <xs:sequence minOccurs="0">
+        <xs:element name="narrative" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+        <xs:element ref="details" minOccurs="0"/>
+        <xs:element name="summary" type="xs:string" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="url" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="include">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice>
+          <xs:element ref="container" maxOccurs="unbounded"/>
+          <xs:element ref="section" maxOccurs="unbounded"/>
+          <xs:element ref="para" maxOccurs="unbounded"/>
+          <xs:element ref="text" maxOccurs="unbounded"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="law">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="law" type="xs:string"/>
+        <xs:element name="effective" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="legislation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="committeeReferral" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="library">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="heading"/>
+        <xs:choice minOccurs="1" maxOccurs="unbounded">
+          <xs:element ref="ns0:include" minOccurs="0"/>
+          <xs:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="document" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mayorReview">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="enactedDate" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="meta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="effective" type="xs:string" minOccurs="0"/>
+        <xs:element ref="recency" minOccurs="0"/>
+        <xs:element ref="cites" minOccurs="0"/>
+        <xs:element ref="history" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="num">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="type" type="xs:string" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="para">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="num" minOccurs="0"/>
+        <xs:element ref="heading" minOccurs="0"/>
+        <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="include" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recency">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="law"/>
+        <xs:element ref="emergency"/>
+        <xs:element ref="federal"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="register">
+    <xs:complexType>
+      <xs:attribute name="page" type="xs:string" use="required"/>
+      <xs:attribute name="vol" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="section">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reason" type="xs:string" minOccurs="0"/>
+        <xs:element ref="num" minOccurs="0"/>
+        <xs:element ref="heading" minOccurs="0"/>
+        <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="include" minOccurs="0"/>
+        <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="annotations" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="text">
+    <xs:complexType>
+      <xs:complexContent mixed="true">
+        <xs:extension base="xs:anyType"/>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="votingSummary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="readingDescription" type="xs:string"/>
+        <xs:element name="dateOfVote" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
