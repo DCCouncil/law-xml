@@ -31,7 +31,7 @@ before_build:
   # run the tests here (instead of AppVeyor's "test" phase, which runs *after* the "build" phase)
   - xcore-win\console . schemas\dc-library.xsd
   # now install the tools and codified files prior to codifying
-  - git clone --depth 1 --branch DCCODE-240 git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
+  - git clone --depth 1 git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
   - git clone --depth 1 --no-single-branch git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
   # use or create a branch in dc-law-xml-codified with the same name
   - git -C ..\dc-law-xml-codified fetch origin %appveyor_repo_branch% &&
