@@ -114,6 +114,7 @@
           <xs:element ref="container"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute name="containing-doc" type="xs:string" use="optional"/>
       <xs:attribute name="enacted" type="xs:boolean" use="optional"/>
     </xs:complexType>
   </xs:element>
@@ -283,6 +284,7 @@
         <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="annotations" minOccurs="0"/>
       </xs:sequence>
+      <xs:attribute name="containing-doc" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="text">
