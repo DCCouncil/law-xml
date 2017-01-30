@@ -51,4 +51,4 @@ test_script:
 
 deploy_script:
   - cd ..\dc-law-xml
-  - appveyor-deploy.cmd
+  - "%PYTHON%\\python.exe ..\\dc-law-tools\\appveyor-deploy\\dc-law-xml.py"
