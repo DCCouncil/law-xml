@@ -26,10 +26,13 @@ before_build:
   # download the latest release of xcore-win so that we can validate the XML files
   # NOTE: we assume that the first (or only) asset of the release is the xcore-win.zip file
   - ps: $dl_link = (Invoke-RestMethod "https://api.github.com/repos/openlawlibrary/xcore-win/releases/latest?access_token=$($env:access_token)").assets[0].url
+  # want xcore-win files to be at same level as dc-law-xml to avoid processing included .xml files with dc-law-xml repo files
+  - ps: cd ../
   - ps: Invoke-WebRequest "$($dl_link)?access_token=$($env:access_token)" -OutFile xcore-win.zip -Headers @{"Accept"="application/octet-stream"}
   - 7z e xcore-win.zip -oxcore-win
+  - ps: cd dc-law-xml/
   # run the tests here (instead of AppVeyor's "test" phase, which runs *after* the "build" phase)
-  - xcore-win\console . schemas\dc-library.xsd
+  - ..\xcore-win\console . schemas\dc-library.xsd
   # now install the tools and codified files prior to codifying
   - git clone --depth 1 git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
   - git clone --depth 1 --no-single-branch git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
