@@ -10,7 +10,9 @@
   <xs:element name="aftertext">
     <xs:complexType>
       <xs:complexContent mixed="true">
-        <xs:extension base="xs:anyType"/>
+        <xs:extension base="xs:anyType">
+          <xs:attribute ref="codify:value" use="optional" />
+        </xs:extension>
       </xs:complexContent>
     </xs:complexType>
   </xs:element>
@@ -52,6 +54,7 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attribute ref="codify:value" use="optional" />
         </xs:extension>
       </xs:complexContent>
     </xs:complexType>
@@ -62,6 +65,7 @@
         <xs:element ref="text"/>
         <xs:element ref="annotation"/>
       </xs:choice>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="citation">
@@ -70,6 +74,7 @@
         <xs:extension base="xs:string">
           <xs:attribute name="type" type="xs:string"/>
           <xs:attribute name="url" type="xs:string" use="optional"/>
+          <xs:attribute ref="codify:value" use="optional" />
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
@@ -83,6 +88,17 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="cite">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="root" type="xs:string" use="optional"/>
+          <xs:attributeGroup ref="targetAttributes"/>
+          <xs:attribute ref="codify:value" use="optional" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="collection">
     <xs:complexType>
       <xs:sequence>
@@ -92,6 +108,7 @@
         <xs:element ref="document" minOccurs="0" maxOccurs="unbounded"/>
       </xs:sequence>
       <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="congressReview">
@@ -99,6 +116,7 @@
       <xs:sequence>
         <xs:element name="lawEffectiveDate" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="container">
@@ -131,6 +149,7 @@
         <xs:element ref="votingSummary" maxOccurs="unbounded"/>
         <xs:element ref="legislation"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="document">
@@ -175,6 +194,7 @@
         <xs:element name="law" type="xs:string"/>
         <xs:element name="effective" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="federal">
@@ -183,15 +203,16 @@
         <xs:element name="law" type="xs:string"/>
         <xs:element name="effective" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="heading">
-    <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="xs:string">
-          <xs:attribute name="type" type="xs:string" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="cite" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="type" type="xs:string" use="optional"/>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="history">
@@ -202,6 +223,7 @@
         <xs:element name="summary" type="xs:string" minOccurs="0"/>
       </xs:sequence>
       <xs:attribute name="url" type="xs:string" use="optional"/>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="include">
@@ -222,6 +244,18 @@
         <xs:element name="law" type="xs:string"/>
         <xs:element name="effective" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="law-cite">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="root" type="xs:string" use="optional"/>
+          <xs:attributeGroup ref="targetAttributes"/>
+          <xs:attribute ref="codify:value" use="optional" />
+        </xs:extension>
+      </xs:simpleContent>
     </xs:complexType>
   </xs:element>
   <xs:element name="legislation">
@@ -229,6 +263,7 @@
       <xs:sequence>
         <xs:element name="committeeReferral" type="xs:string"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="library">
@@ -241,6 +276,7 @@
           <xs:element ref="document" minOccurs="0" maxOccurs="unbounded"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="mayorReview">
@@ -248,6 +284,7 @@
       <xs:sequence>
         <xs:element name="enactedDate" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="meta">
@@ -294,6 +331,7 @@
         <xs:element ref="emergency"/>
         <xs:element ref="federal"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="section">
@@ -330,7 +368,9 @@
   <xs:element name="text">
     <xs:complexType>
       <xs:complexContent mixed="true">
-        <xs:extension base="xs:anyType"/>
+        <xs:extension base="xs:anyType">
+          <xs:attribute ref="codify:value" use="optional" />
+        </xs:extension>
       </xs:complexContent>
     </xs:complexType>
   </xs:element>
@@ -340,6 +380,11 @@
         <xs:element name="readingDescription" type="xs:string"/>
         <xs:element name="dateOfVote" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
+  <xs:attributeGroup name="targetAttributes">
+    <xs:attribute name="doc" type="xs:string" use="optional"/>
+    <xs:attribute name="path" type="xs:string" use="optional"/>
+  </xs:attributeGroup>
 </xs:schema>
