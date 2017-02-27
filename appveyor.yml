@@ -52,6 +52,8 @@ build_script:
 test_script:
   - echo Skipping doomed test discovery to save time
 
+skip_tags: true   # don't create builds for tags (only for branches)
+
 deploy_script:
   - cd ..\dc-law-xml
   - "%PYTHON%\\python.exe ..\\dc-law-tools\\appveyor-deploy\\dc-law-xml.py"
