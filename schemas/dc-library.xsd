@@ -67,7 +67,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:choice maxOccurs="unbounded">
-          <xs:element ref="citation" type="xs:string"/>
+          <xs:element ref="citation" type="xs:string">
             <xs:complexType>
               <xs:attribute name="type" type="xs:string"/>
               <xs:attribute name="url" type="xs:string" use="optional"/>
