@@ -63,20 +63,21 @@
       </xs:choice>
     </xs:complexType>
   </xs:element>
-  <xs:element name="cites">
+  <xs:element name="citation">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="type" type="xs:string"/>
+          <xs:attribute name="url" type="xs:string" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="citations">
     <xs:complexType>
       <xs:sequence>
         <xs:choice maxOccurs="unbounded">
-          <xs:element ref="register"/>
-          <xs:element name="law">
-            <xs:complexType>
-              <xs:attribute name="lawId" type="xs:string" use="optional"/>
-              <xs:attribute name="period" type="xs:string" use="optional"/>
-              <xs:attribute name="url" type="xs:string" use="optional"/>
-              <xs:attribute name="session" type="xs:string" use="optional"/>
-              <xs:attribute name="chapter" type="xs:string" use="optional"/>
-            </xs:complexType>
-          </xs:element>
+          <xs:element ref="citation"/>
         </xs:choice>
       </xs:sequence>
     </xs:complexType>
@@ -231,7 +232,7 @@
       <xs:sequence>
         <xs:element name="effective" type="xs:string" minOccurs="0"/>
         <xs:element ref="recency" minOccurs="0"/>
-        <xs:element ref="cites" minOccurs="0"/>
+        <xs:element ref="citations" minOccurs="0"/>
         <xs:element ref="history" minOccurs="0"/>
       </xs:sequence>
     </xs:complexType>
@@ -264,12 +265,6 @@
         <xs:element ref="emergency"/>
         <xs:element ref="federal"/>
       </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="register">
-    <xs:complexType>
-      <xs:attribute name="page" type="xs:string" use="required"/>
-      <xs:attribute name="vol" type="xs:string" use="required"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="section">
