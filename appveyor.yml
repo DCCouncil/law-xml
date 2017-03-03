@@ -45,10 +45,9 @@ before_build:
   - "%PYTHON%\\python.exe -m pip install    ..\\dc-law-tools\\requirements\\lxml-3.6.4-cp35-cp35m-win32.whl"
   - "%PYTHON%\\python.exe -m pip install -r ..\\dc-law-tools\\requirements.txt"
   # dotnet restore and build
-  - ps: cd ..\dc-law-tools\dotnet
-  - dotnet restore
-  - dotnet build -f netcoreapp1.0 -c release
-  - ps: cd ..\..\dc-law-xml
+  - ps: cd ..\dc-law-tools
+  - "%PYTHON%\\python.exe appveyor-deploy\\before_build.py"
+  - ps: cd ..\dc-law-xml
 
 build_script:
   - cd ..\dc-law-tools
