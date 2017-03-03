@@ -44,6 +44,10 @@ before_build:
   - "%PYTHON%\\python.exe -m pip install wheel"
   - "%PYTHON%\\python.exe -m pip install    ..\\dc-law-tools\\requirements\\lxml-3.6.4-cp35-cp35m-win32.whl"
   - "%PYTHON%\\python.exe -m pip install -r ..\\dc-law-tools\\requirements.txt"
+  # dotnet restore and build
+  - ps: cd ..\dc-law-tools
+  - "%PYTHON%\\python.exe appveyor-deploy\\before_build.py"
+  - ps: cd ..\dc-law-xml
 
 build_script:
   - cd ..\dc-law-tools
@@ -54,4 +58,4 @@ test_script:
 
 deploy_script:
   - cd ..\dc-law-xml
-  - "%PYTHON%\\python.exe ..\\dc-law-tools\\appveyor-deploy\\dc-law-xml.py"
+  - "%PYTHON%\\python.exe -u ..\\dc-law-tools\\appveyor-deploy\\dc-law-xml.py"
