@@ -161,6 +161,7 @@
       <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
+
   <xs:element name="document">
     <xs:complexType>
       <xs:choice>
@@ -181,8 +182,8 @@
         <xs:sequence>                   <!-- laws & code -->
           <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
           <xs:element ref="num" maxOccurs="unbounded"/>
-          <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
           <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
           <xs:element ref="meta" minOccurs="0"/>
           <xs:sequence minOccurs="0">   <!-- code -->
             <xs:choice maxOccurs="unbounded">
@@ -198,9 +199,11 @@
       </xs:choice>
       <xs:attribute name="id" type="xs:string" use="required"/>
       <xs:attribute name="flag" type="xs:boolean" use="optional"/>
+      <xs:attribute name="url" type="xs:string" use="optional"/>
       <xs:attributeGroup ref="codify:allAttributes" />
     </xs:complexType>
   </xs:element>
+
   <xs:element name="emergency">
     <xs:complexType>
       <xs:sequence>
@@ -228,15 +231,16 @@
       <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
+
+
   <xs:element name="history">
     <xs:complexType>
-      <xs:sequence minOccurs="0">
-        <xs:element name="narrative" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
-        <xs:element ref="details" minOccurs="0"/>
-        <xs:element name="summary" type="xs:string" minOccurs="0"/>
-      </xs:sequence>
-      <xs:attribute name="url" type="xs:string" use="optional"/>
-      <xs:attribute ref="codify:value" use="optional" />
+      <xs:complexContent mixed="true">
+        <xs:extension base="xs:anyType">
+          <xs:attribute name="url" type="xs:string" use="optional"/>
+          <xs:attribute ref="codify:value" use="optional" />
+        </xs:extension>
+      </xs:complexContent>
     </xs:complexType>
   </xs:element>
   <xs:element name="include">
@@ -354,8 +358,6 @@
       <xs:sequence>
         <xs:choice>
           <xs:sequence>   <!-- 1st section -->
-            <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element ref="reason" minOccurs="0"/>
             <xs:group ref="sectionContents" />
           </xs:sequence>
           <xs:sequence>   <!-- remaining sections -->
