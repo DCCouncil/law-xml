@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="https://code.dccouncil.us/schemas/codify"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           targetNamespace="https://code.dccouncil.us/schemas/codify">
+  <xs:element name="annotation" type="xs:anyType"/>
+  <xs:element name="applicability" type="xs:anyType"/>
+  <xs:element name="find-replace" type="xs:anyType"/>
+  <xs:element name="ignore" type="xs:anyType"/>
+  <xs:element name="insert" type="xs:anyType"/>
+  <xs:element name="organic" type="xs:anyType"/>
+  <xs:element name="redesignate" type="xs:anyType"/>
+  <xs:element name="repeal" type="xs:anyType"/>
+  <xs:element name="replace" type="xs:anyType"/>
+  <xs:element name="any">
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+        <xs:any processContents="lax"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:attribute name="applicability" type="xs:string"/>
+  <xs:attribute name="doc" type="xs:string"/>
+  <xs:attribute name="instruction" type="xs:string"/>
+  <xs:attribute name="path" type="xs:string"/>
+  <xs:attribute name="value" type="xs:string"/>
+  <xs:attributeGroup name="allAttributes">
+    <xs:attribute ref="applicability" use="optional" />
+    <xs:attribute ref="doc" use="optional" />
+    <xs:attribute ref="instruction" use="optional" />
+    <xs:attribute ref="path" use="optional" />
+    <xs:attribute ref="value" use="optional" />
+  </xs:attributeGroup>
+  <xs:attributeGroup name="targetAttributes">
+    <xs:attribute ref="doc" use="optional" />
+    <xs:attribute ref="path" use="optional" />
+  </xs:attributeGroup>
+</xs:schema>

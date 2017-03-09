@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns="http://code.dccouncil.us/schemas/dc-library"
+<xs:schema xmlns="https://code.dccouncil.us/schemas/dc-library"
+           xmlns:codify="https://code.dccouncil.us/schemas/codify"
            xmlns:ns0="http://www.w3.org/2001/XInclude"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://code.dccouncil.us/schemas/dc-library"
-           elementFormDefault="qualified">
+           elementFormDefault="qualified"
+           targetNamespace="https://code.dccouncil.us/schemas/dc-library">
   <xs:import namespace="http://www.w3.org/2001/XInclude"
-             schemaLocation="http://www.w3.org/2001/XInclude/XInclude.xsd"/>
+             schemaLocation="https://www.w3.org/2001/XInclude/XInclude.xsd"/>
   <xs:element name="aftertext">
     <xs:complexType>
       <xs:complexContent mixed="true">
-        <xs:extension base="xs:anyType"/>
+        <xs:extension base="xs:anyType">
+          <xs:attribute ref="codify:value" use="optional" />
+        </xs:extension>
       </xs:complexContent>
     </xs:complexType>
   </xs:element>
@@ -17,7 +20,7 @@
     <xs:complexType>
       <xs:complexContent mixed="true">
         <xs:extension base="xs:anyType">
-          <xs:attribute name="doc" type="xs:string" use="optional"/>
+          <xs:attributeGroup ref="targetAttributes" />
           <xs:attribute name="type" use="required">
             <xs:simpleType>
               <xs:restriction base="xs:string">
@@ -51,6 +54,7 @@
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
+          <xs:attribute ref="codify:value" use="optional" />
         </xs:extension>
       </xs:complexContent>
     </xs:complexType>
@@ -61,6 +65,7 @@
         <xs:element ref="text"/>
         <xs:element ref="annotation"/>
       </xs:choice>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="citation">
@@ -69,6 +74,7 @@
         <xs:extension base="xs:string">
           <xs:attribute name="type" type="xs:string"/>
           <xs:attribute name="url" type="xs:string" use="optional"/>
+          <xs:attribute ref="codify:value" use="optional" />
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
@@ -82,6 +88,17 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="cite">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="root" type="xs:string" use="optional"/>
+          <xs:attributeGroup ref="targetAttributes"/>
+          <xs:attribute ref="codify:value" use="optional" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="collection">
     <xs:complexType>
       <xs:sequence>
@@ -91,6 +108,7 @@
         <xs:element ref="document" minOccurs="0" maxOccurs="unbounded"/>
       </xs:sequence>
       <xs:attribute name="name" type="xs:string" use="required"/>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="congressReview">
@@ -98,13 +116,15 @@
       <xs:sequence>
         <xs:element name="lawEffectiveDate" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="container">
     <xs:complexType>
       <xs:sequence>
         <xs:sequence>
-          <xs:element name="prefix" type="xs:string"/>
+          <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
+          <xs:element ref="prefix"/>
           <xs:element ref="num"/>
           <xs:element ref="heading"/>
         </xs:sequence>
@@ -114,9 +134,11 @@
           <xs:element ref="section"/>
           <xs:element ref="container"/>
         </xs:choice>
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
       </xs:sequence>
       <xs:attribute name="containing-doc" type="xs:string" use="optional"/>
       <xs:attribute name="enacted" type="xs:boolean" use="optional"/>
+      <xs:attributeGroup ref="codify:allAttributes" />
     </xs:complexType>
   </xs:element>
   <xs:element name="details">
@@ -127,23 +149,43 @@
         <xs:element ref="votingSummary" maxOccurs="unbounded"/>
         <xs:element ref="legislation"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="document">
     <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="num" minOccurs="0" maxOccurs="unbounded"/>
-        <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
-        <xs:element ref="meta" minOccurs="0" maxOccurs="1"/>
-        <xs:choice maxOccurs="unbounded">
-          <xs:element ref="ns0:include" minOccurs="0"/>
-          <xs:element ref="container"/>
-          <xs:element ref="section" minOccurs="0"/>
-          <xs:element name="subheading" type="xs:string"/>
-        </xs:choice>
-      </xs:sequence>
+      <xs:choice>
+        <xs:sequence>                   <!-- index.xml -->
+          <xs:element ref="heading" maxOccurs="unbounded"/>
+          <xs:element ref="meta"/>
+          <xs:sequence minOccurs="0">
+            <xs:choice maxOccurs="unbounded">
+              <xs:element ref="ns0:include"/>
+              <xs:element ref="container"/>
+              <xs:element ref="section"/>
+              <xs:element name="subheading" type="xs:string"/>
+            </xs:choice>
+          </xs:sequence>
+        </xs:sequence>
+        <xs:sequence>                   <!-- laws & code -->
+          <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
+          <xs:element ref="num" maxOccurs="unbounded"/>
+          <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="meta" minOccurs="0"/>
+          <xs:sequence minOccurs="0">   <!-- code -->
+            <xs:choice maxOccurs="unbounded">
+              <xs:element ref="ns0:include"/>
+              <xs:element ref="container"/>
+              <xs:element ref="section"/>
+              <xs:element name="subheading" type="xs:string"/>
+            </xs:choice>
+            <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:sequence>
+      </xs:choice>
       <xs:attribute name="id" type="xs:string" use="required"/>
       <xs:attribute name="flag" type="xs:boolean" use="optional"/>
+      <xs:attributeGroup ref="codify:allAttributes" />
     </xs:complexType>
   </xs:element>
   <xs:element name="emergency">
@@ -152,6 +194,7 @@
         <xs:element name="law" type="xs:string"/>
         <xs:element name="effective" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="federal">
@@ -160,15 +203,16 @@
         <xs:element name="law" type="xs:string"/>
         <xs:element name="effective" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="heading">
-    <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="xs:string">
-          <xs:attribute name="type" type="xs:string" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="cite" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="type" type="xs:string" use="optional"/>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="history">
@@ -179,6 +223,7 @@
         <xs:element name="summary" type="xs:string" minOccurs="0"/>
       </xs:sequence>
       <xs:attribute name="url" type="xs:string" use="optional"/>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="include">
@@ -199,6 +244,18 @@
         <xs:element name="law" type="xs:string"/>
         <xs:element name="effective" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="law-cite">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="root" type="xs:string" use="optional"/>
+          <xs:attributeGroup ref="targetAttributes"/>
+          <xs:attribute ref="codify:value" use="optional" />
+        </xs:extension>
+      </xs:simpleContent>
     </xs:complexType>
   </xs:element>
   <xs:element name="legislation">
@@ -206,6 +263,7 @@
       <xs:sequence>
         <xs:element name="committeeReferral" type="xs:string"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="library">
@@ -218,6 +276,7 @@
           <xs:element ref="document" minOccurs="0" maxOccurs="unbounded"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="mayorReview">
@@ -225,6 +284,7 @@
       <xs:sequence>
         <xs:element name="enactedDate" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="meta">
@@ -242,6 +302,7 @@
       <xs:simpleContent>
         <xs:extension base="xs:string">
           <xs:attribute name="type" type="xs:string" use="optional"/>
+          <xs:attribute ref="codify:value" use="optional" />
         </xs:extension>
       </xs:simpleContent>
     </xs:complexType>
@@ -249,15 +310,21 @@
   <xs:element name="para">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="num" minOccurs="0"/>
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
+        <xs:element ref="prefix" minOccurs="0"/>
+        <xs:element ref="num" minOccurs="1"/>
         <xs:element ref="heading" minOccurs="0"/>
         <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="include" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
       </xs:sequence>
+      <xs:attributeGroup ref="codify:allAttributes" />
     </xs:complexType>
   </xs:element>
+  <xs:element name="prefix" type="xs:string"/>
+  <xs:element name="reason" type="xs:string"/>
   <xs:element name="recency">
     <xs:complexType>
       <xs:sequence>
@@ -265,27 +332,46 @@
         <xs:element ref="emergency"/>
         <xs:element ref="federal"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
   <xs:element name="section">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="reason" type="xs:string" minOccurs="0"/>
-        <xs:element ref="num" minOccurs="0"/>
-        <xs:element ref="heading" minOccurs="0"/>
-        <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
-        <xs:element ref="include" minOccurs="0"/>
-        <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
-        <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
-        <xs:element ref="annotations" minOccurs="0"/>
+        <xs:choice>
+          <xs:sequence>   <!-- 1st section -->
+            <xs:element ref="reason" minOccurs="0"/>
+            <xs:group ref="sectionContents" />
+          </xs:sequence>
+          <xs:sequence>   <!-- remaining sections -->
+            <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
+            <xs:element ref="num" />
+            <xs:element ref="reason" minOccurs="0"/>
+            <xs:group ref="sectionContents" />
+            <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:choice>
       </xs:sequence>
       <xs:attribute name="containing-doc" type="xs:string" use="optional"/>
+      <xs:attributeGroup ref="codify:allAttributes" />
     </xs:complexType>
   </xs:element>
+  <xs:group name="sectionContents">
+    <xs:sequence>
+      <xs:element ref="heading" minOccurs="0"/>
+      <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="include" minOccurs="0"/>
+      <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="annotations" minOccurs="0"/>
+    </xs:sequence>
+  </xs:group>
   <xs:element name="text">
     <xs:complexType>
       <xs:complexContent mixed="true">
-        <xs:extension base="xs:anyType"/>
+        <xs:extension base="xs:anyType">
+          <xs:attribute ref="codify:value" use="optional" />
+        </xs:extension>
       </xs:complexContent>
     </xs:complexType>
   </xs:element>
@@ -295,6 +381,11 @@
         <xs:element name="readingDescription" type="xs:string"/>
         <xs:element name="dateOfVote" type="xs:date"/>
       </xs:sequence>
+      <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
+  <xs:attributeGroup name="targetAttributes">
+    <xs:attribute name="doc" type="xs:string" use="optional"/>
+    <xs:attribute name="path" type="xs:string" use="optional"/>
+  </xs:attributeGroup>
 </xs:schema>
