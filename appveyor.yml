@@ -32,7 +32,7 @@ before_build:
   - 7z e xcore-win.zip -oxcore-win
   - ps: cd dc-law-xml/
   # run the tests here (instead of AppVeyor's "test" phase, which runs *after* the "build" phase)
-  - ..\xcore-win\console . schemas\dc-library.xsd
+  - ..\xcore-win\console . {https://code.dccouncil.us/schemas/dc-library}xmlns {https://code.dccouncil.us/schemas/codified}codified {https://code.dccouncil.us/schemas/codify}codify
   # now install the tools and codified files prior to codifying
   - git clone --depth 1 git@github.com:openlawlibrary/dc-law-tools.git ..\dc-law-tools
   - git clone --depth 1 --no-single-branch git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
