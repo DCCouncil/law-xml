@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns="https://code.dccouncil.us/schemas/dc-library"
+           xmlns:codified="https://code.dccouncil.us/schemas/codified"
            xmlns:codify="https://code.dccouncil.us/schemas/codify"
            xmlns:ns0="http://www.w3.org/2001/XInclude"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -126,6 +127,7 @@
           <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
           <xs:element ref="prefix"/>
           <xs:element ref="num"/>
+          <xs:element ref="codified:at" minOccurs="0" />
           <xs:element ref="heading"/>
         </xs:sequence>
         <xs:choice maxOccurs="unbounded">
@@ -170,6 +172,7 @@
         <xs:sequence>                   <!-- laws & code -->
           <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
           <xs:element ref="num" maxOccurs="unbounded"/>
+          <xs:element ref="codified:at" minOccurs="0" />
           <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
           <xs:element ref="meta" minOccurs="0"/>
           <xs:sequence minOccurs="0">   <!-- code -->
@@ -313,6 +316,7 @@
         <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
         <xs:element ref="prefix" minOccurs="0"/>
         <xs:element ref="num" minOccurs="1"/>
+        <xs:element ref="codified:at" minOccurs="0" />
         <xs:element ref="heading" minOccurs="0"/>
         <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="include" minOccurs="0" maxOccurs="unbounded"/>
@@ -340,12 +344,14 @@
       <xs:sequence>
         <xs:choice>
           <xs:sequence>   <!-- 1st section -->
+            <xs:element ref="codified:at" minOccurs="0" />
             <xs:element ref="reason" minOccurs="0"/>
             <xs:group ref="sectionContents" />
           </xs:sequence>
           <xs:sequence>   <!-- remaining sections -->
             <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
             <xs:element ref="num" />
+            <xs:element ref="codified:at" minOccurs="0" />
             <xs:element ref="reason" minOccurs="0"/>
             <xs:group ref="sectionContents" />
             <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
