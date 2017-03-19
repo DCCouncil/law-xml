@@ -2,7 +2,7 @@
 <xs:schema xmlns="https://code.dccouncil.us/schemas/dc-library"
            xmlns:codified="https://code.dccouncil.us/schemas/codified"
            xmlns:codify="https://code.dccouncil.us/schemas/codify"
-           xmlns:ns0="http://www.w3.org/2001/XInclude"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified"
            targetNamespace="https://code.dccouncil.us/schemas/dc-library">
@@ -104,9 +104,16 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="heading"/>
-        <xs:element ref="ns0:include" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="xi:include" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="document" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:sequence minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="subheading" type="xs:string"/>
+          <xs:element ref="xi:include" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="document" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
       </xs:sequence>
       <xs:attribute name="name" type="xs:string" use="required"/>
       <xs:attribute ref="codify:value" use="optional" />
@@ -127,11 +134,11 @@
           <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
           <xs:element ref="prefix"/>
           <xs:element ref="num"/>
-          <xs:element ref="codified:at" minOccurs="0" />
           <xs:element ref="heading"/>
+          <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
         </xs:sequence>
         <xs:choice maxOccurs="unbounded">
-          <xs:element ref="ns0:include" minOccurs="0"/>
+          <xs:element ref="xi:include" minOccurs="0"/>
           <xs:element name="subheading" type="xs:string"/>
           <xs:element ref="section"/>
           <xs:element ref="container"/>
@@ -159,12 +166,14 @@
       <xs:choice>
         <xs:sequence>                   <!-- index.xml -->
           <xs:element ref="heading" maxOccurs="unbounded"/>
+          <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
           <xs:element ref="meta"/>
           <xs:sequence minOccurs="0">
             <xs:choice maxOccurs="unbounded">
-              <xs:element ref="ns0:include"/>
+              <xs:element ref="xi:include"/>
               <xs:element ref="container"/>
               <xs:element ref="section"/>
+              <xs:element ref="para"/>
               <xs:element name="subheading" type="xs:string"/>
             </xs:choice>
           </xs:sequence>
@@ -172,14 +181,15 @@
         <xs:sequence>                   <!-- laws & code -->
           <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
           <xs:element ref="num" maxOccurs="unbounded"/>
-          <xs:element ref="codified:at" minOccurs="0" />
+          <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
           <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
           <xs:element ref="meta" minOccurs="0"/>
           <xs:sequence minOccurs="0">   <!-- code -->
             <xs:choice maxOccurs="unbounded">
-              <xs:element ref="ns0:include"/>
+              <xs:element ref="xi:include"/>
               <xs:element ref="container"/>
               <xs:element ref="section"/>
+              <xs:element ref="para"/>
               <xs:element name="subheading" type="xs:string"/>
             </xs:choice>
             <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
@@ -274,7 +284,7 @@
       <xs:sequence>
         <xs:element ref="heading"/>
         <xs:choice minOccurs="1" maxOccurs="unbounded">
-          <xs:element ref="ns0:include" minOccurs="0"/>
+          <xs:element ref="xi:include" minOccurs="0"/>
           <xs:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
           <xs:element ref="document" minOccurs="0" maxOccurs="unbounded"/>
         </xs:choice>
@@ -316,7 +326,7 @@
         <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
         <xs:element ref="prefix" minOccurs="0"/>
         <xs:element ref="num" minOccurs="1"/>
-        <xs:element ref="codified:at" minOccurs="0" />
+        <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
         <xs:element ref="heading" minOccurs="0"/>
         <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="include" minOccurs="0" maxOccurs="unbounded"/>
@@ -344,14 +354,14 @@
       <xs:sequence>
         <xs:choice>
           <xs:sequence>   <!-- 1st section -->
-            <xs:element ref="codified:at" minOccurs="0" />
+            <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
             <xs:element ref="reason" minOccurs="0"/>
             <xs:group ref="sectionContents" />
           </xs:sequence>
           <xs:sequence>   <!-- remaining sections -->
             <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
             <xs:element ref="num" />
-            <xs:element ref="codified:at" minOccurs="0" />
+            <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
             <xs:element ref="reason" minOccurs="0"/>
             <xs:group ref="sectionContents" />
             <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
