@@ -5,6 +5,7 @@
   <transform>
     <![CDATA[
     <codify:annotation type="{% if containing_doc.meta.temporary %}Temporary{% else %}Emergency{% endif %} Legislation"
-     action="{{ attributes.action }}" {{attributes|set_attribute('doc')}} {{attributes|set_attribute('path')}} />]]>
+     action="{{ attributes.action }}" {{attributes|set_attribute('doc')}} {{attributes|set_attribute('path')}} />
+     ]]>
   </transform>
 </codify:temporary>
