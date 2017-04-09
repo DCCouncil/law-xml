@@ -142,8 +142,8 @@
           <xs:element name="subheading" type="xs:string"/>
           <xs:element ref="section"/>
           <xs:element ref="container"/>
+          <xs:any namespace="https://code.dccouncil.us/schemas/codify"/>
         </xs:choice>
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
       </xs:sequence>
       <xs:attribute name="containing-doc" type="xs:string" use="optional"/>
       <xs:attribute name="enacted" type="xs:boolean" use="optional"/>
@@ -192,8 +192,8 @@
               <xs:element ref="section"/>
               <xs:element ref="para"/>
               <xs:element name="subheading" type="xs:string"/>
+              <xs:any namespace="https://code.dccouncil.us/schemas/codify"/>
             </xs:choice>
-            <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
           </xs:sequence>
         </xs:sequence>
       </xs:choice>
