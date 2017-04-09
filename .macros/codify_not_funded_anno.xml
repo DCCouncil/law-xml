@@ -1,0 +1,14 @@
+<codify:not-funded-anno xmlns:codify="https://code.dccouncil.us/schemas/codify">
+  <attribute name="doc" required="false"/>
+  <attribute name="path" required="false"/>
+  <attribute name="applicability-path" required="true"/>
+  <transform>
+        <![CDATA[
+        {% set applicability_target = doc.resolve_path(attributes.applicability_path) %}
+        <codify:annotation codify:applicability="effective" type="Editor's Notes" {{ target|ref }}>
+          <law-cite {{ applicability_target|ref }}>{{ applicability_target.citations.short }}</law-cite> provided that the change made to this section by <law-cite {{ section|ref }}>{{ section.citations.short }}</law-cite> subject to the inclusion of the law’s fiscal effect in an approved budget and financial plan. Therefore that amendment has not been given effect.
+        </codify:annotation>
+        ]]>
+  </transform>
+</codify:not-funded-anno>
+
