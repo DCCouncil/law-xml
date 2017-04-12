@@ -3,12 +3,12 @@
   <attribute name="path" required="false"/>
   <attribute name="applicability-path" required="true"/>
   <transform>
-        <![CDATA[
-        {% set applicability_target = doc.resolve_path(attributes.applicability_path) %}
-        <codify:annotation codify:applicability="effective" type="Editor's Notes" {{ target|ref }}>
-          <cite {{ applicability_target|ref }}>{{ applicability_target.citations.short }}</cite> provided that the change made to this section by <cite {{ section|ref }}>{{ section.citations.short }}</cite> subject to the inclusion of the law’s fiscal effect in an approved budget and financial plan. Therefore that amendment has not been given effect.
-        </codify:annotation>
-        ]]>
+    <![CDATA[
+      {% set applicability_target = doc.resolve_path(attributes.applicability_path) %}
+      <codify:annotation codify:applicability="effective" type="Editor's Notes" {{ target|ref }}>
+        <cite {{ applicability_target|ref }}>{{ applicability_target.citations.short }}</cite> provided that the change made to this section by <cite {{ section|ref }}>{{ section.citations.short }}</cite> is subject to the inclusion of the law’s fiscal effect in an approved budget and financial plan. Therefore that amendment has not been given effect.
+      </codify:annotation>
+    ]]>
   </transform>
 </codify:not-funded-anno>
 
