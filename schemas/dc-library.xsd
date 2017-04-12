@@ -131,7 +131,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:sequence>
-          <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
+          <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
           <xs:element ref="prefix"/>
           <xs:element ref="num"/>
           <xs:element ref="heading"/>
@@ -180,7 +180,7 @@
           </xs:sequence>
         </xs:sequence>
         <xs:sequence>                   <!-- laws & code -->
-          <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
+          <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
           <xs:element ref="num" maxOccurs="unbounded"/>
           <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
           <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
@@ -264,17 +264,6 @@
       <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
-  <xs:element name="law-cite">
-    <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="xs:string">
-          <xs:attribute name="root" type="xs:string" use="optional"/>
-          <xs:attributeGroup ref="targetAttributes"/>
-          <xs:attribute ref="codify:value" use="optional" />
-        </xs:extension>
-      </xs:simpleContent>
-    </xs:complexType>
-  </xs:element>
   <xs:element name="legislation">
     <xs:complexType>
       <xs:sequence>
@@ -327,7 +316,7 @@
   <xs:element name="para">
     <xs:complexType>
       <xs:sequence>
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
         <xs:element ref="prefix" minOccurs="0"/>
         <xs:element ref="num" minOccurs="1"/>
         <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
@@ -361,7 +350,7 @@
             <xs:group ref="sectionContents" />
           </xs:sequence>
           <xs:sequence>   <!-- remaining sections -->
-            <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" />
+            <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
             <xs:element ref="num" />
             <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
             <xs:element ref="reason" minOccurs="0"/>
