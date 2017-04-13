@@ -405,7 +405,10 @@
         <xs:element ref="prefix" minOccurs="0" />
         <xs:element ref="num" />
         <xs:element ref="heading" />
-        <xs:element ref="tocSection" maxOccurs="unbounded" />
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="tocContainer"/>
+          <xs:element ref="tocSection"/>
+        </xs:choice>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
