@@ -8,7 +8,7 @@ _master_:
 
 _development_: 
 * dc-law-xml: [![Build status](https://ci.appveyor.com/api/projects/status/l9vfnxerqha83s03/branch/development?svg=true)](https://ci.appveyor.com/project/oll-team/dc-law-xml/branch/development)
-* dc-law-xml-codified: [![Build status](https://ci.appveyor.com/api/projects/status/wb6trqoafekw8qka/branch/master?svg=true)](https://ci.appveyor.com/project/oll-team/dc-law-xml-codified/branch/development)
+* dc-law-xml-codified: [![Build status](https://ci.appveyor.com/api/projects/status/wb6trqoafekw8qka/branch/development?svg=true)](https://ci.appveyor.com/project/oll-team/dc-law-xml-codified/branch/development)
 
 
 # Branches
