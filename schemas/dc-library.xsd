@@ -390,36 +390,32 @@
   <xs:element name="toc">
     <xs:complexType>
       <xs:sequence>
-        <xs:choice>
-          <xs:element ref="tocContainer" />
-          <xs:element ref="tocSection" maxOccurs="unbounded" />
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="container" type="tocContainer" />
+          <xs:element name="section" type="tocSection"/>
         </xs:choice>
       </xs:sequence>
       <xs:attribute name="containing-doc" type="xs:string" use="optional"/>
       <xs:attributeGroup ref="codify:allAttributes" />
     </xs:complexType>
   </xs:element>
-  <xs:element name="tocContainer">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="prefix" minOccurs="0" />
-        <xs:element ref="num" />
-        <xs:element ref="heading" />
-        <xs:choice maxOccurs="unbounded">
-          <xs:element ref="tocContainer"/>
-          <xs:element ref="tocSection"/>
-        </xs:choice>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="tocSection">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="num" />
-        <xs:element ref="heading" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+  <xs:complexType name="tocContainer">
+    <xs:sequence>
+      <xs:element ref="prefix" minOccurs="0" />
+      <xs:element ref="num" />
+      <xs:element ref="heading" />
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="container" type="tocContainer"/>
+        <xs:element name="section" type="tocSection"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="tocSection">
+    <xs:sequence>
+      <xs:element ref="num" />
+      <xs:element ref="heading" />
+    </xs:sequence>
+  </xs:complexType>
   <xs:element name="votingSummary">
     <xs:complexType>
       <xs:sequence>
