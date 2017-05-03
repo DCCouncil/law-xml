@@ -44,7 +44,10 @@
         <para>
           <num>(B)</num>
           <text>Paragraph (3) is amended by striking the phrase "sections 2350 and 2353" and inserting the phrase "section 2353" in its place.</text>
-          <codify:find-replace path="(3)" count="1" find="sections 2350 and 2353" replace="section 2353"/> 
+          <codify:find-replace path="(3)" count="1">
+            <find>§§ <cite path="§2-218.50">2-218.50</cite> and <cite path="§2-218.53">2-218.53</cite></find>
+            <replace><code-cite  doc="D.C. Law 16-33" path="§2353">section 2353</code-cite></replace>
+          </codify:find-replace> 
         </para>
       </para>
       <para codify:path="(c)">
@@ -74,7 +77,10 @@
       <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended by striking the phrase "sections 2350 and 2353" and inserting the phrase "section 2353" in its place.</text>
-        <codify:find-replace count="1" find="sections 2350 and 2353" replace="section 2353"/>
+        <codify:find-replace path="(3)" count="1">
+            <find>§§ <cite path="§2-218.50">2-218.50</cite> and <cite path="§2-218.53">2-218.53</cite></find>
+            <replace><code-cite  doc="D.C. Law 16-33" path="§2353">section 2353</code-cite></replace>
+          </codify:find-replace>
       </para>
     </para>
     <para codify:path="§4">
