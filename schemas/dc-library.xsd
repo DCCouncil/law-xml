@@ -6,8 +6,12 @@
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified"
            targetNamespace="https://code.dccouncil.us/schemas/dc-library">
+  <xs:import namespace="https://code.dccouncil.us/schemas/codified"
+             schemaLocation="codified.xsd"/>
+  <xs:import namespace="https://code.dccouncil.us/schemas/codify"
+             schemaLocation="codify.xsd"/>
   <xs:import namespace="http://www.w3.org/2001/XInclude"
-             schemaLocation="https://www.w3.org/2001/XInclude/XInclude.xsd"/>
+             schemaLocation="XInclude.xsd"/>
   <xs:element name="aftertext">
     <xs:complexType>
       <xs:complexContent mixed="true">
