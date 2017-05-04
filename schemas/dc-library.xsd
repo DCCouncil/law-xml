@@ -75,7 +75,6 @@
     <xs:complexType>
       <xs:simpleContent>
         <xs:extension base="xs:string">
-          <xs:attribute name="technical" type="xs:string" use="optional"/>
           <xs:attribute name="type" type="xs:string"/>
           <xs:attribute name="url" type="xs:string" use="optional"/>
           <xs:attribute ref="codify:value" use="optional" />
@@ -214,7 +213,7 @@
   <xs:element name="emergency">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="law" type="technicalString"/>
+        <xs:element name="law" type="xs:string"/>
         <xs:element name="effective" type="xs:date"/>
       </xs:sequence>
       <xs:attribute ref="codify:value" use="optional" />
@@ -223,7 +222,7 @@
   <xs:element name="federal">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="law" type="technicalString"/>
+        <xs:element name="law" type="xs:string"/>
         <xs:element name="effective" type="xs:date"/>
       </xs:sequence>
       <xs:attribute ref="codify:value" use="optional" />
@@ -245,7 +244,6 @@
     <xs:complexType>
       <xs:complexContent mixed="true">
         <xs:extension base="xs:anyType">
-          <xs:attribute name="technical" type="xs:string" use="optional"/>
           <xs:attribute name="url" type="xs:string" use="optional"/>
           <xs:attribute ref="codify:value" use="optional" />
         </xs:extension>
@@ -277,7 +275,7 @@
   <xs:element name="legislation">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="committeeReferral" type="technicalString"/>
+        <xs:element name="committeeReferral" type="xs:string"/>
       </xs:sequence>
       <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
@@ -306,7 +304,7 @@
   <xs:element name="meta">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="effective" type="technicalString" minOccurs="0"/>
+        <xs:element name="effective" type="xs:string" minOccurs="0"/>
         <xs:element name="temporary" type="xs:string" minOccurs="0"/>
         <xs:element ref="recency" minOccurs="0"/>
         <xs:element ref="citations" minOccurs="0"/>
@@ -435,7 +433,7 @@
   <xs:element name="votingSummary">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="readingDescription" type="technicalString"/>
+        <xs:element name="readingDescription" type="xs:string"/>
         <xs:element name="dateOfVote" type="xs:date"/>
       </xs:sequence>
       <xs:attribute ref="codify:value" use="optional" />
