@@ -1,0 +1,13 @@
+<codify:temporary xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <attribute name="doc" required="false"/>
+  <attribute name="path" required="false"/>
+  <attribute name="action" default="amendment of this section"/>
+  <transform>
+    <![CDATA[
+      {% set anno_type = 'Temporary Legislation' if doc.meta.temporary else 'Emergency Legislation' %} 
+      {% set days = '225' if doc.meta.temprorary else '90' %}
+      <codify:annotation type="{{ anno_type }}" {{ attributes|set_attribute('doc', 'path') }}>For temporary ({{ days }} day) {{ attributes.action }}, see {{ parent.citations.full }}.</codify:annotation>
+    ]]>
+  </transform>
+</codify:temporary>
+
