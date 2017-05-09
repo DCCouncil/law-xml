@@ -4,10 +4,7 @@
   <attribute name="action" default="amendment of this section"/>
   <transform>
     <![CDATA[
-      {% set anno_type = 'Temporary Legislation' if doc.meta.temporary else 'Emergency Legislation' %} 
-      {% set days = '225' if doc.meta.temprorary else '90' %}
-      <codify:annotation type="{{ anno_type }}" {{ attributes|set_attribute('doc', 'path') }}>For temporary ({{ days }} day) {{ attributes.action }}, see {{ parent.citations.full }}.</codify:annotation>
+      <codify:annotation type="Temporary Legislation" {{ attributes|set_attribute('doc', 'path') }}>For temporary (225 days) {{ attributes.action }}, see {{ parent.citations.full }}.</codify:annotation>
     ]]>
   </transform>
 </codify:temporary>
-
