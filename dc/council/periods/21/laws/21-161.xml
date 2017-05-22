@@ -54,6 +54,7 @@
         <text>A new paragraph (9) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(9)</num>
             <text>"Symbolic name" means a ceremonial name given to an alley or street, or portion thereof, or other public space that is in addition and subordinate to its official name.</text>
           </para>
@@ -61,12 +62,13 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§401">
       <num>(b)</num>
       <text>Section 401 (D.C. Official Code § 9-204.01) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Paragraph (4) is amended by striking the phrase "Part B" and inserting the phrase "Subtitle B" in its place.</text>
+        <codify:find-replace path="(4)" find="part B" replace="Subtitle B" count="1"/>
       </para>
       <para>
         <num>(2)</num>
