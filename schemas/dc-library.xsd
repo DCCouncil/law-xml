@@ -136,10 +136,10 @@
       <xs:sequence>
         <xs:sequence>
           <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
           <xs:element ref="prefix"/>
           <xs:element ref="num"/>
           <xs:element ref="heading"/>
-          <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
         </xs:sequence>
         <xs:choice maxOccurs="unbounded">
           <xs:element ref="xi:include" minOccurs="0"/>
@@ -171,8 +171,8 @@
     <xs:complexType>
       <xs:choice>
         <xs:sequence>                   <!-- index.xml -->
-          <xs:element ref="heading" maxOccurs="unbounded"/>
           <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
+          <xs:element ref="heading" maxOccurs="unbounded"/>
           <xs:element ref="meta"/>
           <xs:sequence minOccurs="0">
             <xs:choice maxOccurs="unbounded">
@@ -187,9 +187,9 @@
         </xs:sequence>
         <xs:sequence>                   <!-- laws & code -->
           <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
+          <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
           <xs:element ref="num" maxOccurs="unbounded"/>
           <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
-          <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
           <xs:element ref="meta" minOccurs="0"/>
           <xs:sequence minOccurs="0">   <!-- code -->
             <xs:choice maxOccurs="unbounded">
