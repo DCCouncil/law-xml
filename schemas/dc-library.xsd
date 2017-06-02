@@ -169,41 +169,24 @@
 
   <xs:element name="document">
     <xs:complexType>
-      <xs:choice>
-        <xs:sequence>                   <!-- index.xml -->
-          <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
-          <xs:element ref="heading" maxOccurs="unbounded"/>
-          <xs:element ref="meta"/>
-          <xs:sequence minOccurs="0">
-            <xs:choice maxOccurs="unbounded">
-              <xs:element ref="xi:include"/>
-              <xs:element ref="container"/>
-              <xs:element ref="section"/>
-              <xs:element ref="para"/>
-              <xs:element name="subheading" type="xs:string"/>
-              <xs:element ref="toc" minOccurs="0" />
-            </xs:choice>
-          </xs:sequence>
+      <xs:sequence>                   <!-- laws & code -->
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="num" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="meta" minOccurs="0"/>
+        <xs:sequence minOccurs="0">
+          <xs:choice maxOccurs="unbounded">
+            <xs:element ref="xi:include"/>
+            <xs:element ref="container"/>
+            <xs:element ref="section"/>
+            <xs:element ref="para"/>
+            <xs:element name="subheading" type="xs:string"/>
+            <xs:element ref="toc" minOccurs="0" />
+            <xs:any namespace="https://code.dccouncil.us/schemas/codify"/>
+          </xs:choice>
         </xs:sequence>
-        <xs:sequence>                   <!-- laws & code -->
-          <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
-          <xs:element ref="codified:at" minOccurs="0" maxOccurs="unbounded" />
-          <xs:element ref="num" maxOccurs="unbounded"/>
-          <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
-          <xs:element ref="meta" minOccurs="0"/>
-          <xs:sequence minOccurs="0">   <!-- code -->
-            <xs:choice maxOccurs="unbounded">
-              <xs:element ref="xi:include"/>
-              <xs:element ref="container"/>
-              <xs:element ref="section"/>
-              <xs:element ref="para"/>
-              <xs:element name="subheading" type="xs:string"/>
-              <xs:element ref="toc" minOccurs="0" />
-              <xs:any namespace="https://code.dccouncil.us/schemas/codify"/>
-            </xs:choice>
-          </xs:sequence>
-        </xs:sequence>
-      </xs:choice>
+      </xs:sequence>
       <xs:attribute name="id" type="xs:string" use="required"/>
       <xs:attribute name="flag" type="xs:boolean" use="optional"/>
       <xs:attribute name="url" type="xs:string" use="optional"/>
