@@ -4,7 +4,7 @@
   <attribute name="action" default="amendment of this section"/>
   <transform>
     <![CDATA[
-      <codify:annotation history="false" type="Temporary Legislation" {{ attributes|set_attribute('doc', 'path') }}>For temporary (225 days) {{ attributes.action }}, see {{ parent.citations.full }}.</codify:annotation>
+      <codify:annotation history="false" type="Temporary Legislation" {{ attributes|set_attribute('doc', 'path') }}>For temporary (225 days) {{ attributes.action }}, see <cite {{ parent|ref }}>{{ parent.citations.full }}</cite>.</codify:annotation>
     ]]>
   </transform>
 </codify:temporary>

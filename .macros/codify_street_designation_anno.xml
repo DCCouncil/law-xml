@@ -3,7 +3,7 @@
   <transform>
     <![CDATA[
       <codify:annotation doc="D.C. Law 4-201" path="§401" history="false" type="Editor's Notes">
-        {{ doc.heading }}, {{ doc.meta.citations.law }}, provided that "{{ attributes.action }}"
+        {{ doc.heading }}, <cite {{ doc|ref }}>{{ doc.meta.citations.law }}</cite>, provided that "{{ attributes.action }}"
       </codify:annotation>
     ]]>
   </transform>

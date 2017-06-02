@@ -26,7 +26,7 @@
   <section>
     <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Bicycle and Pedestrian Safety Amendment Act of 2016".</text>
   </section>
-  <codify:insert doc="D.C. Code" history="false" path="50" after="19A">
+  <codify:insert doc="D.C. Code" path="50" after="19A" history="false">
     <container>
       <prefix>Chapter</prefix>
       <num>19B</num>
@@ -39,7 +39,7 @@
     <num>I</num>
     <heading>OPEN ACCESS TO DATA AND INFORMATION</heading>
     <section>
-      <codify:insert num-value="50-1951.01" history="true"/>
+      <codify:insert num-value="50-1951.01"/>
       <num>101</num>
       <heading>Definitions.</heading>
       <text>For the purposes of this title, the term:</text>
@@ -61,7 +61,7 @@
       </para>
     </section>
     <section>
-      <codify:insert num-value="50-1951.02" history="true"/>
+      <codify:insert num-value="50-1951.02"/>
       <num>102</num>
       <heading>Publication of collision data.</heading>
       <para>
@@ -696,18 +696,20 @@
     <prefix>TITLE</prefix>
     <num>VI</num>
     <heading>MOTOR VEHICLE SAFETY</heading>
-    <section>
+    <section codify:doc="D.C. Code" codify:path="§47-2829|(e)|(2)|(A)">
       <num>601</num>
       <text>Section 47-2829(e)(2)(A) of the District of Columbia Official Code is amended as follows:</text>
       <para>
         <num>(a)</num>
         <text>The lead-in language is amended by striking the phrase "the training course shall be designed" and inserting the phrase "the training course and any refresher course provided by the Department of For-Hire Vehicles shall be designed" in its place.</text>
+        <codify:find-replace path="text" find="the training course shall be designed" replace="the training course and any refresher course provided by the Department of For-Hire Vehicles shall be designed" count="1"/>
       </para>
       <para>
         <num>(b)</num>
         <text>Sub-subparagraph (iii) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace path="(iii)"/>
             <num>(iii)</num>
             <text>District traffic laws and regulations and the penalties for violating these laws and regulations, including:</text>
             <para>
@@ -727,11 +729,12 @@
         <aftertext>.</aftertext>
       </para>
     </section>
-    <section>
+    <section codify:doc="D.C. Law 20-197" codify:path="§20f-2">
       <num>602</num>
       <text>Section 20f-2 of the Department of For-Hire Vehicles Establishment Act of 1985, effective March 10, 2015 (D.C. Law 20-197; D.C. Official Code § 50-301.25b), is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <num>20f-2</num>
           <heading>Training of employees and operators.</heading>
           <para>
@@ -767,6 +770,8 @@
       <aftertext>.</aftertext>
     </section>
     <section>
+      <codify:annotation doc="D.C. Law 2-104" type="Editor's Note" path="§201">For requirement of the submission of a report and recommendations as to whether the District should implement a remediation and deferred disposition program, see <cite doc="D.C. Law 21-155" path="§603">§ 603 of D.C. Law 21-155</cite>.
+      </codify:annotation>
       <num>603</num>
       <heading>Study of remediation and deferred disposition program.</heading>
       <text>Before July 1, 2017, the Mayor shall transmit to the chairperson of the Council committee with oversight of transportation a report and recommendations as to whether the District should implement a remediation and deferred disposition program for individuals that commit moving or nonmoving infractions in the District. The report shall include the following:</text>
@@ -791,7 +796,15 @@
         <text>If the Mayor recommends implementing a remediation and deferred disposition program, the report shall include a detailed description of the content of any proposed safety course provided in the program, the process by which a person would participate in the program, and the alternatives available to participants in lieu of paying a fine or being assessed points.</text>
       </para>
     </section>
+    <codify:insert doc="D.C. Code" path="|50|22" after="II" history="false">
+      <container>
+        <prefix>Subchapter</prefix>
+        <num>IIA</num>
+        <heading>Aggressive Driving.</heading>
+      </container>
+    </codify:insert>
     <section>
+      <codify:insert num-value="50-2204.01"/>
       <num>604</num>
       <heading>Aggressive driving.</heading>
       <para>
@@ -856,18 +869,20 @@
         </text>
       </para>
     </section>
-    <section>
+    <section codify:doc="D.C. Law 17-352" codify:path="§2">
       <num>605</num>
       <text>The Bicycle Safety Enhancement Amendment Act of 2008, effective March 25, 2009 (D.C. Law 17-352; D.C. Official Code § 50-205), is amended as follows:</text>
       <para>
         <num>(a)</num>
         <text>The section heading is amended by striking the phrase "District-owned,".</text>
+        <codify:find-replace path="heading" find="District-owned," replace="" count="1"/>
       </para>
       <para>
         <num>(b)</num>
         <text>New subsections (a-1) and (a-2) are added to read as follows:</text>
         <include>
           <para>
+          <codify:insert after="(a)"/>
             <num>(a-1)</num>
             <text>Effective January 1, 2017, all heavy-duty vehicles registered in the District shall be equipped with the following:</text>
             <para>
@@ -880,6 +895,7 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(a-1)"/>
             <num>(a-2)</num>
             <text>Effective January 1, 2019, all heavy-duty vehicles registered in the District shall be equipped with side-underrun guards to prevent bicyclists, other vehicles, or pedestrians from sliding under rear wheels.</text>
           </para>
@@ -888,15 +904,18 @@
       </para>
     </section>
     <section>
+      <codify:annotation doc="D.C. Law 7-34" type="Editor's Note" path="§2">For requirement of the submission of a report and recommendations as to whether the DC Circulator buses and District-owned, heavy-duty vehicles should be equipped with pedestrian-alert technologies, see <cite doc="D.C. Law 21-155" path="§606">§ 606 of D.C. Law 21-155</cite>.
+      </codify:annotation>
       <num>606</num>
       <heading>Audible warnings from public sector large vehicles.</heading>
       <text>By July 1, 2017, the Mayor shall transmit to the chairperson of the Council committee with oversight of transportation a report and recommendation as to whether DC Circulator buses and District-owned, heavy-duty vehicles should be equipped with pedestrian-alert technologies. The report shall review best practices in other jurisdiction and examine issues such as cost, implementation, and feasibility, and shall provide a timeline for implementation, if the Mayor recommends using this technology.</text>
     </section>
-    <section>
+    <section codify:doc="Stat. 68-2-ch443" codify:path="§9b">
       <num>607</num>
       <text>Section 9b of the District of Columbia Traffic Act, 1925, effective April 5, 2005 (D.C. Law. 15-289; D.C. Official Code § 50-2201.04b), is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <num>9b</num>
           <heading>All-terrain vehicles and dirt bikes.</heading>
           <para>
@@ -937,11 +956,17 @@
       </include>
       <aftertext>.</aftertext>
     </section>
-    <section>
+    <section codify:doc="D.C. Law 20-278" codify:path="§101|(4)">
       <num>608</num>
       <text>Section 101(4) of the Civil Asset Forfeiture Amendment Act of 2014, effective June 16, 2015 (D.C. Law 20-278; D.C. Official Code § 41-301(4)), is amended by striking the phrase "or section 4 of the District of Columbia Revenue Act of 1937, approved August 17, 1937 (50 Stat. 682; D.C. Official Code § 50-1501.04)" and inserting the phrase "section 4 of the District of Columbia Revenue Act of 1937, approved August 17, 1937 (50 Stat. 682; D.C. Official Code § 50-1501.04), or section 9b of the District of Columbia Traffic Act, 1925, effective April 5, 2005 (D.C. Law 15-289; D.C. Official Code § 50-2201.04b)" in its place.</text>
+      <codify:find-replace count="1">
+        <find>or § <cite path="§50-1501.04">50-1501.04</cite></find>
+        <replace>§ <cite path="§50-1501.04">50-1501.04</cite>, or § <cite path="§50-2201.04b">50-2201.04b</cite></replace>
+      </codify:find-replace>
     </section>
     <section>
+      <codify:annotation doc="D.C. Law 2-104" type="Editor's Note" path="§201">For requirement of the submission of a report and recommendations as to whether emergency vehicles should be equipped with cameras to better enforce regulations associated with the failure to yield to emergency vehicles, see <cite doc="D.C. Law 21-155" path="§609">§ 609 of D.C. Law 21-155</cite>.
+      </codify:annotation>
       <num>609</num>
       <heading>Emergency vehicle enforcement cameras.</heading>
       <text>By July 1, 2017, the Mayor shall transmit to the chairperson of the Council committee with oversight of transportation and the chairperson of the Council committee with oversight of public safety a report and recommendation as to whether emergency vehicles should be equipped with cameras to better enforce regulations associated with the failure to yield to emergency vehicles. The report shall also review best practices in other jurisdictions and examine issues related to equipping emergency vehicles with cameras, such as cost, implementation, accident prevention, and feasibility. If the Mayor recommends equipping emergency vehicles with cameras, the report shall provide a timeline for implementing the use of such cameras.</text>
@@ -951,11 +976,12 @@
     <prefix>TITLE</prefix>
     <num>VII</num>
     <heading>DRUNK DRIVING</heading>
-    <section>
+    <section codify:doc="Stat. 68-2-ch443" codify:path="§10a">
       <num>701</num>
       <text>Section 10a of the District of Columbia Traffic Act, 1925, effective April 3, 2001 (D,C. Law 13-238; D.C. Official Code § 50-2201.05a), is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <num>10a</num>
           <heading>Establishment of Ignition Interlock System Program.</heading>
           <para>
@@ -1028,16 +1054,16 @@
       </include>
       <aftertext>.</aftertext>
     </section>
-    <section>
+    <section codify:doc="D.C. Law 4-145">
       <num>702</num>
-      <text>The Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.01 
-        <em>et seq.</em>), is amended as follows:
+      <text>The Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.01 <em>et seq.</em>), is amended as follows:
       </text>
       <para>
         <num>(a)</num>
         <text>Section 3d (D.C. Official Code § 50-2206.13) is amended by adding a new subsection (d-1) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§3d" after="(d)"/>
             <num>(d-1)</num>
             <para>
               <num>(1)</num>
@@ -1056,6 +1082,7 @@
         <text>Section 3f (D.C. Official Code § 50-2206.15) is amended by adding a new subsection (c-1) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§3f" after="(c)"/>
             <num>(c-1)</num>
             <para>
               <num>(1)</num>
@@ -1069,18 +1096,20 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§3t">
         <num>(c)</num>
         <text>Section 3t (D.C. Official Code § 50-2206.55) is amended as follows:</text>
         <para>
           <num>(1)</num>
           <text>Subsection (a) is amended by striking the phrase "The Mayor or his or her designated agent" and inserting the phrase "Except as provided in subsection (a-1) of this section, the Mayor or his or her designated agent" in its place.</text>
+          <codify:find-replace path="(a)" find="The Mayor or his or her designated agent" replace="Except as provided in subsection (a-1) of this section, the Mayor or his or her designated agent" count="1"/>
         </para>
         <para>
           <num>(2)</num>
           <text>A new subsection (a-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(a)"/>
               <num>(a-1)</num>
               <para>
                 <num>(1)</num>
@@ -1102,24 +1131,39 @@
       <text>Within 180 days after the effective date of the Bicycle and Pedestrian Safety Amendment Act of 2016, passed on 2nd reading on June 28, 2016 (Enrolled version of Bill 21-335), the Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 
         <em>et seq.</em>), shall issue rules to implement the provisions of this title.
       </text>
+      <codify:annotation doc="D.C. Code" type="Editor's Note" path="§50-1951.01">For requirement of the issuance of rules to implement title 7 of Law 21-155, see <cite doc="D.C. Law 21-155" path="§703">§ 703 of D.C. Law 21-155</cite>.
+      </codify:annotation>
+      <codify:annotation doc="D.C. Code" type="Editor's Note" path="§50-2361">For requirement of the issuance of rules to implement title 7 of Law 21-155, see <cite doc="D.C. Law 21-155" path="§703">§ 703 of D.C. Law 21-155</cite>.
+      </codify:annotation>
+      <codify:annotation doc="D.C. Code" type="Editor's Note" path="§50-2371">For requirement of the issuance of rules to implement title 7 of Law 21-155, see <cite doc="D.C. Law 21-155" path="§703">§ 703 of D.C. Law 21-155</cite>.
+      </codify:annotation>
+      <codify:annotation doc="D.C. Code" type="Editor's Note" path="§50-531">For requirement of the issuance of rules to implement title 7 of Law 21-155, see <cite doc="D.C. Law 21-155" path="§703">§ 703 of D.C. Law 21-155</cite>.
+      </codify:annotation>
+      <codify:annotation doc="D.C. Code" type="Editor's Note" path="§50-2204">For requirement of the issuance of rules to implement title 7 of Law 21-155, see <cite doc="D.C. Law 21-155" path="§703">§ 703 of D.C. Law 21-155</cite>.
+      </codify:annotation>
     </section>
     <section>
       <num>704</num>
       <heading>Applicability.</heading>
       <text>Sections 701 and 702(c) shall apply upon the issuance of rules by the Mayor pursuant to section 703.</text>
+      <codify:annotation doc="D.C. Code" type="Editor's Note" path="§50-2201.05a">For requirement that section 701 of Law 21-155 shall apply upon the issuance of mayoral rules, see <cite doc="D.C. Law 21-155" path="§704">§ 704 of D.C. Law 21-155</cite>.
+      </codify:annotation>
+      <codify:annotation doc="D.C. Code" type="Editor's Note" path="§50-2201.05a">For requirement that section 702(c) of Law 21-155 shall apply upon the issuance of mayoral rules, see <cite doc="D.C. Law 21-155" path="§704">§ 704 of D.C. Law 21-155</cite>.
+      </codify:annotation>
     </section>
   </container>
   <container>
     <prefix>TITLE</prefix>
     <num>VIII</num>
     <heading>MAJOR CRASH REVIEW</heading>
-    <section>
+    <section codify:doc="D.C. Law 11-198" codify:path="IX">
       <num>801</num>
-      <text>Title IX of the Fiscal Year 1997 Budget Support Act of 1996, effective April 9, 1997 (D.C. Law 11-198; D.C. Official Code § 50-2209.01 
-        <em>et seq.</em>), is amended by adding a new section 904 to read as follows:
+      <text>Title IX of the Fiscal Year 1997 Budget Support Act of 1996, effective April 9, 1997 (D.C. Law 11-198; D.C. Official Code § 50-2209.01 <em>et seq.</em>), is amended by adding a new section 904 to read as follows:
       </text>
       <include>
         <section>
+          <codify:insert/>
+          <codify:insert doc="D.C. Code" num-value="50-2209.04"/>
           <num>904</num>
           <heading>Access to automated traffic enforcement and District-owned camera photographs and video footage.</heading>
           <para>
