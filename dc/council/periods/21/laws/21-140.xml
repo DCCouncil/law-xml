@@ -88,12 +88,7 @@
         <para>
           <num>(A)</num>
           <text>The existing text is designated as paragraph (1).</text>
-          <codify:replace path="text">
-            <para>
-              <num>(1)</num>
-              <text>The absence of a minor covered by § <cite path="§38-202">38-202</cite>(a) without valid excuse shall be unlawful.</text>
-            </para>
-          </codify:replace>  
+          <codify:redesignate-para num-value="(1)"/>
         </para>
         <para>
           <num>(B)</num>
@@ -214,8 +209,8 @@
           <para>
             <num>(ii)</num>
             <text>Subparagraph (B) is amended as follows:</text>
-            <para>	
-              <num>(I)</num> 
+            <para>
+              <num>(I)</num>
               <text>Strike the phrase "Beginning in the 2013-2014 school year" and insert the phrase "Beginning in the 2016-2017 school year" in its place.</text>
               <codify:find-replace path="(B)" count="1" find="Beginning in the 2013-2014 school year" replace="Beginning in the 2016-2017 school year"/>
             </para>
@@ -231,7 +226,7 @@
           <text>A new subparagraph (C) is added to read as follows:</text>
           <include>
             <para>
-            <codify:insert path="(1)" technical="this should be (B)(iii)"/>
+              <codify:insert path="(1)" technical="this should be (B)(iii)"/>
               <num>(C)</num>
               <text>The educational institution shall have discretion with regard to the referral requirements set forth in subparagraphs (A) and (B) of this paragraph if a minor student accrues the 10th or 15th unexcused absence, respectively, within the final 10 school days of a school year.</text>
             </para>
@@ -246,7 +241,7 @@
           <para>
             <codify:insert/>
             <num>(d)</num>
-            <text>By July 1 of each year, the State Superintendent of Education shall send written notice to each educational institution outlining the attendance and reporting requirements outlined in <code-cite >this act</code-cite>.</text>
+            <text>By July 1 of each year, the State Superintendent of Education shall send written notice to each educational institution outlining the attendance and reporting requirements outlined in <code-cite>this act</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
