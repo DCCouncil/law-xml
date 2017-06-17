@@ -1,0 +1,18 @@
+<codify:insert-code-container xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <attribute name="path" required="false"/>
+  <attribute name="after" required="false"/>
+  <attribute name="prefix" required="true"/>
+  <attribute name="num" required="true"/>
+  <attribute name="heading" required="true"/>
+  <transform>
+    <![CDATA[
+      <codify:insert doc="D.C. Code" {{ attributes|set_attribute('path', 'after') }}>
+        <container>
+          <prefix>{{ attributes.prefix }}</prefix>
+          <num>{{ attributes.num }}</num>
+          <heading>{{ attributes.heading }}</heading>
+        </container>
+      </codify:insert>
+    ]]>
+  </transform>
+</codify:insert-code-container>
