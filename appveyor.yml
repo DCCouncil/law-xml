@@ -37,7 +37,8 @@ before_build:
   - ..\xcore-win\console . {https://code.dccouncil.us/schemas/dc-library}xmlns {https://code.dccouncil.us/schemas/codified}codified {https://code.dccouncil.us/schemas/codify}codify
   # now install the tools and codified files prior to codifying
   - git clone --depth 1 --branch issue-17 git@github.com:openlawlibrary/open-law-us-dc.git ..\open-law-us-dc
-  - git clone --depth 1 --no-single-branch git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
+  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified ||
+    git clone --depth 1 git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
   # use or create a branch in dc-law-xml-codified with the same name
   - git -C ..\dc-law-xml-codified fetch origin %appveyor_repo_branch% &&
     git -C ..\dc-law-xml-codified checkout %appveyor_repo_branch% ||
@@ -58,7 +59,8 @@ build_script:
 after_build:
   # install the tools and HTML files prior to building the HTML
   - git clone --depth 1 git@github.com:openlawlibrary/dc-law-static.git ..\dc-law-static
-  - git clone --depth 1 --no-single-branch git@github.com:dccouncil/dc-law-html.git ..\dc-law-html
+  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-html.git ..\dc-law-html ||
+    git clone --depth 1 git@github.com:dccouncil/dc-law-html.git ..\dc-law-html
   # use or create a branch in dc-law-html with the same name
   - git -C ..\dc-law-html fetch origin %appveyor_repo_branch% &&
     git -C ..\dc-law-html checkout %appveyor_repo_branch% ||
