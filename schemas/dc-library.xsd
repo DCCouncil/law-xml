@@ -182,6 +182,7 @@
           <!-- code -->
           <xs:choice maxOccurs="unbounded">
             <xs:element ref="xi:include"/>
+            <xs:element ref="page"/>
             <xs:element ref="container"/>
             <xs:element ref="section"/>
             <xs:element ref="para"/>
@@ -195,6 +196,12 @@
       <xs:attribute name="flag" type="xs:boolean" use="optional"/>
       <xs:attribute name="url" type="xs:string" use="optional"/>
       <xs:attributeGroup ref="codify:allAttributes" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="page">
+    <xs:complexType>
+      <xs:attribute name="citation" type="xs:string" use="required"/>
     </xs:complexType>
   </xs:element>
 
