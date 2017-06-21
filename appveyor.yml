@@ -51,8 +51,21 @@ before_build:
   - cd ..\dc-law-xml
 
 build_script:
+  - cd ..\open-law-us-dc
+  - "%PYTHON%\\python.exe appveyor\\build codify"
+  - cd ..\dc-law-xml
+
+after_build:
+  # install the tools and HTML files prior to building the HTML
+  - git clone --depth 1 git@github.com:openlawlibrary/dc-law-static.git ..\dc-law-static
+  - git clone --depth 1 --no-single-branch git@github.com:dccouncil/dc-law-html.git ..\dc-law-html
+  # use or create a branch in dc-law-html with the same name
+  - git -C ..\dc-law-html fetch origin %appveyor_repo_branch% &&
+    git -C ..\dc-law-html checkout %appveyor_repo_branch% ||
+    git -C ..\dc-law-html checkout -b %appveyor_repo_branch%
+  # build HTML
   - cd ..\open-law-us-dc\appveyor
-  - "%PYTHON%\\python.exe build codify"
+  - "%PYTHON%\\python.exe build html all"
   - cd ..\..\dc-law-xml
 
 test_script:
@@ -61,4 +74,10 @@ test_script:
 skip_tags: true   # don't create builds for tags (only for branches)
 
 deploy_script:
-  - "%PYTHON%\\python.exe -u ..\\open-law-us-dc\\appveyor\\deploy.py"
+  - >
+    %PYTHON%\\python.exe -u ..\\open-law-us-dc\\appveyor\\deploy.py
+    --target-dir ..\dc-law-xml-codified
+  - >
+    %PYTHON%\\python.exe -u ..\\open-law-us-dc\\appveyor\\deploy.py
+    --source-dir ..\dc-law-xml-codified
+    --target-dir ..\dc-law-html
