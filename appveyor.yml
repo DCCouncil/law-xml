@@ -36,16 +36,16 @@ before_build:
   # run the tests here (instead of AppVeyor's "test" phase, which runs *after* the "build" phase)
   - ..\xcore-win\console . {https://code.dccouncil.us/schemas/dc-library}xmlns {https://code.dccouncil.us/schemas/codified}codified {https://code.dccouncil.us/schemas/codify}codify
   # now install the tools and codified files prior to codifying
-  - git clone --depth 1 --branch issue-17 git@github.com:openlawlibrary/open-law-us-dc.git ..\open-law-us-dc
   - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified ||
     git clone --depth 1 git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
   # use or create a branch in dc-law-xml-codified with the same name
   - git -C ..\dc-law-xml-codified fetch origin %appveyor_repo_branch% &&
     git -C ..\dc-law-xml-codified checkout %appveyor_repo_branch% ||
     git -C ..\dc-law-xml-codified checkout -b %appveyor_repo_branch%
-  # open-law-us-dc has some requirements that must be installed before building
+  # install open-law-us-dc
   - "%PYTHON%\\python.exe -m pip install wheel"
-  - "%PYTHON%\\python.exe -m pip install -e ..\\open-law-us-dc --process-dependency-links"
+  - "%PYTHON%\\python.exe -m pip install -e git+ssh://git@github.com/openlawlibrary/open-law-core#egg=olcore"
+  - "%PYTHON%\\python.exe -m pip install -e git+ssh://git@github.com/openlawlibrary/open-law-us-dc#egg=ol_us_dc"
   # install the tools and HTML files prior to building the HTML
   - git clone --depth 1 git@github.com:openlawlibrary/dc-law-static.git ..\dc-law-static
   - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-html.git ..\dc-law-html ||
@@ -68,10 +68,10 @@ skip_tags: true   # don't create builds for tags (only for branches)
 
 deploy_script:
   - >
-    %PYTHON%\\python.exe -u ..\\open-law-us-dc\\appveyor\\deploy.py
+    %PYTHON%\\python.exe -u src\\ol-us-dc\\appveyor\\deploy.py
     --target-dir ..\dc-law-xml-codified
   - >
-    %PYTHON%\\python.exe -u ..\\open-law-us-dc\\appveyor\\deploy.py
+    %PYTHON%\\python.exe -u src\\ol-us-dc\\appveyor\\deploy.py
     --source-dir ..\dc-law-xml-codified
     --target-dir ..\dc-law-html
     --append-version
