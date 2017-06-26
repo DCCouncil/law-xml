@@ -123,6 +123,7 @@
       <xs:attribute ref="codify:value" use="optional" />
     </xs:complexType>
   </xs:element>
+
   <xs:element name="congressReview">
     <xs:complexType>
       <xs:sequence>
@@ -191,6 +192,7 @@
             <xs:any namespace="https://code.dccouncil.us/schemas/codify"/>
           </xs:choice>
         </xs:sequence>
+        <xs:element ref="annotation" minOccurs="0" maxOccurs="unbounded"/>
       </xs:sequence>
       <xs:attribute name="id" type="xs:string" use="required"/>
       <xs:attribute name="flag" type="xs:boolean" use="optional"/>
@@ -328,6 +330,7 @@
         <xs:element ref="include" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="annotation" minOccurs="0" maxOccurs="unbounded"/>
         <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded" />
       </xs:sequence>
       <xs:attributeGroup ref="codify:allAttributes" />
@@ -377,6 +380,7 @@
       <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element ref="annotations" minOccurs="0"/>
+      <xs:element ref="annotation" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:group>
   <xs:element name="text">

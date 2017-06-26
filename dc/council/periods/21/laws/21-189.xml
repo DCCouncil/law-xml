@@ -28,18 +28,16 @@
     <para>
       <num>(a)</num>
       <text>Redesignate paragraph (1) as paragraph (1A).</text>
-      <para>
-        <codify:insert doc="D.C. Code" path="§7-741.01" after="(1)"/>
+      <codify:replace doc="D.C. Code" path="§7-741.01|(1)|num">
         <num>(1A)</num>
-        <text>“Enclosed area” means all the space between a floor and ceiling that is enclosed on all sides by solid walls or windows or doors, exclusive of doorways, that extend from the floor to the ceiling.</text>
-      </para>
+      </codify:replace>
     </para>
     <para>
       <num>(b)</num>
       <text>A new paragraph (1) is added to read as follows:</text>
       <include>
         <para>
-          <codify:replace doc="D.C. Code" path="§7-741.01|(1)"/>
+          <codify:insert doc="D.C. Code" path="§7-741.01" before="(1A)"/>
           <num>(1)</num>
           <text>"Electronic smoking device" means any product, including one composed of a heating element, battery, or electronic circuit, that contains or delivers nicotine or any other substance intended for human consumption that can be used by a person to simulate smoking through inhalation of vapor or aerosol from the product. The term "electronic smoking device" includes any such product, regardless of whether it is manufactured, distributed, marketed, or sold as an e-cigarette, e-cigar, e-pipe, e-hookah, vape pen, or by any other product name or descriptor.</text>
         </para>
@@ -51,7 +49,7 @@
       <text>Paragraph (4) is amended to read as follows:</text>
       <include>
         <para>
-        <codify:replace doc="D.C. Code" path="§7-741.01|(4)"/>
+          <codify:replace doc="D.C. Code" path="§7-741.01|(4)"/>
           <num>(4)</num>
           <text>"Smoking" means the inhaling, exhaling, burning, or carrying of a lightedor heated cigar, cigarette, pipe, electronic smoking device, or any other tobacco or plant product intended for human consumption through inhalation, in any manner or in any form.</text>
         </para>
