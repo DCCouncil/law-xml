@@ -1,8 +1,5 @@
-<document 
-  xmlns="https://code.dccouncil.us/schemas/dc-library" 
-  xmlns:codified="https://code.dccouncil.us/schemas/codified" 
-  xmlns:codify="https://code.dccouncil.us/schemas/codify" 
-  xmlns:xi="http://www.w3.org/2001/XInclude" id="D.C. Law 21-195">
+<?xml version='1.0' encoding='utf-8'?>
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" id="D.C. Law 21-195">
   <num type="law">21-195</num>
   <num type="bill">21-736</num>
   <num type="act">21-549</num>
@@ -30,7 +27,7 @@
     <text>Section 22 of the Vital Records Act of 1981, effective October 8, 1981 (D.C. Law 4-34; D.C. Official Code § 7-221), is amended by adding a new subsection (c) to read as follows:</text>
     <include>
       <para>
-      <codify:insert doc="D.C. Code" path="§7-221" after="(b)"/>
+        <codify:insert doc="D.C. Code" path="§7-221" after="(b)"/>
         <num>(c)</num>
         <para>
           <num>(1)</num>
@@ -41,6 +38,7 @@
           <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="|2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement paragraph (1) of this subsection.
           </text>
         </para>
+        <codify:not-funded-anno applicability-path="§5"/>
       </para>
     </include>
     <aftertext>.</aftertext>
@@ -72,12 +70,12 @@
           <text>New sub-subparagraphs (ii) and (iii) are added to read as follows:</text>
           <include>
             <para>
-          <codify:insert after="(i)"/>
+              <codify:insert after="(i)"/>
               <num>(ii)</num>
               <text>The fee described in sub-subparagraph (i) of this subparagraph shall be waived for an individual whose gross annual income is equal to or less than 200% of the federal poverty guideline.</text>
             </para>
             <para>
-            <codify:insert after="(ii)"/>
+              <codify:insert after="(ii)"/>
               <num>(iii)</num>
               <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="|2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement sub-subparagraph (ii) of this subparagraph.
               </text>
@@ -142,12 +140,12 @@
           <text>New sub-subparagraphs (ii) and (iii) are added to read as follows:</text>
           <include>
             <para>
-            <codify:insert after="(i)"/>
+              <codify:insert after="(i)"/>
               <num>(ii)</num>
               <text>The fee described in sub-subparagraph (i) of this subparagraph shall be waived for an individual whose gross annual income is equal to or less than 200% of the federal poverty guideline.</text>
             </para>
             <para>
-            <codify:insert after="(ii)"/>
+              <codify:insert after="(ii)"/>
               <num>(iii)</num>
               <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="|2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement sub-subparagraph (ii) of this subparagraph.
               </text>
@@ -156,6 +154,7 @@
           <aftertext>.</aftertext>
         </para>
       </para>
+      <codify:not-funded-anno applicability-path="§4"/>
     </para>
     <para codify:doc="D.C. Code" codify:path="§50-1401.03|(a)">
       <num>(b)</num>
@@ -171,11 +170,12 @@
           <para>
             <num>(B)</num>
             <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="|2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement subparagraph (A) of this paragraph.
-            </text>                    
+            </text>
           </para>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno applicability-path="§4"/>
     </para>
     <para codify:doc="D.C. Code" codify:path="§50-1401.05">
       <num>(c)</num>
@@ -193,7 +193,7 @@
         <text>A new subsection (i) is added to read as follows:</text>
         <include>
           <para>
-          <codify:insert after="(h)"/>
+            <codify:insert after="(h)"/>
             <num>(i)</num>
             <para>
               <num>(1)</num>
@@ -208,6 +208,7 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno applicability-path="§4"/>
     </para>
   </section>
   <section>
@@ -216,6 +217,10 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 21-195" path="§2" date="pending" history="false"/>
+      <codify:applicability doc="D.C. Law 21-195" path="§3|(a)" date="pending" history="false"/>
+      <codify:applicability doc="D.C. Law 21-195" path="§3|(b)" date="notfunded" history="false"/>
+      <codify:applicability doc="D.C. Law 21-195" path="§3|(c)" date="notfunded" history="false"/>
     </para>
     <para>
       <num>(b)</num>
