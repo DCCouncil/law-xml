@@ -26,7 +26,7 @@ before_build:
   # clone the repos needed prior to codifying and building the HTML
   - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified ||
     git clone --depth 1 git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
-  - git clone --depth 1 git@github.com:openlawlibrary/dc-law-static.git ..\dc-law-static
+  - git clone --depth 1 --branch test-17 git@github.com:openlawlibrary/dc-law-static.git ..\dc-law-static
   - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-html.git ..\dc-law-html ||
     git clone --depth 1 git@github.com:dccouncil/dc-law-html.git ..\dc-law-html
   # use or create a branch in dc-law-xml-codified with the same name
@@ -40,7 +40,7 @@ before_build:
   # install open-law-us-dc
   - "%PYTHON%\\python.exe -m pip install wheel"
   - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-core#egg=olcore"
-  - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-us-dc#egg=ol_us_dc"
+  - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-us-dc@test-17#egg=ol_us_dc"
   # print out the git commits for each repo
   - git -C ..\dc-law-xml-codified rev-parse HEAD
   - git -C ..\dc-law-static rev-parse HEAD
