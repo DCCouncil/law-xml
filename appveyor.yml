@@ -66,11 +66,5 @@ test_script:
 skip_tags: true   # don't create builds for tags (only for branches)
 
 deploy_script:
-  - >
-    %PYTHON%\\python.exe -u src\\ol-us-dc\\appveyor\\deploy.py
-    --target-dir ..\dc-law-xml-codified
-  - >
-    %PYTHON%\\python.exe -u src\\ol-us-dc\\appveyor\\deploy.py
-    --source-dir ..\dc-law-xml-codified
-    --target-dir ..\dc-law-html
-    --append-version
+  - "%PYTHON%\\python.exe -u -m ol_us_dc deploy . ..\\dc-law-xml-codified"
+  - "%PYTHON%\\python.exe -u -m ol_us_dc deploy ..\\dc-law-xml-codified ..\\dc-law-html --append"
