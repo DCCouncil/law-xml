@@ -45,14 +45,20 @@ before_build:
   - git -C ..\dc-law-xml-codified fetch origin %appveyor_repo_branch% &&
     git -C ..\dc-law-xml-codified checkout %appveyor_repo_branch% ||
     git -C ..\dc-law-xml-codified checkout -b %appveyor_repo_branch%
-  # install open-law-us-dc
-  - "%PYTHON%\\python.exe -m pip install wheel"
-  - "%PYTHON%\\python.exe -m pip install -e git+ssh://git@github.com/openlawlibrary/open-law-core#egg=olcore"
-  - "%PYTHON%\\python.exe -m pip install -e git+ssh://git@github.com/openlawlibrary/open-law-us-dc#egg=ol_us_dc"
   # use or create a branch in dc-law-html with the same name
   - git -C ..\dc-law-html fetch origin %appveyor_repo_branch% &&
     git -C ..\dc-law-html checkout %appveyor_repo_branch% ||
     git -C ..\dc-law-html checkout -b %appveyor_repo_branch%
+  # install open-law-us-dc
+  - "%PYTHON%\\python.exe -m pip install wheel"
+  - "%PYTHON%\\python.exe -m pip install -e git+ssh://git@github.com/openlawlibrary/open-law-core#egg=olcore"
+  - "%PYTHON%\\python.exe -m pip install -e git+ssh://git@github.com/openlawlibrary/open-law-us-dc#egg=ol_us_dc"
+  # print out the git commits for each repo
+  - git -C ..\dc-law-xml-codified rev-parse HEAD
+  - git -C ..\dc-law-static rev-parse HEAD
+  - git -C ..\dc-law-html rev-parse HEAD
+  - git -C src\olcore rev-parse HEAD
+  - git -C src\ol-us-dc rev-parse HEAD
 
 build_script:
   - >
