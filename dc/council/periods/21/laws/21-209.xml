@@ -302,6 +302,7 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+     <codify:not-funded-anno applicability-path="§4"/> 
     </para>
     <para codify:path="§7-1671.03">
       <num>(c)</num>
@@ -512,7 +513,10 @@
           <para codify:path="(ii)">
             <num>(ii)</num>
             <text>Sub-subparagraph (ii) is amended by striking the phrase "physician's recommendation" and inserting the phrase "authorized practitioner's recommendation" in its place.</text>
-            <codify:repeal/>
+            <codify:find-replace count="1">
+              <find>physician's recommendation</find>
+              <replace>authorized practitioner's recommendation</replace>
+            </codify:find-replace>
           </para>
         </para>
       </para>
@@ -749,6 +753,7 @@
           </codify:find-replace>
         </para>
       </para>
+      <codify:not-funded-anno applicability-path="§4"/>
     </para>
     <para codify:path="§7-1671.06">
       <num>(f)</num>
@@ -1066,8 +1071,7 @@
   </section>
   <section codify:doc="D.C. Code">
     <num>3</num>
-    <text>The District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01
-      <em> et seq.</em>), is amended as follows:
+    <text>The District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01 <em> et seq.</em>), is amended as follows:
     </text>
     <para codify:path="§3-1202.01">
       <num>(a)</num>
@@ -1192,6 +1196,9 @@
     <para>
       <num>(a)</num>
       <text>Sections 2(b)(3), (e)(2)(B)(i), and (e)(5)(B)(i) shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 21-209" path="§2|(b)|(3)" date="notfunded" history="false"/>
+      <codify:applicability doc="D.C. Law 21-209" path="§2|(e)|(2)|(B)|(i)" date="pending" history="false"/>
+      <codify:applicability doc="D.C. Law 21-209" path="§2|(e)|(5)|(B)|(i)" date="pending" history="false"/>
     </para>
     <para>
       <num>(b)</num>

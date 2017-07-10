@@ -15,9 +15,7 @@
       <vote date="2016-10-11" reading="First"/>
       <vote date="2016-11-01" reading="Final"/>
       <enacted>2016-12-07</enacted>
-      <summary>Law 21-208 permits a voter to register as a qualified elector with the Board of Elections (Board) by applying for identification from the Department of Motor Vehicles (DMV); makes changes to the application form for DMV issued identification; and requires the DMV to transmit electronic records to the Board for each citizen that consents to register electronically. 
-
-FUNDING NOTE - This law is Subject to Appropriations. See Fiscal Impact Statement in "Other Documents" tab.</summary>
+      <summary>Law 21-208 permits a voter to register as a qualified elector with the Board of Elections (Board) by applying for identification from the Department of Motor Vehicles (DMV); makes changes to the application form for DMV issued identification; and requires the DMV to transmit electronic records to the Board for each citizen that consents to register electronically.</summary>
       <committee>Committee on Judiciary</committee>
     </history>
   </meta>
@@ -224,7 +222,7 @@ FUNDING NOTE - This law is Subject to Appropriations. See Fiscal Impact Statemen
                 </para>
                 <para>
                   <num>(ii)</num>
-                  <text>Shall not constitute a violation of section 14; and</text>
+                  <text>Shall not constitute a violation of <code-cite doc="D.C. Code" path="§1-1001.14">section 14</code-cite>; and</text>
                 </para>
                 <para>
                   <num>(iii)</num>
@@ -233,7 +231,7 @@ FUNDING NOTE - This law is Subject to Appropriations. See Fiscal Impact Statemen
               </para>
               <para>
                 <num>(B)</num>
-                <text>If a person who is not a qualified elector becomes registered to vote under this subsection and votes or attempts to vote in an election held after the effective date of that person's voter registration, that person shall not be in violation of section 14 or held civilly or criminally liable for voting, unless that person votes or attempts to vote knowing that he or she is not a qualified elector.</text>
+                <text>If a person who is not a qualified elector becomes registered to vote under this subsection and votes or attempts to vote in an election held after the effective date of that person's voter registration, that person shall not be in violation of <code-cite doc="D.C. Code" path="§1-1001.14">section 14</code-cite> or held civilly or criminally liable for voting, unless that person votes or attempts to vote knowing that he or she is not a qualified elector.</text>
               </para>
             </para>
           </include>
@@ -341,7 +339,7 @@ FUNDING NOTE - This law is Subject to Appropriations. See Fiscal Impact Statemen
           <text>Subparagraph (C) is amended by striking the phrase "only within the polling place assigned by the Board before election day" and inserting the phrase "at the polling place serving the current residence address or the accessible polling place assigned by the Board pursuant to section 9(b)(3)" in its place.</text>
           <codify:find-replace count="1">
             <find>only within the polling place assigned by the Board before election day</find>
-            <replace>at the polling place serving the current residence address or the accessible polling place assigned by the Board pursuant to section 9(b)(3)</replace>
+            <replace>at the polling place serving the current residence address or the accessible polling place assigned by the Board pursuant to <code-cite doc="D.C. Code" path="§1-1001.09|(b)|(3)">section 9(b)(3)</code-cite></replace>
           </codify:find-replace>
         </para>
       </para>
@@ -364,21 +362,32 @@ FUNDING NOTE - This law is Subject to Appropriations. See Fiscal Impact Statemen
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno applicability-path="§5" action="except for §2(5),any change made to"/>
     </para>
     <para>
       <num>(b)</num>
       <text>Section 9(b)(3) (D.C. Official Code § 1-1001.09(b)(3)) is amended by striking the phrase "Except pursuant to section 7(i)(4), no" and inserting the phrase "No" in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§1-1001.09|(b)|(3)" count="1">
+        <find>Except pursuant to § <cite path="§1-1001.07">1-1001.07</cite>(i)(4), no</find>
+        <replace>No</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
     <num>3</num>
     <text>Section 106(b) of the District of Columbia Uniform Military and Overseas Voters Act of 2012, effective June 5, 2012 (D.C. Law 19-137; D.C. Official Code § 1-1061.06(b)), is amended by striking the number "30" and inserting the number "21" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§1-1061.06|(b)" count="1">
+      <find>30</find>
+      <replace>21</replace>
+    </codify:find-replace>
+     <codify:not-funded-anno doc="D.C. Code" path="§1-1061.06" applicability-path="§5"/>
   </section>
   <section>
     <num>4</num>
     <text>The District of Columbia Traffic Act, 1925, approved March 3, 1925 (43 Stat. 1119; codified in scattered cites of the D.C. Official Code), is amended by adding a new section 7c to read as follows:</text>
     <include>
       <section>
+      <codify:insert doc="D.C. Code" path="|50|14|I" after="§50-1401.01b" num-value="50-1401.01c"/>
         <num>7c</num>
         <heading>Electronic transmission of voter registration information.</heading>
         <para>
@@ -432,6 +441,7 @@ FUNDING NOTE - This law is Subject to Appropriations. See Fiscal Impact Statemen
       </section>
     </include>
     <aftertext>.</aftertext>
+     <codify:not-funded-anno doc="D.C. Code" path="§50-1401.01c" applicability-path="§5" action="creation of"/>
   </section>
   <section>
     <num>5</num>
@@ -439,6 +449,13 @@ FUNDING NOTE - This law is Subject to Appropriations. See Fiscal Impact Statemen
     <para>
       <num>(a)</num>
       <text>Sections 2(a)(1), (2), (3), (4), and (6), and sections 3 and 4 shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability path="§2|(a)|(1)" date="pending" history="false"/>
+      <codify:applicability path="§2|(a)|(2)" date="pending" history="false"/>
+      <codify:applicability path="§2|(a)|(3)" date="pending" history="false"/>
+      <codify:applicability path="§2|(a)|(4)" date="pending" history="false"/>
+      <codify:applicability path="§2|(a)|(6)" date="notfunded" history="false"/>
+      <codify:applicability path="§3" date="pending" history="false"/>
+      <codify:applicability path="§4" date="notfunded" history="false"/>
     </para>
     <para>
       <num>(b)</num>
