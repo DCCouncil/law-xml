@@ -24,11 +24,16 @@ install:
 
 before_build:
   # clone the repos needed prior to codifying and building the HTML
-  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified ||
-    git clone --depth 1 git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
+  # - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified ||
+  #   git clone --depth 1 git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
   - git clone --depth 1 --branch test-17 git@github.com:openlawlibrary/dc-law-static.git ..\dc-law-static
-  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-html.git ..\dc-law-html ||
-    git clone --depth 1 git@github.com:dccouncil/dc-law-html.git ..\dc-law-html
+  # - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-html.git ..\dc-law-html ||
+  #   git clone --depth 1 git@github.com:dccouncil/dc-law-html.git ..\dc-law-html
+  # create new test-17 branches
+  - git clone --branch development git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
+  - git -C ..\dc-law-xml-codified branch -D test-17 && git -C ..\dc-law-xml-codified push -f origin :test-17 || git -C ..\dc-law-xml-codified rev-parse HEAD
+  - git clone --branch development git@github.com:dccouncil/dc-law-html.git ..\dc-law-html
+  - git -C ..\dc-law-html branch -D test-17 && git -C ..\dc-law-html push -f origin :test-17 || git -C ..\dc-law-html rev-parse HEAD
   # use or create a branch in dc-law-xml-codified with the same name
   - git -C ..\dc-law-xml-codified fetch origin %appveyor_repo_branch% &&
     git -C ..\dc-law-xml-codified checkout %appveyor_repo_branch% ||
