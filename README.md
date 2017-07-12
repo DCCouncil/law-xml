@@ -2,11 +2,9 @@
 
 District of Columbia law (statutes and code) in XML format.
 
-_master_: 
-* dc-law-xml: [![Build status](https://ci.appveyor.com/api/projects/status/l9vfnxerqha83s03/branch/master?svg=true)](https://ci.appveyor.com/project/oll-team/dc-law-xml/branch/master)
+_master_: [![Build status](https://ci.appveyor.com/api/projects/status/l9vfnxerqha83s03/branch/master?svg=true)](https://ci.appveyor.com/project/oll-team/dc-law-xml/branch/master)
 
-_development_: 
-* dc-law-xml: [![Build status](https://ci.appveyor.com/api/projects/status/l9vfnxerqha83s03/branch/development?svg=true)](https://ci.appveyor.com/project/oll-team/dc-law-xml/branch/development)
+_development_: [![Build status](https://ci.appveyor.com/api/projects/status/l9vfnxerqha83s03/branch/development?svg=true)](https://ci.appveyor.com/project/oll-team/dc-law-xml/branch/development)
 
 
 # Branches
