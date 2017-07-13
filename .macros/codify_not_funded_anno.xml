@@ -7,7 +7,7 @@
     <![CDATA[
       {% set applicability_target = doc.resolve_path(attributes.applicability_path) %}
       <codify:annotation codify:applicability="effective" type="Applicability" {{ attributes|set_attribute('doc', 'path', 'ref') }}>
-       Applicability of <cite {{ doc|ref }}>{{doc.meta.citations.law }}</cite>: <cite {{ applicability_target|ref }}>{{ applicability_target.citations.short }}</cite> provided that the {{ attributes.action }} this section by <cite {{ parent.nearest_ancestor_with_ref|ref }}>{{ parent.nearest_ancestor_with_ref.citations.short }}</cite> is subject to the inclusion of the law’s fiscal effect in an approved budget and financial plan. Therefore the change made to this section by that amendment has been delayed.
+       Applicability of <cite {{ doc|ref }}>{{doc.meta.citations.law }}</cite>: <cite {{ applicability_target|ref }}>{{ applicability_target.citations.short }}</cite> provided that the {{ attributes.action }} this section by <cite {{ parent.nearest_ancestor_with_ref|ref }}>{{ parent.nearest_ancestor_with_ref.citations.short }}</cite> is subject to the inclusion of the law’s fiscal effect in an approved budget and financial plan. Therefore that amendment has not been given effect as of {{ doc.meta.effective.formatted() }}.
       </codify:annotation>
     ]]>
   </transform>
