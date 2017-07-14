@@ -2511,20 +2511,21 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Executive Service Pay Schedule Amendment Act of 2016".</text>
       </section>
-      <section>
+      <section codify:doc="D.C. Law 2-139">
         <num>3022</num>
         <text>The District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-601.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§1052">
           <num>(a)</num>
           <text>Section 1052 (D.C. Official Code § 1-610.52) is amended as follows:</text>
-          <para>
+          <para codify:path="(b)">
             <num>(1)</num>
             <text>Subsection (b) is amended as follows:</text>
-            <para>
+            <para codify:path="(2)">
               <num>(A)</num>
               <text>Paragraph (2) is amended to read as follows:</text>
               <include>
                 <para>
+                  <codify:replace/>
                   <num>(2)</num>
                   <text>Notwithstanding paragraph (1) of this subsection, the Council approves a compensation level of</text>
                   <para>
@@ -2550,8 +2551,9 @@
             <para>
               <num>(B)</num>
               <text>Paragraph (2A) is repealed.</text>
+              <codify:repeal path="(2A)"/>
             </para>
-            <para>
+            <para codify:path="(3)">
               <num>(C)</num>
               <text>Paragraph (3) is amended as follows:</text>
               <para>
@@ -2562,6 +2564,10 @@
               <para>
                 <num>(ii)</num>
                 <text>The newly designated subparagraph (A) is amended by striking the phrase "levels of compensation as provided in paragraphs (2) and (2A)" and inserting the phrase "level of compensation as provided in paragraph (2)" in its place.</text>
+                <codify:find-replace path="(A)">
+                  <find>levels of compensation as provided in paragraphs (2) and (2A)</find>
+                  <replace>level of compensation as provided in paragraph (2)</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(iii)</num>
@@ -2737,7 +2743,7 @@
             <text>Paragraph (7) is amended to read as follows:</text>
             <include>
               <para>
-                <codify:replace path="(7)" />
+                <codify:replace path="(7)"/>
                 <num>(7)</num>
                 <text>"Pre-employment physical examination" means the physical examination required under <code-cite doc="D.C. Law 15-194" path="§721">section 721 of the Police and Fire Minimum Standards Amendment Act of 2004, effective September 30, 2004 (D.C. Law 15-194; D.C. Official Code § 5-451)</code-cite>.</text>
               </para>
