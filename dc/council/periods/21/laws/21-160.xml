@@ -2416,18 +2416,23 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Placement of Orders with Governmental Entities Amendment Act of 2016".</text>
       </section>
-      <section>
+      <section codify:doc="Stat. 78-2-ch611" codify:path="§1">
         <num>3002</num>
         <text>Section 1 of An Act To grant additional powers to the Commissioners of the District of Columbia, and for other purposes, approved December 20, 1944 (58 Stat. 819; D.C. Official Code § 1-301.01), is amended as follows:</text>
         <para>
           <num>(a)</num>
           <text>Subsection (j-1)(1) is amended by striking the phrase "for materials" and inserting the phrase "for the provision or receipt of materials" in its place.</text>
+          <codify:find-replace path="(j-1)|(1)" count="1">
+            <find>for materials</find>
+            <replace>for the provision or receipt of materials</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>A new subsection (j-2) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(j-1)"/>
               <num>(j–2)</num>
               <text>Placement of orders with the Metropolitan Washington Council of Governments – Notwithstanding <code-cite doc="D.C. Law 18-371">the Procurement Practices Reform Act of 2010, effective April 8, 2011 (D.C. Law 18-371; D.C. Official Code § 2-351.01 <em>et seq.</em>)</code-cite>, the Mayor may contract with the Metropolitan Washington Council of Governments for the provision or receipt of materials, supplies, equipment, work, or services of any kind.  Contracts executed pursuant to this subsection shall be considered obligations upon appropriations in the same manner as orders or contracts executed pursuant to subsections (j) or (k) of this section.</text>
             </para>
@@ -2445,7 +2450,7 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Reciprocal Agreements for Mutual Aid Amendment Act of 2016".</text>
       </section>
-      <section>
+      <section codify:doc="Stat. 81-2-ch706">
         <num>3012</num>
         <text>An Act To provide for a mutual-aid plan for fire protection by and for the District of Columbia and certain adjacent communities in Maryland and Virginia, and for other purposes, approved August 14, 1950 (64 Stat. 441; D.C. Official Code § 5-414), is amended as follows:</text>
         <para>
@@ -2453,7 +2458,7 @@
           <text>Section 1 (D.C. Official Code § 5-414(a)) is amended to read as follows:</text>
           <include>
             <para>
-              <codify:replace doc="D.C. Code" path="§5-414|(a)" technical="Law could not be found."/>
+              <codify:replace doc="D.C. Code" path="§5-414|(a)" technical="Question. Law could not be found."/>
               <num>(a)</num>
               <text>The Mayor is hereby authorized in his or her discretion to enter into and to renew reciprocal agreements, for such period as he or she deems advisable, with the appropriate county, municipal, and other governmental units in Prince George's and Montgomery Counties, Maryland, and Arlington, Fairfax, and Loudon Counties, Virginia, with the City of Alexandria, Virginia, with the City of Fairfax, Virginia, with the City of Falls Church, Virginia, and with incorporated or unincorporated fire departments, fire companies, and organizations of fire personnel in such counties and cities, in order to establish and carry into effect a plan to provide mutual aid, through the furnishing of firefighting personnel and equipment, by and for the District of Columbia and such counties and cities, for the extinguishment of fires and for the preservation of life and property in emergencies, in the District and in such counties and cities.</text>
             </para>
@@ -2574,6 +2579,7 @@
                 <text>A new subparagraph (B) is added to read as follows:</text>
                 <include>
                   <para>
+                    <codify:insert after="(A)"/>
                     <num>(B)</num>
                     <para>
                       <num>(i)</num>
@@ -2601,6 +2607,7 @@
               <text>Paragraph (4) is amended to read as follows:</text>
               <include>
                 <para>
+                  <codify:replace path="(4)"/>
                   <num>(4)</num>
                   <para>
                     <num>(A)</num>
@@ -2626,20 +2633,26 @@
           <para>
             <num>(2)</num>
             <text>Subsection (b-1) is repealed.</text>
+            <codify:repeal path="(b-1)"/>
           </para>
         </para>
-        <para>
+        <para codify:path="§1052a">
           <num>(b)</num>
           <text>Section 1052a (D.C. Official Code § 1-610.52a) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the phrase "who are required to hold a medical degree or another advanced health-related degree".</text>
+            <codify:find-replace path="(a)" count="1">
+              <find>who are required to hold a medical degree or another advanced health-related degree</find>
+              <replace></replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Subsection (b) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace path="(b)"/>
                 <num>(b)</num>
                 <para>
                   <num>(1)</num>
@@ -2681,6 +2694,10 @@
       <section>
         <num>3023</num>
         <text>Section 2903(b) of the Establishment of the Office of the Chief Medical Examiner Act of 2000, effective October 19, 2000 (D.C. Law 13-172; D.C. Official Code § 5-1402(b)), is amended by striking the phrase ", to be paid at an annual rate of $206,000,".</text>
+        <codify:find-replace doc="D.C. Law 13-172" path="§2903|(b)" count="1">
+          <find>, to be paid at an annual rate of $206,000,</find>
+          <replace></replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -2695,10 +2712,15 @@
       <section>
         <num>3032</num>
         <text>An Act For the promotion of anatomical science and to prevent the desecration of graves in the District of Columbia, approved April 29, 1902 (32 Stat. 173; D.C. Official Code § 3-201 <em>et seq</em>.), is repealed.</text>
+        <codify:repeal doc="Stat. 57-1-ch638" />
       </section>
       <section>
         <num>3033</num>
         <text>Section 6(h)(4)(C)(i) of the District of Columbia Funeral Services Regulatory Act of 1984, effective May 22, 1984 (D.C. Law 5-84; D.C. Official Code § 3-405(h)(4)(C)(i)), is amended by striking the phrase "The Anatomical Board, human tissue banks, and anatomical gifts;" and inserting the phrase "Human tissue banks and anatomical gifts;" in its place.</text>
+        <codify:find-replace doc="D.C. Law 5-84" path="§6|(h)|(4)|(C)|(i)" count="1">
+          <find>The Anatomical Board, human tissue banks, and anatomical gifts;</find>
+          <replace>Human tissue banks and anatomical gifts;</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -2737,6 +2759,10 @@
           <para>
             <num>(1)</num>
             <text>Paragraph (6) is amended by striking the word "Department" and inserting the phrase "Department who is employed by the Department" in its place.</text>
+            <codify:find-replace path="(6)" count="1">
+              <find>Department</find>
+              <replace>Department who is employed by the Department</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
@@ -2757,10 +2783,18 @@
           <para>
             <num>(1)</num>
             <text>Subsection (a)(1) is amended by striking the word "throat" and inserting the word "respiratory" in its place.</text>
+            <codify:find-replace path="(a)|(1)" count="1">
+              <find>throat</find>
+              <replace>respiratory</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Subsection (b)(1) is amended by striking the word "throat" and inserting the word "respiratory" in its place.</text>
+            <codify:find-replace path="(b)|(1)" count="1">
+              <find>throat</find>
+              <replace>respiratory</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
