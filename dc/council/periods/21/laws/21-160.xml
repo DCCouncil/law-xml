@@ -2946,7 +2946,7 @@
           <aftertext>.</aftertext>
         </para>
       </section>
-      <codify:insert doc="D.C. Code" path="5|4|II" after="B" history="false">
+      <codify:insert doc="D.C. Code" path="5|4|II" history="false">
         <container>
           <prefix>Part</prefix>
           <num>C</num>
@@ -2962,7 +2962,7 @@
           <include>
             <section>
               <codify:insert doc="D.C. Law 4-172" after="§5" history-prefix="as added"/>
-              <codify:insert doc="D.C. Code" path="5|4|II|C" num-value="5-445"/>
+              <codify:ignore doc="D.C. Code" path="5|4|II|C" num-value="5-445" technical="Question. The insert code container instruction doesn't seem to be creating a valid target for this insert instruction."/>
               <num>5a</num>
               <heading>Pilot Civilian Technical Services Program.</heading>
               <para>
@@ -5912,7 +5912,7 @@
               </para>
               <para>
                 <num>(b)</num>
-                <text>The Fund shall consist of contributions to costs of supports collected by DDS from persons with intellectual disabilities pursuant to section 105b.</text>
+                <text>The Fund shall consist of contributions to costs of supports collected by DDS from persons with intellectual disabilities pursuant to <code-cite path="§105b">section 105b.</code-cite></text>
               </para>
               <para>
                 <num>(c)</num>
@@ -5942,7 +5942,7 @@
               <num>(a-1)</num>
               <para>
                 <num>(1)</num>
-                <text>Within 45 days after <span codify:value="October 8, 2016">the effective date of the Contribution to Costs of Supports Fund Amendment Act of 2016 ("Act"), passed on 2nd reading on June 21, 2016 (Enrolled version of Bill 21-669)</span>, the Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat.1204; D.C. Official Code §2-501 <em>et seq</em>.), shall issue rules to implement the provisions of the Act, including rules establishing who has the ability to pay the contribution to costs of supports, the amount to be collected, the method and timing of payments to DDS for such purposes, and due process protections.</text>
+                <text>Within 45 days after <span codify:value="October 8, 2016">the effective date of the Contribution to Costs of Supports Fund Amendment Act of 2016 ("Act"), passed on 2nd reading on June 21, 2016 (Enrolled version of Bill 21-669)</span>, the Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat.1204; D.C. Official Code §2-501 <em>et seq</em>.), shall issue rules to implement the provisions of <code-cite doc="Pub. L. 90-614">the Act</code-cite>, including rules establishing who has the ability to pay the contribution to costs of supports, the amount to be collected, the method and timing of payments to DDS for such purposes, and due process protections.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -5983,7 +5983,7 @@
           <text>Section 205(a)(1) (D.C. Official Code § 42-3502.05(a)(1)) is amended by striking the phrase "title III;" and inserting the phrase "Title III, or any unit rented by a home and community-based services waiver provider and occupied by a tenant with a disability without regard to income but otherwise as defined in section 206(f)(2)(A), or co-leased by a home and community-based services waiver provider and occupied by a tenant with a disability without regard to income but otherwise as defined in section 206(f)(2)(A);" in its place.</text>
           <codify:find-replace path="§205|(a)|(1)" count="1">
             <find>subchapter III;</find>
-            <replace>Title III, or any unit rented by a home and community-based services waiver provider and occupied by a tenant with a disability without regard to income but otherwise as defined in section 206(f)(2)(A), or co-leased by a home and community-based services waiver provider and occupied by a tenant with a disability without regard to income but otherwise as defined in section 206(f)(2)(A);</replace>
+            <replace>Title III, or any unit rented by a home and community-based services waiver provider and occupied by a tenant with a disability without regard to income but otherwise as defined in <code-cite path="§206|(f)|(2)|(A)">section 206(f)(2)(A)</code-cite>, or co-leased by a home and community-based services waiver provider and occupied by a tenant with a disability without regard to income but otherwise as defined in <code-cite path="§206|(f)|(2)|(A)">section 206(f)(2)(A);</code-cite></replace>
           </codify:find-replace>
         </para>
         <para>
@@ -5996,7 +5996,15 @@
         </para>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="7" after="7B-i" history="false" technical="Question. I believe they meant new 7B-ii, not 7-ii.">
+      <container>
+        <prefix>Chapter</prefix>
+        <num>7B-ii</num>
+        <heading>[TODO]</heading>
+      </container>
+    </codify:insert>
     <container>
+      <codified:at doc="D.C. Code" path="7|7B-ii"/>
       <prefix>SUBTITLE</prefix>
       <num>E</num>
       <heading>COMMISSION ON HEALTH EQUITY</heading>
@@ -6010,13 +6018,6 @@
         <text>The Commission on Health Disparities Establishment Act of 2014, effective March 10, 2015 (D.C. Law 20-192; D.C. Official Code § 7-755.01<em> et seq</em>.), is repealed.</text>
         <codify:repeal doc="D.C. Law 20-192"/>
       </section>
-      <codify:insert doc="D.C. Code" path="7" after="7B-i" history="false" technical="Question. I believe they meant new 7B-ii, not 7-ii.">
-        <container>
-          <prefix>Chapter</prefix>
-          <num>7B-ii</num>
-          <heading>[TODO]</heading>
-        </container>
-      </codify:insert>
       <section>
         <codify:insert doc="D.C. Code" path="7|7B-ii" num-value="7-756.01"/>
         <num>5043</num>
@@ -6032,7 +6033,7 @@
             <num>(1)</num>
             <para>
               <num>(A)</num>
-              <text>Six voting members shall be appointed by the Mayor with the advice and consent of the Council, in accordance with section 2(f) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.0l(f)).</text>
+              <text>Six voting members shall be appointed by the Mayor with the advice and consent of the Council, in accordance with <code-cite doc="D.C. Law 2-142" path="§2|(f)">section 2(f) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.0l(f))</code-cite>.</text>
             </para>
             <para>
               <num>(B)</num>
@@ -6194,7 +6195,7 @@
         </para>
         <para>
           <num>(d)</num>
-          <text>The Commission may use space and supplies owned or rented by the District government and use staff loaned from the Council or detailed by the Mayor for purposes consistent with this subtitle as the Commission may determine.</text>
+          <text>The Commission may use space and supplies owned or rented by the District government and use staff loaned from the Council or detailed by the Mayor for purposes consistent with <code-cite doc="D.C. Law 21-160" path="V|E">this subtitle</code-cite> as the Commission may determine.</text>
         </para>
       </section>
       <section>
@@ -6227,7 +6228,7 @@
           <text>Section 5142(2) (D.C. Official Code § 1-325.321(2)) is amended by striking the phrase "the DC Campaign to Prevent Teen Pregnancy, as authorized by section 5146" and inserting the  phrase ", for Fiscal Year 2017, the Department of Health, as authorized by section 5146" in its place.</text>
           <codify:find-replace path="§5142|(2)" count="1">
             <find>the DC Campaign to Prevent Teen Pregnancy, as authorized by § <cite path="§1-325.325">1-325.325</cite></find>
-            <replace>, for Fiscal Year 2017, the Department of Health, as authorized by section 5146</replace>
+            <replace>, for Fiscal Year 2017, the Department of Health, as authorized by <code-cite doc="D.C. Law 20-155" path="§5146">section 5146</code-cite></replace>
           </codify:find-replace>
         </para>
         <para codify:path="§5143">
@@ -6284,13 +6285,13 @@
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>All grants shall be subject to the Freedom of Information Act of 1976, effective March 25, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq</em>.).</text>
+                  <text>All grants shall be subject to <code-cite doc="Pub. L. 90-614" path="II">the Freedom of Information Act of 1976, effective March 25, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq</em>.)</code-cite>.</text>
                 </para>
               </para>
               <para>
                 <codify:replace path="(d)"/>
                 <num>(d)</num>
-                <text>The Fund shall be administered pursuant to the requirements set forth in the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.).</text>
+                <text>The Fund shall be administered pursuant to the requirements set forth in <code-cite doc="D.C. Law 20-61" path="I|J">the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.)</code-cite>.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
@@ -6414,14 +6415,14 @@
         <codify:insert doc="D.C. Code" path="44|6A|II" num-value="44-661.11"/>
         <num>5062</num>
         <heading>Definitions.</heading>
-        <text>For the purposes of this subtitle, the term:</text>
+        <text>For the purposes of <code-cite path="V|G">this subtitle</code-cite>, the term:</text>
         <para>
           <num>(1)</num>
           <text>"Department" means the Department of Health Care Finance.</text>
         </para>
         <para>
           <num>(2)</num>
-          <text>"Hospital" shall have the same meaning as provided in section 2(a)(1) of the Health-Care and Community Residence Facility, Hospice and Home Care Licensure Act of 1983, effective February 24, 1984 (D.C. Law 5-48; D.C. Official Code § 44-501(a)(l)), but excludes any hospital operated by the federal government.</text>
+          <text>"Hospital" shall have the same meaning as provided in <code-cite doc="D.C. Law 5-48" path="§2|(a)|(1)">section 2(a)(1) of the Health-Care and Community Residence Facility, Hospice and Home Care Licensure Act of 1983, effective February 24, 1984 (D.C. Law 5-48; D.C. Official Code § 44-501(a)(l))</code-cite>, but excludes any hospital operated by the federal government.</text>
         </para>
         <para>
           <num>(3)</num>
@@ -6429,7 +6430,7 @@
         </para>
         <para>
           <num>(4)</num>
-          <text>"Medicaid" means the medical assistance programs authorized by Title XIX of the Social Security Act, approved July 30, 1965 (79 Stat. 343; 42 U.S.C. § 1396 <em>et seq</em>.), and by section 1 of An Act To enable the District of Columbia to receive Federal financial assistance under title XIX of the Social Security Act for a medical assistance program, and for other purposes, approved December 27, 1967 (81 Stat. 744; D.C. Official Code § 1-307.02), and administered by the Department.</text>
+          <text>"Medicaid" means the medical assistance programs authorized by Title XIX of the Social Security Act, approved July 30, 1965 (79 Stat. 343; 42 U.S.C. § 1396 <em>et seq</em>.), and by <code-cite doc="Pub. L. 90-227" path="1">section 1 of An Act To enable the District of Columbia to receive Federal financial assistance under title XIX of the Social Security Act for a medical assistance program, and for other purposes, approved December 27, 1967 (81 Stat. 744; D.C. Official Code § 1-307.02)</code-cite>, and administered by the Department.</text>
         </para>
         <para>
           <num>(5)</num>
@@ -6449,11 +6450,11 @@
           <text>Revenue from the following sources shall be deposited in the Fund:</text>
           <para>
             <num>(1)</num>
-            <text>Fees collected under this subtitle; and</text>
+            <text>Fees collected under <code-cite path="V|G">this subtitle</code-cite>; and</text>
           </para>
           <para>
             <num>(2)</num>
-            <text>Interest and penalties collected under this subtitle.</text>
+            <text>Interest and penalties collected under <code-cite path="V|G">this subtitle</code-cite>.</text>
           </para>
         </para>
         <para>
@@ -6461,15 +6462,15 @@
           <text>Money in the Fund may only be used for the following purposes:</text>
           <para>
             <num>(1)</num>
-            <text>Making Medicaid outpatient hospital access payments to hospitals as required under section 5066;</text>
+            <text>Making Medicaid outpatient hospital access payments to hospitals as required under <code-cite path="§5066">section 5066;</code-cite></text>
           </para>
           <para>
             <num>(2)</num>
-            <text>Payment of administrative expenses incurred by the Department or its agent in performing the activities authorized by this subtitle in an amount not to exceed $150,000 annually; and</text>
+            <text>Payment of administrative expenses incurred by the Department or its agent in performing the activities authorized by <code-cite path="V|G">this subtitle</code-cite> in an amount not to exceed $150,000 annually; and</text>
           </para>
           <para>
             <num>(3)</num>
-            <text>Providing refunds to hospitals pursuant to section 5065.</text>
+            <text>Providing refunds to hospitals pursuant to <code-cite path="§5065">section 5065.</code-cite></text>
           </para>
         </para>
         <para>
@@ -6494,7 +6495,7 @@
         <heading>Hospital provider fee.</heading>
         <para>
           <num>(a)</num>
-          <text>Beginning October 1, 2016, and subject to section 5065, the District may charge each hospital a fee based on its outpatient gross patient revenue. The fee shall be charged at a uniform rate necessary to generate the following:</text>
+          <text>Beginning October 1, 2016, and subject to <code-cite path="§5065">section 5065</code-cite>, the District may charge each hospital a fee based on its outpatient gross patient revenue. The fee shall be charged at a uniform rate necessary to generate the following:</text>
           <para>
             <num>(1)</num>
             <text>An amount equal to the non-federal share of the total available spending room under the Medicaid upper payment limit for private hospitals applicable to District Fiscal Year ("DFY") 2017 consistent with the federal approval of the authorizing Medicaid State Plan amendment; plus</text>
@@ -6505,7 +6506,7 @@
           </para>
           <para>
             <num>(3)</num>
-            <text>An amount equal to the Department's administrative expenses as described in section 5063(c)(2).</text>
+            <text>An amount equal to the Department's administrative expenses as described in <code-cite path="§5063|(c)|(2)">section 5063(c)(2).</code-cite></text>
           </para>
         </para>
         <para>
@@ -9965,12 +9966,12 @@
       <section >
         <num>7072</num>
         <text>Section 4 of the Law to Legalize Lotteries, Daily Numbers Games, and Bingo and Raffles for Charitable Purposes in the District of Columbia, effective March 10, 1981 (D.C. Law 3-172; D.C. Official Code § 3-1301 <em>et seq</em>.), is amended as follows:</text>
-        <para codify:doc="D.C. Code" codify:path="§3-1301" technical="Question. See 3-172.">
+        <para codify:doc="D.C. Code" codify:path="§3-1301" technical="Question. See 3-172; the sections don't match up correctly. Taking the approach of modifying the code directly.">
           <num>(a)</num>
           <text>Section 2-2501 (D.C. Official Code § 3-1301) is amended to read as follows:</text>
           <include>
             <section>
-              <codify:ignore num-value="3-1301" technical="Question."/>
+              <codify:ignore num-value="3-1301" technical="Question. Can't modify directly with codify:replace; throwing error regarding numbering."/>
               <num>2-2501</num>
               <heading>Creation; established as an office within the Office of the Chief Financial Officer; transfer of powers; definitions.</heading>
               <para>
@@ -10138,21 +10139,34 @@
           <para>
             <num>(1)</num>
             <text>Strike the phrase "The Board" both times it appears and insert the phrase "The Chief Financial Officer" in its place.</text>
+            <codify:find-replace count="2">
+              <find>The Board</find>
+              <replace>The Chief Financial Officer</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the phrase "disbursements of the Board" and insert the phrase "disbursements of the Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>disbursements of the Board</find>
+              <replace>disbursements of the Office</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>Strike the phrase "which the Board may deem" and insert the phrase "that the Chief Financial Officer may consider" in its place.</text>
+            <codify:find-replace count="1">
+              <find>which the Board may deem</find>
+              <replace>that the Chief Financial Officer may consider</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1308">
           <num>(h)</num>
           <text>Section 2-2508 (D.C. Official Code § 3-1308) is amended to read as follows:</text>
           <include>
             <section>
+              <codify:ignore technical="Question."/>
               <num>2-2508</num>
               <heading>Power to administer oaths and take testimony; subpoena power.</heading>
               <para>
@@ -10186,11 +10200,12 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:doc="D.C. Code">
           <num>(i)</num>
           <text>Section 2-2509 (D.C. Official Code § 3-1309) is amended to read as follows:</text>
           <include>
             <section>
+              <codify:ignore num-value="3-1309" technical="Question."/>
               <num>2-2509</num>
               <heading>Recordkeeping.</heading>
               <text>The Chief Financial Officer shall maintain full and complete records of the conduct and operation of daily numbers games and lotteries and of the regulation of bingo, raffles, and Monte Carlo Night parties, which records shall include a statement of revenues and license fees, prize disbursements, and administrative expenses.  The records shall be open and available to the public.</text>
@@ -10198,11 +10213,12 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1310">
           <num>(j)</num>
           <text>Section 2-2510 (D.C. Official Code § 3-1310) is amended to read as follows:</text>
           <include>
             <section>
+              <codify:ignore num-value="3-1310" technical="Question"/>
               <num>2-2510</num>
               <heading>Authority to establish divisions.</heading>
               <text>The Chief Financial Officer shall have the authority to establish divisions within the Office.</text>
@@ -10210,11 +10226,12 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1311">
           <num>(k)</num>
           <text>Section 2-2511 (D.C. Official Code § 3-1311) is amended to read as follows:</text>
           <include>
             <section>
+              <codify:ignore technical="Question"/>
               <num>2-2511</num>
               <heading>Budget.</heading>
               <para>
@@ -10243,18 +10260,23 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1312">
           <num>(l)</num>
           <text>Section 2-2512 (D.C. Official Code § 3-1312) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the word "Board" wherever it appears and inserting the phrase "Chief Financial Officer" in its place.</text>
+            <codify:find-replace  path="(a)">
+              <find>Board</find>
+              <replace>Chief Financial Officer</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Subsection (b) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace path="(b)"/>
                 <num>(b)</num>
                 <text>Any monies of the Office, from whatever source derived (including gifts to the Office), shall be for the sole use of the Fund and shall be deposited as soon as practicable in the Fund and shall be disbursed from the Fund according to the terms of this act.  Disbursements of up to $500 from the Fund shall be paid out in checks signed by the Executive Director or designee.  Disbursements in excess of $500 shall be paid out in checks signed by the Executive Director and the Treasurer of the District of Columbia.</text>
               </para>
@@ -10264,137 +10286,230 @@
           <para>
             <num>(3)</num>
             <text>Subsection (c) is amended by striking the word "Board" wherever it appears and inserting the phrase "Chief Financial Officer" in its place.</text>
+            <codify:find-replace path="(c)">
+              <find>Board</find>
+              <replace>Chief Financial Officer</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1313">
           <num>(m)</num>
           <text>Section 2-2513 (D.C. Official Code § 3-1313) is amended  by striking the word "Board" wherever it appears and inserting the phrase "Chief Financial Officer" in its place.</text>
+          <codify:find-replace>
+            <find>Board</find>
+            <replace>Chief Financial Officer</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1314">
           <num>(n)</num>
           <text>Section 2-2514 (D.C. Official Code § 3-1314) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>The first sentence is amended by striking the phrase "The Board shall" and inserting the phrase "The Office shall" in its place.</text>
+            <codify:find-replace count="1" location="first">
+              <find>The Board shall operate</find>
+              <replace>The Office shall operate</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>The third and fourth sentences are amended by striking the word "Board" wherever it appears and inserting the phrase "Chief Financial Officer" in its place.</text>
+            <codify:find-replace>
+              <find>Board</find>
+              <replace>Chief Financial Officer</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1315">
           <num>(o)</num>
           <text>Section 2-2515 (D.C. Official Code § 3-1315) is amended by striking the word "Board" wherever it appears and inserting the phrase "Chief Financial Officer" in its place.</text>
+          <codify:find-replace>
+            <find>Board</find>
+            <replace>Chief Financial Officer</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1316">
           <num>(p)</num>
           <text>Section 2-2516 (D.C. Official Code § 3-1316) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Strike the phrase "Board, in its discretion," and insert the phrase "Chief Financial Officer, in the Chief Financial Officer's discretion," in its place.</text>
+              <codify:find-replace count="1">
+                <find>Board, in its discretion,</find>
+                <replace>Chief Financial Officer, in the Chief Financial Officer's discretion,</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Strike the phrase "in the name of the Board, to the Credit of the Board, which the Board is authorized to establish, in institutions designated by it which are legal" and insert the phrase "in the name of the Office, to the credit of the Office, which the Chief Financial Officer is authorized to establish, in institutions designated by the Chief Financial Officer that are legal" in its place.</text>
+              <codify:find-replace count="1" technical="'credit' is lower case.">
+                <find>in the name of the Board, to the credit of the Board, which the Board is authorized to establish, in institutions designated by it which are legal</find>
+                <replace>in the name of the Office, to the credit of the Office, which the Chief Financial Officer is authorized to establish, in institutions designated by the Chief Financial Officer that are legal</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Strike the phrase "benefit of the Board" and insert the phrase "benefit of the Office" in its place.</text>
+              <codify:find-replace count="1">
+                <find>benefit of the Board</find>
+                <replace>benefit of the Office</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Strike the phrase "transferred to the Board. The Board shall" and insert the phrase "transferred to the Office. The Chief Financial Officer shall" in its place.</text>
+              <codify:find-replace count="1">
+                <find>transferred to the Board. The Board shall</find>
+                <replace>transferred to the Office. The Chief Financial Officer shall</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(C)</num>
               <text>Strike the phrase "sales agents. The Board" and insert the phrase "sales agents. The Chief Financial Officer" in its place.</text>
+              <codify:find-replace count="1">
+                <find>sales agents. The Board</find>
+                <replace>sales agents. The Chief Financial Officer</replace>
+              </codify:find-replace>
             </para>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1317">
           <num>(q)</num>
           <text>Section 2-2517 (D.C. Official Code § 3-1317) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Strike the phrase "The Board may authorize" and insert the phrase "The Chief Financial Officer may authorize" in its place.</text>
+            <codify:find-replace count="1">
+              <find>The Board may authorize</find>
+              <replace>The Chief Financial Officer may authorize</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the phrase "the Board may determine." and insert the phrase "the Chief Financial Officer may determine." in its place.</text>
+            <codify:find-replace count="1">
+              <find>the Board may determine.</find>
+              <replace>the Chief Financial Officer may determine.</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>Strike the phrase "accounts of the Board" and insert the phrase "accounts of the Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>accounts of the Board</find>
+              <replace>accounts of the Office</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>Strike the phrase "authorized by the Board because" and insert the phrase "authorized by the Chief Financial Officer because" in its place.</text>
+            <codify:find-replace count="1">
+              <find>authorized by the Board because</find>
+              <replace>authorized by the Chief Financial Officer because</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(5)</num>
             <text>Strike the phrase "as the Board may require." and insert the phrase "as the Chief Financial Officer may require." in its place.</text>
+            <codify:find-replace count="1">
+              <find>as the Board may require.</find>
+              <replace>as the Chief Financial Officer may require.</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1318">
           <num>(r)</num>
           <text>Section 2-2518 (D.C. Official Code § 3-1318) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>The lead-in language is amended by striking the word "Board" and inserting the word "Office" in its place.</text>
+              <codify:find-replace path="text" count="1">
+                <find>Board</find>
+                <replace>Office</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Paragraph (5) is amended by striking the word "Board" and inserting the phrase "Chief Financial Officer" in its place.</text>
+              <codify:find-replace path="(5)" count="1">
+                <find>Board</find>
+                <replace>Chief Financial Officer</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended by striking the word "Board" and inserting the phrase "Chief Financial Officer" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Board</find>
+              <replace>Chief Financial Officer</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1319">
           <num>(s)</num>
           <text>Section 2-2519 (D.C. Official Code § 3-1319) is amended by striking the word "Board" and inserting the phrase "Chief Financial Officer" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Board</find>
+            <replace>Chief Financial Officer</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1320|(a)">
           <num>(t)</num>
           <text>Section 2-2520(a) (D.C. Official Code § 3-1320(a)) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Strike the phrase "Any member or employee of the Board" and insert the phrase "The Chief Financial Officer, any employee of the Office," in its place.</text>
+            <codify:find-replace count="1">
+              <find>Any member or employee of the Board</find>
+              <replace>The Chief Financial Officer, any employee of the Office,</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the phrase "any member or employee of the Board" and insert the phrase "the Chief Financial Officer or any employee of the Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>any member or employee of the Board</find>
+              <replace>the Chief Financial Officer or any employee of the Office</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1321">
           <num>(u)</num>
           <text>Section 2-2521 (D. C. Official Code § 3-1321) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>The existing text is designated as subsection (a).</text>
+            <codify:redesignate-para num-value="(a)"/>
           </para>
-          <para>
+          <para codify:path="(a)">
             <num>(2)</num>
             <text>The newly designated subsection (a) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Strike the phrase "The Board" wherever it appears and insert the phrase "The Chief Financial Officer" in its place.</text>
+              <codify:find-replace>
+                <find>The Board</find>
+                <replace>The Chief Financial Officer</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Strike the phrase "paid over to the Board which shall" and insert the phrase "paid over to the District of Columbia Treasurer, who shall" in its place.</text>
+              <codify:find-replace count="1">
+                <find>paid over to the Board which shall</find>
+                <replace>paid over to the District of Columbia Treasurer, who shall</replace>
+              </codify:find-replace>
             </para>
           </para>
           <para>
@@ -10402,6 +10517,7 @@
             <text>A new subsection (b) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert/>
                 <num>(b)</num>
                 <text>Any rule or regulation promulgated by the Board before the transfer of its functions and personnel to the Chief Financial Officer by section 424(a)(3) of the District of Columbia Home Rule Act, approved April 17, 1995 (109 Stat. 142; D.C. Official Code § 1-204.24a(c)), shall continue in effect, except to the extent it is modified or superseded by the Chief Financial Officer, or designee, or made inapplicable by or under other law.</text>
               </para>
@@ -10409,167 +10525,303 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1322">
           <num>(v)</num>
           <text>Section 2-2522 (D.C. Official Code § 3-1322) is amended by striking the word "Board" and inserting the phrase "Chief Financial Officer" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Board</find>
+            <replace>Chief Financial Officer</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1322.01">
           <num>(w)</num>
           <text>Section 2-2522a (D.C. Official Code § 3-1322.01) is amended by striking the word "Board" wherever it appears and inserting the phrase "Chief Financial Officer" in its place.</text>
+          <codify:find-replace>
+            <find>Board</find>
+            <replace>Chief Financial Officer</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1323">
           <num>(x)</num>
           <text>Section 2-2523 (D.C. Official Code § 3-1323) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the word "Board" and inserting the word "Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Board</find>
+              <replace>Office</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended by striking the word "Board" and inserting the word "Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Board</find>
+              <replace>Office</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(b-1)">
             <num>(3)</num>
             <text>Subsection (b-1) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Paragraph (1) is amended by striking the word "Board" and inserting the word "Office" in its place.</text>
+              <codify:find-replace path="(1)" count="1">
+                <find>Board</find>
+                <replace>Office</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Paragraphs (2) and (3) are amended by striking the word "Board" both times it appears and inserting the phrase "Chief Financial Officer" in its place.</text>
+              <codify:find-replace path="(2)" count="2">
+                <find>Board</find>
+                <replace>Chief Financial Officer</replace>
+              </codify:find-replace>
+              <codify:find-replace path="(3)" count="1">
+                <find>Board</find>
+                <replace>Chief Financial Officer</replace>
+              </codify:find-replace>
             </para>
           </para>
           <para>
             <num>(4)</num>
             <text>Subsections (c) and (d) are amended by striking the word "Board" wherever it appears and inserting the word "Office" in its place.</text>
+            <codify:find-replace path="(c)">
+              <find>Board</find>
+              <replace>Office</replace>
+            </codify:find-replace>
+            <codify:find-replace path="(d)">
+              <find>Board</find>
+              <replace>Office</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1324">
           <num>(y)</num>
           <text>Section 2-2524 (D.C. Official Code § 3-1324) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Strike the phrase "The Board shall adopt rules" and insert the phrase "The Chief Financial Officer shall adopt rules" in its place.</text>
+            <codify:find-replace count="1">
+              <find>The Board shall adopt rules</find>
+              <replace>The Chief Financial Officer shall adopt rules</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the phrase "raffles. The Board" and insert the phrase "raffles.  The Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>raffles. The Board</find>
+              <replace>raffles.  The Office</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>Strike the phrase "regulations. The Board" and insert the phrase "regulations. The Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>regulations. The Board</find>
+              <replace>regulations. The Office</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>Strike the phrase "paid over to the Board" and insert the phrase "paid over to the Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>paid over to the Board</find>
+              <replace>paid over to the Office</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(5)</num>
             <text>Strike the phrase "right to a hearing before the Board" and insert the phrase "right to a hearing before the Chief Financial Officer, or designee," in its place.</text>
+            <codify:find-replace count="1">
+              <find>right to a hearing before the Board</find>
+              <replace>right to a hearing before the Chief Financial Officer, or designee,</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1325">
           <num>(z)</num>
           <text>Section 2-2525 (D.C. Official Code § 3-1325) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Strike the phrase "regulations of the Board and to insure" and insert the phrase "regulations of the Chief Financial Officer and to insure" in its place.</text>
+            <codify:find-replace count="1">
+              <find>regulations of the Board and to insure</find>
+              <replace>regulations of the Chief Financial Officer and to insure</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the phrase "given to the Board" and insert the phrase "given to the Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>given to the Board</find>
+              <replace>given to the Office</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>Strike the phrase "determined by the Board." and insert the phrase "determined by the Chief Financial Officer." in its place.</text>
+            <codify:find-replace count="1">
+              <find>determined by the Board.</find>
+              <replace>determined by the Chief Financial Officer.</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>Strike the phrase "pay to the Board" and insert the phrase "pay to the Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>pay to the Board</find>
+              <replace>pay to the Office</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1326|(a)">
           <num>(aa)</num>
           <text>Section 2-2526(a) (D.C. Official Code § 3-1326(a)) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Strike the phrase "licensed by the Board" both times it appears and insert the phrase "licensed by the Office" in its place.</text>
+            <codify:find-replace count="2">
+              <find>licensed by the Board</find>
+              <replace>licensed by the Office</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the phrase "regulations of the Board" and insert the phrase "regulations of the Chief Financial Officer" in its place.</text>
+            <codify:find-replace count="1">
+              <find>regulations of the Board</find>
+              <replace>regulations of the Chief Financial Officer</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>Strike the phrase "prescribed by the Board" and insert the phrase "prescribed by the Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>prescribed by the Board</find>
+              <replace>prescribed by the Office</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>Strike the phrase "directives of the Board" and insert the phrase "directives of the Chief Financial Officer" in its place.</text>
+            <codify:find-replace count="1">
+              <find>directives of the Board</find>
+              <replace>directives of the Chief Financial Officer</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1327">
           <num>(bb)</num>
           <text>Section 2-2527 (D.C. Official Code § 3-1327) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Strike the phrase "set by the Board" and insert the phrase "set by the Chief Financial Officer" in its place.</text>
+            <codify:find-replace count="1">
+              <find>set by the Board</find>
+              <replace>set by the Chief Financial Officer</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the phrase "enable the Board" and insert the phrase "enable the Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>enable the Board</find>
+              <replace>enable the Office</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1328|(a)">
           <num>(cc)</num>
           <text>Section 2-2528(a) (D.C. Official Code § 3-1328(a)) is amended by striking the phrase "The Board, in its discretion" and inserting the phrase "The Chief Financial Officer, in the Chief Financial Officer's discretion" in its place.</text>
+          <codify:find-replace count="1">
+            <find>The Board, in its discretion</find>
+            <replace>The Chief Financial Officer, in the Chief Financial Officer's discretion</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1329">
           <num>(dd)</num>
           <text>Section 2-2529 (D. C. Official Code § 3-1329) is amended by striking the word "Board" and inserting the word "Office" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Board</find>
+            <replace>Office</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1330">
           <num>(ee)</num>
           <text>Section 2-2530 (D. C. Official Code § 3-1330) is amended by striking the word "Board" wherever it appears and inserting the word "Office" in its place.</text>
+          <codify:find-replace>
+            <find>Board</find>
+            <replace>Office</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1331">
           <num>(ff)</num>
           <text>Section 2-2531 (D.C. Official Code § 3-1331) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Strike the word "Board" wherever it appears and insert the phrase "Chief Financial Officer" in its place.</text>
+            <codify:find-replace>
+              <find>Board</find>
+              <replace>Chief Financial Officer</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the phrase "at which he shall have the right" and insert the phrase "at which the licensee shall have the right" in its place.</text>
+            <codify:find-replace count="1">
+              <find>at which he shall have the right</find>
+              <replace>at which the licensee shall have the right</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1332">
           <num>(gg)</num>
           <text>Section 2-2532 (D. C. Official Code § 3-1332) is amended by striking the word "Board" and inserting the word "Office" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Board</find>
+            <replace>Office</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1335">
           <num>(hh)</num>
-          <text>Section 2-2535 (D.C. Official Code § 3-1335) is amended  by striking the word "Board" wherever it appears and inserting the phrase "Chief Financial Officer" in its place.</text>
+          <text>Section 2-2535 (D.C. Official Code § 3-1335) is amended by striking the word "Board" wherever it appears and inserting the phrase "Chief Financial Officer" in its place.</text>
+          <codify:find-replace>
+            <find>Board</find>
+            <replace>Chief Financial Officer</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:doc="D.C. Code" codify:path="§3-1336">
           <num>(ii)</num>
           <text>Section 2-2536 (D. C. Official Code § 3-1336) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the phrase "No Board member, officer, or employee of the Board" and inserting the phrase "Neither the Chief Financial Officer nor any employee of the Office of the Chief Financial Officer or the Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>No Board member, officer, or employee of the Board</find>
+              <replace>Neither the Chief Financial Officer nor any employee of the Office of the Chief Financial Officer or the Office</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Strike the phrase "Office of Contracting and Procurement" and insert the phrase "Office of Contracts of the Office of the Chief Financial Officer" in its place.</text>
+              <codify:find-replace count="1">
+                <find>Office of Contracting and Procurement</find>
+                <replace>Office of Contracts of the Office of the Chief Financial Officer</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Strike the phrase "on behalf of the Board" and insert the phrase "on behalf of the Office" in its place.</text>
+              <codify:find-replace count="1">
+                <find>on behalf of the Board</find>
+                <replace>on behalf of the Office</replace>
+              </codify:find-replace>
             </para>
           </para>
           <para>
@@ -10577,6 +10829,7 @@
             <text>Subsection (d) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace path="(d)"/>
                 <num>(d)</num>
                 <text>No contract awarded or entered into by the Office of the Chief Financial Officer may be assigned by the holder thereof except by specific approval of the Chief Financial Officer.</text>
               </para>
@@ -10586,21 +10839,27 @@
           <para>
             <num>(4)</num>
             <text>Subsection (g) is amended by striking the word "Board" and inserting the phrase "Chief Financial Officer" in its place.</text>
+            <codify:find-replace path="(g)" count="1">
+              <find>Board</find>
+              <replace>Chief Financial Officer</replace>
+            </codify:find-replace>
           </para>
         </para>
       </section>
       <section>
         <num>7073</num>
         <text>Section 2(e)(11) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(e)(11)), is repealed.</text>
+        <codify:repeal doc="D.C. Law 2-142" path="§2|(e)|(11)"/>
       </section>
-      <section>
+      <section codify:doc="D.C. Law 2-139">
         <num>7074</num>
         <text>The District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D. C. Official Code 1-601.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§406|(b)|(14)">
           <num>(a)</num>
           <text>Section 406(b)(14) (D.C. Official Code § 1-604.06(b)(14)) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(14)</num>
               <text>For all employees of the Office of Lottery and Charitable Games, including the Executive Director, the personnel authority is the Chief Financial Officer.</text>
             </para>
@@ -10610,6 +10869,7 @@
         <para>
           <num>(b)</num>
           <text>Section 908(13) (D.C. Official Code § 1-609.08(13)) is repealed.</text>
+          <codify:repeal path="§908|(13)"/>
         </para>
       </section>
     </container>
@@ -10625,6 +10885,10 @@
       <section>
         <num>7082</num>
         <text>Section (3)(e) of the District of Columbia Emergency Highway Relief Act, approved August 4, 1995 (109 Stat. 257; D.C. Official Code § 9-109.02(e)), is amended by striking the phrase "March 15 thereafter" and inserting the phrase "May 31 thereafter" in its place.</text>
+        <codify:find-replace doc="Pub. L. 104-21" path="§3|(e)" count="1">
+          <find>March 15 thereafter</find>
+          <replace>May 31 thereafter</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -10636,14 +10900,15 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Parkside Parcel E and J Mixed-Income Apartments Tax Abatement Amendment Act of 2016".</text>
       </section>
-      <section>
+      <section codify:doc="D.C. Code">
         <num>7092</num>
         <text>Chapter 46 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
         <para>
+          <codify:ignore/>
           <num>(a)</num>
           <text>The table of contents is amended by striking the phrase "47-4658. Parkside Parcel E and J Mixed-Income Apartments; Lot 808, Square 5041 and Lot 811, Square 5056." and inserting the phrase "47-4658. Lot 72, Square 5041 and Lot 811, Square 5056." in its place.</text>
         </para>
-        <para>
+        <para codify:path="§47-4658">
           <num>(b)</num>
           <text>Section 47-4658 is amended as follows:</text>
           <para>
@@ -10656,12 +10921,17 @@
               </section>
             </include>
             <aftertext>.</aftertext>
+            <codify:find-replace path="heading" count="1">
+              <find>Parkside Parcel E and J Mixed-Income Apartments; Lot 808, Square 5041 and Lot 811, Square 5056.</find>
+              <replace>Lot 72, Square 5041 and Lot 811, Square 5056.</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Subsection (a) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace path="(a)"/>
                 <num>(a)</num>
                 <text>Subject to subsection (b) of this section, the real property described as Lot 72 in Square 5041 and Lot 811 in Square 5056 shall be allowed an annual real property tax abatement equal to the amount of the real property taxes assessed and imposed by Chapter 8 of this title of up to a total maximum amount for each lot of $300,000 per year for 10 property tax years commencing for Lot 72 and Lot 811 at the beginning of the first month following the date that specific lot is issued a final certificate of occupancy ("commencement date") and ending for each lot at the end of the 10th full real property tax year following the lot's commencement date.</text>
               </para>
@@ -10671,16 +10941,22 @@
           <para>
             <num>(3)</num>
             <text>Subsection (b) is amended by striking the year "2018" and inserting the year "2020" in its place.</text>
+            <codify:find-replace path="(b)" count="1">
+              <find>2018</find>
+              <replace>2020</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>Subsections (c) and (d) are amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace path="(c)"/>
                 <num>(c)</num>
                 <text>Notwithstanding any other provision of law and provided that the final certificate of occupancy is issued on or before September 20, 2020, upon the issuance of a final certificate for Lot 72 or Lot 811, any fees or deposits charged to and paid by the owner of that specific lot for the development of Lot 72 or Lot 811, including private space or building permit fees or public space permit fees ("related fees"), shall be refunded and any prospective related fees forgiven.</text>
               </para>
               <para>
+                <codify:replace path="(d)"/>
                 <num>(d)</num>
                 <text>The tax abatements and the exemptions from fees and deposits provided pursuant to this section shall be in addition to, and not in lieu of, any other tax relief or assistance from any other source applicable to the development of Lot 72 or Lot 811.</text>
               </para>
@@ -10704,6 +10980,7 @@
         <text>Section 47-1806.06(r) of the District of Columbia Official Code is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace doc="D.C. Code" path="§47-1806.06|(r)"/>
             <num>(r)</num>
             <para>
               <num>(1)</num>
@@ -10735,30 +11012,43 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Tax Sale Resource Center and Deed Clarification Amendment Act of 2016".</text>
       </section>
-      <section>
+      <section codify:doc="D.C. Code">
         <num>7112</num>
         <text>Chapter 13A of Title 47 of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="§47-1341">
           <num>(a)</num>
           <text>Section 47-1341 is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Subsection (a)(2) is amended by striking the phrase ""Tax Sale Resource Center. Resource Center attorneys provide legal information to taxpayers and interested parties who do not have their own lawyers on Wednesday mornings from 10:00am to 12:00pm when court is in session. The Resource Center is located in the Moultrie Courthouse at 500 Indiana Ave. NW.".</text>
+            <codify:find-replace path="(a)|(2)" count="1">
+              <find>"Tax Sale Resource Center. Resource Center attorneys provide legal information to taxpayers and interested parties who do not have their own lawyers on Wednesday mornings from 10:00am to 12:00pm when court is in session. The Resource Center is located in the Moultrie Courthouse at 500 Indiana Ave. NW.</find>
+              <replace></replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Subsection (b-1)(2) is amended by striking the phrase ""Tax Sale Resource Center. Resource Center attorneys provide legal information to taxpayers and interested parties who do not have their own lawyers on Wednesday mornings from 10:00am to 12:00pm when court is in session. The Resource Center is located in the Moultrie Courthouse at 500 Indiana Ave. NW.".</text>
+            <codify:find-replace path="(b-1)|(2)" count="1">
+              <find>"Tax Sale Resource Center. Resource Center attorneys provide legal information to taxpayers and interested parties who do not have their own lawyers on Wednesday mornings from 10:00am to 12:00pm when court is in session. The Resource Center is located in the Moultrie Courthouse at 500 Indiana Ave. NW.</find>
+              <replace></replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
           <num>(b)</num>
           <text>Section 47-1353.01(b) is amended by striking the phrase ""Tax Sale Resource Center. Resource Center attorneys provide legal information to taxpayers and interested parties who do not have their own lawyers on Wednesday mornings from 10:00am to 12:00pm when court is in session. The Resource Center is located in the Moultrie Courthouse at 500 Indiana Ave., NW.".</text>
+          <codify:find-replace path="§47-1353.01|(b)" count="1">
+            <find>"Tax Sale Resource Center. Resource Center attorneys provide legal information to taxpayers and interested parties who do not have their own lawyers on Wednesday mornings from 10:00am to 12:00pm when court is in session. The Resource Center is located in the Moultrie Courthouse at 500 Indiana Ave., NW.</find>
+            <replace></replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>Section 47-1382(b) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace path="§47-1382|(b)"/>
               <num>(b)</num>
               <text>Notwithstanding subsection (a)(1) of this section, upon issuance of a tax deed concerning a real property sold under § 47-1353(a)(3) or (b), the real property shall be free and clear of all prior taxes and liabilities owed by the real property to a taxing agency.  The purchaser shall not be required to pay such prior taxes and liabilities to receive the tax deed.</text>
             </para>
@@ -10776,18 +11066,20 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Tax Revision Implementation Amendment Act of 2016".</text>
       </section>
-      <section>
+      <section codify:doc="D.C. Code" codify:path="§47-181|(b)">
         <num>7122</num>
         <text>Section 47-181(b) of the District of Columbia Official Code is amended as follows:</text>
         <para>
           <num>(a)</num>
           <text>The existing text is designated as paragraph (1).</text>
+          <codify:redesignate-para num-value="(1)"/>
         </para>
         <para>
           <num>(b)</num>
           <text>A new paragraph (2) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(1)"/>
               <num>(2)</num>
               <text>If local Fiscal Year 2017 recurring annual revenues included in the quarterly revenue estimate issued in September 2016 exceed the annual revenue estimate incorporated in the approved budget and financial plan for Fiscal Year 2017, the additional revenue shall be used to continue implementation of the TRC Act according to the priority set forth in subsection (c) of this section for taxable years beginning or deaths occurring, as applicable, after December 31, 2016; provided, that the Chief Financial Officer shall recalculate the cost of the provisions of the TRC Act with the September 2016 estimate.</text>
             </para>
@@ -10808,6 +11100,10 @@
       <section>
         <num>7132</num>
         <text>Section 47-4802(a)(2) of the District of Columbia Official Code is amended by striking the phrase "tax year 2016" and inserting the phrase "tax year 2017" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§47-4802|(a)|(2)" count="1">
+          <find>tax year 2016</find>
+          <replace>tax year 2017</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -10819,25 +11115,34 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Fiscal Stabilization Reserve Amendment Act of 2016".</text>
       </section>
-      <section>
+      <section codify:doc="D.C. Code" codify:path="§47-392.02|(j-1)">
         <num>7142</num>
         <text>Section 47-392.02(j-1) of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="(2)">
           <num>(a)</num>
           <text>Paragraph (2) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Subparagraph (A) is amended by striking the phrase "act; and" and inserting the phrase "act;" in its place.</text>
+            <codify:find-replace path="(A)" count="1">
+              <find>act; and</find>
+              <replace>act;</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Subparagraph (B) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace path="(B)" count="1">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>A new subparagraph (C) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(B)"/>
                 <num>(C)</num>
                 <text>Funding for the appropriations advance to District of Columbia Public Schools and District of Columbia Public Charter Schools as authorized by the annual budget and financial plan; provided, that any amounts used must be replenished immediately upon the approval of the District's annual budget for that year.</text>
               </para>
@@ -10850,6 +11155,7 @@
           <text>A new paragraph (2A) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(2)" />
               <num>(2A)</num>
               <text>The Fiscal Stabilization Reserve Account may be used by the Chief Financial Officer to cover cash flow needs; provided, that any amounts used shall be replenished to the Fiscal Stabilization Reserve Account in the same fiscal year.</text>
             </para>
@@ -10871,6 +11177,7 @@
         <num>7152</num>
         <text>Chapter 3 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
         <para>
+          <codify:ignore/>
           <num>(a)</num>
           <text>The table of contents is amended as follows:</text>
           <para>
@@ -10889,14 +11196,17 @@
         <para>
           <num>(b)</num>
           <text>Section 47-368.01 is repealed.</text>
+          <codify:repeal doc="D.C. Code" path="§47-368.01"/>
         </para>
         <para>
           <num>(c)</num>
           <text>Section 47-368.02 is repealed.</text>
+          <codify:repeal doc="D.C. Code" path="§47-368.02"/>
         </para>
         <para>
           <num>(d)</num>
           <text>Section 47-368.03 is repealed.</text>
+          <codify:repeal doc="D.C. Code" path="§47-368.03"/>
         </para>
       </section>
     </container>
@@ -10909,11 +11219,12 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Vault Tax Expansion Amendment Act of 2016".</text>
       </section>
-      <section>
+      <section codify:doc="Pub. L. 90-596" codify:path="§305|(d)">
         <num>7162</num>
         <text>Section 305(d) of the District of Columbia Public Space Rental Act, approved October 17, 1968 (82 Stat. 1159; D.C. Official Code § 10-1103.04(d)), is amended by adding a new paragraph (4) to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(3)" num-value=""/>
             <num>(4)</num>
             <text>Any vault serving, in whole or in part, real property located at Square 287, Lot 812 shall be exempt from vault rent.</text>
           </para>
@@ -10933,10 +11244,15 @@
       <section>
         <num>7172</num>
         <text>Section 47-4619(b) of the District of Columbia Official Code is amended by striking the phrase "October 1, 2009 to September 30, 2013" and inserting the phrase "October 1, 2016, to September 30, 2021" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§47-4619|(b)" count="1">
+          <find>October 1, 2009 to September 30, 2013</find>
+          <replace>October 1, 2016, to September 30, 2021</replace>
+        </codify:find-replace>
       </section>
       <section>
         <num>7173</num>
         <text>Section 3 of the Walker Jones/Northwest One Unity Health Center Tax Abatement Act of 2008, effective March 25, 2009 (D.C. Law 17-351; 56 DCR 1113), is repealed.</text>
+        <codify:ignore doc="D.C. Law 17-351" path="§3" technical="Question. See 17-351"/>
       </section>
     </container>
     <container>
@@ -10952,6 +11268,7 @@
         <num>7182</num>
         <text>Chapter 10 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
         <para>
+          <codify:ignore/>
           <num>(a)</num>
           <text>The table of contents is amended by adding a new section designation to read as follows:</text>
           <include>
@@ -10969,6 +11286,7 @@
           <text>A new section 47-1098 is added to read as follows:</text>
           <include>
             <section>
+              <codify:ignore doc="D.C. Code" path="47|10" after="§47-1097" num-value="47-1098" techical="Question. There is already a 47-1098 that is not funded."/>
               <num>§ 47-1098</num>
               <heading>Jubilee Ontario Apartments, LP, Lot 805, Square 2565.</heading>
               <text>The portion of Lot 805 in Square 2565, located at 2525 Ontario Road, N.W. ("Property") that is used for nonresidential purposes, shall be exempt from real property taxation so long as the residential portion of the Property continues to be exempt from real property taxation pursuant to § 47-1005.02.</text>
