@@ -419,7 +419,7 @@
               <codify:replace path="§13"/>
               <num>13</num>
               <heading>Exemption from certain laws.</heading>
-              <text>The Agency shall not be subject to the:</text>
+              <text>The Agency shall not be subject to<span codify:value=""> the:</span></text>
               <para>
                 <num>(1)</num>
                 <text><code-cite doc="D.C. Law 16-33" path="II|N">Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 2-218.01 <em>et seq.</em>)</code-cite>;</text>
@@ -2458,7 +2458,7 @@
           <text>Section 1 (D.C. Official Code § 5-414(a)) is amended to read as follows:</text>
           <include>
             <para>
-              <codify:replace doc="D.C. Code" path="§5-414|(a)" technical="Question. Law could not be found."/>
+              <codify:replace doc="D.C. Code" path="§5-414|(a)"/>
               <num>(a)</num>
               <text>The Mayor is hereby authorized in his or her discretion to enter into and to renew reciprocal agreements, for such period as he or she deems advisable, with the appropriate county, municipal, and other governmental units in Prince George's and Montgomery Counties, Maryland, and Arlington, Fairfax, and Loudon Counties, Virginia, with the City of Alexandria, Virginia, with the City of Fairfax, Virginia, with the City of Falls Church, Virginia, and with incorporated or unincorporated fire departments, fire companies, and organizations of fire personnel in such counties and cities, in order to establish and carry into effect a plan to provide mutual aid, through the furnishing of firefighting personnel and equipment, by and for the District of Columbia and such counties and cities, for the extinguishment of fires and for the preservation of life and property in emergencies, in the District and in such counties and cities.</text>
             </para>
@@ -2946,14 +2946,16 @@
           <aftertext>.</aftertext>
         </para>
       </section>
-      <codify:insert doc="D.C. Code" path="5|4|II" history="false">
-        <container>
-          <prefix>Part</prefix>
-          <num>C</num>
-          <heading>Pilot Civilian Technical Services Program.</heading>
-        </container>
+      <codify:insert doc="D.C. Law 4-172" after="§5" history="false">
+        <codify:insert doc="D.C. Code" path="5|4|II" history="false">
+          <container>
+            <prefix>Part</prefix>
+            <num>C</num>
+            <heading>Pilot Civilian Technical Services Program.</heading>
+          </container>
+        </codify:insert>
       </codify:insert>
-      <section>
+      <section codify:doc="D.C. Law 4-172">
         <num>3063</num>
         <text>The Police Officer and Firefighter Cadet Programs Funding Authorization and Human Rights Act of 1977 Amendment Act of 1982, effective March 9, 1983 (D.C. Law 4-172; codified in various sections of the District of Columbia Official Code), is amended as follows:</text>
         <para>
@@ -2961,8 +2963,8 @@
           <text>A new section 5a is added to read as follows:</text>
           <include>
             <section>
-              <codify:insert doc="D.C. Law 4-172" after="§5" history-prefix="as added"/>
-              <codify:ignore doc="D.C. Code" path="5|4|II|C" num-value="5-445" technical="Question. The insert code container instruction doesn't seem to be creating a valid target for this insert instruction."/>
+              <codify:insert before="§6" history-prefix="as added"/>
+              <codify:insert doc="D.C. Code" path="5|4|II|C" num-value="5-445"/>
               <num>5a</num>
               <heading>Pilot Civilian Technical Services Program.</heading>
               <para>
@@ -2988,10 +2990,14 @@
         <para>
           <num>(b)</num>
           <text>Section 6 (D.C. Official Code § 5-109.02) is amended by striking the phrase "and section 2(b)-(d)" and inserting the phrase ", section 2(b)-(d), and section 5a" in its place.</text>
-          <codify:ignore doc="D.C. Code" path="§5-109.02" count="1" technical="Question. See 4-172.">
+          <codify:find-replace doc="D.C. Code" path="§5-109.02" count="1">
             <find>and <cite path="§5-418">5-418</cite></find>
             <replace>, <code-cite doc="D.C. Code" path="§5-418" codify:value="{{ target.num }}">section 2(b)-(d)</code-cite>, and <code-cite doc="D.C. Law 4-172" path="§5a" codify:value="{{ target.num }}">section 5a</code-cite></replace>
-          </codify:ignore>
+          </codify:find-replace>
+          <codify:find-replace doc="D.C. Code" path="§5-419" count="1">
+            <find>and <cite path="§5-418">5-418</cite></find>
+            <replace>, <code-cite doc="D.C. Code" path="§5-418" codify:value="{{ target.num }}">section 2(b)-(d)</code-cite>, and <code-cite doc="D.C. Law 4-172" path="§5a" codify:value="{{ target.num }}">section 5a</code-cite></replace>
+          </codify:find-replace>
         </para>
       </section>
     </container>
@@ -3590,7 +3596,7 @@
         </para>
       </section>
       <section>
-        <codify:ignore technical="CMR"/>
+        <codify:ignore/>
         <num>3103</num>
         <text>Section 2213.1 of Title 18 of the District of Columbia Municipal Regulations (18 DCMR § 2213.1) is amended by striking the phrase "front, sides, or back of the vehicle" and inserting the phrase "front or sides of the vehicle" in its place.</text>
       </section>
@@ -4994,13 +5000,13 @@
         </para>
       </section>
     </container>
-    <codify:ignore doc="D.C. Code" path="38|1B" after="I" history="false" technical="Question. New Chapter.">
+    <codify:insert doc="D.C. Code" path="38|1B" after="I" history="false">
       <container>
         <prefix>Subchapter</prefix>
         <num>II</num>
         <heading>[TODO]</heading>
       </container>
-    </codify:ignore>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>H</num>
@@ -5996,7 +6002,7 @@
         </para>
       </section>
     </container>
-    <codify:insert doc="D.C. Code" path="7" after="7B-i" history="false" technical="Question. I believe they meant new 7B-ii, not 7-ii.">
+    <codify:insert doc="D.C. Code" path="7" after="7B-i" history="false" technical="TODO: Confirm meant new 7B-ii, not 7-ii.">
       <container>
         <prefix>Chapter</prefix>
         <num>7B-ii</num>
@@ -6308,27 +6314,19 @@
           <para>
             <num>(1)</num>
             <text>Strike the word "subgrant" wherever it appears and insert the word "grant" in its place.</text>
-            <codify:find-replace>
-              <find>subgrant</find>
-              <replace>grant</replace>
-            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the word "subgrantee" wherever it appears and insert the word "grantee" in its place.</text>
-            <codify:ignore technical="Instruction in (c)(1) resolves this instruction.">
-              <find>subgrantee</find>
-              <replace>grantee</replace>
-            </codify:ignore>
           </para>
           <para>
             <num>(3)</num>
             <text>Subsection (a)(4)(C) is amended by striking the word "subgrantee's" and inserting the word "grantee's" in its place.</text>
-            <codify:ignore path="(a)|(4)|(C)" count="1" technical="Instruction in (c)(1) resolves this instruction.">
-              <find>subgrantee’s</find>
-              <replace>grantee's</replace>
-            </codify:ignore>
           </para>
+          <codify:find-replace>
+            <find>subgrant</find>
+            <replace>grant</replace>
+          </codify:find-replace>
         </para>
         <para codify:path="§5145">
           <num>(d)</num>
@@ -8425,12 +8423,9 @@
           <codify:find-replace path="§155" find="DDOE" replace="DOEE"/>
         </para>
         <para>
+          <codify:ignore/>
           <num>(c)</num>
           <text>Strike the word "DDOE's" wherever it appears and insert the word "DOEE's" in its place.</text>
-          <codify:ignore technical="Instruction in (b) resolves this instruction.">
-            <find>DDOE’s</find>
-            <replace>DOEE's</replace>
-          </codify:ignore>
         </para>
       </section>
     </container>
