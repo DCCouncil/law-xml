@@ -283,7 +283,7 @@
         <heading>Applicability.</heading>
         <text>Section 1022(a) shall apply as of October 1, 2008.</text>
         <codify:annotation doc="D.C. Code" path="§1-623.42" type="Applicability">
-          Section 1023 of D.C. Law 21-160 provided that the chanages made by section 1022 shall apply as of October 1, 2008.
+          Section 1023 of D.C. Law 21-160 provided that the changes made by section 1022 shall apply as of October 1, 2008.
         </codify:annotation>
       </section>
     </container>
@@ -3587,15 +3587,27 @@
               <codify:replace doc="D.C. Law 21-125" path="§901|(a)"/>
               <num>(a)</num>
               <text>Sections 101, 102, 103, 104(b)(3), 105, and 204 shall apply upon the inclusion of their fiscal effect in an approved budget and financial plan.</text>
-              <codify:annotation doc="D.C. Code" path="§7-2411" type="Editor's Notes" technical="Every section that is being funded, we're adding an annotation specifying that.">
-                §§ 7-2411 – 7-2413, 7-781, 5-132.31, 5-132.32, 22-4251, 22-4234, 5-113.01, 1-301.191
-              </codify:annotation>
-            </para>
-          </include>
-          <aftertext>.</aftertext>
-        </para>
-      </section>
-      <section>
+              <codify:applicability path="§101" date="notfunded" history="false"/>
+              <codify:applicability path="§102" date="notfunded" history="false"/>
+              <codify:applicability path="§103" date="notfunded" history="false"/>
+              <codify:applicability path="§104|(b)|(3)" date="notfunded" history="false"/>
+              <codify:applicability path="§105" date="notfunded" history="false"/>
+              <codify:applicability path="§204" date="notfunded" history="false"/>
+              </para>
+            </include>
+            <aftertext>.</aftertext>
+            <codify:annotation doc="D.C. Code" path="§7-2411" type="Editor's Notes" technical="Every section that is being funded, we're adding an annotation specifying that.">
+              §§ 7-2411 – 7-2413, 7-781, 5-132.31, 5-132.32, 22-4251, 22-4234, 5-113.01, 1-301.191
+            </codify:annotation>
+            <codify:ignore path="§104" history="false"/>
+            <codify:ignore path="§201" history="false"/>
+            <codify:ignore path="§202" history="false"/>
+            <codify:ignore path="§203" history="false"/>
+            <codify:ignore path="§209" history="false"/>
+            <codify:ignore path="§210" history="false"/>
+          </para>
+        </section>
+        <section>
         <codify:ignore/>
         <num>3103</num>
         <text>Section 2213.1 of Title 18 of the District of Columbia Municipal Regulations (18 DCMR § 2213.1) is amended by striking the phrase "front, sides, or back of the vehicle" and inserting the phrase "front or sides of the vehicle" in its place.</text>
@@ -5000,12 +5012,17 @@
         </para>
       </section>
     </container>
-    <codify:insert doc="D.C. Code" path="38|1B" after="I" history="false">
-      <container>
-        <prefix>Subchapter</prefix>
-        <num>II</num>
-        <heading>[TODO]</heading>
-      </container>
+    <codify:insert doc="D.C. Law 21-36" path="IV" before="M" history="false">
+      <codify:create-sub-container doc="D.C. Code" path="38|1B" num-value="I" prefix-value="Subchapter" heading-value="General" history="false"/>
+    </codify:insert>
+    <codify:insert doc="D.C. Law 21-36" path="IV" before="M" history="false">
+      <codify:insert doc="D.C. Code" path="38|1B" after="I" history="false">
+        <container>
+          <prefix>Subchapter</prefix>
+          <num>II</num>
+          <heading>[TODO]</heading>
+        </container>
+      </codify:insert>
     </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
@@ -5016,21 +5033,55 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "My School DC EdFest Sponsorship and Advertising and Common Lottery Board Amendment Act of 2016".</text>
       </section>
+      <codify:replace doc="D.C. Law 21-36" path="§4122">
       <section>
-        <codify:ignore technical="Question.This section is not codified"/>
+        <codify:insert doc="D.C. Code" path="38|1B|II" num-value="38-196.01"/>
+        <num>4122</num>
+        <para>
+          <num>(a)</num>
+          <text>Notwithstanding any other provision of law, the Deputy Mayor for Education may enter into one or more written agreements for advertisements and sponsorships to fund My School DC EdFest, an annual citywide public school fair.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>No agreement pursuant to this section may require the District to expend funds.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Only advertisements shall be agreed to in exchange for corporate goods, services, or funds.</text>
+        </para>
+        <para>
+          <num>(d)</num>
+          <text>There shall be no limit to the value of goods, services, or funds that may be received from an organization, registered or not, or from an individual, regardless of whether the organization is located, or the individual resides, within the District of Columbia. </text>
+        </para>
+        <para>
+          <num>(e)</num>
+          <text>Any sponsorship or advertisement pursuant to this section shall be memorialized by written agreement of the parties.</text>
+        </para>
+        <para>
+          <num>(f)</num>
+          <text>The Deputy Mayor for Education shall keep an accounting of all goods, services, and funds received pursuant to this section and shall submit to the Mayor and to the Council of the District of Columbia a report accounting for all goods, services, and funds received pursuant to this section by December 31st of each year.</text>
+        </para>
+      </section>
+      </codify:replace>
+      <section codify:doc="D.C. Law 21-36" codify:path="§4122">
         <num>4072</num>
         <text>Section 4122 of the My School DC EdFest Sponsorship and Advertising Act of 2015, effective October 22, 2015 (D.C. Law 21-36; 62 DCR 10905), is amended as follows:</text>
         <para>
           <num>(a)</num>
           <text>Subsection (f) is amended by striking the date "December 31st" and inserting the date "April 30" in its place.</text>
+          <codify:find-replace path="(f)" count="1">
+            <find>December 31st</find>
+            <replace>April 30</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>A new subsection (g) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(f)"/>
               <num>(g)</num>
-              <text>The Chief Financial Officer shall deposit all cash proceeds received from advertisements and sponsorships pursuant to this section into the Common Lottery Board Fund established pursuant to <code-cite doc="D.C. Law 20-155" path="§206">section 206 of the Department of Education Establishment Act of 2007, effective February 26, 2015 (D.C. Law 20-155; D.C. Official Code § 38-195)</code-cite>.</text>
+              <text>The Chief Financial Officer shall deposit all cash proceeds received from advertisements and sponsorships pursuant to this section into the Common Lottery Board Fund established pursuant to <code-cite doc="D.C. Law 17-9" path="§206">section 206 of the Department of Education Establishment Act of 2007, effective February 26, 2015 (D.C. Law 20-155; D.C. Official Code § 38-195)</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -5065,7 +5116,7 @@
               <para>
                 <codify:insert after="(4)" />
                 <num>(5)</num>
-                <text>Cash proceeds for DC EdFest deposited pursuant to <codify:ignore doc="D.C. Law 21-36" path="§4122|(g)" technical="Question. See 4072">section 4122(g) of the My School DC EdFest Sponsorship and Advertising Act of 2015, effective October 22, 2015 (D.C. Law 21-36; 62 DCR 10905)</codify:ignore>.</text>
+                <text>Cash proceeds for DC EdFest deposited pursuant to <code-cite doc="D.C. Law 21-36" path="§4122|(g)">section 4122(g) of the My School DC EdFest Sponsorship and Advertising Act of 2015, effective October 22, 2015 (D.C. Law 21-36; 62 DCR 10905)</code-cite>.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
@@ -5233,7 +5284,7 @@
               <codify:replace path="§7"/>
               <num>7</num>
               <heading>Higher Education Licensure Commission — Functions.</heading>
-              <text>In addition to those duties specified in other sections of this act, the Commission shall:</text>
+              <text>In addition to those duties specified in other sections of <code-cite>this act</code-cite>, the Commission shall:</text>
               <para>
                 <num>(1)</num>
                 <text>Advise the Mayor and the Council with respect to the postsecondary educational needs of the District of Columbia;</text>
@@ -5366,7 +5417,7 @@
           <text>A new subsection (a-1) is added to read as follows:</text>
           <include>
             <para>
-              <codify:insert after="(a)" num-value=""/>
+              <codify:insert after="(a)"/>
               <num>(a-1)</num>
               <para>
                 <num>(1)</num>
@@ -6392,7 +6443,8 @@
         </para>
       </section>
     </container>
-    <codify:insert doc="D.C. Code" path="44|6A" history="false" technical="Question. Redesignate existing into subchapter?">
+    <codify:create-sub-container doc="D.C. Code" path="44|6A" num-value="I" prefix-value="Subchapter" heading-value="TODO" history="false" technical="TODO"/>
+    <codify:insert doc="D.C. Code" path="44|6A" history="false">
       <container>
         <prefix>SUBCHAPTER</prefix>
         <num>II</num>
@@ -6448,11 +6500,11 @@
           <text>Revenue from the following sources shall be deposited in the Fund:</text>
           <para>
             <num>(1)</num>
-            <text>Fees collected under <code-cite path="V|G">this subtitle</code-cite>; and</text>
+            <text>Fees collected under <code-cite doc="D.C. Law 21-160" path="V|G">this subtitle</code-cite>; and</text>
           </para>
           <para>
             <num>(2)</num>
-            <text>Interest and penalties collected under <code-cite path="V|G">this subtitle</code-cite>.</text>
+            <text>Interest and penalties collected under <code-cite doc="D.C. Law 21-160" path="V|G">this subtitle</code-cite>.</text>
           </para>
         </para>
         <para>
@@ -6460,15 +6512,15 @@
           <text>Money in the Fund may only be used for the following purposes:</text>
           <para>
             <num>(1)</num>
-            <text>Making Medicaid outpatient hospital access payments to hospitals as required under <code-cite path="§5066">section 5066;</code-cite></text>
+            <text>Making Medicaid outpatient hospital access payments to hospitals as required under <code-cite doc="D.C. Law 21-160" path="§5066">section 5066;</code-cite></text>
           </para>
           <para>
             <num>(2)</num>
-            <text>Payment of administrative expenses incurred by the Department or its agent in performing the activities authorized by <code-cite path="V|G">this subtitle</code-cite> in an amount not to exceed $150,000 annually; and</text>
+            <text>Payment of administrative expenses incurred by the Department or its agent in performing the activities authorized by <code-cite doc="D.C. Law 21-160" path="V|G">this subtitle</code-cite> in an amount not to exceed $150,000 annually; and</text>
           </para>
           <para>
             <num>(3)</num>
-            <text>Providing refunds to hospitals pursuant to <code-cite path="§5065">section 5065.</code-cite></text>
+            <text>Providing refunds to hospitals pursuant to <code-cite doc="D.C. Law 21-160" path="§5065">section 5065.</code-cite></text>
           </para>
         </para>
         <para>
@@ -6493,7 +6545,7 @@
         <heading>Hospital provider fee.</heading>
         <para>
           <num>(a)</num>
-          <text>Beginning October 1, 2016, and subject to <code-cite path="§5065">section 5065</code-cite>, the District may charge each hospital a fee based on its outpatient gross patient revenue. The fee shall be charged at a uniform rate necessary to generate the following:</text>
+          <text>Beginning October 1, 2016, and subject to <code-cite doc="D.C. Law 21-160" path="§5065">section 5065</code-cite>, the District may charge each hospital a fee based on its outpatient gross patient revenue. The fee shall be charged at a uniform rate necessary to generate the following:</text>
           <para>
             <num>(1)</num>
             <text>An amount equal to the non-federal share of the total available spending room under the Medicaid upper payment limit for private hospitals applicable to District Fiscal Year ("DFY") 2017 consistent with the federal approval of the authorizing Medicaid State Plan amendment; plus</text>
@@ -6504,7 +6556,7 @@
           </para>
           <para>
             <num>(3)</num>
-            <text>An amount equal to the Department's administrative expenses as described in <code-cite path="§5063|(c)|(2)">section 5063(c)(2).</code-cite></text>
+            <text>An amount equal to the Department's administrative expenses as described in <code-cite doc="D.C. Law 21-160" path="§5063|(c)|(2)">section 5063(c)(2).</code-cite></text>
           </para>
         </para>
         <para>
@@ -6518,27 +6570,27 @@
         <heading>Applicability of fees.</heading>
         <para>
           <num>(a)</num>
-          <text>The fee imposed by section 5064 shall not be due and payable until such time that the federal Centers for Medicare and Medicaid Services approves the Medicaid State Plan amendment authorizing the Medicaid payments described in section 5066.</text>
+          <text>The fee imposed by <code-cite doc="D.C. Law 21-160" path="§5064">section 5064</code-cite> shall not be due and payable until such time that the federal Centers for Medicare and Medicaid Services approves the Medicaid State Plan amendment authorizing the Medicaid payments described in <code-cite doc="D.C. Law 21-160" path="§5066">section 5066.</code-cite></text>
         </para>
         <para>
           <num>(b)</num>
-          <text>The fee imposed by section 5064 shall cease to be imposed, and any moneys remaining in the Fund shall be refunded to hospitals in proportion to the amounts paid by them, if:</text>
+          <text>The fee imposed by <code-cite doc="D.C. Law 21-160" path="§5064">section 5064</code-cite> shall cease to be imposed, and any moneys remaining in the Fund shall be refunded to hospitals in proportion to the amounts paid by them, if:</text>
           <para>
             <num>(1)</num>
             <text>The Department makes changes in its rules that reduce the hospital inpatient or outpatient Medicaid payment rates, including adjustment to payment rates that are in effect on October 1, 2015; or</text>
           </para>
           <para>
             <num>(2)</num>
-            <text>The payments to hospitals required under section 5066 are modified in any way other than to secure federal approval of such payments as described in section 5066 or are not eligible for federal matching funds under section 1903(w) of the Social Security Act, approved July 30, 1965 (70 Stat. 349; 42 U.S.C. §1396b(w)) ("Social Security Act").</text>
+            <text>The payments to hospitals required under <code-cite doc="D.C. Law 21-160" path="§5066">section 5066</code-cite> are modified in any way other than to secure federal approval of such payments as described in <code-cite doc="D.C. Law 21-160" path="§5066">section 5066</code-cite> or are not eligible for federal matching funds under section 1903(w) of the Social Security Act, approved July 30, 1965 (70 Stat. 349; 42 U.S.C. §1396b(w)) ("Social Security Act").</text>
           </para>
         </para>
         <para>
           <num>(c)</num>
-          <text>The fee imposed by section 5064 shall not take effect or shall cease to be imposed if the fee is determined to be an impermissible tax under section 1903(w)(3)(B) of the Social Security Act by the Centers for Medicare and Medicaid Services.</text>
+          <text>The fee imposed by <code-cite doc="D.C. Law 21-160" path="§5064">section 5064</code-cite> shall not take effect or shall cease to be imposed if the fee is determined to be an impermissible tax under section 1903(w)(3)(B) of the Social Security Act by the Centers for Medicare and Medicaid Services.</text>
         </para>
         <para>
           <num>(d)</num>
-          <text>Should the fee imposed by section 5064 not take effect or cease to be imposed, moneys in the Fund derived from the imposed fee shall be disbursed in accordance with section 5066 to the extent federal matching is available. If federal matching is not available due to a determination by the Centers for Medicare and Medicaid Services that the fee is impermissible, any remaining moneys shall be refunded to hospitals in proportion to the amounts paid by them.</text>
+          <text>Should the fee imposed by <code-cite doc="D.C. Law 21-160" path="§5064">section 5064</code-cite> not take effect or cease to be imposed, moneys in the Fund derived from the imposed fee shall be disbursed in accordance with <code-cite doc="D.C. Law 21-160" path="§5066">section 5066</code-cite> to the extent federal matching is available. If federal matching is not available due to a determination by the Centers for Medicare and Medicaid Services that the fee is impermissible, any remaining moneys shall be refunded to hospitals in proportion to the amounts paid by them.</text>
         </para>
       </section>
       <section>
@@ -6581,11 +6633,11 @@
         </para>
         <para>
           <num>(d)</num>
-          <text>No payments shall be made under this section until such time that the federal Centers for Medicare and Medicaid Services approves the Medicaid State Plan amendment authorizing the Medicaid payments described in this subtitle.</text>
+          <text>No payments shall be made under this section until such time that the federal Centers for Medicare and Medicaid Services approves the Medicaid State Plan amendment authorizing the Medicaid payments described in <code-cite doc="D.C. Law 21-160" path="V|G">this subtitle</code-cite>.</text>
         </para>
         <para>
           <num>(e)</num>
-          <text>The Medicaid payment methodologies authorized under this subtitle shall not be altered in any way unless such alteration is necessary to gain federal approval from the Centers for Medicare and Medicaid Services.</text>
+          <text>The Medicaid payment methodologies authorized under <code-cite doc="D.C. Law 21-160" path="V|G">this subtitle</code-cite> shall not be altered in any way unless such alteration is necessary to gain federal approval from the Centers for Medicare and Medicaid Services.</text>
         </para>
       </section>
       <section>
@@ -6594,10 +6646,10 @@
         <heading>Quarterly notice and collection.</heading>
         <para>
           <num>(a)</num>
-          <text>The fee imposed under section 5064, which shall be calculated, due, and payable on a quarterly basis, shall be due and payable by the 15th of the last month of each DFY quarter; provided, that the fee shall not be due and payable until:</text>
+          <text>The fee imposed under <code-cite doc="D.C. Law 21-160" path="§5064">section 5064</code-cite>, which shall be calculated, due, and payable on a quarterly basis, shall be due and payable by the 15th of the last month of each DFY quarter; provided, that the fee shall not be due and payable until:</text>
           <para>
             <num>(1)</num>
-            <text>The District issues written notice that the payment methodologies for payments to hospitals required under section 5066 have been approved by the federal Centers for Medicare and Medicaid Services; and</text>
+            <text>The District issues written notice that the payment methodologies for payments to hospitals required under <code-cite doc="D.C. Law 21-160" path="§5066">section 5066</code-cite> have been approved by the federal Centers for Medicare and Medicaid Services; and</text>
           </para>
           <para>
             <num>(2)</num>
@@ -6608,7 +6660,7 @@
           <num>(b)</num>
           <para>
             <num>(1)</num>
-            <text>If a hospital fails to pay the full amount of the fee in accordance with this subtitle, the unpaid balance shall accrue interest at the rate of 1.5% per month or any fraction thereof, which shall be added to the unpaid balance.</text>
+            <text>If a hospital fails to pay the full amount of the fee in accordance with <code-cite doc="D.C. Law 21-160" path="V|G">this subtitle</code-cite>, the unpaid balance shall accrue interest at the rate of 1.5% per month or any fraction thereof, which shall be added to the unpaid balance.</text>
           </para>
           <para>
             <num>(2)</num>
@@ -6617,7 +6669,7 @@
         </para>
         <para>
           <num>(c)</num>
-          <text>The payment by the hospital of the fee created in this subtitle shall be reported as an allowable cost for purposes of Medicaid hospital reimbursement.</text>
+          <text>The payment by the hospital of the fee created in <code-cite doc="D.C. Law 21-160" path="V|G">this subtitle</code-cite> shall be reported as an allowable cost for purposes of Medicaid hospital reimbursement.</text>
         </para>
       </section>
       <section>
@@ -6632,7 +6684,7 @@
           <num>(b)</num>
           <para>
             <num>(1)</num>
-            <text>Notwithstanding any other provision in this subtitle, if a hospital system or person ceases to conduct, operate, or maintain a hospital that is subject to a fee under section 5064, as evidenced by the transfer or surrender of the hospital license, the fee for the DFY in which the cessation occurs shall be adjusted by multiplying the fee computed under section 5064 by a fraction, the numerator of which is the number of days in the year during which the hospital system or person conducted, operated, or maintained the hospital, and the denominator of which is 365.</text>
+            <text>Notwithstanding any other provision in <code-cite doc="D.C. Law 21-160" path="V|G">this subtitle</code-cite>, if a hospital system or person ceases to conduct, operate, or maintain a hospital that is subject to a fee under <code-cite doc="D.C. Law 21-160" path="§5064">section 5064</code-cite>, as evidenced by the transfer or surrender of the hospital license, the fee for the DFY in which the cessation occurs shall be adjusted by multiplying the fee computed under <code-cite doc="D.C. Law 21-160" path="§5064">section 5064</code-cite> by a fraction, the numerator of which is the number of days in the year during which the hospital system or person conducted, operated, or maintained the hospital, and the denominator of which is 365.</text>
           </para>
           <para>
             <num>(2)</num>
@@ -6641,23 +6693,24 @@
         </para>
         <para>
           <num>(c)</num>
-          <text>Notwithstanding any other provision in this subtitle, a hospital system or person who conducts, operates, or maintains a hospital, upon notice by the Department, shall pay the fee computed under section 5064 and subsection (a) of this section in installments on the due date stated in the notice and on the regular installment due dates for the DFY occurring after the due dates of the initial notice.</text>
+          <text>Notwithstanding any other provision in <code-cite doc="D.C. Law 21-160" path="V|G">this subtitle</code-cite>, a hospital system or person who conducts, operates, or maintains a hospital, upon notice by the Department, shall pay the fee computed under <code-cite doc="D.C. Law 21-160" path="§5064">section 5064</code-cite> and <code-cite doc="D.C. Law 21-160" path="§5068|(a)">hsubsection (a) of this section</code-cite> in installments on the due date stated in the notice and on the regular installment due dates for the DFY occurring after the due dates of the initial notice.</text>
         </para>
       </section>
       <section>
         <codify:insert doc="D.C. Code" path="44|6A|II" num-value="44-661.18"/>
         <num>5069</num>
         <heading>Rules.</heading>
-        <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), may issue rules to implement the provisions of this subtitle.</text>
+        <text>The Mayor, pursuant to <code-cite doc="Pub. L. 90-614" path="I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, may issue rules to implement the provisions of <code-cite doc="D.C. Law 21-160" path="V|G">this subtitle</code-cite>.</text>
       </section>
       <section>
         <codify:insert doc="D.C. Code" path="44|6A|II" num-value="44-661.19"/>
         <num>5070</num>
         <heading>Sunset.</heading>
-        <text>This subtitle shall expire on September 30, 2017.</text>
+        <text><code-cite doc="D.C. Law 21-160" path="V|G">This subtitle</code-cite> shall expire on September 30, 2017.</text>
       </section>
     </container>
-    <codify:insert doc="D.C. Code" path="44|6B" history="false" technical="Question. Redesignate existing into subchapter?">
+    <codify:create-sub-container doc="D.C. Code" path="44|6B" num-value="I" prefix-value="Subchapter" heading-value="TODO" history="false" technical="TODO"/>
+    <codify:insert doc="D.C. Code" path="44|6B" history="false">
       <container>
         <prefix>SUBCHAPTER</prefix>
         <num>II</num>
@@ -8043,7 +8096,9 @@
         <para>
           <num>(a)</num>
           <text>The existing paragraph (1) is redesignated as paragraph (1A).</text>
-          <codify:ignore path="(1)" num-value="(1A)" technical="Question. Redesignate Para"/>
+          <codify:ignore path="(1)|num" technical="Question. Error generating annotation text for annotation in §8-1531 of D.C. Code: 'CodifyEl' object has no attribute 'gen_intracite'. Compare development and local build. Amendments by 21-36 (section 6172) to 20-142 are missing in local build, but show up in development.">
+            <num>(1A)</num>
+          </codify:ignore>
         </para>
         <para>
           <num>(b)</num>
@@ -8070,7 +8125,7 @@
           <text>A new paragraph (5) is added to read as follows:</text>
           <include>
             <para>
-              <codify:ignore after="(5)" num-value="(6)" technical="Question. Should be 6? Or should this be a codify:replace"/>
+              <codify:ignore after="(5)" num-value="(6)" technical="TODO. Should be (6)."/>
               <num>(5)</num>
               <text>"Recyclable" means made solely of materials that can be recycled using the District's recycling collection program and identified on the list of recyclable materials described in <code-cite doc="D.C. Law 20-154" path="§103|(b)">section 103(b) of the Sustainable Solid Waste Management Amendment Act of 2014, effective February 26, 2015 (D.C. Law 20-154; D.C. Official Code § 8-1031.03(b))</code-cite>.</text>
             </para>
@@ -8441,7 +8496,10 @@
       <section>
         <num>6052</num>
         <text>Section 5 of the District Department of Transportation DC Streetcar Amendment Act of 2012, effective April 20, 2013 (D.C. Law 19-268; D.C. Official Code § 50-921.71, note), is repealed.</text>
-        <codify:repeal doc="D.C. Law 14-137" path="§5" technical="Question. repealing note?"/>
+        <codify:ignore doc="D.C. Law 14-137" path="§5" technical="Repeal instruction pending inclusion of full 14-137."/>
+        <codify:annotation doc="D.C. Code" path="§50-921.71" type="Editor's Notes" history="false">
+          Section 6052 of D.C. Law 21-160 repeals Section 5 of D.C. Law 19-268, and therefore this subchapter no longer expires.
+        </codify:annotation>
       </section>
       <section>
         <num>6053</num>
@@ -8464,7 +8522,7 @@
         <para>
           <num>(a)</num>
           <text>The lead-in language is amended by striking the phrase "On or before February 1, 2014" and inserting the phrase "On or before January 1, 2017, and annually thereafter" in its place.</text>
-          <codify:ignore path="text" count="1" technical="Question. See 6052 regarding note.">
+          <codify:ignore path="text" count="1" technical="Question. See 6052 regarding note. Need full text of 20-61?">
             <find>On or before February 1, 2014</find>
             <replace>On or before January 1, 2017, and annually thereafter</replace>
           </codify:ignore>
@@ -8498,7 +8556,7 @@
           <aftertext>.</aftertext>
         </para>
         <codify:annotation doc="D.C. Code" path="§50-921.01" type="Editor's Notes" technical="Question">
-          TODO
+          TODO modifying language of 6103 of 20-61.
         </codify:annotation>
       </section>
     </container>
@@ -8901,13 +8959,14 @@
         </codify:annotation>
       </section>
     </container>
-    <codify:ignore doc="D.C. Code" path="48|4" after="I" history="false" technical="Question. Need to redesignate existing as new subchapter 1">
+    <codify:create-sub-container doc="D.C. Code" path="48|4" num-value="I" prefix-value="Subchapter" heading-value="TODO" history="false"/>
+    <codify:insert doc="D.C. Code" path="48|4" after="I" history="false">
       <container>
         <prefix>Subchapter</prefix>
         <num>II</num>
         <heading>TODO</heading>
       </container>
-    </codify:ignore>
+    </codify:insert>
     <container>
       <codified:at doc="D.C. Code" path="48|4"/>
       <prefix>SUBTITLE</prefix>
@@ -8919,7 +8978,7 @@
         <text>This subtitle may be cited as the "Local Food Economy Study Act of 2016".</text>
       </section>
       <section>
-        <codify:ignore doc="D.C. Code" path="§48|4|II" num-value="48-411" technical="Question. See above"/>
+        <codify:insert doc="D.C. Code" path="48|4|II" num-value="48-411" />
         <num>6182</num>
         <heading>Local food economy study.</heading>
         <text>The Office of Planning shall conduct a study of the state of the local food economy. The focus of the study shall include:</text>
@@ -9213,12 +9272,12 @@
       <section>
         <num>7007</num>
         <text>Section 7 of the Made in DC Program Establishment Act of 2016, enacted on May 3, 2016 (D.C. Act 21-388; 63 DCR 7141), is repealed.</text>
-        <codify:ignore technical="Question. D.C. Act 21-388"/>
+        <codify:repeal doc="D.C. Law 21-135" path="§7"/>
       </section>
       <section>
         <num>7008</num>
         <text>Section 14 of the Repeal of Outdated and Unnecessary Audit Mandates Amendment Act of 2016, enacted on May 10, 2016 (D.C. Act 21-392; 63 DCR 7589), is repealed.</text>
-        <codify:ignore technical="Question. D.C. Act 21-388"/>
+        <codify:repeal doc="D.C. Law 21-143" path="§14"/>
       </section>
       <section>
         <num>7009</num>
@@ -9238,7 +9297,7 @@
       <section>
         <num>7012</num>
         <text>Section 4(b) of the Tree Canopy Protection Amendment Act of 2015, enacted on May 4, 2016 (D.C. Act 21-386; 63 DCR 7134), is repealed.</text>
-        <codify:ignore doc="D.C. Law 21-386" path="§4|(b)" technical="Question. Not in this repo."/>
+        <codify:repeal doc="D.C. Law 21-133" path="§4|(b)"/>
       </section>
       <section codify:doc="D.C. Law 20-223">
         <num>7013</num>
@@ -9518,7 +9577,7 @@
           <aftertext>.</aftertext>
         </para>
       </section>
-      <section codify:doc="D.C. Code" codify:path="§35-233|(h)" technical="Question. Multiple cod at.">
+      <section codify:doc="D.C. Code" codify:path="§35-233|(h)">
         <num>7027</num>
         <text>Section 2(h) of the School Transit Subsidy Act of 1978, effective March 6, 1979 (D.C. Law 2-152; D.C. Official Code § 35-233(h)), is amended as follows:</text>
         <para>
@@ -9961,13 +10020,13 @@
       <section >
         <num>7072</num>
         <text>Section 4 of the Law to Legalize Lotteries, Daily Numbers Games, and Bingo and Raffles for Charitable Purposes in the District of Columbia, effective March 10, 1981 (D.C. Law 3-172; D.C. Official Code § 3-1301 <em>et seq</em>.), is amended as follows:</text>
-        <para codify:doc="D.C. Code" codify:path="§3-1301" technical="Question. See 3-172; the sections don't match up correctly. Taking the approach of modifying the code directly.">
+        <para codify:doc="D.C. Code" codify:path="§3-1301">
           <num>(a)</num>
           <text>Section 2-2501 (D.C. Official Code § 3-1301) is amended to read as follows:</text>
           <include>
             <section>
-              <codify:ignore num-value="3-1301" technical="Question. Can't modify directly with codify:replace; throwing error regarding numbering."/>
-              <num>2-2501</num>
+              <codify:replace/>
+              <num codify:value="3-1301">2-2501</num>
               <heading>Creation; established as an office within the Office of the Chief Financial Officer; transfer of powers; definitions.</heading>
               <para>
                 <num>(a)</num>
@@ -9998,8 +10057,8 @@
           <text>Section 2-2502 (D.C. Official Code § 3-1302) is amended to read as follows:</text>
           <include>
             <section>
-              <codify:ignore technical="Question."/>
-              <num>2-2502</num>
+              <codify:replace/>
+              <num codify:value="3-1302">2-2502</num>
               <heading>Oath requirement.</heading>
               <text>Before entering upon the discharge of the duties of office, the Executive Director and the Deputy Director shall take an oath that he or she will faithfully execute the duties of office according to the laws of the District of Columbia.  In addition, each employee of the Office shall take and subscribe to an oath or affirmation that he or she is not pecuniarily interested, voluntarily or involuntarily, directly or indirectly, in any firm, partnership, association, organization, or corporation engaged in any activity related to legalized or illegal gambling.  If required by the Chief Financial Officer, an employee shall file a financial disclosure statement according to the laws of the District of Columbia.</text>
             </section>
@@ -10011,8 +10070,8 @@
           <text>Section 2-2503 (D.C. Official Code § 3-1303) is amended to read as follows:</text>
           <include>
             <section>
-              <codify:ignore technical="Question."/>
-              <num>2-2503</num>
+            <codify:replace/>
+              <num codify:value="3-1303">2-2503</num>
               <heading>Executive Director and Deputy Director.</heading>
               <para>
                 <num>(a)</num>
@@ -10072,8 +10131,7 @@
           <text>Section 2-2504 (D.C. Official Code § 3-1304) is amended to read as follows:</text>
           <include>
             <section>
-              <codify:ignore technical="Question."/>
-              <num>2-2504</num>
+              <num codify:value="3-1304">2-2504</num>
               <heading>Bonding and fingerprinting.</heading>
               <text>The Chief Financial Officer may require an Office employee to give a bond in an amount determined by the Chief Financial Officer. Every such bond shall be filed with the District of Columbia Treasurer. The cost of a bond given pursuant to this section shall be part of the necessary expenses of the Office. Further, Office employees shall be fingerprinted before, and as a condition of, employment.</text>
             </section>
@@ -10161,8 +10219,8 @@
           <text>Section 2-2508 (D.C. Official Code § 3-1308) is amended to read as follows:</text>
           <include>
             <section>
-              <codify:ignore technical="Question."/>
-              <num>2-2508</num>
+              <codify:replace/>
+              <num codify:value="3-1308">2-2508</num>
               <heading>Power to administer oaths and take testimony; subpoena power.</heading>
               <para>
                 <num>(a)</num>
@@ -10195,13 +10253,13 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para codify:doc="D.C. Code">
+        <para codify:doc="D.C. Code" codify:path="§3-1309">
           <num>(i)</num>
           <text>Section 2-2509 (D.C. Official Code § 3-1309) is amended to read as follows:</text>
           <include>
             <section>
-              <codify:ignore num-value="3-1309" technical="Question."/>
-              <num>2-2509</num>
+              <codify:replace/>
+              <num codify:value="3-1309">2-2509</num>
               <heading>Recordkeeping.</heading>
               <text>The Chief Financial Officer shall maintain full and complete records of the conduct and operation of daily numbers games and lotteries and of the regulation of bingo, raffles, and Monte Carlo Night parties, which records shall include a statement of revenues and license fees, prize disbursements, and administrative expenses.  The records shall be open and available to the public.</text>
             </section>
@@ -10213,8 +10271,8 @@
           <text>Section 2-2510 (D.C. Official Code § 3-1310) is amended to read as follows:</text>
           <include>
             <section>
-              <codify:ignore num-value="3-1310" technical="Question"/>
-              <num>2-2510</num>
+              <codify:replace/>
+              <num codify:value="3-1310">2-2510</num>
               <heading>Authority to establish divisions.</heading>
               <text>The Chief Financial Officer shall have the authority to establish divisions within the Office.</text>
             </section>
@@ -10226,8 +10284,8 @@
           <text>Section 2-2511 (D.C. Official Code § 3-1311) is amended to read as follows:</text>
           <include>
             <section>
-              <codify:ignore technical="Question"/>
-              <num>2-2511</num>
+              <codify:replace/>
+              <num codify:value="3-1311">2-2511</num>
               <heading>Budget.</heading>
               <para>
                 <num>(a)</num>
@@ -11219,7 +11277,7 @@
         <text>Section 305(d) of the District of Columbia Public Space Rental Act, approved October 17, 1968 (82 Stat. 1159; D.C. Official Code § 10-1103.04(d)), is amended by adding a new paragraph (4) to read as follows:</text>
         <include>
           <para>
-            <codify:insert after="(3)" num-value=""/>
+            <codify:insert after="(3)"/>
             <num>(4)</num>
             <text>Any vault serving, in whole or in part, real property located at Square 287, Lot 812 shall be exempt from vault rent.</text>
           </para>
@@ -11247,7 +11305,7 @@
       <section>
         <num>7173</num>
         <text>Section 3 of the Walker Jones/Northwest One Unity Health Center Tax Abatement Act of 2008, effective March 25, 2009 (D.C. Law 17-351; 56 DCR 1113), is repealed.</text>
-        <codify:ignore doc="D.C. Law 17-351" path="§3" technical="Question. See 17-351"/>
+        <codify:ignore doc="D.C. Law 17-351" path="§3" technical="Question. See 17-351. Need to get full text of 17-351."/>
       </section>
     </container>
     <container>
