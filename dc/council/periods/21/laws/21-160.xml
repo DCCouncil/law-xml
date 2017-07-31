@@ -3596,9 +3596,6 @@
               </para>
             </include>
             <aftertext>.</aftertext>
-            <codify:annotation doc="D.C. Code" path="§7-2411" type="Editor's Notes" technical="Every section that is being funded, we're adding an annotation specifying that.">
-              §§ 7-2411 – 7-2413, 7-781, 5-132.31, 5-132.32, 22-4251, 22-4234, 5-113.01, 1-301.191
-            </codify:annotation>
             <codify:funded-anno path="§104" history="false"/>
             <codify:funded-anno path="§201" history="false"/>
             <codify:funded-anno path="§202" history="false"/>
@@ -5135,7 +5132,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Cash proceeds deposited pursuant to <codify:ignore doc="D.C. Law 21-36" path="§4122|(g)">section 4122(g) of the My School DC EdFest Sponsorship and Advertising Act of 2015, effective October 22, 2015 (D.C. Law 21-36; 62 DCR 10905)</codify:ignore>, shall first be used to fund My School DC EdFest.  Any excess funds shall be used in accordance with paragraph (1) of this subsection.</text>
+                <text>Cash proceeds deposited pursuant to <code-cite doc="D.C. Law 21-36" path="§4122|(g)">section 4122(g) of the My School DC EdFest Sponsorship and Advertising Act of 2015, effective October 22, 2015 (D.C. Law 21-36; 62 DCR 10905)</code-cite>, shall first be used to fund My School DC EdFest.  Any excess funds shall be used in accordance with paragraph (1) of this subsection.</text>
               </para>
             </para>
           </include>
@@ -6709,7 +6706,7 @@
         <text><code-cite doc="D.C. Law 21-160" path="V|G">This subtitle</code-cite> shall expire on September 30, 2017.</text>
       </section>
     </container>
-    <codify:create-sub-container doc="D.C. Code" path="44|6B" num-value="I" prefix-value="Subchapter" heading-value="TODO" history="false" technical="TODO"/>
+    <codify:create-sub-container doc="D.C. Code" path="44|6B" num-value="I" prefix-value="Subchapter" heading-value="TODO" history="false" />
     <codify:insert doc="D.C. Code" path="44|6B" history="false">
       <container>
         <prefix>SUBCHAPTER</prefix>
@@ -8096,7 +8093,7 @@
         <para>
           <num>(a)</num>
           <text>The existing paragraph (1) is redesignated as paragraph (1A).</text>
-          <codify:replace path="(1)|num" technical="Question. Error generating annotation text for annotation in §8-1531 of D.C. Code: 'CodifyEl' object has no attribute 'gen_intracite'. Compare development and local build. Amendments by 21-36 (section 6172) to 20-142 are missing in local build, but show up in development.">
+          <codify:replace path="(1)|num" technical="TODO. Remove history=false pending codification engine fix." history="false">
             <num>(1A)</num>
           </codify:replace>
         </para>
@@ -8105,7 +8102,7 @@
           <text>A new paragraph (1) is added to read as follows:</text>
           <include>
             <para>
-              <codify:ignore technical="Question. Dependent on Previous."/>
+              <codify:insert before="(1A)" />
               <num>(1)</num>
               <text>"Compostable" means:</text>
               <para>
@@ -8125,7 +8122,7 @@
           <text>A new paragraph (5) is added to read as follows:</text>
           <include>
             <para>
-              <codify:ignore after="(5)" num-value="(6)" technical="TODO. Should be (6)."/>
+              <codify:replace path="(5)" technical="Paragraph (5) Recyclable already exists. This should be a replace, not a new addition."/>
               <num>(5)</num>
               <text>"Recyclable" means made solely of materials that can be recycled using the District's recycling collection program and identified on the list of recyclable materials described in <code-cite doc="D.C. Law 20-154" path="§103|(b)">section 103(b) of the Sustainable Solid Waste Management Amendment Act of 2014, effective February 26, 2015 (D.C. Law 20-154; D.C. Official Code § 8-1031.03(b))</code-cite>.</text>
             </para>
@@ -8496,7 +8493,7 @@
       <section>
         <num>6052</num>
         <text>Section 5 of the District Department of Transportation DC Streetcar Amendment Act of 2012, effective April 20, 2013 (D.C. Law 19-268; D.C. Official Code § 50-921.71, note), is repealed.</text>
-        <codify:ignore doc="D.C. Law 14-137" path="§5" technical="Repeal instruction pending inclusion of full 14-137."/>
+        <codify:ignore doc="D.C. Law 14-137" path="§5" technical="Repeal instruction pending inclusion of codified 14-137. Don't do anything right now (2017/07/31)."/>
         <codify:annotation doc="D.C. Code" path="§50-921.71" type="Editor's Notes" history="false">
           Section 6052 of D.C. Law 21-160 repeals Section 5 of D.C. Law 19-268, and therefore this subchapter no longer expires.
         </codify:annotation>
@@ -8516,46 +8513,33 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Publication of Safety Enhancement Recommendations Amendment Act of 2016".</text>
       </section>
-      <section codify:doc="D.C. Law 20-61" codify:path="§6103">
+      <section>
         <num>6062</num>
         <text>Section 6103 of the Fiscal Year 2014 Budget Support Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 50-921.01, note), is amended as follows:</text>
         <para>
           <num>(a)</num>
           <text>The lead-in language is amended by striking the phrase "On or before February 1, 2014" and inserting the phrase "On or before January 1, 2017, and annually thereafter" in its place.</text>
-          <codify:ignore path="text" count="1" technical="Question. See 6052 regarding note. Need full text of 20-61?">
-            <find>On or before February 1, 2014</find>
-            <replace>On or before January 1, 2017, and annually thereafter</replace>
-          </codify:ignore>
         </para>
         <para>
           <num>(b)</num>
           <text>Paragraph (1) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
-          <codify:ignore path="(1)" count="1" technical="Question">
-            <find>; and</find>
-            <replace>;</replace>
-          </codify:ignore>
         </para>
         <para>
           <num>(c)</num>
           <text>Paragraph (2) is amended by striking the period and inserting the phrase "; and" in its place.</text>
-          <codify:ignore path="(2)" count="1" technical="Question">
-            <find>.</find>
-            <replace>; and</replace>
-          </codify:ignore>
         </para>
         <para>
           <num>(d)</num>
           <text>A new paragraph (3) is added to read as follows:</text>
           <include>
             <para>
-              <codify:ignore after="(2)" technical="Question"/>
               <num>(3)</num>
               <text>A list of infrastructure and enforcement recommendations to enhance safety at each of the 10 most dangerous intersections identified pursuant to paragraph (2) of this section, and a timeline for the implementation of each recommendation.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <codify:annotation doc="D.C. Code" path="§50-921.01" type="Editor's Notes" technical="Question">
+        <codify:annotation doc="D.C. Code" path="§50-921.01" type="Editor's Notes">
           TODO modifying language of 6103 of 20-61.
         </codify:annotation>
       </section>
@@ -11305,7 +11289,8 @@
       <section>
         <num>7173</num>
         <text>Section 3 of the Walker Jones/Northwest One Unity Health Center Tax Abatement Act of 2008, effective March 25, 2009 (D.C. Law 17-351; 56 DCR 1113), is repealed.</text>
-        <codify:ignore doc="D.C. Law 17-351" path="§3" technical="Question. See 17-351. Need to get full text of 17-351."/>
+        <codify:ignore doc="D.C. Law 17-351" path="§3" technical="Repeal instruction pending codification of D.C. Law 17-351. Do nothing for now 7/31/2017."/>
+        <codify:funded-anno doc="D.C. Code" path="§47-4619"/>
       </section>
     </container>
     <container>
@@ -11339,7 +11324,7 @@
           <text>A new section 47-1098 is added to read as follows:</text>
           <include>
             <section>
-              <codify:ignore doc="D.C. Code" path="47|10" after="§47-1097" num-value="47-1098" techical="Question. There is already a 47-1098 that is not funded."/>
+              <codify:ignore doc="D.C. Code" path="47|10" after="§47-1097" num-value="47-1098" technical="Question. There is already a 47-1098 that is not funded."/>
               <num>§ 47-1098</num>
               <heading>Jubilee Ontario Apartments, LP, Lot 805, Square 2565.</heading>
               <text>The portion of Lot 805 in Square 2565, located at 2525 Ontario Road, N.W. ("Property") that is used for nonresidential purposes, shall be exempt from real property taxation so long as the residential portion of the Property continues to be exempt from real property taxation pursuant to § 47-1005.02.</text>
@@ -11376,6 +11361,12 @@
         <para>
           <num>(b)</num>
           <text>The current allocations were made pursuant to the Fiscal Year 2010 Income Tax Secured Revenue Bond and General Obligation Bond Issuance Emergency Approval Act of 2009, effective December 4, 2009 (D.C. Act 18-240; 56 DCR 9265), the Fiscal Year 2012 Income Tax Secured Revenue Bond and General Obligation Bond Issuance Approval Resolution of 2011, effective December 6, 2011 (Res. 19-315; 58 DCR 10556), the Fiscal Year 2013 Income Tax Secured Revenue Bond and General Obligation Bond Issuance Approval Resolution of 2012, effective October 16, 2012 (Res.19-635; 59 DCR 12818), the Fiscal Year 2014 Income Tax Secured Revenue Bond and General Obligation Approval Resolution of 2013, effective November 5, 2013 (Res. 20-321; 60 DCR 15794), and the Fiscal Year 2015 Income Tax Secured Revenue Bond and General Obligation Bond Issuance Approval Resolution of 2014, effective November 28, 2014 (Res. 20-687; 61 DCR 12738).</text>
+          <text>
+            <img src="./21-160-1.jpg"/>
+          </text>
+          <text>
+            <img src="./21-160-2.jpg"/>
+          </text>
         </para>
       </section>
     </container>
