@@ -3548,7 +3548,7 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Public Safety Technical Amendments Amendment Act of 2016".</text>
       </section>
-      <section>
+      <section codify:doc="D.C. Law 21-125">
         <num>3102</num>
         <text>The Neighborhood Engagement Achieves Results Amendment Act of 2016, enacted on March 26, 2016 (D.C. Act 21-356; 63 DCR 4659), is amended as follows:</text>
         <para>
@@ -3556,7 +3556,7 @@
           <text>Section 102(c) is amended to read as follows:</text>
           <include>
             <para>
-              <codify:replace doc="D.C. Law 21-125" path="§102|(c)"/>
+              <codify:replace path="§102|(c)"/>
               <num>(c)</num>
               <text>Beginning on January 31, 2017, and by January 31 of each year thereafter, the ONSE shall provide a report to the Council that excludes personally identifying information and includes the following information from the reporting period and in the aggregate:</text>
               <para>
@@ -3584,7 +3584,7 @@
           <text>Section 901(a) is amended to read as follows:</text>
           <include>
             <para>
-              <codify:replace doc="D.C. Law 21-125" path="§901|(a)"/>
+              <codify:replace path="§901|(a)"/>
               <num>(a)</num>
               <text>Sections 101, 102, 103, 104(b)(3), 105, and 204 shall apply upon the inclusion of their fiscal effect in an approved budget and financial plan.</text>
               <codify:applicability path="§101" date="notfunded" history="false"/>
@@ -3599,12 +3599,12 @@
             <codify:annotation doc="D.C. Code" path="§7-2411" type="Editor's Notes" technical="Every section that is being funded, we're adding an annotation specifying that.">
               §§ 7-2411 – 7-2413, 7-781, 5-132.31, 5-132.32, 22-4251, 22-4234, 5-113.01, 1-301.191
             </codify:annotation>
-            <codify:ignore path="§104" history="false"/>
-            <codify:ignore path="§201" history="false"/>
-            <codify:ignore path="§202" history="false"/>
-            <codify:ignore path="§203" history="false"/>
-            <codify:ignore path="§209" history="false"/>
-            <codify:ignore path="§210" history="false"/>
+            <codify:funded-anno path="§104" history="false"/>
+            <codify:funded-anno path="§201" history="false"/>
+            <codify:funded-anno path="§202" history="false"/>
+            <codify:funded-anno path="§203" history="false"/>
+            <codify:funded-anno path="§209" history="false"/>
+            <codify:funded-anno path="§210" history="false"/>
           </para>
         </section>
         <section>
@@ -8096,9 +8096,9 @@
         <para>
           <num>(a)</num>
           <text>The existing paragraph (1) is redesignated as paragraph (1A).</text>
-          <codify:ignore path="(1)|num" technical="Question. Error generating annotation text for annotation in §8-1531 of D.C. Code: 'CodifyEl' object has no attribute 'gen_intracite'. Compare development and local build. Amendments by 21-36 (section 6172) to 20-142 are missing in local build, but show up in development.">
+          <codify:replace path="(1)|num" technical="Question. Error generating annotation text for annotation in §8-1531 of D.C. Code: 'CodifyEl' object has no attribute 'gen_intracite'. Compare development and local build. Amendments by 21-36 (section 6172) to 20-142 are missing in local build, but show up in development.">
             <num>(1A)</num>
-          </codify:ignore>
+          </codify:replace>
         </para>
         <para>
           <num>(b)</num>
