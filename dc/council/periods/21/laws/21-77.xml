@@ -22,10 +22,10 @@
   <section>
     <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Access to Emergency Epinephrine in Schools Amendment Act of 2015".</text>
   </section>
-  <section>
+  <section codify:doc="D.C. Law 17-107">
     <num>2</num>
     <text>The Student Access to Treatment Act of 2007, effective February 2, 2008 (D.C. Law 17-107; D.C. Official Code § 38-651.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§2">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 38-651.01) is amended as follows:</text>
       <para>
@@ -33,10 +33,12 @@
         <text>New paragraphs (3A) and (3B) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(3)"/>
             <num>(3A)</num>
-            <text>"OSSE" means the Office of the State Superintendent of Education established by section 2 of the State Education Office Establishment Act of 2000, effective October 21, 2000 (D.C. Law 13-176; D.C. Official Code § 38-2601).</text>
+            <text>"OSSE" means the Office of the State Superintendent of Education established by <code-cite doc="D.C. Law 13-176" path="§2">section 2 of the State Education Office Establishment Act of 2000, effective October 21, 2000 (D.C. Law 13-176; D.C. Official Code § 38-2601)</code-cite>.</text>
           </para>
           <para>
+            <codify:insert after="(3A)"/>
             <num>(3B)</num>
             <text>"Public school" means a District of Columbia Public Schools school or a public charter school.  The term "public school" excludes any parochial school or private school in the District.</text>
           </para>
@@ -48,26 +50,36 @@
         <text>New paragraphs (6) and (7) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(5)"/>
             <num>(6)</num>
             <text>"Undesignated epinephrine auto-injector" means a disposable drug delivery system with a spring-activated needle, which is obtained without a prescription for a particular person, that is designed for the emergency administration of epinephrine to a person suffering an episode of anaphylaxis.</text>
           </para>
           <para>
+            <codify:insert after="(6)"/>
             <num>(7)</num>
-            <text>"UEA plan" means the undesignated epinephrine auto-injector plan established pursuant to section 5a.</text>
+            <text>"UEA plan" means the undesignated epinephrine auto-injector plan established pursuant to <code-cite path="§5a">section 5a.</code-cite></text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno applicability-path="§4"/>
     </para>
-    <para>
+    <para codify:path="§4|(a)|(1)|(B)">
       <num>(b)</num>
       <text>Section 4(a)(1)(B) (D.C. Official Code § 38-651.03(a)(1)(B)) is amended by striking the phrase "responsible person" and inserting the phrase "responsible person, or, if the student is 18 years of age or older, another adult suitable to serve as an emergency contact" in its place.</text>
+      <codify:find-replace count="1">
+        <find>responsible person</find>
+        <replace>responsible person, or, if the student is 18 years of age or older, another adult suitable to serve as an emergency contact</replace>
+      </codify:find-replace>
+      <codify:not-funded-anno applicability-path="§4"/>
     </para>
     <para>
       <num>(c)</num>
       <text>A new section 5a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert after="§5" history-prefix="as added"/>
+          <codify:insert doc="D.C. Code" path="38|6|IV" after="§38-651.04" num-value="38-651.04a"/>
           <num>5a</num>
           <heading>Student access to epinephrine.</heading>
           <para>
@@ -153,47 +165,74 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno path="§5a" applicability-path="§4"/>
     </para>
-    <para>
+    <para codify:path="§7|(d)">
       <num>(d)</num>
       <text>Section 7(d) (D.C. Official Code § 38-651.06(d)) is amended by striking the phrase "a minor" and inserting the word "the" in its place.</text>
+      <codify:find-replace count="1">
+        <find>a minor</find>
+        <replace>the</replace>
+      </codify:find-replace>
+      <codify:not-funded-anno applicability-path="§4"/>
     </para>
-    <para>
+    <para codify:path="§10|(a)">
       <num>(e)</num>
       <text>Section 10(a) (D.C. Official Code § 38-651.09(a)) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the phrase "A school" and insert the phrase "Except as provided in section 5a, a school" in its place.</text>
+        <codify:find-replace count="1">
+          <find>A school</find>
+          <replace>Except as provided in <code-cite path="§5a">section 5a</code-cite>, a school</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Strike the phrase ", anaphylaxis,".</text>
+        <codify:find-replace count="1">
+          <find>, anaphylaxis,</find>
+          <replace></replace>
+        </codify:find-replace>
       </para>
+      <codify:not-funded-anno applicability-path="§4"/>
     </para>
-    <para>
+    <para codify:path="§12">
       <num>(f)</num>
       <text>Section 12 (D.C Official Code § 38-651.11) is amended by striking the phrase "The District, a school, or an employee or agent of a school" and inserting the phrase "The District, a school, an employee or agent of a school, or the practicing physician, physician assistant, or advanced practice nurse who has issued the standing order pursuant to this act" in its place.</text>
+      <codify:find-replace count="1">
+        <find>The District, a school, or an employee or agent of a school</find>
+        <replace>The District, a school, an employee or agent of a school, or the practicing physician, physician assistant, or advanced practice nurse who has issued the standing order pursuant to <code-cite>this act</code-cite></replace>
+      </codify:find-replace>
+      <codify:not-funded-anno applicability-path="§4"/>
     </para>
-    <para>
+    <para codify:path="§13">
       <num>(g)</num>
       <text>Section 13 (D.C. Official Code § 38-651.12) is amended by adding a new subsection (d) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(c)"/>
           <num>(d)</num>
-          <text>By August 1, 2016, pursuant to the authority granted by section 3(b)(11) of the State Education Office Establishment Act of 2000, effective October 21, 2000 (D.C. Law 13-176; D.C. Official Code § 38-2602(b)(11)), OSSE, in consultation with the Department of Health, shall issue rules to implement the provisions of section 5a, including establishing a protocol for record keeping whenever epinephrine is administered pursuant to section 5a.</text>
+          <text>By August 1, 2016, pursuant to the authority granted by <code-cite doc="D.C. Law 13-176" path="§3|(b)|(11)">section 3(b)(11) of the State Education Office Establishment Act of 2000, effective October 21, 2000 (D.C. Law 13-176; D.C. Official Code § 38-2602(b)(11))</code-cite>, OSSE, in consultation with the Department of Health, shall issue rules to implement the provisions of <code-cite path="§5a">section 5a</code-cite>, including establishing a protocol for record keeping whenever epinephrine is administered pursuant to <code-cite path="§5a">section 5a.</code-cite></text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno applicability-path="§4"/>
     </para>
   </section>
   <section>
     <num>3</num>
     <heading>Conforming amendments.</heading>
-    <para>
+    <para codify:doc="D.C. Law 6-99" codify:path="§102|(11)|(B)|(iii)">
       <num>(a)</num>
       <text>Section 102(11)(B)(iii) of the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.02(11)(B)(iii)), is amended by striking the phrase "of the person for whom" and inserting the phrase "of the person for whom or, with respect to auto-injectable epinephrine, the school to which" in its place.</text>
+      <codify:find-replace count="1">
+        <find>of the person for whom</find>
+        <replace>of the person for whom or, with respect to auto-injectable epinephrine, the school to which</replace>
+      </codify:find-replace>
+      <codify:not-funded-anno applicability-path="§4"/>
     </para>
-    <para>
+    <para codify:doc="D.C. Law 13-176" codify:path="§3|(b)" technical="TODO. Ben to address conflict regarding paragraph 24">
       <num>(b)</num>
       <text>Section 3(b) of the State Education Office Establishment Act of 2000, effective October 21, 2000 (D.C. Law 13-176; D.C. Official Code § 38-2602(b)), is amended as follows</text>
       <para>
@@ -223,6 +262,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability date="notfunded" history="false"/>
     </para>
     <para>
       <num>(b)</num>
