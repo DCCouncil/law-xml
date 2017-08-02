@@ -428,7 +428,7 @@
           <text>Subsection (e) is amended by striking the word "primarily".</text>
           <codify:find-replace count="1">
             <find>primarily</find>
-            <replace></replace>
+            <replace/>
           </codify:find-replace>
         </para>
       </para>
@@ -436,9 +436,9 @@
         <num>(9)</num>
         <text>Section 25-128(a) is amended by striking the phrase "class A or B" and inserting the phrase "class A, B, or C" in its place.</text>
         <codify:find-replace count="1">
-            <find>class A or B</find>
-            <replace>class A, B, or C</replace>
-          </codify:find-replace>
+          <find>class A or B</find>
+          <replace>class A, B, or C</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para codify:doc="D.C. Code" codify:path="§25-211">
@@ -583,16 +583,17 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:doc="D.C. Code" codify:path="§25-332">
         <num>(5)</num>
         <text>Section 25-332 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)|(1)">
           <num>(A)</num>
           <text>Subsection (a)(1) is amended to read as follows:</text>
           <include>
             <para>
               <num>(a)</num>
               <para>
+                <codify:replace/>
                 <num>(1)</num>
                 <text>The Board may issue new off-premises retailer's class B licenses if the Board finds that the number of retailer's class B licenses is less than the quota set forth in § 25-331(b).</text>
               </para>
@@ -605,6 +606,7 @@
           <text>A new subsection (e) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(e)</num>
               <text>The moratorium shall not apply to an applicant for a 25% off-premises retailer's license, class B, for the sale of alcoholic beverages in an establishment if the:</text>
               <para>
@@ -652,11 +654,12 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:doc="D.C. Code" codify:path="§25-333">
         <num>(6)</num>
         <text>Section 25-333 is amended by adding a new subsection (e) to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(e)</num>
             <text>This section shall not prohibit the issuance of a retailer's license, class B, if the applicant's establishment will:</text>
             <para>
@@ -671,22 +674,31 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:doc="D.C. Code" codify:path="§25-336|(d)">
         <num>(7)</num>
         <text>Section 25-336(d) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the word "or".</text>
+          <codify:find-replace count="1">
+            <find> or</find>
+            <replace/>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>; or</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new paragraph (3) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(3)</num>
               <text>A bed and breakfast license.</text>
             </para>
@@ -698,65 +710,77 @@
     <para>
       <num>(d)</num>
       <text>Chapter 4 is amended as follows:</text>
-      <para>
+      <para  codify:doc="D.C. Code" codify:path="§25-402|(d)">
         <num>(1)</num>
         <text>Section 25-402(d) is amended as follows:</text>
-      </para>
-    </para>
-    <para>
-      <num>(A)</num>
-      <text>Paragraph (3) is amended as follows:</text>
-      <para>
-        <num>(i)</num>
-        <text>Subparagraph (E) is amended by adding the word "and" at the end.</text>
-      </para>
-      <para>
-        <num>(ii)</num>
-        <text>Subparagraph (F) is amended by striking the phrase "; and" and inserting a period in its place.</text>
-      </para>
-      <para>
-        <num>(iii)</num>
-        <text>Subparagraph (G) is repealed.</text>
-      </para>
-      <para>
-        <num>(B)</num>
-        <text>A new paragraph (4) is added to read as follows:</text>
-        <include>
-          <para>
-            <num>(4)</num>
-            <para>
-              <num>(A)</num>
-              <text>If cameras are required to be installed by the Board or in accordance with the establishment's security plan or settlement agreement, the establishment shall ensure that:</text>
-              <para>
-                <num>(i)</num>
-                <text>The cameras utilized by the establishment are operational;</text>
-              </para>
-              <para>
-                <num>(ii)</num>
-                <text>Any footage of a crime of violence or a crime involving a gun is maintained for a minimum of 30 days; and</text>
-              </para>
-              <para>
-                <num>(iii)</num>
-                <text>The security footage is made available within 48 hours upon the request of ABRA or the Metropolitan Police Department.</text>
-              </para>
-            </para>
-            <para>
-              <num>(B)</num>
-              <text>If the licensee knows or reasonably should know that the cameras are not operational, the licensee shall notify the Board within 10 days of learning that the cameras are not operating and provide the Board with proof of corrective maintenance.</text>
-            </para>
+        <para codify:path="(3)">
+          <num>(A)</num>
+          <text>Paragraph (3) is amended as follows:</text>
+          <para codify:path="(E)">
+            <num>(i)</num>
+            <text>Subparagraph (E) is amended by adding the word "and" at the end.</text>
+            <codify:find-replace count="1">
+              <find>;</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
-        </include>
-        <aftertext>.</aftertext>
+          <para codify:path="(F)">
+            <num>(ii)</num>
+            <text>Subparagraph (F) is amended by striking the phrase "; and" and inserting a period in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>.</replace>
+            </codify:find-replace>
+          </para>
+          <para codify:path="(G)">
+            <num>(iii)</num>
+            <text>Subparagraph (G) is repealed.</text>
+            <codify:repeal/>
+          </para>
+        </para>
+        <para>
+          <num>(B)</num>
+          <text>A new paragraph (4) is added to read as follows:</text>
+          <include>
+            <para>
+              <codify:insert/>
+              <num>(4)</num>
+              <para>
+                <num>(A)</num>
+                <text>If cameras are required to be installed by the Board or in accordance with the establishment's security plan or settlement agreement, the establishment shall ensure that:</text>
+                <para>
+                  <num>(i)</num>
+                  <text>The cameras utilized by the establishment are operational;</text>
+                </para>
+                <para>
+                  <num>(ii)</num>
+                  <text>Any footage of a crime of violence or a crime involving a gun is maintained for a minimum of 30 days; and</text>
+                </para>
+                <para>
+                  <num>(iii)</num>
+                  <text>The security footage is made available within 48 hours upon the request of ABRA or the Metropolitan Police Department.</text>
+                </para>
+              </para>
+              <para>
+                <num>(B)</num>
+                <text>If the licensee knows or reasonably should know that the cameras are not operational, the licensee shall notify the Board within 10 days of learning that the cameras are not operating and provide the Board with proof of corrective maintenance.</text>
+              </para>
+            </para>
+          </include>
+          <aftertext>.</aftertext>
+        </para>
       </para>
-      <para>
+      <para codify:doc="D.C. Code" codify:path="§25-423">
         <num>(2)</num>
         <text>Section 25-423 is amended by adding new subsections (g) and (h) to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(g)</num>
             <text>An applicant for a new or renewal license for a common carrier license for a passenger-carrying marine vessel that does not possess a physical location in the District of Columbia shall not be required to post the 2 notices required by this section.</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(h)</num>
             <text>An applicant for a new or renewal license for an off-premises license, class IA or IB, shall not be required to post the 2 notices required by this section; provided, that the notice shall be posted on the applicant's website for the entire 45-day public comment period.</text>
           </para>
@@ -793,18 +817,20 @@
           </replace>
         </codify:find-replace>
       </para>
-      <para>
+      <para codify:doc="D.C. Code" codify:path="§25-504">
         <num>(2)</num>
         <text>Section 25-504 is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Designate the existing text as subsection (a).</text>
+          <codify:redesignate-para num-value="(a)"/>
         </para>
         <para>
           <num>(B)</num>
           <text>A new subsection (b) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(b)</num>
               <text>The minimum annual fees for a bed and breakfast license shall be for a:</text>
               <para>
@@ -824,11 +850,12 @@
     <para>
       <num>(f)</num>
       <text>Chapter 7 is amended as follows:</text>
-      <para>
+      <para codify:doc="D.C. Code" codify:path="§25-711">
         <num>(1)</num>
         <text>Section 25-711 is amended by adding a new subsection (f) to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(f)</num>
             <text>While managing or working at a licensed establishment, the owner or licensed manager of a retailer's, manufacturer's, or wholesaler's license shall carry a valid identification document on his or her person and shall show the identification document, upon request, to an ABRA investigator or a member of the Metropolitan Police Department.</text>
           </para>
@@ -838,12 +865,14 @@
       <para>
         <num>(2)</num>
         <text>Section 25-722(c) is repealed.</text>
+        <codify:repeal doc="D.C. Code" path="§25-722|(c)"/>
       </para>
       <para>
         <num>(3)</num>
         <text>Section 25-726(b) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace doc="D.C. Code" path="§25-726|(b)"/>
             <num>(b)</num>
             <text>A licensee under a retailer's license shall ensure that all solid waste inside the property and in the outdoor spaces immediately surrounding the property are stored and containerized for collection in a manner that will not provide food, harborage, or breeding places for insects or rodents, or other animals, or create a nuisance or fire hazard.</text>
           </para>
@@ -853,23 +882,33 @@
       <para>
         <num>(4)</num>
         <text>Section 25-736(a)(2) is amended by striking the phrase "for resale by the licensee".</text>
+        <codify:find-replace doc="D.C. Code" path="§25-736|(a)|(2)" count="1">
+          <find>for resale by the licensee</find>
+          <replace></replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>Section 25-771 is repealed.</text>
+        <codify:repeal doc="D.C. Code" path="§25-771"/>
       </para>
-      <para>
+      <para codify:doc="D.C. Code" codify:path="§25-781">
         <num>(6)</num>
         <text>Section 25-781 is amended as follows:</text>
-        <para>
+        <para codify:path="(f)">
           <num>(A)</num>
           <text>Subsection (f) is amended by striking the phrase "Upon finding that a licensee has violated subsection (a), (b), or (c) of this section in the preceding," and inserting the phrase "For violations of subsection (a), (b), or (c) of this section in the preceding" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Upon finding that a licensee has violated subsection (a), (b), or (c) of this section in the preceding</find>
+            <replace>For violations of subsection (a), (b), or (c) of this section in the preceding</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>A new subsection (g) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(g)</num>
               <para>
                 <num>(1)</num>
@@ -888,18 +927,23 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:doc="D.C. Code" codify:path="§25-783">
         <num>(7)</num>
         <text>Section 25-783 is amended as follows:</text>
-        <para>
+        <para codify:path="(c)">
           <num>(A)</num>
           <text>Subsection (c) is amended by striking the phrase "Upon finding that a licensee has violated subsection (a) or (b) of this section in the preceding" and inserting the phrase "For violations of subsection (a) or (b) of this section in the preceding" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Upon finding that a licensee has violated subsection (a) or (b) of this section in the preceding</find>
+            <replace>For violations of subsection (a) or (b) of this section in the preceding</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>A new subsection (c-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(c)"/>
               <num>(c-1)</num>
               <para>
                 <num>(1)</num>
@@ -943,15 +987,20 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:doc="D.C. Code"  codify:path="§25-828|(a)">
         <num>(2)</num>
         <text>Section 25-828(a) is amended by striking the phrase "post a notice in a conspicuous place" and inserting the phrase "post 2 notices in conspicuous places" in its place.</text>
+        <codify:find-replace count="1">
+          <find>post a notice in a conspicuous place</find>
+          <replace>post 2 notices in conspicuous places"</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:doc="D.C. Code" codify:path="|25|8|II">
         <num>(3)</num>
         <text>New sections 25-833, 25-834, and 25-835 are added to read as follows:</text>
         <include>
           <section>
+            <codify:insert/>
             <num>§ 25-833</num>
             <heading>Tampering or refilling bottles.</heading>
             <text>A licensee or the licensee's employees shall not knowingly:</text>
@@ -981,6 +1030,7 @@
             </para>
           </section>
           <section>
+            <codify:insert/>
             <num>§ 25-834</num>
             <heading>Powdered alcohol.</heading>
             <para>
@@ -997,6 +1047,7 @@
             </para>
           </section>
           <section>
+            <codify:insert/>
             <num>§ 25-835</num>
             <heading>Forged licenses.</heading>
             <para>
@@ -1019,11 +1070,12 @@
     <para>
       <num>(h)</num>
       <text>Chapter 10 is amended as follows:</text>
-      <para>
+      <para codify:doc="D.C. Code" codify:path="§25-1001|(b)">
         <num>(1)</num>
         <text>Section 25-1001(b) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(b)</num>
             <text>Subsection (a)(1) of this section shall not apply if drinking or possession of an alcoholic beverage occurs:</text>
             <para>
@@ -1038,9 +1090,13 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:doc="D.C. Code" codify:path="§25-1002|(b)|(3)">
         <num>(2)</num>
         <text>Section 25-1002((b)(3) is amended by striking the phrase "of the individual." and inserting the phrase "of the individual; provided, that a military identification card issued by an agency of government (local, state, federal, or foreign) shall be an acceptable form of valid identification whether or not it contains the individual's signature." in its place.</text>
+        <codify:find-replace count="1">
+          <find>of the individual.</find>
+          <replace>of the individual; provided, that a military identification card issued by an agency of government (local, state, federal, or foreign) shall be an acceptable form of valid identification whether or not it contains the individual's signature.</replace>
+        </codify:find-replace>
       </para>
     </para>
   </section>
