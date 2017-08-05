@@ -46,7 +46,7 @@
         <codify:insert num-value="1-551.01"/>
         <num>1001</num>
         <heading>Short title.</heading>
-        <text>This subtitle may be cited as the "Bonus Pay and Special Awards Pay Act of 2016".</text>
+        <text><code-cite path="I|A">This subtitle</code-cite> may be cited as the "Bonus Pay and Special Awards Pay Act of 2016".</text>
       </section>
       <section>
         <codify:insert num-value="1-551.02"/>
@@ -2802,7 +2802,7 @@
           <text>New sections 655a, 655b, and 655c are added to read as follows:</text>
           <include>
             <section>
-              <codify:insert path="VI|D" after="§655" />
+              <codify:insert path="VI|D" after="§655"  history-prefix="as added"/>
               <codify:insert doc="D.C. Code" path="5|6A|II" after="§5-655" num-value="5-655.01"/>
               <num>655a</num>
               <heading>Physical examinations; maintaining eligibility.</heading>
@@ -2820,7 +2820,7 @@
               </para>
             </section>
             <section>
-              <codify:insert path="VI|D" after="§655a"/>
+              <codify:insert path="VI|D" after="§655a" history-prefix="as added"/>
               <codify:insert doc="D.C. Code" path="5|6A|II" after="§5-655.01" num-value="5-655.02"/>
               <num>655b</num>
               <heading>Reporting requirements.</heading>
@@ -2851,7 +2851,7 @@
               </para>
             </section>
             <section>
-              <codify:insert path="VI|D" after="§655b"/>
+              <codify:insert path="VI|D" after="§655b" history-prefix="as added"/>
               <codify:insert doc="D.C. Code" path="5|6A|II" after="§5-655.02" num-value="5-655.03"/>
               <num>655c</num>
               <heading>Rules.</heading>
@@ -2871,12 +2871,18 @@
               <para>
                 <num>(a)</num>
                 <text>Except as provided in subsection (b) of this section, <code-cite path="VI|D">this subtitle</code-cite> shall apply as of October 1, 2016.</text>
+                <codify:applicability doc="D.C. Law 15-194" path="VI|D" date="2016-10-01" history="false"/>
+                <codify:funded-anno doc="D.C. Law 15-194" path="§651" history="false"/>
+                <codify:funded-anno doc="D.C. Law 15-194" path="§653" history="false"/>
+                <codify:funded-anno doc="D.C. Law 15-194" path="§655" history="false"/>
               </para>
               <para>
                 <num>(b)</num>
                 <para>
                   <num>(1)</num>
-                  <text>Sections <code-cite path="§652" codify:value="{{ target.num }}">652</code-cite> and <code-cite path="§654" codify:valule="{{ target.num }}">654</code-cite> shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+                  <text>Sections <code-cite path="§652" codify:value="{{ target.num }}">652</code-cite> and <code-cite path="§654" codify:value="{{ target.num }}">654</code-cite> shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+                  <codify:applicability doc="D.C. Law 15-194" path="§652" date="notfunded" history="false"/>
+                  <codify:applicability doc="D.C. Law 15-194" path="§654" date="notfunded" history="false"/>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -3442,7 +3448,7 @@
           <text>A new section 112 is added to read as follows:</text>
           <include>
             <section>
-              <codify:insert doc="D.C. Law 18-160" num-value="111" technical="Renumber to 111"/>
+              <codify:insert doc="D.C. Law 18-160" num-value="111" technical="Renumber to 111" history-prefix="as added"/>
               <codify:insert doc="D.C. Code" path="1|3|I|D-i" after="§1-301.89b" num-value="1-301.89d" technical="Question. 1-301.89c already exists?" />
               <num>112</num>
               <heading>Attorney General notification on enforcement of laws.</heading>
@@ -4354,7 +4360,7 @@
           <text>A new section 3c is added to read as follows:</text>
           <include>
             <section>
-              <codify:insert after="§3" num-value="3c"/>
+              <codify:insert after="§3" num-value="3c" history-prefix="as added"/>
               <codify:insert doc="D.C. Code" path="44|2A" after="§44-232.02" num-value="44-232.03"/>
               <num>3c</num>
               <heading>CPR and AED program.</heading>
@@ -5363,7 +5369,7 @@
           <text>A new section 9a is added to read as follows:</text>
           <include>
             <section>
-              <codify:insert after="§9" num-value="9a"/>
+              <codify:insert after="§9" num-value="9a" history-prefix="as added"/>
               <codify:insert doc="D.C. Code" path="38|13" after="§38-1309" num-value="38-1309.01"/>
               <num>9a</num>
               <heading>Delivery of online instruction by a postsecondary educational institution.</heading>
@@ -5934,7 +5940,7 @@
           <text>New sections 105b and 105c are added to read as follows:</text>
           <include>
             <section>
-              <codify:insert after="§105a" />
+              <codify:insert after="§105a" history-prefix="as added"/>
               <codify:insert doc="D.C. Code" path="7|7C" after="§7-761.05a" num-value="7-761.05b"/>
               <num>105b</num>
               <heading>Contribution to costs of supports.</heading>
@@ -5956,7 +5962,7 @@
               </para>
             </section>
             <section>
-              <codify:insert after="§105b" />
+              <codify:insert after="§105b" history-prefix="as added"/>
               <codify:insert doc="D.C. Code" path="7|7C" after="§7-761.05b" num-value="7-761.05c"/>
               <num>105c</num>
               <heading>Contribution to Costs of Supports Fund.</heading>
@@ -7149,7 +7155,7 @@
           <text>A new section 303f is added to read as follows:</text>
           <include>
             <section>
-              <codify:insert path="III" after="§303e"/>
+              <codify:insert path="III" after="§303e" history-prefix="as added"/>
               <num>303f</num>
               <heading>Reasonable and prudent parent standard.</heading>
               <para>
@@ -7804,7 +7810,7 @@
           <text>A new section 204 is added to read as follows:</text>
           <include>
             <section>
-              <codify:insert after="§203" />
+              <codify:insert after="§203" history-prefix="as added"/>
               <codify:insert doc="D.C. Code" path="8|17M1" after="§8-1772.03" num-value="8-1772.04"/>
               <num>204</num>
               <heading>Rules.</heading>
@@ -11348,7 +11354,7 @@
           <text>A new section 47-1098 is added to read as follows:</text>
           <include>
             <section>
-              <codify:ignore doc="D.C. Code" path="47|10" after="§47-1097" num-value="47-1098" technical="Question. There is already a 47-1098 that is not funded."/>
+              <codify:ignore doc="D.C. Code" path="47|10" after="§47-1097" num-value="47-1098" technical="TODO. There is already a 47-1098 that is not funded."/>
               <num>§ 47-1098</num>
               <heading>Jubilee Ontario Apartments, LP, Lot 805, Square 2565.</heading>
               <text>The portion of Lot 805 in Square 2565, located at 2525 Ontario Road, N.W. ("Property") that is used for nonresidential purposes, shall be exempt from real property taxation so long as the residential portion of the Property continues to be exempt from real property taxation pursuant to § 47-1005.02.</text>
