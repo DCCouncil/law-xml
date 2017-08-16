@@ -344,6 +344,7 @@
           <xs:sequence>
             <!-- remaining sections -->
             <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="codified:at" minOccurs="0"/>
             <xs:element ref="num"/>
             <xs:element ref="codified:stub" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element ref="reason" minOccurs="0"/>
