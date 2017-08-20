@@ -166,7 +166,6 @@
       </include>
       <aftertext>.</aftertext>
       <codify:not-funded-anno path="§5a" applicability-path="§4"/>
-      <annotation type="Editor's Notes">Applicability of <cite doc="D.C. Law 21-77">D.C. Law 21-77</cite>: Section 4 of <cite doc="D.C. Law 21-77">D.C. Law 21-77</cite> provided (a) that the act shall apply upon the date of inclusions of its fiscal effect in an approved budget and financial plan; (b) that the Chief Financial Officer shall certify the date of the inclusion of the fiscal effect in an approved budget and financial plan, and provide notice to the Budget Director of the Council of the certification; and (c) that the Budget Director shall cause the notice of the certification to be published in the District of Columbia Register and that the date of publication of the notice of the certification shall not affect the applicability of the act.</annotation>
     </para>
     <para codify:path="§7|(d)">
       <num>(d)</num>
@@ -193,7 +192,7 @@
         <text>Strike the phrase ", anaphylaxis,".</text>
         <codify:find-replace count="1">
           <find>, anaphylaxis,</find>
-          <replace></replace>
+          <replace/>
         </codify:find-replace>
       </para>
       <codify:not-funded-anno applicability-path="§4"/>
@@ -234,24 +233,32 @@
       <codify:not-funded-anno applicability-path="§4"/>
     </para>
     <para codify:doc="D.C. Law 13-176" codify:path="§3|(b)">
-      <codify:ignore technical="TODO. Ben to address conflict regarding paragraph 24"/>
       <num>(b)</num>
       <text>Section 3(b) of the State Education Office Establishment Act of 2000, effective October 21, 2000 (D.C. Law 13-176; D.C. Official Code § 38-2602(b)), is amended as follows</text>
       <para>
         <num>(1)</num>
         <text>Paragraph (22) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace path="(23)" count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Paragraph (23) is amended by striking the period at the end and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace path="(24)" count="1" position="last">
+          <find>.</find>
+          <replace>; advanced</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (24) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(24)" num-value="(24A)"/>
             <num>(24)</num>
-            <text>Procure, distribute, and maintain the undesignated epinephrine auto-injector supply and fulfill its other responsibilities as required by the Student Access to Treatment Act of 2007, effective February 2, 2008 (D.C. Law 17-107; D.C. Official Code § 38-651.01 <em>et seq.</em>).</text>
+            <text>Procure, distribute, and maintain the undesignated epinephrine auto-injector supply and fulfill its other responsibilities as required by <code-cite doc="D.C. Code" path="|38|6|IV">the Student Access to Treatment Act of 2007, effective February 2, 2008 (D.C. Law 17-107; D.C. Official Code § 38-651.01 <em>et seq.</em>)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
