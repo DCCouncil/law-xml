@@ -48,16 +48,15 @@ before_build:
   - git -C ..\ol-us-dc rev-parse HEAD
 
 build_script:
+  # if %appveyor_repo_tag_name% is blank, the --checkout option will be ignored
   - >
     %PYTHON%\\python.exe -u -m ol_us_dc all
     --dest-codified ..\\dc-law-xml-codified
     --dest-html ..\\dc-law-html
+    --date today
+    --prebuild 3
+    --checkout "%appveyor_repo_tag_name%"
+    --deploy
 
 test_script:
   - echo Skipping doomed test discovery to save time
-
-skip_tags: true   # don't create builds for tags (only for branches)
-
-deploy_script:
-  - "%PYTHON%\\python.exe -u -m ol_us_dc deploy . ..\\dc-law-xml-codified"
-  - "%PYTHON%\\python.exe -u -m ol_us_dc deploy ..\\dc-law-xml-codified ..\\dc-law-html --append"
