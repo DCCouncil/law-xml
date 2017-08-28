@@ -1,11 +1,12 @@
-<codify:funded-anno xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codify="https://code.dccouncil.us/schemas/codify">
+<macro xmlns="https://code.dccouncil.us/schemas/macro" name="funded-anno">
   <attribute name="doc" required="false"/>
   <attribute name="path" required="false"/>
-  <attribute name="applicability-path" required="false"/>
+  <attribute name="applicability-doc" required="true"/>
+  <attribute name="applicability-path" required="true"/>
   <attribute name="action" default="change made to"/>
   <transform>
     <![CDATA[
-      <codify:annotation codify:applicability="effective" type="Applicability" {{ attributes|set_attribute('doc', 'path', 'ref') }}>The Budget Director of the Council of the District of Columbia has determined that the fiscal effect of [this law] has been included in an approved budget and financial plan.</codify:annotation>
+      <codify:annotation type="Applicability" {{ attributes|set_attribute('doc', 'path', 'ref') }}>Section 3102(b) of Law 21-160 amended or repealed section 901 of D.C. Law 21-125, removing the applicability restriction affecting this section, therefore the creation of this section by section 104 of D.C. Law 21-125 has been implemented.</codify:annotation>
     ]]>
   </transform>
-</codify:funded-anno>
+</macro>

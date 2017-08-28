@@ -1,4 +1,4 @@
-<codify:not-funded-anno xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codify="https://code.dccouncil.us/schemas/codify">
+<macro xmlns="https://code.dccouncil.us/schemas/macro" name="not-funded-anno" lifecycle="amend">
   <attribute name="doc" required="false"/>
   <attribute name="path" required="false"/>
   <attribute name="applicability-path" required="true"/>
@@ -9,4 +9,4 @@
       <codify:annotation codify:applicability="effective" type="Applicability" {{ attributes|set_attribute('doc', 'path', 'ref') }}>Applicability of <cite {{ doc|ref }}>{{doc.meta.citations.law }}</cite>: <cite {{ applicability_target|ref }}>{{ applicability_target.citations.short }}</cite> provided that the {{ attributes.action }} this section by <cite {{ parent.nearest_ancestor_with_ref|ref }}>{{ parent.nearest_ancestor_with_ref.citations.short }}</cite> is subject to the inclusion of the law’s fiscal effect in an approved budget and financial plan. Therefore that amendment has not been given effect.</codify:annotation>
     ]]>
   </transform>
-</codify:not-funded-anno>
+</macro>
