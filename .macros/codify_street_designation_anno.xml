@@ -1,10 +1,8 @@
-<codify:street-designation-anno xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codify="https://code.dccouncil.us/schemas/codify">
+<macro xmlns="https://code.dccouncil.us/schemas/macro" name="street-designation-anno">
   <attribute name="action" required="true"/>
   <transform>
     <![CDATA[
-      <codify:annotation doc="D.C. Law 4-201" path="§401" history="false" type="Editor's Notes">
-        {{ doc.heading }}, <cite {{ doc|ref }}>{{ doc.meta.citations.law }}</cite>, provided that "{{ attributes.action }}"
-      </codify:annotation>
+      <codify:annotation doc="D.C. Law 4-201" path="§401" history="false" type="Editor's Notes">{{ doc.heading }}, <cite {{ doc|ref }}>{{ doc.meta.citations.law }}</cite>, provided that "{{ attributes.action }}".</codify:annotation>
     ]]>
   </transform>
-</codify:street-designation-anno>
+</macro>

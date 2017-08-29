@@ -1,0 +1,12 @@
+<macro xmlns="https://code.dccouncil.us/schemas/macro" name="funded-anno">
+  <attribute name="doc" required="false"/>
+  <attribute name="path" required="false"/>
+  <attribute name="applicability-doc" required="true"/>
+  <attribute name="applicability-path" required="true"/>
+  <attribute name="action" default="change made to"/>
+  <transform>
+    <![CDATA[
+      <codify:annotation type="Applicability" {{ attributes|set_attribute('doc', 'path', 'ref') }}>Section 3102(b) of Law 21-160 amended or repealed section 901 of D.C. Law 21-125, removing the applicability restriction affecting this section, therefore the creation of this section by section 104 of D.C. Law 21-125 has been implemented.</codify:annotation>
+    ]]>
+  </transform>
+</macro>
