@@ -29,12 +29,14 @@
   </xs:element>
   <xs:attribute name="applicability" type="xs:string"/>
   <xs:attribute name="doc" type="xs:string"/>
+  <xs:attribute name="expire" type="xs:string"/>
   <xs:attribute name="instruction" type="xs:string"/>
   <xs:attribute name="path" type="xs:string"/>
   <xs:attribute name="value" type="xs:string"/>
   <xs:attributeGroup name="allAttributes">
     <xs:attribute ref="applicability" use="optional" />
     <xs:attribute ref="doc" use="optional" />
+    <xs:attribute ref="expire" use="optional"/>
     <xs:attribute ref="instruction" use="optional" />
     <xs:attribute ref="path" use="optional" />
     <xs:attribute ref="value" use="optional" />
