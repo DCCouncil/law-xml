@@ -35,7 +35,7 @@
           <para>
             <codify:replace/>
             <num>(1A)</num>
-            <text>Oversee the Office of Ombudsman for Public Education and the Office of the Student Advocate in accordance with subsection (d) of this section and the Ombudsman for Public Education Establishment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-351 <em>et seq.</em>), and the Office of the Student Advocate Establishment Act of 2013, effective February 22, 2014 (D.C. Law 20-76; D.C. Official Code § 38-371 <em>et seq.</em>), respectively.</text>
+            <text>Oversee the Office of Ombudsman for Public Education and the Office of the Student Advocate in accordance with subsection (d) of this section and <code-cite doc="D.C. Code" path="|38|3A">the Ombudsman for Public Education Establishment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-351 <em>et seq.</em>)</code-cite>, and <code-cite doc="D.C. Code" path="|38|3B">the Office of the Student Advocate Establishment Act of 2013, effective February 22, 2014 (D.C. Law 20-76; D.C. Official Code § 38-371 <em>et seq.</em></code-cite>), respectively.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -278,9 +278,12 @@
           <aftertext>.</aftertext>
         </para>
         <para>
-          <codify:ignore/>
           <num>(B)</num>
           <text>Subparagraph (F) is amended by striking the word "and" at the end.</text>
+          <codify:find-replace path="(F)" count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para codify:path="(16)">
