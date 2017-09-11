@@ -123,6 +123,18 @@
       <xs:attribute ref="codify:value" use="optional"/>
     </xs:complexType>
   </xs:element>
+  <xs:complexType name="sectionContainer">
+    <xs:sequence>
+      <xs:element ref="prefix" minOccurs="0"/>
+      <xs:element ref="num" minOccurs="0"/>
+      <xs:element ref="heading"/>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="container" type="sectionContainer"/>
+        <xs:element ref="para"/>
+          <xs:element ref="text"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
   <xs:element name="container">
     <xs:complexType>
       <xs:sequence>
@@ -240,9 +252,11 @@
           <xs:element ref="section" maxOccurs="unbounded"/>
           <xs:element ref="para" maxOccurs="unbounded"/>
           <xs:element ref="text" maxOccurs="unbounded"/>
+          <xs:element ref="subsection" maxOccurs="unbounded"/>
           <xs:element ref="toc" minOccurs="0"/>
         </xs:choice>
       </xs:sequence>
+      <xs:attribute name="lvl" type="xs:string"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="law">
@@ -299,6 +313,7 @@
       <xs:simpleContent>
         <xs:extension base="xs:string">
           <xs:attribute name="type" type="xs:string" use="optional"/>
+          <xs:attribute name="undesignated" type="xs:string" use="optional"/>
           <xs:attribute ref="codify:value" use="optional"/>
         </xs:extension>
       </xs:simpleContent>
@@ -334,6 +349,16 @@
       <xs:attribute ref="codify:value" use="optional"/>
     </xs:complexType>
   </xs:element>
+  <xs:element name="subsection">
+    <xs:complexType>
+      <xs:sequence>
+            <xs:element ref="num"/>
+        <xs:element ref="heading" minOccurs="0"/>
+        <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="section">
     <xs:complexType>
       <xs:sequence>
@@ -364,6 +389,7 @@
       <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element ref="toc" minOccurs="0"/>
       <xs:element ref="include" minOccurs="0"/>
+      <xs:element name="container" type="sectionContainer" minOccurs="0"/>
       <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element ref="annotations" minOccurs="0"/>
