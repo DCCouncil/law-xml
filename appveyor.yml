@@ -1,63 +1,9 @@
 environment:
   matrix:
     - PYTHON: "C:\\Python35"
-  ssh_key:
-    # this is a private SSH key providing access to all of oll-bot's repos
-    # in particular, open-law-us-dc and open-law-core
-    # it is encrypted with AppVeyor's encryption tool: https://ci.appveyor.com/tools/encrypt
-    secure: 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
-
-init:
-  # exit if secure variables are unset (saves time if fired by a non-team pull request)
-  - ps: if ($env:ssh_key -eq $null) { exit }
-  - git config --global user.name oll-bot
-  - git config --global user.email developers@openlawlib.org
-
-install:
-  # the only way we can use the deploy key is by putting it in an environment variable (see above)
-  # and then using PowerShell (ps) to copy the environment variable into a file (see below)
-  - ps: $key = "-----BEGIN RSA PRIVATE KEY-----`n"
-  - ps: $key += $env:ssh_key.Replace(" ", "`n")
-  - ps: $key += "`n-----END RSA PRIVATE KEY-----`n"
-  - ps: Set-Content c:\users\appveyor\.ssh\id_rsa $key
-
-before_build:
-  # clone the repos needed prior to codifying and building the HTML
-  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified ||
-    git clone --depth 1 git@github.com:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
-  - git clone --depth 1 git@github.com:openlawlibrary/dc-law-static.git ..\dc-law-static
-  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:dccouncil/dc-law-html.git ..\dc-law-html ||
-    git clone --depth 1 git@github.com:dccouncil/dc-law-html.git ..\dc-law-html
-  # use or create a branch in dc-law-xml-codified with the same name
-  - git -C ..\dc-law-xml-codified fetch origin %appveyor_repo_branch% &&
-    git -C ..\dc-law-xml-codified checkout %appveyor_repo_branch% ||
-    git -C ..\dc-law-xml-codified checkout -b %appveyor_repo_branch%
-  # use or create a branch in dc-law-html with the same name
-  - git -C ..\dc-law-html fetch origin %appveyor_repo_branch% &&
-    git -C ..\dc-law-html checkout %appveyor_repo_branch% ||
-    git -C ..\dc-law-html checkout -b %appveyor_repo_branch%
-  # install open-law-us-dc
-  - "%PYTHON%\\python.exe -m pip install wheel"
-  - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-core#egg=olcore"
-  - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-us-dc#egg=ol_us_dc"
-  # print out the git commits for each repo
-  - git -C ..\dc-law-xml-codified rev-parse HEAD
-  - git -C ..\dc-law-static rev-parse HEAD
-  - git -C ..\dc-law-html rev-parse HEAD
-  - git -C ..\olcore rev-parse HEAD
-  - git -C ..\ol-us-dc rev-parse HEAD
 
 build_script:
-  - >
-    %PYTHON%\\python.exe -u -m ol_us_dc all
-    --dest-codified ..\\dc-law-xml-codified
-    --dest-html ..\\dc-law-html
+  - "%PYTHON%\\python.exe test32.py"
 
-test_script:
-  - echo Skipping doomed test discovery to save time
+skip_tags: false
 
-skip_tags: true   # don't create builds for tags (only for branches)
-
-deploy_script:
-  - "%PYTHON%\\python.exe -u -m ol_us_dc deploy . ..\\dc-law-xml-codified"
-  - "%PYTHON%\\python.exe -u -m ol_us_dc deploy ..\\dc-law-xml-codified ..\\dc-law-html --append"
