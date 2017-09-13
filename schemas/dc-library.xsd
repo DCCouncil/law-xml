@@ -141,8 +141,8 @@
         <xs:sequence>
           <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
           <xs:element ref="codified:at" minOccurs="0"/>
-          <xs:element ref="prefix"/>
-          <xs:element ref="num"/>
+          <xs:element ref="prefix" minOccurs="0"/>
+          <xs:element ref="num" minOccurs="0"/>
           <xs:element ref="heading"/>
           <xs:element ref="codified:stub" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
@@ -151,6 +151,8 @@
           <xs:element name="subheading" type="xs:string"/>
           <xs:element ref="section"/>
           <xs:element ref="container"/>
+          <xs:element ref="text"/>
+          <xs:element ref="para"/>
           <xs:element ref="toc" minOccurs="0"/>
           <xs:any namespace="https://code.dccouncil.us/schemas/codify"/>
         </xs:choice>
@@ -389,7 +391,7 @@
       <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element ref="toc" minOccurs="0"/>
       <xs:element ref="include" minOccurs="0"/>
-      <xs:element name="container" type="sectionContainer" minOccurs="0"/>
+      <xs:element name="container" type="sectionContainer" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
       <xs:element ref="annotations" minOccurs="0"/>
