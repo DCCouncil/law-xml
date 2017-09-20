@@ -48,7 +48,7 @@ before_build:
   - git -C ..\ol-us-dc rev-parse HEAD
 
 build_script:
-  - %PYTHON%\\python.exe -u -m ol_us_dc ci --prebuild 3 --deploy
+  - "%PYTHON%\\python.exe -u -m ol_us_dc ci --prebuild 3 --deploy"
 
 test_script:
   - echo Skipping doomed test discovery to save time
