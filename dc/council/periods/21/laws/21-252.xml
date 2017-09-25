@@ -134,7 +134,7 @@
         <text>Paragraph (1) is amended by striking the period at the end and inserting the phrase "; provided, that such order shall not impair the exclusive budget and personnel authority granted to the Office of Ombudsman for Public Education pursuant to section 602 of the Ombudsman for Public Education Establishment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-351), or the Office of the Student Advocate pursuant to section 202 of the Office of the Student Advocate Establishment Act of 2013, effective February 22, 2014 (D.C. Law 20-76; D.C. Official Code § 38-371)." in its place.</text>
         <codify:find-replace count="1">
           <find>.</find>
-          <replace>; provided, that such order shall not impair the exclusive budget and personnel authority granted to the Office of Ombudsman for Public Education pursuant to section 602 of the Ombudsman for Public Education Establishment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-351), or the Office of the Student Advocate pursuant to section 202 of the Office of the Student Advocate Establishment Act of 2013, effective February 22, 2014 (D.C. Law 20-76; D.C. Official Code § 38-371).</replace>
+          <replace>; provided, that such order shall not impair the exclusive budget and personnel authority granted to the Office of Ombudsman for Public Education pursuant to <code-cite doc="D.C. Code" path="§38-351">section 602 of the Ombudsman for Public Education Establishment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-351)</code-cite>, or the Office of the Student Advocate pursuant to <code-cite doc="D.C. Code" path="§38-371">section 202 of the Office of the Student Advocate Establishment Act of 2013, effective February 22, 2014 (D.C. Law 20-76; D.C. Official Code § 38-371)</code-cite>.</replace>
         </codify:find-replace>
       </para>
       <para codify:path="(2)">
@@ -142,7 +142,7 @@
         <text>Paragraph (2) is amended by striking the period at the end and inserting the phrase "; provided, that the Board shall have no personnel authority over the staff of the Office of Ombudsman for Public Education or the Office of the Student Advocate, except as provided in section 602 of the Ombudsman for Public Education Establishment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-351), and section 202 of the Office of the Student Advocate Establishment Act of 2013, effective February 22, 2014 (D.C. Law 20-76; D.C. Official Code § 38-371), respectively." in its place.</text>
         <codify:find-replace count="1">
           <find>.</find>
-          <replace>; provided, that the Board shall have no personnel authority over the staff of the Office of Ombudsman for Public Education or the Office of the Student Advocate, except as provided in section 602 of the Ombudsman for Public Education Establishment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-351), and section 202 of the Office of the Student Advocate Establishment Act of 2013, effective February 22, 2014 (D.C. Law 20-76; D.C. Official Code § 38-371), respectively.</replace>
+          <replace>; provided, that the Board shall have no personnel authority over the staff of the Office of Ombudsman for Public Education or the Office of the Student Advocate, except as provided in <code-cite doc="D.C. Code" path="§38-351">section 602 of the Ombudsman for Public Education Establishment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-351)</code-cite>, and <code-cite path="§38-371">section 202 of the Office of the Student Advocate Establishment Act of 2013, effective February 22, 2014 (D.C. Law 20-76; D.C. Official Code § 38-371)</code-cite>, respectively.</replace>
         </codify:find-replace>
       </para>
       <para codify:path="(3)">
@@ -185,6 +185,9 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§38-2652" applicability-path="§6"/>
+      <codify:annotation doc="D.C. Code" path="§38-2652" type="Applicability" history="false">Section 7029 of D.C. Act 22-130 repealed <cite doc="D.C. Law 21-252" path="§6">§ 6 of D.C. Law 21-252</cite>. Therefore the changes made to this section by <cite doc="D.C. Law 21-252">D.C. Law 21-252</cite> have been given effect.
+      </codify:annotation>
     </para>
   </section>
   <section codify:doc="D.C. Law 17-9">
@@ -233,6 +236,9 @@
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§38-351" applicability-path="§6"/>
+        <codify:annotation doc="D.C. Code" path="§38-351" type="Applicability" history="false">Section 7029 of D.C. Act 22-130 repealed <cite doc="D.C. Law 21-252" path="§6">§ 6 of D.C. Law 21-252</cite>. Therefore the changes made to this section by <cite doc="D.C. Law 21-252">D.C. Law 21-252</cite> have been given effect.
+      </codify:annotation>
       </para>
     </para>
     <para codify:path="§604">
@@ -259,7 +265,7 @@
         <text>Paragraph (13) is amended by striking the semicolon at the end and inserting the phrase "and communication between public schools and parents and guardians;" in its place.</text>
         <codify:find-replace count="1">
           <find>;</find>
-          <replace>and communication between public schools and parents and guardians;</replace>
+          <replace> and communication between public schools and parents and guardians;</replace>
         </codify:find-replace>
       </para>
       <para codify:path="(15)">
@@ -426,22 +432,30 @@
       <para>
         <num>(1)</num>
         <text>Subsection (b) is amended by striking the word "majority" and inserting the number "2/3" in its place.</text>
-        
+        <codify:find-replace doc="D.C. Code" path="§38-371|(b)" count="1">
+          <find>majority</find>
+          <replace>2/3</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>New subsections (d-1) and (d-2) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert doc="D.C. Code" path="§38-371" after="(d)"/>
             <num>(d-1)</num>
             <text>The Chief Advocate shall serve as the exclusive personnel authority for employees of the Office and may hire staff to support the Office's operations consistent with the Office's budget.</text>
           </para>
           <para>
+            <codify:insert doc="D.C. Code" path="§38-371" after="(d-1)"/>
             <num>(d-2)</num>
             <text>The Chief Advocate shall have exclusive authority to administer the Office's budget, subject to the oversight of the State Board of Education to ensure compliance with District law.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§38-371" applicability-path="§6"/>
+        <codify:annotation doc="D.C. Code" path="§38-371" type="Applicability" history="false">Section 7029 of D.C. Act 22-130 repealed <cite doc="D.C. Law 21-252" path="§6">§ 6 of D.C. Law 21-252</cite>. Therefore the changes made to this section by <cite doc="D.C. Law 21-252">D.C. Law 21-252</cite> have been given effect.
+      </codify:annotation>
       </para>
     </para>
     <para>
@@ -450,12 +464,17 @@
       <para>
         <num>(1)</num>
         <text>Paragraph (2) is amended by striking the semicolon at the end and inserting the phrase "that is not already publicly available, or is difficult to locate or identify;" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§38-373|(2)" count="1">
+          <find>;</find>
+          <replace> that is not already publicly available, or is difficult to locate or identify;</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Paragraph (7) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace doc="D.C. Code" path="§38-373|(7)"/>
             <num>(7)</num>
             <text>Develop and maintain a database that tracks issues brought to the attention of the Office, identified by ward, name of public school, resource or referral given, and resolution of such issues;</text>
           </para>
@@ -465,20 +484,33 @@
       <para>
         <num>(3)</num>
         <text>Paragraph (8) is amended by striking the phrase "staff training, and strategies" and inserting the phrase "staff training, and strategies on family, student, and community engagement" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§38-373|(8)" count="1">
+          <find>staff training, and strategies</find>
+          <replace>staff training, and strategies on family, student, and community engagement</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>Paragraph (9)(G) is amended by striking the phrase "; and" at the end and inserting a semicolon in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§38-373|(9)|(G)" count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>Paragraph (10) is amended by striking the period at the end and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§38-373|(10)" count="1">
+          <find>g.</find>
+          <replace>g; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(6)</num>
         <text>A new paragraph (11) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert doc="D.C. Code" path="§38-373" after="(10)"/>
             <num>(11)</num>
             <text>Have the authority to issue reports and recommendations related to the Office's work without prior review or approval by any entity.</text>
           </para>
@@ -489,6 +521,10 @@
     <para>
       <num>(c)</num>
       <text>Section 205(b) (D.C. Official Code § 38-374(b)) is amended by striking the phrase "parent or guardian volunteers" and inserting the phrase "student or parent or guardian volunteers" in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§38-374|(b)" count="1">
+        <find>parent or guardian volunteers</find>
+        <replace>student or parent or guardian volunteers</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
@@ -513,6 +549,9 @@
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§1-604.06" applicability-path="§6"/>
+    <codify:annotation doc="D.C. Code" path="§1-604.06" type="Applicability" history="false">Section 7029 of D.C. Act 22-130 repealed <cite doc="D.C. Law 21-252" path="§6">§ 6 of D.C. Law 21-252</cite>. Therefore the changes made to this section by <cite doc="D.C. Law 21-252">D.C. Law 21-252</cite> have been given effect.
+      </codify:annotation>
   </section>
   <section>
     <num>6</num>
