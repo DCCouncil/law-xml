@@ -1,6 +1,8 @@
 environment:
   matrix:
-    - PYTHON: "C:\\Python35"
+    # For Python versions available on Appveyor, see
+    # http://www.appveyor.com/docs/installed-software#python
+    - PYTHON: "C:\\Python36-x64"
   ssh_key:
     # this is a private SSH key providing access to all of oll-bot's repos
     # in particular, open-law-us-dc and open-law-core
