@@ -99,7 +99,7 @@
   <xs:element name="collection">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="heading"/>
+        <xs:element ref="heading" maxOccurs="unbounded"/>
         <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="xi:include" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
@@ -281,7 +281,7 @@
   <xs:element name="library">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="heading"/>
+        <xs:element ref="heading" maxOccurs="unbounded"/>
         <xs:choice minOccurs="1" maxOccurs="unbounded">
           <xs:element ref="xi:include" minOccurs="0"/>
           <xs:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
