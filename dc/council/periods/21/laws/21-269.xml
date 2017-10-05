@@ -63,6 +63,7 @@
         <text>A new paragraph (5) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(4)"/>
             <num>(5)</num>
             <text>"OANC" means the Office of Advisory Neighborhood Commissions established by section 18.</text>
           </para>
@@ -70,26 +71,39 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-309.04">
       <num>(b)</num>
       <text>Section 5 (D.C. Official Code § 1-309.04) is amended by striking the phrase "Board of Elections and Ethics" and inserting the phrase "Board of Elections" in its place.</text>
+      <codify:find-replace count="1">
+        <find>Board of Elections and Ethics</find>
+        <replace>Board of Elections</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§1-309.05|(a)|(1)">
       <num>(c)</num>
       <text>Section 6(a)(1) (D.C. Official Code § 1-309.05(a)(1)) is amended as follows:</text>
-      <para>
+      <para codify:path="(B)">
         <num>(1)</num>
         <text>Subparagraph (B) is amended by striking the word "and" at the end.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(C)">
         <num>(2)</num>
         <text>Subparagraph (C) is amended by striking the phrase "office." and inserting the phrase "office; and" in its place.</text>
+        <codify:find-replace count="1">
+          <find>office.</find>
+          <replace>office;</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subparagraph (D) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(C)"/>
             <num>(D)</num>
             <text>Has not been convicted of a felony committed while serving as a Commissioner.</text>
           </para>
@@ -97,34 +111,54 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-309.06">
       <num>(d)</num>
       <text>Section 8 (D.C. Official Code § 1-309.06) is amended by striking the phrase "Board of Elections and Ethics" wherever it appears and inserting the phrase "Board of Elections" in its place.</text>
+      <codify:find-replace count="10">
+        <find>Board of Elections and Ethics</find>
+        <replace>Board of Elections</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§1-309.10">
       <num>(e)</num>
       <text>Section 13 (D.C. Official Code § 1-309.10 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the final sentence.</text>
+        <codify:find-replace count="1">
+          <find>For the purposes of this part, proposed actions of District government policy shall be the same as those for which prior notice of proposed rulemaking is required pursuant to § <cite path="§2-505">2-505</cite>(a) or as pertains to the Council of the District of Columbia.</find>
+          <replace></replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the first sentence and inserting the following sentence in its place: "The executive branch and any independent agency, board, or commission shall give 30-days written notice, excluding Saturdays, Sundays and legal holidays, of: (1) the intent to acquire an interest in real property, either through purchase or lease; or (2) the intent to change the use of property owned or leased by or on behalf of the government; to the OANC, each affected Commission, the Commissioner representing a single-member district affected by said actions, and to each affected Ward Councilmember, except where shorter notice on good cause made and published with the notice may be provided, or in the case of an emergency, and the notice shall be published in the District of Columbia Register.".</text>
+        <codify:find-replace count="1">
+          <find>Thirty days written notice, excluding Saturdays, Sundays and legal holidays of such District government actions or proposed actions, including (1) the intent to acquire an interest in real property, either through purchase or lease or (2) the intent to change the use of property owned or leased by or on behalf of the government, shall be given by first-class mail to the Office of Advisory Neighborhood Commissions, each affected Commission, the Commissioner representing a single-member district affected by said actions, and to each affected Ward Councilmember, except where shorter notice on good cause made and published with the notice may be provided or in the case of an emergency and such notice shall be published in the District of Columbia Register.</find>
+          <replace>The executive branch and any independent agency, board, or commission shall give 30-days written notice, excluding Saturdays, Sundays and legal holidays, of: (1) the intent to acquire an interest in real property, either through purchase or lease; or (2) the intent to change the use of property owned or leased by or on behalf of the government; to the OANC, each affected Commission, the Commissioner representing a single-member district affected by said actions, and to each affected Ward Councilmember, except where shorter notice on good cause made and published with the notice may be provided, or in the case of an emergency, and the notice shall be published in the District of Columbia Register.</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the first sentence.</text>
+            <codify:find-replace count="1">
+              <find>Proposed District government actions covered by this part shall include, but shall not be limited to, actions of the Council of the District of Columbia, the executive branch, or independent agencies, boards, and commissions.</find>
+              <replace></replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "required in subsection (a)" and insert the phrase "required in subsection (b)" in its place.</text>
+            <codify:find-replace count="1">
+              <find>required in subsection (a)</find>
+              <replace>required in subsection (b)</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -132,36 +166,54 @@
           <text>A new paragraph (1A) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(1)"/>
               <num>(1A)</num>
               <text>All notices transmitted pursuant to this section may be by electronic mail, unless otherwise provided by law, or unless the party to be noticed requests in writing to receive first-class mail notifications.  Requests for first-class mail notification under this subsection shall be sent to the OANC, which shall forward the requests to all Advisory Neighborhood Commission Liaisons.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(2)|(A)">
           <num>(C)</num>
           <text>Paragraph (2)(A) is amended by striking the phrase "first class mail" and inserting the phrase "electronic mail, subject to paragraph (1A) of this subsection," in its place.</text>
+          <codify:find-replace count="1">
+            <find>first-class mail</find>
+            <replace>electronic mail, subject to paragraph (1A) of this subsection,</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(D)</num>
           <text>Paragraph (3) is amended by striking the phrase "electronic or first-class mail; provided, that the notice to the affected Commission shall be by first-class mail unless the affected Commission agrees in writing to receive electronic mail notifications" and inserting the phrase "electronic mail, subject to paragraph (1A) of this subsection," in its place.</text>
+          <codify:find-replace count="1">
+            <find>electronic or first-class mail; provided, that the notice to the affected Commission shall be by first-class mail unless the affected Commission agrees in writing to receive electronic mail notifications</find>
+            <replace>electronic mail, subject to paragraph (1A) of this subsection,</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(E)</num>
           <text>Paragraph (4) is amended by striking the phrase "electronic or first-class mail; provided, that the notice to the affected Commission shall be by first-class mail unless the affected Commission agrees in writing to receive electronic mail notifications" and inserting the phrase "electronic mail, subject to paragraph (1A) of this subsection," in its place.</text>
+          <codify:find-replace count="1">
+            <find>electronic or first-class mail; provided, that the notice to the affected Commission shall be by first-class mail unless the affected Commission agrees in writing to receive electronic mail notifications</find>
+            <replace>electronic mail, subject to paragraph (1A) of this subsection,</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(l)">
         <num>(4)</num>
         <text>
-          <strong>Subsection (l) is amended by striking the phrase "District of Columbia Auditor" and inserting the acronym "OANC" in its place.</strong>
+          Subsection (l) is amended by striking the phrase "District of Columbia Auditor" and inserting the acronym "OANC" in its place.
         </text>
+        <codify:find-replace count="1">
+          <find>District of Columbia Auditor</find>
+          <replace>OANC</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>A new subsection (n-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(n)"/>
             <num>(n-1)</num>
             <text>By December 1 of each year, each Commission shall publish an annual report or newsletter that summarizes the activities of the Commission in service to the community over the preceding 12 months, including a highlighting of key issues voted upon, comments submitted to District agencies, and issuance of community grants.</text>
           </para>
@@ -169,32 +221,41 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-309.11">
       <num>(f)</num>
       <text>
         <strong>Section 14 (D.C. Official Code § 1-309.11) is amended as follows:</strong>
       </text>
-      <para>
+      <para codify:path="(b)">
         <num>(1)</num>
         <text>Subsection (b) is amended by adding a new paragraph (1A) to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(1)"/>
             <num>(1A)</num>
             <text>A Commissioner must be physically present at a public meeting in order to participate in the meeting, including being counted toward the presence of a quorum and voting on matters before the Commission.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase ", individuals with official business before the Commission,".</text>
+          <codify:find-replace count="1">
+            <find>, individuals with official business before the Commission,</find>
+            <replace></replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "good cause" and insert the phrase "good cause articulated in the notice" in its place.</text>
+          <codify:find-replace count="1">
+            <find>good cause</find>
+            <replace>good cause articulated in the notice</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
@@ -202,6 +263,7 @@
         <text>New subsections (c-1) and (c-2) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(c)"/>
             <num>(c-1)</num>
             <para>
               <num>(1)</num>
@@ -221,32 +283,43 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(c-1)"/>
             <num>(c-2)</num>
             <text>Any individual or entity whose property or business may be the subject of discussion or official action by a Commission may notify the Commission in writing that the individual or entity wishes to be directly contacted upon the placement of the property or business on a published draft agenda, and of the preferred method of contact. Any Commission so notified shall make a good-faith attempt to contact the notifying individual or entity in a timely manner, using the preferred method of contact specified, upon adding to a published draft agenda any matter directly pertaining to the property or business of the individual or entity.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(d)|(1)">
         <num>(4)</num>
         <text>Subsection (d)(1) is amended as follows:</text>
-        <para>
+        <para codify:path="(I)">
           <num>(A)</num>
           <text>Subparagraph (I) is amended by striking the word "and" at the end.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(J)">
           <num>(B)</num>
           <text>Subparagraph (J) is amended by striking the period at the end and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace count="1">
+            <find>r.</find>
+            <replace>r; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>New subparagraphs (K) and (L) are added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(J)"/>
               <num>(K)</num>
               <text>Transition protocols for officer positions; and</text>
             </para>
             <para>
+              <codify:insert after="(K)"/>
               <num>(L)</num>
               <text>A tiebreaking procedure for Commission officer elections.</text>
             </para>
@@ -254,14 +327,15 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(e)">
         <num>(5)</num>
         <text>Subsection (e) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(1)</num>
               <text>Each Commission shall elect from among its members at a public meeting of the Commission held in January of each year, a Chairperson, Vice-Chairperson, Secretary, and Treasurer. Each Commission may also elect any other officers that the Commission deems necessary. For each Commission officer election, the Commission shall nominate a non-Commissioner to count ballots for officer positions.</text>
             </para>
@@ -273,6 +347,7 @@
           <text>A new paragraph (1A) is added to read as follows:</text>
           <include>
             <para>
+          <codify:insert after="(1)"/>
               <num>(1A)</num>
               <para>
                 <num>(A)</num>
@@ -304,50 +379,62 @@
         <text>A new subsection (f-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(f)"/>
             <num>(f-1)</num>
             <text>Committees and task forces of a Commission shall be advisory only, except that a Commission may officially adopt committee or task force determinations. A Commission shall not delegate official decision-making authority to any committee or task force.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(g)|text">
         <num>(7)</num>
         <text>The lead-in language of subsection (g) is amended to read as follows:</text>
         <include>
           <para>
             <num>(g)</num>
             <text>Each Commission, including each committee of a Commission, shall be subject to the open meetings provisions of section 742 of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 831; D.C. Official Code § 1-207.42). No meeting may be closed to the public unless personnel or legal matters are discussed. Without limiting the scope of section 742 of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 831; D.C. Official Code § 1-207.42), the following categories of information shall be specifically made available to the public subject to section 204 of the DCAPA:</text>
+            <codify:find-replace count="1">
+              <find>Each Commission, including each committee of a Commission, shall be subject to the open meetings provisions of § <cite path="§1-207.42">1-207.42</cite>(a). No meeting may be closed to the public unless personnel or legal matters are discussed. Without limiting the scope of that section, the following categories of information are specifically made available to the public:</find>
+              <replace>Each Commission, including each committee of a Commission, shall be subject to the open meetings provisions of section 742 of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 831; D.C. Official Code § 1-207.42). No meeting may be closed to the public unless personnel or legal matters are discussed. Without limiting the scope of section 742 of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 831; D.C. Official Code § 1-207.42), the following categories of information shall be specifically made available to the public subject to section 204 of the DCAPA:</replace>
+            </codify:find-replace>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-309.12">
       <num>(g)</num>
       <text>Section 15 (D.C. Official Code § 1-309.12) is amended as follows:</text>
-      <para>
+      <para codify:path="(d)">
         <num>(1)</num>
         <text>Subsection (d) is amended as follows:</text>
-        <para>
+        <para codify:path="(2)">
           <num>(A)</num>
           <text>Paragraph (2) is amended by striking the phrase "District of Columbia Auditor" and inserting the acronym "OANC" in its place.</text>
+          <codify:find-replace count="1">
+            <find>District of Columbia Auditor</find>
+            <replace>OANC</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(B)</num>
           <text>Paragraph (3) is amended as follows:</text>
-          <para>
+          <para codify:path="(A)">
             <num>(i)</num>
             <text>Subparagraph (A) is repealed</text>
+            <codify:repeal/>
           </para>
           <para>
             <num>(ii)</num>
             <text>New subparagraphs (C-i) and (C-ii) are added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(C)"/>
                 <num>(C-i)</num>
-                <text><strong>(C-</strong>i) Reimbursement of translation and interpretation service costs incurred by a Commission, for residents and Commissioners who require such services in relation to Commission documents or proceedings; provided, that applications for reimbursement under this subparagraph shall be submitted to OANC, using a form prescribed by the Mayor;</text>
+                <text>Reimbursement of translation and interpretation service costs incurred by a Commission, for residents and Commissioners who require such services in relation to Commission documents or proceedings; provided, that applications for reimbursement under this subparagraph shall be submitted to OANC, using a form prescribed by the Mayor;</text>
               </para>
               <para>
+                <codify:insert after="(C-i)"/>
                 <num>(C-ii)</num>
                 <text>Reimbursement to the Commission for the purchase or rental of assistive listening systems, as they are described in the 2010 Americans with Disabilities Act Standards for Accessible Design, Section 706 of Appendix D to 36 C.F.R. Part 1191, for use by hearing-impaired residents or Commissioners at Commission proceedings; provided, that applications for reimbursement under this subparagraph shall be submitted to OANC, using a form prescribed by the Mayor;</text>
               </para>
@@ -360,10 +447,12 @@
           <text>New paragraphs (4), (5), and (6) are added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(3)"/>
               <num>(4)</num>
               <text>The Office of the Attorney General for the District of Columbia shall provide legal interpretations of statutes concerning or affecting the Commissions, or of issues or concerns affecting the Commissions. These interpretations may be requested directly by any Commission or by the OANC.</text>
             </para>
             <para>
+              <codify:insert after="(4)"/>
               <num>(5)</num>
               <text>Within 180 days after the effective date of the Advisory Neighborhood Commissions Omnibus Amendment Act of 2016, passed on 2nd reading on December 20, 2016 (Enrolled version of Bill 21-697), the Mayor shall provide the following:</text>
               <para>
@@ -376,6 +465,7 @@
               </para>
             </para>
             <para>
+              <codify:insert after="(5)"/>
               <num>(6)</num>
               <text>The District of Columbia Office of Open Government ("OOG") shall develop a training program and materials on the requirements of title II of the DCAPA ("FOIA") with respect to Advisory Neighborhood Commissions. The OOG shall coordinate with the OANC to include OOG-developed FOIA training materials in Commissioner training sessions provided by the OANC. OOG shall also provide a training session at least twice per calendar year on Commission obligations under FOIA, to which all Commissioners shall be invited.</text>
             </para>
@@ -383,11 +473,12 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(f)">
         <num>(2)</num>
         <text>Subsection (f) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(f)</num>
             <para>
               <num>(1)</num>
@@ -410,10 +501,12 @@
         <text>New subsections (g) and (h) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(f)"/>
             <num>(g)</num>
             <text>The Mayor shall provide informational materials to all newly hired or promoted District supervisory employees of the executive branch on the role of Advisory Neighborhood Commissions, and on their relationship to other government entities with which they interact. The materials shall cover the responsibilities of District agencies under section 13.</text>
           </para>
           <para>
+            <codify:insert after="(g)"/>
             <num>(h)</num>
             <text>The OANC shall hold biannual training sessions on the responsibilities of District agencies with respect to Advisory Neighborhood Commissions, including those responsibilities under section 13. The OANC shall invite the director or highest-ranking officer of each District government agency, board, or commission, or his or her designee, to attend the training.</text>
           </para>
@@ -421,7 +514,7 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-309.13">
       <num>(h)</num>
       <text>Section 16 (D.C. Official Code § 1-309.13) is amended as follows:</text>
       <para>
@@ -429,28 +522,38 @@
         <text>A new subsection (c-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(c)"/>
             <num>(c-1)</num>
             <text>The treasurer of each Commission shall maintain an up-to-date treasurer's report that shall be available for any Commissioner or member of the public to review at each regular public Commission meeting.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(d)|(2)">
         <num>(2)</num>
         <text>Subsection (d)(2) is amended by striking the phrase "Corporation Counsel" and inserting the phrase "Office of the Attorney General for the District of Columbia" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Corporation Counsel</find>
+          <replace>Office of the Attorney General for the District of Columbia</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(f)">
         <num>(3)</num>
         <text>Subsection (f) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "without the specific authorization of the Commission" and inserting the phrase "without the specific authorization of the Commission, except for reimbursements approved by the Commission treasurer under subsection (l-1) of this section" in its place.</text>
+          <codify:find-replace count="1">
+            <find>without the specific authorization of the Commission</find>
+            <replace>without the specific authorization of the Commission, except for reimbursements approved by the Commission treasurer under subsection (l-1) of this section</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)|(B)">
           <num>(B)</num>
           <text>Paragraph (2)(B) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(B)</num>
               <text>Before signature, the check shall contain:</text>
               <para>
@@ -474,80 +577,114 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(g)">
         <num>(4)</num>
         <text>
-          <strong>Subsection (g) is amended as follows:</strong>
+          Subsection (g) is amended as follows:
         </text>
         <para>
           <num>(A)</num>
           <text>
-            <strong>Strike the phrase "Corporation Counsel" and insert the phrase "Office of the Attorney General for the District of Columbia" in its place.</strong>
+            Strike the phrase "Corporation Counsel" and insert the phrase "Office of the Attorney General for the District of Columbia" in its place.
+            <codify:find-replace count="1">
+              <find>Corporation Counsel</find>
+              <replace>Office of the Attorney General for the District of Columbia</replace>
+            </codify:find-replace>
           </text>
         </para>
         <para>
           <num>(B)</num>
           <text>
-            <strong>Strike the word "Auditor" and insert the acronym "OANC" in its place.</strong>
+            Strike the word "Auditor" and insert the acronym "OANC" in its place.
+            <codify:find-replace count="1">
+              <find>Auditor</find>
+              <replace>OANC</replace>
+            </codify:find-replace>
           </text>
         </para>
       </para>
-      <para>
+      <para codify:path="(j)">
         <num>(5)</num>
         <text>
-          <strong>Subsection (j) is amended as follows:</strong>
+         Subsection (j) is amended as follows:
         </text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>
-            <strong>Paragraph (1) is amended as follows:</strong>
+           Paragraph (1) is amended as follows:
           </text>
           <para>
             <num>(i)</num>
             <text>Strike the word "Auditor" wherever it appears and insert the acronym "OANC" in its place.</text>
+            <codify:find-replace count="4">
+              <find>Auditor</find>
+              <replace>OANC</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the word "Auditor's" and insert the acronym "OANC's" in its place.</text>
+          <codify:ignore/>
           </para>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the word "Auditor" wherever it appears and insert the acronym "OANC" in its place.</text>
+            <codify:find-replace count="3">
+              <find>Auditor</find>
+              <replace>OANC</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Insert the sentence "Upon receiving and approving all outstanding quarterly financial reports from the Commission, the OANC shall immediately return the checkbook to the Commission." before the last sentence.</text>
+            <codify:find-replace count="1">
+              <find>The Mayor, upon the request of the OANC, may issue official instructions to any pertinent banking institution to freeze accounts held by a Commission that has not complied with this paragraph.</find>
+              <replace>Upon receiving and approving all outstanding quarterly financial reports from the Commission, the OANC shall immediately return the checkbook to the Commission. The Mayor, upon the request of the Auditor, may issue official instructions to any pertinent banking institution to freeze accounts held by a Commission that has not complied with this paragraph.</replace>
+            </codify:find-replace>
           </para>
         </para>
       </para>
-      <para>
+      <para codify:path="(l)">
         <num>(6)</num>
         <text>Subsection (l) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by:</text>
           <para>
             <num>(i)</num>
             <text>Striking the phrase "and nominal refreshments at Commission meetings" and inserting the phrase "legal expenses for Commission representation by an attorney licensed in the District before an agency, board, or commission of the District government, and nominal refreshments at Commission meetings" in its place.</text>
+            <codify:find-replace count="1">
+              <find>and nominal refreshments at Commission meetings</find>
+              <replace>legal expenses for Commission representation by an attorney licensed in the District before an agency, board, or commission of the District government, and nominal refreshments at Commission meetings</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Striking the sentence "Expenditures may be in the form of grants by the Commission for public purposes within the Commission area pursuant to subsection (m) of this section." and inserting the sentences "Nominal refreshments shall be limited to $100 worth of food and nonalcoholic beverages per regular public Commission meeting, and any refreshments purchased shall be available to the public. Expenditures may be in the form of grants by the Commission for public purposes within the Commission area pursuant to subsection (m) of this section. A public purpose shall be a purpose that benefits the community as a whole and is not done for the primary purpose of benefitting a private entity." in its place.</text>
+            <codify:find-replace count="1">
+              <find>Expenditures may be in the form of grants by the Commission for public purposes within the Commission area pursuant to subsection (m) of this section.</find>
+              <replace>Nominal refreshments shall be limited to $100 worth of food and nonalcoholic beverages per regular public Commission meeting, and any refreshments purchased shall be available to the public. Expenditures may be in the form of grants by the Commission for public purposes within the Commission area pursuant to subsection (m) of this section. A public purpose shall be a purpose that benefits the community as a whole and is not done for the primary purpose of benefitting a private entity.</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(iii)</num>
             <text>Adding after the final sentence the following: "Where a Commissioner submits a complete and valid application for reimbursement for travel or childcare expenses under subsection (l-1) of this section, a Commission shall reimburse that Commissioner for all requested expenses for which the Commissioner qualifies under subsection (l-1).".</text>
+            <codify:find-replace count="1">
+              <find>Funds may be used to pay the local transportation expenses of a Commissioner if the Commissioner is officially representing the Commission or a committee of the Commission at public hearings or meetings or is engaged in official Commission business.</find>
+              <replace>Funds may be used to pay the local transportation expenses of a Commissioner if the Commissioner is officially representing the Commission or a committee of the Commission at public hearings or meetings or is engaged in official Commission business. Where a Commissioner submits a complete and valid application for reimbursement for travel or childcare expenses under subsection (l-1) of this section, a Commission shall reimburse that Commissioner for all requested expenses for which the Commissioner qualifies under subsection (l-1).</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(2)</num>
               <text>No Commission may expend funds except as authorized under this act. Prohibited expenditures include those for any purpose that involves partisan political activity, legal expenses other than for Commission representation before an agency, board, or commission of the District government, or travel outside of the Washington metropolitan area.</text>
             </para>
@@ -559,6 +696,7 @@
           <text>A new paragraph (3) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(2)"/>
               <num>(3)</num>
               <text>Commissions shall use staff payroll forms provided by the OANC.</text>
             </para>
@@ -571,6 +709,7 @@
         <text>A new subsection (l-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(l)"/>
             <num>(l-1)</num>
             <para>
               <num>(1)</num>
@@ -624,14 +763,15 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(m)">
         <num>(8)</num>
         <text>Subsection (m) is amended as follows:</text>
-        <para>
+        <para codify:path="(2)">
           <num>(A)</num>
           <text>Paragraph (2) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(2)</num>
               <text>An applicant for a grant shall submit an application in writing to the Commission and to the OANC. The application shall be in the form of a template designed by the OANC, and shall contain:</text>
               <para>
@@ -654,11 +794,12 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(B)</num>
           <text>Paragraph (3) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(3)</num>
               <text>Within 60 days following the issuance of a grant, and every 90 days thereafter during the life of the grant, the grant recipient shall forward to the Commission and the OANC a statement as to the use of the funds consistent with the grant application, complete with receipts that support the expenditures. The OANC:</text>
               <para>
@@ -674,19 +815,25 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(q)">
         <num>(9)</num>
         <text>Subsection (q) is amended by striking the phrase "may seek to reprogram funds" and inserting the phrase "shall assist the Commission in locating appropriate office space in the ward in which the Commission is located, and may seek to reprogram funds" in its place.</text>
+        <codify:find-replace count="1">
+          <find>may seek to reprogram funds</find>
+          <replace>shall assist the Commission in locating appropriate office space in the ward in which the Commission is located, and may seek to reprogram funds</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(10)</num>
         <text>New subsections (r) and (s) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(q)"/>
             <num>(r)</num>
             <text>Any document created by requirement of this act, and any equipment purchased by, or on behalf of, a Commission, is the property of the District, and not the property of any Commissioner or other individual.</text>
           </para>
           <para>
+            <codify:insert after="(r)"/>
             <num>(s)</num>
             <text>Commissioners shall attend at least one training session per year conducted by the OANC pursuant to section 18(c)(5).</text>
           </para>
@@ -694,12 +841,13 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-309.15">
       <num>(i)</num>
       <text>Section 18 (D.C. Official Code § 1-309.15) is amended to read as follows:</text>
       <include>
         <section>
-          <num>18</num>
+          <codify:replace/>
+          <num codify:value="1-309.15">18</num>
           <heading>Office of Advisory Neighborhood Commissions; appointment of Executive Director.</heading>
           <para>
             <num>(a)</num>
@@ -771,13 +919,13 @@
             <para>
               <num>(15)</num>
               <text>
-                <strong>Providing technical assistance, as needed, to Councilmembers, and committees and staff of the Council with respect to Commission matters; and</strong>
+                Providing technical assistance, as needed, to Councilmembers, and committees and staff of the Council with respect to Commission matters; and
               </text>
             </para>
             <para>
               <num>(16)</num>
               <text>
-                <strong>Reviewing Commission quarterly financial reports, and approving or disapproving the release of Commission quarterly allotments pursuant to section 16.</strong>
+                Reviewing Commission quarterly financial reports, and approving or disapproving the release of Commission quarterly allotments pursuant to section 16.
               </text>
             </para>
           </para>
