@@ -412,6 +412,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:choice maxOccurs="unbounded">
+          <xs:element ref="text"/>
           <xs:element name="container" type="tocContainer"/>
           <xs:element name="section" type="tocSection"/>
         </xs:choice>
