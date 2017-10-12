@@ -25,12 +25,17 @@
   <section>
     <num>2</num>
     <text>Section 2(a) of the Police Officer and Firefighter Cadet Programs Funding Authorization and Human Rights Act of 1977 Amendment Act of 1982, effective March 9, 1983 (D.C. Law 4-172; D.C. Official Code § 5-109.01(a)), is amended by striking the number "21" and inserting the number "25" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§5-109.01|(a)" count="1">
+      <find>21</find>
+      <replace>25</replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>3</num>
     <text>Section 2 of the Retired Police Officer Redeployment Amendment Act of 1992, effective September 29, 1992 (D.C. Law 9-163; D.C. Official Code § 5-761), is amended by adding a new subsection (h) to read as follows:</text>
     <include>
       <para>
+        <codify:insert doc="D.C. Code" path="§5-761" after="(g)"/>
         <num>(h)</num>
         <para>
           <num>(1)</num>
@@ -59,10 +64,18 @@
   <section>
     <num>4</num>
     <text>Section 103(a)(1) of the Omnibus Public Safety and Justice Amendment Act of 2009, effective December 10, 2009 (D.C. Law 18-88; D.C. Official Code § 22-1211(a)(1)), is amended by striking the phrase "who is required to wear a device as a condition of a protection order, pretrial, presentence, or predisposition release, probation, supervised release, parole, or commitment, or who is required to wear a device while incarcerated," and inserting the phrase "who is required to wear a device while incarcerated or committed, while subject to a protection order, or while on pretrial release, presentence release, predisposition release, supervised release, probation, or parole" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§22-1211|(a)|(1)" count="1">
+      <find>who is required to wear a device as a condition of a protection order, pretrial, presentence, or predisposition release, probation, supervised release, parole, or commitment, or who is required to wear a device while incarcerated,</find>
+      <replace>who is required to wear a device while incarcerated or committed, while subject to a protection order, or while on pretrial release, presentence release, predisposition release, supervised release, probation, or parole</replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>5</num>
     <text>Section 11201(b)(2)(A) of the National Capital Revitalization and Self-Government Improvement Act of 1997, effective October 2, 2010 (D.C. Law 18-233; D.C. Official Code § 24-101.01(b)(2)(A)), is amended by striking the phrase "3 members, 2 of whom shall be appointed by the Mayor with the advice and consent of the Council, and one of whom shall be appointed by the Council" and inserting the phrase "5 members, 3 of whom shall be appointed by the Mayor with the advice and consent of the Council, and 2 of whom shall be appointed by the Council" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§24-101.01|(b)|(2)|(A)" count="1">
+      <find>3 members, 2 of whom shall be appointed by the Mayor with the advice and consent of the Council, and one of whom shall be appointed by the Council</find>
+      <replace>5 members, 3 of whom shall be appointed by the Mayor with the advice and consent of the Council, and 2 of whom shall be appointed by the Council</replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>6</num>
@@ -75,22 +88,31 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§28-3904">
       <num>(b)</num>
       <text>Section 28-3904 is amended as follows:</text>
-      <para>
+      <para codify:path="(gg)">
         <num>(1)</num>
         <text>Paragraph (gg) is amended by striking the phrase "or".</text>
+        <codify:find-replace count="1">
+          <find>; or</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(hh)">
         <num>(2)</num>
         <text>Paragraph (hh) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+        <codify:find-replace count="1">
+          <find>(a-1).</find>
+          <replace>(a-1); or</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (ii) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(hh)"/>
             <num>(ii)</num>
             <text>violate any provision of Chapter 53 of this title.</text>
           </para>
@@ -103,9 +125,10 @@
       <text>A new Chapter 53 is added to read as follows:</text>
       <include>
         <container>
-          <prefix>CHAPTER</prefix>
+          <codify:insert doc="D.C. Code" path="28" after="52"/>
+          <prefix >Chapter</prefix>
           <num>53</num>
-          <heading>IMMIGRATION SERVICES PROTECTION.</heading>
+          <heading codify:value="Immigration Services Protection.">IMMIGRATION SERVICES PROTECTION.</heading>
           <toc>
             <text>Sec.</text>
             <section>
@@ -127,6 +150,7 @@
           </toc>
           <section>
             <prefix>§</prefix>
+             
             <num>28-5301</num>
             <heading>Definitions.</heading>
             <text>For the purposes of this chapter, the term:</text>
@@ -209,7 +233,9 @@
             <para>
               <num>(b)</num>
               <text>Each immigration service provider shall post, in English and in each language in which the immigration service provider provides or offers to provide an immigration service, at every location where the immigration service provider meets with clients, signs that shall include the name of each immigration service provider and the phrase:</text>
-              <text>I am not an attorney licensed to practice law in the District of Columbia and may not provide legal representation. I cannot provide representation to you before the United States Citizenship and Immigration Services, the Department of Homeland Security, the Executive Office for Immigration Review, the Department of Labor, the Department of State, or any other immigration authority.</text>
+              <include>
+                <text>I am not an attorney licensed to practice law in the District of Columbia and may not provide legal representation. I cannot provide representation to you before the United States Citizenship and Immigration Services, the Department of Homeland Security, the Executive Office for Immigration Review, the Department of Labor, the Department of State, or any other immigration authority.</text>
+              </include>
             </para>
           </section>
           <section>
@@ -255,11 +281,11 @@
                 </para>
                 <para>
                   <num>(E)</num>
-                  <text>The statement, 'I am not an attorney licensed to practice law in the District of Columbia and may not provide legal representation. I cannot provide representation to you before the United States Citizenship and Immigration Services, the Department of Homeland Security, the Executive Office for Immigration Review, the Department of Labor, the Department of State, or any other immigration authority.'; and</text>
+                  <text>The statement, <span codify:value="&quot;">'</span>I am not an attorney licensed to practice law in the District of Columbia and may not provide legal representation. I cannot provide representation to you before the United States Citizenship and Immigration Services, the Department of Homeland Security, the Executive Office for Immigration Review, the Department of Labor, the Department of State, or any other immigration authority.<span codify:value="&quot;">'</span>; and</text>
                 </para>
                 <para>
                   <num>(F)</num>
-                  <text>The statement, 'I cannot accept a fee for referring a client to another person for a service that I cannot or will not perform.'</text>
+                  <text>The statement, <span codify:value="&quot;">'</span>I cannot accept a fee for referring a client to another person for a service that I cannot or will not perform.<span codify:value="&quot;">'</span></text>
                 </para>
               </para>
               <para>
