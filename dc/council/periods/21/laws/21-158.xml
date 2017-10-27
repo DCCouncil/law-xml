@@ -1400,12 +1400,11 @@
           <text>[Not funded].</text>
         </para>
       </codify:replace>
-      <codify:replace doc="D.C. Code" path="§2-352.07|(a)" history="false">
-        <para>
-          <num>(a)</num>
-          <text>[Not funded].</text>
-        </para>
-      </codify:replace>
+      <codify:repeal doc="D.C. Code" path="§2-352.07"/>
+      <codify:find-replace doc="D.C. Code" path="§2-352.07" count="2">
+        <find>Repealed</find>
+        <replace>Not funded</replace>
+      </codify:find-replace>
       <codify:replace doc="D.C. Code" path="§2-356.06" history="false">
         <section>
           <num>2-356.06</num>

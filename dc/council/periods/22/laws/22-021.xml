@@ -41,7 +41,7 @@
         <text>New paragraphs (1) and (8A) are added to read as follows:</text>
         <include lvl="1">
           <para>
-           <codify:insert before="(1A)"/> 
+            <codify:insert before="(1A)"/>
             <num>(1)</num>
             <para>
               <num>(A)</num>
@@ -79,7 +79,7 @@
       <text>A new section 501a is added to read as follows:</text>
       <include>
         <section>
-            <codify:insert path="38|8A|V" after="§38-825.01" num-value="38-825.01a" history-prefix="as added"/>
+          <codify:insert path="38|8A|V" after="§38-825.01" num-value="38-825.01a" history-prefix="as added"/>
           <num>501a</num>
           <heading>Prevention of lead in drinking water in schools.</heading>
           <para>
@@ -234,7 +234,6 @@
                   <text>Any remediation steps that will be or have been taken.</text>
                 </para>
               </para>
-              <annotation doc="D.C. Law 18-209" type="History" path="§501a">July 27, 2010, D.C. Law 18-209, § 501a</annotation>
             </para>
             <para>
               <num>(3)</num>
@@ -320,18 +319,27 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 18-209" type="History" path="§501a">July 27, 2010, D.C. Law 18-209, § 501a</annotation>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§38-1802.04|(c)|(4)|(B)">
     <num>3</num>
     <text>Section 2204(c)(4)(B) of the District of Columbia School Reform Act of 1995, approved April 26, 1996 (110 Stat. 1321; D.C. Official Code § 38-1802.04(c)(4)(B)), is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>Strike the phrase "Fire Prevention Code." and insert the phrase "Fire Prevention Code and section 501a(b) of the Healthy Schools Act of 2010, passed on 2nd reading on July 11, 2017  (Enrolled version of Bill 22-29)." in its place.</text>
+      <codify:find-replace count="1">
+        <find>Fire Prevention Code.</find>
+        <replace>Fire Prevention Code and section 501a(b) of the Healthy Schools Act of 2010, passed on 2nd reading on July 11, 2017  (Enrolled version of Bill 22-29).</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>Strike the phrase "upon request." and insert the phrase "upon request. A public charter school shall, within 10 business days of submitting the report, publish the report on the public charter school's website or on the website of the public charter school's local education agency, and transmit the report to DGS for publication on DGS's website." in its place.</text>
+      <codify:find-replace count="1">
+        <find>upon request.</find>
+        <replace>upon request. A public charter school shall, within 10 business days of submitting the report, publish the report on the public charter school's website or on the website of the public charter school's local education agency, and transmit the report to DGS for publication on DGS's website.</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
@@ -339,6 +347,7 @@
     <text>The Department of General Services Establishment Act of 2011, effective September 14, 2011 (D.C. Law 19-21; D.C. Official Code § 10-551.01<em> et seq.</em>), is amended by adding a new section 1028c to read as follows:</text>
     <include>
       <section>
+        <codify:insert doc="D.C. Code" path="10|5A" after="§10-551.07b" num-value="10-551.07c" history-prefix="as added"/>
         <num>1028c</num>
         <heading>Prevention of lead in drinking water at recreation facilities.</heading>
         <para>
@@ -451,15 +460,17 @@
       </section>
     </include>
     <aftertext>.</aftertext>
+    <annotation doc="D.C. Law 19-21" type="History" path="§1028c">Sept. 14, 2011, D.C. Law 19-21, § 1028c</annotation>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>5</num>
     <text>The Child Development Facilities Regulation Act of 1998, effective April 13, 1999 (D.C. Law 12-215; D.C. Official Code § 7-2031 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§7-2031">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 7-2031) is amended by adding new paragraphs (3A) and (7A) to read as follows:</text>
       <include lvl="1">
         <para>
+            <codify:insert after="(3)"/>
           <num>(3A)</num>
           <para>
             <num>(A)</num>
@@ -471,6 +482,7 @@
           </para>
         </para>
         <para>
+             <codify:insert after="(7)"/>
           <num>(7A)</num>
           <text>"Remediation steps" means, at a minimum, actions to:</text>
           <para>
