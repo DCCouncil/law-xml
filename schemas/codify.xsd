@@ -16,7 +16,6 @@
             <xs:complexContent>
                 <xs:extension base="insertType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
-                    <xs:attributeGroup ref="targetAttributes"/>
                     <xs:attributeGroup ref="historyAttributes"/>
                     <xs:attribute name="after" type="xs:string" use="optional"/>
                     <xs:attribute name="before" type="xs:string" use="optional"/>
@@ -39,7 +38,6 @@
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
-                    <xs:attributeGroup ref="targetAttributes"/>
                     <xs:attributeGroup ref="historyAttributes"/>
                     <xs:attribute name="technical" type="xs:string" use="optional"/>
                     <xs:attribute name="warning" type="xs:boolean" use="optional"/>
