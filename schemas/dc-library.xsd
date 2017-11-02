@@ -107,18 +107,6 @@
             <xs:attribute name="name" type="xs:string" use="required"/>
         </xs:complexType>
     </xs:element>
-    <xs:complexType name="sectionContainer">
-        <xs:sequence>
-            <xs:element ref="prefix" minOccurs="0"/>
-            <xs:element ref="num" minOccurs="0"/>
-            <xs:element ref="heading"/>
-            <xs:choice maxOccurs="unbounded">
-                <xs:element name="container" type="sectionContainer"/>
-                <xs:element ref="para"/>
-                <xs:element ref="text"/>
-            </xs:choice>
-        </xs:sequence>
-    </xs:complexType>
     <xs:element name="container">
         <xs:complexType>
             <xs:sequence>
@@ -334,19 +322,6 @@
             <xs:attributeGroup ref="codify:allAttributes"/>
         </xs:complexType>
     </xs:element>
-    <xs:group name="sectionContents">
-        <xs:sequence>
-            <xs:element ref="heading" minOccurs="0"/>
-            <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element ref="toc" minOccurs="0"/>
-            <xs:element ref="include" minOccurs="0"/>
-            <xs:element name="container" type="sectionContainer" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element ref="annotations" minOccurs="0"/>
-            <xs:element ref="annotation" minOccurs="0" maxOccurs="unbounded"/>
-        </xs:sequence>
-    </xs:group>
     <xs:element name="text">
         <xs:complexType>
             <xs:complexContent mixed="true">
@@ -369,6 +344,38 @@
             <xs:attributeGroup ref="codify:allAttributes"/>
         </xs:complexType>
     </xs:element>
+    <!-- groups -->
+    <xs:group name="sectionContents">
+        <xs:sequence>
+            <xs:element ref="heading" minOccurs="0"/>
+            <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="toc" minOccurs="0"/>
+            <xs:element ref="include" minOccurs="0"/>
+            <xs:element name="container" type="sectionContainer" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="annotations" minOccurs="0"/>
+            <xs:element ref="annotation" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:group>
+    <!-- types -->
+    <xs:simpleType name="emptyType">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="sectionContainer">
+        <xs:sequence>
+            <xs:element ref="prefix" minOccurs="0"/>
+            <xs:element ref="num" minOccurs="0"/>
+            <xs:element ref="heading"/>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="container" type="sectionContainer"/>
+                <xs:element ref="para"/>
+                <xs:element ref="text"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
     <xs:complexType name="tocContainer">
         <xs:sequence>
             <xs:element ref="prefix" minOccurs="0"/>
@@ -386,6 +393,7 @@
             <xs:element ref="heading"/>
         </xs:sequence>
     </xs:complexType>
+    <!-- attribute groups -->
     <xs:attributeGroup name="targetAttributes">
         <xs:attribute name="doc" type="xs:string" use="optional"/>
         <xs:attribute name="path" type="xs:string" use="optional"/>
