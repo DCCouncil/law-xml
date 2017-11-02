@@ -21,7 +21,7 @@
                     <xs:attribute name="before" type="xs:string" use="optional"/>
                     <xs:attribute name="num-value" type="xs:string" use="optional"/>
                     <xs:attribute name="technical" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="xs:boolean" use="optional"/>
+                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:complexContent>
         </xs:complexType>
@@ -40,7 +40,7 @@
                     <xs:attributeGroup ref="lib:targetAttributes"/>
                     <xs:attributeGroup ref="historyAttributes"/>
                     <xs:attribute name="technical" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="xs:boolean" use="optional"/>
+                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -59,10 +59,15 @@
     <xs:complexType name="anyType">
         <xs:complexContent>
             <xs:extension base="xs:anyType">
-                <xs:attribute name="warning" type="xs:boolean" use="optional"/>
+                <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
+    <xs:simpleType name="falseOnlyType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="false" />
+        </xs:restriction>
+    </xs:simpleType>
     <xs:complexType name="insertType">
         <xs:sequence>
             <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -84,6 +89,7 @@
     <xs:attribute name="expire" type="xs:string"/>
     <xs:attribute name="instruction" type="xs:string"/>
     <xs:attribute name="path" type="xs:string"/>
+    <xs:attribute name="warning" type="falseOnlyType"/>
     <xs:attribute name="value" type="xs:string"/>
     <!-- attribute groups -->
     <xs:attributeGroup name="allAttributes">
@@ -93,6 +99,7 @@
         <xs:attribute ref="instruction" use="optional" />
         <xs:attribute ref="path" use="optional" />
         <xs:attribute ref="value" use="optional" />
+        <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
     </xs:attributeGroup>
     <xs:attributeGroup name="historyAttributes">
         <xs:attribute name="history" type="xs:boolean" use="optional"/>
