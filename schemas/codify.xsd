@@ -4,7 +4,16 @@
     xmlns:lib="https://code.dccouncil.us/schemas/dc-library"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/codify">
     <xs:import namespace="https://code.dccouncil.us/schemas/dc-library" schemaLocation="dc-library.xsd"/>
-    <xs:element name="annotation" type="anyType"/>
+    <xs:element name="annotation">
+        <xs:complexType>
+            <xs:complexContent mixed="true">
+                <xs:extension base="lib:annotationType">
+                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
     <xs:element name="applicability" type="anyType"/>
     <xs:element name="expire" type="anyType"/>
     <xs:element name="create-sub-container" type="anyType"/>
