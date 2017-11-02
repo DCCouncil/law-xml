@@ -34,7 +34,19 @@
     <xs:element name="redesignate-para" type="anyType"/>
     <xs:element name="recodify-section" type="anyType"/>
     <xs:element name="remove" type="anyType"/>
-    <xs:element name="repeal" type="anyType"/>
+    <xs:element name="repeal">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="lib:emptyType">
+                    <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attributeGroup ref="targetAttributes"/>
+                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attribute name="technical" type="xs:string" use="optional"/>
+                    <xs:attribute name="warning" type="xs:boolean" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
     <xs:element name="replace" type="anyType"/>
     <xs:element name="street-designation-anno" type="anyType"/>
     <xs:element name="temporary" type="anyType"/>
