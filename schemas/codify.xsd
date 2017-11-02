@@ -17,10 +17,9 @@
                 <xs:extension base="insertType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
                     <xs:attributeGroup ref="targetAttributes"/>
+                    <xs:attributeGroup ref="historyAttributes"/>
                     <xs:attribute name="after" type="xs:string" use="optional"/>
                     <xs:attribute name="before" type="xs:string" use="optional"/>
-                    <xs:attribute name="history" type="xs:boolean" use="optional"/>
-                    <xs:attribute name="history-prefix" type="xs:string" use="optional"/>
                     <xs:attribute name="num-value" type="xs:string" use="optional"/>
                     <xs:attribute name="technical" type="xs:string" use="optional"/>
                     <xs:attribute name="warning" type="xs:boolean" use="optional"/>
@@ -84,6 +83,10 @@
         <xs:attribute ref="instruction" use="optional" />
         <xs:attribute ref="path" use="optional" />
         <xs:attribute ref="value" use="optional" />
+    </xs:attributeGroup>
+    <xs:attributeGroup name="historyAttributes">
+        <xs:attribute name="history" type="xs:boolean" use="optional"/>
+        <xs:attribute name="history-prefix" type="xs:string" use="optional"/>
     </xs:attributeGroup>
     <xs:attributeGroup name="targetAttributes">
         <xs:attribute ref="doc" use="optional" />
