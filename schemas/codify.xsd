@@ -123,7 +123,17 @@
         </xs:complexType>
     </xs:element>
     <xs:element name="redesignate" type="anyType"/>
-    <xs:element name="redesignate-para" type="anyType"/>
+    <xs:element name="redesignate-para">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="lib:emptyType">
+                    <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attribute name="num-value" type="xs:string" use="optional"/>
+                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
     <xs:element name="recodify-section" type="anyType"/>
     <xs:element name="remove" type="anyType"/>
     <xs:element name="repeal">
