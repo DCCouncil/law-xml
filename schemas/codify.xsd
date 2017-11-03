@@ -14,7 +14,19 @@
             </xs:complexContent>
         </xs:complexType>
     </xs:element>
-    <xs:element name="applicability" type="anyType"/>
+    <xs:element name="applicability">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="lib:emptyType">
+                    <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attribute name="action" type="xs:string" use="optional"/>
+                    <xs:attribute name="date" type="xs:string" use="optional"/>
+                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
     <xs:element name="expire" type="anyType"/>
     <xs:element name="create-sub-container" type="anyType"/>
     <xs:element name="find-replace" type="anyType"/>
