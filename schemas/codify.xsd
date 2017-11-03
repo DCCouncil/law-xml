@@ -38,7 +38,20 @@
             </xs:simpleContent>
         </xs:complexType>
     </xs:element>
-    <xs:element name="create-sub-container" type="anyType"/>
+    <xs:element name="create-sub-container">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="lib:emptyType">
+                    <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attribute name="heading-value" type="xs:string" use="optional"/>
+                    <xs:attribute name="num-value" type="xs:string" use="optional"/>
+                    <xs:attribute name="prefix-value" type="xs:string" use="optional"/>
+                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
     <xs:element name="find-replace" type="anyType"/>
     <xs:element name="funded-anno" type="anyType"/>
     <xs:element name="ignore" type="anyType"/>
