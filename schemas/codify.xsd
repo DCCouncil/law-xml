@@ -64,7 +64,17 @@
             </xs:simpleContent>
         </xs:complexType>
     </xs:element>
-    <xs:element name="ignore" type="anyType"/>
+    <xs:element name="ignore">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="lib:emptyType">
+                    <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attribute name="technical" type="xs:string" use="optional"/>
+                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
     <xs:element name="insert">
         <xs:complexType>
             <xs:complexContent>
