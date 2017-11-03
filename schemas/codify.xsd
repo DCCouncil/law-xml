@@ -104,7 +104,24 @@
             </xs:simpleContent>
         </xs:complexType>
     </xs:element>
-    <xs:element name="organic" type="anyType"/>
+    <xs:element name="organic">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="insertType">
+                    <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attribute name="after" type="xs:string" use="optional"/>
+                    <xs:attribute name="before" type="xs:string" use="optional"/>
+                    <xs:attribute name="heading-value" type="xs:string" use="optional"/>
+                    <xs:attribute name="num-value" type="xs:string" use="optional"/>
+                    <xs:attribute name="prefix-value" type="xs:string" use="optional"/>
+                    <xs:attribute name="tag" type="xs:string" use="optional"/>
+                    <xs:attribute name="technical" type="xs:string" use="optional"/>
+                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
     <xs:element name="redesignate" type="anyType"/>
     <xs:element name="redesignate-para" type="anyType"/>
     <xs:element name="recodify-section" type="anyType"/>
