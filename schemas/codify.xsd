@@ -163,7 +163,18 @@
     </xs:element>
     <xs:element name="replace" type="anyType"/>
     <xs:element name="street-designation-anno" type="anyType"/>
-    <xs:element name="temporary" type="anyType"/>
+    <xs:element name="temporary">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="lib:emptyType">
+                    <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attribute name="action" type="xs:string" use="optional"/>
+                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
     <xs:element name="any">
         <xs:complexType>
             <xs:sequence maxOccurs="unbounded">
