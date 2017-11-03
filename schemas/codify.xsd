@@ -27,7 +27,17 @@
             </xs:simpleContent>
         </xs:complexType>
     </xs:element>
-    <xs:element name="expire" type="anyType"/>
+    <xs:element name="expire">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="lib:emptyType">
+                    <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attribute name="date" type="xs:date" use="optional"/>
+                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
     <xs:element name="create-sub-container" type="anyType"/>
     <xs:element name="find-replace" type="anyType"/>
     <xs:element name="funded-anno" type="anyType"/>
