@@ -134,7 +134,20 @@
             </xs:simpleContent>
         </xs:complexType>
     </xs:element>
-    <xs:element name="recodify-section" type="anyType"/>
+    <xs:element name="recodify-section">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="lib:emptyType">
+                    <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attribute name="after" type="xs:string" use="optional"/>
+                    <xs:attribute name="before" type="xs:string" use="optional"/>
+                    <xs:attribute name="num-value" type="xs:string" use="optional"/>
+                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
     <xs:element name="remove" type="anyType"/>
     <xs:element name="repeal">
         <xs:complexType>
