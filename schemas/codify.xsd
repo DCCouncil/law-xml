@@ -8,8 +8,7 @@
         <xs:complexType>
             <xs:complexContent mixed="true">
                 <xs:extension base="lib:annotationType">
-                    <xs:attributeGroup ref="historyAttributes"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                 </xs:extension>
             </xs:complexContent>
         </xs:complexType>
@@ -19,10 +18,9 @@
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
-                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="action" type="xs:string" use="optional"/>
                     <xs:attribute name="date" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -32,8 +30,8 @@
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="date" type="xs:date" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -43,11 +41,10 @@
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
-                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="heading-value" type="xs:string" use="optional"/>
                     <xs:attribute name="num-value" type="xs:string" use="optional"/>
                     <xs:attribute name="prefix-value" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -58,8 +55,7 @@
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
-                    <xs:attributeGroup ref="historyAttributes"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -69,8 +65,8 @@
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="technical" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -80,12 +76,11 @@
             <xs:complexContent>
                 <xs:extension base="insertType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
-                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="after" type="xs:string" use="optional"/>
                     <xs:attribute name="before" type="xs:string" use="optional"/>
                     <xs:attribute name="num-value" type="xs:string" use="optional"/>
                     <xs:attribute name="technical" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:complexContent>
         </xs:complexType>
@@ -96,10 +91,9 @@
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
-                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="action" type="xs:string" use="optional"/>
                     <xs:attribute name="applicability-path" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -109,7 +103,7 @@
             <xs:complexContent>
                 <xs:extension base="insertType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
-                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="after" type="xs:string" use="optional"/>
                     <xs:attribute name="before" type="xs:string" use="optional"/>
                     <xs:attribute name="heading-value" type="xs:string" use="optional"/>
@@ -117,7 +111,6 @@
                     <xs:attribute name="prefix-value" type="xs:string" use="optional"/>
                     <xs:attribute name="tag" type="xs:string" use="optional"/>
                     <xs:attribute name="technical" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:complexContent>
         </xs:complexType>
@@ -128,8 +121,8 @@
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="num-value" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -139,11 +132,10 @@
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
-                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="after" type="xs:string" use="optional"/>
                     <xs:attribute name="before" type="xs:string" use="optional"/>
                     <xs:attribute name="num-value" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -154,9 +146,8 @@
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
-                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="technical" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -166,8 +157,8 @@
         <xs:complexType>
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="action" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -177,9 +168,8 @@
             <xs:simpleContent>
                 <xs:extension base="lib:emptyType">
                     <xs:attributeGroup ref="lib:targetAttributes"/>
-                    <xs:attributeGroup ref="historyAttributes"/>
+                    <xs:attributeGroup ref="sharedAttributes"/>
                     <xs:attribute name="action" type="xs:string" use="optional"/>
-                    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
@@ -237,9 +227,10 @@
         <xs:attribute ref="value" use="optional" />
         <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
     </xs:attributeGroup>
-    <xs:attributeGroup name="historyAttributes">
+    <xs:attributeGroup name="sharedAttributes">
         <xs:attribute name="history" type="falseOnlyType" use="optional"/>
         <xs:attribute name="history-prefix" type="xs:string" use="optional"/>
+        <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
     </xs:attributeGroup>
     <xs:attributeGroup name="targetAttributes">
         <xs:attribute ref="doc" use="optional" />
