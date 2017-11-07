@@ -358,11 +358,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:simpleType name="emptyType">
-    <xs:restriction base="xs:string">
-      <xs:maxLength value="0"/>
-    </xs:restriction>
-  </xs:simpleType>
   <xs:complexType name="sectionContainer">
     <xs:sequence>
       <xs:element ref="prefix" minOccurs="0"/>

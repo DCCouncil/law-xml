@@ -15,60 +15,40 @@
   </xs:element>
   <xs:element name="applicability">
     <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="lib:emptyType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
-          <xs:attributeGroup ref="sharedAttributes"/>
-          <xs:attribute name="action" type="xs:string" use="optional"/>
-          <xs:attribute name="date" type="xs:string" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="action" type="xs:string" use="optional"/>
+      <xs:attribute name="date" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="expire">
     <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="lib:emptyType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
-          <xs:attributeGroup ref="sharedAttributes"/>
-          <xs:attribute name="date" type="xs:date" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="date" type="xs:date" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="create-sub-container">
     <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="lib:emptyType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
-          <xs:attributeGroup ref="sharedAttributes"/>
-          <xs:attribute name="heading-value" type="xs:string" use="optional"/>
-          <xs:attribute name="num-value" type="xs:string" use="optional"/>
-          <xs:attribute name="prefix-value" type="xs:string" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="heading-value" type="xs:string" use="optional"/>
+      <xs:attribute name="num-value" type="xs:string" use="optional"/>
+      <xs:attribute name="prefix-value" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="find-replace" type="anyType"/>
   <xs:element name="funded-anno">
     <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="lib:emptyType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
-          <xs:attributeGroup ref="sharedAttributes"/>
-        </xs:extension>
-      </xs:simpleContent>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="ignore">
     <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="lib:emptyType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
-          <xs:attributeGroup ref="sharedAttributes"/>
-          <xs:attribute name="technical" type="xs:string" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="technical" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="insert">
@@ -88,14 +68,10 @@
   <xs:element name="insert-code-container" type="anyType"/>
   <xs:element name="not-funded-anno">
     <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="lib:emptyType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
-          <xs:attributeGroup ref="sharedAttributes"/>
-          <xs:attribute name="action" type="xs:string" use="optional"/>
-          <xs:attribute name="applicability-path" type="xs:string" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="action" type="xs:string" use="optional"/>
+      <xs:attribute name="applicability-path" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="organic">
@@ -118,60 +94,40 @@
   <xs:element name="redesignate" type="anyType"/>
   <xs:element name="redesignate-para">
     <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="lib:emptyType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
-          <xs:attributeGroup ref="sharedAttributes"/>
-          <xs:attribute name="num-value" type="xs:string" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="num-value" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="recodify-section">
     <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="lib:emptyType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
-          <xs:attributeGroup ref="sharedAttributes"/>
-          <xs:attribute name="after" type="xs:string" use="optional"/>
-          <xs:attribute name="before" type="xs:string" use="optional"/>
-          <xs:attribute name="num-value" type="xs:string" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="after" type="xs:string" use="optional"/>
+      <xs:attribute name="before" type="xs:string" use="optional"/>
+      <xs:attribute name="num-value" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="remove" type="anyType"/>
   <xs:element name="repeal">
     <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="lib:emptyType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
-          <xs:attributeGroup ref="sharedAttributes"/>
-          <xs:attribute name="technical" type="xs:string" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="technical" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="replace" type="anyType"/>
   <xs:element name="street-designation-anno">
     <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="lib:emptyType">
-          <xs:attributeGroup ref="sharedAttributes"/>
-          <xs:attribute name="action" type="xs:string" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="action" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="temporary">
     <xs:complexType>
-      <xs:simpleContent>
-        <xs:extension base="lib:emptyType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
-          <xs:attributeGroup ref="sharedAttributes"/>
-          <xs:attribute name="action" type="xs:string" use="optional"/>
-        </xs:extension>
-      </xs:simpleContent>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="action" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="any">
