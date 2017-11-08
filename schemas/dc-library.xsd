@@ -236,7 +236,11 @@
   <xs:element name="para">
     <xs:complexType>
       <xs:sequence>
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="codify:insert"/>
+          <xs:element ref="codify:organic"/>
+          <xs:element ref="codify:repeal"/>
+        </xs:choice>
         <xs:element ref="prefix" minOccurs="0"/>
         <xs:element ref="num" minOccurs="1"/>
         <xs:element ref="heading" minOccurs="0"/>
