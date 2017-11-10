@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<xs:schema
-  xmlns="https://code.dccouncil.us/schemas/codify"
-  xmlns:lib="https://code.dccouncil.us/schemas/dc-library"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/codify">
+<?xml version='1.0' encoding='utf-8'?>
+<xs:schema xmlns="https://code.dccouncil.us/schemas/codify" xmlns:lib="https://code.dccouncil.us/schemas/dc-library" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/codify">
   <xs:import namespace="https://code.dccouncil.us/schemas/dc-library" schemaLocation="dc-library.xsd"/>
   <xs:element name="annotation">
     <xs:complexType>
@@ -147,7 +144,7 @@
   </xs:complexType>
   <xs:simpleType name="falseOnlyType">
     <xs:restriction base="xs:string">
-      <xs:pattern value="false" />
+      <xs:pattern value="false"/>
     </xs:restriction>
   </xs:simpleType>
   <xs:complexType name="insertType">
@@ -175,14 +172,14 @@
   <xs:attribute name="value" type="xs:string"/>
   <!-- attribute groups -->
   <xs:attributeGroup name="allAttributes">
-    <xs:attribute ref="applicability" use="optional" />
-    <xs:attribute ref="doc" use="optional" />
+    <xs:attribute ref="applicability" use="optional"/>
+    <xs:attribute ref="doc" use="optional"/>
     <xs:attribute ref="expire" use="optional"/>
     <xs:attribute name="history" type="falseOnlyType" use="optional"/>
     <xs:attribute name="history-prefix" type="xs:string" use="optional"/>
-    <xs:attribute ref="instruction" use="optional" />
-    <xs:attribute ref="path" use="optional" />
-    <xs:attribute ref="value" use="optional" />
+    <xs:attribute ref="instruction" use="optional"/>
+    <xs:attribute ref="path" use="optional"/>
+    <xs:attribute ref="value" use="optional"/>
     <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="sharedAttributes">
@@ -191,7 +188,7 @@
     <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="targetAttributes">
-    <xs:attribute ref="doc" use="optional" />
-    <xs:attribute ref="path" use="optional" />
+    <xs:attribute ref="doc" use="optional"/>
+    <xs:attribute ref="path" use="optional"/>
   </xs:attributeGroup>
 </xs:schema>
