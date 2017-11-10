@@ -34,7 +34,7 @@
       <xs:attribute name="prefix-value" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="find-replace" type="anyType"/>
+  <xs:element name="find-replace" type="findReplaceType"/>
   <xs:element name="funded-anno">
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
@@ -147,6 +147,28 @@
       <xs:pattern value="false"/>
     </xs:restriction>
   </xs:simpleType>
+  <xs:complexType name="findReplaceType">
+    <xs:sequence minOccurs="0">
+      <xs:element ref="lib:find"/>
+      <xs:element ref="lib:replace"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="lib:targetAttributes"/>
+    <xs:attributeGroup ref="findReplaceAttributes"/>
+    <xs:attributeGroup ref="sharedAttributes"/>
+    <xs:attribute name="count" type="xs:integer" use="optional"/>
+    <xs:attribute name="position" use="optional">
+      <xs:simpleType>
+        <xs:union memberTypes="xs:positiveInteger firstLastType"/>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="technical" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:simpleType name="firstLastType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="first"/>
+      <xs:enumeration value="last"/>
+    </xs:restriction>
+  </xs:simpleType>
   <xs:complexType name="insertType">
     <xs:sequence>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -181,6 +203,10 @@
     <xs:attribute ref="path" use="optional"/>
     <xs:attribute ref="value" use="optional"/>
     <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="findReplaceAttributes">
+    <xs:attribute name="find" type="xs:string" use="optional"/>
+    <xs:attribute name="replace" type="xs:string" use="optional"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="sharedAttributes">
     <xs:attribute name="history" type="falseOnlyType" use="optional"/>
