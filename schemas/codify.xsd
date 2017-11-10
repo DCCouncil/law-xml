@@ -138,7 +138,7 @@
   <xs:complexType name="anyType">
     <xs:complexContent>
       <xs:extension base="xs:anyType">
-        <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+        <xs:attributeGroup ref="sharedAttributes"/>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
