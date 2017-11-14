@@ -173,6 +173,15 @@
       <xs:attributeGroup ref="codify:allAttributes"/>
     </xs:complexType>
   </xs:element>
+  <xs:element name="effective">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="date-or-empty">
+          <xs:attribute name="projected" type="xs:boolean" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="page">
     <xs:complexType>
       <xs:attribute name="citation" type="xs:string" use="required"/>
@@ -217,7 +226,7 @@
   <xs:element name="meta">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="effective" type="xs:string" minOccurs="0"/>
+        <xs:element ref="effective" minOccurs="0"/>
         <xs:element name="temporary" type="xs:string" minOccurs="0"/>
         <xs:element name="recency" minOccurs="0">
           <xs:complexType>
@@ -271,7 +280,6 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-
   <xs:element name="num">
     <xs:complexType>
       <xs:simpleContent>
@@ -365,6 +373,14 @@
       <xs:attributeGroup ref="codify:allAttributes"/>
     </xs:complexType>
   </xs:element>
+  <xs:simpleType name="date-or-empty">
+    <xs:union memberTypes="xs:date empty-string"/>
+  </xs:simpleType>
+  <xs:simpleType name="empty-string">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value=""/>
+    </xs:restriction>
+  </xs:simpleType>
   <xs:complexType name="tocContainer">
     <xs:sequence>
       <xs:element ref="prefix" minOccurs="0"/>
