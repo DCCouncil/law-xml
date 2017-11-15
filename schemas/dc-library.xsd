@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<xs:schema xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/dc-library">
+<xs:schema
+  xmlns="https://code.dccouncil.us/schemas/dc-library"
+  xmlns:codified="https://code.dccouncil.us/schemas/codified"
+  xmlns:codify="https://code.dccouncil.us/schemas/codify"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/dc-library">
   <xs:import namespace="https://code.dccouncil.us/schemas/codified" schemaLocation="codified.xsd"/>
   <xs:import namespace="https://code.dccouncil.us/schemas/codify" schemaLocation="codify.xsd"/>
   <xs:import namespace="http://www.w3.org/2001/XInclude" schemaLocation="XInclude.xsd"/>
@@ -12,49 +17,7 @@
       </xs:complexContent>
     </xs:complexType>
   </xs:element>
-  <xs:element name="annotation">
-    <xs:complexType>
-      <xs:complexContent mixed="true">
-        <xs:extension base="xs:anyType">
-          <xs:attributeGroup ref="targetAttributes"/>
-          <xs:attribute name="type" use="required">
-            <xs:simpleType>
-              <xs:restriction base="xs:string">
-                <xs:enumeration value="History"/>
-                <xs:enumeration value="Prior Codifications"/>
-                <xs:enumeration value="Section References"/>
-                <xs:enumeration value="Effect of Amendments"/>
-                <xs:enumeration value="Cross References"/>
-                <xs:enumeration value="Expiration of Law"/>
-                <xs:enumeration value="Applicability"/>
-                <xs:enumeration value="Emergency Legislation"/>
-                <xs:enumeration value="Temporary Legislation"/>
-                <xs:enumeration value="Legislative History"/>
-                <xs:enumeration value="Short Title"/>
-                <xs:enumeration value="Transfer of Functions"/>
-                <xs:enumeration value="References in Text"/>
-                <xs:enumeration value="Effective Dates"/>
-                <xs:enumeration value="Editor's Notes"/>
-                <xs:enumeration value="Repeal of Law"/>
-                <xs:enumeration value="Mayor's Statement"/>
-                <xs:enumeration value="Mayor's Orders"/>
-                <xs:enumeration value="Delegation of Authority"/>
-                <xs:enumeration value="New Implementing Regulations"/>
-                <xs:enumeration value="Uniform Commercial Code Comment"/>
-                <xs:enumeration value="Change in Government"/>
-                <xs:enumeration value="Construction of Law"/>
-                <xs:enumeration value="Severability of Law"/>
-                <xs:enumeration value="Congressional Disapproval of Acts of the Council"/>
-                <xs:enumeration value="Resolutions"/>
-                <xs:enumeration value="Omission of Text"/>
-                <xs:enumeration value="Rules to implement law"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-        </xs:extension>
-      </xs:complexContent>
-    </xs:complexType>
-  </xs:element>
+  <xs:element name="annotation" type="annotationType"/>
   <xs:element name="annotations">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -102,18 +65,6 @@
       <xs:attribute name="name" type="xs:string" use="required"/>
     </xs:complexType>
   </xs:element>
-  <xs:complexType name="sectionContainer">
-    <xs:sequence>
-      <xs:element ref="prefix" minOccurs="0"/>
-      <xs:element ref="num" minOccurs="0"/>
-      <xs:element ref="heading"/>
-      <xs:choice maxOccurs="unbounded">
-        <xs:element name="container" type="sectionContainer"/>
-        <xs:element ref="para"/>
-          <xs:element ref="text"/>
-      </xs:choice>
-    </xs:sequence>
-  </xs:complexType>
   <xs:element name="container">
     <xs:complexType>
       <xs:sequence>
@@ -171,6 +122,15 @@
       <xs:attribute name="flag" type="xs:boolean" use="optional"/>
       <xs:attribute name="url" type="xs:string" use="optional"/>
       <xs:attributeGroup ref="codify:allAttributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="find">
+    <xs:complexType>
+      <xs:complexContent mixed="true">
+        <xs:extension base="xs:anyType">
+          <xs:attributeGroup ref="targetAttributes"/>
+        </xs:extension>
+      </xs:complexContent>
     </xs:complexType>
   </xs:element>
   <xs:element name="page">
@@ -271,7 +231,6 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-
   <xs:element name="num">
     <xs:complexType>
       <xs:simpleContent>
@@ -286,7 +245,11 @@
   <xs:element name="para">
     <xs:complexType>
       <xs:sequence>
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="codify:insert"/>
+          <xs:element ref="codify:organic"/>
+          <xs:element ref="codify:repeal"/>
+        </xs:choice>
         <xs:element ref="prefix" minOccurs="0"/>
         <xs:element ref="num" minOccurs="1"/>
         <xs:element ref="heading" minOccurs="0"/>
@@ -303,10 +266,19 @@
   </xs:element>
   <xs:element name="prefix" type="xs:string"/>
   <xs:element name="reason" type="xs:string"/>
+  <xs:element name="replace">
+    <xs:complexType>
+      <xs:complexContent mixed="true">
+        <xs:extension base="xs:anyType">
+          <xs:attributeGroup ref="targetAttributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="subsection">
     <xs:complexType>
       <xs:sequence>
-            <xs:element ref="num"/>
+        <xs:element ref="num"/>
         <xs:element ref="heading" minOccurs="0"/>
         <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
@@ -330,19 +302,6 @@
       <xs:attributeGroup ref="codify:allAttributes"/>
     </xs:complexType>
   </xs:element>
-  <xs:group name="sectionContents">
-    <xs:sequence>
-      <xs:element ref="heading" minOccurs="0"/>
-      <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element ref="toc" minOccurs="0"/>
-      <xs:element ref="include" minOccurs="0"/>
-      <xs:element name="container" type="sectionContainer" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
-      <xs:element ref="annotations" minOccurs="0"/>
-      <xs:element ref="annotation" minOccurs="0" maxOccurs="unbounded"/>
-    </xs:sequence>
-  </xs:group>
   <xs:element name="text">
     <xs:complexType>
       <xs:complexContent mixed="true">
@@ -365,6 +324,74 @@
       <xs:attributeGroup ref="codify:allAttributes"/>
     </xs:complexType>
   </xs:element>
+  <!-- groups -->
+  <xs:group name="sectionContents">
+    <xs:sequence>
+      <xs:element ref="heading" minOccurs="0"/>
+      <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="toc" minOccurs="0"/>
+      <xs:element ref="include" minOccurs="0"/>
+      <xs:element name="container" type="sectionContainer" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element ref="annotations" minOccurs="0"/>
+      <xs:element ref="annotation" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:group>
+  <!-- types -->
+  <xs:complexType name="annotationType">
+    <xs:complexContent mixed="true">
+      <xs:extension base="xs:anyType">
+        <xs:attributeGroup ref="targetAttributes"/>
+        <xs:attribute name="type" use="required">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="History"/>
+              <xs:enumeration value="Prior Codifications"/>
+              <xs:enumeration value="Section References"/>
+              <xs:enumeration value="Effect of Amendments"/>
+              <xs:enumeration value="Cross References"/>
+              <xs:enumeration value="Expiration of Law"/>
+              <xs:enumeration value="Applicability"/>
+              <xs:enumeration value="Emergency Legislation"/>
+              <xs:enumeration value="Temporary Legislation"/>
+              <xs:enumeration value="Legislative History"/>
+              <xs:enumeration value="Short Title"/>
+              <xs:enumeration value="Transfer of Functions"/>
+              <xs:enumeration value="References in Text"/>
+              <xs:enumeration value="Effective Dates"/>
+              <xs:enumeration value="Editor's Notes"/>
+              <xs:enumeration value="Repeal of Law"/>
+              <xs:enumeration value="Mayor's Statement"/>
+              <xs:enumeration value="Mayor's Orders"/>
+              <xs:enumeration value="Delegation of Authority"/>
+              <xs:enumeration value="New Implementing Regulations"/>
+              <xs:enumeration value="Uniform Commercial Code Comment"/>
+              <xs:enumeration value="Change in Government"/>
+              <xs:enumeration value="Construction of Law"/>
+              <xs:enumeration value="Severability of Law"/>
+              <xs:enumeration value="Congressional Disapproval of Acts of the Council"/>
+              <xs:enumeration value="Resolutions"/>
+              <xs:enumeration value="Omission of Text"/>
+              <xs:enumeration value="Rules to implement law"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="sectionContainer">
+    <xs:sequence>
+      <xs:element ref="prefix" minOccurs="0"/>
+      <xs:element ref="num" minOccurs="0"/>
+      <xs:element ref="heading"/>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="container" type="sectionContainer"/>
+        <xs:element ref="para"/>
+        <xs:element ref="text"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
   <xs:complexType name="tocContainer">
     <xs:sequence>
       <xs:element ref="prefix" minOccurs="0"/>
@@ -382,6 +409,7 @@
       <xs:element ref="heading"/>
     </xs:sequence>
   </xs:complexType>
+  <!-- attribute groups -->
   <xs:attributeGroup name="targetAttributes">
     <xs:attribute name="doc" type="xs:string" use="optional"/>
     <xs:attribute name="path" type="xs:string" use="optional"/>

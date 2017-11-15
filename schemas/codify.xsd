@@ -1,27 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns="https://code.dccouncil.us/schemas/codify"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           elementFormDefault="qualified"
-           targetNamespace="https://code.dccouncil.us/schemas/codify">
-  <xs:element name="annotation" type="xs:anyType"/>
-  <xs:element name="applicability" type="xs:anyType"/>
-  <xs:element name="expire" type="xs:anyType"/>
-  <xs:element name="create-sub-container" type="xs:anyType"/>
-  <xs:element name="find-replace" type="xs:anyType"/>
-  <xs:element name="funded-anno" type="xs:anyType"/>
-  <xs:element name="ignore" type="xs:anyType"/>
-  <xs:element name="insert" type="xs:anyType"/>
-  <xs:element name="insert-code-container" type="xs:anyType"/>
-  <xs:element name="not-funded-anno" type="xs:anyType"/>
-  <xs:element name="organic" type="xs:anyType"/>
-  <xs:element name="redesignate" type="xs:anyType"/>
-  <xs:element name="redesignate-para" type="xs:anyType"/>
-  <xs:element name="recodify-section" type="xs:anyType"/>
-  <xs:element name="remove" type="xs:anyType"/>
-  <xs:element name="repeal" type="xs:anyType"/>
-  <xs:element name="replace" type="xs:anyType"/>
-  <xs:element name="street-designation-anno" type="xs:anyType"/>
-  <xs:element name="temporary" type="xs:anyType"/>
+<?xml version='1.0' encoding='utf-8'?>
+<xs:schema xmlns="https://code.dccouncil.us/schemas/codify" xmlns:lib="https://code.dccouncil.us/schemas/dc-library" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/codify">
+  <xs:import namespace="https://code.dccouncil.us/schemas/dc-library" schemaLocation="dc-library.xsd"/>
+  <xs:element name="annotation">
+    <xs:complexType>
+      <xs:complexContent mixed="true">
+        <xs:extension base="lib:annotationType">
+          <xs:attributeGroup ref="sharedAttributes"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="applicability">
+    <xs:complexType>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="action" type="xs:string" use="optional"/>
+      <xs:attribute name="date" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="expire">
+    <xs:complexType>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="date" type="xs:date" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="create-sub-container">
+    <xs:complexType>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="heading-value" type="xs:string" use="optional"/>
+      <xs:attribute name="num-value" type="xs:string" use="optional"/>
+      <xs:attribute name="prefix-value" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="find-replace" type="findReplaceType"/>
+  <xs:element name="funded-anno">
+    <xs:complexType>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ignore">
+    <xs:complexType>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="technical" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="insert">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="insertType">
+          <xs:attributeGroup ref="lib:targetAttributes"/>
+          <xs:attributeGroup ref="sharedAttributes"/>
+          <xs:attribute name="after" type="xs:string" use="optional"/>
+          <xs:attribute name="before" type="xs:string" use="optional"/>
+          <xs:attribute name="num-value" type="xs:string" use="optional"/>
+          <xs:attribute name="technical" type="xs:string" use="optional"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="insert-code-container" type="anyType"/>
+  <xs:element name="not-funded-anno">
+    <xs:complexType>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="action" type="xs:string" use="optional"/>
+      <xs:attribute name="applicability-path" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="organic">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="insertType">
+          <xs:attributeGroup ref="lib:targetAttributes"/>
+          <xs:attributeGroup ref="sharedAttributes"/>
+          <xs:attribute name="after" type="xs:string" use="optional"/>
+          <xs:attribute name="before" type="xs:string" use="optional"/>
+          <xs:attribute name="heading-value" type="xs:string" use="optional"/>
+          <xs:attribute name="num-value" type="xs:string" use="optional"/>
+          <xs:attribute name="prefix-value" type="xs:string" use="optional"/>
+          <xs:attribute name="tag" type="xs:string" use="optional"/>
+          <xs:attribute name="technical" type="xs:string" use="optional"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="redesignate" type="anyType"/>
+  <xs:element name="redesignate-para">
+    <xs:complexType>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="num-value" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recodify-section">
+    <xs:complexType>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="after" type="xs:string" use="optional"/>
+      <xs:attribute name="before" type="xs:string" use="optional"/>
+      <xs:attribute name="num-value" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="remove" type="anyType"/>
+  <xs:element name="repeal">
+    <xs:complexType>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="technical" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="replace" type="anyType"/>
+  <xs:element name="street-designation-anno">
+    <xs:complexType>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="action" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="temporary">
+    <xs:complexType>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="action" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="any">
     <xs:complexType>
       <xs:sequence maxOccurs="unbounded">
@@ -29,22 +134,87 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <!-- types -->
+  <xs:complexType name="anyType">
+    <xs:complexContent>
+      <xs:extension base="xs:anyType">
+        <xs:attributeGroup ref="sharedAttributes"/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="falseOnlyType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="false"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="findReplaceType">
+    <xs:sequence minOccurs="0">
+      <xs:element ref="lib:find"/>
+      <xs:element ref="lib:replace"/>
+    </xs:sequence>
+    <xs:attributeGroup ref="lib:targetAttributes"/>
+    <xs:attributeGroup ref="findReplaceAttributes"/>
+    <xs:attributeGroup ref="sharedAttributes"/>
+    <xs:attribute name="count" type="xs:integer" use="optional"/>
+    <xs:attribute name="position" use="optional">
+      <xs:simpleType>
+        <xs:union memberTypes="xs:positiveInteger firstLastType"/>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="technical" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:simpleType name="firstLastType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="first"/>
+      <xs:enumeration value="last"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="insertType">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="create-sub-container"/>
+        <xs:element ref="insert"/>
+        <xs:element ref="recodify-section"/>
+        <xs:element ref="lib:container"/>
+        <xs:element ref="lib:section"/>
+        <xs:element ref="lib:para"/>
+        <xs:element ref="lib:text"/>
+        <xs:element ref="lib:subsection"/>
+        <xs:element ref="lib:toc"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <!-- attributes -->
   <xs:attribute name="applicability" type="xs:string"/>
   <xs:attribute name="doc" type="xs:string"/>
   <xs:attribute name="expire" type="xs:string"/>
   <xs:attribute name="instruction" type="xs:string"/>
   <xs:attribute name="path" type="xs:string"/>
+  <xs:attribute name="warning" type="falseOnlyType"/>
   <xs:attribute name="value" type="xs:string"/>
+  <!-- attribute groups -->
   <xs:attributeGroup name="allAttributes">
-    <xs:attribute ref="applicability" use="optional" />
-    <xs:attribute ref="doc" use="optional" />
+    <xs:attribute ref="applicability" use="optional"/>
+    <xs:attribute ref="doc" use="optional"/>
     <xs:attribute ref="expire" use="optional"/>
-    <xs:attribute ref="instruction" use="optional" />
-    <xs:attribute ref="path" use="optional" />
-    <xs:attribute ref="value" use="optional" />
+    <xs:attribute name="history" type="falseOnlyType" use="optional"/>
+    <xs:attribute name="history-prefix" type="xs:string" use="optional"/>
+    <xs:attribute ref="instruction" use="optional"/>
+    <xs:attribute ref="path" use="optional"/>
+    <xs:attribute ref="value" use="optional"/>
+    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="findReplaceAttributes">
+    <xs:attribute name="find" type="xs:string" use="optional"/>
+    <xs:attribute name="replace" type="xs:string" use="optional"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="sharedAttributes">
+    <xs:attribute name="history" type="falseOnlyType" use="optional"/>
+    <xs:attribute name="history-prefix" type="xs:string" use="optional"/>
+    <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="targetAttributes">
-    <xs:attribute ref="doc" use="optional" />
-    <xs:attribute ref="path" use="optional" />
+    <xs:attribute ref="doc" use="optional"/>
+    <xs:attribute ref="path" use="optional"/>
   </xs:attributeGroup>
 </xs:schema>
