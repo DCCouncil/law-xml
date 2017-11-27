@@ -37,6 +37,13 @@
       <xs:attribute name="prefix-value" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
+  <xs:element name="emergency">
+    <xs:complexType>
+      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="action" type="xs:string" use="optional"/>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="find-replace" type="findReplaceType"/>
   <xs:element name="funded-anno">
     <xs:complexType>
@@ -131,7 +138,6 @@
       <xs:attribute name="emergency" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="emergency" type="xs:anyType"/>
   <xs:element name="any">
     <xs:complexType>
       <xs:sequence maxOccurs="unbounded">
