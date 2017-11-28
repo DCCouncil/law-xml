@@ -89,9 +89,11 @@
       <xs:sequence>
         <xs:element ref="heading" maxOccurs="unbounded"/>
         <xs:element ref="text" minOccurs="0" maxOccurs="unbounded"/>
-        <xs:element ref="xi:include" minOccurs="0" maxOccurs="unbounded"/>
-        <xs:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
-        <xs:element ref="document" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="xi:include"/>
+          <xs:element ref="collection"/>
+          <xs:element ref="document"/>
+        </xs:choice>
         <xs:sequence minOccurs="0" maxOccurs="unbounded">
           <xs:element name="subheading" type="xs:string"/>
           <xs:element ref="xi:include" minOccurs="0" maxOccurs="unbounded"/>
