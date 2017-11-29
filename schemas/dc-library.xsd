@@ -229,7 +229,15 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="effective" minOccurs="0"/>
-        <xs:element name="temporary" type="xs:string" minOccurs="0"/>
+          <xs:element name="temporary" minOccurs="0">
+            <xs:complexType>
+              <xs:simpleContent>
+                <xs:extension base="xs:string">
+                  <xs:attribute name="emergency" type="xs:string" use="optional"/>
+                </xs:extension>
+              </xs:simpleContent>
+            </xs:complexType>
+          </xs:element>
         <xs:element name="recency" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
