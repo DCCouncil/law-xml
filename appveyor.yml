@@ -37,10 +37,14 @@ before_build:
   - git -C ..\dc-law-html fetch origin %appveyor_repo_branch% &&
     git -C ..\dc-law-html checkout %appveyor_repo_branch% ||
     git -C ..\dc-law-html checkout -b %appveyor_repo_branch%
-  # install open-law-us-dc
+  # install versioned resources
+  - ps: >-
+      $versions = (Get-Content -Raw -Path ..\dc-law-html\version.json | ConvertFrom-Json);
+      Set-AppveyorBuildVariable -Name olcore_version -Value "$($versions.('open-law-core'))";
+      Set-AppveyorBuildVariable -Name ol_us_dc_version -Value "$($versions.('open-law-us-dc'))";
   - "%PYTHON%\\python.exe -m pip install wheel"
-  - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-core#egg=olcore"
-  - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-us-dc#egg=ol_us_dc"
+  - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-core@%olcore_version%#egg=olcore"
+  - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-us-dc@%ol_us_dc_version%#egg=ol_us_dc"
   # print out the git commits for each repo
   - git -C ..\dc-law-xml-codified rev-parse HEAD
   - git -C ..\dc-law-html rev-parse HEAD
