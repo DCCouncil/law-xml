@@ -37,11 +37,15 @@ before_build:
   - git -C ..\dc-law-html fetch origin %appveyor_repo_branch% &&
     git -C ..\dc-law-html checkout %appveyor_repo_branch% ||
     git -C ..\dc-law-html checkout -b %appveyor_repo_branch%
+  # reset dc-law-html to the dc-62 pull request
+  - git -C ..\dc-law-html remote add test git@github.com:joelbarker2011/dc-law-html.git
+  - git -C ..\dc-law-html fetch --depth=1 test dc-62
+  - git -C ..\dc-law-html reset --hard test/dc-62
   # install versioned resources
   - ps: >-
       $versions = (Get-Content -Raw -Path ..\dc-law-html\version.json | ConvertFrom-Json);
       Set-AppveyorBuildVariable -Name olcore_version -Value "$($versions.('open-law-core'))";
-      Set-AppveyorBuildVariable -Name ol_us_dc_version -Value "$($versions.('open-law-us-dc'))";
+      Set-AppveyorBuildVariable -Name ol_us_dc_version -Value test-dc-62-version
   - "%PYTHON%\\python.exe -m pip install wheel"
   - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-core@%olcore_version%#egg=olcore"
   - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-us-dc@%ol_us_dc_version%#egg=ol_us_dc"
