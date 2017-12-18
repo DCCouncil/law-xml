@@ -5,6 +5,9 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/codify">
   <xs:import namespace="https://code.dccouncil.us/schemas/dc-library" schemaLocation="dc-library.xsd"/>
   <xs:element name="annotation">
+    <!-- an ignored comment -->
+    <!-- @docs: elements/annotation.rst -->
+    <!-- @docs: misc/some_file.rst -->
     <xs:complexType>
       <xs:complexContent mixed="true">
         <xs:extension base="lib:annotationType">
@@ -14,6 +17,12 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="applicability">
+    <!-- @summary: (codify.xsd) applicability element (via @summary 1) lorem ipsum. -->
+    <!-- @docs: elements/applicability_1.rst -->
+    <!-- @summary: (codify.xsd) applicability element (via @summary 2) lorem ipsum. -->
+    <!-- another ignored comment -->
+    <!-- @docs: elements/applicability_2.rst -->
+    <!-- @summary: (codify.xsd) applicability element (via @summary 3) lorem ipsum. -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -154,6 +163,7 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:simpleType name="falseOnlyType">
+    <!-- @summary: (codify.xsd) falseOnlyType (via @summary) lorem ipsum. -->
     <xs:restriction base="xs:string">
       <xs:pattern value="false"/>
     </xs:restriction>
