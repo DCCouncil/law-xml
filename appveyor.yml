@@ -37,11 +37,14 @@ before_build:
   - git -C ..\dc-law-html fetch origin %appveyor_repo_branch% &&
     git -C ..\dc-law-html checkout %appveyor_repo_branch% ||
     git -C ..\dc-law-html checkout -b %appveyor_repo_branch%
-  # install versioned resources
+  # install versioned resources (if and only if the build is a tag or cron build)
   - ps: >-
-      $versions = (Get-Content -Raw -Path ..\dc-law-html\version.json | ConvertFrom-Json);
-      Set-AppveyorBuildVariable -Name olcore_version -Value "$($versions.('open-law-core'))";
-      Set-AppveyorBuildVariable -Name ol_us_dc_version -Value "$($versions.('open-law-us-dc'))";
+      If ($env:APPVEYOR_REPO_TAG_NAME -Or $env:APPVEYOR_SCHEDULED_BUILD) {
+        echo "Setting versions."
+        $versions = (Get-Content -Raw -Path ..\dc-law-html\version.json | ConvertFrom-Json);
+        Set-AppveyorBuildVariable -Name olcore_version -Value "$($versions.('open-law-core'))";
+        Set-AppveyorBuildVariable -Name ol_us_dc_version -Value "$($versions.('open-law-us-dc'))";
+      }
   - "%PYTHON%\\python.exe -m pip install wheel"
   - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-core@%olcore_version%#egg=olcore"
   - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-us-dc@%ol_us_dc_version%#egg=ol_us_dc"
