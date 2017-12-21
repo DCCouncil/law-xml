@@ -45,11 +45,8 @@
     <section>
       <num>902</num>
       <text>Section 817 of the Consolidated Appropriations Act, 2016 (Public Law 114-113) is repealed, and any provision of law amended or repealed by such section is restored or revived as if such section had not been enacted into law.</text>
-      <codify:repeal doc="D.C. Code" path="§38-1853.10|(d)"/>
-      <codify:find-replace doc="D.C. Code" path="§38-1853.10|(d)" count="1">
-        <find>Repealed.</find>
-        <replace>OMITTED.</replace>
-      </codify:find-replace>
+      <codify:remove doc="D.C. Code" path="§38-1853.10|(d)"/>
+      
       <codify:find-replace doc="D.C. Code" path="§38-1853.10|(e)|num" count="1">
         <find>(e)</find>
         <replace>(d)</replace>
@@ -200,14 +197,7 @@
         <para>
           <num>(3)</num>
           <text>by redesignating subparagraph (C) as subparagraph (B); and</text>
-          <codify:find-replace path="(C)" count="1">
-            <find>
-              <text>students whose household includes a sibling or other child who is already participating in the program of the eligible entity under this chapter, regardless of whether such students have, in the past, been assigned as members of a control study group for the purposes of an evaluation under § <cite path="§38-1853.09">38-1853.09</cite>(a);</text>
-            </find>
-            <replace>
-              <text>[OMITTED]</text>
-            </replace>
-          </codify:find-replace>
+          <codify:remove path="(C)"/>
         </para>
         <para>
           <num>(4)</num>
@@ -248,14 +238,7 @@
               <codify:replace path="§38-1853.07|(a)|(4)|(H)"/>
               <num>(H)</num>
               <text>complies with all requests for data and information regarding the reporting requirements described in <code-cite doc="D.C. Code" path="§38-1853.10">section 3010</code-cite>.</text>
-              <codify:find-replace path="§38-1853.07|(a)|(4)|(I)" count="1">
-                <find>
-                  <text>complies with all requests for data and information regarding the reporting requirements described in § <cite path="§38-1853.10">38-1853.10</cite>.</text>
-                </find>
-                <replace>
-                  <text>[OMITTED]</text>
-                </replace>
-              </codify:find-replace>
+             <codify:remove path="§38-1853.07|(a)|(4)|(I)"/>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -421,11 +404,8 @@
               <find>Repealed.</find>
               <replace>An eligible entity receiving a grant under § <cite path="§38-1853.04">38-1853.04</cite>(a) may use not more than 1 percent of the amount provided under the grant each year for expenses to provide tutoring services to participating eligible students that need additional academic assistance. If there are insufficient funds to provide tutoring services to all such students in a year, the eligible entity shall give priority in such year to students who previously attended an elementary school or secondary school that was implementing comprehensive support and improvement activities or targeted support and improvement activities under section 1111(d) [20 U.S.C. § 6311(d)] of the Elementary and Secondary Education Act of 1965.</replace>
             </codify:find-replace>
-            <codify:repeal path="(d)"/>
-            <codify:find-replace path="(d)" count="1">
-              <find>Repealed.</find>
-              <replace>[OMITTED]</replace>
-            </codify:find-replace>
+            <codify:remove path="(d)"/>
+            
           </para>
           <para>
             <num>(C)</num>
