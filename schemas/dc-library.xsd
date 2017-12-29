@@ -137,8 +137,7 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="find">
-    <!-- @internalTarget: appendix_find -->
-    <!-- @summary: (dc-library.xsd) find element (via @summary) lorem ipsum. -->
+    <!-- @summary: Specifies the text or xml to be found at the target. -->
     <xs:complexType>
       <xs:complexContent mixed="true">
         <xs:extension base="xs:anyType">
@@ -289,8 +288,7 @@
   <xs:element name="prefix" type="xs:string"/>
   <xs:element name="reason" type="xs:string"/>
   <xs:element name="replace">
-    <!-- @summary: (dc-library.xsd) replace element (via @summary) lorem ipsum. -->
-    <!-- @internalTarget: appendix_replace -->
+    <!-- @summary: Specifies the replacement text or xml. -->
     <xs:complexType>
       <xs:complexContent mixed="true">
         <xs:extension base="xs:anyType">
@@ -410,14 +408,11 @@
   </xs:complexType>
   <!-- attribute groups -->
   <xs:attributeGroup name="targetAttributes">
-    <!-- @summary: (dc-library.xsd) targetAttributes attributeGroup (via @summary) lorem ipsum. -->
     <xs:attribute name="doc" type="xs:string" use="optional">
-      <!-- @docs: attributes/doc.rst -->
-      <!-- @summary: (dc-library.xsd) targetAttributes doc attribute (via @summary) lorem ipsum. -->
+      <!-- @summary: The ``doc`` and ``path`` attributes together determine the target of the transform. :ref:`Learn more here <appendix_docAndPath>`. -->
     </xs:attribute>
     <xs:attribute name="path" type="xs:string" use="optional">
-      <!-- @summary: (dc-library.xsd) targetAttributes path attribute (via @summary) lorem ipsum. -->
-      <!-- @docs: attributes/path.rst -->
+      <!-- @summary: The ``doc`` and ``path`` attributes together determine the target of the transform. :ref:`Learn more here <appendix_docAndPath>`. -->
     </xs:attribute>
   </xs:attributeGroup>
 </xs:schema>
