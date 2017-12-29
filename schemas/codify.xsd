@@ -6,7 +6,7 @@
   <xs:import namespace="https://code.dccouncil.us/schemas/dc-library" schemaLocation="dc-library.xsd"/>
   <xs:element name="annotation">
     <!-- an ignored comment -->
-    <!-- @summary: (codify.xsd) ``<codify:annotation>`` instruction creates an annotation (or note) on the target element.-->
+    <!-- @summary: ``<codify:annotation>`` instruction creates an annotation (or note) on the target element.-->
     <!-- @docs: misc/codify_annotation.rst -->
     <xs:complexType>
       <xs:complexContent mixed="true">
@@ -17,93 +17,93 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="applicability">
-    <!-- @summary: (codify.xsd) The ``<codify:applicability>`` instruction is used to set the applicability status, including funding status, of the target element.  -->
+    <!-- @summary: The ``<codify:applicability>`` instruction is used to set the applicability status, including funding status, of the target element.  -->
     <!-- @docs: elements/applicability_1.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="action" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies the applicability action. -->
+        <!-- @summary: Specifies the applicability action. -->
       </xs:attribute>
       <xs:attribute name="date" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies the applicability status, e.g. ``notfunded`` or ``pending``. -->
+        <!-- @summary: Specifies the applicability status, e.g. ``notfunded`` or ``pending``. -->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="expire">
-    <!-- @summary: (codify.xsd) The ``<codify:expire>`` instruction is used to set the expiration date of the target element.  -->
+    <!-- @summary: The ``<codify:expire>`` instruction is used to set the expiration date of the target element.  -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="date" type="xs:date" use="optional">
-        <!-- @summary: (codify.xsd) Specify the date of expiration. -->
+        <!-- @summary: Specify the date of expiration. -->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="create-sub-container">
-    <!-- @summary: (codify.xsd) The ``<codify:create-sub-container>`` instruction is used in connection with the ``<codify:insert>`` instruction to create a sub-container simultaneous to inserting a new container. -->
+    <!-- @summary: The ``<codify:create-sub-container>`` instruction is used in connection with the ``<codify:insert>`` instruction to create a sub-container simultaneous to inserting a new container. -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="heading-value" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies the text value of the heading, e.g. ``Hospital Assessments``. -->
+        <!-- @summary: Specifies the text value of the heading, e.g. ``Hospital Assessments``. -->
       </xs:attribute>
       <xs:attribute name="num-value" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies the number value of the heading, e.g. ``I``. -->
+        <!-- @summary: Specifies the number value of the heading, e.g. ``I``. -->
       </xs:attribute>
       <xs:attribute name="prefix-value" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies the prefix text of the heading, e.g. ``Subchapter``. -->
+        <!-- @summary: Specifies the prefix text of the heading, e.g. ``Subchapter``. -->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="emergency">
-    <!-- @summary: (codify.xsd) The ``<codify:emergency>`` instruction is used to codify emergency laws.-->
+    <!-- @summary: The ``<codify:emergency>`` instruction is used to codify emergency laws.-->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="action" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies the action text to be included in the generated annotation. -->
+        <!-- @summary: Specifies the action text to be included in the generated annotation. -->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="find-replace" type="findReplaceType">
-    <!-- @summary: (codify.xsd) The ``<codify:find-replace>`` instruction is used to find and replace text at the target element. -->
+    <!-- @summary: The ``<codify:find-replace>`` instruction is used to find and replace text at the target element. -->
   </xs:element>
   <xs:element name="funded-anno">
-    <!-- @summary: (codify.xsd) The ``<codify:funded-anno>`` instruction is used to generate an annotation for the target element indicating that the target element has been funded.-->
+    <!-- @summary: The ``<codify:funded-anno>`` instruction is used to generate an annotation for the target element indicating that the target element has been funded.-->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="ignore">
-    <!-- @summary: (codify.xsd) The ``<codify:ignore>`` instruction is used to expressly indicate that a particular portion of the law will not be codified. -->
+    <!-- @summary: The ``<codify:ignore>`` instruction is used to expressly indicate that a particular portion of the law will not be codified. -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="technical" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies a technical change to the transform that is different from the instruction provided by the law.-->
+        <!-- @summary: Specifies a technical change to the transform that is different from the instruction provided by the law.-->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="insert">
-    <!-- @summary: (codify.xsd) The ``<codify:insert>`` instruction is used to insert an element (and its children) as a child of the specified target. It can, for instance, insert a new container into the code, insert a new section into an existing law, or insert a new paragraph into an existing section.-->
+    <!-- @summary: The ``<codify:insert>`` instruction is used to insert an element (and its children) as a child of the specified target. It can, for instance, insert a new container into the code, insert a new section into an existing law, or insert a new paragraph into an existing section.-->
     <xs:complexType>
       <xs:complexContent>
         <xs:extension base="insertType">
           <xs:attributeGroup ref="lib:targetAttributes"/>
           <xs:attributeGroup ref="sharedAttributes"/>
           <xs:attribute name="after" type="xs:string" use="optional">
-            <!-- @summary: (codify.xsd) Specify the child element at the target path that the transform results should appear after. -->
+            <!-- @summary: Specify the child element at the target path that the transform results should appear after. -->
           </xs:attribute>
           <xs:attribute name="before" type="xs:string" use="optional">
-            <!-- @summary: (codify.xsd) Specify the child element at the target path that the transform results should appear before. -->
+            <!-- @summary: Specify the child element at the target path that the transform results should appear before. -->
           </xs:attribute>
           <xs:attribute name="num-value" type="xs:string" use="optional">
-            <!-- @summary: (codify.xsd) Specify the number value of the transform result. Defaults to value of ``<num>``.-->
+            <!-- @summary: Specify the number value of the transform result. Defaults to value of ``<num>``.-->
           </xs:attribute>
           <xs:attribute name="technical" type="xs:string" use="optional">
-            <!-- @summary: (codify.xsd) Specifies a technical change to the transform that is different from the instruction provided by the law.-->
+            <!-- @summary: Specifies a technical change to the transform that is different from the instruction provided by the law.-->
           </xs:attribute>
         </xs:extension>
       </xs:complexContent>
@@ -111,45 +111,45 @@
   </xs:element>
   <xs:element name="insert-code-container" type="anyType"/>
   <xs:element name="not-funded-anno">
-    <!-- @summary: (codify.xsd) The ``<codify:not-funded-anno>`` instruction is used to generate an annotation for the target element indicating that the target element is not funded.-->
+    <!-- @summary: The ``<codify:not-funded-anno>`` instruction is used to generate an annotation for the target element indicating that the target element is not funded.-->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="action" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies the action text to be included in the generated annotation, e.g. ``the addition of``, ``creation of``, ``addition of section``, etc. -->
+        <!-- @summary: Specifies the action text to be included in the generated annotation, e.g. ``the addition of``, ``creation of``, ``addition of section``, etc. -->
       </xs:attribute>
       <xs:attribute name="applicability-path" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies the path to section with applicability provision.-->
+        <!-- @summary: Specifies the path to section with applicability provision.-->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="organic">
-    <!-- @summary: (codify.xsd) The ``<codify:organic>`` instruction is used to codify an organic law.-->
+    <!-- @summary: The ``<codify:organic>`` instruction is used to codify an organic law.-->
     <xs:complexType>
       <xs:complexContent>
         <xs:extension base="insertType">
           <xs:attributeGroup ref="lib:targetAttributes"/>
           <xs:attributeGroup ref="sharedAttributes"/>
           <xs:attribute name="after" type="xs:string" use="optional">
-            <!-- @summary: (codify.xsd) Specify the child element at the target path that the transform results should appear after. -->
+            <!-- @summary: Specify the child element at the target path that the transform results should appear after. -->
           </xs:attribute>
           <xs:attribute name="before" type="xs:string" use="optional">
-            <!-- @summary: (codify.xsd) Specify the child element at the target path that the transform results should appear before. -->
+            <!-- @summary: Specify the child element at the target path that the transform results should appear before. -->
           </xs:attribute>
           <xs:attribute name="heading-value" type="xs:string" use="optional">
-            <!-- @summary: (codify.xsd) Specifies the text value of the heading, e.g. ``Hospital Assessments``. -->
+            <!-- @summary: Specifies the text value of the heading, e.g. ``Hospital Assessments``. -->
           </xs:attribute>
           <xs:attribute name="num-value" type="xs:string" use="optional">
-            <!-- @summary: (codify.xsd) Specify the number value of the transform result. Defaults to value of ``<num>``.-->
+            <!-- @summary: Specify the number value of the transform result. Defaults to value of ``<num>``.-->
           </xs:attribute>
           <xs:attribute name="prefix-value" type="xs:string" use="optional">
-            <!-- @summary: (codify.xsd) Specifies the prefix text of the heading, e.g. ``Subchapter``. -->
+            <!-- @summary: Specifies the prefix text of the heading, e.g. ``Subchapter``. -->
           </xs:attribute>
           <xs:attribute name="tag" type="xs:string" use="optional">
-            <!-- @summary: (codify.xsd) Specifies the type of element to be inserted, e.g. ``<container>``.-->
+            <!-- @summary: Specifies the type of element to be inserted, e.g. ``<container>``.-->
           </xs:attribute>
           <xs:attribute name="technical" type="xs:string" use="optional">
-            <!-- @summary: (codify.xsd) Specifies a technical change to the transform that is different from the instruction provided by the law.-->
+            <!-- @summary: Specifies a technical change to the transform that is different from the instruction provided by the law.-->
           </xs:attribute>
         </xs:extension>
       </xs:complexContent>
@@ -157,64 +157,64 @@
   </xs:element>
   <xs:element name="redesignate" type="anyType"/>
   <xs:element name="redesignate-para">
-    <!-- @summary: (codify.xsd) The ``<codify:redesignate-para>`` instruction changes the value of the target paragraph number from one value to another.-->
+    <!-- @summary: The ``<codify:redesignate-para>`` instruction changes the value of the target paragraph number from one value to another.-->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="num-value" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specify the number value of the transform result. Defaults to value of ``<num>``.-->
+        <!-- @summary: Specify the number value of the transform result. Defaults to value of ``<num>``.-->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="recodify-section">
-    <!-- @summary: (codify.xsd) The ``<codify:recodify-section>`` instruction recodifies the target in the code into a new section of the code.-->
+    <!-- @summary: The ``<codify:recodify-section>`` instruction recodifies the target in the code into a new section of the code.-->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="after" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specify the child element at the target path that the transform results should appear after. -->
+        <!-- @summary: Specify the child element at the target path that the transform results should appear after. -->
       </xs:attribute>
       <xs:attribute name="before" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specify the child element at the target path that the transform results should appear before. -->
+        <!-- @summary: Specify the child element at the target path that the transform results should appear before. -->
       </xs:attribute>
       <xs:attribute name="num-value" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specify the number value of the transform result. Defaults to value of ``<num>``.-->
+        <!-- @summary: Specify the number value of the transform result. Defaults to value of ``<num>``.-->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="remove" type="anyType"/>
   <xs:element name="repeal">
-    <!-- @summary: (codify.xsd) The ``<codify:repeal>`` instruction repeals the target element.-->
+    <!-- @summary: The ``<codify:repeal>`` instruction repeals the target element.-->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="technical" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies a technical change to the transform that is different from the instruction provided by the law.-->
+        <!-- @summary: Specifies a technical change to the transform that is different from the instruction provided by the law.-->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="replace" type="anyType">
-    <!-- @summary: (codify.xsd) The ``<codify:replace>`` instruction replaces the target element with the contents of the instructions parent element.-->
+    <!-- @summary: The ``<codify:replace>`` instruction replaces the target element with the contents of the instructions parent element.-->
   </xs:element>
   <xs:element name="street-designation-anno">
-    <!-- @summary: (codify.xsd) The ``<codify:street-designation-anno>`` instruction is used when the council designates new streets.-->
+    <!-- @summary: The ``<codify:street-designation-anno>`` instruction is used when the council designates new streets.-->
     <xs:complexType>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="action" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies the action text to be included in the generated annotation, e.g. ``the Council designates``.-->
+        <!-- @summary: Specifies the action text to be included in the generated annotation, e.g. ``the Council designates``.-->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="temporary">
-    <!-- @summary: (codify.xsd) The ``<codify:temporary>`` instruction is used to codify temporary laws.-->
+    <!-- @summary: The ``<codify:temporary>`` instruction is used to codify temporary laws.-->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="action" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) Specifies the action text to be included in the generated annotation, e.g. ``the addition of a new section``, ``amendment to the Expansion and Coordination of Youth Services Act of 2016``, etc.-->
+        <!-- @summary: Specifies the action text to be included in the generated annotation, e.g. ``the addition of a new section``, ``amendment to the Expansion and Coordination of Youth Services Act of 2016``, etc.-->
       </xs:attribute>
       <xs:attribute name="emergency" type="xs:string" use="optional">
-        <!-- @summary: (codify.xsd) .. todo -->
+        <!-- @summary: .. todo -->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
@@ -247,16 +247,16 @@
     <xs:attributeGroup ref="findReplaceAttributes"/>
     <xs:attributeGroup ref="sharedAttributes"/>
     <xs:attribute name="count" type="xs:integer" use="optional">
-      <!-- @summary: (codify.xsd) Specifies the number of instances the ``find`` value exists at the target. -->
+      <!-- @summary: Specifies the number of instances the ``find`` value exists at the target. -->
     </xs:attribute>
     <xs:attribute name="position" use="optional">
-      <!-- @summary: (codify.xsd) Specifies position of the ``find`` value in the target element, e.g. ``last``, ``first``, ``heading``, or ``text``. -->
+      <!-- @summary: Specifies position of the ``find`` value in the target element, e.g. ``last``, ``first``, ``heading``, or ``text``. -->
       <xs:simpleType>
         <xs:union memberTypes="xs:positiveInteger firstLastType"/>
       </xs:simpleType>
     </xs:attribute>
     <xs:attribute name="technical" type="xs:string" use="optional">
-      <!-- @summary: (codify.xsd) Specifies a technical change to the transform that is different from the instruction provided by the law.-->
+      <!-- @summary: Specifies a technical change to the transform that is different from the instruction provided by the law.-->
     </xs:attribute>
   </xs:complexType>
   <xs:simpleType name="firstLastType">
