@@ -18,7 +18,7 @@
   </xs:element>
   <xs:element name="applicability">
     <!-- @summary: The ``<codify:applicability>`` instruction is used to set the applicability status, including funding status, of the target element.  -->
-    <!-- @docs: elements/applicability_1.rst -->
+    <!-- @docs: misc/applicability_1.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -67,7 +67,8 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="find-replace" type="findReplaceType">
-    <!-- @summary: The ``<codify:find-replace>`` instruction is used to find and replace text at the target element. -->
+    <!-- @summary: The ``<codify:find-replace>`` instruction finds text at the target node and replaces the text at the target with new text. -->
+    <!-- @docs: misc/codify_find-replace.rst -->
   </xs:element>
   <xs:element name="funded-anno">
     <!-- @summary: The ``<codify:funded-anno>`` instruction is used to generate an annotation for the target element indicating that the target element has been funded.-->
@@ -88,6 +89,7 @@
   </xs:element>
   <xs:element name="insert">
     <!-- @summary: The ``<codify:insert>`` instruction is used to insert an element (and its children) as a child of the specified target. It can, for instance, insert a new container into the code, insert a new section into an existing law, or insert a new paragraph into an existing section.-->
+    <!-- @docs: misc/codify_insert.rst -->
     <xs:complexType>
       <xs:complexContent>
         <xs:extension base="insertType">
@@ -195,6 +197,7 @@
   </xs:element>
   <xs:element name="replace" type="anyType">
     <!-- @summary: The ``<codify:replace>`` instruction replaces the target element with the contents of the instructions parent element.-->
+    <!-- @docs: misc/codify_replace.rst -->
   </xs:element>
   <xs:element name="street-designation-anno">
     <!-- @summary: The ``<codify:street-designation-anno>`` instruction is used when the council designates new streets.-->
