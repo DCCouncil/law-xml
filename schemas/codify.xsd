@@ -32,6 +32,7 @@
   </xs:element>
   <xs:element name="expire">
     <!-- @summary: The ``<codify:expire>`` instruction is used to set the expiration date of the target element.  -->
+    <!-- @docs: misc/codify_expire.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -57,7 +58,8 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="emergency">
-    <!-- @summary: The ``<codify:emergency>`` instruction is used to codify emergency laws.-->
+    <!-- @summary: The ``<codify:emergency>`` instruction is used to generate an annotation relating to the codification of an emergency law.-->
+    <!-- @docs: misc/codify_emergency.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -72,6 +74,7 @@
   </xs:element>
   <xs:element name="funded-anno">
     <!-- @summary: The ``<codify:funded-anno>`` instruction is used to generate an annotation for the target element indicating that the target element has been funded.-->
+    <!-- @docs: misc/codify_funded-anno.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -160,6 +163,7 @@
   <xs:element name="redesignate" type="anyType"/>
   <xs:element name="redesignate-para">
     <!-- @summary: The ``<codify:redesignate-para>`` instruction changes the value of the target paragraph number from one value to another.-->
+    <!-- @docs: misc/codify_redesignate-para.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -170,6 +174,7 @@
   </xs:element>
   <xs:element name="recodify-section">
     <!-- @summary: The ``<codify:recodify-section>`` instruction recodifies the target in the code into a new section of the code.-->
+    <!-- @docs: misc/codify_recodify.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -184,9 +189,13 @@
       </xs:attribute>
     </xs:complexType>
   </xs:element>
-  <xs:element name="remove" type="anyType"/>
+  <xs:element name="remove" type="anyType">
+    <!-- @summary: The ``<codify:remove>`` instruction removes the target element.-->
+    <!-- @docs: misc/codify_remove.rst -->
+  </xs:element>
   <xs:element name="repeal">
     <!-- @summary: The ``<codify:repeal>`` instruction repeals the target element.-->
+    <!-- @docs: misc/codify_repeal.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
