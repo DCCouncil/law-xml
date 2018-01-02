@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xs:schema
   xmlns="https://code.dccouncil.us/schemas/codify"
-  xmlns:lib="https://code.dccouncil.us/schemas/dc-library"
+  xmlns:p="https://code.dccouncil.us/schemas/dc-library"
   xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/codify">
   <xs:import namespace="https://code.dccouncil.us/schemas/dc-library" schemaLocation="dc-library.xsd"/>
   <xs:element name="annotation">
     <xs:complexType>
       <xs:complexContent mixed="true">
-        <xs:extension base="lib:annotationType">
+        <xs:extension base="p:annotationType">
           <xs:attributeGroup ref="sharedAttributes"/>
         </xs:extension>
       </xs:complexContent>
@@ -15,7 +15,7 @@
   </xs:element>
   <xs:element name="applicability">
     <xs:complexType>
-      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="action" type="xs:string" use="optional"/>
       <xs:attribute name="date" type="xs:string" use="optional"/>
@@ -23,14 +23,14 @@
   </xs:element>
   <xs:element name="expire">
     <xs:complexType>
-      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="date" type="xs:date" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="create-sub-container">
     <xs:complexType>
-      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="heading-value" type="xs:string" use="optional"/>
       <xs:attribute name="num-value" type="xs:string" use="optional"/>
@@ -39,7 +39,7 @@
   </xs:element>
   <xs:element name="emergency">
     <xs:complexType>
-      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="action" type="xs:string" use="optional"/>
     </xs:complexType>
@@ -47,13 +47,13 @@
   <xs:element name="find-replace" type="findReplaceType"/>
   <xs:element name="funded-anno">
     <xs:complexType>
-      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="ignore">
     <xs:complexType>
-      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="technical" type="xs:string" use="optional"/>
     </xs:complexType>
@@ -62,7 +62,7 @@
     <xs:complexType>
       <xs:complexContent>
         <xs:extension base="insertType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
+          <xs:attributeGroup ref="p:targetAttributes"/>
           <xs:attributeGroup ref="sharedAttributes"/>
           <xs:attribute name="after" type="xs:string" use="optional"/>
           <xs:attribute name="before" type="xs:string" use="optional"/>
@@ -75,7 +75,7 @@
   <xs:element name="insert-code-container" type="anyType"/>
   <xs:element name="not-funded-anno">
     <xs:complexType>
-      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="action" type="xs:string" use="optional"/>
       <xs:attribute name="applicability-path" type="xs:string" use="optional"/>
@@ -85,7 +85,7 @@
     <xs:complexType>
       <xs:complexContent>
         <xs:extension base="insertType">
-          <xs:attributeGroup ref="lib:targetAttributes"/>
+          <xs:attributeGroup ref="p:targetAttributes"/>
           <xs:attributeGroup ref="sharedAttributes"/>
           <xs:attribute name="after" type="xs:string" use="optional"/>
           <xs:attribute name="before" type="xs:string" use="optional"/>
@@ -101,14 +101,14 @@
   <xs:element name="redesignate" type="anyType"/>
   <xs:element name="redesignate-para">
     <xs:complexType>
-      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="num-value" type="xs:string" use="optional"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="recodify-section">
     <xs:complexType>
-      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="after" type="xs:string" use="optional"/>
       <xs:attribute name="before" type="xs:string" use="optional"/>
@@ -118,7 +118,7 @@
   <xs:element name="remove" type="anyType"/>
   <xs:element name="repeal">
     <xs:complexType>
-      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="technical" type="xs:string" use="optional"/>
     </xs:complexType>
@@ -132,7 +132,7 @@
   </xs:element>
   <xs:element name="temporary">
     <xs:complexType>
-      <xs:attributeGroup ref="lib:targetAttributes"/>
+      <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="action" type="xs:string" use="optional"/>
       <xs:attribute name="emergency" type="xs:string" use="optional"/>
@@ -160,10 +160,10 @@
   </xs:simpleType>
   <xs:complexType name="findReplaceType">
     <xs:sequence minOccurs="0">
-      <xs:element ref="lib:find"/>
-      <xs:element ref="lib:replace"/>
+      <xs:element ref="p:find"/>
+      <xs:element ref="p:replace"/>
     </xs:sequence>
-    <xs:attributeGroup ref="lib:targetAttributes"/>
+    <xs:attributeGroup ref="p:targetAttributes"/>
     <xs:attributeGroup ref="findReplaceAttributes"/>
     <xs:attributeGroup ref="sharedAttributes"/>
     <xs:attribute name="count" type="xs:integer" use="optional"/>
@@ -186,12 +186,12 @@
         <xs:element ref="create-sub-container"/>
         <xs:element ref="insert"/>
         <xs:element ref="recodify-section"/>
-        <xs:element ref="lib:container"/>
-        <xs:element ref="lib:section"/>
-        <xs:element ref="lib:para"/>
-        <xs:element ref="lib:text"/>
-        <xs:element ref="lib:subsection"/>
-        <xs:element ref="lib:toc"/>
+        <xs:element ref="p:container"/>
+        <xs:element ref="p:section"/>
+        <xs:element ref="p:para"/>
+        <xs:element ref="p:text"/>
+        <xs:element ref="p:subsection"/>
+        <xs:element ref="p:toc"/>
       </xs:choice>
     </xs:sequence>
   </xs:complexType>
