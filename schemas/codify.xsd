@@ -43,6 +43,7 @@
   </xs:element>
   <xs:element name="create-sub-container">
     <!-- @summary: The ``<codify:create-sub-container>`` instruction is used in connection with the ``<codify:insert>`` instruction to create a sub-container simultaneous to inserting a new container. -->
+    <!-- @docs: misc/codify_create-sub-container.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -58,7 +59,7 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="emergency">
-    <!-- @summary: The ``<codify:emergency>`` instruction is used to generate an annotation relating to the codification of an emergency law.-->
+    <!-- @summary: The ``<codify:emergency>`` marcro is used to generate an annotation relating to the codification of an emergency law.-->
     <!-- @docs: misc/codify_emergency.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
@@ -73,7 +74,7 @@
     <!-- @docs: misc/codify_find-replace.rst -->
   </xs:element>
   <xs:element name="funded-anno">
-    <!-- @summary: The ``<codify:funded-anno>`` instruction is used to generate an annotation for the target element indicating that the target element has been funded.-->
+    <!-- @summary: The ``<codify:funded-anno>`` macro is used to generate an annotation for the target element indicating that the target element has been funded.-->
     <!-- @docs: misc/codify_funded-anno.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
@@ -116,7 +117,7 @@
   </xs:element>
   <xs:element name="insert-code-container" type="anyType"/>
   <xs:element name="not-funded-anno">
-    <!-- @summary: The ``<codify:not-funded-anno>`` instruction is used to generate an annotation for the target element indicating that the target element is not funded.-->
+    <!-- @summary: The ``<codify:not-funded-anno>`` macro is used to generate an annotation for the target element indicating that the target element is not funded.-->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -209,7 +210,7 @@
     <!-- @docs: misc/codify_replace.rst -->
   </xs:element>
   <xs:element name="street-designation-anno">
-    <!-- @summary: The ``<codify:street-designation-anno>`` instruction is used when the council designates new streets.-->
+    <!-- @summary: The ``<codify:street-designation-anno>`` macro is used when the council designates new streets.-->
     <xs:complexType>
       <xs:attributeGroup ref="sharedAttributes"/>
       <xs:attribute name="action" type="xs:string" use="optional">
@@ -218,7 +219,7 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="temporary">
-    <!-- @summary: The ``<codify:temporary>`` instruction is used to codify temporary laws.-->
+    <!-- @summary: The ``<codify:temporary>`` macro is used to codify temporary laws.-->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -226,7 +227,7 @@
         <!-- @summary: Specifies the action text to be included in the generated annotation, e.g. ``the addition of a new section``, ``amendment to the Expansion and Coordination of Youth Services Act of 2016``, etc.-->
       </xs:attribute>
       <xs:attribute name="emergency" type="xs:string" use="optional">
-        <!-- @summary: .. todo -->
+        <!-- @summary: No longer used. -->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
