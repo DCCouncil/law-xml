@@ -6,7 +6,7 @@
   <xs:import namespace="https://code.dccouncil.us/schemas/dc-library" schemaLocation="dc-library.xsd"/>
   <xs:element name="annotation">
     <!-- an ignored comment -->
-    <!-- @summary: ``<codify:annotation>`` instruction creates an annotation (or note) on the target element.-->
+    <!-- @summary: The ``<codify:annotation>`` instruction creates an annotation (or note) on the target element.-->
     <!-- @docs: misc/examples_header.rst -->
     <!-- @docs: examples/test_annotation.rst -->
     <xs:complexType>
@@ -19,6 +19,7 @@
   </xs:element>
   <xs:element name="applicability">
     <!-- @summary: The ``<codify:applicability>`` instruction is used to set the applicability status, including funding status, of the target element.  -->
+    <!-- @docs: misc/examples_header.rst -->
     <!-- @docs: examples/test_applicability_linear.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
@@ -45,7 +46,8 @@
   </xs:element>
   <xs:element name="create-sub-container">
     <!-- @summary: The ``<codify:create-sub-container>`` instruction is used in connection with the ``<codify:insert>`` instruction to create a sub-container simultaneous to inserting a new container. -->
-    <!-- @docs: misc/codify_create-sub-container.rst -->
+    <!-- @docs: misc/examples_header.rst -->
+    <!-- @docs: examples/test_create_sub_container.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -62,7 +64,6 @@
   </xs:element>
   <xs:element name="emergency">
     <!-- @summary: The ``<codify:emergency>`` marcro is used to generate an annotation relating to the codification of an emergency law.-->
-    <!-- @docs: misc/codify_emergency.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -81,7 +82,6 @@
   </xs:element>
   <xs:element name="funded-anno">
     <!-- @summary: The ``<codify:funded-anno>`` macro is used to generate an annotation for the target element indicating that the target element has been funded.-->
-    <!-- @docs: misc/codify_funded-anno.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -103,7 +103,6 @@
     <!-- @docs: examples/test_insert.rst -->
     <!-- @docs: examples/test_insert_organic.rst -->
     <!-- @docs: examples/test_insert_before_after.rst -->
-    <!-- @docs: misc/codify_insert.rst -->
     <xs:complexType>
       <xs:complexContent>
         <xs:extension base="insertType">
@@ -125,7 +124,9 @@
       </xs:complexContent>
     </xs:complexType>
   </xs:element>
-  <xs:element name="insert-code-container" type="anyType"/>
+  <xs:element name="insert-code-container" type="anyType">
+    <!-- @summary: Pending discussion on use.-->
+  </xs:element>
   <xs:element name="not-funded-anno">
     <!-- @summary: The ``<codify:not-funded-anno>`` macro is used to generate an annotation for the target element indicating that the target element is not funded.-->
     <xs:complexType>
@@ -140,6 +141,7 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="organic">
+    <!-- @summary: The ``<codify:organic>`` is no longer used.-->
     <!-- @summary: The ``<codify:organic>`` instruction is used to codify an organic law.-->
     <xs:complexType>
       <xs:complexContent>
@@ -171,10 +173,13 @@
       </xs:complexContent>
     </xs:complexType>
   </xs:element>
-  <xs:element name="redesignate" type="anyType"/>
+  <xs:element name="redesignate" type="anyType">
+    <!-- @summary: Pending discussion on use.-->
+  </xs:element>
   <xs:element name="redesignate-para">
     <!-- @summary: The ``<codify:redesignate-para>`` instruction changes the value of the target paragraph number from one value to another.-->
-    <!-- @docs: misc/codify_redesignate-para.rst -->
+    <!-- @docs: misc/examples_header.rst -->
+    <!-- @docs: examples/test_redesignate_para_on_section.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -185,7 +190,8 @@
   </xs:element>
   <xs:element name="recodify-section">
     <!-- @summary: The ``<codify:recodify-section>`` instruction recodifies the target in the code into a new section of the code.-->
-    <!-- @docs: misc/codify_recodify.rst -->
+    <!-- @docs: misc/examples_header.rst -->
+    <!-- @docs: examples/test_recodify_code_section.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -202,11 +208,14 @@
   </xs:element>
   <xs:element name="remove" type="anyType">
     <!-- @summary: The ``<codify:remove>`` instruction removes the target element.-->
-    <!-- @docs: misc/codify_remove.rst -->
+    <!-- @docs: misc/examples_header.rst -->
+    <!-- @docs: examples/test_remove.rst -->
   </xs:element>
   <xs:element name="repeal">
     <!-- @summary: The ``<codify:repeal>`` instruction repeals the target element.-->
-    <!-- @docs: misc/codify_repeal.rst -->
+    <!-- @docs: misc/examples_header.rst -->
+    <!-- @docs: examples/test_repeal.rst -->
+    <!-- @docs: examples/test_repeal_enacted.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -217,7 +226,8 @@
   </xs:element>
   <xs:element name="replace" type="anyType">
     <!-- @summary: The ``<codify:replace>`` instruction replaces the target element with the contents of the instructions parent element.-->
-    <!-- @docs: misc/codify_replace.rst -->
+    <!-- @docs: misc/examples_header.rst -->
+    <!-- @docs: examples/test_replace.rst -->
   </xs:element>
   <xs:element name="street-designation-anno">
     <!-- @summary: The ``<codify:street-designation-anno>`` macro is used when the council designates new streets.-->
