@@ -7,7 +7,8 @@
   <xs:element name="annotation">
     <!-- an ignored comment -->
     <!-- @summary: ``<codify:annotation>`` instruction creates an annotation (or note) on the target element.-->
-    <!-- @docs: misc/codify_annotation.rst -->
+    <!-- @docs: misc/examples_header.rst -->
+    <!-- @docs: examples/test_annotation.rst -->
     <xs:complexType>
       <xs:complexContent mixed="true">
         <xs:extension base="lib:annotationType">
@@ -18,7 +19,7 @@
   </xs:element>
   <xs:element name="applicability">
     <!-- @summary: The ``<codify:applicability>`` instruction is used to set the applicability status, including funding status, of the target element.  -->
-    <!-- @docs: misc/applicability_1.rst -->
+    <!-- @docs: examples/test_applicability_linear.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -32,7 +33,8 @@
   </xs:element>
   <xs:element name="expire">
     <!-- @summary: The ``<codify:expire>`` instruction is used to set the expiration date of the target element.  -->
-    <!-- @docs: misc/codify_expire.rst -->
+    <!-- @docs: misc/examples_header.rst -->
+    <!-- @docs: examples/test_expire_insert.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -71,7 +73,11 @@
   </xs:element>
   <xs:element name="find-replace" type="findReplaceType">
     <!-- @summary: The ``<codify:find-replace>`` instruction finds text at the target node and replaces the text at the target with new text. -->
-    <!-- @docs: misc/codify_find-replace.rst -->
+    <!-- @docs: misc/examples_header.rst -->
+    <!-- @docs: examples/test_find_replace.rst -->
+    <!-- @docs: examples/test_find_replace_rich_text.rst -->
+    <!-- @docs: examples/test_find_replace_first.rst -->
+    <!-- @docs: examples/test_find_replace_last.rst -->
   </xs:element>
   <xs:element name="funded-anno">
     <!-- @summary: The ``<codify:funded-anno>`` macro is used to generate an annotation for the target element indicating that the target element has been funded.-->
@@ -93,6 +99,10 @@
   </xs:element>
   <xs:element name="insert">
     <!-- @summary: The ``<codify:insert>`` instruction is used to insert an element (and its children) as a child of the specified target. It can, for instance, insert a new container into the code, insert a new section into an existing law, or insert a new paragraph into an existing section.-->
+    <!-- @docs: misc/examples_header.rst -->
+    <!-- @docs: examples/test_insert.rst -->
+    <!-- @docs: examples/test_insert_organic.rst -->
+    <!-- @docs: examples/test_insert_before_after.rst -->
     <!-- @docs: misc/codify_insert.rst -->
     <xs:complexType>
       <xs:complexContent>
