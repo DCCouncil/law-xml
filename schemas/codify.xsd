@@ -18,9 +18,10 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="applicability">
-    <!-- @summary: The ``<codify:applicability>`` instruction is used to set the applicability status, including funding status, of the target element.  -->
+    <!-- @summary: The ``<codify:applicability>`` instruction is used to set the applicability status, including funding status, of the target element.  It is often used in connection with the ``<codify:not-funded-anno>`` when the applicability status is unfunded.-->
     <!-- @docs: misc/examples_header.rst -->
     <!-- @docs: examples/test_applicability_linear.rst -->
+    <!-- @docs: examples/test_applicability_pending.rst -->
     <xs:complexType>
       <xs:attributeGroup ref="lib:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
@@ -267,6 +268,7 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:simpleType name="falseOnlyType">
+    <!-- @internalTarget: appendix_falseOnlyType -->
     <xs:restriction base="xs:string">
       <xs:pattern value="false"/>
     </xs:restriction>
