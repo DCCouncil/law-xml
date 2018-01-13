@@ -205,6 +205,9 @@
       <xs:attribute name="num-value" type="xs:string" use="optional">
         <!-- @summary: Specify the number value of the transform result. Defaults to value of ``<num>``.-->
       </xs:attribute>
+      <xs:attribute name="destination-path" type="xs:string" use="optional">
+        <!-- @summary: path to destination container if the section should be moved (and not just renumbered) .-->
+      </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="remove" type="anyType">
