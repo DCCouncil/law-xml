@@ -4051,7 +4051,7 @@
             <para>
               <num>(1)</num>
               <text>The section heading is amended by striking the phrase "and Criminal Code Revision".</text>
-              <codify:find-replace position="heading" count="1">
+              <codify:find-replace path="heading" count="1">
                 <find>and Criminal Code Revision</find>
                 <replace/>
               </codify:find-replace>
@@ -4219,7 +4219,7 @@
           <para>
             <num>(1)</num>
             <text>The lead-in language is amended by striking the number "4" and inserting the number "5" in its place.</text>
-            <codify:find-replace position="text" count="1">
+            <codify:find-replace count="1" path="text">
               <find>4</find>
               <replace>5</replace>
             </codify:find-replace>
@@ -4579,7 +4579,7 @@
         <para>
           <num>(a)</num>
           <text>Section 104 (D.C. Official Code § 38-2903) is amended by striking the phrase "$9,492 per student for fiscal year 2015" and inserting the phrase "$9,682 per student for Fiscal Year 2017" in its place.</text>
-          <codify:find-replace position="text" path="§104" count="1">
+          <codify:find-replace path="§104" count="1">
             <find>$ 9,492 per student for Fiscal Year 2015</find>
             <replace>$9,682 per student for Fiscal Year 2017</replace>
           </codify:find-replace>
@@ -4851,7 +4851,7 @@
           <para>
             <num>(1)</num>
             <text>Strike the phrase "Fiscal Year 2017" and insert the phrase "Fiscal Year 2020" in its place.</text>
-            <codify:find-replace position="text" count="1">
+            <codify:find-replace count="1">
               <find>Fiscal Year 2017</find>
               <replace>Fiscal Year 2020</replace>
             </codify:find-replace>
@@ -7677,7 +7677,7 @@
             </section>
           </include>
           <aftertext>.</aftertext>
-          <codify:find-replace position="heading" count="1">
+          <codify:find-replace path="heading" count="1">
             <find>Fees for vital records and searches.</find>
             <replace>Vital records fees and fund.</replace>
           </codify:find-replace>
@@ -10402,7 +10402,7 @@
         <para>
           <num>(e)</num>
           <text>Section 2-2505 (D.C. Official Code § 3-1305) is amended by striking the phrase "No member of the Board, Chairperson of the Board, Executive Director, or employee of the Board" and inserting the phrase "Neither the Executive Director nor any employee of the Office" in its place.</text>
-          <codify:find-replace codify:doc="D.C. Code" path="§3-1305" count="1">
+          <codify:find-replace doc="D.C. Code" path="§3-1305" count="1">
             <find>No member of the Board, Chairperson of the Board, Executive Director, or employee of the Board</find>
             <replace>Neither the Executive Director nor any employee of the Office</replace>
           </codify:find-replace>
@@ -10620,7 +10620,7 @@
           <para>
             <num>(1)</num>
             <text>The first sentence is amended by striking the phrase "The Board shall" and inserting the phrase "The Office shall" in its place.</text>
-            <codify:find-replace count="1" location="first">
+            <codify:find-replace count="1" position="first">
               <find>The Board shall operate</find>
               <replace>The Office shall operate</replace>
             </codify:find-replace>
