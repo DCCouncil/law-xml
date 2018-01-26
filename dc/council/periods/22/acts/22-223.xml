@@ -19,22 +19,31 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "D.C. Healthcare Alliance Re-Enrollment Reform Amendment Act of 2017".</text>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§7-771.07">
     <num>2</num>
     <text>Section 8 of the Department of Health Care Finance Establishment Act of 2007, effective February 27, 2008 (D.C. Law 17-109; D.C. Official Code § 7-771.07), is amended as follows:</text>
-    <para>
+    <para codify:path="(11)">
       <num>(a)</num>
       <text>Paragraph (11) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+      <codify:find-replace count="1">
+        <find>; and</find>
+        <replace>;</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(12)">
       <num>(b)</num>
       <text>Paragraph (12) is amended by striking the period at the end and inserting the phrase "; and" in its place.</text>
+      <codify:find-replace count="1">
+        <find>in § <cite path="§7-771.03">7-771.03</cite>.</find>
+        <replace>in § <cite path="§7-771.03">7-771.03</cite>; and</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>A new paragraph (13) is added to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(12)"/>
           <num>(13)</num>
           <text>Explore the feasibility of incorporating D.C. Healthcare Alliance coverage into the District of Columbia Health Benefit Exchange Authority's D.C. Health Link program.</text>
         </para>
@@ -42,12 +51,13 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§7-1407">
     <num>3</num>
     <text>Section 7b of the Health Care Privatization Amendment Act of 2001, effective July 12, 2001 (D.C. Law 14-18; 64 DCR 10929), is amended to read as follows:</text>
     <include>
       <section>
-        <num>7b</num>
+        <codify:replace/>
+        <num codify:value="7-1407">7b</num>
         <heading>D.C. HealthCare Alliance recertification.</heading>
         <text>D.C. Healthcare Alliance program enrollees shall be required to recertify their enrollment annually. Enrollees may recertify in-person with the Department of Human Services or with the District of Columbia Health Benefit Exchange Authority, if the D.C. Healthcare Alliance program is incorporated into the D.C. Health Link program. Enrollees may also recertify in-person at a community health provider that is approved by the Department of Health Care Finance for such purposes.</text>
       </section>
