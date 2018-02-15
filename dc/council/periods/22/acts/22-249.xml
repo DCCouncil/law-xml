@@ -5,7 +5,7 @@
   <heading type="short">Electric Vehicle Public Infrastructure Expansion Amendment Act of 2018</heading>
   <heading type="long">To amend the Department of Transportation Establishment Act of 2002 to establish an Electric Vehicle Charging Station Pilot Program, to require the District Department of Transportation to install at least 15 electric vehicle charging stations, to require the District Department of Transportation to collect data related to the electric vehicle charging stations, to require the District Department of Transportation to submit an annual report to the Council analyzing the Electric Vehicle Charging Station Pilot Program, and to require the District Department of Transportation to publish on its website a map showing the location of the electric vehicle charging stations.</heading>
   <meta>
-    <effective>2018-02-06</effective>
+    <effective projected="true">2018-04-17</effective>
     <citations>
       <citation type="act" url="http://lims.dccouncil.us/Download/37348/B22-0096-SignedAct.pdf">D.C. Act 22-249</citation>
       <citation type="register">0 DCR 0</citation>
@@ -19,25 +19,31 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Electric Vehicle Public Infrastructure Expansion Amendment Act of 2018".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Department of Transportation Establishment Act of 2002, effective May 21, 2002 (D.C. Law 14-137; D.C. Official Code § 50-921.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§50-921.01a">
       <num>(a)</num>
       <text>Section 2a (D.C. Official Code § 50-921.01a) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (1B).</text>
+        <codify:find-replace path="num" count="1">
+          <find>(1)</find>
+          <replace>(1B)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>New paragraphs (1) and (1A) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert before="(1B)"/>
             <num>(1)</num>
             <text>"Electric vehicle" means a vehicle that is propelled by an electric motor and is capable of being recharged from an external source of electricity.</text>
           </para>
           <para>
+            <codify:insert before="(1B)"/>
             <num>(1A)</num>
             <text>"Electric vehicle charging station" means a publically accessible facility or equipment that is located on public property, including any public space in the District, and is used to charge the battery or other energy storage device of an electric vehicle.</text>
           </para>
@@ -50,6 +56,7 @@
       <text>A new section 2o is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="50|9A|I" after="§50-921.22" num-value="50-921.23" history-prefix="as added"/>
           <num>2o</num>
           <heading>Electric Vehicle Charging Station Pilot Program.</heading>
           <para>
@@ -122,6 +129,7 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Act 22-249" type="History" path="§2|(b)">May 21, 2002, D.C. Law 14-137, § 2o [§ 9o]</annotation>
     </para>
   </section>
   <section>
