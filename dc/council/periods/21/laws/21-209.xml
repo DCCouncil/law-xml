@@ -457,13 +457,17 @@
           </codify:find-replace>
         </para>
       </para>
-      <para codify:path="(d)">
+      <para>
         <num>(4)</num>
         <text>Subsection (d) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "A physician" and insert the phrase "An authorized practitioner" in its place.</text>
-          <codify:find-replace count="1">
+          <codify:find-replace path="(c)" count="1">
+            <find>a physician</find>
+            <replace>a physician [an authorized practitioner]</replace>
+          </codify:find-replace>
+          <codify:find-replace path="(d)" count="1">
             <find>A physician</find>
             <replace>An authorized practitioner</replace>
           </codify:find-replace>
