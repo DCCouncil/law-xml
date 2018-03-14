@@ -55,7 +55,8 @@ before_build:
   - git -C ..\ol-us-dc rev-parse HEAD
 
 build_script:
-  - "%PYTHON%\\python.exe -u -m ol_us_dc ci --prebuild 3 --deploy"
+  - ps: $env:FLAG = If ($env:APPVEYOR_REPO_BRANCH -eq "master" -And $env:APPVEYOR_PULL_REQUEST_NUMBER -eq $null) { "--deploy" }
+  - "%PYTHON%\\python.exe -u -m ol_us_dc ci --prebuild 3 %FLAG%"
 
 test_script:
   - echo Skipping doomed test discovery to save time
