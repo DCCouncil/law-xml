@@ -3,6 +3,11 @@ environment:
     # For Python versions available on Appveyor, see
     # http://www.appveyor.com/docs/installed-software#python
     - PYTHON: "C:\\Python36-x64"
+  OLL_ENTITLEMENT_TOKEN:
+    # this comes from https://cloudsmith.io/package/ns/openlawlibrary/repos/production-us-dc/entitlements/
+    # `us/dc/council` entitlment token; it was then encrypted using
+    # https://ci.appveyor.com/tools/encrypt
+    secure: SvOdeiXegi7RlMo6o+RXP1lMJt3mIWBhstIcQM+d3B0=
   ssh_key:
     # this is a private SSH key providing access to all of oll-bot's repos
     # in particular, open-law-us-dc and open-law-core
@@ -46,13 +51,10 @@ before_build:
         Set-AppveyorBuildVariable -Name ol_us_dc_version -Value "$($versions.('open-law-us-dc'))";
       }
   - "%PYTHON%\\python.exe -m pip install wheel"
-  - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-core@%olcore_version%#egg=olcore"
-  - "%PYTHON%\\python.exe -m pip install --src .. -e git+ssh://git@github.com/openlawlibrary/open-law-us-dc@%ol_us_dc_version%#egg=ol_us_dc"
+  - "%PYTHON%\\python.exe -m pip install --src .. --index-url https://dl.cloudsmith.io/%OLL_ENTITLEMENT_TOKEN%/openlawlibrary/production-us-dc/python/index/ --extra-index-url https://pypi.python.org/simple/ -r requirements.txt"
   # print out the git commits for each repo
   - git -C ..\dc-law-xml-codified rev-parse HEAD
   - git -C ..\dc-law-html rev-parse HEAD
-  - git -C ..\olcore rev-parse HEAD
-  - git -C ..\ol-us-dc rev-parse HEAD
 
 build_script:
   - ps: $env:FLAG = If ($env:APPVEYOR_REPO_BRANCH -eq "master" -And $env:APPVEYOR_PULL_REQUEST_NUMBER -eq $null) { "--deploy" }
