@@ -23,14 +23,15 @@
     <prefix>TITLE</prefix>
     <num>I</num>
     <heading>FORMAL COMPLAINTS RELATING TO THE DEPARTMENT ON DISABILITY SERVICES</heading>
-    <section>
+    <section codify:doc="D.C. Code">
       <num>101</num>
       <text>The Department on Disability Services Establishment Act of 2006, effective March 14, 2007 (D.C. Law 16-264; D.C. Official Code § 7-761.01 <em>et seq</em>.), is amended as follows:</text>
-      <para>
+      <para codify:path="§7-761.02">
         <num>(a)</num>
         <text>Section 102 (D.C. Official Code § 7-761.02) is amended by adding new paragraphs (5A) and (5B) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(5)"/>
             <num>(5A)</num>
             <text>"External reviewer" means a person, selected by the Director to provide review and resolution of formal complaints, who has:</text>
             <para>
@@ -45,26 +46,28 @@
               <num>(C)</num>
               <text>An understanding of DDS.</text>
             </para>
+          </para>
+          <para>
+            <codify:insert after="(5A)"/>
+            <num>(5B)</num>
             <para>
-              <num>(5B)</num>
-              <para>
-                <num>(A)</num>
-                <text>"Formal complaint" means a statement by a person of his or her dissatisfaction with DDS or a provider, including the denial of any services and supports under this act or other applicable law.</text>
-              </para>
-              <para>
-                <num>(B)</num>
-                <text>For the purposes of this paragraph, the term "provider" shall have the same meaning as provided in section 113(f).</text>
-              </para>
+              <num>(A)</num>
+              <text>"Formal complaint" means a statement by a person of his or her dissatisfaction with DDS or a provider, including the denial of any services and supports under this act or other applicable law.</text>
+            </para>
+            <para>
+              <num>(B)</num>
+              <text>For the purposes of this paragraph, the term "provider" shall have the same meaning as provided in section 113(f).</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§7-761.09">
         <num>(b)</num>
         <text>Section 109 (D.C. Official Code § 7-761.09) is amended by adding a new subsection (a-2) to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a-1)"/>
             <num>(a-2)</num>
             <para>
               <num>(1)</num>
@@ -83,6 +86,7 @@
         <text>A new section 113 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert doc="D.C. Code" path="7|7C" after="§7-761.12" num-value="7-761.13" history-prefix="as added"/>
             <num>113</num>
             <heading>Formal complaints.</heading>
             <para>
@@ -184,12 +188,14 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <annotation doc="D.C. Law 16-264" type="History" path="§113">Mar. 14, 2007, D.C. Law 16-264, § 113</annotation>
     </section>
-    <section>
+    <section codify:doc="D.C. Code" codify:path="§2-1831.03">
       <num>102</num>
       <text>Section 6 of the Office of Administrative Hearings Establishment Act of 2001, effective March 6, 2002 (D.C. Law 14-76; D.C. Official Code § 2-1831.03), is amended by adding a new subsection (b-15) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(b-14)"/>
           <num>(b-15)</num>
           <text>This act shall apply to all adjudicated cases involving a formal complaint filed pursuant to section 113 of the Department on Disability Services Establishment Act of 2006, passed on 2nd reading on February 6, 2018 (Enrolled version of Bill 22-154).</text>
         </para>
@@ -201,48 +207,66 @@
     <prefix>TITLE</prefix>
     <num>II</num>
     <heading>ENDING ADMISSIONS AND NEW COMMITMENTS BY PETITION OF PARENT OR GUARDIAN</heading>
-    <section>
+    <section codify:doc="D.C. Code">
       <num>201</num>
       <text>The Citizens with Intellectual Disabilities Constitutional Rights and Dignity Act of 1978, effective March 3, 1979 (D.C. Law 2-137; D.C. Official Code § 7-1301.01 <em>et seq</em>.), is amended as follows:</text>
-      <para>
+      <para codify:path="§7-1301.02|(b)">
         <num>(a)</num>
         <text>Section 102(b) (D.C. Official Code § 7-1301.02(b)) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(1)</num>
           <text>Paragraph (1) is amended by striking the word "individual" and inserting the word "person" in its place.</text>
+          <codify:find-replace count="1">
+            <find>individual</find>
+            <replace>person</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(2)</num>
           <text>Paragraph (4) is amended by striking the word "Individuals" and inserting the word "Persons" it its place.</text>
+          <codify:find-replace count="1">
+            <find>Individuals</find>
+            <replace>Persons</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§7-1301.03">
         <num>(b)</num>
         <text>Section 103 (D.C. Official Code § 7-1301.03) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(1)</num>
           <text>Paragraph (1) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="(1B)|num">
           <num>(2)</num>
           <text>Paragraph (1A) is redesignated as paragraph (1B).</text>
+          <codify:find-replace count="1">
+            <find>(1B)</find>
+            <replace>(1C)</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1A)">
           <num>(3)</num>
           <text>Paragraph (1B) is redesignated as paragraph (1C).</text>
+          <codify:find-replace count="1">
+            <find>(1A)</find>
+            <replace>(1B)</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(4)</num>
           <text>A new paragraph (1A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(1)"/>
               <num>(1A)</num>
               <text>"Adult" means a person who is at least 18 years of age.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(2A)">
           <num>(5)</num>
           <text>Paragraph (2A) is amended as follows:</text>
           <para>
@@ -257,24 +281,41 @@
             <num>(C)</num>
             <text>Subparagraph (E) is amended by striking the word "customer's" and inserting the word "person's" in its place.</text>
           </para>
+          <codify:find-replace>
+            <find>customer</find>
+            <replace>person</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2B)|(B)">
           <num>(6)</num>
           <text>Paragraph (2B)(B) is amended by striking the word "customer" and inserting the word "person" in its place.</text>
+          <codify:find-replace>
+            <find>customer</find>
+            <replace>person</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2C)">
           <num>(7)</num>
           <text>Paragraph (2C) is amended by striking the word "individual's" and inserting the word "person's" in its place.</text>
+          <codify:find-replace>
+            <find>individual</find>
+            <replace>person</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(8)</num>
           <text>Paragraph (3) is amended by striking the word "customers" and inserting the word "residents" in its place.</text>
+          <codify:find-replace>
+            <find>customers</find>
+            <replace>residents</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(9)</num>
           <text>A new paragraph (3A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(3)"/>
               <num>(3A)</num>
               <text>"Close friend" means any adult who has exhibited significant care and concern for the person and has maintained regular contact with the person so as to be familiar with the person's activities, health, and religious and moral beliefs.</text>
             </para>
@@ -286,6 +327,7 @@
           <text>Paragraph (4) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace path="(4)"/>
               <num>(4)</num>
               <text>"Commitment" means the process whereby a person becomes a ward of the District through Court proceedings under this act.</text>
             </para>
@@ -295,14 +337,20 @@
         <para>
           <num>(11)</num>
           <text>Paragraph (8B) is repealed.</text>
+          <codify:repeal path="(8B)"/>
         </para>
         <para>
           <num>(12)</num>
           <text>Paragraph (9) is repealed.</text>
+          <codify:repeal path="(9)"/>
         </para>
         <para>
           <num>(13)</num>
           <text>Paragraph (14A) is amended by striking the word "individuals" and inserting the word "persons" in its place.</text>
+          <codify:find-replace path="(14A)" count="1">
+            <find>individuals</find>
+            <replace>persons</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(14)</num>
@@ -310,10 +358,18 @@
           <para>
             <num>(A)</num>
             <text>Strike the word "Individual" and insert the word "Person" in its place.</text>
+            <codify:find-replace path="(14C)" count="1">
+              <find>Individual</find>
+              <replace>Person</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(B)</num>
             <text>Strike the phrase "an individual" and insert the phrase "a person" in its place.</text>
+            <codify:find-replace path="(14C)" count="1">
+              <find>an individual</find>
+              <replace>a person</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -327,12 +383,17 @@
             <num>(B)</num>
             <text>Strike the phrase "an individual" and insert the phrase "a person" in its place.</text>
           </para>
+          <codify:find-replace path="(16)">
+            <find>an individual</find>
+            <replace>a person</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(16)</num>
           <text>A new paragraph (21A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(21)"/>
               <num>(21A)</num>
               <text>"Religious superior" means a bishop or a member of a religious order who, under the approved constitution, laws, statutes, bylaws, or rules of the religious order or community, exercises authority over the particular community or unit of the religious order to which the member of the religious order or community belongs.</text>
             </para>
@@ -342,18 +403,28 @@
         <para>
           <num>(17)</num>
           <text>Paragraph (23) is repealed.</text>
+          <codify:repeal path="(23)"/>
         </para>
         <para>
           <num>(18)</num>
           <text>Paragraph (24) is repealed.</text>
+          <codify:repeal path="(24)"/>
         </para>
         <para>
           <num>(19)</num>
           <text>Paragraph (24C) is amended by striking the word "customer" both times it appears and inserting the word "person" in its place.</text>
+          <codify:find-replace path="(24C)" count="2">
+            <find>customer</find>
+            <replace>person</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(20)</num>
           <text>Paragraph (26) is amended by striking the phrase "an individual" and inserting the phrase "a person" in its place.</text>
+          <codify:find-replace path="(26)">
+            <find>an individual</find>
+            <replace>a person</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
@@ -366,47 +437,64 @@
             <text>TITLE III. COMMITMENTS</text>
           </include>
           <aftertext>.</aftertext>
+          <codify:find-replace path="7|13|III|heading" count="1">
+            <find>Admission, Commitment, Discharge, Transfer, Respite Care.</find>
+            <replace>Commitments.</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§7-1303.01">
           <num>(2)</num>
           <text>Section 301 (D.C. Official Code § 7-1303.01) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(A)</num>
             <text>Subsection (a) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(B)</num>
             <text>Subsection (b) is amended as follows:</text>
             <para>
               <num>(i)</num>
               <text>Strike the phrase "an individual" and insert the phrase "a person" in its place.</text>
+              <codify:find-replace count="1">
+                <find>an individual</find>
+                <replace>a person</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(ii)</num>
               <text>Strike the word "individual's" and insert the word "person's" in its place.</text>
+              <codify:find-replace count="1">
+                <find>individual's</find>
+                <replace>person's</replace>
+              </codify:find-replace>
             </para>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-1303.02">
           <num>(3)</num>
           <text>Section 302 (D.C. Official Code § 7-1303.02) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1303.03">
           <num>(4)</num>
           <text>Section 303 (D.C. Official Code § 7-1303.03) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1303.04">
           <num>(5)</num>
           <text>Section 304 (D.C. Official Code § 7-1303.04) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(A)</num>
             <text>Subsection (a) is repealed.</text>
+            <codify:repeal/>
           </para>
           <para>
             <num>(B)</num>
             <text>A new subsection (a-1) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(a)"/>
                 <num>(a-1)</num>
                 <para>
                   <num>(1)</num>
@@ -420,75 +508,104 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(C)</num>
             <text>Subsection (b) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(b-1)">
             <num>(D)</num>
             <text>Subsection (b-1) is amended as follows:</text>
             <para>
               <num>(i)</num>
               <text>Strike the phrase "an individual" and insert the phrase "a person" in its place.</text>
+              <codify:find-replace count="1">
+                <find>an individual</find>
+                <replace>a person</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(ii)</num>
               <text>Strike the phrase "the individual" and insert the phrase "the person" in its place.</text>
+              <codify:find-replace count="1">
+                <find>the individual</find>
+                <replace>the person</replace>
+              </codify:find-replace>
             </para>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-1303.05">
           <num>(6)</num>
           <text>Section 305 (D.C. Official Code § 7-1303.05) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1303.06">
           <num>(7)</num>
           <text>Section 306 (D.C. Official Code § 7-1303.06) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1303.07">
           <num>(8)</num>
           <text>Section 307 (D.C. Official Code § 7-1303.07) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1303.08">
           <num>(9)</num>
           <text>Section 308 (D.C. Official Code § 7-1303.08) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1303.09|(b)">
           <num>(10)</num>
           <text>Section 309(b) (D.C. Official Code § 7-1303.09(b)) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1303.10">
           <num>(11)</num>
           <text>Section 310 (D.C. Official Code § 7-1303.10) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1303.11">
           <num>(12)</num>
           <text>Section 311 (D.C. Official Code § 7-1303.11) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1303.12">
           <num>(13)</num>
           <text>Section 312 (D.C. Official Code § 7-1303.12) is amended by striking the phrase "committed to a facility" and inserting the word "committed" in its place.</text>
+          <codify:find-replace count="1">
+            <find>committed to a facility</find>
+            <replace>committed</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§7-1303.12a">
           <num>(14)</num>
           <text>Section 312a (D.C. Official Code § 7-1303.12a) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(A)</num>
             <text>Subsection (a) is amended as follows:</text>
             <para>
               <num>(i)</num>
               <text>Strike the phrase "an individual" and insert the phrase "a person" in its place.</text>
+              <codify:find-replace count="1">
+                <find>an individual</find>
+                <replace>a person</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(ii)</num>
               <text>Strike the phrase "the individual" and insert the phrase "the person" in its place.</text>
+              <codify:find-replace count="1">
+                <find>the individual</find>
+                <replace>the person</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(B)</num>
             <text>Subsection (b) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(C)</num>
             <text>Subsection (c) is amended as follows:</text>
             <para>
@@ -499,8 +616,12 @@
               <num>(ii)</num>
               <text>Strike the word "individual's" and insert the word "person's" in its place.</text>
             </para>
+            <codify:find-replace count="3">
+              <find>individual</find>
+              <replace>person</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(D)</num>
             <text>Subsection (d) is amended as follows:</text>
             <para>
@@ -511,155 +632,230 @@
               <num>(ii)</num>
               <text>Strike the word "individual's" both times it appears and insert the word "person's" in its place.</text>
             </para>
+            <codify:find-replace>
+              <find>individual</find>
+              <replace>person</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-1303.13">
           <num>(15)</num>
           <text>Section 313 (D.C. Official Code § 7-1303.13) is amended as follows:</text>
           <para>
             <num>(A)</num>
             <text>Strike the phrase "an individual" and insert the phrase "a person" in its place.</text>
+            <codify:find-replace count="1">
+              <find>an individual</find>
+              <replace>a person</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(B)</num>
             <text>Strike the word "individual's" and insert the word "person's" in its place.</text>
+            <codify:find-replace count="1">
+              <find>individual's</find>
+              <replace>person's</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-1303.14">
           <num>(16)</num>
           <text>Section 314 (D.C. Official Code § 7-1303.14) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1304.01">
           <num>(17)</num>
           <text>Section 401 (D.C. Official Code § 7-1304.01) is amended to read as follows:</text>
           <include>
             <section>
-              <num>401</num>
-              <heading>Proceedings for the commitment of a person found incompetent in a criminal case shall be commenced by the filing of a written petition by the District with the Court in a manner and form prescribed by the Court.</heading>
+              <codify:replace/>
+              <num codify:value="7-1304.01">401</num>
+              <heading codify:value="Commencement of commitment proceedings; filing of written petition."/>
+              <text>Proceedings for the commitment of a person found incompetent in a criminal case shall be commenced by the filing of a written petition by the District with the Court in a manner and form prescribed by the Court.</text>
               <text>A copy of the petition shall be served on the person, the person's counsel, and the person's guardian, if any.</text>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§7-1304.02">
           <num>(18)</num>
           <text>Section 402 (D.C. Official Code § 7-1304.02) is amended to read as follows:</text>
           <include>
             <section>
-              <num>402</num>
+              <codify:replace/>
+              <num codify:value="7-1304.02">402</num>
+              <heading codify:value="Representation by counsel."/>
               <text>Persons who have been committed, or whose commitment is sought pursuant to section 304(b-1), have the right to be represented by counsel, retained or appointed by the Court, in any proceeding held before the Court in accordance with this act, and they shall be informed by the Court of this right. The Court shall appoint counsel to represent the person. Whenever possible, counsel shall be appointed who has had experience in the intellectual disability area. Counsel appointed to represent persons who are unable to pay for such counsel shall be awarded compensation by the Court for his or her services in an amount determined by the Court to be fair and reasonable.</text>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§7-1304.03">
           <num>(19)</num>
           <text>Section 403 (D.C. Official Code § 7-1304.03) is amended as follows:</text>
-          <para>
+          <para codify:path="(b)|(1)">
             <num>(A)</num>
             <text>Subsection (b)(1) is amended by striking the phrase "individual or respondent" and inserting the word "person" in its place.</text>
+            <codify:find-replace count="1">
+              <find>individual or respondent</find>
+              <replace>person</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(B)</num>
             <text>Subsection (c) is amended as follows:</text>
-            <para>
+            <para codify:path="text">
               <num>(i)</num>
               <text>The lead-in language is amended by striking the phrase "shall be developed by the same persons who conduct the comprehensive evaluation (except where the comprehensive evaluation has been performed by persons not geographically accessible to the District) working jointly with the person who is the subject of the plan, and such person's parent or guardian who petitioned for the commitment. In cases where the comprehensive evaluation has been performed by persons not geographically accessible to the District, the Court shall designate other appropriate and professionally qualified persons to develop the plan. The plan shall" and inserting the word "shall" in its place.</text>
+              <codify:find-replace count="1">
+                <find>shall be developed by the same persons who conduct the comprehensive evaluation (except where the comprehensive evaluation has been performed by persons not geographically accessible to the District) working jointly with the person who is the subject of the plan, and such person's parent or guardian who petitioned for the commitment. In cases where the comprehensive evaluation has been performed by persons not geographically accessible to the District, the Court shall designate other appropriate and professionally qualified persons to develop the plan. The plan shall</find>
+                <replace>shall</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(6)">
               <num>(ii)</num>
               <text>Paragraph (6) is amended by striking the phrase ", including criteria for discharge and a projected date for discharge if commitment is recommended by the plan." and inserting a period in its place.</text>
+              <codify:find-replace count="1">
+                <find>, including criteria for discharge and a projected date for discharge if commitment is recommended by the plan</find>
+                <replace/>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(C)</num>
             <text>Subsection (d) is amended as follows:</text>
             <para>
               <num>(i)</num>
               <text>Strike the phrase "individual or respondent" and insert the word "person" in its place.</text>
+              <codify:find-replace count="1">
+                <find>individual or respondent</find>
+                <replace>person</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(ii)</num>
               <text>Strike the phrase "counsel, and to the parent or guardian if the petition was filed under section 304 or section 306" and insert the word "counsel" in its place.</text>
+              <codify:find-replace count="1">
+                <find>counsel, and to the parent or guardian if the petition was filed under § <cite path="§7-1303.04">7-1303.04</cite> or § <cite path="§7-1303.06">7-1303.06</cite></find>
+                <replace>counsel</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(iii)</num>
               <text>Strike the phrase "shall be provided to the respondent" and insert the phrase "shall be provided to the person" in its place.</text>
+              <codify:find-replace count="1">
+                <find>shall be provided to the respondent</find>
+                <replace>shall be provided to the person</replace>
+              </codify:find-replace>
             </para>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-1304.04">
           <num>(20)</num>
           <text>Section 404 (D.C. Official Code § 7-1304.04) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1304.05|(a)">
           <num>(21)</num>
           <text>Section 405(a) (D.C. Official Code § 7-1304.05(a)) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1304.06">
           <num>(22)</num>
           <text>Section 406 (D.C. Official Code § 7-1304.06) is amended as follows:</text>
           <para>
             <num>(A)</num>
             <text>Strike the phrase "Individuals whose admission has been questioned or respondents" and insert the phrase "Persons who have been committed, or whose commitment is sought pursuant to section 304(b-1)," in its place.</text>
+            <codify:find-replace count="1">
+              <find>Individuals whose admission has been questioned or respondents</find>
+              <replace>Persons who have been committed, or whose commitment is sought pursuant to section 304(b-1),</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(B)</num>
             <text>Strike the phrase "of the respondent" and insert the phrase "of the person" in its place.</text>
+            <codify:find-replace count="1">
+              <find>of the respondent</find>
+              <replace>of the person</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(C)</num>
             <text>Strike the phrase "that the respondent" both times it appears and insert the phrase "that the person" in its place.</text>
+            <codify:find-replace count="2">
+              <find>that the respondent</find>
+              <replace>that the person</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-1304.06a">
           <num>(23)</num>
           <text>Section 406a (D.C. Official Code § 7-1304.06a) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(A)</num>
             <text>Subsection (a) is amended by striking the phrase "an individual" and inserting the phrase "a person" in its place.</text>
+            <codify:find-replace count="1">
+              <find>an individual</find>
+              <replace>a person</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(B)</num>
             <text>Subsection (c) is amended by striking the word "individual" wherever it appears and inserting the word "person" in its place.</text>
+            <codify:find-replace>
+              <find>individual</find>
+              <replace>person</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(C)</num>
             <text>Subsection (d) is amended as follows:</text>
             <para>
               <num>(i)</num>
               <text>Strike the word "individual" wherever it appears and insert the word "person" in its place.</text>
+              <codify:find-replace>
+                <find>individual</find>
+                <replace>person</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(ii)</num>
               <text>Strike the word "individual's" wherever it appears and insert the word "person's" in its place.</text>
+              <!-- including in find-replace above -->
             </para>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-1304.07">
           <num>(24)</num>
           <text>Section 407 (D.C. Official Code § 7-1304.07) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(A)</num>
             <text>Subsection (a) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(B)</num>
             <text>Subsection (b) is amended by striking the word "respondent" and inserting the phrase "person whose commitment is sought" in its place.</text>
+            <codify:find-replace count="1">
+              <find>respondent</find>
+              <replace>person whose commitment is sought</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-1304.09">
           <num>(25)</num>
           <text>Section 409 (D.C. Official Code § 7-1304.09) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§7-1304.11">
           <num>(26)</num>
           <text>Section 411 (D.C. Official Code § 7-1304.11) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(A)</num>
             <text>Subsection (a) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(a)</num>
                 <para>
                   <num>(1)</num>
@@ -765,28 +961,44 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(a-1)">
             <num>(B)</num>
             <text>Subsection (a-1) is amended as follows:</text>
             <para>
               <num>(i)</num>
               <text>Strike the phrase "an individual" and insert the phrase "a person" in its place.</text>
+              <codify:find-replace count="1">
+                <find>an individual</find>
+                <replace>a person</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(ii)</num>
               <text>Strike the phrase "the individual" and insert the phrase "the person" in its place.</text>
+               <codify:find-replace count="1">
+                <find>the individual</find>
+                <replace>the person</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(iii)</num>
               <text>Strike the phrase "The individual" and insert the phrase "The person" in its place.</text>
+              <codify:find-replace count="1">
+                <find>The individual</find>
+                <replace>The person</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(C)</num>
             <text>Subsection (b) is amended by striking the phrase "an individual" and inserting the phrase "a person" in its place.</text>
+            <codify:find-replace count="1">
+                <find>an individual</find>
+                <replace>a person</replace>
+              </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-1304.13">
           <num>(27)</num>
           <text>Section 413 (D.C. Official Code § 7-1304.13) is amended as follows:</text>
           <para>
@@ -1707,7 +1919,7 @@
           <text>	Printed Name of Notary Public</text>
           <text>	My commission expires:</text>
           <text>WARNING: PROTECTION FOR PERSON SUPPORTED</text>
-          <text>	IF A PERSON WHO RECIVES A COPY OF THIS AGREEMENT OR IS AWARE OF THE EXISTENCE OF THIS AGREEMENT HAS CAUSE TO BELIEVE THAT THE ADULT NAMED AS A SUPPORTED PERSON IS BEING ABUSED, NEGLECTED, OR EXPLOITED BY THE SUPPORTER, THE PERSON MAY REPORT THE ALLEGED ABUSE, NEGLECT, OR EXPLOITATION TO THE CITYWIDE CALL CENTER AT 311, METROPOLITAN POLICE DEPARTMENT AT 911, ADULT PROTECTIVE SERVICES AT (202) 541-3950.”.</text>
+          <text>	IF A PERSON WHO RECIVES A COPY OF THIS AGREEMENT OR IS AWARE OF THE EXISTENCE OF THIS AGREEMENT HAS CAUSE TO BELIEVE THAT THE ADULT NAMED AS A SUPPORTED PERSON IS BEING ABUSED, NEGLECTED, OR EXPLOITED BY THE SUPPORTER, THE PERSON MAY REPORT THE ALLEGED ABUSE, NEGLECT, OR EXPLOITATION TO THE CITYWIDE CALL CENTER AT 311, METROPOLITAN POLICE DEPARTMENT AT 911, ADULT PROTECTIVE SERVICES AT (202) 541-3950.".</text>
         </include>
       </para>
       <para>
