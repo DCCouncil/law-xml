@@ -1,20 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" id="D.C. Act 22-252">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" id="D.C. Law 22-81">
+  <num type="law">22-81</num>
   <num type="bill">22-43</num>
   <num type="act">22-252</num>
   <heading type="short">East End Commercial Real Property Tax Rate Reduction Amendment Act of 2018</heading>
   <heading type="long">To amend section 47-812 of the District of Columbia Official Code to lower the real property tax rate for Class 2 Properties located east of the east bank of the Anacostia River.</heading>
   <meta>
-    <effective projected="true">2018-04-17</effective>
+    <effective>2018-03-29</effective>
     <citations>
+      <citation type="law" url="http://lims.dccouncil.us/Download/37199/B22-0043-SignedAct.pdf">D.C. Law 22-81</citation>
       <citation type="act" url="http://lims.dccouncil.us/Download/37199/B22-0043-SignedAct.pdf">D.C. Act 22-252</citation>
-      <citation type="register">0 DCR 0</citation>
+      <citation type="register">65 DCR 1582</citation>
     </citations>
     <history>
       <vote date="2017-12-05" reading="First"/>
       <vote date="2018-01-09" reading="Final"/>
       <enacted>2018-02-07</enacted>
-      <summary>BILL SUMMARY - As introduced, this bill lowers the real property tax rates and special real property tax rates for taxable Class 2 Properties located East of the Anacostia River beginning October 1, 2017. </summary>
+      <summary>This legislation lowers the real property tax rates and special real property tax rates for taxable Class 2 Properties located East of the Anacostia River. </summary>
       <committee>Committee on Finance and Revenue</committee>
     </history>
   </meta>
@@ -52,6 +54,7 @@
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno applicability-path="§3"/>
   </section>
   <section>
     <num>3</num>
@@ -59,6 +62,11 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 22-81" path="§2" date="notfunded" history="false"/>
+      <codify:find-replace doc="D.C. Code" path="§47-812|(b-11)" count="1" history="false">
+        <find>Not Funded.</find>
+        <replace>[Not Funded.]</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
