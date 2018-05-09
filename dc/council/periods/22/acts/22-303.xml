@@ -23,17 +23,18 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Deferred Compensation Program Enrollment Amendment Act of 2018".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Chapter 36 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="§47-3601">
       <num>(a)</num>
       <text>Section 47-3601 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by adding a new paragraph (1A) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1)"/>
             <num>(1A)</num>
             <para>
               <num>(A)</num>
@@ -56,6 +57,7 @@
         <text>A new subsection (b-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(b)"/>
             <num>(b-1)</num>
             <para>
               <num>(1)</num>
@@ -90,24 +92,33 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§47-3602">
       <num>(b)</num>
       <text>Section 47-3602 is amended as follows:</text>
-      <para>
+      <para codify:path="(2)">
         <num>(1)</num>
         <text>Paragraph (2) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>;</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(2)</num>
         <text>Paragraph (3) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace count="1">
+          <find>invested.</find>
+          <replace>invested;</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (4) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(3)"/>
             <num>(4)</num>
-            <text>Rules to implement the Deferred Compensation Program Enrollment Amendment Act of 2018, passed on 2nd reading on March 6, 2018 (Enrolled version of Bill 22-68), within 180 days of its effective date.</text>
+            <text>Rules to implement <span codify:value="[translate]">the Deferred Compensation Program Enrollment Amendment Act of 2018, passed on 2nd reading on March 6, 2018 (Enrolled version of Bill 22-68),</span> within 180 days of <span codify:value="[add effective date]">its effective date</span>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
