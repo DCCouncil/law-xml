@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" id="D.C. Act 22-278">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" id="D.C. Law 22-94">
+  <num type="law">22-94</num>
   <num type="bill">22-192</num>
   <num type="act">22-278</num>
   <heading type="short">Fair Elections Amendment Act of 2018</heading>
   <heading type="long">To amend the Board of Ethics and Government Accountability Establishment and Comprehensive Ethics Reform Amendment Act of 2011 to establish a Fair Elections Program to provide for publicly funded political campaigns.</heading>
   <meta>
-    <effective projected="true">2018-05-05</effective>
+    <effective>2018-05-05</effective>
     <citations>
+      <citation type="law" url="http://lims.dccouncil.us/Download/37693/B22-0192-SignedAct.pdf">D.C. Law 22-94</citation>
       <citation type="act" url="http://lims.dccouncil.us/Download/37693/B22-0192-SignedAct.pdf">D.C. Act 22-278</citation>
       <citation type="register">65 DCR 2847</citation>
     </citations>
@@ -41,7 +43,7 @@
         <text>A new paragraph (3A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(3)"/>
+            <!-- <codify:insert after="(3)"/> add this back in when funded-->
             <num>(3A)</num>
             <text>"Base amount" means the amounts a participating candidate is eligible to receive as lump-sum payments under <code-cite doc="D.C. Code" path="§1-1163.32d">section 332d</code-cite>.</text>
           </para>
@@ -180,7 +182,7 @@
         <text>A new paragraph (33A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(33)"/>
+            <!-- <codify:insert after="(33)"/> add back in after applicable-->
             <num>(33A)</num>
             <text>"Matching payments" means payments provided to a participating candidate for qualified small-dollar contributions under <code-cite doc="D.C. Code" path="§1-1163.32e">section 332e</code-cite>.</text>
           </para>
@@ -192,7 +194,8 @@
         <text>A new paragraph (33C) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(33B)"/>
+            <codify:insert after="(33A)"/>
+            <!--change to "(33B) after becomes applicable"  -->
             <num>(33C)</num>
             <text>"Membership organization" means an organization that:</text>
             <para>
@@ -300,6 +303,7 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1161.01" applicability-path="§3"/>
     </para>
     <para>
       <num>(b)</num>
@@ -327,6 +331,7 @@
           </include>
           <aftertext>.</aftertext>
         </para>
+        <codify:not-funded-anno doc="D.C. Code" path="§1-1163.04" applicability-path="§3"/>
       </para>
       <para codify:path="§1-1163.09">
         <num>(2)</num>
@@ -366,6 +371,7 @@
             <replace>subsections (a) and (b-1) of this section</replace>
           </codify:find-replace>
         </para>
+        <codify:not-funded-anno doc="D.C. Code" path="§1-1163.09" applicability-path="§3"/>
       </para>
       <para codify:path="§1-1163.10a">
         <num>(3)</num>
@@ -374,6 +380,7 @@
           <find>Within</find>
           <replace>Except as provided in <code-cite doc="D.C. Code" path="§1-1163.32h">section 332h</code-cite>, within</replace>
         </codify:find-replace>
+        <codify:not-funded-anno doc="D.C. Code" path="§1-1163.10a" applicability-path="§3"/>
       </para>
       <para codify:path="§1-1163.12|(a)">
         <num>(4)</num>
@@ -382,6 +389,7 @@
           <find>Finance.</find>
           <replace>Finance. The registration statement shall indicate whether the individual intends to seek certification as a participating candidate.</replace>
         </codify:find-replace>
+        <codify:not-funded-anno doc="D.C. Code" path="§1-1163.12" applicability-path="§3"/>
       </para>
       <para>
         <codify:insert doc="D.C. Code" path="1|11A|III" after="C" history="false">
@@ -932,7 +940,7 @@
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>Revenue from fines levied for violations of <span codify:value="[add law citation]">the Fair Elections Amendment Act of 2018, passed on 2nd reading on February 6, 2018 (Enrolled version of Bill 22-192)</span>.</text>
+                  <text>Revenue from fines levied for violations of <span codify:value="["/><code-cite doc="D.C. Code" path="1|11A|III|C-i"> the Fair Elections Amendment Act of 2018, passed on 2nd reading on February 6, 2018 (Enrolled version of Bill 22-192)</code-cite><span codify:value="]"/>.</text>
                 </para>
               </para>
               <para>
@@ -1106,7 +1114,7 @@
                 <num undesignated="true">(a)</num>
                 <para>
                   <num>(1)</num>
-                  <text>An evaluation of the Fair Elections Program's performance in meeting the requirements of <span codify:value="[add law citation]">the Fair Elections Amendment Act of 2018, passed on 2nd reading on February 6, 2018 (Enrolled version of Bill 22-192)</span>;</text>
+                  <text>An evaluation of the Fair Elections Program's performance in meeting the requirements of <span codify:value="["/><code-cite doc="D.C. Code" path="1|11A|III|C-i"> the Fair Elections Amendment Act of 2018, passed on 2nd reading on February 6, 2018 (Enrolled version of Bill 22-192)</code-cite><span codify:value="]"/>;</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -1125,7 +1133,7 @@
               <heading>Rules.</heading>
               <para>
                 <num>(a)</num>
-                <text>The Elections Board, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, shall issue rules to implement the provisions of <span codify:value="[add law citation]">the Fair Elections Amendment Act of 2018, passed on 2nd reading on February 6, 2018 (Enrolled version of Bill 22-192)</span>, including:</text>
+                <text>The Elections Board, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, shall issue rules to implement the provisions of <span codify:value="["/><code-cite doc="D.C. Code" path="1|11A|III|C-i"> the Fair Elections Amendment Act of 2018, passed on 2nd reading on February 6, 2018 (Enrolled version of Bill 22-192)</code-cite><span codify:value="]"/>, including:</text>
                 <para>
                   <num>(1)</num>
                   <text>Procedures for verifying and auditing qualified small-dollar contributions; and</text>
@@ -1174,9 +1182,21 @@
         <text>Section 336(a) (D.C. Official Code § 1-1163.36(a)) is amended by striking the phrase "No resources" and inserting the phrase "Except as provided in the Fair Elections Amendment Act of 2018, passed on 2nd reading on February 6, 2018 (Enrolled version of Bill 22-192), no resources" in its place.</text>
         <codify:find-replace count="1">
           <find>No resources</find>
-          <replace>Except as provided in <span codify:value="[add law citation]">the Fair Elections Amendment Act of 2018, passed on 2nd reading on February 6, 2018 (Enrolled version of Bill 22-192)</span>, no resources</replace>
+          <replace>Except as provided in <span codify:value="["/><code-cite doc="D.C. Code" path="1|11A|III|C-i"> the Fair Elections Amendment Act of 2018, passed on 2nd reading on February 6, 2018 (Enrolled version of Bill 22-192)</code-cite><span codify:value="]"/>, no resources</replace>
         </codify:find-replace>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32a" applicability-path="§3" action="creation of"/>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32b" applicability-path="§3" action="creation of"/>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32c" applicability-path="§3" action="creation of"/>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32d" applicability-path="§3" action="creation of"/>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32e" applicability-path="§3" action="creation of"/>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32f" applicability-path="§3" action="creation of"/>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32g" applicability-path="§3" action="creation of"/>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32h" applicability-path="§3" action="creation of"/>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32i" applicability-path="§3" action="creation of"/>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32j" applicability-path="§3" action="creation of"/>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32k" applicability-path="§3" action="creation of"/>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1163.32l" applicability-path="§3" action="creation of"/>
     </para>
   </section>
   <section>
@@ -1188,6 +1208,7 @@
       <para>
         <num>(1)</num>
         <text>The date of inclusion of its fiscal effect in an approved budget and financial plan; or</text>
+        <codify:applicability doc="D.C. Law 22-94" date="notfunded" history="false"/>
       </para>
       <para>
         <num>(2)</num>
