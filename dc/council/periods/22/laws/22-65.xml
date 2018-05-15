@@ -205,24 +205,28 @@
     <para>
       <num>(b)</num>
       <text>Strike the phrase "at imminent risk of becoming homeless" wherever it appears and insert the phrase "at risk of homelessness" in its place.</text>
-      <codify:find-replace path="§4-751.01" count="4">
+      <codify:find-replace path="§4-751.01" count="4" history="false">
         <find>at imminent risk of becoming homeless</find>
         <replace>at risk of homelessness</replace>
       </codify:find-replace>
-      <codify:find-replace path="§4-752.02" count="1">
+      <codify:find-replace path="§4-752.02" count="1" history="false">
         <find>at imminent risk of becoming homeless</find>
         <replace>at risk of homelessness</replace>
       </codify:find-replace>
-      <codify:find-replace path="§4-753.01" count="5">
+      <codify:find-replace path="§4-752.02a|(b)|(4)|(B)" count="1" history="false">
+        <find>at risk of becoming homeless</find>
+        <replace>[at risk of homelessness]</replace>
+      </codify:find-replace>
+      <codify:find-replace path="§4-753.01" count="5" history="false">
         <find>at imminent risk of becoming homeless</find>
         <replace>at risk of homelessness</replace>
       </codify:find-replace>
-      <codify:find-replace path="§4-753.02" count="1">
+      <codify:find-replace path="§4-753.02" count="1" history="false">
         <find>at imminent risk of becoming homeless</find>
         <replace>at risk of homelessness</replace>
       </codify:find-replace>
     </para>
-    <para codify:path="§4-751.01">
+    <para codify:path="§4-751.01" history="false">
       <num>(c)</num>
       <text>Section 2 (D.C. Official Code § 4-751.01) is amended as follows:</text>
       <para>
@@ -230,7 +234,7 @@
         <text>New paragraphs (5A) and (5B) are added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(5)"/>
+            <codify:insert after="(5)" history="false"/>
             <num>(5A)</num>
             <text>"At risk of chronic homelessness" means an individual or a family with a head of household who:</text>
             <para>
@@ -247,7 +251,7 @@
             </para>
           </para>
           <para>
-            <codify:insert after="(5A)"/>
+            <codify:insert after="(5A)" history="false"/>
             <num>(5B)</num>
             <text>"At risk of homelessness" means that an individual or family:</text>
             <para>
@@ -314,17 +318,17 @@
         <text>New paragraphs (6A), (6B), and (6C) are added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(6)"/>
+            <codify:insert after="(6)" history="false"/>
             <num>(6A)</num>
             <text>"Centralized or coordinated assessment system" means a centralized or coordinated process, which is designed to coordinate client intake, assessment, and the provision of referrals, and includes a standardized assessment tool that can be used to provide an initial assessment of the needs of individuals and families for housing and services within the Continuum of Care.</text>
           </para>
           <para>
-            <codify:insert after="(6A)"/>
+            <codify:insert after="(6A)" history="false"/>
             <num>(6B)</num>
             <text>"Centralized or coordinated assessment system protocol" means the policies and operational procedures that govern how the centralized or coordinated assessment system is administered in the District, including policies regarding client prioritization and procedures for making referrals within the Continuum of Care.</text>
           </para>
           <para>
-            <codify:insert after="(6B)"/>
+            <codify:insert after="(6B)" history="false"/>
             <num>(6C)</num>
             <text>"Chronically homeless" means:</text>
             <para>
@@ -368,7 +372,7 @@
         <text>A new paragraph (7A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(7)"/>
+            <codify:insert after="(7)" history="false"/>
             <num>(7A)</num>
             <text>"Collaborative applicant" means the entity designated to apply for federal Continuum of Care planning funds.</text>
           </para>
@@ -378,7 +382,7 @@
       <para>
         <num>(4)</num>
         <text>Paragraph (8) is amended by striking the phrase "permanent supportive housing" and inserting the phrase "permanent housing programs" in its place.</text>
-        <codify:find-replace path="(8)" count="1">
+        <codify:find-replace path="(8)" count="1" history="false">
           <find>permanent supportive housing</find>
           <replace>permanent housing programs</replace>
         </codify:find-replace>
@@ -388,7 +392,7 @@
         <text>A new paragraph (8A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(8)"/>
+            <codify:insert after="(8)" history="false"/>
             <num>(8A)</num>
             <text>"Continuum of Care Governance Board" means the board established to act on behalf of organizations and agencies in the District that provide services within the Continuum of Care, including nonprofit homeless providers, victim service providers, faith-based organizations, government agencies, businesses, advocates, public housing agencies, school districts, social service providers, mental health agencies, hospitals, universities, affordable housing developers, law enforcement, and organizations that serve homeless and formerly homeless veterans and homeless and formerly homeless people, for the purposes of operating the Continuum of Care Program pursuant to 24 C.F.R. Part 578.</text>
           </para>
@@ -400,7 +404,7 @@
         <text>A new paragraph (13A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(13)"/>
+            <codify:insert after="(13)" history="false"/>
             <num>(13A)</num>
             <text>"Domestic violence" shall have the same meaning as "intrafamily offense", as defined in<code-cite doc="D.C. Code" path="§16-1001|(8)"> D.C. Official Code § 16-1001(8)</code-cite>.</text>
           </para>
@@ -412,7 +416,7 @@
         <text>Paragraph (18) is amended to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:replace path="(18)"/>
+            <codify:replace path="(18)" history="false"/>
             <num>(18)</num>
             <text>"Homeless" means:</text>
             <para>
@@ -500,7 +504,7 @@
         <text>A new paragraph (18A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(18)"/>
+            <codify:insert after="(18)" history="false"/>
             <num>(18A)</num>
             <text>"HMIS" means the Homeless Management Information System designated by the Continuum of Care Governance Board to comply with the U.S. Department of Housing and Urban Development's data collection, management, and reporting standards and used to collect client-level data and data on the provision of housing and services to homeless individuals and families and people at risk of homelessness.</text>
           </para>
@@ -510,14 +514,14 @@
       <para>
         <num>(9)</num>
         <text>Paragraph (19) is repealed.</text>
-        <codify:repeal path="(19)"/>
+        <codify:repeal path="(19)" history="false"/>
       </para>
       <para>
         <num>(10)</num>
         <text>A new paragraph (21A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(21)"/>
+            <codify:insert after="(21)" history="false"/>
             <num>(21A)</num>
             <text>"Individual" means an unaccompanied adult or unaccompanied youth.</text>
           </para>
@@ -527,12 +531,12 @@
       <para>
         <num>(11)</num>
         <text>Paragraph (23) is repealed.</text>
-        <codify:repeal path="(23)"/>
+        <codify:repeal path="(23)" history="false"/>
       </para>
       <para>
         <num>(12)</num>
         <text>Paragraph (24) is amended by striking the phrase "on the grounds of a shelter or supportive housing facility" and inserting the phrase "in a program covered by this act" in its place.</text>
-        <codify:find-replace path="(24)" count="1">
+        <codify:find-replace path="(24)" count="1" history="false">
           <find>on the grounds of a shelter or supportive housing facility</find>
           <replace>in a program covered by <code-cite doc="D.C. Code" path="4|7A">this act</code-cite></replace>
         </codify:find-replace>
@@ -542,7 +546,7 @@
         <text>A new paragraph (24A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(24)"/>
+            <codify:insert after="(24)" history="false"/>
             <num>(24A)</num>
             <text>"Institution" means a healthcare facility, nursing home, mental health facility, foster care or other residential youth facility, substance abuse treatment or rehabilitation facility, or criminal correctional program or facility.</text>
           </para>
@@ -554,7 +558,7 @@
         <text>A new paragraph (26A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(26)"/>
+            <codify:insert after="(26)" history="false"/>
             <num>(26A)</num>
             <text>"Medical respite services" means time-limited acute and post-acute medical care that is provided in a residential medical facility or shelter to individuals who are:</text>
             <para>
@@ -572,19 +576,19 @@
       <para>
         <num>(15)</num>
         <text>Paragraph (27A) is repealed.</text>
-        <codify:repeal path="(27A)"/>
+        <codify:repeal path="(27A)" history="false"/>
       </para>
       <para>
         <num>(16)</num>
         <text>New paragraphs (27B) and (27C) are added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(27A)"/>
+            <codify:insert after="(27A)" history="false"/>
             <num>(27B)</num>
             <text>"Permanent housing" means housing without a designated length of stay, characterized by a lease or other occupancy agreement that is for a term of at least one year and renewable by the tenant named on the lease for terms that are a minimum of one month.</text>
           </para>
           <para>
-            <codify:insert after="(27B)"/>
+            <codify:insert after="(27B)" history="false"/>
             <num>(27C)</num>
             <text>"Permanent housing program" means a federally or locally funded program within the Continuum of Care through which individuals or families obtain permanent housing. The term "permanent housing program" includes Rapid Re-Housing and permanent supportive housing.</text>
           </para>
@@ -596,7 +600,7 @@
         <text>Paragraph (28) is amended to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:replace path="(28)"/>
+            <codify:replace path="(28)" history="false"/>
             <num>(28)</num>
             <text>"Permanent supportive housing" means a program that provides rental assistance and supportive services for an unrestricted period of time to assist individuals and families experiencing chronic homelessness, or at risk of experiencing chronic homelessness, to obtain and maintain permanent housing and to live as independently as possible.</text>
           </para>
@@ -608,7 +612,7 @@
         <text>Paragraph (31A) is amended to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:replace path="(31A)"/>
+            <codify:replace path="(31A)" history="false"/>
             <num>(31A)</num>
             <text>"Rapid Re-Housing" means a program that provides housing relocation and stabilization services and time-limited rental assistance, as necessary, to help a homeless individual or family move as quickly as possible into permanent housing and achieve stability in permanent housing such that recipients may remain in the housing when assistance ends.</text>
           </para>
@@ -620,7 +624,7 @@
         <text>Paragraph (32) is amended to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:replace path="(32)"/>
+            <codify:replace path="(32)" history="false"/>
             <num>(32)</num>
             <text>"Resident of the District" means an individual or family who:</text>
             <para>
@@ -697,7 +701,7 @@
       <para>
         <num>(20)</num>
         <text>Paragraph (32A) is redesignated as paragraph (32B).</text>
-        <codify:find-replace path="(32A)|num" count="1">
+        <codify:find-replace path="(32A)|num" count="1" history="false">
           <find>(32A)</find>
           <replace>(32B)</replace>
         </codify:find-replace>
@@ -707,7 +711,7 @@
         <text>A new paragraph (32A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(32)"/>
+            <codify:insert after="(32)" history="false"/>
             <num>(32A)</num>
             <text>"Retaliation" means any adverse action taken by a provider against a client in response to the client exercising any of the rights protected in <code-cite doc="D.C. Code" path="4|7A">this act</code-cite>.  Adverse actions include sanctions, loss of privileges, disparate treatment, transfers, suspensions, and terminations.</text>
           </para>
@@ -717,12 +721,12 @@
       <para>
         <num>(22)</num>
         <text>Paragraph (38) is repealed.</text>
-        <codify:repeal path="(38)"/>
+        <codify:repeal path="(38)" history="false"/>
       </para>
       <para>
         <num>(23)</num>
         <text>Paragraph (43) is amended by striking the number "24" and inserting the number "25" in its place.</text>
-        <codify:find-replace path="(43)" count="1">
+        <codify:find-replace path="(43)" count="1" history="false">
           <find>24</find>
           <replace>25</replace>
         </codify:find-replace>
@@ -849,12 +853,12 @@
           <text>Paragraphs (3) and (4) are amended to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:replace path="(3)"/>
+              <codify:replace path="(3)" history="false"/>
               <num>(3)</num>
               <text>Prepare and submit to the Mayor an annual update based on existing data and community input that reviews the strategic plan, changes in the landscape, and an assessment of the need for services among subpopulations, and that details the resources and strategies needed to support implementation of the strategic plan prepared pursuant to paragraph (2) of this subsection;</text>
             </para>
             <para>
-              <codify:replace path="(4)"/>
+              <codify:replace path="(4)" history="false"/>
               <num>(4)</num>
               <text>As part of the annual update, review the efforts of each member of the Interagency Council to fulfill the goals and policies of the strategic plan prepared pursuant to paragraph (2) of this subsection;</text>
             </para>
@@ -864,12 +868,12 @@
         <para>
           <num>(B)</num>
           <text>Paragraph (5) is repealed.</text>
-          <codify:repeal path="(5)"/>
+          <codify:repeal path="(5)" history="false"/>
         </para>
         <para>
           <num>(C)</num>
           <text>Paragraph (6) is amended by striking the phrase "and supportive housing facilities" and inserting the phrase "and transitional housing or permanent housing program facilities" in its place.</text>
-          <codify:find-replace path="(6)" count="1">
+          <codify:find-replace path="(6)" count="1" history="false">
             <find>and supportive housing facilities</find>
             <replace>and transitional housing or permanent housing program facilities</replace>
           </codify:find-replace>
@@ -879,7 +883,7 @@
           <text>Paragraph (8) is amended to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:replace path="(8)"/>
+              <codify:replace path="(8)" history="false"/>
               <num>(8)</num>
               <text>Regularly review HMIS data to assess program and system utilization and performance;</text>
             </para>
@@ -890,7 +894,7 @@
       <para>
         <num>(2)</num>
         <text>Subsection (c) is amended by striking the phrase "no later than February 1 of" and inserting the phrase "upon release of the proposed annual budget" in its place.</text>
-        <codify:find-replace path="(c)" count="1">
+        <codify:find-replace path="(c)" count="1" history="false">
           <find>no later than February 1 of</find>
           <replace>upon release of the proposed annual budget</replace>
         </codify:find-replace>
@@ -900,7 +904,7 @@
         <text>Subsection (d)(3) is amended to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:replace path="(d)|(3)"/>
+            <codify:replace path="(d)|(3)" history="false"/>
             <num>(3)</num>
             <text>Provide data as requested to the Interagency Council to support system planning and performance evaluation efforts.</text>
           </para>
@@ -914,7 +918,7 @@
       <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "District by 2020" and inserting the phrase "District by 2022" in its place.</text>
-        <codify:find-replace count="1">
+        <codify:find-replace count="1" history="false">
           <find>District by 2020</find>
           <replace>District by 2022</replace>
         </codify:find-replace>
@@ -922,7 +926,7 @@
       <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is amended by striking the phrase "District by 2020" and inserting the phrase "District by 2022" in its place.</text>
-        <codify:find-replace count="1">
+        <codify:find-replace count="1" history="false">
           <find>District by 2020</find>
           <replace>District by 2022</replace>
         </codify:find-replace>
@@ -930,7 +934,7 @@
       <para codify:path="(b)|(4)">
         <num>(3)</num>
         <text>Subsection (b)(4) by striking the phrase "District by 2020" and inserting the phrase "District by 2022" in its place.</text>
-        <codify:find-replace count="1">
+        <codify:find-replace count="1" history="false">
           <find>District by 2020</find>
           <replace>District by 2022</replace>
         </codify:find-replace>
@@ -948,7 +952,7 @@
           <para codify:path="text">
             <num>(i)</num>
             <text>The lead-in language is amended by striking the word "housing" and inserting the phrase "emergency housing" in its place.</text>
-            <codify:find-replace count="1">
+            <codify:find-replace count="1" history="false">
               <find>housing</find>
               <replace>emergency housing</replace>
             </codify:find-replace>
@@ -956,7 +960,7 @@
           <para codify:path="(B)">
             <num>(ii)</num>
             <text>Subparagraph (B) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
-            <codify:find-replace count="1">
+            <codify:find-replace count="1" history="false">
               <find>; and</find>
               <replace>;</replace>
             </codify:find-replace>
@@ -964,7 +968,7 @@
           <para codify:path="(C)">
             <num>(iii)</num>
             <text>Subparagraph (C) is amended by striking the semicolon and inserting the phrase "; and" in its place.</text>
-            <codify:find-replace count="1">
+            <codify:find-replace count="1" history="false">
               <find>;</find>
               <replace>; and</replace>
             </codify:find-replace>
@@ -974,7 +978,7 @@
             <text>A new subparagraph (D) is added to read as follows:</text>
             <include lvl="2">
               <para>
-                <codify:insert after="(C)"/>
+                <codify:insert after="(C)" history="false"/>
                 <num>(D)</num>
                 <text>Transitional housing for the purpose of providing eligible individuals and families who are homeless with up to 24 months of assistance to prepare them for self-sufficient living in permanent housing.<span codify:value="[;]"/></text>
               </para>
@@ -987,7 +991,7 @@
           <text>Paragraph (4) is amended to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:replace path="(4)"/>
+              <codify:replace path="(4)" history="false"/>
               <num>(4)</num>
               <text>Programs, which may be of short-term or long-term duration, to assist individuals and families who are homeless or at risk of homelessness to obtain and maintain permanent housing, and may include:</text>
               <para>
@@ -1009,7 +1013,7 @@
         <para>
           <num>(A)</num>
           <text>Strike the phrase "may determine whether" and insert the phrase "shall determine that" in its place.</text>
-          <codify:find-replace count="1">
+          <codify:find-replace count="1" history="false">
             <find>may determine whether</find>
             <replace>shall determine that</replace>
           </codify:find-replace>
@@ -1017,7 +1021,7 @@
         <para>
           <num>(B)</num>
           <text>Strike the phrase "domestic violence, sexual assault, or human trafficking" and insert the phrase "domestic violence, sexual assault, human trafficking, refugee status, or asylum" in its place.</text>
-          <codify:find-replace count="1">
+          <codify:find-replace count="1" history="false">
             <find>domestic violence, sexual assault, or human trafficking</find>
             <replace>domestic violence, sexual assault, human trafficking, refugee status, or asylum</replace>
           </codify:find-replace>
@@ -1034,7 +1038,7 @@
             <text>Subparagraph (B) is amended to read as follows:</text>
             <include lvl="2">
               <para>
-                <codify:replace path="(B)"/>
+                <codify:replace path="(B)" history="false"/>
                 <num>(B)</num>
                 <text>For every 2 DC General Family Shelter replacement units, one private, lockable bathroom that includes a toilet, sink, and bathtub shall be accessible to all residents.</text>
               </para>
@@ -1044,13 +1048,13 @@
           <para>
             <num>(ii)</num>
             <text>Subparagraph (C) is repealed.</text>
-            <codify:repeal path="(C)"/>
+            <codify:repeal path="(C)" history="false"/>
           </para>
         </para>
         <para codify:path="(5)">
           <num>(B)</num>
           <text>Paragraph (5) is amended by striking the number "280" and inserting the number "270" in its place.</text>
-          <codify:find-replace count="1">
+          <codify:find-replace count="1" history="false">
             <find>280</find>
             <replace>270</replace>
           </codify:find-replace>
@@ -1059,7 +1063,7 @@
       <para>
         <num>(3)</num>
         <text>Subsection (h) is repealed.</text>
-        <codify:repeal path="(h)"/>
+        <codify:repeal path="(h)" history="false"/>
       </para>
     </para>
     <para codify:path="§4-753.01a">
@@ -1075,17 +1079,17 @@
         <text>New subsections (a-2), (a-3), and (a-4) are added to read as follows:</text>
         <include>
           <para>
-            <codify:insert after="(a-1)"/>
+            <codify:insert after="(a-1)" history="false"/>
             <num>(a-2)</num>
             <text>In determining whether an applicant can demonstrate residency pursuant to <code-cite doc="D.C. Code" path="§4-751.01|(32)">section 2(32)</code-cite>, the Department shall search Department databases and other data systems to which it has access to assist individuals and families in demonstrating residency.</text>
           </para>
           <para>
-            <codify:insert after="(a-2)"/>
+            <codify:insert after="(a-2)" history="false"/>
             <num>(a-3)</num>
             <text>If in consideration of the relevant factors, the Department can demonstrate, by clear and convincing evidence, that an applicant is not a resident pursuant to subsection (a)(2) of this section, the Department may determine that the applicant is ineligible to receive services within the Continuum of Care.</text>
           </para>
           <para>
-            <codify:insert after="(a-3)"/>
+            <codify:insert after="(a-3)" history="false"/>
             <num>(a-4)</num>
             <text>If the Mayor determines that an individual or family has an ownership interest in safe housing or is listed on a lease or occupancy agreement for safe housing, the Mayor may presume that the individual or family is not eligible for shelter, unless the individual or family provides credible evidence that the individual or family cannot safely inhabit the housing associated with the lease or occupancy agreement. This presumption shall not apply to individuals or families seeking shelter for reasons of domestic violence, sexual assault, or human trafficking. Additionally, this presumption shall not affect an individual's or family's eligibility for crisis intervention services, including family mediation, conflict resolution, or other family stabilization services.</text>
           </para>
@@ -1097,7 +1101,7 @@
         <text>A new subsection (b-1) is added to read as follows:</text>
         <include>
           <para>
-            <codify:insert after="(b)"/>
+            <codify:insert after="(b)" history="false"/>
             <num>(b-1)</num>
             <para>
               <num>(1)</num>
@@ -1128,14 +1132,14 @@
         <para>
           <num>(A)</num>
           <text>Paragraph (1C) is repealed.</text>
-          <codify:repeal path="(1C)"/>
+          <codify:repeal path="(1C)" history="false"/>
         </para>
         <para>
           <num>(B)</num>
           <text>Paragraph (2) is amended to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:replace path="(2)"/>
+              <codify:replace path="(2)" history="false"/>
               <num>(2)</num>
               <text>Families who are eligible for services within the Continuum of Care shall receive appropriate referrals based on the District's centralized or coordinated assessment system protocol, consistent with any additional eligibility requirements established pursuant to <code-cite doc="D.C. Code" path="§4-754.32">section 18</code-cite> by the provider from whom services are sought.</text>
             </para>
@@ -1145,7 +1149,7 @@
         <para>
           <num>(C)</num>
           <text>Paragraph (4) is amended by striking the phrase "Notwithstanding paragraph (2) of this subsection, in" and inserting the word "In" in its place.</text>
-          <codify:find-replace path="(4)" count="1">
+          <codify:find-replace path="(4)" count="1" history="false">
             <find>Notwithstanding paragraph (2) of this subsection, in</find>
             <replace>In</replace>
           </codify:find-replace>
@@ -1158,7 +1162,7 @@
           <para>
             <num>(d)</num>
             <para>
-              <codify:replace path="(d)|(1)"/>
+              <codify:replace path="(d)|(1)" history="false"/>
               <num>(1)</num>
               <text>The Mayor shall operate the HMIS to collect, maintain, and distribute up-to-date information regarding the number of beds or units available in the Continuum of Care and the current usage and unmet demand for such beds and units.</text>
             </para>
@@ -1703,7 +1707,7 @@
       <text>A new section 22b is added to read as follows:</text>
       <include>
         <section>
-          <codify:insert path="4|7A|IV|D" after="§4-754.36a" num-value="4-754.36b"/>
+          <codify:insert path="4|7A|IV|D" after="§4-754.36a" num-value="4-754.36b" history-prefix="as added"/>
           <num>22b</num>
           <heading>Program exits.</heading>
           <para>
@@ -1748,6 +1752,7 @@
             <num>(d)</num>
             <text>A program exit is not considered a termination of services pursuant to <code-cite doc="D.C. Code" path="§4-754.36">section 22</code-cite>.</text>
           </para>
+          <annotation doc="D.C. Law 16-35" type="History">Oct. 22, 2005, D.C. Law 16-35, § 22b</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -2268,12 +2273,21 @@
           </para>
           <para>
             <num>(c)</num>
-            <text>Section <code-cite doc="D.C. Code" path="§4-754.11|(a)|(16)" codify:value="4-754.11(a)16)">Section 9(a)(16)</code-cite> and <cite doc="D.C. Code" path="§4-754.11|(a)|(18)">(18)</cite> and <span>§§</span> <code-cite doc="D.C. Code" path="§4-754.34" codify:value="4-754.34">sections 20</code-cite>, <code-cite doc="D.C. Code" path="§4-754.35" codify:value="4-754.35">21</code-cite>, <code-cite doc="D.C. Code" path="§4-754.36" codify:value="4-754.36">22</code-cite>, <code-cite doc="D.C. Code" path="§4-754.36a" codify:value="4-754.36a">22a</code-cite>, <code-cite doc="D.C. Code" path="§4-754.37" codify:value="4-754.37">23</code-cite>, <code-cite doc="D.C. Code" path="§4-754.38" codify:value="4-754.38">24</code-cite>, <code-cite doc="D.C. Code" path="§4-754.39" codify:value="4-754.39">25</code-cite>, <code-cite doc="D.C. Code" path="§4-754.41" codify:value="4-754.41">26</code-cite>, and <code-cite doc="D.C. Code" path="§4-754.42" codify:value="4-754.42">27</code-cite> shall not apply where the placement of a client receiving medical respite services is terminated, suspended, or transferred, because the client no longer requires medical respite services.</text>
+            <text>Section <code-cite doc="D.C. Code" path="§4-754.11|(a)|(16)" codify:value="4-754.11(a)(16)">Section 9(a)(16)</code-cite> and <cite doc="D.C. Code" path="§4-754.11|(a)|(18)">(18)</cite> and <span>§§</span> <code-cite doc="D.C. Code" path="§4-754.34" codify:value="4-754.34">sections 20</code-cite>, <code-cite doc="D.C. Code" path="§4-754.35" codify:value="4-754.35">21</code-cite>, <code-cite doc="D.C. Code" path="§4-754.36" codify:value="4-754.36">22</code-cite>, <code-cite doc="D.C. Code" path="§4-754.36a" codify:value="4-754.36a">22a</code-cite>, <code-cite doc="D.C. Code" path="§4-754.37" codify:value="4-754.37">23</code-cite>, <code-cite doc="D.C. Code" path="§4-754.38" codify:value="4-754.38">24</code-cite>, <code-cite doc="D.C. Code" path="§4-754.39" codify:value="4-754.39">25</code-cite>, <code-cite doc="D.C. Code" path="§4-754.41" codify:value="4-754.41">26</code-cite>, and <code-cite doc="D.C. Code" path="§4-754.42" codify:value="4-754.42">27</code-cite> shall not apply where the placement of a client receiving medical respite services is terminated, suspended, or transferred, because the client no longer requires medical respite services.</text>
           </para>
         </section>
       </include>
       <aftertext>.</aftertext>
       <annotation doc="D.C. Law 22-65" type="History" path="§2|(ll)">Oct. 22, 2005, D.C. Law 16-35, § 29a</annotation>
+      <codify:annotation doc="D.C. Code" path="§4-755.03" type="Emergency Legislation" history="false">
+       For temporary (90 days) creation of this section, see <cite doc="D.C. Act 22-195" path="§2|(c)">§ 2(c) of Medical Respite Services Exemption Emergency Amendment Act of 2017 (D.C. Act 22-195, Nov. 29, 2017, 64 DCR 12407)</cite>. 
+      </codify:annotation>
+      <codify:annotation doc="D.C. Code" path="§4-755.03" type="Temporary Legislation" history="false">
+        For temporary (225 days) creation of this section, see <cite doc="D.C. Law 21-245" path="§2|(c)">§ 2(c) of Medical Respite Services Exemption Temporary Amendment Act of 2017 (D.C. Law 21-245, Apr. 7, 2017, 64 DCR 1618)</cite>.
+      </codify:annotation>
+      <codify:annotation doc="D.C. Code" path="§4-755.03" type="Temporary Legislation" history="false">
+        For temporary (225 days) addition of this section, see <cite doc="D.C. Law 22-51" path="§2|(c)">§ 2(c) of Medical Respite Services Exemption Temporary Amendment Act of 2017 (D.C. Law 22-51, Jan. 27, 2018, 64 DCR 12549)</cite>.
+      </codify:annotation>
     </para>
     <para>
       <num>(mm)</num>
@@ -2285,7 +2299,7 @@
       <text>A new section 31d is added to read as follows:</text>
       <include>
         <section>
-          <codify:insert path="4|7A|VI" after="§4-756.05" num-value="4-756.06"/>
+          <codify:insert path="4|7A|VI" after="§4-756.05" num-value="4-756.06" history-prefix="as added"/>
           <num>31d</num>
           <heading>Annual Rapid Re-Housing report.</heading>
           <para>
@@ -2379,6 +2393,7 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 16-35" type="History" path="§31d">Oct. 22, 2005, D.C. Law 16-35, §  31d</annotation>
       <codify:not-funded-anno doc="D.C. Law 22-65" path="§2|(nn)" applicability-path="§5" action="creation of"/>
     </para>
     <para>
@@ -2386,7 +2401,7 @@
       <text>A new section 31e is added to read as follows:</text>
       <include>
         <section>
-          <codify:insert path="4|7A|VI" after="§4-756.06" num-value="4-756.07"/>
+          <codify:insert path="4|7A|VI" after="§4-756.06" num-value="4-756.07" history-prefix="as added"/>
           <num>31e</num>
           <heading>Voluntary program for former Rapid Re-Housing participants.</heading>
           <para>
@@ -2412,6 +2427,7 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 16-35" type="History" path="§31e">Oct. 22, 2005, D.C. Law 16-35, §  31e</annotation>
       <codify:not-funded-anno doc="D.C. Law 22-65" path="§2|(oo)" applicability-path="§5" action="creation of"/>
     </para>
   </section>
@@ -2452,8 +2468,8 @@
     <para>
       <num>(a)</num>
       <text>Section 2(nn) and (oo) shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
-      <codify:applicability  path="§2|(nn)" date="notfunded" history="false"/>
-      <codify:applicability  path="§2|(oo)" date="notfunded" history="false"/>
+      <codify:applicability path="§2|(nn)" date="notfunded" history="false"/>
+      <codify:applicability path="§2|(oo)" date="notfunded" history="false"/>
     </para>
     <para>
       <num>(b)</num>
