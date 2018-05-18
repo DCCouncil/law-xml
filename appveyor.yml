@@ -72,13 +72,6 @@ before_build:
     git -C ..\dc-law-xml-codified checkout %appveyor_repo_branch% ||
     git -C ..\dc-law-xml-codified checkout -b %appveyor_repo_branch%
   # install versioned resources (if and only if the build is a tag or cron build)
-  - ps: >-
-      If ($env:APPVEYOR_REPO_TAG_NAME -Or $env:APPVEYOR_SCHEDULED_BUILD) {
-        echo "Setting versions."
-        $versions = (Get-Content -Raw -Path ..\dc-law-html\version.json | ConvertFrom-Json);
-        Set-AppveyorBuildVariable -Name olcore_version -Value "$($versions.('open-law-core'))";
-        Set-AppveyorBuildVariable -Name ol_us_dc_version -Value "$($versions.('open-law-us-dc'))";
-      }
   - "%PYTHON%\\python.exe -m pip install wheel"
   - "%PYTHON%\\python.exe -m pip install --src .. --index-url https://dl.cloudsmith.io/%OLL_ENTITLEMENT_TOKEN%/openlawlibrary/production-us-dc/python/index/ --extra-index-url https://pypi.python.org/simple/ -r requirements.txt"
   # print out the git commits for each repo
