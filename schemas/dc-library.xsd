@@ -176,6 +176,13 @@
       <xs:attribute name="lvl" type="xs:string"/>
     </xs:complexType>
   </xs:element>
+  <xs:element name="introduced">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="date-or-empty" />
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="library">
     <xs:complexType>
       <xs:sequence>
@@ -191,16 +198,17 @@
   <xs:element name="meta">
     <xs:complexType>
       <xs:sequence>
+        <xs:element ref="introduced" minOccurs="0"/>
         <xs:element ref="effective" minOccurs="0"/>
-          <xs:element name="temporary" minOccurs="0">
-            <xs:complexType>
-              <xs:simpleContent>
-                <xs:extension base="xs:string">
-                  <xs:attribute name="emergency" type="xs:string" use="optional"/>
-                </xs:extension>
-              </xs:simpleContent>
-            </xs:complexType>
-          </xs:element>
+        <xs:element name="temporary" minOccurs="0">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="emergency" type="xs:string" use="optional"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
         <xs:element name="recency" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
