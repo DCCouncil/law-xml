@@ -58,7 +58,10 @@
     <para>
       <num>(a)</num>
       <text>Subparagraph (B) is amended by striking the phrase "Title 48; or" and inserting the phrase "Title 48;" in its place.</text>
-      <codify:find-replace path="(B)" find="Title 48; or" replace="Title 48;"/>
+      <codify:find-replace path="(B)">
+        <find><cite path="48|11">Chapter 11 of Title 48</cite>; or</find>
+        <replace><cite path="48|11">Chapter 11 of Title 48</cite>;</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
