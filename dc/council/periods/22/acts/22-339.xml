@@ -91,7 +91,7 @@
         <text>Subsection (a) is amended by striking the phrase "sections 409(4), 410(4), and 411(4), respectively," both times it appears and inserting the phrase "sections 410(4) and 411(4), respectively, or within 90 days of delivering an offer of sale to an elderly tenant or a tenant with a disability pursuant to section 409(c)," in its place.</text>
         <codify:find-replace count="2">
           <find>§§ <cite path="§42-3404.09|(4)">42-3404.09(4)</cite>, <cite path="§42-3404.10|(4)">42-3404.10(4)</cite>, and <cite path="§42-3404.11|(4)">42-3404.11(4)</cite>, respectively,</find>
-          <replace><span codify:value="§§ "></span><code-cite doc="D.C. Code" path="§42-3404.10|(4)" codify:value="42-3404.10(4)">sections 410(4)</code-cite> and <code-cite doc="D.C. Code" path="§42-3404.11|(4)" codify:value="42-3404.11(4)">411(4)</code-cite>, respectively, or within 90 days of delivering an offer of sale to an elderly tenant or a tenant with a disability pursuant to <code-cite doc="D.C. Code" path="§42-3404.09|(c)">section 409(c)</code-cite>,</replace>
+          <replace><span codify:value="§§ "/><code-cite doc="D.C. Code" path="§42-3404.10|(4)" codify:value="42-3404.10(4)">sections 410(4)</code-cite> and <code-cite doc="D.C. Code" path="§42-3404.11|(4)" codify:value="42-3404.11(4)">411(4)</code-cite>, respectively, or within 90 days of delivering an offer of sale to an elderly tenant or a tenant with a disability pursuant to <code-cite doc="D.C. Code" path="§42-3404.09|(c)">section 409(c)</code-cite>,</replace>
         </codify:find-replace>
       </para>
       <para codify:path="(a-1)">
@@ -101,19 +101,21 @@
           <find>
             <cite path="§42-3404.09">42-3404.09</cite>
           </find>
-          <replace><code-cite doc="D.C. Code" path="§42-3404.09|(c)" codify:value="42-3404.09">409(c)</code-cite></replace>
+          <replace>
+            <code-cite doc="D.C. Code" path="§42-3404.09|(c)" codify:value="42-3404.09">409(c)</code-cite>
+          </replace>
         </codify:find-replace>
       </para>
     </para>
     <para codify:path="§42-3404.08">
       <num>(c)</num>
       <text>Section 408 (D.C. Official Code § 42-3404.08) is amended by striking the phrase "409(2)" and inserting the phrase "409(c)(4)" in its place.</text>
-      <codify:find-replace count="1">
-        <find><cite path="§42-3404.09|(2)">42-3404.09(2)</cite></find>
-        <replace><code-cite doc="D.C. Code" path="§42-3404.09|(c)|(4)">409(c)(4)</code-cite></replace>
-      </codify:find-replace>
-      <codify:find-replace count="1">
+      <codify:find-replace doc="D.C. Code" path="§42-3404.08" position="first" count="1">
         <find><cite path="§42-3404.09|(2)">§ 42-3404.09(2)</cite></find>
+        <replace><code-cite doc="D.C. Code" path="§42-3404.09|(c)|(4)" codify:value="§ 42-3404.09(c)(4)">409(c)(4)</code-cite></replace>
+      </codify:find-replace>
+      <codify:find-replace doc="D.C. Code" path="§42-3404.08" count="1">
+        <find><cite path="§42-3404.09|(2)">42-3404.09(2)</cite></find>
         <replace><code-cite doc="D.C. Code" path="§42-3404.09|(c)|(4)" codify:value="42-3404.09(c)(4)">409(c)(4)</code-cite></replace>
       </codify:find-replace>
     </para>
@@ -403,9 +405,11 @@
       <num>(f)</num>
       <text>Section 412 (D.C. Official Code § 42-3404.12) is amended by striking the phrase "409(3)" and inserting the phrase "409(c)(5)" in its place.</text>
       <codify:find-replace count="1">
-      <!-- organic has 409(3) and (4) tech? -->
+        <!-- organic has 409(3) and (4) tech? -->
         <find>42-3404.09(3) and (4)</find>
-        <replace><span codify:value="[42-3404.09(c)(5)]">409(c)(5)</span></replace>
+        <replace>
+          <span codify:value="[42-3404.09(c)(5)]">409(c)(5)</span>
+        </replace>
       </codify:find-replace>
     </para>
   </section>
