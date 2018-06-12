@@ -42,6 +42,7 @@
       <xs:simpleContent>
         <xs:extension base="xs:string">
           <xs:attribute name="root" type="xs:string" use="optional"/>
+          <xs:attribute name="proof" type="xs:string" use="optional"/>
           <xs:attributeGroup ref="targetAttributes"/>
           <xs:attribute ref="codify:value" use="optional"/>
         </xs:extension>
