@@ -3,26 +3,13 @@ environment:
     # For Python versions available on Appveyor, see
     # http://www.appveyor.com/docs/installed-software#python
     - PYTHON: "C:\\Python36-x64"
-  OLL_ENTITLEMENT_TOKEN:
-    # this comes from https://cloudsmith.io/package/ns/openlawlibrary/repos/production-us-dc/entitlements/
-    # `us/dc/council` entitlement token; it was then encrypted using
-    # https://ci.appveyor.com/tools/encrypt
-    secure: SvOdeiXegi7RlMo6o+RXP1lMJt3mIWBhstIcQM+d3B0=
-  dc_law_html_ssh_key:
-    # this is a private SSH key providing read/write access to this repo
-    # (a `deploy key` in GitHub parlance)
-    # it is encrypted with AppVeyor's encryption tool: https://ci.appveyor.com/tools/encrypt
-    secure: m6d0srwUZqepdpci8jstrwr5xkqrE64XMQHn7UvMpMQwi8/Eh6yrltg923MpKceqGzEGYQIEHm77OjUQ/iRRRppFv1Mw8zmBsULppcE6UlRxPNEEeYZQt2tl8NdGXnAjjxisR37SfCesyt98ftsaqzzTyMTdYwZGNshnQBk4rRr2ahe+Ymbxd7MA4L5pkknTBN/dHQeY2HENknFKLQpqLcAtnI5EZW9Kpjco3/MWnLm/xPXeswJlYtVbWuG3znnvSeIwlXSHxiAkeS+3rTZy3jX64VzyZcLTZaWx3j6NgOjRi4JR0FVgj5Tg9bT3qYNQHd3kBkgEF0UXh/1aNlKPNuhgktoT2Ga8m8z7ZVWkDH2COq22qyZfiXLBMp/ktuCFEFukxpC7BAp4636hHxygCY/ABeQnOnaViYCH1l2GQOx8OHlMSXpRHqBIWTtocGo0/0XCo2Fq5FlOo9I3y17P/PCAK1hBXGnRZHSRjgdCzU8adU/tu90zRMwppXtvXjJUYfSEcnZ/BBkdjaLzWyjVhlcFX3zb78ikYmER71vmvVo7dhZi0UiiDhVv3ZbYL2rpZSMM3Qzl9OVsRqbezW6Z0qwZWaCGuzwipfHH3W0CGujM4gGgw1RV12oriG89wlayP0eXoBog/lqQbD3EtUgSFhaBumzBgjFy3LUQcHE3o4uEfDBJH8pDB3TziZDUtO9a64RMv35PkdVxZhoH3hBXfrdcvJLgFZCzkU8qx+BlnHMOKniN618LiTODUij92Dd5ZADnweC/ro9ck+rpva6PnP6/LvS2J/vRulzTQmO6FXbeQKPjW3w677CO6x2/9zlbq6XXK2tCOxDrQNGnRvS78i5TLDyXa2ChvucxlfsVFoxAwCSStv5gqHp4pA9j4HUtKnY5Hqendzdl1J4b6GsWDeN5NF2iizedRQ/xYJvg+X56pRl9PK8wgw2ZsuSYVzwtdDfFcXRQxMX00ssKizwZ6rzSVMyEi0qFflS3IQbtytufnXLKFkyqq/Ls1vADeehM9O1SFv7wxgKesB8niAufwzPRYa2Twuz8lNNs77t1mFyGxTSNC1Uu58TDlWFZTIEiEs1HmjcYyewt8x312NeNyUuqDUw3r9c/83uoAwiI/nUrsCoQ5bHHf6q7L5ufEWCOWnrvsGAKLfZJy44Qfo6raGhYN/fiEmEA8Et2iLcTua/QGmqAUY4qZZsuEjwz9FyDVECq4rBwO167bgc5pMIlXA86776BCfsiWX43Q3sCSG3sc8HqbIhwbA6JvlLly9rrviyuekXp5qUEsFntxy8FOfOmuqkeCKcUbxOJ215biJtFzMTjzYIzPYFY+sMvWJsBIUASd1hywelE0OCS+lY6JclzoMaizL1Dt+l8/la95nFWbs8pP96b2OQjY61eWs5SxxfoymXYIjYIUwRExCKXXnHsHR8lrh45R9rXNZCR0g2CtuLuRva/BQdNEIfe/Djci8JwyS8EBMQ+OuFKtcj2R3z+2Sg4HqxrKWYojcJip8kkipLl/R5sW1KzpicL6syVG1xcI759fC8S70eaSBAysLyJJKpRPyH5LZVOHg++gLtjv4Z6GX5EZ0r3JUs4iE6qF813J7J3MlH2neu2JJsKtiiM1kgoPYURNSrHgMgXsTvubYkBq4fUolfV9zKsv5Zn+X2JVFFukoVGPJLT22+LURCn8B4cikkkrBPR6hPzHT94aEgZl0+sNz7PN8qU9P6pjfkyGKxxrPSrAzFJnmxGilMqMHA/tZXTuUegbcK4Ii5eLQd+wOEJ12tbWeo8uJkAszAUY+8JLnl0HfDe5m+6bghbr+aO11pk8swS7ukR0yZxsG5bww6w62jAepELqTAecYT1cbufB/h21yHWCaRgw+cRsjj2/rYaNzLaNO0tGXbuLCHIS8lGm0j6PQc/yDMJ6/1E4l0wldgnqQGjV5gFTbIrs5NY776o//9xHIeyPwWhg+D1WbwT7q86U7AvGe5my+IjX7q5GatV8qq+d9OzyfVfw/QWod8tB5Zc7097TolOEl7sL6Kr90oZaQyXhxZptNA+/vWO6kDNNHvWSN9w6mc18uLjS5/9r+Z752H3Z48hKBWOM2HkC3E49G5K3NXSIANe1as/XgPQE/dOmZaDn+WZvD3cqZ0+e7qdFfTbGYv1DJlU1PaL4nZFzQGugmu7m1fBoZEx2hvwxUo1GXEtzMWR1CGKOcickbv0zh7XHJJCgczw507TAoHO0RxzHg2S6ZdbK0JQ+Sje+/miYuGyb8ClQD9WP2ksmQ1dp627h8mVJrmAM2RLFdE13pS7UHIgoN6ir/Eu96Hz42Rhp23055cLatX9IcjQezDy9aZaQgpiNlS22oBsx4p59w/RJADAtXYAjtlhH279/0pF2RcDihf5/E8w2QqBXBT16Hh7TLk5TadEwT8c6kVhTaiAjYai6sU4Z2gwp0C9NOYRJzP20enMCgOku0ZBqHY+wHNgRDK8RAFXw4cpEU3DN3q4/DP4alIVwFYOl6DG1JrF/LS8aAAJbEJdmH3f92/ZhgtdgSb/Y1eVLKInwXF6cIf3mLAZ2io5cHlwVnPdce31U/EON4jZC/WYVd4vn6/PNhxB3QJmpYA0Mkualpgr1PwxKIFITXy1J+e1mR/WOMGCw33LvasCIJclFRWXtS5X+KxyJkd+2AH8HA5Li+oHU3NxRMpZLC39KT77xWJ1PAo/6x7+sgUcW6Gs7Z2G0pMwn3G2RaxBTDIxSxPGgHGEIfR5uj7tHCd8pKLIeS/hlWU91UFO/xGSce9fIsrirFBAhir2Vy2x6F++P1M3A2p8XuvMtmIk7DvOoXehxXuaFgJpxr8w3++wexXZShCMwBIjarmVIJg8EpVP0qhpcV/qkAX72a0KGiz8MPHYgiMVr+OnSVOsWOwsYz0KFIhqrnPLpT2S6M+JQyA+dcyAgATq3fOxDfCepFH0YUGp/cPTFKz8y78NJJ4fuGtCH52xRlIOukh/uuutAUMjvQmxYKXaIIwkgpdWVSGMb5pEFGiHntIDVuaVoCxSLjcAqO9d3mM3lBmOVONDKq3yrqDE3rt0BMyCZlgH/ENcdVTVQMFaP2f8MAlniNOpfAd7+08t5hjHlVsL8AZAeIq9+XkzjQO+K+saULFlAyY9XT8eldwqOYrVqYpyUKL5r/gP3omkWvu/+YzmWWE4faLpKYeO+YWCKvJz5yokBTuMFf9q38Dp3eBEBHfLXQgLH45rU4I45cpj8uVlqZwYhpqHNr/M6ba/uH2Hmxom+IExAdD3pDt73+o3AXHIVYn64RKXxd5+wWaLTs71GTbrSVHCvsO6ZfQGa6C9Fa1pEM9yVXfjVEmkXQ3wakFlUy//D2TCfJ7q9tq2WdzLor7Lfd28l3jA0iJ1BwmNUC3qErAT1E1nuekhCWrYjvWGBRl+fvJfaGSotolKM0M+cx+3xUnxKFH6jeNlWD7xLvRn/mB/S7PquyKWeef4lxjSFPR7bJq0UGcJs0nk8NlCLFglHk1Nn8FDtk7jZHEPl4SKh9GlCZkwUgHQ/DP+SxRqhPeVE8P27wHZxoPgZJvY+PQzHNRYsYduyqW2uvNWbKU0jn0w7MbMlXG9+7glmbws5JSBMDD1JMgTOidEhe+h6Yn0Tma+FsRbH6S/MEYHL1uYghxRRBWAepX9Q2uaSXoAt2coNURNSuDyt2DltWu8ts2xD7BO1XDF52bQzE4jjgyBmfGXgua/R4bpWY7jv5HtPYW+flYSpS4a6ot/uulcw5zJw6UyulUOqq/eDQx8jBkSShXaUYxrN1TasnW1vfkDnBIUqshRUYkmkE9UHjG3Q4NdJ+i2pByb2djy42eA50b5RFxt+im0ZhshEaX+NMt1HG6OC2FKiHJYhdK+HIFgGiDrDVkoR6d74DFMea0oAZ3kUH3e4G1eTwmfiUIxDSogBxmOoVc252QO5K9Ow7hoF/3YbIkXvDz6fe4/zgKt8UlBH5wIAOVXAm6xS16EoFZ7xfxbV0PsD/pHZOCQCS20Gd5ZO0OqacbPDPE7JD0lGOUCHbPSBTxD/oNawrH2gYN2HK+4udXJPiifAdUhu9k5p7xN4EozVbja23E3RZ+gfQMLB7zMVmgYLJCbVVGe3Ge9gT3u+cg+Ndtol2ROLos0mTQUA62UFVwhDSjGfMwIyXyERNwIyliC/DeIRHR0eLx5BtwVGVvvf4yjvPrPxEG02xv8R/lH4Lz+RT41zmaB893Bg+oGxsFSPBcKy+LknWzcOw==
-  dc_law_xml_codified_ssh_key:
-    # this is a private SSH key providing read/write access to this repo
-    # (a `deploy key` in GitHub parlance)
-    # it is encrypted with AppVeyor's encryption tool: https://ci.appveyor.com/tools/encrypt
-    secure: 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
+
+# Do not build feature branch with open Pull Requests
+skip_branch_with_pr: true
 
 init:
   # exit if secure variables are unset (saves time if fired by a non-team pull request)
-  - ps: if ($env:dc_law_html_ssh_key -eq $null) { exit }
-  - ps: if ($env:dc_law_xml_codified_ssh_key -eq $null) { exit }
+  - ps: if ($env:GH_SSH_PRIVATE_KEY -eq $null) { exit }
 
   - git config --global user.name oll-bot
   - git config --global user.email developers@openlawlib.org
@@ -30,39 +17,18 @@ init:
 install:
   # the only way we can use the deploy key is by putting it in an environment variable (see above)
   # and then using PowerShell (ps) to copy the environment variable into a file (see below)
-  # dc-law-html ssh deploy key
-  - ps: $dc_law_html_rsa = "~/.ssh/dc-law-html.rsa"
-  - ps: $key1 = "-----BEGIN RSA PRIVATE KEY-----`n"
-  - ps: $key1 += $env:dc_law_html_ssh_key.Replace(" ", "`n")
-  - ps: $key1 += "`n-----END RSA PRIVATE KEY-----`n"
-  - ps: Set-Content $dc_law_html_rsa $key1
-  - ps: if (-not (Test-Path $dc_law_html_rsa)) { exit }
-  # dc-law-xml-codified ssh deploy key
-  - ps: $dc_law_xml_codified_rsa = "~/.ssh/dc-law-xml-codified.rsa"
-  - ps: $key2 = "-----BEGIN RSA PRIVATE KEY-----`n"
-  - ps: $key2 += $env:dc_law_xml_codified_ssh_key.Replace(" ", "`n")
-  - ps: $key2 += "`n-----END RSA PRIVATE KEY-----`n"
-  - ps: Set-Content $dc_law_xml_codified_rsa $key2
-  - ps: if (-not (Test-Path $dc_law_xml_codified_rsa)) { exit }
-  - ps: >-
-      # create or update ~/.ssh/config to have our host identity (rsa)
-      # files, so we can use multiple ssh deploy keys
-
-      $appveyor_ssh_config = "c:\users\appveyor\.ssh\config";
-      $ssh_config = "./ssh_config";
-      if (Test-Path $appveyor_ssh_config) {
-        cat $appveyor_ssh_config, $ssh_config | sc $appveyor_ssh_config;
-      } else {
-        cat $ssh_config | sc $appveyor_ssh_config;
-      };
-      cat $appveyor_ssh_config;
+  # begin/end key lines should be in the environment variable
+  - ps: $key = "-----BEGIN RSA PRIVATE KEY-----`n"
+  - ps: $key += $env:GH_SSH_PRIVATE_KEY.Replace(" ", "`n")
+  - ps: $key += "`n-----END RSA PRIVATE KEY-----`n"
+  - ps: Set-Content c:\users\appveyor\.ssh\id_rsa $key
 
 before_build:
   # clone the repos needed prior to codifying and building the HTML
-  - git clone --depth 1 --branch %appveyor_repo_branch% git@dc-law-html-host:dccouncil/dc-law-html.git ..\dc-law-html ||
-    git clone --depth 1 git@dc-law-html-host:dccouncil/dc-law-html.git ..\dc-law-html
-  - git clone --depth 1 --branch %appveyor_repo_branch% git@dc-law-xml-codified-host:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified ||
-    git clone --depth 1 git@dc-law-xml-codified-host:dccouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
+  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:DCCouncil/dc-law-html.git ..\dc-law-html ||
+    git clone --depth 1 git@github.com:DCCouncil/dc-law-html.git ..\dc-law-html
+  - git clone --depth 1 --branch %appveyor_repo_branch% git@github.com:DCCouncil/dc-law-xml-codified.git ..\dc-law-xml-codified ||
+    git clone --depth 1 git@github.com:DCCouncil/dc-law-xml-codified.git ..\dc-law-xml-codified
   # use or create a branch in dc-law-html with the same name
   - git -C ..\dc-law-html fetch origin %appveyor_repo_branch% &&
     git -C ..\dc-law-html checkout %appveyor_repo_branch% ||
@@ -73,7 +39,7 @@ before_build:
     git -C ..\dc-law-xml-codified checkout -b %appveyor_repo_branch%
   # install versioned resources (if and only if the build is a tag or cron build)
   - "%PYTHON%\\python.exe -m pip install wheel"
-  - "%PYTHON%\\python.exe -m pip install --src .. --index-url https://dl.cloudsmith.io/%OLL_ENTITLEMENT_TOKEN%/openlawlibrary/production-us-dc/python/index/ --extra-index-url https://pypi.python.org/simple/ -r requirements.txt"
+  - "%PYTHON%\\python.exe -m pip install --src .. -r requirements.txt"
   # print out the git commits for each repo
   - git -C ..\dc-law-xml-codified rev-parse HEAD
   - git -C ..\dc-law-html rev-parse HEAD
