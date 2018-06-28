@@ -38,8 +38,8 @@ before_build:
     git -C ..\dc-law-xml-codified checkout %appveyor_repo_branch% ||
     git -C ..\dc-law-xml-codified checkout -b %appveyor_repo_branch%
   # install versioned resources (if and only if the build is a tag or cron build)
-  - "%PYTHON%\\python.exe -m pip install wheel"
-  - "%PYTHON%\\python.exe -m pip install --src .. -r requirements.txt"
+  - "%PYTHON%\\python.exe -m pip -q install wheel"
+  - "%PYTHON%\\python.exe -m pip -q install --src .. -r requirements.txt"
   # print out the git commits for each repo
   - git -C ..\dc-law-xml-codified rev-parse HEAD
   - git -C ..\dc-law-html rev-parse HEAD
