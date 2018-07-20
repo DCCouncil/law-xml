@@ -1,12 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 22-367">
+<document xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 22-140">
+  <num type="law">22-140</num>
   <num type="bill">22-185</num>
   <num type="act">22-367</num>
   <heading type="short">Consumer Protection Clarification and Enhancement Amendment Act of 2018</heading>
   <heading type="long">To amend Chapter 39 of Title 28 of the District of Columbia Official Code to clarify the definition of unfair or deceptive trade practice, to clarify that an unfair or deceptive trade practice shall be considered a violation of the District's consumer protection laws, to include as an enumerated unfair or deceptive trade practice the violation of an agreement with the Attorney General for the District of Columbia for compliance with the provisions of Chapter 39, to clarify that the equitable relief available in an action brought by the Attorney General for the District of Columbia for a violation of the District's consumer protection laws includes an order requiring a violator to take affirmative action, including making restitution of money or property, and to increase the amount of the civil penalty for a violation of the District's consumer protection laws in an action brought by the Attorney General for the District of Columbia.</heading>
   <meta>
-    <effective projected="true">2018-07-24</effective>
+    <introduced>2017-03-09</introduced>
+    <effective>2018-07-17</effective>
     <citations>
+      <citation type="law" url="http://lims.dccouncil.us/Download/37659/B22-0185-SignedAct.pdf">D.C. Law 22-140</citation>
       <citation type="act" url="http://lims.dccouncil.us/Download/37659/B22-0185-SignedAct.pdf">D.C. Act 22-367</citation>
       <citation type="register">65 DCR 5970</citation>
     </citations>
@@ -75,7 +78,7 @@
         <aftertext>.</aftertext>
         <codify:find-replace count="1">
           <find>It shall be a violation of this chapter, whether or not any consumer is in fact misled, deceived or damaged thereby, for any person to:</find>
-          <replace>It shall be a violation of this chapter for any person to engage in an unfair or deceptive trade practice, whether or not any consumer is in fact misled, deceived, or damaged thereby, including to:</replace>
+          <replace>It shall be a violation of <cite doc="D.C. Code" path="38|39">this chapter</cite> for any person to engage in an unfair or deceptive trade practice, whether or not any consumer is in fact misled, deceived, or damaged thereby, including to:</replace>
         </codify:find-replace>
       </para>
       <para codify:path="(hh)">
@@ -83,15 +86,15 @@
         <text>Subsection (hh) is amended by striking the word "or".</text>
         <codify:find-replace count="1">
           <find>or</find>
-          <replace></replace>
+          <replace/>
         </codify:find-replace>
       </para>
       <para codify:path="(ii)">
         <num>(4)</num>
         <text>Subsection (ii) is amended by striking the period and inserting the phrase "; or" in its place.</text>
         <codify:find-replace count="1">
-          <find>title.</find>
-          <replace>title; or</replace>
+          <find><cite doc="D.C. Code" path="28|53">Chapter 53 of this title</cite>.</find>
+          <replace><cite doc="D.C. Code" path="28|53">Chapter 53 of this title</cite>; or</replace>
         </codify:find-replace>
       </para>
       <para>
@@ -101,7 +104,7 @@
           <para>
             <codify:insert after="(ii)"/>
             <num>(jj)</num>
-            <text>violate any agreement entered into pursuant to section 28-3909(c)(6).</text>
+            <text>violate any agreement entered into pursuant to <cite doc="D.C. Code" path="§28-3909|(c)|(6)">section 28-3909(c)(6)</cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -178,17 +181,17 @@
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "Corporation Counsel" and inserting the phrase "Attorney General" in its place.</text>
         <codify:find-replace count="1">
-            <find>Corporation Counsel</find>
-            <replace>Attorney General for the District of Columbia</replace>
-          </codify:find-replace>
+          <find>Corporation Counsel</find>
+          <replace>Attorney General [for the District of Columbia]</replace>
+        </codify:find-replace>
       </para>
       <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is amended by striking the phrase "Corporation Counsel" and inserting the phrase "Attorney General for the District of Columbia" in its place.</text>
         <codify:find-replace count="1">
-            <find>Corporation Counsel</find>
-            <replace>Attorney General for the District of Columbia</replace>
-          </codify:find-replace>
+          <find>Corporation Counsel</find>
+          <replace>Attorney General for the District of Columbia</replace>
+        </codify:find-replace>
       </para>
     </para>
   </section>
