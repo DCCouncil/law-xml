@@ -329,6 +329,8 @@
   <xs:attributeGroup name="allAttributes">
     <xs:attribute ref="applicability" use="optional"/>
     <xs:attribute ref="doc" use="optional"/>
+	<xs:attribute name="display" type="xs:string" use="optional"/>
+	<xs:attribute name="display-template" type="xs:string" use="optional"/>
     <xs:attribute ref="expire" use="optional"/>
     <xs:attribute name="history" type="falseOnlyType" use="optional"/>
     <xs:attribute name="history-prefix" type="xs:string" use="optional"/>
@@ -346,6 +348,12 @@
     </xs:attribute>
   </xs:attributeGroup>
   <xs:attributeGroup name="sharedAttributes">
+    <xs:attribute name="display" type="xs:string" use="optional">
+      <!-- @summary: Redefines default marginalia instruction  -->
+    </xs:attribute>
+    <xs:attribute name="display-template" type="xs:string" use="optional">
+      <!-- @summary: Redefines default marginalia template  -->
+	</xs:attribute>
     <xs:attribute name="history" type="falseOnlyType" use="optional">
       <!-- @summary: Setting ``history=false`` to prevent creation of a history entry.-->
     </xs:attribute>
