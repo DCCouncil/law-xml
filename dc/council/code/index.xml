@@ -4,18 +4,9 @@
   <meta>
     <effective>0001-01-01</effective>
     <recency>
-      <law>
-        <law>21-84</law>
-        <effective>2016-03-09</effective>
-      </law>
-      <emergency>
-        <law>21-354</law>
-        <effective>2016-03-23</effective>
-      </emergency>
-      <federal>
-        <law>114-118</law>
-        <effective>2016-01-28</effective>
-      </federal>
+      <law doc="D.C. Law 21-84">Law {{ doc.num }} effective {{ doc.effective | date }}</law>
+      <emergency doc="D.C. Act 21-354">Act {{ doc.num }} effective {{ doc.effective | date }}</emergency>
+      <federal doc="Pub. L. 114-118">Public Law {{ doc.num }} approved {{ doc.effective | date }}</federal>
     </recency>
   </meta>
   <subheading>Division I. Government of District.</subheading>

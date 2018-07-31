@@ -1,10 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<xs:schema
-  xmlns="https://code.dccouncil.us/schemas/dc-library"
+<xs:schema xmlns="https://code.dccouncil.us/schemas/dc-library"
   xmlns:codified="https://code.dccouncil.us/schemas/codified"
-  xmlns:codify="https://code.dccouncil.us/schemas/codify"
-  xmlns:xi="http://www.w3.org/2001/XInclude"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/dc-library">
+  xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+  targetNamespace="https://code.dccouncil.us/schemas/dc-library">
   <xs:import namespace="https://code.dccouncil.us/schemas/codified" schemaLocation="codified.xsd"/>
   <xs:import namespace="https://code.dccouncil.us/schemas/codify" schemaLocation="codify.xsd"/>
   <xs:import namespace="http://www.w3.org/2001/XInclude" schemaLocation="XInclude.xsd"/>
@@ -73,7 +72,8 @@
     <xs:complexType>
       <xs:sequence>
         <xs:sequence>
-          <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0"
+            maxOccurs="unbounded"/>
           <xs:element ref="codified:at" minOccurs="0"/>
           <xs:element ref="prefix" minOccurs="0"/>
           <xs:element ref="num" minOccurs="0"/>
@@ -100,7 +100,8 @@
     <xs:complexType>
       <xs:sequence>
         <!-- laws & code -->
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0"
+          maxOccurs="unbounded"/>
         <xs:element ref="codified:at" minOccurs="0"/>
         <xs:element ref="num" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
@@ -179,7 +180,7 @@
   <xs:element name="introduced">
     <xs:complexType>
       <xs:simpleContent>
-        <xs:extension base="date-or-empty" />
+        <xs:extension base="date-or-empty"/>
       </xs:simpleContent>
     </xs:complexType>
   </xs:element>
@@ -187,6 +188,29 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="heading" maxOccurs="unbounded"/>
+        <xs:element name="meta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="description" type="xs:string"/>
+              <xs:element minOccurs="0" name="contact">
+                <xs:complexType>
+                  <xs:sequence minOccurs="0">
+                    <xs:element minOccurs="0" name="email" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="canonical-urls">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="xml-bulk" type="xs:string"/>
+                    <xs:element minOccurs="0" name="html-bulk" type="xs:string"/>
+                    <xs:element minOccurs="0" name="html" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
         <xs:choice minOccurs="1" maxOccurs="unbounded">
           <xs:element ref="xi:include" minOccurs="0"/>
           <xs:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
@@ -212,30 +236,9 @@
         <xs:element name="recency" minOccurs="0">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="law">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="law" type="xs:string"/>
-                    <xs:element name="effective" type="xs:date"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="emergency">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="law" type="xs:string"/>
-                    <xs:element name="effective" type="xs:date"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="federal">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="law" type="xs:string"/>
-                    <xs:element name="effective" type="xs:date"/>
-                  </xs:sequence>
-                </xs:complexType>
-              </xs:element>
+              <xs:element name="law" type="recencyInfo"> </xs:element>
+              <xs:element name="emergency" type="recencyInfo"> </xs:element>
+              <xs:element name="federal" type="recencyInfo"> </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
@@ -291,7 +294,8 @@
         <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="annotation" minOccurs="0" maxOccurs="unbounded"/>
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0"
+          maxOccurs="unbounded"/>
       </xs:sequence>
       <xs:attributeGroup ref="codify:allAttributes"/>
     </xs:complexType>
@@ -322,14 +326,16 @@
     <xs:complexType>
       <xs:sequence>
         <!-- remaining sections -->
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0"
+          maxOccurs="unbounded"/>
         <xs:element ref="codified:at" minOccurs="0"/>
         <xs:element ref="prefix" minOccurs="0"/>
         <xs:element ref="num"/>
         <xs:element ref="codified:stub" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="reason" minOccurs="0"/>
         <xs:group ref="sectionContents"/>
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0"
+          maxOccurs="unbounded"/>
       </xs:sequence>
       <xs:attribute name="containing-doc" type="xs:string" use="optional"/>
       <xs:attributeGroup ref="codify:allAttributes"/>
@@ -420,10 +426,16 @@
   <!-- attribute groups -->
   <xs:attributeGroup name="targetAttributes">
     <xs:attribute name="doc" type="xs:string" use="optional">
-      <!-- @summary: The ``doc`` and ``path`` attributes together determine the target of the transform. :ref:`Learn more here <appendix_docAndPath>`. -->
-    </xs:attribute>
+      <!-- @summary: The ``doc`` and ``path`` attributes together determine the target of the transform. :ref:`Learn more here <appendix_docAndPath>`. --> </xs:attribute>
     <xs:attribute name="path" type="xs:string" use="optional">
       <!-- @summary: The ``doc`` and ``path`` attributes together determine the target of the transform. :ref:`Learn more here <appendix_docAndPath>`. -->
     </xs:attribute>
   </xs:attributeGroup>
+  <xs:complexType name="recencyInfo">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="doc" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
 </xs:schema>
