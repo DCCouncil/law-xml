@@ -1,10 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<xs:schema
-  xmlns="https://code.dccouncil.us/schemas/dc-library"
-  xmlns:codified="https://code.dccouncil.us/schemas/codified"
-  xmlns:codify="https://code.dccouncil.us/schemas/codify"
-  xmlns:xi="http://www.w3.org/2001/XInclude"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/dc-library">
+<xs:schema xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/dc-library">
   <xs:import namespace="https://code.dccouncil.us/schemas/codified" schemaLocation="codified.xsd"/>
   <xs:import namespace="https://code.dccouncil.us/schemas/codify" schemaLocation="codify.xsd"/>
   <xs:import namespace="http://www.w3.org/2001/XInclude" schemaLocation="XInclude.xsd"/>
@@ -179,7 +174,7 @@
   <xs:element name="introduced">
     <xs:complexType>
       <xs:simpleContent>
-        <xs:extension base="date-or-empty" />
+        <xs:extension base="date-or-empty"/>
       </xs:simpleContent>
     </xs:complexType>
   </xs:element>
@@ -187,6 +182,29 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="heading" maxOccurs="unbounded"/>
+        <xs:element name="meta">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="description" type="xs:string"/>
+              <xs:element minOccurs="0" name="contact">
+                <xs:complexType>
+                  <xs:sequence minOccurs="0">
+                    <xs:element minOccurs="0" name="email" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="canonical-urls">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="xml-bulk" type="xs:string"/>
+                    <xs:element minOccurs="0" name="html-bulk" type="xs:string"/>
+                    <xs:element minOccurs="0" name="html" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
         <xs:choice minOccurs="1" maxOccurs="unbounded">
           <xs:element ref="xi:include" minOccurs="0"/>
           <xs:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
