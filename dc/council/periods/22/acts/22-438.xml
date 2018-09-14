@@ -6,7 +6,7 @@
   <heading type="long">To establish a new system of recordkeeping for vital records; to repeal the Vital Records Act of 1981; to amend the District of Columbia Administrative Procedure Act of 1976, the Child Fatality Review Committee Establishment Act of 2001, and Title 16 of the District of Columbia Official Code to make conforming amendments; to amend the District of Columbia Health Occupations Revision Act of 1985 to increase the number of members of the Board of Dietetics and Nutrition and to alter its composition; to amend the Animal Control Act of 1979 to allow the importation, possession, display, and trade of captive-bred species of common cage birds, including chickens, and to allow goats and sheep to be temporarily imported into the District and possessed for the purposes of eating grass, milking, and other activities; to amend the Women's Health and Cancer Rights Federal Law Conformity Act of 2000 to harmonize references to contraceptives and to allow high-deductible health plans to charge a co-payment or require cost sharing for the coverage of male contraceptive services; and to amend the District of Columbia Public School Nurse Assignment Act of 1987 to require that any public school currently receiving school nurse services above 20 hours per week as of October 25, 2016, continue at that existing level of service, or the level recommended by the Department of Health's risk-based assessment, whichever is greater, for school year 2018-2019.</heading>
   <meta>
     <introduced>2017-04-12</introduced>
-    <effective>2018-09-05</effective>
+    <effective projected="true">2018-11-05</effective>
     <citations>
       <citation type="act" url="http://lims.dccouncil.us/Download/37932/B22-0250-SignedAct.pdf">D.C. Act 22-438</citation>
       <citation type="register">0 DCR 0</citation>
@@ -27,6 +27,18 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Vital Records Modernization Amendment Act of 2018".</text>
+  <codify:insert doc="D.C. Code" path="5" after="14" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>14A</num>
+      <heading>Fatality Review Committee.</heading>
+    </container>
+  </codify:insert>
+  <section>
+    <codify:insert doc="D.C. Code" path="5|14A" num-value="5-1431.02" history="false"/>
+    <num>3043</num>
+    <heading>Composition of the Committee; procedural requirements.</heading>
+  </section>
   <codify:find-replace doc="D.C. Code" path="7|2A|num" count="1">
     <find>2A</find>
     <replace>2B</replace>
@@ -54,7 +66,9 @@
   <codify:find-replace doc="D.C. Code" path="§16-2333" count="1">
     <find><cite path="7|2A">Chapter 2A of Title 7</cite></find>
     <replace><cite path="7|2B">Chapter 2B of Title 7</cite></replace>
-  </codify:find-replace> -->
+  </codify:find-replace> 
+  
+  These changes are in the annotations to these sections so done maunally to Lexis dump sections. -->
   <codify:insert doc="D.C. Code" path="7" after="2" history="false">
     <container>
       <prefix>Chapter</prefix>
@@ -70,7 +84,7 @@
       <codify:insert doc="D.C. Code" path="7|2A" num-value="7-231.01"/>
       <num>101</num>
       <heading>Definitions.</heading>
-      <text>For the purposes of this act, the term:</text>
+      <text>For the purposes of <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>, the term:</text>
       <para>
         <num undesignated="true">(a)</num>
         <para>
@@ -83,7 +97,7 @@
         </para>
         <para>
           <num>(3)</num>
-          <text>"Application" means a formal request to an authority for access to vital records, vital event data, and other related documentation. The application requirements for services to be obtained from the Vital Records Division shall be defined by rules issued pursuant to section 129.</text>
+          <text>"Application" means a formal request to an authority for access to vital records, vital event data, and other related documentation. The application requirements for services to be obtained from the Vital Records Division shall be defined by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
         </para>
         <para>
           <num>(4)</num>
@@ -143,7 +157,7 @@
         </para>
         <para>
           <num>(18)</num>
-          <text>"Domestic partner" means an individual who has registered either in accordance with section 3(a) of the Health Care Benefits Expansion Act of 1992, effective June 11, 1992 (D.C. Law 9-114; D.C. Official Code § 32-702(a)) ("Act"), or in another jurisdiction that recognizes a substantially similar relationship pursuant to section 3(i) of the Act . The term "domestic partner" shall not include a domestic partner who is the parent, grandparent, sibling, child, grandchild, niece, nephew, aunt, or uncle of a woman who gives birth to a child.</text>
+          <text>"Domestic partner" means an individual who has registered either in accordance with <code-cite doc="D.C. Code" path="§32-702|(a)">section 3(a) of the Health Care Benefits Expansion Act of 1992, effective June 11, 1992 (D.C. Law 9-114; D.C. Official Code § 32-702(a)) ("Act")</code-cite>, or in another jurisdiction that recognizes a substantially similar relationship pursuant to <code-cite doc="D.C. Code" path="§23-702">section 3(i) of the Act</code-cite>(i) . The term "domestic partner" shall not include a domestic partner who is the parent, grandparent, sibling, child, grandchild, niece, nephew, aunt, or uncle of a woman who gives birth to a child.</text>
         </para>
         <para>
           <num>(19)</num>
@@ -235,7 +249,7 @@
         </para>
         <para>
           <num>(41)</num>
-          <text>"Order" or "order of the court" means a directive to the Register, signed by a judge of the court, to establish or amend a vital record or produce information contained in a vital record, including a subpoena submitted in accordance with D.C. Official Code § 13-443.</text>
+          <text>"Order" or "order of the court" means a directive to the Register, signed by a judge of the court, to establish or amend a vital record or produce information contained in a vital record, including a subpoena submitted in accordance with <code-cite doc="D.C. Code" path="§13-433">D.C. Official Code § 13-443</code-cite>.</text>
         </para>
         <para>
           <num>(42)</num>
@@ -275,11 +289,11 @@
         </para>
         <para>
           <num>(51)</num>
-          <text>"Sealed record" means the original record of a reportable vital event and the evidence submitted to support a change by the Registrar for the purpose of the administration of vital records, that shall not be subject to inspection except upon order of the court or as provided by rules issued pursuant to section 129.</text>
+          <text>"Sealed record" means the original record of a reportable vital event and the evidence submitted to support a change by the Registrar for the purpose of the administration of vital records, that shall not be subject to inspection except upon order of the court or as provided by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
         </para>
         <para>
           <num>(52)</num>
-          <text>"Second parent" means a father or same-sex parent that has acknowledged parentage pursuant to section 16-909.01(a) of the District of Columbia Official Code, or whose parentage has otherwise been determined pursuant to section 16-909.01(d) of the District of Columbia Official Code.</text>
+          <text>"Second parent" means a father or same-sex parent that has acknowledged parentage pursuant to <code-cite doc="D.C. Code" path="§16-909.01|(a)">section 16-909.01(a) of the District of Columbia Official Code</code-cite>, or whose parentage has otherwise been determined pursuant to <code-cite doc="D.C. Code" path="§16-909.01|(d)">section 16-909.01(d) of the District of Columbia Official Code</code-cite>.</text>
         </para>
         <para>
           <num>(53)</num>
@@ -337,7 +351,7 @@
         <text>The Registrar shall:</text>
         <para>
           <num>(1)</num>
-          <text>Administer and enforce the provisions of this act and any implementing rules issued pursuant to section 129;</text>
+          <text>Administer and enforce the provisions of <code-cite doc="D.C. Code" path="7|2A">this act</code-cite> and any implementing rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>;</text>
         </para>
         <para>
           <num>(2)</num>
@@ -369,7 +383,7 @@
         </para>
         <para>
           <num>(8)</num>
-          <text>Provide information derived from vital records and vital reports required under this act that are necessary for Department programs and health planning activities, which shall remain the property of the Vital Records Division, and under the Registrar's control; and</text>
+          <text>Provide information derived from vital records and vital reports required under <code-cite doc="D.C. Code" path="7|2A">this act</code-cite> that are necessary for Department programs and health planning activities, which shall remain the property of the Vital Records Division, and under the Registrar's control; and</text>
         </para>
         <para>
           <num>(9)</num>
@@ -521,7 +535,7 @@
       </para>
       <para>
         <num>(d)</num>
-        <text>A funeral director or other authorized individual who removes from the place of death, transports, or makes final disposition of a dead body or fetus, in addition to filing any required record or report, shall keep a record that identifies the body and the information pertaining to the receipt, removal, delivery, burial, or cremation of the body as required in accordance with rules issued pursuant to section 129.</text>
+        <text>A funeral director or other authorized individual who removes from the place of death, transports, or makes final disposition of a dead body or fetus, in addition to filing any required record or report, shall keep a record that identifies the body and the information pertaining to the receipt, removal, delivery, burial, or cremation of the body as required in accordance with rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
       </para>
       <para>
         <num>(e)</num>
@@ -538,11 +552,11 @@
       </para>
       <para>
         <num>(b)</num>
-        <text>No later than the 10th day of each month, the individual in charge of each institution, or his delegate, shall send to the Vital Records Division a list showing each live birth, death, fetal death, or induced termination of pregnancy that occurred at that institution during the preceding month. The list shall be in a format prescribed by the Registrar in rules issued pursuant to section 129.</text>
+        <text>No later than the 10th day of each month, the individual in charge of each institution, or his delegate, shall send to the Vital Records Division a list showing each live birth, death, fetal death, or induced termination of pregnancy that occurred at that institution during the preceding month. The list shall be in a format prescribed by the Registrar in rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
       </para>
       <para>
         <num>(c)</num>
-        <text>No later than the 10th day of each month, each funeral director shall send to the Registrar a list showing each dead body received, embalmed, prepared for final disposition, or finally disposed of in the preceding month. The list shall be in a format prescribed by the Registrar in rules issued pursuant to section 129 and shall also include a record of the date, place, and manner of final disposition of each dead body, if applicable.</text>
+        <text>No later than the 10th day of each month, each funeral director shall send to the Registrar a list showing each dead body received, embalmed, prepared for final disposition, or finally disposed of in the preceding month. The list shall be in a format prescribed by the Registrar in rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite> and shall also include a record of the date, place, and manner of final disposition of each dead body, if applicable.</text>
       </para>
       <para>
         <num>(d)</num>
@@ -559,7 +573,7 @@
       </para>
       <para>
         <num>(b)</num>
-        <text>Information required in a report may be filed and registered by photographic, electronic, or other means as prescribed by the Registrar in rules issued pursuant to section 129.</text>
+        <text>Information required in a report may be filed and registered by photographic, electronic, or other means as prescribed by the Registrar in rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
       </para>
     </section>
     <section>
@@ -578,7 +592,7 @@
         </para>
         <para>
           <num>(2)</num>
-          <text>An individual may submit live birth information in writing on a form approved by the Registrar for a live birth that occurs outside an institution. The Registrar shall establish the required information for live birth filing through rules issued pursuant to section 129.</text>
+          <text>An individual may submit live birth information in writing on a form approved by the Registrar for a live birth that occurs outside an institution. The Registrar shall establish the required information for live birth filing through rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
         </para>
       </para>
       <para>
@@ -644,11 +658,11 @@
       </para>
       <para>
         <num>(g)</num>
-        <text>The Registrar shall determine the evidence that shall be required to establish the facts of live birth by rules issued pursuant to section 129.</text>
+        <text>The Registrar shall determine the evidence that shall be required to establish the facts of live birth by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
       </para>
       <para>
         <num>(h)</num>
-        <text>The Registrar shall not register a report for a live birth that took place outside of an institution if the report does not include the minimum acceptable required documentation as required by rules issued pursuant to section 129, or the Registrar has cause to question the validity or adequacy of the documentary evidence, and the deficiencies are not corrected. The Registrar shall advise the registrant's mother, second parent, spouse, or domestic partner of the mother of the reason for this action, and shall advise the individual of his or her right to appeal the Registrar's decision in court.</text>
+        <text>The Registrar shall not register a report for a live birth that took place outside of an institution if the report does not include the minimum acceptable required documentation as required by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>, or the Registrar has cause to question the validity or adequacy of the documentary evidence, and the deficiencies are not corrected. The Registrar shall advise the registrant's mother, second parent, spouse, or domestic partner of the mother of the reason for this action, and shall advise the individual of his or her right to appeal the Registrar's decision in court.</text>
       </para>
       <para>
         <num>(i)</num>
@@ -675,31 +689,31 @@
         </para>
         <para>
           <num>(3)</num>
-          <text>If the mother was married at the time of either conception or live birth, or between conception and live birth, or a child is born within 300 days after the termination of marital cohabitation by reason of death, annulment, divorce, or separation ordered by the court, only the name of the spouse during those times may be entered on the record as the second parent of the child, unless parentage by a different individual has been determined otherwise pursuant to section 16-909.01 of the District of Columbia Official Code;</text>
+          <text>If the mother was married at the time of either conception or live birth, or between conception and live birth, or a child is born within 300 days after the termination of marital cohabitation by reason of death, annulment, divorce, or separation ordered by the court, only the name of the spouse during those times may be entered on the record as the second parent of the child, unless parentage by a different individual has been determined otherwise pursuant to <code-cite doc="D.C. Code" path="§16-909.01">section 16-909.01 of the District of Columbia Official Code</code-cite>;</text>
         </para>
         <para>
           <num>(4)</num>
-          <text>If the mother was in a domestic partnership at the time of either conception or live birth, or between conception and live birth, or a child is born within 300 days after the termination of the domestic partnership pursuant to section 3(d) of the Health Care Benefits Expansion Act of 1992, effective June 11, 1992 (D.C. Law 9-114; D.C. Official Code § 32-702(a)), only the name of the domestic partner shall be entered on the record as the second parent of the child, unless parentage has been determined otherwise pursuant to D.C. Official Code § 16-909.01;</text>
+          <text>If the mother was in a domestic partnership at the time of either conception or live birth, or between conception and live birth, or a child is born within 300 days after the termination of the domestic partnership pursuant to <code-cite doc="D.C. Code" path="§32-702|(a)">section 3(d) of the Health Care Benefits Expansion Act of 1992, effective June 11, 1992 (D.C. Law 9-114; D.C. Official Code § 32-702(a))</code-cite>, only the name of the domestic partner shall be entered on the record as the second parent of the child, unless parentage has been determined otherwise pursuant to <code-cite doc="D.C. Code" path="§16-909.01">D.C. Official Code § 16-909.01</code-cite>;</text>
         </para>
         <para>
           <num>(5)</num>
           <text>If the mother was not married or in a domestic partnership at the time of either conception or live birth, or between conception and live birth, the name of a second parent shall only be entered on the record if:</text>
           <para>
             <num>(A)</num>
-            <text>The mother and the father have signed a voluntary acknowledgment of paternity pursuant to D.C. Official Code § 16-909.01(a)(1) or pursuant to the laws and procedures of another state in which the voluntary acknowledgment was signed;</text>
+            <text>The mother and the father have signed a voluntary acknowledgment of paternity pursuant to <code-cite doc="D.C. Code" path="§16-909.01|(a)|(1)">D.C. Official Code § 16-909.01(a)(1)</code-cite> or pursuant to the laws and procedures of another state in which the voluntary acknowledgment was signed;</text>
           </para>
           <para>
             <num>(B)</num>
-            <text>The mother and the second parent have signed a consent to parent a child born by artificial insemination pursuant to D.C. Official Code § 16-909.01(e); or</text>
+            <text>The mother and the second parent have signed a consent to parent a child born by artificial insemination pursuant to <code-cite doc="D.C. Code" path="§16-909.01">D.C. Official Code § 16-909.01(e)</code-cite>(e); or</text>
           </para>
           <para>
             <num>(C)</num>
-            <text>Parentage of the second parent has otherwise been established pursuant to D.C. Official Code § 16-909.01;</text>
+            <text>Parentage of the second parent has otherwise been established pursuant to <code-cite doc="D.C. Code" path="§16-909.01">D.C. Official Code § 16-909.01</code-cite>;</text>
           </para>
         </para>
         <para>
           <num>(6)</num>
-          <text>The consent to parent a child born by artificial insemination pursuant to D.C. Official Code § 16-909.01(e) shall be on a form prescribed and furnished by the Registrar that:</text>
+          <text>The consent to parent a child born by artificial insemination pursuant to <code-cite doc="D.C. Code" path="§16-909.01">D.C. Official Code § 16-909.01</code-cite>(e) shall be on a form prescribed and furnished by the Registrar that:</text>
           <para>
             <num>(A)</num>
             <text>Acknowledges the mother and intended parent's consent to the artificial insemination and the intended parent's intent to be a parent of the child;</text>
@@ -797,7 +811,7 @@
       </para>
       <para>
         <num>(d)</num>
-        <text>If the child is identified and a live birth registration is found or obtained, the report submitted pursuant to subsection (a) of this section and any live birth registration resulting from that report shall be voided and placed in a sealed file and shall not be subject to inspection except upon order of the court or as provided by rules issued pursuant to section 129.</text>
+        <text>If the child is identified and a live birth registration is found or obtained, the report submitted pursuant to subsection (a) of this section and any live birth registration resulting from that report shall be voided and placed in a sealed file and shall not be subject to inspection except upon order of the court or as provided by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
       </para>
     </section>
     <section>
@@ -806,7 +820,7 @@
       <heading>Delayed registration of live birth.</heading>
       <para>
         <num>(a)</num>
-        <text>An individual may submit a delayed report of live birth of an individual born in the District one year or more after the live birth in a manner to be prescribed by rules issued pursuant to section 129. A delayed report of live birth shall not be registered until evidence to substantiate the facts of live birth in the District has been supplied to the Registrar.</text>
+        <text>An individual may submit a delayed report of live birth of an individual born in the District one year or more after the live birth in a manner to be prescribed by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>. A delayed report of live birth shall not be registered until evidence to substantiate the facts of live birth in the District has been supplied to the Registrar.</text>
       </para>
       <para>
         <num>(b)</num>
@@ -842,11 +856,11 @@
       <heading>Death registration.</heading>
       <para>
         <num>(a)</num>
-        <text>The funeral director who first assumes custody of a dead body shall electronically submit a report of death to the Registrar within 5 days after date of death and before the final disposition of the body. The report of death shall be registered if it has been electronically completed and filed in accordance with this act. The Registrar may require a written filing or signed attestation. If the report of death cannot be submitted to the Registrar within 5 days after the date of death, the funeral director shall give the Registrar notice of the reason for the delay. The Registrar shall issue rules pursuant to section 129 to implement this provision.</text>
+        <text>The funeral director who first assumes custody of a dead body shall electronically submit a report of death to the Registrar within 5 days after date of death and before the final disposition of the body. The report of death shall be registered if it has been electronically completed and filed in accordance with <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>. The Registrar may require a written filing or signed attestation. If the report of death cannot be submitted to the Registrar within 5 days after the date of death, the funeral director shall give the Registrar notice of the reason for the delay. The Registrar shall issue rules pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite> to implement this provision.</text>
       </para>
       <para>
         <num>(b)</num>
-        <text>The funeral director shall obtain the medical certification from the death certifier, and the personal data needed for the report, including the decedent's gender identity or expression, from any individual with the right to control the disposition of the remains of the decedent, the location and conditions of interment, and arrangements for funeral goods and services pursuant to section 14 of the District of Columbia Funeral Services Regulatory Act of 1984, effective May 22, 1984 (D.C. Law 5-84; D.C. Official Code § 3-413).</text>
+        <text>The funeral director shall obtain the medical certification from the death certifier, and the personal data needed for the report, including the decedent's gender identity or expression, from any individual with the right to control the disposition of the remains of the decedent, the location and conditions of interment, and arrangements for funeral goods and services pursuant to <code-cite doc="D.C. Code" path="§3-413">section 14 of the District of Columbia Funeral Services Regulatory Act of 1984, effective May 22, 1984 (D.C. Law 5-84; D.C. Official Code § 3-413)</code-cite>.</text>
       </para>
       <para>
         <num>(c)</num>
@@ -898,7 +912,7 @@
       </para>
       <para>
         <num>(j)</num>
-        <text>A manner of death that is believed to be other than by natural causes is subject to investigation and shall be reported to the Office of the Chief Medical Examiner ("Medical Examiner") pursuant to section 2907(b) of the Establishment of the Office of the Chief Medical Examiner Act of 2000, effective October 19, 2000 (D.C. Law 13-172; D.C. Official Code § 5-1406(b)). Upon notification of death, the Medical Examiner may take charge of the body and conduct an investigation or decline jurisdiction.</text>
+        <text>A manner of death that is believed to be other than by natural causes is subject to investigation and shall be reported to the Office of the Chief Medical Examiner ("Medical Examiner") pursuant to <code-cite doc="D.C. Code" path="§5-1406|(b)">section 2907(b) of the Establishment of the Office of the Chief Medical Examiner Act of 2000, effective October 19, 2000 (D.C. Law 13-172; D.C. Official Code § 5-1406(b))</code-cite>. Upon notification of death, the Medical Examiner may take charge of the body and conduct an investigation or decline jurisdiction.</text>
       </para>
       <para>
         <num>(k)</num>
@@ -917,7 +931,7 @@
       </para>
       <para>
         <num>(m)</num>
-        <text>When a death is presumed to have occurred in the District pursuant to section 14-701 of the District of Columbia Official Code, the Registrar shall register the death upon receipt of an order of the court. The court order shall include such findings of fact as necessary for completion of the death record. The death record shall be marked "presumptive," display on its face the date of registration, identify the court, and include the date of the decree.</text>
+        <text>When a death is presumed to have occurred in the District pursuant to <code-cite doc="D.C. Code" path="§14-701">section 14-701 of the District of Columbia Official Code</code-cite>, the Registrar shall register the death upon receipt of an order of the court. The court order shall include such findings of fact as necessary for completion of the death record. The death record shall be marked "presumptive," display on its face the date of registration, identify the court, and include the date of the decree.</text>
       </para>
       <para>
         <num>(n)</num>
@@ -958,7 +972,7 @@
       <heading>Delayed registration of death.</heading>
       <para>
         <num>(a)</num>
-        <text>When a death that occurs in the District has not been registered one year or more after the date of death, a delayed report of death may be filed by the funeral director who first took possession of the dead body in accordance with rules issued pursuant to section 129 by the Registrar. To substantiate the alleged facts of death, any delayed report of death shall be registered subject to evidentiary requirements the Registrar shall prescribe in accordance with rules issued pursuant to section 129.</text>
+        <text>When a death that occurs in the District has not been registered one year or more after the date of death, a delayed report of death may be filed by the funeral director who first took possession of the dead body in accordance with rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite> by the Registrar. To substantiate the alleged facts of death, any delayed report of death shall be registered subject to evidentiary requirements the Registrar shall prescribe in accordance with rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
       </para>
       <para>
         <num>(b)</num>
@@ -1014,7 +1028,7 @@
       </para>
       <para>
         <num>(b)</num>
-        <text>The name of the mother and second parent shall be entered on each fetal death report in accordance with rules issued by the Registrar pursuant to section 129.  The second parent shall be the father or same-sex parent that has acknowledged parentage or whose parentage has otherwise been determined pursuant to D.C. Official Code § 16-909.01. If the cause of fetal death is unknown or pending investigation, this shall be noted on the report.</text>
+        <text>The name of the mother and second parent shall be entered on each fetal death report in accordance with rules issued by the Registrar pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.  The second parent shall be the father or same-sex parent that has acknowledged parentage or whose parentage has otherwise been determined pursuant to <code-cite doc="D.C. Code" path="§16-909.01">D.C. Official Code § 16-909.01</code-cite>. If the cause of fetal death is unknown or pending investigation, this shall be noted on the report.</text>
       </para>
     </section>
     <section>
@@ -1116,7 +1130,7 @@
         <text>The funeral director who first assumes custody of a dead body shall obtain the following before disposing of the body:</text>
         <para>
           <num>(1)</num>
-          <text>An authorization for final disposition of the body from the individual with rights to control the final disposition pursuant to section 14 of the District of Columbia Funeral Services Regulatory Act of 1984, effective May 22, 1984 (D.C. Law 5-84; D.C. Official Code § 3-413) ("Act");</text>
+          <text>An authorization for final disposition of the body from the individual with rights to control the final disposition pursuant to <code-cite doc="D.C. Code" path="§3-413">section 14 of the District of Columbia Funeral Services Regulatory Act of 1984, effective May 22, 1984 (D.C. Law 5-84; D.C. Official Code § 3-413) ("Act")</code-cite>;</text>
         </para>
         <para>
           <num>(2)</num>
@@ -1133,7 +1147,7 @@
       </para>
       <para>
         <num>(b)</num>
-        <text>Before final disposition of a dead fetus, regardless of the duration of pregnancy, the funeral director, the individual in charge of the institution, or other individual responsible for final disposition of the fetus, shall obtain authorization from the individual with rights to control the final disposition pursuant to section 14 of the Act.</text>
+        <text>Before final disposition of a dead fetus, regardless of the duration of pregnancy, the funeral director, the individual in charge of the institution, or other individual responsible for final disposition of the fetus, shall obtain authorization from the individual with rights to control the final disposition pursuant to <code-cite doc="D.C. Code" path="§3-413">section 14 of the Act</code-cite>.</text>
       </para>
       <para>
         <num>(c)</num>
@@ -1243,11 +1257,11 @@
       <heading>Amendments and corrections.</heading>
       <para>
         <num>(a)</num>
-        <text>The Registrar shall issue rules pursuant to section 129 governing the amendment of vital records that protect the integrity and accuracy of the vital records.</text>
+        <text>The Registrar shall issue rules pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite> governing the amendment of vital records that protect the integrity and accuracy of the vital records.</text>
       </para>
       <para>
         <num>(b)</num>
-        <text>A record or report registered under this act may be amended only in accordance with this act and implementing rules.</text>
+        <text>A record or report registered under <code-cite doc="D.C. Code" path="7|2A">this act</code-cite> may be amended only in accordance with <code-cite doc="D.C. Code" path="7|2A">this act</code-cite> and implementing rules.</text>
       </para>
       <para>
         <num>(c)</num>
@@ -1268,7 +1282,7 @@
         <num>(e)</num>
         <para>
           <num>(1)</num>
-          <text>Pursuant to section 112(e) upon receipt of a certified copy of an order of the court changing the gender identity or expression of an individual who died in the District, the Registrar shall amend the death record to reflect the decedent's gender identity or expression designation. The record shall not be marked "amended".</text>
+          <text>Pursuant to <code-cite doc="D.C. Code" path="§7-231.12|(e)">section 112(e)</code-cite> upon receipt of a certified copy of an order of the court changing the gender identity or expression of an individual who died in the District, the Registrar shall amend the death record to reflect the decedent's gender identity or expression designation. The record shall not be marked "amended".</text>
         </para>
         <para>
           <num>(2)</num>
@@ -1321,14 +1335,14 @@
       </para>
       <para>
         <num>(f)</num>
-        <text>The Registrar shall issue rules pursuant to section 129 establishing requirements to amend a vital record to correct an institutional error on a certificate item. When certificate items are corrected according to this subsection:</text>
+        <text>The Registrar shall issue rules pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite> establishing requirements to amend a vital record to correct an institutional error on a certificate item. When certificate items are corrected according to this subsection:</text>
         <para>
           <num>(1)</num>
-          <text>Except as provided by rules issued pursuant to section 129, certificates of vital record shall be marked as "amended";</text>
+          <text>Except as provided by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>, certificates of vital record shall be marked as "amended";</text>
         </para>
         <para>
           <num>(2)</num>
-          <text>Except as provided by rules issued pursuant to section 129, the original record shall be sealed and made available only upon order of the court; and</text>
+          <text>Except as provided by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>, the original record shall be sealed and made available only upon order of the court; and</text>
         </para>
         <para>
           <num>(3)</num>
@@ -1345,7 +1359,7 @@
         <text>The Registrar shall establish a new record of live birth upon receipt of one the following documents:</text>
         <para>
           <num>(1)</num>
-          <text>An adoption form prepared in accordance with section 119;</text>
+          <text>An adoption form prepared in accordance with <code-cite doc="D.C. Code" path="§7-231.19">section 119</code-cite>;</text>
         </para>
         <para>
           <num>(2)</num>
@@ -1357,7 +1371,7 @@
         </para>
         <para>
           <num>(4)</num>
-          <text>A voluntary acknowledgment of parentage by an individual in accordance with D.C. Official Code § 16-2345.</text>
+          <text>A voluntary acknowledgment of parentage by an individual in accordance with <code-cite doc="D.C. Code" path="§16-2345">D.C. Official Code § 16-2345</code-cite>.</text>
         </para>
       </para>
       <para>
@@ -1365,7 +1379,7 @@
         <text>The Registrar shall establish a new record of live birth for an adoptee born outside of the United States upon receipt of a request of the adoptive parent or the adoptee, if the adoptee is 18 years of age or older, and either:</text>
         <para>
           <num>(1)</num>
-          <text>An adoption form prepared in accordance with section 119; or</text>
+          <text>An adoption form prepared in accordance with <code-cite doc="D.C. Code" path="§7-231.19">section 119</code-cite>; or</text>
         </para>
         <para>
           <num>(2)</num>
@@ -1398,7 +1412,7 @@
       </para>
       <para>
         <num>(e)</num>
-        <text>The Registrar shall not establish a new record of live birth if so requested by the adoptive parents pursuant to D.C. Official Code § 16-314(a).</text>
+        <text>The Registrar shall not establish a new record of live birth if so requested by the adoptive parents pursuant to <code-cite doc="D.C. Code" path="§16-314|(a)">D.C. Official Code § 16-314(a)</code-cite>.</text>
       </para>
       <para>
         <num>(f)</num>
@@ -1410,11 +1424,11 @@
       </para>
       <para>
         <num>(h)</num>
-        <text>A replacement record of live birth shall be substituted for the original record of live birth. The original record of live birth and the evidence of adoption, parentage determination, or parentage acknowledgement submitted shall be placed under seal and not be subject to inspection, except by the Registrar for the purpose of properly administering the system of vital statistics, upon an order of the court, or in accordance with rules issued pursuant to section 129.</text>
+        <text>A replacement record of live birth shall be substituted for the original record of live birth. The original record of live birth and the evidence of adoption, parentage determination, or parentage acknowledgement submitted shall be placed under seal and not be subject to inspection, except by the Registrar for the purpose of properly administering the system of vital statistics, upon an order of the court, or in accordance with rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
       </para>
       <para>
         <num>(i)</num>
-        <text>If no record of live birth is on file for the individual for whom a new live birth record is to be established pursuant to this section, and the date and place of live birth have not been determined in the adoption or parentage proceedings, the Registrar shall file a delayed report of live birth before issuing a new record of live birth. The new live birth record shall be prepared in accordance with section 111.</text>
+        <text>If no record of live birth is on file for the individual for whom a new live birth record is to be established pursuant to this section, and the date and place of live birth have not been determined in the adoption or parentage proceedings, the Registrar shall file a delayed report of live birth before issuing a new record of live birth. The new live birth record shall be prepared in accordance with <code-cite doc="D.C. Code" path="§7-231.11">section 111</code-cite>.</text>
       </para>
       <para>
         <num>(j)</num>
@@ -1422,11 +1436,11 @@
       </para>
       <para>
         <num>(k)</num>
-        <text>Upon receipt of a report or decree of annulment of adoption, the Registrar shall restore the original record of live birth. The annulled record of live birth and its associated evidence shall not be subject to inspection, except upon order of the court or as authorized by rules issued pursuant to section 129.</text>
+        <text>Upon receipt of a report or decree of annulment of adoption, the Registrar shall restore the original record of live birth. The annulled record of live birth and its associated evidence shall not be subject to inspection, except upon order of the court or as authorized by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
       </para>
       <para>
         <num>(l)</num>
-        <text>The Registrar shall not create a replacement record if the date and place of live birth have not been determined in the adoption or paternity proceedings or if a delayed registration of live birth has not been completed in accordance with section 111.</text>
+        <text>The Registrar shall not create a replacement record if the date and place of live birth have not been determined in the adoption or paternity proceedings or if a delayed registration of live birth has not been completed in accordance with <code-cite doc="D.C. Code" path="§7-231.11">section 111</code-cite>.</text>
       </para>
       <para>
         <num>(m)</num>
@@ -1541,15 +1555,15 @@
       <heading>Confidentiality and disclosure of information from vital records or vital reports.</heading>
       <para>
         <num>(a)</num>
-        <text>Vital records, vital reports, indices, related documents, and data or information contained therein shall be confidential and shall not be subject to disclosure under the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>).</text>
+        <text>Vital records, vital reports, indices, related documents, and data or information contained therein shall be confidential and shall not be subject to disclosure under <code-cite doc="D.C. Code" path="2|5|II">the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>)</code-cite>.</text>
       </para>
       <para>
         <num>(b)</num>
-        <text>Except as authorized by this act, rules issued pursuant to and consistent with this act, or by an order of the court, it shall be unlawful for any individual to permit inspection of, or to disclose data or information contained in a vital record, a vital report, or related documents, or to copy or issue a copy of all or part of any such record or report. Rules implementing this section shall provide for adequate standards of security and confidentiality of the vital statistics system.</text>
+        <text>Except as authorized by <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>, rules issued pursuant to and consistent with <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>, or by an order of the court, it shall be unlawful for any individual to permit inspection of, or to disclose data or information contained in a vital record, a vital report, or related documents, or to copy or issue a copy of all or part of any such record or report. Rules implementing this section shall provide for adequate standards of security and confidentiality of the vital statistics system.</text>
       </para>
       <para>
         <num>(c)</num>
-        <text>Unless otherwise provided by this act, personally identifiable information that may identify any individual named in any vital record or report may be disclosed for health research purposes only after:</text>
+        <text>Unless otherwise provided by <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>, personally identifiable information that may identify any individual named in any vital record or report may be disclosed for health research purposes only after:</text>
         <para>
           <num>(1)</num>
           <text>Submission of a written request for information by a researcher;</text>
@@ -1703,7 +1717,7 @@
         </para>
         <para>
           <num>(2)</num>
-          <text>Before the transfer of live birth and death records to the Archives, the Registrar shall redact any information identified in the NCHS' U.S. Standard Certificates of live birth and death, and reports of fetal death or reports of induced termination of pregnancy, or as identified by the District by rules issued pursuant to section 129 as medical or for health use only.</text>
+          <text>Before the transfer of live birth and death records to the Archives, the Registrar shall redact any information identified in the NCHS' U.S. Standard Certificates of live birth and death, and reports of fetal death or reports of induced termination of pregnancy, or as identified by the District by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite> as medical or for health use only.</text>
         </para>
         <para>
           <num>(3)</num>
@@ -1724,13 +1738,16 @@
       </para>
       <para>
         <num>(n)</num>
-        <text>Notwithstanding the provisions of this section, the Registrar shall provide reports of homicides or suicides, as that term is defined in section 3042(e) of the Fatality Review Committee Amendment Act of 2018, passed on 2nd reading on June 26, 2018 (Enrolled version of Bill 22-753), to the Violence Fatality Review Committee established pursuant to section 3042 of the Fatality Review Committee Amendment Act of 2018, passed on 2nd reading on June 26, 2018 (Enrolled version of Bill 22-753).</text>
+        <text>Notwithstanding the provisions of this section, the Registrar shall provide reports of homicides or suicides, as that term is defined in <code-cite doc="D.C. Code" path="§5-1431.02|(e)">section 3042(e) of the Fatality Review Committee Amendment Act of 2018, passed on 2nd reading on June 26, 2018 (Enrolled version of Bill 22-753)</code-cite>, to the <code-cite doc="D.C. Code" path="§5-1431.02">Violence Fatality Review Committee established pursuant to section 3042 of the Fatality Review Committee Amendment Act of 2018, passed on 2nd reading on June 26, 2018 (Enrolled version of Bill 22-753)</code-cite>.</text>
       </para>
+      <codify:annotation doc="D.C. Code" path="§7-231.24" type="Applicability" history="false">
+        <cite doc="D.C. Act 22-438" path="§401">Section 401 of D.C. Act 22-438</cite> provided that subsection (n) of this section shall apply as of October 1, 2018.
+      </codify:annotation>
     </section>
     <section>
       <codify:insert doc="D.C. Code" path="7|2A" num-value="7-231.25"/>
       <num>125</num>
-      <text>Certification from the system of vital statistics</text>
+      <heading>Certification from the system of vital statistics.</heading>
       <para>
         <num>(a)</num>
         <para>
@@ -1759,7 +1776,7 @@
       </para>
       <para>
         <num>(c)</num>
-        <text>The Registrar shall specify through rules issued pursuant to section 129 the forms of identification an applicant may provide in support of an application for a certified copy of a vital record; provided, that for applications received pursuant to subsection (b) of this section from inmates incarcerated by the Federal Bureau of Prisons, if the Registrar requires an applicant to provide identification when requesting a certified copy of all or part of a vital record, the Registrar shall accept identifying information provided by the Federal Bureau of Prisons as one permissible form of identification.</text>
+        <text>The Registrar shall specify through rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite> the forms of identification an applicant may provide in support of an application for a certified copy of a vital record; provided, that for applications received pursuant to subsection (b) of this section from inmates incarcerated by the Federal Bureau of Prisons, if the Registrar requires an applicant to provide identification when requesting a certified copy of all or part of a vital record, the Registrar shall accept identifying information provided by the Federal Bureau of Prisons as one permissible form of identification.</text>
       </para>
       <para>
         <num>(d)</num>
@@ -1769,7 +1786,7 @@
         <num>(e)</num>
         <para>
           <num>(1)</num>
-          <text>The Registrar shall review the evidence of entitlement the applicant provides to support a request for a certified copy of a vital record. Such evidence shall consist of copies of vital records, court documents, or alternative methods identified and considered acceptable by the Registrar through rules issued pursuant to section 129. Evidence of entitlement shall demonstrate that the applicant is authorized to receive a certified copy of a vital record.</text>
+          <text>The Registrar shall review the evidence of entitlement the applicant provides to support a request for a certified copy of a vital record. Such evidence shall consist of copies of vital records, court documents, or alternative methods identified and considered acceptable by the Registrar through rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>. Evidence of entitlement shall demonstrate that the applicant is authorized to receive a certified copy of a vital record.</text>
         </para>
         <para>
           <num>(2)</num>
@@ -1817,11 +1834,11 @@
       </para>
       <para>
         <num>(j)</num>
-        <text>Each death certificate issued for a record shall include the date of registration.  Except as provided by rules issued pursuant to section 129, each certificate issued from a record marked or flagged as "amended" shall be similarly marked or flagged and shall indicate the effective date of the amendment. A certificate issued from a record marked or flagged as "delayed" shall be similarly marked or flagged and shall include the date of registration and a description of the evidence used to establish the delayed record. A certificate issued from a record of foreign live birth shall indicate this fact , display the actual place of live birth, and state that the certificate is not proof of United States citizenship. A certificate issued from a live birth record that has been matched to a death record shall be marked or flagged as "deceased".</text>
+        <text>Each death certificate issued for a record shall include the date of registration.  Except as provided by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>, each certificate issued from a record marked or flagged as "amended" shall be similarly marked or flagged and shall indicate the effective date of the amendment. A certificate issued from a record marked or flagged as "delayed" shall be similarly marked or flagged and shall include the date of registration and a description of the evidence used to establish the delayed record. A certificate issued from a record of foreign live birth shall indicate this fact , display the actual place of live birth, and state that the certificate is not proof of United States citizenship. A certificate issued from a live birth record that has been matched to a death record shall be marked or flagged as "deceased".</text>
       </para>
       <para>
         <num>(k)</num>
-        <text>Information identified in the U.S. Standard Certificates of Live Birth, Death, and Report of Fetal Death, or identified as for medical or health use only in any vital record through rules issued pursuant to section 129 shall not be subject to subpoena or court order and shall not be admissible before any court, tribunal, or judicial body. Information identified as for administrative, statistical, medical, or health use only shall not be included in a certificate issued for the vital record.</text>
+        <text>Information identified in the U.S. Standard Certificates of Live Birth, Death, and Report of Fetal Death, or identified as for medical or health use only in any vital record through rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite> shall not be subject to subpoena or court order and shall not be admissible before any court, tribunal, or judicial body. Information identified as for administrative, statistical, medical, or health use only shall not be included in a certificate issued for the vital record.</text>
       </para>
       <para>
         <num>(l)</num>
@@ -1845,12 +1862,15 @@
       </para>
       <para>
         <num>(q)</num>
-        <text>No individual shall prepare or issue any paper or electronic document that purports to be an original vital record, a certification or a verification of a vital record, or a copy of a vital record except as authorized by this act or rules promulgated pursuant to section 129.</text>
+        <text>No individual shall prepare or issue any paper or electronic document that purports to be an original vital record, a certification or a verification of a vital record, or a copy of a vital record except as authorized by <code-cite doc="D.C. Code" path="7|2A">this act</code-cite> or rules promulgated pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>.</text>
       </para>
       <para>
         <num>(r)</num>
         <text>An application and any supporting documentation submitted to obtain a certificate of a vital record shall be confidential and shall not be disclosed except upon the order of the court.</text>
       </para>
+      <codify:annotation doc="D.C. Code" path="§7-231.25" type="Applicability" history="false">
+        <cite doc="D.C. Act 22-438" path="§401">Section 401 of D.C. Act 22-438</cite> provided that subsection (c) of this section shall apply as of October 1, 2018.
+      </codify:annotation>
     </section>
     <section>
       <codify:insert doc="D.C. Code" path="7|2A" num-value="7-231.26"/>
@@ -1894,7 +1914,7 @@
       <heading>Fees.</heading>
       <para>
         <num>(a)</num>
-        <text>The Registrar shall prescribe by rules issued pursuant to section 129 the fees to be paid for the following services:</text>
+        <text>The Registrar shall prescribe by rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite> the fees to be paid for the following services:</text>
         <para>
           <num>(1)</num>
           <text>Processing an application to amend a vital record;</text>
@@ -1952,6 +1972,9 @@
           <text>An individual in the custody of the BOP at a halfway house in the District.</text>
         </para>
       </para>
+      <codify:annotation doc="D.C. Code" path="§7-231.27" type="Applicability" history="false">
+        <cite doc="D.C. Act 22-438" path="§401">Section 401 of D.C. Act 22-438</cite> provided that subsection (b) of this section shall apply as of October 1, 2018.
+      </codify:annotation>
     </section>
     <section>
       <codify:insert doc="D.C. Code" path="7|2A" num-value="7-231.28"/>
@@ -1962,7 +1985,7 @@
         <text>A fine of not more than $12,500, or imprisonment of not more than 2 years, or both, for each occurrence shall be imposed on:</text>
         <para>
           <num>(1)</num>
-          <text>Any individual who willfully and knowingly makes a false statement to the Registrar or the Registrar's designee when submitting information required by this act, in connection with:</text>
+          <text>Any individual who willfully and knowingly makes a false statement to the Registrar or the Registrar's designee when submitting information required by <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>, in connection with:</text>
           <para>
             <num>(A)</num>
             <text>A report;</text>
@@ -1986,19 +2009,19 @@
         </para>
         <para>
           <num>(2)</num>
-          <text>Any individual who without lawful authority and with the intent to deceive, makes, counterfeits, alters, amends, or mutilates any record, report, application or supporting documentation submitted or created pursuant to this act, or any certification or verification of a vital record, or security paper;</text>
+          <text>Any individual who without lawful authority and with the intent to deceive, makes, counterfeits, alters, amends, or mutilates any record, report, application or supporting documentation submitted or created pursuant to <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>, or any certification or verification of a vital record, or security paper;</text>
         </para>
         <para>
           <num>(3)</num>
-          <text>Any individual who willfully and knowingly obtains, possesses, uses, sells, furnishes, or attempts to obtain, possess, use, sell, or furnish a physical or electronic vital record document, including security paper, records, reports, or information in a vital record, that has been counterfeited, altered, unlawfully amended, or mutilated, or that is false in whole or in part, for purposes other than those specified in this act;</text>
+          <text>Any individual who willfully and knowingly obtains, possesses, uses, sells, furnishes, or attempts to obtain, possess, use, sell, or furnish a physical or electronic vital record document, including security paper, records, reports, or information in a vital record, that has been counterfeited, altered, unlawfully amended, or mutilated, or that is false in whole or in part, for purposes other than those specified in <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>;</text>
         </para>
         <para>
           <num>(4)</num>
-          <text>Any individual who without lawful authority possesses any stolen or otherwise unlawfully obtained record, security paper, certified copy, or report or application submitted or created pursuant to this act; or</text>
+          <text>Any individual who without lawful authority possesses any stolen or otherwise unlawfully obtained record, security paper, certified copy, or report or application submitted or created pursuant to <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>; or</text>
         </para>
         <para>
           <num>(5)</num>
-          <text>Any individual who willfully and knowingly furnishes data, security paper, certifications or verifications with the knowledge or intention that they will be used for purposes other than those specified in this act.</text>
+          <text>Any individual who willfully and knowingly furnishes data, security paper, certifications or verifications with the knowledge or intention that they will be used for purposes other than those specified in <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>.</text>
         </para>
       </para>
       <para>
@@ -2006,37 +2029,37 @@
         <text>A fine of not more than $2,500, or imprisonment of not more than one year, or both, for each occurrence, shall be imposed on:</text>
         <para>
           <num>(1)</num>
-          <text>Any individual who willfully and knowingly refuses to provide information required by this act or rules promulgated pursuant to section 129 to implement this act;</text>
+          <text>Any individual who willfully and knowingly refuses to provide information required by <code-cite doc="D.C. Code" path="7|2A">this act</code-cite> or rules promulgated pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite> to implement <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>;</text>
         </para>
         <para>
           <num>(2)</num>
-          <text>Any individual who willfully and knowingly transports or accepts for transportation, interment, or other disposition human remains without an accompanying permit as provided in this act; or</text>
+          <text>Any individual who willfully and knowingly transports or accepts for transportation, interment, or other disposition human remains without an accompanying permit as provided in <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>; or</text>
         </para>
         <para>
           <num>(3)</num>
-          <text>Any individual who willfully and knowingly violates any of the provisions of this act or the rules promulgated pursuant to section 129 to implement this act, or who willfully and knowingly refuses to perform any of the duties required by this act.</text>
+          <text>Any individual who willfully and knowingly violates any of the provisions of <code-cite doc="D.C. Code" path="7|2A">this act</code-cite> or the rules promulgated pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite> to implement <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>, or who willfully and knowingly refuses to perform any of the duties required by <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>.</text>
         </para>
       </para>
       <para>
         <num>(c)</num>
-        <text>The fine set forth in this section shall not be limited by section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01 <em>et seq.</em>).</text>
+        <text>The fine set forth in this section shall not be limited by <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01 <em>et seq.</em>)</code-cite>.</text>
       </para>
       <para>
         <num>(d)</num>
-        <text>For each violation set forth in this section, as an alternative to the sanctions set forth in subsections (a) and (b) of this section, a civil penalty of not more than $10,000 may be imposed on any individual who violates any of the provisions of this act or the rules issued pursuant to section 129, or who willfully and knowingly fails to perform any of the duties required by this act or by the rules.</text>
+        <text>For each violation set forth in this section, as an alternative to the sanctions set forth in subsections (a) and (b) of this section, a civil penalty of not more than $10,000 may be imposed on any individual who violates any of the provisions of <code-cite doc="D.C. Code" path="7|2A">this act</code-cite> or the rules issued pursuant to <code-cite doc="D.C. Code" path="§7-231.29">section 129</code-cite>, or who willfully and knowingly fails to perform any of the duties required by <code-cite doc="D.C. Code" path="7|2A">this act</code-cite> or by the rules.</text>
       </para>
     </section>
     <section>
       <codify:insert doc="D.C. Code" path="7|2A" num-value="7-231.29"/>
       <num>129</num>
       <heading>Rules.</heading>
-      <text>The Registrar, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall issue rules to implement the provisions of this act.</text>
+      <text>The Registrar, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, shall issue rules to implement the provisions of <code-cite doc="D.C. Code" path="7|2A">this act</code-cite>.</text>
     </section>
     <section>
       <codify:insert doc="D.C. Code" path="7|2A" num-value="7-231.30"/>
       <num>130</num>
       <heading>Repealer; savings clause.</heading>
-      <text>The Vital Records Act of 1981, effective October 8, 1981 (D.C. Law 4-34; D.C. Official Code § 7-201 <em>et seq.</em>)("Act"), is repealed. The existing rules implementing the Act shall remain in effect until superseded by rules promulgated under the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250).</text>
+      <text><code-cite doc="D.C. Code" path="7|2">The Vital Records Act of 1981, effective October 8, 1981 (D.C. Law 4-34; D.C. Official Code § 7-201 <em>et seq.</em>)("Act")</code-cite>, is repealed. The existing rules implementing <code-cite doc="D.C. Code" path="7|2">the Act</code-cite> shall remain in effect until superseded by rules promulgated under <code-cite doc="D.C. Code" path="7|2A">the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite>.</text>
       <codify:repeal doc="D.C. Code" path="7|2"/>
     </section>
   </container>
@@ -2051,7 +2074,7 @@
         <para>
           <codify:replace doc="D.C. Code" path="§2-534|(d)"/>
           <num>(d)</num>
-          <text>The provisions of this title shall not apply to vital records covered by the Vital Records Act of 1981, effective October 8, 1981 (D.C. Law 434; D.C. Official Code 7-201 <em>et seq.</em>) or the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250).</text>
+          <text>The provisions of <code-cite doc="D.C. Code" path="2|5|II">this title</code-cite> shall not apply to vital records covered by <code-cite doc="D.C. Code" path="7|2">the Vital Records Act of 1981, effective October 8, 1981 (D.C. Law 434; D.C. Official Code 7-201 <em>et seq.</em>)</code-cite> or <code-cite doc="D.C. Code" path="7|2A">the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
@@ -2077,7 +2100,9 @@
         <codify:find-replace doc="D.C. Code" path="§16-309|(b)|(4)" count="1">
           <find>section 10 of the Vital Records Act of 1981</find>
           <replace>
-            <span codify:value="["></span><code-cite doc="D.C. Code" path="§7-231.19">section 119 of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite><span codify:value="]"></span>
+            <span codify:value="["/>
+            <code-cite doc="D.C. Code" path="§7-231.19">section 119 of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite>
+            <span codify:value="]"/>
           </replace>
         </codify:find-replace>
       </para>
@@ -2089,7 +2114,9 @@
           <text>Subsection (a) is amended by striking the phrase "Vital Records Act of 1981" both times it appears and inserting the phrase "the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)" in its place.</text>
           <codify:find-replace count="2">
             <find>the Vital Records Act of 1981</find>
-            <replace><cite doc="D.C. Act 22-438">the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</cite></replace>
+            <replace>
+              <code-cite doc="D.C. Code" path="7|2A">the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite>
+            </replace>
           </codify:find-replace>
         </para>
         <para codify:path="(b)">
@@ -2097,11 +2124,15 @@
           <text>Subsection (b) is amended by striking the phrase "section 11 of the Vital Records Act of 1981" both times it appears and inserting the phrase "section 121 of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)" in its place.</text>
           <codify:find-replace count="1">
             <find>section 11 of the Vital Records Act of 1981</find>
-            <replace><cite doc="D.C. Code" path="§7-231.21">section 121 of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</cite></replace>
+            <replace>
+              <cite-cite doc="D.C. Code" path="§7-231.21">section 121 of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</cite-cite>
+            </replace>
           </codify:find-replace>
-           <codify:find-replace count="1">
+          <codify:find-replace count="1">
             <find>the Vital Records Act of 1981</find>
-            <replace><cite doc="D.C. Act 22-438">the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</cite></replace>
+            <replace>
+              <code-cite doc="D.C. Code" path="7|2A">the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite>
+            </replace>
           </codify:find-replace>
         </para>
         <para codify:path="(c-1)">
@@ -2109,7 +2140,9 @@
           <text>Subsection (c-1) is amended by striking the phrase "section 11 of the Vital Records Act of 1981" and inserting the phrase "section 121 of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)" in its place.</text>
           <codify:find-replace count="1">
             <find>section 11 of the Vital Records Act of 1981</find>
-            <replace><cite doc="D.C. Code" path="§7-231.21">section 121 of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</cite></replace>
+            <replace>
+              <code-cite doc="D.C. Code" path="§7-231.21">section 121 of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite>
+            </replace>
           </codify:find-replace>
         </para>
       </para>
@@ -2117,12 +2150,12 @@
         <num>(c)</num>
         <text>Section 16-1054(a)(4) is amended by striking the phrase "7-219" and inserting the phrase "section 124 of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)" in its place.</text>
         <codify:find-replace count="1">
-           <find>
-          <cite path="§7-219">7-219</cite>
-        </find>
-        <replace>
-          <code-cite doc="D.C. Code" path="§7-231.24">section 124 of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite>
-        </replace>
+          <find>
+            <cite path="§7-219">7-219</cite>
+          </find>
+          <replace>
+            <code-cite doc="D.C. Code" path="§7-231.24">section 124 of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite>
+          </replace>
         </codify:find-replace>
       </para>
       <para codify:doc="D.C. Code" codify:path="§16-2345|(a)">
@@ -2130,7 +2163,7 @@
         <text>Section 16-2345(a) is amended by striking the phrase "pursuant to section 16-909(e)(1)(A) and section 7-205(e)(3A))" and inserting the phrase "pursuant to section 16-909(e)(1)(A) and section 108(l)(6) of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)" in its place.</text>
         <codify:find-replace count="1">
           <find>pursuant to <cite path="§16-909|(e)|(1)|(A)">§ 16-909(e)(1)(A)</cite> and <cite path="§7-205|(e)|(3A)">§ 7-205(e)(3A)</cite></find>
-          <replace>pursuant to <span codify:value="sections">section</span> <cite doc="D.C. Code" path="§16-909|(e)|(1)|(A)" codify:value="16-909|(e)|(1)|(A)">16-909(e)(1)(A)</cite> and <code-cite doc="D.C. Code" path="§7-231.08|(l)|(6)" codify:value="7-231.08|(l)|(6)">section 108(l)(6) of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite></replace>
+          <replace>pursuant to <span codify:value="sections">section</span> <cite doc="D.C. Code" path="§16-909|(e)|(1)|(A)" codify:value="[16-909(e)(1)(A)]">16-909(e)(1)(A)</cite> and <code-cite doc="D.C. Code" path="§7-231.08|(l)|(6)" codify:value="[7-231.08(l)(6)]">section 108(l)(6) of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite></replace>
         </codify:find-replace>
       </para>
       <para codify:doc="D.C. Code" codify:path="§16-2503">
@@ -2179,7 +2212,7 @@
         <text>Paragraph (1)(D) is amended to read as follows:</text>
         <include lvl="2">
           <para>
-            <codify:replace/>    
+            <codify:replace/>
             <num>(D)</num>
             <text>Captive-bred species of common cage birds, including chickens;</text>
           </para>
@@ -2325,7 +2358,7 @@
             <text>Paragraph (1) is amended by striking the phrase "may be exempt from any requirement to cover contraceptive products and services under section 5a and section 5b" and inserting the phrase "may be exempt from any requirement to cover contraceptive drugs, devices, products, and services under sections 5a, 5b, and 5c" in its place.</text>
             <codify:find-replace count="1">
               <find>may be exempt from any requirement to cover contraceptive products and services under <code-cite doc="D.C. Code" path="§31-3834.01">section 5a</code-cite> and <code-cite doc="D.C. Code" path="§31-3834.02">section 5b</code-cite></find>
-              <replace>may be exempt from any requirement to cover contraceptive drugs, devices, products, and services under sections 5a, 5b, and 5c</replace>
+              <replace>may be exempt from any requirement to cover contraceptive drugs, devices, products, and services under §§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, and <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite></replace>
             </codify:find-replace>
           </para>
           <para codify:path="(2)">
@@ -2442,10 +2475,10 @@
             <para>
               <num>(ii)</num>
               <text>Strike the phrase "sections 5a and 5b" and insert the phrase "5a, 5b, or 5c" in its place.</text>
-               <codify:find-replace count="1">
-              <find>§§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite> and <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite></find>
-              <replace><code-cite doc="D.C. Code" path="§31-3834.01">section 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02">section 5b</code-cite>, or <code-cite doc="D.C. Code" path="§31-3834.03">section 5c</code-cite></replace>
-            </codify:find-replace>
+              <codify:find-replace count="1">
+                <find>§§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite> and <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite></find>
+                <replace><code-cite doc="D.C. Code" path="§31-3834.01">section 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02">section 5b</code-cite>, or <code-cite doc="D.C. Code" path="§31-3834.03">section 5c</code-cite></replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(iii)</num>
@@ -2485,7 +2518,7 @@
             <text>Paragraph (2) is amended by striking the phrase "services, drugs, devices, products, and procedures described in sections 5a and 5b" and inserting the phrase "drugs, devices, products, and services described in sections 5a, 5b, and 5c" in its place.</text>
             <codify:find-replace count="1">
               <find>services, drugs, devices, products, and procedures described in §§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite> and <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite></find>
-              <replace>drugs, devices, products, and services described in sections 5a, 5b, and 5c</replace>
+              <replace>drugs, devices, products, and services described in §§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, and <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite></replace>
             </codify:find-replace>
           </para>
           <para codify:path="(3)">
@@ -2502,7 +2535,7 @@
           <text>Subsection (c) is amended by striking the phrase "services, drugs, devices, products, and procedures described in sections 5a and 5b" and inserting the phrase "drugs, devices, products, and services described in sections 5a, 5b, and 5c" in its place.</text>
           <codify:find-replace count="1">
             <find>services, drugs, devices, products, and procedures described in §§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite> and <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite></find>
-            <replace>drugs, devices, products, and services described in sections 5a, 5b, and 5c</replace>
+            <replace>drugs, devices, products, and services described in §§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, and <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite></replace>
           </codify:find-replace>
         </para>
       </para>
