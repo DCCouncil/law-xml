@@ -21,24 +21,26 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Omnibus Alcoholic Beverage Regulation Amendment Act of 2018".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Title 25 of the District of Columbia Official Code is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>Chapter 1 is amended as follows:</text>
-      <para>
+      <para codify:path="§25-101">
         <num>(1)</num>
         <text>Section 25-101 is amended as follows:</text>
-        <para>
+        <para codify:path="(2A)">
           <num>(A)</num>
           <text>Paragraph (2A) is repealed.</text>
+          <codify:repeal/>
         </para>
         <para>
           <num>(B)</num>
           <text>A new paragraph (16A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(16)"/>
               <num>(16A)</num>
               <text>"Crowler" means a recyclable container that is capable of holding up to 64 ounces of beer or wine and is designed to be filled and sealed on premises for consumption off premises.</text>
             </para>
@@ -50,74 +52,105 @@
           <text>A new paragraph (44A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(44)"/>
               <num>(44A)</num>
               <text>"Roll call hearing" means the proceeding specified in a placard posted at an applicant's premises at which the applicant and the protestant are introduced to each other and the grounds for objection to the license application are read to the public.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(32A)|num">
           <num>(D)</num>
           <text>Designate existing paragraph (32A) as paragraph (32B).</text>
+          <codify:find-replace count="1">
+            <find>(32A)</find>
+            <replace>(32B)</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(E)</num>
           <text>A new paragraph (32A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(32)"/>
               <num>(32A)</num>
               <text>"Mediation" means a meeting between the applicant and the protestant held for the purposes of discussing and resolving, where possible, the concerns raised by the protestant.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(52)">
           <num>(F)</num>
           <text>Paragraph (52) is amended as follows:</text>
-          <para>
+          <para codify:path="text">
             <num>(i)</num>
             <text>The lead-in text is amended by striking the phrase "in a building which" and inserting the word "that" in its place.</text>
+            <codify:find-replace count="1">
+              <find>in a building which</find>
+              <replace>that</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(A)">
             <num>(ii)</num>
             <text>Subparagraph (A) is amended by striking the word "are" and inserting the phrase "may be" in its place.</text>
+            <codify:find-replace count="1">
+              <find>are</find>
+              <replace>may be</replace>
+            </codify:find-replace>
           </para>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-104|(b)">
         <num>(2)</num>
         <text>Section 25-104(b) is amended by striking the phrase "festival license or a temporary license" and inserting the phrase "festival license, temporary license, farmer's market license, or pub crawl license" in its place.</text>
+        <codify:find-replace count="1">
+          <find>festival license or a temporary license</find>
+          <replace>festival license, temporary license, farmer's market license, or pub crawl license</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§25-110">
         <num>(3)</num>
         <text>Section 25-110 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)|(A)|(ii)">
             <num>(i)</num>
             <text>Paragraph (1)(A)(ii) is amended as follows:</text>
             <para>
               <num>(I)</num>
               <text>Strike the word "Sell" and insert the phrase "Sell and deliver" in its place.</text>
+              <codify:find-replace count="1">
+                <find>Sell</find>
+                <replace>Sell and deliver</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(II)</num>
               <text>Strike the word "sell" and insert the phrase "sell and deliver" in its place.</text>
+              <codify:find-replace count="1">
+                <find>sell</find>
+                <replace>sell and deliver</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(2)">
             <num>(ii)</num>
             <text>Paragraph (2) is amended as follows:</text>
-            <para>
+            <para codify:path="(B)">
               <num>(I)</num>
               <text>Subparagraph (B) is amended by striking the phrase "to sell" and inserting the phrase "to sell and deliver" in its place.</text>
+              <codify:find-replace count="1">
+                <find>to sell</find>
+                <replace>to sell and deliver</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(II)</num>
               <text>A new subparagraph (C) is added to read as follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:insert/>
                   <num>(C)</num>
                   <para>
                     <num>(i)</num>
@@ -138,10 +171,12 @@
           <text>New subsections (c) and (d) are added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(c)</num>
               <text>A holder of a manufacturer's license, class A or B, that owns 2 or more breweries, wineries, or distilleries in the District shall be permitted to transport alcoholic beverages manufactured at one brewery, winery, or distillery to the other brewery, winery, or distillery.</text>
             </para>
             <para>
+              <codify:insert/>
               <num>(d)</num>
               <para>
                 <num>(1)</num>
@@ -160,14 +195,18 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-112">
         <num>(4)</num>
         <text>Section 25-112 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended by striking the phrase "class A," and inserting the phrase "Class A or B" in its place.</text>
+          <codify:find-replace count="1">
+            <find>class A,</find>
+            <replace>Class A or B</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(a-1)|(1)">
           <num>(B)</num>
           <text>Subsection (a-1)(1) is amended to read as follows:</text>
           <include>
@@ -176,25 +215,41 @@
               <para>
                 <num>(1)</num>
                 <text>An off-premises retailer's licensee, class A or B, may also sell beer or wine in crowlers unless prohibited by one of the single sale moratoria contained in subchapter IV of Chapter 3.</text>
+                <codify:find-replace count="1">
+                  <find>An off-premises retailer’s licensee, class B, that is also a full-service grocery store meeting the requirements of <cite path="§25-331|(d)">§ 25-331(d)</cite>, may also sell beer or wine in growlers.</find>
+                  <replace>An off-premises retailer's licensee, class A or B, may also sell beer or wine in crowlers unless prohibited by one of the single sale moratoria contained in subchapter IV of Chapter 3.</replace>
+                </codify:find-replace>
               </para>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(C)</num>
           <text>Subsection (b) is amended by striking the phrase "except for the sale of growlers" and inserting the phrase "except for the sale of growlers or crowlers" in its place.</text>
+          <codify:find-replace count="1">
+            <find>except for the sale of growlers</find>
+            <replace>except for the sale of growlers or crowlers</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(d)|(1)">
           <num>(D)</num>
           <text>Subsection (d)(1) is amended as follows:</text>
-          <para>
+          <para codify:path="(C)">
             <num>(i)</num>
             <text>Subparagraph (C) is amended by striking the phrase "class IA" and inserting the phrase "class AI" in its place.</text>
+            <codify:find-replace count="1">
+              <find>class IA</find>
+              <replace>class AI</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(D)">
             <num>(ii)</num>
             <text>Subparagraph (D) is amended by striking the phrase "class IB" and inserting the phrase "class BI" in its place.</text>
+            <codify:find-replace count="1">
+              <find>class IB</find>
+              <replace>class BI</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -202,6 +257,7 @@
           <text>New subsections (f) and (g) are added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(f)</num>
               <text>A holder of an off-premises retailer's license, class A or B, that has security cameras installed on the licensed premises, whether at the direction of the Board or in accordance with the establishment's security plan or settlement agreement, shall:</text>
               <para>
@@ -222,6 +278,7 @@
               </para>
             </para>
             <para>
+              <codify:insert/>
               <num>(g)</num>
               <para>
                 <num>(1)</num>
@@ -240,11 +297,12 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-113|(e)">
         <num>(5)</num>
         <text>Section 25-113(e) is amended by adding a new paragraph (7) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(7)</num>
             <para>
               <num>(A)</num>
@@ -266,34 +324,47 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-113a">
         <num>(6)</num>
         <text>Section 25-113a is amended as follows:</text>
-        <para>
+        <para codify:path="(b)|(1)">
           <num>(A)</num>
           <text>Subsection (b)(1) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the phrase "consumption permit or a" and insert the phrase "consumption permit or a retailer's" in its place.</text>
+            <codify:find-replace count="1">
+              <find>consumption permit or a</find>
+              <replace>consumption permit or a retailer's</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "C/T, and D/T" and insert the phrase "C/T, D/T, C/B, and D/B" in its place.</text>
+            <codify:find-replace count="1">
+              <find>C/T, and D/T</find>
+              <replace>C/T, D/T, C/B, and D/B</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(B)</num>
           <text>Subsection (c) is amended by striking the phrase "C/X, and D/X" and inserting the phrase "C/X, D/X, C/B, and D/B" in its place.</text>
+          <codify:find-replace count="1">
+            <find>C/X, and D/X</find>
+            <replace>C/X, D/X, C/B, and D/B</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-117">
         <num>(7)</num>
         <text>Section 25-117 is amended as follows:</text>
-        <para>
+        <para codify:path="(a-1)">
           <num>(A)</num>
           <text>Subsection (a-1) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(a-1)</num>
               <text>If a licensee has submitted a completed application for or received a brew pub permit on or after February 7, 2018, the establishment shall only be permitted to sell beer brewed at the licensed location to patrons in growlers for off-premises consumption.</text>
             </para>
@@ -305,6 +376,7 @@
           <text>A new subsection (a-2) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(a-1)"/>
               <num>(a-2)</num>
               <para>
                 <num>(1)</num>
@@ -335,7 +407,7 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>In accordance with § 25-823, the Board may fine, as set forth in the schedule of civil penalties established under § 25-830, and revoke or suspend a beer pub permit if the holder of a beer pub permit fails to comply with the terms of this subsection.</text>
+                <text>In accordance with <cite doc="D.C. Code" path="§25-823">§ 25-823</cite>, the Board may fine, as set forth in the schedule of civil penalties established under <cite doc="D.C. Code" path="§25-830">§ 25-830</cite>, and revoke or suspend a beer pub permit if the holder of a beer pub permit fails to comply with the terms of this subsection.</text>
               </para>
               <para>
                 <num>(5)</num>
@@ -350,6 +422,7 @@
           <text>A new subsection (f) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(f)</num>
               <text>A licensee holding a brew pub permit shall be authorized to sell and deliver beer directly to a consumer for off-premises consumption if the beer is:</text>
               <para>
@@ -369,37 +442,47 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-118">
         <num>(8)</num>
         <text>Section 25-118 is amended as follows:</text>
-        <para>
+        <para codify:path="(e)">
           <num>(A)</num>
           <text>Subsection (e) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(e)</num>
               <text>The holder of a manufacturer's license, class A, may utilize a portion of the licensed premises for the sampling of wine and spirits, the holder of a manufacturer's license, class B, may utilize a portion of the licensed premises for the sampling of beer, and the holder of a manufacturer's license, class C, may utilize a portion of the licensed premises for the sampling of alcohol-infused confectionary food products between the hours of 8:00 a.m. and 12:00 a.m., 7 days a week.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(f)|(1)">
           <num>(B)</num>
           <text>Subsection (f)(1) is amended by striking the phrase ", during its approved hours of operation" and inserting the phrase "between the hours of 8:00 a.m. and 12:00 a.m., 7 days a week" in its place.</text>
+          <codify:find-replace count="1">
+            <find>, during its approved hours of operation</find>
+            <replace>between the hours of 8:00 a.m. and 12:00 a.m., 7 days a week</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(g)">
           <num>(C)</num>
           <text>Subsection (g) is amended by striking the word "tenant" and inserting the phrase "tenant between the hours of 8:00 a.m. and 12:00 a.m., 7 days a week" in its place.</text>
+          <codify:find-replace count="1">
+            <find>tenant</find>
+            <replace>tenant between the hours of 8:00 a.m. and 12:00 a.m., 7 days a week</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-124">
         <num>(9)</num>
         <text>Section 25-124 is amended as follows:</text>
-        <para>
+        <para codify:path="(d)">
           <num>(A)</num>
           <text>Subsection (d) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(d)</num>
               <text>If a licensee has submitted a completed application for or received a wine pub permit on or after February 7, 2018, the establishment shall only be permitted to sell wine to patrons in sealed bottles or other closed containers for off-premises consumption if the wine is:</text>
               <para>
@@ -423,6 +506,7 @@
           <text>A new subsection (d-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(d)"/>
               <num>(d-1)</num>
               <para>
                 <num>(1)</num>
@@ -446,7 +530,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>In accordance with § 25-823, the Board may fine, as set forth in the schedule of civil penalties established under § 25-830, and revoke or suspend a wine pub permit if the holder of a wine pub permit fails to comply with the terms of this subsection.</text>
+                <text>In accordance with <cite doc="D.C. Code" path="§25-823">§ 25-823</cite>, the Board may fine, as set forth in the schedule of civil penalties established under <cite doc="D.C. Code" path="§25-830">§ 25-830</cite>, and revoke or suspend a wine pub permit if the holder of a wine pub permit fails to comply with the terms of this subsection.</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -461,6 +545,7 @@
           <text>A new subsection (h) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(h)</num>
               <text>A licensee holding wine pub permits at separate locations in the District shall be permitted to transport wine for sale and consumption manufactured at one wine pub facility to another wine pub facility owned by the licensee.</text>
             </para>
@@ -468,14 +553,15 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-125">
         <num>(10)</num>
         <text>Section 25-125 is amended as follows:</text>
-        <para>
+        <para codify:path="(d)">
           <num>(A)</num>
           <text>Subsection (d) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(d)</num>
               <para>
                 <num>(1)</num>
@@ -506,6 +592,7 @@
           <text>A new subsection (d-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(d)"/>
               <num>(d-1)</num>
               <para>
                 <num>(1)</num>
@@ -529,7 +616,7 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>In accordance with § 25-823, the Board may fine, as set forth in the schedule of civil penalties established under § 25-830, and revoke or suspend a distillery pub permit if the holder of the distillery pub permit fails to comply with the terms of this subsection.</text>
+                <text>In accordance with <cite doc="D.C. Code" path="§25-823">§ 25-823</cite>, the Board may fine, as set forth in the schedule of civil penalties established under <cite doc="D.C. Code" path="§25-830">§ 25-830</cite>, and revoke or suspend a distillery pub permit if the holder of the distillery pub permit fails to comply with the terms of this subsection.</text>
               </para>
               <para>
                 <num>(5)</num>
@@ -544,6 +631,7 @@
           <text>A new subsection (h) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(h)</num>
               <text>A licensee holding distillery pub permits at separate locations in the District shall be permitted to transport distilled spirits for sale and consumption manufactured at one distillery pub facility to another distillery pub facility owned by the licensee.</text>
             </para>
@@ -551,7 +639,7 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-126">
         <num>(11)</num>
         <text>Section 25-126 is amended as follows:</text>
         <para>
@@ -559,6 +647,7 @@
           <text>A new subsection (a-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(a)"/>
               <num>(a-1)</num>
               <para>
                 <num>(1)</num>
@@ -592,43 +681,61 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(B)</num>
           <text>Subsection (b) is repealed.</text>
+          <codify:repeal/>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-128">
         <num>(12)</num>
         <text>Section 25-128 is amended as follows:</text>
-        <para>
+        <para codify:path="(c)">
           <num>(A)</num>
           <text>Subsection (c) is amended by striking the phrase "6 months" and inserting the phrase "one year" in its place.</text>
+          <codify:find-replace count="1">
+            <find>6 months</find>
+            <replace>one year</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(d)|(3)">
           <num>(B)</num>
           <text>Subsection (d)(3) is amended by striking the phrase "6-month period," and inserting the phrase "one-year period," in its place.</text>
+          <codify:find-replace count="1">
+            <find>6-month period,</find>
+            <replace>one-year period,</replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
     <para>
       <num>(b)</num>
       <text>Chapter 2 is amended as follows:</text>
-      <para>
+      <para codify:path="§25-204.01|(c)|(2)">
         <num>(l)</num>
         <text>Section 25-204.01(c)(2) is amended as follows:</text>
-        <para>
+        <para codify:path="(F)">
           <num>(A)</num>
           <text>Subparagraph (F) is amended by striking the word "or".</text>
+          <codify:find-replace position="last">
+            <find>or</find>
+            <replace/>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(G)">
           <num>(B)</num>
           <text>Subparagraph (G) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+          <codify:find-replace position="last">
+            <find>.</find>
+            <replace>; or</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new subparagraph (H) is added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert/>
               <num>(H)</num>
               <text>To receive testimony, discuss, or deliberate upon the criminal background of an applicant for a solicitor's license or manager's license.</text>
             </para>
@@ -636,18 +743,20 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-205|(b)">
         <num>(2)</num>
         <text>Section 25-205(b) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Designate the existing text as paragraph (1).</text>
+          <codify:redesignate-para num-value="(1)"/>
         </para>
         <para>
           <num>(B)</num>
           <text>A new paragraph (2) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(2)</num>
               <para>
                 <num>(A)</num>
@@ -666,14 +775,15 @@
     <para>
       <num>(c)</num>
       <text>Chapter 3 is amended as follows:</text>
-      <para>
+      <para codify:path="§25-301">
         <num>(1)</num>
         <text>Section 25-301 is amended to read as follows:</text>
-        <para>
+        <para codify:path="(a)|(3)">
           <num>(A)</num>
           <text>Subsection (a)(3) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(3)</num>
               <para>
                 <num>(A)</num>
@@ -692,29 +802,39 @@
           <text>A new subsection (c-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(c)"/>
               <num>(c-1)</num>
               <text>The Board, in its discretion, may approve an application for a solicitor's license or manager's license for an applicant who has been convicted of a felony within 5 years of applying for the solicitor's or manager's license if the Board determines that the offense does not have a bearing on the applicant's fitness for licensure.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(C)</num>
           <text>Subsection (d) is amended by striking the phrase "this objective" and inserting the phrase "the objectives of subsections (c) and (c-1) of this section" in its place.</text>
+          <codify:find-replace count="1">
+            <find>this objective</find>
+            <replace>the objectives of subsections (c) and (c-1) of this section</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-303|(a)">
         <num>(2)</num>
         <text>Section 25-303(a) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "manufacturer's or".</text>
+          <codify:find-replace count="1">
+            <find>manufacturer's or</find>
+            <replace/>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>A new paragraph (1A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(1)"/>
               <num>(1A)</num>
               <text>No holder of a manufacturer's license shall hold a license of any other kind; provided, that a licensee under a manufacturer's license shall be permitted to hold another manufacturer's license of the same or a different class.</text>
             </para>
@@ -722,29 +842,39 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-313|(c)|(1)">
         <num>(3)</num>
         <text>Section 25-313(c)(1) is amended by striking the phrase "solicitor's license or a temporary license." and inserting the phrase "solicitor's license, temporary license, festival license, pub crawl license, or farmer's market license." in its place.</text>
+        <codify:find-replace count="1">
+          <find>solicitor's license or a temporary license.</find>
+          <replace>solicitor's license, temporary license, festival license, pub crawl license, or farmer's market license.</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§25-314|(b)">
         <num>(4)</num>
         <text>Section 25-314(b) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "paragraphs (2) through (5) of this subsection." and inserting the phrase "paragraphs (2) through (9) of this subsection." in its place.</text>
+          <codify:find-replace count="1">
+            <find>paragraphs (2) through (5) of this subsection.</find>
+            <replace>paragraphs (2) through (9) of this subsection.</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(B)</num>
           <text>Paragraph (3) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Designate the existing text as subparagraph (A).</text>
+            <codify:redesignate-para num-value="(A)"/>
           </para>
           <para>
             <num>(ii)</num>
             <text>A new subparagraph (B) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(B)</num>
                 <text>The exception to the 400-foot restriction in subparagraph (A) of this paragraph shall not apply if the currently operating establishment holding a license of the same class is exempt from the 400-foot restriction under paragraph (8) of this subsection.</text>
               </para>
@@ -757,10 +887,12 @@
           <text>New paragraphs (8) and (9) are added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(8)</num>
               <text>The 400-foot restriction shall not apply to an application for an on-premises retailer's license, class CT, DT, CX, or DX, or an off-premises retailer's license, class A or B, located in the Mixed Use-12 Zone, Square 473 according to the official atlases of the Zoning Commission of the District of Columbia.</text>
             </para>
             <para>
+              <codify:insert/>
               <num>(9)</num>
               <text>The 400-foot restriction shall not apply to an application for an on-premises retailer's license, CR, DR, CH, DH, CT, DT, CX, or DX, where the establishment will be located entirely on a college or university campus and will not have direct public access to the street or the outside of the college's or university's main entrance.</text>
             </para>
@@ -768,41 +900,62 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-331">
         <num>(5)</num>
         <text>Section 25-331 is amended as follows:</text>
-        <para>
+        <para codify:path="(e)">
           <num>(A)</num>
           <text>Subsection (e) is amended by striking the phrase "IA" and inserting the phrase "AI" in its place.</text>
+          <codify:find-replace count="1">
+            <find>IA</find>
+            <replace>AI</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(f)">
           <num>(B)</num>
           <text>Subsection (f) is amended by striking the phrase "IB" and inserting the phrase "BI" in its place.</text>
+          <codify:find-replace count="1">
+            <find>IB</find>
+            <replace>BI</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(g)">
           <num>(C)</num>
           <text>Subsection (g) is amended by striking the phrase "class IA or IB" and inserting the phrase "class AI or BI" in its place.</text>
+          <codify:find-replace count="1">
+            <find>class IA or IB</find>
+            <replace>class AI or BI</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-336">
         <num>(6)</num>
         <text>Section 25-336 is amended as follows:</text>
-        <para>
+        <para codify:path="(d)">
           <num>(A)</num>
           <text>Subsection (d) is amended as follows:</text>
-          <para>
+          <para codify:path="(2)">
             <num>(i)</num>
             <text>Paragraph (2) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; or</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(ii)</num>
             <text>Paragraph (3) is amended by striking the period at the end and inserting the phrase "; or" in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>; or</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(iii)</num>
             <text>A new paragraph (4) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(4)</num>
                 <text>An on-premises Retailer's License, class CR, DR, CH, DH, CT, DT, CX, or DX that is located entirely on a college or university campus and will not have direct public access to the street or the outside of the college's or university's main entrance.</text>
               </para>
@@ -810,42 +963,65 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="(f)">
           <num>(B)</num>
           <text>Subsection (f) is amended by striking the phrase "an off-premises retailer's" both times it appears and inserting the phrase "a retailer's" in its place.</text>
+          <codify:find-replace count="2">
+            <find>an off-premises retailer's</find>
+            <replace>a retailer's</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-338">
         <num>(7)</num>
         <text>Section 25-338 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the phrase "the same class" and insert the phrase "any class" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the same class</find>
+              <replace>any class</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "for the same person or persons" and insert the phrase "for the same location and submitted by the same applicant" in its place.</text>
+            <codify:find-replace count="1">
+              <find>for the same person or persons</find>
+              <replace>for the same location and submitted by the same applicant</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(B)</num>
           <text>Subsection (b) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the phrase "the timely filing of a protest" and insert the phrase "the roll call hearing" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the timely filing of a protest</find>
+              <replace>the roll call hearing</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "premises may be made at any time." and insert the phrase "location, the restriction set forth in subsection (a) of this section shall not apply." in its place.</text>
+            <codify:find-replace count="1">
+              <find>premises may be made at any time.</find>
+              <replace>location, the restriction set forth in subsection (a) of this section shall not apply.</replace>
+            </codify:find-replace>
           </para>
         </para>
       </para>
       <para>
         <num>(8)</num>
         <text>Section 25-374 (b), (c), and (d) are repealed.</text>
+        <codify:repeal path="§25-374|(b)"/>
+        <codify:repeal path="§25-374|(c)"/>
+        <codify:repeal path="§25-374|(d)"/>
       </para>
     </para>
     <para>
@@ -903,10 +1079,11 @@
         <text>Section 25-408 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§25-408"/>
             <prefix>§</prefix>
             <num>25-408</num>
             <heading>Application for a tasting permit.</heading>
-            <text>The application for a new or the renewal of a tasting permit issued in accordance with § 25-118 shall include a diagram of the premises indicating the areas where sampling is to occur and the hours and days during which the tasting is to occur.</text>
+            <text>The application for a new or the renewal of a tasting permit issued in accordance with <cite doc="D.C. Code" path="§25-118">§ 25-118</cite> shall include a diagram of the premises indicating the areas where sampling is to occur and the hours and days during which the tasting is to occur.</text>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -916,27 +1093,28 @@
         <text>A new section 25-412 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="25|4|I"/>
             <prefix>§</prefix>
             <num>25-412</num>
             <heading>Qualifications hearing.</heading>
             <para>
               <num>(a)</num>
-              <text>The Board may hold a qualifications hearing before issuing, transferring, or renewing a license or permit to determine if the applicant, licensee, or permittee meets the criterion set forth in § 25-301.</text>
+              <text>The Board may hold a qualifications hearing before issuing, transferring, or renewing a license or permit to determine if the applicant, licensee, or permittee meets the criterion set forth in <cite doc="D.C. Code" path="§25-301">§ 25-301</cite>.</text>
             </para>
             <para>
               <num>(b)</num>
-              <text>A qualifications hearing shall be considered a contested hearing pursuant to § 2-509.</text>
+              <text>A qualifications hearing shall be considered a contested hearing pursuant to <cite doc="D.C. Code" path="§2-509">§ 2-509</cite>.</text>
             </para>
             <para>
               <num>(c)</num>
-              <text>The Board shall give notice to the applicant, licensee, or permittee, by personal service or certified mail, requiring the applicant to appear before the Board within 15 calendar days after receipt of the notice to provide evidence establishing that the applicant, licensee, or permittee meets the criterion set forth in § 25-301.</text>
+              <text>The Board shall give notice to the applicant, licensee, or permittee, by personal service or certified mail, requiring the applicant to appear before the Board within 15 calendar days after receipt of the notice to provide evidence establishing that the applicant, licensee, or permittee meets the criterion set forth in <cite doc="D.C. Code" path="§25-301">§ 25-301</cite>.</text>
             </para>
             <para>
               <num>(d)</num>
               <text>The hearing notice required by subsection (c) of this section shall include:</text>
               <para>
                 <num>(1)</num>
-                <text>The criterion, as set forth in § 25-301, about which the Board is requesting information;</text>
+                <text>The criterion, as set forth in <cite doc="D.C. Code" path="§25-301">§ 25-301</cite>, about which the Board is requesting information;</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -944,45 +1122,50 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>The conditions, if any, that the Board is considering imposing on the applicant pursuant to § 25-104.</text>
+                <text>The conditions, if any, that the Board is considering imposing on the applicant pursuant to <cite doc="D.C. Code" path="§25-104">§ 25-104</cite>.</text>
               </para>
             </para>
             <para>
               <num>(e)</num>
-              <text>If after notice has been provided, as required by subsection (c) of the section, the applicant refuses or otherwise fails to appear at the hearing, the Board may hold the hearing ex parte pursuant to § 25-447(e).</text>
+              <text>If after notice has been provided, as required by subsection (c) of the section, the applicant refuses or otherwise fails to appear at the hearing, the Board may hold the hearing ex parte pursuant to <cite doc="D.C. Code" path="§25-447|(e)">§ 25-447(e)</cite>.</text>
             </para>
             <para>
               <num>(f)</num>
               <para>
                 <num>(1)</num>
-                <text>The Board shall deny the issuance, transfer, or renewal of a license or permit application if it determines that the applicant does not meet the criterion set forth in § 25-301.</text>
+                <text>The Board shall deny the issuance, transfer, or renewal of a license or permit application if it determines that the applicant does not meet the criterion set forth in <cite doc="D.C. Code" path="§25-301">§ 25-301</cite>.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>In issuing or renewing a license, approving a transfer, or granting a permit, the Board may require that certain conditions be met, consistent with the requirements set forth in § 25-104.</text>
+                <text>In issuing or renewing a license, approving a transfer, or granting a permit, the Board may require that certain conditions be met, consistent with the requirements set forth in <cite doc="D.C. Code" path="§25-104">§ 25-104</cite>.</text>
               </para>
             </para>
           </section>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-421">
         <num>(4)</num>
         <text>Section 25-421 is amended as follows:</text>
-        <para>
+        <para codify:path="(d)">
           <num>(A)</num>
           <text>Subsection (d) is amended by striking the phrase "administrative review" and inserting the phrase "roll call hearing" in its place.</text>
+          <codify:find-replace count="1">
+            <find>administrative review</find>
+            <replace>roll call hearing</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(h)">
           <num>(B)</num>
           <text>Subsection (h) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(h)</num>
               <text>The requirements of this section shall apply to an applicant for:</text>
               <para>
                 <num>(1)</num>
-                <text>A manufacturer's license, class A, B, or C, whose hours of sales or service or hours of operation to the public are after 12:00 a.m. pursuant to § 25-721(c);</text>
+                <text>A manufacturer's license, class A, B, or C, whose hours of sales or service or hours of operation to the public are after 12:00 a.m. pursuant to <cite doc="D.C. Code" path="§25-721|(c)">§ 25-721(c)</cite>;</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1001,18 +1184,23 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-423">
         <num>(5)</num>
         <text>Section 25-423 is amended as follows:</text>
-        <para>
+        <para codify:path="(b)|(3)">
           <num>(A)</num>
           <text>Subsection (b)(3) is amended by striking the phrase "administrative review" and inserting the phrase "roll call hearing" in its place.</text>
+          <codify:find-replace count="1">
+            <find>administrative review</find>
+            <replace>roll call hearing</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(e)">
           <num>(B)</num>
           <text>Subsection (e) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(e)</num>
               <text>If the Board determines that the notices posted at an applicant's establishment have not remained visible to the public for the duration of the 45-day protest period, the Board shall require the reposting of the notices and shall reschedule the roll call hearing for a date at least 45 days after the originally scheduled hearing, unless the applicant has fully performed all other notice requirements and the Board determines that it is in the best interest of the parties to proceed at an earlier date.</text>
             </para>
@@ -1024,37 +1212,55 @@
           <text>A new subsection (i) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(i)</num>
-              <text>The applicant for a new or renewal license, substantial change in operation as determined by the Board under § 25-404, or for the transfer of a license to a new location shall take a picture of the posted placards within 2 calendar days of the date the  placards were posted, and upon request of the Board provide a copy of the picture, or pictures, of the posted placards that includes the date and time that the pictures were taken.</text>
+              <text>The applicant for a new or renewal license, substantial change in operation as determined by the Board under <cite doc="D.C. Code" path="§25-404">§ 25-404</cite>, or for the transfer of a license to a new location shall take a picture of the posted placards within 2 calendar days of the date the  placards were posted, and upon request of the Board provide a copy of the picture, or pictures, of the posted placards that includes the date and time that the pictures were taken.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-431">
         <num>(6)</num>
         <text>Section 25-431 is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Subsections (f) and (g) are amended by striking the phrase "administrative review" wherever it appears and inserting the phrase "roll call hearing" in its place.</text>
+          <codify:find-replace path="(f)" count="3">
+            <find>administrative review</find>
+            <replace>roll call hearing</replace>
+          </codify:find-replace>
+          <codify:find-replace path="(g)" count="1">
+            <find>administrative review</find>
+            <replace>roll call hearing</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(h)">
           <num>(B)</num>
           <text>Subsection (h) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Designate the existing text as paragraph (1).</text>
+            <codify:redesignate-para num-value="(1)"/>
           </para>
-          <para>
+          <para codify:path="(1)">
             <num>(ii)</num>
             <text>The newly designated paragraph (1) is amended as follows:</text>
             <para>
               <num>(I)</num>
               <text>Strike the phrase "administrative review" and insert the phrase "roll call hearing" in its place.</text>
+              <codify:find-replace count="1">
+                <find>administrative review</find>
+                <replace>roll call hearing</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(II)</num>
               <text>Strike the phrase "held by the Board" and insert the phrase "conducted by the Board's agent" in its place.</text>
+              <codify:find-replace count="1">
+                <find>held by the Board</find>
+                <replace>conducted by the Board's agent</replace>
+              </codify:find-replace>
             </para>
           </para>
           <para>
@@ -1062,6 +1268,7 @@
             <text>A new paragraph (2) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(2)</num>
                 <text>For the purposes of this subsection, the term "Board's agent" means an employee at or above the Grade 12 level in the Office of the General Counsel within ABRA, excluding the ABRA General Counsel, who shall have the authority to:</text>
                 <para>
@@ -1098,15 +1305,23 @@
           </para>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-442|(b)">
         <num>(7)</num>
         <text>Section 25-442(b) is amended by striking the word "shall" and inserting the word "may" in its place.</text>
+        <codify:find-replace count="1">
+          <find>shall</find>
+          <replace>may</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§25-444|(b)">
         <num>(8)</num>
         <text>Section 25-444(b) is amended by striking the phrase "administrative review" and inserting the phrase "roll call hearing" in its place.</text>
+        <codify:find-replace count="1">
+          <find>administrative review</find>
+          <replace>roll call hearing</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§25-445">
         <num>(9)</num>
         <text>Section 25-445 is amended as follows:</text>
         <para>
@@ -1117,39 +1332,57 @@
               <prefix>§</prefix>
               <num>25-445</num>
               <heading>Mediation.</heading>
+              <codify:find-replace path="heading" count="1">
+                <find>Settlement conference.</find>
+                <replace>Mediation.</replace>
+              </codify:find-replace>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(a)">
           <num>(B)</num>
           <text>Subsection (a) is amended by striking the phrase "settlement conference" and inserting the word "mediation" in its place.</text>
+          <codify:find-replace count="1">
+            <find>settlement conference</find>
+            <replace>mediation</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>Subsection (b) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace path="(b)"/>
               <num>(b)</num>
               <text>Mediation, which may be arranged at a roll call hearing or any other time, shall be set on a mutually convenient date before the scheduled protest status hearing or the protest hearing.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(D)</num>
           <text>Subsection (c) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(E)</num>
           <text>Subsection (d) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the word "protestant" and insert the word "party" in its place.</text>
+            <codify:find-replace count="1">
+              <find>protestant</find>
+              <replace>party</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "settlement conference" and insert the word "mediation" in its place.</text>
+            <codify:find-replace count="1">
+              <find>settlement conference</find>
+              <replace>mediation</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -1157,23 +1390,36 @@
           <text>Subsection (e) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace path="(e)"/>
               <num>(e)</num>
               <text>If a party refuses to make himself or herself available to attend mediation, the Board shall consider the application withdrawn, unless the party can show good cause for refusing to be available.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(f)">
           <num>(G)</num>
           <text>Subsection (f) is amended by striking the phrase "settlement conference" and inserting the word "mediation" in its place.</text>
+          <codify:find-replace count="1">
+            <find>settlement conference</find>
+            <replace>mediation</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(g)">
           <num>(H)</num>
           <text>Subsection (g) is amended by striking the phrase "protest hearing" and inserting the phrase "protest status hearing" in its place.</text>
+          <codify:find-replace count="1">
+            <find>protest hearing</find>
+            <replace>protest status hearing</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(h)">
           <num>(I)</num>
           <text>Subsection (h) is amended by striking the phrase "settlement conference" and inserting the word "mediation" in its place.</text>
+          <codify:find-replace count="1">
+            <find>settlement conference</find>
+            <replace>mediation</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
@@ -1181,6 +1427,7 @@
         <text>A new section 25-448 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="25|4|IV"/>
             <prefix>§</prefix>
             <num>25-448</num>
             <heading>Offer-in-compromise.</heading>
@@ -1194,7 +1441,7 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>The offer-in-compromise shall be consistent with the range of fines set forth in this title.</text>
+              <text>The offer-in-compromise shall be consistent with the range of fines set forth in <cite doc="D.C. Code" path="25">this title</cite>.</text>
             </para>
           </section>
         </include>
@@ -1209,22 +1456,31 @@
         <text>Section 25-501(d) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace path="§25-501|(d)"/>
             <num>(d)</num>
             <text>The Board may establish license periods at intervals necessary to facilitate efficient processing of applications.  If the Board changes a license period, the licensee or the holder of a wine pub permit, distillery pub permit, or brew pub permit shall pay the proportionate amount of the annual license fee.  If the Board issues a license or wine pub permit, distillery pub permit, or brew pub permit for less than one year, the licensee shall pay a fee reduced by the proportionate amount of the fee.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-503">
         <num>(2)</num>
         <text>Section 25-503 is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "class IA" and insert the phrase "class AI" in its place.</text>
+          <codify:find-replace count="1">
+            <find>class IA</find>
+            <replace>class AI</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "class IB" and insert the phrase "class BI" in its place.</text>
+          <codify:find-replace count="1">
+            <find>class IB</find>
+            <replace>class BI</replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
@@ -1249,6 +1505,7 @@
         <text>Section 25-701 is amended by adding a new subsection (a-1) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§25-701" after="(a)"/>
             <num>(a-1)</num>
             <para>
               <num>(1)</num>
@@ -1271,7 +1528,7 @@
               </para>
               <para>
                 <num>(D)</num>
-                <text>The license is in safekeeping pursuant to § 25-791.</text>
+                <text>The license is in safekeeping pursuant to <cite doc="D.C. Code" path="§25-791">§ 25-791</cite>.</text>
               </para>
             </para>
           </para>
@@ -1281,15 +1538,20 @@
       <para>
         <num>(3)</num>
         <text>Section 25-703 is amended by striking the word "sale" and inserting the word "operation" in its place.</text>
+        <codify:find-replace path="§25-703" count="1">
+          <find>sale</find>
+          <replace>operation</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§25-721">
         <num>(4)</num>
         <text>Section 25-721 is amended as follows:</text>
-        <para>
+        <para codify:path="(c)">
           <num>(A)</num>
           <text>Subsection (c) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(c)</num>
               <text>A manufacturer's license, class A, B, or C, holding an on-site sales and consumption permit may sell and serve alcoholic beverages on any day and time except between the following hours:</text>
               <para>
@@ -1309,6 +1571,7 @@
           <text>A new subsection (d) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(d)</num>
               <text>A manufacturer's license, class A, B, or C, may deliver alcoholic beverages manufactured at the licensed premises to wholesalers, retailers, and the homes of District of Columbia residents between the hours of 7:00 a.m. and midnight, 7 days a week.</text>
             </para>
@@ -1316,75 +1579,113 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-723">
         <num>(5)</num>
         <text>Section 25-723 is amended as follows:</text>
-        <para>
+        <para codify:path="(b)">
           <num>(A)</num>
           <text>Subsection (b) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the phrase "subsections (c), (d), and (e)" and insert the phrase "subsections (c), (d), and (g)" in its place.</text>
+            <codify:find-replace count="1">
+              <find>subsections (c), (d), and (e)</find>
+              <replace>subsections (c), (d), and (g)</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "under a on-premises retailer's license or" and insert the phrase "under an on-premises retailer's, a manufacturer's license that holds an on-site sales and consumption permit, or" in its place.</text>
+            <codify:find-replace count="1">
+              <find>under a [sic] on-premises retailer's license or</find>
+              <replace>under an on-premises retailer's, a manufacturer's license that holds an on-site sales and consumption permit, or</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(iii)</num>
             <text>Strike the phrase "sell or serve" and insert the phrase "sell, serve, or consume" in its place.</text>
+            <codify:find-replace count="1">
+              <find>sell or serve</find>
+              <replace>sell, serve, or consume</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(B)</num>
           <text>Subsection (c) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(i)</num>
             <text>Paragraph (1) is amended by striking the phrase "on-premises retailer's license or a temporary license may sell or serve alcoholic" and inserting the phrase "on-premises retailer's license, a manufacturer's license that holds an on-site sales and consumption permit, or a temporary license may sell, serve, or consume alcoholic" in its place.</text>
+            <codify:find-replace count="1">
+              <find>on-premises retailer's license or a temporary license may sell or serve alcoholic</find>
+              <replace>on-premises retailer's license, a manufacturer's license that holds an on-site sales and consumption permit, or a temporary license may sell, serve, or consume alcoholic</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(2)">
             <num>(ii)</num>
             <text>Paragraph (2) is amended as follows:</text>
             <para>
               <num>(I)</num>
               <text>Strike the phrase "on-premises retailer's license" and insert the phrase "on-premises retailer's license or a manufacturer's license that holds an on-site sales and consumption permit" in its place.</text>
+              <codify:find-replace count="1">
+                <find>on-premises retailer's license</find>
+                <replace>on-premises retailer's license or a manufacturer's license that holds an on-site sales and consumption permit</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(II)</num>
               <text>Strike the phrase "sell or serve" and insert the phrase "sell, serve, or consume" in its place.</text>
+              <codify:find-replace count="1">
+                <find>sell or serve</find>
+                <replace>sell, serve, or consume</replace>
+              </codify:find-replace>
             </para>
           </para>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(C)</num>
           <text>Subsection (d) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="(e)">
           <num>(D)</num>
           <text>Subsection (e) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(i)</num>
             <text>Paragraph (1) is amended as follows:</text>
             <para>
               <num>(I)</num>
               <text>Strike the phrase "on-premises retailer's license" and insert the phrase "on premises retailer's license, a manufacturer's license," in its place.</text>
+              <codify:find-replace count="1">
+                <find>on-premises retailer's license</find>
+                <replace>on premises retailer's license, a manufacturer's license,</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(II)</num>
               <text>Strike the phrase "sell or serve" and insert the phrase "sell, serve, or consume" in its place.</text>
+              <codify:find-replace count="1">
+                <find>sell or serve</find>
+                <replace>sell, serve, or consume</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(B)">
               <num>(III)</num>
               <text>Subparagraph (B) is amended as follows:</text>
-              <para>
+              <para codify:path="(ii)">
                 <num>(aa)</num>
                 <text>Sub-subparagraph (ii) is amended by striking the word "and".</text>
+                <codify:find-replace count="1">
+                  <find>; and</find>
+                  <replace>;</replace>
+                </codify:find-replace>
               </para>
-              <para>
+              <para codify:path="(iii)">
                 <num>(bb)</num>
                 <text>Sub-subparagraph (iii) is amended to read as follows:</text>
                 <include lvl="3">
                   <para>
+                    <codify:replace/>
                     <num>(iii)</num>
                     <text>$100 for manufacturer's licenses, class A, B, or C; and</text>
                   </para>
@@ -1396,6 +1697,7 @@
                 <text>A new sub-subparagraph (iv) is added to read as follows:</text>
                 <include lvl="3">
                   <para>
+                    <codify:insert/>
                     <num>(iv)</num>
                     <text>$50 for any other licensee.</text>
                   </para>
@@ -1404,22 +1706,31 @@
               </para>
             </para>
           </para>
-          <para>
+          <para codify:path="(2)">
             <num>(ii)</num>
             <text>Paragraph (2) is amended as follows:</text>
             <para>
               <num>(I)</num>
               <text>Strike the phrase "on-premises retailer's license" and insert the phrase "on-premises retailer's license or a manufacturer's license" in its place.</text>
+              <codify:find-replace count="1">
+                <find>on-premises retailer's license</find>
+                <replace>on-premises retailer's license or a manufacturer's license</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(II)</num>
               <text>Strike the phrase "sell or serve" and insert the phrase "sell, serve, or consume" in its place.</text>
+              <codify:find-replace count="1">
+                <find>sell or serve</find>
+                <replace>sell, serve, or consume</replace>
+              </codify:find-replace>
             </para>
           </para>
         </para>
-        <para>
+        <para codify:path="(f)">
           <num>(E)</num>
           <text>Subsection (f) is repealed.</text>
+          <codify:repeal/>
         </para>
       </para>
       <para>
@@ -1427,6 +1738,7 @@
         <text>A new section 25-737 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="25|7|IV"/>
             <prefix>§</prefix>
             <num>25-737</num>
             <heading>Gift bags and gift wrapping.</heading>
@@ -1435,34 +1747,51 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-781|(f)">
         <num>(7)</num>
         <text>Section 25-781(f) is amended as follows:</text>
-        <para>
+        <para codify:path="text">
           <num>(A)</num>
           <text>The lead-in text is amended by striking the phrase "in the preceding 4 years".</text>
+          <codify:find-replace count="1">
+            <find>in the preceding 4 years</find>
+            <replace/>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "2nd violation" and inserting the phrase "2nd violation in 2 years" in its place.</text>
+          <codify:find-replace count="1">
+            <find>2nd violation</find>
+            <replace>2nd violation in 2 years</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(C)</num>
           <text>Paragraph (3) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the phrase "3rd violation" and insert the phrase "3rd violation in 3 years" in its place.</text>
+            <codify:find-replace count="1">
+              <find>3rd violation</find>
+              <replace>3rd violation in 3 years</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the word "and" at the end.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(D)</num>
           <text>Paragraph (4) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(4)</num>
               <text>Upon the 4th violation in 4 years, the Board may revoke the license or impose a fine of no less than $30,000; and</text>
             </para>
@@ -1474,6 +1803,7 @@
           <text>A new paragraph (5) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(5)</num>
               <text>Upon the 5th or subsequent violation in 4 years, the Board shall revoke the license.</text>
             </para>
@@ -1481,22 +1811,28 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-782|(a)">
         <num>(8)</num>
         <text>Section 25-782(a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Designate the existing text as paragraph (1).</text>
+          <codify:redesignate-para num-value="(1)"/>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>The newly designated paragraph (1) is amended by striking the word "The" and inserting the phrase "Except as provided in paragraph (2) of this subsection, the" in its place.</text>
+          <codify:find-replace count="1">
+            <find>The</find>
+            <replace>Except as provided in paragraph (2) of this subsection, the</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new paragraph (2) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(2)</num>
               <text>A licensee under an off-premises retailer's license, class A, may allow a person under 18 years of age who is accompanied by a parent or guardian to enter the licensed establishment between the hours of 8:00 a.m. and 3:00 p.m. on any day in which the public schools of the District are in session during the regular school year.</text>
             </para>
@@ -1504,45 +1840,63 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-783|(c)">
         <num>(9)</num>
         <text>Section 25-783(c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c)</num>
             <text>A violation of subsection (a) or (b) of this section shall be punishable as a primary tier violation.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-784|(b)">
         <num>(10)</num>
         <text>Section 25-784(b) is amended by striking the phrase "serve, or deliver" and inserting the phrase "serve, deliver, or pour" in its place.</text>
+        <codify:find-replace count="1">
+          <find>serve, or deliver</find>
+          <replace>serve, deliver, or pour</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§25-797|(a)">
         <num>(11)</num>
         <text>Section 25-797(a) is amended by striking the phrase "The holder of an on-premises retailer's license" and inserting the phrase "The holder of an on-premises retailer's license or a manufacturer's license, class A, B, or C, possessing an on-site sales and consumption permit" in its place.</text>
+        <codify:find-replace count="1">
+          <find>The holder of an on-premises retailer's license</find>
+          <replace>The holder of an on-premises retailer's license or a manufacturer's license, class A, B, or C, possessing an on-site sales and consumption permit</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
       <num>(g)</num>
       <text>Chapter 8 is amended as follows:</text>
-      <para>
+      <para codify:path="§25-823|(a)">
         <num>(1)</num>
         <text>Section 25-823(a) is amended as follows:</text>
-        <para>
+        <para codify:path="(7)">
           <num>(A)</num>
           <text>Paragraph (7) is amended by striking the word "or".</text>
+          <codify:find-replace count="1">
+            <find>; or</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(8)">
           <num>(B)</num>
           <text>Paragraph (8) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+          <codify:find-replace position="last">
+            <find>.</find>
+            <replace>; or</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new paragraph (9) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(9)</num>
               <text>The licensee, directly or indirectly gives, offers, or promises anything of value to an ABRA investigator, or offers or promises any ABRA investigator to give anything of value to any other person or entity, with the intent to:</text>
               <para>
@@ -1562,30 +1916,45 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-830|(d)|(1)">
         <num>(2)</num>
         <text>Section 25-830(d)(1) is amended as follows:</text>
-        <para>
+        <para codify:path="(E)">
           <num>(A)</num>
           <text>Subparagraph (E) is amended by striking the phrase "fifth violation" and inserting the phrase "fifth violation or subsequent" in its place.</text>
+          <codify:find-replace count="1">
+            <find>fifth violation</find>
+            <replace>fifth violation or subsequent</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(F)">
           <num>(B)</num>
           <text>Subparagraph (F) is repealed.</text>
+          <codify:repeal/>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-833">
         <num>(3)</num>
         <text>Section 25-833 is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Designate the existing text as subsection (a).</text>
+          <codify:find-replace count="1">
+            <find></find>
+            <replace></replace>
+          </codify:find-replace>
+          <codify:redesignate-para num-value="(a)"/>
+          <codify:find-replace path="(a)" count="1">
+            <find>§</find>
+            <replace/>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>A new subsection (b) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(b)</num>
               <text>Subsection (a)(3) of this section shall not apply to the refilling or the partly refilling of any bottle, container, or pitcher of an alcoholic beverage for purposes of making mixed cocktail drinks, such as sangria or margaritas, offered for sale.</text>
             </para>
