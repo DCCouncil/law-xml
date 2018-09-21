@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xs:schema
   xmlns="https://code.dccouncil.us/schemas/codify"
+  xmlns:codified="https://code.dccouncil.us/schemas/codified"
   xmlns:p="https://code.dccouncil.us/schemas/dc-library"
   xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/codify">
   <xs:import namespace="https://code.dccouncil.us/schemas/dc-library" schemaLocation="dc-library.xsd"/>
+  <xs:import namespace="https://code.dccouncil.us/schemas/codified" schemaLocation="codified.xsd"/>
   <xs:element name="annotation">
     <!-- an ignored comment -->
     <!-- @summary: The ``<codify:annotation>`` instruction creates an annotation (or note) on the target element.-->
@@ -333,6 +335,7 @@
     <xs:attribute name="history" type="falseOnlyType" use="optional"/>
     <xs:attribute name="history-prefix" type="xs:string" use="optional"/>
     <xs:attribute ref="instruction" use="optional"/>
+    <xs:attribute ref="codified:instruction" use="optional"/>
     <xs:attribute ref="path" use="optional"/>
     <xs:attribute ref="value" use="optional"/>
     <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
@@ -355,6 +358,7 @@
     <xs:attribute name="warning" type="falseOnlyType" use="optional">
       <!-- @summary: Set ``warning=false`` to prevent warning when applying this transform. -->
     </xs:attribute>
+    <xs:attribute ref="codified:instruction" use="optional"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="targetAttributes">
     <xs:attribute ref="doc" use="optional"/>
