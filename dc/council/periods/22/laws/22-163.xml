@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" id="D.C. Act 22-436">
+<document xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 22-163">
+  <num type="law">22-163</num>
   <num type="bill">22-920</num>
   <num type="act">22-436</num>
   <heading type="short">Initiative No. 77 -- Minimum Wage Amendment Act of 2018</heading>
   <heading type="long">This Initiative will: Gradually increase the minimum wage in the District of Columbia to $15.00 hourly by 2020; Gradually increase the minimum wage for tipped employees so that they receive the same minimum wage directly from their employer as other employees by 2026; Beginning in 2021, require the minimum wage to increase yearly in proportion to increases in the Consumer Price Index; The minimum wage increases under the initiative will not apply to District of Columbia government employees or employees of District of Columbia government contractors.</heading>
   <meta>
     <introduced>2018-06-29</introduced>
-    <effective projected="true">2018-10-09</effective>
+    <effective>2018-10-11</effective>
     <citations>
+      <citation type="law" url="http://lims.dccouncil.us/Download/40324/B22-0920-SignedAct.pdf">D.C. Law 22-163</citation>
       <citation type="act" url="http://lims.dccouncil.us/Download/4077/B22-0920-Introduction.pdf">D.C. Act 22-436</citation>
       <citation type="register">65 DCR 8513</citation>
     </citations>
@@ -20,7 +22,11 @@
   <section codify:doc="D.C. Code" codify:path="§32-1003">
     <num>2</num>
     <text>Section 4 of the Minimum Wage Act Revision Act of 1992, effective March 25, 1993 (D.C. Law 9-248; D.C. Official Code § 32-1003), is amended as follows:</text>
-    <para codify:path="(a)">
+    <codify:find-replace doc="D.C. Code" path="§32-1003|(a)|(1)" count="1">
+      <find>Except</find>
+      <replace>Except</replace>
+    </codify:find-replace>
+    <!-- <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended as follows:</text>
       <para codify:path="(5)">
@@ -78,8 +84,8 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-    </para>
-    <para codify:path="(f)">
+    </para> applicable 2019-03-31 -->
+    <!-- <para codify:path="(f)">
       <num>(b)</num>
       <text>Subsection (f) is amended to read as follows:</text>
       <include>
@@ -129,19 +135,19 @@
         </para>
       </include>
       <aftertext>.</aftertext>
-    </para>
-    <para>
+    </para> Same as above & amendment by and amendment by EA22-465-->
+    <!-- <para>
       <num>(c)</num>
       <text>A new subsection (i) is added to read as follows:</text>
       <include>
         <para>
           <codify:insert/>
           <num>(i)</num>
-          <text>The provisions of subsection (a)(6), (7), (8), (9) and (10) of this section and subsection (f)(2), (3), (4), (5), (6), (7), (8), (9) and (10) of this section shall not apply to employees of the District of Columbia, or to employees employed to perform services provided under contracts with the District of Columbia. Those employees shall continue to be subject to the minimum wage requirements of <code-cite doc="D.C. Code" path="32|10|I"> the Minimum Wage Act Revision Act of 1992, effective March 25, 1993 (D.C. Law 9-248; D.C. Official Code § 32-1001 <em>et seq.</em>), as amended by the Enhanced Professional Security Amendment Act of 2008, effective March 20, 2008 (D.C. Law 17-114; 55 DCR 1276), as amended by the Minimum Wage Amendment Act of 2013, effective March 11, 2014 (D.C. Law 20-91; 61 DCR 778)</code-cite>, as they existed before <span codify:value="October 11, 2018">the effective date of the Initiative No. 77 -- Minimum Wage Amendment Act of 2018, enacted on June 29, 2018 (D.C. Act 22-396) </span>, and to the requirements of all other applicable laws, regulations, or policies relating to wages or benefits, including <code-cite doc="D.C. Code" path="2|2|X-A">the Living Wage Act of 2006, effective June 8, 2006 (D.C. Law 16-118; D.C. Official Code § 2-220.01 <em>et seq.</em>)</code-cite>.</text>
+          <text>The provisions of subsection (a)(6), (7), (8), (9) and (10) of this section and subsection (f)(2), (3), (4), (5), (6), (7), (8), (9) and (10) of this section shall not apply to employees of the District of Columbia, or to employees employed to perform services provided under contracts with the District of Columbia. Those employees shall continue to be subject to the minimum wage requirements of <code-cite doc="D.C. Code" path="32|10|I"> the Minimum Wage Act Revision Act of 1992, effective March 25, 1993 (D.C. Law 9-248; D.C. Official Code § 32-1001 <em>et seq.</em>), as amended by the Enhanced Professional Security Amendment Act of 2008, effective March 20, 2008 (D.C. Law 17-114; 55 DCR 1276), as amended by the Minimum Wage Amendment Act of 2013, effective March 11, 2014 (D.C. Law 20-91; 61 DCR 778)</code-cite>, as they existed before <span codify:value="October 11, 2018">the effective date of the Initiative No. 77 - Minimum Wage Amendment Act of 2018, enacted on June 29, 2018 (D.C. Act 22-396) </span>, and to the requirements of all other applicable laws, regulations, or policies relating to wages or benefits, including <code-cite doc="D.C. Code" path="2|2|X-A">the Living Wage Act of 2006, effective June 8, 2006 (D.C. Law 16-118; D.C. Official Code § 2-220.01 <em>et seq.</em>)</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
-    </para>
+    </para> Same as above -->
   </section>
   <section>
     <num>3</num>
@@ -154,7 +160,7 @@
     <num>4</num>
     <heading>If any section of this act or its application to any persons or circumstances is held invalid, the remainder of this measure, or the application of its provisions to other persons or circumstances, shall not be affected.</heading>
     <text>To this end, the provisions of this act are severable.</text>
-   <codify:annotation doc="D.C. Code" path="§32-1003" type="Editor's Notes" history="false">
+    <codify:annotation doc="D.C. Code" path="§32-1003" type="Editor's Notes" history="false">
       Section 4 of D.C. Act 22-436 provided that "If any section of this act or its application to any persons or circumstances is held invalid, the remainder of this measure, or the application of its provisions to other persons or circumstances, shall not be affected. To this end, the provisions of this act are severable."
     </codify:annotation>
   </section>
