@@ -9,7 +9,7 @@
     <effective projected="true">2018-12-31</effective>
     <citations>
       <citation type="act" url="http://lims.dccouncil.us/Download/37697/B22-0196-SignedAct.pdf">D.C. Act 22-506</citation>
-      <citation type="register">0 DCR 0</citation>
+      <citation type="register">65 DCR 12365</citation>
     </citations>
     <history url="http://lims.dccouncil.us/Legislation/B22-0196">
       <vote date="2018-10-02" reading="First"/>
@@ -20,26 +20,26 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Access to Treatment for Anaphylaxis Act of 2018".</text>
-  <codify:insert doc="D.C. Code" path="7" after="23C" history="false">
+  <codify:insert doc="D.C. Code" path="7" after="23C" history="false" display-template="">
     <container>
       <prefix>Chapter</prefix>
       <num>23D</num>
       <heading>Public Access to Defibrillators and Epinephrine.</heading>
     </container>
   </codify:insert>
-  <codify:insert doc="D.C. Code" path="7|23D" history="false">
+  <codify:insert doc="D.C. Code" path="7|23D" history="false" display-template="">
     <container>
       <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>Access to Defibrillator.</heading>
     </container>
   </codify:insert>
-  <codify:recodify-section doc="D.C. Code" path="§44-231" num-value="7-2371.01" destination-path="7|23D|I" history="false"/>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.01" count="1">
+  <codify:recodify-section doc="D.C. Code" path="§44-231" num-value="7-2371.01" destination-path="7|23D|I" history="false" display-template=""/>
+  <codify:find-replace doc="D.C. Code" path="§7-2371.01" count="1" display-template="">
     <find>this chapter</find>
     <replace>this subchapter</replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.01" count="1">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.01" count="1" display-template="">
     <find>
       <cite path="§44-232.01">§ 44-232.01</cite>
     </find>
@@ -47,11 +47,9 @@
       <code-cite doc="D.C. Code" path="§7-2371.02a">§ 7-2371.02a</code-cite>
     </replace>
   </codify:find-replace>
-  <codify:recodify-section doc="D.C. Code" path="§44-232" num-value="7-2371.02" destination-path="7|23D|I" history="false"/>
-  
-
-  <codify:recodify-section doc="D.C. Code" path="§44-232.01" num-value="7-2371.02a" destination-path="7|23D|I" history="false"/>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.02a" count="1">
+  <codify:recodify-section doc="D.C. Code" path="§44-232" num-value="7-2371.02" destination-path="7|23D|I" history="false" display-template=""/>
+  <codify:recodify-section doc="D.C. Code" path="§44-232.01" num-value="7-2371.02a" destination-path="7|23D|I" history="false" display-template=""/>
+  <codify:find-replace doc="D.C. Code" path="§7-2371.02a" count="1" display-template="">
     <find>
       <cite path="§44-231">§ 44-231</cite>
     </find>
@@ -59,7 +57,7 @@
       <code-cite doc="D.C. Code" path="§7-2371.01">§ 7-2371.01</code-cite>
     </replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.02a" count="3">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.02a" count="3" display-template="">
     <find>
       <cite path="§44-232">§ 44-232</cite>
     </find>
@@ -67,10 +65,9 @@
       <code-cite doc="D.C. Code" path="§7-2371.02">§ 7-2371.02</code-cite>
     </replace>
   </codify:find-replace>
-
-  <codify:recodify-section doc="D.C. Code" path="§44-232.02" num-value="7-2371.02b" destination-path="7|23D|I" history="false"/>
-  <codify:recodify-section doc="D.C. Code" path="§44-232.03" num-value="7-2371.02c" destination-path="7|23D|I" history="false"/>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1">
+  <codify:recodify-section doc="D.C. Code" path="§44-232.02" num-value="7-2371.02b" destination-path="7|23D|I" history="false" display-template=""/>
+  <codify:recodify-section doc="D.C. Code" path="§44-232.03" num-value="7-2371.02c" destination-path="7|23D|I" history="false" display-template=""/>
+  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1" display-template="">
     <find>
       <code-cite path="§3">section 3</code-cite>
     </find>
@@ -78,11 +75,13 @@
       <code-cite doc="D.C. Code" path="§7-2371.02">section 3</code-cite>
     </replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1">
-    <find><code-cite>this act</code-cite></find>
+  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1" display-template="">
+    <find>
+      <code-cite>this act</code-cite>
+    </find>
     <replace>this subchapter</replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1" display-template="">
     <find>
       <code-cite path="§3|(a)|(1)">section 3(a)(1)</code-cite>
     </find>
@@ -90,9 +89,9 @@
       <code-cite doc="D.C. Code" path="§7-2371.02|(a)|(1)">section 3(a)(1)</code-cite>
     </replace>
   </codify:find-replace>
-  <codify:recodify-section doc="D.C. Code" path="§44-233" num-value="7-2371.03" destination-path="7|23D|I" history="false"/>
-  <codify:recodify-section doc="D.C. Code" path="§44-234" num-value="7-2371.04" destination-path="7|23D|I" history="false"/>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.04" count="2">
+  <codify:recodify-section doc="D.C. Code" path="§44-233" num-value="7-2371.03" destination-path="7|23D|I" history="false" display-template=""/>
+  <codify:recodify-section doc="D.C. Code" path="§44-234" num-value="7-2371.04" destination-path="7|23D|I" history="false" display-template=""/>
+  <codify:find-replace doc="D.C. Code" path="§7-2371.04" count="2" display-template="">
     <find>
       <cite path="§44-232">§ 44-232</cite>
     </find>
@@ -100,13 +99,13 @@
       <cite doc="D.C. Code" path="§7-2371.02">§ 7-2371.02</cite>
     </replace>
   </codify:find-replace>
-  <codify:recodify-section doc="D.C. Code" path="§44-235" num-value="7-2371.05" destination-path="7|23D|I" history="false"/>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.05" count="1">
+  <codify:recodify-section doc="D.C. Code" path="§44-235" num-value="7-2371.05" destination-path="7|23D|I" history="false" display-template=""/>
+  <codify:find-replace doc="D.C. Code" path="§7-2371.05" count="1" display-template="">
     <find>this chapter</find>
     <replace>this subchapter</replace>
   </codify:find-replace>
-  <codify:recodify-section doc="D.C. Code" path="§44-236" num-value="7-2371.06" destination-path="7|23D|I" history="false"/>
-  <codify:find-replace doc="D.C. Code" path="44|2A|heading" count="1">
+  <codify:recodify-section doc="D.C. Code" path="§44-236" num-value="7-2371.06" destination-path="7|23D|I" history="false" display-template=""/>
+  <codify:find-replace doc="D.C. Code" path="44|2A|heading" count="1" display-template="">
     <find>Usage.</find>
     <replace>Usage. [Recodified]</replace>
   </codify:find-replace>
