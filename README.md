@@ -8,5 +8,5 @@ All development occurs on the _master_ branch. The latest [release](https://gith
 
 This is the first of three repositories representing the District of Columbia's Laws and Code:
 * `dc-law-xml` - The raw, uncodified laws, along with the code as it appeared on March 10, 2016
-* `dc-law-xml-codified` - the laws as amended, the code fully suplemented
+* `dc-law-xml-codified` - the laws as amended, the code fully supplemented
 * `dc-law-html` - an html representation of the code and laws.
