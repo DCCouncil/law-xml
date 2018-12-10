@@ -1,15 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <document xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 22-451">
-  
   <num type="bill">22-451</num>
   <num type="act">22-451</num>
   <heading type="short">Youth Rehabilitation Amendment Act of 2018</heading>
   <heading type="long">To amend the National Capital Revitalization and Self-Government Improvement Act of 1997 to require the Corrections Information Council to submit an annual report on the conditions of confinement and programming provided to District of Columbia youth offenders in the custody of the federal Bureau of Prisons; to amend the Youth Rehabilitation Amendment Act of 1985 to modify the definitions of "committed youth offender", "treatment", and "youth offender", to require the Mayor to submit a strategic plan to the Council to provide facilities, treatment, and services to certain youth offenders and persons at risk of becoming youth offenders, to require youth offenders 15 to 24 years of age to perform not fewer than 90 hours of community service as part of probation, to clarify the act's application to the sentencing of youth offenders convicted of offenses with mandatory-minimum terms, to provide a list of factors to guide the court in making the determination of whether a youth offender should be sentenced under the act or have his or her conviction set aside, to require written statements of judges' sentencing and set aside decisions, to shift the decision of whether a youth offender's conviction should be set aside from sentencing to after the completion of the youth offender's probation or sentence of incarceration, supervised release, or parole, whichever is later, to provide grants to organizations to assist victims of crime and youth offenders in understanding and navigating the act's sentencing and set aside provisions, to require the Criminal Justice Coordinating Council to conduct a biennial analysis of the act, and to require certain District government agencies to provide the Criminal Justice Coordinating Council with data necessary to conduct the analysis; to establish a Clemency Board to facilitate clemency applications to the President of the United States; and to amend the Office on Ex-Offender Affairs and Commission on Re-Entry and Ex-Offender Affairs Establishment Act of 2006 to establish a pilot program to provide transportation subsidies to returning citizens.</heading>
   <meta>
     <introduced>2017-09-19</introduced>
-    <effective projected="true">2018-11-30</effective>
+    <effective projected="true">2018-12-17</effective>
     <citations>
-      
       <citation type="act" url="http://lims.dccouncil.us/Download/38766/B22-0451-SignedAct.pdf">D.C. Act 22-451</citation>
       <citation type="register">65 DCR 9554</citation>
     </citations>
@@ -786,20 +784,24 @@
       <section codify:path="§1-523.01|(e)">
         <num>221</num>
         <text>Section 2(e) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(e)), is amended as follows:</text>
-        <para codify:path="(33)">
+        <!-- <para codify:path="(33)">
           <num>(a)</num>
           <text>Paragraph (33) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
           <codify:find-replace count="1">
             <find>; and</find>
             <replace>;</replace>
           </codify:find-replace>
-        </para>
-        <para codify:path="(34)">
+        </para> -->
+        <para>
           <num>(b)</num>
           <text>Paragraph (34) is amended by striking the period and inserting the phrase "; and" in its place.</text>
-          <codify:find-replace position="last">
+          <codify:find-replace path="(34)" position="last">
+            <find>; and</find>
+            <replace>[;]</replace>
+          </codify:find-replace>
+          <codify:find-replace path="(35)" position="last">
             <find>.</find>
-            <replace>; and</replace>
+            <replace>[; and]</replace>
           </codify:find-replace>
         </para>
         <para>
@@ -807,7 +809,7 @@
           <text>A new paragraph (35) is added to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:insert after="(34)"/>
+              <codify:insert num-value="[(36)]"/>
               <num>(35)</num>
               <text>The Clemency Board, established by <code-cite doc="D.C. Code" path="§24-481.03">section 203 of the Youth Rehabilitation Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-451)</code-cite>.</text>
             </para>

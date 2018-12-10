@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 22-456">
+<document xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 22-182">
+  <num type="law">22-182</num>
   <num type="bill">22-655</num>
   <num type="act">22-456</num>
   <heading type="short">Housing Production Trust Fund Board Nominee Confirmation Clarification Amendment Act of 2018</heading>
   <heading type="long">To amend the Confirmation Act of 1978 to clarify that the nomination of a member of the Housing Production Trust Fund Board shall be deemed disapproved if the Council does not approve the nomination within a 90-day period of review.</heading>
   <meta>
     <introduced>2018-01-08</introduced>
-    <effective projected="true">2018-12-15</effective>
+    <effective>2018-11-27</effective>
     <citations>
+      <citation type="law" url="http://lims.dccouncil.us/Download/39549/B22-0655-SignedAct.pdf">D.C. Law 22-182</citation>
       <citation type="act" url="http://lims.dccouncil.us/Download/39549/B22-0655-SignedAct.pdf">D.C. Act 22-456</citation>
       <citation type="register">65 DCR 11202</citation>
     </citations>
@@ -26,18 +28,17 @@
     <para codify:path="(33)">
       <num>(a)</num>
       <text>Paragraph (33) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
-      <!-- done in Act 22-451 -->
+      <codify:find-replace count="1">
+        <find>; and</find>
+        <replace>;</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>Paragraph (34) is amended by striking the period and inserting the phrase "; and" in its place.</text>
       <codify:find-replace path="(34)" position="last">
-        <find>; and</find>
-        <replace>[;]</replace>
-      </codify:find-replace>
-      <codify:find-replace path="(35)" position="last">
         <find>.</find>
-        <replace>[; and]</replace>
+        <replace>; and</replace>
       </codify:find-replace>
     </para>
     <para>
@@ -45,7 +46,7 @@
       <text>A new paragraph (35) is added to read as follows:</text>
       <include lvl="1">
         <para>
-          <codify:insert num-value="[(36)]"/>
+          <codify:insert/>
           <num>(35)</num>
           <text>The Housing Production Trust Fund Board, established by <code-cite doc="D.C. Code" path="§42-2802.01">section 3a of the Housing Production Trust Fund Act of 1988, effective June 8, 1990 (D.C. Law 8-133; D.C. Official Code § 42-2802.01)</code-cite>.</text>
         </para>
