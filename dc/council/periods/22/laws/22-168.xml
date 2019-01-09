@@ -6553,7 +6553,7 @@
           <text>Paragraph (29) is amended by striking the period and inserting the phrase "; and" in its place.</text>
           <codify:find-replace count="1">
             <find>; and</find>
-            <replace>[;]</replace>
+            <replace>; and</replace>
           </codify:find-replace>
         </para>
         <para>
@@ -6561,7 +6561,7 @@
           <text>A new paragraph (30) is added to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:insert after="(30)" num-value="[(31]"/>
+              <codify:replace path="(30)"/>
               <num>(30)</num>
               <text>Provide schools the supports set forth in <code-cite doc="D.C. Code" path="§38-236.06">section 206 of the Attendance Accountability Amendment Act of 2013, passed on 2nd reading on May 1, 2018 (Enrolled version of Bill 22-594)</code-cite>.</text>
             </para>
@@ -6588,11 +6588,11 @@
         <para codify:path="§38-2602|(b)">
           <num>(b)</num>
           <text>Section 3(d) is repealed.</text>
-          <codify:find-replace path="(29)" count="1">
+          <!-- <codify:find-replace path="(29)" count="1">
             <find>careers[;]</find>
             <replace>careers; and</replace>
           </codify:find-replace>
-          <codify:repeal path="(30)"/>
+          <codify:repeal path="(30)"/> -->
         </para>
         <para>
           <num>(c)</num>
