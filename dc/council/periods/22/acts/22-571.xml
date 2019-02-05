@@ -21,25 +21,31 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Eviction with Dignity Amendment Act of 2018".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Rental Housing Act of 1985, effective July 17, 1985 (D.C. Law 6-10; D.C. Official Code § 42-3501.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§42-3505.01|(k)">
       <num>(a)</num>
       <text>Section 501(k) (D.C. Official Code § 42-3505.01(k)) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the phrase "tenant on any day when the National Weather Service predicts at 8:00 a.m. that the temperature at the National Airport weather station will fall below 32 degrees fahrenheit or 0 degrees centigrade within the next 24 hours." and insert the phrase "tenant:" in its place.</text>
+        <codify:find-replace count="1">
+          <find>tenant on any day when the National Weather Service predicts at 8:00 a.m. that the temperature at the National Airport weather station will fall below 32 degrees fahrenheit or 0 degrees centigrade within the next 24 hours.</find>
+          <replace>tenant:</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>New paragraphs (1) and (2) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(1)</num>
             <text>On any day when the National Weather Service predicts at 8:00 a.m. that the temperature at the National Airport weather station will fall below 32 degrees Fahrenheit or 0 degrees Celsius; or</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(2)</num>
             <text>When precipitation is falling at the location of the rental unit.</text>
           </para>
@@ -52,6 +58,7 @@
       <text>A new section 501a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="42|35|V" after="§42-3505.01" num-value="42-3505.01a" history-prefix="as added"/>
           <num>501a</num>
           <heading>Storage and disposal of tenants' personal property upon eviction.</heading>
           <para>
@@ -230,72 +237,86 @@
             <text>If the housing provider fails to comply with the notice requirements of subsections (b) or (d)(1) of this section, the evicted tenant shall have a right to injunctive relief, including a stay on the execution of the eviction until the notice requirements have been met.</text>
           </para>
           <para>
-            <num>(g)</num>
+            <num codify:value="[(h)]">(g)</num>
             <text>For the purposes of this section, the term "time of eviction" means the time at which the Marshals execute a writ of restitution.</text>
           </para>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 6-10" type="History" path="§501a">July 17, 1985, D.C. Law 6-10, § 501a</annotation>
     </para>
   </section>
   <section>
     <num>3</num>
     <text>Chapter Thirty-Nine of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1382; D.C. Official Code § 42-3201 <em>passim</em>), is amended by adding a new section 1225a to read as follows:</text>
     <include>
-      <text>1225a. Disposal of tenant's personal property upon ejectment.</text>
-      <para>
-        <num>(a)</num>
-        <text>At the time of an ejectment not subject to the Rental Housing Act of 1985, effective July 17, 1985 (D.C. Law 6-10; D.C. Official Code § 42-3501.01 <em>et seq.</em>), the landlord shall change the locks on the leased premises in the presence of the United States Marshals Service ("Marshals"), at the landlord's expense, and take legal possession of the leased premises by receipt of a document from the Marshals.</text>
-      </para>
-      <para>
-        <num>(b)</num>
-        <text>Any right of the ejected tenant to redeem the tenancy shall be extinguished at the time of ejectment.</text>
-      </para>
-      <para>
-        <num>(c)</num>
-        <text>Any personal property remaining in or about the leased premises at the time of ejectment is deemed abandoned property.</text>
-      </para>
-      <para>
-        <num>(d)</num>
+      <section>
+        <codify:insert doc="D.C. Code" path="42|32" after="§42-3210" num-value="42-3210.01" history-prefix="as added"/>
+        <num>1225a</num>
+        <heading>Disposal of tenant's personal property upon ejectment.</heading>
         <para>
-          <num>(1)</num>
-          <text>The landlord shall dispose of any abandoned property in any manner not prohibited by subsection (e) of this section or otherwise expressly prohibited by law.</text>
+          <num>(a)</num>
+          <text>At the time of an ejectment not subject to <code-cite doc="D.C. Code" path="42|35">the Rental Housing Act of 1985, effective July 17, 1985 (D.C. Law 6-10; D.C. Official Code § 42-3501.01 <em>et seq.</em>)</code-cite>, the landlord shall change the locks on the leased premises in the presence of the United States Marshals Service ("Marshals"), at the landlord's expense, and take legal possession of the leased premises by receipt of a document from the Marshals.</text>
+        </para>
+        <para>
+          <num>(b)</num>
+          <text>Any right of the ejected tenant to redeem the tenancy shall be extinguished at the time of ejectment.</text>
+        </para>
+        <para>
+          <num>(c)</num>
+          <text>Any personal property remaining in or about the leased premises at the time of ejectment is deemed abandoned property.</text>
+        </para>
+        <para>
+          <num>(d)</num>
           <para>
-            <num>(2)</num>
-            <text>If the landlord receives any funds from any sale of such abandoned property, the landlord shall pay such funds to the account of the ejected tenant and apply any amounts due the landlord by the ejected tenant, including the actual costs incurred by the landlord in the ejectment process described in this section.</text>
+            <num>(1)</num>
+            <text>The landlord shall dispose of any abandoned property in any manner not prohibited by subsection (e) of this section or otherwise expressly prohibited by law.</text>
+          </para>
+            <para>
+              <num>(2)</num>
+              <text>If the landlord receives any funds from any sale of such abandoned property, the landlord shall pay such funds to the account of the ejected tenant and apply any amounts due the landlord by the ejected tenant, including the actual costs incurred by the landlord in the ejectment process described in this section.</text>
+            </para>
+          <para>
+            <num>(3)</num>
+            <text>If any funds are remaining after application, the remaining funds shall be treated as a security deposit under applicable law.</text>
           </para>
         </para>
         <para>
-          <num>(3)</num>
-          <text>If any funds are remaining after application, the remaining funds shall be treated as a security deposit under applicable law.</text>
-        </para>
-      </para>
-      <para>
-        <num>(e)</num>
-        <text>The landlord is prohibited from placing or causing the placement of abandoned property in an outdoor space other than a licensed disposal facility or lawful disposal receptacle; provided, that a landlord may place abandoned property or cause abandoned property to be placed in an outdoor private or public space while in the process of transporting the abandoned property from the leased premises for disposal.</text>
-      </para>
-      <para>
-        <num>(f)</num>
-        <text>The landlord and anyone acting on behalf of the landlord shall be immune from civil liability for loss or damage to the ejected tenant's abandoned property or claims related to its lawful disposal.</text>
-      </para>
-      <para>
-        <num>(g)</num>
-        <text>For the purposes of this section, the term:</text>
-        <para>
-          <num>(1)</num>
-          <text>"Ejectment" shall have the same meaning as the term "eviction" under the Rental Housing Act of 1985, effective July 17, 1985 (D.C. Law 6-10; D.C. Official Code § 42-3501.01 <em>et seq.</em>).</text>
+          <num>(e)</num>
+          <text>The landlord is prohibited from placing or causing the placement of abandoned property in an outdoor space other than a licensed disposal facility or lawful disposal receptacle; provided, that a landlord may place abandoned property or cause abandoned property to be placed in an outdoor private or public space while in the process of transporting the abandoned property from the leased premises for disposal.</text>
         </para>
         <para>
-          <num>(2)</num>
-          <text>"Time of ejectment" means the time at which the Marshals execute a writ of restitution.</text>
+          <num>(f)</num>
+          <text>The landlord and anyone acting on behalf of the landlord shall be immune from civil liability for loss or damage to the ejected tenant's abandoned property or claims related to its lawful disposal.</text>
         </para>
-      </para>
+        <para>
+          <num>(g)</num>
+          <text>For the purposes of this section, the term:</text>
+          <para>
+            <num>(1)</num>
+            <text>"Ejectment" shall have the same meaning as the term "eviction" under <code-cite doc="D.C. Code" path="42|35">the Rental Housing Act of 1985, effective July 17, 1985 (D.C. Law 6-10; D.C. Official Code § 42-3501.01 <em>et seq.</em>)</code-cite>.</text>
+          </para>
+          <para>
+            <num>(2)</num>
+            <text>"Time of ejectment" means the time at which the Marshals execute a writ of restitution.</text>
+          </para>
+        </para>
+      </section>
     </include>
     <aftertext>.</aftertext>
+    <annotation type="History" doc="Stat. 56-2-ch854" path="§1225a">Mar. 3, 1901, 31 Stat. 1382, ch. 854, § 1225a</annotation>
   </section>
   <section>
     <num>4</num>
     <text>Section 4(a) of the Rental Housing Commission Independence Clarification Amendment Act of 2018, enacted on October 25, 2018 (D.C. Act 22-492; 65 DCR 12066), is amended by striking the phrase "202b(c)-d)" and inserting the phrase "202b(b)-(c)" in its place.</text>
+    <codify:annotation doc="D.C. Code" path="§42-3502.02b" type="Applicability" history="false">
+      Applicability of : <cite doc="D.C. Act 22-571" path="§4">§ 4 of D.C. Act 22-571</cite> provided that the creation of subsection (b) of this section by <cite doc="D.C. Act 22-492" path="§2">§ 2(e) of D.C. Act 22-492</cite> is subject to the inclusion of the law’s fiscal effect in an approved budget and financial plan. Therefore that amendment has not been implemented.
+    </codify:annotation>
+    <codify:repeal doc="D.C. Code" path="§42-3502.02b|(b)" display-template=""/>
+      <codify:find-replace doc="D.C. Code" path="§42-3502.02b|(b)" display-template="" count="1">
+        <find>Repeal</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
   </section>
   <section>
     <num>5</num>
