@@ -758,9 +758,8 @@
       <para codify:path="§8-173.01">
         <num>(b)</num>
         <text>Section 101 is redesignated as section 102.</text>
-        
         <codify:replace doc="D.C. Code" path="§8-173.01|num" history-prefix="redesignated § 102">
-        <num>8-173.02</num>
+          <num>8-173.02</num>
         </codify:replace>
       </para>
       <para>
@@ -775,27 +774,29 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <annotation doc="D.C. Law 22-155" type="History" path="§101">Aug. 22, 2018, D.C. Law 22-155, §  101</annotation>
         <codify:not-funded-anno doc="D.C. Code" path="§8-173.01" applicability-path="§601" action="creation of" display-template=""/>
       </para>
     </section>
   </container>
+  <codify:create-sub-container doc="D.C. Code" path="8|17M-i" num-value="I" prefix-value="Subchapter" heading-value="Commercial Energy Conservation." history="false"/>
   <codify:find-replace doc="D.C. Code" path="8|17M-i|heading" count="1">
     <find>Commercial Energy Conservation.</find>
     <replace>Commercial and Local Government Property Energy Conservation.</replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§8-1772.01|text" count="1">
+  <codify:find-replace doc="D.C. Code" path="§8-1772.01|text" count="1" history="false">
     <find>this chapter</find>
     <replace>
       <code-cite doc="D.C. Code" path="8|17M-i|I">this subchapter</code-cite>
     </replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§8-1772.03" count="6">
+  <codify:find-replace doc="D.C. Code" path="§8-1772.03" count="6" history="false">
     <find>this chapter</find>
     <replace>
       <code-cite doc="D.C. Code" path="8|17M-i|I">this subchapter</code-cite>
     </replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§8-1772.04" count="1">
+  <codify:find-replace doc="D.C. Code" path="§8-1772.04" count="1" history="false">
     <find>
       <code-cite>this title</code-cite>
     </find>
@@ -1403,13 +1404,8 @@
       <para>
         <num>(a)</num>
         <text>Titles II, III, IV, and V of this act shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+        <codify:applicability doc="D.C. Act 22-583" path="§201" date="notfunded" history="false"/>
         <codify:applicability doc="D.C. Act 22-583" path="§202|(c)" date="notfunded" history="false"/>
-        <codify:applicability path="II" date="notfunded" history="false"/>
-        <codify:applicability path="III" date="notfunded" history="false"/>
-        <codify:applicability path="IV" date="notfunded" history="false"/>
-        <codify:applicability path="V" date="notfunded" history="false"/>
-        <!-- <codify:applicability doc="D.C. Act 22-583" path="§201" date="notfunded" history="false"/>
-        <codify:applicability doc="D.C. Act 22-583" path="§202" date="notfunded" history="false"/>
         <codify:applicability doc="D.C. Act 22-583" path="§301" date="notfunded" history="false"/>
         <codify:applicability doc="D.C. Act 22-583" path="§302" date="notfunded" history="false"/>
         <codify:applicability doc="D.C. Act 22-583" path="§303" date="notfunded" history="false"/>
@@ -1420,7 +1416,7 @@
         <codify:applicability doc="D.C. Act 22-583" path="§501" date="notfunded" history="false"/>
         <codify:applicability doc="D.C. Act 22-583" path="§502" date="notfunded" history="false"/>
         <codify:applicability doc="D.C. Act 22-583" path="§503" date="notfunded" history="false"/>
-        <codify:applicability doc="D.C. Act 22-583" path="§504" date="notfunded" history="false"/> -->
+        <codify:applicability doc="D.C. Act 22-583" path="§504" date="notfunded" history="false"/>
       </para>
       <para>
         <num>(b)</num>

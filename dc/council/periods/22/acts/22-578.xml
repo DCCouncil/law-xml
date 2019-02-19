@@ -160,6 +160,10 @@
         <find>, District of Columbia Board of Elections;</find>
         <replace>;</replace>
       </codify:find-replace>
+      <codify:find-replace count="1">
+        <find>Campaign Finance</find>
+        <replace>[the] Campaign Finance [Board]</replace>
+      </codify:find-replace>
     </para>
     <para codify:path="§1-611.08|(c-1)">
       <num>(d)</num>
@@ -252,7 +256,7 @@
         <num>(3)</num>
         <text>Subsection (g) is amended by striking the phrase "this act or under the Board of Ethics and Government Accountability Establishment and Comprehensive Ethics Reform Amendment Act of 2011, passed on 2nd reading on December 20, 2011 (Enrolled version of Bill 19-511)," and inserting the phrase "this act" in its place.</text>
         <codify:find-replace count="1">
-          <find> this subchapter or under <cite path="1|11A">Chapter 11A of this title</cite></find>
+          <find>this subchapter or under <cite path="1|11A">Chapter 11A of this title</cite></find>
           <replace><code-cite doc="D.C. Code" path="1|10|I">this act</code-cite></replace>
         </codify:find-replace>
       </para>
@@ -318,6 +322,7 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation type="History" doc="Stat. 84-1-ch862" path="§5a">Aug. 12, 1955, 69 Stat. 700, ch. 862, § 5a</annotation>
     </para>
     <para>
       <num>(e)</num>
@@ -357,6 +362,7 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation type="History" doc="Stat. 84-1-ch862" path="§18">Aug. 12, 1955, 69 Stat. 700, ch. 862, § 18</annotation>
     </para>
   </section>
   <section codify:doc="D.C. Code">
@@ -821,7 +827,7 @@
             <text>Sub-subparagraph (i) is amended by striking the phrase "or candidate; or" and inserting the phrase "; or" in its 
             place.</text>
             <codify:find-replace count="1">
-              <find>or candidate; or</find>
+              <find> or candidate; or</find>
               <replace>; or</replace>
             </codify:find-replace>
           </para>
@@ -990,7 +996,7 @@
           <para>
             <codify:insert after="(45)"/>
             <num>(45A)</num>
-            <text>"PPRA" means the Procurement Practices Reform Act of 2010<span codify:value=" ">,</span><code-cite doc="D.C. Code" path="2|3A"> effective April 8, 2011 (D.C. Law 18-371; D.C. Official Code § 2-351.01 <em>et seq.</em>)</code-cite>.</text>
+            <text>"PPRA" means the Procurement Practices Reform Act of 2010<span codify:value=" ">,</span> <span codify:value="("></span><code-cite doc="D.C. Code" path="2|3A"> effective April 8, 2011 (D.C. Law 18-371; D.C. Official Code § 2-351.01 <em>et seq.</em>)</code-cite><span codify:value=")"></span>.</text>
           </para>
           <para>
             <codify:insert after="(45A)"/>
@@ -1241,7 +1247,7 @@
             </para>
             <para>
               <num>(4)</num>
-              <text>Refer alleged violations for prosecution as provided in <cite doc="D.C. Code" path="1|11A|III">this title</cite>; and</text>
+              <text>Refer alleged violations for prosecution as provided in <code-cite doc="D.C. Code" path="1|11A|III">this title</code-cite>; and</text>
             </para>
             <para>
               <num>(5)</num>
@@ -1256,18 +1262,18 @@
             <num>(b)</num>
             <para>
               <num>(1)</num>
-              <text>Where the Campaign Finance Board, following the presentation by the Director of Campaign Finance of evidence constituting an apparent violation of <cite doc="D.C. Code" path="1|11A|III">this title</cite>, makes a finding of an apparent violation of <cite doc="D.C. Code" path="1|11A|III">this title</cite>, it shall refer the case for prosecution as provided for in <code-cite doc="D.C. Code" path="§1-1163.35">section 335</code-cite>, and shall make public the fact of such referral and the basis for the finding.</text>
+              <text>Where the Campaign Finance Board, following the presentation by the Director of Campaign Finance of evidence constituting an apparent violation of <code-cite doc="D.C. Code" path="1|11A|III">this title</code-cite>, makes a finding of an apparent violation of <code-cite doc="D.C. Code" path="1|11A|III">this title</code-cite>, it shall refer the case for prosecution as provided for in <code-cite doc="D.C. Code" path="§1-1163.35">section 335</code-cite>, and shall make public the fact of such referral and the basis for the finding.</text>
             </para>
             <para>
               <num>(2)</num>
               <text>The Campaign Finance Board, through its General Counsel:</text>
               <para>
                 <num>(A)</num>
-                <text>Shall initiate, maintain, defend, or appeal any civil action (in the name of the Campaign Finance Board) relating to the enforcement of the provisions of <cite doc="D.C. Code" path="1|11A|III">this title</cite>; and</text>
+                <text>Shall initiate, maintain, defend, or appeal any civil action (in the name of the Campaign Finance Board) relating to the enforcement of the provisions of <code-cite doc="D.C. Code" path="1|11A|III">this title</code-cite>; and</text>
               </para>
               <para>
                 <num>(B)</num>
-                <text>May petition the courts of the District of Columbia for declaratory or injunctive relief concerning any action covered by the provisions of <cite doc="D.C. Code" path="1|11A|III">this title</cite>.</text>
+                <text>May petition the courts of the District of Columbia for declaratory or injunctive relief concerning any action covered by the provisions of <code-cite doc="D.C. Code" path="1|11A|III">this title</code-cite>.</text>
               </para>
             </para>
           </para>
@@ -1280,7 +1286,7 @@
       <text>New sections 302a and 302b are added to read as follows:</text>
       <include>
         <section>
-          <codify:insert path="1|11A|III|A" after="§1-1163.02" num-value="1-1163.02a"/>
+          <codify:insert path="1|11A|III|A" after="§1-1163.02" num-value="1-1163.02a" history-prefix="as added"/>
           <num>302a</num>
           <heading>Composition; term; qualifications; removal.</heading>
           <para>
@@ -1389,9 +1395,10 @@
               <text>The Campaign Finance Board shall provide notice of meetings and shall conduct its meetings in compliance with the Open Meetings Act.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 19-124" type="History" path="§302a">Apr. 27, 2012, D.C. Law 19-124, § 302a</annotation>
         </section>
         <section>
-          <codify:insert path="1|11A|III|A" after="§1-1163.02a" num-value="1-1163.02b"/>
+          <codify:insert path="1|11A|III|A" after="§1-1163.02a" num-value="1-1163.02b"  history-prefix="as added"/>
           <num>302b</num>
           <heading>Board independent agency; facilities; seal.</heading>
           <para>
@@ -1409,6 +1416,7 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 19-124" type="History" path="§302b">Apr. 27, 2012, D.C. Law 19-124, § 302b</annotation>
     </para>
     <para codify:path="§1-1163.03">
       <num>(h)</num>
