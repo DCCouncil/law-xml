@@ -52,7 +52,7 @@
       </para>
       <para codify:path="§34-1432|(c)" display-template="Amend § 34-1432">
         <num>(b)</num>
-        <para >
+        <para>
           <num>(1)</num>
           <text>Section 4(c) (D.C. Official Code § 34-1432(c)) is amended as follows:</text>
           <para>
@@ -758,17 +758,18 @@
       <para codify:path="§8-173.01">
         <num>(b)</num>
         <text>Section 101 is redesignated as section 102.</text>
-        <codify:replace doc="D.C. Code" path="§8-173.01|num" history-prefix="redesignated § 102">
+        <!-- <codify:replace doc="D.C. Code" path="§8-173.01|num" history-prefix="redesignated § 102">
           <num>8-173.02</num>
-        </codify:replace>
+        </codify:replace> -->
+        <!-- This is to bypass AppVeyor bug along with below after="§8-173.01" and codify:value="8-173.01a"-->
       </para>
       <para>
         <num>(c)</num>
         <text>A new section 101 is added to read as follows:</text>
         <include>
           <section>
-            <codify:insert doc="D.C. Code" path="8|1B-i|I" before="§8-173.02" history-prefix="as added"/>
-            <num codify:value="8-173.01">101</num>
+            <codify:insert doc="D.C. Code" path="8|1B-i|I" after="§8-173.01" history-prefix="as added"/>
+            <num codify:value="8-173.01a">101</num>
             <heading>Declaration of public purpose.</heading>
             <text>The Council hereby declares that a public purpose will be served through investment by the District, as authorized in <code-cite doc="D.C. Code" path="8|1B-i">this act</code-cite>, in sustainable projects and programs that contribute to the health, education, safety, and welfare of District residents by reducing the causes of, and mitigating the adverse effects of, climate change, reducing air, water, and other pollution, protecting and conserving natural resources, reducing energy costs in the District, promoting energy efficiency, and otherwise achieving the objectives established in the Comprehensive Energy Plan, developed by the Department of Energy and Environment pursuant to <code-cite doc="D.C. Code" path="§8-171.04">section 5 of the District of Columbia Office of Energy Act of 1980, effective March 4, 1981 (D.C. Law 3-132; D.C. Official Code § 8-171.04)</code-cite>. Such investment is in the public interest and for the benefit of the public, and the expenditure of monies pursuant to<code-cite doc="D.C. Code" path="8|1B-i"> this act</code-cite> serves valid public purposes.</text>
           </section>
@@ -1336,8 +1337,9 @@
         <para>
           <num>(a)</num>
           <text>Section 2o (D.C. Official Code § 50-921.23) is redesignated as section 9o.</text>
-         <codify:replace path="§50-921.23|num" history-prefix="redesignated § 9o">
-         </codify:replace>
+          <!-- <codify:replace path="§50-921.23|num" history-prefix="redesignated § 9o">
+            <num>50-921.23</num>
+          </codify:replace> -->
         </para>
         <para codify:path="§50-921.23">
           <num>(b)</num>
