@@ -44,15 +44,15 @@
             </para>
             <para>
               <num>(B)</num>
-              <text>Until January 1, 2029, a tier one or tier two renewable source located within a state that is adjacent to the PJM Interconnection region that was certified by the Commission as of <span codify:value="[insert applicability date]">the applicability date of the CleanEnergy DC Omnibus Amendment Act of 2018, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-904) ("CleanEnergy Act")</span>.</text>
+              <text>Until January 1, 2029, a tier one or tier two renewable source located within a state that is adjacent to the PJM Interconnection region that was certified by the Commission as of <span codify:value="[insert applicability date (not yet determined)]">the applicability date of the CleanEnergy DC Omnibus Amendment Act of 2018, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-904) ("CleanEnergy Act")</span>.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§34-1432|(c)" display-template="Amend § 34-1432">
         <num>(b)</num>
-        <para codify:path="§34-1432|(c)">
+        <para >
           <num>(1)</num>
           <text>Section 4(c) (D.C. Official Code § 34-1432(c)) is amended as follows:</text>
           <para>
@@ -1336,6 +1336,8 @@
         <para>
           <num>(a)</num>
           <text>Section 2o (D.C. Official Code § 50-921.23) is redesignated as section 9o.</text>
+         <codify:replace path="§50-921.23|num" history-prefix="redesignated § 9o">
+         </codify:replace>
         </para>
         <para codify:path="§50-921.23">
           <num>(b)</num>
@@ -1405,7 +1407,11 @@
         <num>(a)</num>
         <text>Titles II, III, IV, and V of this act shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
         <codify:applicability doc="D.C. Act 22-583" path="§201" date="notfunded" history="false"/>
-        <codify:applicability doc="D.C. Act 22-583" path="§202|(c)" date="notfunded" history="false"/>
+        <codify:repeal doc="D.C. Code" path="§8-173.01"/>
+        <codify:find-replace doc="D.C. Code" path="§8-173.01" count="2">
+          <find>Repealed</find>
+          <replace>Not Funded</replace>
+        </codify:find-replace>
         <codify:applicability doc="D.C. Act 22-583" path="§301" date="notfunded" history="false"/>
         <codify:applicability doc="D.C. Act 22-583" path="§302" date="notfunded" history="false"/>
         <codify:applicability doc="D.C. Act 22-583" path="§303" date="notfunded" history="false"/>
