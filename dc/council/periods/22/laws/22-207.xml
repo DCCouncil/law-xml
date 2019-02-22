@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 22-506">
+<document xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 22-207">
+  <num type="law">22-207</num>
   <num type="bill">22-196</num>
   <num type="act">22-506</num>
   <heading type="short">Access to Treatment for Anaphylaxis Act of 2018</heading>
   <heading type="long">To allow health care professionals to prescribe and pharmacists to dispense and distribute epinephrine auto-injectors to authorized entities, to authorize employees or agents of an authorized entity who has completed a training program to provide or administer an epinephrine auto-injector, to require an employee or agent of an authorized entity to undergo training before providing or administering an epinephrine auto-injector, to authorize an authorized entity to store epinephrine auto-injectors, and to provide immunity from civil and criminal liability to certain persons and entities.</heading>
   <meta>
     <introduced>2017-03-21</introduced>
-    <effective projected="true">2019-02-26</effective>
+    <effective>2019-02-22</effective>
     <citations>
+      <citation type="law" url="http://lims.dccouncil.us/Download/37697/B22-0196-SignedAct.pdf">D.C. Law 22-207</citation>
       <citation type="act" url="http://lims.dccouncil.us/Download/37697/B22-0196-SignedAct.pdf">D.C. Act 22-506</citation>
       <citation type="register">65 DCR 12365</citation>
     </citations>
@@ -35,11 +37,11 @@
     </container>
   </codify:insert>
   <codify:recodify-section doc="D.C. Code" path="§44-231" num-value="7-2371.01" destination-path="7|23D|I" history="false" display-template=""/>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.01" count="1" display-template="">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.01" count="2" history="false" display-template="">
     <find>this chapter</find>
-    <replace>this subchapter</replace>
+    <replace><cite doc="D.C. Code" path="7|23D|I">this subchapter</cite></replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.01" count="1" display-template="">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.01" count="1" history="false" display-template="">
     <find>
       <cite path="§44-232.01">§ 44-232.01</cite>
     </find>
@@ -49,7 +51,7 @@
   </codify:find-replace>
   <codify:recodify-section doc="D.C. Code" path="§44-232" num-value="7-2371.02" destination-path="7|23D|I" history="false" display-template=""/>
   <codify:recodify-section doc="D.C. Code" path="§44-232.01" num-value="7-2371.02a" destination-path="7|23D|I" history="false" display-template=""/>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.02a" count="1" display-template="">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.02a" count="1" history="false" display-template="">
     <find>
       <cite path="§44-231">§ 44-231</cite>
     </find>
@@ -57,7 +59,7 @@
       <code-cite doc="D.C. Code" path="§7-2371.01">§ 7-2371.01</code-cite>
     </replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.02a" count="3" display-template="">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.02a" count="3" history="false" display-template="">
     <find>
       <cite path="§44-232">§ 44-232</cite>
     </find>
@@ -67,7 +69,7 @@
   </codify:find-replace>
   <codify:recodify-section doc="D.C. Code" path="§44-232.02" num-value="7-2371.02b" destination-path="7|23D|I" history="false" display-template=""/>
   <codify:recodify-section doc="D.C. Code" path="§44-232.03" num-value="7-2371.02c" destination-path="7|23D|I" history="false" display-template=""/>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1" display-template="">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1"  history="false" display-template="">
     <find>
       <code-cite path="§3">section 3</code-cite>
     </find>
@@ -75,13 +77,13 @@
       <code-cite doc="D.C. Code" path="§7-2371.02">section 3</code-cite>
     </replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1" display-template="">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1" history="false" display-template="">
     <find>
       <code-cite>this act</code-cite>
     </find>
     <replace>this subchapter</replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1" display-template="">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.02c" count="1" history="false" display-template="">
     <find>
       <code-cite path="§3|(a)|(1)">section 3(a)(1)</code-cite>
     </find>
@@ -90,8 +92,12 @@
     </replace>
   </codify:find-replace>
   <codify:recodify-section doc="D.C. Code" path="§44-233" num-value="7-2371.03" destination-path="7|23D|I" history="false" display-template=""/>
+  <codify:find-replace doc="D.C. Code" path="§7-2371.03" history="false" count="1" display-template="">
+    <find>this chapter</find>
+    <replace><cite doc="D.C. Code" path="7|23D|I">this subchapter</cite></replace>
+  </codify:find-replace>
   <codify:recodify-section doc="D.C. Code" path="§44-234" num-value="7-2371.04" destination-path="7|23D|I" history="false" display-template=""/>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.04" count="2" display-template="">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.04" count="2" history="false" display-template="">
     <find>
       <cite path="§44-232">§ 44-232</cite>
     </find>
@@ -100,7 +106,7 @@
     </replace>
   </codify:find-replace>
   <codify:recodify-section doc="D.C. Code" path="§44-235" num-value="7-2371.05" destination-path="7|23D|I" history="false" display-template=""/>
-  <codify:find-replace doc="D.C. Code" path="§7-2371.05" count="1" display-template="">
+  <codify:find-replace doc="D.C. Code" path="§7-2371.05" count="1" history="false" display-template="">
     <find>this chapter</find>
     <replace>this subchapter</replace>
   </codify:find-replace>
@@ -120,7 +126,7 @@
     <codify:insert doc="D.C. Code" path="7|23D|II" num-value="7-2381.01"/>
     <num>2</num>
     <heading>Definitions.</heading>
-    <text>For the purposes of this act, the term:</text>
+    <text>For the purposes of <code-cite doc="D.C. Code" path="7|23D|II">this act</code-cite>, the term:</text>
     <para>
       <num undesignated="true">(a)</num>
       <para>
@@ -141,13 +147,14 @@
       </para>
       <para>
         <num>(5)</num>
-        <text>"Health care professional" means a physician, physician assistant, or advanced practice registered nurse licensed under the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01 <em>et seq</em>.).</text>
+        <text>"Health care professional" means a physician, physician assistant, or advanced practice registered nurse licensed under <code-cite doc="D.C. Code" path="3|12">the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01 <em>et seq</em>.)</code-cite>.</text>
       </para>
       <para>
         <num>(6)</num>
         <text>"Standing order" means a prescriptive order written by a health care professional that is not specific to and does not identify a particular patient.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§7-2381.01" applicability-path="§10" action="creation of" display-template=""/>
   </section>
   <section>
     <codify:insert doc="D.C. Code" path="7|23D|II" num-value="7-2381.02"/>
@@ -155,18 +162,19 @@
     <heading>Epinephrine prescriptions.</heading>
     <para>
       <num>(a)</num>
-      <text>A health care professional acting in good faith may directly or by standing order prescribe an epinephrine auto-injector to an authorized entity that has an employee or agent who has completed the training program described in section 5.</text>
+      <text>A health care professional acting in good faith may directly or by standing order prescribe an epinephrine auto-injector to an authorized entity that has an employee or agent who has completed the training program described in <code-cite doc="D.C. Code" path="§7-2381.04">section 5</code-cite>.</text>
     </para>
     <para>
       <num>(b)</num>
       <text>A pharmacist, in accordance with a health care professional's prescription or standing order, may dispense and distribute an epinephrine auto-injector to an authorized entity to whom an epinephrine auto-injector has been prescribed.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§7-2381.02" applicability-path="§10" action="creation of" display-template=""/>
   </section>
   <section>
     <codify:insert doc="D.C. Code" path="7|23D|II" num-value="7-2381.03"/>
     <num>4</num>
     <heading>Authorized use.</heading>
-    <text>An employee or agent of an authorized entity who has completed the training program described in section 5 may use an epinephrine auto-injector prescribed pursuant to section 3 to:</text>
+    <text>An employee or agent of an authorized entity who has completed the training program described in <code-cite doc="D.C. Code" path="§7-2381.04">section 5</code-cite> may use an epinephrine auto-injector prescribed pursuant to <code-cite doc="D.C. Code" path="§7-2381.02">section 3</code-cite> to:</text>
     <para>
       <num undesignated="true">(a)</num>
       <para>
@@ -182,6 +190,7 @@
         <text>Administer an epinephrine auto-injector to any individual who the employee or agent believes in good faith is experiencing anaphylaxis.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§7-2381.03" applicability-path="§10" action="creation of" display-template=""/>
   </section>
   <section>
     <codify:insert doc="D.C. Code" path="7|23D|II" num-value="7-2381.04"/>
@@ -189,7 +198,7 @@
     <heading>Training required.</heading>
     <para>
       <num>(a)</num>
-      <text>An employee or agent of an authorized entity may not provide or administer an epinephrine auto-injector under this act unless he or she completes an anaphylaxis training program. The training program shall be conducted by:</text>
+      <text>An employee or agent of an authorized entity may not provide or administer an epinephrine auto-injector under <code-cite doc="D.C. Code" path="7|23D|II">this act</code-cite> unless he or she completes an anaphylaxis training program. The training program shall be conducted by:</text>
       <para>
         <num>(1)</num>
         <text>A nationally recognized organization experienced in training laypersons in emergency health treatment; or</text>
@@ -219,6 +228,7 @@
       <num>(c)</num>
       <text>An organization, individual, or entity that conducts the training program shall issue a certificate, on a form developed by the Department, to each person who successfully completes the training program.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§7-2381.04" applicability-path="§10" action="creation of" display-template=""/>
   </section>
   <section>
     <codify:insert doc="D.C. Code" path="7|23D|II" num-value="7-2381.05"/>
@@ -226,7 +236,7 @@
     <heading>Storing and maintaining epinephrine.</heading>
     <para>
       <num>(a)</num>
-      <text>An authorized entity may acquire and maintain epinephrine auto-injectors obtained in accordance with section 3. Once acquired, the epinephrine auto-injectors shall be maintained:</text>
+      <text>An authorized entity may acquire and maintain epinephrine auto-injectors obtained in accordance with <code-cite doc="D.C. Code" path="§7-2381.02">section 3</code-cite>. Once acquired, the epinephrine auto-injectors shall be maintained:</text>
       <para>
         <num>(1)</num>
         <text>In a location readily accessible in an emergency situation;</text>
@@ -242,8 +252,9 @@
     </para>
     <para>
       <num>(b)</num>
-      <text>An authorized entity shall designate employees or agents who have completed the training described in section 5 to be responsible for the storage and maintenance of epinephrine auto-injectors acquired by the authorized entity.</text>
+      <text>An authorized entity shall designate employees or agents who have completed the training described in <code-cite doc="D.C. Code" path="§7-2381.04">section 5</code-cite> to be responsible for the storage and maintenance of epinephrine auto-injectors acquired by the authorized entity.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§7-2381.05" applicability-path="§10" action="creation of" display-template=""/>
   </section>
   <section>
     <codify:insert doc="D.C. Code" path="7|23D|II" num-value="7-2381.06"/>
@@ -251,7 +262,7 @@
     <heading>Limitations on liability.</heading>
     <para>
       <num>(a)</num>
-      <text>The following shall be immune from civil or criminal liability for the performance of actions authorized by this act; provided, that no immunity shall extend to gross negligence, recklessness, or intentional misconduct:</text>
+      <text>The following shall be immune from civil or criminal liability for the performance of actions authorized by <code-cite doc="D.C. Code" path="7|23D|II">this act</code-cite>; provided, that no immunity shall extend to gross negligence, recklessness, or intentional misconduct:</text>
       <para>
         <num>(1)</num>
         <text>An authorized entity and its employees or agents; and</text>
@@ -263,7 +274,7 @@
     </para>
     <para>
       <num>(b)</num>
-      <text>The following shall be immune from civil or criminal liability for the performance of actions authorized by this act; provided, that no immunity shall extend to gross negligence, recklessness, intentional misconduct, or a willful or wanton disregard for the health or safety of others:</text>
+      <text>The following shall be immune from civil or criminal liability for the performance of actions authorized by <code-cite doc="D.C. Code" path="7|23D|II">this act</code-cite>; provided, that no immunity shall extend to gross negligence, recklessness, intentional misconduct, or a willful or wanton disregard for the health or safety of others:</text>
       <para>
         <num>(1)</num>
         <text>A health care professional that prescribes epinephrine auto-injectors to an authorized entity;</text>
@@ -274,9 +285,10 @@
       </para>
       <para>
         <num>(3)</num>
-        <text>An organization, individual, or entity that conducts the training described in section 5.</text>
+        <text>An organization, individual, or entity that conducts the training described in <code-cite doc="D.C. Code" path="§7-2381.04">section 5</code-cite>.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§7-2381.06" applicability-path="§10" action="creation of" display-template=""/>
   </section>
   <section>
     <codify:insert doc="D.C. Code" path="7|23D|II" num-value="7-2381.07"/>
@@ -284,18 +296,20 @@
     <heading>Incident reports.</heading>
     <para>
       <num>(a)</num>
-      <text>An authorized entity that acquires and provides or administers epinephrine auto-injectors shall submit to the Department, on a form developed by the Department, a report of each incident on the authorized entity's premises that involves the provision or administration of an epinephrine auto-injector pursuant to section 4.</text>
+      <text>An authorized entity that acquires and provides or administers epinephrine auto-injectors shall submit to the Department, on a form developed by the Department, a report of each incident on the authorized entity's premises that involves the provision or administration of an epinephrine auto-injector pursuant to <code-cite doc="D.C. Code" path="§7-2381.03">section 4</code-cite>.</text>
     </para>
     <para>
       <num>(b)</num>
       <text>By January 1, 2020, and annually thereafter, the Department shall publish a report summarizing and analyzing the reports submitted pursuant to subsection (a) of this section during the previous fiscal year.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§7-2381.07" applicability-path="§10" action="creation of" display-template=""/>
   </section>
   <section>
     <codify:insert doc="D.C. Code" path="7|23D|II" num-value="7-2381.08"/>
     <num>9</num>
     <heading>Rules.</heading>
-    <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue rules to implement the provisions of this act.</text>
+    <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue rules to implement the provisions of <code-cite doc="D.C. Code" path="7|23D|II">this act</code-cite>.</text>
+    <codify:not-funded-anno doc="D.C. Code" path="§7-2381.08" applicability-path="§10" action="creation of" display-template=""/>
   </section>
   <section>
     <codify:insert doc="D.C. Code" path="7|23D|II" num-value="7-2381.09"/>
@@ -303,7 +317,15 @@
     <heading>Applicability.</heading>
     <para>
       <num>(a)</num>
-      <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <text><code-cite doc="D.C. Code" path="7|23D|II">This act </code-cite> shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+     <codify:applicability  doc="D.C. Law 22-207" path="§2" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-207" path="§3" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-207" path="§4" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-207" path="§5" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-207" path="§6" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-207" path="§7" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-207" path="§8" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-207" path="§9" date="notfunded" history="false"/>
     </para>
     <para>
       <num>(b)</num>
@@ -317,7 +339,7 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>The date of publication of the notice of the certification shall not affect the applicability of this act.</text>
+        <text>The date of publication of the notice of the certification shall not affect the applicability of <code-cite doc="D.C. Code" path="7|23D|II">this act</code-cite>.</text>
       </para>
     </para>
   </section>
