@@ -279,13 +279,7 @@
   <xs:element name="para">
     <xs:complexType>
       <xs:sequence>
-        <xs:choice minOccurs="0" maxOccurs="unbounded">
-          <xs:element ref="codify:insert"/>
-          <xs:element ref="codify:organic"/>
-          <xs:element ref="codify:replace"/>
-          <xs:element ref="codify:ignore"/>
-          <xs:element ref="codify:temporary"/>
-        </xs:choice>
+        <xs:group ref="codify:headInstructions" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="prefix" minOccurs="0"/>
         <xs:element ref="num" minOccurs="1"/>
         <xs:element ref="heading" minOccurs="0"/>
@@ -327,8 +321,7 @@
     <xs:complexType>
       <xs:sequence>
         <!-- remaining sections -->
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0"
-          maxOccurs="unbounded"/>
+        <xs:group ref="codify:headInstructions" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="codified:at" minOccurs="0"/>
         <xs:element ref="prefix" minOccurs="0"/>
         <xs:element ref="num"/>

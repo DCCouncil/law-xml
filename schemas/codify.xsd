@@ -308,6 +308,7 @@
         <xs:element ref="create-sub-container"/>
         <xs:element ref="insert"/>
         <xs:element ref="recodify-section"/>
+        <xs:element ref="repeal"/>
         <xs:element ref="p:container"/>
         <xs:element ref="p:section"/>
         <xs:element ref="p:para"/>
@@ -369,4 +370,13 @@
     <xs:attribute ref="doc" use="optional"/>
     <xs:attribute ref="path" use="optional"/>
   </xs:attributeGroup>
+  <xs:group name="headInstructions">
+    <xs:choice>
+      <xs:element ref="insert"/>
+      <xs:element ref="organic"/>
+      <xs:element ref="replace"/>
+      <xs:element ref="ignore"/>
+      <xs:element ref="temporary"/>
+    </xs:choice>
+  </xs:group>
 </xs:schema>
