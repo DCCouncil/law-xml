@@ -780,24 +780,24 @@
       </para>
     </section>
   </container>
-  <codify:create-sub-container doc="D.C. Code" path="8|17M-i" num-value="I" prefix-value="Subchapter" heading-value="Commercial Energy Conservation." history="false"/>
-  <codify:find-replace doc="D.C. Code" path="8|17M-i|heading" count="1">
+  <codify:create-sub-container doc="D.C. Code" path="8|17M-i" num-value="I" prefix-value="Subchapter" heading-value="Commercial Energy Conservation." history="false" display-template=""/>
+  <codify:find-replace doc="D.C. Code" path="8|17M-i|heading" count="1"  display-template="">
     <find>Commercial Energy Conservation.</find>
     <replace>Commercial and Local Government Property Energy Conservation.</replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§8-1772.01|text" count="1" history="false">
+  <codify:find-replace doc="D.C. Code" path="§8-1772.01|text" count="1" history="false" display-template="">
     <find>this chapter</find>
     <replace>
       <code-cite doc="D.C. Code" path="8|17M-i|I">this subchapter</code-cite>
     </replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§8-1772.03" count="6" history="false">
+  <codify:find-replace doc="D.C. Code" path="§8-1772.03" count="6" history="false" display-template="">
     <find>this chapter</find>
     <replace>
       <code-cite doc="D.C. Code" path="8|17M-i|I">this subchapter</code-cite>
     </replace>
   </codify:find-replace>
-  <codify:find-replace doc="D.C. Code" path="§8-1772.04" count="1" history="false">
+  <codify:find-replace doc="D.C. Code" path="§8-1772.04" count="1" history="false" display-template="">
     <find>
       <code-cite>this title</code-cite>
     </find>
