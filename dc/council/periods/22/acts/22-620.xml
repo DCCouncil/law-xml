@@ -22,51 +22,76 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Firearms Safety Omnibus Amendment Act of 2018".</text>
-  <section>
+  <codify:insert doc="D.C. Code" path="7|25" after="IX" history="false" display-template="">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>X</num>
+      <heading>Extreme Risk Protection Orders.</heading>
+    </container>
+  </codify:insert>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Firearms Control Regulations Act of 1975, effective September 24, 1976 (D.C. Law 1-85; D.C. Official Code § 7-2501.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§7-2502.03">
       <num>(a)</num>
       <text>Section 203 (D.C. Official Code § 7-2502.03) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
-        <para>
+        <para codify:path="text">
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "and his" and inserting the phrase "and the person's" in its place.</text>
+          <codify:find-replace count="1">
+            <find>and his</find>
+            <replace>and the person's</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1)|(A)">
           <num>(B)</num>
           <text>Paragraph (1)(A) is amended by striking the phrase "his parent" and inserting the phrase "the applicant's parent" in its place.</text>
+          <codify:find-replace count="1">
+            <find>his parent</find>
+            <replace>the applicant's parent</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(C)</num>
           <text>Paragraph (4) is amended as follows:</text>
-          <para>
+          <para codify:path="(E)">
             <num>(i)</num>
             <text>Subparagraph (E) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; or</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(F)">
             <num>(ii)</num>
             <text>Subparagraph (F) is amended by striking the semicolon and inserting the phrase "; or" in its place.</text>
+            <codify:find-replace count="1">
+              <find>;</find>
+              <replace>; or</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>A new subparagraph (G) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert after="(F)"/>
                 <num>(G)</num>
-                <text>Violation of an extreme risk protection order pursuant to section 1011;</text>
+                <text>Violation of an extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.11">section 1011</code-cite>;</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="(6)">
           <num>(D)</num>
           <text>Paragraph (6) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(6)</num>
               <para>
                 <num>(A)</num>
@@ -81,7 +106,7 @@
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>Determined by the Superior Court of the District of Columbia or another court of competent jurisdiction to be an incapacitated individual, as that term is defined in D.C. Official Code § 21-2011(11);</text>
+                  <text>Determined by the Superior Court of the District of Columbia or another court of competent jurisdiction to be an incapacitated individual, as that term is defined in <code-cite doc="D.C. Code" path="§21-2011|(11)">D.C. Official Code § 21-2011(11)</code-cite>;</text>
                 </para>
                 <para>
                   <num>(4)</num>
@@ -100,21 +125,30 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(13)|(B)|(iii)">
           <num>(E)</num>
           <text>Paragraph (13)(B)(iii) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(14)">
           <num>(F)</num>
           <text>Paragraph (14) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace position="last">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(G)</num>
           <text>A new paragraph (15) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(15)</num>
-              <text>Is not the subject of a final extreme risk protection order issued pursuant to section 1003 or renewed pursuant to section 1006.</text>
+              <text>Is not the subject of a final extreme risk protection order issued pursuant to <code-cite doc="D.C. Code" path="§7-2510.03">section 1003</code-cite> or renewed pursuant to <code-cite doc="D.C. Code" path="§7-2510.06">section 1006</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -125,6 +159,7 @@
         <text>A new subsection (f) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(f)</num>
             <para>
               <num>(1)</num>
@@ -281,22 +316,27 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§7-2505.01">
       <num>(b)</num>
       <text>Section 501 (D.C. Official Code § 7-2505.01) is amended by striking the phrase "sections 210(c), 502, or 705 of this act" and inserting the phrase "section 210(c), section 502, section 705, section 1007, or section 1009" in its place.</text>
+      <codify:find-replace count="1">
+        <find><cite path="§7-2502.10|(c)">§ 7-2502.10(c)</cite>, <cite path="§7-2505.02">§ 7-2505.02</cite>, or <cite path="§7-2507.05">§ 7-2507.05</cite></find>
+        <replace><code-cite doc="D.C. Code" path="§7-2502.10|(c)">section 210(c)</code-cite>, <code-cite doc="D.C. Code" path="§7-2505.02">section 502</code-cite>, <code-cite doc="D.C. Code" path="§7-2507.05">section 705</code-cite>, <code-cite doc="D.C. Code" path="§7-2510.07">section 1007</code-cite>, or <code-cite doc="D.C. Code" path="§7-2510.09">section 1009</code-cite></replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§7-2507.05">
       <num>(c)</num>
       <text>Section 705 (D.C. Official Code § 7-2507.05) is amended to read as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <para>
               <num>(1)</num>
-              <text>If a person or organization within the District voluntarily and peaceably delivers and abandons to the Chief any firearm, destructive device, or ammunition at any time, such delivery shall preclude the arrest and prosecution of such person on a charge of violating any provision of this act, with respect to the firearm, destructive device, or ammunition delivered and abandoned.</text>
+              <text>If a person or organization within the District voluntarily and peaceably delivers and abandons to the Chief any firearm, destructive device, or ammunition at any time, such delivery shall preclude the arrest and prosecution of such person on a charge of violating any provision of <span codify:value="this unit">this act</span>, with respect to the firearm, destructive device, or ammunition delivered and abandoned.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -304,7 +344,7 @@
             </para>
             <para>
               <num>(3)</num>
-              <text>Every firearm to be delivered and abandoned to the Chief under this section shall be transported in accordance with section 4b of An Act To control the possession, sale, transfer, and use of pistols and other dangerous weapons in the District of Columbia, to provide penalties, to prescribe rules of evidence, and for other purposes, effective May 20, 2009 (D.C. Law 17-388; D.C. Official Code § 22-4504.02).</text>
+              <text>Every firearm to be delivered and abandoned to the Chief under this section shall be transported in accordance with <code-cite doc="D.C. Code" path="§22-4504.02">section 4b of An Act To control the possession, sale, transfer, and use of pistols and other dangerous weapons in the District of Columbia, to provide penalties, to prescribe rules of evidence, and for other purposes, effective May 20, 2009 (D.C. Law 17-388; D.C. Official Code § 22-4504.02)</code-cite>.</text>
             </para>
             <para>
               <num>(4)</num>
@@ -318,25 +358,34 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the phrase "under this section or pursuant to section 210(c)(1)" and inserting the phrase "under this section, section 210(c)(1), or section 1009(c)" in its place.</text>
+        <codify:find-replace count="1">
+          <find>under this section or pursuant to <cite path="§7-2502.10|(c)|(1)">§ 7-2502.10(c)(1)</cite></find>
+          <replace>under this section, <code-cite doc="D.C. Code" path="§7-2502.10|(c)|(1)">section 210(c)(1)</code-cite>, or <code-cite doc="D.C. Code" path="§7-2510.09|(c)">section 1009(c)</code-cite></replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§7-2507.06|(a)">
       <num>(d)</num>
       <text>Section 706(a) (D.C. Official Code § 7-2507.06(a)) is amended as follows:</text>
-      <para>
+      <para codify:path="text">
         <num>(1)</num>
         <text>The lead-in language is amended by striking the phrase "and Title IX" and inserting the phrase "Title IX, and section 1011" in its place.</text>
+        <codify:find-replace count="1">
+          <find>and <cite path="7|25|IX">subchapter IX of this chapter</cite> [<cite path="§7-2509.01">§ 7-2509.01</cite> et seq.]</find>
+          <replace><code-cite doc="D.C. Code" path="7|25|IX">Title IX</code-cite>, and <code-cite doc="D.C. Code" path="§7-2510.11"  codify:value="7-2510.11">section 1011</code-cite></replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (4) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(4)</num>
-            <text>A person convicted of possessing a large capacity ammunition feeding device in violation of section 601(b) shall be fined no more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or incarcerated for no more than 3 years, or both.</text>
+            <text>A person convicted of possessing a large capacity ammunition feeding device in violation of <code-cite doc="D.C. Code" path="§7-2506.01|(b)">section 601(b)</code-cite> shall be fined no more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or incarcerated for no more than 3 years, or both.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -351,21 +400,22 @@
           <num>X</num>
           <heading>– EXTREME RISK PROTECTION ORDERS.</heading>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.01"/>
             <num>1001</num>
             <heading>Definitions.</heading>
-            <text>For the purposes of this title, the term:</text>
+            <text>For the purposes of <code-cite doc="D.C. Code" path="7|25|X">this title</code-cite>, the term:</text>
             <para>
               <num undesignated="true">(a)</num>
               <para>
                 <num>(1)</num>
-                <text>"Extreme risk protection order" means an order issued, pursuant to this title, by a judge of the Superior Court of the District of Columbia prohibiting a respondent from having possession or control of, purchasing, or receiving any firearm, ammunition, registration certificate, license to carry a concealed pistol, or dealer's license.</text>
+                <text>"Extreme risk protection order" means an order issued, pursuant to <code-cite doc="D.C. Code" path="7|25|X">this title</code-cite>, by a judge of the Superior Court of the District of Columbia prohibiting a respondent from having possession or control of, purchasing, or receiving any firearm, ammunition, registration certificate, license to carry a concealed pistol, or dealer's license.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>"Petitioner" means a person who petitions the Superior Court of the District of Columbia for an extreme risk protection order under this title and is:</text>
+                <text>"Petitioner" means a person who petitions the Superior Court of the District of Columbia for an extreme risk protection order under <code-cite doc="D.C. Code" path="7|25|X">this title</code-cite> and is:</text>
                 <para>
                   <num>(A)</num>
-                  <text>Related to the respondent by blood, adoption, guardianship, marriage, domestic partnership, having a child in common, cohabitating, or maintaining a romantic, dating, or sexual relationship rendering the application of this title appropriate;</text>
+                  <text>Related to the respondent by blood, adoption, guardianship, marriage, domestic partnership, having a child in common, cohabitating, or maintaining a romantic, dating, or sexual relationship rendering the application of <code-cite doc="D.C. Code" path="7|25|X">this title</code-cite> appropriate;</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -373,7 +423,7 @@
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>A mental health professional, as that term is defined in section 101(11) of the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (D.C. Law 2-136; D.C. Official Code § 7-1201.01(11)).</text>
+                  <text>A mental health professional, as that term is defined in <code-cite doc="D.C. Code" path="§7-1201.01|(11)">section 101(11) of the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (D.C. Law 2-136; D.C. Official Code § 7-1201.01(11))</code-cite>.</text>
                 </para>
               </para>
               <para>
@@ -383,6 +433,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.02"/>
             <num>1002</num>
             <heading>Petitions for extreme risk protection orders.</heading>
             <para>
@@ -418,11 +469,11 @@
               <text>The Office of Attorney General may provide individual legal representation to a petitioner. If the Office of Attorney General decides to provide individual legal representation to a petitioner, the representation shall continue until the earliest of:</text>
               <para>
                 <num>(1)</num>
-                <text>The court denies the petition for a final extreme risk protection order pursuant to section 1003;</text>
+                <text>The court denies the petition for a final extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.03">section 1003</code-cite>;</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>The court terminates a final extreme risk protection order pursuant to section 1008; or</text>
+                <text>The court terminates a final extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.08">section 1008</code-cite>; or</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -435,13 +486,14 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.03"/>
             <num>1003</num>
             <heading>Final extreme risk protection orders.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>Upon receipt of a petition filed pursuant section 1002, the court shall order that a hearing be held to determine whether to issue a final extreme risk protection order against the respondent.</text>
+                <text>Upon receipt of a petition filed pursuant <code-cite doc="D.C. Code" path="§7-2510.02">section 1002</code-cite>, the court shall order that a hearing be held to determine whether to issue a final extreme risk protection order against the respondent.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -461,7 +513,7 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>If the court issues an ex parte extreme risk protection order pursuant to section 1004, the ex parte extreme risk protection order shall be served concurrently with the notice of hearing and petition described in subsection (b)(1) of this section.</text>
+              <text>If the court issues an ex parte extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.04">section 1004</code-cite>, the ex parte extreme risk protection order shall be served concurrently with the notice of hearing and petition described in subsection (b)(1) of this section.</text>
             </para>
             <para>
               <num>(d)</num>
@@ -516,7 +568,7 @@
               </para>
               <para>
                 <num>(8)</num>
-                <text>Respondent's use of a controlled substance, as that term is defined in section 102(4) of the District of Columbia Uniform Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Official Code § 48-901.02(4)).</text>
+                <text>Respondent's use of a controlled substance, as that term is defined in <code-cite doc="D.C. Code" path="§48-901.02|(4)">section 102(4) of the District of Columbia Uniform Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Official Code § 48-901.02(4))</code-cite>.</text>
               </para>
             </para>
             <para>
@@ -551,28 +603,29 @@
                 <text>The procedures for the:</text>
                 <para>
                   <num>(A)</num>
-                  <text>Renewal of a final extreme risk protection order pursuant to section 1006;</text>
+                  <text>Renewal of a final extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.06">section 1006</code-cite>;</text>
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>Surrender of firearms, ammunition, registration certificates, licenses to carry a concealed pistol, or dealer's licenses in the respondent's possession, control, or ownership pursuant to section 1007; and</text>
+                  <text>Surrender of firearms, ammunition, registration certificates, licenses to carry a concealed pistol, or dealer's licenses in the respondent's possession, control, or ownership pursuant to <code-cite doc="D.C. Code" path="§7-2510.07">section 1007</code-cite>; and</text>
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Termination of a final extreme risk protection order pursuant to section 1008; and</text>
+                  <text>Termination of a final extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.08">section 1008</code-cite>; and</text>
                 </para>
               </para>
               <para>
                 <num>(6)</num>
-                <text>That the respondent may seek the advice of an attorney as to any matter connected with a petition filed under this title.</text>
+                <text>That the respondent may seek the advice of an attorney as to any matter connected with a petition filed under <code-cite doc="D.C. Code" path="7|25|X">this title</code-cite>.</text>
               </para>
             </para>
             <para>
               <num>(i)</num>
-              <text>A final extreme risk protection order issued pursuant to this section shall expire one year after the issuance of the order, unless the order is terminated pursuant to section 1008 before its expiration.</text>
+              <text>A final extreme risk protection order issued pursuant to this section shall expire one year after the issuance of the order, unless the order is terminated pursuant to <code-cite doc="D.C. Code" path="§7-2510.08">section 1008</code-cite> before its expiration.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.04"/>
             <num>1004</num>
             <heading>Ex parte extreme risk protection orders.</heading>
             <para>
@@ -616,7 +669,7 @@
               </para>
               <para>
                 <num>(8)</num>
-                <text>Respondent's use of a controlled substance, as that term is defined in section 102 of the District of Columbia Uniform Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Official Code § 48-901.02).</text>
+                <text>Respondent's use of a controlled substance, as that term is defined in <code-cite doc="D.C. Code" path="§48-901.02">section 102 of the District of Columbia Uniform Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Official Code § 48-901.02)</code-cite>.</text>
               </para>
             </para>
             <para>
@@ -663,25 +716,25 @@
                 <text>The procedures for the:</text>
                 <para>
                   <num>(A)</num>
-                  <text>Renewal of a final extreme risk protection order pursuant to section 1006;</text>
+                  <text>Renewal of a final extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.06">section 1006</code-cite>;</text>
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>Surrender of firearms, ammunition, registration certificates, licenses to carry a concealed pistol, or dealer's licenses in the respondent's possession, control, or ownership pursuant to section 1007; and</text>
+                  <text>Surrender of firearms, ammunition, registration certificates, licenses to carry a concealed pistol, or dealer's licenses in the respondent's possession, control, or ownership pursuant to <code-cite doc="D.C. Code" path="§7-2510.07">section 1007</code-cite>; and</text>
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Termination of a final extreme risk protection order pursuant to section 1008; and</text>
+                  <text>Termination of a final extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.08">section 1008</code-cite>; and</text>
                 </para>
               </para>
               <para>
                 <num>(8)</num>
-                <text>That the respondent may seek the advice of an attorney as to any matter connected with this title, and that the attorney should be consulted promptly so that the attorney may assist the respondent in any matter connected with the ex parte extreme risk protection order.</text>
+                <text>That the respondent may seek the advice of an attorney as to any matter connected with <code-cite doc="D.C. Code" path="7|25|X">this title</code-cite>, and that the attorney should be consulted promptly so that the attorney may assist the respondent in any matter connected with the ex parte extreme risk protection order.</text>
               </para>
             </para>
             <para>
               <num>(h)</num>
-              <text>An ex parte extreme risk protection order issued pursuant to this section shall expire 10 days after the date and time the order was issued, unless the court set a new hearing date pursuant to section 1003(b)(2), in which case, the court may extend the duration of the ex parte extreme risk protection order to not exceed 15 days.</text>
+              <text>An ex parte extreme risk protection order issued pursuant to this section shall expire 10 days after the date and time the order was issued, unless the court set a new hearing date pursuant to <code-cite doc="D.C. Code" path="§7-2510.03|(b)|(2)">section 1003(b)(2)</code-cite>, in which case, the court may extend the duration of the ex parte extreme risk protection order to not exceed 15 days.</text>
             </para>
             <para>
               <num>(i)</num>
@@ -689,13 +742,14 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.05"/>
             <num>1005</num>
             <heading>Service of extreme risk protection orders.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>Except as provided in subsection (b) of this section, an extreme risk protection order issued pursuant to section 1003 or section 1004, or renewed pursuant to section 1006, shall be personally served upon the respondent by a sworn member of the Metropolitan Police Department.</text>
+                <text>Except as provided in subsection (b) of this section, an extreme risk protection order issued pursuant to <code-cite doc="D.C. Code" path="§7-2510.03">section 1003</code-cite> or <code-cite doc="D.C. Code" path="§7-2510.04">section 1004</code-cite>, or renewed pursuant to <code-cite doc="D.C. Code" path="§7-2510.06">section 1006</code-cite>, shall be personally served upon the respondent by a sworn member of the Metropolitan Police Department.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -716,6 +770,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.06"/>
             <num>1006</num>
             <heading>Renewal of final extreme risk protection orders.</heading>
             <para>
@@ -763,7 +818,7 @@
               </para>
               <para>
                 <num>(8)</num>
-                <text>Respondent's use of a controlled substance, as that term is defined in section 102 of the District of Columbia Uniform Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Official Code § 48-901.02).</text>
+                <text>Respondent's use of a controlled substance, as that term is defined in <code-cite doc="D.C. Code" path="§48-901.02">section 102 of the District of Columbia Uniform Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Official Code § 48-901.02)</code-cite>.</text>
               </para>
             </para>
             <para>
@@ -798,33 +853,34 @@
                 <text>The procedures for the:</text>
                 <para>
                   <num>(A)</num>
-                  <text>Renewal of a final extreme risk protection order pursuant to section 1006;</text>
+                  <text>Renewal of a final extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.06">section 1006</code-cite>;</text>
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>Surrender of firearms, ammunition, registration certificates, licenses to carry a concealed pistol, or dealer's licenses in the respondent's possession, control, or ownership pursuant to section 1007; and</text>
+                  <text>Surrender of firearms, ammunition, registration certificates, licenses to carry a concealed pistol, or dealer's licenses in the respondent's possession, control, or ownership pursuant to <code-cite doc="D.C. Code" path="§7-2510.07">section 1007</code-cite>; and</text>
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Termination of a final extreme risk protection order pursuant to section 1008; and</text>
+                  <text>Termination of a final extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.08">section 1008</code-cite>; and</text>
                 </para>
               </para>
               <para>
                 <num>(6)</num>
-                <text>That the petitioner may seek the advice of an attorney as to any matter connected with this title.</text>
+                <text>That the petitioner may seek the advice of an attorney as to any matter connected with <code-cite doc="D.C. Code" path="7|25|X">this title</code-cite>.</text>
               </para>
             </para>
             <para>
               <num>(h)</num>
-              <text>An extreme risk protection order renewed pursuant to this section shall expire one year after the issuance of the order, unless that order is terminated pursuant to section 1008 before its expiration.</text>
+              <text>An extreme risk protection order renewed pursuant to this section shall expire one year after the issuance of the order, unless that order is terminated pursuant to <code-cite doc="D.C. Code" path="§7-2510.08">section 1008</code-cite> before its expiration.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.07"/>
             <num>1007</num>
             <heading>Surrender of firearms, ammunition, registration certificates, licenses to carry a concealed pistol, and dealer's licenses.</heading>
             <para>
               <num>(a)</num>
-              <text>If the court issues a final extreme risk protection order pursuant to section 1003, issues an ex parte extreme risk protection order pursuant to section 1004, or renews a final extreme risk protection order pursuant to section 1006, the court may issue a search warrant that:</text>
+              <text>If the court issues a final extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.03">section 1003</code-cite>, issues an ex parte extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.04">section 1004</code-cite>, or renews a final extreme risk protection order pursuant to <code-cite doc="D.C. Code" path="§7-2510.06">section 1006</code-cite>, the court may issue a search warrant that:</text>
               <para>
                 <num>(1)</num>
                 <text>Describes the number and types of firearms and ammunition to be seized;</text>
@@ -880,20 +936,21 @@
                 <text>If a respondent peaceably surrenders any firearms or ammunition pursuant to this section, such surrender shall preclude the arrest and prosecution of the respondent for violating, with respect to the firearms or ammunition surrendered:</text>
                 <para>
                   <num>(A)</num>
-                  <text>Section 601 of The Firearms Control Regulations Act of 1975, effective September 24, 1976 (D.C. Law 1-85; D.C. Official Code § 7-25061.01); and</text>
+                  <text><span codify:value="Section "></span><code-cite doc="D.C. Code" path="§7-2506.01" codify:value="7-2506.01">Section 601 of The Firearms Control Regulations Act of 1975, effective September 24, 1976 (D.C. Law 1-85; D.C. Official Code § 7-25061.01)</code-cite>; and</text>
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>Sections 3 and 4(a) and (a-1) of An Act To control the possession, sale, transfer, and use of pistols and other dangerous weapons in the District of Columbia, to provide penalties, to prescribe rules of evidence, and for other purposes, approved July 8, 1932 (47 Stat. 651; D.C. Official Code §§ 22-4503 and 22-4504(a) and (a-1)).</text>
+                  <text><span codify:value="Sections ">Sections</span> <code-cite doc="D.C. Code" path="§22-4503" codify:value="22-4503">3</code-cite> and <code-cite doc="D.C. Code" path="§22-4504|(a)" codify:value="22-4504(a)">4(a)</code-cite> and <cite doc="D.C. Code" path="§22-4504|(a-1)">(a-1)</cite><span codify:value=""> of An Act To control the possession, sale, transfer, and use of pistols and other dangerous weapons in the District of Columbia, to provide penalties, to prescribe rules of evidence, and for other purposes, approved July 8, 1932 (47 Stat. 651; D.C. Official Code §§ 22-4503 and 22-4504(a) and (a-1))</span>.</text>
                 </para>
               </para>
               <para>
                 <num>(2)</num>
-                <text>The surrender of any firearm or ammunition pursuant to this section shall not constitute a voluntary surrender for the purposes of section 705.</text>
+                <text>The surrender of any firearm or ammunition pursuant to this section shall not constitute a voluntary surrender for the purposes of <code-cite doc="D.C. Code" path="§7-2507.05">section 705</code-cite>.</text>
               </para>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.08"/>
             <num>1008</num>
             <heading>Termination of extreme risk protection orders.</heading>
             <para>
@@ -937,7 +994,7 @@
               </para>
               <para>
                 <num>(8)</num>
-                <text>Respondent's use of a controlled substance, as that term is defined in section 102 of the District of Columbia Uniform Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Official Code § 48-901.02).</text>
+                <text>Respondent's use of a controlled substance, as that term is defined in <code-cite doc="D.C. Code" path="§48-901.02">section 102 of the District of Columbia Uniform Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Official Code § 48-901.02)</code-cite>.</text>
               </para>
             </para>
             <para>
@@ -969,6 +1026,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.09"/>
             <num>1009</num>
             <heading>Return or disposal of firearms or ammunition.</heading>
             <para>
@@ -1007,10 +1065,11 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>If the respondent does not request return of a firearm or ammunition under subsection (a) of this section, or sell or transfer a firearm or ammunition under subsection (b) of this section, within 6 months after the date the extreme risk protection order is terminated, or expires and is not renewed, the Metropolitan Police Department shall treat the firearm or ammunition as surrendered and the firearm or ammunition shall be subject to section 705(b).</text>
+              <text>If the respondent does not request return of a firearm or ammunition under subsection (a) of this section, or sell or transfer a firearm or ammunition under subsection (b) of this section, within 6 months after the date the extreme risk protection order is terminated, or expires and is not renewed, the Metropolitan Police Department shall treat the firearm or ammunition as surrendered and the firearm or ammunition shall be subject to <code-cite doc="D.C. Code" path="§7-2507.05|(b)">section 705(b)</code-cite>.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.10"/>
             <num>1010</num>
             <heading>Recording requirements.</heading>
             <para>
@@ -1018,7 +1077,7 @@
               <text>The Metropolitan Police Department shall:</text>
               <para>
                 <num>(1)</num>
-                <text>Maintain a searchable database of extreme risk protection orders issued, terminated, and renewed pursuant to this title; and</text>
+                <text>Maintain a searchable database of extreme risk protection orders issued, terminated, and renewed pursuant to <code-cite doc="D.C. Code" path="7|25|X">this title</code-cite>; and</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1027,10 +1086,11 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>The Superior Court of the District of Columbia shall immediately submit information about extreme risk protection orders issued, renewed, or terminated pursuant to this title to the National Instant Criminal Background Check System for the purposes of firearm purchaser background checks.</text>
+              <text>The Superior Court of the District of Columbia shall immediately submit information about extreme risk protection orders issued, renewed, or terminated pursuant to <code-cite doc="D.C. Code" path="7|25|X">this title</code-cite> to the National Instant Criminal Background Check System for the purposes of firearm purchaser background checks.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.11"/>
             <num>1011</num>
             <heading>Violation of an extreme risk protection order.</heading>
             <para>
@@ -1042,7 +1102,7 @@
               <text>A person convicted of violating an extreme risk protection order shall be:</text>
               <para>
                 <num>(1)</num>
-                <text>Fined no more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or incarcerated for no more than 180 days, or both; and</text>
+                <text>Fined no more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or incarcerated for no more than 180 days, or both; and</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1058,35 +1118,41 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Gun offense, as that term is defined in section 801(3).</text>
+                <text>Gun offense, as that term is defined in <code-cite doc="D.C. Code" path="§7-2508.01|(3)">section 801(3)</code-cite>.</text>
               </para>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="7|25|X" num-value="7-2510.12"/>
             <num>1012</num>
             <heading>Law enforcement to retain other authority.</heading>
-            <text>Nothing in this title shall be construed to affect the ability of a law enforcement officer, as that term is defined in section 901(3), to remove firearms or ammunition from any person pursuant to other lawful authority.</text>
+            <text>Nothing in <code-cite doc="D.C. Code" path="7|25|X">this title</code-cite> shall be construed to affect the ability of a law enforcement officer, as that term is defined in <code-cite doc="D.C. Code" path="§7-2509.01|(3)">section 901(3)</code-cite>, to remove firearms or ammunition from any person pursuant to other lawful authority.</text>
           </section>
         </container>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>3</num>
     <text>An Act To control the possession, sale, transfer, and use of pistols and other dangerous weapons in the District of Columbia, to provide penalties, to prescribe rules of evidence, and for other purposes, approved July 8, 1932 (47 Stat. 650; D.C. Official Code § 22-4501 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§22-4501">
       <num>(a)</num>
       <text>Section 1 (D.C. Official Code § 22-4501) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)|num">
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (1A).</text>
+        <codify:find-replace count="1">
+          <find>(1)</find>
+          <replace>(1A)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (1) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert before="(1A)"/>
             <num>(1)</num>
             <text>"Bump stock" means any object that, when installed in or attached to a firearm, increases the rate of fire of the firearm by using energy from the recoil of the firearm to generate a reciprocating action that facilitates repeated activation of the trigger.</text>
           </para>
@@ -1094,9 +1160,13 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§22-4514|(a)">
       <num>(b)</num>
       <text>Section 14(a) (D.C. Official Code § 22-4514(a)) is amended by striking the phrase "sawed-off shotgun, knuckles" both times it appears and inserting the phrase "sawed-off shotgun, bump stock, knuckles" in it its place.</text>
+      <codify:find-replace count="2">
+        <find>sawed-off shotgun, knuckles</find>
+        <replace>sawed-off shotgun, bump stock, knuckles</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
