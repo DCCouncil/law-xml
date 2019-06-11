@@ -27,6 +27,7 @@
     <text>The Office of Administrative Hearings Establishment Act of 2001, effective March 6, 2002 (D.C. Law 14-76; D.C. Official Code § 2-1831.01 <em>et seq</em>.), is amended by adding a new section 6a to read as follows:</text>
     <include>
       <section>
+        <codify:insert doc="D.C. Code" path="2|18A" after="§2-1831.03" num-value="2-1831.03a" history-prefix="as added"/>
         <num>6a</num>
         <heading>Housing code violation hearings.</heading>
         <para>
@@ -51,6 +52,8 @@
       </section>
     </include>
     <aftertext>.</aftertext>
+    <annotation doc="D.C. Law 14-76" type="History" path="§6a">Mar. 6, 2002, D.C. Law 14-76, § 6a</annotation>
+    <codify:not-funded-anno doc="D.C. Code" path="§2-1831.03a" applicability-path="§8" action="creation of" display-template=""/>
   </section>
   <section>
     <num>3</num>
@@ -60,6 +63,7 @@
       <text>Section 29-102.01(a) is amended by adding a new paragraph (6) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert doc="D.C. Code" path="§29-102.01|(a)" after="(5)"/>
           <num>(6)</num>
           <text>For entity filings made on or after January 1, 2020, the entity filing shall state the names and residence and business addresses of each person whose aggregate share of direct or indirect, legal or beneficial ownership of a governance or total distributional interest of the entity:</text>
           <para>
@@ -81,12 +85,14 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§29-102.01" applicability-path="§8" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
       <text>Section 29-102.11(a) is amended by adding a new paragraph (6) amended as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert doc="D.C. Code" path="§29-102.11|(a)" after="(5)"/>
           <num>(6)</num>
           <text>For biennial reports made on or after January 1, 2020, the report shall state the names and residence and business addresses of each person whose aggregate share of direct or indirect, legal or beneficial ownership of a governance or total distributional interest of the entity:</text>
           <para>
@@ -108,77 +114,97 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§29-102.11" applicability-path="§8" display-template=""/>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>4</num>
     <text>An Act To provide for the abatement of nuisances in the District of Columbia by the Commissioners of said District, and for other purposes, approved April 14, 1906 (34 Stat. 114; D.C. Official Code § 42-3131.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§42-3131.01|(b)">
       <num>(a)</num>
       <text>Section 1(b) (D.C. Official Code § 42-3131.01(b)) is amended by adding a new paragraph (2A) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(2)"/>
           <num>(2A)</num>
           <text>Notwithstanding paragraph (2), fines collected for a repeat infraction pursuant to section 3201.2 of Title 16 of the District of Columbia Municipal Regulations (16 DCMR § 3201.2), or for a failure to timely abate a violation pursuant to sections 3305.1(s), 3305.2(uu), and 3305.3(vvv) of Title 16 of the District of Columbia Municipal Regulations (16 DCMR §§ 3305.1(s), 3305.2(uu), and 3305.3(vvv)), shall be deposited into the fund.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§42-3131.01" applicability-path="§8" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§42-3131.05|(1)|(B)|(ii)">
       <num>(b)</num>
       <text>Section 5(1)(B)(ii) (D.C. Official Code § 42-3131.05(1)(B)(ii)) is amended by striking the phrase "boarded up; and" inserting the phrase "boarded up; provided, that this sub-sub-subparagraph shall not apply if the doors, windows, areaways, and other openings are secured by boards or other non-permanent means of security for not longer than 12 months and the owner submits proof of an issued building permit to rehabilitate the building for occupancy that certifies that these items will be replaced as part of the renovation of the vacant building; and" in its place.</text>
+      <codify:find-replace count="1">
+        <find>boarded up; and</find>
+        <replace>boarded up; provided, that this sub-sub-subparagraph shall not apply if the doors, windows, areaways, and other openings are secured by boards or other non-permanent means of security for not longer than 12 months and the owner submits proof of an issued building permit to rehabilitate the building for occupancy that certifies that these items will be replaced as part of the renovation of the vacant building; and</replace>
+      </codify:find-replace>
+       <codify:not-funded-anno doc="D.C. Code" path="§42-3131.05" applicability-path="§8" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§42-3131.05a">
       <num>(c)</num>
       <text>Section 5a (D.C. Official Code § 42-3131.05a) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The existing text is designated as subsection (a).</text>
+        <codify:redesignate-para num-value="(a)"/>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Newly designated subsection (a) is amended by striking the phrase "Office of Tax and Revenue.  Notice of the initial vacant or blighted property determination shall also be posted on the vacant building" and inserting the phrase "Office of Tax and Revenue" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Office of Tax and Revenue. Notice of the initial vacant or blighted property determination shall also be posted on the vacant building</find>
+          <replace>Office of Tax and Revenue</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>New subsections (b) and (c) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)"/>
             <num>(b)</num>
-            <text>The Mayor shall cause notice also to be posted on the vacant building; provided, that the official notice for legal purposes shall be the notice mailed pursuant to subsection (a) of this section.  Unless the Mayor knows with certainty that the vacant building is not eligible for exemption pursuant to section 6, the notice shall not be posted by difficult-to-remove adhesive.</text>
+            <text>The Mayor shall cause notice also to be posted on the vacant building; provided, that the official notice for legal purposes shall be the notice mailed pursuant to subsection (a) of this section.  Unless the Mayor knows with certainty that the vacant building is not eligible for exemption pursuant to <code-cite doc="D.C. Code" path="§42-3131.06">section 6</code-cite>, the notice shall not be posted by difficult-to-remove adhesive.</text>
           </para>
           <para>
+            <codify:insert after="(b)"/>
             <num>(c)</num>
             <text>A courtesy copy of a notice provided pursuant to subsection (a) of this section shall be mailed or electronically mailed to the Advisory Neighborhood Commission in which the vacant building is located and the status of the building's designation shall be posted on an internet website maintained by the Department of Consumer and Regulatory Affairs that is accessible to the public.  The courtesy copy required by this subsection shall not be construed to satisfy, nor be construed as necessary to satisfy, the requirements of subsection (a) of this section that notice be properly served by mail.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+       <codify:not-funded-anno doc="D.C. Code" path="§42-3131.05a" applicability-path="§8" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§42-3131.11">
       <num>(d)</num>
       <text>Section 11 (D.C. Official Code § 42-3131.11) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The existing text is designated as subsection (a).</text>
+        <codify:redesignate-para num-value="(a)"/>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (b) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(b)</num>
             <text>Consistent with section 5a(c), a courtesy copy of notice required by this section shall be mailed or electronically mailed to the Advisory Neighborhood Commission in which the building is located, and the status of the building's designation shall be posted on an internet website maintained by the Department of Consumer and Regulatory Affairs that is accessible to the public.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+       <codify:not-funded-anno doc="D.C. Code" path="§42-3131.11" applicability-path="§8" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§42-3131.15">
       <num>(e)</num>
       <text>Section 15 (D.C. Official Code § 42-3131.15) is amended by adding a new subsection (c) to read as follows:</text>
       <include>
         <para>
+          <codify:insert/>
           <num>(c)</num>
           <text>After receiving a notice of appeal from an owner as required under subsection (b) of this section, the Real Property Tax Appeals Commission for the District of Columbia shall provide by mail or electronic mail to the Advisory Neighborhood Commission in which the vacant building is located, at least 15 days before any scheduled hearing on the appeal, the following information related to the building at issue:</text>
           <para>
@@ -196,25 +222,30 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+       <codify:not-funded-anno doc="D.C. Code" path="§42-3131.15" applicability-path="§8" display-template=""/>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§42-3509.08">
     <num>5</num>
     <text>Section 908 of the Rental Housing Act of 1985, effective March 21, 2009 (D.C. Law 17-319; D.C. Official Code § 42-3509.08), is amended by adding new subsections (e) and (f) to read as follows:</text>
     <include>
       <para>
+        <codify:insert/>
         <num>(e)</num>
         <text>A property owner shall not have more than 30 days to abate any condition that has resulted in the issuance of a notice of violation in connection with an inspection carried out pursuant to this section.</text>
       </para>
       <para>
+        <codify:insert/>
         <num>(f)</num>
         <text>The Mayor may extend the deadline for a property owner to abate a violation pursuant to subsection (e) of this section only if the property owner has taken all reasonable steps to abate the violation by the deadline.  All reasonable steps include proof of active construction or undergoing active rehabilitation, renovation, or repair to abate the violation.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+     <codify:not-funded-anno doc="D.C. Code" path="§42-3509.08" applicability-path="§8" display-template=""/>
   </section>
   <section>
     <num>6</num>
+    <!-- DCMR only -->
     <text>Section 105 of Title 14 of the District of Columbia Municipal Regulations (14 DCMR § 105) is amended as follows:</text>
     <para>
       <num>(a)</num>
@@ -252,6 +283,7 @@
   </section>
   <section>
     <num>7</num>
+      <!-- DCMR only -->
     <text>Title 16 of the District of Columbia Municipal Regulations (16 DCMR § 100 <em>et seq.</em>) is amended as follows:</text>
     <para>
       <num>(a)</num>
@@ -352,6 +384,15 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+     <codify:applicability  doc="D.C. Law 22-287" path="§2" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-287" path="§3" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-287" path="§4|(a)" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-287" path="§4|(b)" date="notfunded" history="false"/>
+      <codify:applicability  doc="D.C. Law 22-287" path="§4|(c)|(2)" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-287" path="§4|(c)|(3)" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-287" path="§4|(d)|(2)" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-287" path="§4|(e)" date="notfunded" history="false"/>
+     <codify:applicability  doc="D.C. Law 22-287" path="§5" date="notfunded" history="false"/>
     </para>
     <para>
       <num>(b)</num>
