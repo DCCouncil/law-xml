@@ -59,7 +59,7 @@
           <xs:element ref="document"/>
         </xs:choice>
         <xs:sequence minOccurs="0" maxOccurs="unbounded">
-          <xs:element name="subheading" type="xs:string"/>
+          <xs:element ref="subheading"/>
           <xs:element ref="xi:include" minOccurs="0" maxOccurs="unbounded"/>
           <xs:element ref="collection" minOccurs="0" maxOccurs="unbounded"/>
           <xs:element ref="document" minOccurs="0" maxOccurs="unbounded"/>
@@ -68,6 +68,7 @@
       <xs:attribute name="name" type="xs:string" use="required"/>
     </xs:complexType>
   </xs:element>
+  <xs:element name="subheading" type="xs:string"/>
   <xs:element name="container">
     <xs:complexType>
       <xs:sequence>
@@ -82,7 +83,7 @@
         </xs:sequence>
         <xs:choice maxOccurs="unbounded">
           <xs:element ref="xi:include" minOccurs="0"/>
-          <xs:element name="subheading" type="xs:string"/>
+          <xs:element ref="subheading"/>
           <xs:element ref="section"/>
           <xs:element ref="container"/>
           <xs:element ref="text"/>
@@ -116,7 +117,7 @@
             <xs:element ref="container"/>
             <xs:element ref="section"/>
             <xs:element ref="para"/>
-            <xs:element name="subheading" type="xs:string"/>
+            <xs:element ref="subheading"/>
             <xs:element ref="toc" minOccurs="0"/>
             <xs:any namespace="https://code.dccouncil.us/schemas/codify"/>
           </xs:choice>
