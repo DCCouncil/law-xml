@@ -22,14 +22,30 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "School Safety Omnibus Amendment Act of 2018".</text>
+  <!-- <codify:insert doc="D.C. Code" path="38" after="9" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>9A</num>
+      <heading>School Obligations to Prevent and Address Student Sexual Abuse.</heading>
+    </container>
+    </codify:insert> -->
+    <!-- <codify:insert doc="D.C. Code" path="38|9" after="§38-938" history="false">
+    
+    <subheading>Subtitle I-A. Public Education — School Safety.</subheading>
+    
+  </codify:insert> -->
+ 
+  
   <container>
     <prefix>TITLE</prefix>
     <num>I</num>
     <heading>SCHOOLS' OBLIGATIONS TO PREVENT AND ADDRESS STUDENT SEXUAL ABUSE</heading>
     <section>
-      <num>101</num>
+      <!-- <codify:insert doc="D.C. Code" path="38|9A" num-value="38-951.01"/> -->
+      <codify:replace doc="D.C. Code" path="§38-951.01"/>
+      <num codify:value="38-951.01">101</num>
       <heading>Definitions.</heading>
-      <text>For the purposes of this title, the term:</text>
+      <text>For the purposes of <code-cite doc="D.C. Code" path="38|9A">this title</code-cite>, the term:</text>
       <para>
         <num undesignated="true">(a)</num>
         <para>
@@ -41,7 +57,7 @@
           </para>
           <para>
             <num>(B)</num>
-            <text>Sexual abuse, as that term is defined in section 251(4) of the Anti-Sexual Abuse Act of 1994, effective May 23, 1995 (D.C. Law 10-257; D.C. Official Code § 22-3020.51(4)), or exploitation of a child; or</text>
+            <text>Sexual abuse, as that term is defined in <code-cite doc="D.C. Code" path="§22-3020.51|(4)">section 251(4) of the Anti-Sexual Abuse Act of 1994, effective May 23, 1995 (D.C. Law 10-257; D.C. Official Code § 22-3020.51(4))</code-cite>, or exploitation of a child; or</text>
           </para>
           <para>
             <num>(C)</num>
@@ -90,11 +106,12 @@
         </para>
         <para>
           <num>(6)</num>
-          <text>"Student sexual abuse" means sexual abuse, as that term is defined in section 251(4) of the Anti-Sexual Abuse Act of 1994, effective May 23, 1995 (D.C. Law 10-257; D.C. Official Code § 22-3020.51(4)), committed against a student of a school.</text>
+          <text>"Student sexual abuse" means sexual abuse, as that term is defined in <code-cite doc="D.C. Code" path="§22-3020.51|(4)">section 251(4) of the Anti-Sexual Abuse Act of 1994, effective May 23, 1995 (D.C. Law 10-257; D.C. Official Code § 22-3020.51(4))</code-cite>, committed against a student of a school.</text>
         </para>
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="38|9A" num-value="38-951.02"/>
       <num>102</num>
       <heading>Policy and education to prevent and address student sexual abuse.</heading>
       <para>
@@ -102,7 +119,7 @@
         <text>Beginning in the 2019-2020 school year, schools shall adopt and implement a policy to prevent and address student sexual abuse by staff. The policy shall include:</text>
         <para>
           <num>(1)</num>
-          <text>Protocol for the school's response to an allegation of student sexual abuse committed by staff, including procedures governing compliance with the reporting requirements described in section 2 of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02), and section 252 of Title II-A of the Anti-Sexual Abuse Act of 1994, effective May 23, 1995 (D.C. Law 10-257; D.C. Official Code § 22-3020.52);</text>
+          <text>Protocol for the school's response to an allegation of student sexual abuse committed by staff, including procedures governing compliance with the reporting requirements described in <span codify:value="§§"/> <code-cite doc="D.C. Code" path="§4-1321.02" codify:value="4-1321.02">section 2 of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02),</code-cite> and <code-cite doc="D.C. Code" path="§22-3020.52" codify:value="22-3020.52">section 252 of Title II-A of the Anti-Sexual Abuse Act of 1994, effective May 23, 1995 (D.C. Law 10-257; D.C. Official Code § 22-3020.52)</code-cite>;</text>
         </para>
         <para>
           <num>(2)</num>
@@ -217,12 +234,14 @@
           </para>
           <para>
             <num>(D)</num>
-            <text>Identify the most efficient methods for schools to conduct criminal background checks and consult child abuse and neglect registries in accordance with section 103.</text>
+            <text>Identify the most efficient methods for schools to conduct criminal background checks and consult child abuse and neglect registries in accordance with <code-cite doc="D.C. Code" path="§38-951.03">section 103</code-cite>.</text>
           </para>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§38-951.02" applicability-path="§501" action="creation of of subsection (c) and (d)" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="38|9A" num-value="38-951.03"/>
       <num>103</num>
       <heading>Due diligence regarding potential, current, and former staff.</heading>
       <para>
@@ -258,7 +277,7 @@
         </para>
         <para>
           <num>(2)</num>
-          <text>Conducts a criminal background check of the applicant in accordance with the requirements of the Criminal Background Checks for the Protection of Children Act of 2004, effective April 13, 2005 (D.C. Law 15-353; D.C. Official Code § 4-1501.01 <em>et seq</em>.), and its implementing regulations;</text>
+          <text>Conducts a criminal background check of the applicant in accordance with the requirements of <code-cite doc="D.C. Code" path="4|15">the Criminal Background Checks for the Protection of Children Act of 2004, effective April 13, 2005 (D.C. Law 15-353; D.C. Official Code § 4-1501.01 <em>et seq</em>.),</code-cite> and its implementing regulations;</text>
         </para>
         <para>
           <num>(3)</num>
@@ -293,25 +312,34 @@
         <num>(b)</num>
         <text>Each local education agency or contracted service provider shall maintain a record of any allegation against staff of sexual misconduct, child abuse, or the failure to report child abuse, as well as the outcome of any subsequent investigation, and shall provide, when contacted by another local education agency or school that is considering hiring the applicant, information pursuant to subsection (a)(3) of this section.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§38-951.03" applicability-path="§501" action="creation of" display-template=""/>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="32" after="11" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>11A</num>
+      <heading>Prohibition Against Assisting Certain Employment of Perpetrators of Child Sexual Offenses.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>II</num>
     <heading>PROHIBITION AGAINST ASSISTING CERTAIN EMPLOYMENT OF PERPETRATORS OF CHILD SEXUAL OFFENSES</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="32|11A" num-value="32-1131.01"/>
       <num>201</num>
       <heading>Definitions.</heading>
-      <text>For the purposes of this title, the term:</text>
+      <text>For the purposes of <code-cite doc="D.C. Code" path="32|11A">this title</code-cite>, the term:</text>
       <para>
         <num undesignated="true">(a)</num>
         <para>
           <num>(1)</num>
-          <text>"Assist" does not include the routine transmission of administrative and personnel files; provided, that the requirements of reporting conduct are followed in accordance with section 2 of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02).</text>
+          <text>"Assist" does not include the routine transmission of administrative and personnel files; provided, that the requirements of reporting conduct are followed in accordance with <code-cite doc="D.C. Code" path="§4-1321.02">section 2 of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02)</code-cite>.</text>
         </para>
         <para>
           <num>(2)</num>
-          <text>"Child development facility" shall have the same meaning as provided in section 2(3) of the Child Development Facilities Regulation Act of 1998, effective April 13, 1999 (D.C. Law 12-215; D.C. Official Code § 7-2031(3)).</text>
+          <text>"Child development facility" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§7-2031|(3)">section 2(3) of the Child Development Facilities Regulation Act of 1998, effective April 13, 1999 (D.C. Law 12-215; D.C. Official Code § 7-2031(3))</code-cite>.</text>
         </para>
         <para>
           <num>(3)</num>
@@ -327,7 +355,7 @@
         </para>
         <para>
           <num>(6)</num>
-          <text>"Sexual abuse" shall have the same meaning as provided in section 251(4) of the Anti-Sexual Abuse Act of 1994, effective May 23, 1995 (D.C. Law 10-257; D.C. Official Code § 22-3020.51(4)).</text>
+          <text>"Sexual abuse" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§22-3020.51|(4)">section 251(4) of the Anti-Sexual Abuse Act of 1994, effective May 23, 1995 (D.C. Law 10-257; D.C. Official Code § 22-3020.51(4))</code-cite>.</text>
         </para>
         <para>
           <num>(7)</num>
@@ -360,6 +388,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="32|11A" num-value="32-1131.02"/>
       <num>202</num>
       <heading>Prohibition against assisting certain employment of perpetrator of child sexual abuse offenses.</heading>
       <para>
@@ -399,14 +428,22 @@
       </para>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="38" after="9A" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>9B</num>
+      <heading>School Obligation to Prevent Student-on-Student Sexual Harassment, Sexual Assault, and Dating Violence.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>III</num>
     <heading>SCHOOLS' OBLIGATION TO PREVENT STUDENT-ON-STUDENT SEXUAL HARASSMENT, SEXUAL ASSAULT, AND DATING VIOLENCE</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="38|9B" num-value="38-952.01"/>
       <num>301</num>
       <heading>Definitions.</heading>
-      <text>For the purposes of this title, the term:</text>
+      <text>For the purposes of <code-cite doc="D.C. Code" path="38|9B">this title</code-cite>, the term:</text>
       <para>
         <num undesignated="true">(a)</num>
         <para>
@@ -423,7 +460,7 @@
         </para>
         <para>
           <num>(4)</num>
-          <text>"Sexual assault" means any of the following offenses: §§ 22-3002 (first degree sexual abuse); 22-3003 (second degree sexual abuse); 22-3004 (third degree sexual abuse); 22-3005 (fourth degree sexual abuse); 22-3006 (misdemeanor sexual abuse); or 22-3018 (attempts to commit sexual offenses).</text>
+          <text>"Sexual assault" means any of the following offenses: §§ <cite doc="D.C. Code" path="§22-3002" codify:value="22-3002">22-3002</cite> (first degree sexual abuse); <code-cite doc="D.C. Code" path="§22-3003" codify:value="22-3003">22-3003</code-cite> (second degree sexual abuse); <code-cite doc="D.C. Code" path="§22-3004" codify:value="22-3004">22-3004</code-cite> (third degree sexual abuse); <code-cite doc="D.C. Code" path="§22-3005" codify:value="22-3005">22-3005</code-cite> (fourth degree sexual abuse); <code-cite doc="D.C. Code" path="§22-3006" codify:value="22-3006">22-3006</code-cite> (misdemeanor sexual abuse); or <code-cite doc="D.C. Code" path="§22-3018" codify:value="22-3018">22-3018 </code-cite>(attempts to commit sexual offenses).</text>
         </para>
         <para>
           <num>(5)</num>
@@ -448,6 +485,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="38|9B" num-value="38-952.02"/>
       <num>302</num>
       <heading>Policy to prevent and address student-on-student acts of sexual harassment, sexual assault, and dating violence.</heading>
       <para>
@@ -483,7 +521,7 @@
         </para>
         <para>
           <num>(3)</num>
-          <text>The school's plan to effectuate its obligations, and inform students of their rights, under Title IX of the Education Amendments of 1972, approved June 23, 1972 (86 Stat. 373; 20 U.S.C. §§ 1681 <em>et seq.</em>) ("Title IX"), the Scott Campbell, Stephanie Roper, Wendy Preston, Louarna Gillis, and Nila Lynn Crime Victims' Rights Act of 2004, approved October 30, 2004 (118 Stat. 2260; 18 U.S.C. § 3771), the Human Rights Act of 1977, effective December 13, 1977 (D.C. Law 2-38; D.C. Official Code § 2-1401.01 <em>et seq.</em>), and Chapter 19 of Title 23 of the District of Columbia Official Code, including mechanisms to:</text>
+          <text>The school's plan to effectuate its obligations, and inform students of their rights, under Title IX of the Education Amendments of 1972, approved June 23, 1972 (86 Stat. 373; 20 U.S.C. §§ 1681 <em>et seq.</em>) ("Title IX"), the Scott Campbell, Stephanie Roper, Wendy Preston, Louarna Gillis, and Nila Lynn Crime Victims' Rights Act of 2004, approved October 30, 2004 (118 Stat. 2260; 18 U.S.C. § 3771), <code-cite doc="D.C. Code" path="2|14">the Human Rights Act of 1977, effective December 13, 1977 (D.C. Law 2-38; D.C. Official Code § 2-1401.01 <em>et seq.</em>)</code-cite>, and <code-cite doc="D.C. Code" path="23|19">Chapter 19 of Title 23 of the District of Columbia Official Code</code-cite>, including mechanisms to:</text>
           <para>
             <num>(A)</num>
             <text>Protect the safety of complainants as necessary during the investigation of student-on-student acts of sexual harassment, sexual assault, or dating violence; and</text>
@@ -590,6 +628,7 @@
           <text>Make training and other resources required by this section available.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§38-952.02" applicability-path="§501" action="creation of subsection (b) and (d)" display-template=""/>
     </section>
   </container>
   <container>
@@ -599,6 +638,10 @@
     <section>
       <num>401</num>
       <text>Section 413(17) of the Procurement Practices Reform Act of 2010, effective April 8, 2011 (D.C. Law 18-371; D.C. Official Code § 2-354.13(17)), is amended by striking the phrase "student achievement pursuant to the District of Columbia Public Schools Master Education Plan" and inserting the phrase "student achievement, health, and safety" in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§2-354.13|(17)" count="1">
+        <find>student achievement pursuant to the District of Columbia Public Schools Master Education Plan</find>
+        <replace>student achievement, health, and safety</replace>
+      </codify:find-replace>
     </section>
     <section>
       <num>402</num>
@@ -607,6 +650,10 @@
         <para>
           <num>(1)</num>
           <text>Except as provided in paragraph (3) of this subsection, the staff which maintains the Child Protection Register shall grant access to substantiated reports to the Office of the State Superintendent of Education for the purpose of conducting background checks of employees of licensed child development facilities pursuant to section 658H of the Child Care and Development Block Grant Act of 1990, approved November 19, 2014 (128 Stat. 1971; 42 USC § 9858f), and to the chief executive officers or directors of child development facilities, schools, or any public or private organizations working directly with children, for the purpose of making employment decisions regarding employees and volunteers or prospective employees and volunteers, if:</text>
+          <codify:find-replace doc="D.C. Code" path="§4-1302.03|(a-1)|(1)" count="1">
+            <find>Except as provided in paragraph (3) of this subsection, the staff which maintains the Child Protection Register shall grant access to substantiated reports to the chief executive officers or directors of day care centers, schools, or any public or private organizations working directly with children, for the purpose of making employment decisions regarding employees and volunteers or prospective employees and volunteers, if:</find>
+            <replace>Except as provided in paragraph (3) of this subsection, the staff which maintains the Child Protection Register shall grant access to substantiated reports to the Office of the State Superintendent of Education for the purpose of conducting background checks of employees of licensed child development facilities pursuant to section 658H of the Child Care and Development Block Grant Act of 1990, approved November 19, 2014 (128 Stat. 1971; 42 USC § 9858f), and to the chief executive officers or directors of child development facilities, schools, or any public or private organizations working directly with children, for the purpose of making employment decisions regarding employees and volunteers or prospective employees and volunteers, if:</replace>
+          </codify:find-replace>
         </para>
       </include>
       <aftertext>.</aftertext>
@@ -616,6 +663,7 @@
       <text>Section 402 of the Healthy Schools Act of 2010, effective July 27, 2010 (D.C. Law 18-209; D.C. Official Code § 38-824.02), is amended by adding a new subsection (b-2) to read as follows:</text>
       <include>
         <para>
+          <codify:insert doc="D.C. Code" path="§38-824.02" after="(b-1)"/>
           <num>(b-2)</num>
           <para>
             <num>(1)</num>
@@ -667,6 +715,7 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§38-824.02" applicability-path="§501" action="creation of subsection (b-1)" display-template=""/>
     </section>
   </container>
   <container>
