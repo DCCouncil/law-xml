@@ -41,7 +41,7 @@
       <text>A new section 205a is added to read as follows:</text>
       <include>
         <section>
-          <codify:insert path="34|22|II" after="§34-2202.05" num-value="34-2202.05a"/>
+          <codify:insert path="34|22|II" after="§34-2202.05" num-value="34-2202.05a" history-prefix="as added"/>
           <num>205a</num>
           <heading>Consumer protection, consumer education, rules.</heading>
           <para>
@@ -105,8 +105,9 @@
           </para>
           <para>
             <num>(e)</num>
-            <text>Within 3 months after the applicability date of the DC Water Consumer Protection Amendment Act of 2018, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-662), a working group comprised of representatives from the Authority, the OPC, and the Department of Energy and Environment shall develop a Consumer Bill of Rights that delineates the rights and responsibilities of the Authority and its customers for consideration and enactment by the Authority.</text>
+            <text>Within 3 months after <span codify:value="[Insert applicability date]">the applicability date of the DC Water Consumer Protection Amendment Act of 2018, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-662)</span>, a working group comprised of representatives from the Authority, the OPC, and the Department of Energy and Environment shall develop a Consumer Bill of Rights that delineates the rights and responsibilities of the Authority and its customers for consideration and enactment by the Authority.</text>
           </para>
+          <annotation doc="D.C. Law 11-111" type="History" path="§205a">Apr. 18, 1996, D.C. Law 11-111, § 205a</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -138,31 +139,48 @@
       </para>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§34-804">
     <num>3</num>
     <text>Section 1 of An Act To provide a People's Counsel for the Public Service Commission in the District of Columbia, and for other purposes, approved January 2, 1975 (88 Stat. 1975; D.C. Official Code § 34-804), is amended as follows:</text>
-    <para>
+    <para codify:path="(c)">
       <num>(a)</num>
       <text>Subsection (c) is amended by striking the phrase "section, and" and inserting the phrase "section, section 205a of the Water and Sewer Authority Establishment and Department of Public Works Reorganization Act of 1996, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-662), and" in its place.</text>
+      <codify:find-replace count="1">
+        <find>section, and</find>
+        <replace>section, <code-cite doc="D.C. Code" path="§34-2202.05a">section 205a of the Water and Sewer Authority Establishment and Department of Public Works Reorganization Act of 1996, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-662)</code-cite>, and</replace>
+      </codify:find-replace>
+      <codify:find-replace count="1">
+        <find>, as amended by the Utility Regulatory Assessment Clarification Act of 1984,</find>
+        <replace></replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(d)">
       <num>(b)</num>
       <text>Subsection (d) is amended as follows:</text>
-      <para>
+      <para codify:path="(4)">
         <num>(1)</num>
         <text>Paragraph (4) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(5)">
         <num>(2)</num>
         <text>Paragraph (5) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (6) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(6)</num>
-            <text>May perform the functions authorized by section 205a of the Water and Sewer Authority Establishment and Department of Public Works Reorganization Act of 1996, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-662).</text>
+            <text>May perform the functions authorized by <code-cite doc="D.C. Code" path="§34-2202.05a">section 205a of the Water and Sewer Authority Establishment and Department of Public Works Reorganization Act of 1996, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-662)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
