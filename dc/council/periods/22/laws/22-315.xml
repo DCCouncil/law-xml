@@ -24,20 +24,19 @@
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "District Government Employee Residency Amendment Act of 2018."</text>
   <section>
     <num>2</num>
-    <heading>Title I of the Jobs for D.</heading>
-    <text>C. Residents Amendment Act of 2007, effective February 6, 2008 (D.C. Law 17-108; D.C. Official Code § 1-515.01), is amended to read as follows:</text>
+    <text>Title I of the Jobs for D.C. Residents Amendment Act of 2007, effective February 6, 2008 (D.C. Law 17-108; D.C. Official Code § 1-515.01), is amended to read as follows:</text>
     <include>
       <container>
         <prefix>TITLE</prefix>
         <num>I</num>
         <heading>DISTRICT RESIDENCY PREFERENCES AND REQUIREMENT.</heading>
-        <codify:find-replace doc="D.C. Code" path="1|5|I-A|heading" count="1" history="false">
-          <find>Residency Preferences and Requirements for Government Employees</find>
-          <replace>Residency Requirements for Government Employees and Residency Preferences for Applicants</replace>
-        </codify:find-replace>
+        <codify:replace doc="D.C. Code" path="1|5|I-A|heading" history="false">
+          <heading>Residency Requirements for Government Employees and Residency Preferences for Applicants</heading>
+        </codify:replace>
+        <codify:recodify-section doc="D.C. Code" path="§1-515.01" num-value="1-515.02"/>
         <section>
-          <codify:insert doc="D.C. Code" path="1|5|I-A" before="§1-515.02" num-value="1-515.01" history-prefix="as added"/>
-          <num>101</num>
+          <codify:replace doc="D.C. Code" path="§1-515.01" history-prefix="as added"/>
+          <num codify:value="1-515.01">101</num>
           <heading>Definitions.</heading>
           <text>For the purposes of <code-cite doc="D.C. Code" path="1|5|I-A">this title</code-cite>:</text>
           <para>
@@ -443,11 +442,11 @@
             <num undesignated="true">(a)</num>
             <para>
               <num>(1)</num>
-              <text>The Mayor shall, pursuant to <code-cite doc="D.C. Code" path="2|5|I">title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, issue final rules to implement <span codify:value="["></span><code-cite doc="D.C. Code" path="1|5|I-A">this act</code-cite><span codify:value="]"></span>.</text>
+              <text>The Mayor shall, pursuant to <code-cite doc="D.C. Code" path="2|5|I">title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, issue final rules to implement <span codify:value="["/><code-cite doc="D.C. Code" path="1|5|I-A">this act</code-cite><span codify:value="]"/>.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>Each independent agency shall, pursuant to <code-cite doc="D.C. Code" path="2|5|I">title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, issue final rules to implement the provisions of <span codify:value="["></span><code-cite doc="D.C. Code" path="1|5|I-A">this act</code-cite><span codify:value="]"></span>; and</text>
+              <text>Each independent agency shall, pursuant to <code-cite doc="D.C. Code" path="2|5|I">title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, issue final rules to implement the provisions of <span codify:value="["/><code-cite doc="D.C. Code" path="1|5|I-A">this act</code-cite><span codify:value="]"/>; and</text>
             </para>
             <para>
               <num>(3)</num>
@@ -773,7 +772,9 @@
           <find>
             <cite path="§1-608.01|(e)">§ 1-608.01(e)</cite>
           </find>
-          <replace><code-cite doc="D.C. Code" path="§1-515.02">section 102 of the Jobs for D.C. Residents Amendment Act of 2007, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-212),</code-cite></replace>
+          <replace>
+            <code-cite doc="D.C. Code" path="§1-515.02">section 102 of the Jobs for D.C. Residents Amendment Act of 2007, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-212),</code-cite>
+          </replace>
         </codify:find-replace>
       </para>
       <para codify:path="(b)">
@@ -1074,7 +1075,7 @@
         <para>
           <codify:insert after="(d)"/>
           <num>(d-1)</num>
-          <text>An Administrative Law Judge shall become a District resident within 180 days after appointment or reappointment pursuant to <span codify:value="§§ "></span><code-cite doc="D.C. Code" path="§1-515.03|(a)|(3)" codify:value="1-515.03(a)(3)" >section 103(a)(3) of the Jobs for D.C. Residents Amendment Act of 2007, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-212),</code-cite> and <code-cite doc="D.C. Code" path="§1-608.59" codify:value="1-608.59">section 859 of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-608.59)</code-cite>.</text>
+          <text>An Administrative Law Judge shall become a District resident within 180 days after appointment or reappointment pursuant to <span codify:value="§§ "/><code-cite doc="D.C. Code" path="§1-515.03|(a)|(3)" codify:value="1-515.03(a)(3)">section 103(a)(3) of the Jobs for D.C. Residents Amendment Act of 2007, passed on 2nd reading on December 18, 2018 (Enrolled version of Bill 22-212),</code-cite> and <code-cite doc="D.C. Code" path="§1-608.59" codify:value="1-608.59">section 859 of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-608.59)</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
@@ -1289,7 +1290,7 @@
               <text>At the time of appointment, an individual who claimed the 10-point residency preference shall agree, in writing, to maintain District residency for a period of 7 consecutive years from the effective date of appointment into the position for which the individual claimed the residency preference.</text>
             </para>
             <para>
-              <num  codify:value="(D)">(iv)</num>
+              <num codify:value="(D)">(iv)</num>
               <text>An individual who claimed the residency preference and who fails to maintain District residency for 7 consecutive years from the individual's effective date of appointment shall forfeit the individual's District government employment.</text>
             </para>
             <para>
