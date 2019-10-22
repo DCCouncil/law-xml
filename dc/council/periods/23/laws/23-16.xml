@@ -485,7 +485,7 @@
           <para codify:path="(a)">
             <num>(2)</num>
             <text>Subsection (a) is amended by striking the phrase "turn over any equipment purchased by the campaign to the Office of Campaign Finance." both times it appears and inserting the phrase "donate any equipment purchased by the campaign to a non-profit organization, within the meaning of section 501(c)(3) of the Internal Revenue Code and operating in good standing in the District for a minimum of one calendar year before the date of any donation, that is unaffiliated with the candidate, the candidate's immediate family, the principal campaign committee, the principal campaign committee chair and treasurer, the immediate family of the principal campaign committee chair and treasurer, and any board of directors or similar governing body on which sits the candidate, the candidate's immediately family, or the principal campaign committee chair or treasurer." in its place.</text>
-           <codify:find-replace count="2">
+            <codify:find-replace count="2">
               <find>turn over any equipment purchased by the campaign to the Office of Campaign Finance.</find>
               <replace>donate any equipment purchased by the campaign to a non-profit organization, within the meaning of section 501(c)(3) of the Internal Revenue Code and operating in good standing in the District for a minimum of one calendar year before the date of any donation, that is unaffiliated with the candidate, the candidate's immediate family, the principal campaign committee, the principal campaign committee chair and treasurer, the immediate family of the principal campaign committee chair and treasurer, and any board of directors or similar governing body on which sits the candidate, the candidate's immediately family, or the principal campaign committee chair or treasurer.</replace>
             </codify:find-replace>
@@ -928,7 +928,7 @@
           <text>Subparagraph (F) is amended by striking the period at the end and inserting the phrase "; and" in its place.</text>
           <codify:find-replace position="last">
             <find>.</find>
-            <replace>; and</replace>
+            <replace>[;]</replace>
           </codify:find-replace>
         </para>
         <para>
@@ -938,12 +938,12 @@
             <para>
               <codify:insert/>
               <num>(G)</num>
-              <text>Administering the Film, Television, and Entertainment Rebate Fund established by section 2 of the Film DC Economic Incentive Act of 2006, effective March 14, 2007 (D.C. Law 16-290; D.C. Official Code § 2-1204.11); and</text>
+              <text>Administering the Film, Television, and Entertainment Rebate Fund established by <code-cite doc="D.C. Code" path="§2-1204.11">section 2 of the Film DC Economic Incentive Act of 2006, effective March 14, 2007 (D.C. Law 16-290; D.C. Official Code § 2-1204.11)</code-cite>; and</text>
             </para>
             <para>
               <codify:insert/>
               <num>(H)</num>
-              <text>Issuing, upon delegation of authority from the Mayor, motion picture and television production permits authorized by section 2d of the Film DC Economic Incentive Act of 2006, effective March 3, 2010 (D.C. Law 18-111; D.C. Official Code § 2-1204.11d)<em>.</em></text>
+              <text>Issuing, upon delegation of authority from the Mayor, motion picture and television production permits authorized by <code-cite doc="D.C. Code" path="§2-1204.11d">section 2d of the Film DC Economic Incentive Act of 2006, effective March 3, 2010 (D.C. Law 18-111; D.C. Official Code § 2-1204.11d)</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -952,54 +952,80 @@
       <section>
         <num>2033</num>
         <text>The Film DC Economic Incentive Act of 2006, effective March 3, 2010 (D.C. Law 18-111; D.C. Official Code § 2-1204.11 <em>et. seq.</em>) is amended as follows:</text>
-        <para>
+        <para codify:path="§2-1204.11">
           <num>(a)</num>
           <text>Section 2 (D.C. Official Code § 2-1204.11) is amended as follows:</text>
-          <para>
+          <para codify:path="(b)">
             <num>(1)</num>
             <text>Subsection (b) is amended as follows:</text>
-            <para>
+            <para codify:path="text">
               <num>(A)</num>
               <text>The lead in language is amended by striking the phrase "sections 2a, 2b, 2c, 2d, 2e, and 3" and inserting the phrase "sections 2a, 2c, and 3" in its place.</text>
+              <codify:find-replace count="1">
+                <find><cite path="§2-1204.11a">2-1204.11a</cite>, <cite path="§2-1204.11b">2-1204.11b</cite>, <cite path="§2-1204.11c">2-1204.11c</cite>, <cite path="§2-1204.11d">2-1204.11d</cite>, <cite path="§2-1204.11e">2-1204.11e</cite>, and <cite path="§2-1204.12">2-1204.12</cite></find>
+                <replace><cite doc="D.C. Code" path="§2-1204.11a">2-1204.11a</cite>, <cite doc="D.C. Code" path="§2-1204.11c">2-1204.11c</cite>, and <cite doc="D.C. Code" path="§2-1204.12">2-1204.12</cite></replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(3A)">
               <num>(B)</num>
               <text>Paragraph (3A) is amended by striking the semicolon at the end and inserting the phrase "; and" in its place.</text>
+              <codify:find-replace count="1">
+                <find>;</find>
+                <replace>; and</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(4)">
               <num>(C)</num>
               <text>Paragraph (4) is amended by striking the phrase "; and" and inserting a period in its place.</text>
+              <codify:find-replace count="1">
+                <find>; and</find>
+                <replace>.</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(5)">
               <num>(D)</num>
               <text>Paragraph (5) is repealed.</text>
+              <codify:repeal/>
             </para>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(2)</num>
             <text>Subsection (c) is amended by striking the phrase "section 2b" and inserting the phrase "sections 2b, 2c, and 3" in its place.</text>
+            <codify:find-replace count="1">
+              <find>
+                <cite path="§2-1204.11b">§ 2-1204.11b</cite>
+              </find>
+              <replace><cite doc="D.C. Code" path="§2-1204.11a">2-1204.11a</cite>, <cite doc="D.C. Code" path="§2-1204.11c">2-1204.11c</cite>, and <cite doc="D.C. Code" path="§2-1204.12">2-1204.12</cite></replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§2-1204.11a">
           <num>(b)</num>
           <text>Section 2a (D.C. Official Code § 2-1204.11a) is amended as follows:</text>
-          <para>
+          <para codify:path="(b)|(4)">
             <num>(1)</num>
             <text>Subsection (b)(4) is amended by striking the phrase "and total investment in qualified film and digital media infrastructure projects in the District associated with an identified qualified production" and inserting the phrase "direct District expenditures" in its place.</text>
+            <codify:find-replace count="1">
+              <find>and total investment in qualified film and digital media infrastructure projects in the District associated with an identified qualified production</find>
+              <replace>direct District expenditures</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(d)|(3)">
             <num>(2)</num>
             <text>Subsection (d)(3)(B), (C), and (D) is amended to read as follows:</text>
             <include lvl="2">
-              <para>
+              <para codify:path="(B)">
+                <codify:replace/>
                 <num>(B)</num>
                 <text>Estimated qualified personnel expenditures;</text>
               </para>
-              <para>
+              <para codify:path="(C)">
+                <codify:replace/>
                 <num>(C)</num>
                 <text>Estimated qualified job training expenditures; and</text>
               </para>
-              <para>
+              <para codify:path="(D)">
+                <codify:replace/>
                 <num>(D)</num>
                 <text>Estimated direct District expenditures.</text>
               </para>
@@ -1007,20 +1033,29 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§2-1204.11c">
           <num>(c)</num>
           <text>Section 2c (D.C. Official Code § 2-1204.11c) is amended by adding a new paragraph (2A) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(2)"/>
               <num>(2A)</num>
               <text>"Direct District expenditure" means a qualified production expenditure, or a qualified personnel expenditure made to a District resident who is an above-the-line or below-the-line crew member.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§2-1204.11d|(e)">
           <num>(d)</num>
           <text>Section 2d(e) (D.C. Official Code § 2-1204.11d(e)) is amended by striking the phrase "section 2e" and inserting the phrase "section 203 of the Office of Cable Television, Film, Music, and Entertainment Amendment Act of 1981, effective October 9, 2002 (D.C. Law 14-193; D.C. Official Code § 34-1252.03)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>
+              <cite path="§2-1204.11e">§ 2-1204.11e</cite>
+            </find>
+            <replace>
+              <cite doc="D.C. Code" path="§34-1252.03">§ 34-1252.03</cite>
+            </replace>
+          </codify:find-replace>
         </para>
       </section>
     </container>
@@ -1038,8 +1073,9 @@
         <text>Section 2066(c)(1) of the Office of the Chief Tenant Advocate Establishment Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 42-3531.06(c)(1)), is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace path="§42-3531.06|(c)|(1)"/>
             <num>(1)</num>
-            <text>The Chief shall be a statutory officeholder in the Excepted Service pursuant to section 908 of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-609.08), and shall receive annual compensation under the Excepted Service salary schedule in an amount determined by the Mayor.  No employee of the Office, other than the Chief, shall receive annual compensation above the level of that received by a District employee at a grade 14 under the District service salary schedule.</text>
+            <text>The Chief shall be a statutory officeholder in the Excepted Service pursuant to <code-cite doc="D.C. Code" path="§1-609.08">section 908 of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-609.08),</code-cite> and shall receive annual compensation under the Excepted Service salary schedule in an amount determined by the Mayor.  No employee of the Office, other than the Chief, shall receive annual compensation above the level of that received by a District employee at a grade 14 under the District service salary schedule.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -1054,30 +1090,43 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Streetscape Business Development Relief Fund Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§1-325.191">
         <num>2052</num>
         <text>Section 603 of the Streetscape Fund Amendment Act of 2010, effective April 8, 2011 (D.C. Law 18-370; D.C. Official Code §1-325.191), is amended as follows:</text>
-        <para>
+        <para codify:path="heading">
           <num>(a)</num>
           <text>The heading is amended to read as follows: "Sec. 603. Streetscape Business Development Relief Fund.".</text>
+          <codify:find-replace count="1">
+            <find>Streetscape Loan Relief Fund</find>
+            <replace>Streetscape Business Development Relief Fund</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(a)">
           <num>(b)</num>
           <text>Subsection (a) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Strike the phrase "Streetscape Loan Relief Fund ("Fund")" and insert the phrase "Streetscape Business Development Relief Fund ("Fund")" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Streetscape Loan Relief Fund ("Fund")</find>
+              <replace>Streetscape Business Development Relief Fund ("Fund")</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the phrase "loans in" and insert the phrase "loans or issue grants in" in its place.</text>
+            <codify:find-replace count="1">
+              <find>loans in</find>
+              <replace>loans or issue grants in</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(c)</num>
           <text>Subsection (c) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(c)</num>
               <text>If the District undertakes a streetscape construction, capital infrastructure, or rehabilitation project, the Mayor, in the Mayor's sole discretion, may make interest-free loans or issue grants from the Fund to any individual or entity that operates a retail business inside or adjoining the streetscape construction, capital infrastructure, or rehabilitation project. To obtain a loan or grant, a retail business shall submit an application in the form and with the information that the Mayor shall require. The Mayor shall determine the terms and conditions of each loan or grant based upon the application submitted by the retail business; provided, that the term of a loan or grant issued pursuant to this section shall not exceed 5 years after the termination of the streetscape construction, capital infrastructure, or rehabilitation project.</text>
             </para>
@@ -1095,39 +1144,65 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Commission on Fashion, Arts and Events Approval Process Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§3-652|(a)">
         <num>2062</num>
         <text>Section 3(a) of the Commission on Fashion Arts and Events Establishment Act of 2008, effective April 15, 2008 (D.C. Law 17-148; D.C. Official Code § 3-652(a)), is amended by striking the phrase "in accordance with section 2(e)" and inserting the phrase "in accordance with 2(f)" in its place.</text>
+        <codify:find-replace count="1">
+          <find>
+            <cite path="§1-523.01|(e)">§ 1-523.01(e)</cite>
+          </find>
+          <replace>
+            <code-cite doc="D.C. Code" path="§1-523.01|(f)">2(f)</code-cite>
+          </replace>
+        </codify:find-replace>
       </section>
-      <section>
+      <section codify:path="§1-523.01">
         <num>2063</num>
         <text>Section 2 of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01), is amended as follows:</text>
-        <para>
+        <para codify:path="(e)|(30)">
           <num>(a)</num>
           <text>Subsection (e)(30) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="(f)">
           <num>(b)</num>
           <text>Subsection (f) is amended as follows:</text>
-          <para>
+          <para codify:path="(64)">
             <num>(1)</num>
             <text>Paragraph (64) is amended by striking the word "and".</text>
+            <!-- <codify:find-replace count="1">
+              <find>and</find>
+              <replace></replace>
+            </codify:find-replace> not found-->
           </para>
-          <para>
+          <para codify:path="(65)">
             <num>(2)</num>
             <text>Paragraph (65) is amended by striking the period and inserting a semicolon in its place.</text>
+            <!-- <codify:find-replace position="last">
+              <find>.</find>
+              <replace>;</replace>
+            </codify:find-replace> no found-->
           </para>
           <para>
             <num>(3)</num>
             <text>Paragraph (66) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace path="(66)" count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
+            <codify:find-replace path="(67)" position="last">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>A new paragraph (67) is added to read as follows:</text>
             <include lvl="1">
               <para>
-                <num>(67)</num>
-                <text>Commission on Fashion Arts and Events, established by section 2 of the Commission on Fashion Arts and Events Establishment Act of 2008, effective April 15, 2008 (D.C. Law 17-148; D.C. Official Code § 3-651).</text>
+                <codify:insert/>
+                <num>[(68)]</num>
+                <text>Commission on Fashion Arts and Events, established by <code-cite doc="D.C. Code" path="§3-651">section 2 of the Commission on Fashion Arts and Events Establishment Act of 2008, effective April 15, 2008 (D.C. Law 17-148; D.C. Official Code § 3-651)</code-cite>.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
@@ -1147,6 +1222,10 @@
       <section>
         <num>2072</num>
         <text>Section 4(m) of the Retail Incentive Act of 2004, effective September 8, 2004 (D.C. Law 15-185; D.C. Official Code § 2-1217.73(m)), is amended by striking the phrase "Park Road, N.W.; thence southeast on Park Road, N.W., to 14th Street, N.W.; thence north on 14th Street, N.W., to Spring Road, N.W.; thence southeast on Spring Road, N.W., to 13th Street, N.W.; thence south on 13th Street, N.W., to Monroe Street, N.W.; thence South on 11th Street, N.W., to Kenyon Street, N.W.; thence west on Kenyon Street, N.W. to 13th. Street, N.W.; thence south on 13th Street, N.W. to V Street, N.W.; thence east on V Street, N.W., to 11th Street, N.W.; thence south on 11th Street, N.W., to the point of beginning" and inserting the phrase  "Lamont Street, N.W.; thence west on Lamont Street N.W., to 17th Street N.W.; then north on 17th Street N.W., to Piney Branch Road N.W.; thence northeast on Piney Branch Road N.W., to 16th Street N.W.; thence south on 16th Street N.W., to Spring Road N.W.; thence east on Spring Road N.W., to 10th Street N.W.; then south on 10th Street N.W., to Monroe Street N.W.; thence southeast on Monroe Street N.W., to Sherman Avenue N.W.; thence south on Sherman Avenue N.W., to Barry Place N.W.; thence west on Barry Place N.W. to 11th Street N.W.; thence south on 11th Street N.W., to the point of beginning" in its place.</text>
+        <codify:find-replace path="§2-1217.73|(m)" count="1">
+          <find>Park Road, N.W.; thence southeast on Park Road, N.W., to 14th Street, N.W.; thence north on 14th Street, N.W., to Spring Road, N.W.; thence southeast on Spring Road, N.W., to 13th Street, N.W.; thence south on 13th Street, N.W., to Monroe Street, N.W.; thence South on 11th Street, N.W., to Kenyon Street, N.W.; thence west on Kenyon Street, N.W. to 13th. Street, N.W.; thence south on 13th Street, N.W. to V Street, N.W.; thence east on V Street, N.W., to 11th Street, N.W.; thence south on 11th Street, N.W., to the point of beginning</find>
+          <replace>Lamont Street, N.W.; thence west on Lamont Street N.W., to 17th Street N.W.; then north on 17th Street N.W., to Piney Branch Road N.W.; thence northeast on Piney Branch Road N.W., to 16th Street N.W.; thence south on 16th Street N.W., to Spring Road N.W.; thence east on Spring Road N.W., to 10th Street N.W.; then south on 10th Street N.W., to Monroe Street N.W.; thence southeast on Monroe Street N.W., to Sherman Avenue N.W.; thence south on Sherman Avenue N.W., to Barry Place N.W.; thence west on Barry Place N.W. to 11th Street N.W.; thence south on 11th Street N.W., to the point of beginning</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -1158,7 +1237,7 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Department of Employment Services Grants Transparency Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§1-328.05">
         <num>2082</num>
         <text>Section 2 of the Workforce Job Development Grant-Making Authority Act of 2012, effective April 23, 2013 (D.C. Law 19-269; D.C. Official Code § 1-328.05), is amended as follows:</text>
         <para>
@@ -1166,10 +1245,11 @@
           <text>A new subsection (b-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(b)"/>
               <num>(b-1)</num>
               <para>
                 <num>(1)</num>
-                <text>In addition to the notice required pursuant to section 1094(c) of the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.13(c)), before making or issuing a grant pursuant to this section, DOES shall:</text>
+                <text>In addition to the notice required pursuant to <code-cite doc="D.C. Code" path="§1-328.13|(c)">section 1094(c) of the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.13(c))</code-cite>, before making or issuing a grant pursuant to this section, DOES shall:</text>
                 <para>
                   <num>(A)</num>
                   <para>
@@ -1191,7 +1271,7 @@
                 </para>
                 <para>
                   <num>(D)</num>
-                  <text>Notwithstanding section 1095(1) of the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.14(1)), and before issuing an award selection notice, notify each applicant whose application was not selected for award, in writing, and include copies of the reviewers' evaluations and comments.</text>
+                  <text>Notwithstanding <code-cite doc="D.C. Code" path="§1-328.14|(1)">section 1095(1) of the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.14(1))</code-cite>, and before issuing an award selection notice, notify each applicant whose application was not selected for award, in writing, and include copies of the reviewers' evaluations and comments.</text>
                 </para>
               </para>
               <para>
@@ -1218,6 +1298,7 @@
           <text>A new subsection (e) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(e)</num>
               <text>The DOES shall:</text>
               <para>
@@ -1234,6 +1315,13 @@
         </para>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="32" after="1C" history="false">
+      <container>
+        <prefix>Chapter</prefix>
+        <num>1D</num>
+        <heading>Wage and Hour Education Grants Program.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>J</num>
@@ -1243,9 +1331,10 @@
         <heading>This subtitle may be cited as the "Wage and Hour Education Grants Program Act of 2019".</heading>
       </section>
       <section>
+        <codify:insert path="32|1D" num-value="32-171.01"/>
         <num>2092</num>
         <heading>Definitions.</heading>
-        <text>For the purposes of this subtitle:</text>
+        <text>For the purposes of <code-cite doc="D.C. Code" path="32|1D">this subtitle</code-cite>:</text>
         <para>
           <num undesignated="true">(a)</num>
           <para>
@@ -1262,11 +1351,12 @@
           </para>
           <para>
             <num>(4)</num>
-            <text>"Program" means the Wage and Hour Education Grants Program established pursuant to this subtitle.</text>
+            <text>"Program" means the Wage and Hour Education Grants Program established pursuant to <code-cite doc="D.C. Code" path="32|1D">this subtitle</code-cite>.</text>
           </para>
         </para>
       </section>
       <section>
+        <codify:insert path="32|1D" num-value="32-171.02"/>
         <num>2093</num>
         <heading>Wage and Hour Education Grants Program establishment.</heading>
         <para>
@@ -1275,7 +1365,7 @@
         </para>
         <para>
           <num>(b)</num>
-          <text>The Program shall be administered by DOES pursuant to the requirements set forth in the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.).</text>
+          <text>The Program shall be administered by DOES pursuant to the requirements set forth in <code-cite doc="D.C. Code" path="1|3|XII-A|B">the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.)</code-cite>.</text>
         </para>
         <para>
           <num>(c)</num>
@@ -1287,6 +1377,7 @@
         </para>
       </section>
       <section>
+        <codify:insert path="32|1D" num-value="32-171.03"/>
         <num>2094</num>
         <heading>Program eligibility and review.</heading>
         <para>
@@ -1298,7 +1389,7 @@
           </para>
           <para>
             <num>(2)</num>
-            <text>Demonstrate that the workshops prescribed by section 2095 will be supervised or implemented by one or more persons who each have at least 2 years' experience advocating for or representing workers' rights under District workplace laws for which administrative enforcement is conducted by DOES or under the Fair Labor Standards Act of 1938, approved June 25, 1938 (52 Stat. 1060; 29 U.S.C. § 201 <em>et seq.</em>); and</text>
+            <text>Demonstrate that the workshops prescribed by <code-cite doc="D.C. Code" path="§32-171.04">section 2095</code-cite> will be supervised or implemented by one or more persons who each have at least 2 years' experience advocating for or representing workers' rights under District workplace laws for which administrative enforcement is conducted by DOES or under the Fair Labor Standards Act of 1938, approved June 25, 1938 (52 Stat. 1060; 29 U.S.C. § 201 <em>et seq.</em>); and</text>
           </para>
           <para>
             <num>(3)</num>
@@ -1307,6 +1398,7 @@
         </para>
       </section>
       <section>
+        <codify:insert path="32|1D" num-value="32-171.04"/>
         <num>2095</num>
         <heading>Grant requirements.</heading>
         <para>
@@ -1314,23 +1406,23 @@
           <text>Each grantee must hold at least 10 workshops aimed at informing District-based employees who are or expect to become part of the private-sector workforce about their rights under 2 or more of the following laws:</text>
           <para>
             <num>(1)</num>
-            <text>The Accrued Sick and Safe Leave Act of 2008, effective May 13, 2008 (D.C. Law 17-152; D.C. Official Code § 32-531.01 <em>et seq.</em>);</text>
+            <text>The Accrued Sick and Safe Leave Act of 2008<span codify:value=" ["/><code-cite doc="D.C. Code" path="32|5|III">, effective May 13, 2008 (D.C. Law 17-152; D.C. Official Code § 32-531.01 <em>et seq.</em>)</code-cite><span codify:value="]"/>;</text>
           </para>
           <para>
             <num>(2)</num>
-            <text>The Minimum Wage Act Revision Act of 1992, effective March 25, 1993 (D.C. Law 9-248; D.C. Official Code § 32-1001 <em>et seq.</em>);</text>
+            <text>The Minimum Wage Act Revision Act of 1992<span codify:value=" ["/><code-cite doc="D.C. Code" path="32|10">, effective March 25, 1993 (D.C. Law 9-248; D.C. Official Code § 32-1001 <em>et seq.</em>)</code-cite><span codify:value="]"/>;</text>
           </para>
           <para>
             <num>(3)</num>
-            <text>An Act To provide for the payment and collection of wages in the District of Columbia, approved August 3, 1956 (70 Stat. 976; D.C. Official Code § 32-1301 <em>et seq.</em>);</text>
+            <text>An Act To provide for the payment and collection of wages in the District of Columbia<span codify:value=" ["/><code-cite doc="D.C. Code" path="32|13">, approved August 3, 1956 (70 Stat. 976; D.C. Official Code § 32-1301 <em>et seq.</em>)</code-cite><span codify:value="]"/>;</text>
           </para>
           <para>
             <num>(4)</num>
-            <text>The Wage Theft Prevention Amendment Act of 2014, effective October 1, 2014 (D.C. Law 20-157; 61 DCR 10157); and</text>
+            <text>The Wage Theft Prevention Amendment Act of 2014, effective October 1, 2014 (<cite doc="D.C. Law 20-157">D.C. Law 20-157</cite>; 61 DCR 10157); and</text>
           </para>
           <para>
             <num>(5)</num>
-            <text>Title II of An Act To provide for the payment and collection of wages in the District of Columbia, effective April 27, 2013 (D.C. Law 19-300; D.C. Official Code § 32-1331.01 <em>et seq</em>.), and section 907(c)(6A) of the Procurement Practices Reform Act of 2010, effective April 8, 2011 (D.C. Law 18-371; D.C. Official Code § 2-359.07(c)(6A)).</text>
+            <text><code-cite doc="D.C. Code" path="32|13|II">Title II of An Act To provide for the payment and collection of wages in the District of Columbia, effective April 27, 2013 (D.C. Law 19-300; D.C. Official Code § 32-1331.01 <em>et seq</em>.),</code-cite> and <code-cite doc="D.C. Code" path="§2-359.07|(c)|(6A)">section 907(c)(6A) of the Procurement Practices Reform Act of 2010, effective April 8, 2011 (D.C. Law 18-371; D.C. Official Code § 2-359.07(c)(6A))</code-cite>.</text>
           </para>
         </para>
         <para>
@@ -1386,6 +1478,7 @@
         </para>
       </section>
       <section>
+        <codify:insert path="32|1D" num-value="32-171.05"/>
         <num>2096</num>
         <heading>Final reporting requirements.</heading>
         <para>
@@ -1405,7 +1498,7 @@
           </para>
           <para>
             <num>(4)</num>
-            <text>The data the community-based organization compiled at each workshop in accordance with section 2095(d); and</text>
+            <text>The data the community-based organization compiled at each workshop in accordance with <code-cite doc="D.C. Code" path="§32-171.04|(d)">section 2095(d)</code-cite>; and</text>
           </para>
           <para>
             <num>(5)</num>
@@ -1435,24 +1528,29 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Tipped Workers Fairness Clarification Amendment Act of 2019".</text>
       </section>
-      <section>
+      <!-- S2A <section>
         <num>2102</num>
         <text>The Tipped Wage Workers Fairness Amendment Act of 2018, effective December 13, 2018 (D.C. Law 22-196; D.C. Official Code § 32-161 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§32-161">
           <num>(a)</num>
           <text>Section 3 (D.C. Official Code § 32-161) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended by striking the phrase "The Mayor shall" and inserting the phrase "By April 1, 2020, the Mayor shall" in its place.</text>
+              <codify:find-replace count="1">
+                <find>The Mayor shall</find>
+                <replace>By April 1, 2020, the Mayor shall</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(3)|(A)">
               <num>(B)</num>
               <text>Paragraph (3)(A) is amended to read as follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:replace/>
                   <num>(A)</num>
                   <text>Capable of being accessed and viewed via computers including mobile devices such as smartphones;</text>
                 </para>
@@ -1460,22 +1558,31 @@
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(b)|(1)">
             <num>(2)</num>
             <text>Subsection (b)(1) is amended as follows:</text>
-            <para>
+            <para codify:path="text">
               <num>(A)</num>
               <text>The lead-in language is amended by striking the phrase "The Mayor shall" and inserting the phrase "By April 1, 2020, the Mayor shall" in its place.</text>
+              <codify:find-replace>
+                <find>The Mayor shall</find>
+                <replace>By April 1, 2020, the Mayor shall</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(A)">
               <num>(B)</num>
               <text>Subparagraph (A) is amended by striking the phrase "section;" and inserting the phrase "section and a telephone number or numbers for the offices within the Department of Employment Services and the Office of the Attorney General where an employee may file a complaint or obtain additional information about the employee's rights under the laws referenced in subsection (a)(1) of this section;".</text>
+              <codify:find-replace count="1">
+                <find>section;</find>
+                <replace>section and a telephone number or numbers for the offices within the Department of Employment Services and the Office of the Attorney General where an employee may file a complaint or obtain additional information about the employee's rights under the laws referenced in subsection (a)(1) of this section</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(B)">
               <num>(C)</num>
               <text>Subparagraph (B) is amended to read as follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:replace/>
                   <num>(B)</num>
                   <text>The following text formatted for maximum readability:</text>
                   <text>EMPLOYEE RIGHTS IN THE DISTRICT OF COLUMBIA: You have the right to be paid the Minimum Wage or the applicable Living Wage; the right to proper and timely payment of wages; the right to remain free from unlawful discrimination; and the right to Workers' Compensation due to accidental injury on the job. You may have the right to paid Sick and Safe Leave once you have worked for an employer for 90 days. If you are an employee affected by pregnancy, childbirth, or a related medical condition you may be entitled to a reasonable accommodation at work and certain other protections. If you are a parent or guardian of a child, you have the right, in any 12-month period, to up to 24 hours of unpaid Parental Leave to attend school-related events for your child. Certain employees are entitled to unpaid time off for birth or placement of a child, caring for a family member, or for the employee's own serious health condition. Beginning July 1, 2020, employees who meet certain requirements will be eligible to receive paid leave for absences due to the birth or placement of a child, need to care for a family member with a serious health condition, or need to receive medical care for a serious health condition. This notice does not create, expand, or limit rights under District or federal law. Visit the website for more information on these rights and how to exercise them.;</text>
@@ -1534,11 +1641,11 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-      </section>
-      <section>
+      </section> S2A -->
+      <!-- S2A <section codify:path="§32-1009.01|(b)|(1)">
         <num>2103</num>
         <text>Section 10a(b)(1) of the Minimum Wage Act Revision Act of 1992, effective March 25, 1993 (D.C. Law 9-248; D.C. Official Code § 32-1009.01(b)(1)), is amended as follows:</text>
-        <para>
+        <para codify:path="(A)">
           <num>(a)</num>
           <text>Subparagraph (A) is amended by striking the phrase "and to enable an employee to report a violation of this act".</text>
         </para>
@@ -1546,7 +1653,7 @@
           <num>(b)</num>
           <text>Subparagraph (C) is repealed.</text>
         </para>
-      </section>
+      </section> S2A -->
     </container>
     <container>
       <prefix>SUBTITLE</prefix>
@@ -1562,8 +1669,9 @@
         <text>Section 10 of An Act Providing for the zoning of the District of Columbia and the regulation of the location, height, bulk, and uses of buildings and other structures and of the uses of land in the District of Columbia, and for other purposes, approved June 20, 1938 (52 Stat. 800; D.C. Official Code § 6-641.09), is amended by adding a new subsection (c) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§6-641.09"/>
             <num>(c)</num>
-            <text>A building permit shall not be issued to or on behalf of the District government for a construction project located at the Robert F. Kennedy Memorial Stadium (as defined in section 11 of the District of Columbia Stadium Act of 1957, approved September 7, 1957 (72 Stat. 423, D.C. Official Code § 3-330)) or at Franklin Square (Square 249) until the Office of Planning provides to the Zoning Commission for the District of Columbia an analysis of short-term transient rental uses in residential zones and a recommended text amendment to the zoning regulations to allow or disallow such uses.  The Department of Consumer and Regulatory Affairs shall issue a cease and desist order to enjoin any construction project for which a permit has been issued in noncompliance with this section.</text>
+            <text>A building permit shall not be issued to or on behalf of the District government for a construction project located at the Robert F. Kennedy Memorial Stadium (as defined in <code-cite doc="D.C. Code" path="§3-330">section 11 of the District of Columbia Stadium Act of 1957, approved September 7, 1957 (72 Stat. 423, D.C. Official Code § 3-330)</code-cite>) or at Franklin Square (Square 249) until the Office of Planning provides to the Zoning Commission for the District of Columbia an analysis of short-term transient rental uses in residential zones and a recommended text amendment to the zoning regulations to allow or disallow such uses.  The Department of Consumer and Regulatory Affairs shall issue a cease and desist order to enjoin any construction project for which a permit has been issued in noncompliance with this section.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -1581,6 +1689,10 @@
       <section>
         <num>2122</num>
         <text>Section 102(a) of the Public-Private Partnership Act of 2014, effective March 11, 2015 (D.C. Law 20-228; D.C. Official Code § 2-272.01(a)), is amended by striking the phrase "Office of the City Administrator" and inserting the phrase "Office of the Deputy Mayor for Planning and Economic Development" in its place.</text>
+        <codify:find-replace path="§2-272.01|(a)" count="1">
+          <find>Office of the City Administrator</find>
+          <replace>Office of the Deputy Mayor for Planning and Economic Development</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -1598,51 +1710,80 @@
         <para>
           <num>(a)</num>
           <text>Section 203c (D.C. Official Code § 42-3502.03e) is redesignated as section 203e.</text>
+          <codify:find-replace path="§42-3502.03e" count="1" history-prefix="redesignated as § 203e,">
+            <find>There is</find>
+            <replace>There is</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>The second section 203a (D.C. Official Code § 42-3502.03c) is redesignated as section 203c.</text>
+          <codify:find-replace path="§42-3502.03c" count="1" history-prefix="redesignated as § 203c,">
+            <find>The database shall</find>
+            <replace>The database shall</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§42-3502.03c">
           <num>(c)</num>
           <text>The newly redesignated section 203c is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the phrase "and administer".</text>
+            <codify:find-replace count="1">
+              <find>and administer</find>
+              <replace/>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(e)">
             <num>(2)</num>
             <text>Subsection (e) is amended by striking the phrase "December 13, 2019" and inserting the phrase "September 30, 2020" in its place.</text>
+            <codify:find-replace count="1">
+              <find>December 13, 2019</find>
+              <replace>September 30, 2020</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(e-1)">
             <num>(3)</num>
             <text>Subsection (e-1)(1) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(e-1)</num>
                 <para>
                   <num>(1)</num>
-                  <text>OTA shall develop an online portal and database for the filing of registration statements and claims of exemption under section 205(f), which OTA shall integrate into the database created pursuant to subsection (a) of this section, by the same date required in subsection (e) of this section for database completion, testing, and operation.</text>
+                  <text>OTA shall develop an online portal and database for the filing of registration statements and claims of exemption under <code-cite doc="D.C. Code" path="§42-3502.05|(f)">section 205(f)</code-cite>, which OTA shall integrate into the database created pursuant to subsection (a) of this section, by the same date required in subsection (e) of this section for database completion, testing, and operation.</text>
                 </para>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(e-2)|(1)">
             <num>(4)</num>
             <text>Subsection (e-2)(1) is amended by striking the phrase "no later than December 13, 2019" and inserting the phrase "by the same date required in subsection (e) of this section for database completion, testing, and operation" in its place.</text>
+            <codify:find-replace count="1">
+              <find>no later than December 13, 2019</find>
+              <replace>by the same date required in subsection (e) of this section for database completion, testing, and operation</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
           <num>(d)</num>
           <text>The second section 203b (D.C. Official Code § 42-3502.03d) is redesignated as 203d.</text>
+          <codify:find-replace path="§42-3502.03d" count="1" history-prefix="redesignated as § 203d,">
+            <find>Beginning 180 days</find>
+            <replace>Beginning 180 days</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§42-3502.03d">
           <num>(e)</num>
           <text>The newly redesignated section 203d is amended as follows:</text>
-          <para>
+          <para codify:path="heading">
             <num>(1)</num>
             <text>The section heading is amended by striking the phrase "and registration".</text>
+            <codify:find-replace count="1">
+              <find>and registration</find>
+              <replace/>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
@@ -1651,9 +1792,18 @@
               <text>Upon completion of the publicly accessible rent control housing database created pursuant to section 203c, a housing provider shall use the online housing provider portal developed pursuant to section 203c(b)(1) to file all documents and data required to be filed pursuant to this title and all regulations promulgated pursuant to this title.</text>
             </include>
             <aftertext>.</aftertext>
+            <codify:repeal/>
+            <codify:find-replace path="text" count="1">
+              <find>Repealed</find>
+              <replace>Upon completion of the publicly accessible rent control housing database created pursuant to <code-cite doc="D.C. Code" path="§42-3502.03c">section 203c</code-cite>, a housing provider shall use the online housing provider portal developed pursuant to <code-cite doc="D.C. Code" path="§42-3502.03c|(b)|(1)">section 203c(b)(1)</code-cite> to file all documents and data required to be filed pursuant to <code-cite doc="D.C. Code" path="42|35|II">this title</code-cite> and all regulations promulgated pursuant to <code-cite doc="D.C. Code" path="42|35|II">this title</code-cite>.</replace>
+            </codify:find-replace>
+            <codify:find-replace count="1">
+              <find>Repealed</find>
+              <replace/>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§42-3502.05|(f)">
           <num>(f)</num>
           <text>Section 205(f) (D.C. Official Code § 42-3502.05(f)) is amended as follows:</text>
           <para>
@@ -1661,37 +1811,48 @@
             <text>Paragraphs (1) and (2) are amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace path="(1)"/>
                 <num>(1)</num>
-                <text>Within 90 days after completion of the publicly accessible rent control housing database created pursuant to section 203c, each housing provider of a housing accommodation for which the housing provider is receiving rent or is entitled to receive rent shall file a new registration statement and, if applicable, a new claim of exemption via the online housing provider portal developed pursuant to section 203c(e-1).</text>
+                <text>Within 90 days after completion of the publicly accessible rent control housing database created pursuant to <code-cite doc="D.C. Code" path="§42-3502.03c">section 203c</code-cite>, each housing provider of a housing accommodation for which the housing provider is receiving rent or is entitled to receive rent shall file a new registration statement and, if applicable, a new claim of exemption via the online housing provider portal developed pursuant to <code-cite doc="D.C. Code" path="§42-3502.03c|(e-1)">section 203c(e-1)</code-cite>.</text>
               </para>
               <para>
+                <codify:replace path="(2)"/>
                 <num>(2)</num>
-                <text>A person who becomes a housing provider of a housing accommodation 90 days or more after completion of the publicly accessible rent control housing database created pursuant to section 203c, shall file a registration statement and, if applicable, claim of exemption, within 30 days after becoming a housing provider.</text>
+                <text>A person who becomes a housing provider of a housing accommodation 90 days or more after completion of the publicly accessible rent control housing database created pursuant to <code-cite doc="D.C. Code" path="§42-3502.03c">section 203c</code-cite>, shall file a registration statement and, if applicable, claim of exemption, within 30 days after becoming a housing provider.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(2)</num>
             <text>Paragraph (3) is amended by striking the phrase "A housing provider shall file a registration statement and, if applicable, a claim of exemption, with the Division in accordance with section 203d, which shall solicit" and inserting the phrase "The registration statement and claim of exemption shall solicit" in its place.</text>
+            <codify:find-replace count="1">
+              <find>A housing provider shall file a registration statement and, if applicable, a claim of exemption, with the Division in accordance with section 203c, which shall solicit</find>
+              <replace>The registration statement and claim of exemption shall solicit</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(4)">
             <num>(3)</num>
             <text>Paragraph (4) is amended as follows:</text>
-            <para>
+            <para codify:path="(A)">
               <num>(A)</num>
               <text>Subparagraph (A) is amended to read as follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:replace/>
                   <num>(A)</num>
-                  <text>No penalties for failure to previously register the housing accommodation shall be assessed against a housing provider who registers a housing accommodation under this section within 90 days after completion of the publicly accessible rent control housing database created pursuant to section 203c.</text>
+                  <text>No penalties for failure to previously register the housing accommodation shall be assessed against a housing provider who registers a housing accommodation under this section within 90 days after completion of the publicly accessible rent control housing database created pursuant to <code-cite doc="D.C. Code" path="§42-3502.03c">section 203c</code-cite>.</text>
                 </para>
               </include>
               <aftertext>.</aftertext>
             </para>
-            <para>
+            <para codify:path="(B)|(i)">
               <num>(B)</num>
               <text>Subparagraph (B)(i) is amended by striking the phrase "Beginning 241 days after October 30, 2018" and inserting the phrase "Beginning 91 days after completion of the publicly accessible rent control housing database created pursuant to section 203c" in its place.</text>
+              <codify:find-replace count="1">
+                <find>Beginning 241 days after October 30, 2018</find>
+                <replace>Beginning 91 days after completion of the publicly accessible rent control housing database created pursuant to <code-cite doc="D.C. Code" path="§42-3502.03c">section 203c</code-cite></replace>
+              </codify:find-replace>
             </para>
           </para>
         </para>
@@ -1712,15 +1873,32 @@
         <para>
           <num>(a)</num>
           <text>Sections 2 (D.C. Official Code § 32-241), 2a (D.C. Official Code § 32-242), 2b (D.C. Official Code § 32-243), and 2c (D.C. Official Code § 32-244) are redesignated as sections 2a, 2b, 2c, and 2d, respectively.</text>
+          <codify:find-replace path="§32-242" position="first" history-prefix="redesignated as § 2a,">
+            <find>The Mayor</find>
+            <replace>The Mayor</replace>
+          </codify:find-replace>
+          <codify:find-replace path="§32-243" count="1" history-prefix="redesignated as § 2b,">
+            <find>Commencing 30</find>
+            <replace>Commencing 30</replace>
+          </codify:find-replace>
+          <codify:find-replace path="§32-244" position="first" history-prefix="redesignated as § 2c,">
+            <find>The Mayor</find>
+            <replace>The Mayor</replace>
+          </codify:find-replace>
+          <codify:find-replace path="§32-245" count="1" history-prefix="redesignated as § 2d,">
+            <find>June</find>
+            <replace>June</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>A new section 2 is added to read as follows:</text>
           <include>
             <section>
+              <codify:insert path="32|2|II" before="§32-242" num-value="32-241" history-prefix="as added"/>
               <num>2</num>
               <heading>Definitions.</heading>
-              <text>For the purposes of this act, the term:</text>
+              <text>For the purposes of <code-cite doc="D.C. Code" path="32|2|II">this act</code-cite>, the term:</text>
               <para>
                 <num undesignated="true">(a)</num>
                 <para>
@@ -1756,31 +1934,37 @@
                   <text>"Soft skills training" means age-appropriate, non-technical skills training that helps individuals succeed in the workplace and includes training regarding communication, time management, appropriate work attire, and conflict resolution, and education regarding employers' rights to conduct drug tests.</text>
                 </para>
               </para>
+              <annotation doc="D.C. Law 3-46" type="History" path="§2">Jan. 5, 1980, D.C. Law 3-46, § 2</annotation>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§32-242">
           <num>(c)</num>
           <text>Newly designated section 2a is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended as follows:</text>
-              <para>
+              <para codify:path="(A)">
                 <num>(i)</num>
                 <text>Subparagraph (A) is amended as follows:</text>
-                <para>
+                <para codify:path="(ii)">
                   <num>(I)</num>
                   <text>Sub-subparagraph (ii) is amended by striking the figure "$5.25" and inserting the figure "$6.25" in its place.</text>
+                  <codify:find-replace count="1">
+                    <find>$5.25</find>
+                    <replace>$6.25</replace>
+                  </codify:find-replace>
                 </para>
                 <para>
                   <num>(II)</num>
                   <text>A new sub-subparagraph (v) is added to read as follows:</text>
                   <include lvl="3">
                     <para>
+                      <codify:insert/>
                       <num>(v)</num>
                       <para>
                         <num>(I)</num>
@@ -1795,25 +1979,41 @@
                   <aftertext>.</aftertext>
                 </para>
               </para>
-              <para>
+              <para codify:path="(B)">
                 <num>(ii)</num>
                 <text>Subparagraph (B) is amended by striking the phrase "weeks." and inserting the phrase "weeks; provided, that Opportunity Youth may be employed for up to 12 weeks." in its place.</text>
+                <codify:find-replace count="1">
+                  <find>weeks.</find>
+                  <replace>weeks; provided, that Opportunity Youth may be employed for up to 12 weeks.</replace>
+                </codify:find-replace>
               </para>
-              <para>
+              <para codify:path="(C)">
                 <num>(iii)</num>
                 <text>Subparagraph (C) is amended by striking the phrase "at an hourly wage of $9.25 to $13" and inserting the phrase "at an hourly wage of no less than $9.25 and no greater than the minimum wage specified in section 4 of the Minimum Wage Act Revision Act of 1992, effective March 25, 1993 (D.C. Law 9-248; D.C. Official Code § 32-1003)" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>at an hourly wage of $9.25 to $13</find>
+                  <replace>at an hourly wage of no less than $9.25 and no greater than the minimum wage specified in <code-cite doc="D.C. Code" path="§32-1003">section 4 of the Minimum Wage Act Revision Act of 1992, effective March 25, 1993 (D.C. Law 9-248; D.C. Official Code § 32-1003)</code-cite></replace>
+                </codify:find-replace>
               </para>
             </para>
-            <para>
+            <para codify:path="(2)">
               <num>(B)</num>
               <text>Paragraph (2) is amended as follows:</text>
               <para>
                 <num>(i)</num>
                 <text>Strike the phrase "In school" and insert the phrase "In-school" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>In school</find>
+                  <replace>In-school</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(ii)</num>
                 <text>Strike the phrase "An in-school" and insert the phrase "The Department of Employment Services shall implement an in-school youth" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>An in-school</find>
+                  <replace>The Department of Employment Services shall implement an in-school youth</replace>
+                </codify:find-replace>
               </para>
             </para>
           </para>
@@ -1822,15 +2022,17 @@
             <text>New subsections (a-1) and (a-2) are added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(a)"/>
                 <num>(a-1)</num>
                 <text>At least 66% of the local funds that the Department of Employment Services uses for training offered pursuant to subsection (a)(2) and (3) of this section each fiscal year shall be spent on in-school youth who are District of Columbia residents and reside or attend a public school or public charter school in Ward 7 or Ward 8, and who are not participants in the District of Columbia Public Schools' Career Bridge Program.</text>
               </para>
               <para>
+                <codify:insert after="(a-1)"/>
                 <num>(a-2)</num>
                 <text>The following standards shall govern occupational skills training provided pursuant to subsection (a)(5) of this section through the D.C. Infrastructure Academy:</text>
                 <para>
                   <num>(1)</num>
-                  <text>At least 66% of the participants receiving occupational skills training each fiscal year shall be trained in occupations that pay an average wage that is at least 150% of the minimum wage specified in section 4 of the Minimum Wage Act Revision Act of 1992, effective March 25, 1993 (D.C. Law 9-248; D.C. Official Code § 32-1003);</text>
+                  <text>At least 66% of the participants receiving occupational skills training each fiscal year shall be trained in occupations that pay an average wage that is at least 150% of the minimum wage specified in <code-cite doc="D.C. Code" path="§32-1003">section 4 of the Minimum Wage Act Revision Act of 1992, effective March 25, 1993 (D.C. Law 9-248; D.C. Official Code § 32-1003)</code-cite>;</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -1856,10 +2058,10 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(g)">
             <num>(2)</num>
             <text>Subsection (g) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended as follows:</text>
               <para>
@@ -1867,6 +2069,7 @@
                 <text>Insert a new subparagraph (A-i) to read as follows:</text>
                 <include lvl="2">
                   <para>
+                    <codify:insert after="(A)"/>
                     <num>(A-i)</num>
                     <text>The number of participants who were:</text>
                     <para>
@@ -1897,11 +2100,12 @@
                 </include>
                 <aftertext>.</aftertext>
               </para>
-              <para>
+              <para codify:path="(C)">
                 <num>(ii)</num>
                 <text>Subparagraph (C) is amended to read as follows:</text>
                 <include lvl="2">
                   <para>
+                    <codify:replace/>
                     <num>(C)</num>
                     <text>Participants' employment following the end of the program, including the number of:</text>
                     <para>
@@ -1917,11 +2121,12 @@
                 <aftertext>.</aftertext>
               </para>
             </para>
-            <para>
+            <para codify:path="(2)">
               <num>(B)</num>
               <text>Paragraph (2) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace/>
                   <num>(2)</num>
                   <text>Beginning December 15, 2019, and annually thereafter, the Department of Employment Services shall publish the information collected pursuant to paragraph (1) of this subsection for the preceding summer; provided, that information responsive to paragraphs (1)(A-i) and (C)(i) and (ii) of this subsection first may be published in December 2020.</text>
                 </para>
@@ -1930,41 +2135,59 @@
             </para>
           </para>
         </para>
-        <para>
+        <para codify:path="§32-245">
           <num>(d)</num>
           <text>Newly designated section 2d  is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Strike the date "June 1, 2011" and insert the date "December 1, 2019" in its place.</text>
+              <codify:find-replace count="1">
+                <find>June 1, 2011</find>
+                <replace>December 1, 2019</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Strike the phrase "the summer" and insert the phrase "the next year's summer" in its place.</text>
+              <codify:find-replace count="1">
+                <find>the summer</find>
+                <replace>the next year's summer</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended as follows:</text>
-            <para>
+            <para codify:path="(5)">
               <num>(A)</num>
               <text>Paragraph (5) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+              <codify:find-replace count="1">
+                <find>; and</find>
+                <replace>;</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(6)">
               <num>(B)</num>
               <text>Paragraph (6) is amended by striking the period and inserting a semicolon in its place.</text>
+              <codify:find-replace position="last">
+                <find>.</find>
+                <replace>;</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(C)</num>
               <text>New paragraphs (7) and (8) are added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert/>
                   <num>(7)</num>
                   <text>The various types of soft skills training programs offered, including pre-program bootcamps, online modules, contracted services, and in-program instruction, to determine which models were most successful at imparting soft skills; and</text>
                 </para>
                 <para>
+                  <codify:insert/>
                   <num>(8)</num>
                   <text>The causes of participant attrition, including the impact of the program's registration and documentation requirements on attrition.</text>
                 </para>
@@ -1972,16 +2195,24 @@
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(3)</num>
             <text>Subsection (c) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Strike the date "December 30, 2011" and insert the date "December 30, 2020" in its place.</text>
+              <codify:find-replace count="1">
+                <find>December 30, 2011</find>
+                <replace>December 30, 2020</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Strike the phrase "evaluation to the" and insert the phrase "evaluation conducted pursuant to subsection (a) of this section to the" in its place.</text>
+              <codify:find-replace count="1">
+                <find>evaluation to the</find>
+                <replace>evaluation conducted pursuant to subsection (a) of this section to the</replace>
+              </codify:find-replace>
             </para>
           </para>
         </para>
@@ -1997,6 +2228,7 @@
         <text>This subtitle may be cited as the "DC Central Kitchen Grant Extension Amendment Act of 2019".</text>
       </section>
       <section>
+        <!-- Not codified -->
         <num>2152</num>
         <text>Section 2152 of the DC Central Kitchen Grants Amendment Act of 2018, effective October 30, 2018 (D.C. Law 22-168; 65 DCR 9388), is amended by striking the phrase "nutrition programming." and inserting the phrase "nutrition programming; provided, that $500,000 of the funds awarded but not expended in Fiscal Year 2019 shall be available for expenditure in Fiscal Year 2020, as authorized by the Fiscal Year 2020 Local Budget Act of 2019, passed on 2nd reading on May 28, 2019 (Enrolled version of Bill 23-208)." in its place.</text>
       </section>
@@ -2018,6 +2250,7 @@
           <text>Section 2 (D.C. Official Code § 2-1227.01) is amended by adding a new paragraph (19) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert path="§2-1227.01"/>
               <num>(19)</num>
               <text>"Walter Reed Site" means the approximately 110.1 acres of land located in the area bounded by Fern Street, N.W., and Alaska Avenue, N.W., to the north, 16th Street, N.W., to the west, Aspen Street, N.W., to the south, and Georgia Avenue, N.W., to the east, and identified in the Walter Reed Reuse Plan at Figure A-01: Site Boundaries and Areas.</text>
             </para>
@@ -2029,6 +2262,7 @@
           <text>A new section 7a is added to read as follows:</text>
           <include>
             <section>
+              <codify:insert path="2|12|XV" after="§2-1227.06" num-value="2-1227.07" history-prefix="as added"/>
               <num>7a</num>
               <heading>Additional Walter Reed Site acquisition and procurement authority.</heading>
               <para>
@@ -2038,21 +2272,22 @@
               <para>
                 <num>(b)</num>
                 <para>
-                  <num>(l)</num>
-                  <text>The provisions of the District of Columbia Motor Vehicle Parking Facility Act of 1942, approved February 16, 1942 (56 Stat. 90; D.C. Official Code § 50-2601 <em>et seq.</em>), shall not apply to the acquisition by the Mayor of property located on the Walter Reed Site or the use of such property as a parking facility.</text>
+                  <num>(1)</num>
+                  <text>The provisions of <code-cite doc="D.C. Code" path="50|26|I">the District of Columbia Motor Vehicle Parking Facility Act of 1942, approved February 16, 1942 (56 Stat. 90; D.C. Official Code § 50-2601 <em>et seq.</em>),</code-cite> shall not apply to the acquisition by the Mayor of property located on the Walter Reed Site or the use of such property as a parking facility.</text>
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>Notwithstanding the Procurement Practices Reform Act of 2010, effective April 8, 2011 (D.C. Law 18-371; D.C. Official Code § 2-351.01 <em>et seq.</em>), and consistent with section 451 of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 803; D.C. Official Code § 1-204.51), the Mayor may enter into a contract with Children's National at Walter Reed, LLC, or an affiliate thereof, for the operation and maintenance of property acquired pursuant to this section; provided, that the entity that contracts with the Mayor shall agree to be subject to the contracting and procurement requirements set forth in Subpart 2 of Part D of the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 2-218.41 <em>et seq.</em>), ("CBE Act"), and the employment and job creation requirements set forth in section 4 of the First Source Employment Agreement Act of 1984, effective June 29, 1984 (D.C. Law 5-93; D.C. Official Code § 2-219.03).</text>
+                  <text>Notwithstanding <code-cite doc="D.C. Code" path="2|3A">the Procurement Practices Reform Act of 2010, effective April 8, 2011 (D.C. Law 18-371; D.C. Official Code § 2-351.01 <em>et seq.</em>)</code-cite>, and consistent with <code-cite doc="D.C. Code" path="§1-204.51">section 451 of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 803; D.C. Official Code § 1-204.51)</code-cite>, the Mayor may enter into a contract with Children's National at Walter Reed, LLC, or an affiliate thereof, for the operation and maintenance of property acquired pursuant to this section; provided, that the entity that contracts with the Mayor shall agree to be subject to the contracting and procurement requirements set forth in <code-cite doc="D.C. Code" path="2|2|IX-A|D|2">Subpart 2 of Part D of the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 2-218.41 <em>et seq.</em>), ("CBE Act"),</code-cite> and the employment and job creation requirements set forth in <code-cite doc="D.C. Code" path="§2-219.03">section 4 of the First Source Employment Agreement Act of 1984, effective June 29, 1984 (D.C. Law 5-93; D.C. Official Code § 2-219.03)</code-cite>.</text>
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>The contract entered into pursuant to paragraph (2) of this subsection shall require Children's National at Walter Reed, LLC or its affiliate to give priority when subcontracting to businesses certified as small business enterprises pursuant to section 2332 of the CBE Act or as disadvantaged business enterprises pursuant to section 2333 of the CBE Act, and to do so in a manner to be negotiated between the Mayor and Children's National at Walter Reed, LLC or its affiliate.</text>
+                  <text>The contract entered into pursuant to paragraph (2) of this subsection shall require Children's National at Walter Reed, LLC or its affiliate to give priority when subcontracting to businesses certified as small business enterprises pursuant to <code-cite doc="D.C. Code" path="§2-218.32">section 2332 of the CBE Act</code-cite> or as disadvantaged business enterprises pursuant to <code-cite doc="D.C. Code" path="§2-218.33">section 2333 of the CBE Act</code-cite>, and to do so in a manner to be negotiated between the Mayor and Children's National at Walter Reed, LLC or its affiliate.</text>
                 </para>
               </para>
             </section>
           </include>
           <aftertext>.</aftertext>
+          <annotation doc="D.C. Law 21-119" type="History" path="§7a">May 18, 2016, D.C. Law 21-119, § 7a</annotation>
         </para>
       </section>
     </container>
@@ -2067,6 +2302,7 @@
       </section>
       <section>
         <num>2172</num>
+        <!-- NA -->
         <text>In Fiscal Year 2020, of the funds allocated to the Non-Departmental Account, up to $250,000 shall be transferred to the Commission on the Arts and Humanities to fund a commemorative work, as that term is defined in section 411(1) of the Street and Alley Closing and Acquisition Procedures Act of 1982, effective April 4, 2011 (D.C. Law 13-275; D.C. Official Code § 9-204.11(1)) ("Act"); provided, that the commemorative work be a statue of a prominent female native Washingtonian and that it be approved pursuant to section 401 of the Act.</text>
       </section>
     </container>
@@ -2079,16 +2315,24 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Housing Production Trust Fund Target Modification Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§42-2802|(b-1)|(2)">
         <num>2182</num>
         <text>Section 3(b-1)(2) of the Housing Production Trust Fund Act of 1989, effective March 16, 1989 (D.C. Law 7-202; D.C. Official Code § 42-2802(b-1)(2)), is amended as follows:</text>
         <para>
           <num>(a)</num>
           <text>Strike the phrase "At least 40%" and insert the phrase "At least 50%" in its place.</text>
+          <codify:find-replace count="1">
+            <find>At least 40%</find>
+            <replace>At least 50%</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>Strike the phrase "of the 40% requirement" and insert the phrase "of the 50% requirement" in its place.</text>
+          <codify:find-replace count="1">
+            <find>of the 40% requirement</find>
+            <replace>of the 50% requirement</replace>
+          </codify:find-replace>
         </para>
       </section>
     </container>
@@ -2101,14 +2345,18 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Safe at Home Clarification Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§7-551.01">
         <num>2192</num>
         <text>Section 2 of the Safe at Home Act of 2016, effective November 26, 2016 (D.C. Law 21-168; D.C. Official Code § 7-551.01), is amended as follows:</text>
-        <para>
+        <para codify:path="(b)">
           <num>(a)</num>
           <text>Subsection (b) is amended by striking the figure "$10,000" and inserting the figure "$6,000" in its place.</text>
+          <codify:find-replace count="1">
+            <find>$10,000</find>
+            <replace>$6,000</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(b)</num>
           <text>Subsection (c) is amended as follows:</text>
           <para>
@@ -2116,37 +2364,55 @@
             <text>A new paragraph (4A) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(4)"/>
                 <num>(4A)</num>
                 <text>Bathtub cuts;</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(5)">
             <num>(2)</num>
             <text>Paragraph (5) is amended by striking the phrase "Stair lifts" and inserting the phrase "Chair lifts" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Stair lifts</find>
+              <replace>Chair lifts</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(c)</num>
           <text>Subsection (d) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(1)</num>
             <text>Paragraph (1) is amended by striking the phrase "Be a resident of the District of Columbia" and inserting the phrase "Be a resident of the District of Columbia who is at least 18 years of age" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Be a resident of the District of Columbia</find>
+              <replace>Be a resident of the District of Columbia who is at least 18 years of age</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(2)</num>
             <text>Paragraph (3) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(4)">
             <num>(3)</num>
             <text>Paragraph (4) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>A new paragraph (5) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(5)</num>
                 <text>Complete an assessment, performed by a licensed occupational therapist approved by the Department of Aging and Community Living, designed to measure functional ability.</text>
               </para>
@@ -2154,20 +2420,29 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="(e)">
           <num>(d)</num>
           <text>Subsection (e) is amended as follows:</text>
-          <para>
+          <para codify:path="(2)">
             <num>(1)</num>
             <text>Paragraph (2) is amended by striking the semicolon and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace count="1">
+              <find>;</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(2)</num>
             <text>Paragraph (3) is amended by striking the phrase "; and" and adding a period in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>.</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(4)">
             <num>(3)</num>
             <text>Paragraph (4) is repealed.</text>
+            <codify:repeal/>
           </para>
         </para>
         <para>
@@ -2175,8 +2450,9 @@
           <text>A new subsection (f) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(f)</num>
-              <text>The Mayor may, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), issue rules to implement the provisions of this section, including rules establishing:</text>
+              <text>The Mayor may, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, issue rules to implement the provisions of this section, including rules establishing:</text>
               <para>
                 <num>(1)</num>
                 <text>Household income eligibility;</text>
@@ -2220,9 +2496,10 @@
           <text>Section 3 (D.C. Official Code § 39-202) is amended to read as follows:</text>
           <include>
             <section>
-              <num>3</num>
+              <codify:replace path="§39-202"/>
+              <num codify:value="39-202">3</num>
               <heading>Definitions.</heading>
-              <text>For the purposes of this act, the term:</text>
+              <text>For the purposes of <code-cite doc="D.C. Code" path="39|2">this act</code-cite>, the term:</text>
               <para>
                 <num undesignated="true">(a)</num>
                 <para>
@@ -2246,15 +2523,15 @@
                 </para>
                 <para>
                   <num>(4)</num>
-                  <text>"Commission" means the Commission on the Arts and Humanities established by section 4.</text>
+                  <text>"Commission" means the Commission on the Arts and Humanities established by <code-cite doc="D.C. Code" path="§39-203">section 4</code-cite>.</text>
                 </para>
                 <para>
                   <num>(5)</num>
-                  <text>"Executive Director" means the executive director appointed pursuant to section 6(a).</text>
+                  <text>"Executive Director" means the executive director appointed pursuant to <code-cite doc="D.C. Code" path="§39-205|(a)">section 6(a)</code-cite>.</text>
                 </para>
                 <para>
                   <num>(6)</num>
-                  <text>"Grant-managing entity" means the District's humanities council (the Humanities Council of Washington, D.C., or any successor organization), which shall make subgrants pursuant to section 6b.</text>
+                  <text>"Grant-managing entity" means the District's humanities council (the Humanities Council of Washington, D.C., or any successor organization), which shall make subgrants pursuant to <code-cite doc="D.C. Code" path="§39-205.02">section 6b</code-cite>.</text>
                 </para>
                 <para>
                   <num>(7)</num>
@@ -2262,7 +2539,7 @@
                 </para>
                 <para>
                   <num>(8)</num>
-                  <text>"Humanities Grant Program" means the grant program established by section 6b.</text>
+                  <text>"Humanities Grant Program" means the grant program established by <code-cite doc="D.C. Code" path="§39-205.02">section 6b</code-cite>.</text>
                 </para>
                 <para>
                   <num>(9)</num>
@@ -2272,11 +2549,11 @@
                     <text>Nonprofit corporations incorporated under the laws of the District that:</text>
                     <para>
                       <num>(i)</num>
-                      <text>Have an annual income, exclusive of District funds, in excess of $1 million for each of the 3 years before receipt of a grant awarded under this act;</text>
+                      <text>Have an annual income, exclusive of District funds, in excess of $1 million for each of the 3 years before receipt of a grant awarded under <code-cite doc="D.C. Code" path="39|2">this act</code-cite>;</text>
                     </para>
                     <para>
                       <num>(ii)</num>
-                      <text>Have income from federal funds of less than $1 million for each of the 3 years before receipt of a grant under this act; and</text>
+                      <text>Have income from federal funds of less than $1 million for each of the 3 years before receipt of a grant under <code-cite doc="D.C. Code" path="39|2">this act</code-cite>; and</text>
                     </para>
                     <para>
                       <num>(iii)</num>
@@ -2297,14 +2574,15 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§39-203">
           <num>(b)</num>
           <text>Section 4 (D.C. Official Code § 39-203) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(a)</num>
                 <text>There is established, as an independent agency within the District of Columbia government, the Commission on the Arts and Humanities ("Commission"), which shall evaluate and initiate action on matters relating to the arts and humanities and encourage programs and the development of programs that promote progress in the arts and humanities.</text>
               </para>
@@ -2316,10 +2594,11 @@
             <text>A new subsection (a-1) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(a)"/>
                 <num>(a-1)</num>
                 <para>
                   <num>(1)</num>
-                  <text>The Commission shall consist of 18 members appointed by the Mayor, with the advice and consent of the Council, in accordance with section 2(e)(32) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(e)(32)).</text>
+                  <text>The Commission shall consist of 18 members appointed by the Mayor, with the advice and consent of the Council, in accordance with <code-cite doc="D.C. Code" path="§1-523.01|(e)|(32)">section 2(e)(32) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(e)(32))</code-cite>.</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -2353,15 +2632,20 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(3)</num>
             <text>Subsection (b) is amended by striking the phrase "may be reappointed." and inserting the phrase "may be reappointed; provided, that all 6 members who have a term end date of June 30, 2019, and 3 of the members who have a term end date of June 3, 2020, may be reappointed only if doing so would satisfy the qualification requirements set forth under subsection (a)(2) of this section." in its place.</text>
+            <codify:find-replace count="1">
+              <find>may be reappointed.</find>
+              <replace>may be reappointed; provided, that all 6 members who have a term end date of June 30, 2019, and 3 of the members who have a term end date of June 3, 2020, may be reappointed only if doing so would satisfy the qualification requirements set forth under subsection (a)(2) of this section.</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(4)</num>
             <text>Subsection (d) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(d)</num>
                 <text>The Mayor shall appoint a chairperson of the Commission from among the 18 members appointed pursuant to subsection (a-1) of this section with the advice and consent of the Council by resolution.</text>
               </para>
@@ -2373,44 +2657,59 @@
             <text>A new subsection (f) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert/>
                 <num>(f)</num>
-                <text>No District of Columbia government employee, as that term is defined by section 301(7) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-603.01(7)), shall be eligible to serve as a member of the Commission.</text>
+                <text>No District of Columbia government employee, as that term is defined by <code-cite doc="D.C. Code" path="§1-603.01|(7)">section 301(7) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-603.01(7))</code-cite>, shall be eligible to serve as a member of the Commission.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§39-204">
           <num>(c)</num>
           <text>Section 5 (D.C. Official Code § 39-204) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Paragraph (3) is amended to read as follows:</text>
             <include lvl="1">
-              <para>
+              <para codify:path="(3)">
+                <codify:replace/>
                 <num>(3)</num>
                 <text>Issue grants, to include single or multi-year grants, for projects and productions in the arts and humanities; provided, that such grants be awarded competitively to individuals and organizations based in and primarily serving the District;</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(5)|(C)">
             <num>(2)</num>
             <text>Paragraph (5)(C) is amended by striking the phrase "in the Fund or in the" and inserting the phrase "in the" in its place.</text>
+            <codify:find-replace count="1">
+              <find>in the Fund or in the</find>
+              <replace>in the</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(7)">
             <num>(3)</num>
             <text>Paragraph (7) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(8)|(B)">
             <num>(4)</num>
             <text>Paragraph (8)(B) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(5)</num>
             <text>Add a new paragraph (9) to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(9)</num>
                 <text>Encourage and assist freedom of artistic expression essential for the well-being of the arts, without censorship.</text>
               </para>
@@ -2418,14 +2717,15 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§39-205">
           <num>(d)</num>
           <text>Section 6 (D.C. Official Code § 39-205) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(a)</num>
                 <para>
                   <num>(1)</num>
@@ -2433,11 +2733,11 @@
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>The Executive Director shall receive annual compensation fixed in accordance with the provisions of Title XI of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-611.01 <em>et seq.</em>), and shall serve as the chief administrative officer of the Commission.</text>
+                  <text>The Executive Director shall receive annual compensation fixed in accordance with the provisions of <code-cite doc="D.C. Code" path="1|6|XI">Title XI of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-611.01 <em>et seq.</em>),</code-cite> and shall serve as the chief administrative officer of the Commission.</text>
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>In addition to any other duties set forth in this act, the Executive Director shall:</text>
+                  <text>In addition to any other duties set forth in <code-cite doc="D.C. Code" path="2|6">this act</code-cite>, the Executive Director shall:</text>
                   <para>
                     <num>(A)</num>
                     <text>Supervise the staff of the Commission;</text>
@@ -2459,15 +2759,20 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended by striking the phrase "Mayor, Council, Chairperson of" and inserting the phrase "Chairperson of" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Mayor, Council, Chairperson of</find>
+              <replace>Chairperson of</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>A new subsection (b-1) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(b)"/>
                 <num>(b-1)</num>
                 <para>
                   <num>(1)</num>
@@ -2481,15 +2786,20 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(4)</num>
             <text>Subsection (c) is amended by striking the phrase "the Mayor an annual budget" and inserting the phrase "the Mayor, with a copy to the Council, an annual budget" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the Mayor an annual budget</find>
+              <replace>the Mayor, with a copy to the Council, an annual budget</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(5)</num>
             <text>A new subsection (c-1) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(c)"/>
                 <num>(c-1)</num>
                 <text>For the fiscal year 2021 budget and every fiscal year thereafter the Commission shall allocate the annual budget as follows:</text>
                 <para>
@@ -2533,6 +2843,7 @@
             <text>A new subsection (e) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert/>
                 <num>(e)</num>
                 <text>If any member of the Commission is an employee, member, director, or officer of any organization that has applied to the Commission for a grant, such member shall:</text>
                 <para>
@@ -2552,12 +2863,13 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§39-205.01">
           <num>(e)</num>
           <text>Section 6a (D.C. Official Code § 39-205.01) is amended to read as follows:</text>
           <include>
             <section>
-              <num>6a</num>
+              <codify:replace/>
+              <num codify:value="39-205.01">6a</num>
               <heading>Arts and Humanities Fund.</heading>
               <para>
                 <num>(a)</num>
@@ -2572,15 +2884,15 @@
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>Fees collected pursuant to section 2e of Title IV of the District of Columbia Revenue Act of 1937, effective October 30, 2018 (D.C. Law 22-168; D.C. Official Code § 50-1501.02e);</text>
+                  <text>Fees collected pursuant to <code-cite doc="D.C. Code" path="§50-1501.02e">section 2e of Title IV of the District of Columbia Revenue Act of 1937, effective October 30, 2018 (D.C. Law 22-168; D.C. Official Code § 50-1501.02e)</code-cite>;</text>
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>Subject to the availability of funds, up to $2.5 million annually pursuant to section 1045(d) of the Delinquent Debt Recovery Act of 2012, effective September 20, 2012 (D.C. Law 19-168; D.C. Official Code § 1-350.04(d)); and</text>
+                  <text>Subject to the availability of funds, up to $2.5 million annually pursuant to <code-cite doc="D.C. Code" path="§1-350.04|(d)">section 1045(d) of the Delinquent Debt Recovery Act of 2012, effective September 20, 2012 (D.C. Law 19-168; D.C. Official Code § 1-350.04(d))</code-cite>; and</text>
                 </para>
                 <para>
                   <num>(4)</num>
-                  <text>Dedicated taxes pursuant to § 47-2002(d) and § 47-2202(b) of the D.C. Official Code.</text>
+                  <text>Dedicated taxes pursuant to <span codify:value="§§"/><code-cite doc="D.C. Code" path="§47-2002|(d)" codify:value="47-2002(d)">§ 47-2002(d)</code-cite> and <code-cite doc="D.C. Code" path="§47-2202|(b)" codify:value="47-2202(b)">§ 47-2202(b) of the D.C. Official Code</code-cite>.</text>
                 </para>
               </para>
               <para>
@@ -2592,7 +2904,7 @@
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>Purposes, including grants, consistent with section 6(c-1).</text>
+                  <text>Purposes, including grants, consistent with <code-cite doc="D.C. Code" path="§39-205|(c-1)">section 6(c-1)</code-cite>.</text>
                 </para>
               </para>
               <para>
@@ -2615,6 +2927,7 @@
           <text>New sections 6b and 6c are added to read as follows:</text>
           <include>
             <section>
+              <codify:insert path="39|2" after="39-205.01" num-value="39-205.02" history-prefix="as added"/>
               <num>6b</num>
               <heading>Humanities grant program.</heading>
               <para>
@@ -2625,7 +2938,7 @@
                 <num>(b)</num>
                 <para>
                   <num>(1)</num>
-                  <text>Each year, the Commission shall make a grant in the amount provided under section 6(c-1)(2)(D) to a grant-managing entity, which shall be used to make subgrants for the purpose of promoting cross-cultural understanding and appreciation of local history in all neighborhoods of the District of Columbia.</text>
+                  <text>Each year, the Commission shall make a grant in the amount provided under <code-cite doc="D.C. Code" path="§39-205|(c-1)|(2)|(D)">section 6(c-1)(2)(D)</code-cite> to a grant-managing entity, which shall be used to make subgrants for the purpose of promoting cross-cultural understanding and appreciation of local history in all neighborhoods of the District of Columbia.</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -2654,24 +2967,29 @@
               </para>
               <para>
                 <num>(d)</num>
-                <text>The Humanities Grant Program shall be administered pursuant to the requirements of the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.)</text>
+                <text>The Humanities Grant Program shall be administered pursuant to the requirements of <code-cite doc="D.C. Code" path="1|3|XII-A|B">the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.)</code-cite></text>
               </para>
               <para>
                 <num>(e)</num>
                 <text>The grant-managing entity shall enter into a Memorandum of Understanding ("MOU") with the Commission.  The MOU shall set forth certain administrative requirements for the grant-managing entity to abide by when it obtains District funds and awards subgrants involving District funds, and will clarify and reaffirm the grant-managing entity responsibility and obligation with respect to District funds, including the monitoring of the use of District funds.</text>
               </para>
+              <annotation doc="D.C. Law 1-22" type="History" path="§6b">Oct. 21, 1975, D.C. Law 1-22, § 6b</annotation>
             </section>
             <section>
+              <codify:insert path="39|2" after="39-205.02" num-value="39-205.03" history-prefix="as added"/>
               <num>6c</num>
               <heading>Transfer provisions.</heading>
               <text>By October 1, 2019, the Mayor shall transfer to the Commission such positions, personnel, property, records, and unexpended balances of appropriations, allocations, and other funds available or assigned to the Office of the Mayor for the purposes of funding and running the Commission, at which time the Commission on the Arts and Humanities within the Office of the Mayor shall be abolished.</text>
+              <annotation doc="D.C. Law 1-22" type="History" path="§6c">Oct. 21, 1975, D.C. Law 1-22, § 6c</annotation>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§39-206">
           <num>(g)</num>
           <text>Section 7 (D.C. Official Code § 39-206) is amended by repealing subsections (b) and (c).</text>
+          <codify:repeal path="(b)"/>
+          <codify:repeal path="(c)"/>
         </para>
       </section>
       <section>
@@ -2680,10 +2998,18 @@
         <para>
           <num>(a)</num>
           <text>Section 1045(d) of the Delinquent Debt Recovery Act of 2012, effective September 20, 2012 (D.C. Law 19-168; D.C. Official Code § 1-350.04(d)), is amended by striking the phrase "Humanities Enterprise Fund," and inserting the phrase "Humanities Fund," in its place.</text>
+          <codify:find-replace path="§1-350.04|(d)" count="2">
+            <find>Humanities Enterprise Fund</find>
+            <replace>Humanities Fund</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>Section 2e(c) of Title IV of the District of Columbia Revenue Act of 1937, effective October 30, 2018 (D.C. Law 22-168; D.C. Official Code § 50-1501.02e(c)) is amended by striking the phrase "Humanities Enterprise Fund," and inserting the phrase "Humanities Fund," in its place.</text>
+          <codify:find-replace path="§50-1501.02e|(c)" count="1">
+            <find>Humanities Enterprise Fund,</find>
+            <replace>Humanities Fund,</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
@@ -2691,23 +3017,33 @@
           <para>
             <num>(1)</num>
             <text>Section 301(17)(LL) (D.C. Official Code § 1-603.01(17)(LL)) is repealed.</text>
+            <codify:repeal path="§1-603.01|(17)|(LL)"/>
           </para>
-          <para>
+          <para codify:path="§1-604.06|(b)">
             <num>(2)</num>
             <text>Section 406 (D.C. Official Code § 1-604.06) is amended as follows:</text>
-            <para>
+            <para codify:path="(26)">
               <num>(A)</num>
               <text>Paragraph (26) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+              <codify:find-replace count="1">
+                <find>; and</find>
+                <replace>;</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(27)">
               <num>(B)</num>
               <text>Paragraph (27) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+              <codify:find-replace position="last">
+                <find>.</find>
+                <replace>; and</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(C)</num>
               <text>A new paragraph (28) is added to read as follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:insert/>
                   <num>(28)</num>
                   <text>For the Executive Director of the Commission on the Arts and Humanities, the personnel authority shall be the Commission on the Arts and Humanities, and for any other employee of the Commission on the Arts and Humanities the personnel authority shall be the Executive Director of the Commission on the Arts and Humanities.</text>
                 </para>
@@ -2722,10 +3058,18 @@
           <para>
             <num>(1)</num>
             <text>Section 47-2002(d) is amended by striking the phrase "shall be dedicated to the Commission on the Arts and Humanities, established by the Commission on the Arts and Humanities Act, effective January 29, 1998 (D.C. Law 12-42; D.C. Official Code § 39-201 <em>et seq.</em>) to support the functions, purposes, and costs of the Commission" and inserting the phrase "shall be dedicated to the Arts and Humanities Fund, established by § 39-205.01" in its place.</text>
+            <codify:find-replace path="§47-2002|(d)" count="1">
+              <find>shall be dedicated to the Commission on the Arts and Humanities established by <code-cite doc="D.C. Code" path="39|2">the Commission on the Arts and Humanities Act, effective January 29, 1998 (D.C. Law 12-42; D.C. Official Code § 39-201, <em>et seq.</em>,</code-cite> to support the functions, purposes, and costs of the Commission</find>
+              <replace>shall be dedicated to the Arts and Humanities Fund, established by <cite doc="D.C. Code" path="§39-205.01">§ 39-205.01</cite></replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Section 47-2202(b) is amended by striking the phrase "shall be dedicated to the Commission on the Arts and Humanities, established by the Commission on the Arts and Humanities Act, effective January 29, 1998 (D.C. Law 12-42; D.C. Official Code § 39-201 <em>et seq.</em>) to support the functions, purposes, and costs of the Commission" and inserting the phrase "shall be dedicated to the Arts and Humanities Fund, established by § 39-205.01" in its place.</text>
+            <codify:find-replace path="§47-2202|(b)" count="1">
+              <find>shall be dedicated to the Commission on the Arts and Humanities, established by <code-cite doc="D.C. Code" path="39|2">the Commission on the Arts and Humanities Act, effective January 29, 1998 (D.C. Law 12-42; D.C. Official Code § 39-201, <em>et seq</em>.)</code-cite> to support the functions, purposes, and costs of the Commission</find>
+              <replace>shall be dedicated to the Arts and Humanities Fund, established by <cite doc="D.C. Code" path="§39-205.01">§ 39-205.01</cite></replace>
+            </codify:find-replace>
           </para>
         </para>
       </section>
@@ -2739,25 +3083,28 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Real Estate Guaranty and Education Fund Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§42-1706">
         <num>2212</num>
         <text>Section 29 of the District of Columbia Real Estate Licensure Act of 1982, effective March 10, 1983 (D.C. Law 4-209; D.C. Official Code § 42-1706), is amended as follows:</text>
-        <para>
+        <para codify:path="(b)">
           <num>(a)</num>
           <text>Subsection (b) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>The existing text is designated paragraph (1).</text>
+            <codify:redesignate-para num-value="(1)"/>
           </para>
           <para>
             <num>(2)</num>
             <text>New paragraphs (2) and (3) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(2)</num>
                 <text>Such amounts as may be appropriated to the Fund shall be deposited into the Fund.</text>
               </para>
               <para>
+                <codify:insert/>
                 <num>(3)</num>
                 <text>In Fiscal Year 2020, $600,000 shall be deposited into the Fund from Fiscal Year 2019 local fund resources.</text>
               </para>
@@ -2770,10 +3117,12 @@
           <text>New subsections (c) and (d) are added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(c)</num>
               <text>Money in the Fund shall be used for purposes consistent with section 30.</text>
             </para>
             <para>
+              <codify:insert/>
               <num>(d)</num>
               <para>
                 <num>(1)</num>
@@ -2798,11 +3147,12 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Historic Preservation Review Board Membership Clarification Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§6-1103|(b)">
         <num>2222</num>
         <text>Section 4(b) of the Historic Landmark and Historic District Protection Act of 1978, effective March 3, 1979 (D.C. Law 2-144; D.C. Official Code § 6-1103(b)), is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(b)</num>
             <para>
               <num>(1)</num>
@@ -2818,7 +3168,7 @@
             </para>
             <para>
               <num>(4)</num>
-              <text>Upon expiration of his or her term of office, a member shall continue to serve until his or her successor is appointed; provided, that pursuant to section 2(c) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(c)), no member shall continue to serve in a hold-over capacity for longer than 180 days after the expiration of the term to which he or she was appointed.</text>
+              <text>Upon expiration of his or her term of office, a member shall continue to serve until his or her successor is appointed; provided, that pursuant to <code-cite doc="D.C. Code" path="§1-523.01|(c)">section 2(c) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(c))</code-cite>, no member shall continue to serve in a hold-over capacity for longer than 180 days after the expiration of the term to which he or she was appointed.</text>
             </para>
           </para>
         </include>
@@ -2834,29 +3184,42 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Funds for Ward 1 Public Housing Properties Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§6-202|(c-1)">
         <num>2232</num>
         <text>Section 3(c-1) of the District of Columbia Housing Authority Act of 1999, effective May 9, 2000 (D.C. Law 13-105; D.C. Official Code § 6-202(c-1)), is amended as follows:</text>
-        <para>
+        <para codify:path="(3)">
           <num>(a)</num>
           <text>Paragraph (3) is amended by striking the period and inserting the phrase "; provided, that in Fiscal Year 2020, the Authority shall expend no less than $1 million on the repair and maintenance of public housing properties located within the boundaries of Ward 1." in its place.</text>
+          <codify:find-replace position="last">
+            <find>.</find>
+            <replace>; provided, that in Fiscal Year 2020, the Authority shall expend no less than $1 million on the repair and maintenance of public housing properties located within the boundaries of Ward 1.</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(b)</num>
           <text>Paragraph (4) is amended as follows:</text>
-          <para>
+          <para codify:path="(A)">
             <num>(1)</num>
             <text>Subparagraph (A) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(B)">
             <num>(2)</num>
             <text>Subparagraph (B) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>A new subparagraph (C) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(C)</num>
                 <text>Any administrative or overhead costs not directly and specifically attributable to maintenance, repair, and rehabilitation projects.</text>
               </para>
@@ -2865,16 +3228,17 @@
           </para>
         </para>
       </section>
-      <section>
+      <section codify:path="§47-4652">
         <num>2233</num>
         <text>Section 47-4652 of the District of Columbia Official Code is amended as follows:</text>
         <para>
           <num undesignated="true">(a)</num>
-          <para>
+          <para codify:path="(b)|(1)">
             <num>(a)</num>
             <text>Subsection (b)(1) is amended to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:replace/>
                 <num>(1)</num>
                 <text>Commence no earlier than October 1, 2020; and</text>
               </para>
@@ -2886,10 +3250,11 @@
             <text>A new subsection (d) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert/>
                 <num>(d)</num>
                 <para>
                   <num>(1)</num>
-                  <text>By August 1, 2019, the Department of Employment Services ("DOES") shall submit to the Council the conclusions and supporting documentation of the audit described in the April 19, 2019 letter from DOES to the Sydell Group, titled Re: Line Hotel, D.C. Code § 47-4652 First Source Compliance Audit Determination.</text>
+                  <text>By August 1, 2019, the Department of Employment Services ("DOES") shall submit to the Council the conclusions and supporting documentation of the audit described in the April 19, 2019 letter from DOES to the Sydell Group, titled <em>Re: Line Hotel, D.C. Code § 47-4652 First Source Compliance Audit Determination</em>.</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -2902,6 +3267,13 @@
         </para>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="30|2" history="false">
+      <container>
+        <prefix>Subchapter</prefix>
+        <num>II</num>
+        <heading>Short-Term Rental Funding.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>Y</num>
@@ -2912,10 +3284,12 @@
         <text>This subtitle may be cited as the "Short-Term Rental Funding Act of 2019".</text>
       </section>
       <section>
+        <codify:insert path="30|2|II" num-value="30-210.01"/>
         <num>2242</num>
+        <heading>Short-Term Rental Funding.</heading>
         <para>
           <num>(a)</num>
-          <text>The fiscal impact of revenue loss attributable to the provisions of the Short-Term Rental Regulation Act of 2018, effective April 25, 2019 (D.C. Law 22-307; D.C. Official Code § 30-201.01 <em>et seq.</em>) ("Act"), shall be offset by local fiscal year recurring revenues included in the Chief Financial Officer's June 2019 revenue estimate and all subsequent revenue estimates that exceed the annual revenue estimate incorporated in the approved budget and financial plan for Fiscal Year 2020 through Fiscal Year 2023, until the Act is fully funded as certified by the Chief Financial Officer.</text>
+          <text>The fiscal impact of revenue loss attributable to the provisions of <code-cite doc="D.C. Code" path="30|2|I">the Short-Term Rental Regulation Act of 2018, effective April 25, 2019 (D.C. Law 22-307; D.C. Official Code § 30-201.01 <em>et seq.</em>) ("Act")</code-cite>, shall be offset by local fiscal year recurring revenues included in the Chief Financial Officer's June 2019 revenue estimate and all subsequent revenue estimates that exceed the annual revenue estimate incorporated in the approved budget and financial plan for Fiscal Year 2020 through Fiscal Year 2023, until <code-cite doc="D.C. Code" path="30|2|I">the Act</code-cite> is fully funded as certified by the Chief Financial Officer.</text>
         </para>
         <para>
           <num>(b)</num>
@@ -2930,7 +3304,7 @@
           </para>
           <para>
             <num>(3)</num>
-            <text>That all such excess revenues, together with the excess revenues identified pursuant to this subsection in prior revenue estimates, have been set aside to ensure that the Act be fully funded until such time as the Chief Financial Officer certifies that the Act is fully funded.</text>
+            <text>That all such excess revenues, together with the excess revenues identified pursuant to this subsection in prior revenue estimates, have been set aside to ensure that <code-cite doc="D.C. Code" path="30|2|I">the Act</code-cite> be fully funded until such time as the Chief Financial Officer certifies that <code-cite doc="D.C. Code" path="30|2|I">the Act</code-cite> is fully funded.</text>
           </para>
         </para>
       </section>
@@ -2979,7 +3353,7 @@
       </section>
     </container>
   </container>
-  <container>
+  <container codify:doc="D.C. Code">
     <prefix>TITLE</prefix>
     <num>III</num>
     <heading>PUBLIC SAFETY AND JUSTICE</heading>
@@ -2992,22 +3366,31 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Criminal Code Reform Commission Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§2-352.01|(b)">
         <num>3002</num>
         <text>Section 201(b) of the Procurement Practices Reform Act of 2010, effective April 8, 2011 (D.C. Law 18-371; D.C. Official Code § 2-352.01(b)), is amended as follows:</text>
-        <para>
+        <para codify:path="(10)">
           <num>(a)</num>
           <text>Paragraph (10) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(11)">
           <num>(b)</num>
           <text>Paragraph (11) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace position="last">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>A new paragraph (12) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(12)</num>
               <text>The Criminal Code Reform Commission.</text>
             </para>
@@ -3018,13 +3401,21 @@
       <section>
         <num>3003</num>
         <text>The Criminal Code Reform Commission Establishment Act of 2016, effective October 8, 2016 (D.C. Law 21-160; D.C. Official Code § 3-151 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§3-152|(a)">
           <num>(a)</num>
           <text>Section 3123(a) (D.C. Official Code § 3-152(a)) is amended by striking the phrase "September 30, 2019" and inserting the phrase "September 30, 2020" in its place.</text>
+          <codify:find-replace count="1">
+            <find>September 30, 2019</find>
+            <replace>September 30, 2020</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§3-156">
           <num>(b)</num>
           <text>Section 3127 (D.C. Official Code § 3-156) is amended by striking the phrase "October 1, 2019" and inserting the phrase "October 1, 2020" in its place.</text>
+          <codify:find-replace count="1">
+            <find>October 1, 2019</find>
+            <replace>October 1, 2020</replace>
+          </codify:find-replace>
         </para>
       </section>
     </container>
@@ -3037,16 +3428,24 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Retired Police Officer Redeployment Program Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§5-761|(h)">
         <num>3012</num>
         <text>Section 2(h) of the Retired Police Officer Redeployment Amendment Act of 1992, effective September 29, 1992 (D.C. Law 9-163; D.C. Official Code § 5-761(h)), is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(a)</num>
           <text>Paragraph (1) is amended by striking the phrase "October 1, 2019," and inserting the phrase "October 1, 2020," in its place.</text>
+          <codify:find-replace count="1">
+            <find>October 1, 2019,</find>
+            <replace>October 1, 2020,</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(b)</num>
           <text>Paragraph (3) is amended by striking the phrase "3 years" and inserting the phrase "5 years" in its place.</text>
+          <codify:find-replace count="1">
+            <find>3 years</find>
+            <replace>5 years</replace>
+          </codify:find-replace>
         </para>
       </section>
     </container>
