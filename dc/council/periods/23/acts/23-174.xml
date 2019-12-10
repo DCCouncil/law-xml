@@ -394,18 +394,23 @@
         </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-561.06">
       <num>(f)</num>
       <text>Section 206 (D.C. Official Code § 4-561.06) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(1)|(A)|(ii)">
         <num>(1)</num>
         <text>Subsection (a)(1)(A)(ii) is amended by striking the phrase "the consultant" and inserting the phrase "the independent expert consultant" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the consultant</find>
+          <replace>the independent expert consultant</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(b)</num>
             <para>
               <num>(1)</num>
@@ -427,46 +432,64 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "The OVS" and insert the phrase "The OVSJG" in its place.</text>
+          <codify:find-replace count="1">
+            <find>The OVS</find>
+            <replace>The OVSJG</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "30 days from the" and insert the phrase "30 days after the" in its place.</text>
+          <codify:find-replace count="1">
+            <find>30 days from the</find>
+            <replace>30 days after the</replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-561.08">
       <num>(g)</num>
       <text>Section 208 (D.C. Official Code § 4-561.08) is amended by striking the phrase "sexual assault crimes" and inserting the phrase "sexual assaults" in its place.</text>
+      <codify:find-replace count="1">
+        <find>sexual assault crimes</find>
+        <replace>sexual assaults</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§4-561.09|(a)">
       <num>(h)</num>
       <text>Section 209(a) (D.C. Official Code § 4-561.09(a)) is amended as follows:</text>
-      <para>
+      <para codify:path="(4)">
         <num>(1)</num>
         <text>Paragraph (4) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(4)</num>
             <text>The recommendations received from the Case Review Subcommittee and the measures the MPD has taken, if any, to address those recommendations;</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(5)">
         <num>(2)</num>
         <text>Paragraph (5) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace count="1">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (6) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(5)"/>
             <num>(6)</num>
             <text>The number of sexual assault victims who:</text>
             <para>
@@ -482,12 +505,13 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-561.10">
       <num>(i)</num>
       <text>Section 210 (D.C. Official Code § 4-561.10) is amended to read as follows:</text>
       <include>
         <section>
-          <num>210</num>
+          <codify:replace/>
+          <num codify:value="4-561.10">210</num>
           <heading>DFS reporting requirement.</heading>
           <text>In the annual report filed pursuant to section 5(a)(5) of the Department of Forensic Sciences Establishment Act of 2011, effective August 17, 2011 (D.C. Law 19-18; D.C. Official Code § 5-1501.04(a)(5)), the Director of the DFS shall provide, for the prior calendar year:</text>
           <para>
@@ -529,18 +553,23 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§4-561.12">
       <num>(j)</num>
       <text>Section 212 (D.C. Official Code § 4-561.12) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the phrase "Team." and inserting the phrase "Team ("SART")." in its place.</text>
+        <codify:find-replace count="1">
+          <find>Team.</find>
+          <replace>Team ("SART").</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(b)</num>
             <text>The SART shall be a partnership of public and private agencies that:</text>
             <para>
@@ -555,11 +584,12 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c)</num>
             <text>Membership on the SART shall include the following persons:</text>
             <para>
@@ -643,25 +673,32 @@
         <text>New subsections (d-1) and (d-2) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(d)"/>
             <num>(d-1)</num>
             <text>A chairperson shall be elected from among the non-governmental members of the SART.</text>
           </para>
           <para>
+            <codify:insert after="(d-1)"/>
             <num>(d-2)</num>
             <text>No non-governmental organization or entity shall have more than one representative on the SART.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(g)">
         <num>(5)</num>
         <text>Subsection (g) is amended by striking the phrase "does not" and inserting the phrase "shall not" in its place.</text>
+        <codify:find-replace count="1">
+          <find>does not</find>
+          <replace>shall not</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(6)</num>
         <text>New subsections (h) and (i) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(h)</num>
             <para>
               <num>(1)</num>
@@ -673,6 +710,7 @@
             </para>
           </para>
           <para>
+            <codify:insert/>
             <num>(i)</num>
             <text>In addition to the members listed in subsection (c) of this section, the SART may expand its membership by establishing a membership application, evaluation, and approval process for:</text>
             <para>
@@ -692,41 +730,55 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-561.13">
       <num>(k)</num>
       <text>Section 213 (D.C. Official Code § 4-561.13) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The existing text is designated as subsection (a).</text>
+        <codify:redesignate-para num-value="(a)"/>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>The newly designated subsection (a) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "victims of sexual assault" and inserting the phrase "sexual assault victims" in its place.</text>
+          <codify:find-replace count="1">
+            <find>victims of sexual assault</find>
+            <replace>sexual assault victims</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(2)</num>
               <text>Conduct regular case reviews, through the Case Review Subcommittee, of all parties involved in sexual assault responses involving sexual assault victims 18 years of age or older, including a review of sexual assault reports and investigations by the MPD and cases reported to any member of the SART;</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(C)</num>
           <text>Paragraph (3) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the phrase "Case Review Subcommittee, established by section 214," and insert the phrase "Case Review Subcommittee" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Case Review Subcommittee, established by <cite path="§4-561.14">§ 4-561.14</cite>, </find>
+              <replace>Case Review Subcommittee</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the period and insert a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>.</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -734,10 +786,12 @@
           <text>New paragraphs (4) and (5) are added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(4)</num>
               <text>Establish a Feedback Review Committee for the purpose of receiving and investigating all complaints and comments from sexual assault victims, including complaints and comments regarding the United States Attorney's Office for the District of Columbia; and</text>
             </para>
             <para>
+              <codify:insert/>
               <num>(5)</num>
               <text>By January 1, 2022, submit a report to the Mayor and the Council that includes the following:</text>
               <para>
@@ -774,6 +828,7 @@
         <text>A new subsection (b) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(b)</num>
             <text>Each SART member shall provide the following data to other members of the SART:</text>
             <para>
