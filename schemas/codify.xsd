@@ -73,6 +73,19 @@
       </xs:attribute>
     </xs:complexType>
   </xs:element>
+  <xs:element name="emergency-new-sec">
+    <!-- @summary: The ``<codify:emergency-new-sec>`` marcro is used to generate an annotation relating to the codification of an emergency law.-->
+    <xs:complexType>
+      <xs:attributeGroup ref="p:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="interim-path" type="xs:string" use="optional">
+        <!-- @summary: Specifies the path to the existing preceding code section. -->
+      </xs:attribute>
+      <xs:attribute name="perm-eff" type="xs:string" use="optional">
+        <!-- @summary: Specifies the date the law becomes permanently effective. -->
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="find-replace" type="findReplaceType">
     <!-- @summary: The ``<codify:find-replace>`` instruction finds text at the target node and replaces the text at the target with new text. -->
     <!-- @docs: misc/examples_header.rst -->
@@ -251,6 +264,19 @@
       </xs:attribute>
       <xs:attribute name="emergency" type="xs:string" use="optional">
         <!-- @summary: No longer used. -->
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="temporary-new-sec">
+    <!-- @summary: The ``<codify:temporary-new-sec>`` marcro is used to generate an annotation relating to the codification of a temporary law.-->
+    <xs:complexType>
+      <xs:attributeGroup ref="p:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="interim-path" type="xs:string" use="optional">
+        <!-- @summary: Specifies the path to the existing preceding code section. -->
+      </xs:attribute>
+      <xs:attribute name="perm-eff" type="xs:string" use="optional">
+        <!-- @summary: Specifies the date the law becomes permanently effective. -->
       </xs:attribute>
     </xs:complexType>
   </xs:element>
