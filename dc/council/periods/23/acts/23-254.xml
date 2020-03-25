@@ -6,7 +6,7 @@
   <heading type="long">To amend the District of Columbia Unemployment Compensation Act to provide that a furlough-excepted federal employee is eligible for financial assistance benefits during a federal government shutdown, and to create the Supporting Essential Workers Special Fund.</heading>
   <meta>
     <introduced>2019-02-05</introduced>
-    <effective>2020-03-17</effective>
+    <effective projected="true">2020-05-19</effective>
     <citations>
       <citation type="act" url="http://lims.dccouncil.us/Download/41820/B23-0133-SignedAct.pdf">D.C. Act 23-254</citation>
       <citation type="register">0 DCR 0</citation>
@@ -20,23 +20,28 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Supporting Essential Workers Unemployment Insurance Amendment Act of 2020".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The District of Columbia Unemployment Compensation Act, approved August 28, 1935 (49 Stat. 946; D.C. Official Code § 51-101 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§51-102">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 51-102) is amended by striking the phrase "Act. The" and inserting the phrase "Act, except those benefits paid from the Supporting Essential Workers Special Fund pursuant to section 10a. The" in its place.</text>
+      <codify:find-replace>
+        <find>this subchapter. The</find>
+        <replace><code-cite doc="D.C. Code" path="51|1">this act</code-cite>, except those benefits paid from the Supporting Essential Workers Special Fund pursuant to <code-cite doc="D.C. Code" path="§51-110.01">section 10a</code-cite>. The</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>New sections 10a and 10b are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="51|1|I|A" after="§51-110" num-value="51-110.01" history-prefix="as added"/>
           <num>10a</num>
           <heading>Applicability to certain federal employees.</heading>
           <para>
             <num>(a)</num>
-            <text>Subject to the availability of funds in the Supporting Essential Workers Special Fund ("Fund") and notwithstanding any other provision of this act, the Director shall provide benefits to an eligible furlough-excepted federal employee in accordance with this section; provided, that the Director does so in a manner that is consistent with federal law.</text>
+            <text>Subject to the availability of funds in the Supporting Essential Workers Special Fund ("Fund") and notwithstanding any other provision of  <code-cite doc="D.C. Code" path="51|1">this act</code-cite>, the Director shall provide benefits to an eligible furlough-excepted federal employee in accordance with this section; provided, that the Director does so in a manner that is consistent with federal law.</text>
           </para>
           <para>
             <num>(b)</num>
@@ -46,7 +51,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>The maximum weekly benefit amount payable pursuant to this section shall be equal to the maximum benefit amount payable under section 7(b)(3)(C).</text>
+              <text>The maximum weekly benefit amount payable pursuant to this section shall be equal to the maximum benefit amount payable under <code-cite doc="D.C. Code" path="§51-107|(b)|(3)|(C)">section 7(b)(3)(C)</code-cite>.</text>
             </para>
           </para>
           <para>
@@ -68,11 +73,11 @@
             <num>(e)</num>
             <para>
               <num>(1)</num>
-              <text>Within 15 days after the applicability date of this section, the Director shall issue rules, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), to implement this section, which shall include rules establishing criteria that a furlough-excepted federal employee must satisfy to be eligible for benefits pursuant to this section.</text>
+              <text>Within 15 days after the applicability date of this section, the Director shall issue rules, <code-cite doc="D.C. Code" path="2|5|I">pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, to implement this section, which shall include rules establishing criteria that a furlough-excepted federal employee must satisfy to be eligible for benefits pursuant to this section.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>Notwithstanding sections 109 and 110, the Director may not require a furlough-excepted federal employee to:</text>
+              <text>Notwithstanding <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§51-109" codify:value="51-109">109</code-cite> and <code-cite doc="D.C. Code" path="§51-110" codify:value="51-110">110</code-cite>, the Director may not require a furlough-excepted federal employee to:</text>
               <para>
                 <num>(A)</num>
                 <text>Demonstrate that the furlough-excepted federal employee:</text>
@@ -97,11 +102,11 @@
           </para>
           <para>
             <num>(g)</num>
-            <text>Nothing in this section shall impose any employer obligation under this act on a federal employer.</text>
+            <text>Nothing in this section shall impose any employer obligation under <code-cite doc="D.C. Code" path="51|1">this act</code-cite> on a federal employer.</text>
           </para>
           <para>
             <num>(h)</num>
-            <text>Except as provided in this section and rules issued pursuant to this section, the provisions of this act shall apply to claims for benefits filed pursuant to this section.</text>
+            <text>Except as provided in this section and rules issued pursuant to this section, the provisions of <code-cite doc="D.C. Code" path="51|1">this act</code-cite> shall apply to claims for benefits filed pursuant to this section.</text>
           </para>
           <para>
             <num>(i)</num>
@@ -119,8 +124,11 @@
               <text>Who was notified by the employee's federal government employer of his or her status as an excepted employee before the employee performed services during a lapse in federal appropriations.</text>
             </para>
           </para>
+          <annotation type="History" doc="Stat. 74-1-ch794" path="§10a">Aug. 28, 1935, 49 Stat. 951, ch. 794, § 10a</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§51-110.01" applicability-path="§3" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="51|1|I|A" after="§51-110.01" num-value="51-110.02" history-prefix="as added"/>
           <num>10b</num>
           <heading>Supporting Essential Workers Special Fund.</heading>
           <para>
@@ -152,7 +160,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>Pay for personnel and non-personnel costs necessary for the administration of the provisions of section 10a; and</text>
+              <text>Pay for personnel and non-personnel costs necessary for the administration of the provisions of  <code-cite doc="D.C. Code" path="§51-110.01">section 10a</code-cite>; and</text>
             </para>
             <para>
               <num>(3)</num>
@@ -170,6 +178,7 @@
               <text>Subject to authorization in an approved budget and financial plan, any funds appropriated in the Fund shall be continually available without regard to fiscal year limitations.</text>
             </para>
           </para>
+          <annotation type="History" doc="Stat. 74-1-ch794" path="§10b">Aug. 28, 1935, 49 Stat. 951, ch. 794, § 10b</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -181,6 +190,11 @@
     <para>
       <num>(a)</num>
       <text>New section 10a within section 2 shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:repeal doc="D.C. Code" path="§51-110.01"/>
+      <codify:find-replace doc="D.C. Code" path="§51-110.01" count="2">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
