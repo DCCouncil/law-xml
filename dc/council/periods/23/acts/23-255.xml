@@ -20,27 +20,45 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Credit Union Act of 2020".</text>
-  <codify:insert doc="D.C. Code" path="26|5" history="false">
+  <codify:create-sub-container doc="D.C. Code" path="26|5" num-value="II" prefix-value="Subchapter" heading-value="General pre-2020." history="false" display-template=""/>
+  <codify:insert doc="D.C. Code" path="26|5" before="II" history="false">
     <container>
       <prefix>Subchapter</prefix>
       <num>I</num>
       <heading>Credit Union Act of 2020.</heading>
     </container>
   </codify:insert>
-  <codify:insert doc="D.C. Code" path="26|5" history="false">
-    <container>
-      <prefix>Subchapter</prefix>
-      <num>II</num>
-      <heading>General pre-2020.</heading>
-    </container>
-  </codify:insert>
-  <codify:recodify-section doc="D.C. Code" path="§26-501" num-value="26-521" destination-path="26|5|II" history="false"/>
-  <codify:recodify-section doc="D.C. Code" path="§26-501" num-value="26-522" destination-path="26|5|II" history="false"/>
-  <codify:recodify-section doc="D.C. Code" path="§26-501" num-value="26-523" destination-path="26|5|II" history="false"/>
-  <codify:recodify-section doc="D.C. Code" path="§26-501" num-value="26-524" destination-path="26|5|II" history="false"/>
-  <codify:find-replace doc="D.C. Code" path="§26-710|(a)|(10)" count="1" history="false">
-    <find>26-501 through 26-504</find>
-    <replace>26-521 through 26-524</replace>
+  <codify:replace doc="D.C. Code" path="§26-501|num" history="false" display-template="">
+    <num>26-521</num>
+  </codify:replace>
+  <codify:annotation doc="D.C. Code" path="§26-521" type="Prior Codifications" history="false" display-template="">
+    2001 Ed., § 26-501
+  </codify:annotation>
+   <codify:replace doc="D.C. Code" path="§26-502|num" history="false" display-template="">
+    <num>26-522</num>
+  </codify:replace>
+  <codify:annotation doc="D.C. Code" path="§26-522" type="Prior Codifications" history="false" display-template="">
+    2001 Ed., § 26-502
+  </codify:annotation>
+   <codify:replace doc="D.C. Code" path="§26-503|num" history="false" display-template="">
+    <num>26-523</num>
+  </codify:replace>
+  <codify:annotation doc="D.C. Code" path="§26-523" type="Prior Codifications" history="false" display-template="">
+    2001 Ed., § 26-503
+  </codify:annotation>
+   <codify:replace doc="D.C. Code" path="§26-504|num" history="false" display-template="">
+    <num>26-524</num>
+  </codify:replace>
+  <codify:annotation doc="D.C. Code" path="§26-524" type="Prior Codifications" history="false" display-template="">
+    2001 Ed., § 26-504
+  </codify:annotation>
+  <codify:find-replace doc="D.C. Code" path="§26-710|(a)|(10)" count="1" display="Update cite">
+    <find>Sections 26-501 through 26-504</find>
+    <replace>Sections 26-521 through 26-524</replace>
+  </codify:find-replace>
+  <codify:find-replace doc="D.C. Code" path="§28-4601|(2)|(D)|(iii)" count="1" display="Update cite">
+    <find>26-501</find>
+    <replace>26-521</replace>
   </codify:find-replace>
   <codify:insert doc="D.C. Code" path="26|5|I" history="false">
     <container>
@@ -254,11 +272,19 @@
       </para>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="26|5|I" history="false">
+    <container>
+      <prefix>Part</prefix>
+      <num>B</num>
+      <heading>Credit Union Organization.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>II</num>
     <heading>CREDIT UNION ORGANIZATION.</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|B" num-value="26-502.01"/>
       <num>201</num>
       <heading>District credit union charter application procedures.</heading>
       <para>
@@ -338,6 +364,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|B" num-value="26-502.02"/>
       <num>202</num>
       <heading>Certificate of charter.</heading>
       <para>
@@ -424,6 +451,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|B" num-value="26-502.03"/>
       <num>203</num>
       <heading>Form of charter statement and bylaws.</heading>
       <para>
@@ -496,6 +524,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|B" num-value="26-502.04"/>
       <num>204</num>
       <heading>Amendment of charter and bylaws.</heading>
       <para>
@@ -519,6 +548,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|B" num-value="26-502.05"/>
       <num>205</num>
       <heading>Name of District credit union.</heading>
       <para>
@@ -543,6 +573,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|B" num-value="26-502.06"/>
       <num>206</num>
       <heading>Service facilities.</heading>
       <para>
@@ -559,11 +590,13 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|B" num-value="26-502.07"/>
       <num>207</num>
       <heading>Fiscal year.</heading>
       <text>The fiscal year of each District credit union chartered under this act shall end on December 31.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|B" num-value="26-502.08"/>
       <num>208</num>
       <heading>Application for share and deposit insurance.</heading>
       <para>
@@ -595,6 +628,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|B" num-value="26-502.09"/>
       <num>209</num>
       <heading>Conducting business outside the District of Columbia.</heading>
       <para>
@@ -626,6 +660,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|B" num-value="26-502.10"/>
       <num>210</num>
       <heading>Foreign credit unions.</heading>
       <para>
@@ -729,11 +764,19 @@
       </para>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="26|5|I" history="false">
+    <container>
+      <prefix>Part</prefix>
+      <num>C</num>
+      <heading>Credit Union Powers.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>III</num>
     <heading>CREDIT UNION POWERS.</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|C" num-value="26-503.01"/>
       <num>301</num>
       <heading>General Powers.</heading>
       <para>
@@ -890,21 +933,31 @@
       </para>
     </section>
     <section>
+       <codify:insert doc="D.C. Code" path="26|5|I|C" num-value="26-503.02"/>
       <num>302</num>
       <heading>Incidental powers.</heading>
       <text>A District credit union may exercise all incidental powers as permitted by law and within the purposes stated in this act, which are convenient, suitable, or necessary to enable the District credit union to carry out the purposes of this act.</text>
     </section>
     <section>
+       <codify:insert doc="D.C. Code" path="26|5|I|C" num-value="26-503.03"/>
       <num>303</num>
       <heading>Parity.</heading>
       <text>The Commissioner may authorize District credit unions to exercise, and the Commissioner may establish conditions or limitations for the exercise of, any of the powers conferred upon federal credit unions and upon foreign credit unions operating in the District.</text>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="26|5|I" history="false">
+    <container>
+      <prefix>Part</prefix>
+      <num>D</num>
+      <heading>Credit Union Membership.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>IV</num>
     <heading>CREDIT UNION MEMBERSHIP.</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|D" num-value="26-504.01"/>
       <num>401</num>
       <heading>Membership.</heading>
       <para>
@@ -933,11 +986,13 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|D" num-value="26-504.02"/>
       <num>402</num>
       <heading>Organizations that qualify for District credit union membership.</heading>
       <text>Any incorporated or unincorporated organization, and the organization's employees, may be admitted to membership in a District credit union in the same manner and under the same conditions as individuals.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|D" num-value="26-504.03"/>
       <num>403</num>
       <heading>Service to low-income consumers.</heading>
       <para>
@@ -1012,6 +1067,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|D" num-value="26-504.04"/>
       <num>404</num>
       <heading>School service facilities.</heading>
       <para>
@@ -1036,16 +1092,19 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|D" num-value="26-504.05"/>
       <num>405</num>
       <heading>Retention of membership.</heading>
       <text>Unless the District credit union's bylaws state otherwise, a person who has become a member of a District credit union in accordance with this act may remain a member of that District credit union until that person chooses to withdraw from the membership of the District credit union, or is terminated under section 407.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|D" num-value="26-504.06"/>
       <num>406</num>
       <heading>Liability of members.</heading>
       <text>The members of a District credit union shall not be personally or individually liable for the payment of the District credit union's debts solely by virtue of their membership in the District credit union.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|D" num-value="26-504.07"/>
       <num>407</num>
       <heading>Termination of membership.</heading>
       <para>
@@ -1077,11 +1136,13 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|D" num-value="26-504.08"/>
       <num>408</num>
       <heading>Suspension of services.</heading>
       <text>A District credit union may, for cause, as defined in section 407, suspend certain services to a District credit union member under a policy adopted by the District credit union's board of directors. Members whose service is suspended may maintain a share account and continue to vote at annual and special meetings.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|D" num-value="26-504.09"/>
       <num>409</num>
       <heading>Meetings of members.</heading>
       <para>
@@ -1102,16 +1163,25 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|D" num-value="26-504.10"/>
       <num>410</num>
       <heading>Special membership meetings.</heading>
       <text>A District credit union's bylaws may prescribe the manner in which a special meeting of the members may be called by the members or the board of directors, or both.</text>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="26|5|I" history="false">
+    <container>
+      <prefix>Part</prefix>
+      <num>E</num>
+      <heading>Credit Union Governance.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>V</num>
     <heading>CREDIT UNION GOVERNANCE.</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|E" num-value="26-505.01"/>
       <num>501</num>
       <heading>Authority and duty of a board of directors.</heading>
       <para>
@@ -1200,6 +1270,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|E" num-value="26-505.02"/>
       <num>502</num>
       <heading>Election of a board of directors.</heading>
       <para>
@@ -1235,6 +1306,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|E" num-value="26-505.03"/>
       <num>503</num>
       <heading>Appointment of committees.</heading>
       <para>
@@ -1255,6 +1327,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|E" num-value="26-505.04"/>
       <num>504</num>
       <heading>Vacancies.</heading>
       <para>
@@ -1283,6 +1356,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|E" num-value="26-505.05"/>
       <num>505</num>
       <heading>Compensation of officials.</heading>
       <para>
@@ -1302,6 +1376,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|E" num-value="26-505.06"/>
       <num>506</num>
       <heading>Limited liability of directors and officers.</heading>
       <para>
@@ -1350,11 +1425,13 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|E" num-value="26-505.07"/>
       <num>507</num>
       <heading>Conflicts of interest.</heading>
       <text>Directors, committee members, and officers shall disclose all existing and potential conflicts of interest to the board of directors. No director, committee member, officer, or employee of a District credit union shall, in any manner, directly or indirectly, participate in the deliberation upon, or the determination of, any question affecting his or her pecuniary interest or the pecuniary interest of any corporation, partnership, or association in which he or she is directly or indirectly interested.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|E" num-value="26-505.08"/>
       <num>508</num>
       <heading>Officers.</heading>
       <para>
@@ -1375,6 +1452,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|E" num-value="26-505.09"/>
       <num>509</num>
       <heading>Meetings of directors.</heading>
       <para>
@@ -1391,6 +1469,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|E" num-value="26-505.10"/>
       <num>510</num>
       <heading>Audits.</heading>
       <para>
@@ -1403,6 +1482,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|E" num-value="26-505.11"/>
       <num>511</num>
       <heading>Suspension and removal powers.</heading>
       <para>
@@ -1419,11 +1499,19 @@
       </para>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="26|5|I" history="false">
+    <container>
+      <prefix>Part</prefix>
+      <num>F</num>
+      <heading>Member Accounts.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>VI</num>
     <heading>MEMBER ACCOUNTS.</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.01"/>
       <num>601</num>
       <heading>Shares and membership shares.</heading>
       <para>
@@ -1456,6 +1544,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.02"/>
       <num>602</num>
       <heading>Dividends.</heading>
       <para>
@@ -1476,6 +1565,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.03"/>
       <num>603</num>
       <heading>Deposit Accounts.</heading>
       <para>
@@ -1496,6 +1586,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.04"/>
       <num>604</num>
       <heading>Withdrawals.</heading>
       <para>
@@ -1512,11 +1603,13 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.05"/>
       <num>605</num>
       <heading>Accounts for minors.</heading>
       <text>Payments on share and deposit accounts may be received from a minor with consent from the minor's parent or guardian. The minor may withdraw funds from these accounts, including the dividends and interest thereon. If shares are issued in the name of a minor, the redemption of any part or all of the shares, or a withdrawal of funds by payment to the minor of the shares or funds, and any declared dividends or interest, releases the District credit union from all obligations to the minor as to the shares redeemed or funds withdrawn.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.06"/>
       <num>606</num>
       <heading>Joint accounts.</heading>
       <para>
@@ -1533,11 +1626,13 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.07"/>
       <num>607</num>
       <heading>Payable on death accounts.</heading>
       <text>Notwithstanding any other provision of law, a District credit union may establish share and deposit accounts payable to one or more persons during their lifetimes, and upon the death of every included account holder to one or more payable on death payees. A transfer to a payable on death payee is effective by reason of the account contract and shall not be considered a testamentary transfer.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.08"/>
       <num>608</num>
       <heading>Trust accounts.</heading>
       <para>
@@ -1550,11 +1645,13 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.09"/>
       <num>609</num>
       <heading>Trust services.</heading>
       <text>A District credit union may accept and execute trusts pursuant to the laws of the District.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.10"/>
       <num>610</num>
       <heading>Liens.</heading>
       <para>
@@ -1567,6 +1664,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.11"/>
       <num>611</num>
       <heading>Reduction in membership shares.</heading>
       <para>
@@ -1583,6 +1681,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.12"/>
       <num>612</num>
       <heading>Share and deposit insurance.</heading>
       <para>
@@ -1623,6 +1722,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|F" num-value="26-506.13"/>
       <num>613</num>
       <heading>Authority to withhold payment.</heading>
       <para>
@@ -1643,21 +1743,31 @@
       </para>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="26|5|I" history="false">
+    <container>
+      <prefix>Part</prefix>
+      <num>G</num>
+      <heading>Loans.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>VII</num>
     <heading>LOANS.</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|G" num-value="26-507.01"/>
       <num>701</num>
       <heading>Purpose and conditions of loans.</heading>
       <text>A District credit union may issue loans to members for the purposes and on the conditions prescribed by the board of directors. The board of directors shall establish written policies with respect to granting loans and extending lines of credit, including the terms, conditions, and acceptable forms of security.</text>
     </section>
     <section>
+    <codify:insert doc="D.C. Code" path="26|5|I|G" num-value="26-507.02"/>
       <num>702</num>
       <heading>Interest rate.</heading>
       <text>Notwithstanding the provisions of any other law in connection with extensions of credit, a District credit union may elect to contract for and receive interest for extensions of credit subject only to the provisions of this act and rules promulgated pursuant to this act.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|G" num-value="26-507.03"/>
       <num>703</num>
       <heading>Other loan-related charges.</heading>
       <para>
@@ -1670,11 +1780,13 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|G" num-value="26-507.04"/>
       <num>704</num>
       <heading>Loan limit.</heading>
       <text>The board of directors may place a limit on the aggregate amount to be loaned to, or co-signed by, any one member. The aggregate of loans to any one member shall not exceed 5% of the District credit union's capital or 1% of shares and deposits, whichever is greater. This limit shall not apply to loans that are fully secured by shares or deposits in the District credit union.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|G" num-value="26-507.05"/>
       <num>705</num>
       <heading>Lines of credit.</heading>
       <para>
@@ -1687,6 +1799,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|G" num-value="26-507.06"/>
       <num>706</num>
       <heading>Participation loans.</heading>
       <para>
@@ -1703,6 +1816,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|G" num-value="26-507.07"/>
       <num>707</num>
       <heading>Other loan programs.</heading>
       <para>
@@ -1723,6 +1837,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|G" num-value="26-507.08"/>
       <num>708</num>
       <heading>Loans to officials.</heading>
       <para>
@@ -1735,11 +1850,19 @@
       </para>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="26|5|I" history="false">
+    <container>
+      <prefix>Part</prefix>
+      <num>H</num>
+      <heading>Investments.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>VIII</num>
     <heading>INVESTMENTS.</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|H" num-value="26-508.01"/>
       <num>801</num>
       <heading>Authorized investments.</heading>
       <para>
@@ -1855,11 +1978,19 @@
       </para>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="26|5|I" history="false">
+    <container>
+      <prefix>Part</prefix>
+      <num>I</num>
+      <heading>Change in Corporate Status.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>IX</num>
     <heading>CHANGE IN CORPORATE STATUS</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|I" num-value="26-509.01"/>
       <num>901</num>
       <heading>Voluntary Liquidation.</heading>
       <para>
@@ -1946,6 +2077,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|I" num-value="26-509.02"/>
       <num>902</num>
       <heading>Voluntary merger of credit unions.</heading>
       <para>
@@ -2004,6 +2136,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|I" num-value="26-509.03"/>
       <num>903</num>
       <heading>Credit union conversion.</heading>
       <para>
@@ -2016,6 +2149,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="26|5|I|I" num-value="26-509.04"/>
       <num>904</num>
       <heading>Bank to credit union conversion.</heading>
       <para>
