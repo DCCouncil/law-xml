@@ -1,11 +1,11 @@
 <macro xmlns="https://code.dccouncil.us/schemas/macro" name="emergency">
   <attribute name="doc" required="false"/>
   <attribute name="path" required="false"/>
+  <attribute name="applicability" required="false"/>
   <attribute name="action" default="amendment of this section"/>
-  <attribute name="applicability" default=""/>
   <transform>
     <![CDATA[
-      <codify:annotation history="false" type="Emergency Legislation" {{ attributes|set_attribute('doc', 'path') }} applicability="{{ attributes.applicability }}">For temporary (90 days) {{ attributes.action }}, see <cite {{ parent|ref }}>{{ parent.citations.full }}</cite>.</codify:annotation>
+      <codify:annotation history="false" type="Emergency Legislation" {{ attributes|set_attribute('doc', 'path', 'applicability') }}>For temporary (90 days) {{ attributes.action }}, see <cite {{ parent|ref }}>{{ parent.citations.full }}</cite>.</codify:annotation>
     ]]>
   </transform>
 </macro>
