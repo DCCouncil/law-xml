@@ -68,6 +68,7 @@
     <xs:complexType>
       <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="applicability" type="xs:string"/>
       <xs:attribute name="action" type="xs:string" use="optional">
         <!-- @summary: Specifies the action text to be included in the generated annotation. -->
       </xs:attribute>
@@ -259,6 +260,7 @@
     <xs:complexType>
       <xs:attributeGroup ref="p:targetAttributes"/>
       <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="applicability" type="xs:string"/>
       <xs:attribute name="action" type="xs:string" use="optional">
         <!-- @summary: Specifies the action text to be included in the generated annotation, e.g. ``the addition of a new section``, ``amendment to the Expansion and Coordination of Youth Services Act of 2016``, etc.-->
       </xs:attribute>
