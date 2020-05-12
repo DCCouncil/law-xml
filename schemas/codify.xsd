@@ -142,6 +142,11 @@
   <xs:element name="insert-code-container" type="anyType">
     <!-- @summary: This instruction has been deprecated and is no longer used.-->
   </xs:element>
+  <xs:element name="marginalia">
+    <xs:complexType>
+      <xs:attributeGroup ref="sharedAttributes"/>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="not-funded-anno">
     <!-- @summary: The ``<codify:not-funded-anno>`` macro is used to generate an annotation for the target element indicating that the target element is not funded.-->
     <xs:complexType>
