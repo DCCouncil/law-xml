@@ -6,7 +6,7 @@
   <heading type="long">To amend Title 28 of the District of Columbia Official Code concerning businesses' data breaches to expand definitions, to specify the required contents of a notification of a security breach to a person whose personal information is included in a breach, to clarify time frames for reporting breaches, to require that written notice of a breach, including specific information, be given to the Office of the Attorney General for the District of Columbia, to specify the security requirements for the protection of personal information, to require the provision of 18 months of identity theft prevention services when a breach results in the release of social security or tax identification numbers, and to make violation of the requirements for protection of personal information an unfair or deceptive trade practice.</heading>
   <meta>
     <introduced>2019-03-21</introduced>
-    <effective projected="true">2020-05-19</effective>
+    <effective projected="true">2020-06-08</effective>
     <citations>
       <citation type="act" url="http://lims.dccouncil.us/Download/42130/B23-0215-SignedAct.pdf">D.C. Act 23-268</citation>
       <citation type="register">67 DCR 3923</citation>
@@ -54,8 +54,8 @@
         <num>(2)</num>
         <text>Section 28-3801 is amended by striking the word "chapter" and inserting the word "subchapter" in its place.</text>
         <codify:find-replace path="§28-3801" count="1">
-          <find>chapter</find>
-          <replace>subchapter</replace>
+          <find>This chapter</find>
+          <replace><cite doc="D.C. Code" path="28|38|I">This subchapter</cite></replace>
         </codify:find-replace>
       </para>
       <para codify:path="§28-3851|(a)">
@@ -220,7 +220,7 @@
             <para>
               <codify:insert after="(a-1)"/>
               <num>(a-2)</num>
-              <text>Notwithstanding subsection (a-1) of this section, in the case of a breach of the security of the system that only involves personal information as defined in § 28-3851(3)(A)(ii), the person or entity may comply with this section by providing the notification in electronic format or other form that directs the person to change the person's password and security question or answer, as applicable, or to take other steps appropriate to protect the e-mail account with the person or entity and all other online accounts for which the person whose personal information has been breached uses the same username or email address and password or security question or answer.</text>
+              <text>Notwithstanding subsection (a-1) of this section, in the case of a breach of the security of the system that only involves personal information as defined in <cite doc="D.C. Code" path="§28-3851|(3)|(A)|(ii)">§ 28-3851(3)(A)(ii)</cite>, the person or entity may comply with this section by providing the notification in electronic format or other form that directs the person to change the person's password and security question or answer, as applicable, or to take other steps appropriate to protect the e-mail account with the person or entity and all other online accounts for which the person whose personal information has been breached uses the same username or email address and password or security question or answer.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -359,14 +359,14 @@
             <prefix>§</prefix>
             <num>28-3852b</num>
             <heading>Remedies.</heading>
-            <text>When a person or entity experiences a breach of the security of the system that requires notification under § 28-3852(a) or (b), and such breach includes or is reasonably believed to include a social security number or taxpayer identification number, the person or entity shall offer to each District resident whose social security number or tax identification number was released identity theft protection services at no cost to such District resident for a period of not less than 18 months.  The person or entity that experienced the breach of the security of its system shall provide all information necessary for District residents to enroll in the services required under this section.</text>
+            <text>When a person or entity experiences a breach of the security of the system that requires notification under <cite doc="D.C. Code" path="§28-38-52|(a)">§ 28-3852(a) or (b)</cite>, and such breach includes or is reasonably believed to include a social security number or taxpayer identification number, the person or entity shall offer to each District resident whose social security number or tax identification number was released identity theft protection services at no cost to such District resident for a period of not less than 18 months.  The person or entity that experienced the breach of the security of its system shall provide all information necessary for District residents to enroll in the services required under this section.</text>
           </section>
           <section>
             <codify:insert path="28|38|II" after="§[28-3852.02]" num-value="[28-3852.03]"/>
             <prefix>§</prefix>
             <num>28-3852c</num>
             <heading>Rulemaking.</heading>
-            <text>The Attorney General for the District of Columbia, pursuant to § 2-501 <em>et seq</em>., may issue rules to implement the notification provisions pursuant to § 28-3852(b-1).</text>
+            <text>The Attorney General for the District of Columbia, pursuant to § 2-501 <em>et seq</em>., may issue rules to implement the notification provisions pursuant to <cite doc="D.C. Code" path="28-3852|(b-1)">§ 28-3852(b-1)</cite>.</text>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -386,7 +386,7 @@
             <para>
               <codify:replace/>
               <num>(b)</num>
-              <text>A violation of this subchapter, or any rule issued pursuant to the authority of this subchapter, is an unfair or deceptive trade practice pursuant to § 28-3904(kk).</text>
+              <text>A violation of this subchapter, or any rule issued pursuant to the authority of <cite doc="D.C. Code" path="28|38|II">this subchapter</cite>, is an unfair or deceptive trade practice pursuant to <cite doc="D.C. Code" path="§28-3904|(kk)">§ 28-3904(kk)</cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -402,14 +402,21 @@
         <para codify:path="(ii)">
           <num>(A)</num>
           <text>Subsection (ii) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
-          
+          <codify:find-replace count="1">
+            <find>; or</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(jj)">
           <num>(B)</num>
           <text>Subsection (jj) is amended by striking the period and inserting the phrase "; or" in its place.</text>
           <codify:find-replace count="1">
-            <find>[; or]</find>
-            <replace>[;]</replace>
+            <find>.</find>
+            <replace>;</replace>
+          </codify:find-replace>
+          <codify:find-replace doc="D.C. Code" path="§28-3904|(ll)" count="1">
+            <find>; or</find>
+            <replace>;</replace>
           </codify:find-replace>
         </para>
         <para>
@@ -417,9 +424,9 @@
           <text>A new subsection (kk) is added to read as follows:</text>
           <include>
             <para>
-              <codify:insert num-value="[(mm)]"/>
+              <codify:insert after="(jj)"/>
               <num>(kk)</num>
-              <text>violate any provision of subchapter 2 of Chapter 38 of this title.</text>
+              <text>violate any provision of <cite doc="D.C. Code" path="28|38|II">subchapter 2 of Chapter 38 of this title</cite><span codify:value=";">.</span></text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -438,7 +445,7 @@
             </para>
             <para>
               <num>(ii)</num>
-              <text>Notwithstanding sub-subparagraph (i) of this subparagraph, for a violation of § 28-3904(kk) a consumer may recover or obtain actual damages. Actual damages shall not include dignitary damages, including pain and suffering.</text>
+              <text>Notwithstanding sub-subparagraph (i) of this subparagraph, for a violation of <cite doc="D.C. Code" path="§28-3904|(kk)">§ 28-3904(kk)</cite> a consumer may recover or obtain actual damages. Actual damages shall not include dignitary damages, including pain and suffering.</text>
             </para>
           </para>
         </include>
@@ -449,7 +456,7 @@
         <text>Section 28-3909 is amended by striking the phrase "28-3819 or 28-3904" wherever it appears and inserting the phrase "28-3819, 28-3851, 28-3852, 28-3852a, 28-3852b, or 28-3904" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§28-3909" count="3">
           <find><cite doc="D.C. Code" path="§28-3819">28-3819</cite>, or <cite doc="D.C. Code" path="§28-3904">28-3904</cite></find>
-          <replace><cite doc="D.C. Code" path="§28-3819">28-3819</cite>, <cite doc="D.C. Code" path="§28-3851">28-3851</cite>, <cite doc="D.C. Code" path="§28-3852">28-3852</cite>, <cite doc="D.C. Code" path="§[28-3852.01]">[28-3852.01]</cite>, <cite doc="D.C. Code" path="§[28-3852.02]">[28-3852.02]</cite>, or  or <cite doc="D.C. Code" path="§28-3904">28-3904</cite></replace>
+          <replace><cite doc="D.C. Code" path="§28-3819">28-3819</cite>, <cite doc="D.C. Code" path="§28-3851">28-3851</cite>, <cite doc="D.C. Code" path="§28-3852">28-3852</cite>, <cite doc="D.C. Code" path="§[28-3852.01]">[28-3852.01]</cite>, <cite doc="D.C. Code" path="§[28-3852.02]">[28-3852.02]</cite>, or <cite doc="D.C. Code" path="§28-3904">28-3904</cite></replace>
         </codify:find-replace>
       </para>
     </para>
