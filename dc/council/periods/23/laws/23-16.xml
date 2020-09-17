@@ -600,14 +600,12 @@
                 <codify:applicability doc="D.C. Law 22-250" path="§6|(ss)" date="notfunded" history="false" display-template=""/> -->
                 <codify:applicability doc="D.C. Law 22-250" path="§8" date="notfunded" history="false" display-template=""/>
                 <codify:applicability doc="D.C. Law 22-250" path="§9" date="notfunded" history="false" display-template=""/>
-                 <codify:annotation doc="D.C. Code" path="§1-129.21" type="Applicability" history="false" display-template="">
+                <codify:annotation doc="D.C. Code" path="§1-129.21" type="Applicability" history="false" display-template="">
                 Applicability of <cite doc="D.C. Law 22-250" path="§10">D.C. Law 22-250: § 10 of D.C. Law 22-250</cite>, as amended by <cite doc="D.C. Law 23-16" path="§1043|(a)">§ 1043(a) of D.C. Law 23-16</cite>, provided that the change made to this section by <cite doc="D.C. Law 22-250" path="§2">§ 2 of D.C. Law 22-250</cite> is subject to the inclusion of the law’s fiscal effect in an approved budget and financial plan. Therefore that amendment has not been implemented.
               </codify:annotation>
-              
-               <codify:annotation doc="D.C. Code" path="§1-523.01" type="Applicability" history="false" display-template="">
+                <codify:annotation doc="D.C. Code" path="§1-523.01" type="Applicability" history="false" display-template="">
                 Applicability of <cite doc="D.C. Law 22-250" path="§10">D.C. Law 22-250: § 10 of D.C. Law 22-250</cite>, as amended by <cite doc="D.C. Law 23-16" path="§1043|(a)">§ 1043(a) of D.C. Law 23-16</cite>, provided that the change made to this section by <cite doc="D.C. Law 22-250" path="§3">§ 3 of D.C. Law 22-250</cite> is subject to the inclusion of the law’s fiscal effect in an approved budget and financial plan. Therefore that amendment has not been implemented.
               </codify:annotation>
-              
               </para>
             </para>
           </include>
@@ -1553,18 +1551,23 @@
         <para codify:path="§32-161">
           <num>(a)</num>
           <text>Section 3 (D.C. Official Code § 32-161) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended by striking the phrase "The Mayor shall" and inserting the phrase "By April 1, 2020, the Mayor shall" in its place.</text>
+              <codify:find-replace count="1">
+                <find>The Mayor shall</find>
+                <replace>By April 1, 2020, the Mayor shall</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(3)|(A)">
               <num>(B)</num>
               <text>Paragraph (3)(A) is amended to read as follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:replace/>
                   <num>(A)</num>
                   <text>Capable of being accessed and viewed via computers including mobile devices such as smartphones;</text>
                 </para>
@@ -1572,22 +1575,31 @@
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(b)|(1)">
             <num>(2)</num>
             <text>Subsection (b)(1) is amended as follows:</text>
-            <para>
+            <para codify:path="text">
               <num>(A)</num>
               <text>The lead-in language is amended by striking the phrase "The Mayor shall" and inserting the phrase "By April 1, 2020, the Mayor shall" in its place.</text>
+              <codify:find-replace count="1">
+                <find>The Mayor shall</find>
+                <replace>By April 1, 2020, the Mayor shall</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(A)">
               <num>(B)</num>
               <text>Subparagraph (A) is amended by striking the phrase "section;" and inserting the phrase "section and a telephone number or numbers for the offices within the Department of Employment Services and the Office of the Attorney General where an employee may file a complaint or obtain additional information about the employee's rights under the laws referenced in subsection (a)(1) of this section;".</text>
+              <codify:find-replace count="1">
+                <find>section;</find>
+                <replace>section and a telephone number or numbers for the offices within the Department of Employment Services and the Office of the Attorney General where an employee may file a complaint or obtain additional information about the employee's rights under the laws referenced in subsection (a)(1) of this section;</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(B)">
               <num>(C)</num>
               <text>Subparagraph (B) is amended to read as follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:replace/>
                   <num>(B)</num>
                   <text>The following text formatted for maximum readability:</text>
                   <text>EMPLOYEE RIGHTS IN THE DISTRICT OF COLUMBIA: You have the right to be paid the Minimum Wage or the applicable Living Wage; the right to proper and timely payment of wages; the right to remain free from unlawful discrimination; and the right to Workers' Compensation due to accidental injury on the job. You may have the right to paid Sick and Safe Leave once you have worked for an employer for 90 days. If you are an employee affected by pregnancy, childbirth, or a related medical condition you may be entitled to a reasonable accommodation at work and certain other protections. If you are a parent or guardian of a child, you have the right, in any 12-month period, to up to 24 hours of unpaid Parental Leave to attend school-related events for your child. Certain employees are entitled to unpaid time off for birth or placement of a child, caring for a family member, or for the employee's own serious health condition. Beginning July 1, 2020, employees who meet certain requirements will be eligible to receive paid leave for absences due to the birth or placement of a child, need to care for a family member with a serious health condition, or need to receive medical care for a serious health condition. This notice does not create, expand, or limit rights under District or federal law. Visit the website for more information on these rights and how to exercise them.;</text>
@@ -1595,15 +1607,17 @@
               </include>
               <aftertext>.</aftertext>
             </para>
-            <para>
+            <para codify:path="(C)">
               <num>(D)</num>
               <text>Subparagraph (C) is repealed.</text>
+              <codify:repeal/>
             </para>
             <para>
               <num>(E)</num>
               <text>A new subparagraph (C-1) is added to read as follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:insert after="(C)"/>
                   <num>(C-1)</num>
                   <text>The amount of sick and safe leave that a worker may accrue annually;</text>
                 </para>
@@ -1612,10 +1626,10 @@
             </para>
           </para>
           <!-- only for purposes of marginalia and cite line -->
-          <codify:find-replace display="Subject to appropriations">
+          <!-- <codify:find-replace display="Subject to appropriations">
             <find>Not Funded</find>
             <replace>Not Funded</replace>
-          </codify:find-replace>
+          </codify:find-replace> S2A of L22-196 repealed by 2021 BSA-->
           <!--  -->
           <codify:annotation doc="D.C. Code" path="§32-161" type="Applicability" history="false"><cite doc="D.C. Law 23-16" path="§2102|(a)">D.C. Law 23-16, § 2102(a),</cite> amended this section which is subject to appropriations pursuant to <cite doc="D.C. Law 22-196" path="§8">§ 8 of D.C. Law 22-196</cite>. Therefore the amendment made by D.C. Law 23-16 has not been implemented.
           </codify:annotation>
@@ -1654,10 +1668,10 @@
             <aftertext>.</aftertext>
           </para>
           <!-- only for purposes of marginalia and cite line -->
-          <codify:find-replace display="Subject to appropriations">
+          <!-- <codify:find-replace display="Subject to appropriations">
             <find>Not Funded</find>
             <replace>Not Funded</replace>
-          </codify:find-replace>
+          </codify:find-replace> S2A of L22-196 repealed by 2021 BSA-->
           <!--  -->
           <codify:annotation doc="D.C. Code" path="§32-162" type="Applicability" history="false"><cite doc="D.C. Law 23-16" path="§2102|(c)">D.C. Law 23-16, § 2102(c),</cite> amended this section which is subject to appropriations pursuant to <cite doc="D.C. Law 22-196" path="§8">§ 8 of D.C. Law 22-196</cite>. Therefore the amendment made by D.C. Law 23-16 has not been implemented.
           </codify:annotation>
@@ -8431,11 +8445,11 @@
       <section>
         <num>7105</num>
         <text>Section 7154 of the IPW Fund, Destination DC Marketing Fund, and WMATA Momentum Support Fund Establishment Act of 2014, effective February 26, 2015 (D.C. Law 20-155; D.C. Official Code § 1-325.311), is repealed</text>
-        <codify:repeal path="§1-325.311"/><codify:find-replace doc="D.C. Code" path="1|3|XI|FF|heading" count="1">
+        <codify:repeal path="§1-325.311"/>
+        <codify:find-replace doc="D.C. Code" path="1|3|XI|FF|heading" count="1">
           <find>Fund.</find>
           <replace>Fund. [Repealed.]</replace>
         </codify:find-replace>
-
       </section>
     </container>
     <codify:insert path="1|3" after="XVII" history="false">
