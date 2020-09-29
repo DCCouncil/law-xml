@@ -32,19 +32,17 @@
       <para codify:path="(1)|num">
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (1A).</text>
-        <!-- temporary until funded -->
-        <!-- <codify:find-replace count="1">
-          <find>(1)</find>
-          <replace>(1A)</replace>
-        </codify:find-replace> -->
+        <!-- temporary until funded Now Funded-->
+        
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (1) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert before="(2)" num-value="(1A)"/>
-            <!-- temporary (1A) until funded -->
+            <codify:insert before="(1)" num-value="(1X)"/>
+            
+            <!-- temporary (1A) until funded Now Funded-->
             <num>(1)</num>
             <text>"Clean-air Transportation Fringe Benefit" means the following benefits that are provided in addition to compensation:</text>
             <para>
@@ -62,6 +60,14 @@
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:find-replace count="1">
+          <find>(1)</find>
+          <replace>(1A)</replace>
+        </codify:find-replace>
+        <codify:find-replace count="1">
+          <find>(1X)</find>
+          <replace>(1)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
@@ -238,7 +244,7 @@
           </para>
           <para>
             <num>(f)</num>
-            <text>Each covered employer shall within 90 days after <span codify:value="[insert applicability date]">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, and every 2 years thereafter, submit to the Mayor a report that includes:</text>
+            <text>Each covered employer shall within 90 days after <span codify:value="October 1, 2020">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, and every 2 years thereafter, submit to the Mayor a report that includes:</text>
             <para>
               <num>(1)</num>
               <text>The total number of employees;</text>
@@ -292,19 +298,19 @@
             <num>(i)</num>
             <para>
               <num>(1)</num>
-              <text>This section shall not apply to a parking benefit offered by a covered employer who, before <span codify:value="[insert applicability date]">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, owned, and continues to own, the parking spots used by the employees who are offered a parking benefit.</text>
+              <text>This section shall not apply to a parking benefit offered by a covered employer who, before <span codify:value="October 1, 2020">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, owned, and continues to own, the parking spots used by the employees who are offered a parking benefit.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>If, before <span codify:value="[insert applicability date]">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, a covered employer leases the parking spot used by the employee who is offered a parking benefit, this section shall apply to the to the parking benefit at the end of the current lease term, regardless of whether the lease agreement contemplated extensions beyond the current lease term.</text>
+              <text>If, before <span codify:value="October 1, 2020">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, a covered employer leases the parking spot used by the employee who is offered a parking benefit, this section shall apply to the to the parking benefit at the end of the current lease term, regardless of whether the lease agreement contemplated extensions beyond the current lease term.</text>
             </para>
             <para>
               <num>(3)</num>
-              <text>If, before <span codify:value="[insert applicability date]">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, a covered employer is party to a transportation demand management plan that was reviewed by the Department this section shall apply to the covered employer at the end of the current term of the transportation demand management plan, regardless of whether the transportation demand management plan contemplated extension beyond the current term, or 5 years after <span codify:value="[insert applicability date]">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, whichever is earlier.</text>
+              <text>If, before <span codify:value="October 1, 2020">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, a covered employer is party to a transportation demand management plan that was reviewed by the Department this section shall apply to the covered employer at the end of the current term of the transportation demand management plan, regardless of whether the transportation demand management plan contemplated extension beyond the current term, or 5 years after <span codify:value="October 1, 2020">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, whichever is earlier.</text>
             </para>
             <para>
               <num>(4)</num>
-              <text>If, before <span codify:value="[insert applicability date]">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, a covered employer is party to a Campus Plan approved pursuant to section X101 of Title 11 of the District of Columbia Municipal Regulations (11 DCMR § X101), this section shall apply to the covered employer at the end of the current term of the Campus Plan, regardless of whether the Campus Plan contemplated extension beyond the current term, if the Campus Plan requires annual reporting to the Department of:</text>
+              <text>If, before <span codify:value="October 1, 2020">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, a covered employer is party to a Campus Plan approved pursuant to section X101 of Title 11 of the District of Columbia Municipal Regulations (11 DCMR § X101), this section shall apply to the covered employer at the end of the current term of the Campus Plan, regardless of whether the Campus Plan contemplated extension beyond the current term, if the Campus Plan requires annual reporting to the Department of:</text>
               <para>
                 <num>(A)</num>
                 <text>The current percentage, and year-over-year change in the percentage, of trips to campus that are made by car, including for-hire vehicles;</text>
@@ -340,7 +346,7 @@
           <para>
             <codify:insert/>
             <num>(b)</num>
-            <text>Within 90 days after <span codify:value="[insert applicability date]">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, the Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, shall issue rules to implement the provisions of <code-cite doc="D.C. Code" path="§32-152.01"> section 302a</code-cite>.</text>
+            <text>Within 90 days after <span codify:value="October 1, 2020">the applicability date of the Transportation Benefits Equity Amendment Act of 2020, passed on 2nd reading on April 7, 2020 (Enrolled version of Bill 23-148)</span>, the Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, shall issue rules to implement the provisions of <code-cite doc="D.C. Code" path="§32-152.01"> section 302a</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>

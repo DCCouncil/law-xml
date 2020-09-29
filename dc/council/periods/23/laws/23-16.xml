@@ -241,14 +241,14 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <!-- taking out reference to "(A)" for appveyor issue -->
-        <para codify:path="§1-1163.10a|(a)|(2)">
+        <!-- taking out reference to "(A)" for appveyor issue (restored)-->
+        <para codify:path="§1-1163.10a|(a)|(2)|(A)">
           <num>(c)</num>
           <text>Section 310a(a)(2)(A) (D.C. Official Code § 1-1163.10a(a)(2)(A)) is amended by striking the phrase "Campaign Finance Board" and inserting the phrase "Director of Campaign Finance" in its place.</text>
-          <!-- <codify:find-replace count="1">
+         <codify:find-replace count="1">
             <find>Campaign Finance Board</find>
             <replace>Director of Campaign Finance</replace>
-          </codify:find-replace> -->
+          </codify:find-replace>
         </para>
         <para codify:path="§1-1163.12a|(b)">
           <num>(d)</num>
@@ -1638,22 +1638,24 @@
         <para codify:path="§32-162">
           <num>(c)</num>
           <text>Section 4 (D.C. Official Code § 32-162) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)|(1)">
             <num>(1)</num>
             <text>Subsection (a)(1) is amended by adding a new paragraph (6) to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(6)</num>
                 <text>All materials prepared and distributed in accordance with this subsection must contain a telephone number and internet website address for the Department of Employment Services and the Office of the Attorney General where an employee can obtain additional information about the employee's workplace rights or file a complaint.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(b)|(2)">
             <num>(2)</num>
             <text>Subsection (b)(2) is amended by adding a new subparagraph (B-i) to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert after="(B)"/>
                 <num>(B-i)</num>
                 <text>For the Internet component:</text>
                 <para>
@@ -1672,7 +1674,8 @@
           <!-- <codify:find-replace display="Subject to appropriations">
             <find>Not Funded</find>
             <replace>Not Funded</replace>
-          </codify:find-replace> S2A of L22-196 repealed by 2021 BSA-->
+          </codify:find-replace> -->
+          <!--- S2A of L22-196 repealed by 2021 BSA -->
           <!--  -->
           <codify:annotation doc="D.C. Code" path="§32-162" type="Applicability" history="false"><cite doc="D.C. Law 23-16" path="§2102|(c)">D.C. Law 23-16, § 2102(c),</cite> amended this section which is subject to appropriations pursuant to <cite doc="D.C. Law 22-196" path="§8">§ 8 of D.C. Law 22-196</cite>. Therefore the amendment made by D.C. Law 23-16 has not been implemented.
           </codify:annotation>
@@ -1681,13 +1684,18 @@
       <section codify:path="§32-1009.01|(b)|(1)">
         <num>2103</num>
         <text>Section 10a(b)(1) of the Minimum Wage Act Revision Act of 1992, effective March 25, 1993 (D.C. Law 9-248; D.C. Official Code § 32-1009.01(b)(1)), is amended as follows:</text>
-        <para>
+        <para codify:path="(A)">
           <num>(a)</num>
           <text>Subparagraph (A) is amended by striking the phrase "and to enable an employee to report a violation of this act".</text>
+          <codify:find-replace count="1">
+            <find>and to enable an employee to report a violation of <code-cite doc="D.C. Code" path="32|10|I">this act</code-cite></find>
+            <replace></replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(C)">
           <num>(b)</num>
           <text>Subparagraph (C) is repealed.</text>
+          <codify:repeal/>
         </para>
         <!-- only for purposes of marginalia and cite line -->
         <codify:find-replace display="Subject to appropriations">
@@ -6438,57 +6446,59 @@
         <text>Short title</text>
         <text>This subtitle may be cited as the "Senior Strategic Plan Clarification Amendment Act of 2019".</text>
       </section>
-      <section codify:path="§7-503.07|(b)">
+      <section codify:path="§7-503.07">
         <num>5132</num>
         <text>Section 307(b) of the District of Columbia Act on the Aging, effective October 29, 1975 (D.C. Law 1-24; D.C. Official Code § 7-503.07(b)) is amended as follows:</text>
-        <para codify:path="(1)">
+        <!-- § 7-503.07 was defunded by Act 23-407 (2021 BSA). This amendment must be restored when funded.-->
+        <para>
           <num>(a)</num>
           <text>Paragraph (1) is amended as follows:</text>
-          <para codify:path="(B)">
+          <para>
             <num>(1)</num>
             <text>Subparagraph (B) is amended by striking the phrase "of those populations; and" and inserting the phrase "of those populations, especially those with cognitive and other disabilities who cannot care for themselves without assistance;" in its place.</text>
-            <codify:find-replace count="1">
+            <!-- <codify:find-replace count="1">
               <find>of those populations; and</find>
               <replace>of those populations, especially those with cognitive and other disabilities who cannot care for themselves without assistance;</replace>
-            </codify:find-replace>
+            </codify:find-replace> -->
+            
           </para>
           <para>
             <num>(2)</num>
             <text>A new subparagraph (B-i) is added to read as follows:</text>
             <include lvl="2">
               <para>
-                <codify:insert after="(B)"/>
+                <!-- <codify:insert after="(B)"/> -->
                 <num>(B-i)</num>
                 <text>The number of aged residents, listed by Ward, who spend down assets in order to qualify for Medicaid, who forgo needed care because they cannot afford the care, and who spend a significant percentage of their income or assets on health care; and</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para codify:path="(C)">
+          <para>
             <num>(3)</num>
             <text>Subparagraph (C) is amended as follows:</text>
-            <para codify:path="(ii)">
+            <para>
               <num>(A)</num>
               <text>Sub-subparagraph (ii) is amended by striking the phrase "minorities; or" and inserting the phrase "minorities;" in its place.</text>
-              <codify:find-replace count="1">
+              <!-- <codify:find-replace count="1">
                 <find>minorities; or</find>
                 <replace>minorities;</replace>
-              </codify:find-replace>
+              </codify:find-replace> -->
             </para>
-            <para codify:path="(iii)">
+            <para>
               <num>(B)</num>
               <text>Sub-subparagraph (iii) is amended by striking the semicolon and inserting the phrase "; and" in its place.</text>
-              <codify:find-replace count="1">
+              <!-- <codify:find-replace count="1">
                 <find>;</find>
                 <replace>; and</replace>
-              </codify:find-replace>
+              </codify:find-replace> -->
             </para>
             <para>
               <num>(C)</num>
               <text>A new sub-subparagraph (iv) is added to read as follows:</text>
               <include lvl="3">
                 <para>
-                  <codify:insert/>
+                  <!-- <codify:insert/> -->
                   <num>(iv)</num>
                   <text>Are disabled;</text>
                 </para>
@@ -6497,34 +6507,39 @@
             </para>
           </para>
         </para>
-        <para codify:path="(7)">
+        <para>
           <num>(b)</num>
           <text>Paragraph (7) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
-          <codify:find-replace count="1">
+          <!-- <codify:find-replace count="1">
             <find>; and</find>
             <replace>;</replace>
-          </codify:find-replace>
+          </codify:find-replace> -->
         </para>
-        <para codify:path="(8)">
+        <para>
           <num>(c)</num>
           <text>Paragraph (8) is amended by striking the period and inserting the phrase ";and" in its place.</text>
-          <codify:find-replace count="1">
+          <!-- <codify:find-replace count="1">
             <find>.</find>
             <replace>; and</replace>
-          </codify:find-replace>
+          </codify:find-replace> -->
         </para>
         <para>
           <num>(d)</num>
           <text>A new paragraph (9) is added to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:insert/>
+              <!-- <codify:insert/> -->
               <num>(9)</num>
               <text>Current licensing and training programs, administered by the Department of Health or the Department of Employment Services, for in-home healthcare workers and recommendations for improvements to licensing or training programs that would increase the number of in-home healthcare workers in the District.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
+        <!-- This is for marginalia and cite line purposes only -->
+            <codify:find-replace>
+              <find>Not</find>
+              <replace>Not</replace>
+            </codify:find-replace>
       </section>
     </container>
     <container>
@@ -9512,11 +9527,12 @@
       <section>
         <num>7177</num>
         <text>Section 5(a) of the Sports Wagering Lottery Amendment Act of 2018, effective May 3, 2019 (D.C. Law 22-312; 66 DCR 1402), is amended by striking the phrase "This act" and inserting the phrase "The amendatory section of 316(d) of section 2(e) of this act" in its place.</text>
-        <codify:repeal doc="D.C. Code" path="§36-621.16|(d)" display-template=""/>
-        <codify:find-replace doc="D.C. Code" path="§36-621.16|(d)" count="1" display-template="">
+        <!-- <codify:repeal doc="D.C. Code" path="§36-621.16|(d)" display-template=""/> -->
+        <!-- Section 5 of Law 22-312 was repealed by Act 23-407 (2021 BSA) -->
+        <!-- <codify:find-replace doc="D.C. Code" path="§36-621.16|(d)" count="1" display-template="">
           <find>Repealed</find>
           <replace>Not Funded</replace>
-        </codify:find-replace>
+        </codify:find-replace> -->
         <codify:repeal doc="D.C. Law 22-312" path="§5"/>
         <codify:annotation doc="D.C. Code" path="§22-1716" type="Applicability" history="false">
           Applicability of <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite>: <cite doc="D.C. Law 23-16" path="§7177">§ 7177 of D.C. Law 23-16</cite> amended <cite doc="D.C. Law 22-312" path="§5|(a)">§ 5(a) of D.C. Law 22-312</cite> to repeal the delayed applicability affecting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been implemented.
