@@ -48,13 +48,13 @@
     <para codify:path="§3-1201.02|(a)">
       <num>(b)</num>
       <text>Section 102 (D.C. Official Code § 3-1201.02) is amended as follows:</text>
-      <para codify:path="(15A)|num">
+      <para>
         <num>(1)</num>
         <text>Paragraph (15A) is designated as paragraph (15B).</text>
-        <codify:find-replace count="1">
-          <find>(15A)</find>
-          <replace>(15B)</replace>
-        </codify:find-replace>
+        <codify:replace path="(15A)|num">
+          <num>(15B)</num>
+        </codify:replace>
+        <codify:placeholder after="(15A)" tag-value="para" num-value="(15B)"/>
       </para>
       <para>
         <num>(2)</num>
@@ -62,7 +62,7 @@
         <!-- change when applicable Now funded -->
         <include lvl="1">
           <para>
-            <codify:insert after="(15)"/>
+            <codify:insert after="(15)" placeholder-value=""/>
             <num>(15A)</num>
             <text>"Practice of professional art therapy" means the integrative application of psychotherapeutic principles and methods with specialized training in art media, the neurobiological implications of art-making, and art-based assessment models to assist an individual or group to improve cognitive and sensory-motor functions, increase self-awareness and self-esteem, cope with grief and traumatic experience, resolve conflicts and distress, and enhance social functioning. The practice of professional art therapy includes:</text>
             <para>
