@@ -5848,6 +5848,10 @@
       <section>
         <num>4062</num>
         <text>Section 102(f) of the Healthy Schools Act of 2010, effective July 27, 2010 (D.C. Law 18-209; D.C. Official Code § 38-821.02(f)), is amended by striking the phrase "Beginning on October 1, 2019, an amount of $5,110,000" and inserting the phrase "Beginning on October 1, 2020, an amount of $5,590,000" in its place.</text>
+        <codify:find-replace path="§38-821.02|(f)" count="1">
+          <find>Beginning on October 1, 2019, an amount of $5,110,000</find>
+          <replace>Beginning on October 1, 2020, an amount of $5,590,000</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -5864,6 +5868,7 @@
         <text>Section 2209(b)(1) of the District of Columbia School Reform Act of 1995, approved April 26, 1996 (110 Stat. 1321-125; D.C. Official Code § 38-1802.09(b)(1)), is amended by adding a new subparagraph (B-ii) to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert path="§38-1802.09|(b)|(1)" after="(B-i)"/>
             <num>(B-ii)</num>
             <text>Notwithstanding subparagraph (A) of this paragraph, the Mayor may give the right of first offer to purchase, lease, or otherwise use the former Wilkinson Elementary School building to:</text>
             <para>
@@ -5878,18 +5883,23 @@
         </include>
         <aftertext>.</aftertext>
       </section>
-      <section>
+      <section codify:path="§10-801">
         <num>4073</num>
         <text>Section 1 of An Act Authorizing the sale of certain real estate in the District of Columbia no longer required for public purposes, approved August 5, 1939 (53 Stat. 1211; D.C. Official Code § 10-801), is amended as follows:</text>
-        <para>
+        <para codify:path="(a)|(1)">
           <num>(a)</num>
           <text>Subsection (a)(1) is amended by striking the number "20" and inserting the number "15" in its place.</text>
+          <codify:find-replace count="1">
+            <find>20</find>
+            <replace>15</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>A new subsection (b-6) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(b-5)"/>
               <num>(b-6)</num>
               <para>
                 <num>(1)</num>
@@ -5915,6 +5925,7 @@
         <text>This subtitle may be cited as the "Academic Middle Mentoring Initiative Act of 2020".</text>
       </section>
       <section>
+        <codify:marginalia display="Not Codified"/>
         <num>4082</num>
         <heading>In Fiscal Year 2021, the Office of the State Superintendent of Education shall award, on a competitive basis, a grant of $200,000 to support a mentoring program that mentors low-income high school students and low-income, first generation college students in the academic middle, who are enrolled in or who graduated from a District public or public charter school, to provide the students with the skills and experiences needed to successfully complete college and excel in the workforce.</heading>
       </section>
@@ -5933,6 +5944,7 @@
         <text>Section 403(g) of the Community Schools Incentive Act of 2012, effective June 19, 2012 (D.C. Law 19-142; D.C. Official Code § 38-754.03(g)), is amended by adding a new paragraph (4) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert path="§38-754.03|(g)"/>
             <num>(4)</num>
             <text>Any funds awarded pursuant to paragraph (1) of this subsection but not expended in Fiscal Year 2020 shall be available to the grant recipients until September 30, 2021.</text>
           </para>
@@ -5951,7 +5963,7 @@
       <section>
         <num>4102</num>
         <text>The School Safety and Security Contracting Procedures Act of 2004, effective April 13, 2005 (D.C. Law 15-350; D.C. Official Code § 5-132.01 <em>et seq</em>.), is amended as follows:</text>
-        <para>
+        <para codify:path="§5-132.01">
           <num>(a)</num>
           <text>Section 101 (D.C. Official Code § 5-132.01) is amended as follows:</text>
           <para>
@@ -5959,21 +5971,24 @@
             <text>A new paragraph (1B) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(1A)"/>
                 <num>(1B)</num>
-                <text>"MOA" means the Memorandum of Agreement into which DCPS and MPD enter pursuant to section 104.</text>
+                <text>"MOA" means the Memorandum of Agreement into which DCPS and MPD enter pursuant to <code-cite doc="D.C. Code" path="§5-132.04">section 104</code-cite>.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(4)">
             <num>(2)</num>
             <text>Paragraph (4) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(5)">
             <num>(3)</num>
             <text>Paragraph (5) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace/>
                 <num>(5)</num>
                 <text>"School security personnel" means individuals, including unarmed security guards, that DCPS hires or contracts to support safety in DCPS schools.</text>
               </para>
@@ -5985,29 +6000,36 @@
             <text>A new paragraph (5A) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(5)"/>
                 <num>(5A)</num>
                 <text>"Security-related contract" means any contract to provide physical or personal security services, including school security personnel, at DCPS schools.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(6)">
             <num>(5)</num>
             <text>Paragraph (6) is repealed.</text>
+            <codify:repeal/>
           </para>
         </para>
-        <para>
+        <para codify:path="§5-132.02">
           <num>(b)</num>
           <text>Section 102 (D.C. Official Code § 5-132.02) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the phrase "security for the District of Columbia Public Schools" and inserting the phrase "school resource officers to the DCPS schools and public charter schools" in its place.</text>
+            <codify:find-replace count="1">
+              <find>security for the District of Columbia Public Schools</find>
+              <replace>school resource officers to the DCPS schools and public charter schools</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(2)</num>
             <text>Subsection (c) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(c)</num>
                 <text>The School Safety Division shall:</text>
                 <para>
@@ -6039,24 +6061,40 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§5-132.03">
           <num>(c)</num>
           <text>Section 103 (D.C. Official Code § 5-132.03) is amended as follows:</text>
-          <para>
+          <para codify:path="heading">
             <num>(1)</num>
             <text>The section heading is amended by striking the phrase "security personnel" and inserting the phrase "resource officers" in its place.</text>
+            <codify:find-replace count="1">
+              <find>security personnel</find>
+              <replace>resource officers</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="text">
             <num>(2)</num>
             <text>The lead-in language is amended by striking the phrase "security personnel providing security for DCPS" and inserting the phrase "resource officers" in its place.</text>
+            <codify:find-replace count="1">
+              <find>security personnel providing security for DCPS</find>
+              <replace>resource officers</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(7)">
             <num>(3)</num>
             <text>Paragraph (7) is amended by striking the phrase "laws and regulations, including Board of Education regulations" and inserting the phrase "laws and regulations" in its place.</text>
+            <codify:find-replace count="1">
+              <find>laws and regulations, including Board of Education regulations</find>
+              <replace>laws and regulations</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(8)">
             <num>(4)</num>
             <text>Paragraph (8) is amended by striking the phrase "security personnel" and inserting the phrase "resource officers" in its place.</text>
+            <codify:find-replace count="1">
+              <find>security personnel</find>
+              <replace>resource officers</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -6064,6 +6102,7 @@
           <text>New sections 103a and 103b are added to read as follows:</text>
           <include>
             <section>
+              <codify:insert path="5|1|XVI-A" after="5-132.03" num-value="5-132.03a"/>
               <num>103a</num>
               <heading>DCPS responsibilities for school security.</heading>
               <para>
@@ -6092,11 +6131,12 @@
               </para>
             </section>
             <section>
+              <codify:insert path="5|1|XVI-A" after="5-132.03a" num-value="5-132.03b"/>
               <num>103b</num>
               <heading>Training for school security personnel.</heading>
               <para>
                 <num>(a)</num>
-                <text>For the school year beginning in 2020, DCPS may use the training curriculum adopted by MPD pursuant to section 103 to train its school security personnel.</text>
+                <text>For the school year beginning in 2020, DCPS may use the training curriculum adopted by MPD pursuant to <code-cite doc="D.C. Code" path="§5-132.03">section 103</code-cite> to train its school security personnel.</text>
               </para>
               <para>
                 <num>(b)</num>
@@ -6150,12 +6190,13 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§5-132.04">
           <num>(e)</num>
           <text>Section 104 (D.C. Official Code § 5-132.04) is amended to read as follows:</text>
           <include>
             <section>
-              <num>104</num>
+              <codify:replace/>
+              <num codify:value="5-132.04">104</num>
               <heading>Coordination of school security efforts between DCPS and MPD.</heading>
               <para>
                 <num undesignated="true">(a)</num>
@@ -6170,7 +6211,7 @@
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>Delineate lines of authority, supervision, and communication between MPD and DCPS, including how school resource officers deployed at each school will provide security in coordination with the school's principal and school security personnel; provided, that during emergencies, incident command shall be consistent with the District of Columbia response plan, as defined by section 2(1A) of the District of Columbia Public Emergency Act of 1980, effective March 5, 1981 (D.C. Law 3-149; D.C. Official Code § 7-2301(1A));</text>
+                  <text>Delineate lines of authority, supervision, and communication between MPD and DCPS, including how school resource officers deployed at each school will provide security in coordination with the school's principal and school security personnel; provided, that during emergencies, incident command shall be consistent with the District of Columbia response plan, as defined by <code-cite doc="D.C. Code" path="§7-2301|(1A)">section 2(1A) of the District of Columbia Public Emergency Act of 1980, effective March 5, 1981 (D.C. Law 3-149; D.C. Official Code § 7-2301(1A))</code-cite>;</text>
                 </para>
                 <para>
                   <num>(4)</num>
@@ -6185,12 +6226,13 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§5-132.05">
           <num>(f)</num>
           <text>Section 105 (D.C. Official Code § 5-132.05) is amended to read as follows:</text>
           <include>
             <section>
-              <num>105</num>
+              <codify:replace/>
+              <num codify:value="5-132.05">105</num>
               <heading>Authority to issue RFPs for school security-related contracts.</heading>
               <para>
                 <num>(a)</num>
@@ -6214,7 +6256,7 @@
       </section>
     </container>
   </container>
-  <container>
+  <container codify:doc="D.C. Code">
     <prefix>TITLE</prefix>
     <num>V</num>
     <heading>HUMAN SUPPORT SERVICES</heading>
@@ -6233,20 +6275,30 @@
         <para>
           <num>(a)</num>
           <text>Section 5062(5) (D.C. Official Code § 44-664.01(5)) is amended by striking the phrase "September 30 of the period 3 fiscal years prior to the fiscal year the fee is assessed" and inserting the phrase "September 30, 2018" in its place.</text>
+          <codify:find-replace path="§44-664.01|(5)" count="1">
+            <find>September 30 of the period 3 fiscal years prior to the fiscal year the fee is assessed</find>
+            <replace>September 30, 2018</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>Section 5063(c)(1) (D.C. Official Code § 44-664.02(c)(1)) is amended by striking the semicolon and inserting the phrase ", either directly or through payments to managed care organizations;" in its place.</text>
+          <codify:find-replace path="§44-664.02|(c)|(1)" count="1">
+            <find>;</find>
+            <replace>, either directly or through payments to managed care organizations;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§44-664.03|(a)">
           <num>(c)</num>
           <text>Section 5064(a)(1) and (2) (D.C. Official Code § 44-664.03(a)(1) and (2)) is amended to read as follows:</text>
           <include lvl="1">
-            <para>
+            <para codify:path="(1)">
+              <codify:replace/>
               <num>(1)</num>
               <text>An amount equal to the non-federal share of the total available spending room under the outpatient Medicaid upper payment limit for private hospitals applicable to District Fiscal Year 2020, consistent with requirements and approvals from the United States Department of Health and Human Services, Centers for Medicare and Medicaid Services; plus</text>
             </para>
-            <para>
+            <para codify:path="(2)">
+              <codify:replace/>
               <num>(2)</num>
               <text>An amount equal to the non-federal share of the total available spending room under the outpatient Medicaid upper payment limit for District operated hospitals applicable to District Fiscal Year 2020, consistent with the federal approval of the authorizing Medicaid State Plan amendment or associated templates and other authorities; plus</text>
             </para>
@@ -6256,13 +6308,18 @@
         <para>
           <num>(d)</num>
           <text>Section 5065(a) (D.C. Official Code § 44-664.04(a)) is amended by striking the phrase "the Centers for Medicare and Medicaid Services approves the Medicaid State Plan amendment" and inserting the phrase "the District obtains approvals required by the Centers for Medicare and Medicaid Services for" in its place.</text>
+          <codify:find-replace path="§44-664.04|(a)" count="1">
+            <find>the Centers for Medicare and Medicaid Services approves the Medicaid State Plan amendment</find>
+            <replace>the District obtains approvals required by the Centers for Medicare and Medicaid Services for</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(e)</num>
           <text>Section 5066 (D.C. Official Code § 44-664.05) is amended to read as follows:</text>
           <include>
             <section>
-              <num>5066</num>
+              <codify:replace path="§44-664.05"/>
+              <num codify:value="44-664.05">5066</num>
               <heading>Medicaid outpatient hospital access payments; payments to MCOs.</heading>
               <para>
                 <num>(a)</num>
@@ -6286,6 +6343,7 @@
         <text>Section 5013(a) of the Medicaid Hospital Inpatient Rate Supplement Act of 2017, effective December 13, 2017 (D.C. Law 22-33; D.C. Official Code § 44-664.13(a)), is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace path="§44-664.13|(a)"/>
             <num>(a)</num>
             <para>
               <num>(1)</num>
@@ -6316,22 +6374,40 @@
       <section>
         <num>5012</num>
         <text>The Legalization of Marijuana for Medical Treatment Initiative of 1999, effective February 25, 2010 (D.C. Law 13-315; D.C. Official Code § 7-1671.01 <em>et seq</em>.), is amended as follows:</text>
-        <para>
+        <para codify:path="§7-1671.01">
           <num>(a)</num>
           <text>Section 2 (D.C. Official Code § 7-1671.01), is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Paragraphs (1), (1A), (1B), and (1C) are redesignated as paragraphs (1B), (1C), (1D), and (1E), respectively.</text>
+            <codify:find-replace path="(1C)|num" count="1">
+              <find>(1C)</find>
+              <replace>(1E)</replace>
+            </codify:find-replace>
+            <codify:find-replace path="(1B)|num" count="1">
+              <find>(1B)</find>
+              <replace>(1D)</replace>
+            </codify:find-replace>
+            <codify:find-replace path="(1A)|num" count="1">
+              <find>(1A)</find>
+              <replace>(1C)</replace>
+            </codify:find-replace>
+            <codify:find-replace path="(1)|num" count="1">
+              <find>(1)</find>
+              <replace>(1B)</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>New paragraphs (1) and (1A) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert before="(1B)"/>
                 <num>(1)</num>
                 <text>"ABC Board" means the Alcoholic Beverage Control Board.".</text>
               </para>
               <para>
+                <codify:insert before="(1B)"/>
                 <num>(1A)</num>
                 <text>"ABRA" means the Alcoholic Beverage Regulation Administration.</text>
               </para>
@@ -6341,119 +6417,205 @@
           <para>
             <num>(3)</num>
             <text>Paragraph (3)(B) is amended by striking the phrase "with the Department" and inserting the phrase "with ABRA" in its place.</text>
+            <codify:find-replace path="(3)|(B)" count="1">
+              <find>with the Department</find>
+              <replace>with ABRA</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>Paragraph (5) is amended by striking the phrase "with the Mayor" and inserting the phrase "with ABRA" in its place.</text>
+            <codify:find-replace path="(5)" count="1">
+              <find>with the Mayor</find>
+              <replace>with ABRA</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(5)</num>
             <text>Paragraph (6) is repealed.</text>
+            <codify:repeal path="(6)"/>
           </para>
           <para>
             <num>(6)</num>
             <text>Paragraph (7) is amended by striking the phrase "with the Mayor" and inserting the phrase "with ABRA" in its place.</text>
+            <codify:find-replace path="(7)" count="1">
+              <find>with the Mayor</find>
+              <replace>with ABRA</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(7)</num>
             <text>Paragraph (19) is amended by striking the phrase "if the Department" and inserting the phrase "if ABRA" in its place.</text>
+            <codify:find-replace path="(19)" count="1">
+              <find>if the Department</find>
+              <replace>if ABRA</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(8)</num>
             <text>Paragraph (21) is amended by striking the phrase "by the Department" and inserting the phrase "by ABRA" in its place.</text>
+            <codify:find-replace path="(21)" count="1">
+              <find>by the Department</find>
+              <replace>by ABRA</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-1671.02">
           <num>(b)</num>
           <text>Section 3 (D.C. Official Code § 7-1671.02) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Subsection (c)(1)(B) is amended by striking the phrase "with the Mayor" and inserting the phrase "with ABRA" in its place.</text>
+            <codify:find-replace path="(c)|(1)|(B)" count="1">
+              <find>with the Mayor</find>
+              <replace>with ABRA</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Subsection (d) is amended by striking the phrase "with the Mayor" and inserting the phrase "with ABRA" in its place.</text>
+            <codify:find-replace path="(d)" count="1">
+              <find>with the Mayor</find>
+              <replace>with ABRA</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
           <num>(c)</num>
           <text>Section 5(b)(2) (D.C. Official Code § 7-1671.04(b)(2)) is amended by striking the phrase "by the Mayor" and inserting the phrase "by ABRA" in its place.</text>
+          <codify:find-replace path="§7-1671.04|(b)|(2)" count="1">
+            <find>by the Mayor</find>
+            <replace>by ABRA</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§7-1671.05">
           <num>(d)</num>
           <text>Section 6 (D.C. Official Code § 7-1671.05) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>The lead-in language is amended by striking the phrase "The Program shall be administered by the Mayor and shall" and inserting the phrase "The Program shall" in its place.</text>
+            <codify:find-replace path="text" count="1">
+              <find>The Program shall be administered by the Mayor and shall</find>
+              <replace>The Program shall</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Paragraph (1)(A) is amended by striking the phrase "with the Department" and inserting the phrase "with ABRA" in its place.</text>
+            <codify:find-replace path="(1)|(A)" count="1">
+              <find>with the Department</find>
+              <replace>with ABRA</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(4)|(A)">
             <num>(3)</num>
             <text>Paragraph (4)(A) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Subparagraph (iv) is amended by striking the phrase "by the Department" and inserting the phrase "by the ABC Board" in its place.</text>
+              <codify:find-replace path="(iv)" count="1">
+                <find>by the Department</find>
+                <replace>by the ABC Board</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Subparagraph (v) is amended by striking the phrase "by the Mayor" and inserting the phrase "by ABRA" in its place.</text>
+              <codify:find-replace path="(v)" count="1">
+                <find>by the Mayor</find>
+                <replace>by ABRA</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(5A)">
             <num>(4)</num>
             <text>Paragraph (5A) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>The lead-in language is amended by striking the phrase "by the Department" and inserting the phrase "by the ABC Board" in its place.</text>
+              <codify:find-replace path="text" count="1">
+                <find>by the Department</find>
+                <replace>by the ABC Board</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Subparagraph (C) is amended by striking the phrase "by the Department" and inserting the phrase "by the ABC Board" in its place.</text>
+              <codify:find-replace path="(C)" count="1">
+                <find>by the Department</find>
+                <replace>by the ABC Board</replace>
+              </codify:find-replace>
             </para>
           </para>
           <para>
             <num>(5)</num>
             <text>Paragraph (5B)(D) is amended by striking the phrase "that the Department" and inserting the phrase "that ABRA" in its place.</text>
+            <codify:find-replace path="(5B)|(D)" count="1">
+              <find>that the Department</find>
+              <replace>that ABRA</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(6)</num>
             <text>Paragraph (7) is amended by striking the phrase "if the Mayor determines" and inserting the phrase "if the ABC Board determines" in its place.</text>
+            <codify:find-replace path="(7)" count="1">
+              <find>if the Mayor determines</find>
+              <replace>if the ABC Board determines</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(10)|(A)">
             <num>(7)</num>
             <text>Paragraph (10)(A) is amended by striking the phrase "apply to the Mayor" and inserting the phrase "apply to the ABC Board" in its place.</text>
+            <codify:find-replace count="1">
+              <find>apply to the Mayor</find>
+              <replace>apply to the ABC Board</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(8)</num>
             <text>Paragraph (14) is amended by striking the phrase "notify the Department" and inserting the phrase "notify ABRA" in its place.</text>
+            <codify:find-replace path="(14)" count="1">
+              <find>notify the Department</find>
+              <replace>notify ABRA</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-1671.06">
           <num>(e)</num>
           <text>Section 7 (D.C. Official Code § 7-1671.06) is amended as follows:</text>
-          <para>
+          <para codify:path="(d)">
             <num>(1)</num>
             <text>Subsection (d) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Paragraph (1) is amended by striking the phrase "with the Mayor" and inserting the phrase "with ABRA" in its place.</text>
+              <codify:find-replace path="(1)" count="1">
+                <find>with the Mayor</find>
+                <replace>with ABRA</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Paragraph (3)(A) is amended by striking the phrase "determined by rulemaking" and inserting the phrase "determined by the Mayor by rules issued in accordance with section 14" in its place.</text>
+              <codify:find-replace path="(3)|(A)" count="1">
+                <find>determined by rulemaking</find>
+                <replace>determined by the Mayor by rules issued in accordance with <code-cite doc="D.C. Code" path="§7-1671.13">section 14</code-cite></replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(C)</num>
               <text>Paragraph (4) is amended by striking the phrase "The Mayor" and inserting the phrase "The ABC Board" in its place.</text>
+              <codify:find-replace path="(4)" count="1">
+                <find>The Mayor</find>
+                <replace>The ABC Board</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(D)</num>
               <text>Paragraph (5) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace path="(5)"/>
                   <num>(5)</num>
                   <para>
                     <num>(A)</num>
@@ -6512,11 +6674,11 @@
                     <text>For the purpose of this paragraph, the term:</text>
                     <para>
                       <num>(i)</num>
-                      <text>"Economically disadvantaged individual" shall have the same meaning as set forth in section 2302(7) of the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 2-218.02(7)).</text>
+                      <text>"Economically disadvantaged individual" shall have the same meaning as set forth in <code-cite doc="D.C. Code" path="§2-218.02|(7)">section 2302(7) of the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 2-218.02(7))</code-cite>.</text>
                     </para>
                     <para>
                       <num>(ii)</num>
-                      <text>"Medical cannabis certified business enterprise" means a certified business enterprise, as that term is defined in section 2302(1D) of the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 2-218.02(1D)), that operates a medical cannabis business as a dispensary, cultivation center, or testing laboratory.</text>
+                      <text>"Medical cannabis certified business enterprise" means a certified business enterprise, as that term is defined in <code-cite doc="D.C. Code" path="§2-218.02|(1D)">section 2302(1D) of the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 2-218.02(1D))</code-cite>, that operates a medical cannabis business as a dispensary, cultivation center, or testing laboratory.</text>
                     </para>
                   </para>
                 </para>
@@ -6527,30 +6689,50 @@
           <para>
             <num>(2)</num>
             <text>Subsection (e)(3) is amended by striking the phrase "that the Mayor may allow" and inserting the phrase "that the ABC Board may allow" in its place.</text>
+            <codify:find-replace path="(e)|(3)" count="1">
+              <find>that the Mayor may allow</find>
+              <replace>that the ABC Board may allow</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>Subsection (g-2) is amended by striking the phrase "the Mayor" and inserting the phrase "the ABC Board" in its place.</text>
+            <codify:find-replace path="(g-2)" count="1">
+              <find>the Mayor</find>
+              <replace>the ABC Board</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>Subsection (g-3) is amended by striking the phrase "the Mayor" and inserting the phrase "the ABC Board" in its place.</text>
+            <codify:find-replace path="(g-3)" count="1">
+              <find>the Mayor</find>
+              <replace>the ABC Board</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(5)</num>
-            <text>Subsection (j) is amended by striking the phrase "the Mayor" and inserting the</text>
+            <text>Subsection (j) is amended by striking the phrase "the Mayor" and inserting the phrase "the ABC Board" in its place.</text>
+            <codify:find-replace path="(j)" count="1">
+              <find>the Mayor</find>
+              <replace>the ABC Board</replace>
+            </codify:find-replace>
           </para>
-          <aftertext>phrase "the ABC Board" in its place.</aftertext>
         </para>
         <para>
           <num>(f)</num>
           <text>Section 8(a) (D.C. Official Code § 7-1671.07) is amended by striking the phrase "to the Department" and inserting the phrase "to ABRA" in its place.</text>
+          <codify:find-replace path="§7-1671.07" count="1">
+            <find>to the Department</find>
+            <replace>to ABRA</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(g)</num>
           <text>A new section 9a is added to read as follows:</text>
           <include>
             <section>
+              <codify:insert doc="D.C. Code" path="7|16B" after="§7-1671.08" num-value="7-1671.08a"/>
               <num>9a</num>
               <heading>Medical Cannabis Administration Fund.</heading>
               <para>
@@ -6589,8 +6771,9 @@
           <text>Section 14 (D.C. Official Code § 7-1671.13) is amended by adding a new subsection (a-1) to read as follows:</text>
           <include>
             <para>
+              <codify:insert path="§7-1671.13" after="(a)"/>
               <num>(a-1)</num>
-              <text>Pursuant to the transfer of functions of the Department of Health to ABRA by D.C. Official Code § 25-204.02, the Mayor shall issue rules in accordance with subsection (b) of this section, which rules shall allow registered dispensaries to provide medical marijuana to qualifying patients through delivery, curbside pickup, and at-the-door options.</text>
+              <text>Pursuant to the transfer of functions of the Department of Health to ABRA by <code-cite doc="D.C. Code" path="§25-204.02">D.C. Official Code § 25-204.02</code-cite>, the Mayor shall issue rules in accordance with subsection (b) of this section, which rules shall allow registered dispensaries to provide medical marijuana to qualifying patients through delivery, curbside pickup, and at-the-door options.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -6617,18 +6800,19 @@
           <text>A new section 25-204.02 is added to read as follows:</text>
           <include>
             <section>
+              <codify:insert path="25|2" after="§25-204.01"/>
               <prefix>§</prefix>
               <num>25-204.02</num>
               <heading>Medical marijuana program; transfer of functions of the Department of Health.</heading>
               <para>
                 <num>(a)</num>
-                <text>The Board and ABRA shall be responsible for carrying out the responsibilities assigned to them by the Legalization of Marijuana for Medical Treatment Initiative of 1999, effective February 25, 2010 (D.C. Law 13-315; D.C. Official Code § 7-1671.01 <em>et seq</em>.) ("Medical Marijuana Act"), and for any responsibilities of the Mayor under the Medical Marijuana Act that the Mayor delegates to the Board or ABRA.</text>
+                <text>The Board and ABRA shall be responsible for carrying out the responsibilities assigned to them by <code-cite doc="D.C. Code" path="7|16B">the Legalization of Marijuana for Medical Treatment Initiative of 1999, effective February 25, 2010 (D.C. Law 13-315; D.C. Official Code § 7-1671.01 <em>et seq</em>.)</code-cite> ("Medical Marijuana Act"), and for any responsibilities of the Mayor under the <cite doc="D.C. Code" path="7|16B">Medical Marijuana Act</cite> that the Mayor delegates to the Board or ABRA.</text>
               </para>
               <para>
                 <num>(b)</num>
                 <para>
                   <num>(1)</num>
-                  <text>Except as provided in paragraph (2) of this subsection, all personal property, assets, records, including both electronic and physical files, licensing agreements, and contracts, equipment, computer software, obligations, and unexpended balances of appropriations, allocations, assets, and liabilities, and other funds available or to be made available relating to the powers, duties, functions, operations, and administration by the Department of Health of the medical marijuana program pursuant to the Legalization of Marijuana for Medical Treatment Initiative of 1999, effective February 25, 2010 (D.C. Law 13-315; D.C. Official Code § 7-1671.01 <em>et seq</em>.), as of September 30, 2020, are transferred to ABRA.</text>
+                  <text>Except as provided in paragraph (2) of this subsection, all personal property, assets, records, including both electronic and physical files, licensing agreements, and contracts, equipment, computer software, obligations, and unexpended balances of appropriations, allocations, assets, and liabilities, and other funds available or to be made available relating to the powers, duties, functions, operations, and administration by the Department of Health of the medical marijuana program pursuant to <code-cite doc="D.C. Code" path="7|16B">the Legalization of Marijuana for Medical Treatment Initiative of 1999, effective February 25, 2010 (D.C. Law 13-315; D.C. Official Code § 7-1671.01 <em>et seq</em>.)</code-cite>, as of September 30, 2020, are transferred to ABRA.</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -6651,7 +6835,7 @@
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>Personnel who are transferred to ABRA pursuant to this subsection shall be subject to the ABRA Director's personnel authority, pursuant to section 406(b)(21) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-604.06(b)(21)), including as it relates to employment classifications and pay scales.</text>
+                  <text>Personnel who are transferred to ABRA pursuant to this subsection shall be subject to the ABRA Director's personnel authority, pursuant to <code-cite doc="D.C. Code" path="§1-604.06|(b)|(21)">section 406(b)(21) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-604.06(b)(21))</code-cite>, including as it relates to employment classifications and pay scales.</text>
                 </para>
               </para>
             </section>
@@ -6691,8 +6875,9 @@
           <text>Section 8a (D.C. Official Code § 7-771.07a), is amended by adding a new subsection (a-3) to read as follows:</text>
           <include>
             <para>
+              <codify:insert path="§7-771.07a" after="(a-2)"/>
               <num>(a-3)</num>
-              <text>For Fiscal Year 2021, the Director may issue grants pursuant to section 8b(b)(4)(B)(ii) and (iii).</text>
+              <text>For Fiscal Year 2021, the Director may issue grants pursuant to <code-cite doc="D.C. Code" path="§7-771.07b|(b)|(4)|(B)|(ii)">section 8b(b)(4)(B)(ii)</code-cite> and <cite doc="D.C. Code" path="§7-771.07b|(b)|(4)|(B)|(iii)">(iii)</cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -6702,6 +6887,7 @@
           <text>A new section 8b is added to read as follows:</text>
           <include>
             <section>
+              <codify:insert path="7|7D" after="§7-771.07a" num-value="7-771.07b"/>
               <num>8b</num>
               <heading>Medicaid reserve.</heading>
               <para>
@@ -6710,7 +6896,7 @@
               </para>
               <para>
                 <num>(b)</num>
-                <text>Notwithstanding D.C. Official Code §§ 47-361, 47-362, 47-363, and 47-365, funds may be transferred from the Medicaid reserve to the Department:</text>
+                <text>Notwithstanding D.C. Official Code §§ <cite doc="D.C. Code" path="§44-361" codify:value="44-361">47-361</cite>, <cite doc="D.C. Code" path="§44-362" codify:value="44-362">47-362</cite>, <cite doc="D.C. Code" path="§44-363" codify:value="44-363">47-363</cite>, and <cite doc="D.C. Code" path="§44-365" codify:value="44-365">47-365</cite>, funds may be transferred from the Medicaid reserve to the Department:</text>
                 <para>
                   <num>(1)</num>
                   <text>To pay expenses associated with increased Medicaid enrollment or service utilization upon a determination by the Agency Fiscal Officer that available funds within the Department are projected to be exhausted;</text>
@@ -6739,7 +6925,7 @@
                     </para>
                     <para>
                       <num>(ii)</num>
-                      <text>Funding the Postpartum Coverage Expansion Act of 2020, passed on 2nd reading on July 21, 2020 (Enrolled version of Bill 23-326); and</text>
+                      <text>Funding <cite doc="D.C. Act" path="23-390">the Postpartum Coverage Expansion Act of 2020, passed on 2nd reading on July 21, 2020 (Enrolled version of Bill 23-326)</cite>; and</text>
                     </para>
                     <para>
                       <num>(iii)</num>
@@ -6774,7 +6960,7 @@
               </para>
               <para>
                 <num>(d)</num>
-                <text>Funds may be reprogrammed from the Medicaid reserve for purposes other than those detailed in subsection (b) of this section, subject to subchapter IV of Chapter 3 of Title 47 of the District of Columbia Official Code; provided, that the Office of the Chief Financial Officer determines that sufficient funds are still available within the Medicaid reserve to ensure a deficiency will not occur at the Department.</text>
+                <text>Funds may be reprogrammed from the Medicaid reserve for purposes other than those detailed in subsection (b) of this section, subject to <code-cite doc="D.C. Code" path="47|3|IV">subchapter IV of Chapter 3 of Title 47 of the District of Columbia Official Code</code-cite>; provided, that the Office of the Chief Financial Officer determines that sufficient funds are still available within the Medicaid reserve to ensure a deficiency will not occur at the Department.</text>
               </para>
             </section>
           </include>
@@ -6791,9 +6977,13 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Telehealth Reimbursement Amendment Act of 2020".</text>
       </section>
-      <section>
+      <section codify:path="§31-3861|(4)">
         <num>5042</num>
         <text>Section 2(4) of the Telehealth Reimbursement Act of 2013, effective October 17, 2013 (D.C. Law 20-26; D.C. Official Code § 31-3861(4)), is amended by striking the phrase "through audio only telephones, electronic mail messages, or facsimile" and inserting the phrase "through email messages or facsimile" in its place.</text>
+        <codify:find-replace count="1">
+          <find>through audio-only telephones, electronic mail messages, or facsimile</find>
+          <replace>through email messages or facsimile</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -6808,18 +6998,23 @@
       <section>
         <num>5052</num>
         <text>The District of Columbia Health Professional Recruitment Program Act of 2005, effective March 8, 2006 (D.C. Law 16-71; D.C. Official Code § 7-751.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§7-751.02">
           <num>(a)</num>
           <text>Section 3 (D.C. Official Code § 7-751.02) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the phrase "recruitment tool" and inserting the phrase "recruitment and retention tool" in its place.</text>
+            <codify:find-replace count="1">
+              <find>recruitment tool</find>
+              <replace>recruitment and retention tool</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(b)</num>
                 <text>Based on the availability of funds, the Program will pay for, among other expenses, the cost of education necessary to obtain a health professional degree. The Program will pay toward the outstanding principal, interest, and related expense of federal, state, or local government loans and commercial loans obtained by the participant for:</text>
                 <para>
@@ -6844,6 +7039,7 @@
           <text>Section 9 (D.C. Official Code § 7-751.08), is amended by adding a new subsection (a-1) to read as follows:</text>
           <include>
             <para>
+              <codify:insert path="§7-751.08" after="(a)"/>
               <num>(a-1)</num>
               <text>Physicians who specialize and practice in obstetrics and gynecology, psychiatry, or other medical specialties specifically identified by the Director shall be eligible to have 100% of their total debt, not to exceed $200,000, repaid by the Program over 4 years of service; provided, that the participants provide full-time service in Ward 7 or 8. For each year of participation, the Program will repay loan amounts according to the following schedule:</text>
               <para>
@@ -6866,27 +7062,32 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§7-751.15a">
           <num>(c)</num>
           <text>Section 16a (D.C. Official Code § 7-751.15a) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the phrase "loan repayments" and inserting the phrase "loan repayments and retention incentives" in its place.</text>
+            <codify:find-replace count="1">
+              <find>loan repayments</find>
+              <replace>loan repayments and retention incentives</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>A new subsection (d) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert/>
                 <num>(d)</num>
                 <text>The Department of Health shall segregate the $1.5 million local funds enhancement provided in the Fiscal Year 2021 budget into a separate subaccount, which shall only be expended for:</text>
                 <para>
                   <num>(1)</num>
-                  <text>Section 3(b)(3); or</text>
+                  <text>Section <code-cite doc="D.C. Code" path="§7-751.02|(b)|(3)" codify:value="7-751.02(b)(3)">3(b)(3)</code-cite>; or</text>
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>Section 9(a-1).</text>
+                  <text>Section <code-cite doc="D.C. Code" path="§7-751.08|(a-1)" codify:value="7-751.08(a-1)">9(a-1)</code-cite>.</text>
                 </para>
               </para>
             </include>
@@ -6909,6 +7110,7 @@
         <text>Section 4907a of the Department of Health Functions Clarification Act of 2001, effective March 3, 2010 (D.C. Law 18-111; D.C. Official Code § 7-736.01), is amended by adding a new subsection (l) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§7-736.01"/>
             <num>(l)</num>
             <para>
               <num>(1)</num>
@@ -6947,6 +7149,7 @@
         <text>Section 8a of the Department of Health Care Finance Establishment Act of 2007, effective December 13, 2017 (D.C. Law 22-33; D.C. Official Code § 7-771.07a), is amended by adding a new subsection (a-4) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§7-771.07a" after="(a-3)"/>
             <num>(a-4)</num>
             <text>For Fiscal Year 2021, the Director may:</text>
             <para>
@@ -6998,7 +7201,7 @@
       </section>
     </container>
   </container>
-  <container>
+  <container codify:doc="D.C. Code">
     <prefix>TITLE</prefix>
     <num>VI</num>
     <heading>OPERATIONS AND INFRASTRUCTURE</heading>
@@ -7006,6 +7209,7 @@
       <prefix>SUBTITLE</prefix>
       <num>A</num>
       <heading>OPPORTUNITY ACCOUNTS</heading>
+      <!-- This replaces section 301 of EA23-405 -->
       <section>
         <num>6001</num>
         <heading>Short title.</heading>
@@ -7019,28 +7223,38 @@
           <text>Section 2 (D.C. Official Code § 1-307.61) is amended by adding a new paragraph (2A) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert path="§1-307.61" after="(2)"/>
               <num>(2A)</num>
               <text>"Commissioner" means the Commissioner of the Department of Insurance, Securities, and Banking.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§1-307.67|(b)">
           <num>(b)</num>
           <text>Section 8(b) (D.C. Official Code § 1-307.67(b)) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(1)</num>
             <text>Paragraph (1) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(2)">
             <num>(2)</num>
             <text>Paragraph (2) is amended by striking the phrase "per account." and inserting the phrase "per account, except as provided in paragraph (3) of this subsection; and" in its place.</text>
+            <codify:find-replace count="1">
+              <find>per account.</find>
+              <replace>per account, except as provided in paragraph (3) of this subsection; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>A new paragraph (3) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(3)</num>
                 <text>The Commissioner may waive the requirement in subsection (a) of this section and may provide matching funds of up to $4 for every dollar the account holder deposits into the opportunity account when adequate federal or private matching funds are not available.  For each additional dollar of matching funds that the District provides to an opportunity account pursuant to such a waiver, the aggregate matching funds limit set forth in paragraph (2) of this subsection for that account shall be increased by $1.</text>
               </para>
@@ -7048,48 +7262,63 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§1-307.68|(a)">
           <num>(c)</num>
           <text>Section 9(a) (D.C. Official Code § 1-307.68(a)) is amended as follows:</text>
-          <para>
+          <para codify:path="(6)">
             <num>(1)</num>
             <text>Paragraph (6) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(8)">
             <num>(2)</num>
             <text>Paragraph (8) is amended by striking the period at the end and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace count="1">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>A new paragraph (9) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(9)</num>
-                <text>To pay for any cost, expense, or item authorized by a rule issued pursuant to section 14.</text>
+                <text>To pay for any cost, expense, or item authorized by a rule issued pursuant to <code-cite doc="D.C. Code" path="§1-307.73">section 14</code-cite>.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§1-307.69">
           <num>(d)</num>
           <text>Section 10 (D.C. Official Code § 1-307.69) is amended as follows:</text>
-          <para>
+          <para codify:path="(b)">
             <num>(1)</num>
             <text>Subsection (b) is amended as follows:</text>
-            <para>
+            <para codify:path="(2)">
               <num>(i)</num>
               <text>Paragraph (2) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+              <codify:find-replace count="1">
+                <find>; or</find>
+                <replace>;</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(3)">
               <num>(ii)</num>
               <text>Paragraph (3) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+              <codify:find-replace count="1">
+                <find>.</find>
+                <replace>; and</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(iii)</num>
               <text>A new paragraph (4) is added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert/>
                   <num>(4)</num>
                   <text>Making health insurance premium payments in the event of a sudden, unexpected loss of income.</text>
                 </para>
@@ -7097,40 +7326,49 @@
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(2)</num>
             <text>Subsection (c) is repealed.</text>
+            <codify:repeal/>
           </para>
           <para>
             <num>(3)</num>
             <text>New subsections (c-1), (c-2), and (c-3) are added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(c)"/>
                 <num>(c-1)</num>
                 <text>If an account holder makes an emergency withdrawal for the purposes set forth at subsection (b)(2) or (3) of this section, the account holder shall withdraw only funds deposited by the account holder and shall not withdraw matching funds.</text>
               </para>
               <para>
+                <codify:insert after="(c-1)"/>
                 <num>(c-2)</num>
                 <text>If an account holder makes an emergency withdrawal for the purposes set forth at subsection (b)(1) of this section, the account holder shall withdraw only funds deposited by the account holder and shall not withdraw matching funds, unless the withdrawal is for a medical emergency.</text>
               </para>
               <para>
+                <codify:insert after="(c-2)"/>
                 <num>(c-3)</num>
                 <text>If an account holder makes an emergency withdrawal for the purposes set forth at subsection (b)(4) of this section, the account holder may withdraw funds deposited by the account holder and matching funds.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(e)|text">
             <num>(4)</num>
             <text>The lead-in language of subsection (e) is amended to read as follows:</text>
             <include>
               <text>An account holder shall not be required to repay funds withdrawn from the opportunity account for an emergency withdrawal but shall resume making deposits into the opportunity account no later than 90 days after the emergency withdrawal. If the account holder fails to make a deposit no later than 90 days after the emergency withdrawal:</text>
             </include>
             <aftertext>.</aftertext>
+            <codify:find-replace count="1">
+              <find>An account holder shall deposit funds into the opportunity account in the same amount as the funds withdrawn from the account for the emergency withdrawal no later than 12 months after the date of the withdrawal. If the account holder fails to make the deposit:</find>
+              <replace>An account holder shall not be required to repay funds withdrawn from the opportunity account for an emergency withdrawal but shall resume making deposits into the opportunity account no later than 90 days after the emergency withdrawal. If the account holder fails to make a deposit no later than 90 days after the emergency withdrawal:</replace>
+            </codify:find-replace>
           </para>
         </para>
       </section>
       <section>
+        <codify:marginalia display="Codified as Temporary Law Note"/>
         <num>6003</num>
         <heading>Repealer.</heading>
         <text>Section 301 of the Coronavirus Support Temporary Amendment Act of 2020, enacted on July 7, 2020 (D.C. Act 23-334; 67 DCR 8622), is repealed.</text>
@@ -7145,22 +7383,31 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Green Building Fund Use Expansion Amendment Act of 2020".</text>
       </section>
-      <section>
+      <section codify:path="§6-1451.07|(c)|(2)">
         <num>6012</num>
         <text>Section 8(c)(2) of the Green Building Act of 2006, effective March 8, 2007 (D.C. Law 16-234; D.C. Official Code § 6-1451.07(c)(2)), is amended as follows:</text>
-        <para>
+        <para codify:path="(D)">
           <num>(a)</num>
           <text>Subparagraph (D) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(E)">
           <num>(b)</num>
           <text>Subparagraph (E) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>A new subparagraph (F) is added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert/>
               <num>(F)</num>
               <text>Costs incurred to make green building materials accessible to low-income residents.</text>
             </para>
@@ -7181,22 +7428,34 @@
       <section>
         <num>6022</num>
         <text>The Law to Legalize Lotteries, Daily Numbers Games, and Bingo and Raffles for Charitable Purposes in the District of Columbia, effective March 10, 1981 (D.C. Law 3-172; D.C. Official Code §§ 22-1716 to 22-1718 and 36-601.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§22-1716">
           <num>(a)</num>
           <text>Section 3 (D.C. Official Code § 22-1716) is amended by striking the phrase "Monte Carlo night parties," and inserting the phrase "Monte Carlo night parties, game of skill machines," in its place.</text>
+          <codify:find-replace count="1">
+            <find>Monte Carlo night parties,</find>
+            <replace>Monte Carlo night parties, game of skill machines,</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>Section 3 (D.C. Official Code § 22-1717) is amended by striking the phrase "or sports wagering regulated, licensed, or operated by the Office of Lottery and Gaming." and inserting the phrase "sports wagering regulated, licensed, or operated by the Office of Lottery and Gaming, or game of skill machines licensed and regulated by the Office of Lottery and Gaming." in its place.</text>
+          <codify:find-replace path="§22-1717" count="1">
+            <find>or sports wagering regulated, licensed, or operated by the Office of Lottery and Gaming.</find>
+            <replace>sports wagering regulated, licensed, or operated by the Office of Lottery and Gaming, or game of skill machines licensed and regulated by the Office of Lottery and Gaming.</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>Section 3(a) (D.C. Official Code § 22-1718(a)) is amended by striking the phrase "or the sale, lease, purchase, or possession of tickets, slips, certificates, or cards for sports wagering excepted and permissible pursuant to § 22-1717." and inserting the phrase "the sale, lease, purchase, or possession of tickets, slips, certificates, or cards for sports wagering excepted and permissible pursuant to § 22-1717, or the manufacture, distribution, servicing, retailing, sale, lease, purchase, or possession of machines, tickets, slips, certificates, or cards for game of skill machines excepted and permissible pursuant to § 22-1717." in its place.</text>
+          <codify:find-replace path="§22-1718|(a)" count="1">
+            <find>or the sale, lease, purchase, or possession of tickets, slips, certificates, or cards for sports wagering excepted and permissible pursuant to [§ 22-1717].</find>
+            <replace>the sale, lease, purchase, or possession of tickets, slips, certificates, or cards for sports wagering excepted and permissible pursuant to <span codify:value="["/><code-cite doc="D.C. Code" path="§22-1717">§ 22-1717</code-cite><span codify:value="]"/>, or the manufacture, distribution, servicing, retailing, sale, lease, purchase, or possession of machines, tickets, slips, certificates, or cards for game of skill machines excepted and permissible pursuant to <span codify:value="["/><code-cite doc="D.C. Code" path="§22-1717">§ 22-1717</code-cite><span codify:value="]"/>.</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§36-601.12">
           <num>(d)</num>
           <text>Section 4 (D.C. Official Code § 36-601.12) is amended as follows:</text>
-          <para>
+          <para codify:path="heading">
             <num>(1)</num>
             <text>The section heading is amended to read as follows:</text>
             <include>
@@ -7206,12 +7465,17 @@
               </section>
             </include>
             <aftertext>.</aftertext>
+            <codify:find-replace count="1">
+              <find>Lottery, Charitable Games, and Sports Wagering Fund.</find>
+              <replace>Lottery, Gambling, and Gaming Fund.</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(a)">
             <num>(2)</num>
             <text>Subsection (a) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(a)</num>
                 <text>There is established as an enterprise fund the Lottery, Gambling, and Gaming Fund ("Fund"), which shall be administered by the Chief Financial Officer. Revenue from the following sources shall be deposited into the Fund or a division of the Fund, as established by the Chief Financial Officer:</text>
                 <para>
@@ -7220,18 +7484,29 @@
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>All fees collected pursuant to sections 406 through 409.</text>
+                  <text>All fees collected pursuant to <span codify:value="§§">sections</span> 406 through 409.</text>
                 </para>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(3)</num>
             <text>Subsection (c) is amended by striking the word "gambling" and inserting the phrase "gambling and gaming" in its place.</text>
+            <codify:find-replace count="1">
+              <find>gambling</find>
+              <replace>gambling and gaming</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
+          <codify:insert doc="D.C. Code" path="36|6" after="II" history="false">
+            <container>
+              <prefix>Subchapter</prefix>
+              <num>III</num>
+              <heading>Game of Skills Machines.</heading>
+            </container>
+          </codify:insert>
           <num>(e)</num>
           <text>A new Title IV is added to read as follows:</text>
           <include>
@@ -7240,8 +7515,9 @@
               <num>IV</num>
               <heading>GAME OF SKILL MACHINES.</heading>
               <section>
+                <codify:insert path="III" num-value="36-641.01"/>
                 <num>401</num>
-                <text>Definitions</text>
+                <heading>Definitions</heading>
                 <para>
                   <num undesignated="true">(a)</num>
                   <text>For purposes of this title, the term:</text>
@@ -7336,11 +7612,13 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.02"/>
                 <num>402</num>
                 <heading>Authorization of game of skill machines.</heading>
                 <text>The operation of game of skill machines shall be lawful in the District if conducted in accordance with this title and the rules issued pursuant to this title.</text>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.03"/>
                 <num>403</num>
                 <heading>Game of skill machine license requirements; prohibition.</heading>
                 <para>
@@ -7414,6 +7692,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.04"/>
                 <num>404</num>
                 <heading>License prohibitions; suspensions and revocation of licenses.</heading>
                 <para>
@@ -7469,6 +7748,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.05"/>
                 <num>405</num>
                 <heading>Conflicts of interest.</heading>
                 <para>
@@ -7493,6 +7773,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.06"/>
                 <num>406</num>
                 <heading>Manufacturer licensure.</heading>
                 <para>
@@ -7533,6 +7814,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.07"/>
                 <num>407</num>
                 <heading>Distributor licensure.</heading>
                 <para>
@@ -7585,6 +7867,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.08"/>
                 <num>408</num>
                 <heading>Supplier licensure.</heading>
                 <para>
@@ -7633,6 +7916,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.09"/>
                 <num>409</num>
                 <heading>Retailer licensure; registration of game of skill machines.</heading>
                 <para>
@@ -7707,6 +7991,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.10"/>
                 <num>410</num>
                 <heading>Minimum requirements of game of skill machines.</heading>
                 <para>
@@ -7810,6 +8095,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.11"/>
                 <num>411</num>
                 <heading>Registration; display of registration sticker, license, and warning sign; locations of game of skill machines.</heading>
                 <para>
@@ -7846,6 +8132,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.12"/>
                 <num>412</num>
                 <heading>Cash award.</heading>
                 <para>
@@ -7870,6 +8157,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.13"/>
                 <num>413</num>
                 <heading>Game of skill machine use by minors prohibited.</heading>
                 <para>
@@ -7882,6 +8170,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.14"/>
                 <num>414</num>
                 <heading>Centralized accounting system.</heading>
                 <para>
@@ -7943,11 +8232,13 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.15"/>
                 <num>415</num>
                 <heading>Insurance.</heading>
                 <text>Each distributor shall maintain liability insurance on all game of skill machines that it places in a licensed establishment in an amount set by the Office by rule issued pursuant to this title.</text>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.16"/>
                 <num>416</num>
                 <heading>Penalties.</heading>
                 <para>
@@ -7976,6 +8267,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.17"/>
                 <num>417</num>
                 <heading>Authority of the Office.</heading>
                 <para>
@@ -8012,6 +8304,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.18"/>
                 <num>418</num>
                 <heading>Investigations and inspections.</heading>
                 <para>
@@ -8032,6 +8325,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.19"/>
                 <num>419</num>
                 <heading>Unlawful acts; action by the Attorney General.</heading>
                 <para>
@@ -8051,6 +8345,7 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.20"/>
                 <num>420</num>
                 <heading>Taxation of game of skill machines.</heading>
                 <para>
@@ -8090,11 +8385,13 @@
                 </para>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.21"/>
                 <num>421</num>
                 <heading>Deposit of license fees.</heading>
                 <text>All fees collected under sections 406 through 409 shall be deposited in the Lottery, Gambling, and Gaming Fund, established by section 4 (D.C. Official Code § 36-601.12).".</text>
               </section>
               <section>
+                <codify:insert path="III" num-value="36-641.22"/>
                 <num>422</num>
                 <heading>Rules and regulations governing game of skill machines.</heading>
                 <para>
