@@ -132,6 +132,9 @@
           <xs:attribute name="num-value" type="xs:string" use="optional">
             <!-- @summary: Specify the number value of the transform result. Defaults to value of ``<num>``.-->
           </xs:attribute>
+          <xs:attribute name="placeholder-value" type="xs:string" use="optional">
+            <!-- @summary: Specifies the text to be inserted into the placeholder.-->
+          </xs:attribute>
           <xs:attribute name="technical" type="xs:string" use="optional">
             <!-- @summary: Specifies a technical change to the transform that is different from the instruction provided by the law.-->
           </xs:attribute>
@@ -190,6 +193,21 @@
           </xs:attribute>
         </xs:extension>
       </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="placeholder">
+    <xs:complexType>
+      <xs:attributeGroup ref="p:targetAttributes"/>
+      <xs:attributeGroup ref="sharedAttributes"/>
+      <xs:attribute name="after" type="xs:string" use="optional">
+        <!-- @summary: Specify the child element at the target path that the transform results should appear after. -->
+      </xs:attribute>
+      <xs:attribute name="num-value" type="xs:string" use="optional">
+        <!-- @summary: Specify the number value of the transform result. Defaults to value of ``<num>``.-->
+      </xs:attribute>
+      <xs:attribute name="tag-value" type="xs:string" use="optional">
+        <!-- @summary: Specifies the type of element to be inserted, e.g. ``<container>``.-->
+      </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="redesignate" type="anyType">
@@ -363,8 +381,8 @@
   <xs:attributeGroup name="allAttributes">
     <xs:attribute ref="applicability" use="optional"/>
     <xs:attribute ref="doc" use="optional"/>
-	<xs:attribute name="display" type="xs:string" use="optional"/>
-	<xs:attribute name="display-template" type="xs:string" use="optional"/>
+	  <xs:attribute name="display" type="xs:string" use="optional"/>
+	  <xs:attribute name="display-template" type="xs:string" use="optional"/>
     <xs:attribute ref="expire" use="optional"/>
     <xs:attribute name="history" type="falseOnlyType" use="optional"/>
     <xs:attribute name="history-prefix" type="xs:string" use="optional"/>
@@ -372,6 +390,7 @@
     <xs:attribute ref="path" use="optional"/>
     <xs:attribute ref="value" use="optional"/>
     <xs:attribute name="warning" type="falseOnlyType" use="optional"/>
+    <xs:attribute name="placeholder-value" type="xs:string" use="optional"/>
   </xs:attributeGroup>
   <xs:attributeGroup name="findReplaceAttributes">
     <xs:attribute name="find" type="xs:string" use="optional">
