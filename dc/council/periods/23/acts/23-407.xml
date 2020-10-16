@@ -9442,7 +9442,7 @@
           <text>Section 47-1508(a) is amended by adding a new paragraph (13) to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:insert path="§47-1508|(a)" placeholder-value="[Applicable as of July 1, 2021]"/>
+              <codify:insert path="§47-1508|(a)" placeholder-value=""/>
               <num>(13)</num>
               <para>
                 <num>(A)</num>
@@ -9467,20 +9467,21 @@
         <para codify:path="§47-1521|(a)">
           <num>(b)</num>
           <text>Section 47-1521 is amended as follows:</text>
-          <para codify:path="(1)">
+          <para>
             <num>(1)</num>
             <text>Paragraph (1) is redesignated as paragraph (1A).</text>
-            <!-- <codify:find-replace count="1">
+            <codify:find-replace path="(1)" count="1">
               <find>(1)</find>
               <replace>(1A)</replace>
-            </codify:find-replace> waiting for July 1, 2021 -->
+            </codify:find-replace>
+            <codify:placeholder after="(1)" tag-value="para" num-value="(1A)"/>
           </para>
           <para>
             <num>(2)</num>
             <text>A new paragraph (1) is added to read as follows:</text>
             <include lvl="1">
               <para>
-                <codify:insert after="(1)" num-value="(1A)" placeholder-value="[Applicable as of July 1, 2021]"/>
+                <codify:insert before="(1A)" placeholder-value=""/>
                 <num>(1)</num>
                 <text>"Computer software" means a set of statements or instructions that when incorporated in a machine-usable medium is capable of causing a machine or device having information processing capabilities to indicate, perform, or achieve a particular function, task, or result.</text>
               </para>
@@ -9490,10 +9491,10 @@
           <para codify:path="(4)">
             <num>(3)</num>
             <text>Paragraph (4) is amended by striking the phrase "goods and chattels" and inserting the phrase "goods and chattels, including computer software," in its place.</text>
-            <!-- <codify:find-replace count="1">
+            <codify:find-replace count="1">
               <find>goods and chattels</find>
               <replace>goods and chattels, including computer software,</replace>
-            </codify:find-replace> -->
+            </codify:find-replace>
           </para>
         </para>
       </section>
@@ -9520,10 +9521,10 @@
       <section>
         <num>7012</num>
         <text>Section 47-1808.02(1) of the District of Columbia Official Code is amended by striking the phrase "Internal Revenue Code of 1986." and inserting the phrase "Internal Revenue Code of 1986. Taxable income shall include gain from the sale or other disposition of any assets, including tangible assets and intangible assets, including real property and interests in real property, in the District, even when such a sale or other disposition results in the termination of an unincorporated business." in its place.</text>
-        <!-- <codify:find-replace path="§47-1808.02|(1)" count="1">
+        <codify:find-replace path="§47-1808.02|(1)" count="1">
           <find>Internal Revenue Code of 1986.</find>
           <replace>Internal Revenue Code of 1986. Taxable income shall include gain from the sale or other disposition of any assets, including tangible assets and intangible assets, including real property and interests in real property, in the District, even when such a sale or other disposition results in the termination of an unincorporated business.</replace>
-        </codify:find-replace> -->
+        </codify:find-replace>
       </section>
       <section>
         <num>7013</num>
@@ -10367,7 +10368,7 @@
         <para>
           <num>(a)</num>
           <text>Section 47-1508(a)(10) is repealed.</text>
-          <!-- <codify:repeal doc="D.C. Code" path="§47-1508|(a)|(10)"/> -->
+          <codify:repeal doc="D.C. Code" path="§47-1508|(a)|(10)"/>
         </para>
         <para>
           <num>(b)</num>
@@ -10378,29 +10379,29 @@
             <para codify:path="(A)">
               <num>(A)</num>
               <text>Subparagraph (A) is amended by striking the phrase "the lesser of $25,000 (or $40,000 in the case of a Qualified High Technology Company ("QHTC"))" and inserting the phrase "the lesser of $25,000" in its place.</text>
-              <!-- <codify:find-replace count="1">
+              <codify:find-replace count="1">
                 <find>the lesser of $25,000 (or $40,000 in the case of a Qualified High Technology Company ("QHTC"))</find>
                 <replace>the lesser of $25,000</replace>
-              </codify:find-replace> -->
+              </codify:find-replace>
             </para>
             <para codify:path="(B)">
               <num>(B)</num>
               <text>Subparagraph (B) is repealed.</text>
-              <!-- <codify:repeal/> -->
+              <codify:repeal/>
             </para>
           </para>
           <para codify:path="§47-1817.01|(5)|(A)|(ii)">
             <num>(2)</num>
             <text>Section 47-1817.01(5)(A)(ii) is amended by striking the number "2" and inserting the number "10" in its place.</text>
-            <!-- <codify:find-replace count="1">
+            <codify:find-replace count="1">
               <find>2</find>
               <replace>10</replace>
-            </codify:find-replace> -->
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>Section 47-1817.02 is repealed.</text>
-            <!-- <codify:repeal path="§47-1817.02"/> -->
+            <codify:repeal path="§47-1817.02"/>
           </para>
           <para codify:path="§47-1817.03">
             <num>(4)</num>
@@ -10408,18 +10409,18 @@
             <para codify:path="(a)">
               <num>(A)</num>
               <text>Subsection (a) is amended by striking the phrase "imposed by § 47-1817.06" and inserting the phrase "imposed by § 47-1807.02" in its place.</text>
-              <!-- <codify:find-replace count="1">
+              <codify:find-replace count="1">
                 <find>imposed by <cite doc="D.C. Code" path="§47-1817.06">§ 47-1817.06</cite></find>
                 <replace>imposed by <cite doc="D.C. Code" path="§47-1807.02">§ 47-1807.02</cite></replace>
-              </codify:find-replace> -->
+              </codify:find-replace>
             </para>
             <para codify:path="(a-1)">
               <num>(B)</num>
               <text>Subsection (a-1) is amended by striking the phrase "imposed by § 47-1817.06" and inserting the phrase "imposed by § 47-1807.02" in its place.</text>
-              <!-- <codify:find-replace count="1">
+              <codify:find-replace count="1">
                 <find>imposed by <cite doc="D.C. Code" path="§47-1817.06">§ 47-1817.06</cite></find>
                 <replace>imposed by <cite doc="D.C. Code" path="§47-1807.02">§ 47-1807.02</cite></replace>
-              </codify:find-replace> -->
+              </codify:find-replace>
             </para>
           </para>
           <para codify:path="§47-1817.04">
@@ -10428,44 +10429,44 @@
             <para codify:path="(d)">
               <num>(A)</num>
               <text>Subsection (d) is amended by striking the figure "$20,000" and inserting the figure "$10,000" in its place.</text>
-              <!-- <codify:find-replace count="1">
+              <codify:find-replace count="1">
                 <find>$20,000</find>
                 <replace>$10,000</replace>
-              </codify:find-replace> -->
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Subsection (e) is repealed.</text>
-              <!-- <codify:repeal path="(e)"/> -->
+              <codify:repeal path="(e)"/>
             </para>
           </para>
           <para>
             <num>(6)</num>
             <text>Section 47-1817.05(c) is repealed.</text>
-            <!-- <codify:repeal path="§47-1817.05|(c)"/> -->
+            <codify:repeal path="§47-1817.05|(c)"/>
           </para>
           <para>
             <num>(7)</num>
             <text>Section 47-1817.06 is repealed.</text>
-            <!-- <codify:repeal path="§47-1817.06"/> -->
+            <codify:repeal path="§47-1817.06"/>
           </para>
           <para>
             <num>(8)</num>
             <text>Section 47-1817.07 is repealed.</text>
-            <!-- <codify:repeal path="§47-1817.07"/> -->
+            <codify:repeal path="§47-1817.07"/>
           </para>
           <para>
             <num>(9)</num>
             <text>Section 47-1817.07a is amended by striking the phrase "For tax years beginning after December 31, 2018, notwithstanding" and inserting the phrase "For the tax year beginning after December 31, 2018 and ending before January 1, 2020, and for tax years beginning after December 31, 2024, notwithstanding" in its place.</text>
-            <!-- <codify:find-replace path="§47-1817.07a" count="1">
+            <codify:find-replace path="§47-1817.07a" count="1">
               <find>For tax years beginning after December 31, 2018, notwithstanding</find>
               <replace>For the tax year beginning after December 31, 2018 and ending before January 1, 2020, and for tax years beginning after December 31, 2024, notwithstanding</replace>
-            </codify:find-replace> -->
+            </codify:find-replace>
           </para>
           <para>
             <num>(10)</num>
             <text>Section 47-1818.06(3) is repealed.</text>
-            <!-- <codify:repeal path="§47-1818.06|(3)"/> -->
+            <codify:repeal path="§47-1818.06|(3)"/>
           </para>
         </para>
       </section>
