@@ -9442,7 +9442,7 @@
           <text>Section 47-1508(a) is amended by adding a new paragraph (13) to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:insert path="§47-1508|(a)" placeholder-value="[Applicable as of July 1, 2021]"/>
+              <codify:insert path="§47-1508|(a)" placeholder-value=""/>
               <num>(13)</num>
               <para>
                 <num>(A)</num>
@@ -9467,20 +9467,21 @@
         <para codify:path="§47-1521|(a)">
           <num>(b)</num>
           <text>Section 47-1521 is amended as follows:</text>
-          <para codify:path="(1)">
+          <para>
             <num>(1)</num>
             <text>Paragraph (1) is redesignated as paragraph (1A).</text>
-            <codify:find-replace count="1">
+            <codify:find-replace path="(1)" count="1">
               <find>(1)</find>
               <replace>(1A)</replace>
             </codify:find-replace>
+            <codify:placeholder after="(1)" tag-value="para" num-value="(1A)"/>
           </para>
           <para>
             <num>(2)</num>
             <text>A new paragraph (1) is added to read as follows:</text>
             <include lvl="1">
               <para>
-                <codify:insert after="(1)" num-value="(1A)" placeholder-value="[Applicable as of July 1, 2021]"/>
+                <codify:insert before="(1A)" placeholder-value=""/>
                 <num>(1)</num>
                 <text>"Computer software" means a set of statements or instructions that when incorporated in a machine-usable medium is capable of causing a machine or device having information processing capabilities to indicate, perform, or achieve a particular function, task, or result.</text>
               </para>
