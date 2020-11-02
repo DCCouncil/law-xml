@@ -2,7 +2,7 @@
 <document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-382">
   <num type="bill">23-864</num>
   <num type="act">23-382</num>
-  <heading type="short">General Election Preparations Emergency Amendment Act of 2020 [Effective from August 13, 2020]</heading>
+  <heading type="short">[Replaced] General Election Preparations Emergency Amendment Act of 2020 [Effective from August 13, 2020; Replaced by D.C. Act 23-422]]</heading>
   <heading type="long">To amend, on an emergency basis, the District of Columbia Election Code of 1955 to require the Board of Elections, for the November 3, 2020, General Election, to operate Vote Centers, operate no fewer than 80 polling places, including one for eligible individuals incarcerated in the Central Detention Facility and Correctional Treatment Facility, mail every registered voter an absentee ballot and postage-paid return envelope, publish and mail a paper voter guide, email registered voters a voter guide and information about the General Election, to require voter registration agencies to promote the Board's plans for the General Election, and to remove the requirement that the Board post a list of qualified electors registered to vote in libraries and public buildings, and for other purposes.</heading>
   <meta>
     <introduced>2020-07-24</introduced>
@@ -20,46 +20,37 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "General Election Preparations Emergency Amendment Act of 2020".</text>
-  <section codify:doc="D.C. Code">
+  <section>
     <num>2</num>
     <text>The District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 699; D.C. Official Code § 1-1001.01 <em>et seq</em>.), is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>Section 2(31) (D.C. Official Code § 1-1001.02(31)) is amended by striking the phrase "For the June 2, 2020, Primary Election and the June 16, 2020, Ward 2 Special Election" and inserting the phrase "For elections held in calendar year 2020" in its place.</text>
-      <!-- <codify:find-replace path="§1-1001.02|(31)" count="1">
-        <find>For the June 2, 2020, Primary Election and the June 16, 2020, Ward 2 Special Election</find>
-        <replace>For elections held in calendar year 2020</replace>
-      </codify:find-replace> Added first in A23-328 and again in Act 23-405-->
+      <codify:emergency doc="D.C. Code" path="§1-1001.02"/>
     </para>
-    <para codify:path="§1-1001.05|(a)">
+    <para>
       <num>(b)</num>
       <text>Section 5(a) (D.C. Official Code § 1-1001.05(a)) is amended as follows:</text>
-      <para codify:path="(9)">
+      <para>
         <num>(1)</num>
         <text>Paragraph (9) is amended by striking the phrase "polling places" and inserting the phrase "polling places; provided, that for the November 3, 2020, General Election, the Board shall operate no fewer than 80 polling places, including a polling place for individuals incarcerated in the Department of Corrections' custody at the Central Detention Facility and Correctional Treatment Facility, if public health guidance permits" in its place.</text>
-        <codify:find-replace count="1">
-          <find>polling places</find>
-          <replace>polling places; provided, that for the November 3, 2020, General Election, the Board shall operate no fewer than 80 polling places, including a polling place for individuals incarcerated in the Department of Corrections' custody at the Central Detention Facility and Correctional Treatment Facility, if public health guidance permits</replace>
-        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (9A-i) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(9)"/>
             <num>(9A-i)</num>
             <text>For the November 3, 2020, General Election, mail every registered qualified elector an absentee ballot and a postage-paid return envelope;</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para codify:path="(12)">
+      <para>
         <num>(3)</num>
         <text>Paragraph (12) is amended to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:replace/>
             <num>(12)</num>
             <text>Take all reasonable steps to inform all residents and voters of elections and means of casting votes therein, including by establishing a system to permit voters to elect to receive a voter guide by electronic means in lieu of by mail, if such a guide is published by the Board; provided, that for the November 3, 2020, General Election, the Board shall:</text>
             <para>
@@ -74,83 +65,61 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§1-1001.05"/>
     </para>
-    <para codify:path="§1-1001.07">
+    <para>
       <num>(c)</num>
       <text>Section 7 (D.C. Official Code § 1-1001.07) is amended as follows:</text>
-      <para codify:path="(d)|(2)">
+      <para>
         <num>(1)</num>
         <text>Subsection (d)(2)(E) is amended by striking the phrase "For the June 2, 2020, Primary Election and the June 16, 2020, Ward 2 Special Election" and inserting the phrase "For elections held in calendar year 2020" in its place.</text>
-        <!-- <codify:find-replace count="1">
-          <find>For the June 2, 2020, Primary Election and the June 16, 2020, Ward 2 Special Election</find>
-          <replace>For elections held in calendar year 2020</replace>
-        </codify:find-replace> added by A23-328 and A23-405-->
       </para>
-      <para codify:path="(h)">
+      <para>
         <num>(2)</num>
         <text>Subsection (h)(4) is amended by striking the phrase "the June 2, 2020, Primary Election and the June 16, 2020, Ward 2 Special Election" and inserting the phrase "any election held in calendar year 2020" in its place.</text>
-        <!-- <codify:find-replace count="1">
-          <find>the June 2, 2020, Primary Election and the June 16, 2020, Ward 2 Special Election</find>
-          <replace>any election held in calendar year 2020</replace>
-        </codify:find-replace> added by A23-328 and A23-405-->
       </para>
+      <codify:emergency doc="D.C. Code" path="§1-1001.07"/>
     </para>
-    <para codify:path="§1-1001.08|(f)">
+    <para>
       <num>(d)</num>
       <text>Section 8(f) (D.C. Official Code § 1-1001.08(f)) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The existing text is designated as paragraph (1).</text>
-        <codify:redesignate-para num-value="(1)"/>
       </para>
-      <para codify:path="(1)">
+      <para>
         <num>(2)</num>
         <text>The newly designated paragraph (1) is amended by striking the phrase "A political party" and inserting the phrase "Except as provided in paragraph (2) of this subsection, a political party" in its place.</text>
-        <codify:find-replace count="1">
-          <find>A political party</find>
-          <replace>Except as provided in paragraph (2) of this subsection, a political party</replace>
-        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subsection (2) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert/>
             <num>(2)</num>
             <text>For the November 3, 2020, General Election, a political party that does not qualify under subsection (d) of this section may have the names of its candidates for President and Vice President of the United States printed on the general election ballot provided that a petition nominating the appropriate number of candidates for presidential electors signed by at least 250 registered qualified electors of the District of Columbia, as shown by the records of the Board as of the 144th day before the date of the presidential election, is presented to the Board on or before the 90th day before the date of the presidential election.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§1-1001.08"/>
     </para>
-    <para codify:path="§1-1001.09|(e)">
+    <para>
       <num>(e)</num>
       <text>Section 9(e) (D.C. Official Code § 1-1001.09(e)) is amended as follows:</text>
-      <para codify:path="(2)">
+      <para>
         <num>(1)</num>
         <text>Paragraph (2) is amended by striking the phrase "In sufficient time to comply with the requirements of the Uniformed and Overseas Citizens Absentee Voter Act, approved August 28, 1986 (100 Stat. 924; 42 U.S.C. § 1973ff <em>et seq</em>.), the Board" and inserting the phrase "The Board" in its place.</text>
-        <codify:find-replace count="1">
-          <find>In sufficient time to comply with the requirements of the Uniformed and Overseas Citizens Absentee Voter Act, approved August 28, 1986 (100 Stat. 924; 42 U.S.C. § 1973ff et seq.), the Board</find>
-          <replace>The Board</replace>
-        </codify:find-replace>
       </para>
-      <para codify:path="(3)">
+      <para>
         <num>(2)</num>
         <text>Paragraph (3) is amended by striking the phrase "not later than 2 days after that election" and inserting the phrase "no earlier than 8 days and no later than 10 days after that election" in its place.</text>
-        <codify:find-replace count="1">
-          <find>not later than 2 days after that election</find>
-          <replace>no earlier than 8 days and no later than 10 days after that election</replace>
-        </codify:find-replace>
       </para>
-      <para codify:path="(4)">
+      <para>
         <num>(3)</num>
         <text>Paragraph (4) is amended by striking the phrase "not later than 2 days after any election" and inserting the phrase "no earlier than 8 days and no later than 10 days after any election" in its place.</text>
-        <codify:find-replace count="1">
-          <find>not later than 2 days after any election</find>
-          <replace>no earlier than 8 days and no later than 10 days after any election</replace>
-        </codify:find-replace>
       </para>
+      <codify:emergency doc="D.C. Code" path="§1-1001.09"/>
     </para>
   </section>
   <section>
