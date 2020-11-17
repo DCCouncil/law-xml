@@ -2144,7 +2144,7 @@
           <text>New sections 2e and 2f are added to read as follows:</text>
           <include>
             <section>
-              <codify:insert path="32|2|II" num-value="32-246"/>
+              <codify:insert path="32|2|II" num-value="32-246" history-prefix="as added"/>
               <num>2e</num>
               <heading>DC Infrastructure Academy.</heading>
               <para>
@@ -2242,7 +2242,7 @@
               </para>
             </section>
             <section>
-              <codify:insert path="32|2|II" num-value="32-247"/>
+              <codify:insert path="32|2|II" num-value="32-247" history-prefix="as added"/>
               <num>2f</num>
               <heading>Industry advisory committees.</heading>
               <para>
@@ -4622,7 +4622,7 @@
             <text>The lead-in language is amended by striking the phrase "7 members" and inserting the phrase "11 members" in its place.</text>
             <codify:find-replace count="1">
               <find>7 members</find>
-              <replace>"11 members</replace>
+              <replace>11 members</replace>
             </codify:find-replace>
           </para>
           <para codify:path="(D)">
@@ -10060,6 +10060,12 @@
       <num>9003</num>
       <heading>Effective date.</heading>
       <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), and shall remain in effect for no longer than 90 days, as provided for emergency acts of the Council of the District of Columbia in section 412(a) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 788; D.C. Official Code § 1-204.12(a)).</text>
+      <codify:insert doc="D.C. Code" path="§10-1202.03a" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section was created by emergency legislation that will expire on January 18, 2021.*
+      </text>
+      </codify:insert>
+      
     </section>
   </container>
 </document>
