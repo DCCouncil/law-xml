@@ -692,7 +692,7 @@
         <text>Section 10 of the Campaign Finance Reform Amendment Act of 2018, effective March 13, 2019 (D.C. Law 22-250; 66 DCR 985), is amended to read as follows:</text>
         <include>
           <section>
-            <!-- Section 1043(a) of D.C. Law 23-16 amended section 10 of D.C. Law 22-250 -->
+            <!-- OK Section 1043(a) of D.C. Law 23-16 amended section 10 of D.C. Law 22-250 -->
             <codify:replace doc="D.C. Law 22-250" path="§10"/>
             <num>10</num>
             <heading>Applicability.</heading>
@@ -8946,8 +8946,7 @@
         <num>6051</num>
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Alcoholic Beverage Sales and Delivery Amendment Act of 2020".</text>
-        <!-- <codify:repeal doc="D.C. Act 23-334" path="§204|(a)|(1)"/> -->
-        <!-- Changed from Act EA23-405 to TA23-334 to TL23-130 when temporary became effective -->
+        
       </section>
       <section>
         <num>6052</num>
@@ -8960,8 +8959,7 @@
             <text>Section 25-112 is amended by adding a new subsection (h) to read as follows:</text>
             <include>
               <para>
-                <codify:insert path="§25-112" num-value="(hx)"/>
-                <!-- Review inconjuction with A23-405  -->
+                <codify:insert doc="D.C. Code" path="§25-112"/>
                 <num>(h)</num>
                 <para>
                   <num>(1)</num>
@@ -9463,8 +9461,7 @@
           <text>Section 47-1508(a) is amended by adding a new paragraph (13) to read as follows:</text>
           <include lvl="1">
             <para>
-           
-              <codify:insert path="§47-1508|(a)" placeholder-value="[Applicable as of July 1, 2021]"/>
+              <codify:insert path="§47-1508|(a)"/>
               <num>(13)</num>
               <para>
                 <num>(A)</num>
@@ -9485,30 +9482,34 @@
             </para>
           </include>
           <aftertext>.</aftertext>
-          <codify:annotation doc="D.C. Code" path="§47-1508" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7003">Section 7003 of D.C. Law 23-149</cite> provided that the changes made to this section by D.C. Law 23-149 shall apply as of July 1, 2021.
+          <codify:annotation doc="D.C. Code" path="§47-1508" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7003">Section 7003 of D.C. Law 23-149</cite> provided that the changes made to this section by section 7003(a) of D.C. Law 23-149 shall apply as of July 1, 2021.
         </codify:annotation>
-        <codify:find-replace doc="D.C. Code" path="§47-1508|(a)|(1)" count="1">
-          <find>The</find>
-          <replace>The</replace>
-        </codify:find-replace>
+          <codify:replace doc="D.C. Code" path="§47-1508|(a)|(13)">
+            <para>
+              <num>(13)</num>
+              <text>
+        [Applicable as of July 1, 2021]
+        </text>
+            </para>
+          </codify:replace>
         </para>
-         <para codify:path="§47-1521|(a)" placeholder-value="[Applicable as of July 1, 2021]">
+        <para codify:path="§47-1521|(a)">
           <num>(b)</num>
           <text>Section 47-1521 is amended as follows:</text>
           <para codify:path="(1)">
             <num>(1)</num>
             <text>Paragraph (1) is redesignated as paragraph (1A).</text>
-            <!-- <codify:find-replace count="1">
+            <codify:find-replace count="1">
               <find>(1)</find>
               <replace>(1A)</replace>
-            </codify:find-replace> -->
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>A new paragraph (1) is added to read as follows:</text>
             <include lvl="1">
               <para>
-                <codify:insert before="(2)" num-value="(1A)" placeholder-value="[Applicable as of July 1, 2021]"/>
+                <codify:insert before="(1A)" num-value="(1)"/>
                 <num>(1)</num>
                 <text>"Computer software" means a set of statements or instructions that when incorporated in a machine-usable medium is capable of causing a machine or device having information processing capabilities to indicate, perform, or achieve a particular function, task, or result.</text>
               </para>
@@ -9525,14 +9526,20 @@
           </para>
           <codify:annotation doc="D.C. Code" path="§47-1521" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7003">Section 7003 of D.C. Law 23-149</cite> provided that the changes made to this section by D.C. Law 23-149 shall apply as of July 1, 2021.
         </codify:annotation>
+          <codify:replace doc="D.C. Code" path="§47-1521|(a)|(1)">
+            <para>
+              <num>(1)</num>
+              <text>
+        [Applicable as of Jul 1, 2021]
+        </text>
+            </para>
+          </codify:replace>
         </para>
       </section>
       <section>
         <num>7003</num>
         <heading>Applicability.</heading>
         <text>This subtitle shall apply as of July 1, 2021.</text>
-        <codify:applicability doc="D.C. Law 23-149" path="§7002" date="2021-07-01" history="false"/>
-        
       </section>
     </container>
     <container codify:doc="D.C. Code">
@@ -9547,6 +9554,10 @@
       <section>
         <num>7012</num>
         <text>Section 47-1808.02(1) of the District of Columbia Official Code is amended by striking the phrase "Internal Revenue Code of 1986." and inserting the phrase "Internal Revenue Code of 1986. Taxable income shall include gain from the sale or other disposition of any assets, including tangible assets and intangible assets, including real property and interests in real property, in the District, even when such a sale or other disposition results in the termination of an unincorporated business." in its place.</text>
+        <codify:find-replace path="§47-1808.02|(1)" count="1">
+          <find>Internal Revenue Code of 1986.</find>
+          <replace>Internal Revenue Code of 1986.</replace>
+        </codify:find-replace>
         <!-- <codify:find-replace path="§47-1808.02|(1)" count="1">
           <find>Internal Revenue Code of 1986.</find>
           <replace>Internal Revenue Code of 1986. Taxable income shall include gain from the sale or other disposition of any assets, including tangible assets and intangible assets, including real property and interests in real property, in the District, even when such a sale or other disposition results in the termination of an unincorporated business.</replace>
@@ -9556,7 +9567,6 @@
         <num>7013</num>
         <heading>Applicability.</heading>
         <text>This subtitle shall apply as of January 1, 2021.</text>
-        <codify:applicability doc="D.C. Law 23-149" path="§7012" date="2021-07-01"/>
         <codify:annotation doc="D.C. Code" path="§47-1808.02" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7003">Section 7003 of D.C. Law 23-149</cite> provided that the changes made to this section by D.C. Law 23-149 shall apply as of July 1, 2021.
         </codify:annotation>
       </section>
@@ -9792,10 +9802,11 @@
           <num>(a)</num>
           <text>Section 4(b) (D.C. Official Code § 38-433(b)) is amended by striking the phrase "Within 180 days after February 22, 2019, the Mayor" and inserting the phrase "The Mayor" in its place.</text>
           <codify:marginalia display="Subject to Appropriations"/>
-          <!-- <codify:find-replace doc="D.C. Code" path="§38-433|(b)" count="1">
+          <codify:find-replace doc="D.C. Code" path="§38-433|(b)" count="1">
             <find>Within 180 days after February 22, 2019, the Mayor</find>
             <replace>The Mayor</replace>
-          </codify:find-replace> waiting for funding-->
+          </codify:find-replace>
+          <!-- waiting for funding-->
         </para>
         <para>
           <num>(b)</num>
@@ -9808,7 +9819,8 @@
                 <num>(a)</num>
                 <text>Section 4 shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
                 <codify:applicability doc="D.C. Law 22-210" path="§4" date="notfunded" history="false"/>
-                <codify:annotation doc="D.C. Code" path="§38-433" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7066|(b)">Section 7066(b) of D.C. Law 23-149</cite> amended <cite doc="D.C. Law 22-210" path="§4">section 4 of D.C. Law 22-196</cite> and provided that the creation of this section by § 4 of D.C. Law 22-210 is subject to the includsion of the law' fiscal effect in an approved budget and financial plan.  Therefore, the creation of this section by section 2 of Law 22-210 has not been implemented.
+                <codify:applicability doc="D.C. Law 23-149" path="§7066|(a)" date="notfunded" history="false"/>
+                <codify:annotation doc="D.C. Code" path="§38-433" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7066|(b)">Section 7066(b) of D.C. Law 23-149</cite> amended <cite doc="D.C. Law 22-210" path="§4">section 4 of D.C. Law 22-196</cite> and provided that the creation of this section by § 4 of D.C. Law 22-210 is subject to the inclusion of the law's fiscal effect in an approved budget and financial plan.  Therefore, the creation of this section by section 2 of Law 22-210 has not been implemented.
                 </codify:annotation>
               </para>
               <para>
@@ -9844,7 +9856,6 @@
         <include>
           <section>
             <!-- <codify:insert doc="D.C. Law 22-267" after="§3"/> -->
-            <!-- This doesn't do anything and annotation will not work -->
             <num>3a</num>
             <heading>Applicability.</heading>
             <para>
@@ -9857,14 +9868,12 @@
                 <find>Repealed</find>
                 <replace>Not Funded</replace>
               </codify:find-replace>
-              <codify:annotation doc="D.C. Code" path="§7-503.07" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7068">Section 7068 of D.C. Law 23-149</cite> added <cite doc="D.C. Law 23-149" path="§7068">section 3a to D.C. Law 22-267</cite> poviding that the creation of this section by D.C. Law 22-210 is subject to the inclusion of the law's fiscal effect in an approved budget and financial plan.  Therefore the creation of this section has not been implemented.
+              <codify:annotation doc="D.C. Code" path="§7-503.07" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7068">Section 7068 of D.C. Law 23-149</cite> added <cite doc="D.C. Law 23-149" path="§7068">section 3a to D.C. Law 22-267</cite> providing that the creation of this section by D.C. Law 22-267 is subject to the inclusion of the law's fiscal effect in an approved budget and financial plan.  Therefore the creation of this section has not been implemented.
             </codify:annotation>
             </para>
             <para>
               <num>(b)</num>
               <text>The Chief Financial Officer shall certify the date of the inclusion of the fiscal effect in an approved budget and financial plan, and provide notice to the Budget Director of the Council of the certification.</text>
-              <codify:annotation doc="D.C. Code" path="§7-503.07" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7068">Section 7068 of D.C. Law 23-149</cite> added <cite doc="D.C. Law 23-149" path="§7068">section 3a to D.C. Law 22-267</cite> poviding that the creation of this section by D.C. Law 22-210 is subject to the includsion of the law' fiscal effect in an approved budget and financial plan.  Therefore the creation of this section has not been implemented.
-            </codify:annotation>
             </para>
             <para>
               <num>(c)</num>
@@ -9894,7 +9903,7 @@
               <num>(a)</num>
               <text>Section 4 shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
               <codify:applicability doc="D.C. Law 22-280" path="§4" date="notfunded" history="false"/>
-              <codify:annotation doc="D.C. Code" path="§10-1053" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7069">Section 7069 of D.C. Law 23-149</cite> amended [added] <cite doc="D.C. Law 22-280" path="§5">section 5 [5a] to D.C. Law 22-280</cite> poviding that the creation of this section by D.C. Law 22-280 is subject to the includsion of the law' fiscal effect in an approved budget and financial plan.  Therefore the creation of this section has not been implemented.
+              <codify:annotation doc="D.C. Code" path="§10-1053" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7069">Section 7069 of D.C. Law 23-149</cite> amended [added] <cite doc="D.C. Law 22-280" path="§5">section 5 [5a] to D.C. Law 22-280</cite> providing that the creation of this section by D.C. Law 22-280 is subject to the includsion of the law' fiscal effect in an approved budget and financial plan.  Therefore the creation of this section has not been implemented.
             </codify:annotation>
             </para>
             <para>
@@ -10398,12 +10407,15 @@
       <section>
         <num>7152</num>
         <text>Title 47 of the District of Columbia Official Code is amended as follows:</text>
-        <!-- All of this section (except subsection (a)) applies as of July 1, 2021 -->
         <para>
-      
           <num>(a)</num>
           <text>Section 47-1508(a)(10) is repealed.</text>
-          <codify:repeal doc="D.C. Code" path="§47-1508|(a)|(10)"/>
+          <codify:find-replace doc="D.C. Code" path="§47-1508|(a)|(1)" count="1">
+            <find>The</find>
+            <replace>The</replace>
+          </codify:find-replace>
+          <!-- <codify:repeal doc="D.C. Code" path="§47-1508|(a)|(10)"/> -->
+          <!-- Applicable on July 1, 2021 -->
         </para>
         <para>
           <num>(b)</num>
@@ -10414,30 +10426,29 @@
             <para codify:path="(A)">
               <num>(A)</num>
               <text>Subparagraph (A) is amended by striking the phrase "the lesser of $25,000 (or $40,000 in the case of a Qualified High Technology Company ("QHTC"))" and inserting the phrase "the lesser of $25,000" in its place.</text>
-              <!-- <codify:find-replace count="1">
+              <codify:find-replace count="1">
                 <find>the lesser of $25,000 (or $40,000 in the case of a Qualified High Technology Company ("QHTC"))</find>
                 <replace>the lesser of $25,000</replace>
-              </codify:find-replace> -->
-               
+              </codify:find-replace>
             </para>
             <para codify:path="(B)">
               <num>(B)</num>
               <text>Subparagraph (B) is repealed.</text>
-              <!-- <codify:repeal/> -->
+              <codify:repeal/>
             </para>
           </para>
           <para codify:path="§47-1817.01|(5)|(A)|(ii)">
             <num>(2)</num>
             <text>Section 47-1817.01(5)(A)(ii) is amended by striking the number "2" and inserting the number "10" in its place.</text>
-            <!-- <codify:find-replace count="1">
+            <codify:find-replace count="1">
               <find>2</find>
               <replace>10</replace>
-            </codify:find-replace> -->
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>Section 47-1817.02 is repealed.</text>
-            <!-- <codify:repeal path="§47-1817.02"/> -->
+            <codify:repeal path="§47-1817.02"/>
           </para>
           <para codify:path="§47-1817.03">
             <num>(4)</num>
@@ -10445,18 +10456,18 @@
             <para codify:path="(a)">
               <num>(A)</num>
               <text>Subsection (a) is amended by striking the phrase "imposed by § 47-1817.06" and inserting the phrase "imposed by § 47-1807.02" in its place.</text>
-              <!-- <codify:find-replace count="1">
+              <codify:find-replace count="1">
                 <find>imposed by <cite doc="D.C. Code" path="§47-1817.06">§ 47-1817.06</cite></find>
                 <replace>imposed by <cite doc="D.C. Code" path="§47-1807.02">§ 47-1807.02</cite></replace>
-              </codify:find-replace> -->
+              </codify:find-replace>
             </para>
             <para codify:path="(a-1)">
               <num>(B)</num>
               <text>Subsection (a-1) is amended by striking the phrase "imposed by § 47-1817.06" and inserting the phrase "imposed by § 47-1807.02" in its place.</text>
-              <!-- <codify:find-replace count="1">
+              <codify:find-replace count="1">
                 <find>imposed by <cite doc="D.C. Code" path="§47-1817.06">§ 47-1817.06</cite></find>
                 <replace>imposed by <cite doc="D.C. Code" path="§47-1807.02">§ 47-1807.02</cite></replace>
-              </codify:find-replace> -->
+              </codify:find-replace>
             </para>
           </para>
           <para codify:path="§47-1817.04">
@@ -10465,44 +10476,44 @@
             <para codify:path="(d)">
               <num>(A)</num>
               <text>Subsection (d) is amended by striking the figure "$20,000" and inserting the figure "$10,000" in its place.</text>
-              <!-- <codify:find-replace count="1">
+              <codify:find-replace count="1">
                 <find>$20,000</find>
                 <replace>$10,000</replace>
-              </codify:find-replace> -->
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Subsection (e) is repealed.</text>
-              <!-- <codify:repeal path="(e)"/> -->
+              <codify:repeal path="(e)"/>
             </para>
           </para>
           <para>
             <num>(6)</num>
             <text>Section 47-1817.05(c) is repealed.</text>
-            <!-- <codify:repeal path="§47-1817.05|(c)"/> -->
+            <codify:repeal path="§47-1817.05|(c)"/>
           </para>
           <para>
             <num>(7)</num>
             <text>Section 47-1817.06 is repealed.</text>
-            <!-- <codify:repeal path="§47-1817.06"/> -->
+            <codify:repeal path="§47-1817.06"/>
           </para>
           <para>
             <num>(8)</num>
             <text>Section 47-1817.07 is repealed.</text>
-            <!-- <codify:repeal path="§47-1817.07"/> -->
+            <codify:repeal path="§47-1817.07"/>
           </para>
           <para>
             <num>(9)</num>
             <text>Section 47-1817.07a is amended by striking the phrase "For tax years beginning after December 31, 2018, notwithstanding" and inserting the phrase "For the tax year beginning after December 31, 2018 and ending before January 1, 2020, and for tax years beginning after December 31, 2024, notwithstanding" in its place.</text>
-            <!-- <codify:find-replace path="§47-1817.07a" count="1">
+            <codify:find-replace path="§47-1817.07a" count="1">
               <find>For tax years beginning after December 31, 2018, notwithstanding</find>
               <replace>For the tax year beginning after December 31, 2018 and ending before January 1, 2020, and for tax years beginning after December 31, 2024, notwithstanding</replace>
-            </codify:find-replace> -->
+            </codify:find-replace>
           </para>
           <para>
             <num>(10)</num>
             <text>Section 47-1818.06(3) is repealed.</text>
-            <!-- <codify:repeal path="§47-1818.06|(3)"/> -->
+            <codify:repeal path="§47-1818.06|(3)"/>
           </para>
         </para>
       </section>
@@ -10510,8 +10521,7 @@
         <num>7153</num>
         <heading>Applicability.</heading>
         <text>This subtitle shall apply as of January 1, 2020, except that section 7152(a) shall apply as of July 1, 2021.</text>
-        <codify:applicability doc="D.C. Law 23-149" path="§7152|(b)" date="2021-07-01" history="false"/>
-        <codify:annotation doc="D.C. Code" path="§47-1803.03" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7153">Section 7153 of D.C. Law 23-149</cite> provided that the changes made to this section by D.C. Law 23-149 shall apply as of July 1, 2021.
+        <codify:annotation doc="D.C. Code" path="§47-1508" type="Applicability" history="false"><cite doc="D.C. Law 23-149" path="§7153">Section 7153 of D.C. Law 23-149</cite> provided that the changes made to this section by section 7152(a) of D.C. Law 23-149 shall apply as of July 1, 2021.
         </codify:annotation>
       </section>
     </container>
