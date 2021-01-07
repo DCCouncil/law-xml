@@ -21,29 +21,37 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Autonomous Vehicles Testing Program Amendment Act of 2020".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Autonomous Vehicle Act of 2012, effective April 23, 2013 (D.C. Law 19-278; D.C. Official Code § 50-2351 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§50-2351">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 50-2351) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)|num">
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (1C).</text>
+        <codify:find-replace count="1">
+          <find>(1)</find>
+          <replace>(1C)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>New paragraphs (1), (1A), and (1B) are added to read as follows:</text>
         <include lvl="1">
+        <!-- fix when funded -->
           <para>
+            <codify:insert after="(1)" num-value="(1B)"/>
             <num>(1)</num>
             <text>"Associated autonomous vehicle" means an autonomous vehicle that an autonomous vehicle testing entity identifies in its autonomous vehicle testing permit application pursuant to section 3a, and any subsequent autonomous vehicles approved to operate pursuant to section 3a(f)(1) or permitted by law to operate without subsequent approval.</text>
           </para>
           <para>
+            <codify:insert after="(1B)" num-value="(1C)"/>
             <num>(1A)</num>
             <text>"Autonomous driving system" means the combination of hardware and software collectively capable of autonomous operation of a motor vehicle on a sustained basis that meets the definition of Levels 3, 4, or 5 of the Society of Automotive Engineers International's Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles, standard J3016.</text>
           </para>
           <para>
+            <!-- <codify:insert before="(1C)"/> -->
             <num>(1B)</num>
             <text>"Autonomous operation" means the performance of the entire dynamic driving task by an autonomous driving system, beginning upon the performance of the entire dynamic driving task by an autonomous driving system and continuing until the autonomous driving system is disengaged.</text>
           </para>
@@ -55,6 +63,7 @@
         <text>The newly redesignated paragraph (1C) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace path="(1C)"/>
             <num>(1C)</num>
             <text>"Autonomous vehicle" means a motor vehicle equipped with an autonomous driving system, regardless of whether the vehicle is under autonomous operation.</text>
           </para>
@@ -66,45 +75,54 @@
         <text>New paragraphs (1D) and (1E) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1C)"/>
             <num>(1D)</num>
             <text>"AV testing entity" means a person applying for or issued an AV testing permit by the Department.</text>
           </para>
           <para>
+            <codify:insert after="(1D)"/>
             <num>(1E)</num>
             <text>"AV testing permit" means a permit issued by the Department pursuant to section 3a.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(5)</num>
         <text>Paragraph (2) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(6)</num>
         <text>New paragraphs (2A), (2B), (2C), (2D), (2E), and (2F) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(2)"/>
             <num>(2A)</num>
             <text>"Department" means the District Department of Transportation.</text>
           </para>
           <para>
+            <codify:insert after="(2A)"/>
             <num>(2B)</num>
             <text>"Director" means the Director of the Department.</text>
           </para>
           <para>
+            <codify:insert after="(2B)"/>
             <num>(2C)</num>
             <text>"Dynamic driving task" means all of the real-time operational and tactical functions collectively required to operate a vehicle in on-road traffic, including controlling lateral and longitudinal vehicle motion, monitoring the driving environment, executing responses to objects and events, planning vehicle maneuvers, and enhancing vehicle conspicuity. The term "dynamic driving task" shall not include the strategic functions of driving, such as scheduling trips, selecting destinations, and specifying routes.</text>
           </para>
           <para>
+            <codify:insert after="(2C)"/>
             <num>(2D)</num>
             <text>"Minimal risk condition" means a condition to which a test operator or autonomous driving system brings a vehicle to reduce the risk of a crash when a trip cannot or should not be completed, such as bringing the vehicle to a complete stop.</text>
           </para>
           <para>
+            <codify:insert after="(2D)"/>
             <num>(2E)</num>
             <text>"Operate" means collectively, the activities performed by a test operator or an autonomous driving system to perform the entire dynamic driving task for an associated autonomous vehicle.</text>
           </para>
           <para>
+            <codify:insert after="(2E)"/>
             <num>(2F)</num>
             <text>"Operational design domain" means the environmental, geographic, time-of-day, traffic, infrastructure, and other conditions under which an autonomous driving system is specifically designed to function.</text>
           </para>
@@ -116,30 +134,37 @@
         <text>New paragraphs (3A), (3B), and (3C) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(3)"/>
             <num>(3A)</num>
             <text>"Remote operator" means an employee, contractor, or other designee of the autonomous testing entity who is not physically present in an associated autonomous vehicle, but is actively monitoring the autonomous operation of the vehicle in real time and is able to operate the vehicle or is able to communicate with occupants of the vehicle.</text>
           </para>
           <para>
+            <codify:insert after="(3A)"/>
             <num>(3B)</num>
             <text>"Testing" means the operation of an associated autonomous vehicle on public roadways to assess or demonstrate the associated autonomous vehicle's capabilities, including operating an associated autonomous vehicle with occupants other than a test operator.</text>
           </para>
           <para>
+            <codify:insert after="(3B)"/>
             <num>(3C)</num>
             <text>"Test operator" means an employee, contractor, or other designee of the autonomous vehicle testing entity who engages an autonomous driving system and performs, in real time, part or all of the dynamic driving task.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§50-2351" applicability-path="§3" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§50-2352">
       <num>(b)</num>
       <text>Section 3 (D.C. Official Code § 50-2352) is repealed.</text>
+      <codify:repeal/>
+      <codify:not-funded-anno doc="D.C. Code" path="§50-2352" action="repeal of" applicability-path="§3" display-template=""/>
     </para>
     <para>
       <num>(c)</num>
       <text>New sections 3a, 3b, 3c, 3d, 3e, 3f, and 3g are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="50|23A" after="§50-2352" num-value="50-2352.01" history-prefix="as added"/>
           <num>3a</num>
           <heading>Autonomous Vehicle Testing Program.</heading>
           <para>
@@ -281,13 +306,17 @@
               <text>Comply with section 3c(b).</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 19-278" type="History" path="§3a">Apr. 23, 2013, D.C. Law 19-278, § 3a</annotation>
         </section>
         <section>
+          <codify:insert path="50|23A" after="§50-2352.01" num-value="50-2352.02" history-prefix="as added"/>
           <num>3b</num>
           <heading>Restrictions on testing.</heading>
           <text>The Department may order an AV testing entity to temporarily restrict testing on select roadways, or District-wide, under certain circumstances identified by the Department pursuant to rules, including emergencies, special events, or specific roadway conditions that raise safety concerns. To the maximum extent practicable, the Department shall provide an AV testing entity with reasonable notice about how, where, and when testing will be restricted, and the reasons for such restriction. This section shall only apply to associated autonomous vehicles when under autonomous operation.</text>
+          <annotation doc="D.C. Law 19-278" type="History" path="§3b">Apr. 23, 2013, D.C. Law 19-278, § 3b</annotation>
         </section>
         <section>
+          <codify:insert path="50|23A" after="§50-2352.02" num-value="50-2352.03" history-prefix="as added"/>
           <num>3c</num>
           <heading>Data and crash reporting.</heading>
           <para>
@@ -385,13 +414,17 @@
             <num>(d)</num>
             <text>At its discretion, and in coordination with a law enforcement or government investigative entity, the Department may require an AV testing entity to submit additional information necessary to investigate a crash. Such information shall be requested, stored, maintained, and transmitted pursuant to Department rules and applicable law.</text>
           </para>
+          <annotation doc="D.C. Law 19-278" type="History" path="§3c">Apr. 23, 2013, D.C. Law 19-278, § 3c</annotation>
         </section>
         <section>
+        <codify:insert path="50|23A" after="§50-2352.03" num-value="50-2352.04" history-prefix="as added"/>
           <num>3d</num>
           <heading>Report on full deployment of autonomous vehicles.</heading>
           <text>Within one year after the applicability date of the Autonomous Vehicles Testing Program Amendment Act of 2020, passed on 2nd reading on September 22, 2020 (Enrolled version of Bill 23-232), the Department shall transmit to the Council a report that provides recommendations to safely accommodate the deployment of autonomous vehicles on public roadways for commercial, personal, and any other use the Department determines. The report may include draft legislation or regulations.</text>
+          <annotation doc="D.C. Law 19-278" type="History" path="§3d">Apr. 23, 2013, D.C. Law 19-278, § 3d</annotation>
         </section>
         <section>
+          <codify:insert path="50|23A" after="§50-2352.04" num-value="50-2352.05" history-prefix="as added"/>
           <num>3e</num>
           <heading>Preexisting testing or operation before testing permit availability.</heading>
           <para>
@@ -414,8 +447,10 @@
             <num>(c)</num>
             <text>An entity who applies for an AV testing permit pursuant to subsection (b)(1) of this section may continue operating or testing autonomous vehicles in the District while its application is pending, but the entity shall immediately cease operating or testing autonomous vehicles in the District if its application is denied.</text>
           </para>
+          <annotation doc="D.C. Law 19-278" type="History" path="§3e">Apr. 23, 2013, D.C. Law 19-278, § 3e</annotation>
         </section>
         <section>
+        <codify:insert path="50|23A" after="§50-2352.05" num-value="50-2352.06" history-prefix="as added"/>
           <num>3f</num>
           <heading>Civil penalties and other sanctions.</heading>
           <para>
@@ -433,8 +468,10 @@
             <num>(b)</num>
             <text>In addition to, or in lieu of, the civil penalty described in subsection (a) of this section, the Department may modify, suspend, revoke, or deny an AV testing permit issued by the Department for a violation of this act, or a regulation promulgated pursuant to this act, after notice and opportunity for a hearing pursuant to section 3g.</text>
           </para>
+          <annotation doc="D.C. Law 19-278" type="History" path="§3f">Apr. 23, 2013, D.C. Law 19-278, § 3f</annotation>
         </section>
         <section>
+          <codify:insert path="50|23A" after="§50-2352.06" num-value="50-2352.07" history-prefix="as added"/>
           <num>3g</num>
           <heading>Administrative appeals.</heading>
           <para>
@@ -445,21 +482,25 @@
             <num>(b)</num>
             <text>An appeal shall be filed within 15 days after the adverse action of the Department, or, if notice of the adverse action is served by the United States mail or commercial carrier, within 20 days after the adverse action of the Department.</text>
           </para>
+          <annotation doc="D.C. Law 19-278" type="History" path="§3g">Apr. 23, 2013, D.C. Law 19-278, § 3g</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 23-156" path="§2|(c)" action="creation of" applicability-path="§3" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§50-2354">
       <num>(d)</num>
       <text>Section 5 (D.C. Official Code § 50-2354) is amended to read as follows:</text>
       <include>
         <section>
-          <num>5</num>
+          <codify:replace/>
+          <num codify:value="50-2354">5</num>
           <heading>Rules.</heading>
           <text>The Department, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall issue rules to implement the provisions of this act.</text>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§50-2354" applicability-path="§3" display-template=""/>
     </para>
   </section>
   <section>
@@ -468,6 +509,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 23-156" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
