@@ -244,7 +244,7 @@
         <para codify:path="§1-1163.10a|(a)|(2)|(A)">
           <num>(c)</num>
           <text>Section 310a(a)(2)(A) (D.C. Official Code § 1-1163.10a(a)(2)(A)) is amended by striking the phrase "Campaign Finance Board" and inserting the phrase "Director of Campaign Finance" in its place.</text>
-         <codify:find-replace count="1">
+          <codify:find-replace count="1">
             <find>Campaign Finance Board</find>
             <replace>Director of Campaign Finance</replace>
           </codify:find-replace>
@@ -1678,7 +1678,7 @@
           <text>Subparagraph (A) is amended by striking the phrase "and to enable an employee to report a violation of this act".</text>
           <codify:find-replace doc="D.C. Law 22-196" path="6|(d)|(2)|includes|(b)|(1)|(A)" count="1">
             <find> and to enable an employee to report a violation of <code-cite doc="D.C. Code" path="32|10|I">this act</code-cite></find>
-            <replace></replace>
+            <replace/>
           </codify:find-replace>
         </para>
         <para>
@@ -5562,12 +5562,12 @@
         <text>The Department of Health Functions Clarification Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 7-731 <em>et seq</em>.), is amended by adding a new subtitle E to read as follows:</text>
         <include>
           <container>
-            <codify:insert path="7|7A|V" history-prefix="as added"/>
             <prefix>Subtitle</prefix>
             <num>E</num>
             <heading>Dementia Services.</heading>
             <section>
-              <num codify:value="7-744.01">4948</num>
+              <codify:insert path="7|7A|V" num-value="7-744.01" history-prefix="as added"/>
+              <num>4948</num>
               <heading>Dementia Services Coordinator.</heading>
               <text>There is established within the Department of Health the position of the Dementia Services Coordinator ("Coordinator"), who shall be a full-time employee of the District. The Coordinator shall be responsible for:</text>
               <para>
@@ -5597,11 +5597,11 @@
                   <text>Carrying out such other duties relevant to the support of individuals with dementia as may be assigned by the Director of the Department of Health.</text>
                 </para>
               </para>
+              <annotation doc="D.C. Law 14-28" type="History" path="§4951">Oct. 3, 2001, D.C. Law 14-28, § 4951</annotation>
             </section>
           </container>
         </include>
         <aftertext>.</aftertext>
-        <annotation doc="D.C. Law 14-28" type="History" path="§4951">Oct. 3, 2001, D.C. Law 14-28, § 4948 [4951]</annotation>
       </section>
     </container>
     <container>
@@ -6444,7 +6444,6 @@
               <find>of those populations; and</find>
               <replace>of those populations, especially those with cognitive and other disabilities who cannot care for themselves without assistance;</replace>
             </codify:find-replace>
-            
           </para>
           <para>
             <num>(2)</num>
@@ -6677,19 +6676,27 @@
             </para>
             <para>
               <num>(2)</num>
-              <text><span codify:value="Not Funded.">By October 1, 2020, at least 25% of the projected fiscal impact of the full cost of care and teacher salary scale;</span></text>
+              <text>
+                <span codify:value="Not Funded.">By October 1, 2020, at least 25% of the projected fiscal impact of the full cost of care and teacher salary scale;</span>
+              </text>
             </para>
             <para>
               <num>(3)</num>
-              <text><span codify:value="Not Funded.">By October 1, 2021, at least 50% of the projected fiscal impact of the full cost of care and teacher salary scale;</span></text>
+              <text>
+                <span codify:value="Not Funded.">By October 1, 2021, at least 50% of the projected fiscal impact of the full cost of care and teacher salary scale;</span>
+              </text>
             </para>
             <para>
               <num>(4)</num>
-              <text><span codify:value="Not Funded.">By October 1, 2022, at least 75% of the projected fiscal impact of the full cost of care and teacher salary scale;</span></text>
+              <text>
+                <span codify:value="Not Funded.">By October 1, 2022, at least 75% of the projected fiscal impact of the full cost of care and teacher salary scale;</span>
+              </text>
             </para>
             <para>
               <num>(5)</num>
-              <text><span codify:value="Not Funded.">By October 1, 2023, and on an annual basis thereafter, OSSE shall reimburse providers at the cost of care as determined by its most recent cost modeling analysis; and</span></text>
+              <text>
+                <span codify:value="Not Funded.">By October 1, 2023, and on an annual basis thereafter, OSSE shall reimburse providers at the cost of care as determined by its most recent cost modeling analysis; and</span>
+              </text>
             </para>
             <para>
               <num>(6)</num>
