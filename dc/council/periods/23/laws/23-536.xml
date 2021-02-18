@@ -20,29 +20,42 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Opioid Overdose Treatment and Prevention Omnibus Amendment Act of 2020".</text>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§7-403">
     <num>2</num>
     <text>Section 3 of An Act To relieve physicians of liability for negligent medical treatment at the scene of an accident in the District of Columbia, effective March 19, 2013 (D.C. Law 19-243; D.C. Official Code § 7-403), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)|(1)">
       <num>(a)</num>
       <text>Subsection (a)(1) is amended as follows:</text>
-      <para>
+      <para codify:path="(A)">
         <num>(1)</num>
         <text>Subparagraph (A) is amended by striking the phrase "for himself or herself" and inserting the phrase "for or administers an opioid antagonist to himself or herself" in its place.</text>
+        <codify:find-replace count="1">
+          <find>for himself or herself</find>
+          <replace>for or administers an opioid antagonist to himself or herself</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(B)">
         <num>(2)</num>
         <text>Subparagraph (B) is amended by striking the phrase "for that person; or" and inserting the phrase "for or administers an opioid antagonist to that person;" in its place.</text>
+        <codify:find-replace count="1">
+          <find>for that person; or</find>
+          <replace>for or administers an opioid antagonist to that person;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(C)">
         <num>(3)</num>
         <text>Subparagraph (C) is amended by striking the phrase "is sought; and" and inserting the phrase "is sought or to whom an opioid antagonist is administered; or" in its place.</text>
+        <codify:find-replace count="1">
+          <find>is sought; and</find>
+          <replace>is sought or to whom an opioid antagonist is administered; or</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new subparagraph (D) is added to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert/>
             <num>(D)</num>
             <text>Is a bystander to a situation described in subparagraph (A), (B), or (C) of this paragraph; and</text>
           </para>
@@ -50,15 +63,17 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="(b)|(3)">
       <num>(b)</num>
       <text>Subsection (b)(3) is repealed.</text>
+      <codify:repeal/>
     </para>
-    <para>
+    <para codify:path="(c)">
       <num>(c)</num>
       <text>Subsection (c) is amended to read as follows:</text>
       <include>
         <para>
+          <codify:replace/>
           <num>(c)</num>
           <text>The seeking of health care or administration of an opioid antagonist under subsection (a) of this section, whether or not presented by the parties, may be considered by the court as a mitigating factor in any criminal prosecution or sentencing for an offense that is not listed in subsection (b) of this section.</text>
         </para>
@@ -66,22 +81,25 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>3</num>
     <text>The Opioid Overdose Treatment and Prevention Omnibus Act of 2018, effective April 11, 2019 (D.C. Law 22-288; D.C. Official Code § 7-3201 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§7-3201|(a)">
       <num>(a)</num>
       <text>Section 101 (D.C. Official Code § 7-3201) is amended by adding new paragraphs (9A), (9B), and (9C) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(9)"/>
           <num>(9A)</num>
           <text>"MPD" means the Metropolitan Police Department.</text>
         </para>
         <para>
+          <codify:insert after="(9A)"/>
           <num>(9B)</num>
-          <text>"Opioid antagonist" shall have the same meaning as provided in section 3(i)(2) of An Act To relieve physicians of liability for negligent medical treatment at the scene of an accident in the District of Columbia, effective March 19, 2013 (D.C. Law 19-243; D.C. Official Code § 7-403(i)(2)).</text>
+          <text>"Opioid antagonist" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§7-403|(i)|(2)">section 3(i)(2) of An Act To relieve physicians of liability for negligent medical treatment at the scene of an accident in the District of Columbia, effective March 19, 2013 (D.C. Law 19-243; D.C. Official Code § 7-403(i)(2))</code-cite>.</text>
         </para>
         <para>
+          <codify:insert after="(9B)"/>
           <num>(9C)</num>
           <text>"Opioid antagonist rescue kit" means a kit that contains:</text>
           <para>
@@ -111,12 +129,14 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§7-3201" applicability-path="§6" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
       <text>A new section 104a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="7|32" after="§7-3204" num-value="7-3204.01" history-prefix="as added"/>
           <num>104a</num>
           <heading>District government use of opioid antagonists.</heading>
           <para>
@@ -187,6 +207,8 @@
             <num>(d)</num>
             <text>In developing any training for District employees related to this section, the District shall consult with individuals with lived experience of opioid use or opioid use disorder.</text>
           </para>
+          <annotation doc="D.C. Law 22-288" type="History" path="§104a">Apr. 11, 2019, D.C. Law 22-288, § 104a</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§7-3204.01" applicability-path="§6" action="creation of" display-template=""/>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -195,47 +217,61 @@
   <section>
     <num>4</num>
     <text>Section 410 of the District of Columbia Uniform Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Official Code § 48-904.10), is repealed.</text>
+    <codify:repeal doc="D.C. Code" path="§48-904.10"/>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>5</num>
     <text>The Drug Paraphernalia Act of 1982, effective September 17, 1982 (D.C. Law 4-149; D.C. Official Code § 48-1101 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§48-1101">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 48-1101) is amended by adding a new paragraph (4) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert/>
           <num>(4)</num>
           <text>"Personal use" means use or possession in circumstances where there is insufficient evidence of intent to distribute or manufacture a controlled substance.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§48-1103">
       <num>(b)</num>
       <text>Section 4 (D.C. Official Code § 48-1103) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(1A)">
         <num>(1)</num>
         <text>Subsection (a)(1A) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(1A)</num>
             <text>Notwithstanding paragraph (1) of this subsection, it shall not be unlawful for a person to use, or possess with the intent to use, drug paraphernalia for the personal use of a controlled substance.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)|(1A)">
         <num>(2)</num>
         <text>Subsection (b)(1A) is amended by striking the phrase "the materials described in section 2(3)(D)" and inserting the phrase "drug paraphernalia for the personal use of a controlled substance" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the materials described in <code-cite doc="D.C. Code" path="§48-1101|(3)|(D)">section 2(3)(D)</code-cite></find>
+          <replace>drug paraphernalia for the personal use of a controlled substance</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§48-1103.01|(d)">
       <num>(c)</num>
       <text>Section 4a(d) (D.C. Official Code § 48-1103.01(d)) is amended by striking the phrase "act or section 410 of the District of Columbia Uniformed Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Code § 33-550)" and inserting the word "act" in its place.</text>
+      <codify:find-replace count="1">
+        <find><cite path="§48-1103">§ 48-1103</cite> or <cite path="§48-904.10">§ 48-904.10</cite></find>
+        <replace>
+          <cite path="§48-1103">§ 48-1103</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§48-1104|(b)">
       <num>(d)</num>
       <text>Section 5(b) (D.C. Official Code § 48-1104(b)) is repealed.</text>
+      <codify:repeal/>
     </para>
   </section>
   <section>
@@ -244,6 +280,8 @@
     <para>
       <num>(a)</num>
       <text>Section 3 of this act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Act 23-536" path="§3|(a)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Act 23-536" path="§3|(b)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

@@ -31,18 +31,18 @@
         <para codify:path="(2)">
           <num>(A)</num>
           <text>Paragraph (2) is amended by striking the phrase "January 1, 2023" and inserting the phrase "January 1, 2027" in its place.</text>
-          <codify:find-replace count="1">
+          <!-- <codify:find-replace count="1">
             <find>January 1, 2023</find>
             <replace>January 1, 2027</replace>
-          </codify:find-replace>
+          </codify:find-replace> -->
         </para>
         <para codify:path="(3)">
           <num>(B)</num>
           <text>Paragraph (3) is amended by striking the phrase "January 1, 2026" and inserting the phrase "January 1, 2033" in its place.</text>
-          <codify:find-replace count="1">
+          <!-- <codify:find-replace count="1">
             <find>January 1, 2026</find>
             <replace>January 1, 2033</replace>
-          </codify:find-replace>
+          </codify:find-replace> -->
         </para>
       </para>
       <para codify:path="(b)|(1)|(A)">
@@ -54,7 +54,7 @@
             <para>
               <num>(1)</num>
               <para>
-                <codify:replace/>
+                <!-- <codify:replace/> -->
                 <num>(A)</num>
                 <text>No later than January 1, 2021, and every 6 years thereafter, DOEE shall, by rulemaking or publication on the DOEE website, establish property types and building energy performance standards for each property type, or an equivalent metric for buildings that do not receive an ENERGY STAR score.</text>
               </para>
@@ -68,21 +68,23 @@
         <text>Subsection (c) is amended to read as follows:</text>
         <include>
           <para>
-            <codify:replace/>
+            <!-- <codify:replace/> -->
             <num>(c)</num>
             <text>All buildings below the energy performance standard for their property type, established pursuant to subsection (b)(1) and (2) of this section, shall have 5 years from the date the performance standards are established to meet the building energy performance requirements established by DOEE.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§8-1772.21"/>
     </para>
     <para>
       <num>(b)</num>
       <text>The lead-in language in section 303 (D.C. Official Code § 8-1772.22) is amended by striking the phrase "January 1, 2020" and inserting the phrase "January 1, 2021" in its place.</text>
-      <codify:find-replace doc="D.C. Code" path="§8-1772.22" count="1">
+      <!-- <codify:find-replace doc="D.C. Code" path="§8-1772.22" count="1">
         <find>January 1, 2020</find>
         <replace>January 1, 2021</replace>
-      </codify:find-replace>
+      </codify:find-replace> -->
+      <codify:emergency doc="D.C. Code" path="§8-1772.22"/>
     </para>
   </section>
   <section codify:doc="D.C. Code" codify:path="§50-2201.03|(j)|(1A)">
@@ -91,23 +93,24 @@
     <para codify:path="(A)">
       <num>(a)</num>
       <text>Subparagraph (A) is amended by striking the phrase "January 1, 2020" and inserting the phrase "January 1, 2021" in its place.</text>
-      <codify:find-replace count="1">
+      <!-- <codify:find-replace count="1">
         <find>January 1, 2020</find>
         <replace>January 1, 2021</replace>
-      </codify:find-replace>
+      </codify:find-replace> -->
     </para>
     <para>
       <num>(b)</num>
       <text>Subparagraph (E) is amended to read as follows:</text>
       <include lvl="2">
         <para>
-          <codify:replace path="(E)"/>
+          <!-- <codify:replace path="(E)"/> -->
           <num>(E)</num>
           <text>Changes to the vehicle excise tax made pursuant to this paragraph shall be revenue neutral or revenue positive.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:emergency doc="D.C. Code" path="§50-2201.03"/>
   </section>
   <section>
     <num>4</num>
@@ -122,7 +125,7 @@
     <num>6</num>
     <heading>Effective date.</heading>
     <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), and shall remain in effect for no longer than 90 days, as provided for emergency acts of the Council of the District of Columbia in section 412(a) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 788; D.C. Official Code § 1-204.12(a)).</text>
-    <codify:insert doc="D.C. Code" path="§8-1772.21" before="heading" history="false" display-template="">
+    <!-- <codify:insert doc="D.C. Code" path="§8-1772.21" before="heading" history="false" display-template="">
       <text>
       *NOTE: This section includes amendments by emergency legislation that will expire on February 15, 2021. To view the text of this section after the expiration of the emergency legislation, click this link: <cite doc="D.C. Code" path="§8-1772.21(Perm)">Permanent Version</cite>.*
       </text>
@@ -136,6 +139,6 @@
       <text>
       *NOTE: This section includes amendments by emergency legislation that will expire on February 15, 2021. To view the text of this section after the expiration of the emergency legislation, click this link: <cite doc="D.C. Code" path="§50-2201.03(Perm)">Permanent Version</cite>.*
       </text>
-    </codify:insert>
+    </codify:insert> -->
   </section>
 </document>
