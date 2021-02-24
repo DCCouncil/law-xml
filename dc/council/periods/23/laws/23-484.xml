@@ -6,7 +6,7 @@
   <heading type="long">To amend the District of Columbia Election Code of 1955 to allow District residents, who are otherwise qualified, to vote while incarcerated for a felony conviction, to add the Department of Corrections as an automatic voter registration agency, to require the District of Columbia Board of Elections to provide every unregistered qualified elector in the Department of Corrections' care or custody, and endeavor to provide to every unregistered qualified elector in the Bureau of Prisons' care or custody, a voter registration form and postage-paid return envelope and educational materials about the right to vote, to require the District of Columbia Board of Elections to provide to every registered qualified elector in the Department of Corrections' care or custody, and endeavor to provide to every registered qualified elector in the Bureau of Prisons' care or custody, a voter guide, educational materials about the right to vote, and an absentee ballot with a postage-paid return envelope, and to require the District of Columbia Board of Elections and the Corrections Information Council, by July 1, 2021, and biennially thereafter, to jointly submit a report to the Mayor and the Council; to amend the Department of Youth Rehabilitation Services Establishment Act of 2004 to require the Department of Youth Rehabilitation Services to register to vote any committed youth who is a qualified elector, unless the youth opts out, and annually transmit to the District of Columbia Board of Elections and the Council a report including the number of youth who registered to vote and the number of youth who declined to register to vote; and to amend An Act To create a Department of Corrections in the District of Columbia to require the Department of Corrections to employ personnel whose sole responsibility is the civic engagement and enfranchisement of eligible individuals in its care or custody, to require the Department of Corrections to automatically register to vote individuals who are qualified electors, unless an individual opts out, and to require the Department of Corrections to transmit to the District of Columbia Board of Elections the voter registration information of each incarcerated individual who did not decline to register to vote.</heading>
   <meta>
     <introduced>2019-06-04</introduced>
-    <effective>2020-11-16</effective>
+    <effective projected="true">2021-03-19</effective>
     <citations>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/42718/Signed_Act/B23-0324-Signed_Act.pdf">D.C. Act 23-484</citation>
       <citation type="register">67 DCR 13867</citation>
@@ -20,22 +20,27 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Restore the Vote Amendment Act of 2020".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 669; D.C. Official Code § 1-1001.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§1-1001.02">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 1-1001.02) is amended as follows:</text>
-      <para>
+      <para codify:path="(2)">
         <num>(1)</num>
         <text>Paragraph (2) is amended as follows:</text>
-        <para>
+        <para codify:path="(C)">
           <num>(A)</num>
           <text>Subparagraph (C) is amended by striking the semicolon and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace count="1">
+            <find>;</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(D)">
           <num>(B)</num>
           <text>Subparagraph (D) is repealed.</text>
+          <codify:repeal/>
         </para>
       </para>
       <para>
@@ -43,26 +48,29 @@
         <text>New paragraphs (32) and (33) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(32)</num>
             <text>The term "DOC" means the Department of Corrections.</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(33)</num>
-            <text>The term "automatic voter registration agency" means an agency designated under section 7(c)(1) to automatically register qualified electors to vote.</text>
+            <text>The term "automatic voter registration agency" means an agency designated under <code-cite doc="D.C. Code" path="§1-1001.07|(c)|(1)">section 7(c)(1)</code-cite> to automatically register qualified electors to vote.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-1001.05">
       <num>(b)</num>
       <text>Section 5 (D.C. Official Code § 1-1001.05) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by adding a new paragraph (9B) to read as follows:</text>
         <include lvl="1">
           <para>
-            <num>(9B)</num>
+            <codify:insert after="(9)"/>
+            <num>[(9Bx)]</num>
             <text>Before any upcoming voter registration or absentee ballot deadlines and with reasonable time for qualified electors to return materials to the Board:</text>
             <para>
               <num>(A)</num>
@@ -101,15 +109,16 @@
         <text>A new subsection (m) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(m)</num>
-            <text>By July 1, 2021, and biennially thereafter, the Board and the Corrections Information Council, established by section 11201a of the National Capital Revitalization and Self-Government Improvement Act of 1997, effective October 2, 2010 (D.C. Law 18-233; D.C. Official Code § 24-101.01), shall jointly submit a report to the Mayor and Council on the Restore the Vote Amendment Act of 2020, passed on 2nd reading on October 20, 2020 (Enrolled version of Bill 23-324) ("Act"), including:</text>
+            <text>By July 1, 2021, and biennially thereafter, the Board and the Corrections Information Council, established by <code-cite doc="D.C. Code" path="§24-101.01">section 11201a of the National Capital Revitalization and Self-Government Improvement Act of 1997, effective October 2, 2010 (D.C. Law 18-233; D.C. Official Code § 24-101.01)</code-cite>, shall jointly submit a report to the Mayor and Council on the <cite doc="D.C. Act 23-484">Restore the Vote Amendment Act of 2020</cite><span codify:value="">, passed on 2nd reading on October 20, 2020 (Enrolled version of Bill 23-324)</span> ("Act"), including:</text>
             <para>
               <num>(1)</num>
-              <text>The number of incarcerated qualified electors registered since the Act's effective date, or, beginning in the July 1, 2023 report, since the date of the previous report;</text>
+              <text>The number of incarcerated qualified electors registered since the Act's effective date <span codify:value="[insert effective date"/>, or, beginning in the July 1, 2023 report, since the date of the previous report;</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>The number of incarcerated registered qualified electors who voted, for each election held since the Act's effective date or, beginning in the July 1, 2023 report, since the date of the previous report;</text>
+              <text>The number of incarcerated registered qualified electors who voted, for each election held since the Act's effective date  <span codify:value="[insert effective date"/>or, beginning in the July 1, 2023 report, since the date of the previous report;</text>
             </para>
             <para>
               <num>(3)</num>
@@ -124,25 +133,34 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-1001.07">
       <num>(c)</num>
       <text>Section 7 (D.C. Official Code § 1-1001.07) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "unless:" and inserting the phrase "unless the person:" in its place.</text>
+          <codify:find-replace count="1">
+            <find>unless:</find>
+            <replace>unless the person:</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the phrase "He or she meets the qualifications" and inserting the phrase "Meets the qualifications" in its place.</text>
+          <codify:find-replace count="1">
+            <find>He or she meets the qualifications</find>
+            <replace>Meets the qualifications</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(C)</num>
           <text>Paragraph (2) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(2)</num>
               <para>
                 <num>(A)</num>
@@ -156,31 +174,44 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(D)</num>
           <text>Paragraph (3) is amended by striking the phrase "his or her" and inserting the phrase "the person's" in its place.</text>
+          <codify:find-replace count="1">
+            <find>his or her</find>
+            <replace>the person's</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended as follows:</text>
-        <para>
+        <para codify:path="(2A)">
           <num>(A)</num>
           <text>Paragraph (2A) is amended by striking the phrase "No later than 180 days following the effective date of the Voter Registration Access and Modernization Amendment Act of 2014, passed on 2nd reading on September 23, 2014 (Enrolled version of Bill 20-264), the Board" and inserting the phrase "The Board" in its place.</text>
+          <codify:find-replace count="1">
+            <find>No later than 180 days following February 26, 2015, the Board</find>
+            <replace>The Board</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(B)</num>
           <text>Paragraph (4) is amended by striking the phrase "indicate his or her interest" and inserting the phrase "indicate the applicant's interest" in its place.</text>
+          <codify:find-replace count="1">
+            <find>indicate his or her interest</find>
+            <replace>indicate the applicant's interest</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(1)</num>
               <para>
                 <num>(A)</num>
@@ -341,87 +372,149 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(3)|(B)">
           <num>(B)</num>
           <text>Paragraph (3)(B) is amended by striking the phrase "he or she" and inserting the phrase "the person" in its place.</text>
+          <codify:find-replace count="1">
+            <find>he or she</find>
+            <replace>the person</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(d)|(1)|(B)">
         <num>(4)</num>
         <text>Subsection (d)(1)(B) is amended by striking the phrase "Department of Youth and Rehabilitative Services" and inserting the phrase "Department of Youth Rehabilitation Services" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department of Youth and Rehabilitative Services</find>
+          <replace>Department of Youth Rehabilitative Services</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(e)">
         <num>(5)</num>
         <text>Subsection (e) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "the DMV" and inserting the phrase "an automatic voter registration agency" in its place.</text>
+          <codify:find-replace count="1">
+            <find>the DMV</find>
+            <replace>an automatic voter registration agency</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended as follows:</text>
-          <para>
+          <para codify:path="(A)">
             <num>(i)</num>
             <text>Subparagraph (A) is amended by striking the phrase "her or his" and inserting the phrase "the applicant's" in its place.</text>
+            <codify:find-replace count="1">
+              <find>her or his</find>
+              <replace>the applicant's</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(B)">
             <num>(ii)</num>
             <text>Subparagraph (B) is amended by striking the phrase "the DMV" and inserting the phrase "an automatic voter registration agency" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the DMV</find>
+              <replace>an automatic voter registration agency</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(C)</num>
           <text>Paragraph (3) is amended by striking the phrase "his or her" and inserting the phrase "the voter's" in its place.</text>
+          <codify:find-replace count="1">
+            <find>his or her</find>
+            <replace>the voter's</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(5)|(A)">
           <num>(D)</num>
           <text>Paragraph (5)(A) is amended by striking the phrase "he or she" both times it appears and inserting the phrase "the voter" in its place.</text>
+          <codify:find-replace count="2">
+            <find>he or she</find>
+            <replace>the voter</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(g)">
         <num>(6)</num>
         <text>Subsection (g) is amended by striking the phrase "his or her" both times it appears and inserting the phrase "the qualified elector's" in its place.</text>
+        <codify:find-replace count="2">
+          <find>his or her</find>
+          <replace>the qualified elector's</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(i)">
         <num>(7)</num>
         <text>Subsection (i) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "he or she" both times it appears and inserting the phrase "the person" in its place.</text>
+          <codify:find-replace count="2">
+            <find>he or she</find>
+            <replace>the person</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "his or her" both times it appears and inserting the phrase "the registered voter's" in its place.</text>
+          <codify:find-replace count="2">
+            <find>his or her</find>
+            <replace>the registered voter's</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(C)</num>
           <text>Paragraph (3) is amended by striking the phrase "his or her" and inserting the phrase "the registered voter's" in its place.</text>
+          <codify:find-replace count="1">
+            <find>his or her</find>
+            <replace>the registered voter's</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(D)</num>
           <text>Paragraph (4) is amended by striking the phrase "his or her" and inserting the phrase "the registered voter's" in its place.</text>
+          <codify:find-replace count="1">
+            <find>his or her</find>
+            <replace>the registered voter's</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(5)|(B)">
           <num>(E)</num>
           <text>Paragraph (5)(B) is amended by striking the phrase "Corporation Counsel" and inserting the phrase "Attorney General" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Corporation Counsel</find>
+            <replace>Attorney General</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(j)">
         <num>(8)</num>
         <text>Subsection (j) is amended by striking the phrase "his or her" both times it appears and inserting the phrase "the registrant's" in its place.</text>
+        <codify:find-replace count="2">
+          <find>his or her</find>
+          <replace>the registrant's</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(k)">
         <num>(9)</num>
         <text>Subsection (k) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "registrant, upon notification of a registrant's incarceration for a conviction of a felony" and inserting the word "registrant" in its place.</text>
+          <!-- Add when law -->
+          <!-- <codify:find-replace count="1">
+            <find>registrant, upon notification of a registrant's incarceration for a conviction of a felony</find>
+            <replace>registrant</replace>
+          </codify:find-replace> -->
         </para>
         <para>
           <num>(B)</num>
           <text>A new paragraph (4A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(4)" num-value="[(4Ax)]"/>
               <num>(4A)</num>
               <text>At least monthly, the Board shall request from the Bureau of Prisons the name, location of incarceration, and contact information for each qualified elector in the Bureau of Prisons' care or custody.</text>
             </para>
@@ -429,23 +522,28 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(m)">
         <num>(10)</num>
         <text>Subsection (m) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(1)</num>
               <text>The Board, in conjunction with each automatic voter registration agency, shall develop and implement electronic transmission of voter registration information from that automatic voter registration agency.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "the DMV" both times it appears and inserting the phrase "the automatic voter registration agency" in its place.</text>
+          <codify:find-replace count="2">
+            <find>the DMV</find>
+            <replace>the automatic voter registration agency</replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
@@ -455,11 +553,12 @@
     <text>Section 104(18) of the Department of Youth Rehabilitation Services Establishment Act of 2004, effective April 12, 2005 (D.C. Law 15-335; D.C. Official Code § 2-1515.04(18)), is amended to read as follows:</text>
     <include lvl="1">
       <para>
+        <codify:replace doc="D.C. Code" path="§2-1515.04|(18)"/>
         <num>(18)</num>
-        <text>In addition to any obligations imposed upon the Department due to its designation as a voter registration agency by section 7(d)(1)(B) of the District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 700; D.C. Official Code § 1-1001.07(d)(1)(B)):</text>
+        <text>In addition to any obligations imposed upon the Department due to its designation as a voter registration agency by <code-cite doc="D.C. Code" path="§1-1001.07|(d)|(1)|(B)">section 7(d)(1)(B) of the District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 700; D.C. Official Code § 1-1001.07(d)(1)(B))</code-cite>:</text>
         <para>
           <num>(A)</num>
-          <text>If a youth committed at the Department is a qualified elector, as that term is defined in section 2(2) in the District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 669; D.C. Official Code § 1-1001.02(2)), registering the youth to vote, unless the youth indicates that they do not want to register; and</text>
+          <text>If a youth committed at the Department is a qualified elector, as that term is defined in <code-cite doc="D.C. Code" path="§1-1001.02|(2)">section 2(2) in the District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 669; D.C. Official Code § 1-1001.02(2))</code-cite>, registering the youth to vote, unless the youth indicates that they do not want to register; and</text>
         </para>
         <para>
           <num>(B)</num>
@@ -469,57 +568,87 @@
     </include>
     <aftertext>.</aftertext>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>4</num>
     <text>An Act To create a Department of Corrections in the District of Columbia, approved June 27, 1946 (60 Stat. 320; D.C. Official Code § 24-211.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§24-211.02|(b)">
       <num>(a)</num>
       <text>Section 2(b) (D.C. Official Code § 24-211.02(b)) is amended as follows:</text>
-      <para>
+      <para codify:path="(5)">
         <num>(1)</num>
         <text>Paragraph (5) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(9)">
         <num>(2)</num>
         <text>Paragraph (9) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (10) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(10)</num>
-            <text>Employ personnel whose sole responsibility shall be the civic engagement and enfranchisement of eligible individuals incarcerated in the Department of Corrections' care or custody, including those responsibilities in section 8 and designing and implementing a plan to facilitate voting for each election in the Central Detention Facility and Correctional Treatment Facility.</text>
+            <text>Employ personnel whose sole responsibility shall be the civic engagement and enfranchisement of eligible individuals incarcerated in the Department of Corrections' care or custody, including those responsibilities in <code-cite doc="D.C. Code" path="§24-211.08">section 8</code-cite> and designing and implementing a plan to facilitate voting for each election in the Central Detention Facility and Correctional Treatment Facility.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§24-211.02" applicability-path="§5" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§24-211.08">
       <num>(b)</num>
       <text>Section 8 (D.C. Official Code § 24-211.08) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "Voting assistance and notifications to inmates" and inserting the phrase "Automatic voter registration and voter assistance and notification to incarcerated individuals" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Voting assistance and notifications to inmates</find>
+          <replace>Automatic voter registration and voter assistance and notification to incarcerated individuals</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "shall, during the inmate intake process and again when an inmate exits the Department's custody:" and inserting the phrase "shall:" in its place.</text>
+          <codify:find-replace count="1">
+            <find>shall, during the inmate intake process and again when an inmate exits the Department's custody:</find>
+            <replace>shall:</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the phrase "an inmate" and inserting the phrase "an incarcerated individual" in its place.</text>
+          <codify:find-replace count="1">
+            <find>an inmate</find>
+            <replace>an incarcerated individual</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(C)</num>
           <text>Paragraph (2) is amended by striking the phrase "an inmate is a qualified elector, as that term is defined in section 2(2) of the District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 669; D.C. Official Code § 1-1001.02(2)), but is not registered to vote, provide that inmate with a voter registration application" and inserting the phrase "an incarcerated individual is a qualified elector, as that term is defined in section 2(2) in the District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 669; D.C. Official Code § 1-1001.02(2)), automatically register that incarcerated individual to vote pursuant to section 7(c)(1) of the District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 669; D.C. Official Code § 1-1001.07(c)(1)), unless the incarcerated individual indicates that they do not want to register" in its place.</text>
+          <codify:find-replace count="1">
+            <find>an inmate is a qualified elector, as that term is defined in <code-cite doc="D.C. Code" path="§1-1001.02|(2)">section 2(2) of the District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 699; D.C. Official Code § 1-1001.02(2))</code-cite>, but is not registered to vote, provide that inmate with a voter registration application</find>
+            <replace>an incarcerated individual is a qualified elector, as that term is defined in <code-cite doc="D.C. Code" path="§1-1001.02|(2)">section 2(2) in the District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 669; D.C. Official Code § 1-1001.02(2))</code-cite>, automatically register that incarcerated individual to vote pursuant to <code-cite doc="D.C. Code" path="§1-1001.07|(c)|(1)">section 7(c)(1) of the District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 669; D.C. Official Code § 1-1001.07(c)(1))</code-cite>, unless the incarcerated individual indicates that they do not want to register</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(D)</num>
           <text>Paragraph (3) is amended by striking the phrase "each inmate of the right of an individual currently incarcerated" and inserting the phrase "each incarcerated individual of the right of an incarcerated individual" in its place.</text>
+          <codify:find-replace count="1">
+            <find>each inmate of the right of an individual currently incarcerated</find>
+            <replace>each incarcerated individual of the right of an incarcerated individual</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
@@ -527,6 +656,7 @@
         <text>A new subsection (a-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)"/>
             <num>(a-1)</num>
             <para>
               <num>(1)</num>
@@ -575,10 +705,15 @@
           </para>
         </include>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(4)</num>
         <text>Subsection (c) is amended by striking the phrase "of inmates" and inserting the phrase "of incarcerated individuals" in its place.</text>
+        <codify:find-replace count="1">
+          <find>of inmates</find>
+          <replace>of incarcerated individuals</replace>
+        </codify:find-replace>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§24-211.08" applicability-path="§5" display-template=""/>
     </para>
   </section>
   <section>
@@ -587,6 +722,7 @@
     <para>
       <num>(a)</num>
       <text>Section 4 of this act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability  doc="D.C. Act 23-484" path="§4" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
