@@ -20,22 +20,29 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Zero Waste Omnibus Amendment Act of 2020".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Title I of the Sustainable Solid Waste Management Amendment Act of 2014, effective February 26, 2015 (D.C. Law 20-154; D.C. Official Code § 8-1031.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§8-1031.01">
       <num>(a)</num>
       <text>Section 101 (D.C. Official Code § 8-1031.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)|num">
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (1A).</text>
+        <!-- <codify:find-replace count="1">
+          <find>(1)</find>
+          <replace>(1A)</replace>
+        </codify:find-replace> -->
+        <!-- fix when applicable -->
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (1) is added to read as follows:</text>
         <include lvl="1">
+        <!-- fix when applicable -->
           <para>
-            <num>(1)</num>
+            <codify:insert after="(1)"/>
+            <num>(1x)</num>
             <text>"Back-of-house commercial food waste" means commercial food waste separated at the point of discard by employees of a commercial establishment. The term "back-of-house commercial food waste" does not include food waste discarded directly by customers of the establishment, but does include food waste discarded of on behalf of customers by employees.</text>
           </para>
         </include>
@@ -46,26 +53,33 @@
         <text>A new paragraph (1B) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1x)"/>
             <num>(1B)</num>
             <text>"Commercial food waste" means food waste produced by the production, consumption, and preparation of food at a commercial establishment.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(8A)|num">
         <num>(4)</num>
         <text>Paragraph (8A) is redesignated as paragraph (8C).</text>
+        <codify:find-replace count="1">
+          <find>(8A)</find>
+          <replace>(8C)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>New paragraphs (8A) and (8B) are added to read as follows:</text>
         <include lvl="1">
           <para>
-            <num>(8A)</num>
+            <codify:insert after="(8)"/>
+            <num>(8Ax)</num>
             <text>"Food service entity" means full-service restaurants, limited-service restaurants, fast food restaurants, cafes, delicatessens, coffee shops, vending trucks or carts, food trucks, food halls and cafeterias, including those operated by or on behalf of District departments and agencies, caterers, and other entities selling or providing food within the District for consumption on or off the premises. The term "food service entity" does not include retail food stores, convenience stores, or pharmacies.</text>
           </para>
           <para>
-            <num>(8B)</num>
+            <codify:insert after="(8Ax)"/>
+            <num>(8Bx)</num>
             <text>"Food waste" means material produced from the production, preparation, and consumption of food.</text>
           </para>
         </include>
@@ -76,14 +90,17 @@
         <text>New paragraphs (10A), (10B), and (10C) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(10)"/>
             <num>(10A)</num>
             <text>"In-vessel composting" means a process in which organic waste is enclosed in a drum, silo, bin, tunnel, reactor, or other container and maintained under controlled conditions of temperature and moisture for the purpose of producing compost.</text>
           </para>
           <para>
+            <codify:insert after="(10A)"/>
             <num>(10B)</num>
             <text>"Organic waste processing facility" means a facility that processes compostable materials through composting, aerobic digestion, or anaerobic digestion.</text>
           </para>
           <para>
+            <codify:insert after="(10B)"/>
             <num>(10C)</num>
             <text>"Organic waste processing system" means a system that processes compostable materials, such as an in-vessel composter or an anaerobic digester.</text>
           </para>
@@ -95,8 +112,9 @@
         <text>A new paragraph (12A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(12)"/>
             <num>(12A)</num>
-            <text>"Public litter container" means a trash receptacle installed by a government agency or private entity, including a Business Improvement District established pursuant to the Business Improvement Districts Act of 1996, effective May 29, 1996 (D.C. Law 11-134; D.C. Official Code § 2-1215.01 <em>et seq</em>.), on a public sidewalk, in a park, or other public space.</text>
+            <text>"Public litter container" means a trash receptacle installed by a government agency or private entity, including a Business Improvement District established pursuant to <code-cite doc="D.C. Code" path="2|12|VIII">the Business Improvement Districts Act of 1996, effective May 29, 1996 (D.C. Law 11-134; D.C. Official Code § 2-1215.01 <em>et seq</em>.)</code-cite>, on a public sidewalk, in a park, or other public space.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -106,43 +124,51 @@
         <text>A new paragraph (14A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(14)"/>
             <num>(14A)</num>
             <text>"Retail food store" means any establishment where food and food products offered to the consumer are intended for off-premises consumption, including grocery stores and supermarkets. The term "retail food store" does not include convenience stores, pharmacies, farmers markets, and food service entities.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(20A)|num">
         <num>(9)</num>
         <text>Paragraph (20A) is redesignated as paragraph (20B).</text>
+        <codify:find-replace count="1">
+          <find>(20A)</find>
+          <replace>(20B)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(10)</num>
         <text>A new paragraph (20A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <num>(20A)</num>
+            <codify:insert after="(20)"/>
+            <num>(20Ax)</num>
             <text>"Variable rate pricing model" means a model wherein the Mayor would impose fees for waste collection on public collection property owners proportional to the amount of trash generated at the property.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§8-1031.03">
       <num>(b)</num>
       <text>Section 103 (D.C. Official Code § 8-1031.03) is amended as follows:</text>
-      <para>
+      <para codify:path="(c)">
         <num>(1)</num>
         <text>Subsection (c) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The existing text is designated as paragraph (1).</text>
+          <codify:redesignate-para num-value="(1)"/>
         </para>
         <para>
           <num>(B)</num>
           <text>A new paragraph (2) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(2)</num>
               <text>By January 1, 2023, the Mayor shall submit to the Council a comprehensive Organics Management Plan that describes how the District will manage residential and commercial compostable materials. Before submitting the Plan to the Council, the Mayor shall provide an opportunity for public review and comment on the proposed Plan. The Organics Management Plan shall include:</text>
               <para>
@@ -170,11 +196,12 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(2)</num>
         <text>Subsection (d) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(d)</num>
             <text>The Mayor shall establish a uniform color, design, and labeling scheme for public collection property waste containers in the District and for waste containers at all District facilities and agencies.</text>
           </para>
@@ -186,6 +213,7 @@
         <text>New subsections (e) and (f) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(e)</num>
             <para>
               <num>(1)</num>
@@ -197,6 +225,7 @@
             </para>
           </para>
           <para>
+            <codify:insert/>
             <num>(f)</num>
             <para>
               <num>(1)</num>
@@ -220,6 +249,7 @@
       <text>New sections 103a and 103b are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="8|10A" after="§8-1031.03" num-value="8-1031.03a"/>
           <num>103a</num>
           <heading>Requirements for commercial food waste.</heading>
           <para>
@@ -227,7 +257,7 @@
             <text>All entities identified in subsection (b) of this section shall:</text>
             <para>
               <num>(1)</num>
-              <text>Donate excess edible food consistent with the Good Faith Donor and Donee Act of 1981, effective October 8, 1981 (D.C. Law 4-39; D.C. Official Code § 48-301 <em>et seq.</em>);</text>
+              <text>Donate excess edible food consistent with <code-cite doc="D.C. Code" path="48|3">the Good Faith Donor and Donee Act of 1981, effective October 8, 1981 (D.C. Law 4-39; D.C. Official Code § 48-301 <em>et seq.</em>)</code-cite>;</text>
             </para>
             <para>
               <num>(2)</num>
@@ -255,7 +285,7 @@
             </para>
             <para>
               <num>(3)</num>
-              <text>Provide waste containers consistent with the requirements for waste collection under section 104(a)(1) for the disposal of food waste in any employee work area;</text>
+              <text>Provide waste containers consistent with the requirements for waste collection under <code-cite doc="D.C. Code" path="§8-1031.04|(a)|(1)">section 104(a)(1)</code-cite> for the disposal of food waste in any employee work area;</text>
             </para>
             <para>
               <num>(4)</num>
@@ -330,7 +360,7 @@
               </para>
               <para>
                 <num>(C)</num>
-                <text>Hospitals and nursing homes, as those terms are defined in section 2(9) and (11) of the Health-Care and Community Residence Facility, Hospice, and Home Care Licensure Act of 1983, effective February 24, 1984 (D.C. Law 5-48; D.C. Official Code § 44-501(9) and (11)), with at least 300 beds; and</text>
+                <text>Hospitals and nursing homes, as those terms are defined in <code-cite doc="D.C. Code" path="§44-501|(a)|(9)">section 2(9)</code-cite> and <cite doc="D.C. Code" path="§44-501|(a)|(11)">(11)</cite><span codify:value=""> of the Health-Care and Community Residence Facility, Hospice, and Home Care Licensure Act of 1983, effective February 24, 1984 (D.C. Law 5-48; D.C. Official Code § 44-501(9) and (11))</span>, with at least 300 beds; and</text>
               </para>
               <para>
                 <num>(D)</num>
@@ -370,11 +400,12 @@
             </para>
             <para>
               <num>(3)</num>
-              <text>The Mayor shall not prohibit food service entities from composting or source separating compostable materials, including food waste that is not back-of-house commercial food waste, as long as they provide adequate consumer-facing waste collection service for compostable materials consistent with section 104.</text>
+              <text>The Mayor shall not prohibit food service entities from composting or source separating compostable materials, including food waste that is not back-of-house commercial food waste, as long as they provide adequate consumer-facing waste collection service for compostable materials consistent with <code-cite doc="D.C. Code" path="§8-1031.04">section 104</code-cite>.</text>
             </para>
           </para>
         </section>
         <section>
+          <codify:insert path="8|10A" after="§8-1031.03a" num-value="8-1031.03b"/>
           <num>103b</num>
           <heading>Glass separation and recycling.</heading>
           <para>
@@ -383,7 +414,7 @@
           </para>
           <para>
             <num>(b)</num>
-            <text>Once the collection point required by subsection (a) of this section is established, the Mayor shall impose a fee for the disposal of glass sufficient to cover the costs of maintaining the glass collection point and transporting the glass to a glass recycling facility, which shall be deposited into the Solid Waste Disposal Cost Recovery Special Account established under section 6013 of the Fiscal Year 2008 Budget Support Act of 2007, effective September 18, 2007 (D.C. Law 17-20; D.C. Official Code § 1-325.91).</text>
+            <text>Once the collection point required by subsection (a) of this section is established, the Mayor shall impose a fee for the disposal of glass sufficient to cover the costs of maintaining the glass collection point and transporting the glass to a glass recycling facility, which shall be deposited into the Solid Waste Disposal Cost Recovery Special Account established under <code-cite doc="D.C. Code" path="§1-325.91">section 6013 of the Fiscal Year 2008 Budget Support Act of 2007, effective September 18, 2007 (D.C. Law 17-20; D.C. Official Code § 1-325.91)</code-cite>.</text>
           </para>
           <para>
             <num>(c)</num>
@@ -393,41 +424,51 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§8-1031.04">
       <num>(d)</num>
       <text>Section 104 (D.C. Official Code § 8-1031.04) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
-        <para>
+        <para codify:path="(2)">
           <num>(A)</num>
           <text>Paragraph (2) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(B)</num>
           <text>Paragraph (3) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new paragraph (4) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(4)</num>
-              <text>Designating an agent responsible for implementing the requirements of this subtitle.</text>
+              <text>Designating an agent responsible for implementing the requirements of <code-cite doc="D.C. Code" path="8|10A">this subtitle</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(b)</num>
             <para>
               <num>(1)</num>
-              <text>By January 1, 2022, multi-family dwellings with 80 or more units, commercial buildings with 10 or more units, and businesses or nonprofit organizations with 101 or more employees shall submit a source separation plan to the Mayor, updated on an annual basis, outlining the steps the property owner will take to implement the requirements of this subtitle. The plan shall include:</text>
+              <text>By January 1, 2022, multi-family dwellings with 80 or more units, commercial buildings with 10 or more units, and businesses or nonprofit organizations with 101 or more employees shall submit a source separation plan to the Mayor, updated on an annual basis, outlining the steps the property owner will take to implement the requirements of <code-cite doc="D.C. Code" path="8|10A">this subtitle</code-cite>. The plan shall include:</text>
               <para>
                 <num>(A)</num>
                 <text>A description of the private collection property, including the name, address, and telephone number of the agent designated pursuant to subsection (a)(4) of this section;</text>
@@ -455,7 +496,7 @@
             </para>
             <para>
               <num>(3)</num>
-              <text>The Mayor shall review and verify through on-site evaluation, consistent with section 114(e), implementation of the source separation plans required by this subsection. Private collection properties subject to the requirements of this subsection shall maintain, and make available upon request for inspection and copying during normal business hours, any contracts and invoices for collection and disposition of materials to be recycled for a period covering the most recent 5 years.</text>
+              <text>The Mayor shall review and verify through on-site evaluation, consistent with <code-cite doc="D.C. Code" path="§8-1031.14|(e)">section 114(e)</code-cite>, implementation of the source separation plans required by this subsection. Private collection properties subject to the requirements of this subsection shall maintain, and make available upon request for inspection and copying during normal business hours, any contracts and invoices for collection and disposition of materials to be recycled for a period covering the most recent 5 years.</text>
             </para>
             <para>
               <num>(4)</num>
@@ -470,6 +511,7 @@
         <text>A new subsection (c) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(c)</num>
             <text>All private collection properties shall separate their excess edible food for donation for human consumption to the maximum extent practicable.</text>
           </para>
@@ -482,6 +524,7 @@
       <text>A new section 104a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="8|10A" after="§8-1031.04" num-value="8-1031.04a"/>
           <num>104a</num>
           <heading>Requirements for District facilities and agencies.</heading>
           <para>
@@ -489,7 +532,7 @@
             <text>All District facilities and agencies shall:</text>
             <para>
               <num>(1)</num>
-              <text>Separate waste in accordance with section 103 and provide adequate waste collection service in accordance with section 104; and</text>
+              <text>Separate waste in accordance with <code-cite doc="D.C. Code" path="§8-1031.03">section 103</code-cite> and provide adequate waste collection service in accordance with <code-cite doc="D.C. Code" path="§8-1031.04">section 104</code-cite>; and</text>
             </para>
             <para>
               <num>(2)</num>
@@ -498,21 +541,21 @@
           </para>
           <para>
             <num>(b)</num>
-            <text>Each agency shall designate a person responsible for compliance with this subtitle. The designated person shall ensure that employees and janitorial staff are annually trained on source separation requirements, consistent with the training program established under section 103(f), and that all recycling, composting, and trash receptacles are provided as required.</text>
+            <text>Each agency shall designate a person responsible for compliance with <code-cite doc="D.C. Code" path="8|10A">this subtitle</code-cite>. The designated person shall ensure that employees and janitorial staff are annually trained on source separation requirements, consistent with the training program established under section 103(f), and that all recycling, composting, and trash receptacles are provided as required.</text>
           </para>
           <para>
             <num>(c)</num>
-            <text>DPW shall annually collect information from each agency on how it is satisfying the requirements of subsections (a) and (b) of this section and include a summary in the annual report required by section 113, including a list of the persons designated pursuant to subsection (b) of this section.</text>
+            <text>DPW shall annually collect information from each agency on how it is satisfying the requirements of subsections (a) and (b) of this section and include a summary in the annual report required by <code-cite doc="D.C. Code" path="§8-1031.13">section 113</code-cite>, including a list of the persons designated pursuant to subsection (b) of this section.</text>
           </para>
           <para>
             <num>(d)</num>
-            <text>District agencies shall maximize the purchase of Environmentally Preferable Products or Services, as that term is defined in section 104(30) of the Procurement Practices Reform Act of 2010, effective April 8, 2011 (D.C. Law 18-371; D.C. Official Code § 2-351.04(30)).</text>
+            <text>District agencies shall maximize the purchase of Environmentally Preferable Products or Services, as that term is defined in <code-cite doc="D.C. Code" path="§2-351.04|(30)">section 104(30) of the Procurement Practices Reform Act of 2010, effective April 8, 2011 (D.C. Law 18-371; D.C. Official Code § 2-351.04(30))</code-cite>.</text>
           </para>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§8-1031.05">
       <num>(f)</num>
       <text>Section 105 (D.C. Official Code § 8-1031.05) is amended as follows:</text>
       <para>
@@ -520,17 +563,19 @@
         <text>A new subsection (a-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)"/>
             <num>(a-1)</num>
             <text>If a collector finds materials that are not the correct type as designated for that container, such as trash in a compostable or recyclable container, the collector shall notify the customer about the presence of incorrect materials.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by adding a new paragraph (2A) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(2)"/>
             <num>(2A)</num>
             <text>A description of the contamination in collected solid waste, including how often the collector provided the notice required by subsection (a-1) of this section;</text>
           </para>
@@ -542,6 +587,7 @@
         <text>A new subsection (g) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(g)</num>
             <text>Collectors that deliver solid waste at a District transfer station for disposal shall, upon the request of DPW, provide an accurate list of all customer locations from which solid waste was collected for the load carried at the time of the request.</text>
           </para>
@@ -549,68 +595,92 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§8-1031.07|(2)">
       <num>(g)</num>
       <text>Section 107(2) (D.C. Official Code 8-1031.07(2)) is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace/>
           <num>(2)</num>
-          <text>Implementing source separation education and outreach programs for public collection properties and private collection properties developed pursuant to sections 103(f) and 108, in coordination with SWEEP;</text>
+          <text>Implementing source separation education and outreach programs for public collection properties and private collection properties developed pursuant to <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§8-1031.03" codify:value="8-1031.03">103(f)</code-cite> and <code-cite doc="D.C. Code" path="§8-1031.08" codify:value="8-1031.08">108</code-cite>, in coordination with SWEEP;</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§8-1031.10|(c)">
       <num>(h)</num>
       <text>Section 110(c) (D.C. Official Code § 8-1031.10(c)) is amended to read as follows:</text>
       <include>
         <para>
+          <codify:replace/>
           <num>(c)</num>
           <text>The Mayor may issue grants to universities, nonprofit institutions, and businesses to promote sustainable waste management and diversion practices, policies, and techniques, including solid waste research, collection, marketing, and other services.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§8-1031.11">
       <num>(i)</num>
       <text>Section 111(a) (D.C. Official Code § 8-1031.11(a)) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the word "disposal" and insert the phrase "disposal or transfer" in its place.</text>
+          <codify:find-replace position="first">
+            <find>disposal</find>
+            <replace>[disposal or transfer]</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "; and" and insert a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
         <num>(2)</num>
         <text>Paragraph (2) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace path="heading" count="1">
+          <find>disposal</find>
+          <replace>disposal [and transfer]</replace>
+        </codify:find-replace>
+        <codify:find-replace path="(a)|(2)" position="last">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(3)</num>
         <text>A new paragraph (3) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(3)</num>
-            <text>A surcharge on the disposal of recycling at a solid waste disposal facility owned by the District where the recycling load exceeds a contamination threshold determined by the Mayor. Revenue from this surcharge shall be deposited into the Solid Waste Diversion Fund established by section 112.</text>
+            <text>A surcharge on the disposal of recycling at a solid waste disposal facility owned by the District where the recycling load exceeds a contamination threshold determined by the Mayor. Revenue from this surcharge shall be deposited into the Solid Waste Diversion Fund established by <code-cite doc="D.C. Code" path="§8-1031.12">section 112</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§8-1031.12|(b)|(1)">
       <num>(j)</num>
       <text>Section 112(b)(1) (D.C. Official Code § 8-1031.12(b)(1)) is amended by striking the phrase "surcharge established under section 111(a)(2)" and inserting the phrase "surcharges established under section 111(a)(2) and (3)" in its place.</text>
+      <codify:find-replace count="1">
+        <find> surcharge established under <code-cite path="§111|(a)|(2)">section 111(a)(2)</code-cite></find>
+        <replace>surcharges established under <code-cite doc="D.C. Code" path="§8-1031.11|(a)|(2)">section 111(a)(2)</code-cite> and <cite doc="D.C. Code" path="§8-1031.11|(a)|(3)">(3)</cite></replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(k)</num>
       <text>New sections 112c, 112d, and 112e are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="8|10A" after="§8-1031.12b" num-value="8-1031.12c"/>
           <num>112c</num>
           <heading>On-site organic processing system acquisition grant program.</heading>
           <para>
@@ -627,6 +697,7 @@
           </para>
         </section>
         <section>
+          <codify:insert path="8|10A" after="§8-1031.12c" num-value="8-1031.12d"/>
           <num>112d</num>
           <heading>Donation and Reuse Program.</heading>
           <para>
@@ -667,6 +738,7 @@
           </para>
         </section>
         <section>
+          <codify:insert path="8|10A" after="§8-1031.12d" num-value="8-1031.12e"/>
           <num>112e</num>
           <heading>Variable rate pricing study and pilot.</heading>
           <para>
@@ -689,24 +761,33 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§8-1031.13|(a)">
       <num>(l)</num>
       <text>Section 113(a) (D.C. Official Code § 8-1031.13(a)) is amended as follows:</text>
-      <para>
+      <para codify:path="(4)">
         <num>(1)</num>
         <text>Paragraph (4) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(5)">
         <num>(2)</num>
         <text>Paragraph (5) is amended by striking the period and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>.</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>New paragraphs (6) and (7) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(6)</num>
-            <text>A summary of efforts made by District agencies and facilities to meet the requirements of sections 104 and 104a(a) and (b), broken down by agency, including:</text>
+            <text>A summary of efforts made by District agencies and facilities to meet the requirements of <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§8-1031.04" codify:value="8-1031.04">104</code-cite> and <code-cite doc="D.C. Code" path="§8-1031.04a|(a)">104a(a)</code-cite> and <cite doc="D.C. Code" path="§8-1031.04a|(b)">(b)</cite>, broken down by agency, including:</text>
             <para>
               <num>(A)</num>
               <text>A description of each agency's waste collection services;</text>
@@ -717,10 +798,11 @@
             </para>
             <para>
               <num>(C)</num>
-              <text>All activities each agency has taken in the preceding year in furtherance of sections 104 and 104a(a) and (b); and</text>
+              <text>All activities each agency has taken in the preceding year in furtherance of <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§8-1031.04" codify:value="8-1031.04">104</code-cite> and <code-cite doc="D.C. Code" path="§8-1031.04a|(a)">104a(a)</code-cite> and <cite doc="D.C. Code" path="§8-1031.04a|(b)">(b)</cite>; and</text>
             </para>
           </para>
           <para>
+            <codify:insert/>
             <num>(7)</num>
             <text>A description of the Mayor's waste diversion goals for the remainder of the calendar year, including specific targets, plans for meeting those targets, and planned waste diversion programs.</text>
           </para>
@@ -728,22 +810,27 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§8-1031.14">
       <num>(m)</num>
       <text>Section 114 (D.C. Official Code § 8-1031.14) is amended as follows:</text>
-      <para>
+      <para codify:path="(d)">
         <num>(1)</num>
         <text>Subsection (d) is amended by striking the word "may" and inserting the word "shall" in its place.</text>
+        <codify:find-replace count="1">
+          <find>may</find>
+          <replace>shall</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (e) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(e)</num>
             <para>
               <num>(1)</num>
-              <text>For the purpose of enforcing the provisions of this subtitle, or any rule issued pursuant to this subtitle, the Mayor may, upon the presentation of appropriate credentials to the owner, operator, or agent in charge, enter upon any public or private land in a reasonable and lawful manner during normal business hours for the purpose of inspection and observation.</text>
+              <text>For the purpose of enforcing the provisions of <code-cite doc="D.C. Code" path="8|10A">this subtitle</code-cite>, or any rule issued pursuant to <code-cite doc="D.C. Code" path="8|10A">this subtitle</code-cite>, the Mayor may, upon the presentation of appropriate credentials to the owner, operator, or agent in charge, enter upon any public or private land in a reasonable and lawful manner during normal business hours for the purpose of inspection and observation.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -754,11 +841,12 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§8-1041.03|(b)|(8)">
       <num>(n)</num>
       <text>Section 117(b)(8) (D.C. Official Code § 8-1041.03(b)(8)) is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace/>
           <num>(8)</num>
           <text>A signed statement certifying that vendors who recycle or reuse covered electronic equipment collected under the manufacturer's waste management program have a valid third-party accredited certification recognized by the Mayor that prohibits:</text>
           <para>
@@ -777,52 +865,73 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§8-1041.12|(a)|(1)">
       <num>(o)</num>
       <text>Section 126(a)(1) (D.C. Official Code § 1-1041.12(a)(1)) is amended to read as follows:</text>
       <include>
         <para>
           <num>(a)</num>
           <para>
+            <codify:replace/>
             <num>(1)</num>
-            <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), may issue rules to implement the provisions of this subtitle.</text>
+            <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), may issue rules to implement the provisions of<code-cite doc="D.C. Code" path="8|10A"> this subtitle</code-cite>.</text>
           </para>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§1-325.381">
       <num>(p)</num>
       <text>Section 127 (D.C. Official Code § 1-325.381) is amended as follows:</text>
-      <para>
+      <para codify:path="(b)">
         <num>(1)</num>
         <text>Subsection (b) is amended as follows:</text>
-        <para>
+        <para codify:path="(3)">
           <num>(A)</num>
           <text>Paragraph (3) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(B)</num>
           <text>Paragraph (4) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new paragraph (5) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(5)</num>
-              <text>Fees and fines collected pursuant to section 138.</text>
+              <text>Fees and fines collected pursuant to <code-cite doc="D.C. Code" path="§8-771.10">section 138</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is amended by striking the phrase "and Subtitle B" and inserting the phrase ", Subtitle B, and Subtitle D" in its place.</text>
+        <codify:find-replace count="1">
+          <find>and <code-cite doc="D.C. Code" path="8|10B">Subtitle B</code-cite></find>
+          <replace>, Subtitle B, and Subtitle D</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
+      <codify:insert doc="D.C. Code" path="8" after="7D" history="false">
+        <container>
+          <prefix>Chapter</prefix>
+          <num>7E</num>
+          <heading>Battery Producer Responsibility.</heading>
+        </container>
+      </codify:insert>
       <num>(q)</num>
       <text>A new Subtitle D is added to read as follows:</text>
       <include>
@@ -831,11 +940,12 @@
           <num>D</num>
           <heading>EXTENDED PRODUCER RESPONSIBILITY FOR BATTERIES.</heading>
           <section>
+            <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.01" history-prefix="as added"/>
             <num>128</num>
             <heading>Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For the purposes of this subtitle, the term:</text>
+              <text>For the purposes of <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite>, the term:</text>
               <para>
                 <num>(1)</num>
                 <text>"Battery" means a device that consists of one or more electrically connected electrochemical cells and is designed to store and deliver electric energy.</text>
@@ -845,7 +955,7 @@
                 <text>"Battery-containing product" means a product that contains or is packaged with a rechargeable or primary battery. The term "battery-containing product" does not include:</text>
                 <para>
                   <num>(A)</num>
-                  <text>Covered electronic equipment, as that term is defined in section 115(4) of the Sustainable Solid Waste Management Amendment Act of 2014, effective February 26, 2015 (D.C. Law 20-154; D.C. Official Code § 8-1041.01(4));</text>
+                  <text>Covered electronic equipment, as that term is defined in<code-cite doc="D.C. Code" path="§8-1041.01|(4)"> section 115(4) of the Sustainable Solid Waste Management Amendment Act of 2014, effective February 26, 2015 (D.C. Law 20-154; D.C. Official Code § 8-1041.01(4))</code-cite>;</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -862,7 +972,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>"Battery stewardship organization" means an organization registered under section 131(b).</text>
+                <text>"Battery stewardship organization" means an organization registered under <code-cite doc="D.C. Code" path="§8-771.04|(b)">section 131(b)</code-cite>.</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -925,8 +1035,10 @@
                 <text>"Recycling" means the series of activities, including separation, collection, and processing, through which materials are recovered or otherwise diverted from the solid waste stream for use as raw materials or in the manufacture of products other than fuel.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 20-154" type="History" path="§128">Feb. 26, 2015, D.C. Law 20-154, § 128</annotation>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.02" history-prefix="as added"/>
             <num>129</num>
             <heading>Battery collection.</heading>
             <para>
@@ -934,7 +1046,7 @@
               <text>All producers of covered batteries and covered battery-containing products sold or offered for sale in the District of Columbia, including retail, wholesale, business-to-business, and online sales, shall:</text>
               <para>
                 <num>(1)</num>
-                <text>Be a member of a battery stewardship organization pursuant to section 131; and</text>
+                <text>Be a member of a battery stewardship organization pursuant to <code-cite doc="D.C. Code" path="§8-771.04">section 131</code-cite>; and</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -947,10 +1059,11 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>This subtitle shall not apply to batteries or battery-containing products that were imported into the District before the applicability date of section 2(q) of the Zero Waste Omnibus Amendment Act of 2020, passed on 2nd  reading on December 1, 2020 (Enrolled version of Bill 23-506).</text>
+              <text><code-cite doc="D.C. Code" path="8|7E">This subtitle</code-cite> shall not apply to batteries or battery-containing products that were imported into the District before<span codify:value="[insert applicability date of 2(q)]"> the applicability date of section 2(q) of the Zero Waste Omnibus Amendment Act of 2020, passed on 2nd  reading on December 1, 2020 (Enrolled version of Bill 23-506)</span>.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.03" history-prefix="as added"/>
             <num>130</num>
             <heading>Battery stewardship plan.</heading>
             <para>
@@ -969,7 +1082,7 @@
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Brands of products meeting the exemption described in section 128(2)(B) that contain batteries supplied by producers participating in the battery stewardship plan;</text>
+                  <text>Brands of products meeting the exemption described in <code-cite doc="D.C. Code" path="§8-771.01|(2)|(B)">section 128(2)(B)</code-cite> that contain batteries supplied by producers participating in the battery stewardship plan;</text>
                 </para>
               </para>
               <para>
@@ -982,7 +1095,7 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>A description of how the battery stewardship organization will provide for the convenient collection of batteries from consumers as required by section 129(a). At a minimum, the battery stewardship plan shall provide for a minimum of one collection site per 10,000 people in the District, with a reasonable geographic spread of collection sites across all 8 wards, taking into account accessibility to public transit, and an explanation for the geographic spread; except, that DOEE shall not require the collection site minimum in this paragraph to be met in the first year of implementation of the plan if the plan provides a reasonable timetable for achieving that requirement;</text>
+                <text>A description of how the battery stewardship organization will provide for the convenient collection of batteries from consumers as required by <code-cite doc="D.C. Code" path="§8-771.02|(a)">section 129(a)</code-cite>. At a minimum, the battery stewardship plan shall provide for a minimum of one collection site per 10,000 people in the District, with a reasonable geographic spread of collection sites across all 8 wards, taking into account accessibility to public transit, and an explanation for the geographic spread; except, that DOEE shall not require the collection site minimum in this paragraph to be met in the first year of implementation of the plan if the plan provides a reasonable timetable for achieving that requirement;</text>
               </para>
               <para>
                 <num>(5)</num>
@@ -1023,16 +1136,16 @@
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>An applicant whose plan is rejected by DOEE shall submit a revised plan within 45 days after receiving the notice of rejection. DOEE shall review the revised plan, issue an order approving or disapproving the revised plan, and notify the applicant of the decision within 45 days after receipt of the revised plan. An applicant whose revised plan is rejected by DOEE may appeal the decision to the Office of Administrative Hearings, pursuant to the Office of Administrative Hearings Establishment Act of 2001, effective March 6, 2002 (D.C. Law 14-76; D.C. Official Code § 2-1831.01 <em>et seq.</em>).</text>
+                  <text>An applicant whose plan is rejected by DOEE shall submit a revised plan within 45 days after receiving the notice of rejection. DOEE shall review the revised plan, issue an order approving or disapproving the revised plan, and notify the applicant of the decision within 45 days after receipt of the revised plan. An applicant whose revised plan is rejected by DOEE may appeal the decision to the Office of Administrative Hearings, pursuant to <code-cite doc="D.C. Code" path="2|18A">the Office of Administrative Hearings Establishment Act of 2001, effective March 6, 2002 (D.C. Law 14-76; D.C. Official Code § 2-1831.01 <em>et seq.</em>)</code-cite>.</text>
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>In the event of an appeal of an initial plan's disapproval, obligations of the battery stewardship organization and producers under this subtitle may be stayed in their entirety until final disposition of the appeal.  In the event of an appeal of an amended plan's disapproval, obligations of the battery stewardship organization and producers, including collection and remittance of fees to the battery stewardship organization, under this subtitle shall remain in accordance with the previously approved plan until final disposition of the appeal.</text>
+                  <text>In the event of an appeal of an initial plan's disapproval, obligations of the battery stewardship organization and producers under <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite> may be stayed in their entirety until final disposition of the appeal.  In the event of an appeal of an amended plan's disapproval, obligations of the battery stewardship organization and producers, including collection and remittance of fees to the battery stewardship organization, under <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite> shall remain in accordance with the previously approved plan until final disposition of the appeal.</text>
                 </para>
               </para>
               <para>
                 <num>(2)</num>
-                <text>DOEE shall post all proposed battery stewardship plans, and any proposed amendments pursuant to subsection (c) of this section or section 132(b), on its website for 30 days after the date the application is submitted and provide an opportunity for public review and comment.</text>
+                <text>DOEE shall post all proposed battery stewardship plans, and any proposed amendments pursuant to subsection (c) of this section or <code-cite doc="D.C. Code" path="§8-771.05|(b)">section 132(b)</code-cite>, on its website for 30 days after the date the application is submitted and provide an opportunity for public review and comment.</text>
               </para>
             </para>
             <para>
@@ -1057,6 +1170,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.04" history-prefix="as added"/>
             <num>131</num>
             <heading>Battery stewardship organization.</heading>
             <para>
@@ -1064,7 +1178,7 @@
               <text>A battery stewardship organization shall:</text>
               <para>
                 <num>(1)</num>
-                <text>Develop and submit a battery stewardship plan that meets the requirements of section 130;</text>
+                <text>Develop and submit a battery stewardship plan that meets the requirements of <code-cite doc="D.C. Code" path="§8-771.03">section 130</code-cite>;</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1072,7 +1186,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>Provide sellers, government agencies, nonprofit organizations, and all collection sites with educational materials describing collection opportunities for batteries under the battery stewardship plan, including any signage required by section 130(d)(2); and</text>
+                <text>Provide sellers, government agencies, nonprofit organizations, and all collection sites with educational materials describing collection opportunities for batteries under the battery stewardship plan, including any signage required by <code-cite doc="D.C. Code" path="§8-771.03|(d)|(2)">section 130(d)(2)</code-cite>; and</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -1088,7 +1202,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>For each participating producer, the name, address, and contact information of a person responsible for ensuring the participating producer's compliance with this subtitle;</text>
+                <text>For each participating producer, the name, address, and contact information of a person responsible for ensuring the participating producer's compliance with <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite>;</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -1101,6 +1215,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.05" history-prefix="as added"/>
             <num>132</num>
             <heading>Annual reporting.</heading>
             <para>
@@ -1128,7 +1243,7 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>A description of progress made toward the program performance goals under section 130(a)(3), including:</text>
+                <text>A description of progress made toward the program performance goals under <code-cite doc="D.C. Code" path="§8-771.03|(a)|(3)">section 130(a)(3)</code-cite>, including:</text>
                 <para>
                   <num>(A)</num>
                   <text>A summary of how program implementation compared to performance goals;</text>
@@ -1185,7 +1300,7 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>In the event a battery stewardship organization does not meet a performance goal, the battery stewardship organization shall, in coordination with DOEE, amend its battery stewardship plan, following the requirements set forth in section 130, to conduct more outreach, provide additional education materials, or improve collection accessibility as needed.</text>
+              <text>In the event a battery stewardship organization does not meet a performance goal, the battery stewardship organization shall, in coordination with DOEE, amend its battery stewardship plan, following the requirements set forth in <code-cite doc="D.C. Code" path="§8-771.03">section 130</code-cite>, to conduct more outreach, provide additional education materials, or improve collection accessibility as needed.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -1193,6 +1308,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.06" history-prefix="as added"/>
             <num>133</num>
             <heading>DOEE responsibilities.</heading>
             <para>
@@ -1212,12 +1328,12 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>A copy of all annual reports submitted under section 132.</text>
+                <text>A copy of all annual reports submitted under <code-cite doc="D.C. Code" path="§8-771.05">section 132</code-cite>.</text>
               </para>
             </para>
             <para>
               <num>(b)</num>
-              <text>A battery stewardship organization implementing an approved battery stewardship plan in compliance with the requirements of this subtitle may petition DOEE alleging, with evidence, that a producer is not complying with the requirements of this subtitle or a battery stewardship plan. DOEE shall investigate and provide a determination to the petitioner within 45 days after receipt of a petition. DOEE shall take enforcement action if noncompliance is demonstrated.</text>
+              <text>A battery stewardship organization implementing an approved battery stewardship plan in compliance with the requirements of <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite> may petition DOEE alleging, with evidence, that a producer is not complying with the requirements of <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite> or a battery stewardship plan. DOEE shall investigate and provide a determination to the petitioner within 45 days after receipt of a petition. DOEE shall take enforcement action if noncompliance is demonstrated.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -1232,7 +1348,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>Recommendations for any amendments to this subtitle.</text>
+                <text>Recommendations for any amendments to <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite>.</text>
               </para>
             </para>
             <para>
@@ -1244,7 +1360,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>An assessment of how rechargeable batteries with a watt-hour rating above 300 watt-hours could be incorporated into the battery collection program under this subtitle.</text>
+                <text>An assessment of how rechargeable batteries with a watt-hour rating above 300 watt-hours could be incorporated into the battery collection program under <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite>.</text>
               </para>
             </para>
             <para>
@@ -1253,27 +1369,28 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.07" history-prefix="as added"/>
             <num>134</num>
             <heading>Cause of action.</heading>
             <para>
               <num>(a)</num>
-              <text>A battery stewardship organization implementing an approved battery stewardship plan in compliance with the requirements of this subtitle may bring a civil action against a producer for damages when:</text>
+              <text>A battery stewardship organization implementing an approved battery stewardship plan in compliance with the requirements of <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite> may bring a civil action against a producer for damages when:</text>
               <para>
                 <num>(1)</num>
                 <text>The plaintiff incurs more than $1,000 in actual costs collecting, handling, recycling, and properly disposing of the defendant producer's batteries sold or offered for sale in the District; and</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>The defendant producer is not in compliance with the requirements of section 129(a).</text>
+                <text>The defendant producer is not in compliance with the requirements of <code-cite doc="D.C. Code" path="§8-771.02|(a)">section 129(a)</code-cite>.</text>
               </para>
             </para>
             <para>
               <num>(b)</num>
-              <text>DOEE shall not be a necessary party to or be required to provide assistance or otherwise participate in a civil action authorized under this section solely due to its regulatory requirements under this subtitle, unless subject to subpoena before a court of jurisdiction.</text>
+              <text>DOEE shall not be a necessary party to or be required to provide assistance or otherwise participate in a civil action authorized under this section solely due to its regulatory requirements under <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite>, unless subject to subpoena before a court of jurisdiction.</text>
             </para>
             <para>
               <num>(c)</num>
-              <text>A battery stewardship organization may file a civil action under this section regardless of whether it has petitioned DOEE under section 133(b).</text>
+              <text>A battery stewardship organization may file a civil action under this section regardless of whether it has petitioned DOEE under <code-cite doc="D.C. Code" path="§8-771.06|(b)">section 133(b)</code-cite>.</text>
             </para>
             <para>
               <num>(d)</num>
@@ -1289,11 +1406,12 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.08" history-prefix="as added"/>
             <num>135</num>
             <heading>Immunity from liability; confidential information.</heading>
             <para>
               <num>(a)</num>
-              <text>Notwithstanding the provisions of Chapter 45 of Title 28 of the D.C. Official Code, a producer and a battery stewardship organization may negotiate, enter into agreements with, share the burdens of their operation with, and conduct business with each other in accordance with this subtitle in ways that may affect competition. No producer or battery stewardship organization shall be prosecuted, held liable, or subject to penalties or damages under Chapter 45 of Title 28 of the D.C. Official Code for actions conducted in accordance with this subtitle, including:</text>
+              <text>Notwithstanding the provisions of <cite doc="D.C. Code" path="28|45">Chapter 45 of Title 28</cite><span codify:value=""> of the D.C. Official Code</span>, a producer and a battery stewardship organization may negotiate, enter into agreements with, share the burdens of their operation with, and conduct business with each other in accordance with <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite> in ways that may affect competition. No producer or battery stewardship organization shall be prosecuted, held liable, or subject to penalties or damages under <cite doc="D.C. Code" path="28|45">Chapter 45 of Title 28</cite><span codify:value=""> of the D.C. Official Code</span> for actions conducted in accordance with <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite>, including:</text>
               <para>
                 <num>(1)</num>
                 <text>The creation, implementation, or management of a battery stewardship organization and any battery stewardship plan regardless of whether it is submitted, denied, or approved;</text>
@@ -1304,7 +1422,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>The types or quantities of batteries being recycled or otherwise managed pursuant to this subtitle; and</text>
+                <text>The types or quantities of batteries being recycled or otherwise managed pursuant to <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite>; and</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -1313,10 +1431,11 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>Financial, production, and sales data reported to the Mayor by a battery stewardship organization shall not be subject to disclosure under the Freedom of Information Act, effective March 25, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>), or any other law or regulation; except, that the Mayor may release a summary form of the data that does not disclose individual producer information.</text>
+              <text>Financial, production, and sales data reported to the Mayor by a battery stewardship organization shall not be subject to disclosure under <code-cite doc="D.C. Code" path="2|5|II">the Freedom of Information Act, effective March 25, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>),</code-cite> or any other law or regulation; except, that the Mayor may release a summary form of the data that does not disclose individual producer information.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.09" history-prefix="as added"/>
             <num>137</num>
             <heading>Disposal ban.</heading>
             <para>
@@ -1329,11 +1448,12 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.10" history-prefix="as added"/>
             <num>138</num>
             <heading>Rules, enforcement, and fees.</heading>
             <para>
               <num>(a)</num>
-              <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), may issue rules to implement the provisions of this subtitle.</text>
+              <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), may issue rules to implement the provisions of <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite>.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -1343,18 +1463,18 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>The Mayor may impose civil fines and penalties for violations of the provisions of this subtitle or any rules issued pursuant to this subtitle, pursuant to the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (D.C. Law 6-42; D.C. Official Code § 2-1801.01 <em>et seq.</em>) ("Civil Infractions Act"). Enforcement and adjudication of an infraction shall be pursuant to the Civil Infractions Act.</text>
+                <text>The Mayor may impose civil fines and penalties for violations of the provisions of <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite> or any rules issued pursuant to <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite>, pursuant to <code-cite doc="D.C. Code" path="2|18">the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (D.C. Law 6-42; D.C. Official Code § 2-1801.01 <em>et seq.</em>) </code-cite>("Civil Infractions Act"). Enforcement and adjudication of an infraction shall be pursuant to the Civil Infractions Act.</text>
               </para>
               <para>
                 <num>(3)</num>
-                <text>Fees, penalties, and fines collected under this subtitle shall be deposited in the Product Stewardship Fund established by section 127.</text>
+                <text>Fees, penalties, and fines collected under <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite> shall be deposited in the Product Stewardship Fund established by section 127.</text>
               </para>
             </para>
             <para>
               <num>(c)</num>
               <para>
                 <num>(1)</num>
-                <text>For the purpose of enforcing the provisions of this subtitle, or any rule issued pursuant to this subtitle, the Mayor may, upon 48 hours' written notice and the presentation of appropriate credentials to the owner, operator, or agent in charge, enter upon any public or private property in a reasonable and lawful manner during normal business hours for the purpose of inspection and observation.</text>
+                <text>For the purpose of enforcing the provisions of <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite>, or any rule issued pursuant to <code-cite doc="D.C. Code" path="8|7E">this subtitle</code-cite>, the Mayor may, upon 48 hours' written notice and the presentation of appropriate credentials to the owner, operator, or agent in charge, enter upon any public or private property in a reasonable and lawful manner during normal business hours for the purpose of inspection and observation.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1367,21 +1487,30 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>3</num>
     <text>The Sustainable DC Omnibus Amendment Act of 2014, effective December 17, 2014 (D.C. Law 20-142; D.C. Official Code § 8-1531 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§8-1531|(a)">
       <num>(a)</num>
       <text>Section 401 (D.C. Official Code § 8-1531) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Paragraphs (1) and (1A) are redesignated as paragraphs (1A) and (1B), respectively.</text>
+        <codify:find-replace path="(1A)|num" count="1">
+          <find>(1A)</find>
+          <replace>(1B)</replace>
+        </codify:find-replace>
+        <codify:find-replace path="(1)|num" count="1">
+          <find>(1)</find>
+          <replace>(1A)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (1) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert before="(1A)"/>
             <num>(1)</num>
             <text>"Accessory disposable food service ware" means any disposable food service ware, including straws, utensils, condiment cups and packets, cup sleeves, and napkins, that is not used to hold or contain food.</text>
           </para>
@@ -1393,14 +1522,17 @@
         <text>New paragraphs (7), (8), and (9) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(7)</num>
             <text>"Reusable food service ware" means containers, bowls, plates, trays, cups, glasses, forks, spoons, knives, takeout containers, and other items used to contain and consume beverages and prepared food that are manufactured and designed to be washed and sanitized and used repeatedly over an extended period of time.</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(8)</num>
             <text>"Third-party food ordering platform" means any website, mobile application, or other internet service that offers or arranges for the sale of food and beverages prepared by, and the delivery or pickup of food and beverages from, food service entities.</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(9)</num>
             <text>"Third-party reusable food service ware providers" means entities that provide washed and sanitized reusable food service ware to food service entities for their use, either in packaging takeout or delivery orders or for on-site dining, and then recuperate the food service ware after use by customers for commercial wash and sanitation before providing the reusable food service ware for subsequent use by food service entities.</text>
           </para>
@@ -1408,15 +1540,17 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§8-1533">
       <num>(b)</num>
       <text>Section 403 (D.C. Official Code § 8-1533) is amended by adding new subsections (d), (e), and (f) to read as follows:</text>
       <include>
         <para>
+          <codify:insert/>
           <num>(d)</num>
           <text>Food service entities may use reusable food service ware, including food service ware provided by a third-party reusable food service ware provider, in serving on-site, takeout, and delivery customers.</text>
         </para>
         <para>
+          <codify:insert/>
           <num>(e)</num>
           <para>
             <num>(1)</num>
@@ -1432,6 +1566,7 @@
           </para>
         </para>
         <para>
+          <codify:insert/>
           <num>(f)</num>
           <para>
             <num>(1)</num>
@@ -1446,36 +1581,39 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>4</num>
     <text>The Healthy Schools Act of 2010, effective July 27, 2010 (D.C. Law 18-209; D.C. Official Code § 38-821.01), is amended as follows:</text>
-    <para>
+    <para codify:path="§38-821.01">
       <num>(a)</num>
       <text>Section 101 (D.C. Official Code § 38-821.01) is amended by adding a new paragraph (8C) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(8B)"/>
           <num>(8C)</num>
           <text>"Share table" is a location where school community members can place unopened or sealed foods to provide for other community members to take food that would otherwise be thrown away.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§38-821.02|(c)">
       <num>(b)</num>
       <text>Section 102(c) (D.C. Official Code § 38-821.02(c)) is amended by adding a new paragraph (11) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert/>
           <num>(11)</num>
           <text>To decrease food and food packaging waste at schools and provide greater food access to those in need, the Office of the State Superintendent for Education may issue grants through a competitive process or a formula grants process to local education agencies, schools, nonprofit organizations, or partnerships developed among schools or with nonprofit organizations to support efforts to address food and food packaging waste, including implementation and management of share tables, purchase or provision of reusable food service ware, including from third-party reusable food service ware providers, and other food waste and food waste packaging reduction programs.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§38-822.03">
       <num>(c)</num>
       <text>Section 203 (D.C. Official Code § 38-822.03) is amended by adding a new subsection (d) to read as follows:</text>
       <include>
         <para>
+          <codify:insert/>
           <num>(d)</num>
           <para>
             <num>(1)</num>
@@ -1483,7 +1621,7 @@
           </para>
           <para>
             <num>(2)</num>
-            <text>A summary of share table participation shall be included in the report required pursuant to section 303.</text>
+            <text>A summary of share table participation shall be included in the report required pursuant to <code-cite doc="D.C. Code" path="§38-823.03">section 303</code-cite>.</text>
           </para>
         </para>
       </include>
@@ -1491,6 +1629,7 @@
     </para>
   </section>
   <section>
+    <codify:marginalia display="DCMR"/>
     <num>5</num>
     <text>Section 704 of Title 21 of the District of Columbia Municipal Regulations (21 DCMR § 704), is amended as follows:</text>
     <para>
@@ -1508,6 +1647,23 @@
     <para>
       <num>(a)</num>
       <text>Sections 2(a), 2(b), the amendatory section 103a within 2(c), 2(d)(2), 2(e), 2(g), 2(k), 2(l), 2(m)(1), 2(p), 2(q), the amendatory section 403(e)(1) and (2) and (f) in section 3(b), and 4(b) shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Act 23-542" path="§2|(a)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Act 23-542" path="§2|(b)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Code" path="§8-1031.03a" date="notfunded" history="false" display-template=""/>
+      <!--amendatory section 103a within 2(c)  -->
+      <codify:applicability doc="D.C. Act 23-542" path="§2|(d)|(2)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Act 23-542" path="§2|(e)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Act 23-542" path="§2|(g)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Act 23-542" path="§2|(k)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Act 23-542" path="§2|(l)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Act 23-542" path="§2|(m)|(1)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Act 23-542" path="§2|(p)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Act 23-542" path="§2|(q)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Code" path="§8-1533|(e)|(1)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Code" path="§8-1533|(e)|(2)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Code" path="§8-1533|(f)" date="notfunded" history="false" display-template=""/>
+      <!-- the amendatory section 403(e)(1) and (2) and (f) in section 3(b) -->
+      <codify:applicability doc="D.C. Act 23-542" path="§4|(b)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
