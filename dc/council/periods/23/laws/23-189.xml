@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-569">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-189">
+  <num type="law">23-189</num>
   <num type="bill">23-141</num>
   <num type="act">23-569</num>
   <heading type="short">Uniform Fiduciary Access to Digital Assets Act of 2020</heading>
   <heading type="long">To amend Title 21 of the District of Columbia Official Code to enact the Revised Uniform Fiduciary Access to Digital Assets Act to allow holders of accounts with digital assets to give access to these accounts to fiduciaries, including executors, agents, conservators, and trustees, to provide default rules governing access by fiduciaries to these accounts, and to provide immunity from liability for custodians of accounts that comply with a fiduciary's apparent authorized request for access.</heading>
   <meta>
     <introduced>2019-02-12</introduced>
-    <effective projected="true">2021-03-15</effective>
+    <effective>2021-03-16</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/41881/Signed_Act/B23-0141-Signed_Act.pdf">D.C. Law 23-189</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/41881/Signed_Act/B23-0141-Signed_Act.pdf">D.C. Act 23-569</citation>
       <citation type="register">68 DCR 001063</citation>
     </citations>
@@ -24,6 +26,13 @@
     <num>2</num>
     <text>Title 21 of the District of Columbia Official Code is amended as follows:</text>
     <para>
+      <codify:insert doc="D.C. Code" path="21" after="24" history="false">
+        <container>
+          <prefix>Chapter</prefix>
+          <num>25</num>
+          <heading>Uniform Fiduciary Access to Digital Assets Act.</heading>
+        </container>
+      </codify:insert>
       <num>(a)</num>
       <text>The table of contents is amended by adding a new chapter heading to read as follows:</text>
       <include>
@@ -118,18 +127,20 @@
             </section>
           </toc>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2501</num>
             <heading>Short title.</heading>
-            <text>This chapter may be cited as the "Uniform Fiduciary Access to Digital Assets Act of 2020".</text>
+            <text><cite doc="D.C. Code" path="21|25">This chapter</cite> may be cited as the "Uniform Fiduciary Access to Digital Assets Act of 2020".</text>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2502</num>
             <heading>Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For the purposes of this chapter, the term:</text>
+              <text>For the purposes of <cite doc="D.C. Code" path="21|25">this chapter</cite>, the term:</text>
               <para>
                 <num>(1)</num>
                 <text>"Account" means an arrangement under a terms-of-service agreement in which a custodian carries, maintains, processes, receives, or stores a digital asset of the user or provides goods or services to the user.</text>
@@ -192,7 +203,7 @@
               </para>
               <para>
                 <num>(13)</num>
-                <text>"Fiduciary" means an original, additional, or successor personal representative, conservator, agent, or trustee. The term "fiduciary" includes a person who receives money for an individual as a guardian pursuant to § 21-2047(b)(1).</text>
+                <text>"Fiduciary" means an original, additional, or successor personal representative, conservator, agent, or trustee. The term "fiduciary" includes a person who receives money for an individual as a guardian pursuant to <cite doc="D.C. Code" path="§21-2047|(b)|(1)">§ 21-2047(b)(1)</cite>.</text>
               </para>
               <para>
                 <num>(14)</num>
@@ -208,7 +219,7 @@
               </para>
               <para>
                 <num>(17)</num>
-                <text>"Personal representative" means an executor, administrator, special administrator, or person that performs substantially the same function under laws of the District of Columbia other than this chapter.</text>
+                <text>"Personal representative" means an executor, administrator, special administrator, or person that performs substantially the same function under laws of the District of Columbia other than <cite doc="D.C. Code" path="21|25">this chapter</cite>.</text>
               </para>
               <para>
                 <num>(18)</num>
@@ -253,39 +264,41 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2503</num>
             <heading>Applicability.</heading>
             <para>
               <num>(a)</num>
-              <text>This chapter applies to:</text>
+              <text><cite doc="D.C. Code" path="21|25">This chapter</cite> applies to:</text>
               <para>
                 <num>(1)</num>
-                <text>A fiduciary acting under a will or power of attorney executed before, on, or after the effective date of this chapter;</text>
+                <text>A fiduciary acting under a will or power of attorney executed before, on, or after <span codify:value="March 16, 2021">the effective date of this chapter</span>;</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>A personal representative acting for a decedent who died before, on, or after the effective date of this chapter;</text>
+                <text>A personal representative acting for a decedent who died before, on, or after <span codify:value="March 16, 2021">the effective date of this chapter</span>;</text>
               </para>
               <para>
                 <num>(3)</num>
-                <text>A conservatorship proceeding commenced before, on, or after the effective date of this chapter; and</text>
+                <text>A conservatorship proceeding commenced before, on, or after <span codify:value="March 16, 2021">the effective date of this chapter</span>; and</text>
               </para>
               <para>
                 <num>(4)</num>
-                <text>A trustee acting under a trust created before, on, or after the effective date of this chapter.</text>
+                <text>A trustee acting under a trust created before, on, or after <span codify:value="March 16, 2021">the effective date of this chapter</span>.</text>
               </para>
             </para>
             <para>
               <num>(b)</num>
-              <text>This chapter applies to a custodian if the user resides in the District or resided in the District at the time of the user's death.</text>
+              <text><cite doc="D.C. Code" path="21|25">This chapter</cite> applies to a custodian if the user resides in the District or resided in the District at the time of the user's death.</text>
             </para>
             <para>
               <num>(c)</num>
-              <text>This chapter does not apply to a digital asset of an employer used by an employee in the ordinary course of the employer's business.</text>
+              <text><cite doc="D.C. Code" path="21|25">This chapter</cite> does not apply to a digital asset of an employer used by an employee in the ordinary course of the employer's business.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2504</num>
             <heading>User direction for disclosure of digital assets.</heading>
@@ -303,29 +316,31 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2505</num>
             <heading>Terms-of-service agreement.</heading>
             <para>
               <num>(a)</num>
-              <text>This chapter does not change or impair a right of a custodian or a user under a terms-of-service agreement to access and use digital assets of the user.</text>
+              <text><cite doc="D.C. Code" path="21|25">This chapter</cite> does not change or impair a right of a custodian or a user under a terms-of-service agreement to access and use digital assets of the user.</text>
             </para>
             <para>
               <num>(b)</num>
-              <text>This chapter does not give a fiduciary or designated recipient any new or expanded rights other than those held by the user for whom, or for whose estate, the fiduciary or designated recipient acts or represents.</text>
+              <text><cite doc="D.C. Code" path="21|25">This chapter</cite> does not give a fiduciary or designated recipient any new or expanded rights other than those held by the user for whom, or for whose estate, the fiduciary or designated recipient acts or represents.</text>
             </para>
             <para>
               <num>(c)</num>
-              <text>A fiduciary's or designated recipient's access to digital assets may be modified or eliminated by a user, by federal law, or by a terms-of-service agreement if the user has not provided direction pursuant to § 21-2504.</text>
+              <text>A fiduciary's or designated recipient's access to digital assets may be modified or eliminated by a user, by federal law, or by a terms-of-service agreement if the user has not provided direction pursuant to <cite doc="D.C. Code" path="§21-2504">§ 21-2504</cite>.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2506</num>
             <heading>Procedure for disclosing digital assets.</heading>
             <para>
               <num>(a)</num>
-              <text>When disclosing digital assets of a user under this chapter, the custodian may at its sole discretion:</text>
+              <text>When disclosing digital assets of a user under <cite doc="D.C. Code" path="21|25">this chapter</cite>, the custodian may at its sole discretion:</text>
               <para>
                 <num>(1)</num>
                 <text>Grant a fiduciary or designated recipient full access to the user's account;</text>
@@ -341,15 +356,15 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>A custodian may assess a reasonable administrative charge for the cost of disclosing digital assets under this chapter.</text>
+              <text>A custodian may assess a reasonable administrative charge for the cost of disclosing digital assets under <cite doc="D.C. Code" path="21|25">this chapter</cite>.</text>
             </para>
             <para>
               <num>(c)</num>
-              <text>A custodian may decline to disclose under this chapter a digital asset deleted by a user.</text>
+              <text>A custodian may decline to disclose under <cite doc="D.C. Code" path="21|25">this chapter</cite> a digital asset deleted by a user.</text>
             </para>
             <para>
               <num>(d)</num>
-              <text>If a user directs or a fiduciary requests a custodian to disclose under this chapter some, but not all, of the user's digital assets, the custodian may decline to disclose the assets if segregation of the assets would impose an undue burden on the custodian. If the custodian believes the direction or request imposes an undue burden, the custodian or fiduciary may seek an order from the Superior Court to disclose:</text>
+              <text>If a user directs or a fiduciary requests a custodian to disclose under <cite doc="D.C. Code" path="21|25">this chapter</cite> some, but not all, of the user's digital assets, the custodian may decline to disclose the assets if segregation of the assets would impose an undue burden on the custodian. If the custodian believes the direction or request imposes an undue burden, the custodian or fiduciary may seek an order from the Superior Court to disclose:</text>
               <para>
                 <num>(1)</num>
                 <text>A subset limited by date of the user's digital assets;</text>
@@ -369,12 +384,13 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2507</num>
             <heading>Disclosure of contents of electronic communications of deceased user.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>If a deceased user consented or, in the absence of direction pursuant to § 21-2504, the Superior Court directs disclosure of the contents of electronic communications of the user, the custodian shall disclose to the personal representative of the estate of the user the content of an electronic communication sent or received by the user if the representative gives the custodian:</text>
+              <text>If a deceased user consented or, in the absence of direction pursuant to <cite doc="D.C. Code" path="§21-2504">§ 21-2504</cite>, the Superior Court directs disclosure of the contents of electronic communications of the user, the custodian shall disclose to the personal representative of the estate of the user the content of an electronic communication sent or received by the user if the representative gives the custodian:</text>
               <para>
                 <num>(1)</num>
                 <text>A written request for disclosure in physical or electronic form;</text>
@@ -426,6 +442,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2508</num>
             <heading>Disclosure of other digital assets of deceased user.</heading>
@@ -475,6 +492,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2509</num>
             <heading>Disclosure of content of electronic communications of principal.</heading>
@@ -508,6 +526,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2510</num>
             <heading>Disclosure of other digital assets of principal.</heading>
@@ -541,12 +560,14 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2511</num>
             <heading>Disclosure of digital assets held in trust when trustee is original user.</heading>
             <text>Unless otherwise ordered by the Superior Court or provided in a trust, a custodian shall disclose to a trustee that is an original user of an account any digital asset of the account held in trust, including a catalogue of electronic communications of the trustee and the content of electronic communications.</text>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2512</num>
             <heading>Disclosure of contents of electronic communications held in trust when trustee not original user.</heading>
@@ -559,7 +580,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>A certified copy of the trust instrument, or a certification of the trust pursuant to § 19-1310.13 that includes consent to disclosure of the content of electronic communications to the trustee;</text>
+                <text>A certified copy of the trust instrument, or a certification of the trust pursuant to<cite doc="D.C. Code" path="§19-1310.13"> § 19-1310.13</cite> that includes consent to disclosure of the content of electronic communications to the trustee;</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -580,6 +601,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2513</num>
             <heading>Disclosure of other digital assets held in trust when trustee not original user.</heading>
@@ -592,7 +614,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>A certified copy of the trust instrument or a certification of the trust under § 19-1310.13;</text>
+                <text>A certified copy of the trust instrument or a certification of the trust under <cite doc="D.C. Code" path="§19-1310.13">§ 19-1310.13</cite>;</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -613,12 +635,13 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2514</num>
             <heading>Disclosure of digital assets to conservator of protected individual.</heading>
             <para>
               <num>(a)</num>
-              <text>After an opportunity for a hearing under § 21-2054, the Superior Court may grant a conservator access to the digital assets of a protected individual.</text>
+              <text>After an opportunity for a hearing under <cite doc="D.C. Code" path="§21-2054">§ 21-2054</cite>, the Superior Court may grant a conservator access to the digital assets of a protected individual.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -650,6 +673,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2515</num>
             <heading>Fiduciary duty and authority.</heading>
@@ -674,7 +698,7 @@
               <text>A fiduciary's or designated recipient's authority with respect to a digital asset of a user:</text>
               <para>
                 <num>(1)</num>
-                <text>Except as otherwise provided in § 21-2504, is subject to the applicable terms of service;</text>
+                <text>Except as otherwise provided in <cite doc="D.C. Code" path="§21-2504">§ 21-2504</cite>, is subject to the applicable terms of service;</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -743,12 +767,13 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2516</num>
             <heading>Custodian compliance and immunity.</heading>
             <para>
               <num>(a)</num>
-              <text>Not later than 60 days after receipt of the information required under §§ 21-2507 through 21-2514, a custodian shall comply with a request under this chapter from a fiduciary or designated recipient to disclose digital assets or terminate an account. If the custodian fails to comply, the fiduciary or designated recipient may apply to the Superior Court for an order directing compliance.</text>
+              <text>Not later than 60 days after receipt of the information required under §§ <cite doc="D.C. Code" path="§21-2507">21-2507</cite> through <cite doc="D.C. Code" path="§21-2514">21-2514</cite>, a custodian shall comply with a request under <cite doc="D.C. Code" path="21|25">this chapter</cite> from a fiduciary or designated recipient to disclose digital assets or terminate an account. If the custodian fails to comply, the fiduciary or designated recipient may apply to the Superior Court for an order directing compliance.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -756,15 +781,15 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>Unless a custodian has been notified that a user is deceased, the custodian shall notify the user that a request for disclosure or to terminate an account was made under this chapter.</text>
+              <text>Unless a custodian has been notified that a user is deceased, the custodian shall notify the user that a request for disclosure or to terminate an account was made under <cite doc="D.C. Code" path="21|25">this chapter</cite>.</text>
             </para>
             <para>
               <num>(d)</num>
-              <text>A custodian may deny a request under this chapter from a fiduciary or designated recipient for disclosure of digital assets or to terminate an account if the custodian is aware of any lawful access to the account following the receipt of the fiduciary's request.</text>
+              <text>A custodian may deny a request under <cite doc="D.C. Code" path="21|25">this chapter</cite> from a fiduciary or designated recipient for disclosure of digital assets or to terminate an account if the custodian is aware of any lawful access to the account following the receipt of the fiduciary's request.</text>
             </para>
             <para>
               <num>(e)</num>
-              <text>This chapter does not limit a custodian's ability to obtain or require a fiduciary or designated recipient requesting disclosure or termination under this chapter to obtain a court order that:</text>
+              <text><cite doc="D.C. Code" path="21|25">This chapter</cite> does not limit a custodian's ability to obtain or require a fiduciary or designated recipient requesting disclosure or termination under <cite doc="D.C. Code" path="21|25">this chapter</cite> to obtain a court order that:</text>
               <para>
                 <num>(1)</num>
                 <text>Specifies that an account belongs to the protected individual or principal;</text>
@@ -775,25 +800,27 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>Contains a finding required by law other than this chapter.</text>
+                <text>Contains a finding required by law other than <cite doc="D.C. Code" path="21|25">this chapter</cite>.</text>
               </para>
             </para>
             <para>
               <num>(f)</num>
-              <text>A custodian and its officers, employees, and agents are immune from liability for an act or omission done in good faith in compliance with this chapter.</text>
+              <text>A custodian and its officers, employees, and agents are immune from liability for an act or omission done in good faith in compliance with <cite doc="D.C. Code" path="21|25">this chapter</cite>.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2517</num>
             <heading>Uniformity of application and construction.</heading>
             <text>In applying and construing this uniform act, consideration must be given to the need to promote uniformity of the law with respect to its subject matter among states that enact it.</text>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="21|25"/>
             <prefix>§</prefix>
             <num>21-2518</num>
             <heading>Relation to Electronic Signatures in Global and National Commerce Act.</heading>
-            <text>This chapter modifies, limits, or supersedes the Electronic Signatures in Global and National Commerce Act, approved June 30, 2000 (.114 Stat. 464; 15 U.S.C. § 7001 <em>et seq</em>.) ("ESGNCA"), but does not modify, limit, or supersede section 101(c) of the ESGNCA, or authorize electronic delivery of any of the notices described in section 103(b) the ESGNCA.</text>
+            <text><cite doc="D.C. Code" path="21|25">This chapter</cite> modifies, limits, or supersedes the Electronic Signatures in Global and National Commerce Act, approved June 30, 2000 (.114 Stat. 464; 15 U.S.C. § 7001 <em>et seq</em>.) ("ESGNCA"), but does not modify, limit, or supersede section 101(c) of the ESGNCA, or authorize electronic delivery of any of the notices described in section 103(b) the ESGNCA.</text>
           </section>
         </container>
       </include>

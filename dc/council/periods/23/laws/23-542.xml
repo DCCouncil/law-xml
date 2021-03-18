@@ -39,10 +39,10 @@
         <num>(2)</num>
         <text>A new paragraph (1) is added to read as follows:</text>
         <include lvl="1">
-        <!-- fix when applicable -->
+          <!-- fix when applicable -->
           <para>
-            <codify:insert after="(1)"/>
-            <num>(1x)</num>
+            <codify:insert after="(1)" num-value="(1A)"/>
+            <num>(1)</num>
             <text>"Back-of-house commercial food waste" means commercial food waste separated at the point of discard by employees of a commercial establishment. The term "back-of-house commercial food waste" does not include food waste discarded directly by customers of the establishment, but does include food waste discarded of on behalf of customers by employees.</text>
           </para>
         </include>
@@ -53,7 +53,7 @@
         <text>A new paragraph (1B) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(1x)"/>
+            <codify:insert after="(1A)"/>
             <num>(1B)</num>
             <text>"Commercial food waste" means food waste produced by the production, consumption, and preparation of food at a commercial establishment.</text>
           </para>
@@ -63,23 +63,23 @@
       <para codify:path="(8A)|num">
         <num>(4)</num>
         <text>Paragraph (8A) is redesignated as paragraph (8C).</text>
-        <codify:find-replace count="1">
+        <!-- <codify:find-replace count="1">
           <find>(8A)</find>
           <replace>(8C)</replace>
-        </codify:find-replace>
+        </codify:find-replace> -->
       </para>
       <para>
         <num>(5)</num>
         <text>New paragraphs (8A) and (8B) are added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(8)"/>
-            <num>(8Ax)</num>
+            <codify:insert after="(8A)"/>
+            <num>(8B)</num>
             <text>"Food service entity" means full-service restaurants, limited-service restaurants, fast food restaurants, cafes, delicatessens, coffee shops, vending trucks or carts, food trucks, food halls and cafeterias, including those operated by or on behalf of District departments and agencies, caterers, and other entities selling or providing food within the District for consumption on or off the premises. The term "food service entity" does not include retail food stores, convenience stores, or pharmacies.</text>
           </para>
           <para>
-            <codify:insert after="(8Ax)"/>
-            <num>(8Bx)</num>
+            <codify:insert after="(8B)"/>
+            <num>(8C)</num>
             <text>"Food waste" means material produced from the production, preparation, and consumption of food.</text>
           </para>
         </include>
@@ -134,10 +134,10 @@
       <para codify:path="(20A)|num">
         <num>(9)</num>
         <text>Paragraph (20A) is redesignated as paragraph (20B).</text>
-        <codify:find-replace count="1">
+        <!-- <codify:find-replace count="1">
           <find>(20A)</find>
           <replace>(20B)</replace>
-        </codify:find-replace>
+        </codify:find-replace> -->
       </para>
       <para>
         <num>(10)</num>
@@ -145,12 +145,13 @@
         <include lvl="1">
           <para>
             <codify:insert after="(20)"/>
-            <num>(20Ax)</num>
+            <num>(20B)</num>
             <text>"Variable rate pricing model" means a model wherein the Mayor would impose fees for waste collection on public collection property owners proportional to the amount of trash generated at the property.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§8-1031.01" applicability-path="§6" display-template=""/>
     </para>
     <para codify:path="§8-1031.03">
       <num>(b)</num>
@@ -243,13 +244,14 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§8-1031.03" applicability-path="§6" display-template=""/>
     </para>
     <para>
       <num>(c)</num>
       <text>New sections 103a and 103b are added to read as follows:</text>
       <include>
         <section>
-          <codify:insert path="8|10A" after="§8-1031.03" num-value="8-1031.03a"/>
+          <codify:insert path="8|10A" after="§8-1031.03" num-value="8-1031.03a" history-prefix="as added"/>
           <num>103a</num>
           <heading>Requirements for commercial food waste.</heading>
           <para>
@@ -403,9 +405,11 @@
               <text>The Mayor shall not prohibit food service entities from composting or source separating compostable materials, including food waste that is not back-of-house commercial food waste, as long as they provide adequate consumer-facing waste collection service for compostable materials consistent with <code-cite doc="D.C. Code" path="§8-1031.04">section 104</code-cite>.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 20-154" path="103a" type="History">Feb. 26, 2015, D.C. Law 20-154, § 103a</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§8-1031.03a" action="creation of" applicability-path="§6" display-template=""/>
         </section>
         <section>
-          <codify:insert path="8|10A" after="§8-1031.03a" num-value="8-1031.03b"/>
+          <codify:insert path="8|10A" after="§8-1031.03a" num-value="8-1031.03b" history-prefix="as added"/>
           <num>103b</num>
           <heading>Glass separation and recycling.</heading>
           <para>
@@ -420,6 +424,7 @@
             <num>(c)</num>
             <text>Beginning January 1, 2024, the Mayor may, by rule, require certain private collection properties that dispose of a high volume of glass containers to separate and store all recyclable glass containers and arrange for hauling source-separated glass to a glass recycling facility or collection point for recycling.</text>
           </para>
+          <annotation doc="D.C. Law 20-154" path="103b" type="History">Feb. 26, 2015, D.C. Law 20-154, § 103b</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -518,13 +523,14 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§8-1031.04" applicability-path="§6" display-template=""/>
     </para>
     <para>
       <num>(e)</num>
       <text>A new section 104a is added to read as follows:</text>
       <include>
         <section>
-          <codify:insert path="8|10A" after="§8-1031.04" num-value="8-1031.04a"/>
+          <codify:insert path="8|10A" after="§8-1031.04" num-value="8-1031.04a" history-prefix="as added"/>
           <num>104a</num>
           <heading>Requirements for District facilities and agencies.</heading>
           <para>
@@ -554,6 +560,8 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 20-154" path="104a" type="History">Feb. 26, 2015, D.C. Law 20-154, § 104a</annotation>
+      <codify:not-funded-anno doc="D.C. Code" path="§8-1031.04a" action="creation of" applicability-path="§6" display-template=""/>
     </para>
     <para codify:path="§8-1031.05">
       <num>(f)</num>
@@ -606,6 +614,7 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§8-1031.07" applicability-path="§6" display-template=""/>
     </para>
     <para codify:path="§8-1031.10|(c)">
       <num>(h)</num>
@@ -680,7 +689,7 @@
       <text>New sections 112c, 112d, and 112e are added to read as follows:</text>
       <include>
         <section>
-          <codify:insert path="8|10A" after="§8-1031.12b" num-value="8-1031.12c"/>
+          <codify:insert path="8|10A" after="§8-1031.12b" num-value="8-1031.12c" history-prefix="as added"/>
           <num>112c</num>
           <heading>On-site organic processing system acquisition grant program.</heading>
           <para>
@@ -695,9 +704,11 @@
             <num>(c)</num>
             <text>DPW may audit the accounts of a grantee receiving a grant under this section up to 3 years following the award of the grant.</text>
           </para>
+          <annotation doc="D.C. Law 20-154" path="112c" type="History">Feb. 26, 2015, D.C. Law 20-154, § 112c</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§8-1031.12c" action="creation of" applicability-path="§6" display-template=""/>
         </section>
         <section>
-          <codify:insert path="8|10A" after="§8-1031.12c" num-value="8-1031.12d"/>
+          <codify:insert path="8|10A" after="§8-1031.12c" num-value="8-1031.12d" history-prefix="as added"/>
           <num>112d</num>
           <heading>Donation and Reuse Program.</heading>
           <para>
@@ -736,9 +747,11 @@
             <num>(d)</num>
             <text>On an annual basis, the Program shall provide a report to the Mayor and the Council describing its activities in the previous year to meet the requirements of this section and provide recommendations on how to further increase donation and reuse in the District.</text>
           </para>
+          <annotation doc="D.C. Law 20-154" path="112d" type="History">Feb. 26, 2015, D.C. Law 20-154, § 112d</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§8-1031.12d" action="creation of" applicability-path="§6" display-template=""/>
         </section>
         <section>
-          <codify:insert path="8|10A" after="§8-1031.12d" num-value="8-1031.12e"/>
+          <codify:insert path="8|10A" after="§8-1031.12d" num-value="8-1031.12e" history-prefix="as added"/>
           <num>112e</num>
           <heading>Variable rate pricing study and pilot.</heading>
           <para>
@@ -757,6 +770,8 @@
               <text>An assessment of the financial implications of a variable rate pricing model for the District's waste management budget.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 20-154" path="112e" type="History">Feb. 26, 2015, D.C. Law 20-154, § 112e</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§8-1031.12e" action="creation of" applicability-path="§6" display-template=""/>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -809,6 +824,7 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§8-1031.13" applicability-path="§6" display-template=""/>
     </para>
     <para codify:path="§8-1031.14">
       <num>(m)</num>
@@ -840,6 +856,7 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§8-1031.14" applicability-path="§6" action="change made in subsection (d) of" display-template=""/>
     </para>
     <para codify:path="§8-1041.03|(b)|(8)">
       <num>(n)</num>
@@ -923,6 +940,7 @@
           <replace>, Subtitle B, and Subtitle D</replace>
         </codify:find-replace>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-325.381" applicability-path="§6" display-template=""/>
     </para>
     <para>
       <codify:insert doc="D.C. Code" path="8" after="7D" history="false">
@@ -1036,6 +1054,7 @@
               </para>
             </para>
             <annotation doc="D.C. Law 20-154" type="History" path="§128">Feb. 26, 2015, D.C. Law 20-154, § 128</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§8-771.01" action="creation of" applicability-path="§6" display-template=""/>
           </section>
           <section>
             <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.02" history-prefix="as added"/>
@@ -1061,6 +1080,7 @@
               <num>(c)</num>
               <text><code-cite doc="D.C. Code" path="8|7E">This subtitle</code-cite> shall not apply to batteries or battery-containing products that were imported into the District before<span codify:value="[insert applicability date of 2(q)]"> the applicability date of section 2(q) of the Zero Waste Omnibus Amendment Act of 2020, passed on 2nd  reading on December 1, 2020 (Enrolled version of Bill 23-506)</span>.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§8-771.02" action="creation of" applicability-path="§6" display-template=""/>
           </section>
           <section>
             <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.03" history-prefix="as added"/>
@@ -1168,6 +1188,7 @@
                 <text>Provide for the acceptance of up to 100 batteries per visit, and accept all batteries regardless of type or brand.</text>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§8-771.03" action="creation of" applicability-path="§6" display-template=""/>
           </section>
           <section>
             <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.04" history-prefix="as added"/>
@@ -1213,6 +1234,7 @@
                 <text>The name, address, and contact information of a person for a nonmember producer to contact on how to become a member of the battery stewardship organization.</text>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§8-771.04" action="creation of" applicability-path="§6" display-template=""/>
           </section>
           <section>
             <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.05" history-prefix="as added"/>
@@ -1306,6 +1328,7 @@
               <num>(c)</num>
               <text>Four years after the date the initial battery stewardship plan is approved, a battery stewardship organization shall hire an independent third party to conduct an assessment of the battery stewardship plan and implementation of the plan. The assessment shall examine the effectiveness of the battery stewardship plan in collecting and recycling batteries and compare the cost-effectiveness of the plan to that of collection plans or programs for batteries in other jurisdictions. The results of the assessment and recommendations to improve the battery stewardship plan shall be submitted to DOEE as part of the annual report required under subsection (a) of this section.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§8-771.05" action="creation of" applicability-path="§6" display-template=""/>
           </section>
           <section>
             <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.06" history-prefix="as added"/>
@@ -1367,6 +1390,7 @@
               <num>(e)</num>
               <text>DOEE shall assist in educational and outreach efforts to inform the public about the battery collection opportunities in the District.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§8-771.06" action="creation of" applicability-path="§6" display-template=""/>
           </section>
           <section>
             <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.07" history-prefix="as added"/>
@@ -1404,6 +1428,7 @@
                 <text>The attorneys' fees and costs associated with bringing the civil action.</text>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§8-771.07" action="creation of" applicability-path="§6" display-template=""/>
           </section>
           <section>
             <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.08" history-prefix="as added"/>
@@ -1433,6 +1458,7 @@
               <num>(b)</num>
               <text>Financial, production, and sales data reported to the Mayor by a battery stewardship organization shall not be subject to disclosure under <code-cite doc="D.C. Code" path="2|5|II">the Freedom of Information Act, effective March 25, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>),</code-cite> or any other law or regulation; except, that the Mayor may release a summary form of the data that does not disclose individual producer information.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§8-771.08" action="creation of" applicability-path="§6" display-template=""/>
           </section>
           <section>
             <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.09" history-prefix="as added"/>
@@ -1446,6 +1472,7 @@
               <num>(b)</num>
               <text>Beginning January 1, 2023, no person in the District shall knowingly dispose of batteries in the District except through battery recycling programs or other methods approved by the Mayor.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§8-771.09" action="creation of" applicability-path="§6" display-template=""/>
           </section>
           <section>
             <codify:insert doc="D.C. Code" path="8|7E" num-value="8-771.10" history-prefix="as added"/>
@@ -1481,6 +1508,7 @@
                 <text>If denied access to any place while carrying out the activities described paragraph (1) of this subsection, the Mayor may apply to a court of competent jurisdiction for a search warrant.</text>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§8-771.10" action="creation of" applicability-path="§6" display-template=""/>
           </section>
         </container>
       </include>
@@ -1579,6 +1607,7 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§8-1533" action="creation of subsections (e)(1) and (2) and (f) of" applicability-path="§6" display-template=""/>
     </para>
   </section>
   <section codify:doc="D.C. Code">
@@ -1607,6 +1636,7 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§38-821.02" applicability-path="§6" display-template=""/>
     </para>
     <para codify:path="§38-822.03">
       <num>(c)</num>
@@ -1649,7 +1679,12 @@
       <text>Sections 2(a), 2(b), the amendatory section 103a within 2(c), 2(d)(2), 2(e), 2(g), 2(k), 2(l), 2(m)(1), 2(p), 2(q), the amendatory section 403(e)(1) and (2) and (f) in section 3(b), and 4(b) shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
       <codify:applicability doc="D.C. Act 23-542" path="§2|(a)" date="notfunded" history="false" display-template=""/>
       <codify:applicability doc="D.C. Act 23-542" path="§2|(b)" date="notfunded" history="false" display-template=""/>
-      <codify:applicability doc="D.C. Code" path="§8-1031.03a" date="notfunded" history="false" display-template=""/>
+      <!-- <codify:applicability doc="D.C. Code" path="§8-1031.03a" date="notfunded" history="false" display-template=""/> This approach doesn't work-->
+      <codify:repeal doc="D.C. Code" path="§8-1031.03a"/>
+      <codify:find-replace doc="D.C. Code" path="§8-1031.03a" count="2">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
       <!--amendatory section 103a within 2(c)  -->
       <codify:applicability doc="D.C. Act 23-542" path="§2|(d)|(2)" date="notfunded" history="false" display-template=""/>
       <codify:applicability doc="D.C. Act 23-542" path="§2|(e)" date="notfunded" history="false" display-template=""/>
@@ -1659,9 +1694,24 @@
       <codify:applicability doc="D.C. Act 23-542" path="§2|(m)|(1)" date="notfunded" history="false" display-template=""/>
       <codify:applicability doc="D.C. Act 23-542" path="§2|(p)" date="notfunded" history="false" display-template=""/>
       <codify:applicability doc="D.C. Act 23-542" path="§2|(q)" date="notfunded" history="false" display-template=""/>
-      <codify:applicability doc="D.C. Code" path="§8-1533|(e)|(1)" date="notfunded" history="false" display-template=""/>
-      <codify:applicability doc="D.C. Code" path="§8-1533|(e)|(2)" date="notfunded" history="false" display-template=""/>
-      <codify:applicability doc="D.C. Code" path="§8-1533|(f)" date="notfunded" history="false" display-template=""/>
+      <!-- <codify:applicability doc="D.C. Code" path="§8-1533|(e)|(1)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Code" path="§8-1533|(e)|(2)" date="notfunded" history="false" display-template=""/> -->
+      <codify:repeal doc="D.C. Code" path="§8-1533|(e)|(1)"/>
+      <codify:find-replace doc="D.C. Code" path="§8-1533|(e)|(1)" count="1">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
+      <codify:repeal doc="D.C. Code" path="§8-1533|(e)|(2)"/>
+      <codify:find-replace doc="D.C. Code" path="§8-1533|(e)|(2)" count="1">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
+      <!-- <codify:applicability doc="D.C. Code" path="§8-1533|(f)" date="notfunded" history="false" display-template=""/> -->
+      <codify:repeal doc="D.C. Code" path="§8-1533|(f)"/>
+      <codify:find-replace doc="D.C. Code" path="§8-1533|(f)" count="1">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
       <!-- the amendatory section 403(e)(1) and (2) and (f) in section 3(b) -->
       <codify:applicability doc="D.C. Act 23-542" path="§4|(b)" date="notfunded" history="false" display-template=""/>
     </para>

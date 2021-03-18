@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-606">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-184">
+  <num type="law">23-184</num>
   <num type="bill">23-90</num>
   <num type="act">23-606</num>
   <heading type="short">Commission on Poverty Establishment Amendment Act of 2020</heading>
   <heading type="long">To establish the Commission on Poverty to address the needs and interests of persons in poverty, evaluate current and previous poverty-reduction programs to determine their effectiveness, hold meetings, hearings, and listening sessions to gather data and information on issues of poverty from experts and from residents in, or impacted by, poverty, and to require the Commission on Poverty to develop and submit, by a specified date, a comprehensive strategic plan for the reduction of poverty and annual updates of the plan to the Mayor and the Council; and to amend the Confirmation Act of 1978 to make a conforming amendment.</heading>
   <meta>
     <introduced>2019-01-22</introduced>
-    <effective projected="true">2021-03-19</effective>
+    <effective>2021-03-16</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/41723/Signed_Act/B23-0090-Signed_Act.pdf">D.C. Law 23-184</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/41723/Signed_Act/B23-0090-Signed_Act.pdf">D.C. Act 23-606</citation>
       <citation type="register">68 DCR 001220</citation>
     </citations>
@@ -21,11 +23,23 @@
     </history>
   </meta>
   <text>BE IT ENACTED, BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Commission on Poverty Establishment Amendment Act of 2020".</text>
+  <codify:insert doc="D.C. Code" path="3" after="6A" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>6A-i</num>
+      <heading>Commission of Poverty.</heading>
+    </container>
+  </codify:insert>
+  <codify:find-replace doc="D.C. Code" path="3|6A|heading" count="1" display-template="">
+    <find>Poverty.</find>
+    <replace>Poverty. [Expired]</replace>
+  </codify:find-replace>
   <container>
     <prefix>TITLE</prefix>
     <num>I</num>
     <heading>COMMISSION ON POVERTY</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="3|6A-i" num-value="3-641.01"/>
       <num>101</num>
       <heading>Definitions.</heading>
       <para>
@@ -44,8 +58,10 @@
           <text>"Poverty-reduction plan" means a comprehensive strategic plan for the reduction of poverty in the District issued by the Commission pursuant to section 106.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§3-641.01" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="3|6A-i" num-value="3-641.02"/>
       <num>102</num>
       <heading>Commission on Poverty; establishment.</heading>
       <para>
@@ -201,8 +217,10 @@
         <num>(g)</num>
         <text>The Commission may establish committees that address specific issues or populations.</text>
       </para>
+       <codify:not-funded-anno doc="D.C. Code" path="§3-641.02" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="3|6A-i" num-value="3-641.03"/>
       <num>103</num>
       <heading>Commission on Poverty; functions.</heading>
       <para>
@@ -277,8 +295,10 @@
         <num>(b)</num>
         <text>To the extent not otherwise restricted by District or federal law, the Commission shall have the authority to request directly from each department, agency, or instrumentality of the District any non-confidential information considered necessary by the Commission to fulfill its mandate; and each department, agency, or instrumentality shall provide such required non-confidential information to the Commission upon its request.</text>
       </para>
+       <codify:not-funded-anno doc="D.C. Code" path="§3-641.03" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="3|6A-i" num-value="3-641.04"/>
       <num>104</num>
       <heading>Commission on Poverty; meetings and listening sessions.</heading>
       <para>
@@ -324,8 +344,10 @@
           </para>
         </para>
       </para>
+       <codify:not-funded-anno doc="D.C. Code" path="§3-641.04" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="3|6A-i" num-value="3-641.05"/>
       <num>105</num>
       <heading>Commission on Poverty; resources and staff.</heading>
       <para>
@@ -381,8 +403,10 @@
         <num>(c)</num>
         <text>The Mayor shall provide sufficient office space and technical and administrative support to assist the Commission and its staff in meeting the goals mandated by this title.</text>
       </para>
+       <codify:not-funded-anno doc="D.C. Code" path="§3-641.05" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="3|6A-i" num-value="3-641.06"/>
       <num>106</num>
       <heading>Poverty-reduction plan.</heading>
       <para>
@@ -460,34 +484,46 @@
           </para>
         </para>
       </para>
+       <codify:not-funded-anno doc="D.C. Code" path="§3-641.06" applicability-path="§301" action="creation of" display-template=""/>
     </section>
   </container>
   <container>
     <prefix>TITLE</prefix>
     <num>II</num>
     <heading>CONFORMING AMENDMENT</heading>
-    <section>
+    <section codify:doc="D.C. Code" codify:path="§1-523.01|(f)">
       <num>201</num>
       <text>Section 2(f) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(f)), is amended as follows:</text>
-      <para>
+      <para codify:path="(68)">
         <num>(a)</num>
         <text>Paragraph (68) is amended by striking the word "and".</text>
+        <codify:find-replace position="last">
+          <find>and</find>
+          <replace/>
+        </codify:find-replace>
+        <!-- Finish when applicable -->
       </para>
-      <para>
+      <para codify:path="(69)">
         <num>(b)</num>
         <text>Paragraph (69) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(c)</num>
         <text>A new paragraph (70) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(70)</num>
             <text>The Commission on Poverty, established by section 2 of the Commission on Poverty Establishment Amendment Act of 2020, passed on 2nd reading on December 15, 2020 (Enrolled version of Bill 23-90).</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+       <codify:not-funded-anno doc="D.C. Law 23-184" path="§201" applicability-path="§301" display-template=""/>
     </section>
   </container>
   <container>
@@ -500,6 +536,7 @@
       <para>
         <num>(a)</num>
         <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+        <codify:applicability  doc="D.C. Law 23-184" date="notfunded" history="false" display-template=""/>
       </para>
       <para>
         <num>(b)</num>

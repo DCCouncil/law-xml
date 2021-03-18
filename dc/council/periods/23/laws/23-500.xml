@@ -24,22 +24,30 @@
   <section>
     <num>2</num>
     <text>Title III of the CleanEnergy DC Omnibus Amendment Act of 2018, effective March 22, 2019 (D.C. Law 22-257; D.C. Official Code § 8-1772.21 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§8-1772.21">
       <num>(a)</num>
       <text>Section 301 (D.C. Official Code § 8-1772.21) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follow:</text>
-        <para>
+        <para codify:path="(2)">
           <num>(A)</num>
           <text>Paragraph (2) is amended by striking the phrase "January 1, 2023" and inserting the phrase "January 1, 2027" in its place.</text>
+          <codify:find-replace count="1">
+            <find>January 1, 2023</find>
+            <replace>January 1, 2027</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(B)</num>
           <text>Paragraph (3) is amended by striking the phrase "January 1, 2026" and inserting the phrase "January 1, 2033" in its place.</text>
+          <codify:find-replace count="1">
+            <find>January 1, 2026</find>
+            <replace>January 1, 2033</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(b)|(1)|(A)">
         <num>(2)</num>
         <text>Subsection (b)(1)(A) is amended to read as follows:</text>
         <include>
@@ -48,6 +56,7 @@
             <para>
               <num>(1)</num>
               <para>
+                <codify:replace/>
                 <num>(A)</num>
                 <text>No later than January 1, 2021, and every 6 years thereafter, DOEE shall, by rulemaking or publication on the DOEE website, establish property types and building energy performance standards for each property type, or an equivalent metric for buildings that do not receive an ENERGY STAR score.</text>
               </para>
@@ -56,41 +65,54 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c)</num>
             <text>All buildings below the energy performance standard for their property type, established pursuant to subsection (b)(1) and (2) of this section, shall have 5 years from the date the performance standards are established to meet the building energy performance requirements established by DOEE.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:temporary doc="D.C. Code" path="§8-1772.21"/>
     </para>
     <para>
       <num>(b)</num>
       <text>The lead-in language in section 303 (D.C. Official Code § 8-1772.22) is amended by striking the phrase "January 1, 2020" and inserting the phrase "January 1, 2021" in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§8-1772.22" count="1">
+        <find>January 1, 2020</find>
+        <replace>January 1, 2021</replace>
+      </codify:find-replace>
+      <codify:temporary doc="D.C. Code" path="§8-1772.22"/>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§50-2201.03|(j)|(1A)">
     <num>3</num>
     <text>Section 6(j)(1A) of the District of Columbia Traffic Act, 1925, approved March 3, 1925 (43 Stat. 1121; D.C. Official Code § 50-2201.03(j)(1A)), is amended as follows:</text>
-    <para>
+    <para codify:path="(A)">
       <num>(a)</num>
       <text>Subparagraph (A) is amended by striking the phrase "January 1, 2020" and inserting the phrase "January 1, 2021" in its place.</text>
+      <codify:find-replace count="1">
+        <find>January 1, 2020</find>
+        <replace>January 1, 2021</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>Subparagraph (E) is amended to read as follows:</text>
       <include lvl="2">
         <para>
+          <codify:replace path="(E)"/>
           <num>(E)</num>
           <text>Changes to the vehicle excise tax made pursuant to this paragraph shall be revenue neutral or revenue positive.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:temporary doc="D.C. Code" path="§50-2201.03"/>
   </section>
   <section>
     <num>4</num>
@@ -102,11 +124,29 @@
     <heading>Effective date.</heading>
     <para>
       <num>(a)</num>
-      <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 30-day period of congressional review as provided in section 602(c)(1) of the district of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)), and publication of the District of Columbia Register.</text>
+      <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 30-day period of congressional review</text>
+      <text>as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December</text>
+      <text>24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)), and publication in the District of</text>
+      <text>Columbia Register.</text>
     </para>
     <para>
       <num>(b)</num>
       <text>This act shall expire after 225 days of its having taken effect.</text>
     </para>
+    <codify:insert doc="D.C. Code" path="§8-1772.21" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 26, 2021. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§8-1772.21(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
+    <codify:insert doc="D.C. Code" path="§8-1772.22" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 26, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§8-1772.22(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
+    <codify:insert doc="D.C. Code" path="§50-2201.03" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 26, 2021. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§50-2201.03(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
 </document>

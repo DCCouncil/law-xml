@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-567">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-187">
+  <num type="law">23-187</num>
   <num type="bill">23-122</num>
   <num type="act">23-567</num>
   <heading type="short">Cashless Retailers Prohibition Amendment Act of 2020</heading>
   <heading type="long">To amend Title 28 of the District of Columbia Official Code to prohibit retail establishments from discriminating against cash as a form of payment, and to provide for enforcement of this requirement.</heading>
   <meta>
     <introduced>2019-02-05</introduced>
-    <effective projected="true">2021-03-15</effective>
+    <effective>2021-03-16</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/41809/Signed_Act/B23-0122-Signed_Act.pdf">D.C. Law 23-187</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/41809/Signed_Act/B23-0122-Signed_Act.pdf">D.C. Act 23-567</citation>
       <citation type="register">68 DCR 001031</citation>
     </citations>
@@ -21,7 +23,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Cashless Retailers Prohibition Amendment Act of 2020".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Title 28 of the District of Columbia Official Code is amended as follows:</text>
     <para>
@@ -35,30 +37,47 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§28-3904">
       <num>(b)</num>
       <text>Section 28-3904 is amended as follows:</text>
-      <para>
+      <para codify:path="(ll)">
         <num>(1)</num>
         <text>Subsection (ll) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; or</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(mm)">
         <num>(2)</num>
         <text>Subsection (mm) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+        <codify:find-replace count="1">
+          <find>.</find>
+          <replace>; or</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subsection (nn) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(nn)</num>
-            <text>violate any provision of Chapter 54 of this title.</text>
+            <text>violate any provision of <cite doc="D.C. Code" path="28|54">Chapter 54 of this title</cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 23-187" path="§2|(b)" applicability-path="§3" display-template=""/>
     </para>
     <para>
+      <codify:insert doc="D.C. Code" path="28" after="53" history="false">
+        <container>
+          <prefix>Chapter</prefix>
+          <num>54</num>
+          <heading>Cashless Retail Prohibition.</heading>
+        </container>
+      </codify:insert>
       <num>(c)</num>
       <text>A new Chapter 54 is added to read as follows:</text>
       <include>
@@ -85,12 +104,13 @@
             </section>
           </toc>
           <section>
+            <codify:insert path="54"/>
             <prefix>§</prefix>
             <num>28-5401</num>
             <heading>Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For purposes of this chapter:</text>
+              <text>For purposes of <cite doc="D.C. Code" path="28|54">this chapter</cite>:</text>
               <para>
                 <num>(1)</num>
                 <text>"Retailer" means a person holding a basic business license who is engaged in retail sales.</text>
@@ -102,6 +122,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="54"/>
             <prefix>§</prefix>
             <num>28-5402</num>
             <heading>Prohibited practices.</heading>
@@ -123,18 +144,20 @@
             </para>
           </section>
           <section>
+            <codify:insert path="54"/>
             <prefix>§</prefix>
             <num>28-5403</num>
             <heading>Civil penalties.</heading>
-            <text>Failure to comply with the requirements of this chapter shall be an unlawful trade practice under § 28-3904.</text>
+            <text>Failure to comply with the requirements of <cite doc="D.C. Code" path="28|54">this chapter</cite> shall be an unlawful trade practice under § 28-3904.</text>
           </section>
           <section>
+            <codify:insert path="54"/>
             <prefix>§</prefix>
             <num>28-5404</num>
             <heading>Exceptions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>The provisions of this chapter shall not apply:</text>
+              <text>The provisions of <cite doc="D.C. Code" path="28|54">this chapter</cite> shall not apply:</text>
               <para>
                 <num>(1)</num>
                 <text>To retail sales made via mail, phone, or internet;</text>
@@ -161,13 +184,14 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>During a period of time for which the Mayor has declared a public health emergency pursuant to section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01).</text>
+                <text>During a period of time for which the Mayor has declared a public health emergency pursuant to <code-cite doc="D.C. Code" path="§7-2304.01">section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01)</code-cite>.</text>
               </para>
             </para>
           </section>
         </container>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 23-187" path="§2|(c)" applicability-path="§3" action="creation of" display-template=""/>
     </para>
   </section>
   <section>
@@ -176,6 +200,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 23-187" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

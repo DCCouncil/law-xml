@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-503">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-181">
+  <num type="law">23-181</num>
   <num type="bill">23-38</num>
   <num type="act">23-503</num>
   <heading type="short">Racial Equity Achieves Results (REACH) Amendment Act of 2020</heading>
   <heading type="long">To establish an Office of Racial Equity to coordinate the District's efforts to achieve racial equity and to require the Office to establish a Racial Equity Advisory Board to advise it and to serve as a liaison to the public; to establish a Commission on Racial Equity, Social Justice, and Economic Inclusion to advise the Council, to state the sense of the Council that it should include in its rules for Council Period 24 the establishment of a Racial Equity Program; to amend the Office of Human Rights Establishment Act of 1999 to require the Office of Human Rights, in coordination with the Department of Human Resources and the Office of Racial Equity, to provide racial equity training for District employees and District boards and commissions; and to amend Chapter 3 of Title 47 of the District of Columbia Official Code to require the Office of Racial Equity to coordinate with the Office of the City Administrator to design and implement racial equity tools to aid in eliminating racial disparities and to require the Mayor, beginning in Fiscal Year 2022, to include racial equity-related performance measures in the development of an agency's annual performance plans and an evaluation of the use of racial equity tools in the annual performance accountability reports.</heading>
   <meta>
     <introduced>2019-01-08</introduced>
-    <effective projected="true">2021-03-15</effective>
+    <effective>2021-03-16</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/41629/Signed_Act/B23-0038-Signed_Act.pdf">D.C. Law 23-181</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/41629/Signed_Act/B23-0038-Signed_Act.pdf">D.C. Act 23-503</citation>
       <citation type="register">67 DCR 14390</citation>
     </citations>
@@ -20,16 +22,25 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Racial Equity Achieves Results (REACH) Amendment Act of 2020".</text>
+  <codify:insert doc="D.C. Code" path="2" after="14" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>14A</num>
+      <heading>Office of Racial Equity and Commission on Racial Equality, Social Justice, and Economic Inclusion.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>I</num>
     <heading>OFFICE OF RACIAL EQUITY; COMMISSON ON RACIAL EQUITY, SOCIAL JUSTICE, AND ECONOMIC INCLUSION.</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="2|14A" num-value="2-1471.01"/>
       <num>101</num>
       <heading>Definitions.</heading>
-      <text>For the purposes of this title, the term "racial equity" means the elimination of racial disparities such that race no longer predicts opportunities, outcomes, or the distribution of resources for residents of the District, particularly for persons of color and Black residents.</text>
+      <text>For the purposes of <code-cite doc="D.C. Code" path="2|14A">this title</code-cite>, the term "racial equity" means the elimination of racial disparities such that race no longer predicts opportunities, outcomes, or the distribution of resources for residents of the District, particularly for persons of color and Black residents.</text>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="2|14A" num-value="2-1471.02"/>
       <num>102</num>
       <heading>Establishment of the Office of Racial Equity.</heading>
       <para>
@@ -41,12 +52,11 @@
         <num>(b)</num>
         <para>
           <num>(1)</num>
-          <text>The Office shall be headed by a Chief Equity Officer, who shall be appointed by the Mayor with the advice and consent of the Council pursuant to section 2(a) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-</text>
-          <text>523.01(a)).</text>
+          <text>The Office shall be headed by a Chief Equity Officer, who shall be appointed by the Mayor with the advice and consent of the Council pursuant to <code-cite doc="D.C. Code" path="§1-523.01|(a)">section 2(a) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(a))</code-cite>.</text>
         </para>
         <para>
           <num>(2)</num>
-          <text>The Chief Equity Officer shall be a full-time position, for which annual compensation shall be fixed in accordance with Title X-A of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective June 10, 1998 (D.C. Law 12-124: D.C. Official Code § 1-610.51 <em>et seq.</em>).</text>
+          <text>The Chief Equity Officer shall be a full-time position, for which annual compensation shall be fixed in accordance with <code-cite doc="D.C. Code" path="1|6|X-A">Title X-A of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective June 10, 1998 (D.C. Law 12-124: D.C. Official Code § 1- 610.51 <em>et seq.</em>)</code-cite>.</text>
         </para>
       </para>
       <para>
@@ -139,7 +149,7 @@
         </para>
         <para>
           <num>(2)</num>
-          <text>Members of the Board shall be District residents and appointed by the Mayor with the advice and consent of the Council pursuant to section 2(f) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code 1-523.01(f)), with due consideration given to individuals from established public, nonprofit, and volunteer community organizations, community leaders, academic institutions, and other individuals who have shown dedication to and knowledge of advancing racial equity or social justice.</text>
+          <text>Members of the Board shall be District residents and appointed by the Mayor with the advice and consent of the Council pursuant to <code-cite doc="D.C. Code" path="§1-523.01|(f)">section 2(f) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code 1-523.01(f))</code-cite>, with due consideration given to individuals from established public, nonprofit, and volunteer community organizations, community leaders, academic institutions, and other individuals who have shown dedication to and knowledge of advancing racial equity or social justice.</text>
         </para>
         <para>
           <num>(3)</num>
@@ -152,6 +162,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="2|14A" num-value="2-1471.03"/>
       <num>103</num>
       <heading>Establishment of the Commission on Racial Equity, Social Justice, and Economic Inclusion.</heading>
       <para>
@@ -209,6 +220,7 @@
       <text>1999 (D.C. Law 13-308; D.C. Official Code § 2-1411.01 <em>et seq.</em>), is amended by adding a new section 206b to read as follows:</text>
       <include>
         <section>
+          <codify:insert doc="D.C. Code" path="2|14|B" after="§2-1411.05a" num-value="2-1411.05b" history-prefix="as added"/>
           <num>206b</num>
           <heading>Racial equity training.</heading>
           <para>
@@ -231,36 +243,52 @@
             <num>(b)</num>
             <text>For the purposes of this section, the term "racial equity" means the elimination of racial disparities such that race no longer predicts opportunities, outcomes, or the distribution of resources for residents of the District, particularly for persons of color and Black residents.</text>
           </para>
+          <annotation doc="D.C. Law 13-38" type="History" path="§206b">Oct. 20, 1999, D.C. Law 13-38, § 206b</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
     </section>
-    <section>
+    <section codify:doc="D.C. Code">
       <num>202</num>
       <text>Chapter 3 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
-      <para>
+      <para codify:path="§47-308.01">
         <num>(a)</num>
         <text>Section 47-308.01 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(1)</num>
           <text>Subsection (a) is amended as follows:</text>
           <para>
             <num>(A)</num>
             <text>Paragraph (3A) is redesignated as paragraph (3B).</text>
+            <codify:insert after="(5)">
+              <para>
+                <num>[(6)]</num>
+                <text>“Stakeholders” are the customers of an agency that use the agency’s services or products and may include both government customers and persons or corporations that are resident in the District.</text>
+              </para>
+            </codify:insert>
           </para>
-          <para>
+          <para codify:path="(3B)">
             <num>(B)</num>
             <text>Paragraph (3B) is redesignated as paragraph (3C).</text>
+            <codify:find-replace count="1">
+              <find>(3B)</find>
+              <replace>(3C)</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(3A)">
             <num>(C)</num>
             <text>Paragraph (3C) is redesignated as paragraph (5A).</text>
+            <codify:find-replace count="1">
+              <find>(3A)</find>
+              <replace>(3B)</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(D)</num>
             <text>A new paragraph (3A) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(3)"/>
                 <num>(3A)</num>
                 <text>"Racial Equity" means the elimination of racial disparities such that race no longer predicts opportunities, outcomes, or the distribution of resources for residents of the District, particularly for persons of color and Black residents.</text>
               </para>
@@ -273,10 +301,11 @@
           <text>A new subsection (h) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(h)</num>
               <para>
                 <num>(1)</num>
-                <text>By March 1, 2021, in coordination with the Office of the City Administrator, the Office of Racial Equity, established by section 3 of the Racial Equity Achieves Results (REACH) Amendment Act of 2020, passed on 2nd reading on November 10, 2020 (Enrolled version of Bill 23-38), shall design and implement racial equity tools to enable District agencies to incorporate racial equity into their operations, performance-based budgets, programs, policies, rules, and regulations, and to ensure alignment between departmental and District-wide programs and initiatives.</text>
+                <text>By March 1, 2021, in coordination with the Office of the City Administrator, the Office of Racial Equity, established by <code-cite doc="D.C. Code" path="§2-1471.02">section 3 of the Racial Equity Achieves Results (REACH) Amendment Act of 2020, passed on 2nd reading on November 10, 2020 (Enrolled version of Bill 23-38)</code-cite>, shall design and implement racial equity tools to enable District agencies to incorporate racial equity into their operations, performance-based budgets, programs, policies, rules, and regulations, and to ensure alignment between departmental and District-wide programs and initiatives.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -316,6 +345,7 @@
         <text>Section 47-308.02 is amended by adding a new subsection (g) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§47-308.02"/>
             <num>(g)</num>
             <text>Beginning no later than Fiscal Year 2022, and for each subsequent fiscal year, the Mayor shall establish at least one relevant performance measure related to an agency's progress toward achieving racial equity.</text>
           </para>
@@ -324,8 +354,7 @@
       </para>
       <para>
         <num>(c)</num>
-        <text>Section 47-308.03(c)(1) is amended by striking the phrase "agency's performance on its activities for" and inserting the phrase "agency's performance on its activities, including those</text>
-        <text>relating to achieving racial equity, for" in its place.</text>
+        <text>Section 47-308.03(c)(1) is amended by striking the phrase "agency's performance on its activities for" and inserting the phrase "agency's performance on its activities, including those relating to achieving racial equity, for" in its place.</text>
       </para>
     </section>
   </container>
