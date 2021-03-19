@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-525">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-201">
+  <num type="law">23-201</num>
   <num type="bill">23-325</num>
   <num type="act">23-525</num>
   <heading type="short">Dementia Training for Direct Care Workers Support Amendment Act of 2020</heading>
   <heading type="long">To require dementia training of at least 8 hours for a staff member whose work involves extensive contact with residents or program participants, to require facilities to establish procedures for ongoing staff support regarding the treatment and care of persons with dementia, to require the Department of Health to identify and designate standardized trainings, and to require facilities to issue a certificate to direct care workers upon completion of dementia training; and to require the Department of Health Care Finance to conduct a rate study to determine the existing wage structure and projected wage structure necessary to ensure a vital and adequately compensated class of direct support.</heading>
   <meta>
     <introduced>2019-06-04</introduced>
-    <effective projected="true">2021-03-19</effective>
+    <effective>2021-03-16</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/42719/Signed_Act/B23-0325-Signed_Act.pdf">D.C. Law 23-201</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/42719/Signed_Act/B23-0325-Signed_Act.pdf">D.C. Act 23-525</citation>
       <citation type="register">67 DCR 14750</citation>
     </citations>
@@ -22,22 +24,21 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Dementia Training for Direct Care Workers Support Amendment Act of 2020".</text>
-  
   <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Department of Health Functions Clarification Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 7-731 <em>et seq</em>.), is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>Section 4948 (D.C. Official Code § 7-744.01) is designated as section 4951.</text>
-     <codify:find-replace path="§7-744.01" count="1" history-prefix="redesignated § 4951">
-       <find>There is</find>
-       <replace>There is</replace>
-     </codify:find-replace>
-     <codify:find-replace path="7|7A|V|heading" count="1">
-       <find>Services Coordinator</find>
-       <replace>Services</replace>
-     </codify:find-replace>
-     <codify:not-funded-anno doc="D.C. Code" path="§7-744.01" applicability-path="§5" display-template=""/>
+      <codify:find-replace path="§7-744.01" count="1" history-prefix="redesignated § 4951">
+        <find>There is</find>
+        <replace>There is</replace>
+      </codify:find-replace>
+      <codify:find-replace path="7|7A|V|heading" count="1">
+        <find>Services Coordinator</find>
+        <replace>Services</replace>
+      </codify:find-replace>
+      <codify:not-funded-anno doc="D.C. Code" path="§7-744.01" applicability-path="§5" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
@@ -78,11 +79,11 @@
               <text>Facilities or programs shall provide initial training of at least 8 hours to:</text>
               <para>
                 <num>(A)</num>
-                <text>All covered direct service staff members, covered administrative staff members, and other covered staff members hired on, or within 6 months after, the applicability date of this section who shall begin dementia training within 90 days of the hire date, and complete the training within 120 days of the hire date; and</text>
+                <text>All covered direct service staff members, covered administrative staff members, and other covered staff members hired on, or within 6 months after, <span codify:value="[insert applicability date]">the applicability date of this section</span> who shall begin dementia training within 90 days of the hire date, and complete the training within 120 days of the hire date; and</text>
               </para>
               <para>
                 <num>(B)</num>
-                <text>All covered direct service staff members, covered administrative staff members, and other covered staff members who were employed prior to the applicability date of this section and who have not received equivalent training within the prior 24 months shall complete the initial training requirements within one year following publication by the Department of Health of acceptable trainings regulations.</text>
+                <text>All covered direct service staff members, covered administrative staff members, and other covered staff members who were employed prior to <span codify:value="[insert applicability date]">the applicability date of this section</span> and who have not received equivalent training within the prior 24 months shall complete the initial training requirements within one year following publication by the Department of Health of acceptable trainings regulations.</text>
               </para>
             </para>
             <para>
@@ -146,7 +147,7 @@
             <num>(c)</num>
             <para>
               <num>(1)</num>
-              <text>Within 120 days after the applicability date of this section, the Department shall identify and designate standardized trainings, including online trainings, and trainings currently used by providers that meet the requirements of subsection (b)(3) through (5) <span codify:value="[of this section]"></span> and shall also establish a process whereby other non-standardized training programs will be determined to meet the requirements for dementia training.</text>
+              <text>Within 120 days after <span codify:value="[insert applicability date]">the applicability date of this section</span>, the Department shall identify and designate standardized trainings, including online trainings, and trainings currently used by providers that meet the requirements of subsection (b)(3) through (5) <span codify:value="[of this section]"/> and shall also establish a process whereby other non-standardized training programs will be determined to meet the requirements for dementia training.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -315,7 +316,7 @@
       <num>(e)</num>
       <para>
         <num>(1)</num>
-        <text>The rate study shall be completed within 180 days of the applicability date of this section.</text>
+        <text>The rate study shall be completed within 180 days of <span codify:value="[insert applicability date]">the applicability date of this section</span>.</text>
       </para>
       <para>
         <num>(2)</num>
@@ -327,15 +328,14 @@
       <text>For the purposes of this section, the term "direct support worker" means a paid employee who performs at least 51% of their job duties providing direct support to persons in the home health care, personal care assistance nursing home care, and assisted living industry in the District.</text>
     </para>
     <codify:annotation doc="D.C. Code" path="§7-744.02" type="Editor's Notes" history="false">
-      For a requirement that the Department of Health Care Finance have a rate study conducted through an independent third party to determine the existing wage structure and projected wage structure necessary to ensure a vital and adequately compensated class of direct support workers in the home health care, personal care assistance nursing home care, and assisted living industry, see<cite doc="D.C. Act 23-525" path="§3"> § 3 of D.C. Act 23-525</cite>.
+      For a requirement that the Department of Health Care Finance have a rate study conducted through an independent third party to determine the existing wage structure and projected wage structure necessary to ensure a vital and adequately compensated class of direct support workers in the home health care, personal care assistance nursing home care, and assisted living industry, see<cite doc="D.C. Law 23-201" path="§3"> § 3 of D.C. Law 23-201</cite>.
     </codify:annotation>
   </section>
   <section>
     <num>4</num>
     <heading>Rulemaking.</heading>
     <text>The Mayor, pursuant to title 1 of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 et seq.), may issue rules to implement the provisions of this act.</text>
-    <codify:annotation doc="D.C. Code" path="§7-744.02" type="Editor's Notes" history="false">
-     <cite doc="D.C. Act 23-525" path="§4"> Section 4 of D.C. Act 23-525</cite> required that pursuant to title 1 of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 et seq.), may issue rules to implement the provisions of this act.
+    <codify:annotation doc="D.C. Code" path="§7-744.02" type="Editor's Notes" history="false"><cite doc="D.C. Law 23-201" path="§4"> Section 4 of D.C. Law 23-201</cite> required that pursuant to title 1 of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 et seq.), may issue rules to implement the provisions of this act.
     </codify:annotation>
   </section>
   <section>
@@ -344,7 +344,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
-      <codify:applicability  doc="D.C. Act 23-525" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 23-201" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

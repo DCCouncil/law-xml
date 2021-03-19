@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-572">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-194">
+  <num type="law">23-194</num>
   <num type="bill">23-193</num>
   <num type="act">23-572</num>
   <heading type="short">Electric Vehicle Readiness Amendment Act of 2020</heading>
   <heading type="long">To amend the Green Building Act of 2006 to require that new construction or substantial improvement of a commercial building or a multi-unit building that includes 3 or more off-street parking spots include electrical vehicle make-ready infrastructure for at least 20% of the parking spaces, to require the Mayor to issue rules to implement the provisions of this act, including rules to establish a waiver process when a property owner demonstrates severe financial hardship, and to require the Department of Energy and Environment to establish incentives for property owners to install electric vehicle make-ready infrastructure in a greater percentage than required under the act.</heading>
   <meta>
     <introduced>2019-03-19</introduced>
-    <effective projected="true">2021-03-15</effective>
+    <effective>2021-03-16</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/42098/Signed_Act/B23-0193-Signed_Act.pdf">D.C. Law 23-194</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/42098/Signed_Act/B23-0193-Signed_Act.pdf">D.C. Act 23-572</citation>
       <citation type="register">68 DCR 001100</citation>
     </citations>
@@ -20,10 +22,10 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Electric Vehicle Readiness Amendment Act of 2020".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Green Building Act of 2006, effective March 8, 2007 (D.C. Law 16-234; D.C. Official Code § 6-1451.01<em> et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§6-1451.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 6-1451.01) is amended as follows:</text>
       <para>
@@ -31,10 +33,12 @@
         <text>New paragraphs (11A) and (11B) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(11)"/>
             <num>(11A)</num>
             <text>"Electric vehicle" shall have the same meaning as provided in section 3(4) of the Electric and Hybrid Vehicle Research, Development, and Demonstration Act of 1976, approved September 17, 1976 (90 Stat. 1261; 15 U.S.C. § 2502(4)).</text>
           </para>
           <para>
+            <codify:insert after="(11A)"/>
             <num>(11B)</num>
             <text>"Electric vehicle charging site" means any location, including any public space in the District, that has installed electric vehicle supply equipment.</text>
           </para>
@@ -46,18 +50,21 @@
         <text>A new paragraph (32B) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(32A)"/>
             <num>(32B)</num>
             <text>"Multi-unit building" means a residential building with 5 or more dwelling units.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§6-1451.01" applicability-path="§3" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
       <text>A new section 4a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="6|14A" after="§6-1451.03" num-value="6-1451.03a" history-prefix="as added"/>
           <num>4a</num>
           <heading>Electric vehicle make-ready parking spaces in new multi-unit residential and commercial buildings.</heading>
           <para>
@@ -66,7 +73,7 @@
           </para>
           <para>
             <num>(b)</num>
-            <text>By September 30, 2021, the Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall issue rules to implement the provisions of this section, including rules that:</text>
+            <text>By September 30, 2021, the Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I"> Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, shall issue rules to implement the provisions of this section, including rules that:</text>
             <para>
               <num>(1)</num>
               <text>Detail the technical specifications required for the electric vehicle make-ready infrastructure required by subsection (a) of this section; and</text>
@@ -80,9 +87,12 @@
             <num>(c)</num>
             <text>By September 30, 2021, the Department of Energy and Environment shall establish incentives for owners of commercial buildings and multi-unit buildings to install electric vehicle make-ready infrastructure at a greater percentage of parking spaces than the 20% minimum required by subsection (a) of this section. The Department may establish additional initiatives at any time.</text>
           </para>
+          <annotation doc="D.C. Law 16-234" type="History" path="§4a">Mar. 8, 2007, D.C. Law 16-234, § 4a</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§6-1451.03a" applicability-path="§3" action="creation of" display-template=""/>
         </section>
       </include>
       <aftertext>.</aftertext>
+
     </para>
   </section>
   <section>
@@ -91,6 +101,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability  doc="D.C. Law 23-194" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

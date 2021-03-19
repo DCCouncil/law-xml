@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-611">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-198">
+  <num type="law">23-198</num>
   <num type="bill">23-245</num>
   <num type="act">23-611</num>
   <heading type="short">Advisory Neighborhood Commissions Participation in Planning and Development Amendment Act of 2020</heading>
   <heading type="long">To amend the Advisory Neighborhood Commissions Act of 1975 to ensure that Advisory Neighborhood Commissions are provided adequate notice and an opportunity to provide recommendations on comprehensive plans, including amendments to, or elements of, a comprehensive plan prior to the transmission of such plans to the Council for approval and to require the Office of Advisory Neighborhood Commissions to provide counseling, advice, resources, and staff support to address zoning, development, and planned unit development negotiations.</heading>
   <meta>
     <introduced>2019-04-02</introduced>
-    <effective projected="true">2021-03-19</effective>
+    <effective>2021-03-16</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/42225/Signed_Act/B23-0245-Signed_Act.pdf">D.C. Law 23-198</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/42225/Signed_Act/B23-0245-Signed_Act.pdf">D.C. Act 23-611</citation>
       <citation type="register">68 DCR 001371</citation>
     </citations>
@@ -20,14 +22,15 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Advisory Neighborhood Commissions Participation in Planning and Development Amendment Act of 2020".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Advisory Neighborhood Commissions Act of 1975, effective March 26, 1976 (D.C. Law 1-58; D.C. Official Code § 1-309.01 <em>et seq.</em>) is amended as follows:</text>
-    <para>
+    <para codify:path="§1-309.10|(c)|(1)">
       <num>(a)</num>
       <text>Section 13(c)(1) (D.C. Official Code § 1-309.10(c)(1)), is amended to read as follows:</text>
       <include>
         <para>
+          <codify:replace/>
           <num>(c)</num>
           <para>
             <num>(1)</num>
@@ -55,41 +58,55 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-309.10" applicability-path="§3" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§1-309.15|(c)">
       <num>(b)</num>
       <text>Section 18(c) (D.C. Official Code § 1-309.15(c)) is amended as follows:</text>
-      <para>
+      <para codify:path="(15)">
         <num>(1)</num>
         <text>Paragraph (15) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(16)">
         <num>(2)</num>
         <text>Paragraph (16) is amended by striking the period and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>New paragraphs (17), (18), (19), and (20) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(17)</num>
             <text>Advising Commissioners on issues including zoning, planning, design, development, and negotiations related to Planned Unit Developments as defined in 11-B DCMR § 100.2, or successor regulations;</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(18)</num>
             <text>Coordinating with other agencies to provide training and guidance on zoning, planning, and development issues to Commissions upon request;</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(19)</num>
             <text>Providing resources, analyses, and support to Commissions upon request, subject to availability, to support their work on issues including zoning, development, and negotiations on Planned United Developments as defined in 11-B DCMR § 119.1; and,</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(20)</num>
-            <text>Maintaining a publicly accessible database of all community benefit agreements negotiated by Commissions and concluded after the applicability date of the Advisory Neighborhood Commissions Participation in Planning and Development Amendment Act of 2020, passed on 2nd reading on December 1, 2020 (Enrolled version of Bill 23-245).</text>
+            <text>Maintaining a publicly accessible database of all community benefit agreements negotiated by Commissions and concluded after <span codify:value="[insert applicability date]">the applicability date of the Advisory Neighborhood Commissions Participation in Planning and Development Amendment Act of 2020, passed on 2nd reading on December 1, 2020 (Enrolled version of Bill 23-245)</span>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-309.15" applicability-path="§3" display-template=""/>
     </para>
   </section>
   <section>
@@ -98,6 +115,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+              <codify:applicability  doc="D.C. Law 23-198" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
