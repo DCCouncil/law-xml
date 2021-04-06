@@ -9,7 +9,7 @@
     <effective>2021-03-17</effective>
     <citations>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/46665/Signed_Act/B24-0139-Signed_Act.pdf">D.C. Act 24-30</citation>
-      <citation type="register">0 DCR 0</citation>
+      <citation type="register">68 DCR 003101</citation>
     </citations>
     <history url="https://lims.dccouncil.us/Legislation/B24-0139">
       <vote date="2021-03-02" reading="Amendment"/>
@@ -6291,11 +6291,11 @@
       <text>Section 2(a)(4) of the Washington Metropolitan Area Transit Authority Board of Directors Act of 2012, effective April 27, 2013 (D.C. Law 19-286; D.C. Official Code § 9-1108.11(a)(4)), is repealed.</text>
       <codify:repeal doc="D.C. Code" path="§9-1108.11|(a)|(4)"/>
       <codify:emergency doc="D.C. Code" path="§9-1108.11"/>
-        <codify:insert doc="D.C. Code" path="§9-1108.11" before="heading" history="false" display-template="">
-          <text>
+      <codify:insert doc="D.C. Code" path="§9-1108.11" before="heading" history="false" display-template="">
+        <text>
             *NOTE: This section includes amendments by emergency legislation that will expire on June 10, 2021. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§9-1108.11(Perm)">Permanent Version</cite>.*
          </text>
-        </codify:insert>
+      </codify:insert>
     </section>
   </container>
   <container codify:doc="D.C. Code">
@@ -6544,12 +6544,17 @@
               </para>
             </para>
           </para>
-            <annotation doc="D.C. Law 2-139" type="History" path="§2707">Mar. 3, 1979, D.C. Law 2-139</annotation>
-            <codify:insert doc="D.C. Code" path="§1-627.07" before="heading" history="false" display-template="">
+          <annotation doc="D.C. Law 2-139" type="History" path="§2707">Mar. 3, 1979, D.C. Law 2-139</annotation>
+          <!-- <codify:emergency doc="D.C. Code" path="§1-627.07" action="creation of"/> wy doesn't this work?-->
+          <codify:annotation doc="D.C. Code" path="§1-627.07" type="Emergency Legislation" history="false">
+              For temporary (90 days) creation of this section, see <cite doc="D.C. Act 24-30" path="§906">§ 906 of the Coronavirus Support Emergency Amendment Act of 2021 (D.C. Act 24-30, March 17, 2021</cite>, 68 DCR 3101).
+
+            </codify:annotation>
+          <codify:insert doc="D.C. Code" path="§1-627.07" before="heading" history="false" display-template="">
             <text>
               *NOTE: This section was created by emergency legislation that will expire on June 10, 2021.*
             </text>
-            </codify:insert>
+          </codify:insert>
         </section>
       </include>
       <aftertext>.</aftertext>
