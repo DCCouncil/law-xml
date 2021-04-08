@@ -73,12 +73,12 @@
           </codify:find-replace>
         </para>
       </para>
-      <para codify:path="(31)">
+      <para>
         <num>(3)</num>
         <text>A new paragraph (31) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:replace/>
+            <codify:insert/>
             <num>(31)</num>
             <text>"Polling place" includes Vote Centers operated by the Board throughout the District.</text>
           </para>
@@ -702,6 +702,14 @@
             <find>his or her own</find>
             <replace>the person's own</replace>
           </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>he or she</find>
+            <replace>[the person]</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>his or her residency</find>
+            <replace>[the person's] residency</replace>
+          </codify:find-replace>
         </para>
         <para codify:path="(3)">
           <num>(B)</num>
@@ -760,8 +768,8 @@
           <replace>the person</replace>
         </codify:find-replace>
         <codify:find-replace count="1">
-          <find>either resign from the office that person currently holds or shall decline to accept the office for which he or she was a candidate. In the event that said person elects to resign, said resignation shall be effective not later than 24 hours before the date upon which that person would assume the office to which he or she</find>
-          <replace>either resign from the office that person currently holds or shall decline to accept the office for which the person was a candidate. In the event that said person elects to resign, said resignation shall be effective not later than 24 hours before the date upon which that person would assume the office to which the person</replace>
+          <find>subsection (a)(11) of <cite path="§1-1001.05">§ 1-1001.05</cite>, either resign from the office that person currently holds or shall decline to accept the office for which he or she was a candidate. In the event that said person elects to resign, said resignation shall be effective not later than 24 hours before the date upon which that person would assume the office to which he or she</find>
+          <replace><code-cite doc="D.C. Code" path="§1-1001.05|(a)|(11)">section 5(a)(11)</code-cite>, either resign from the office that person currently holds or shall decline to accept the office for which the person was a candidate. In the event that said person elects to resign, said resignation shall be effective not later than 24 hours before the date upon which that person would assume the office to which the person</replace>
         </codify:find-replace>
       </para>
     </para>
@@ -1006,7 +1014,7 @@
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "subsection (h)" and inserting the phrase "subsection (f)" in its place.</text>
           <codify:find-replace count="1">
-            <find>subsection (h)</find>
+            <find>subsection (h) [subsection (f)]</find>
             <replace>subsection (f)</replace>
           </codify:find-replace>
         </para>
@@ -1014,7 +1022,7 @@
           <num>(B)</num>
           <text>Paragraph (3) is amended by striking the phrase "subsection (h)" and inserting the phrase "subsection (f)" in its place.</text>
           <codify:find-replace count="1">
-            <find>subsection (h)</find>
+            <find>subsection (h) [subsection (f)]</find>
             <replace>subsection (f)</replace>
           </codify:find-replace>
         </para>
@@ -1028,57 +1036,86 @@
         </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-1001.17">
       <num>(m)</num>
       <text>Section 17 (D.C. Official Code § 1-1001.17) is amended as follows:</text>
-      <para>
+      <para codify:path="(c)">
         <num>(1)</num>
         <text>Subsection (c) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "his term" and inserting the phrase "the elected officer's term" in its place.</text>
+          <codify:find-replace count="1">
+            <find>his term</find>
+            <replace>the elected officer's term</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "his or her favor" and inserting the phrase "the elected officer's favor" in its place.</text>
+          <codify:find-replace count="1">
+            <find>his or her favor</find>
+            <replace>the elected officer's favor</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(e)">
         <num>(2)</num>
         <text>Subsection (e) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "his or her own form. The proponent shall print from the original blank petition sheets on white paper of good writing quality of the same size as the original or" and inserting the phrase "the proponent's own form. The proponent shall print from the original blank petition sheets on paper of good writing quality or" in its place.</text>
+          <codify:find-replace count="1">
+            <find>his or her own form. The proponent shall print from the original blank petition sheets on white paper of good writing quality of the same size as the original or</find>
+            <replace>the proponent's own form. The proponent shall print from the original blank petition sheets on paper of good writing quality or</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "he or she holds" and inserting the phrase "the elected officer holds" in its place.</text>
+          <codify:find-replace count="1">
+            <find>he or she holds</find>
+            <replace>the elected officer holds</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(g)">
         <num>(3)</num>
         <text>Subsection (g) is amended by striking the phrase "his or her own" and inserting the phrase "the proponent's own" in its place.</text>
+        <codify:find-replace count="1">
+          <find>his or her own</find>
+          <replace>the proponent's own</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(l)">
         <num>(4)</num>
         <text>The lead-in language of subsection (l) is amended by striking the phrase "his or her office" and inserting the phrase "the elected officer's office" in its place.</text>
+        <codify:find-replace count="1">
+          <find>his or her office</find>
+          <replace>the elected officer's office</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(n)">
         <num>(5)</num>
         <text>Subsection (n) is amended by striking the phrase "remove him or her" and inserting the phrase "remove the elected officer" in its place.</text>
+        <codify:find-replace count="1">
+          <find>remove him or her</find>
+          <replace>remove the elected officer</replace>
+        </codify:find-replace>
       </para>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>3</num>
     <text>The Board of Ethics and Government Accountability Establishment and Comprehensive Ethics Reform Amendment Act of 2011, effective April 27, 2012 (D.C. Law 19-124; D.C. Official Code § 1-1161.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§1-1162.24">
       <num>(a)</num>
       <text>Section 224 (D.C. Official Code § 1-1162.24) is amended by adding a new subsection (c-2) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(c-1)"/>
           <num>(c-2)</num>
-          <text>Notwithstanding any other provision of this section, during a period of time for which the Mayor has declared a public health emergency pursuant to section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01), the Board may change the dates by which:</text>
+          <text>Notwithstanding any other provision of this section, during a period of time for which the Mayor has declared a public health emergency pursuant to <code-cite doc="D.C. Code" path="§7-2304.01">section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01)</code-cite>, the Board may change the dates by which:</text>
           <para>
             <num>(1)</num>
             <text>Reports required by this section are to be filed; and</text>
@@ -1091,13 +1128,14 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§1-1162.25">
       <num>(b)</num>
       <text>Section 225 (D.C. Official Code § 1-1162.25) is amended by adding a new subsection (b-1) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(b)"/>
           <num>(b-1)</num>
-          <text>Notwithstanding any other provision of this section, during a period of time for which the Mayor has declared a public health emergency pursuant to section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01), the Board may change the dates by which:</text>
+          <text>Notwithstanding any other provision of this section, during a period of time for which the Mayor has declared a public health emergency pursuant to <code-cite doc="D.C. Code" path="§7-2304.01">section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01)</code-cite>, the Board may change the dates by which:</text>
           <para>
             <num>(1)</num>
             <text>Reports required by subsection (a) of this section are to be filed; and</text>
@@ -1110,39 +1148,53 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§1-1162.30">
       <num>(c)</num>
       <text>Section 230 (D.C. Official Code § 1-1162.30) is amended by adding a new subsection (a-1) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(a)"/>
           <num>(a-1)</num>
-          <text>Notwithstanding any other provision of this section, during a period of time for which the Mayor has declared a public health emergency pursuant to section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01), the Board may change the dates by which reports required by subsection (a) of this section shall be filed.</text>
+          <text>Notwithstanding any other provision of this section, during a period of time for which the Mayor has declared a public health emergency pursuant to <code-cite doc="D.C. Code" path="§7-2304.01">section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01)</code-cite>, the Board may change the dates by which reports required by subsection (a) of this section shall be filed.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§1-1163.04|(7A)|(A)">
       <num>(d)</num>
       <text>Section 304(7A)(A) (D.C. Official Code § 1-1163.04(7A)(A)) is amended by striking the phrase "in person" and inserting the phrase "in person, or, during a period of time for which the Mayor has declared a public health emergency pursuant to section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01), online" in its place.</text>
+      <codify:find-replace count="1">
+        <find>in person</find>
+        <replace>in person, or, during a period of time for which the Mayor has declared a public health emergency pursuant to <code-cite doc="D.C. Code" path="§7-2304.01">section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01)</code-cite>, online</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§1-1163.32c|(a)|(2)|(E)">
       <num>(e)</num>
       <text>Section 332c(a)(2)(E) (D.C. Official Code § 1-1163.32c(a)(2)(E)) is amended to read as follows:</text>
       <include lvl="2">
         <para>
+          <codify:replace/>
           <num>(E)</num>
-          <text>Has paid any fines or penalties assessed for a violation of this act, whether or not those fines or penalties are due or delinquent at the time of filing the affidavit; and</text>
+          <text>Has paid any fines or penalties assessed for a violation of <code-cite doc="D.C. Code" path="1|11A">this act</code-cite>, whether or not those fines or penalties are due or delinquent at the time of filing the affidavit; and</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§1-1163.32d">
       <num>(f)</num>
       <text>Section 332d (D.C. Official Code § 1-1163.32d) is amended by striking the phrase "5 days after" wherever it appears and inserting the phrase "5 business days after" in its place.</text>
+      <codify:find-replace count="3">
+        <find>5 days after</find>
+        <replace>5 business days after</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§1-1163.32e|(e)">
       <num>(g)</num>
       <text>Section 332e(e) (D.C. Official Code § 1-1163.32e(e)) is amended by striking the phrase "Within 5 days after" and inserting the phrase "Within 5 business days after" in its place.</text>
+      <codify:find-replace count="1">
+        <find>Within 5 days after</find>
+        <replace>Within 5 business days after</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
@@ -1151,6 +1203,8 @@
     <para>
       <num>(a)</num>
       <text>Section 2(d)(1) shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-1001.05" applicability-path="§4" display-template=""/>
+      <codify:applicability doc="D.C. Law 23-192" path="§2|(d)|(1)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
