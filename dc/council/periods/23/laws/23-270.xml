@@ -1,31 +1,41 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-617">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-270">
+  <num type="law">23-270</num>
   <num type="bill">23-437</num>
   <num type="act">23-617</num>
   <heading type="short">Office of the Ombudsperson for Children Establishment Amendment Act of 2020</heading>
   <heading type="long">To establish the Office of the Ombudsperson for Children as an independent, impartial office, responsible to the Council and tasked with improving outcomes for children involved with, previously involved with, or otherwise known to the Child and Family Services Agency; to amend the Prevention of Child Abuse and Neglect Act of 1977 to permit the Office of the Ombudsperson for Children to access information contained in the Child Protection Register and from staff of the Child and Family Services Agency that identifies individual children reported as or found to be abused or neglected or which identifies other members of their families or other persons otherwise considered confidential; and to make additional conforming amendments.</heading>
   <meta>
     <introduced>2019-09-17</introduced>
-    <effective/>
+    <effective>2021-04-05</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/43171/Signed_Act/B23-0437-Signed_Act.pdf">D.C. Law 23-270</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/43171/Signed_Act/B23-0437-Signed_Act.pdf">D.C. Act 23-617</citation>
-      <citation type="register">0 DCR 0</citation>
+      <citation type="register">68 DCR 001510</citation>
     </citations>
     <history url="https://lims.dccouncil.us/Legislation/B23-0437">
       <vote date="2020-12-01" reading="First"/>
       <vote date="2020-12-15" reading="Final"/>
       <vote date="2021-02-02" reading="Override"/>
-      <enacted/>
+      <enacted>2021-02-02</enacted>
       <summary>Vetoed by Mayor on January 13, 2021.  Council override of veto approved on February 2, 2021.</summary>
       <committee>Human Services</committee>
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Office of the Ombudsperson for Children Establishment Amendment Act of 2020".</text>
+  <codify:insert doc="D.C. Code" path="4" after="6B" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>6C</num>
+      <heading>Office of the Ombudsperson for Children.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>I</num>
     <heading>OFFICE OF THE OMBUDSPERSON FOR CHILDREN.</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.01"/>
       <num>101</num>
       <heading>Definitions.</heading>
       <para>
@@ -136,8 +146,10 @@
           <text>"Record" means any record, document, book, paper, file, photograph, microfilm, sound recording, video recording, magnetic storage media, computer data, or other material, regardless of physical form or characteristics, created, generated, recorded, received, possessed, controlled, accessible, or auditable by an agency.</text>
         </para>
       </para>
+        <codify:not-funded-anno doc="D.C. Code" path="§4-671.01" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.02"/>
       <num>102</num>
       <heading>Office of the Ombudsperson for Children; establishment; term.</heading>
       <para>
@@ -199,8 +211,10 @@
         <num>(g)</num>
         <text>The Ombudsperson shall have exclusive authority to administer the Office's budget.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-671.02" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.03"/>
       <num>103</num>
       <heading>Qualifications.</heading>
       <para>
@@ -239,8 +253,10 @@
           <text>Engage in any other occupation, business, or profession that may detract from the performance of the Ombudsperson's duties or result in a conflict of interest or an appearance of impropriety or partiality with the duties of the Ombudsperson.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-671.03" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.04"/>
       <num>104</num>
       <heading>Duties of the Office.</heading>
       <para>
@@ -319,8 +335,10 @@
           <text>Perform the duties in section 105 at the Ombudsperson's discretion or if otherwise necessary.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-671.04" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.05"/>
       <num>105</num>
       <heading>Duties of the Deputy CFSA Ombudsperson.</heading>
       <para>
@@ -411,8 +429,10 @@
           <text>Offer voluntary conflict resolution services, including mediation or an opportunity for the complainant to meet with the subject of the complaint, with respect to complaints submitted, when appropriate and at the discretion of the Deputy CFSA Ombudsperson.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-671.05" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.06"/>
       <num>106</num>
       <heading>Powers.</heading>
       <para>
@@ -475,8 +495,10 @@
           <text>Provide legal advice or legal representation.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-671.06" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.07"/>
       <num>107</num>
       <heading>Enforcement of a subpoena.</heading>
       <para>
@@ -491,8 +513,10 @@
         <num>(c)</num>
         <text>If the Ombudsperson prevails, in whole or in part, in an application to the Superior Court of the District of Columbia in a suit to enforce a subpoena issued pursuant to section 106(6) and is not awarded reasonable attorney's fees, the agency or instrumentality challenging the enforcement order shall reimburse the Ombudsperson for any litigation-related expenses or costs incurred.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-671.07" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.08"/>
       <num>108</num>
       <heading>Reporting.</heading>
       <para>
@@ -595,8 +619,10 @@
         <num>(d)</num>
         <text>For purposes of this section, the term "crossover youth" means a CFSA child who is currently or has previously been the subject of a petition alleging delinquency filed by the Office of the Attorney General, pursuant to D.C. Official Code § 16-2305, or by another jurisdiction.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-671.08" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.09"/>
       <num>109</num>
       <heading>Immunity.</heading>
       <para>
@@ -623,8 +649,10 @@
           <text>Subject to retaliatory action for the good faith performance of the Office's responsibilities under this title.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-671.09" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.10"/>
       <num>110</num>
       <heading>Confidentiality and privilege.</heading>
       <para>
@@ -662,8 +690,10 @@
           <text>A violation of this subsection shall be prosecuted by the Office of the Attorney General for the District of Columbia.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-671.10" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.11"/>
       <num>111</num>
       <heading>Reprisals prohibited.</heading>
       <para>
@@ -678,11 +708,14 @@
         <num>(c)</num>
         <text>The provisions of this section shall not limit the availability of any other remedy under the law.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-671.11" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|6C" num-value="4-671.12"/>
       <num>112</num>
       <heading>Budgeting.</heading>
       <text>Beginning in Fiscal Year 2022, the Chief Financial Officer shall assign an individual agency-level code for the Office of the Ombudsperson for Children in the District's financial system.</text>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-671.12" applicability-path="§301" action="creation of" display-template=""/>
     </section>
   </container>
   <container>
@@ -708,12 +741,14 @@
           <text>A new paragraph (11) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert doc="D.C. Code" path="§4-1302.03|(a)"/>
               <num>(11)</num>
               <text>The Office of the Ombudsperson for Children, established by the Office of the Ombudsperson for Children Establishment Amendment Act of 2020, passed on 2nd reading on December 15, 2020 (Enrolled version of Bill 23-437), for the purpose of fulfilling the Ombudsperson's duties.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
+        <codify:not-funded-anno doc="D.C. Code" path="§4-1302.03" applicability-path="§301" display-template=""/>
       </para>
       <para>
         <num>(b)</num>
@@ -731,11 +766,13 @@
           <text>A new paragraph (7) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert doc="D.C. Code" path="§4-1303.06|(a)"/>
               <num>(7)</num>
               <text>An investigation by the Office of the Ombudsperson for Children established by the Office of the Ombudsperson for Children Establishment Amendment Act of 2020, passed on 2nd reading on December 15, 2020 (Enrolled version of Bill 23-437), if the information is relevant to the investigation.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-1303.06" applicability-path="§301" display-template=""/>
         </para>
       </para>
       <para>
@@ -743,6 +780,7 @@
         <text>A new section 311 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert doc="D.C. Code" path="4|13|I|C" after="§4-1303.10" num-value="4-1303.11"/>
             <num>311</num>
             <heading>Agency's responsibilities to the Office of the Ombudsperson for Children.</heading>
             <para>
@@ -792,6 +830,7 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§4-1303.11" applicability-path="§301" action="creation of" display-template=""/>
       </para>
     </section>
     <section>
@@ -802,11 +841,13 @@
         <text>A new subsection (c-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert doc="D.C. Code" path="§4-1371.04" after="(c)"/>
             <num>(c-1)</num>
             <text>The Council shall appoint a minimum of one representative from the Office of the Ombudsperson for Children.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§4-1371.04" applicability-path="§301" display-template=""/>
       </para>
       <para>
         <num>(b)</num>
@@ -836,6 +877,7 @@
           <text>A new sub-paragraph (Q) is added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert doc="D.C. Code" path="§2-1599.03|(a)|(1)"/>
               <num>(Q)</num>
               <text>Ombudsperson for Children, Office of the Ombudsperson for Children;</text>
             </para>
@@ -843,6 +885,7 @@
           <aftertext>.</aftertext>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§2-1599.03" applicability-path="§301" display-template=""/>
     </section>
     <section>
       <num>204</num>
@@ -878,6 +921,7 @@
           <text>A new paragraph (6) is added to read as follows:</text>
           <include lvl="1">
             <para>
+            <codify:insert doc="D.C. Code" path="§1-301.44c|(a)"/>
               <num>(6)</num>
               <text>The Ombudsperson for Children or an employee of the Office of the Ombudsperson for Children.</text>
             </para>
@@ -885,6 +929,7 @@
           <aftertext>.</aftertext>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-301.44c" applicability-path="§301" display-template=""/>
     </section>
     <section>
       <num>206</num>
@@ -902,12 +947,14 @@
         <text>A new paragraph (29) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert doc="D.C. Code" path="§1-604.06|(b)"/>
             <num>(29)</num>
             <text>For employees of the Office of the Ombudsperson for Children, the personnel authority is the Ombudsperson for Children.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-604.06" applicability-path="§301" display-template=""/>
     </section>
     <section>
       <num>207</num>
@@ -925,12 +972,14 @@
         <text>A new sub-paragraph (F) is added to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert doc="D.C. Code" path="§2-534|(a-1)|(2)"/>
             <num>(F)</num>
             <text>The Ombudsperson for Children or an employee of the Office of the Ombudsperson for Children.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§2-534" applicability-path="§301" display-template=""/>
     </section>
   </container>
   <container>
@@ -943,6 +992,7 @@
       <para>
         <num>(a)</num>
         <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+        <codify:applicability doc="D.C. Law 23-270" date="notfunded" history="false" display-template=""/>
       </para>
       <para>
         <num>(b)</num>
