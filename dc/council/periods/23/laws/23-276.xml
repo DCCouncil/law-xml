@@ -65,7 +65,7 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-603.01|(a)">
       <num>(b)</num>
       <text>Section 301 (D.C. Official Code § 1-603.01) is amended as follows:</text>
       <para>
@@ -73,21 +73,27 @@
         <text>A new paragraph (14B) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(14A)"/>
             <num>(14B)</num>
-            <text>The term "qualifying patient" means an individual who is actively registered in the District's medical marijuana program established pursuant to section 6 of the Legalization of Marijuana for Medical Treatment Initiative of 1999, effective July 27, 2010 (D.C. Law 18-210; D.C. Official Code § 7-1671.05), or in the medical marijuana program of the employee's jurisdiction of residence.</text>
+            <text>The term "qualifying patient" means an individual who is actively registered in the District's medical marijuana program established pursuant to <code-cite doc="D.C. Code" path="§7-1671.05">section 6 of the Legalization of Marijuana for Medical Treatment Initiative of 1999, effective July 27, 2010 (D.C. Law 18-210; D.C. Official Code § 7-1671.05),</code-cite> or in the medical marijuana program of the employee's jurisdiction of residence.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(15B)">
         <num>(2)</num>
         <text>Paragraph (15B) is redesignated as paragraph (15C).</text>
+        <codify:find-replace count="1">
+          <find>(15B)</find>
+          <replace>(15C)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (15B) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(15A)" num-value=""/>
             <num>(15B)</num>
             <text>The term "safety-sensitive" means a position in which it is reasonably foreseeable that, if the employee performs the position's routine duties while under the influence of drugs or alcohol, the employee could suffer a lapse of attention or other temporary deficit that would likely cause actual, immediate, and serious bodily injury or loss of life to self or others.</text>
           </para>
@@ -95,15 +101,20 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-604.04|(a)">
       <num>(c)</num>
       <text>Section 404(a) (D.C. Official Code § 1-604.04(a)) is amended by striking the phrase "XX-A, XXI" and inserting the phrase "XX-A, XX-B, XX-C, XX-D, XX-E, XXI" in its place.</text>
+      <codify:find-replace count="1">
+        <find>XX-A, XXI</find>
+        <replace>XX-A, XX-B, XX-C, XX-D, XX-E, XXI</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(d)</num>
       <text>A new section 1503a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert doc="D.C. Code" path="1|6|XV" after="§1-615.03" num-value="1-615.03a"/>
           <num>1503a</num>
           <heading>Right to notice and appeal of safety-sensitive designation.</heading>
           <para>
@@ -359,6 +370,7 @@
       <text>A new section 603a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="1|6|VI" after="§1-606.03" num-value="1-606.03a" history-prefix="as added"/>
           <num>603a</num>
           <heading>Appeals of safety-sensitive designations.</heading>
           <para>
@@ -414,23 +426,30 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-606.03a" applicability-path="§4" action="creation of" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§1-620.11">
       <num>(g)</num>
       <text>Section 2051 (D.C. Official Code § 1-620.11) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Designate the existing text as subsection (a).</text>
+        <codify:redesignate-para num-value="(a)"/>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>The newly designated subsection (a) is amended by striking the phrase "and issue rules".</text>
+        <codify:find-replace count="1">
+          <find>and issue rules</find>
+          <replace/>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subsection (b) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(b)</num>
             <text>To the extent permitted by federal law and regulations, programs adopted pursuant to subsection (a) of this section shall treat qualifying patients in compliance with title XX-E.</text>
           </para>
@@ -438,37 +457,48 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-620.25">
       <num>(h)</num>
       <text>Section 2025 (D.C. Official Code § 1-620.25) is amended by adding a new subsection (d) to read as follows:</text>
       <include>
         <para>
+          <codify:insert/>
           <num>(d)</num>
           <text>Notwithstanding section 2022(f) and the second and third sentences of subsection (a) of this section, this title shall comply with the requirements of title XX-E for employees who are qualifying patients.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§1-620.31|(1)">
       <num>(i)</num>
       <text>Section 2031(10) (D.C. Official Code § 1-620.31(1)) is repealed.</text>
+      <codify:repeal/>
     </para>
-    <para>
+    <para codify:path="§1-620.32">
       <num>(j)</num>
       <text>Section 2032 (D.C. Official Code § 1-620.32) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(1)">
         <num>(1)</num>
         <text>Subsection (a)(1) is amended by striking the phrase "safety-sensitive positions" and inserting the phrase "positions designated as safety-sensitive" in its place.</text>
+        <codify:find-replace count="1">
+          <find>safety-sensitive positions</find>
+          <replace>positions designated as safety-sensitive</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the phrase "safety-sensitive positions" and inserting the phrase "positions designated as safety-sensitive" in its place.</text>
+        <codify:find-replace count="1">
+          <find>safety-sensitive positions</find>
+          <replace>positions designated as safety-sensitive</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subsection (g) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(g)</num>
             <text>Notwithstanding section 2035(a), this title shall comply with the requirements of title XX-E for employees who are qualifying patients.</text>
           </para>
@@ -476,25 +506,38 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-620.35|(d)">
       <num>(k)</num>
       <text>Section 2035(d) (D.C. Official Code § 1-620.35(d)) is amended by striking the phrase "a safety-sensitive position" and inserting the phrase "designated as safety-sensitive" in its place.</text>
+      <codify:find-replace count="1">
+        <find>a safety-sensitive position</find>
+        <replace>designated as safety-sensitive</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§1-620.36">
       <num>(l)</num>
       <text>Section 2036 (D.C. Official Code § 1-620.36) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the phrase "safety-sensitive positions" both times it appears and insert the phrase "positions that are designated as safety-sensitive" in its place.</text>
+        <codify:find-replace count="2">
+          <find>safety-sensitive positions</find>
+          <replace>positions that are designated as safety-sensitive</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Strike the period and insert the phrase "; provided, that a private provider or entity is not required to comply with title XX-E." in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>; provided, that a private provider or entity is not required to comply with title XX-E.</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-620.37">
       <num>(m)</num>
       <text>Section 2037 (D.C. Official Code § 1-620.37) is repealed.</text>
+      <codify:repeal/>
     </para>
   </section>
   <section>
@@ -502,6 +545,7 @@
     <text>Section 3 of the Department of Corrections Employee Mandatory Drug and Alcohol Testing Act of 1996, effective September 20, 1996 (D.C. Law 11-158; D.C. Official Code § 24-211.22), is amended by adding a new subsection (d) to read as follows:</text>
     <include>
       <para>
+        <codify:insert doc="D.C. Code" path="§24-211.22"/>
         <num>(d)</num>
         <text>The Department shall comply with the requirements of title XX-E of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, passed on 2nd reading on December 1, 2020 (Enrolled version of Bill 23-309).</text>
       </para>
@@ -514,6 +558,7 @@
     <para>
       <num>(a)</num>
       <text>Section 2(f) shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability  doc="D.C. Law 23-276" path="§2|(f)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

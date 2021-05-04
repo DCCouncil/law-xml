@@ -27,13 +27,6 @@
     <num>2</num>
     <text>Section 14-306(b-1)(1)(A) of the District of Columbia Official Code is amended by striking the phrase "Intimate partner violence as defined in § 16-1001(7)" and inserting the phrase "An offense against a current or former spouse or current or former domestic partner" in its place.</text>
   </section>
-  <codify:insert doc="D.C. Code" path="16" after="10" history="false">
-    <container>
-      <prefix>Chapter</prefix>
-      <num>10A</num>
-      <heading>Anti-Stalking Orders.</heading>
-    </container>
-  </codify:insert>
   <section codify:doc="D.C. Code">
     <num>3</num>
     <text>Title 16 of the District of Columbia Official Code is amended as follows:</text>
@@ -118,15 +111,17 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(6)">
         <num>(3)</num>
         <text>Paragraph (6) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (6A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(6)"/>
             <num>(6A)</num>
             <text>"Intimate partner" means a person:</text>
             <para>
@@ -149,15 +144,17 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(7)">
         <num>(5)</num>
         <text>Paragraph (7) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="(8)">
         <num>(6)</num>
         <text>Paragraph (8) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(8)</num>
             <text>"Intrafamily offense" means:</text>
             <para>
@@ -166,40 +163,51 @@
             </para>
             <para>
               <num>(B)</num>
-              <text>An offense punishable as cruelty to animals, under § 22-1001 or § 22-1002, against an animal that an intimate partner, family member, or household member owns, possesses, or controls.</text>
+              <text>An offense punishable as cruelty to animals, under <cite doc="D.C. Code" path="§22-1001">§ 22-1001</cite> or <cite doc="D.C. Code" path="§22-1002">§ 22-1002</cite>, against an animal that an intimate partner, family member, or household member owns, possesses, or controls.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(9)">
         <num>(7)</num>
         <text>Paragraph (9) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="(10)">
         <num>(8)</num>
         <text>Paragraph (10) is amended by striking the phrase "an Associate Judge," and inserting the phrase "an Associate Judge, a Senior Judge," in its place.</text>
+        <codify:find-replace count="1">
+          <find>an Associate Judge,</find>
+          <replace>an Associate Judge, a Senior Judge,</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(12)">
         <num>(9)</num>
         <text>Paragraph (12) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(12)</num>
             <text>"Petitioner" means the person for whom a civil protection order is sought under this subchapter.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(13)">
         <num>(10)</num>
         <text>Paragraph (13) is amended by striking the phrase "12 years of age" and inserting the phrase "13 years of age" in its place.</text>
+        <codify:find-replace count="1">
+          <find>12 years of age</find>
+          <replace>13 years of age</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(11)</num>
         <text>A new paragraph (14) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(14)</num>
             <text>"Sexual assault" shall have the same meaning as provided in § 23-1907(9).</text>
           </para>
@@ -207,11 +215,12 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§16-1003">
       <num>(e)</num>
       <text>Section 16-1003 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>16-1003</num>
           <heading>Petition for civil protection order; representation.</heading>
@@ -341,11 +350,12 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§16-1004">
       <num>(f)</num>
       <text>Section 16-1004 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>16-1004</num>
           <heading>Petition; temporary protection order.</heading>
@@ -432,25 +442,27 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§16-1005">
       <num>(g)</num>
       <text>Section 16-1005 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <text>Parties served with notice in accordance with § 16-1007 shall appear at the hearing.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(a-1)">
         <num>(2)</num>
         <text>Subsection (a-1) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a-1)</num>
             <para>
               <num>(1)</num>
@@ -468,7 +480,7 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended as follows:</text>
         <para>
@@ -478,23 +490,36 @@
             <para>
               <num>(c)</num>
               <text>If, after a hearing, the judicial officer finds that there is good cause to believe the respondent has committed or threatened to commit a criminal offense against the petitioner or an animal the petitioner owns, possesses, or controls, or with the consent of both parties, the judicial officer may issue a civil protection order that:</text>
+              <codify:find-replace count="1">
+                <find>If, after hearing, the judicial officer finds that there is good cause to believe the respondent has committed or threatened to commit a criminal offense against the petitioner or against petitioner’s animal or an animal in petitioner’s household, the judicial officer may issue a protection order that:</find>
+                <replace>If, after a hearing, the judicial officer finds that there is good cause to believe the respondent has committed or threatened to commit a criminal offense against the petitioner or an animal the petitioner owns, possesses, or controls, or with the consent of both parties, the judicial officer may issue a civil protection order that:</replace>
+              </codify:find-replace>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the phrase "protected persons" and inserting the phrase "individuals specified in the order" in its place.</text>
+          <codify:find-replace count="1">
+            <find>protected persons</find>
+            <replace>individuals specified in the order</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(C)</num>
           <text>Paragraph (2) is amended by striking the phrase "protected persons or locations" and inserting the phrase "individuals or locations specified in the order" in its place.</text>
+          <codify:find-replace count="1">
+            <find>protected persons or locations</find>
+            <replace>individuals or locations specified in the order</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(6)">
           <num>(D)</num>
           <text>Paragraph (6) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(6)</num>
               <text>Awards temporary custody of a minor child or children of the parties, provided that:</text>
               <para>
@@ -509,11 +534,12 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(7)">
           <num>(E)</num>
           <text>Paragraph (7) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(7)</num>
               <text>Provides for visitation rights with appropriate restrictions to protect the safety of the petitioner, provided that:</text>
               <para>
@@ -528,22 +554,24 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(10)">
           <num>(F)</num>
           <text>Paragraph (10) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(10)</num>
               <text>Directs the respondent to relinquish possession of any firearms or ammunition and prohibits the respondent from having possession or control of, purchasing, or receiving any firearm or ammunition while the protection order is in effect.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(10A)">
           <num>(G)</num>
           <text>Paragraph (10A) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(10A)</num>
               <text>In connection with an animal owned, possessed, or controlled by the petitioner:</text>
               <para>
@@ -559,15 +587,17 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(c-1)">
         <num>(4)</num>
         <text>Subsection (c-1) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(5)</num>
         <text>Subsection (d) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(d)</num>
             <text>A civil protection order issued pursuant to this section shall remain in effect for an initial period not to exceed 2 years.</text>
           </para>
@@ -579,6 +609,7 @@
         <text>A new subsection (d-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(d)"/>
             <num>(d-1)</num>
             <para>
               <num>(1)</num>
@@ -608,22 +639,24 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(e)">
         <num>(7)</num>
         <text>Subsection (e) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(e)</num>
             <text>Any final order issued pursuant to this section and any order granting or denying a motion to extend, modify, or vacate such order shall be appealable.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(f)">
         <num>(8)</num>
         <text>Subsection (f) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(f)</num>
             <para>
               <num>(1)</num>
@@ -637,11 +670,12 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(g)">
         <num>(9)</num>
         <text>Subsection (g) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(g)</num>
             <para>
               <num>(1)</num>
@@ -655,11 +689,12 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(g-1)">
         <num>(10)</num>
         <text>Subsection (g-1) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(g-1)</num>
             <para>
               <num>(1)</num>
@@ -673,9 +708,13 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(i)">
         <num>(11)</num>
         <text>Subsection (i) is amended by striking the phrase "Orders entered" and inserting the phrase "Violations of protection orders entered" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Orders entered</find>
+          <replace>Violations of protection orders entered</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -683,6 +722,7 @@
       <text>A new section 16-1007 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="16|10|I"/>
           <prefix>§</prefix>
           <num>16-1007</num>
           <heading>Notice to parties.</heading>
@@ -727,15 +767,26 @@
     <para>
       <num>(i)</num>
       <text>Section 16-1031(c)(1) is amended by striking the phrase "offense that does not constitute intimate partner violence" and inserting the phrase "offense, where the victim of that offense is not an intimate partner, as that term is defined in § 16-1001(6A)" in its place.</text>
+      <codify:find-replace path="§16-1031|(c)|(1)" count="1">
+        <find>offense that does not constitute intimate partner violence</find>
+        <replace>offense, where the victim of that offense is not an intimate partner, as that term is defined in § 16-1001(6A)</replace>
+      </codify:find-replace>
     </para>
     <para>
+      <codify:insert doc="D.C. Code" path="16" after="10" history="false">
+        <container>
+          <prefix>Chapter</prefix>
+          <num>10A</num>
+          <heading>Anti-Stalking Orders.</heading>
+        </container>
+      </codify:insert>
       <num>(j)</num>
       <text>A new Chapter 10A is added to read as follows:</text>
       <include>
         <container>
           <prefix>Chapter</prefix>
-          <num>10</num>
-          <heading>A. Anti-Stalking Orders.</heading>
+          <num>10A.</num>
+          <heading>Anti-Stalking Orders.</heading>
           <toc>
             <section>
               <num>16-1061</num>
@@ -759,6 +810,7 @@
             </section>
           </toc>
           <section>
+            <codify:insert path="10A"/>
             <prefix>§</prefix>
             <num>16-1061</num>
             <heading>Definitions.</heading>
@@ -796,6 +848,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="10A"/>
             <prefix>§</prefix>
             <num>16-1062</num>
             <heading>Petition for anti-stalking order; representation.</heading>
@@ -879,6 +932,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="10A"/>
             <prefix>§</prefix>
             <num>16-1063</num>
             <heading>Petition; temporary anti-stalking order.</heading>
@@ -955,6 +1009,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="10A"/>
             <prefix>§</prefix>
             <num>16-1064</num>
             <heading>Hearing; evidence; anti-stalking order.</heading>
@@ -1087,6 +1142,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="10A"/>
             <prefix>§</prefix>
             <num>16-1065</num>
             <heading>Notice to the parties.</heading>
@@ -1125,6 +1181,10 @@
     <para>
       <num>(k)</num>
       <text>Section 16-2301(9)(A)(i) is amended by striking the phrase "includes filing a petition for civil protection from intrafamily violence pursuant to §16-1003" and inserting the phrase "includes petitioning for a civil protection order pursuant to § 16-1003, where the child is a family member, as that term is defined in § 16-1001(5A)" in its place.</text>
+      <codify:find-replace count="1">
+        <find>includes filing a petition for civil protection from intrafamily violence pursuant to <cite doc="D.C. Code" path="§16-1003">§ 16-1003</cite></find>
+        <replace>includes petitioning for a civil protection order pursuant to § 16-1003, where the child is a family member, as that term is defined in § 16-1001(5A)</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
@@ -1132,32 +1192,35 @@
     <text>Section 253 of the Anti-Sexual Abuse Act of 1994, effective June 8, 2013 (D.C. Law 19-315; D.C. Official Code § 22-3020.53), is amended to read as follows:</text>
     <include>
       <section>
-        <num>253</num>
+        <codify:replace doc="D.C. Code" path="§22-3020.53"/>
+        <num codify:value="22-3020.53">253</num>
         <heading>Defense to non-reporting.</heading>
         <text>Any survivor of an intrafamily offense, as that term is defined in D.C. Official Code § 16-1001(8), may use the occurrence of that intrafamily offense as a defense to their failure to report under this title.</text>
       </section>
     </include>
     <aftertext>.</aftertext>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§23-584|(b)|(2)|(B)">
     <num>5</num>
     <text>Section 23-584(b)(2)(B) of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="(v)">
       <num>(a)</num>
       <text>Sub-subparagraph (v) is amended to read as follows:</text>
       <include lvl="3">
         <para>
+          <codify:replace/>
           <num>(v)</num>
           <text>Charged with an intrafamily offense, as that term is defined in § 16-1001(8), where the victim is an intimate partner, as that term is defined in § 16-1001(6A), or where the victim is a family member, as that term is defined in § 16-1001(5A);</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(vi)">
       <num>(b)</num>
       <text>Sub-subparagraph (vi) is amended to read as follows:</text>
       <include lvl="3">
         <para>
+          <codify:replace/>
           <num>(vi)</num>
           <text>Charged with an intrafamily offense, as that term is defined in § 16-1001(8), where:</text>
           <para>
@@ -1176,6 +1239,10 @@
   <section>
     <num>6</num>
     <text>Section 2(1) of the Accrued Sick and Safe Leave Act of 2008, effective May 13, 2008 (D.C. Law 17-152; D.C. Official Code § 32-531.01(1)), is amended by striking the phrase "§ 16-1001(5)" and inserting the phrase "§ 16-1001(8)" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§32-531.01|(1)" count="1">
+      <find>[now (8)]</find>
+      <replace></replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>7</num>
