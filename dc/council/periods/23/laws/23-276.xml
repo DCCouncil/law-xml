@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-540">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-276">
+  <num type="law">23-276</num>
   <num type="bill">23-309</num>
   <num type="act">23-540</num>
   <heading type="short">Medical Marijuana Program Patient Employment Protection Amendment Act of 2020</heading>
   <heading type="long">To amend the District of Columbia Government Comprehensive Merit Personnel Act of 1978 to clarify the Mayor's rulemaking authority with respect to titles XX-B, XX-C, XX-D, and new title XX-E, to require District agencies to notify employees when their positions are designated as safety-sensitive, to permit a District employee to request a written explanation of the duties and conditions under which such duties are performed that make the position safety-sensitive, to permit employees to appeal the designation of the employee's position as safety-sensitive to their personnel authority and then to the Office of Employee Appeals, to authorize the Office of Employee Appeals to issue a final decision, not subject to judicial review, as to whether an employee's position is safety-sensitive, to prohibit the District government from taking an adverse employment action against an individual for participating in the District's or another state's medical marijuana program, to prohibit a District agency from using the results of an agency-administered drug test for marijuana components or metabolites as the basis for employment related decisions against a medical marijuana program participant unless reasonable suspicion exists that the medical marijuana program participant used or was impaired by marijuana at work or during work hours, except in limited circumstances, to permit a District employee who is a participant in a medical marijuana program to request and receive a reasonable accommodation for the employee's use of medical marijuana, and to require that existing District employee drug-testing programs comply with the new protections afforded to medical marijuana program participants; and to amend the Department of Corrections Employee Mandatory Drug and Alcohol Testing Act of 1996 to make conforming amendments.</heading>
   <meta>
     <introduced>2019-05-28</introduced>
-    <effective projected="true">2021-05-24</effective>
+    <effective>2021-04-27</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/42678/Signed_Act/B23-0309-Signed_Act.pdf">D.C. Law 23-276</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/42678/Signed_Act/B23-0309-Signed_Act.pdf">D.C. Act 23-540</citation>
       <citation type="register">68 DCR 00048</citation>
     </citations>
@@ -20,7 +22,14 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Medical Marijuana Program Patient Employment Protection Amendment Act of 2020".</text>
-  <section>
+  <codify:insert doc="D.C. Code" path="1|6" after="XX-D" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>XX-E</num>
+      <heading>Medical Marijuana Program Patient Employment Protections.</heading>
+    </container>
+  </codify:insert>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-601.01 <em>et seq.</em>), is amended as follows:</text>
     <para>
@@ -241,6 +250,7 @@
           <num>XX-E</num>
           <heading>MEDICAL MARIJUANA PROGRAM PATIENT EMPLOYMENT PROTECTIONS</heading>
           <section>
+            <codify:insert path="1|6|XX-E" num-value="1-620.51" history-prefix="as added"/>
             <num>2061</num>
             <heading>Definitions.</heading>
             <para>
@@ -259,8 +269,10 @@
                 <text>"Undue hardship" shall have the same meaning as provided in section 101(10) of the Americans with Disabilities Act of 1990, approved July 26, 1990 (104 Stat. 330; 42 U.S.C. § 12111(10)).</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 2-139" type="History" path="§2061">Mar. 3, 1979, D.C. Law 2-139, § 2061</annotation>
           </section>
           <section>
+            <codify:insert path="1|6|XX-E" num-value="1-620.52" history-prefix="as added"/>
             <num>2062</num>
             <heading>Protections for qualifying patients.</heading>
             <para>
@@ -336,6 +348,7 @@
               <num>(e)</num>
               <text>Notwithstanding section 404(a), the Council may issue rules to implement the provisions of this section.</text>
             </para>
+            <annotation doc="D.C. Law 2-139" type="History" path="§2061">Mar. 3, 1979, D.C. Law 2-139, § 2062</annotation>
           </section>
         </container>
       </include>

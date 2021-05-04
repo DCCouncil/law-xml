@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-571">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-275">
+  <num type="law">23-275</num>
   <num type="bill">23-181</num>
   <num type="act">23-571</num>
   <heading type="short">Intrafamily Offenses and Anti-Stalking Orders Amendment Act of 2020</heading>
   <heading type="long">To amend Title 16 of the District of Columbia Official Code to clarify the procedures by which  certain victims of an intrafamily offense, sexual assault, trafficking in labor or commercial sex acts, and sex trafficking of children, or certain individuals whose animal is the victim of an intrafamily offense, may petition for a civil protection order, to expand the ability of minors ages 13 to 16 to petition for a civil protection order, to allow the court to extend temporary protection orders in increments up to 28 days for good cause or for a longer period with the consent of the parties, to clarify the relief available pursuant to a civil protection order for firearms and animal protections, to modify the duration of a civil protection order, to establish a dedicated unit in the Metropolitan Police Department to serve process in civil protection order cases, and to create procedures by which certain victims of stalking may petition for an anti-stalking order; and to make conforming amendments.</heading>
   <meta>
     <introduced>2019-03-05</introduced>
-    <effective projected="true">2021-05-18</effective>
+    <effective>2021-04-27</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/42010/Signed_Act/B23-0181-Signed_Act.pdf">D.C. Law 23-275</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/42010/Signed_Act/B23-0181-Signed_Act.pdf">D.C. Act 23-571</citation>
       <citation type="register">68 DCR 001086</citation>
     </citations>
@@ -25,7 +27,14 @@
     <num>2</num>
     <text>Section 14-306(b-1)(1)(A) of the District of Columbia Official Code is amended by striking the phrase "Intimate partner violence as defined in § 16-1001(7)" and inserting the phrase "An offense against a current or former spouse or current or former domestic partner" in its place.</text>
   </section>
-  <section>
+  <codify:insert doc="D.C. Code" path="16" after="10" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>10A</num>
+      <heading>Anti-Stalking Orders.</heading>
+    </container>
+  </codify:insert>
+  <section codify:doc="D.C. Code">
     <num>3</num>
     <text>Title 16 of the District of Columbia Official Code is amended as follows:</text>
     <para>
@@ -41,8 +50,9 @@
       <text>Section 16-801(9)(A) is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace path="§16-801|(9)|(A)"/>
           <num>(A)</num>
-          <text>An intrafamily offense, as that term is defined in § 16-1001(8).</text>
+          <text>An intrafamily offense, as that term is defined in <cite doc="D.C. Code" path="§16-1001|(8)">§ 16-1001(8)</cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
@@ -50,19 +60,30 @@
     <para>
       <num>(c)</num>
       <text>Section 16-914(a)(3)(F) is amended by striking the phrase "section 16-1001(5)" and inserting the phrase "§ 16-1001(8)" in its place.</text>
+      <codify:find-replace path="§16-914|(a)|(3)|(F)" count="1">
+        <find>section 16-1001(5) [now <cite path="§16-1001|(8)">§ 16-1001(8)</cite>]</find>
+        <replace>
+          <cite doc="D.C. Code" path="§16-1001|(8)">§ 16-1001(8)</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§16-1001">
       <num>(d)</num>
       <text>Section 16-1001 is amended as follows:</text>
-      <para>
+      <para codify:path="(5)">
         <num>(1)</num>
         <text>Paragraph (5) is amended by striking the phrase "Domestic Violence Unit" and inserting the phrase "Domestic Violence Division" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Domestic Violence Unit</find>
+          <replace>Domestic Violence Division</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>New paragraphs (5A) and (5B) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(5)"/>
             <num>(5A)</num>
             <text>"Family member" means a person:</text>
             <para>
@@ -75,6 +96,7 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(5A)"/>
             <num>(5B)</num>
             <para>
               <num>(A)</num>
