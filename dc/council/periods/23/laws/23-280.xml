@@ -22,14 +22,15 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Fiscal Year 2021 Budget Support Clarification Amendment Act of 2020".</text>
-  <section codify:doc="D.C. Code">
+  <section codify:doc="D.C. Code" codify:path="§6-271">
     <num>2</num>
     <text>Section 2192 of the Fiscal Year 2021 Budget Support Act of 2020, effective December 3, 2020 (D.C. Law 23-149; 67 DCR 10493), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended to read as follows:</text>
       <include>
         <para>
+          <codify:replace/>
           <num>(a)</num>
           <para>
             <num>(1)</num>
@@ -59,11 +60,12 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(b)">
       <num>(b)</num>
       <text>Subsection (b) is amended to read as follows:</text>
       <include>
         <para>
+          <codify:replace/>
           <num>(b)</num>
           <para>
             <num>(1)</num>
@@ -106,10 +108,10 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§10-1202.03a">
     <num>3</num>
     <text>Section 203a of the Washington Convention Center Authority Act of 1994, effective December 3, 2020 (D.C. Law 23-149; D.C. Official Code § 10-1202.03a), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended as follows:</text>
       <para>
@@ -118,28 +120,38 @@
         <para>
           <num>(A)</num>
           <text>Strike the phrase "the Washington Convention and Sports Authority shall" and insert the phrase "the Washington Convention and Sports Authority ("Events DC") shall" in its place.</text>
+          <codify:find-replace count="1">
+            <find>the Washington Convention and Sports Authority shall</find>
+            <replace>the Washington Convention and Sports Authority ("Events DC") shall</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "a District resident shall" and insert the phrase "a District resident shall, at the time of application for assistance under this section" in its place.</text>
+          <codify:find-replace count="1">
+            <find>a District resident shall</find>
+            <replace>a District resident shall, at the time of application for assistance under this section</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(1)">
         <num>(2)</num>
         <text>Paragraph (1) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(1)</num>
             <text>Demonstrate loss of income due to the public health emergency;</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(3)</num>
         <text>Paragraph (2) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(2)</num>
             <para>
               <num>(A)</num>
@@ -155,7 +167,7 @@
             </para>
             <para>
               <num>(B)</num>
-              <text>Be a returning citizen, as defined by section 2(5) of the Office on Ex-Offender Affairs and Commission on Re-Entry and Ex-Offender Affairs Establishment Act of 2006, effective March 8, 2007 (D.C. Law 16-243; D.C. Official Code § 24-1301(5)), whose incarceration ended on March 11, 2020 or later; and</text>
+              <text>Be a returning citizen, as defined by <code-cite doc="D.C. Code" path="§24-1301|(5)">section 2(5) of the Office on Ex-Offender Affairs and Commission on Re-Entry and Ex-Offender Affairs Establishment Act of 2006, effective March 8, 2007 (D.C. Law 16-243; D.C. Official Code § 24-1301(5))</code-cite>, whose incarceration ended on March 11, 2020 or later; and</text>
             </para>
           </para>
         </include>
@@ -166,6 +178,7 @@
         <text>A new paragraph (3) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(3)</num>
             <text>Provide a:</text>
             <para>
@@ -181,11 +194,12 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="(d)|(2)">
       <num>(b)</num>
       <text>Subsection (d)(2) is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace/>
           <num>(2)</num>
           <text>COVID-19 relief" means federal monetary unemployment assistance provided under the Coronavirus Aid, Relief, and Economic Security Act, approved March 27, 2020 (134 Stat. 281; 15 U.S.C. § 9001 <em>et seq.</em>), which shall include tax credits but shall not include federal Economic Impact Payments or other stimulus relief for which eligibility is not contingent on the recipient's employment status.</text>
         </para>
@@ -196,8 +210,12 @@
   <section>
     <num>4</num>
     <text>Section 3(9)(A)(i) of the Commission on the Arts and Humanities Act, effective October 21, 1975 (D.C. Law 1-22; D.C. Official Code § 39-202(9)(A)(i)), is amended by striking the phrase "exclusive of District funds" and inserting the phrase "exclusive of District funds other than sponsorships provided by Events DC" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§39-202|(9)|(A)|(i)" count="1">
+      <find>exclusive of District funds</find>
+      <replace>exclusive of District funds other than sponsorships provided by Events DC</replace>
+    </codify:find-replace>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>5</num>
     <text>Title 47 of the District of Columbia Official Code is amended as follows:</text>
     <para>
@@ -205,53 +223,72 @@
       <text>Section 47-1803.03 is amended by adding a new subsection (b-5) to read as follows:</text>
       <include>
         <para>
+          <codify:insert path="§47-1803.03" after="(b-4)"/>
           <num>(b-5)</num>
           <text>Capital Gains from a Qualified Opportunity Fund. – The capital gains deduction for investing in a qualified opportunity fund shall apply to an individual, estate, or trust in the same manner as set forth in § 47-1803.03(a)(20).</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§47-2002.02|(2)">
       <num>(b)</num>
       <text>Section 47-2002.02(2) is amended as follows:</text>
-      <para>
+      <para codify:path="(B)">
         <num>(1)</num>
         <text>Subparagraph (B) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; or</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(C)">
         <num>(2)</num>
         <text>Subparagraph (C) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>; or</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subparagraph (D) is added to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert/>
             <num>(D)</num>
-            <text>Spirituous or malt liquors, beers, and wine sold by an alcoholic beverage licensee acting under authority of §§ 25-112(h)(1), 25-113(a)(3)(C), or 25-113.01(f) or (g).</text>
+            <text>Spirituous or malt liquors, beers, and wine sold by an alcoholic beverage licensee acting under authority of §§ <cite doc="D.C. Code" path="§25-115|(h)|(1)">25-112(h)(1)</cite>, <cite doc="D.C. Code" path="§25-113|(a)|(C)">25-113(a)(3)(C)</cite>, or <cite doc="D.C. Code" path="§25-113.01|(f)">25-113.01(f)</cite> or <cite doc="D.C. Code" path="§25-113.01|(g)">(g)</cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§47-2202.01|(2)">
       <num>(c)</num>
       <text>Section 47-2202.01(2) is amended as follows:</text>
-      <para>
+      <para codify:path="(B)">
         <num>(1)</num>
         <text>Subparagraph (B) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; or</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(C)">
         <num>(2)</num>
         <text>Subparagraph (C) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>; or</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subparagraph (D) is added to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert/>
             <num>(D)</num>
-            <text>Spirituous or malt liquors, beers, and wine sold by an alcoholic beverage licensee acting under authority of §§ 25-112(h)(1), 25-113(a)(3)(C), or 25-113.01(f) or (g).</text>
+            <text>Spirituous or malt liquors, beers, and wine sold by an alcoholic beverage licensee acting under authority of §§ <cite doc="D.C. Code" path="§25-112|(h)|(1)">25-112(h)(1)</cite>, <cite doc="D.C. Code" path="§25-113|(a)|(3)|(C)">25-113(a)(3)(C)</cite>, or <cite doc="D.C. Code" path="§25-113.01|(f)">25-113.01(f)</cite> or <cite doc="D.C. Code" path="§25-113.01|(g)">(g)</cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -261,29 +298,38 @@
   <section>
     <num>6</num>
     <text>Section 6(j)(3)(F) of the District of Columbia Traffic Act, 1925, approved March 3, 1925 (43 Stat. 1121; D.C. Official Code § 50-2201.03(j)(3)(F)), is amended by striking the phrase "described in section 125(3)(C) of the District of Columbia Sales Tax Act, approved May 27, 1949 (63 Stat. 115; D.C. Official Code § 47-2002(3)(C))" and inserting the phrase "described in D.C. Official Code §§ 47-2002(a)(4B) and 47-2002.02(2)(C)" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§50-2201.03|(j)|(3)|(F)" count="1">
+      <find>described in <cite path="§47-2002|(3)|(C)" proof="true">§ 47-2002(3)(C)</cite></find>
+      <replace>described in <span codify:value="">D.C. Official Code</span> §§ <cite doc="D.C. Code" path="§47-2002|(a)|(4B)">47-2002(a)(4B)</cite> and <cite doc="D.C. Code" path="§47-2002.02|(2)|(C)">47-2002.02(2)(C)</cite></replace>
+    </codify:find-replace>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>7</num>
     <text>The Law to Legalize Lotteries, Daily Numbers Games, and Bingo and Raffles for Charitable Purposes in the District of Columbia, effective March 10, 1981 (D.C. Law 3-172; D.C. Official Code §§ 22-1716 to 22-1718 and 36-601.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§36-601.12">
       <num>(a)</num>
       <text>Section 4 (D.C. Official Code § 36-601.12) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended to read as follows:</text>
         <include>
           <section>
             <num>4</num>
             <heading>Lottery, Gambling, and Gaming Fund.</heading>
+            <codify:find-replace count="1">
+              <find>Lottery, Charitable Games, and Sports Wagering Fund</find>
+              <replace>Lottery, Gambling, and Gaming Fund</replace>
+            </codify:find-replace>
           </section>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <text>There is established as an enterprise fund the Lottery, Gambling, and Gaming Fund ("Fund"), which shall be administered by the Chief Financial Officer. Revenue from the following sources shall be deposited into the Fund or a division of the Fund, as established by the Chief Financial Officer:</text>
             <para>
@@ -292,15 +338,26 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>All fees collected pursuant to sections 406 through 408.</text>
+              <text>All fees collected pursuant to <span codify:value="§§">sections</span> <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§36-641.06" codify:value="36-641.06">406</code-cite> through <code-cite doc="D.C. Code" path="§36-641.08" codify:value="36-641.08">408</code-cite>.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended by striking the word "gambling" and inserting the phrase "gambling and gaming" in its place.</text>
+        <codify:find-replace count="1">
+          <find>gambling</find>
+          <replace>gambling and gaming</replace>
+        </codify:find-replace>
+        <codify:insert doc="D.C. Code" path="36|6" history="false">
+          <container>
+            <prefix>Subchapter</prefix>
+            <num>III</num>
+            <heading>Game of Skill Machines.</heading>
+          </container>
+        </codify:insert>
       </para>
     </para>
     <para>
@@ -312,18 +369,19 @@
           <num>IV</num>
           <heading>GAME OF SKILL MACHINES.</heading>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.01" history-prefix="as added"/>
             <num>401</num>
-            <text>Definitions</text>
+            <heading>Definitions</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For purposes of this title, the term:</text>
+              <text>For purposes of <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>, the term:</text>
               <para>
                 <num>(1)</num>
-                <text>"ABC Board" means the Alcoholic Beverage Control Board, established by D.C. Official Code § 25-201.</text>
+                <text>"ABC Board" means the Alcoholic Beverage Control Board, established by <code-cite doc="D.C. Code" path="§25-201">D.C. Official Code § 25-201</code-cite>.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>"ABRA" means the Alcoholic Beverage Regulation Administration, established by D.C. Official Code § 25-202.</text>
+                <text>"ABRA" means the Alcoholic Beverage Regulation Administration, established by <code-cite doc="D.C. Code" path="§25-202">D.C. Official Code § 25-202</code-cite>.</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -331,11 +389,11 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>"Centralized accounting system" means the accounting system linked by a communications network as described in sections 409 and 413.</text>
+                <text>"Centralized accounting system" means the accounting system linked by a communications network as described in <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§36-641.09" codify:value="36-641.09">409</code-cite> through <code-cite doc="D.C. Code" path="§36-641.13" codify:value="36-641.13">413</code-cite>.</text>
               </para>
               <para>
                 <num>(5)</num>
-                <text>"Distributor" means a person licensed under this title to:</text>
+                <text>"Distributor" means a person licensed under <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> to:</text>
                 <para>
                   <num>(A)</num>
                   <text>Buy or lease game of skill machines, or any major components or parts of a game of skill machine, from manufacturers for sale or lease and distribution to retailers; or</text>
@@ -399,7 +457,7 @@
               </para>
               <para>
                 <num>(11)</num>
-                <text>"Manufacturer" means a person that is licensed under this title that manufactures or assembles game of skill machines for sale or lease to distributors or provides to distributors major components or parts of game of skill machines for the repair or maintenance of game of skill machines.</text>
+                <text>"Manufacturer" means a person that is licensed under <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> that manufactures or assembles game of skill machines for sale or lease to distributors or provides to distributors major components or parts of game of skill machines for the repair or maintenance of game of skill machines.</text>
               </para>
               <para>
                 <num>(12)</num>
@@ -407,21 +465,26 @@
               </para>
               <para>
                 <num>(13)</num>
-                <text>"Retailer" means a person that is licensed under this title to offer game of skill machines on its licensed premises.</text>
+                <text>"Retailer" means a person that is licensed under <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> to offer game of skill machines on its licensed premises.</text>
               </para>
+              
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§401">Mar. 10, 1981, D.C. Law 3-172, § 401</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.02" history-prefix="as added"/>
             <num>402</num>
             <heading>Authorization of game of skill machines.</heading>
-            <text>The operation of game of skill machines shall be lawful in the District if conducted in accordance with this title and the rules issued pursuant to this title.</text>
+            <text>The operation of game of skill machines shall be lawful in the District if conducted in accordance with <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> and the rules issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
+            <annotation doc="D.C. Law 3-172" type="History" path="§402">Mar. 10, 1981, D.C. Law 3-172, § 402</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.03" history-prefix="as added"/>
             <num>403</num>
             <heading>Game of skill machine license requirements; prohibition.</heading>
             <para>
               <num>(a)</num>
-              <text>No person may carry out a function of a manufacturer, distributor, or retailer after March 31, 2021, unless the person has obtained the applicable license or licenses required by this title, or by rules issued pursuant to this title.</text>
+              <text>No person may carry out a function of a manufacturer, distributor, or retailer after March 31, 2021, unless the person has obtained the applicable license or licenses required by <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>, or by rules issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -443,7 +506,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>The Office shall not grant a license listed in paragraph (1) of this subsection until it has determined that each person that possesses 10% or greater beneficial or proprietary interest in the applicant has been approved for licensure in accordance with this title and rules issued pursuant to this title; provided, that the Office shall not be required to make such a determination with respect to a person that is an institutional investor unless the institutional investor possesses 25% or greater beneficial or proprietary interest in the applicant.</text>
+                <text>The Office shall not grant a license listed in paragraph (1) of this subsection until it has determined that each person that possesses 10% or greater beneficial or proprietary interest in the applicant has been approved for licensure in accordance with <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> and rules issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>; provided, that the Office shall not be required to make such a determination with respect to a person that is an institutional investor unless the institutional investor possesses 25% or greater beneficial or proprietary interest in the applicant.</text>
               </para>
             </para>
             <para>
@@ -463,34 +526,36 @@
             </para>
             <para>
               <num>(d)</num>
-              <text>The Office shall require proof of good standing pursuant to D.C. Official Code § 29-102.08 of an applicant for a license pursuant to this title and may, in addition, require certification that the Citywide Clean Hands Database indicates that the proposed licensee is current with its District taxes.</text>
+              <text>The Office shall require proof of good standing pursuant to D.C. Official Code § 29-102.08 of an applicant for a license pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> and may, in addition, require certification that the Citywide Clean Hands Database indicates that the proposed licensee is current with its District taxes.</text>
             </para>
             <para>
               <num>(e)</num>
-              <text>Proprietary information, trade secrets, financial information, and personal information about a person in an application submitted to the Office pursuant to this title shall not be a public record and shall not be made available under the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq</em>.), or any other law.</text>
+              <text>Proprietary information, trade secrets, financial information, and personal information about a person in an application submitted to the Office pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> shall not be a public record and shall not be made available under <code-cite doc="D.C. Code" path="2|5|II">the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq</em>.</code-cite>), or any other law.</text>
             </para>
             <para>
               <num>(f)</num>
               <para>
                 <num>(1)</num>
-                <text>A retailer shall display its license as required by section 410(e) and shall make the license immediately available for inspection upon request by an employee of the Office, the Metropolitan Police Department, or ABRA.</text>
+                <text>A retailer shall display its license as required by <code-cite doc="D.C. Code" path="§36-641.10|(e)">section 410(e)</code-cite>) and shall make the license immediately available for inspection upon request by an employee of the Office, the Metropolitan Police Department, or ABRA.</text>
               </para>
               <para>
                 <num>(2)</num>
                 <text>When present at a licensed establishment, an employee of a distributor shall carry a copy of its license and make it readily available for inspection by an employee of the Office, the Metropolitan Police Department, or ABRA.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§403">Mar. 10, 1981, D.C. Law 3-172, § 403</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.04" history-prefix="as added"/>
             <num>404</num>
             <heading>License prohibitions; suspensions and revocation of licenses.</heading>
             <para>
               <num>(a)</num>
-              <text>An applicant convicted of a disqualifying offense shall not be licensed. The Office shall define disqualifying offenses by a rule issued pursuant to this title.</text>
+              <text>An applicant convicted of a disqualifying offense shall not be licensed. The Office shall define disqualifying offenses by a rule issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
             </para>
             <para>
               <num>(b)</num>
-              <text>No employee of the Office or ABRA or member of the ABC Board, or immediate family member of an employee of the Office or ABRA or member of the ABC Board, may be an applicant for, have an interest in, or obtain a license issued pursuant to this title.</text>
+              <text>No employee of the Office or ABRA or member of the ABC Board, or immediate family member of an employee of the Office or ABRA or member of the ABC Board, may be an applicant for, have an interest in, or obtain a license issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -500,7 +565,7 @@
               <num>(d)</num>
               <para>
                 <num>(1)</num>
-                <text>The Office shall not grant a license pursuant to this title, and shall revoke a license previously granted, if evidence satisfactory to the Office exists that the applicant or licensee has:</text>
+                <text>The Office shall not grant a license pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>, and shall revoke a license previously granted, if evidence satisfactory to the Office exists that the applicant or licensee has:</text>
                 <para>
                   <num>(A)</num>
                   <text>Knowingly made a false statement of a material fact to the Office;</text>
@@ -531,12 +596,14 @@
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Is an entity that sells more than 10% of a licensee's voting interests, more than 10% of the voting interests of an entity that controls the licensee, or sells a licensee's assets to an individual or entity not already determined by the Office to have met the qualifications of a licensee pursuant to this title.</text>
+                  <text>Is an entity that sells more than 10% of a licensee's voting interests, more than 10% of the voting interests of an entity that controls the licensee, or sells a licensee's assets to an individual or entity not already determined by the Office to have met the qualifications of a licensee pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
                 </para>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§404">Mar. 10, 1981, D.C. Law 3-172, § 404</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.05" history-prefix="as added"/>
             <num>405</num>
             <heading>Conflicts of interest.</heading>
             <para>
@@ -548,22 +615,24 @@
               <text>In making a determination regarding a conflicting interest, the following standards shall apply:</text>
               <para>
                 <num>(1)</num>
-                <text>No licensee under a distributor's license shall hold a license in another license issued under this title; except, that the holder of a distributor's license may also hold a manufacturer's license.</text>
+                <text>No licensee under a distributor's license shall hold a license in another license issued under <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>; except, that the holder of a distributor's license may also hold a manufacturer's license.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>No licensee under a manufacturer's license shall hold another license issued under this title; except, that the holder of a manufacturer's license may also hold a distributor's license.</text>
+                <text>No licensee under a manufacturer's license shall hold another license issued under <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>; except, that the holder of a manufacturer's license may also hold a distributor's license.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§405">Mar. 10, 1981, D.C. Law 3-172, § 405</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.06" history-prefix="as added"/>
             <num>406</num>
             <heading>Manufacturer licensure.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>A person may not, after March 31, 2021, manufacture a game of skill machine in the District or manufacture and cause to be delivered into the District a game of skill machine, unless the person has a valid manufacturer's license issued under this title.</text>
+                <text>A person may not, after March 31, 2021, manufacture a game of skill machine in the District or manufacture and cause to be delivered into the District a game of skill machine, unless the person has a valid manufacturer's license issued under <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -602,8 +671,10 @@
               <num>(e)</num>
               <text>A manufacturer's license shall be renewed annually; provided, that the licensee has continued to comply with all statutory and regulatory requirements and pays upon submission of its renewal application a $5,000 renewal fee.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§406">Mar. 10, 1981, D.C. Law 3-172, § 406</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.07" history-prefix="as added"/>
             <num>407</num>
             <heading>Distributor licensure.</heading>
             <para>
@@ -624,7 +695,7 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>A licensed distributor may sell, lease, or distribute a game of skill machine, or repair, replace, maintain, or service a game of skill machine or any major component or part of a game of skill machine in the District to a licensed establishment that possesses a game of skill machine endorsement from the ABC Board pursuant to D.C. Official Code § 25-113.01(e), and after March 31, 2021, a retailer's license from the Office.  No distributor may give anything of value, including a loan or financing agreement, to a licensed establishment as an incentive or inducement to locate a game of skill machine in the establishment; provided, that a distributor may provide funding to a licensed establishment for the payment of winnings to players of the distributor's game of skill machines in the licensed establishment.</text>
+              <text>A licensed distributor may sell, lease, or distribute a game of skill machine, or repair, replace, maintain, or service a game of skill machine or any major component or part of a game of skill machine in the District to a licensed establishment that possesses a game of skill machine endorsement from the ABC Board pursuant to<code-cite doc="D.C. Code" path="§25-113.01|(e)"> D.C. Official Code § 25-113.01(e)</code-cite>, and after March 31, 2021, a retailer's license from the Office.  No distributor may give anything of value, including a loan or financing agreement, to a licensed establishment as an incentive or inducement to locate a game of skill machine in the establishment; provided, that a distributor may provide funding to a licensed establishment for the payment of winnings to players of the distributor's game of skill machines in the licensed establishment.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -652,7 +723,7 @@
             </para>
             <para>
               <num>(e)</num>
-              <text>An applicant for a distributor's license shall demonstrate that the equipment, system, or device that the applicant plans to offer to retailers conform<s>s</s> to standards established pursuant to this title, the rules issued pursuant to this title, and other applicable law.</text>
+              <text>An applicant for a distributor's license shall demonstrate that the equipment, system, or device that the applicant plans to offer to retailers conform<s>s</s> to standards established pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>, the rules issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>, and other applicable law.</text>
             </para>
             <para>
               <num>(f)</num>
@@ -664,10 +735,12 @@
             </para>
             <para>
               <num>(h)</num>
-              <text>A distributor shall submit to the Office, at such times as are established by the Office by rule, a list of all models and versions of game of skill machines sold, delivered, or offered to a retailer.  All such equipment shall be tested and approved by an independent testing laboratory approved as provided in section 409.</text>
+              <text>A distributor shall submit to the Office, at such times as are established by the Office by rule, a list of all models and versions of game of skill machines sold, delivered, or offered to a retailer.  All such equipment shall be tested and approved by an independent testing laboratory approved as provided in <code-cite doc="D.C. Code" path="§36-641.09">section 409</code-cite>.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§407">Mar. 10, 1981, D.C. Law 3-172, § 407</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.08" history-prefix="as added"/>
             <num>408</num>
             <heading>Retailer licensure.</heading>
             <para>
@@ -679,7 +752,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Possesses a game of skill machine endorsement from ABRA in accordance with D.C. Official Code § 25-113.01(e), and, after March 31, 2021, a retailer's license from the Office; and</text>
+                <text>Possesses a game of skill machine endorsement from ABRA in accordance with <code-cite doc="D.C. Code" path="§25-113.01|(e)">D.C. Official Code § 25-113.01(e)</code-cite>, and, after March 31, 2021, a retailer's license from the Office; and</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -722,18 +795,20 @@
               <num>(f)</num>
               <text>Game of skill machines shall not be offered or allowed to be played in the District other than at an establishment licensed as a retailer.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§408">Mar. 10, 1981, D.C. Law 3-172, § 408</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.09" history-prefix="as added"/>
             <num>409</num>
             <heading>Minimum requirements of game of skill machines.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>No model or version of a game of skill machine shall be offered for distribution or play in the District unless the model or version of the game of skill machine has first been tested and approved as a game of skill machine pursuant to this title and the rules issued pursuant to this title; except, that:</text>
+                <text>No model or version of a game of skill machine shall be offered for distribution or play in the District unless the model or version of the game of skill machine has first been tested and approved as a game of skill machine pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> and the rules issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>; except, that:</text>
                 <para>
                   <num>(A)</num>
-                  <text>A model or version of a game of skill machine for which an endorsement was approved by the ABC Board under D.C. Official Code § 25-401 before October 1, 2020, shall not be subject to testing or approval under this section unless required by the Office by rule; provided, that each such game of skill machine shall be required to comply with subsection (b)(12) of this section.</text>
+                  <text>A model or version of a game of skill machine for which an endorsement was approved by the ABC Board under <code-cite doc="D.C. Code" path="§25-401">D.C. Official Code § 25-401</code-cite> before October 1, 2020, shall not be subject to testing or approval under this section unless required by the Office by rule; provided, that each such game of skill machine shall be required to comply with subsection (b)(12) of this section.</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -818,15 +893,17 @@
               </para>
               <para>
                 <num>(12)</num>
-                <text>The game of skill machine shall be connected to a centralized accounting system in accordance with section 413 for the purposes set forth in section 413; except, that a game of skill machine that has been approved for operation or distribution in the District by ABRA or the Office before the date designated by the Office pursuant to section 413(a)(2)(B) shall be allowed until the date designated by the Office pursuant to section 413(a)(2)(B) to come into compliance with this paragraph.</text>
+                <text>The game of skill machine shall be connected to a centralized accounting system in accordance with <code-cite doc="D.C. Code" path="§36-641.13">section 413</code-cite> for the purposes set forth in <code-cite doc="D.C. Code" path="§36-641.13">section 413</code-cite>; except, that a game of skill machine that has been approved for operation or distribution in the District by ABRA or the Office before the date designated by the Office pursuant to <code-cite doc="D.C. Code" path="§36-641.13|(a)|(2)|(B)">section 413(a)(2)(B)</code-cite> shall be allowed until the date designated by the Office pursuant to <code-cite doc="D.C. Code" path="§36-641.13|(a)|(2)|(B)">section 413(a)(2)(B)</code-cite> to come into compliance with this paragraph.</text>
               </para>
             </para>
             <para>
               <num>(c)</num>
               <text>The Office may issue rules to establish additional licensing and registration requirements for the purposes of preserving the integrity and security of game of skill machines in the District, including by prohibiting game of skill machines that approximate the look or feel of a gambling device.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§409">Mar. 10, 1981, D.C. Law 3-172, § 409</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.10" history-prefix="as added"/>
             <num>410</num>
             <heading>Registration; display of registration sticker, license, and warning sign; locations of game of skill machines.</heading>
             <para>
@@ -878,10 +955,12 @@
             </para>
             <para>
               <num>(f)</num>
-              <text>Failure to display the registration sticker, license, or warning sign may result in the Office revoking or suspending the license or issuing a fine against the licensed establishment pursuant to section 415.</text>
+              <text>Failure to display the registration sticker, license, or warning sign may result in the Office revoking or suspending the license or issuing a fine against the licensed establishment pursuant to <code-cite doc="D.C. Code" path="§36-641.15">section 415</code-cite>.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§410">Mar. 10, 1981, D.C. Law 3-172, § 410</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.11" history-prefix="as added"/>
             <num>411</num>
             <heading>Cash award.</heading>
             <para>
@@ -904,8 +983,10 @@
               <num>(b)</num>
               <text>A retailer shall allow a player to take the ticket or voucher to the owner of the licensed establishment or the owner's designee, who shall be located at the licensed establishment, for payment of the cash award.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§411">Mar. 10, 1981, D.C. Law 3-172, § 411</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.12" history-prefix="as added"/>
             <num>412</num>
             <heading>Game of skill machine use by minors prohibited.</heading>
             <para>
@@ -914,17 +995,19 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>The Office may suspend or revoke a license and issue a fine, in accordance with section 415, against a licensee that knowingly allows a person under the age of 18 to use or play a game of skill machine.</text>
+              <text>The Office may suspend or revoke a license and issue a fine, in accordance with <code-cite doc="D.C. Code" path="§36-641.15">section 415</code-cite>, against a licensee that knowingly allows a person under the age of 18 to use or play a game of skill machine.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§412">Mar. 10, 1981, D.C. Law 3-172, § 412</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.13" history-prefix="as added"/>
             <num>413</num>
             <heading>Centralized accounting system.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>Within 365 days after the effective date of this title, the Office shall procure a centralized accounting system for games of skill machines, which shall be linked to a communications network. All games of skill machines registered in the District shall connect to the centralized accounting system through the communications network. The centralized accounting system shall be administered by the Office and shall allow for the accounting, reporting, monitoring, and reading of game of skill machine activities by the District for the purposes of assisting the Office in determining compliance with, and enforcing, the provisions of this title and the rules issued pursuant to this title.  The centralized accounting system shall also allow for game of skill machines to be activated and deactivated remotely by the Office.</text>
+                <text>Within 365 days after the effective date of <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>, the Office shall procure a centralized accounting system for games of skill machines, which shall be linked to a communications network. All games of skill machines registered in the District shall connect to the centralized accounting system through the communications network. The centralized accounting system shall be administered by the Office and shall allow for the accounting, reporting, monitoring, and reading of game of skill machine activities by the District for the purposes of assisting the Office in determining compliance with, and enforcing, the provisions of <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> and the rules issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.  The centralized accounting system shall also allow for game of skill machines to be activated and deactivated remotely by the Office.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -945,24 +1028,28 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>An employee or agent of a contractor or subcontractor of the Office who is engaged in building, operating, maintaining, or contracting to build, operate, or maintain the centralized accounting system, and the immediate family members of such employee or agent, shall be prohibited from obtaining a license under this title.</text>
+              <text>An employee or agent of a contractor or subcontractor of the Office who is engaged in building, operating, maintaining, or contracting to build, operate, or maintain the centralized accounting system, and the immediate family members of such employee or agent, shall be prohibited from obtaining a license under <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
             </para>
             <para>
               <num>(d)</num>
               <text>Unless a retailer's license is canceled, suspended, or revoked, nothing in this section shall authorize the Office to limit or eliminate a registered game of skill from the centralized accounting system.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§413">Mar. 10, 1981, D.C. Law 3-172, § 413</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.14" history-prefix="as added"/>
             <num>414</num>
             <heading>Insurance.</heading>
-            <text>The Office may require by rule, issued pursuant to this title, that a distributor maintain liability insurance on the game of skill machines that it places in licensed establishments or that a retailer maintain liability insurance on the game of skill machines that are located in its licensed establishment.</text>
+            <text>The Office may require by rule, issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>, that a distributor maintain liability insurance on the game of skill machines that it places in licensed establishments or that a retailer maintain liability insurance on the game of skill machines that are located in its licensed establishment.</text>
+            <annotation doc="D.C. Law 3-172" type="History" path="§414">Mar. 10, 1981, D.C. Law 3-172, § 414</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.15" history-prefix="as added"/>
             <num>415</num>
             <heading>Penalties.</heading>
             <para>
               <num>(a)</num>
-              <text>In the event of a violation of this title or a rule issued pursuant to this title, the Office may:</text>
+              <text>In the event of a violation of <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> or a rule issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>, the Office may:</text>
               <para>
                 <num>(1)</num>
                 <text>Impose a fine of not more than $50,000;</text>
@@ -984,17 +1071,19 @@
               <num>(c)</num>
               <text>The Office shall notify ABRA within 48 hours after the Office suspends or revokes a retailer's license.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§415">Mar. 10, 1981, D.C. Law 3-172, § 415</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.16" history-prefix="as added"/>
             <num>416</num>
             <heading>Authority of the Office.</heading>
             <para>
               <num>(a)</num>
-              <text>The Office may enforce the provisions of this title with respect to licensees and with respect to any individual or entity not holding a license and offering a game of skill machine in violation of the provisions of this title or rules issued pursuant to this title.</text>
+              <text>The Office may enforce the provisions of <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> with respect to licensees and with respect to any individual or entity not holding a license and offering a game of skill machine in violation of the provisions of <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> or rules issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
             </para>
             <para>
               <num>(b)</num>
-              <text>Subject to subsection (c) of this section, the Office and the Metropolitan Police Department may issue citations for civil violations of this title as set forth in rules issued pursuant to this title.</text>
+              <text>Subject to subsection (c) of this section, the Office and the Metropolitan Police Department may issue citations for civil violations of <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> as set forth in rules issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -1002,7 +1091,7 @@
             </para>
             <para>
               <num>(d)</num>
-              <text>The Office, ABRA, or Metropolitan Police Department may request and check the identification of a person who has played, is playing, or is attempting to play a game of skill machine. The Office or Metropolitan Police Department may seize evidence that substantiates a violation under this title, which may include seizing the tickets, vouchers, or cash awards issued to a person under the age of 18 and fake identification documents used by a person under the age of 18.</text>
+              <text>The Office, ABRA, or Metropolitan Police Department may request and check the identification of a person who has played, is playing, or is attempting to play a game of skill machine. The Office or Metropolitan Police Department may seize evidence that substantiates a violation under <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>, which may include seizing the tickets, vouchers, or cash awards issued to a person under the age of 18 and fake identification documents used by a person under the age of 18.</text>
             </para>
             <para>
               <num>(e)</num>
@@ -1020,13 +1109,15 @@
                 <text>The business has been closed by another District government agency.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§416">Mar. 10, 1981, D.C. Law 3-172, § 416</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.17" history-prefix="as added"/>
             <num>417</num>
             <heading>Investigations and inspections.</heading>
             <para>
               <num>(a)</num>
-              <text>The Office may conduct investigations, searches, seizures, and perform other duties authorized by this title and rules issued pursuant to this title.</text>
+              <text>The Office may conduct investigations, searches, seizures, and perform other duties authorized by <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> and rules issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -1040,8 +1131,10 @@
                 <text>The books and records of the licensee or applicant.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§417">Mar. 10, 1981, D.C. Law 3-172, § 417</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.18" history-prefix="as added"/>
             <num>418</num>
             <heading>Unlawful acts; action by the Attorney General.</heading>
             <para>
@@ -1057,10 +1150,12 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>The Attorney General for the District of Columbia, in the name of the District of Columbia, may bring an action in the Superior Court of the District of Columbia to enjoin an individual or entity or to seek a civil penalty of up to $50,000 for a violation of this title or rule issued pursuant to this title.</text>
+              <text>The Attorney General for the District of Columbia, in the name of the District of Columbia, may bring an action in the Superior Court of the District of Columbia to enjoin an individual or entity or to seek a civil penalty of up to $50,000 for a violation of <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> or rule issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§418">Mar. 10, 1981, D.C. Law 3-172, § 418</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.19" history-prefix="as added"/>
             <num>419</num>
             <heading>Taxation of game of skill machines.</heading>
             <para>
@@ -1085,31 +1180,35 @@
             </para>
             <para>
               <num>(f)</num>
-              <text>An owner of a game of skill who fails to pay the tax imposed by this section shall be subject to all collection, enforcement, and administrative provisions applicable to unpaid taxes or fees, as provided in Chapters 41, 42, 43, and 44 of Title 47 of the District of Columbia Official Code.</text>
+              <text>An owner of a game of skill who fails to pay the tax imposed by this section shall be subject to all collection, enforcement, and administrative provisions applicable to unpaid taxes or fees, as provided in Chapters <cite doc="D.C. Code" path="47|41">41</cite>, <cite doc="D.C. Code" path="47|42">42</cite>, <cite doc="D.C. Code" path="47|43">43</cite>, and <cite doc="D.C. Code" path="47|44">44</cite> of Title 47 of the District of Columbia Official Code.</text>
             </para>
             <para>
               <num>(g)</num>
-              <text>Notwithstanding D.C. Official Code § 47-4406, the CFO may disclose the total amount of game of skill machine gross revenue collected in the periodic estimates and reports of revenues.</text>
+              <text>Notwithstanding <code-cite doc="D.C. Code" path="§47-4406">D.C. Official Code § 47-4406</code-cite>, the CFO may disclose the total amount of game of skill machine gross revenue collected in the periodic estimates and reports of revenues.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§419">Mar. 10, 1981, D.C. Law 3-172, § 419</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.20" history-prefix="as added"/>
             <num>420</num>
             <heading>Deposit of license fees.</heading>
-            <text>All fees collected under sections 406 through 408 shall be deposited in the Lottery, Gambling, and Gaming Fund, established by section 4 (D.C. Official Code § 36-601.12).</text>
+            <text>All fees collected under <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§36-641.06" codify:value="36-641.06">406</code-cite> through <code-cite doc="D.C. Code" path="§36-641.08" codify:value="36-641.08">408</code-cite> shall be deposited in the Lottery, Gambling, and Gaming Fund, established by <code-cite doc="D.C. Code" path="§36-601.12">section 4 (D.C. Official Code § 36-601.12)</code-cite>.</text>
+            <annotation doc="D.C. Law 3-172" type="History" path="§420">Mar. 10, 1981, D.C. Law 3-172, § 420</annotation>
           </section>
           <section>
+            <codify:insert path="36|6|III" num-value="36-641.21" history-prefix="as added"/>
             <num>421</num>
             <heading>Rules and regulations governing game of skill machines.</heading>
             <para>
               <num>(a)</num>
-              <text>The CFO, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall by January 2021, issue rules to implement the provisions of this title.</text>
+              <text>The CFO, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 et seq.), shall by January 2021, issue rules to implement the provisions of <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
             </para>
             <para>
               <num>(b)</num>
               <text>The rules issued by the CFO pursuant to subsection (a) of this section shall include:</text>
               <para>
                 <num>(1)</num>
-                <text>Minimum standards under section 409(b);</text>
+                <text>Minimum standards under <code-cite doc="D.C. Code" path="§36-641.09|(b)">section 409(b)</code-cite>;</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1117,7 +1216,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>Standards for inspecting licensed establishments for compliance with this title;</text>
+                <text>Standards for inspecting licensed establishments for compliance with <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>;</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -1153,26 +1252,27 @@
               </para>
               <para>
                 <num>(12)</num>
-                <text>Penalties for a violation of this title or rule issued pursuant to this title; and</text>
+                <text>Penalties for a violation of <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> or rule issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>; and</text>
               </para>
               <para>
                 <num>(13)</num>
                 <text>Internal control standards for game of skill machines.</text>
               </para>
             </para>
+          <annotation doc="D.C. Law 3-172" type="History" path="§421">Mar. 10, 1981, D.C. Law 3-172, § 421</annotation>
           </section>
         </container>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>8</num>
     <text>Title 25 of the District of Columbia Official Code is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>Chapter 1 is amended as follows:</text>
-      <para>
+      <para codify:path="§25-101|(a)">
         <num>(1)</num>
         <text>Section 25-101 is amended as follows:</text>
         <para>
@@ -1180,8 +1280,9 @@
           <text>A new paragraph (22B) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(22A)"/>
               <num>(22B)</num>
-              <text>"Game of skill machine" has the meaning set forth in § 36-641.01(6)</text>
+              <text>"Game of skill machine" has the meaning set forth in <cite doc="D.C. Code" path="§36-641.01|(6)">§ 36-641.01(6)</cite></text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -1191,6 +1292,7 @@
           <text>A new paragraph (53A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(53)"/>
               <num>(53A)</num>
               <text>"Voucher" means a ticket issued by a game of skill machine that is redeemable for cash winnings.</text>
             </para>
@@ -1198,12 +1300,16 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§[25-113.01]">
         <num>(2)</num>
         <text>Section 25-113a is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The section is redesignated as § 25-113.01.</text>
+          <codify:find-replace count="1">
+            <find>[25-113.01]</find>
+            <replace>25-113.01</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
@@ -1216,12 +1322,17 @@
             </section>
           </include>
           <aftertext>.</aftertext>
+          <codify:find-replace doc="D.C. Code" path="§10-1102.01b" count="1" history="false" display-template ="">
+            <find>D.C. Official Code § 25-113a(c)</find>
+            <replace><cite doc="D.C. Code" path="§25-113.01|(c)">25-113.01(c)</cite></replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new subsection (e) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert path="§25-113.01"/>
               <num>(e)</num>
               <para>
                 <num>(1)</num>
@@ -1247,7 +1358,7 @@
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>Subparagraph (A) of this paragraph shall not apply to a licensee operating a passenger-carrying marine vessel in accordance with § 25-113(h).</text>
+                  <text>Subparagraph (A) of this paragraph shall not apply to a licensee operating a passenger-carrying marine vessel in accordance with <cite doc="D.C. Code" path="§25-113|(h)">§ 25-113(h)</cite>.</text>
                 </para>
               </para>
             </para>
@@ -1256,11 +1367,12 @@
         </para>
       </para>
     </para>
-    <para>
+    <para codify:path="§25-401">
       <num>(b)</num>
       <text>Section 25-401 is amended by adding a new subsection (e) to read as follows:</text>
       <include>
         <para>
+          <codify:insert/>
           <num>(e)</num>
           <text>An applicant for a game of skill machine endorsement shall submit to the Board with its application:</text>
           <para>
@@ -1275,20 +1387,39 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§25-508">
       <num>(c)</num>
       <text>Section 25-508 is amended to read as follows:</text>
       <include>
         <section>
-          <prefix>§</prefix>
+          <codify:replace/>
           <num>25-508</num>
-          <heading>Minimum fee for permits, and manager's license, and endorsement.</heading>
-          <text>The minimum fees for permits, manager's license, and endorsement shall be as follows:</text>
-          <text proof="done">Tasting permit for class A licensees		$100/year</text>
-          <text proof="done">Importation permit				$5</text>
-          <text proof="done">Manager's license				$100/year</text>
-          <text proof="done">On-site sales and consumption permit	$1,000/year</text>
-          <text proof="done">Game of skill machine endorsement		$200</text>
+          <heading>Minimum fee for permits, and manager’s license, and endorsement.</heading>
+          <text>The minimum fees for permits, manager’s license, and endorsement shall be as follows:</text>
+          <text>
+            <table>
+              <tr>
+                <td>Tasting permit for class A licensees</td>
+                <td>$100/year</td>
+              </tr>
+              <tr>
+                <td>Importation permit</td>
+                <td>$5</td>
+              </tr>
+              <tr>
+                <td>Manager’s license</td>
+                <td>$100/year</td>
+              </tr>
+              <tr>
+                <td>On-site sales and consumption permit</td>
+                <td>$1,000/year</td>
+              </tr>
+              <tr>
+                <td>Game of skill machine endorsement</td>
+                <td>$200/year.</td>
+              </tr>
+            </table>
+          </text>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -1313,6 +1444,7 @@
         <text>Section 25-763 is amended by adding a new subsection (g) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§25-763"/>
             <num>(g)</num>
             <text>Exterior signs advertising game of skill machines shall be prohibited on the licensed establishment.</text>
           </para>
@@ -1324,6 +1456,7 @@
         <text>Section 25-765 is amended by adding a new subsection (c) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§25-765"/>
             <num>(c)</num>
             <text>Advertisements related to game of skill machines shall not be placed on the interior or exterior of a window or on the exterior of a door that is used to enter or exit the licensed establishment.</text>
           </para>
@@ -1335,6 +1468,7 @@
         <text>A new section 25-786 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="25|7|IX"/>
             <prefix>§</prefix>
             <num>25-786</num>
             <heading>Game of skill machine operating requirements.</heading>
@@ -1384,6 +1518,7 @@
       <text>Section 25-801 is amended by adding a new subsection (h) to read as follows:</text>
       <include>
         <para>
+          <codify:insert path="§25-801"/>
           <num>(h)</num>
           <text>An ABRA investigator may request and check the identification of a person who has played, is playing, or is attempting to play a game of skill machine. An ABRA investigator may seize fake identification used by a person under 18 years of age and may seize such records related to a game of skill machine as the investigator considers appropriate to investigate the playing of a game of skill machine by a person under 18 years of age.</text>
         </para>
@@ -1391,26 +1526,29 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§22-1704">
     <num>9</num>
     <text>Section 865 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1331; D.C. Official Code § 22-1704), is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>The existing text is designated as subsection (a).</text>
+      <codify:redesignate-para num-value="(a)"/>
     </para>
     <para>
       <num>(b)</num>
       <text>A new subsection (b) is added to read as follows:</text>
       <include>
-        <para>
+         <para>
+          <codify:insert/>
           <num>(b)</num>
-          <text>It shall be unlawful to install or operate a game of skill machine in the District except as permitted by Title IV of the Law to Legalize Lotteries, Daily Numbers Games, and Bingo Raffles for Charitable Purposes in the District of Columbia, passed on 2nd reading on December 1, 2020 (Enrolled version of Bill 23-964) ("Title IV"). Whoever shall install or operate a game of skill machine in the District in violation of Title IV shall be guilty of a misdemeanor and, upon  conviction thereof, shall be imprisoned for not more than 180 days or fined not more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or both.</text>
+          <text>It shall be unlawful to install or operate a game of skill machine in the District except as permitted by <code-cite doc="D.C. Code" path="36|6|III">Title IV of the Law to Legalize Lotteries, Daily Numbers Games, and Bingo Raffles for Charitable Purposes in the District of Columbia, passed on 2nd Reading on October 20, 2020 (Enrolled version of Bill 23-945) ("Title IV")</code-cite>. Whoever shall install or operate a game of skill machine in the District in violation of <code-cite doc="D.C. Code" path="36|6|III">Title IV</code-cite> shall be guilty of a misdemeanor and, upon  conviction thereof, shall be imprisoned for not more than180 days or fined not more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or both.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="1|3|I|I" num-value="1-301.158"/>
     <num>10</num>
     <heading>Chief Financial Officer collection of fees and processing costs.</heading>
     <para>
