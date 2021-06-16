@@ -25,17 +25,17 @@
     <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended by striking the phrase "(c) and (d)" and inserting the phrase "(c), (d), and (d-1)" in its place.</text>
-      <codify:find-replace count="1">
+      <!-- <codify:find-replace count="1">
         <find>(c) and (d)</find>
         <replace>(c), (d), and (d-1)</replace>
-      </codify:find-replace>
+      </codify:find-replace> -->
     </para>
     <para>
       <num>(b)</num>
       <text>A new subsection (d-1) is added to read as follows:</text>
       <include>
         <para>
-          <codify:insert after="(d)"/>
+          <!-- <codify:insert after="(d)"/> -->
           <num>(d-1)</num>
           <para>
             <num>(1)</num>
@@ -49,6 +49,7 @@
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:emergency doc="D.C. Code" path="§47-1332"/>
   </section>
   <section>
     <num>3</num>
