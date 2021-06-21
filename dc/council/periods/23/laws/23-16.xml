@@ -409,17 +409,20 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para codify:path="(b)|(2)">
+          <para codify:path="(b)|(2)|text">
             <num>(2)</num>
             <text>The lead-in language of subsection (b)(2) is amended to read as follows:</text>
             <include lvl="1">
               <para>
-                <codify:replace/>
                 <num>(2)</num>
                 <text>If an uncontested election becomes a contested election after a participating candidate is certified under <code-cite doc="D.C. Code" path="§1-1163.32c|(b)">section 332c(b)</code-cite>, the Director of Campaign Finance shall direct, no later than 5 days after the uncontested election becomes a contested election, the Office of the Chief Financial Officer to disburse to the participating candidate, and the Office of the Chief Financial Officer shall disburse, within 5 business days after receiving direction to do so from the Director of Campaign Finance:</text>
               </para>
             </include>
             <aftertext>.</aftertext>
+            <codify:find-replace count="1">
+              <find>If an uncontested election becomes a contested election after a participating candidate is certified under <code-cite doc="D.C. Code" path="§1-1163.32c|(b)">section 332c(b)</code-cite>, the participating candidate shall receive, no later than 5 business days after the uncontested election becomes a contested election:</find>
+              <replace>If an uncontested election becomes a contested election after a participating candidate is certified under <code-cite doc="D.C. Code" path="§1-1163.32c|(b)">section 332c(b)</code-cite>, the Director of Campaign Finance shall direct, no later than 5 days after the uncontested election becomes a contested election, the Office of the Chief Financial Officer to disburse to the participating candidate, and the Office of the Chief Financial Officer shall disburse, within 5 business days after receiving direction to do so from the Director of Campaign Finance:</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para codify:path="§1-1163.32e">
