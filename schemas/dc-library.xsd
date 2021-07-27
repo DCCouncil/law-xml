@@ -224,6 +224,7 @@
   <xs:element name="meta">
     <xs:complexType>
       <xs:sequence>
+        <xs:element name="stub" minOccurs="0"/>
         <xs:element ref="introduced" minOccurs="0"/>
         <xs:element ref="effective" minOccurs="0"/>
         <xs:element name="temporary" minOccurs="0">
