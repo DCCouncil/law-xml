@@ -23,13 +23,13 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Flavored Tobacco Product Prohibition Amendment Act of 2021".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>An act to prohibit the sale of tobacco to minors under sixteen years of age in the District of Columbia, approved February 7, 1891 (26 Stat. 736; D.C. Official Code § 7-1721.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§7-1721.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 7-1721.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (2A).</text>
       </para>
@@ -38,22 +38,27 @@
         <text>New paragraphs (1), (1A), (1B), (1C), and (1D) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace path="(1)"/>
             <num>(1)</num>
             <text>"Characterizing flavor" means a distinguishable taste or aroma other than tobacco, including fruit, chocolate, vanilla, candy, dessert, alcoholic beverage, menthol, mint, or wintergreen.</text>
           </para>
           <para>
+            <codify:insert after="(1)"/>
             <num>(1A)</num>
             <text>"Electronic smoking device" shall have the same meaning as provided in section 4915(1) of the Department of Health Functions Clarification Act of 2001, effective April 4, 2006 (D.C. Law 16-90; D.C. Official Code § 7-741.01(1)).</text>
           </para>
           <para>
+            <codify:insert after="(1A)"/>
             <num>(1B)</num>
             <text>"Flavored tobacco product" means any tobacco product or synthetic nicotine product that imparts a characterizing flavor.".</text>
           </para>
           <para>
+            <codify:insert after="(1B)"/>
             <num>(1C)</num>
             <text>"Hookah" means a type of waterpipe used to smoke shisha or other tobacco products with a long flexible tube for drawing aerosol through water. Components of a hookah may include heads, stems, bowls, and hoses.</text>
           </para>
           <para>
+            <codify:insert after="(1C)"/>
             <num>(1D)</num>
             <text>"Hookah bar" means a restaurant, tavern, brew pub, club, or nightclub that:</text>
             <para>
@@ -67,58 +72,84 @@
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:insert after="(2)">
+          <para>
+            <num>(2A)</num>
+            <text>"Tobacco product" means any product that is made from or derived from tobacco and is intended for human consumption or is likely to be consumed, whether smoked, heated, chewed, absorbed, dissolved, inhaled, or ingested by any other means, including through a cigarette, a cigar, pipe tobacco, chewing tobacco, snuff, snus, smokeless tobacco, or an electronic smoking device. The term "tobacco product" also includes any component or accessory used in the consumption of a tobacco product, such as filters, rolling papers, pipes, or liquids used in electronic smoking devices. The term "tobacco product" does not include drugs, devices, or combination products authorized for sale by the U.S. Food and Drug  Administration, as those terms are defined in the Federal Food, Drug, and Cosmetic Act, approved June 25, 1938 (52 Stat. 1040; 21 U.S.C. § 301 <em>et seq</em>.).
+            </text>
+          </para>
+        </codify:insert>
       </para>
       <para>
+        <!-- Done in the inserted paragraph above -->
         <num>(3)</num>
         <text>The newly designated paragraph (2A) is amended by striking the phrase ", as that term is defined in section 4915(1) of the Department of Health Functions Clarification Act of 2001, effective April 4, 2006 (D.C. Law 16-90; D.C. Official Code § 7-741.01(1))." and inserting a period in its place.</text>
       </para>
     </para>
-    <para>
+    <para codify:path="§7-1721.02">
       <num>(b)</num>
       <text>Section 3 (D.C. Official Code § 7-1721.02) is amended as follows:</text>
-      <para>
+      <para codify:path="(b)|(1)">
         <num>(1)</num>
         <text>Subsection (b)(1) is amended by striking the phrase "his or her age" and inserting the phrase "the purchaser's age" in its place.</text>
+        <codify:find-replace count="1">
+          <find>his or her age</find>
+          <replace>the purchaser's age</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is repealed.</text>
+        <codify:repeal/>
       </para>
     </para>
-    <para>
+    <para codify:path="§7-1721.03">
       <num>(c)</num>
       <text>Section 4 (D.C. Official Code § 7-1721.03) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(2)">
         <num>(1)</num>
         <text>Subsection (a)(2) is amended by striking the phrase "his or her employment" and inserting the phrase "the person's employment" in its place.</text>
+        <codify:find-replace count="1">
+          <find>his or her employment</find>
+          <replace>the person's employment</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the phrase "his or her age" and inserting the phrase "the person's age" in its place.</text>
+        <codify:find-replace count="1">
+          <find>his or her age</find>
+          <replace>the person's age</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is repealed.</text>
+        <codify:repeal/>
       </para>
     </para>
     <para>
       <num>(d)</num>
       <text>Section 5(c) (D.C. Official Code § 7-1721.04(c)) is repealed.</text>
+      <codify:repeal path="§7-1721.04|(c)"/>
     </para>
     <para>
       <num>(e)</num>
       <text>Section 6(c) (D.C. Official Code § 7-1721.05(c)) is repealed.</text>
+       <codify:repeal path="§7-1721.05|(c)"/>
     </para>
     <para>
       <num>(f)</num>
       <text>Section 7(d) (D.C. Official Code § 7-1721.06(d)) is repealed.</text>
+       <codify:repeal path="§7-1721.06|(d)"/>
     </para>
-    <para>
+    <para codify:path="§7-1721.07">
       <num>(g)</num>
       <text>Section 8 (D.C. Official Code § 7-1721.07) is amended to read as follows</text>
       <include>
         <section>
-          <num>8</num>
+          <codify:replace/>
+          <num codify:value="7-1721.07">8</num>
           <heading>Civil penalties.</heading>
           <para>
             <num>(a)</num>
@@ -207,6 +238,7 @@
       <text>A new section 9 is added to read as follows:</text>
       <include>
         <section>
+      <codify:insert path="7|17|I-A" num-value="7-1721.08" history-prefix="as added"/>
           <num>9</num>
           <heading>Prohibitions on flavored tobacco products and electronic smoking devices.</heading>
           <para>
@@ -264,6 +296,7 @@
               <text>A hookah bar doing business in the District as of September 30, 2021, shall not need to relocate to be in compliance with this section.</text>
             </para>
           </para>
+          <annotation type="History" doc="Stat. 51-2-ch117" path="§9">Feb. 7, 1891, 26 Stat. 736, ch. 117, § 9</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -274,8 +307,9 @@
     <text>Section 47-2404 of the District of Columbia Official Code is amended by adding a new subsection (h-1) to read as follows:</text>
     <include>
       <para>
+        <codify:insert doc="D.C. Code" path="§47-2404" after="(h)"/>
         <num>(h-1)</num>
-        <text>The Mayor may, after a hearing, suspend any license issued under this section for a first or second violation of section 9(a) of An act to prohibit the sale of tobacco to minors under sixteen years of age in the District of Columbia, passed on 2nd reading on June 29, 2021 (Enrolled version of Bill 24-20). The Mayor shall, after a hearing, revoke any license issued under this section for a third or subsequent violation of section 9(a) of An act to prohibit the sale of tobacco to minors under sixteen years of age in the District of Columbia, passed on 2nd reading on June 29, 2021 (Enrolled version of Bill 24-20).</text>
+        <text>The Mayor may, after a hearing, suspend any license issued under this section for a first or second violation of <code-cite doc="D.C. Code" path="§7-1721.08|(a)">section 9(a) of An act to prohibit the sale of tobacco to minors under sixteen years of age in the District of Columbia, passed on 2nd reading on June 29, 2021 (Enrolled version of Bill 24-20)</code-cite>. The Mayor shall, after a hearing, revoke any license issued under this section for a third or subsequent violation of <code-cite doc="D.C. Code" path="§7-1721.08|(a)">section 9(a) of An act to prohibit the sale of tobacco to minors under sixteen years of age in the District of Columbia, passed on 2nd reading on June 29, 2021 (Enrolled version of Bill 24-20)</code-cite>.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
