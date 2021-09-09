@@ -7966,14 +7966,17 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <!-- <para codify:path="§32-541.08|(e)">
+        <para codify:path="§32-541.08|(e)">
+        <!-- The linkage to the citations in this subsection is not working-->
+        <!-- This amendment has already been done by TL24-18 and is good until 3/11/2022 -->
           <num>(h)</num>
           <text>Section 108(e) (D.C. Official Code § 32-541.08(e)) is amended by striking the period and inserting the phrase "; except, that complaints arising from a violation of section 107(j) shall be filed with the Department of Insurance, Securities, and Banking for resolution pursuant to Title I of the Insurance Trade and Economic Development Amendment Act of 2000, effective April 3, 2001 (D.C. Law 13-265; D.C. Official Code § 31-2231.01 <em>et seq.</em>)." in its place.</text>
-          <codify:find-replace position="last">
-            <find>.</find>
-            <replace>; except, that complaints arising from a violation of <code-cite doc="D.C. Code" path="§32-541.07|(j)">section 107(j)</code-cite> shall be filed with the Department of Insurance, Securities, and Banking for resolution pursuant to <code-cite doc="D.C. Code" path="31|22A">Title I of the Insurance Trade and Economic Development Amendment Act of 2000, effective April 3, 2001 (D.C. Law 13-265; D.C. Official Code § 31-2231.01 <em>et seq.</em>)</code-cite>.</replace>
+          <codify:find-replace count="1">
+            <find>For complaints</find>
+            <replace>Forcomplaints</replace>
+            <!-- Placeholder for historical cite line -->
           </codify:find-replace>
-        </para> -->
+        </para>
         <para codify:path="§32-541.12|(a)">
           <num>(i)</num>
           <text>Section 112(a) (D.C. Official Code § 32-541.12(a)) is amended to read as follows:</text>
@@ -8041,37 +8044,41 @@
              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(2)</num>
             <text>Subsection (d) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Designate the existing text as paragraph (1).</text>
+              <codify:redesignate-para num-value="(1)"/>
             </para>
             <para>
               <num>(B)</num>
               <text>Add a new paragraph (2) to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert/>
                   <num>(2)</num>
-                  <text>In Fiscal Year 2022, notwithstanding any other provision of this section, up to 5 employees hired and employed with funds transferred pursuant to paragraph (1) of this subsection may perform work on matters other than enforcement pursuant to the Act; provided, that they prioritize enforcement.</text>
+                  <text>In Fiscal Year 2022, notwithstanding any other provision of this section, up to 5 employees hired and employed with funds transferred pursuant to paragraph (1) of this subsection may perform work on matters other than enforcement pursuant to<code-cite doc="D.C. Code" path="32|5|IV"> the Act</code-cite>; provided, that they prioritize enforcement.</text>
                 </para>
               </include>
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(e)">
             <num>(3)</num>
             <text>Subsection (e) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Designate the existing text as paragraph (1)</text>
+              <codify:redesignate-para num-value="(1)"/>
             </para>
             <para>
               <num>(B)</num>
               <text>Add a new paragraph (2) to read as follows:</text>
               <include lvl="1">
                 <para>
+                <codify:insert/>
                   <num>(2)</num>
                   <text>In Fiscal Year 2022, notwithstanding any other provision of this section, the Office of Administrative Hearings may use funds transferred pursuant to paragraph (1) of this subsection for matters other than the hearing of appeals of claims determinations pursuant to the Act; provided, that it prioritizes the use of such funds for the hearing of appeals of claims determinations.</text>
                 </para>
@@ -8084,16 +8091,18 @@
       <section>
         <num>4064</num>
         <text>The District of Columbia Family and Medical Leave Act of 1990, effective October 3, 1990 (D.C. Law 8-181; D.C. Official Code § 32-501 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§32-501|(1)">
           <num>(a)</num>
           <text>Section 2(1) (D.C. Official Code § 32-501(1)) is amended to read as follows:</text>
+          <!-- This references a section created only by emergency and temporary legislation -->
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(1)</num>
               <text>"Employee" means:</text>
               <para>
                 <num>(A)</num>
-                <text>For leave provided under sections 3 or 4, an individual who has:</text>
+                <text>For leave provided under <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§32-502" codify:value="32-502">3</code-cite> or <code-cite doc="D.C. Code" path="§32-503" codify:value="32-503">4</code-cite>, an individual who has:</text>
                 <para>
                   <num>(i)</num>
                   <text>Been employed by the same employer for at least 12 consecutive or non-consecutive months, inclusive of holiday, sick, or personal leave granted by the employer as part of its regular benefits whether such leave was paid or unpaid, in the 7 years immediately preceding the date on which the period of family or medical leave is to commence; and</text>
@@ -8105,24 +8114,38 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>For leave provided under section 3a, an individual employed by an employer for at least 30 days prior to the request for leave.</text>
+                <text>For leave provided under <code-cite doc="D.C. Code" path="§32-502.01">section 3a</code-cite>, an individual employed by an employer for at least 30 days prior to the request for leave.</text>
               </para>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§32-510|(b)">
           <num>(b)</num>
           <text>Section 11(b) (D.C. Official Code § 32-510(b)) is amended by striking the period and inserting the phrase "; except, that this limitations period shall toll while a claim is pending administrative review under section 10(b)." in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>; except, that this limitations period shall toll while a claim is pending administrative review under <code-cite doc="D.C. Code" path="§32-509">section 10(b)</code-cite>.</replace>
+          </codify:find-replace>
         </para>
       </section>
       <section>
         <num>4065</num>
         <text>The Workplace Leave Navigators Program Establishment Amendment Act of 2020, effective December 3, 2020 (D.C. Law 23-149; D.C. Official Code § 32-561.01 <em>et seq</em>.), is repealed.</text>
+        <codify:repeal path="§32-561.01"/>
+        <codify:repeal path="§32-561.02"/>
+        <codify:find-replace doc="D.C. Code" path="32|5|VI|heading" count="1">
+          <find>Workplace Leave Navigators.</find>
+          <replace>Workplace Leave Navigators. [Repealed].</replace>
+        </codify:find-replace>
       </section>
       <section>
         <num>4066</num>
         <text>Title I of the Fiscal Year 2017 Budget Support Act of 2016, effective October 8, 2016 (D.C. Law 21-160; 63 DCR 10775), is amended by striking the subtitle heading "SUBTITLE P. UNIVERSAL PAID LEAVE IMPLEMENTATION FUND" and inserting the subtitle heading "SUBTITLE P. UNIVERSAL PAID LEAVE FUND" in its place.</text>
+        <codify:find-replace path="32|5|V|heading" count="1">
+          <find>Universal Paid Leave Implementation Fund</find>
+          <replace>Universal Paid Leave Fund</replace>
+        </codify:find-replace>
       </section>
       <section>
         <num>4067</num>
