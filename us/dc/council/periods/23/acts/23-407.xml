@@ -8491,7 +8491,7 @@
               <text>A new paragraph (22B) is added to read as follows:</text>
               <include lvl="1">
                 <para>
-                <codify:insert after="(22A)"/>
+                  <codify:insert after="(22A)"/>
                   <num>(22B)</num>
                   <text>"Game of skill machine" has the meaning set forth in <code-cite doc="D.C. Code" path="§36-641.01|(6)">section 401(6) of the Law to Legalize Lotteries, Daily Numbers Games, and Bingo and Raffles for Charitable Purposes in the District of Columbia, passed on 2nd reading on July 28, 2020 (Enrolled version of Bill 23-760)</code-cite>.</text>
                 </para>
@@ -8503,6 +8503,7 @@
               <text>A new paragraph (53A) is added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert after="(53)"/>
                   <num>(53A)</num>
                   <text>"Voucher" means a ticket issued by a game of skill machine that is redeemable for cash winnings.</text>
                 </para>
@@ -8516,12 +8517,17 @@
             <para>
               <num>(A)</num>
               <text>The section is redesignated as § 25-113.01.</text>
+              <codify:find-replace doc="D.C. Code" path="§[25-113.01]|num" count="1" history="false" display-template="">
+                <find>[25-113.01]</find>
+                <replace>25-113.01</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>The section heading is amended to read as follows:</text>
               <include lvl="1">
                 <section>
+                  <!-- already codified -->
                   <prefix>§</prefix>
                   <num>25-113.01</num>
                   <heading>License endorsements.</heading>
@@ -8534,6 +8540,7 @@
               <text>A new subsection (e) is added to read as follows:</text>
               <include>
                 <para>
+                  <codify:insert path="§25-113.01"/>
                   <num>(e)</num>
                   <para>
                     <num>(1)</num>
@@ -8559,7 +8566,7 @@
                     </para>
                     <para>
                       <num>(B)</num>
-                      <text>Subparagraph (A) of this paragraph shall not apply to a licensee operating a passenger-carrying marine vessel in accordance with § 25-113(h).</text>
+                      <text>Subparagraph (A) of this paragraph shall not apply to a licensee operating a passenger-carrying marine vessel in accordance with <cite doc="D.C. Code" path="§25-113|(h)">§ 25-113(h)</cite>.</text>
                     </para>
                   </para>
                 </para>
@@ -8573,6 +8580,7 @@
           <text>Section 25-401 is amended by adding a new subsection (e) to read as follows:</text>
           <include>
             <para>
+              <codify:insert path="§25-401"/>
               <num>(e)</num>
               <text>An applicant for a game of skill machine endorsement shall submit to the Board with its application:</text>
               <para>
@@ -8592,6 +8600,7 @@
           <text>Section 25-508 is amended to read as follows:</text>
           <include>
             <section>
+              <codify:replace path="§25-508"/>
               <prefix>§</prefix>
               <num>25-508</num>
               <heading>Minimum fee for permits, and manager's license, and endorsement.</heading>
@@ -8626,6 +8635,7 @@
             <text>Section 25-763 is amended by adding a new subsection (g) to read as follows:</text>
             <include>
               <para>
+                <codify:insert path="§25-763"/>
                 <num>(g)</num>
                 <text>Exterior signs advertising game of skill machines shall be prohibited on the licensed establishment.</text>
               </para>
@@ -8637,6 +8647,7 @@
             <text>Section 25-765 is amended by adding a new subsection (c) to read as follows:</text>
             <include>
               <para>
+                <codify:insert path="§25-765"/>
                 <num>(c)</num>
                 <text>Advertisements related to game of skill machines shall not be placed on the interior or exterior of a window or on the exterior of a door that is used to enter or exit the licensed establishment.</text>
               </para>
@@ -8648,6 +8659,7 @@
             <text>A new section 25-786 is added to read as follows:</text>
             <include>
               <section>
+                <codify:insert doc="D.C. Code" path="25|7|IX"/>
                 <prefix>§</prefix>
                 <num>25-786</num>
                 <heading>Game of skill machine operating requirements.</heading>
@@ -8697,6 +8709,7 @@
           <text>Section 25-801 is amended by adding a new subsection (h) to read as follows:</text>
           <include>
             <para>
+              <codify:insert path="§25-801"/>
               <num>(h)</num>
               <text>An ABRA investigator may request and check the identification of a person who has played, is playing, or is attempting to play a game of skill machine. An ABRA investigator may seize fake identification used by a person under 18 years of age and may seize such records related to a game of skill machine as the investigator deems appropriate to investigate the playing of a game of skill machine by a person under 18 years of age.</text>
             </para>
@@ -8704,20 +8717,22 @@
           <aftertext>.</aftertext>
         </para>
       </section>
-      <section>
+      <section codify:path="§22-1704">
         <num>6024</num>
         <text>Section 865 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1331; D.C. Official Code § 22-1704), is amended as follows:</text>
         <para>
           <num>(a)</num>
           <text>The existing text is designated as subsection (a).</text>
+          <codify:redesignate-para num-value="(a)"/>
         </para>
         <para>
           <num>(b)</num>
           <text>A new subsection (b) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(b)</num>
-              <text>It shall be unlawful to install or operate a game of skill machine in the District except as permitted by D.C. Official Code § 25-113.01(e). Whoever shall install or operate a game of skill machine at a location not licensed under Title 25 of the District of Columbia Official Code shall be punished by imprisonment for a term of 180 days or fined not more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or both.</text>
+              <text>It shall be unlawful to install or operate a game of skill machine in the District except as permitted by D<code-cite doc="D.C. Code" path="§25-113.01|(e)">.C. Official Code § 25-113.01(e)</code-cite>. Whoever shall install or operate a game of skill machine at a location not licensed under Title 25 of the District of Columbia Official Code shall be punished by imprisonment for a term of 180 days or fined not more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or both.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -8738,7 +8753,8 @@
         <text>Section 9f of the Department of Transportation Establishment Act of 2002, effective September 20, 2012 (D.C. Law 19-168; D.C. Official Code § 50-921.14), is amended to read as follows:</text>
         <include>
           <section>
-            <num>9f</num>
+            <codify:replace path="§50-921.14"/>
+            <num codify:value="50-921.14">9f</num>
             <heading>Parking Meter and Transit Services Pay-by-Phone Transaction Fee Fund.</heading>
             <para>
               <num>(a)</num>
@@ -8749,7 +8765,7 @@
               <text>The following revenue shall be deposited in the Fund:</text>
               <para>
                 <num>(1)</num>
-                <text>Notwithstanding section 3(h) of the District of Columbia Motor Vehicle Parking Facility Act of 1942, approved February 16, 1942 (56 Stat. 91; D.C. Official Code § 50-2603(8)), all transaction fees imposed upon users who pay for parking, transit fares, Capital Bikeshare trips, and other forms of shared mobility and transportation services with the pay-by-phone system; and</text>
+                <text>Notwithstanding <code-cite doc="D.C. Code" path="§50-2603|(8)">section 3(h) of the District of Columbia Motor Vehicle Parking Facility Act of 1942, approved February 16, 1942 (56 Stat. 91; D.C. Official Code § 50-2603(8))</code-cite>, all transaction fees imposed upon users who pay for parking, transit fares, Capital Bikeshare trips, and other forms of shared mobility and transportation services with the pay-by-phone system; and</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -8778,6 +8794,10 @@
       <section>
         <num>6033</num>
         <text>Section 3(h)(1) of the District of Columbia Motor Vehicle Parking Facility Act of 1942, approved February 16, 1942 (56 Stat. 91; D.C. Official Code § 50-2603(8)(A)), is amended by striking the phrase "to be transferred to the District Department of Transportation Parking Meter Pay-by-phone Transaction Fee Fund and the DC Circulator Fund, in accordance with section 9f of the Department of Transportation Establishment Act of 2002, effective September 20, 2012 (D.C. Law 19-168; D.C. Official Code § 50-921.14)" and inserting the phrase "to be transferred to the Parking Meter and Transit Services Pay-by-Phone Transaction Fee Fund, in accordance with section 9f of the Department of Transportation Establishment Act of 2002, effective September 20, 2012 (D.C. Law 19-168; D.C. Official Code § 50-921.14), and the DC Circulator Fund, in accordance with section 11c of the Department of Transportation Establishment Act of 2002, effective March 6, 2007 (D.C. Law 16-225; D.C. Official Code § 50-921.33)" in its place.</text>
+        <codify:find-replace path="§50-2603|(8)|(A)" count="1">
+          <find>to be transferred to the District Department of Transportation Parking Meter Pay-by-phone Transaction Fee Fund and the DC Circulator Fund, in accordance with <cite path="§50-921.14">§ 50-921.14</cite></find>
+          <replace>to be transferred to the Parking Meter and Transit Services Pay-by-Phone Transaction Fee Fund, in accordance with <code-cite doc="D.C. Code" path="§50-921.14">section 9f of the Department of Transportation Establishment Act of 2002, effective September 20, 2012 (D.C. Law 19-168; D.C. Official Code § 50-921.14)</code-cite>, and <code-cite doc="D.C. Code" path="§50-921.33">the DC Circulator Fund, in accordance with section 11c of the Department of Transportation Establishment Act of 2002, effective March 6, 2007 (D.C. Law 16-225; D.C. Official Code § 50-921.33)</code-cite></replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -8794,6 +8814,7 @@
         <text>The Lead-Hazard Prevention and Elimination Act of 2008, effective March 31, 2009 (D.C. Law 17-381; D.C. Official Code § 8-231.01 <em>et seq.</em>), is amended by adding a new section 10a to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="8|2A|I" after="§8-231.09" num-value="8-231.09a"/>
             <num>10a</num>
             <heading>Lead Poisoning Prevention Fund.</heading>
             <para>
@@ -8802,11 +8823,11 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>All fees, fines, and penalties received from compliance with and enforcement of this act, and all interest earned on those monies, shall be deposited into the Fund.</text>
+              <text>All fees, fines, and penalties received from compliance with and enforcement of <code-cite doc="D.C. Code" path="8|2A|I">this act</code-cite>, and all interest earned on those monies, shall be deposited into the Fund.</text>
             </para>
             <para>
               <num>(c)</num>
-              <text>Money in the Fund shall be used to pay for the costs of implementing this act and may be used to provide low-income residents of the District with assistance to comply with the requirements of section 4, in accordance with rules issued by the Mayor.</text>
+              <text>Money in the Fund shall be used to pay for the costs of implementing <code-cite doc="D.C. Code" path="8|2A|I">this act</code-cite> and may be used to provide low-income residents of the District with assistance to comply with the requirements of <code-cite doc="D.C. Code" path="§8-231.03">section 4</code-cite>, in accordance with rules issued by the Mayor.</text>
             </para>
             <para>
               <num>(d)</num>
@@ -8828,6 +8849,7 @@
         <text>The District of Columbia Underground Storage Tank Management Act of 1990, effective March 8, 1991 (D.C. Law 8-242; D.C. Official Code § 8-113.01 <em>et seq.</em>), is amended by adding a new section 6a to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="8|1|VII" after="§8-113.05" num-value="8-113.05a"/>
             <num>6a</num>
             <heading>Underground Storage Tank Regulation Fund.</heading>
             <para>
@@ -8836,11 +8858,11 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>All fees, fines, and penalties received from compliance with and enforcement of this act, and contributions and monies received as reimbursement, and all interest earned on those monies, shall be deposited into the Fund.</text>
+              <text>All fees, fines, and penalties received from compliance with and enforcement of <code-cite doc="D.C. Code" path="8|1|VII">this act</code-cite>, and contributions and monies received as reimbursement, and all interest earned on those monies, shall be deposited into the Fund.</text>
             </para>
             <para>
               <num>(c)</num>
-              <text>Money in the Fund shall be used to pay for the costs of implementing this act and may be used for assessment, clean up, and housing and relocation assistance.</text>
+              <text>Money in the Fund shall be used to pay for the costs of implementing <code-cite doc="D.C. Code" path="8|1|VII">this act</code-cite> and may be used for assessment, clean up, and housing and relocation assistance.</text>
             </para>
             <para>
               <num>(d)</num>
@@ -8862,6 +8884,7 @@
         <text>The District of Columbia Hazardous Waste Management Act of 1977, effective March 16, 1978 (D.C. Law 2-64; D.C. Official Code § 8-1301 <em>et seq.</em>), is amended by adding a new section 21a to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="8|13|II" after="§8-1319" num-value="8-1319.01"/>
             <num>21a</num>
             <heading>Hazardous Waste and Toxic Chemical Source Reduction Fund.</heading>
             <para>
@@ -8870,11 +8893,11 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>All fees, fines, and penalties received from compliance with and enforcement of this act, and all interest earned on those monies, shall be deposited into the Fund.</text>
+              <text>All fees, fines, and penalties received from compliance with and enforcement of <code-cite doc="D.C. Code" path="8|13">this act</code-cite>, and all interest earned on those monies, shall be deposited into the Fund.</text>
             </para>
             <para>
               <num>(c)</num>
-              <text>Money in the Fund shall be used to pay for the costs of implementing this act.</text>
+              <text>Money in the Fund shall be used to pay for the costs of implementing <code-cite doc="D.C. Code" path="8|13">this act</code-cite>.</text>
             </para>
             <para>
               <num>(d)</num>
@@ -8900,6 +8923,7 @@
         <num>6051</num>
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Alcoholic Beverage Sales and Delivery Amendment Act of 2020".</text>
+        <codify:repeal doc="D.C. Act 23-405" path="§204|(a)|(1)"/>
       </section>
       <section>
         <num>6052</num>
@@ -8912,10 +8936,11 @@
             <text>Section 25-112 is amended by adding a new subsection (h) to read as follows:</text>
             <include>
               <para>
+                <codify:insert path="§25-112"/>
                 <num>(h)</num>
                 <para>
                   <num>(1)</num>
-                  <text>A retailer with commercial street frontage at the Walter E. Washington Convention Center that sells food and is approved by the Washington Convention and Sports Authority to sell alcoholic beverages for on-premises consumption ("Convention Center food and alcohol business") that registers as a Convention Center food and alcohol business with the Board and receives written authorization from ABRA may sell beer, wine, or spirits in closed containers to individuals for carry out and may deliver beer, wine, or spirits in closed containers to consumers in the District, pursuant to §§ 25-113(a)(3)(C) and 25-113.01(g); provided, that such carry out and delivery orders are accompanied by one or more prepared food items.</text>
+                  <text>A retailer with commercial street frontage at the Walter E. Washington Convention Center that sells food and is approved by the Washington Convention and Sports Authority to sell alcoholic beverages for on-premises consumption ("Convention Center food and alcohol business") that registers as a Convention Center food and alcohol business with the Board and receives written authorization from ABRA may sell beer, wine, or spirits in closed containers to individuals for carry out and may deliver beer, wine, or spirits in closed containers to consumers in the District, pursuant to <cite doc="D.C. Code" path="§25-113|(a)|(3)|(C)">§§ 25-113(a)(3)(C)</cite> and <cite doc="D.C. Code" path="§25-113.01|(g)">25-113.01(g)</cite>; provided, that such carry out and delivery orders are accompanied by one or more prepared food items.</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -8923,7 +8948,7 @@
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>After March 31, 2021, a Convention Center food and alcohol business that does not hold a valid registration under this subparagraph shall be required to obtain a carry out and delivery license as set forth in § 25-113.01(g) to sell beer, wine, or spirits in closed containers to customers to carry out and to sell and deliver to the homes of District residents beer, wine, or spirits in closed containers for delivery .</text>
+                  <text>After March 31, 2021, a Convention Center food and alcohol business that does not hold a valid registration under this subparagraph shall be required to obtain a carry out and delivery license as set forth in § <cite doc="D.C. Code" path="§25-113.01|(g)">25-113.01(g)</cite> to sell beer, wine, or spirits in closed containers to customers to carry out and to sell and deliver to the homes of District residents beer, wine, or spirits in closed containers for delivery .</text>
                 </para>
                 <para>
                   <num>(4)</num>
@@ -8938,6 +8963,7 @@
             <text>Section 25-113(a)(3)(C) is amended to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:replace path="§25-113|(a)|(3)|(C)"/>
                 <num>(C)</num>
                 <para>
                   <num>(i)</num>
@@ -8945,7 +8971,7 @@
                 </para>
                 <para>
                   <num>(ii)</num>
-                  <text>Board approval shall not be required for a registration under this subparagraph that occurs prior to April 1, 2021.  After March 31, 2021, an on-premises retailer that does not hold a valid registration under this subparagraph shall be required to obtain a carry out and delivery endorsement as set forth in § 25-113.01(f) in order to sell for carry out and deliver alcoholic beverages.</text>
+                  <text>Board approval shall not be required for a registration under this subparagraph that occurs prior to April 1, 2021.  After March 31, 2021, an on-premises retailer that does not hold a valid registration under this subparagraph shall be required to obtain a carry out and delivery endorsement as set forth in <cite doc="D.C. Code" path="§25-113.01|(f)">§ 25-113.01(f)</cite> in order to sell for carry out and deliver alcoholic beverages.</text>
                 </para>
               </para>
             </include>
@@ -8956,6 +8982,7 @@
             <text>Newly designated section 25-113.01 is amended by adding new subsections (f) and (g) to read as follows:</text>
             <include>
               <para>
+                <codify:insert path="§25-113.01"/>
                 <num>(f)</num>
                 <para>
                   <num>(1)</num>
@@ -8975,14 +9002,15 @@
                 </para>
                 <para>
                   <num>(5)</num>
-                  <text>An on-premises retailer licensee that has registered with the Board under § 25-113(a)(3)(C) before April 1, 2021 ("registered licensee"), shall not be required to apply with the Board for an endorsement under this subsection, and the registered licensee shall be granted the carry out and delivery endorsement upon request to the Board, if the registered licensee makes the request and pays the annual fee required by paragraph (4) of this subsection by March 31, 2021.</text>
+                  <text>An on-premises retailer licensee that has registered with the Board under <cite doc="D.C. Code" path="§25-113|(a)|(3)|(C)">§ 25-113(a)(3)(C)</cite> before April 1, 2021 ("registered licensee"), shall not be required to apply with the Board for an endorsement under this subsection, and the registered licensee shall be granted the carry out and delivery endorsement upon request to the Board, if the registered licensee makes the request and pays the annual fee required by paragraph (4) of this subsection by March 31, 2021.</text>
                 </para>
               </para>
               <para>
+                <codify:insert path="§25-113.01"/>
                 <num>(g)</num>
                 <para>
                   <num>(1)</num>
-                  <text>Effective April 1, 2021, a Convention Center food and alcohol business that has registered with the Board under § 25-112(h), shall obtain a carry out and delivery license from the Board to be eligible to sell beer, wine, or spirits in closed containers to individuals for carry out, or deliver beer, wine, or spirits in closed containers to consumers in the District.</text>
+                  <text>Effective April 1, 2021, a Convention Center food and alcohol business that has registered with the Board under <code-cite doc="D.C. Code" path="§25-112|(h)">§ 25-112(h)</code-cite>, shall obtain a carry out and delivery license from the Board to be eligible to sell beer, wine, or spirits in closed containers to individuals for carry out, or deliver beer, wine, or spirits in closed containers to consumers in the District.</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -8998,7 +9026,7 @@
                 </para>
                 <para>
                   <num>(5)</num>
-                  <text>A Convention Center food and alcohol business that has registered with the Board under § 25-112(h) before April 1, 2021 ("registered Convention Center food and alcohol business"), shall not be required to apply with the Board for a license under  this subsection, and the registered Convention Center food and alcohol business shall be granted a carry out and delivery license upon request to the Board, if the registered Convention Center food and alcohol business makes the request and pays the annual fee required by paragraph (4) of this subsection by March 31, 2021.</text>
+                  <text>A Convention Center food and alcohol business that has registered with the Board under <cite doc="D.C. Code" path="§25-112|(h)">§ 25-112(h)</cite> before April 1, 2021 ("registered Convention Center food and alcohol business"), shall not be required to apply with the Board for a license under  this subsection, and the registered Convention Center food and alcohol business shall be granted a carry out and delivery license upon request to the Board, if the registered Convention Center food and alcohol business makes the request and pays the annual fee required by paragraph (4) of this subsection by March 31, 2021.</text>
                 </para>
                 <para>
                   <num>(6)</num>
@@ -9012,83 +9040,128 @@
         <para>
           <num>(b)</num>
           <text>Chapter 7 is amended as follows:</text>
-          <para>
+          <para codify:path="§25-721">
             <num>(1)</num>
             <text>Section 25-721 is amended as follows:</text>
-            <para>
+            <para codify:path="(a-1)">
               <num>(A)</num>
               <text>Subsection (a-1) is amended by striking the phrase "7:00 a.m. and 12:00 a.m." and inserting the phrase "6:00 a.m. and 1:00 a.m." in its place.</text>
+              <codify:find-replace count="1">
+                <find>7:00 a.m. and 12:00 a.m.</find>
+                <replace>6:00 a.m. and 1:00 a.m.</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(c)">
               <num>(B)</num>
               <text>Subsection (c) is amended as follows:</text>
-              <para>
+              <para codify:path="(1)">
                 <num>(i)</num>
                 <text>Paragraph (1) is amended by striking the phrase "2:00 a.m. and 8:00 a.m." and inserting the phrase "2:00 a.m. and 6:00 a.m." in its place.</text>
+                <codify:find-replace count="1">
+                  <find>2:00 a.m. and 8:00 a.m.</find>
+                  <replace>2:00 a.m. and 6:00 a.m.</replace>
+                </codify:find-replace>
               </para>
-              <para>
+              <para codify:path="(2)">
                 <num>(ii)</num>
                 <text>Paragraph (2) is amended by striking the phrase "3:00 a.m. and 8:00 a.m." and inserting the phrase "3:00 a.m. 6:00 a.m." in its place.</text>
+                <codify:find-replace count="1">
+                  <find>3:00 a.m. and 8:00 a.m.</find>
+                  <replace>3:00 a.m. 6:00 a.m.</replace>
+                </codify:find-replace>
               </para>
             </para>
-            <para>
+            <para codify:path="(d)">
               <num>(C)</num>
               <text>Subsection (d) is amended by striking the phrase "7:00 a.m. and midnight" and inserting the phrase "6:00 a.m. and 1:00 a.m." in its place.</text>
+              <codify:find-replace count="1">
+                <find>7:00 a.m. and midnight</find>
+                <replace>6:00 a.m. and 1:00 a.m.</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="§25-722">
             <num>(2)</num>
             <text>Section 25-722 is amended as follows:</text>
-            <para>
+            <para codify:path="(a)">
               <num>(A)</num>
               <text>Subsection (a) is amended by striking the phrase "7:00 a.m. and midnight" and inserting the phrase "6:00 a.m. and 1:00 a.m." in its place.</text>
+              <codify:find-replace count="1">
+                <find>7:00 a.m. and midnight</find>
+                <replace>6:00 a.m. and 1:00 a.m.</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(b)">
               <num>(B)</num>
               <text>Subsection (b) is amended by striking the phrase "7:00 a.m. and midnight" and inserting the phrase "6:00 a.m. and 1:00 a.m." in its place.</text>
+              <codify:find-replace count="1">
+                <find>7:00 a.m. and midnight</find>
+                <replace>6:00 a.m. and 1:00 a.m.</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="§25-723">
             <num>(3)</num>
             <text>Section 25-723 is amended as follows:</text>
-            <para>
+            <para codify:path="(b)">
               <num>(A)</num>
               <text>Subsection (b) is amended as follows:</text>
-              <para>
+              <para codify:path="(1)">
                 <num>(i)</num>
                 <text>Paragraph (1) is amended by striking the phrase "2:00 a.m. and 8:00 a.m." and inserting the phrase "2:00 a.m. and 6:00 a.m." in its place.</text>
+                <codify:find-replace count="1">
+                  <find>2:00 a.m. and 8:00 a.m.</find>
+                  <replace>2:00 a.m. and 6:00 a.m.</replace>
+                </codify:find-replace>
               </para>
-              <para>
+              <para codify:path="(2)">
                 <num>(ii)</num>
                 <text>Paragraph (2) is amended by striking the phrase "3:00 a.m. and 8:00 a.m." and inserting the phrase "3:00 a.m. and 6:00 a.m." in its place.</text>
+                <codify:find-replace count="1">
+                  <find>3:00 a.m. and 8:00 a.m.</find>
+                  <replace>2:00 a.m. and 6:00 a.m.</replace>
+                </codify:find-replace>
               </para>
             </para>
-            <para>
+            <para codify:path="(c)|(1)">
               <num>(B)</num>
               <text>Subsection (c)(1) is amended as follows:</text>
-              <para>
+              <para codify:path="(C)">
                 <num>(i)</num>
                 <text>Subparagraph (C) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+                <codify:find-replace count="1">
+                  <find>; and</find>
+                  <replace>;</replace>
+                </codify:find-replace>
               </para>
-              <para>
+              <para codify:path="(D)">
                 <num>(ii)</num>
                 <text>Subparagraph (D) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+                <codify:find-replace position="last">
+                  <find>.</find>
+                  <replace>; and</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(iii)</num>
                 <text>A new subparagraph (E) is added to read as follows:</text>
                 <include lvl="2">
                   <para>
+                    <codify:insert/>
                     <num>(E)</num>
-                    <text>The Saturday and Sunday adjacent to Veterans Day, Christmas Day, and District of Columbia Emancipation Day as set forth in § 1-612.02(a); except, that if the holiday under this subparagraph occurs on a Tuesday, the extended hours shall occur on the preceding Saturday and Sunday and if a holiday under this subparagraph occurs on a Wednesday or Thursday, the extended hours shall occur on the following Saturday and Sunday.</text>
+                    <text>The Saturday and Sunday adjacent to Veterans Day, Christmas Day, and District of Columbia Emancipation Day as set forth in <cite doc="D.C. Code" path="§1-612.02|(a)">§ 1-612.02(a)</cite>; except, that if the holiday under this subparagraph occurs on a Tuesday, the extended hours shall occur on the preceding Saturday and Sunday and if a holiday under this subparagraph occurs on a Wednesday or Thursday, the extended hours shall occur on the following Saturday and Sunday.</text>
                   </para>
                 </include>
                 <aftertext>.</aftertext>
               </para>
             </para>
-            <para>
+            <para codify:path="(e)|(1)">
               <num>(C)</num>
               <text>Subsection (e)(1) is amended by striking the phrase "2017, January 14 through January 22" and inserting the phrase "2021, January 9 through January 24" in its place.</text>
+              <codify:find-replace count="1">
+                <find>2017, January 14 through January 22</find>
+                <replace>2021, January 9 through January 24</replace>
+              </codify:find-replace>
             </para>
           </para>
         </para>
@@ -9099,10 +9172,12 @@
         <para>
           <num>(a)</num>
           <text>Section 204(a)(1) of the Coronavirus Support Temporary Amendment Act of 2020, enacted on July 7, 2020 (D.C. Act 23-334; 67 DCR 8622), is repealed.</text>
+          <codify:marginalia display="Amend § 25-112"/>
         </para>
         <para>
           <num>(b)</num>
           <text>Amendatory section 204(a)(1) and amendatory section 25-113(a)(3)(C) of the District of Columbia Official Code in section 204(a)(2)(A) of the Coronavirus Support Temporary Amendment Act of 2020, enacted on July 7, 2020 (D.C. Act 23-334; 67 DCR 8622), is repealed.</text>
+          <codify:marginalia display="Amend §§ 25-112, 25-113"/>
         </para>
       </section>
     </container>
@@ -9120,6 +9195,7 @@
         <text>Section 6d of the Construction Codes Approval and Amendments Act of 1986, effective June 25, 2002 (D.C. Law 14-162; D.C. Official Code § 6-1405.04), is amended by adding a new subsection (f) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§6-1405.04"/>
             <num>(f)</num>
             <text>The Department may establish an online platform that may, at the Director's discretion, serve as the exclusive mechanism by which an individual or entity may hire a third-party inspector to perform an inspection authorized by this section. The Department may charge a fee for the use of the online platform by an individual or entity and by the third-party inspectors.</text>
           </para>
@@ -9139,6 +9215,10 @@
       <section>
         <num>6072</num>
         <text>Section 8(d) of the District of Columbia Traffic Act, 1925, approved March 3, 1925 (43 Stat. 1123; D.C. Official Code § 50-1401.02(d)), is amended by striking the figure "$50" and inserting the figure "$100" in its place.</text>
+        <codify:find-replace path="§50-1401.02|(d)" count="1">
+          <find>$50</find>
+          <replace>$100</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -9150,7 +9230,7 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Tag Transfer Fee Update Amendment Act of 2020".</text>
       </section>
-      <section>
+      <section codify:path="§50-1501.02|(e)">
         <num>6082</num>
         <text>Section 2(e) of the District of Columbia Revenue Act of 1937, approved August 17, 1937 (50 Stat. 680; D.C. Official Code § 50-1501.02(e)), is amended as follows:</text>
         <para>
@@ -9161,6 +9241,10 @@
           <num>(b)</num>
           <text>Paragraph (5) is amended by striking the figure "$7" and inserting the figure "$12" in its place.</text>
         </para>
+        <codify:find-replace count="2">
+          <find>$7</find>
+          <replace>$12</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -9172,11 +9256,19 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "ATE Reporting Requirement Amendment Act of 2020".</text>
       </section>
+      <codify:insert doc="D.C. Code" path="50|22|V" after="B" history="false">
+        <container>
+          <prefix>Part</prefix>
+          <num>C</num>
+          <heading>Automated Traffic Enforcement Reporting to Council.</heading>
+        </container>
+      </codify:insert>
       <section>
         <num>6092</num>
         <text>Title IX of the Fiscal Year 1997 Budget Support Act of 1996, effective April 9, 1997 (D.C. Law 11-198; D.C. Official Code § 50-2209.01 <em>et seq.</em>), is amended by adding a new section 905 to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="50|22|V|C" num-value="50-2209.21"/>
             <num>905</num>
             <heading>ATE Reporting to Council.</heading>
             <para>
@@ -9217,6 +9309,9 @@
         <num>6102</num>
         <heading>Feasibility study.</heading>
         <text>By July 1, 2021, the Department of Energy and Environment shall make publicly available a study that evaluates and makes recommendations regarding the District withdrawing from the PJM capacity market, including outlining the potential advantages and disadvantages of withdrawal, the anticipated effects of <em> Calpine Corp. v. PJM Interconnection, L.L.C.</em>, 169 FERC ¶ 61,239 (2019) on the District, and the procedure for withdrawal from the PJM capacity market, including any necessary legislative changes.</text>
+        <codify:annotation doc="D.C. Code" path="§34-1437" type="Editor's Notes" history="false">
+          For a requirement that DOEE make publicly available a study that evaluates and makes recommendations regarding the District withdrawing from the PJM capacity market, see <cite doc="D.C. Act 23-407" path="§6102">§ 6102 of D.C. Act 23-407</cite>.
+        </codify:annotation>
       </section>
     </container>
     <container>
@@ -9248,15 +9343,20 @@
         <para>
           <num>(a)</num>
           <text>Section 3a(d)(1) (D.C. Official Code § 48-402.01(d)(1)) is amended by striking the phrase "base period of 5 years" and inserting the phrase "base period of at least 5 years" in its place.</text>
+          <codify:find-replace path="§48-402.01|(d)|(1)" count="1">
+            <find>base period of 5 years</find>
+            <replace>base period of at least 5 years</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>Section 3b (D.C. Official Code § 48-402.02) is amended to read as follows:</text>
           <include>
             <section>
-              <num>3b</num>
+              <codify:replace path="§48-402.02"/>
+              <num codify:value="48-402.02">3b</num>
               <heading>Limitations on expenditures.</heading>
-              <text>Total real property tax abatements provided for certain urban farms established pursuant to D.C. Official Code § 47-868 and the tax-exempt status conferred by D.C. Official Code § 47-1005(c) shall not exceed $150,000 each year.</text>
+              <text>Total real property tax abatements provided for certain urban farms established pursuant to <code-cite doc="D.C. Code" path="§47-868">D.C. Official Code § 47-868</code-cite> and the tax-exempt status conferred by <code-cite doc="D.C. Code" path="§47-1005|(c)">D.C. Official Code § 47-1005(c)</code-cite> shall not exceed $150,000 each year.</text>
             </section>
           </include>
           <aftertext>.</aftertext>
@@ -9265,6 +9365,10 @@
       <section>
         <num>6123</num>
         <text>Section 47-1005(c) of the District of Columbia Official Code is amended by striking the phrase "Department of General Services" and inserting the phrase "Department of Energy and Environment" in its place.</text>
+        <codify:find-replace path="§47-1005|(c)" count="1">
+          <find>Department of General Services</find>
+          <replace>Department of Energy and Environment</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -9277,6 +9381,7 @@
         <text>This subtitle may be cited as the "Waste Disposal Fees Regulation Amendment Act of 2020".</text>
       </section>
       <section>
+        <codify:marginalia display="DCMR"/>
         <num>6132</num>
         <text>Section 720.8 of Title 21 of the District of Columbia Municipal Regulations (21 DCMR § 720.8) is amended to read as follows:</text>
         <include>
@@ -9298,6 +9403,7 @@
         <text>This subtitle may be cited as the "Fast Ferry Grant Act of 2020".</text>
       </section>
       <section>
+        <codify:marginalia display="Not Codified"/>
         <num>6142</num>
         <para>
           <num>(a)</num>
@@ -9314,7 +9420,7 @@
     <prefix>TITLE</prefix>
     <num>VII</num>
     <heading>FINANCE AND REVENUE</heading>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>A</num>
       <heading>PERSONAL PROPERTY TAX</heading>
@@ -9331,6 +9437,7 @@
           <text>Section 47-1508(a) is amended by adding a new paragraph (13) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert path="§47-1508|(a)" placeholder-value="[Applicable as of July 1, 2021]"/>
               <num>(13)</num>
               <para>
                 <num>(A)</num>
@@ -9346,33 +9453,42 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>This paragraph shall not be construed to affect the value of a machine, device, piece of equipment, or computer, or the value of real property, or to affect the taxable status of any other property subject to tax under this title.</text>
+                <text>This paragraph shall not be construed to affect the value of a machine, device, piece of equipment, or computer, or the value of real property, or to affect the taxable status of any other property subject to tax under <cite doc="D.C. Code" path="47">this title</cite>.</text>
               </para>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§47-1521|(a)">
           <num>(b)</num>
           <text>Section 47-1521 is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(1)</num>
             <text>Paragraph (1) is redesignated as paragraph (1A).</text>
+            <!-- <codify:find-replace count="1">
+              <find>(1)</find>
+              <replace>(1A)</replace>
+            </codify:find-replace> waiting for July 1, 2021 -->
           </para>
           <para>
             <num>(2)</num>
             <text>A new paragraph (1) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(1)" num-value="(1A)" placeholder-value="[Applicable as of July 1, 2021]"/>
                 <num>(1)</num>
                 <text>"Computer software" means a set of statements or instructions that when incorporated in a machine-usable medium is capable of causing a machine or device having information processing capabilities to indicate, perform, or achieve a particular function, task, or result.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(4)">
             <num>(3)</num>
             <text>Paragraph (4) is amended by striking the phrase "goods and chattels" and inserting the phrase "goods and chattels, including computer software," in its place.</text>
+            <!-- <codify:find-replace count="1">
+              <find>goods and chattels</find>
+              <replace>goods and chattels, including computer software,</replace>
+            </codify:find-replace> -->
           </para>
         </para>
       </section>
@@ -9380,9 +9496,14 @@
         <num>7003</num>
         <heading>Applicability.</heading>
         <text>This subtitle shall apply as of July 1, 2021.</text>
+        <codify:applicability doc="D.C. Act 23-407" path="§7002" date="2021-07-01"/>
+        <codify:annotation doc="D.C. Code" path="§47-1508" type="Applicability" history="false"><cite doc="D.C. Act 23-407" path="§7003">Section 7003 of D.C. Act 23-407</cite> provided that the changes made to this section by D.C. Act 23-407 shall apply as of July 1, 2021.
+        </codify:annotation>
+        <codify:annotation doc="D.C. Code" path="§47-1521" type="Applicability" history="false"><cite doc="D.C. Act 23-407" path="§7003">Section 7003 of D.C. Act 23-407</cite> provided that the changes made to this section by D.C. Act 23-407 shall apply as of July 1, 2021.
+        </codify:annotation>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>B</num>
       <heading>UNINCORPORATED BUSINESS FRANCHISE TAX</heading>
@@ -9394,11 +9515,18 @@
       <section>
         <num>7012</num>
         <text>Section 47-1808.02(1) of the District of Columbia Official Code is amended by striking the phrase "Internal Revenue Code of 1986." and inserting the phrase "Internal Revenue Code of 1986. Taxable income shall include gain from the sale or other disposition of any assets, including tangible assets and intangible assets, including real property and interests in real property, in the District, even when such a sale or other disposition results in the termination of an unincorporated business." in its place.</text>
+        <!-- <codify:find-replace path="§47-1808.02|(1)" count="1">
+          <find>Internal Revenue Code of 1986.</find>
+          <replace>Internal Revenue Code of 1986. Taxable income shall include gain from the sale or other disposition of any assets, including tangible assets and intangible assets, including real property and interests in real property, in the District, even when such a sale or other disposition results in the termination of an unincorporated business.</replace>
+        </codify:find-replace> -->
       </section>
       <section>
         <num>7013</num>
         <heading>Applicability.</heading>
         <text>This subtitle shall apply as of January 1, 2021.</text>
+        <codify:applicability doc="D.C. Act 23-407" path="§7012" date="2021-07-01"/>
+        <codify:annotation doc="D.C. Code" path="§47-1808.02" type="Applicability" history="false"><cite doc="D.C. Act 23-407" path="§7003">Section 7003 of D.C. Act 23-407</cite> provided that the changes made to this section by D.C. Act 23-407 shall apply as of July 1, 2021.
+        </codify:annotation>
       </section>
     </container>
     <container>
@@ -9413,9 +9541,13 @@
       <section>
         <num>7022</num>
         <text>Section 102(d) of the Ballpark Omnibus Financing and Revenue Act of 2004, effective April 8, 2005 (D.C. Law 15-320; D.C. Official Code § 10-1601.02(d)), is amended by striking the phrase "due on the bonds." and inserting the phrase "due on the bonds; provided, that any excess that accrues during Fiscal Year 2020, Fiscal Year 2021, or Fiscal Year 2022 shall be deposited in the unrestricted fund balance of the General Fund during the fiscal year in which it accrues." in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§10-1601.02|(d)" count="1">
+          <find>due on the bonds.</find>
+          <replace>due on the bonds; provided, that any excess that accrues during Fiscal Year 2020, Fiscal Year 2021, or Fiscal Year 2022 shall be deposited in the unrestricted fund balance of the General Fund during the fiscal year in which it accrues.</replace>
+        </codify:find-replace>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>D</num>
       <heading>EVENTS DC AUTHORITY</heading>
@@ -9427,34 +9559,44 @@
       <section>
         <num>7032</num>
         <text>Title II of the Washington Convention Center Authority Act of 1994, effective September 28, 1994 (D.C. Law 10-188; D.C. Official Code § 10-1202.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§10-1202.03">
           <num>(a)</num>
           <text>Section 203 (D.C. Official Code § 10-1202.03) is amended as follows:</text>
-          <para>
+          <para codify:path="(10K)">
             <num>(1)</num>
             <text>Paragraph (10K) is amended by striking the period and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>.</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>A new paragraph (10L) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(10L)</num>
-                <text>To issue grants pursuant to section 208(h) to support go-go music in the District of Columbia.</text>
+                <text>To issue grants pursuant to <code-cite doc="D.C. Code" path="§10-1202.08|(h)">section 208(h)</code-cite> to support go-go music in the District of Columbia.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§10-1202.04|(m)">
           <num>(b)</num>
           <text>Section 204(m) (D.C. Official Code § 10-1202.04(m)), is amended by striking the phrase "Fiscal Year 2019 or Fiscal Year 2020" and inserting the phrase "Fiscal Year 2020 or Fiscal Year 2021" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Fiscal Year 2019 or Fiscal Year 2020</find>
+            <replace>Fiscal Year 2020 or Fiscal Year 2021</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§10-1202.08">
           <num>(c)</num>
           <text>Section 208 (D.C. Official Code § 10-1202.08) is amended by adding a new subsection (h) to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(h)</num>
               <text>For Fiscal Year 2021, the Authority shall issue not less than $1 million in grants from the Convention Center Fund to support go-go related programming, branding, tourism, and marketing; provided, that funds are available for such purpose and that the Authority first satisfy its current liabilities and legally required reserves, which shall not include the elective purchase or redemption of outstanding indebtedness, unless such purchase or redemption is for the purpose of securing a lower cost of borrowing and lower debt service payments.</text>
             </para>
@@ -9463,7 +9605,7 @@
         </para>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>E</num>
       <heading>PARKSIDE PARCEL E AND J MIXED-INCOME APARTMENTS TAX ABATEMENT</heading>
@@ -9472,20 +9614,28 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Parkside Parcel E and J Mixed-Income Apartments Tax Abatement Amendment Act of 2020".</text>
       </section>
-      <section>
+      <section codify:path="§47-4658">
         <num>7042</num>
         <text>Section 47-4658 of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="(b)">
           <num>(a)</num>
           <text>Subsection (b) is amended by striking the number "2020" and inserting the number "2022" in its place.</text>
+          <codify:find-replace count="1">
+            <find>2020</find>
+            <replace>2022</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(b)</num>
           <text>Subsection (c) is amended by striking the number "2020" and inserting the number "2022" in its place.</text>
+          <codify:find-replace count="1">
+            <find>2020</find>
+            <replace>2022</replace>
+          </codify:find-replace>
         </para>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>F</num>
       <heading>OFF-PREMISES ALCOHOL TAX RATE</heading>
@@ -9494,28 +9644,44 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Off-Premises Alcohol Tax Rate Amendment Act of 2020".</text>
       </section>
-      <section>
+      <section codify:path="§47-2002|(a)">
         <num>7052</num>
         <text>Section 47-2002(a) of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="(3)|(A)">
           <num>(a)</num>
           <text>Paragraph (3)(A) is amended by striking the phrase "defined in § 47-2001(g-1)" and inserting the phrase "defined in § 47-2001(g-1) or spirituous or malt liquors, beer, and wine sold by an alcoholic beverage licensee acting under authority of §§ 25-112(h)(1), 25-113(a)(3)(C), or 25-113.01(f) or (g)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>defined in <cite doc="D.C. Code" path="§47-2001|(g-1)">§ 47-2001(g-1)</cite></find>
+            <replace>defined in § 47-2001(g-1) or spirituous or malt liquors, beer, and wine sold by an alcoholic beverage licensee acting under authority of §§ 25-112(h)(1), 25-113(a)(3)(C), or 25-113.01(f) or (g)</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3A)">
           <num>(b)</num>
           <text>Paragraph (3A) is amended by striking the phrase "where sold" and inserting the phrase "where sold, unless sold by an alcoholic beverage licensee acting under authority of §§ 25-112(h)(1), 25-113(a)(3)(C), or 25-113.01(f) or (g)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>where sold</find>
+            <replace>where sold, unless sold by an alcoholic beverage licensee acting under authority of §§ 25-112(h)(1), 25-113(a)(3)(C), or 25-113.01(f) or (g)</replace>
+          </codify:find-replace>
         </para>
       </section>
-      <section>
+      <section codify:path="§47-2202|(a)">
         <num>7053</num>
         <text>Section 47-2202(a) of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="(3)|(A)">
           <num>(a)</num>
           <text>Paragraph (3)(A) is amended by striking the phrase "defined in § 47-2001(g-1)" and inserting the phrase "defined in § 47-2001(g-1) or spirituous or malt liquors, beer, and wine sold by an alcoholic beverage licensee acting under authority of §§ 25-112(h)(1), 25-113(a)(3)(C), or 25-113.01(f) or (g)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>defined in <cite doc="D.C. Code" path="§47-2001|(g-1)">§ 47-2001(g-1)</cite></find>
+            <replace>defined in § 47-2001(g-1) or spirituous or malt liquors, beer, and wine sold by an alcoholic beverage licensee acting under authority of §§ 25-112(h)(1), 25-113(a)(3)(C), or 25-113.01(f) or (g)</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3A)">
           <num>(b)</num>
           <text>Paragraph (3A) is amended by striking the phrase "where sold" and inserting the phrase "where sold, unless sold by an alcoholic beverage licensee acting under authority of §§ 25-112(h)(1), 25-113(a)(3)(C), or 25-113.01(f) or (g)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>where sold</find>
+            <replace>where sold" and inserting the phrase "where sold, unless sold by an alcoholic beverage licensee acting under authority of §§ 25-112(h)(1), 25-113(a)(3)(C), or 25-113.01(f) or (g)</replace>
+          </codify:find-replace>
         </para>
       </section>
     </container>
@@ -9645,7 +9811,7 @@
         <text>The Senior Strategic Plan Amendment Act of 2018, effective March 28, 2019 (D.C. Law 22-267; 66 DCR 1428), is amended by adding a new section 3a to read as follows:</text>
         <include>
           <section>
-            <codify:insert doc="D.C. Law 22-267" after="§3"/> 
+            <codify:insert doc="D.C. Law 22-267" after="§3"/>
             <!-- This doesn't do anything and annotation will not work -->
             <num>3a</num>
             <heading>Applicability.</heading>
@@ -9986,6 +10152,9 @@
           <num>(c)</num>
           <text>A grant awarded pursuant to this section shall be in addition to any other grant awarded by Events DC in support of historical education and research.</text>
         </para>
+        <codify:annotation doc="D.C. Code" path="§10-1202.03" type="Editor's Notes" history="false">
+        For a requirement that the Washington Convention and Sports Authority ("Events DC") award a grant to a nonprofit organization occupying space in the Carnegie Library building that is engaged in collecting, interpreting, and sharing the history of the District, see <cite doc="D.C. Act 23-407" path="§7112">§ 7112 of D.C. Act 23-407</cite>.
+      </codify:annotation>
       </section>
     </container>
     <container>
@@ -10012,9 +10181,12 @@
           <num>(c)</num>
           <text>A grant awarded pursuant to this section shall be in addition to any other grant awarded by Events DC in support of the Festival.</text>
         </para>
+        <codify:annotation doc="D.C. Code" path="§10-1202.03" type="Editor's Notes" history="false">
+        For a requirement that the Washington Convention and Sports Authority ("Events DC") award a matching grant to a nonprofit organization that organizes and produces an event or events as part of the official, month-long National Cherry Blossom Festival ("Festival") of up to $1,000,000 at a rate of $2 for every dollar that the organization has raised in donations by April 30, 2021, see <cite doc="D.C. Act 23-407" path="§7122">§ 7122 of D.C. Act 23-407</cite>.
+      </codify:annotation>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>K</num>
       <heading>MOTOR VEHICLE FUEL TAX</heading>
@@ -10026,25 +10198,39 @@
       <section>
         <num>7132</num>
         <text>Chapter 23 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="§47-2301">
           <num>(a)</num>
           <text>Section 47-2301 is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by adding a new paragraph (4) to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(4)</num>
                 <text>This subsection shall not apply after September 30, 2020.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
+            <codify:find-replace path="(1)" count="1">
+              <find>The</find>
+              <replace>[Not applicable after September 30, 2020] The</replace>
+            </codify:find-replace>
+            <codify:find-replace path="(2)" count="1">
+              <find>The</find>
+              <replace>[Not applicable after September 30, 2020] The</replace>
+            </codify:find-replace>
+            <codify:find-replace path="(3)" count="1">
+              <find>In</find>
+              <replace>[Not applicable after September 30, 2020] In</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>A new subsection (a-1) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert/>
                 <num>(a-1)</num>
                 <para>
                   <num>(1)</num>
@@ -10070,11 +10256,12 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(3)</num>
             <text>Subsection (c) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(c)</num>
                 <text>The Chief Financial Officer of the District of Columbia shall:</text>
                 <para>
@@ -10090,11 +10277,12 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§47-2302">
           <num>(b)</num>
           <text>Section 47-2302 is amended by adding a new paragraph (24) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(24)</num>
               <para>
                 <num>(A)</num>
@@ -10122,14 +10310,15 @@
         <text>Section 102a of the Highway Trust Fund Establishment Act of 1996, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 9-111.01a), is amended by adding a new subsection (c) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§9-111.01a"/>
             <num>(c)</num>
-            <text>Revenue derived from the local transportation surcharge on motor vehicle fuels sold or otherwise disposed of by an importer or by a user, or used for commercial purposes, pursuant to D.C. Official Code § 47-2301(a-1), shall be transferred to the Capital Improvements Program to fund the renovation, repair, and maintenance of local transportation infrastructure.</text>
+            <text>Revenue derived from the local transportation surcharge on motor vehicle fuels sold or otherwise disposed of by an importer or by a user, or used for commercial purposes, pursuant to <code-cite doc="D.C. Code" path="§47-2301|(a-1)">D.C. Official Code § 47-2301(a-1)</code-cite>, shall be transferred to the Capital Improvements Program to fund the renovation, repair, and maintenance of local transportation infrastructure.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>L</num>
       <heading>NEW COMMUNITIES CLARIFICATION</heading>
@@ -10143,6 +10332,7 @@
         <text>Section 203(b) of the Housing Production Trust Fund Act of 1988, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 42-2812.03(b)), is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace path="§42-2812.03|(b)"/>
             <num>(b)</num>
             <para>
               <num>(1)</num>
@@ -10157,7 +10347,7 @@
         <aftertext>.</aftertext>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>M</num>
       <heading>QHTC TAX INCENTIVES MODIFICATION</heading>
@@ -10172,73 +10362,105 @@
         <para>
           <num>(a)</num>
           <text>Section 47-1508(a)(10) is repealed.</text>
+          <!-- <codify:repeal doc="D.C. Code" path="§47-1508|(a)|(10)"/> -->
         </para>
         <para>
           <num>(b)</num>
           <text>Chapter 18 is amended as follows:</text>
-          <para>
+          <para codify:path="§47-1803.03|(a)|(18)">
             <num>(1)</num>
             <text>Section 47-1803.03(a)(18) is amended as follows:</text>
-            <para>
+            <para codify:path="(A)">
               <num>(A)</num>
               <text>Subparagraph (A) is amended by striking the phrase "the lesser of $25,000 (or $40,000 in the case of a Qualified High Technology Company ("QHTC"))" and inserting the phrase "the lesser of $25,000" in its place.</text>
+              <!-- <codify:find-replace count="1">
+                <find>the lesser of $25,000 (or $40,000 in the case of a Qualified High Technology Company ("QHTC"))</find>
+                <replace>the lesser of $25,000</replace>
+              </codify:find-replace> -->
             </para>
-            <para>
+            <para codify:path="(B)">
               <num>(B)</num>
               <text>Subparagraph (B) is repealed.</text>
+              <!-- <codify:repeal/> -->
             </para>
           </para>
-          <para>
+          <para codify:path="§47-1817.01|(5)|(A)|(ii)">
             <num>(2)</num>
             <text>Section 47-1817.01(5)(A)(ii) is amended by striking the number "2" and inserting the number "10" in its place.</text>
+            <!-- <codify:find-replace count="1">
+              <find>2</find>
+              <replace>10</replace>
+            </codify:find-replace> -->
           </para>
           <para>
             <num>(3)</num>
             <text>Section 47-1817.02 is repealed.</text>
+            <!-- <codify:repeal path="§47-1817.02"/> -->
           </para>
-          <para>
+          <para codify:path="§47-1817.03">
             <num>(4)</num>
             <text>Section 47-1817.03 is amended as follows:</text>
-            <para>
+            <para codify:path="(a)">
               <num>(A)</num>
               <text>Subsection (a) is amended by striking the phrase "imposed by § 47-1817.06" and inserting the phrase "imposed by § 47-1807.02" in its place.</text>
+              <!-- <codify:find-replace count="1">
+                <find>imposed by <cite doc="D.C. Code" path="§47-1817.06">§ 47-1817.06</cite></find>
+                <replace>imposed by <cite doc="D.C. Code" path="§47-1807.02">§ 47-1807.02</cite></replace>
+              </codify:find-replace> -->
             </para>
-            <para>
+            <para codify:path="(a-1)">
               <num>(B)</num>
               <text>Subsection (a-1) is amended by striking the phrase "imposed by § 47-1817.06" and inserting the phrase "imposed by § 47-1807.02" in its place.</text>
+              <!-- <codify:find-replace count="1">
+                <find>imposed by <cite doc="D.C. Code" path="§47-1817.06">§ 47-1817.06</cite></find>
+                <replace>imposed by <cite doc="D.C. Code" path="§47-1807.02">§ 47-1807.02</cite></replace>
+              </codify:find-replace> -->
             </para>
           </para>
-          <para>
+          <para codify:path="§47-1817.04">
             <num>(5)</num>
             <text>Section 47-1817.04 is amended as follows:</text>
-            <para>
+            <para codify:path="(d)">
               <num>(A)</num>
               <text>Subsection (d) is amended by striking the figure "$20,000" and inserting the figure "$10,000" in its place.</text>
+              <!-- <codify:find-replace count="1">
+                <find>$20,000</find>
+                <replace>$10,000</replace>
+              </codify:find-replace> -->
             </para>
             <para>
               <num>(B)</num>
               <text>Subsection (e) is repealed.</text>
+              <!-- <codify:repeal path="(e)"/> -->
             </para>
           </para>
           <para>
             <num>(6)</num>
             <text>Section 47-1817.05(c) is repealed.</text>
+            <!-- <codify:repeal path="§47-1817.05|(c)"/> -->
           </para>
           <para>
             <num>(7)</num>
             <text>Section 47-1817.06 is repealed.</text>
+            <!-- <codify:repeal path="§47-1817.06"/> -->
           </para>
           <para>
             <num>(8)</num>
             <text>Section 47-1817.07 is repealed.</text>
+            <!-- <codify:repeal path="§47-1817.07"/> -->
           </para>
           <para>
             <num>(9)</num>
             <text>Section 47-1817.07a is amended by striking the phrase "For tax years beginning after December 31, 2018, notwithstanding" and inserting the phrase "For the tax year beginning after December 31, 2018 and ending before January 1, 2020, and for tax years beginning after December 31, 2024, notwithstanding" in its place.</text>
+            <!-- <codify:find-replace path="§47-1817.07a" count="1">
+              <find>For tax years beginning after December 31, 2018, notwithstanding</find>
+              <replace>For the tax year beginning after December 31, 2018 and ending before January 1, 2020, and for tax years beginning after December 31, 2024, notwithstanding</replace>
+            </codify:find-replace> -->
           </para>
           <para>
             <num>(10)</num>
             <text>Section 47-1818.06(3) is repealed.</text>
+            <!-- <codify:repeal path="§47-1818.06|(3)"/> -->
           </para>
         </para>
       </section>
@@ -10246,9 +10468,12 @@
         <num>7153</num>
         <heading>Applicability.</heading>
         <text>This subtitle shall apply as of January 1, 2020, except that section 7152(a) shall apply as of July 1, 2021.</text>
+        <codify:applicability doc="D.C. Act 23-407" path="§7152" date="2021-07-01" history="false"/>
+        <codify:annotation doc="D.C. Code" path="§47-1508" type="Applicability" history="false"><cite doc="D.C. Act 23-407" path="§7153">Section 7153 of D.C. Act 23-407</cite> provided that the changes made to this section by D.C. Act 23-407 shall apply as of July 1, 2021.
+        </codify:annotation>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>N</num>
       <heading>ADAMS MORGAN BID</heading>
@@ -10262,14 +10487,15 @@
         <text>Section 206(c) of the Business Improvement District Act of 1996, effective March 8, 2006 (D.C. Law 16-56; D.C. Official Code § 2-1215.56(c)), is amended to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§2-1215.56|(c)"/>
             <num>(c)</num>
-            <text>The BID taxes for the taxable properties in the Adams Morgan BID shall not exceed $.21 for each $100 in assessed value for all taxable properties and all commercial portions of mixed use properties; provided, that any change in the BID taxes from the current tax year rates shall be made subject to the requirements of section 9.</text>
+            <text>The BID taxes for the taxable properties in the Adams Morgan BID shall not exceed $.21 for each $100 in assessed value for all taxable properties and all commercial portions of mixed use properties; provided, that any change in the BID taxes from the current tax year rates shall be made subject to the requirements of <code-cite doc="D.C. Code" path="§2-1215.08">section 9</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>O</num>
       <heading>SKYLAND TAX EXEMPTION</heading>
@@ -10277,22 +10503,31 @@
         <num>7171</num>
         <heading>This subtitle may be cited as the "Skyland Tax Exemption Amendment Act of 2020".</heading>
       </section>
-      <section>
+      <section codify:path="§42-1102">
         <num>7172</num>
         <text>Section 302 of the District of Columbia Deed Recordation Tax Act, approved March 2, 1962 (76 Stat. 11; D.C. Official Code § 42-1102), is amended as follows:</text>
-        <para>
+        <para codify:path="(34)">
           <num>(a)</num>
           <text>Paragraph (34) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(35)">
           <num>(b)</num>
           <text>Paragraph (35) is amended by striking the period at the end and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace position="last">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>A new paragraph (36) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(36)</num>
               <para>
                 <num>(A)</num>
@@ -10300,7 +10535,7 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>The amount of all taxes, fees, and deposits exempted under this paragraph and D.C. Official Code § 47-902(28), shall not exceed, in the aggregate, $420,840.</text>
+                <text>The amount of all taxes, fees, and deposits exempted under this paragraph and <code-cite doc="D.C. Code" path="§47-902|(28)">D.C. Official Code § 47-902(28)</code-cite>, shall not exceed, in the aggregate, $420,840.</text>
               </para>
             </para>
           </include>
@@ -10312,6 +10547,7 @@
         <text>Section 47-902 of the District of Columbia Official Code is amended by adding a new paragraph (28) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert path="§47-902"/>
             <num>(28)</num>
             <para>
               <num>(A)</num>
@@ -10319,14 +10555,14 @@
             </para>
             <para>
               <num>(B)</num>
-              <text>The amount of all taxes, fees, and deposits exempted under this paragraph and § 42-1102(36), shall not exceed, in the aggregate, $420,840.</text>
+              <text>The amount of all taxes, fees, and deposits exempted under this paragraph and <cite doc="D.C. Code" path="§42-1102|(36)">§ 42-1102(36)</cite>, shall not exceed, in the aggregate, $420,840.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>P</num>
       <heading>COMBINED REPORTING TAX DEDUCTION DELAY</heading>
@@ -10335,20 +10571,28 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Combined Reporting Tax Deduction Delay Amendment Act of 2020".</text>
       </section>
-      <section>
+      <section codify:path="§47-1810.08|(b)">
         <num>7182</num>
         <text>Section 47-1810.08(b) of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(a)</num>
           <text>Paragraph (1) is amended by striking the phrase "beginning with the 10th year of the combined filing" and inserting the phrase "beginning with the 15th year of the combined filing" in its place.</text>
+          <codify:find-replace count="1">
+            <find>beginning with the 10th year of the combined filing</find>
+            <replace>beginning with the 15th year of the combined filing</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(b)</num>
           <text>Paragraph (2) is amended by striking the number "2015" and inserting the number "2020" in its place.</text>
+          <codify:find-replace count="1">
+            <find>2015</find>
+            <replace>2020</replace>
+          </codify:find-replace>
         </para>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>Q</num>
       <heading>ESTATE TAX ADJUSTMENT</heading>
@@ -10357,21 +10601,26 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Estate Tax Adjustment Amendment Act of 2020".</text>
       </section>
-      <section>
+      <section codify:path="§47-3701">
         <num>7192</num>
         <text>Section 47-3701 of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="(4)">
           <num>(a)</num>
           <text>Paragraph (4) is amended as follows:</text>
-          <para>
+          <para codify:path="(E)">
             <num>(1)</num>
             <text>Subparagraph (E) is amended by striking the phrase "dying after December 31, 2017" and inserting the phrase "whose death occurs after December 31, 2017, but before January 1, 2021" in its place.</text>
+            <codify:find-replace count="1">
+              <find>dying after December 31, 2017</find>
+              <replace>whose death occurs after December 31, 2017, but before January 1, 2021</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>A new subparagraph (F) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(F)</num>
                 <text>For a decedent whose death occurs after December 31, 2020:</text>
                 <para>
@@ -10391,23 +10640,35 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="(14)">
           <num>(b)</num>
           <text>Paragraph (14) is amended as follows:</text>
-          <para>
+          <para codify:path="(B)">
             <num>(1)</num>
             <text>Subparagraph (B) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; or</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(C)">
             <num>(2)</num>
             <text>Subparagraph (C) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Strike the phrase "after December 31, 2017" and insert the phrase "after December 31, 2017, but before January 1, 2021" in its place.</text>
+              <codify:find-replace count="1">
+                <find>after December 31, 2017</find>
+                <replace>after December 31, 2017, but before January 1, 2021</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Strike the period at the end and insert the phrase "; or" in its place.</text>
+              <codify:find-replace position="last">
+                <find>.</find>
+                <replace>; or</replace>
+              </codify:find-replace>
             </para>
           </para>
           <para>
@@ -10415,6 +10676,7 @@
             <text>A new subparagraph (D) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(D)</num>
                 <text>For a decedent whose death occurs after December 31, 2020, $4 million, increased annually, beginning with the year commencing on January 1, 2022, by the cost-of-living adjustment.</text>
               </para>
@@ -10424,7 +10686,7 @@
         </para>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>R</num>
       <heading>DISTRICT OF COLUMBIA LOW-INCOME HOUSING TAX CREDIT CLARIFICATION</heading>
@@ -10440,7 +10702,7 @@
           <num>(a)</num>
           <text>The table of contents is amended by striking the phrase "47-4806. Transfer, sale, or assignment" and inserting the phrase "47-4806. Transfer, sale, assignment, or allocation" in its place.</text>
         </para>
-        <para>
+        <para codify:path="§47-4801">
           <num>(b)</num>
           <text>Section 47-4801 is amended as follows:</text>
           <para>
@@ -10448,38 +10710,52 @@
             <text>A new paragraph (1A) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(1)"/>
                 <num>(1A)</num>
                 <text>"Commissioner" means the Commissioner of the Department of Insurance, Securities, and Banking.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(2)</num>
             <text>Paragraph (3) is amended by striking the phrase "cause the construction of affordable housing" and inserting the phrase "cause the acquisition, rehabilitation, or construction of affordable housing" in its place.</text>
+            <codify:find-replace count="1">
+              <find>cause the construction of affordable housing</find>
+              <replace>cause the acquisition, rehabilitation, or construction of affordable housing</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(6)">
             <num>(3)</num>
-            <text>Paragraph (6) is amended by striking the phrase ""Low-Income Housing Tax</text>
-            <text>Credit Program" means the program authorized by section 42 of the Internal Revenue Code of 1986" and inserting the phrase ""Federal low-income housing tax credit" means a tax credit claimed pursuant to section 42 of the Internal Revenue Code of 1986" in its place.</text>
+            <text>Paragraph (6) is amended by striking the phrase ""Low-Income Housing Tax Credit Program" means the program authorized by section 42 of the Internal Revenue Code of 1986" and inserting the phrase ""Federal low-income housing tax credit" means a tax credit claimed pursuant to section 42 of the Internal Revenue Code of 1986" in its place.</text>
+            <codify:find-replace count="1">
+              <find>"Low-Income Housing Tax Credit Program" means the program authorized by section 42 of the Internal Revenue Code of 1986</find>
+              <replace>"Federal low-income housing tax credit" means a tax credit claimed pursuant to section 42 of the Internal Revenue Code of 1986</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(7)">
             <num>(4)</num>
             <text>Paragraph (7) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(8)">
             <num>(5)</num>
             <text>Paragraph (8) is amended by striking the phrase "a rental housing development that receives an allocation of federal Low-Income Housing Tax Credits from the Department" and inserting the phrase "a rental housing development in the District that receives an allocation of federal low-income housing tax credits under section 42(h)(1) or (4) of the 1986 Internal Revenue Code (26 U.S.C. § 42(h)(1) or (4)) after October 1, 2021, and receives an executed extended low-income housing commitment pursuant to section 42(h)(6)(B) of the 1986 Internal Revenue Code (26 U.S.C. § 42(h)(6)(B)) from the Department dated on or after October 1, 2021".</text>
+            <codify:find-replace count="1">
+              <find>a rental housing development that receives an allocation of federal Low-Income Housing Tax Credits from the Department</find>
+              <replace>a rental housing development in the District that receives an allocation of federal low-income housing tax credits under section 42(h)(1) or (4) of the 1986 Internal Revenue Code (26 U.S.C. § 42(h)(1) or (4)) after October 1, 2021, and receives an executed extended low-income housing commitment pursuant to section 42(h)(6)(B) of the 1986 Internal Revenue Code (26 U.S.C. § 42(h)(6)(B)) from the Department dated on or after October 1, 2021</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§47-4802">
           <num>(c)</num>
           <text>Section 47-4802 is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(a)</num>
                 <text>There is established a District of Columbia low-income housing tax credit.</text>
               </para>
@@ -10489,17 +10765,23 @@
           <para>
             <num>(2)</num>
             <text>Subsection (b) is repealed.</text>
+            <codify:repeal path="(b)"/>
           </para>
           <para>
             <num>(3)</num>
             <text>Subsection (c) is repealed.</text>
+            <codify:repeal path="(c)"/>
           </para>
           <para>
             <num>(4)</num>
             <text>Subsection (d) is amended by striking the phrase "tax credit award" and inserting the phrase "tax credit" in its place.</text>
+            <codify:find-replace count="1">
+              <find>tax credit award</find>
+              <replace>tax credit</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§47-4803">
           <num>(d)</num>
           <text>Section 47-4803 is amended as follows:</text>
           <para>
@@ -10507,6 +10789,7 @@
             <text>Subsection (a) is amended to read as follow:</text>
             <include>
               <para>
+                <codify:replace path="(a)"/>
                 <num>(a)</num>
                 <text>An owner of a qualified project may receive a District of Columbia low-income housing tax credit with respect to that qualified project in an amount equal to 25% of the value of the federal low-income housing tax credit received with respect to the qualified project.</text>
               </para>
@@ -10518,10 +10801,11 @@
             <text>Subsection (b) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace path="(b)"/>
                 <num>(b)</num>
                 <para>
                   <num>(1)</num>
-                  <text>If the owner of a qualified project transfers, sells, or assigns a District of Columbia low-income housing tax credit to another taxpayer, pursuant to § 47-4806, the District of Columbia low-income housing tax credit shall not be taken, pursuant to subsection (c) of this section, against taxes imposed under this title unless the owner has filed with the Department, in a form determined by the Department, an affidavit certifying that:</text>
+                  <text>If the owner of a qualified project transfers, sells, or assigns a District of Columbia low-income housing tax credit to another taxpayer, pursuant to <cite doc="D.C. Code" path="§47-4806">§ 47-4806</cite>, the District of Columbia low-income housing tax credit shall not be taken, pursuant to subsection (c) of this section, against taxes imposed under <cite doc="D.C. Code" path="47">this title</cite> unless the owner has filed with the Department, in a form determined by the Department, an affidavit certifying that:</text>
                   <para>
                     <num>(A)</num>
                     <text>The owner of the qualified project received, as consideration for transferring, selling, or assigning the District of Columbia low-income housing tax credit, at least 80% of the per dollar sale price for a federal low-income housing tax credit associated with the qualified project that the owner has transferred, sold, or assigned; and</text>
@@ -10544,79 +10828,113 @@
             <text>Subsection (c) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace path="(c)"/>
                 <num>(c)</num>
                 <para>
                   <num>(1)</num>
-                  <text>The District of Columbia low-income housing tax credit may be claimed against taxes imposed under Chapter 18 of this title or § 47-2608(a)(1).</text>
+                  <text>The District of Columbia low-income housing tax credit may be claimed against taxes imposed under <cite doc="D.C. Code" path="47|18">Chapter 18 of this title</cite> or <cite doc="D.C. Code" path="§47-2608|(a)|(1)">§ 47-2608(a)(1)</cite>.</text>
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>The District of Columbia low-income housing tax credit may be claimed equally for 10 years, subtracted from the tax otherwise due for each taxable period and shall not be refundable; provided, that the credit may not be taken against any tax that is dedicated in whole or in part to the Healthy DC and Heath Care Expansion Fund established by § 31-3514.02.".</text>
+                  <text>The District of Columbia low-income housing tax credit may be claimed equally for 10 years, subtracted from the tax otherwise due for each taxable period and shall not be refundable; provided, that the credit may not be taken against any tax that is dedicated in whole or in part to the Healthy DC and Heath Care Expansion Fund established by <cite doc="D.C. Code" path="§31-3514.02">§ 31-3514.02</cite>.<span codify:value="">".</span></text>
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>If the District of Columbia low-income housing tax credit is claimed against taxes imposed under Chapter 18 of this title, any amount of the low-income housing tax credit that exceeds the tax due for a taxable year may be carried forward to any of the 10 remaining subsequent taxable years for taxes imposed under Chapter 18 of this title. If the District of Columbia low-income housing tax credit is claimed against taxes imposed under § 47-2608(a)(1), any amount of the credit that exceeds the tax due for a taxable year may be carried forward to any of the 10 remaining subsequent taxable years for taxes imposed under § 47-2608(a)(1).</text>
+                  <text>If the District of Columbia low-income housing tax credit is claimed against taxes imposed under <cite doc="D.C. Code" path="47|18">Chapter 18 of this title</cite>, any amount of the low-income housing tax credit that exceeds the tax due for a taxable year may be carried forward to any of the 10 remaining subsequent taxable years for taxes imposed under <cite doc="D.C. Code" path="47|18">Chapter 18 of this title</cite>. If the District of Columbia low-income housing tax credit is claimed against taxes imposed under <cite doc="D.C. Code" path="§47-2608|(a)|(1)">§ 47-2608(a)(1)</cite>, any amount of the credit that exceeds the tax due for a taxable year may be carried forward to any of the 10 remaining subsequent taxable years for taxes imposed under <cite doc="D.C. Code" path="§47-2608|(a)|(1)">§ 47-2608(a)(1)</cite>.</text>
                 </para>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(d)|(1)">
             <num>(4)</num>
             <text>Subsection (d)(1) is amended by striking the phrase "allocated to parties who are eligible under the provisions of subsection (a) of this section" and inserting the phrase "transferred, sold, assigned, or allocated to parties who are eligible pursuant to Chapter 48 of Title 47 of the District of Columbia Official Code" in its place.</text>
+            <codify:find-replace count="1">
+              <find>allocated to parties who are eligible under the provisions of subsection (a) of this section</find>
+              <replace>transferred, sold, assigned, or allocated to parties who are eligible pursuant to <code-cite doc="D.C. Code" path="47|48">Chapter 48 of Title 47 of the District of Columbia Official Code</code-cite></replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(e)">
             <num>(5)</num>
             <text>Subsection (e) is amended as follows:</text>
-            <para>
+            <para codify:path="text">
               <num>(A)</num>
               <text>The lead-in language is amended by striking the phrase "submitted to the Chief Financial Officer as provided in this section" and inserting the phrase "submitted to the Chief Financial Officer and the Commissioner as provided in this section" in its place.</text>
+              <codify:find-replace count="1">
+                <find>submitted to the Chief Financial Officer as provided in this section</find>
+                <replace>submitted to the Chief Financial Officer and the Commissioner as provided in this section</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(2)">
               <num>(B)</num>
               <text>Paragraph (2) is amended by striking the phrase "each taxpayer subject to the recapture" and inserting the phrase "each transferee, purchaser, assignee, or party to whom a credit is allocated" in its place.</text>
+              <codify:find-replace count="1">
+                <find>each taxpayer subject to the recapture</find>
+                <replace>each transferee, purchaser, assignee, or party to whom a credit is allocated</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(3)">
               <num>(C)</num>
               <text>Paragraph (3) is amended by striking the phrase "allocated to such taxpayer" and inserting the phrase "allocated to such transferee, purchaser, assignee, or party to whom a credit is allocated" in its place.</text>
+              <codify:find-replace count="1">
+                <find>allocated to such taxpayer</find>
+                <replace>allocated to such transferee, purchaser, assignee, or party to whom a credit is allocated</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(f)|(1)">
             <num>(6)</num>
             <text>Subsection (f)(1) is amended by striking the phrase "A tax credit allowed under this section shall not be denied to the taxpayer with respect to any qualified project" and inserting the phrase "A District of Columbia low-income housing tax credit allowed under this section shall not be denied with respect to any qualified project" in its place.</text>
+            <codify:find-replace count="1">
+              <find>A tax credit allowed under this section shall not be denied to the taxpayer with respect to any qualified project</find>
+              <replace>A District of Columbia low-income housing tax credit allowed under this section shall not be denied with respect to any qualified project</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§47-4804">
           <num>(e)</num>
           <text>Section 47-4804 is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(a)</num>
-                <text>The owner of a qualified project eligible for the District of Columbia low-income housing tax credit shall submit a copy of the eligibility statement issued by the Department with respect to the qualified project at the time of filing the return required to be filed by the owner pursuant to § 47-1805.02. In the case of failure to attach the eligibility statement, a credit under this section shall not be allowed with respect to such qualified project for that year until the copy is provided to the Chief Financial Officer and the Commissioner.</text>
+                <text>The owner of a qualified project eligible for the District of Columbia low-income housing tax credit shall submit a copy of the eligibility statement issued by the Department with respect to the qualified project at the time of filing the return required to be filed by the owner pursuant to <cite doc="D.C. Code" path="§47-1805.02">§ 47-1805.02</cite>. In the case of failure to attach the eligibility statement, a credit under this section shall not be allowed with respect to such qualified project for that year until the copy is provided to the Chief Financial Officer and the Commissioner.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended by striking the phrase "such qualified District of Columbia project shall also be recaptured" and inserting the phrase "such qualified District of Columbia project shall also be recaptured by the Office of Chief Financial Officer or Commissioner of Insurance, Securities, and Banking" in its place.</text>
+            <codify:find-replace count="1">
+              <find>such qualified District of Columbia project shall also be recaptured</find>
+              <replace>such qualified District of Columbia project shall also be recaptured by the Office of Chief Financial Officer or Commissioner of Insurance, Securities, and Banking</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
           <num>(f)</num>
           <text>Section 47-4805 is amended by striking the phrase "The Chief Financial Officer or the Department may require" and inserting the phrase "The Chief Financial Officer, the Commissioner, or the Department may require" in its place.</text>
+          <codify:find-replace path="§47-4805" count="1">
+            <find>The Chief Financial Officer or the Department may require</find>
+            <replace>The Chief Financial Officer, the Commissioner, or the Department may require</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§47-4806">
           <num>(g)</num>
           <text>Section 47-4806 is amended as follows:</text>
-          <para>
+          <para codify:path="heading">
             <num>(1)</num>
             <text>The section heading is amended by striking the phrase "Transfer, sale, or assignment" and inserting the phrase "Transfer, sale, assignment, or allocation" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Transfer, sale, or assignment</find>
+              <replace>Transfer, sale, assignment, or allocation</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(a)">
             <num>(2)</num>
             <text>Subsection (a) is amended as follows:</text>
             <para>
@@ -10626,6 +10944,11 @@
                 <para>
                   <num>(1)</num>
                   <text>All or any portion of credits issued in accordance with the provisions of this section may be transferred, sold, or assigned to another taxpayer. There is no limit on the total number of transactions for the transfer, sale, or assignment of all or part of the total credit authorized under this section. Collectively, all transfers, sales, assignments, and allocations pursuant to paragraph (2) of this subsection are subject to the maximum credit allowable to a particular qualified project.</text>
+                  <codify:redesignate-para num-value="(1)"/>
+                  <codify:find-replace path="(1)" count="1">
+                    <find>All or any portion of tax credits issued in accordance with the provisions of this section may be transferred, sold, or assigned.</find>
+                    <replace>All or any portion of credits issued in accordance with the provisions of this section may be transferred, sold, or assigned to another taxpayer. There is no limit on the total number of transactions for the transfer, sale, or assignment of all or part of the total credit authorized under this section. Collectively, all transfers, sales, assignments, and allocations pursuant to paragraph (2) of this subsection are subject to the maximum credit allowable to a particular qualified project.</replace>
+                  </codify:find-replace>
                 </para>
               </include>
               <aftertext>.</aftertext>
@@ -10635,6 +10958,7 @@
               <text>A new paragraph (2) is added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert/>
                   <num>(2)</num>
                   <text>A tax credit earned or purchased by, or transferred or assigned to, a partnership, limited liability company, S corporation, or other pass-through entity may be allocated to the partners, members, or shareholders of that entity in accordance with the provisions of any agreement among the partners, members, or shareholders and without regarding to the ownership interest of the partners, members, or shareholders in the qualified project. A partner, member, or shareholder to whom a tax credit is allocated may further allocate all or part of the allocated credit as provided in this subsection or may transfer, sell, or assign the allocated credit as provided in paragraph (1) of this subsection. There is no limit on the total number of allocations of all or part of the total credit authorized under this section; however, collectively, all transfers, sales, assignments, and allocations, made pursuant to this subsection, are subject to the maximum credit allowable to a particular qualified project.</text>
                 </para>
@@ -10647,6 +10971,7 @@
             <text>Subsection (b) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace path="(b)"/>
                 <num>(b)</num>
                 <text>An owner, transferee, purchaser, assignee, or taxpayer to whom a tax credit is allocated pursuant to subsection (a)(2) of this section, desiring to make a transfer, sale, assignment, or allocation pursuant to subsection (a)(2) of this section, shall submit to the Chief Financial Officer and the Commissioner a statement that describes the amount of District of Columbia low-income housing tax credit for which such transfer, sale, assignment, or allocation of District of Columbia low-income housing tax credit is eligible. The owner, transferor, seller, assignor, or taxpayer who is allocating, pursuant to subsection (a)(2) of this section, the tax credit, as applicable, shall provide to the Chief Financial Officer and the Commissioner appropriate information so that the low-income housing tax credit can be properly allocated.</text>
               </para>
@@ -10658,6 +10983,7 @@
             <text>Subsection (c)(3) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace path="(c)|(3)"/>
                 <num>(3)</num>
                 <text>Amount of credit previously transferred, sold, assigned, or allocated to such transferee, purchaser, assignee, or taxpayer to whom a credit is allocated.</text>
               </para>
@@ -10665,21 +10991,29 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§47-4807">
           <num>(h)</num>
           <text>Section 47-4807 is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the phrase "The Department, in consultation with the Chief Financial Officer, shall monitor" and inserting the phrase "The Department, in consultation with the Chief Financial Officer and the Commissioner, shall monitor" in its place.</text>
+            <codify:find-replace count="1">
+              <find>The Department, in consultation with the Chief Financial Officer, shall monitor</find>
+              <replace>The Department, in consultation with the Chief Financial Officer and the Commissioner, shall monitor</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended by striking the phrase "The Department or the Chief Financial Officer shall report" and inserting the phrase "The Department, the Chief Financial Officer, or the Commissioner shall report" in its place.</text>
+            <codify:find-replace count="1">
+              <find>The Department or the Chief Financial Officer shall report</find>
+              <replace>The Department, the Chief Financial Officer, or the Commissioner shall report</replace>
+            </codify:find-replace>
           </para>
         </para>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>S</num>
       <heading>EXCLUDED WORKERS</heading>
@@ -10694,6 +11028,7 @@
         <text>The Washington Convention Center Authority Act of 1994, effective September 28, 1994 (D.C. Law 10-188; D.C. Official Code § 10-1201.01 <em>et seq.</em>), is amended by adding a new section 203a to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="10|12|I|B" after="§10-1202.03" num-value="10-1202.03a"/>
             <num>203a</num>
             <heading>Assistance for excluded workers.</heading>
             <para>
@@ -10712,7 +11047,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Be a returning citizen, as defined by section 2(5) of the Office on Ex-Offender Affairs and Commission on Re-Entry and Ex-Offender Affairs Establishment Act of 2006, effective March 8, 2007 (D.C. Law 16-243; D.C. Official Code § 24-1301(5)), who would not otherwise qualify under paragraph (1) of this subsection and whose incarceration ended not more than 6 months before receiving assistance.</text>
+                <text>Be a returning citizen, as defined by <code-cite doc="D.C. Code" path="§24-1301|(5)">section 2(5) of the Office on Ex-Offender Affairs and Commission on Re-Entry and Ex-Offender Affairs Establishment Act of 2006, effective March 8, 2007 (D.C. Law 16-243; D.C. Official Code § 24-1301(5))</code-cite>, who would not otherwise qualify under paragraph (1) of this subsection and whose incarceration ended not more than 6 months before receiving assistance.</text>
               </para>
             </para>
             <para>
@@ -10745,6 +11080,7 @@
         <text>Section 47-1803.02(a)(2) of the District of Columbia Official Code is amended to add a new subparagraph (JJ) to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert path="§47-1803.02|(a)|(2)"/>
             <num>(JJ)</num>
             <text>Cash assistance for excluded workers given pursuant to grants awarded by the Washington Convention and Sports Authority in 2020.</text>
           </para>
@@ -10761,6 +11097,7 @@
       <num>8001</num>
       <heading>Short title.</heading>
       <text>This subtitle may be cited as the "Designated Fund Transfer Act of 2020".</text>
+      <codify:marginalia display="Not Codified"/>
     </section>
     <section>
       <num>8002</num>
