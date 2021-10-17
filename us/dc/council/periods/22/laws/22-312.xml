@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 22-594">
+<document xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 22-312">
+  <num type="law">22-312</num>
   <num type="bill">22-944</num>
   <num type="act">22-594</num>
   <heading type="short">Sports Wagering Lottery Amendment Act of 2018</heading>
   <heading type="long">To amend the Law to Legalize Lotteries, Daily Numbers Games, and Bingo and Raffles for Charitable Purposes in the District of Columbia to authorize sports wagering in the District of Columbia.</heading>
   <meta>
     <introduced>2018-09-18</introduced>
-    <effective projected="true">2019-05-23</effective>
+    <effective>2019-05-03</effective>
     <citations>
+      <citation type="law" url="http://lims.dccouncil.us/Download/40922/B22-0944-SignedAct.pdf">D.C. Law 22-312</citation>
       <citation type="act" url="http://lims.dccouncil.us/Download/40922/B22-0944-SignedAct.pdf">D.C. Act 22-594</citation>
       <citation type="register">66 DCR 1402</citation>
     </citations>
@@ -19,7 +21,7 @@
       <vote date="2018-12-18" reading="Amendment"/>
       <vote date="2018-12-18" reading="Final"/>
       <enacted>2019-01-23</enacted>
-      <summary>BILL SUMMARY - As introduced, this bill authorizes sports wagering in the District of Columbia. It authorizes the Chief Financial Officer to adopt rules and regulations governing the conduct of sports wagering.</summary>
+      <summary>This law authorizes sports wagering in the District of Columbia. It authorizes the Chief Financial Officer to adopt rules and regulations governing the conduct of sports wagering.</summary>
       <committee>Committee on Finance and Revenue</committee>
     </history>
   </meta>
@@ -30,6 +32,10 @@
     <para>
       <num>(a)</num>
       <text>Section 3 (D.C. Official Code §§ 22-1716 through 22-1718) is designated as Title I. LOTTERIES AND GAMBLING GENERAL LEGALIZATION.".</text>
+      <codify:find-replace doc="D.C. Code" path="22|17|II" count="1">
+        <find>Legalization</find>
+        <replace>Lotteries and Gambling General Legalization</replace>
+      </codify:find-replace>
       <codify:insert path="36" after="5" history="false">
         <container>
           <prefix>Chapter</prefix>
@@ -41,7 +47,7 @@
         <container>
           <prefix>Subchapter</prefix>
           <num>I</num>
-          <heading>Office of Lottery and Gaming.</heading>
+          <heading>Lotteries and Gambling Generally.</heading>
         </container>
       </codify:insert>
     </para>
@@ -102,6 +108,8 @@
           <replace>Monte Carlo night parties, and sports wagering,</replace>
         </codify:find-replace>
         <codify:not-funded-anno doc="D.C. Code" path="§22-1716" applicability-path="§5" display-template=""/>
+        <codify:annotation doc="D.C. Code" path="§22-1716" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.
+      </codify:annotation>
       </para>
       <para codify:path="§22-1717">
         <num>(2)</num>
@@ -113,7 +121,6 @@
             <find>Lottery and Charitable Games Control Board; bingo,</find>
             <replace>Office of Lottery and Gaming, including bingo,</replace>
           </codify:find-replace>
-         
         </para>
         <para>
           <num>(B)</num>
@@ -123,7 +130,7 @@
             <replace>regulated by the Office of Lottery and Gaming, or sports wagering regulated, licensed, or operated by the Office of Lottery and Gaming.[]</replace>
           </codify:find-replace>
         </para>
-         <codify:not-funded-anno doc="D.C. Code" path="§22-1717" applicability-path="§5" display-template=""/>
+        <codify:not-funded-anno doc="D.C. Code" path="§22-1717" applicability-path="§5" display-template=""/>
       </para>
       <para codify:path="§22-1718|(a)">
         <num>(3)</num>
@@ -141,7 +148,7 @@
           <text>Strike the phrase "hereof." and insert the phrase "or the sale, lease, purchase, or possession of tickets, slips, certificates, or cards for sports wagering excepted and permissible pursuant to § 22-1717." in its place.</text>
           <codify:find-replace count="1">
             <find>hereof.</find>
-            <replace>or the sale, lease, purchase, or possession of tickets, slips, certificates, or cards for sports wagering excepted and permissible pursuant to § 22-1717.</replace>
+            <replace>or the sale, lease, purchase, or possession of tickets, slips, certificates, or cards for sports wagering excepted and permissible pursuant to <span codify:value="["/><cite doc="D.C. Code" path="§22-1717">§ 22-1717</cite><span codify:value="]"/>.</replace>
           </codify:find-replace>
         </para>
         <codify:not-funded-anno doc="D.C. Code" path="§22-1718" applicability-path="§5" display-template=""/>
@@ -153,10 +160,14 @@
       <para codify:path="§36-601.01">
         <num>(1)</num>
         <text>Section 4 (D.C. Official Code § 3-1301) is amended as follows:</text>
-        <para codify:path="(a)">
+        <para>
           <num>(A)</num>
           <text>Subsection (a) is amended by striking the phrase "and Charitable Games" and inserting the phrase "and Gaming " in its place.</text>
-          <codify:find-replace count="1">
+          <codify:find-replace path="heading" count="1">
+            <find>Creation</find>
+            <replace>Creation [of the District of Columbia Lottery and Gaming Control Board]</replace>
+          </codify:find-replace>
+          <codify:find-replace path="(a)" count="1">
             <find>and Charitable Games</find>
             <replace>and Gaming</replace>
           </codify:find-replace>
@@ -176,26 +187,26 @@
             <para>
               <codify:replace/>
               <num>(c)</num>
-              <text>For the purposes of this act, the term:</text>
+              <text>For the purposes of <code-cite doc="D.C. Code" path="36|6">this</code-cite> <span codify:value="and"/> <code-cite doc="D.C. Code" path="22|17|I">act</code-cite>, the term:</text>
               <para>
                 <num>(1)</num>
                 <text>"Board" means the District of Columbia Lottery and Gaming Control Board established by this section.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>"CBE act" means the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code 2-218.01 <em>et seq.</em>).</text>
+                <text>"CBE act" means <code-cite doc="D.C. Code" path="2|2|IX-A">the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code 2-218.01 <em>et seq.</em>)</code-cite>.</text>
               </para>
               <para>
                 <num>(3)</num>
-                <text>"CBE plan" means the plan required by applicants for sports wagering licenses pursuant to section 305(g).</text>
+                <text>"CBE plan" means the plan required by applicants for sports wagering licenses pursuant to <code-cite doc="D.C. Code" path="§36-621.05|(g)">section 305(g)</code-cite>.</text>
               </para>
               <para>
                 <num>(4)</num>
-                <text>"Certified business enterprise" or "CBE" shall have the same meaning as provided in section 2302(1D) of the CBE act.</text>
+                <text>"Certified business enterprise" or "CBE" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§2-218.02|(1D)">section 2302(1D) of the CBE act</code-cite>.</text>
               </para>
               <para>
                 <num>(5)</num>
-                <text>"Commercially useful function" shall have the same meaning as provided in section 2302(1G) of the CBE act.</text>
+                <text>"Commercially useful function" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§2-218.02|(1G)">section 2302(1G) of the CBE act</code-cite>.</text>
               </para>
               <para>
                 <num>(6)</num>
@@ -203,7 +214,7 @@
               </para>
               <para>
                 <num>(7)</num>
-                <text>"Disadvantaged business enterprise" or "DBE" shall have the same meaning as provided in section 2302(5) of the CBE act.</text>
+                <text>"Disadvantaged business enterprise" or "DBE" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§2-218.02|(5)">section 2302(5) of the CBE act</code-cite>.</text>
               </para>
               <para>
                 <num>(8)</num>
@@ -227,7 +238,7 @@
               </para>
               <para>
                 <num>(10)</num>
-                <text>"Joint venture" shall have the same meaning as provided in section 2302(11) of the CBE act.</text>
+                <text>"Joint venture" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§2-218.02|(11)">section 2302(11) of the CBE act</code-cite>.</text>
               </para>
               <para>
                 <num>(11)</num>
@@ -255,11 +266,11 @@
               </para>
               <para>
                 <num>(14)</num>
-                <text>"Resident-owned business" or "ROB" shall have the same meaning as provided in section 2302(15) of the CBE act.</text>
+                <text>"Resident-owned business" or "ROB" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§2-218.02|(15)">section 2302(15) of the CBE act</code-cite>.</text>
               </para>
               <para>
                 <num>(15)</num>
-                <text>"Small Business Enterprise" or "SBE" shall have the same meaning as provided in section 2302(16) of the CBE act.</text>
+                <text>"Small Business Enterprise" or "SBE" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§2-218.02|(16)">section 2302(16) of the CBE act</code-cite>.</text>
               </para>
               <para>
                 <num>(16)</num>
@@ -267,7 +278,7 @@
               </para>
               <para>
                 <num>(17)</num>
-                <text>"Sports wagering" means accepting wagers on sporting events, or a portion of a sporting event, or on the individual performance statistics of an athlete in a sporting event or combination of sporting events, including single­game bets, teaser bets, parlays, over-under, moneyline, pools, exchange wagering, in-game wagering, in-play bets, proposition bets, straight bets, or other means by a system or method of wagering, including in-person or over the internet through websites or on mobile devices. The term "sports wagering" does not include any fantasy or simulated game or contest such as fantasy sports in which:</text>
+                <text>"Sports wagering" means accepting wagers on sporting events, or a portion of a sporting event, or on the individual performance statistics of an athlete in a sporting event or combination of sporting events, including single-­game bets, teaser bets, parlays, over-under, moneyline, pools, exchange wagering, in-game wagering, in-play bets, proposition bets, straight bets, or other means by a system or method of wagering, including in-person or over the internet through websites or on mobile devices. The term "sports wagering" does not include any fantasy or simulated game or contest such as fantasy sports in which:</text>
                 <para>
                   <num>(A)</num>
                   <text>Participants own, manage, or coach imaginary teams;</text>
@@ -330,7 +341,7 @@
           <para>
             <codify:insert path="§36-601.03" after="(b)"/>
             <num>(c)</num>
-            <text>To obtain a sports wagering license, the Office may require fingerprinting of the individual, or group of individuals, seeking to obtain a sports wagering license.</text>
+            <text><span codify:value="["/>To obtain a sports wagering license, the Office may require fingerprinting of the individual, or group of individuals, seeking to obtain a sports wagering license.<span codify:value="]"/></text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -394,7 +405,7 @@
           <text>Subsection (c) is amended by striking the phrase "District of Columbia." and inserting the phrase "District of Columbia or as otherwise directed by this act."</text>
           <codify:find-replace count="1">
             <find>District of Columbia.</find>
-            <replace>District of Columbia or as otherwise directed by this act."</replace>
+            <replace>District of Columbia or as otherwise directed by <code-cite doc="D.C. Code" path="36|6">this</code-cite> <span codify:value="and"/> <code-cite doc="D.C. Code" path="22|17|II">act</code-cite>."</replace>
           </codify:find-replace>
         </para>
         <codify:not-funded-anno doc="D.C. Code" path="§36-601.12" applicability-path="§5" display-template=""/>
@@ -437,11 +448,12 @@
             <codify:insert path="36|6|II" num-value="36-621.01" history-prefix="as added"/>
             <num>301</num>
             <heading>Authorization of sports wagering.</heading>
-            <text>The operation of sports wagering and related activities shall be lawful in the District of Columbia and conducted in accordance with this title, and rules and regulations issued pursuant to this title.</text>
+            <text>The operation of sports wagering and related activities shall be lawful in the District of Columbia and conducted in accordance with <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>, and rules and regulations issued pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>.</text>
             <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 301</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.01" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.02"/>
+            <codify:insert path="36|6|II" num-value="36-621.02" history-prefix="as added"/>
             <num>302</num>
             <heading>Rules and regulations governing conduct of sports wagering.</heading>
             <para>
@@ -531,9 +543,11 @@
               <num>(c)</num>
               <text>Sports wagering shall occur only in the specific locations within a designated sports wagering facility approved by the Office and may only be relocated or offered in an additional manner pursuant to regulation.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 302</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.02" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.03"/>
+            <codify:insert path="36|6|II" num-value="36-621.03" history-prefix="as added"/>
             <num>303</num>
             <heading>Public-private cooperation.</heading>
             <para>
@@ -548,12 +562,14 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Records, documents, and information in the possession of the Office received pursuant to an intelligence-sharing, reciprocal-use, or restricted-use agreement shall be considered investigative records compiled for law-enforcement purposes under section 204(a)(3) Freedom of Information Act of 1976, effective March 13, 2004 (D.C. Law 15-105; D.C. Official Code § 2-534(a)(3)).</text>
+                <text>Records, documents, and information in the possession of the Office received pursuant to an intelligence-sharing, reciprocal-use, or restricted-use agreement shall be considered investigative records compiled for law-enforcement purposes under <code-cite doc="D.C. Code" path="§2-534|(a)|(3)">section 204(a)(3) Freedom of Information Act of 1976, effective March 13, 2004 (D.C. Law 15-105; D.C. Official Code § 2-534(a)(3))</code-cite>.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 303</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.03" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.04"/>
+            <codify:insert path="36|6|II" num-value="36-621.04" history-prefix="as added"/>
             <num>304</num>
             <heading>Unlawful acts; action by Attorney General.</heading>
             <para>
@@ -564,7 +580,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>A violation of paragraph (1) of this subsection shall be an unlawful trade practice within the meaning of Chapter 39 of Title 28 of the District of Columbia Official Code.  An individual, group of individuals, or entity found to have violated this provision shall be subject to the remedies set forth in D.C. Official Code § 28-3909.</text>
+                <text>A violation of paragraph (1) of this subsection shall be an unlawful trade practice within the meaning of <code-cite doc="D.C. Code" path="28|39">Chapter 39 of Title 28 of the District of Columbia Official Code</code-cite>.  An individual, group of individuals, or entity found to have violated this provision shall be subject to the remedies set forth in <code-cite doc="D.C. Code" path="§28-3909">D.C. Official Code § 28-3909</code-cite>.</text>
               </para>
             </para>
             <para>
@@ -580,22 +596,24 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>The Attorney General for the District of Columbia, in the name of the District of Columbia, may bring an action in the Superior Court of the District of Columbia to enjoin an individual, group of individuals, or entity or to seek a civil penalty of up to $50,000 for a violation of this title or regulations issued pursuant to this title.</text>
+              <text>The Attorney General for the District of Columbia, in the name of the District of Columbia, may bring an action in the Superior Court of the District of Columbia to enjoin an individual, group of individuals, or entity or to seek a civil penalty of up to $50,000 for a violation of <code-cite doc="D.C. Code" path="36|6|II"> this title</code-cite> or regulations issued pursuant to <code-cite doc="D.C. Code" path="36|6|II"> this title</code-cite>.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 304</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.04" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.05"/>
+            <codify:insert path="36|6|II" num-value="36-621.05" history-prefix="as added"/>
             <num>305</num>
             <heading>Sports wagering license requirements; prohibition.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>Except as provided in subsection (f) of this section, no individual, group of individuals, or entity may engage in an activity connected with sports wagering in the District of Columbia unless all the licenses required by this title, or by regulations issued pursuant to this title, have been duly obtained.</text>
+                <text>Except as provided in subsection (f) of this section, no individual, group of individuals, or entity may engage in an activity connected with sports wagering in the District of Columbia unless all the licenses required by <code-cite doc="D.C. Code" path="36|6|II"> this title</code-cite>, or by regulations issued pursuant to <code-cite doc="D.C. Code" path="36|6|II"> this title</code-cite>, have been duly obtained.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>An applicant convicted of a disqualifying offense shall not be licensed. The Office shall define disqualifying offenses by regulations issued pursuant to this title.</text>
+                <text>An applicant convicted of a disqualifying offense shall not be licensed. The Office shall define disqualifying offenses by regulations issued pursuant to <code-cite doc="D.C. Code" path="36|6|II"> this title</code-cite>.</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -628,7 +646,7 @@
                 <num>(2)</num>
                 <para>
                   <num>(A)</num>
-                  <text>The Office shall not grant any of the licenses listed in paragraph (1) of this subsection until it has determined that each individual, group of individuals, or entity that has control of the applicant has been approved for licensure in accordance with this title.</text>
+                  <text>The Office shall not grant any of the licenses listed in paragraph (1) of this subsection until it has determined that each individual, group of individuals, or entity that has control of the applicant has been approved for licensure in accordance with <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>.</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -656,7 +674,7 @@
               <num>(c)</num>
               <para>
                 <num>(1)</num>
-                <text>An applicant for a license or renewal of a license issued pursuant to this title shall be subject to District, state, and national criminal history background checks and shall submit an application to the Office, in a form determined by the Office, for fingerprints for a national criminal records check by the Metropolitan Police Department and the Federal Bureau of Investigation of all individuals required to be named in the application and a signed authorization of each individual submitting fingerprints for the release of information by the Metropolitan Police Department and the Federal Bureau of Investigation.</text>
+                <text>An applicant for a license or renewal of a license issued pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite> shall be subject to District, state, and national criminal history background checks and shall submit an application to the Office, in a form determined by the Office, for fingerprints for a national criminal records check by the Metropolitan Police Department and the Federal Bureau of Investigation of all individuals required to be named in the application and a signed authorization of each individual submitting fingerprints for the release of information by the Metropolitan Police Department and the Federal Bureau of Investigation.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -665,7 +683,7 @@
             </para>
             <para>
               <num>(d)</num>
-              <text>Proprietary information, trade secrets, financial information, or personal information about an individual in an application submitted to the Office pursuant to this title shall not be a public record and shall not be made available under the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et. seq.</em>), or any other law.</text>
+              <text>Proprietary information, trade secrets, financial information, or personal information about an individual in an application submitted to the Office pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite> shall not be a public record and shall not be made available under <code-cite doc="D.C. Code" path="2|5|II">the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et. seq.</em>),</code-cite> or any other law.</text>
             </para>
             <para>
               <num>(e)</num>
@@ -682,12 +700,12 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>An individual, group of individuals, or entity licensed pursuant to this title shall provide the Office written notice of a change to any information provided in the application for a license or renewal of a license within 10 days of the change.</text>
+                <text>An individual, group of individuals, or entity licensed pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite> shall provide the Office written notice of a change to any information provided in the application for a license or renewal of a license within 10 days of the change.</text>
               </para>
             </para>
             <para>
               <num>(f)</num>
-              <text>No Office employee may be an applicant for or obtain a license issued pursuant to the title.</text>
+              <text>No Office employee may be an applicant for or obtain a license issued pursuant to <span codify:value="["/><code-cite doc="D.C. Code" path="36|6|II">the title</code-cite><span codify:value="]"/>.</text>
             </para>
             <para>
               <num>(g)</num>
@@ -722,12 +740,14 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>Submits a request for and obtains a waiver of these contracting requirements pursuant to section 2351 of the CBE act; provided, that if a waiver request is submitted, DSLBD approves or denies the request for waiver within 15 days from day the DSLBD removes the posted waiver request pursuant to section 2351(a-1)(2) of the CBE act; provided, further, that if DSLBD neither approves or denies the request, the waiver shall be approved.</text>
+                <text>Submits a request for and obtains a waiver of these contracting requirements pursuant to <code-cite doc="D.C. Code" path="§2-218.51">section 2351 of the CBE act</code-cite>; provided, that if a waiver request is submitted, DSLBD approves or denies the request for waiver within 15 days from day the DSLBD removes the posted waiver request pursuant to <code-cite doc="D.C. Code" path="§2-218.51|(a-1)|(2)">section 2351(a-1)(2) of the CBE act</code-cite>; provided, further, that if DSLBD neither approves or denies the request, the waiver shall be approved.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 305</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.05" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.06"/>
+            <codify:insert path="36|6|II" num-value="36-621.06" history-prefix="as added"/>
             <num>306</num>
             <heading>Operator licensure.</heading>
             <para>
@@ -797,11 +817,11 @@
                 </para>
                 <para>
                   <num>(G)</num>
-                  <text>Has demonstrated that its proposed sports wagering operation will be conducted in accordance with this title and all other applicable District and federal law;</text>
+                  <text>Has demonstrated that its proposed sports wagering operation will be conducted in accordance with <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite> and all other applicable District and federal law;</text>
                 </para>
                 <para>
                   <num>(H)</num>
-                  <text>Has been convicted of a disqualifying offense, as established by regulation by the Office pursuant to this title;</text>
+                  <text>Has been convicted of a disqualifying offense, as established by regulation by the Office pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>;</text>
                 </para>
                 <para>
                   <num>(I)</num>
@@ -842,7 +862,7 @@
                 <num>(3)</num>
                 <para>
                   <num>(A)</num>
-                  <text>Except as provided in section 316, a Class A operator license shall be issued for 5 years and require a non-refundable application fee of $250,000, which shall be submitted with the application.</text>
+                  <text>Except as provided in <code-cite doc="D.C. Code" path="§36-621.16">section 316</code-cite>, a Class A operator license shall be issued for 5 years and require a non-refundable application fee of $250,000, which shall be submitted with the application.</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -868,7 +888,7 @@
                 <num>(4)</num>
                 <para>
                   <num>(A)</num>
-                  <text>Except as provided in section 316, a Class B operator license shall be issued for 5 years and require a non-refundable application fee of $50,000, which shall be submitted with the application.</text>
+                  <text>Except as provided in <code-cite doc="D.C. Code" path="§36-621.16">section 316</code-cite>, a Class B operator license shall be issued for 5 years and require a non-refundable application fee of $50,000, which shall be submitted with the application.</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -880,9 +900,11 @@
               <num>(d)</num>
               <text>As a condition of licensure, an operator shall be bonded, in such amounts and in such manner as determined by the Office, and agree, in writing, to indemnify and to save harmless the District of Columbia against any and all actions, claims, and demands of whatever kind or nature that the District of Columbia may incur by reason of or in consequence of issuing an operator license to the licensee.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 306</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.06" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.07"/>
+            <codify:insert path="36|6|II" num-value="36-621.07" history-prefix="as added"/>
             <num>307</num>
             <heading>Duties of an operator.</heading>
             <para>
@@ -953,7 +975,7 @@
               </para>
               <para>
                 <num>(9)</num>
-                <text>Timely file with the Office records or reports required by this title, or regulations issued pursuant to this title;</text>
+                <text>Timely file with the Office records or reports required by <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>, or regulations issued pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>;</text>
               </para>
               <para>
                 <num>(10)</num>
@@ -1041,7 +1063,7 @@
                 </para>
                 <para>
                   <num>(E)</num>
-                  <text>Any additional information the Office considers necessary to carry out the provisions of this title.</text>
+                  <text>Any additional information the Office considers necessary to carry out the provisions of <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>.</text>
                 </para>
               </para>
               <para>
@@ -1053,9 +1075,11 @@
               <num>(f)</num>
               <text>An operator may continue to use supplies acquired from a licensed sports wagering supplier whose supplier license has expired or has otherwise been cancelled, unless the Office prohibits such use.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 307</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.07" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.08"/>
+            <codify:insert path="36|6|II" num-value="36-621.08" history-prefix="as added"/>
             <num>308</num>
             <heading>Sports wagering management services providers.</heading>
             <para>
@@ -1063,7 +1087,7 @@
               <text>An operator may enter into a management services contract that would permit an individual, group of individuals, or entity other than the operator to conduct sports wagering on the premises; provided, that the management services contract:</text>
               <para>
                 <num>(1)</num>
-                <text>Is with an individual, group of individuals, or entity licensed under this title to provide management services;</text>
+                <text>Is with an individual, group of individuals, or entity licensed under <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite> to provide management services;</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1076,7 +1100,7 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>The duties and responsibilities of a management services provider ("MSP") under a management services contract shall not be assigned, delegated, subcontracted, or transferred to a third party without the prior approval of the Office. To be considered for approval, a third party shall be licensed as an MSP in accordance with this title.</text>
+              <text>The duties and responsibilities of a management services provider ("MSP") under a management services contract shall not be assigned, delegated, subcontracted, or transferred to a third party without the prior approval of the Office. To be considered for approval, a third party shall be licensed as an MSP in accordance with <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -1086,7 +1110,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>An applicant for an MSP license shall pay a non-refundable $10,000 fee with the application and meet all requirements for licensure under this title.</text>
+                <text>An applicant for an MSP license shall pay a non-refundable $10,000 fee with the application and meet all requirements for licensure under <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>.</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -1097,9 +1121,11 @@
               <num>(d)</num>
               <text>An individual, group of individuals, or entity that shares in the revenue of a sports wagering business, including an affiliate operating under a revenue share agreement, shall be licensed under this section.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 308</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.08" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.09"/>
+            <codify:insert path="36|6|II" num-value="36-621.09" history-prefix="as added"/>
             <num>309</num>
             <heading>Sports wagering suppliers.</heading>
             <para>
@@ -1115,7 +1141,7 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>An applicant for a supplier license shall demonstrate that the equipment, system, or services that the applicant plans to offer to the sports wagering licensee conform to standards established pursuant to this title, regulations issued pursuant to this title, and other applicable law.</text>
+              <text>An applicant for a supplier license shall demonstrate that the equipment, system, or services that the applicant plans to offer to the sports wagering licensee conform to standards established pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>, regulations issued pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>, and other applicable law.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -1129,9 +1155,11 @@
               <num>(e)</num>
               <text>A licensed sports wagering supplier shall submit to the Office a list of all sports wagering equipment or services sold, delivered to, or offered to an operator.  All of such equipment shall be tested and approved by an independent testing laboratory approved by the Office.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 309</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.09" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.10"/>
+            <codify:insert path="36|6|II" num-value="36-621.10" history-prefix="as added"/>
             <num>310</num>
             <heading>Sports wagering occupational licensee.</heading>
             <para>
@@ -1149,16 +1177,18 @@
                 <text>A holder of an occupational license issued pursuant to this section shall pay a renewal fee of $100, which may be paid on behalf of the licensed employee by the employer, and submit a renewal application by September 30 of each year.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 310</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.10" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.11"/>
+            <codify:insert path="36|6|II" num-value="36-621.11" history-prefix="as added"/>
             <num>311</num>
             <heading>District-operated sports wagering; sports waging retailers.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>The District of Columbia, through the Office, may conduct sports wagering  authorized by this title through any method of wagering, including mobile and online transactions; provided, that any systems used for mobile or online transactions include age and location verification technology designed to prevent unauthorized access by individuals whose age and current location have not been verified. The Office may engage a contractor or contractors to provide the systems and related services for accepting sports wagers.</text>
+                <text>The District of Columbia, through the Office, may conduct sports wagering  authorized by <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite> through any method of wagering, including mobile and online transactions; provided, that any systems used for mobile or online transactions include age and location verification technology designed to prevent unauthorized access by individuals whose age and current location have not been verified. The Office may engage a contractor or contractors to provide the systems and related services for accepting sports wagers.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1227,19 +1257,21 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>Twenty-four months after the effective date of this title, the Office of the District of Columbia Auditor shall prepare a study evaluating the performance of the sports wagering instituted by this title to determine the level of District revenue generated by mobile and online gaming compared to other similarly situated jurisdictions and submit the completed study to the Mayor and Council.".</text>
+                <text>Twenty-four months after <span codify:value="May 3, 2019">the effective date of this title</span>, the Office of the District of Columbia Auditor shall prepare a study evaluating the performance of the sports wagering instituted by <code-cite doc="D.C. Code" path="36|6|II">this title </code-cite>to determine the level of District revenue generated by mobile and online gaming compared to other similarly situated jurisdictions and submit the completed study to the Mayor and Council.<span codify:value="">".</span></text>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 311</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.11" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.12"/>
+            <codify:insert path="36|6|II" num-value="36-621.12" history-prefix="as added"/>
             <num>312</num>
             <heading>License prohibitions.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>The Office shall not grant any license pursuant to this title if evidence satisfactory to the Office exists that the applicant has:</text>
+                <text>The Office shall not grant any license pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title </code-cite>if evidence satisfactory to the Office exists that the applicant has:</text>
                 <para>
                   <num>(A)</num>
                   <text>Knowingly made a false statement of a material fact to the Office;</text>
@@ -1278,24 +1310,28 @@
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Is a corporation that sells more than 5% of a licensee's voting stock, more than 5% of the voting stock of a corporation that controls the licensee, sells a licensee's assets, other than those bought and sold in the ordinary course of business, or an interest in the assets, to an individual, group of individuals, or entity not already determined by the Office to have met the qualifications of a licensee pursuant to this title, or is a non-corporate entity where an individual, group of individuals, or entity not already determined by the Office to have met the qualifications of a licensee pursuant to this title holds more than a 10% interest in the non-corporate entity.</text>
+                  <text>Is a corporation that sells more than 5% of a licensee's voting stock, more than 5% of the voting stock of a corporation that controls the licensee, sells a licensee's assets, other than those bought and sold in the ordinary course of business, or an interest in the assets, to an individual, group of individuals, or entity not already determined by the Office to have met the qualifications of a licensee pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>, or is a non-corporate entity where an individual, group of individuals, or entity not already determined by the Office to have met the qualifications of a licensee pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite> holds more than a 10% interest in the non-corporate entity.</text>
                 </para>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 312</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.12" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.13"/>
+            <codify:insert path="36|6|II" num-value="36-621.13" history-prefix="as added"/>
             <num>313</num>
             <heading>Clean hands requirement.</heading>
-            <text>The Office shall require proof of good standing pursuant to § 29-102.08 of an applicant for a license pursuant to this title and may, in addition, require certification that the Citywide Clean Hands Database indicates that the proposed licensee is current with its District taxes.</text>
+            <text>The Office shall require proof of good standing pursuant to <cite doc="D.C. Code" path="§29-102.08">§ 29-102.08</cite> of an applicant for a license pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite> and may, in addition, require certification that the Citywide Clean Hands Database indicates that the proposed licensee is current with its District taxes.</text>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 313</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.13" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.14"/>
+            <codify:insert path="36|6|II" num-value="36-621.14" history-prefix="as added"/>
             <num>314</num>
             <heading>Penalties.</heading>
             <para>
               <num>(a)</num>
-              <text>For a violation of this title or a regulation issued pursuant to this title, the Office shall have the authority to exercise one or more of the following:</text>
+              <text>For a violation of <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite> or a regulation issued pursuant to <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>, the Office shall have the authority to exercise one or more of the following:</text>
               <para>
                 <num>(1)</num>
                 <text>Impose a fine of not more than $50,000, which money shall be paid to the District of Columbia Treasurer and deposited into the General Fund of the District of Columbia as general purpose revenue funds;</text>
@@ -1313,9 +1349,11 @@
               <num>(b)</num>
               <text>An individual, group of individuals, or entity that has been fined or whose application has been denied, revoked, or suspended pursuant to this section shall have a right to a hearing before the Office and, in the event of its affirmation of the fine, denial, revocation, or suspension, whichever applies, the right to appeal the decision of the Office to the Superior Court of the District of Columbia.</text>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 314</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.14" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.15"/>
+            <codify:insert path="36|6|II" num-value="36-621.15" history-prefix="as added"/>
             <num>315</num>
             <heading>Taxation of Sports Wagering.</heading>
             <para>
@@ -1332,7 +1370,7 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>All funds owed to the District under this act shall be held in trust within the boundaries of the District for the District by an operator until the funds are paid to the District of Columbia Treasurer. An operator shall establish a separate bank account into which gross sports wagering revenue shall be deposited and maintained until such time as the funds are paid to the District of Columbia Treasurer.</text>
+              <text>All funds owed to the District under <code-cite doc="D.C. Code" path="36|6">this</code-cite> and <code-cite doc="D.C. Code" path="22|17|II">act</code-cite> shall be held in trust within the boundaries of the District for the District by an operator until the funds are paid to the District of Columbia Treasurer. An operator shall establish a separate bank account into which gross sports wagering revenue shall be deposited and maintained until such time as the funds are paid to the District of Columbia Treasurer.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -1343,27 +1381,29 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Of the remaining balance, 50% shall be used to fund the Birth-to-Three for All DC Amendment Act of 2018, effective October 30, 2018 (D.C. Law 22-179; D.C. Official Code § 4-651.01 <em>et seq.</em>), and 50% shall be deposited into the Neighborhood Safety and Engagement Fund, established by section 103 of the Neighborhood Engagement Achieves Results Amendment Act of 2016, effective June 30, 2016 (D.C. Law 21-125; D.C. Official Code § 7-2413).</text>
+                <text>Of the remaining balance, 50% shall be used to fund <code-cite doc="D.C. Code" path="4|6B">the Birth-to-Three for All DC Amendment Act of 2018, effective October 30, 2018 (D.C. Law 22-179; D.C. Official Code § 4-651.01 <em>et seq.</em>),</code-cite> and 50% shall be deposited into the Neighborhood Safety and Engagement Fund, established by <code-cite doc="D.C. Code" path="§7-2413">section 103 of the Neighborhood Engagement Achieves Results Amendment Act of 2016, effective June 30, 2016 (D.C. Law 21-125; D.C. Official Code § 7-2413)</code-cite>.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 315</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.15" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.16"/>
+            <codify:insert path="36|6|II" num-value="36-621.16" history-prefix="as added"/>
             <num>316</num>
             <heading>Sports Wagering Small Business Development Program.</heading>
             <para>
               <num>(a)</num>
-              <text>All contracts, including contracts entered into by the Office under the authority of this title shall be subject to the CBE requirements of the CBE act.</text>
+              <text>All contracts, including contracts entered into by the Office under the authority of <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite> shall be subject to the CBE requirements of <code-cite doc="D.C. Code" path="2|2|IX-A">the CBE act</code-cite>.</text>
             </para>
             <para>
               <num>(b)</num>
               <para>
                 <num>(1)</num>
-                <text>A Class A operator license shall be issued for 5 years and require a non-refundable application fee of $500,000, which shall be submitted with the application; provided, that when an applicant for a Class A sports operator license partners with a joint venture with a CBE majority interest, it shall submit a non-refundable application fee of $125,000 at the time of the initial application; provided further, that subsequent renewal fees shall be paid pursuant to section 306(b)(3)(B) and in accordance with subsection (c) of this section.</text>
+                <text>A Class A operator license shall be issued for 5 years and require a non-refundable application fee of $500,000, which shall be submitted with the application; provided, that when an applicant for a Class A sports operator license partners with a joint venture with a CBE majority interest, it shall submit a non-refundable application fee of $125,000 at the time of the initial application; provided further, that subsequent renewal fees shall be paid pursuant to <code-cite doc="D.C. Code" path="§36-621.06|(b)|(3)|(B)">section 306(b)(3)(B)</code-cite> and in accordance with subsection (c) of this section.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>A Class B operator license shall be issued for 5 years and require a non-refundable application fee of $100,000, which shall be submitted with the application; provided, that when an applicant for a Class B sports operator license partners with a joint venture with a CBE majority interest, it shall submit a non-refundable application fee of $25,000 at the time of the initial application; provided further, that subsequent renewal fees shall be paid pursuant to section 306(c)(4)(B) and in accordance with subsection (c) of this section.</text>
+                <text>A Class B operator license shall be issued for 5 years and require a non-refundable application fee of $100,000, which shall be submitted with the application; provided, that when an applicant for a Class B sports operator license partners with a joint venture with a CBE majority interest, it shall submit a non-refundable application fee of $25,000 at the time of the initial application; provided further, that subsequent renewal fees shall be paid pursuant to <code-cite doc="D.C. Code" path="§36-621.06|(c)|(4)|(B)">section 306(c)(4)(B)</code-cite> and in accordance with subsection (c) of this section.</text>
               </para>
             </para>
             <para>
@@ -1374,7 +1414,7 @@
               <num>(d)</num>
               <para>
                 <num>(1)</num>
-                <text>Within 180 days of the effective date of this title, DSLBD, in consultation with the Office, shall establish a program, with a duration of not less than 5 years, to train SBEs and SBE-eligible firms to develop the capacity to become sports wagering operators and management service providers.</text>
+                <text>Within 180 days of <span codify:value="May 3, 2019">the effective date of this title</span>, DSLBD, in consultation with the Office, shall establish a program, with a duration of not less than 5 years, to train SBEs and SBE-eligible firms to develop the capacity to become sports wagering operators and management service providers.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1445,19 +1485,23 @@
               <num>(f)</num>
               <para>
                 <num>(1)</num>
-                <text>Each sports wagering licensee shall provide quarterly reports to DSLBD pursuant to section 2346(i) of the CBE act.</text>
+                <text>Each sports wagering licensee shall provide quarterly reports to DSLBD pursuant to <code-cite doc="D.C. Code" path="§2-218.46|(i)">section 2346(i) of the CBE act</code-cite>.</text>
               </para>
               <para>
                 <num>(2)</num>
                 <text>Each Class A and Class B licensee shall provide to the Office a report to the Office on its CBE participation.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 316</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.16" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction, except for subsection (d) of this section, impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite>, except for subsection (d) of this section, has been given effect.</codify:annotation>
           </section>
           <section>
-            <codify:insert path="36|6|II" num-value="36-621.17"/>
+            <codify:insert path="36|6|II" num-value="36-621.17" history-prefix="as added"/>
             <num>317</num>
             <heading>Conflict with federal law.</heading>
-            <text>Nothing in this title shall be construed to authorize noncompliance with any provision of any federal law or` regulation. Notwithstanding any provision in this title, no sports wagering, or gambling in any form, or the operation of gambling devices shall be allowed on federal property, or portion of federal property, where such activity is prohibited by federal law or regulation or is contrary to section 602(a)(3) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(a)(3)).</text>
+            <text>Nothing in <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite> shall be construed to authorize noncompliance with any provision of any federal law or regulation. Notwithstanding any provision in <code-cite doc="D.C. Code" path="36|6|II">this title</code-cite>, no sports wagering, or gambling in any form, or the operation of gambling devices shall be allowed on federal property, or portion of federal property, where such activity is prohibited by federal law or regulation or is contrary to <code-cite doc="D.C. Code" path="§1-206.02|(a)|(3)">section 602(a)(3) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(a)(3))</code-cite>.</text>
+            <annotation doc="D.C. Law 3-172" type="History" path="§301">Mar. 10, 1981, D.C. Law 3-172, § 317</annotation>
+            <codify:annotation doc="D.C. Code" path="§36-621.17" type="Applicability" history="false" display-template="">Section 7177 of the Fiscal Year 2020 Budget Support Emergency Amendment Act of 2019 (D.C. Act 23-91) amended <cite doc="D.C. Law 22-312" path="§5">§ 5 of D.C. Law 22-312</cite> removing the applicability restriction impacting this section. Therefore the amendment of this section by <cite doc="D.C. Law 22-312">D.C. Law 22-312</cite> has been given effect.</codify:annotation>
           </section>
         </container>
       </include>
@@ -1494,7 +1538,7 @@
           <para>
             <codify:insert/>
             <num>(iv)</num>
-            <text>A holder of a sports wagering license listed in section 305(b)(1) of the Law to Legalize Lotteries, Daily Numbers Games, and Bingo and Raffles for Charitable Purposes in the District of Columbia, effective March 10, 1981 (D.C. Law 3-172; D.C. Official Code § 3-1301 <em>passim)</em>.</text>
+            <text>A holder of a sports wagering license listed in <code-cite doc="D.C. Code" path="§36-621.05|(b)|(1)">section 305(b)(1) of the Law to Legalize Lotteries, Daily Numbers Games, and Bingo and Raffles for Charitable Purposes in the District of Columbia, effective March 10, 1981 (D.C. Law 3-172; D.C. Official Code § 3-1301 <em>passim)</em></code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -1508,7 +1552,7 @@
         <para>
           <codify:insert/>
           <num codify:value="[(d)]">(11)</num>
-          <text>On an annual basis, the Department shall submit to the Council a report on sports wagering licensee certified business enterprise compliance as it relates to the certified business enterprise requirements of Title III of the Law to Legalize Lotteries, Daily Numbers Games, and Bingo and Raffles for Charitable Purposes in the District of Columbia, effective March 10, 1981 (D.C. Law 3-172; D.C. Official Code § 3-1301 <em>passim</em>).</text>
+          <text>On an annual basis, the Department shall submit to the Council a report on sports wagering licensee certified business enterprise compliance as it relates to the certified business enterprise requirements of <code-cite doc="D.C. Code" path="36|6|II">Title III of the Law to Legalize Lotteries, Daily Numbers Games, and Bingo and Raffles for Charitable Purposes in the District of Columbia, effective March 10, 1981 (D.C. Law 3-172; D.C. Official Code § 3-1301 <em>passim</em>)</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
@@ -1530,10 +1574,15 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
-      <codify:applicability doc="D.C. Act 22-594" path="§2|(c)" date="notfunded" history="false"/>
+      <!-- <codify:applicability doc="D.C. Act 22-594" path="§2|(c)" date="notfunded" history="false"/>
       <codify:applicability doc="D.C. Act 22-594" path="§2|(d)" date="notfunded" history="false"/>
       <codify:applicability doc="D.C. Act 22-594" path="§2|(e)" date="notfunded" history="false"/>
-      <codify:applicability doc="D.C. Act 22-594" path="§3" date="notfunded" history="false"/>
+      <codify:applicability doc="D.C. Act 22-594" path="§3" date="notfunded" history="false"/> -->
+      <codify:repeal doc="D.C. Code" path="§36-621.16|(d)" display-template=""/>
+      <codify:find-replace doc="D.C. Code" path="§36-621.16|(d)" count="1" display-template="">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
