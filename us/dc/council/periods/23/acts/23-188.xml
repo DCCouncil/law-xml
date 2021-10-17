@@ -20,7 +20,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Manufacturer and Pub Permit Parity Amendment Act of 2019".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Title 25 of the District of Columbia Official Code is amended as follows:</text>
     <para>
@@ -81,22 +81,31 @@
       <para>
         <num>(2)</num>
         <text>Section 25-101(56) is amended by striking the figure "15%" and inserting the figure "21%" in its place.</text>
+        <codify:find-replace path="§25-101|(56)" count="1">
+          <find>15%</find>
+          <replace>21%</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§25-110">
         <num>(3)</num>
         <text>Section 25-110 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended as follows:</text>
-          <para>
+          <para codify:path="(2)|(C)|(i)">
             <num>(i)</num>
             <text>Paragraph (2)(C)(i) is amended by striking the phrase "growlers" both times it appears and inserting the phrase "growlers and crowlers" in its place.</text>
+            <codify:find-replace count="2">
+              <find>growlers</find>
+              <replace>growlers and crowlers</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(ii)</num>
             <text>Paragraph (3) is amended by adding a new subparagraph (H) to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(H)</num>
                 <text>A holder of a manufacturer's license, class C, that owns 2 or more locations shall be permitted to transport products from one location to the other location that the licensee owns.</text>
               </para>
@@ -108,6 +117,7 @@
             <text>A new paragraph (4) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(4)</num>
                 <text>A manufacturer's license shall not be required for persons who manufacture beer or wine at their residence; provided, that the wine or beer is for personal consumption only and not for resale.</text>
               </para>
@@ -120,6 +130,7 @@
           <text>A new subsection (a-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(a)"/>
               <num>(a-1)</num>
               <para>
                 <num>(1)</num>
@@ -139,12 +150,13 @@
         <text>A new section 25-116a is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="25|1|II" after="§25-116"/>
             <prefix>§</prefix>
             <num>25-116a</num>
             <heading>Pub endorsement.</heading>
             <para>
               <num>(a)</num>
-              <text>An on-premises retailer's license, class C or D, may apply for one or more pub endorsements in accordance with § 25-117, 25-124, or 25-125.</text>
+              <text>An on-premises retailer's license, class C or D, may apply for one or more pub endorsements in accordance with § <cite doc="D.C. Code" path="§25-117">25-117</cite>, <span codify:value="[§] "></span><cite doc="D.C. Code" path="§25-124">25-124</cite>, or <span codify:value="[§] "></span><cite doc="D.C. Code" path="§25-125">25-125</cite>.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -152,8 +164,8 @@
               <text>
                 <table>
                   <tr>
-                    <th>1 pub endorsement</th>
-                    <th>$5,000</th>
+                    <td>1 pub endorsement</td>
+                    <td>$5,000</td>
                   </tr>
                   <tr>
                     <td>2 pub endorsements</td>
@@ -170,10 +182,10 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-117">
         <num>(5)</num>
         <text>Section 25-117 is amended as follows:</text>
-        <para>
+        <para codify:path="heading">
           <num>(A)</num>
           <text>The heading is amended to read as follows:</text>
           <include>
@@ -181,15 +193,20 @@
               <prefix>§</prefix>
               <num>25-117</num>
               <heading>Brew pub endorsement requirements and qualifications.</heading>
+              <codify:find-replace count="1">
+                <find>Brew pub permit requirements and qualifications</find>
+                <replace>Brew pub endorsement requirements and qualifications</replace>
+              </codify:find-replace>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(a)">
           <num>(B)</num>
           <text>Subsection (a) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
@@ -223,20 +240,32 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(a-1)">
           <num>(C)</num>
           <text>Subsection (a-1) is amended by striking the word "permit" and inserting the word "endorsement" in its place.</text>
+          <codify:find-replace position="first">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(a-2)">
           <num>(D)</num>
           <text>Subsection (a-2) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the word "permit" wherever it appears and insert the word "endorsement" in its place.</text>
+            <codify:find-replace count="9">
+              <find>permit</find>
+              <replace>endorsement</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(2)|(B)">
             <num>(ii)</num>
             <text>Paragraph (2)(B) is amended by striking the word "business" and inserting the word "operating" in its place.</text>
+            <codify:find-replace count="1">
+              <find>business</find>
+              <replace>operating</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -244,48 +273,70 @@
           <text>A new subsection (a-3) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(a-2)"/>
               <num>(a-3)</num>
               <text>All holders of brew pub endorsements may also sell beer brewed at the pub location licensed by the Board to patrons in crowlers, barrels, cans, kegs, sealed bottles, or other closed containers for off-premises consumption.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(F)</num>
           <text>Subsection (b) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the word "permit" and insert the word "endorsement" in its place.</text>
+            <codify:find-replace count="1">
+              <find>permit</find>
+              <replace>endorsement</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "an on-premises restaurant, tavern, multipurpose facility, hotel, or nightclub retailer's license, class C or D" and insert the phrase "on-premises retailer's license, class C or D" in in its place.</text>
+            <codify:find-replace count="2">
+              <find>an on-premises restaurant, tavern, multipurpose facility, hotel, or nightclub retailer's license, class C or D</find>
+              <replace>on-premises retailer's license, class C or D</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(G)</num>
           <text>Subsection (c) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(c)</num>
               <text>A brew pub endorsement shall be cancelled or revoked if the on-premises retailer's license, class C or D, ceases to operate or the license is revoked or cancelled.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(H)</num>
           <text>Subsection (d) is amended by striking the word "permit" and inserting the word "endorsement" in its place.</text>
+          <codify:find-replace count="1">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(I)</num>
           <text>Subsections (e) and (f) are amended by striking the word "permit" wherever it appears and inserting the word "endorsement" in its place.</text>
+          <codify:find-replace path="(e)" count="2">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
+          <codify:find-replace path="(f)" count="4">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-124">
         <num>(6)</num>
         <text>Section 25-124 is amended as follows:</text>
-        <para>
+        <para codify:path="heading">
           <num>(A)</num>
           <text>The heading is amended to read as follows:</text>
           <include>
@@ -293,15 +344,20 @@
               <prefix>§</prefix>
               <num>25-124</num>
               <heading>Wine pub endorsement.</heading>
+              <codify:find-replace count="1">
+                <find>Wine pub permit requirements and qualifications</find>
+                <replace>Wine pub endorsement</replace>
+              </codify:find-replace>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(a)">
           <num>(B)</num>
           <text>Subsection (a) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(a)</num>
               <text>A wine pub endorsement shall authorize the licensee to manufacture wine containing no more than 21% alcohol by volume at one location from grapes, fruit, or fruit juices transported to the facility used by the on-premises retailer's license class C or D licensee for on-premises consumption and for sale to the licensed wholesalers for the purpose of resale to other licensees.</text>
             </para>
@@ -313,31 +369,41 @@
           <text>A new subsection (a-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(a)"/>
               <num>(a-1)</num>
               <text>A wine pub endorsement issued in accordance with subsection (a) shall authorize the licensee to manufacture wine containing no more than 21% alcohol by volume.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(D)</num>
           <text>Subsection (b) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the word "permit" and insert the word "endorsement" in its place.</text>
+            <codify:find-replace count="1">
+              <find>permit</find>
+              <replace>endorsement</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "an on-premises restaurant, tavern, multipurpose facility, hotel, or nightclub license, class C or D" and insert the phrase "an on-premises retailer's license, class C or D" in its place.</text>
+            <codify:find-replace count="2">
+              <find>an on-premises restaurant, tavern, multipurpose facility, hotel, or nightclub license, class C or D</find>
+              <replace>an on-premises retailer's license, class C or D</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(E)</num>
           <text>Subsection (c) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(c)</num>
-              <text>Except as provided for in subsection (c-1), the location used to manufacture wine shall be on or immediately adjacent to the facility used by the on-premises retailer's license class C or D licensee that is licensed to the wine pub owner in accordance with subsection (b) of this section.</text>
+              <text>Except as provided for in subsection (c-1)<span codify:value=" [of this section]"></span>, the location used to manufacture wine shall be on or immediately adjacent to the facility used by the on-premises retailer's license class C or D licensee that is licensed to the wine pub owner in accordance with subsection (b) of this section.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -347,6 +413,7 @@
           <text>A new subsection (c-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(c)"/>
               <num>(c-1)</num>
               <para>
                 <num>(1)</num>
@@ -372,82 +439,125 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(G)</num>
           <text>Subsection (d) is amended by striking the word "permit" and inserting the word "endorsement" in its place.</text>
+          <codify:find-replace count="6">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(d-1)">
           <num>(H)</num>
           <text>Subsection (d-1) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(i)</num>
             <text>Paragraph (1) is amended as follows:</text>
-            <para>
+            <para codify:path="text">
               <num>(I)</num>
               <text>The lead-in text is amended by striking the phrase "If the licensee possesses or has submitted a completed application for a wine pub permit" and inserting the phrase "If the licensee has submitted a completed application for or is the holder of a wine pub endorsement" in its place.</text>
+              <codify:find-replace count="1">
+                <find>If a licensee possesses or has submitted a completed application for a wine pub permit</find>
+                <replace>If the licensee has submitted a completed application for or is the holder of a wine pub endorsement</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(A)">
               <num>(II)</num>
               <text>Subparagraph (A) is amended as follows:</text>
               <para>
                 <num>(aa)</num>
                 <text>Strike the word "permit" and insert the word "endorsement" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>permit</find>
+                  <replace>endorsement</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(bb)</num>
                 <text>Strike the word "any" and insert the article "an" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>any</find>
+                  <replace>an</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(cc)</num>
                 <text>Strike the word "business" and insert the word "operating" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>business</find>
+                  <replace>operating</replace>
+                </codify:find-replace>
               </para>
             </para>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(ii)</num>
             <text>Paragraph (3) is amended as follows:</text>
             <para>
               <num>(I)</num>
               <text>Strike the word "permit" both times it appears and insert the word "endorsement" in its place.</text>
+              <codify:find-replace count="2">
+                <find>permit</find>
+                <replace>endorsement</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(II)</num>
               <text>Strike the phrase ", as set forth in the schedule of civil penalties established under § 25-830,".</text>
+              <codify:find-replace count="1">
+                <find>, as set forth in the schedule of civil penalties established under <cite doc="D.C. Code" path="§25-830">§ 25-830</cite>,</find>
+                <replace/>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(4)">
             <num>(iii)</num>
             <text>Paragraph (4) is amended by striking the word "permit" and inserting the word "endorsement" in its place.</text>
+            <codify:find-replace count="1">
+              <find>permit</find>
+              <replace>endorsement</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(e)">
           <num>(I)</num>
           <text>Subsection (e) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="(f)">
           <num>(K)</num>
           <text>Subsection (f) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(f)</num>
               <text>A wine pub endorsement shall be cancelled or revoked if the on-premises retailer's license class C or D licensee ceases operation or the license is revoked or cancelled.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(g)">
           <num>(L)</num>
           <text>Subsection (g) is amended by striking the word "permit" and inserting the word "endorsement" in its place.</text>
+          <codify:find-replace count="1">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(h)">
           <num>(M)</num>
           <text>Subsection (h) is amended by striking the word "permits" and inserting the word "endorsements" in its place.</text>
+          <codify:find-replace count="1">
+            <find>permits</find>
+            <replace>endorsements</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(N)</num>
           <text>A new subsection (i) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(i)</num>
               <text>A licensee holding a wine pub endorsement shall be authorized to sell and deliver wine directly to a consumer for off-premises consumption if the alcoholic beverage is:</text>
               <para>
@@ -467,53 +577,71 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-125">
         <num>(7)</num>
         <text>Section 25-125 is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The heading is amended to read as follows:</text>
           <include>
-            <section>
+            <section codify:path="heading">
               <prefix>§</prefix>
               <num>25-125</num>
               <heading>Distillery pub endorsement.</heading>
+              <codify:find-replace>
+                <find>Distillery pub permit requirements and qualifications</find>
+                <replace>Distillery pub endorsement</replace>
+              </codify:find-replace>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(a)">
           <num>(B)</num>
           <text>Subsection (a) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(a)</num>
               <text>A distillery pub endorsement shall authorize the licensee to manufacture distilled spirits at one location from fruits or grains, to blend and rectify distilled spirits, and store distilled spirits transported to the on-premises retailer's license class C licensee for on-premises consumption, and for sale to licensed wholesalers for the purposes of resale to other licensees.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(C)</num>
           <text>Subsection (b) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the word "permit" and insert the word "endorsement" in its place.</text>
+            <codify:find-replace count="1">
+              <find>permit</find>
+              <replace>endorsement</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "an on-premises restaurant, tavern, multipurpose facility, hotel, or nightclub license, class C" and insert the phrase "an on-premises retailer's license, class C" in its place.</text>
+            <codify:find-replace count="2">
+              <find>an on-premises restaurant, tavern, multipurpose facility, hotel, or nightclub license, class C</find>
+              <replace>an on-premises retailer's license, class C</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(D)</num>
           <text>Subsection (c) is amended by striking the phrase "The location" and inserting the phrase "Except as provided for in subsection (c-1), the location" in its place.</text>
+          <codify:find-replace count="1">
+            <find>The location</find>
+            <replace>Except as provided for in subsection (c-1) [of this section], the location</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(E)</num>
           <text>A new subsection (c-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(c)"/>
               <num>(c-1)</num>
               <para>
                 <num>(1)</num>
@@ -539,86 +667,145 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(F)</num>
           <text>Subsection (d) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(i)</num>
             <text>Paragraph (1) is amended as follows:</text>
-            <para>
+            <para codify:path="text">
               <num>(I)</num>
               <text>The lead-in text is amended by striking the phrase "or received a distillery pub permit" and inserting the phrase "or is a holder of a distillery pub endorsement" in its place.</text>
+              <codify:find-replace count="1">
+                <find>or received a distillery pub permit</find>
+                <replace>or is a holder of a distillery pub endorsement</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(A)">
               <num>(II)</num>
               <text>Subparagraph (A) is amended by striking the phrase "permit holder's licensed location" and inserting the phrase "endorsement holder's licensed premises" in its place.</text>
+              <codify:find-replace count="1">
+                <find>permit holder's licensed location</find>
+                <replace>endorsement holder's licensed premises</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(III)</num>
               <text>Subparagraphs (D) and (C) are amended by striking the word "permit" everywhere it appears and inserting the word "endorsement" in its place.</text>
+              <codify:find-replace path="(B)" count="2">
+                <find>permit</find>
+                <replace>endorsement</replace>
+              </codify:find-replace>
+              <codify:find-replace path="(C)" count="1">
+                <find>permit</find>
+                <replace>endorsement</replace>
+              </codify:find-replace>
             </para>
           </para>
         </para>
-        <para>
+        <para codify:path="(d-1)|(1)">
           <num>(G)</num>
           <text>Subsection (d-1) is amended as follows:</text>
-          <para>
+          <para codify:path="text">
             <num>(i)</num>
             <text>The lead-in text is amended by striking the phrase "if a licensee possesses or has submitted a completed application for a distillery pub permit" and inserting the phrase "if the licensee has submitted a completed application for or is the holder of a distillery pub endorsement" in its place.</text>
+            <codify:find-replace count="1">
+              <find>If a licensee possesses or has submitted a completed application for a distillery pub permit</find>
+              <replace>if the licensee has submitted a completed application for or is the holder of a distillery pub endorsement</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Subparagraphs (A) and (B) are amended by striking the word "permit" wherever it appears and inserting the word "endorsement" in its place.</text>
-          </para>
-          <para>
-            <num>(iii)</num>
-            <text>Paragraphs (2) and (3) are amended by striking the word "permit" wherever it appears and inserting the word "endorsement" in its place.</text>
-          </para>
-          <para>
-            <num>(iv)</num>
-            <text>Paragraph (4) is amended as follows:</text>
-            <para>
-              <num>(I)</num>
-              <text>Strike the word "permit" both times it appears and insert the word "endorsement" in its place.</text>
-            </para>
-            <para>
-              <num>(II)</num>
-              <text>Strike the phrase ", as set forth in the schedule or civil penalties established under § 25-830,".</text>
-            </para>
-          </para>
-          <para>
-            <num>(v)</num>
-            <text>Paragraph (5) is amended by striking the word "permit" and inserting the word "endorsement" in its place.</text>
+            <codify:find-replace path="(A)" count="1">
+              <find>permit</find>
+              <replace>endorsement</replace>
+            </codify:find-replace>
+            <codify:find-replace path="(B)" count="1">
+              <find>permit</find>
+              <replace>endorsement</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
+          <num>(iii)</num>
+          <text>Paragraphs (2) and (3) are amended by striking the word "permit" wherever it appears and inserting the word "endorsement" in its place.</text>
+          <codify:find-replace path="(d-1)|(2)" count="2">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
+          <codify:find-replace path="(d-1)|(3)" count="1">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
+        </para>
+        <para codify:path="(d-1)|(4)">
+          <num>(iv)</num>
+          <text>Paragraph (4) is amended as follows:</text>
+          <para>
+            <num>(I)</num>
+            <text>Strike the word "permit" both times it appears and insert the word "endorsement" in its place.</text>
+            <codify:find-replace count="2">
+              <find>permit</find>
+              <replace>endorsement</replace>
+            </codify:find-replace>
+          </para>
+          <para>
+            <num>(II)</num>
+            <text>Strike the phrase ", as set forth in the schedule or civil penalties established under § 25-830,".</text>
+            <codify:find-replace count="1">
+              <find>, as set forth in the schedule of civil penalties established under <cite doc="D.C. Code" path="§25-830">§ 25-830</cite>,</find>
+              <replace/>
+            </codify:find-replace>
+          </para>
+        </para>
+        <para codify:path="(d-1)|(5)">
+          <num>(v)</num>
+          <text>Paragraph (5) is amended by striking the word "permit" and inserting the word "endorsement" in its place.</text>
+          <codify:find-replace count="1">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
+        </para>
+        <para codify:path="(e)">
           <num>(H)</num>
           <text>Subsection (e) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="(f)">
           <num>(I)</num>
           <text>Subsection (f) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(f)</num>
               <text>A distillery pub endorsement shall be cancelled or revoked if the on-premises retailer's license class C licensee ceases operations or the license is revoked or cancelled.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(g)">
           <num>(J)</num>
           <text>Subsection (g) is amended by striking the word "permit" and inserting the word "endorsement" in its place.</text>
+          <codify:find-replace count="1">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(h)">
           <num>(K)</num>
           <text>Subsection (h) is amended by striking the word "permits" and inserting the word "endorsements" in its place.</text>
+          <codify:find-replace count="1">
+            <find>permits</find>
+            <replace>endorsements</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(L)</num>
           <text>A new subsection (i) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(i)</num>
               <text>A licensee holding a distillery pub endorsement shall be authorized to sell and deliver spirits directly to a consumer for off-premises consumption if the spirits are:</text>
               <para>
@@ -638,16 +825,28 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-128">
         <num>(8)</num>
         <text>Section 25-128 is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Subsection (a) is amended by striking the word "permit" and inserting the word "endorsement" in its place.</text>
+          <codify:find-replace path="(a)" count="4">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Subsection (h) is amended by striking the word "permit" wherever it appears and inserting the word "endorsement" in its place.</text>
+          <codify:find-replace path="(h)" count="2">
+            <find>permit,</find>
+            <replace>endorsement,</replace>
+          </codify:find-replace>
+          <codify:find-replace path="(h)" count="1">
+            <find>permit </find>
+            <replace>endorsement </replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
@@ -677,6 +876,10 @@
               <prefix>§</prefix>
               <num>25-407</num>
               <heading>Application for brew pub endorsement.</heading>
+              <codify:find-replace path="§25-407|heading" count="1">
+                <find>Application for a brew pub permit</find>
+                <replace>Application for brew pub endorsement</replace>
+              </codify:find-replace>
             </section>
           </include>
           <aftertext>.</aftertext>
@@ -684,12 +887,23 @@
         <para>
           <num>(B)</num>
           <text>The lead-in text is amended by striking the word "permit" and inserting the word "endorsement" in its place.</text>
+          <codify:find-replace path="§25-407" count="1">
+            <find>permit</find>
+            <replace>endorsement</replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
     <para>
       <num>(c)</num>
       <text>Section 25-508 is amended by striking the phrase, "Brew pub permit 3,000/year".</text>
+      <codify:find-replace path="§25-508" count="1">
+        <find> <tr>
+        <td>Brew pub permit</td>
+        <td>$3,000/year</td>
+      </tr></find>
+        <replace></replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(d)</num>
@@ -697,15 +911,26 @@
       <para>
         <num>(1)</num>
         <text>Section 25-711(b) is amended by striking the phrase "retail license or a club" and inserting the phrase "retail license, manufacturer's license, or a club" in its place.</text>
+        <codify:annotation doc="D.C. Code" path="§25-711" type="Editor's Notes" history="false">
+          <cite doc="D.C. Act 23-188" path="§2|(d)|(1)">Section 2(d)(1) of D.C. Act 23-188</cite> attempted to amend this section, however, the language it attempted to amend was previously changed by <cite doc="D.C. Act 23-184" path="§2|(b)|(4)">section 2(b)(4) of D.C. Act 23-184</cite>.
+        </codify:annotation>
       </para>
       <para>
         <num>(2)</num>
         <text>Section 25-737 is amended by striking the word "permit" everywhere it appears and inserting the word "endorsement" in its place.</text>
+        <codify:find-replace path="§25-737" count="3">
+          <find>permit</find>
+          <replace>endorsement</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
       <num>(e)</num>
       <text>Section 25-902 is amended by striking the word "permit" everywhere it appears and inserting the word "endorsement" in its place.</text>
+      <codify:find-replace path="§25-902" count="4">
+          <find>permit</find>
+          <replace>endorsement</replace>
+        </codify:find-replace>
     </para>
   </section>
   <section>
