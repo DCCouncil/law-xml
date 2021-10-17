@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 24-52">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 24-7">
+  <num type="law">24-7</num>
   <num type="bill">24-52</num>
   <num type="act">24-52</num>
   <heading type="short">District Government Family Bereavement Leave Temporary Amendment Act of 2021</heading>
   <heading type="long">To amend, on a temporary basis, the District of Columbia Government Comprehensive Merit Personnel Act of 1978 to provide paid leave for a District government employee when the employee suffers the death of the employee's minor child or a stillbirth.</heading>
   <meta>
     <introduced>2021-01-29</introduced>
-    <effective projected="true">2021-06-29</effective>
+    <effective>2021-06-24</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/46410/Signed_Act/B24-0052-Signed_Act.pdf">D.C. Law 24-7</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/46410/Signed_Act/B24-0052-Signed_Act.pdf">D.C. Act 24-52</citation>
       <citation type="register">68 DCR 004803</citation>
     </citations>
@@ -26,6 +28,7 @@
     <text>Section 1203 of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-612.03), is amended by adding new subsection (n-1) to read as follows:</text>
     <include>
       <para>
+        <codify:insert doc="D.C. Code" path="§1-612.03" after="(n)"/>
         <num>(n-1)</num>
         <para>
           <num>(1)</num>
@@ -33,7 +36,7 @@
         </para>
         <para>
           <num>(2)</num>
-          <text>Leave authorized by paragraph (1) of this subsection must be exercised within 60 days after the effective date of the District Government Family Bereavement Leave Emergency Amendment Act of 2021, effective March 17, 2021 (D.C. Act 24-31; 68 DCR 3183), or within 60 days after the death of the employee's child or stillbirth, whichever is later.</text>
+          <text>Leave authorized by paragraph (1) of this subsection must be exercised within 60 days after <span codify:value="March 17, 2021">the effective date of the District Government Family Bereavement Leave Emergency Amendment Act of 2021, effective March 17, 2021 (D.C. Act 24-31; 68 DCR 3183)</span>, or within 60 days after the death of the employee's child or stillbirth, whichever is later.</text>
         </para>
         <para>
           <num>(3)</num>
@@ -50,6 +53,12 @@
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:temporary doc="D.C. Code" path="§1-612.03"/>
+    <codify:insert doc="D.C. Code" path="§1-612.03" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on February 4, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§1-612.03(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
