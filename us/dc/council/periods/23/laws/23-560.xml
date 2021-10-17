@@ -6,7 +6,7 @@
   <heading type="long">To amend the Human Rights Act of 1977 to clarify the definition of place of public accommodation; to amend the Anti-Intimidation and Defacing of Public or Private Property Criminal Penalty Act of 1982 to expand the offense of defacement of certain symbols or display of certain emblems; to amend the Bias-Related Crime Act of 1989 to provide civil enforcement authority to the Attorney General against persons who commit bias-related crimes or, through certain acts, interfere or attempt to interfere with an individual's exercise of constitutional or District rights, or deprive an individual of equal protection, to provide subpoena authority, and to specify appropriate relief; and to amend Chapter 1 of Title 23 of the District of Columbia Official Code to limit the scope of the defenses of heat of passion caused by adequate provocation, insanity, self-defense, defense of others, and defense of property if certain elements of the defense are based on the victim's actual or perceived gender identity, gender expression, or sexual orientation.</heading>
   <meta>
     <introduced>2019-09-16</introduced>
-    <effective>2021-01-11</effective>
+    <effective projected="true">2021-06-08</effective>
     <citations>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/43128/Signed_Act/B23-0409-Signed_Act.pdf">D.C. Act 23-560</citation>
       <citation type="register">68 DCR 000764</citation>
@@ -24,13 +24,19 @@
   <section>
     <num>2</num>
     <text>Section 102(24) of the Human Rights Act of 1977, effective December 13, 1977 (D.C. Law 2-38; D.C. Official Code § 2-1401.02(24)), is amended by striking the phrase "all places included in the meaning of such terms as inns" and inserting the phrase "any person or place that provides, to a person in the District, access to an accommodation, service, or good, whether or not that person or place maintains a physical location in the District or charges for those goods or services, such as inns" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§2-1401.02|(24)" count="1">
+      <find>all places included in the meaning of such terms as inns</find>
+      <replace>any person or place that provides, to a person in the District, access to an accommodation, service, or good, whether or not that person or place maintains a physical location in the District or charges for those goods or services, such as inns</replace>
+    </codify:find-replace>
+    <codify:not-funded-anno doc="D.C. Code" path="§2-1401.02" applicability-path="§6" display-template=""/>
   </section>
   <section>
     <num>3</num>
     <text>Section 3 of the Anti-Intimidation and Defacing of Public or Private Property Criminal Penalty Act of 1982, effective March 10, 1983 (D.C. Law 4-203; D.C. Official Code § 22-3312.02), is amended to read as follows:</text>
     <include>
       <section>
-        <num>3</num>
+        <codify:replace doc="D.C. Code" path="§22-3312.02"/>
+        <num codify:value="22-3312.02">3</num>
         <heading>Defacement of certain symbols; display of certain emblems.</heading>
         <para>
           <num undesignated="true">(a)</num>
@@ -56,61 +62,80 @@
     </include>
     <aftertext>.</aftertext>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>4</num>
     <text>The Bias-Related Crime Act of 1989, effective May 8, 1990 (D.C. Law 8-121; D.C. Official Code § 22-3701 et <em>seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§22-3701">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 22-3701) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)|num">
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (1A).</text>
+        <codify:find-replace count="1">
+          <find>(1)</find>
+          <replace>(1A)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (1) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert before="(1A)"/>
             <num>(1)</num>
             <text>"Attorney General" means the Attorney General for the District of Columbia.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(1A)">
         <num>(3)</num>
         <text>The newly redesignated paragraph (1A) is amended by striking the phrase "physical disability, matriculation, or political affiliation of a victim of the subject designated act" and inserting the phrase "disability, matriculation, or political affiliation of a victim of the subject designated act. A designated act need not solely be based on or because of an accused's prejudice." in its place.</text>
+        <codify:find-replace count="1">
+          <find>physical disability, matriculation, or political affiliation of a victim of the subject designated act</find>
+          <replace>disability, matriculation, or political affiliation of a victim of the subject designated act. A designated act need not solely be based on or because of an accused's prejudice<span codify:value="[]">.</span></replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (5) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(5)</num>
-            <text>"Person" means any individual, firm, corporation, partnership, cooperative, association, or any other organization, legal entity, or group of individuals however organized; provided, that for the purposes of a civil action brought against an individual pursuant to section 6, the term "person" shall not include an individual who is 17 years of age or younger.</text>
+            <text>"Person" means any individual, firm, corporation, partnership, cooperative, association, or any other organization, legal entity, or group of individuals however organized; provided, that for the purposes of a civil action brought against an individual pursuant to <code-cite doc="D.C. Code" path="§22-3705">section 6</code-cite>, the term "person" shall not include an individual who is 17 years of age or younger.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§22-3702|(a)">
       <num>(b)</num>
       <text>Section 3(a) (D.C. Official Code § 22-3702(a)) is amended by striking the phrase "Police force" and inserting the phrase "Police Department" in its place.</text>
+      <codify:find-replace count="1">
+        <find>Police force</find>
+        <replace>Police Department</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§22-3704">
       <num>(c)</num>
       <text>Section 5 (D.C. Official Code § 22-3704) is amended by striking the phrase "physical disability," both times it appears and inserting the phrase "disability," in its place.</text>
+      <codify:find-replace count="2">
+        <find>physical disability,</find>
+        <replace>disability,</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(d)</num>
       <text>A new section 6 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="22|37" num-value="22-3705" history-prefix="as added"/>
           <num>6</num>
           <heading>Attorney General civil enforcement.</heading>
           <para>
             <num>(a)</num>
-            <text>The Attorney General may, irrespective of any criminal prosecution, the result of any criminal prosecution, or any cause of action brought pursuant to section 5, bring, in the name of the District of Columbia, a civil action for appropriate relief whenever any person, whether or not acting under color of law:</text>
+            <text>The Attorney General may, irrespective of any criminal prosecution, the result of any criminal prosecution, or any cause of action brought pursuant to <code-cite doc="D.C. Code" path="§22-3704">section 5</code-cite>, bring, in the name of the District of Columbia, a civil action for appropriate relief whenever any person, whether or not acting under color of law:</text>
             <para>
               <num>(1)</num>
               <text>Commits a bias-related crime; or</text>
@@ -130,7 +155,7 @@
           </para>
           <para>
             <num>(b)</num>
-            <text>In the course of an investigation to determine whether to seek relief under this section, the Attorney General may subpoena witnesses, administer oaths, require sworn written responses to written questions, examine an individual under oath, and compel production of records, books, papers, contracts, and other documents and materials, subject to the procedures in section 108d and 108e of the Attorney General for the District Columbia Clarification and Elected Term Amendment Act of 2010, effective October 22, 2015 (D.C. Law 21-36; D.C. Official Code §§ 1-301.88d and 1-301.88e).</text>
+            <text>In the course of an investigation to determine whether to seek relief under this section, the Attorney General may subpoena witnesses, administer oaths, require sworn written responses to written questions, examine an individual under oath, and compel production of records, books, papers, contracts, and other documents and materials, subject to the procedures in <span codify:value="§§">section</span> <code-cite doc="D.C. Code" path="§1-301.88d" codify:value="1-301.88d">108d</code-cite> and <code-cite doc="D.C. Code" path="§1-301.88e" codify:value="1-301.88e">108e of the Attorney General for the District Columbia Clarification and Elected Term Amendment Act of 2010, effective October 22, 2015 (D.C. Law 21-36; D.C. Official Code §§ 1-301.88d and 1-301.88e)</code-cite>.</text>
           </para>
           <para>
             <num>(c)</num>
@@ -163,6 +188,7 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 8-121" type="History" path="§6">May 8, 1990, D.C. Law 8-121, § 6</annotation>
     </para>
   </section>
   <section>
@@ -185,6 +211,7 @@
       <text>A new section 23-115 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert doc="D.C. Code" path="23|1"/>
           <prefix>§</prefix>
           <num>23-115</num>
           <heading>Limits on defenses that justify, excuse, or mitigate a defendant's conduct on the basis of a victim's gender identity, gender expression, or sexual orientation.</heading>
@@ -219,6 +246,7 @@
     <para>
       <num>(a)</num>
       <text>Section 2 shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability  doc="D.C. Act 23-560" path="§2" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

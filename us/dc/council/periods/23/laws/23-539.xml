@@ -20,36 +20,40 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Energy Efficiency Standards Amendment Act of 2020".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Energy Efficiency Standards Act of 2007, effective December 11, 2007 (D.C. Law 17-64; D.C. Official Code § 8-1771.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§8-1771.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 8-1771.01) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (1A).</text>
+        <!-- Do when becomes applicable -->
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (1) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1)" num-value="(1A)"/>
             <num>(1)</num>
             <text>"Air purifier" means an electric, cord-connected, portable appliance with the primary function of removing particulate matter from the air and which can be moved from room to room.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(3)</num>
         <text>Paragraph (2) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(4)</num>
         <text>New paragraphs (2A), (2B), and (2C) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(2)"/>
             <num>(2A)</num>
             <text>"Cold temperature lamp" means a fluorescent lamp, that is not a compact fluorescent lamp, that:</text>
             <para>
@@ -62,10 +66,12 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(2A)"/>
             <num>(2B)</num>
             <text>"Commercial dishwasher" means a machine designed to clean and sanitize plates, pots, pans, glasses, cups, bowls, utensils, and trays by applying sprays of detergent solution (with or without blasting media granules) and a sanitizing rinse.</text>
           </para>
           <para>
+            <codify:insert after="(2B)"/>
             <num>(2C)</num>
             <text>"Commercial fryer" means an appliance, including a cooking vessel, in which oil is placed to such a depth that the cooking food is essentially supported by displacement of the cooking fluid rather than by the bottom of the vessel. The term "commercial fryer" includes electric fryers, where heat is delivered to the cooking fluid by means of an immersed electric element of band-wrapped vessel, and gas fryers, where heat is transferred from gas burners through either the walls of the fryer or through tubes passing through the cooking fluid.</text>
           </para>
@@ -77,6 +83,7 @@
         <text>A new paragraph (3A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(3)"/>
             <num>(3A)</num>
             <text>"Commercial steam cooker" means a device with one or more food-steaming compartments in which the energy in the steam is transferred to the food by direct contact. The term "commercial steam cooker" includes countertop models, wall-mounted models, and floor models mounted on a stand, pedestal, or cabinet-style base.</text>
           </para>
@@ -88,10 +95,12 @@
         <text>New paragraphs (4A) and (4B) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(4)"/>
             <num>(4A)</num>
             <text>"Faucet" means a lavatory faucet, kitchen faucet, metering faucet, public lavatory faucet, or replacement aerator for a lavatory, public lavatory, or kitchen faucet.</text>
           </para>
           <para>
+            <codify:insert after="(4A)"/>
             <num>(4B)</num>
             <text>"High color rendering index fluorescent lamp" means a fluorescent lamp with a color rendering index of 87 or greater that is not a compact fluorescent lamp.</text>
           </para>
@@ -103,6 +112,7 @@
         <text>New paragraphs (5A) and (5B) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(5)"/>
             <num>(5A)</num>
             <text>"Impact-resistant fluorescent lamp" means a fluorescent lamp, that is not a compact fluorescent lamp, that:</text>
             <para>
@@ -123,6 +133,7 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(5A)"/>
             <num>(5B)</num>
             <text>"Industrial air purifier" means an indoor air cleaning device manufactured, advertised, marketed, labeled, and used solely for industrial use that are marketed solely through industrial supply outlets or businesses and prominently labeled as "Solely for industrial use. Potential health hazard: emits ozone.</text>
           </para>
@@ -134,14 +145,17 @@
         <text>New paragraphs (7A), (7B), and (7C) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(7)"/>
             <num>(7A)</num>
             <text>"Metering faucet" means a fitting that, when turned on, will gradually shut itself off over a period of several seconds.</text>
           </para>
           <para>
+            <codify:insert after="(7A)"/>
             <num>(7B)</num>
             <text>"Plumbing fixture" means a device that connects to a plumbing system to deliver and drain away water and waste.</text>
           </para>
           <para>
+            <codify:insert after="(7B)"/>
             <num>(7C)</num>
             <text>"Portable electric spa" means a factory-built electric spa or hot tub that may include any combination of integral controls, water heating, or water circulating equipment.</text>
           </para>
@@ -563,7 +577,7 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§8-1771.04">
       <num>(d)</num>
       <text>Section 5 (D.C. Official Code § 8-1771.04) is amended as follows:</text>
       <para>
@@ -573,6 +587,10 @@
       <para>
         <num>(2)</num>
         <text>The newly designated subsection (a) is amended by striking the phrase "Maryland or Virginia" and inserting the word "California" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Maryland or Virginia</find>
+          <replace>California</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
