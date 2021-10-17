@@ -60,7 +60,8 @@
         <text>A new paragraph (9A-i) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(9A)"/>
+          <!-- OK 3/26/21 change when A24-30 finalized -->
+            <codify:insert after="(9)"/>
             <num>(9A-i)</num>
             <text>For the November 3, 2020, General Election, mail every registered qualified elector an absentee ballot and a postage-paid return envelope;</text>
           </para>
@@ -105,13 +106,15 @@
           <replace>For elections held in calendar year 2020</replace>
         </codify:find-replace> -->
       </para>
-      <para codify:path="(h)|(4)">
+      <!-- change when A24-30 finalized -->
+      <!-- <para codify:path="(h)|(4)"> -->
+      <para>
         <num>(2)</num>
         <text>Subsection (h)(4) is amended by striking the phrase "the June 2, 2020, Primary Election and the June 16, 2020, Ward 2 Special Election" and inserting the phrase "any election held in calendar year 2020" in its place.</text>
-        <codify:find-replace count="1">
+        <!-- <codify:find-replace count="1">
           <find>the June 2, 2020, Primary Election and the June 16, 2020, Ward 2 Special Election</find>
           <replace>any election held in calendar year 2020</replace>
-        </codify:find-replace>
+        </codify:find-replace> -->
       </para>
       <codify:temporary doc="D.C. Code" path="§1-1001.07"/>
       <codify:insert doc="D.C. Code" path="§1-1001.07" before="heading" history="false" display-template="">
