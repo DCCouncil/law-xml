@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-571">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-275">
+  <num type="law">23-275</num>
   <num type="bill">23-181</num>
   <num type="act">23-571</num>
   <heading type="short">Intrafamily Offenses and Anti-Stalking Orders Amendment Act of 2020</heading>
   <heading type="long">To amend Title 16 of the District of Columbia Official Code to clarify the procedures by which  certain victims of an intrafamily offense, sexual assault, trafficking in labor or commercial sex acts, and sex trafficking of children, or certain individuals whose animal is the victim of an intrafamily offense, may petition for a civil protection order, to expand the ability of minors ages 13 to 16 to petition for a civil protection order, to allow the court to extend temporary protection orders in increments up to 28 days for good cause or for a longer period with the consent of the parties, to clarify the relief available pursuant to a civil protection order for firearms and animal protections, to modify the duration of a civil protection order, to establish a dedicated unit in the Metropolitan Police Department to serve process in civil protection order cases, and to create procedures by which certain victims of stalking may petition for an anti-stalking order; and to make conforming amendments.</heading>
   <meta>
     <introduced>2019-03-05</introduced>
-    <effective projected="true">2021-05-18</effective>
+    <effective>2021-04-27</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/42010/Signed_Act/B23-0181-Signed_Act.pdf">D.C. Law 23-275</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/42010/Signed_Act/B23-0181-Signed_Act.pdf">D.C. Act 23-571</citation>
       <citation type="register">68 DCR 001086</citation>
     </citations>
@@ -25,7 +27,7 @@
     <num>2</num>
     <text>Section 14-306(b-1)(1)(A) of the District of Columbia Official Code is amended by striking the phrase "Intimate partner violence as defined in § 16-1001(7)" and inserting the phrase "An offense against a current or former spouse or current or former domestic partner" in its place.</text>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>3</num>
     <text>Title 16 of the District of Columbia Official Code is amended as follows:</text>
     <para>
@@ -41,8 +43,9 @@
       <text>Section 16-801(9)(A) is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace path="§16-801|(9)|(A)"/>
           <num>(A)</num>
-          <text>An intrafamily offense, as that term is defined in § 16-1001(8).</text>
+          <text>An intrafamily offense, as that term is defined in <cite doc="D.C. Code" path="§16-1001|(8)">§ 16-1001(8)</cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
@@ -50,19 +53,30 @@
     <para>
       <num>(c)</num>
       <text>Section 16-914(a)(3)(F) is amended by striking the phrase "section 16-1001(5)" and inserting the phrase "§ 16-1001(8)" in its place.</text>
+      <codify:find-replace path="§16-914|(a)|(3)|(F)" count="1">
+        <find>section 16-1001(5) [now <cite path="§16-1001|(8)">§ 16-1001(8)</cite>]</find>
+        <replace>
+          <cite doc="D.C. Code" path="§16-1001|(8)">§ 16-1001(8)</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§16-1001">
       <num>(d)</num>
       <text>Section 16-1001 is amended as follows:</text>
-      <para>
+      <para codify:path="(5)">
         <num>(1)</num>
         <text>Paragraph (5) is amended by striking the phrase "Domestic Violence Unit" and inserting the phrase "Domestic Violence Division" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Domestic Violence Unit</find>
+          <replace>Domestic Violence Division</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>New paragraphs (5A) and (5B) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(5)"/>
             <num>(5A)</num>
             <text>"Family member" means a person:</text>
             <para>
@@ -75,6 +89,7 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(5A)"/>
             <num>(5B)</num>
             <para>
               <num>(A)</num>
@@ -96,15 +111,17 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(6)">
         <num>(3)</num>
         <text>Paragraph (6) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (6A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(6)"/>
             <num>(6A)</num>
             <text>"Intimate partner" means a person:</text>
             <para>
@@ -127,15 +144,17 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(7)">
         <num>(5)</num>
         <text>Paragraph (7) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="(8)">
         <num>(6)</num>
         <text>Paragraph (8) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(8)</num>
             <text>"Intrafamily offense" means:</text>
             <para>
@@ -144,52 +163,64 @@
             </para>
             <para>
               <num>(B)</num>
-              <text>An offense punishable as cruelty to animals, under § 22-1001 or § 22-1002, against an animal that an intimate partner, family member, or household member owns, possesses, or controls.</text>
+              <text>An offense punishable as cruelty to animals, under <cite doc="D.C. Code" path="§22-1001">§ 22-1001</cite> or <cite doc="D.C. Code" path="§22-1002">§ 22-1002</cite>, against an animal that an intimate partner, family member, or household member owns, possesses, or controls.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(9)">
         <num>(7)</num>
         <text>Paragraph (9) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="(10)">
         <num>(8)</num>
         <text>Paragraph (10) is amended by striking the phrase "an Associate Judge," and inserting the phrase "an Associate Judge, a Senior Judge," in its place.</text>
+        <codify:find-replace count="1">
+          <find>an Associate Judge,</find>
+          <replace>an Associate Judge, a Senior Judge,</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(12)">
         <num>(9)</num>
         <text>Paragraph (12) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(12)</num>
-            <text>"Petitioner" means the person for whom a civil protection order is sought under this subchapter.</text>
+            <text>"Petitioner" means the person for whom a civil protection order is sought under <cite doc="D.C. Code" path="16|10|I">this subchapter</cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(13)">
         <num>(10)</num>
         <text>Paragraph (13) is amended by striking the phrase "12 years of age" and inserting the phrase "13 years of age" in its place.</text>
+        <codify:find-replace count="1">
+          <find>12 years of age</find>
+          <replace>13 years of age</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(11)</num>
         <text>A new paragraph (14) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(14)</num>
-            <text>"Sexual assault" shall have the same meaning as provided in § 23-1907(9).</text>
+            <text>"Sexual assault" shall have the same meaning as provided in <cite doc="D.C. Code" path="§23-1907|(9)">§ 23-1907(9)</cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§16-1003">
       <num>(e)</num>
       <text>Section 16-1003 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>16-1003</num>
           <heading>Petition for civil protection order; representation.</heading>
@@ -198,7 +229,7 @@
             <text>A person 16 years of age or older may petition the Domestic Violence Division for a civil protection order against a respondent who has allegedly committed or threatened to commit:</text>
             <para>
               <num>(1)</num>
-              <text>An intrafamily offense, where the petitioner is the victim, or, if the offense is punishable under § 22-1001 or § 22-1002, where the victim is an animal that the petitioner owns, possesses, or controls;</text>
+              <text>An intrafamily offense, where the petitioner is the victim, or, if the offense is punishable under <cite doc="D.C. Code" path="§22-1001">§ 22-1001</cite> or <cite doc="D.C. Code" path="§22-1002">§ 22-1002</cite>, where the victim is an animal that the petitioner owns, possesses, or controls;</text>
             </para>
             <para>
               <num>(2)</num>
@@ -206,11 +237,11 @@
             </para>
             <para>
               <num>(3)</num>
-              <text>Trafficking in labor or commercial sex acts, as described in § 22-1833, where the petitioner is the victim; or</text>
+              <text>Trafficking in labor or commercial sex acts, as described in <cite doc="D.C. Code" path="§22-1833">§ 22-1833</cite>, where the petitioner is the victim; or</text>
             </para>
             <para>
               <num>(4)</num>
-              <text>Sex trafficking of children, as described in § 22-1834, where the petitioner is the victim.</text>
+              <text>Sex trafficking of children, as described in <cite doc="D.C. Code" path="§22-1834">§ 22-1834</cite>, where the petitioner is the victim.</text>
             </para>
           </para>
           <para>
@@ -218,15 +249,15 @@
             <text>A minor who is at least 13 years of age but less than 16 years of age may petition the Domestic Violence Division for a civil protection order against a respondent who has allegedly committed or threatened to commit:</text>
             <para>
               <num>(1)</num>
-              <text>An intrafamily offense, where the petitioner is the victim, or, if the offense is punishable under § 22-1001 or § 22-1002, where the victim is an animal that the petitioner owns, possesses, or controls; provided, that the petitioner is an intimate partner;</text>
+              <text>An intrafamily offense, where the petitioner is the victim, or, if the offense is punishable under <cite doc="D.C. Code" path="§22-1001">§ 22-1001</cite> or <cite doc="D.C. Code" path="§22-1002">§ 22-1002</cite>, where the victim is an animal that the petitioner owns, possesses, or controls; provided, that the petitioner is an intimate partner;</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>Sexual assault, where the petitioner is the victim; provided, that the respondent does not have a significant relationship, as that term is defined in § 22-3001(10), with the petitioner; or</text>
+              <text>Sexual assault, where the petitioner is the victim; provided, that the respondent does not have a significant relationship, as that term is defined in <cite doc="D.C. Code" path="§22-3001|(10)">§ 22-3001(10)</cite>, with the petitioner; or</text>
             </para>
             <para>
               <num>(3)</num>
-              <text>Sex trafficking of children, as described in § 22-1834, where the petitioner is the victim.</text>
+              <text>Sex trafficking of children, as described in <cite doc="D.C. Code" path="§22-1834">§ 22-1834</cite>, where the petitioner is the victim.</text>
             </para>
           </para>
           <para>
@@ -248,7 +279,7 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>A sexual assault youth victim advocate, as that term is defined in § 23-1907(14).</text>
+                <text>A sexual assault youth victim advocate, as that term is defined in <cite doc="D.C. Code" path="§23-1907|(14)">§ 23-1907(14)</cite>.</text>
               </para>
             </para>
           </para>
@@ -267,7 +298,7 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>At the request of the petitioner or a person petitioning on the petitioner's behalf, provide individual legal representation to the petitioner in proceedings under this subchapter.</text>
+                <text>At the request of the petitioner or a person petitioning on the petitioner's behalf, provide individual legal representation to the petitioner in proceedings under <cite doc="D.C. Code" path="16|10|I">this subchapter</cite>.</text>
               </para>
             </para>
             <para>
@@ -301,7 +332,7 @@
           </para>
           <para>
             <num>(h)</num>
-            <text>When computing a time period specified in this subchapter or in an order issued under this subchapter that is stated in days or a longer unit of time:</text>
+            <text>When computing a time period specified in <cite doc="D.C. Code" path="16|10A"> this chapter</cite> or in an order issued under <cite doc="D.C. Code" path="16|10A"> this chapter</cite> that is stated in days or a longer unit of time:</text>
             <para>
               <num>(1)</num>
               <text>Exclude the day of the event that triggers the time period;</text>
@@ -319,17 +350,18 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§16-1004">
       <num>(f)</num>
       <text>Section 16-1004 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>16-1004</num>
           <heading>Petition; temporary protection order.</heading>
           <para>
             <num>(a)</num>
-            <text>Upon receipt of a petition filed pursuant to § 16-1003, the Domestic Violence Division shall:</text>
+            <text>Upon receipt of a petition filed pursuant to <cite doc="D.C. Code" path="§16-1003">§ 16-1003</cite>, the Domestic Violence Division shall:</text>
             <para>
               <num>(1)</num>
               <text>Order that a hearing be held to determine whether to issue a civil protection order against the respondent; and</text>
@@ -380,14 +412,14 @@
           </para>
           <para>
             <num>(g)</num>
-            <text>If a respondent fails to appear for a hearing on a petition for a civil protection order after having been served with notice of the hearing, a petition, and a temporary protection order in accordance with the Rules of the Superior Court of the District of Columbia, and the court enters a civil protection order in accordance with § 16-1005, the temporary protection order shall remain in effect until the respondent is served with the civil protection order or the civil protection order expires, whichever occurs first.</text>
+            <text>If a respondent fails to appear for a hearing on a petition for a civil protection order after having been served with notice of the hearing, a petition, and a temporary protection order in accordance with the Rules of the Superior Court of the District of Columbia, and the court enters a civil protection order in accordance with <cite doc="D.C. Code" path="§16-1005">§ 16-1005</cite>, the temporary protection order shall remain in effect until the respondent is served with the civil protection order or the civil protection order expires, whichever occurs first.</text>
           </para>
           <para>
             <num>(h)</num>
             <text>A temporary protection order issued under this section:</text>
             <para>
               <num>(1)</num>
-              <text>May include any of the relief set forth in § 16-1005(c);</text>
+              <text>May include any of the relief set forth in <cite doc="D.C. Code" path="§16-1005|(c)">§ 16-1005(c)</cite>;</text>
             </para>
             <para>
               <num>(2)</num>
@@ -410,33 +442,35 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§16-1005">
       <num>(g)</num>
       <text>Section 16-1005 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
-            <text>Parties served with notice in accordance with § 16-1007 shall appear at the hearing.</text>
+            <text>Parties served with notice in accordance with <cite doc="D.C. Code" path="§16-1007">§ 16-1007</cite> shall appear at the hearing.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(a-1)">
         <num>(2)</num>
         <text>Subsection (a-1) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a-1)</num>
             <para>
               <num>(1)</num>
-              <text>In a case in which the Attorney General intervenes pursuant to section 16-1003(f)(1)(A), the petitioner is not a required party.</text>
+              <text>In a case in which the Attorney General intervenes pursuant to <code-cite doc="D.C. Code" path="§16-1003|(f)|(1)|(A)">section 16-1003(f)(1)(A)</code-cite>, the petitioner is not a required party.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>In a case in which an individual described in § 16-1003(d)(1) petitioned on behalf of a minor petitioner under the age of 13, the minor petitioner is not a required party.</text>
+              <text>In a case in which an individual described in <cite doc="D.C. Code" path="§16-1003|(d)|(1)">§ 16-1003(d)(1)</cite> petitioned on behalf of a minor petitioner under the age of 13, the minor petitioner is not a required party.</text>
             </para>
             <para>
               <num>(3)</num>
@@ -446,7 +480,7 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended as follows:</text>
         <para>
@@ -456,23 +490,36 @@
             <para>
               <num>(c)</num>
               <text>If, after a hearing, the judicial officer finds that there is good cause to believe the respondent has committed or threatened to commit a criminal offense against the petitioner or an animal the petitioner owns, possesses, or controls, or with the consent of both parties, the judicial officer may issue a civil protection order that:</text>
+              <codify:find-replace count="1">
+                <find>If, after hearing, the judicial officer finds that there is good cause to believe the respondent has committed or threatened to commit a criminal offense against the petitioner or against petitioner’s animal or an animal in petitioner’s household, the judicial officer may issue a protection order that:</find>
+                <replace>If, after a hearing, the judicial officer finds that there is good cause to believe the respondent has committed or threatened to commit a criminal offense against the petitioner or an animal the petitioner owns, possesses, or controls, or with the consent of both parties, the judicial officer may issue a civil protection order that:</replace>
+              </codify:find-replace>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the phrase "protected persons" and inserting the phrase "individuals specified in the order" in its place.</text>
+          <codify:find-replace count="1">
+            <find>protected persons</find>
+            <replace>individuals specified in the order</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(C)</num>
           <text>Paragraph (2) is amended by striking the phrase "protected persons or locations" and inserting the phrase "individuals or locations specified in the order" in its place.</text>
+          <codify:find-replace count="1">
+            <find>protected persons or locations</find>
+            <replace>individuals or locations specified in the order</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(6)">
           <num>(D)</num>
           <text>Paragraph (6) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(6)</num>
               <text>Awards temporary custody of a minor child or children of the parties, provided that:</text>
               <para>
@@ -487,11 +534,12 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(7)">
           <num>(E)</num>
           <text>Paragraph (7) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(7)</num>
               <text>Provides for visitation rights with appropriate restrictions to protect the safety of the petitioner, provided that:</text>
               <para>
@@ -506,22 +554,24 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(10)">
           <num>(F)</num>
           <text>Paragraph (10) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(10)</num>
               <text>Directs the respondent to relinquish possession of any firearms or ammunition and prohibits the respondent from having possession or control of, purchasing, or receiving any firearm or ammunition while the protection order is in effect.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(10A)">
           <num>(G)</num>
           <text>Paragraph (10A) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(10A)</num>
               <text>In connection with an animal owned, possessed, or controlled by the petitioner:</text>
               <para>
@@ -537,15 +587,17 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(c-1)">
         <num>(4)</num>
         <text>Subsection (c-1) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(5)</num>
         <text>Subsection (d) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(d)</num>
             <text>A civil protection order issued pursuant to this section shall remain in effect for an initial period not to exceed 2 years.</text>
           </para>
@@ -557,6 +609,7 @@
         <text>A new subsection (d-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(d)"/>
             <num>(d-1)</num>
             <para>
               <num>(1)</num>
@@ -575,7 +628,7 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>That prior to obtaining the order being extended, the petitioner had previously obtained a civil protection order or foreign protection order as that term is defined in subchapter IV of this chapter against the same respondent; or</text>
+                <text>That prior to obtaining the order being extended, the petitioner had previously obtained a civil protection order or foreign protection order as that term is defined in <cite doc="D.C. Code" path="16|10|IV">subchapter IV of this chapter</cite> against the same respondent; or</text>
               </para>
               <para>
                 <num>(C)</num>
@@ -586,58 +639,62 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(e)">
         <num>(7)</num>
         <text>Subsection (e) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(e)</num>
             <text>Any final order issued pursuant to this section and any order granting or denying a motion to extend, modify, or vacate such order shall be appealable.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(f)">
         <num>(8)</num>
         <text>Subsection (f) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(f)</num>
             <para>
               <num>(1)</num>
-              <text>Violation of any temporary protection order or civil protection order issued under this subchapter, or violation in the District of Columbia of any valid foreign protection order, as that term is defined in subchapter IV of this chapter, or respondent's failure to appear as required by subsection (a) of this section, shall be punishable as criminal contempt.</text>
+              <text>Violation of any temporary protection order or civil protection order issued under <cite doc="D.C. Code" path="16|10|I">this subchapter</cite>, or violation in the District of Columbia of any valid foreign protection order, as that term is defined in <cite doc="D.C. Code" path="16|10|IV">subchapter IV of this chapter</cite>, or respondent's failure to appear as required by subsection (a) of this section, shall be punishable as criminal contempt.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>Upon conviction, criminal contempt shall be punished by a fine of not more than the amount set forth in § 22-3571.01, imprisonment for not more than 180 days, or both.</text>
+              <text>Upon conviction, criminal contempt shall be punished by a fine of not more than the amount set forth in <cite doc="D.C. Code" path="§22-3571.01">§ 22-3571.01</cite>, imprisonment for not more than 180 days, or both.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(g)">
         <num>(9)</num>
         <text>Subsection (g) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(g)</num>
             <para>
               <num>(1)</num>
-              <text>Violation of any temporary protection order or civil protection order issued under this subchapter, or violation in the District of Columbia of any valid foreign protection order, as that term is defined in subchapter IV of this chapter, shall be chargeable as a misdemeanor.</text>
+              <text>Violation of any temporary protection order or civil protection order issued under <cite doc="D.C. Code" path="16|10|I">this subchapter</cite>, or violation in the District of Columbia of any valid foreign protection order, as that term is defined in <cite doc="D.C. Code" path="16|10|IV">subchapter IV of this chapter</cite>, shall be chargeable as a misdemeanor.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>Upon conviction, violation of a temporary protection order, civil protection order, or a valid foreign protection order shall be punished by a fine of not more than the amount set forth in § 22-3571.01, imprisonment for not more than 180 days, or both.</text>
+              <text>Upon conviction, violation of a temporary protection order, civil protection order, or a valid foreign protection order shall be punished by a fine of not more than the amount set forth in <cite doc="D.C. Code" path="§22-3571.01">§ 22-3571.01</cite>, imprisonment for not more than 180 days, or both.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(g-1)">
         <num>(10)</num>
         <text>Subsection (g-1) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(g-1)</num>
             <para>
               <num>(1)</num>
@@ -645,15 +702,19 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>Enforcement proceedings under subsection (f) or (g) of this section in which the respondent is a child, as that term is defined in § 16-2301(3), shall be governed by subchapter I of Chapter 23 of this title.</text>
+              <text>Enforcement proceedings under subsection (f) or (g) of this section in which the respondent is a child, as that term is defined in <cite doc="D.C. Code" path="§16-2301">§ 16-2301(3)</cite>, shall be governed by <cite doc="D.C. Code" path="16|23|I">subchapter I of Chapter 23 of this title</cite>.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(i)">
         <num>(11)</num>
         <text>Subsection (i) is amended by striking the phrase "Orders entered" and inserting the phrase "Violations of protection orders entered" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Orders entered</find>
+          <replace>Violations of protection orders entered</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -661,6 +722,7 @@
       <text>A new section 16-1007 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="16|10|I"/>
           <prefix>§</prefix>
           <num>16-1007</num>
           <heading>Notice to parties.</heading>
@@ -672,7 +734,7 @@
             <num>(b)</num>
             <para>
               <num>(1)</num>
-              <text>If a minor has petitioned for a civil protection order without a parent, guardian, or custodian, and if the minor is residing with a parent, guardian, or custodian, the court shall send a copy of any order issued pursuant to § 16-1004(d) and notice of the hearing to that parent, guardian, or custodian, unless, in the discretion of the court, notification of that parent, guardian, or custodian would be contrary to the best interests of the minor.</text>
+              <text>If a minor has petitioned for a civil protection order without a parent, guardian, or custodian, and if the minor is residing with a parent, guardian, or custodian, the court shall send a copy of any order issued pursuant to <cite doc="D.C. Code" path="§16-1004|(d)">§ 16-1004(d)</cite> and notice of the hearing to that parent, guardian, or custodian, unless, in the discretion of the court, notification of that parent, guardian, or custodian would be contrary to the best interests of the minor.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -691,7 +753,7 @@
             <num>(e)</num>
             <para>
               <num>(1)</num>
-              <text>At the request of the petitioner or a person petitioning on the petitioner's behalf, or by order of the court, the Metropolitan Police Department shall attempt to serve civil process in any case filed under this subchapter that has an address for service in the District of Columbia.</text>
+              <text>At the request of the petitioner or a person petitioning on the petitioner's behalf, or by order of the court, the Metropolitan Police Department shall attempt to serve civil process in any case filed under <cite doc="D.C. Code" path="16|10|I">this subchapter</cite> that has an address for service in the District of Columbia.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -705,15 +767,26 @@
     <para>
       <num>(i)</num>
       <text>Section 16-1031(c)(1) is amended by striking the phrase "offense that does not constitute intimate partner violence" and inserting the phrase "offense, where the victim of that offense is not an intimate partner, as that term is defined in § 16-1001(6A)" in its place.</text>
+      <codify:find-replace path="§16-1031|(c)|(1)" count="1">
+        <find>offense that does not constitute intimate partner violence</find>
+        <replace>offense, where the victim of that offense is not an intimate partner, as that term is defined in <cite doc="D.C. Code" path="§16-1001|(6A)">§ 16-1001(6A)</cite></replace>
+      </codify:find-replace>
     </para>
     <para>
+      <codify:insert doc="D.C. Code" path="16" after="10" history="false">
+        <container>
+          <prefix>Chapter</prefix>
+          <num>10A</num>
+          <heading>Anti-Stalking Orders.</heading>
+        </container>
+      </codify:insert>
       <num>(j)</num>
       <text>A new Chapter 10A is added to read as follows:</text>
       <include>
         <container>
           <prefix>Chapter</prefix>
-          <num>10</num>
-          <heading>A. Anti-Stalking Orders.</heading>
+          <num>10A.</num>
+          <heading>Anti-Stalking Orders.</heading>
           <toc>
             <section>
               <num>16-1061</num>
@@ -737,12 +810,13 @@
             </section>
           </toc>
           <section>
+            <codify:insert path="10A"/>
             <prefix>§</prefix>
             <num>16-1061</num>
             <heading>Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For the purposes of this chapter, the term:</text>
+              <text>For the purposes of <cite doc="D.C. Code" path="16|10A"> this chapter</cite>, the term:</text>
               <para>
                 <num>(1)</num>
                 <text>"Attorney General" means the Attorney General for the District of Columbia</text>
@@ -761,19 +835,20 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>"Petitioner" means the person for whom an anti-stalking order is sought under this chapter.</text>
+                <text>"Petitioner" means the person for whom an anti-stalking order is sought under <cite doc="D.C. Code" path="16|10A"> this chapter</cite>.</text>
               </para>
               <para>
                 <num>(6)</num>
-                <text>"Respondent" means any person against whom a petition for an anti-stalking order is filed under this chapter.</text>
+                <text>"Respondent" means any person against whom a petition for an anti-stalking order is filed under <cite doc="D.C. Code" path="16|10A"> this chapter</cite>.</text>
               </para>
               <para>
                 <num>(7)</num>
-                <text>"Stalked" means any course of conduct prohibited by § 22-3133.</text>
+                <text>"Stalked" means any course of conduct prohibited by <cite doc="D.C. Code" path="§22-3133">§ 22-3133</cite>.</text>
               </para>
             </para>
           </section>
           <section>
+            <codify:insert path="10A"/>
             <prefix>§</prefix>
             <num>16-1062</num>
             <heading>Petition for anti-stalking order; representation.</heading>
@@ -807,7 +882,7 @@
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>At the request of the petitioner or a person petitioning on the petitioner's behalf, provide individual legal representation to the petitioner in proceedings under this chapter.</text>
+                  <text>At the request of the petitioner or a person petitioning on the petitioner's behalf, provide individual legal representation to the petitioner in proceedings under <cite doc="D.C. Code" path="16|10A"> this chapter</cite>.</text>
                 </para>
               </para>
               <para>
@@ -841,7 +916,7 @@
             </para>
             <para>
               <num>(f)</num>
-              <text>When computing a time period specified in this chapter or in an order issued under this chapter that is stated in days or a longer unit of time:</text>
+              <text>When computing a time period specified in <cite doc="D.C. Code" path="16|10A"> this chapter</cite> or in an order issued under <cite doc="D.C. Code" path="16|10A"> this chapter</cite> that is stated in days or a longer unit of time:</text>
               <para>
                 <num>(1)</num>
                 <text>Exclude the day of the event that triggers the time period;</text>
@@ -857,12 +932,13 @@
             </para>
           </section>
           <section>
+            <codify:insert path="10A"/>
             <prefix>§</prefix>
             <num>16-1063</num>
             <heading>Petition; temporary anti-stalking order.</heading>
             <para>
               <num>(a)</num>
-              <text>Upon receipt of a petition filed pursuant to § 16-1062, the court shall:</text>
+              <text>Upon receipt of a petition filed pursuant to <cite doc="D.C. Code" path="§16-1062">§ 16-1062</cite>, the court shall:</text>
               <para>
                 <num>(1)</num>
                 <text>Order that a hearing be held to determine whether to issue an anti-stalking order against the respondent; and</text>
@@ -913,11 +989,11 @@
             </para>
             <para>
               <num>(g)</num>
-              <text>If a respondent fails to appear for a hearing on a petition for an anti-stalking order after having been served with notice of the hearing, a petition, and a temporary anti-stalking order in accordance with the Rules of the Superior Court of the District of Columbia, and the court issues an anti-stalking order in accordance with § 16-1063(d), the temporary anti-stalking order shall remain in effect until the respondent is served with the anti-stalking order or the anti-stalking order expires, whichever occurs first.</text>
+              <text>If a respondent fails to appear for a hearing on a petition for an anti-stalking order after having been served with notice of the hearing, a petition, and a temporary anti-stalking order in accordance with the Rules of the Superior Court of the District of Columbia, and the court issues an anti-stalking order in accordance with <cite doc="D.C. Code" path="§16-1063|(d)">§ 16-1063(d)</cite>, the temporary anti-stalking order shall remain in effect until the respondent is served with the anti-stalking order or the anti-stalking order expires, whichever occurs first.</text>
             </para>
             <para>
               <num>(h)</num>
-              <text>A temporary anti-stalking order may include any of the relief set forth in § 16-1064(c).</text>
+              <text>A temporary anti-stalking order may include any of the relief set forth in <cite doc="D.C. Code" path="§16-1064|(c)">§ 16-1064(c)</cite>.</text>
             </para>
             <para>
               <num>(i)</num>
@@ -933,22 +1009,23 @@
             </para>
           </section>
           <section>
+            <codify:insert path="10A"/>
             <prefix>§</prefix>
             <num>16-1064</num>
             <heading>Hearing; evidence; anti-stalking order.</heading>
             <para>
               <num>(a)</num>
-              <text>Parties served with notice in accordance with § 16-1065 shall appear at the hearing.</text>
+              <text>Parties served with notice in accordance with <cite doc="D.C. Code" path="§16-1065">§ 16-1065</cite> shall appear at the hearing.</text>
             </para>
             <para>
               <num>(b)</num>
               <para>
                 <num>(1)</num>
-                <text>In a case in which the Attorney General intervenes pursuant to § 16-1062(d)(1)(A), the petitioner is not a required party.</text>
+                <text>In a case in which the Attorney General intervenes pursuant to <cite doc="D.C. Code" path="§16-1062|(d)|(1)|(A)">§ 16-1062(d)(1)(A)</cite>, the petitioner is not a required party.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>In a case in which an individual described in § 16-1062(c)(1) filed a petition on behalf of a minor petitioner under the age of 13, the minor petitioner is not a required party.</text>
+                <text>In a case in which an individual described in <cite doc="D.C. Code" path="§16-1062|(c)|(1)">§ 16-1062(c)(1)</cite> filed a petition on behalf of a minor petitioner under the age of 13, the minor petitioner is not a required party.</text>
               </para>
             </para>
             <para>
@@ -1030,22 +1107,22 @@
               <num>(g)</num>
               <para>
                 <num>(1)</num>
-                <text>Violation of any temporary anti-stalking order or anti-stalking order issued under this chapter, or respondent's failure to appear as required by subsection (a) of this section, shall be punishable as criminal contempt.</text>
+                <text>Violation of any temporary anti-stalking order or anti-stalking order issued under <cite doc="D.C. Code" path="16|10A">this chapter</cite>, or respondent's failure to appear as required by subsection (a) of this section, shall be punishable as criminal contempt.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>Upon conviction, criminal contempt shall be punished by a fine of not more than the amount set forth in § 22-3571.01, imprisonment for not more than 180 days, or both.</text>
+                <text>Upon conviction, criminal contempt shall be punished by a fine of not more than the amount set forth in <cite doc="D.C. Code" path="§22-3571.01">§ 22-3571.01</cite>, imprisonment for not more than 180 days, or both.</text>
               </para>
             </para>
             <para>
               <num>(h)</num>
               <para>
                 <num>(1)</num>
-                <text>Violation of any temporary anti-stalking order or anti-stalking order issued under this chapter shall be chargeable as a misdemeanor.</text>
+                <text>Violation of any temporary anti-stalking order or anti-stalking order issued under <cite doc="D.C. Code" path="16|10A">this chapter</cite> shall be chargeable as a misdemeanor.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>Upon conviction, violation of any temporary anti-stalking order or anti-stalking order shall be punished by a fine of not more than the amount set forth in § 22-3571.01, imprisonment for not more than 180 days, or both.</text>
+                <text>Upon conviction, violation of any temporary anti-stalking order or anti-stalking order shall be punished by a fine of not more than the amount set forth in <cite doc="D.C. Code" path="§22-3571.01">§ 22-3571.01</cite>, imprisonment for not more than 180 days, or both.</text>
               </para>
             </para>
             <para>
@@ -1065,6 +1142,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="10A"/>
             <prefix>§</prefix>
             <num>16-1065</num>
             <heading>Notice to the parties.</heading>
@@ -1076,7 +1154,7 @@
               <num>(b)</num>
               <para>
                 <num>(1)</num>
-                <text>If a minor has petitioned for an anti-stalking order without a parent, guardian, or custodian, and if the minor is residing with a parent, guardian, or custodian, the court shall send a copy of any order issued pursuant to § 16-1063(d) and notice of the hearing to that parent, guardian, or custodian, unless, in the discretion of the court, notification of that parent, guardian, or custodian would be contrary to the best interests of the minor.</text>
+                <text>If a minor has petitioned for an anti-stalking order without a parent, guardian, or custodian, and if the minor is residing with a parent, guardian, or custodian, the court shall send a copy of any order issued pursuant to <cite doc="D.C. Code" path="§16-1063|(d)">§ 16-1063(d)</cite> and notice of the hearing to that parent, guardian, or custodian, unless, in the discretion of the court, notification of that parent, guardian, or custodian would be contrary to the best interests of the minor.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1093,7 +1171,7 @@
             </para>
             <para>
               <num>(e)</num>
-              <text>At the request of the petitioner, the Metropolitan Police Department may attempt to serve civil process in any case filed under this chapter that has an address for service in the District of Columbia.</text>
+              <text>At the request of the petitioner, the Metropolitan Police Department may attempt to serve civil process in any case filed under <cite doc="D.C. Code" path="16|10A">this chapter</cite> that has an address for service in the District of Columbia.</text>
             </para>
           </section>
         </container>
@@ -1103,6 +1181,10 @@
     <para>
       <num>(k)</num>
       <text>Section 16-2301(9)(A)(i) is amended by striking the phrase "includes filing a petition for civil protection from intrafamily violence pursuant to §16-1003" and inserting the phrase "includes petitioning for a civil protection order pursuant to § 16-1003, where the child is a family member, as that term is defined in § 16-1001(5A)" in its place.</text>
+      <codify:find-replace count="1">
+        <find>includes filing a petition for civil protection from intrafamily violence pursuant to <cite doc="D.C. Code" path="§16-1003">§ 16-1003</cite></find>
+        <replace>includes petitioning for a civil protection order pursuant to § 16-1003, where the child is a family member, as that term is defined in <cite doc="D.C. Code" path="§16-1001|(5A)">§ 16-1001(5A)</cite></replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
@@ -1110,37 +1192,40 @@
     <text>Section 253 of the Anti-Sexual Abuse Act of 1994, effective June 8, 2013 (D.C. Law 19-315; D.C. Official Code § 22-3020.53), is amended to read as follows:</text>
     <include>
       <section>
-        <num>253</num>
+        <codify:replace doc="D.C. Code" path="§22-3020.53"/>
+        <num codify:value="22-3020.53">253</num>
         <heading>Defense to non-reporting.</heading>
-        <text>Any survivor of an intrafamily offense, as that term is defined in D.C. Official Code § 16-1001(8), may use the occurrence of that intrafamily offense as a defense to their failure to report under this title.</text>
+        <text>Any survivor of an intrafamily offense, as that term is defined in <code-cite doc="D.C. Code" path="§16-1001|(8)">D.C. Official Code § 16-1001(8)</code-cite>, may use the occurrence of that intrafamily offense as a defense to their failure to report under <code-cite doc="D.C. Code" path="22|30|II-A">this title</code-cite>.</text>
       </section>
     </include>
     <aftertext>.</aftertext>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§23-584|(b)|(2)|(B)">
     <num>5</num>
     <text>Section 23-584(b)(2)(B) of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="(v)">
       <num>(a)</num>
       <text>Sub-subparagraph (v) is amended to read as follows:</text>
       <include lvl="3">
         <para>
+          <codify:replace/>
           <num>(v)</num>
-          <text>Charged with an intrafamily offense, as that term is defined in § 16-1001(8), where the victim is an intimate partner, as that term is defined in § 16-1001(6A), or where the victim is a family member, as that term is defined in § 16-1001(5A);</text>
+          <text>Charged with an intrafamily offense, as that term is defined in <code-cite doc="D.C. Code" path="§16-1001|(8)">§ 16-1001(8)</code-cite>, where the victim is an intimate partner, as that term is defined in <code-cite doc="D.C. Code" path="§16-1001|(6A)">§ 16-1001(6A)</code-cite>, or where the victim is a family member, as that term is defined in <code-cite doc="D.C. Code" path="§16-1001|(5A)">§ 16-1001(5A)</code-cite>;</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(vi)">
       <num>(b)</num>
       <text>Sub-subparagraph (vi) is amended to read as follows:</text>
       <include lvl="3">
         <para>
+          <codify:replace/>
           <num>(vi)</num>
-          <text>Charged with an intrafamily offense, as that term is defined in § 16-1001(8), where:</text>
+          <text>Charged with an intrafamily offense, as that term is defined in <code-cite doc="D.C. Code" path="§16-1001|(8)">§ 16-1001(8)</code-cite>, where:</text>
           <para>
             <num>(I)</num>
-            <text>The victim is a household member, as that term is defined in § 16-1001(5B); and</text>
+            <text>The victim is a household member, as that term is defined in <code-cite doc="D.C. Code" path="§16-1001|(5B)">§ 16-1001(5B)</code-cite>; and</text>
           </para>
           <para>
             <num>(II)</num>
@@ -1154,6 +1239,10 @@
   <section>
     <num>6</num>
     <text>Section 2(1) of the Accrued Sick and Safe Leave Act of 2008, effective May 13, 2008 (D.C. Law 17-152; D.C. Official Code § 32-531.01(1)), is amended by striking the phrase "§ 16-1001(5)" and inserting the phrase "§ 16-1001(8)" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§32-531.01|(1)" count="1">
+      <find>[now (8)]</find>
+      <replace></replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>7</num>
