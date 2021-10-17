@@ -21,14 +21,22 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "False Claims Amendment Act of 2020".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Part C of Title VIII of the District of Columbia Procurement Practices Act of 1985, effective May 8, 1998 (D.C. Law 12-104, D.C. Official Code § 2-381.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§2-381.02|(d)">
       <num>(a)</num>
       <text>Section 814(d) (D.C. Official Code § 2-381.02(d)) is amended by striking the phrase "taxation" and inserting the phrase "taxation, unless the District taxable income, District sales, or District revenue of the person against whom the action is being brought equals or exceeds $1 million for any taxable year subject to any action brought pursuant to this part, and the damages pleaded in the action total<s>s</s> $350,000 or more" in its place.</text>
+      <codify:find-replace count="1">
+        <find>taxation</find>
+        <replace>taxation, unless the District taxable income, District sales, or District revenue of the person against whom the action is being brought equals or exceeds $1 million for any taxable year subject to any action brought pursuant to <code-cite doc="D.C. Code" path="2|3B|I">this part</code-cite>, and the damages pleaded in the action total $350,000 or more</replace>
+      </codify:find-replace>
+      <codify:find-replace count="1">
+        <find>Title 47 of the District of Columbia Official Code</find>
+        <replace><code-cite doc="D.C. Code" path="47">Title 47</code-cite></replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§2-381.03">
       <num>(b)</num>
       <text>Section 815 (D.C. Official Code § 2-381.03) is amended as follows:</text>
       <para>
@@ -36,17 +44,19 @@
         <text>A new subsection (a-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)"/>
             <num>(a-1)</num>
             <text>When a qui tam plaintiff brings an action pursuant to subsection (b) of this section and the matter relates to taxation, the Attorney General for the District of Columbia shall consult with the Chief Financial Officer of the District of Columbia about the complaint.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is amended by adding a new paragraph (3) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(3)</num>
             <text>No person may bring an action pursuant to subsection (b) of this section that is based upon allegations or transactions that relate to taxation and are the subject of an existing investigation, audit, examination, ruling, agreement, or administrative or enforcement activity by the Chief Financial Officer of the District of Columbia.</text>
           </para>
@@ -58,8 +68,9 @@
         <text>A new subsection (h) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(h)</num>
-            <text>In any proceeding under this part, the District's Chief Financial Officer shall not be required to produce tax information, or other information from which tax information can be inferred, if the production thereof would be a violation of federal law.</text>
+            <text>In any proceeding under <code-cite doc="D.C. Code" path="2|3B|I">this part</code-cite>, the District's Chief Financial Officer shall not be required to produce tax information, or other information from which tax information can be inferred, if the production thereof would be a violation of federal law.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -69,6 +80,10 @@
   <section>
     <num>3</num>
     <text>Subsection 47-4111(b) of the District of Columbia Official Code is amended by striking the figure "10%" and inserting the figure "30%" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§47-4111|(b)" count="1">
+      <find>10%</find>
+      <replace>30%</replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>4</num>
