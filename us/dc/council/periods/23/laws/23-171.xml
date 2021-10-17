@@ -1,31 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 23-553">
-  <num type="bill">23-1013</num>
-  <num type="act">23-553</num>
-  <heading type="short">Sanctuary Values Second Congressional Review Emergency Amendment Act of 2020</heading>
-  <heading type="long">To amend, on an emergency basis, due to congressional review, An Act To create a Department of Corrections in the District of Columbia to limit the District's cooperation with federal immigration agencies, including by complying with detainer requests, absent a judicial warrant or order.</heading>
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 23-171">
+  <num type="law">23-171</num>
+  <num type="bill">23-897</num>
+  <num type="act">23-446</num>
+  <heading type="short">Sanctuary Values Temporary Amendment Act of 2020</heading>
+  <heading type="long">To amend, on a temporary basis, An Act To create a Department of Corrections in the District of Columbia to limit the District's cooperation with federal immigration agencies, including by complying with detainer requests, absent a judicial warrant or order.</heading>
   <meta>
-    <introduced>2020-11-30</introduced>
-    <effective>2020-12-22</effective>
+    <introduced>2020-09-21</introduced>
+    <effective>2020-12-23</effective>
+    <temporary/>
     <citations>
-      <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/46059/Signed_Act/B23-1013-Signed_Act.pdf">D.C. Act 23-553</citation>
-      <citation type="register">68 DCR 00128</citation>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/45642/Signed_Act/B23-0897-Signed_Act.pdf">D.C. Law 23-171</citation>
+      <citation type="register">67 DCR 13034</citation>
     </citations>
-    <history url="https://lims.dccouncil.us/Legislation/B23-1013">
-      <vote date="2020-12-01" reading="Final"/>
-      <enacted>2020-12-22</enacted>
+    <history url="https://lims.dccouncil.us/Legislation/B23-0897">
+      <vote date="2020-09-22" reading="First"/>
+      <vote date="2020-10-06" reading="Final"/>
+      <enacted>2020-10-28</enacted>
       <summary/>
       <committee>Retained by the Council</committee>
     </history>
   </meta>
-  <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Sanctuary Values Second Congressional Review Emergency Amendment Act of 2020".</text>
+  <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Sanctuary Values Temporary Amendment Act of 2020".</text>
   <section>
     <num>2</num>
     <text>Section 7 of An Act To create a Department of Corrections in the District of Columbia, effective December 11, 2012 (D.C. Law 19-194; D.C. Official Code § 24-211.07), is amended to read as follows:</text>
     <include>
       <section>
-        <!-- <codify:replace doc="D.C. Code" path="§24-211.07"/> -->
-        <num>7</num>
+        <codify:replace doc="D.C. Code" path="§24-211.07"/>
+        <num codify:value="24-211.07">7</num>
         <heading>Prohibition on cooperation with federal immigration agencies.</heading>
         <para>
           <num>(a)</num>
@@ -74,12 +77,12 @@
       </section>
     </include>
     <aftertext>.</aftertext>
-    <codify:emergency doc="D.C. Code" path="§24-211.07"/>
-    <!-- <codify:insert doc="D.C. Code" path="§24-211.07" before="heading" history="false" display-template="">
+    <codify:temporary doc="D.C. Code" path="§24-211.07"/>
+    <codify:insert doc="D.C. Code" path="§24-211.07" before="heading" history="false" display-template="">
       <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on March 22, 2021. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§24-211.07(Perm)">Permanent Version</cite>.*
+      *NOTE: This section includes amendments by temporary legislation that will expire on August 5, 2021. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§24-211.07(Perm)">Permanent Version</cite>.*
       </text>
-    </codify:insert> -->
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
@@ -89,6 +92,13 @@
   <section>
     <num>4</num>
     <heading>Effective date.</heading>
-    <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), and shall remain in effect for no longer than 90 days, as provided for emergency acts of the Council of the District of Columbia in section 412(a) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 788; D.C. Official Code § 1-204.12(a)).</text>
+    <para>
+      <num>(a)</num>
+      <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 60-day period of congressional review as provided in section 602(c)(2) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(2)), and publication in the District of Columbia Register.</text>
+    </para>
+    <para>
+      <num>(b)</num>
+      <text>This act shall expire after 225 days of its having taken effect</text>
+    </para>
   </section>
 </document>
