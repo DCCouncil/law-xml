@@ -938,7 +938,7 @@
         <text>Subsection (g) is amended by striking the phrase "white paper of good writing quality of the same size as the original or shall utilize the mobile application made available under section 5(a)(19). Each initiative or referendum petition sheet shall consist of one double-sided sheet providing numbered lines for 20 printed" and inserting the phrase "paper of good writing quality or shall utilize the mobile application made available under section 5(a)(19).  Each initiative or referendum petition sheet shall consist of one sheet providing numbered lines for printed" in its place.</text>
         <codify:find-replace count="1">
           <find>white paper of good writing quality of the same size as the original or shall utilize the mobile application made available under <code-cite path="§1-1001.05|(a)|(19)">section 5(a)(19)</code-cite>. Each initiative or referendum petition sheet shall consist of one double-sided sheet providing numbered lines for 20 printed</find>
-          <replace>"paper of good writing quality or shall utilize the mobile application made available under <code-cite path="§1-1001.05|(a)|(19)">section 5(a)(19)</code-cite>.  Each initiative or referendum petition sheet shall consist of one sheet providing numbered lines for printed</replace>
+          <replace>paper of good writing quality or shall utilize the mobile application made available under <code-cite path="§1-1001.05|(a)|(19)">section 5(a)(19)</code-cite>.  Each initiative or referendum petition sheet shall consist of one sheet providing numbered lines for printed</replace>
         </codify:find-replace>
       </para>
       <para>
@@ -946,7 +946,7 @@
         <text>A new subsection (g-1) is added to read as follows:</text>
         <include>
           <para>
-            <codify:insert/>
+            <codify:insert after="(g)"/>
             <num>(g-1)</num>
             <text>In calendar year 2020:</text>
             <para>
@@ -971,22 +971,27 @@
       </para>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>22</num>
     <heading>ANC petitioning and grantmaking.</heading>
     <text>The Advisory Neighborhood Commissions Act of 1976, effective March 26, 1976 (D.C. Law 1-58; D.C. Official Code § 1-309.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§1-309.05|(b)">
       <num>(a)</num>
       <text>Section 6(b) (D.C. Official Code § 1-309.05(b)) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended by striking the phrase "Candidates for" and inserting the phrase "Except as provided in paragraph (3) of this subsection, candidates for" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Candidates for</find>
+          <replace>Except as provided in paragraph (3) of this subsection, candidates for</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (3) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(3)</num>
             <text>For the November 3, 2020, general election:</text>
             <para>
@@ -1014,20 +1019,25 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-309.13|(m)|(1)">
       <num>(b)</num>
       <text>Section 16(m)(1) (D.C. Official Code § 1-309.13(m)(1)) is amended by striking the phrase "District government" and inserting the phrase "District government; except, that notwithstanding any provision of District law, during a period for which a public health emergency has been declared by the Mayor pursuant to section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01), a Commission may approve grants to organizations for the purpose of providing humanitarian relief, including food or supplies, during the public health emergency, or otherwise assisting in the response to the public health emergency anywhere in the District, even if those services are duplicative of services also performed by the District government" in its place.</text>
+      <codify:find-replace count="1">
+        <find>District government</find>
+        <replace>District government; except, that notwithstanding any provision of District law, during a period for which a public health emergency has been declared by the Mayor pursuant to <code-cite doc="D.C. Code" path="§7-2304.01">section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01)</code-cite>, a Commission may approve grants to organizations for the purpose of providing humanitarian relief, including food or supplies, during the public health emergency, or otherwise assisting in the response to the public health emergency anywhere in the District, even if those services are duplicative of services also performed by the District government</replace>
+      </codify:find-replace>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>23</num>
     <heading>Remote notarizations.</heading>
     <text>The Revised Uniform Law on Notarial Acts Act of 2018, effective December 4, 2018 (D.C. Law 22-189; D.C. Official Code § 1-1231.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§1-1231.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 1-1231.01) is amended by adding a new paragraph (1A) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert/>
           <num>(1A)</num>
           <text>"Audio-video communication" means an electronic device or process that:</text>
           <para>
@@ -1042,18 +1052,20 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§1-1231.05">
       <num>(b)</num>
       <text>Section 6 (D.C. Official Code § 1-1231.05) is amended to read as follows:</text>
       <para>
         <num>(1)</num>
         <text>The existing text is designated as subsection (a).</text>
+        <codify:redesignate-para num-value="(a)"/>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (b) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(b)</num>
             <text>Notwithstanding any provision of District law, during a period of time for which the Mayor has declared a public health emergency pursuant to section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01), the Mayor may authorize, without the personal appearance of the individual making the statement or executing the signature, notarial acts required or permitted under District law if:</text>
             <para>
@@ -1106,20 +1118,21 @@
       <text>Section 10 (D.C. Official Code § 1-1231.09) is amended by adding a new subsection (d) to read as follows:</text>
       <include>
         <para>
+          <codify:insert path="§1-1231.09"/>
           <num>(d)</num>
-          <text>Notwithstanding any provision of District law, during a period of time for which the Mayor has declared a public health emergency pursuant to section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01), a notarial act shall be deemed to be performed in the District regardless of the notary public's physical location at the time of the notarial act so long as the requirements of section 6(b) are met.</text>
+          <text>Notwithstanding any provision of District law, during a period of time for which the Mayor has declared a public health emergency pursuant to <code-cite doc="D.C. Code" path="§7-2304.01">section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01)</code-cite>, a notarial act shall be deemed to be performed in the District regardless of the notary public's physical location at the time of the notarial act so long as the requirements of <code-cite doc="D.C. Code" path="§1-1231.05|(b)">section 6(b)</code-cite> are met.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>24</num>
     <heading>Electronic witnessing.</heading>
     <para>
       <num>(a)</num>
       <text>Title 16 of the District of Columbia Code is amended as follows:</text>
-      <para>
+      <para codify:path="§16-4802">
         <num>(1)</num>
         <text>Section 16-4802 is amended as follows:</text>
         <para>
@@ -1127,10 +1140,12 @@
           <text>New paragraphs (9A) and (9B) are added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(9)"/>
               <num>(9A)</num>
               <text>"Electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</text>
             </para>
             <para>
+              <codify:insert after="(9A)"/>
               <num>(9B)</num>
               <text>"Electronic presence" means when one or more witnesses are in a different physical location than the designator but can observe and communicate with the designator and one another to the same extent as if the witnesses and designator were physically present with one another.</text>
             </para>
@@ -1142,10 +1157,12 @@
           <text>New paragraphs (11A) and (11B) are added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert after="(11)"/>
               <num>(11A)</num>
               <text>"Record" means information that is inscribed on a tangible medium or that is stored in an electronic medium and is retrievable in perceivable form.</text>
             </para>
             <para>
+              <codify:insert after="(11A)"/>
               <num>(11B)</num>
               <text>"Sign" means with present intent to authenticate or adopt a record to:</text>
               <para>
@@ -1161,31 +1178,47 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§16-4803">
         <num>(2)</num>
         <text>Section 16-4803 is amended as follows:</text>
-        <para>
+        <para codify:path="(c)">
           <num>(A)</num>
           <text>Subsection (c) is amended by striking the phrase "the adult signs the designation in the presence of the designator" and inserting the phrase "the adult signs the designation in the presence or, during a period of time for which the Mayor has declared a public health emergency pursuant to § 7-2304.01, the electronic presence of the designator" in its place.</text>
+          <codify:find-replace count="1">
+            <find>the adult signs the designation in the presence of the designator</find>
+            <replace>the adult signs the designation in the presence or, during a period of time for which the Mayor has declared a public health emergency pursuant to <cite doc="D.C. Code" path="§7-2304.01">§ 7-2304.01</cite>, the electronic presence of the designator</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(B)</num>
           <text>Subsection (d) is amended by striking the phrase "in the presence of 2 witnesses" and inserting the phrase "in the presence or, during a period of time for which the Mayor has declared a public health emergency pursuant to § 7-2304.01, the electronic presence of 2 witnesses" in its place.</text>
+          <codify:find-replace count="1">
+            <find>in the presence of 2 witnesses</find>
+            <replace>in the presence or, during a period of time for which the Mayor has declared a public health emergency pursuant to § 7-2304.01, the electronic presence of 2 witnesses</replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
     <para>
       <num>(b)</num>
       <text>Title 21 of the District of Columbia Code is amended as follows:</text>
-      <para>
+      <para codify:path="§21-2011">
         <num>(1)</num>
         <text>Section 21-2011 is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>New paragraphs (5B-i), (5B-ii) are added to read as follows:</text>
-          <include lvl="2">
-            <text>(5B-i) "Electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</text>
-            <text>(5B-ii) "Electronic presence" means when one or more witnesses are in a different physical location than the signatory but can observe and communicate with the signatory and one another to the same extent as if the witnesses and signatory were physically present with one another.</text>
+          <include lvl="1">
+            <para>
+              <codify:insert after="(5B)"/>
+              <num>(5B-i)</num>
+              <text>"Electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</text>
+            </para>
+            <para>
+              <codify:insert after="(5B-i)"/>
+              <num>(5B-ii)</num>
+              <text>"Electronic presence" means when one or more witnesses are in a different physical location than the signatory but can observe and communicate with the signatory and one another to the same extent as if the witnesses and signatory were physically present with one another.</text>
+            </para>
           </include>
           <aftertext>.</aftertext>
         </para>
@@ -1194,10 +1227,12 @@
           <text>New paragraphs (23A) and (23B) are added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(23)"/>
               <num>(23A)</num>
               <text>"Record" means information that is inscribed on a tangible medium or that is stored in an electronic medium and is retrievable in perceivable form.</text>
             </para>
             <para>
+              <codify:insert after="(23A)"/>
               <num>(23B)</num>
               <text>"Sign" means with present intent to authenticate or adopt a record to:</text>
               <para>
@@ -1218,13 +1253,14 @@
         <text>Section 21-2043 is amended by adding a new subsection (c-1) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§21-2043" after="(c)"/>
             <num>(c-1)</num>
-            <text>With respect to witnesses referred to in subsection (c) of this section, witnesses must be in the presence or, during a period of time for which the Mayor has declared a public health emergency pursuant to § 7-2304.01, the electronic presence of the signatory.</text>
+            <text>With respect to witnesses referred to in subsection (c) of this section, witnesses must be in the presence or, during a period of time for which the Mayor has declared a public health emergency pursuant to<cite doc="D.C. Code" path="§7-2304.01"> § 7-2304.01</cite>, the electronic presence of the signatory.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§21-2202">
         <num>(3)</num>
         <text>Section 21-2202 is amended as follows:</text>
         <para>
@@ -1232,10 +1268,12 @@
           <text>New paragraphs (3A) and (3B) are added to read as follows:</text>
           <include lvl="3">
             <para>
+              <codify:insert after="(3)"/>
               <num>(3A)</num>
               <text>"Electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</text>
             </para>
             <para>
+              <codify:insert after="(3A)"/>
               <num>(3B)</num>
               <text>"Electronic presence" means when one or more witnesses are in a different physical location than the principal but can observe and communicate with the principal and one another to the same extent as if the witnesses and principal were physically present with one another.</text>
             </para>
@@ -1247,6 +1285,7 @@
           <text>A new paragraph (6B) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(6A)"/>
               <num>(6B)</num>
               <text>"Record" means information that is inscribed on a tangible medium or that is stored in an electronic medium and is retrievable in perceivable form.</text>
             </para>
@@ -1258,6 +1297,7 @@
           <text>A new paragraph (8) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(7)"/>
               <num>(8)</num>
               <text>"Sign" means with present intent to authenticate or adopt a record to:</text>
               <para>
@@ -1276,16 +1316,24 @@
       <para>
         <num>(4)</num>
         <text>Section 21-2205(c) is amended by striking the phrase "2 adult witnesses who affirm that the principal was of sound mind" and inserting the phrase "2 adult witnesses who, in the presence or, during a period of time for which the Mayor has declared a public health emergency pursuant to § 7-2304.01, the electronic presence of the principal, affirm that the principal was of sound mind" in its place.</text>
+        <codify:find-replace path="§21-2205|(c)" count="1">
+          <find>2 adult witnesses who affirm that the principal was of sound mind</find>
+          <replace>2 adult witnesses who, in the presence or, during a period of time for which the Mayor has declared a public health emergency pursuant to <cite doc="D.C. Code" path="§7-2304.01">§ 7-2304.01</cite>, the electronic presence of the principal, affirm that the principal was of sound mind</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>Section 21-2210(c)) is amended is amended by striking the phrase "There shall be at least 1 witness present" and inserting the phrase "There shall be at least one witness present or, during a period of time for which the Mayor has declared a public health emergency pursuant to § 7-2304.01, electronically present" in its place.</text>
+        <codify:find-replace path="§21-2210|(c)" count="1">
+          <find>There shall be at least 1 witness presen</find>
+          <replace>There shall be at least one witness present or, during a period of time for which the Mayor has declared a public health emergency pursuant to <cite doc="D.C. Code" path="§7-2304.01">§ 7-2304.01</cite>, electronically present</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
       <num>(c)</num>
       <text>Title III of the Disability Services Reform Amendment Act of 2018, effective May 5, 2018 (D.C. Law 22-93; D.C. Official Code § 7-2131 <em>et seq.</em>), is amended as follows:</text>
-      <para>
+      <para codify:path="§7-2131|(a)">
         <num>(1)</num>
         <text>Section 301 (D.C. Official Code § 7-2131) is amended as follows:</text>
         <para>
@@ -1293,10 +1341,12 @@
           <text>New paragraphs (6A) and (6B) are added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(6)"/>
               <num>(6A)</num>
               <text>"Electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</text>
             </para>
             <para>
+              <codify:insert after="(6A)"/>
               <num>(6B)</num>
               <text>"Electronic presence" means when one or more witnesses are in a different physical location than the signatory but can observe and communicate with the signatory and one another to the same extent as if the witnesses and signatory were physically present with one another.</text>
             </para>
@@ -1308,10 +1358,12 @@
           <text>New paragraph (9A) and (9B) are added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(9)"/>
               <num>(9A)</num>
               <text>"Record" means information that is inscribed on a tangible medium or that is stored in an electronic medium and is retrievable in perceivable form.</text>
             </para>
             <para>
+              <codify:insert after="(9A)"/>
               <num>(9B)</num>
               <text>"Sign" means with present intent to authenticate or adopt a record to:</text>
               <para>
@@ -1333,15 +1385,24 @@
         <text>new subsection (c-1) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§7-2132" after="(c)"/>
             <num>(c-1)</num>
-            <text>With respect to witnesses referred to in subsection (c) of this section, witnesses must be in the presence or, during a period of time for which the Mayor has declared a public health emergency pursuant to § 7-2304.01, the electronic presence of the signatory.</text>
+            <text>With respect to witnesses referred to in subsection (c) of this section, witnesses must be in the presence or, during a period of time for which the Mayor has declared a public health emergency pursuant to <cite doc="D.C. Code" path="§7-2304.01">§ 7-2304.01</cite>, the electronic presence of the signatory.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
   </section>
+  <codify:insert doc="D.C. Code" path="2" after="3B" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>3C</num>
+      <heading>District Government Contractor Reporting of SARS-CoV-2.</heading>
+    </container>
+  </codify:insert>
   <section>
+    <codify:insert doc="D.C. Code" path="2|3C" num-value="2-391"/>
     <num>25</num>
     <heading>Contractor reporting of positive cases.</heading>
     <para>
@@ -1425,38 +1486,55 @@
       </para>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§7-2304.01|(d)|(3A)|(B)">
     <num>26</num>
     <heading>Liability clarification.</heading>
     <text>The amendatory section 5a(d)(3A)(B) of the District of Columbia Public Emergency Act of 1980, effective March 5, 1981 (D.C. Law 3-149; D.C. Official Code § 7-2304.01(d)(3A)(B)), in section 3(b) of the COVID-19 Supplemental Corrections Emergency Amendment Act of 2020, effective May 4, 2020 (D.C. Act 23-299; 67 DCR ___),  is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>Strike the phrase "volunteer, or District government contractor" and insert the phrase "volunteer, donor, or District government contractor" in its place.</text>
+      <codify:find-replace count="1">
+        <find>volunteer, or District government contractor</find>
+        <replace>volunteer, donor, or District government contractor</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>Strike the phrase "purpose, or contractual or voluntary service" and insert the phrase "purpose, contractual or voluntary service, or donation" in its place.</text>
+      <codify:find-replace count="1">
+        <find>purpose, or contractual or voluntary service</find>
+        <replace>purpose, contractual or voluntary service, or donation</replace>
+      </codify:find-replace>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§1-301.191|(c)">
     <num>27</num>
     <heading>Jail reporting.</heading>
     <text>Section 3022(c) of the Office of the Deputy Mayor for Public Safety and Justice Establishment Act of 2011, effective September 14, 2011 (D.C. Law 19-21; D.C. Official Code § 1-301.191(c)), is amended as follows:</text>
-    <para>
+    <para codify:path="(5)|(B)">
       <num>(a)</num>
       <text>Paragraph (5)(B) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+      <codify:find-replace count="1">
+        <find>; and</find>
+        <replace>;</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(6)|(G)|(viii)">
       <num>(b)</num>
       <text>Paragraph (6)(G)(viii) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+      <codify:find-replace count="1">
+        <find>.</find>
+        <replace>; and</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>A new paragraph (7) is added to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert/>
           <num>(7)</num>
-          <text>During a period of time for which the Mayor has declared a public health emergency pursuant to section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01), provide to the Council Committee with jurisdiction over the Office a weekly written update containing the following information:</text>
+          <text>During a period of time for which the Mayor has declared a public health emergency pursuant to <code-cite doc="D.C. Code" path="§7-2304.01">section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194; D.C. Official Code § 7-2304.01)</code-cite>, provide to the Council Committee with jurisdiction over the Office a weekly written update containing the following information:</text>
           <para>
             <num>(A)</num>
             <text>Unless otherwise distributed to the Chairperson of the Council Committee with jurisdiction over the Office by the Criminal Justice Coordinating Council, a daily census for that week of individuals detained in the Central Detention Facility and Correctional Treatment Facility, categorized by legal status;</text>
@@ -1482,15 +1560,16 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§10-801">
     <num>28</num>
     <heading>8th and O disposition extension.</heading>
     <text>Section 1 of An Act Authorizing the sale of certain real estate in the District of Columbia no longer required for public purposes, approved August 5, 1939 (53 Stat. 1211; D.C. Official Code § 10-801), is amended as follows:</text>
-    <para>
+    <para codify:path="(b-3)">
       <num>(a)</num>
       <text>Subsection (b-3) is amended by adding a new paragraph (8) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert/>
           <num>(8)</num>
           <text>Notwithstanding paragraph (2) of this subsection, for the disposition of the District-owned real property located at 1336 8th Street, N.W., 50% of the affordable units shall be for housing for which a low-income household will pay no more than 30% of its income toward housing costs, and 50% of the units shall be housing for which a moderate-income household will pay no more than 30% of its income toward housing costs, whether or not the units to be constructed are rental units or ownership units.  The Land Disposition and Development Agreement in the form approved by Council pursuant to the 8th &amp; O Streets, N.W., Disposition Approval Resolution of 2016, effective February 2, 2016 (Res. 21-374; 63 DCR 1498), remains in full force and effect, including, without limitation, the Affordable Housing Covenant attached as an exhibit thereto, which shall be recorded against the property at closing.</text>
         </para>
@@ -1500,6 +1579,10 @@
     <para>
       <num>(b)</num>
       <text>Subsection (d-7) is amended by striking the date "February 2, 2020" and inserting the date "September 15, 2020" in its place.</text>
+      <codify:find-replace path="(d-7)" count="1">
+        <find>February 2, 2020</find>
+        <replace>September 15, 2020</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
