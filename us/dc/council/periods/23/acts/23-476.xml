@@ -27,7 +27,7 @@
       <text>Section 2331 is amended by adding a new paragraph (1A) to read as follows:</text>
       <include lvl="1">
         <para>
-          <codify:insert doc="D.C. Code" path="§2-218.31" after="(1)"/>
+          <!-- <codify:insert doc="D.C. Code" path="§2-218.31" after="(1)"/> -->
           <num>(1A)</num>
           <text>Is:</text>
           <para>
@@ -45,13 +45,14 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:emergency doc="D.C. Code" path="§2-218.31"/>
     </para>
     <para>
       <num>(b)</num>
       <text>A new section 2331a is added to read as follow</text>
       <include>
         <section>
-          <codify:insert doc="D.C. Code" path="2|2|IX-A|D|1" after="§2-218.31" num-value="2-218.31a"/>
+          <!-- <codify:insert doc="D.C. Code" path="2|2|IX-A|D|1" after="§2-218.31" num-value="2-218.31a"/> -->
           <num>2331a</num>
           <heading codify:value="Grace period for compliance with § 2-218.31(1A)">Grace period for compliance with section 2331(1A).</heading>
           <para>
@@ -65,6 +66,8 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:applicability doc="D.C. Act 23-476" path="§2|(b)" date="2020-12-24" history="false"/>
+      <codify:emergency doc="D.C. Code" path="§2-218.31a" action="creation of this section"/>
     </para>
   </section>
   <section>
@@ -76,15 +79,15 @@
     <num>4</num>
     <heading>Effective date.</heading>
     <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), and shall remain in effect for no longer than 90 days, as provided for emergency acts of the Council of the District of Columbia in section 412(a) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 788; D.C. Official Code § 1-204.12(a)).</text>
-    <codify:insert doc="D.C. Code" path="§2-218.31" before="heading" history="false" display-template="">
+    <!-- <codify:insert doc="D.C. Code" path="§2-218.31" before="heading" history="false" display-template="">
       <text>
       *NOTE: This section includes amendments by emergency legislation that will expire on January 31, 2021. To view the text of this section after the expiration of the emergency legislation, click this link: <cite doc="D.C. Code" path="§2-218.31(Perm)">Permanent Version</cite>.*
       </text>
-    </codify:insert>
-    <codify:insert doc="D.C. Code" path="§2-218.31a" before="heading" history="false" display-template="">
+    </codify:insert> -->
+    <!-- <codify:insert doc="D.C. Code" path="§2-218.31a" before="heading" history="false" display-template="">
       <text>
       *NOTE: This section was created by emergency legislation that will expire on January 31, 2021.*
       </text>
-      </codify:insert>
+      </codify:insert> -->
   </section>
 </document>

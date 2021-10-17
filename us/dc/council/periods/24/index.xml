@@ -1,17 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <collection xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" name="24">
   <heading>Council Period 24 (2021-2022)</heading>
-  
+  <text>RECENT ADDITIONS TO THE D.C. CODE</text>
+  <text>
+    <cite doc="D.C. Act 24-1">• January 2021 Public Emergency Extension Authorization Emergency Amendment Act of 2021 (D.C. Act 24-1; Eff. Jan. 15, 2021)</cite>
+  </text>
+  <text>
+    <cite doc="D.C. Act 24-2">• Homeland Security Fusion Center and Law Enforcement Authority Emergency Amendment Act of 2021 (D.C. Act 24-2; Eff. Jan. 15, 2021)</cite>
+  </text>
   <collection name="covid-19">
     <heading>COVID-19 Related Legislation</heading>
-    
+    <xi:include href="./acts/24-1.xml"/>
   </collection>
   <collection name="permanent">
     <heading>Permanent Laws</heading>
-    
     <collection name="effective">
       <heading>Laws</heading>
-     
     </collection>
     <collection name="pending">
       <heading>Acts pending congressional review</heading>
@@ -19,14 +23,12 @@
   </collection>
   <collection name="emergency">
     <heading>Emergency Acts</heading>
-   
+    <xi:include href="./acts/24-2.xml"/>
   </collection>
   <collection name="temporary">
     <heading>Temporary Laws</heading>
-    
     <collection name="effective">
       <heading>Laws</heading>
-     
     </collection>
     <collection name="pending">
       <heading>Acts pending congressional review</heading>
@@ -34,6 +36,5 @@
   </collection>
   <collection name="budget">
     <heading>Budget Legislation</heading>
-    
   </collection>
 </collection>
