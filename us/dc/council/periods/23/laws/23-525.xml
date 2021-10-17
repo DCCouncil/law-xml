@@ -22,18 +22,28 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Dementia Training for Direct Care Workers Support Amendment Act of 2020".</text>
-  <section>
+  
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Department of Health Functions Clarification Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 7-731 <em>et seq</em>.), is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>Section 4948 (D.C. Official Code § 7-744.01) is designated as section 4951.</text>
+     <codify:find-replace path="§7-744.01" count="1">
+       <find>There is</find>
+       <replace>There is</replace>
+     </codify:find-replace>
+     <codify:find-replace path="7|7A|V|heading" count="1">
+       <find>Services Coordinator</find>
+       <replace>Services</replace>
+     </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>A new section 4952 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="7|7A|V" after="§7-744.01" num-value="7-744.02" history-prefix="as added"/>
           <num>4952</num>
           <heading>Dementia training for direct care workers.</heading>
           <para>
@@ -45,7 +55,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>"Facilities or programs" means residential facilities or home-based and community-based programs that provide supportive services, including Skilled Nursing Facilities, as defined in 42 U.S.C. § 1395i-3(a), Assisted Living Residences, as defined in section 201(4) of the Assisted Living Residence Act of 2000, effective June 24, 2000 (D.C. Law 13-127; D.C. Official Code § 44-102.01(4)), Home Care Agencies and Hospice, as defined, respectively, in section (2)(a)(2) and (7) of the Health-Care and Community Residence Facility Hospice and Home Care Licensure Act of 1983, effective February 24, 1984 (D.C. Law 5-48; D.C. Official Code § 44-501(a)(2) and (7)), that have residents or program participants with Alzheimer's disease or related dementia in residential settings.</text>
+              <text>"Facilities or programs" means residential facilities or home-based and community-based programs that provide supportive services, including Skilled Nursing Facilities, as defined in 42 U.S.C. § 1395i-3(a), Assisted Living Residences, as defined in <code-cite doc="D.C. Code" path="§44-102.01|(4)">section 201(4) of the Assisted Living Residence Act of 2000, effective June 24, 2000 (D.C. Law 13-127; D.C. Official Code § 44-102.01(4))</code-cite>, Home Care Agencies and Hospice, as defined, respectively, in <code-cite doc="D.C. Code" path="§44-501|(a)|(2)">section (2)(a)(2)</code-cite> and <cite doc="D.C. Code" path="§44-501|(a)|(7)">(7)</cite> <span codify:value="[§ 44-501(a)(7) and (8)]"> of the Health-Care and Community Residence Facility Hospice and Home Care Licensure Act of 1983, effective February 24, 1984 (D.C. Law 5-48; D.C. Official Code § 44-501(a)(2) and (7))</span>, that have residents or program participants with Alzheimer's disease or related dementia in residential settings.</text>
             </para>
             <para>
               <num>(3)</num>
@@ -135,7 +145,7 @@
             <num>(c)</num>
             <para>
               <num>(1)</num>
-              <text>Within 120 days after the applicability date of this section, the Department shall identify and designate standardized trainings, including online trainings, and trainings currently used by providers that meet the requirements of subsection (b)(3) through (5) and shall also establish a process whereby other non-standardized training programs will be determined to meet the requirements for dementia training.</text>
+              <text>Within 120 days after the applicability date of this section, the Department shall identify and designate standardized trainings, including online trainings, and trainings currently used by providers that meet the requirements of subsection (b)(3) through (5) <span codify:value="[of this section]"></span> and shall also establish a process whereby other non-standardized training programs will be determined to meet the requirements for dementia training.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -230,6 +240,7 @@
             <num>(h)</num>
             <text>Where the training requirements established by this section differ or overlap with other District law or regulation, the more rigorous training requirements shall apply.</text>
           </para>
+          <annotation doc="D.C. Law 14-28" type="History" path="§4952">Oct. 3, 2001, D.C. Law 14-28, § 4952</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -258,19 +269,19 @@
         <text>Skilled nursing;</text>
       </para>
       <para>
-        <num>(3)</num>
+        <num codify:value="[(4)]">(3)</num>
         <text>Physical therapy;</text>
       </para>
       <para>
-        <num>(4)</num>
+        <num codify:value="[(5)]">(4)</num>
         <text>Occupational therapy;</text>
       </para>
       <para>
-        <num>(5)</num>
+        <num codify:value="[(6)]">(5)</num>
         <text>Speech and language pathology; and</text>
       </para>
       <para>
-        <num>(6)</num>
+        <num codify:value="[(7)]">(6)</num>
         <text>Nutritional services.</text>
       </para>
     </para>
@@ -313,11 +324,17 @@
       <num>(f)</num>
       <text>For the purposes of this section, the term "direct support worker" means a paid employee who performs at least 51% of their job duties providing direct support to persons in the home health care, personal care assistance nursing home care, and assisted living industry in the District.</text>
     </para>
+    <codify:annotation doc="D.C. Code" path="§7-744.02" type="Editor's Notes" history="false">
+      For a requirement that the Department of Health Care Finance have a rate study conducted through an independent third party to determine the existing wage structure and projected wage structure necessary to ensure a vital and adequately compensated class of direct support workers in the home health care, personal care assistance nursing home care, and assisted living industry, see<cite doc="D.C. Act 23-525" path="§3"> § 3 of D.C. Act 23-525</cite>.
+    </codify:annotation>
   </section>
   <section>
     <num>4</num>
     <heading>Rulemaking.</heading>
     <text>The Mayor, pursuant to title 1 of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 et seq.), may issue rules to implement the provisions of this act.</text>
+    <codify:annotation doc="D.C. Code" path="§7-744.02" type="Editor's Notes" history="false">
+     <cite doc="D.C. Act 23-525" path="§4"> Section 4 of D.C. Act 23-525</cite> required that pursuant to title 1 of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 et seq.), may issue rules to implement the provisions of this act.
+    </codify:annotation>
   </section>
   <section>
     <num>5</num>
