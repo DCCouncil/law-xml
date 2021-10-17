@@ -21,7 +21,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Electronic Medical Order for Scope of Treatment Registry Amendment Act of 2019".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Subchapter II of Chapter 22 of Title 21 is amended as follows:</text>
     <para>
@@ -52,38 +52,51 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-2221.03|(b)">
       <num>(a)</num>
       <text>Section 21-2221.03(b) is amended as follows:</text>
-      <para>
+      <para codify:path="(2)">
         <num>(1)</num>
         <text>Paragraph (2) is amended by striking the word "and".</text>
+        <codify:find-replace count="1">
+          <find>and</find>
+          <replace/>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(2)</num>
         <text>Paragraph (3) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace count="1" display-template="">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (4) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert display-template=""/>
             <num>(4)</num>
-            <text>Develop an electronic MOST Form pursuant to § 21-2221.14a.</text>
+            <text>Develop an electronic MOST Form pursuant to <cite doc="D.C. Code" path="§21-2221.14a">§ 21-2221.14a</cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§21-2221.03" applicability-path="§3" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§21-2221.14">
       <num>(b)</num>
       <text>Section 21-2221.14 is repealed.</text>
+      <codify:repeal/>
+      <codify:not-funded-anno doc="D.C. Code" path="§21-2221.14" applicability-path="§3" action="repeal of" display-template=""/>
     </para>
     <para>
       <num>(c)</num>
       <text>A new section 21-2221.14a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="21|22|II" after="§21-2221.14"/>
           <prefix>§</prefix>
           <num>21-2221.14a</num>
           <heading>Establishment of an electronic medical orders for scope of treatment registry.</heading>
@@ -96,7 +109,7 @@
             <text>A MOST registry shall:</text>
             <para>
               <num>(1)</num>
-              <text>Be approved by the MOST Advisory Committee established pursuant to § 21-2221.03;</text>
+              <text>Be approved by the MOST Advisory Committee established pursuant to <code-cite doc="D.C. Code" path="§21-2221.03">§ 21-2221.03</code-cite>;</text>
             </para>
             <para>
               <num>(2)</num>
@@ -114,6 +127,7 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§21-2221.14a" applicability-path="§3" action="creation of" display-template=""/>
     </para>
   </section>
   <section>
@@ -122,6 +136,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Act 23-194" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

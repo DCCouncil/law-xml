@@ -20,22 +20,27 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Cottage Food Expansion Amendment Act of 2019".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Part C of the Department of Health Functions Clarification Act of 2001, effective January 25, 2014 (D.C. Law 20-63; D.C. Official Code § 7-742.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§7-742.01|(a)">
       <num>(a)</num>
       <text>Section 4931 (D.C. Official Code § 7-742.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(2)">
         <num>(1)</num>
         <text>Paragraph (2) is amended as follows:</text>
-        <para>
+        <para codify:path="(B)">
           <num>(A)</num>
           <text>Subparagraph (B) is amended by striking the semicolon and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace count="1">
+            <find>;</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(C)">
           <num>(B)</num>
           <text>Subparagraph (C) is repealed.</text>
+          <codify:repeal/>
         </para>
       </para>
       <para>
@@ -43,43 +48,54 @@
         <text>A new paragraph (2A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(2)"/>
             <num>(2A)</num>
             <text>"Cottage food business identification number and certificate" means the unique identifier for tracking cottage food businesses and the certificate evidencing status as a cottage food business.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(3)</num>
         <text>Paragraph (3) is amended by striking the phrase "at a farmer's market or public event" and inserting the phrase "direct to consumers within the District of Columbia" in its place.</text>
+        <codify:find-replace count="1">
+          <find>at a farmer's market or public event</find>
+          <replace>direct to consumers within the District of Columbia</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (5) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(5)</num>
             <para>
               <num>(A)</num>
-              <text>"Food establishment" shall have the same meaning as provided in section 2(5) of An Act Relating to the adulteration of foods and drugs in the District of Columbia, approved February 17, 1898 (30 Stat. 246, D.C. Official Code § 48-102(5)).</text>
+              <text><span codify:value="[Stet] "></span>"Food establishment" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§48-102|(5)">section 2(5) of An Act Relating to the adulteration of foods and drugs in the District of Columbia, approved February 17, 1898 (30 Stat. 246, D.C. Official Code § 48-102(5))</code-cite>.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§7-742.02|(b)">
       <num>(b)</num>
       <text>Section 4932(b) (D.C. Official Code § 7-742.02(b)) is amended as follows:</text>
-      <para>
+      <para codify:path="(2)">
         <num>(1)</num>
         <text>Paragraph (2) is amended by striking the phrase "shall perform" and inserting the phrase "may perform" in its place.</text>
+        <codify:find-replace count="1">
+          <find>shall perform</find>
+          <replace>may perform</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(2)</num>
         <text>Paragraph (3) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(3)</num>
             <text>The Department shall issue a cottage food business identification number and certificate to each registered cottage food business. Upon receipt of a cottage food business identification number and certificate, the cottage food business shall be authorized to produce, package, and sell the temperature control for safety food products on the approved food products list issued by the Department, set forth in section 103.5 of Title 25-K of the District of Columbia Municipal Regulations (25-K DCMR 103.5). The cottage food business shall not produce, package, or sell any food products that are not allowed by the Department nor use any processes and activities that are not allowed by the Department.</text>
           </para>
@@ -92,20 +108,22 @@
       <text>A new section 4933 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert doc="D.C. Code" path="7|7A|III" num-value="7-742.03" history-prefix="as added"/>
           <num>4933</num>
           <heading>Cottage food prepared or stored in a private home.</heading>
           <para>
             <num>(a)</num>
-            <text>Food prepared or stored in a private home shall not be used or offered for human consumption in a food establishment, except as provided in section 3806 of Title 25-A of the District of Columbia Municipal Regulations (25-A DCMR 3806) or when prepared by a cottage food business in accordance with section 4932(a).</text>
+            <text>Food prepared or stored in a private home shall not be used or offered for human consumption in a food establishment, except as provided in section 3806 of Title 25-A of the District of Columbia Municipal Regulations (25-A DCMR 3806) or when prepared by a cottage food business in accordance with <code-cite doc="D.C. Code" path="§7-742.02|(a)">section 4932(a)</code-cite>.</text>
           </para>
           <para>
             <num>(b)</num>
-            <text>A food establishment shall not include a cottage food business operating in accordance with section 4932(a).</text>
+            <text>A food establishment shall not include a cottage food business operating in accordance with <code-cite doc="D.C. Code" path="§7-742.02|(a)">section 4932(a)</code-cite>.</text>
           </para>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <annotation doc="D.C. Law 14-28" type="History" path="§4933">Oct. 3, 2001, D.C. Law 14-28</annotation>
   </section>
   <section>
     <num>4</num>
