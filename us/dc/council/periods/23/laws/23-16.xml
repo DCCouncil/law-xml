@@ -3461,18 +3461,26 @@
       <section>
         <num>3022</num>
         <text>The Structured Settlements and Automatic Renewal Protections Act of 2018, effective March 13, 2019 (D.C. Law 22-235; D.C. Official Code § 28A-101 <em>et seq.</em>)), is amended as follows:</text>
-        <para>
+        <!-- <para codify:path="§28A-203">
           <num>(a)</num>
           <text>Section 203 (D.C. Official Code § 28A-203) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the phrase "the contract." and inserting the phrase "the contract.  If an offer of sale of a good or service subject to this subsection also includes a free gift or trial, the offer shall include a clear and conspicuous explanation of the price that will be charged after the trial ends or the manner in which the subscription or purchasing price will change upon conclusion of the trial." in its place.</text>
+            <codify:find-replace count="1">
+              <find>the contract.</find>
+              <replace>the contract.  If an offer of sale of a good or service subject to this subsection also includes a free gift or trial, the offer shall include a clear and conspicuous explanation of the price that will be charged after the trial ends or the manner in which the subscription or purchasing price will change upon conclusion of the trial.</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(c)|(1)">
             <num>(2)</num>
             <text>Subsection (c)(1) is amended by striking the phrase "renewal between one and 7 days" and inserting the phrase "renewal at least 15 and no more than 30 days" in its place.</text>
+            <codify:find-replace count="1">
+              <find>renewal between one and 7 days</find>
+              <replace>renewal at least 15 and no more than 30 days</replace>
+            </codify:find-replace>
           </para>
-        </para>
+        </para> S2A -->
         <para>
           <num>(b)</num>
           <text>Section 301 is amended to read as follows:</text>
@@ -3506,6 +3514,10 @@
       <section>
         <num>3032</num>
         <text>Section 2(7)(A)(ii) of the Victims of Violent Crime Compensation Act of 1996, effective April 9, 1997 (D.C. Law 11-243; D.C. Official Code § 4-501(7)(A)(ii)), is amended by striking the phrase "of cremation or other chosen method interment" and inserting the phrase "of embalming, burial containers, cremation, and the chosen method of interment; provided, that a claimant's economic loss under this sub-subparagraph shall not exceed $10,000" in its place.</text>
+        <codify:find-replace path="§4-501|(7)|(A)|(ii)" count="1">
+          <find>of cremation or other chosen method of interment</find>
+          <replace>of embalming, burial containers, cremation, and the chosen method of interment; provided, that a claimant's economic loss under this sub-subparagraph shall not exceed $10,000</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -3520,37 +3532,58 @@
       <section>
         <num>3042</num>
         <text>The Neighborhood Engagement Achieves Results Amendment Act of 2016, effective June 30, 2016 (D.C. Law 21-125; D.C. Official Code § 7-2411 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§7-2411">
           <num>(a)</num>
           <text>Section 101 (D.C. Official Code § 7-2411) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)|(1)">
             <num>(1)</num>
             <text>Subsection (a)(1) is amended by striking the phrase "Community Stabilization" and inserting the phrase "Family and Survivor Support Services" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Community Stabilization</find>
+              <replace>Family and Survivor Support Services</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(2)</num>
             <text>Subsection (d) is amended as follows:</text>
-            <para>
+            <para codify:path="text">
               <num>(A)</num>
               <text>The lead-in language is amended by striking the phrase "information from" and inserting the phrase "information, by cohort, from" in its place.</text>
+              <codify:find-replace count="1">
+                <find>information from</find>
+                <replace>information, by cohort, from</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(2)">
               <num>(B)</num>
               <text>Paragraph (2) is amended by striking the phrase "individuals' participation;" and inserting the phrase "individuals' participation, and for those individuals who did not remain in the program for the entirety of its duration, the reasons for their separation;" in its place.</text>
+              <codify:find-replace count="1">
+                <find>individuals' participation;</find>
+                <replace>individuals' participation, and for those individuals who did not remain in the program for the entirety of its duration, the reasons for their separation;</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(3)">
               <num>(C)</num>
               <text>Paragraph (3) is amended by striking the phrase "progress; and" and inserting the phrase "progress, including whether they are employed in subsidized or unsubsidized employment and any certifications or diplomas they have obtained while participating in the program;" in its place.</text>
+              <codify:find-replace count="1">
+                <find>progress; and</find>
+                <replace>progress, including whether they are employed in subsidized or unsubsidized employment and any certifications or diplomas they have obtained while participating in the program;</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(4)">
               <num>(D)</num>
               <text>Paragraph (4) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+              <codify:find-replace position="last">
+                <find>.</find>
+                <replace>; and</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(E)</num>
               <text>A new paragraph (5) is added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert/>
                   <num>(5)</num>
                   <text>Whether any participant has been arrested or convicted during or following their participation, and for what offense or offenses.</text>
                 </para>
@@ -3563,6 +3596,7 @@
             <text>A new subsection (g) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert/>
                 <num>(g)</num>
                 <text>Agency funds may be used to purchase food and non-alcoholic beverages for participants in ONSE's programs and activities, including violence prevention programs, short-term assistance programs, retreats, community outreach activities and events, individual outreach activities such as program recruitment, and training and education activities for community members, where the purchase is reasonably necessary to assist ONSE in the effective achievement of a statutory goal, objective, or responsibility.</text>
               </para>
@@ -3570,9 +3604,10 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-2413">
           <num>(b)</num>
           <text>Section 103 (D.C. Official Code § 7-2413) is repealed.</text>
+          <codify:repeal/>
         </para>
       </section>
     </container>
@@ -3588,33 +3623,53 @@
       <section>
         <num>3052</num>
         <text>The lead-in language of section 127(b) of the Vital Records Modernization Amendment Act of 2018, effective October 30, 2018 (D.C. Law 22-164; D.C. Official Code § 7-231.27(b)), is amended by striking the phrase "a pilot program for Fiscal Year 2019 shall be established to waive the fee for a certificate of birth for:" and inserting the phrase "the fee for a certificate of birth shall be waived for:" in its place.</text>
+        <codify:find-replace path="§7-231.27|(b)|text" count="1">
+          <find>a pilot program for Fiscal Year 2019 shall be established to waive the fee for a certificate of birth for:</find>
+          <replace>the fee for a certificate of birth shall be waived for:</replace>
+        </codify:find-replace>
       </section>
       <section>
         <num>3053</num>
         <text>The District of Columbia Traffic Act, 1925, approved March 3, 1925 (43 Stat. 1121; D.C. Official Code <em>passim</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§50-1401.01|(a)">
           <num>(a)</num>
           <text>Section 7(a) (D.C. Official Code § 50-1401.01(a)) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)|(A-ii)|(i)|text">
             <num>(1)</num>
             <text>The lead-in language of paragraph (1)(A-ii)(i) is amended by striking the phrase "a pilot program for Fiscal Year 2019 shall be established to waive the fee described in subparagraph (A-i) of this paragraph for:" and inserting the phrase "the fee described in subparagraph (A-i) of this paragraph shall be waived for:" in its place.</text>
+            <codify:find-replace count="1">
+              <find>a pilot program for Fiscal Year 2019 shall be established to waive the fee described in subparagraph (A-i) of this paragraph for:</find>
+              <replace>the fee described in subparagraph (A-i) of this paragraph shall be waived for:</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(2)|(A-i)|(i)">
             <num>(2)</num>
             <text>The lead-in language of paragraph (2)(A-i)(i) is amended by striking the phrase "a pilot program for Fiscal Year 2019 shall be established to waive the fee described in subparagraph (A) of this paragraph for:" and inserting the phrase "the fee described in subparagraph (A) of this paragraph shall be waived for:" in its place.</text>
+            <codify:find-replace count="1">
+              <find>a pilot program for Fiscal Year 2019 shall be established to waive the fee described in subparagraph (A) of this paragraph for:</find>
+              <replace>the fee described in subparagraph (A) of this paragraph shall be waived for:</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(2A)|(A-i)|(i)">
             <num>(3)</num>
             <text>The lead-in language of paragraph (2A)(A-i)(i) is amended by striking the phrase "a pilot program for Fiscal Year 2019 shall be established to waive the fee described in subparagraph (A) of this paragraph for:" and inserting the phrase "the fee described in subparagraph (A) of this paragraph shall be waived for:" in its place.</text>
+            <codify:find-replace count="1">
+              <find>a pilot program for Fiscal Year 2019 shall be established to waive the fee described in subparagraph (A) of this paragraph for:</find>
+              <replace>the fee described in subparagraph (A) of this paragraph shall be waived for:</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§50-1401.03|(a)|(1B)|(A)">
           <num>(b)</num>
           <text>The lead-in language of section 8a(a)(1B)(A) (D.C. Official Code § 50-1401.03(a)(1B)(A)) is amended to read as follows:</text>
           <include lvl="2">
             <para>
               <num>(A)</num>
               <text>The application fee for a driver's license or a special identification card issued pursuant to this section shall be waived for:</text>
+              <codify:find-replace count="1">
+                <find>A pilot program for Fiscal Year 2019 shall be established to waive the application fee for a driver's license or a special identification card issued pursuant to this section for</find>
+                <replace>The application fee for a driver's license or a special identification card issued pursuant to this section shall be waived for</replace>
+              </codify:find-replace>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -3633,18 +3688,23 @@
       <section>
         <num>3062</num>
         <text>The Maternal Mortality Review Committee Establishment Act of 2018, effective June 5, 2018 (D.C. Law 22-111; D.C. Official Code § 7-671.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§7-671.02">
           <num>(a)</num>
           <text>Section 3 (D.C. Official Code § 7-671.02) is amended as follows:</text>
-          <para>
+          <para codify:path="(b)">
             <num>(1)</num>
             <text>Subsection (b) is amended by striking the phrase "factors,:" and inserting the phrase "factors:" in its place.</text>
+            <codify:find-replace count="1">
+              <find>factors,:</find>
+              <replace>factors:</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(2)</num>
             <text>Subsection (d) is amended by adding a new paragraph (3) to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(3)</num>
                 <text>The Chief Medical Examiner shall annually, no later than 60 days after the annual report described in paragraph (1) of this subsection is made publicly available, convene a symposium at which the Chief Medical Examiner shall present the report to the public, District agencies implicated by the report's findings, the Deputy Mayors for Public Safety and Justice and Health and Human Services, any relevant health or policy stakeholders, and the Committee's representatives and members.</text>
               </para>
@@ -3652,30 +3712,41 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§7-671.03|(b)">
           <num>(b)</num>
           <text>Section 4(b) (D.C. Official Code § 7-671.03(b)) is amended as follows:</text>
-          <para>
+          <para codify:path="(9)">
             <num>(1)</num>
             <text>Paragraph (9) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(10)">
             <num>(2)</num>
             <text>Paragraph (10) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>[;]</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>New paragraphs (11), (12), and (13) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(11)</num>
                 <text>One person who has been directly impacted by a near maternal mortality;</text>
               </para>
               <para>
+                <codify:insert/>
                 <num>(12)</num>
                 <text>One anesthesiologist with experience in obstetrics; and</text>
               </para>
               <para>
+                <codify:insert/>
                 <num>(13)</num>
                 <text>One neonatologist with experience with high-risk pregnancies.</text>
               </para>
@@ -3684,25 +3755,34 @@
           </para>
         </para>
       </section>
-      <section>
+      <section codify:path="§16-1053">
         <num>3063</num>
         <text>Section 16-1053 of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(a)</num>
           <text>Subsection (a) is amended as follows:</text>
-          <para>
+          <para codify:path="(8)">
             <num>(1)</num>
             <text>Paragraph (8) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(9)">
             <num>(2)</num>
             <text>Paragraph (9) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>A new paragraph (10) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(10)</num>
                 <text>The Office of Victim Services and Justice Grants.</text>
               </para>
@@ -3710,22 +3790,31 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(b)</num>
           <text>Subsection (b) is amended as follows:</text>
-          <para>
+          <para codify:path="(5)">
             <num>(1)</num>
             <text>Paragraph (5) is amended by striking the phrase "shelters; and" and inserting the phrase "housing organizations;" in its place.</text>
+            <codify:find-replace count="1">
+              <find>shelters; and</find>
+              <replace>housing organizations;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(6)">
             <num>(2)</num>
             <text>Paragraph (6) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>A new paragraph (7) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(7)</num>
                 <text>The federally recognized state coalition for domestic violence.</text>
               </para>
@@ -3747,14 +3836,15 @@
       <section>
         <num>3072</num>
         <text>The Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010, effective May 27, 2010 (D.C. Law 18-160; D.C. Official Code § 1-301.81 <em>et seq</em>.), is amended as follows:</text>
-        <para>
+        <para codify:path="§1-301.86b">
           <num>(a)</num>
           <text>Section 106b (D.C. Official Code § 1-301.86b) is amended as follows:</text>
-          <para>
+          <para codify:path="(c)">
             <num>(1)</num>
             <text>Subsection (c) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(c)</num>
                 <para>
                   <num>(1)</num>
@@ -3765,7 +3855,7 @@
                   </para>
                   <para>
                     <num>(B)</num>
-                    <text>Funding staff positions, up to a maximum amount of $4 million per year, and non-personnel costs related to administering any grant issued pursuant to the authority provided in section 108c(a); and</text>
+                    <text>Funding staff positions, up to a maximum amount of $4 million per year, and non-personnel costs related to administering any grant issued pursuant to the authority provided in <code-cite doc="D.C. Code" path="§1-301.86c|(a)">section 108c(a)</code-cite>; and</text>
                   </para>
                   <para>
                     <num>(C)</num>
@@ -3780,14 +3870,15 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(2)</num>
             <text>Subsection (d) is amended as follows:</text>
-            <para>
+            <para codify:path="(3)">
               <num>(A)</num>
               <text>Paragraph (3) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace/>
                   <num>(3)</num>
                   <para>
                     <num>(A)</num>
@@ -3807,48 +3898,54 @@
           <num>(b)</num>
           <text>A new section 106d is added to read as follows:</text>
           <include>
-            <text>106d. Vulnerable Adult and Elderly Person Exploitation Restitution Fund.</text>
-            <para>
-              <num>(a)</num>
-              <text>There is established as a special fund the Vulnerable Adult and Elderly Person Exploitation Restitution Fund ("Restitution Fund") which shall be administered by the Office of the Attorney General in accordance with subsection (c) of this section.</text>
-            </para>
-            <para>
-              <num>(b)</num>
-              <text>Awards of restitution and costs to individuals imposed under a court order, judgment, or settlement in any action or investigation brought to enforce to section 203a of the Criminal Abuse, Neglect, and Financial Exploitation of Vulnerable Adults and the Elderly Act of 2000, effective November 23, 2016 (D.C. Law 21-166; D.C. Official Code § 22-933.01), shall be deposited in the Restitution Fund.</text>
-            </para>
-            <para>
-              <num>(c)</num>
-              <text>Money in the Restitution Fund shall be used for the following purposes:</text>
+            <section>
+              <codify:insert path="1|3|I|D-i" after="§1-301.86c" num-value="1-301.86d"/>
+              <num>106d</num>
+              <heading>Vulnerable Adult and Elderly Person Exploitation Restitution Fund.</heading>
               <para>
-                <num>(1)</num>
-                <text>The payment of restitution to individuals harmed by the conduct of persons or entities that are the subject of court orders, judgments or settlements in actions or investigations brought to enforce section 203a of the Criminal Abuse, Neglect, and Financial Exploitation of Vulnerable Adults and the Elderly Act of 2000, effective November 23, 2016 (D.C. Law 21-166; D.C. Official Code § 22-933.01); and</text>
+                <num>(a)</num>
+                <text>There is established as a special fund the Vulnerable Adult and Elderly Person Exploitation Restitution Fund ("Restitution Fund") which shall be administered by the Office of the Attorney General in accordance with subsection (c) of this section.</text>
               </para>
               <para>
-                <num>(2)</num>
-                <text>Costs and expenses related to maintaining the Restitution Fund or to paying amounts to harmed individuals.</text>
-              </para>
-            </para>
-            <para>
-              <num>(d)</num>
-              <para>
-                <num>(1)</num>
-                <text>The money deposited into the Restitution Fund but not expended in a fiscal year shall not revert to the unassigned fund balance of the General Fund of the District of Columbia at the end of a fiscal year, or at any other time.</text>
+                <num>(b)</num>
+                <text>Awards of restitution and costs to individuals imposed under a court order, judgment, or settlement in any action or investigation brought to enforce to <code-cite doc="D.C. Code" path="§22-933.01">section 203a of the Criminal Abuse, Neglect, and Financial Exploitation of Vulnerable Adults and the Elderly Act of 2000, effective November 23, 2016 (D.C. Law 21-166; D.C. Official Code § 22-933.01)</code-cite>, shall be deposited in the Restitution Fund.</text>
               </para>
               <para>
-                <num>(2)</num>
-                <text>Subject to authorization in an approved budget and financial plan, any funds appropriated in the Restitution Fund shall be continually available without regard to fiscal year limitation.</text>
+                <num>(c)</num>
+                <text>Money in the Restitution Fund shall be used for the following purposes:</text>
+                <para>
+                  <num>(1)</num>
+                  <text>The payment of restitution to individuals harmed by the conduct of persons or entities that are the subject of court orders, judgments or settlements in actions or investigations brought to enforce <code-cite doc="D.C. Code" path="§22-933.01">section 203a of the Criminal Abuse, Neglect, and Financial Exploitation of Vulnerable Adults and the Elderly Act of 2000, effective November 23, 2016 (D.C. Law 21-166; D.C. Official Code § 22-933.01)</code-cite>; and</text>
+                </para>
+                <para>
+                  <num>(2)</num>
+                  <text>Costs and expenses related to maintaining the Restitution Fund or to paying amounts to harmed individuals.</text>
+                </para>
               </para>
-            </para>
-            <para>
-              <num>(e)</num>
-              <text>The Attorney General may promulgate regulations for the administration of the Restitution Fund and the making of payments from the Restitution Fund.</text>
-            </para>
+              <para>
+                <num>(d)</num>
+                <para>
+                  <num>(1)</num>
+                  <text>The money deposited into the Restitution Fund but not expended in a fiscal year shall not revert to the unassigned fund balance of the General Fund of the District of Columbia at the end of a fiscal year, or at any other time.</text>
+                </para>
+                <para>
+                  <num>(2)</num>
+                  <text>Subject to authorization in an approved budget and financial plan, any funds appropriated in the Restitution Fund shall be continually available without regard to fiscal year limitation.</text>
+                </para>
+              </para>
+              <para>
+                <num>(e)</num>
+                <text>The Attorney General may promulgate regulations for the administration of the Restitution Fund and the making of payments from the Restitution Fund.</text>
+              </para>
+            </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§1-301.86b|(c-1)">
           <num>(c)</num>
           <text>Section 2(a) of the Omnibus Public Safety and Justice Amendment Act of 2018, enacted on January 30, 2019 (D.C. Act 22-614; 66 DCR 1627), is repealed.</text>
+          <codify:repeal/>
+          <annotation doc="D.C. Law 23-16" type="History" path="§3072" eff="2019-09-11" app="2019-09-11" >Sept. 11, 2019, D.C. Law 23-16, § 3072(a), (c), 66 DCR 8621</annotation>
         </para>
       </section>
       <section>
@@ -3871,6 +3968,7 @@
         <text>Section 5 of the Office of Citizen Complaint Review Establishment Act of 1998, effective March 26, 1999 (D.C. Law 12-208; D.C. Official Code § 5-1104), is amended by adding a new subsection (d-3) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§5-1104" after="(d-2)"/>
             <num>(d-3)</num>
             <para>
               <num>(1)</num>
@@ -3885,7 +3983,7 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>An evaluation of stops and searches conducted by NSID officers, including an analysis of the records identified in section 386(a)(4B) of the Revised Statutes of the District of Columbia (D.C. Official Code § 5-113.01(a)(4B));</text>
+                <text>An evaluation of stops and searches conducted by NSID officers, including an analysis of the records identified in <code-cite doc="D.C. Code" path="§5-113.01|(a)|(4B)">section 386(a)(4B) of the Revised Statutes of the District of Columbia (D.C. Official Code § 5-113.01(a)(4B))</code-cite>;</text>
               </para>
               <para>
                 <num>(C)</num>
@@ -3893,7 +3991,7 @@
               </para>
               <para>
                 <num>(D)</num>
-                <text>An evaluation of the adequacy of discipline imposed by the Metropolitan Police Department on NSID officers as a result of a sustained allegation of misconduct pursuant to section 13; and</text>
+                <text>An evaluation of the adequacy of discipline imposed by the Metropolitan Police Department on NSID officers as a result of a sustained allegation of misconduct pursuant to <code-cite doc="D.C. Code" path="§5-1112">section 13</code-cite>; and</text>
               </para>
               <para>
                 <num>(E)</num>
@@ -3958,6 +4056,7 @@
         <text>Section 19-701 of the District of Columbia Official Code is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§19-701"/>
             <prefix>§</prefix>
             <num>19-701</num>
             <heading>Escheatment.</heading>
@@ -3977,7 +4076,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>Money in the Fund shall be used for emergency assistance grants described in § 4-753.01(e).</text>
+                <text>Money in the Fund shall be used for emergency assistance grants described in <cite doc="D.C. Code" path="§4-753.01|(e)">§ 4-753.01(e)</cite>.</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -3993,7 +4092,7 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>For the purposes of this section, the term "domestic partner" shall have the same meaning as provided in § 32-701(3).</text>
+              <text>For the purposes of this section, the term "domestic partner" shall have the same meaning as provided in <cite doc="D.C. Code" path="§32-701|(3)">§ 32-701(3)</cite>.</text>
             </para>
           </section>
         </include>
@@ -4014,22 +4113,31 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Emergency and Non-Emergency Number Telephone Calling Systems Fund Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§34-1802|(b)">
         <num>3102</num>
         <text>Section 603(b)(2) of the Emergency and Non-Emergency Telephone Calling Systems Fund Act of 2000, effective October 19, 2000 (D.C. Law 13-172; D.C. Official Code § 34-1802(b)(2)), is amended as follows:</text>
-        <para>
+        <para codify:path="(2)">
           <num>(a)</num>
           <text>Paragraph (2) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace>
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(b)</num>
           <text>Paragraph (3) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace position="last" count="1">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>A new paragraph (4) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(4)</num>
               <text>Such amounts as may be appropriated or deposited into the Fund.</text>
             </para>
@@ -4039,7 +4147,7 @@
       </section>
     </container>
   </container>
-  <container>
+  <container codify:doc="D.C. Code">
     <prefix>TITLE</prefix>
     <num>IV</num>
     <heading>PUBLIC EDUCATION</heading>
@@ -4052,38 +4160,55 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Funding for Public Schools and Public Charter Schools Increase Amendment Act of 2019".</text>
       </section>
-      <section>
+      <section codify:path="§38-1804.01">
         <num>4002</num>
         <text>Section 2401 of the District of Columbia School Reform Act of 1995, approved April 26, 1996 (110 Stat. 1321-256; D.C. Official Code § 38-1804.01), is amended as follows:</text>
-        <para>
+        <para codify:path="(c)|(3)">
           <num>(a)</num>
           <text>Subsection (c)(3) is amended by striking the phrase "under the Special Education Compliance Fund" and inserting the phrase "for Special Education Compliance Funding" in its place.</text>
+          <codify:find-replace count="1">
+            <find>under the Special Education Compliance Fund</find>
+            <replace>for Special Education Compliance Funding</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(i)">
           <num>(b)</num>
           <text>Subsection (i) is amended by striking the phrase "Compliance Fund" and inserting the phrase "Compliance Funding" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Compliance Fund</find>
+            <replace>Compliance Funding</replace>
+          </codify:find-replace>
         </para>
       </section>
       <section>
         <num>4003</num>
         <text>The Uniform Per Student Funding Formula for Public Schools and Public Charter Schools Act of 1998, effective March 26, 1999 (D.C. Law 12-207; D.C. Official Code § 38-2901 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§38-2901">
           <num>(a)</num>
           <text>Section 102 (D.C. Official Code § 38-2901) is amended as follows:</text>
-          <para>
+          <para codify:path="(11A)">
             <num>(1)</num>
             <text>Paragraph (11A) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(11B)">
             <num>(2)</num>
             <text>Paragraph (11B) is amended by striking the phrase "Compliance Fund" and inserting the phrase "Compliance Funding" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Compliance Fund</find>
+              <replace>Compliance Funding</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§38-2903|(a)">
           <num>(b)</num>
           <text>Section 104(a) (D.C. Official Code § 38-2903(a)) is amended by striking the phrase "$10,658 per student for Fiscal Year 2019" and inserting the phrase "$10,980 per student for Fiscal Year 2020" in its place.</text>
+          <codify:find-replace count="1">
+            <find>$10,658 per student for Fiscal Year 2019</find>
+            <replace>$10,980 per student for Fiscal Year 2020</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§38-2904">
           <num>(c)</num>
           <text>Section 105 (D.C. Official Code § 38-2904) is amended by striking the tabular array and inserting the following tabular array in its place:</text>
           <include>
@@ -4146,12 +4271,53 @@
             </text>
           </include>
           <aftertext>.</aftertext>
+          <codify:find-replace count="1">
+            <find>FY 2018</find>
+            <replace>[FY 2019]</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$14,282</find>
+            <replace>$14,713</replace>
+          </codify:find-replace>
+          <codify:find-replace position="first">
+            <find>$13,855</find>
+            <replace>$14,273</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$13,855</find>
+            <replace>$14,273</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$10,658</find>
+            <replace>$10,980</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$11,511</find>
+            <replace>$11,858</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$13,003</find>
+            <replace>$13,395</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$15,348</find>
+            <replace>$15,810</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$12,470</find>
+            <replace>$12,846</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$9,486</find>
+            <replace>$9,772</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§38-2905|(c)">
           <num>(d)</num>
           <text>Section 106(c) (D.C. Official Code § 38-2905(c)) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(c)</num>
               <text>The supplemental allocations shall be calculated by applying weightings to the foundation level as follows:</text>
               <text>
@@ -4317,20 +4483,21 @@
                   </tr>
                 </table>
               </text>
-              <text>.".</text>
+              <text><span codify:value="">.".</span></text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§38-2907.01">
           <num>(e)</num>
           <text>Section 108a (D.C. Official Code § 38-2907.01), is amended by adding a new subsection (a-1) to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(a)"/>
               <num>(a-1)</num>
               <para>
                 <num>(1)</num>
-                <text>Notwithstanding subsection (a)(2) of this section, in School Year 2019-2020, DCPS shall allocate the $5.353 million enhancement provided to DCPS in the Fiscal Year 2020 Local Budget Act of 2019, passed on 2nd reading on May 28, 2019 (Enrolled version of B23-208), to the 31 schools whose budgets reflected net losses in the Mayor's Fiscal Year 2020 Proposed Budget and Financial Plan.</text>
+                <text>Notwithstanding subsection (a)(2) of this section, in School Year 2019-2020, DCPS shall allocate the $5.353 million enhancement provided to DCPS in the Fiscal Year 2020 Local Budget Act of 2019<span codify:value=" D.C. Law 23-16">, passed on 2nd reading on May 28, 2019 (Enrolled version of B23-208),</span> to the 31 schools whose budgets reflected net losses in the Mayor's Fiscal Year 2020 Proposed Budget and Financial Plan.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -4356,6 +4523,9 @@
       <section>
         <num>4004</num>
         <heading>It is the intent of the Council that in the 2019-2020 school year, the Uniform Per Student Funding Formula funds that would have been allocated to Monument Academy Public Charter School should follow students who were enrolled in Monument Academy Public Charter School for the 2019-2020 school year to the District of Columbia public schools or public charter schools in which they ultimately enroll.</heading>
+        <codify:annotation doc="D.C. Code" path="§38-2902" type="Editor's Notes" history="false">
+          <cite doc="D.C. Law 23-16" path="§4004">Section 4004 of D.C. Law 23-16</cite> provided the following: "It is the intent of the Council that in the 2019-2020 school year, the Uniform Per Student Funding Formula funds that would have been allocated to Monument Academy Public Charter School should follow students who were enrolled in Monument Academy Public Charter School for the 2019-2020 school year to the District of Columbia public schools or public charter schools in which they ultimately enroll."
+        </codify:annotation>
       </section>
     </container>
     <container>
@@ -4370,28 +4540,38 @@
       <section>
         <num>4012</num>
         <text>The Delinquent Debt Recovery Act of 2012, effective September 20, 2012 (D.C. Law 19-168; D.C. Official Code § 1-350.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§1-350.02">
           <num>(a)</num>
           <text>Section 1043 (D.C. Official Code § 1-350.02) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the phrase "subsections (a-1) and (a-2)" and inserting the phrase "subsection (a-1)" in its place.</text>
+            <codify:find-replace count="1">
+              <find>subsections (a-1) and (a-2)</find>
+              <replace>subsection (a-1)</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>A new subsection (a-3) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(a-2)"/>
                 <num>(a-3)</num>
-                <text>Beginning in Fiscal Year 2020 and for each fiscal year thereafter, funds collected and recovered by the Central Collection Unit arising out of non-resident student tuition delinquent debts transferred and referred to the Central Collection Unit by the Office of the State Superintendent of Education for collection, net of costs and fees, shall be deposited into the Student Residency Verification Fund established by section 15b of the District of Columbia Nonresident Tuition Act, effective May 9, 2012 (D.C. Law 19-126; D.C. Official Code § 38-312.02), within 60 days.</text>
+                <text>Beginning in Fiscal Year 2020 and for each fiscal year thereafter, funds collected and recovered by the Central Collection Unit arising out of non-resident student tuition delinquent debts transferred and referred to the Central Collection Unit by the Office of the State Superintendent of Education for collection, net of costs and fees, shall be deposited into the Student Residency Verification Fund established by <code-cite doc="D.C. Code" path="§38-312.02">section 15b of the District of Columbia Nonresident Tuition Act, effective May 9, 2012 (D.C. Law 19-126; D.C. Official Code § 38-312.02),</code-cite> within 60 days.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§1-350.04|(b)|(2)">
           <num>(b)</num>
           <text>Section 1045(b)(2) (D.C. Official Code § 1-350.04(b)(2)) is amended by striking the phrase "section 1043(a-1) and (a-2)" and inserting the phrase "section 1043(a-1), (a-2), and (a-3)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>in <code-cite doc="D.C. Code" path="§1-350.02|(a-1)">section 1043(a-1)</code-cite> and <cite doc="D.C. Code" path="§1-350.02|(a-2)">(a-2)</cite></find>
+            <replace>in <code-cite doc="D.C. Code" path="§1-350.02|(a-1)">section 1043(a-1)</code-cite>, <cite doc="D.C. Code" path="§1-350.02|(a-2)">(a-2)</cite> and <cite doc="D.C. Code" path="§1-350.02|(a-3)">(a-3)</cite></replace>
+          </codify:find-replace>
+          
         </para>
       </section>
     </container>
