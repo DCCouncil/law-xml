@@ -51,15 +51,18 @@
       <para>
         <num>(1)</num>
         <text>Paragraph (15A) is designated as paragraph (15B).</text>
-        <!-- change when applicable -->
+        <codify:replace path="(15A)|num">
+          <num>(15B)</num>
+        </codify:replace>
+        <codify:placeholder after="(15A)" tag-value="para" num-value="(15B)"/>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (15A) is added to read as follows:</text>
-        <!-- change when applicable -->
+        <!-- change when applicable Now funded -->
         <include lvl="1">
           <para>
-            <codify:insert after="(15A)" num-value="(15B)"/>
+            <codify:insert after="(15)" placeholder-value=""/>
             <num>(15A)</num>
             <text>"Practice of professional art therapy" means the integrative application of psychotherapeutic principles and methods with specialized training in art media, the neurobiological implications of art-making, and art-based assessment models to assist an individual or group to improve cognitive and sensory-motor functions, increase self-awareness and self-esteem, cope with grief and traumatic experience, resolve conflicts and distress, and enhance social functioning. The practice of professional art therapy includes:</text>
             <para>
@@ -120,8 +123,7 @@
     </para>
     <para codify:path="§3-1205.01|(a)|(1)">
       <num>(e)</num>
-      <text>Section 501(a)(1) (D.C. Official Code § 3-1205.01(a)(1)) is amended by</text>
-      <text>striking the phrase "or trauma technologist in the District," and inserting the phrase "professional art therapy, or as a trauma technologist in the District," in its place.</text>
+      <text>Section 501(a)(1) (D.C. Official Code § 3-1205.01(a)(1)) is amended by striking the phrase "or trauma technologist in the District," and inserting the phrase "professional art therapy, or as a trauma technologist in the District," in its place.</text>
       <codify:find-replace count="1">
         <find>or trauma technologist in the District,</find>
         <replace>professional art therapy, or as a trauma technologist in the District,</replace>
