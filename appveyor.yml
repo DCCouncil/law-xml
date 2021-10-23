@@ -1,0 +1,78 @@
+environment:
+  matrix:
+    # For Python versions available on Appveyor, see
+    # http://www.appveyor.com/docs/installed-software#python
+    - PYTHON: "C:\\Python36-x64"
+
+# Do not build feature branch with open Pull Requests
+skip_branch_with_pr: true
+
+on_finish:
+  - ps: >-
+      if (Test-Path $env:APPVEYOR_BUILD_FOLDER\test_roundtrip.log){
+          Push-AppveyorArtifact test_roundtrip.log
+      };
+      If ($env:DEBUG -eq $True) {
+          $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+      };
+init:
+  # exit if secure variables are unset (saves time if fired by a non-team pull request)
+  - ps: if ($env:GH_SSH_PRIVATE_KEY -eq $null) { exit }
+
+  - git config --global user.name oll-bot
+  - git config --global user.email developers@openlawlib.org
+
+install:
+  # upgrade pip
+  - "%PYTHON%\\python.exe -m pip install --upgrade pip"
+
+  # the only way we can use the deploy key is by putting it in an environment variable (see above)
+  # and then using PowerShell (ps) to copy the environment variable into a file (see below)
+  # begin/end key lines should be in the environment variable
+  - ps: $key = "-----BEGIN RSA PRIVATE KEY-----`n"
+  - ps: $key += $env:GH_SSH_PRIVATE_KEY.Replace(" ", "`n")
+  - ps: $key += "`n-----END RSA PRIVATE KEY-----`n"
+  - ps: Set-Content c:\users\appveyor\.ssh\id_rsa $key
+  - set OLL_PARTNERS_US_DC_XML_CODIFIED_PATH=..\DCCouncil\law-xml-codified-preview
+
+
+before_build:
+
+  - ps: Copy-Item $env:APPVEYOR_BUILD_FOLDER '..\DCCouncil\law-xml' -Recurse
+  - git clone --depth 1 git@github.com:DCCouncil/law-xml-codified-preview.git ..\DCCouncil\law-xml-codified-preview
+  - git clone --depth 1 git@github.com:DCCouncil/law-html-preview.git ..\DCCouncil\law-html-preview
+  - git clone  git@github.com:DCCouncil/law.git ..\law
+  
+  # install versioned resources (if and only if the build is a tag or cron build)
+  - "%PYTHON%\\python.exe -m pip -q install -r requirements.txt"
+  - "%PYTHON%\\python.exe -m pip -q install pytest"  
+  # print out the git commits for xml repo
+  - git -C ..\DCCouncil\law-xml rev-parse HEAD
+
+
+build_script:
+   - ps: $env:FLAG = if ($env:APPVEYOR_PULL_REQUEST_NUMBER -eq $null) { "--deploy" }
+   - "%PYTHON%\\python.exe  -m oll.tools.cli ci build_preview --library-root .. --auth ../law %FLAG%"
+
+test_script:
+  # run roundtrip tests
+  # uncomment when tests are implemented
+  #- ps: >-
+  #    if ($env:APPVEYOR_REPO_BRANCH -eq 'master' -Or $env:APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH -eq 'master'){
+  #      cd $env:APPVEYOR_BUILD_FOLDER;
+  #      $run_roundtrip = $env:PYTHON + '\python.exe -m pytest --pyargs oll.partners.us.dc.tests.docs.code.roundtrip -m "full_roundtrip"';
+  #      iex $run_roundtrip;
+  #    } else {
+  #      echo "Skipping rountrip tests - not master branch build";
+  #    }
+
+notifications:
+  - provider: Slack
+    incoming_webhook:
+      # post to the fire channel
+      secure: KUaR+KAqX1jU0LF7kRDKHHGEAoItFzIHSjcreyRvnrT1vcX5+4iV77Ivysxl8jhh8ocUE0JCcmcKI0xPTb+M+EMfb8xk9L7+XCTdNubjU5w=
+    on_build_success: false
+
+artifacts:
+  - path: test_roundtrip.log
+    name: roundtrip log
