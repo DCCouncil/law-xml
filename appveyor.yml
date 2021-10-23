@@ -52,7 +52,7 @@ before_build:
 
 build_script:
    - ps: $env:FLAG = if ($env:APPVEYOR_PULL_REQUEST_NUMBER -eq $null) { "--deploy" }
-   - "%PYTHON%\\python.exe  -m oll.tools.cli ci build_preview --library-root .. --auth ../law %FLAG%"
+   - "%PYTHON%\\python.exe  -m oll.tools.cli ci build-preview --library-root .. --auth ../law %FLAG%"
 
 test_script:
   # run roundtrip tests
