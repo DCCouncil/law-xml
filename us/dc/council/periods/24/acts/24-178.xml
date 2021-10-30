@@ -90,14 +90,24 @@
         <para>
           <num>(A)</num>
           <text>Existing paragraphs (1-A) and (1-B) are redesignated, respectively, paragraphs (1A) and (1B).</text>
-          <codify:find-replace position="first">
+          <!-- <codify:find-replace position="first">
             <find>[(1A)]</find>
             <replace>(1A)</replace>
           </codify:find-replace>
           <codify:find-replace count="1">
             <find>[(1B)]</find>
             <replace>(1B)</replace>
-          </codify:find-replace>
+          </codify:find-replace> -->
+          <para>
+            <codify:insert after="(1)"/>
+            <num>(1A)</num>
+            <text>Expired.</text>
+          </para>
+          <para>
+            <codify:insert after="(1A)"/>
+            <num>(1B)</num>
+            <text>Expired.</text>
+          </para>
         </para>
         <para>
           <num>(B)</num>
@@ -132,11 +142,11 @@
     </include>
     <aftertext>.</aftertext>
     <codify:emergency doc="D.C. Code" path="§7-2306"/>
-        <codify:insert doc="D.C. Code" path="§7-2306" before="heading" history="false" display-template="">
-          <text>
+    <codify:insert doc="D.C. Code" path="§7-2306" before="heading" history="false" display-template="">
+      <text>
       *NOTE: This section includes amendments by emergency legislation that will expire on January 5, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§7-2306(Perm)">Permanent Version</cite>.*
       </text>
-        </codify:insert>
+    </codify:insert>
   </section>
   <section>
     <num>4</num>
