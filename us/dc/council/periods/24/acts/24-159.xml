@@ -18671,10 +18671,14 @@
         <text>The lead-in language of section 203a(a) of the Washington Convention Center Authority Act of 1994, effective December 3, 2020 (D.C. Law 23-149; D.C. Official Code § 10-1202.03a(a)), is amended to read as follows:</text>
         <include>
           <para>
-            <codify:replace path="§10-1202.03a|(a)"/>
             <num>(a)</num>
             <text>The Washington Convention and Sports Authority shall issue, subject to the availability of funds, grants or contracts to nonprofit entities to use to provide cash assistance to District residents who are otherwise excluded from District and federal aid related to COVID-19. To qualify for cash assistance from grants or contracts awarded pursuant to this section, a District resident shall:</text>
+            <codify:find-replace path="§10-1202.03a|(a)|text" count="1">
+              <find>During the public health emergency declared in the Mayor's order dated March 11, 2020 and any extensions thereof, the Washington Convention and Sports Authority ("Events DC") shall issue, subject to the availability of funds, grants or contracts to nonprofit entities to use to provide cash assistance to District residents who are otherwise excluded from District and federal aid related to COVID-19. To qualify for cash assistance from grants or contracts awarded pursuant to this section, a District resident shall, at the time of application for assistance under this section:</find>
+              <replace>The Washington Convention and Sports Authority shall issue, subject to the availability of funds, grants or contracts to nonprofit entities to use to provide cash assistance to District residents who are otherwise excluded from District and federal aid related to COVID-19. To qualify for cash assistance from grants or contracts awarded pursuant to this section, a District resident shall:</replace>
+            </codify:find-replace>
           </para>
+         
         </include>
         <aftertext>.</aftertext>
         <codify:emergency doc="D.C. Code" path="§10-1202.03a"/>
@@ -18724,13 +18728,31 @@
         <num>7166</num>
         <text>Sections 2(a), (b)(2), (c)(1), (c)(2)(A), (c)(3), (c)(4)(B), (f), (g), (h), and (i) of the Traffic and Parking Ticket Penalty Amendment Act of 2018, effective October 30, 2018 (D.C. Law 22-175; 65 DCR 9546), and amendatory section 207 of the District of Columbia Traffic Adjudication Act of 1978, effective October 30, 2018 (D.C. Law 22-175; D.C. Official Code § 50-2302.07), in section 2(e) of the Traffic and Parking Ticket Penalty Amendment Act of 2018, effective October 30, 2018 (D.C. Law 22-175; 65 DCR 9546), are repealed.</text>
         <codify:repeal doc="D.C. Law 22-175" path="§2|(a)"/>
-        <codify:repeal doc="D.C. Law 22-175" path="§2|(b)|(2)"/>
+        
+        <!--  -->
+        <codify:repeal doc="D.C. Code" path="§50-2302.04|(c-1)"/>
+        <!--  -->
         <codify:repeal doc="D.C. Law 22-175" path="§2|(c)|(1)"/>
+        <!--  -->
+        <codify:find-replace doc="D.C. Code" path="§50-2302.05|(d)" count="1">
+          <find>person</find>
+          <replace>person</replace>
+        </codify:find-replace>
+        <!--  -->
         <codify:repeal doc="D.C. Law 22-175" path="§2|(c)|(2)|(A)"/>
-        <codify:repeal doc="D.C. Law 22-175" path="§2|(c)|(3)"/>
+
+        <!-- <codify:repeal doc="D.C. Law 22-175" path="§2|(c)|(3)"/> -->
+        <!--  -->
+        <codify:repeal doc="D.C. Code" path="§50-2302.05|(e-1)"/>
+        <!--  -->
         <codify:repeal doc="D.C. Law 22-175" path="§2|(c)|(4)|(B)"/>
         <codify:repeal doc="D.C. Law 22-175" path="§2|(f)"/>
-        <codify:repeal doc="D.C. Law 22-175" path="§2|(g)"/>
+        <codify:repeal doc="D.C. Law 22-175" path="§2|(g)|(1)"/>
+        <codify:repeal doc="D.C. Law 22-175" path="§2|(g)|(2)"/>
+        <!--  -->
+        <codify:repeal doc="D.C. Code" path="§50-2303.05|(d)|(3)"/>
+        <!-- <codify:repeal/> -->
+        <!--  -->
         <codify:repeal doc="D.C. Code" path="§50-2303.09"/>
         <codify:repeal doc="D.C. Law 22-175" path="§2|(i)"/>
         <codify:repeal path="§50-2302.07"/>
@@ -18738,7 +18760,7 @@
       <section>
         <num>7167</num>
         <text>Section 101 of the Save Good Food Amendment Act of 2018, effective February 22, 2019 (D.C. Law 22-212; 65 DCR 12927), is repealed.</text>
-        <codify:repeal doc="D.C. Law 22-212"/>
+        <codify:repeal doc="D.C. Law 22-212" path="§101"/>
       </section>
       <section>
         <num>7168</num>
@@ -18767,6 +18789,11 @@
         <codify:repeal doc="D.C. Law 22-282" path="§2|(b)"/>
         <codify:repeal path="§2-1934.01"/>
         <codify:repeal doc="D.C. Law 22-282" path="§2|(d)"/>
+        <codify:repeal doc="D.C. Code" path="§2-1935.01"/>
+        <codify:repeal doc="D.C. Code" path="§2-1935.02"/>
+        <codify:repeal doc="D.C. Code" path="§2-1935.03"/>
+        <codify:repeal doc="D.C. Code" path="§2-1831.03|(b-25)"/>
+        <codify:repeal doc="D.C. Code" path="§38-1802.14|(h-1)"/>
       </section>
       <section>
         <num>7172</num>
@@ -18779,13 +18806,19 @@
       <section>
         <num>7173</num>
         <text>The Safe Disposal of Controlled Substances Act of 2018, effective April 11, 2019 (D.C. Law 22-285; 66 DCR 1621), is repealed.</text>
+        <codify:repeal doc="D.C. Law 22-285" path="§8"/>
         <codify:repeal path="48|8F|II"/>
+        
       </section>
       <section>
         <num>7174</num>
         <text>The D.C. Healthcare Alliance Reform Amendment Act of 2019, effective September 11, 2019 (D.C. Law 23-16; 66 DCR 8621), is repealed.</text>
         <codify:annotation doc="D.C. Code" path="§7-1407" type="Applicability" history="false"><cite doc="D.C. Act 24-159" path="§7174">D.C. Act 24-15, § 7174</cite> repealed, for 90 days, the amendment to this section made by <cite doc="D.C. Law 23-16" path="§5102">D.C. Law 23-16</cite>, thus temporarily restoring the language created by <cite doc="D.C. Law 22-35" path="§2">D.C. Law 22-35</cite>.
       </codify:annotation>
+      <codify:find-replace path="§7-1407|(a)" count="1">
+        <find>The Mayor</find>
+        <replace>The Mayor</replace>
+      </codify:find-replace>
       </section>
     </container>
     <container>
