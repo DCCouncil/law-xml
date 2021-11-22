@@ -28,17 +28,20 @@
     <para codify:path="§8-1771.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 8-1771.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (1A).</text>
-        <!-- Do when becomes applicable -->
+        <codify:find-replace count="1">
+          <find>(1)</find>
+          <replace>(1A)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (1) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(1)" num-value="(1A)"/>
+            <codify:insert before="(1A)"/>
             <num>(1)</num>
             <text>"Air purifier" means an electric, cord-connected, portable appliance with the primary function of removing particulate matter from the air and which can be moved from room to room.</text>
           </para>
@@ -511,6 +514,7 @@
               <text>Spray sprinkler bodies that are not specifically excluded from the scope of the WaterSense Specification for Spray Sprinkler Bodies, Version 1.0, shall include an integral pressure regulator and shall meet the water efficiency and performance criteria and other requirements of that specification.</text>
             </para>
             <para>
+              <!-- <codify:insert after="(3D)"/> redsignated as (3D) in EBSA and BSA-->
               <num>(3E)</num>
               <text>State-regulated general service lamps shall meet or exceed a lamp efficacy of 45 lumens per watt, when tested in accordance with the federal test procedures for general service lamps, prescribed in Section 430.23(gg) of Title 10 of the Code of Federal Regulations as in effect on January 1, 2020.</text>
             </para>
@@ -596,7 +600,7 @@
             </para>
             <para>
               <num>(4)</num>
-              <text>This subsection shall expire one year after <span codify:value="insert applicability date + 1 year">the date described in section 3(a) of the Energy Efficiency Standards Amendment Act of 2020, passed on 2nd reading on December 1, 2020 (Enrolled version of Bill 23-204)</span>.</text>
+              <text>This subsection shall expire one year after <span codify:value="October 1, 2021">the date described in section 3(a) of the Energy Efficiency Standards Amendment Act of 2020, passed on 2nd reading on December 1, 2020 (Enrolled version of Bill 23-204)</span>.</text>
             </para>
           </para>
         </include>
@@ -610,7 +614,7 @@
       <para>
         <num>(1)</num>
         <text>The existing text is designated as subsection (a)</text>
-        <!-- Do when applicable -->
+       <codify:redesignate-para num-value="(a)"/>
       </para>
       <para>
         <num>(2)</num>
@@ -663,6 +667,8 @@
     <para>
       <num>(a)</num>
       <text>Section 2(c)(1) and (2) shall apply as of one year after the date described in subsection (b) of this section.</text>
+      <codify:applicability doc="D.C. Law 23-195" path="§2|(c)|(1)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 23-195" path="§2|(c)|(2)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
@@ -671,7 +677,7 @@
         <text>Section 2(a), (b), (c)(3), (d)(1) and (3), (e) shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
         <codify:applicability doc="D.C. Law 23-195" path="§2|(a)" date="notfunded" history="false" display-template=""/>
         <codify:applicability doc="D.C. Law 23-195" path="§2|(b)" date="notfunded" history="false" display-template=""/>
-        <codify:applicability doc="D.C. Law 23-195" path="§2|(c)" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 23-195" path="§2|(c)|(3)" date="notfunded" history="false" display-template=""/>
         <codify:applicability doc="D.C. Law 23-195" path="§2|(d)|(1)" date="notfunded" history="false" display-template=""/>
         <codify:applicability doc="D.C. Law 23-195" path="§2|(d)|(3)" date="notfunded" history="false" display-template=""/>
         <codify:applicability doc="D.C. Law 23-195" path="§2|(e)" date="notfunded" history="false" display-template=""/>
