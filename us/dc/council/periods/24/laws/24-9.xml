@@ -254,7 +254,7 @@
         <text>A new section 3a is added to read as follows:</text>
         <include>
           <section>
-            <codify:insert path="32|5|I" after="§32-502" num-value="32-502.01" history-prefix="as added"/>
+            <!-- <codify:insert path="32|5|I" after="§32-502" num-value="32-502.01" history-prefix="as added"/> -->
             <num>3a</num>
             <heading>COVID-19 leave.</heading>
             <para>
@@ -343,12 +343,13 @@
           </section>
         </include>
         <aftertext>.</aftertext>
-        <codify:temporary doc="D.C. Code" path="§32-502.01" action="creation of this section"/>
-        <codify:insert doc="D.C. Code" path="§32-502.01" before="heading" history="false" display-template="">
+         <codify:temporary-new-sec doc="D.C. Code" path="§32-502.01" interim-path="§32-502" perm-eff="2021-11-18"/>
+        <!-- <codify:temporary doc="D.C. Code" path="§32-502.01" action="creation of this section"/> -->
+        <!-- <codify:insert doc="D.C. Code" path="§32-502.01" before="heading" history="false" display-template="">
           <text>
       *NOTE: This section was created by temporary legislation that will expire on February 4, 2022.*
       </text>
-        </codify:insert>
+        </codify:insert> -->
       </para>
     </section>
     <section codify:doc="D.C. Code">
@@ -360,16 +361,16 @@
         <para codify:path="§32-531.02|(c)|(1)">
           <num>(1)</num>
           <text>Section 3(c)(1) (D.C. Official Code § 32-531.02(c)(1)) is amended by striking the phrase "Paid leave under" and inserting the phrase "Except as provided in section 3a, paid leave under" in its place.</text>
-          <codify:find-replace count="1">
+          <!-- <codify:find-replace count="1">
             <find>Paid leave unde</find>
             <replace>Except as provided in <code-cite doc="D.C. Code" path="§32-531.02a">section 3a</code-cite>, paid leave under</replace>
-          </codify:find-replace>
+          </codify:find-replace> -->
           <codify:temporary doc="D.C. Code" path="§32-531.02"/>
-          <codify:insert doc="D.C. Code" path="§32-531.02" before="heading" history="false" display-template="">
+          <!-- <codify:insert doc="D.C. Code" path="§32-531.02" before="heading" history="false" display-template="">
             <text>
             *NOTE: This section includes amendments by temporary legislation that will expire on February 4, 2022. To view the text of this section after the expiration of all emergency and/or temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.02(Perm)">Permanent Version</cite>.*
             </text>
-          </codify:insert>
+          </codify:insert> -->
         </para>
         <para>
           <num>(2)</num>
@@ -461,14 +462,14 @@
           <para>
             <num>(A)</num>
             <text>The existing text is designated as subsection (a).</text>
-            <codify:redesignate-para num-value="(a)"/>
+            <!-- <codify:redesignate-para num-value="(a)"/> -->
           </para>
           <para>
             <num>(B)</num>
             <text>A new subsection (b) is added to read as follows:</text>
             <include>
               <para>
-                <codify:insert/>
+                <!-- <codify:insert/> -->
                 <num>(b)</num>
                 <text>An employer may not require an employee who seeks to use paid leave pursuant to <code-cite doc="D.C. Code" path="§32-531.02a">section 3a</code-cite> to:</text>
                 <para>
@@ -488,11 +489,11 @@
             <aftertext>.</aftertext>
           </para>
           <codify:temporary doc="D.C. Code" path="§32-531.03"/>
-          <codify:insert doc="D.C. Code" path="§32-531.03" before="heading" history="false" display-template="">
+          <!-- <codify:insert doc="D.C. Code" path="§32-531.03" before="heading" history="false" display-template="">
             <text>
               *NOTE: This section includes amendments by temporary legislation that will expire on February 4, 2022. To view the text of this section after the expiration of all emergency and/or temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.03(Perm)">Permanent Version</cite>.*
             </text>
-          </codify:insert>
+          </codify:insert> -->
         </para>
         <para>
           <num>(4)</num>
