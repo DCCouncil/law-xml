@@ -265,18 +265,18 @@
         <para>
           <num>(a)</num>
           <text>Section 101(10D) (D.C. Official Code § 1-1161.01(10D)) is amended by striking the phrase "member of the Council, and member of the State Board of Education" and inserting the phrase "member of the Council elected at large, member of the Council elected by ward, member of the State Board of Education elected at large, and member of the State Board of Education elected by ward" in its place.</text>
-          <!-- <codify:find-replace path="§1-1161.01|(10D)" count="1">
+          <codify:find-replace path="§1-1161.01|(10D)" count="1">
             <find>member of the Council, and member of the State Board of Education</find>
             <replace>member of the Council elected at large, member of the Council elected by ward, member of the State Board of Education elected at large, and member of the State Board of Education elected by ward</replace>
-          </codify:find-replace> -->
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>Section 332c(c)(4) (D.C. Official Code § 1-1163.32c(c)(4)) is amended by striking the phrase "his or her candidacy" and inserting the phrase "the participating candidate's candidacy" in its place.</text>
-          <!-- <codify:find-replace path="§1-1163.32c|(c)|(4)" count="1">
+          <codify:find-replace path="§1-1163.32c|(c)|(4)" count="1">
             <find>his or her candidacy</find>
             <replace>the participating candidate's candidacy</replace>
-          </codify:find-replace> -->
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
@@ -321,10 +321,10 @@
         <para>
           <num>(d)</num>
           <text>Section 332f(d)(3) (D.C. Official Code § 1-1163.32f(d)(3)) is amended by striking the phrase "campaign purposes" and inserting the phrase "campaign purposes, including the participating candidate's childcare expenses" in its place.</text>
-          <!-- <codify:find-replace path="§1-1163.32f|(d)|(3)" count="1">
+          <codify:find-replace path="§1-1163.32f|(d)|(3)" count="1">
             <find>campaign purposes</find>
             <replace>campaign purposes, including the participating candidate's childcare expenses</replace>
-          </codify:find-replace> -->
+          </codify:find-replace>
         </para>
         <para codify:path="§1-1163.33">
           <num>(e)</num>
@@ -332,17 +332,17 @@
           <para codify:path="(l)">
             <num>(1)</num>
             <text>Subsection (l) is amended by striking the phrase "and (j)(2)" and inserting the phrase "(j)(2), and (m)" in its place.</text>
-            <!-- <codify:find-replace count="1">
+            <codify:find-replace count="1">
               <find>and (j)(2)</find>
               <replace>(j)(2), and (m)</replace>
-            </codify:find-replace> -->
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>A new subsection (m) is added to read as follows:</text>
             <include>
               <para>
-                <!-- <codify:insert/> -->
+                <codify:insert/>
                 <num>(m)</num>
                 <text>A candidate may make expenditures to reimburse the candidate for the candidate's childcare expenses incurred for campaign purposes.</text>
               </para>
@@ -2639,6 +2639,7 @@
         <para codify:path="(27)">
           <num>(a)</num>
           <text>Paragraph (27) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <!-- OK checked -->
           <!-- <codify:find-replace count="1">
             <find>; and</find>
             <replace>;</replace>
@@ -3969,7 +3970,7 @@
         <text>Section 2032 of the Deputy Mayor for Planning and Economic Development Limited Grant-Making Authority Act of 2012, effective September 12, 2012 (D.C. Law 19-168; D.C. Official Code § 1-328.04), is amended by adding new subsections (j) through (v) to read as follows:</text>
         <include>
           <para>
-            <codify:insert after="(i)" num-value="[(j-1)]"/>
+            <codify:insert after="(i)"/>
             <!-- after (i) because of TL24-31 -->
             <num>(j)</num>
             <para>
@@ -4582,8 +4583,7 @@
         <text>Section 206 of the Business Improvement Districts Act of 1996, effective March 8, 2006 (D.C. Law 16-56; D.C. Official Code § 2-1215.56), is amended by adding a new subsection (a-1) to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(a)" num-value="[a-1]"/>
-            <!-- check -->
+            <codify:insert after="(a)"/>
             <num>(a-1)</num>
             <para>
               <num>(1)</num>
@@ -7858,7 +7858,7 @@
           <text>Section 107 (D.C. Official Code § 32-541.07) is amended by adding a new subsection (j) to read as follows:</text>
           <include>
             <para>
-              <!-- <codify:insert/> already done in TLaw 24-18 -->
+              <codify:insert/>
               <num>(j)</num>
               <para>
                 <num>(1)</num>
@@ -7874,13 +7874,11 @@
         </para>
         <para codify:path="§32-541.08|(e)">
           <!-- The linkage to the citations in this subsection is not working-->
-          <!-- This amendment has already been done by TL24-18 and is good until 3/11/2022 -->
           <num>(h)</num>
           <text>Section 108(e) (D.C. Official Code § 32-541.08(e)) is amended by striking the period and inserting the phrase "; except, that complaints arising from a violation of section 107(j) shall be filed with the Department of Insurance, Securities, and Banking for resolution pursuant to Title I of the Insurance Trade and Economic Development Amendment Act of 2000, effective April 3, 2001 (D.C. Law 13-265; D.C. Official Code § 31-2231.01 <em>et seq.</em>)." in its place.</text>
-          <codify:find-replace count="1">
-            <find>For complaints</find>
-            <replace>Forcomplaints</replace>
-            <!-- Placeholder for historical cite line -->
+          <codify:find-replace position="last">
+            <find>.</find>
+            <replace>; except, that complaints arising from a violation of <code-cite doc="D.C. Code" path="§32-541.07">section 107(j)</code-cite><span codify:value="(j)"/> shall be filed with the Department of Insurance, Securities, and Banking for resolution pursuant to <code-cite doc="D.C. Code" path="31|22A">Title I of the Insurance Trade and Economic Development Amendment Act of 2000, effective April 3, 2001 (D.C. Law 13-265; D.C. Official Code § 31-2231.01 <em>et seq.</em>)</code-cite>.</replace>
           </codify:find-replace>
         </para>
         <para codify:path="§32-541.12|(a)">
@@ -8002,7 +8000,6 @@
         <para codify:path="§32-501|(1)">
           <num>(a)</num>
           <text>Section 2(1) (D.C. Official Code § 32-501(1)) is amended to read as follows:</text>
-          <!-- This references a section created only by emergency and temporary legislation -->
           <include lvl="1">
             <para>
               <codify:replace/>
@@ -8060,6 +8057,7 @@
         <text>Title I of the Insurance Trade and Economic Development Amendment Act of 2000, effective April 2, 2001 (D.C. Law 13-265; D.C. Official Code § 31-2231.01 <em>et seq.</em>), is amended by adding a new section 120a to read as follows:</text>
         <include>
           <section>
+            <codify:insert doc="D.C. Code" path="31|22A" after="§31-2231.20" num-value="31-2231.20a" history-prefix="as added"/>
             <num>120a</num>
             <heading>Prohibition on offsetting short-term disability benefits.</heading>
             <para>
@@ -8074,23 +8072,12 @@
               <num>(c)</num>
               <text>For the purposes of this section, the term "self-insured employer" shall have the same meaning as provided in section 101(19A) of the Universal Paid Leave Amendment Act of 2016 effective April 7, 2017 (D.C. Law 21-264; D.C. Official Code § 32-541.01 <em>et seq</em>.).</text>
             </para>
-            <!-- Already added by temporary act 24-18 -->
-            <codify:find-replace path="§31-2231.20a|(a)" count="1">
-              <find>No insurer</find>
-              <replace>No insurer</replace>
-            </codify:find-replace>
           </section>
         </include>
         <aftertext>.</aftertext>
+        <annotation doc="D.C. Law 13-265" type="History" path="§120a">Apr. 3, 2001, D.C. Law 13-265, § 120a</annotation>
       </section>
     </container>
-    <!-- <codify:insert doc="D.C. Code" path="38" after="29A-i" history="false">
-      <container>
-        <prefix>Chapter</prefix>
-        <num>29A-ii</num>
-        <heading>Student Activity Funds for theatrical and music performances.</heading>
-      </container>
-    </codify:insert> -->
     <container>
       <prefix>SUBTITLE</prefix>
       <num>H</num>
@@ -8099,8 +8086,16 @@
         <num>4071</num>
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Student Activity Fund Theatrical and Music Performance Expenditures Act of 2021".</text>
+        <codify:insert doc="D.C. Code" path="38" after="29A-i" history="false">
+          <container>
+            <prefix>Chapter</prefix>
+            <num>29A-ii</num>
+            <heading>Student Activity Funds for theatrical and music performances.</heading>
+          </container>
+        </codify:insert>
       </section>
       <section>
+        <codify:insert doc="D.C. Code" path="38|29A-ii" num-value="38-2961"/>
         <num>4072</num>
         <heading>Use of Student Activity Funds for theatrical and music performances.</heading>
         <para>
@@ -8111,11 +8106,6 @@
           <num>(b)</num>
           <text>For the purposes of <span codify:value="this section">this act</span>, the term "theatrical and music performances" means the planning, rehearsal, or presentation of a musical, staged play, choral production, orchestral or band concert, variety show, improvised or sketch comedy performance, or other live performance.</text>
         </para>
-        <!-- Already law in EAct 24-131 -->
-        <!-- <codify:find-replace path="§38-2961|(a)" count="1">
-          <find>Expenditures</find>
-          <replace>Expenditures</replace>
-        </codify:find-replace> -->
       </section>
     </container>
     <container>
@@ -9579,13 +9569,6 @@
         </para>
       </section>
     </container>
-    <codify:insert doc="D.C. Code" path="32" after="1D-i" history="false">
-      <container>
-        <prefix>Chapter</prefix>
-        <num>1D-ii</num>
-        <heading>Workplace Rights Grant Program.</heading>
-      </container>
-    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>N</num>
@@ -9988,23 +9971,19 @@
           <aftertext>.</aftertext>
         </para>
         <para codify:path="§51-110|(a)">
-          <!-- Already exists in temporary law TL24-6 -->
           <num>(b)</num>
           <text>Section 10(a) (D.C. Official Code § 51-110(a)) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Designate the existing text as paragraph (1).</text>
-            <!-- To establish citeline -->
-            <codify:find-replace count="1">
-              <find>For weeks</find>
-              <replace>For weeks</replace>
-            </codify:find-replace>
+            <codify:redesignate-para num-value="(1)"/>
           </para>
           <para>
             <num>(2)</num>
             <text>A new paragraph (2) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(2)</num>
                 <text>For the purposes of paragraph (1) of this subsection, the term "good cause" includes working in unsafe locations or under unsafe conditions where such unsafe working condition or location would cause a reasonable and prudent person in the labor market to leave the work, as determined by the Director based on the facts in each case.</text>
               </para>
@@ -11096,7 +11075,6 @@
         </para>
       </section>
     </container>
-    
     <container>
       <prefix>SUBTITLE</prefix>
       <num>X</num>
@@ -11106,12 +11084,12 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Duke Ellington School of the Arts New Funding and Organization Model Act of 2021".</text>
         <codify:insert doc="D.C. Code" path="38" after="29C" history="false">
-      <container>
-        <prefix>Chapter</prefix>
-        <num>29D</num>
-        <heading>Duke Ellington School of the Arts New Funding and Organization Model.</heading>
-      </container>
-    </codify:insert>
+          <container>
+            <prefix>Chapter</prefix>
+            <num>29D</num>
+            <heading>Duke Ellington School of the Arts New Funding and Organization Model.</heading>
+          </container>
+        </codify:insert>
       </section>
       <section>
         <codify:insert path="38|29D" num-value="38-2991"/>
