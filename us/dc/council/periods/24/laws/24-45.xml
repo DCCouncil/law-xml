@@ -7873,12 +7873,11 @@
           <aftertext>.</aftertext>
         </para>
         <para codify:path="§32-541.08|(e)">
-          <!-- The linkage to the citations in this subsection is not working-->
           <num>(h)</num>
           <text>Section 108(e) (D.C. Official Code § 32-541.08(e)) is amended by striking the period and inserting the phrase "; except, that complaints arising from a violation of section 107(j) shall be filed with the Department of Insurance, Securities, and Banking for resolution pursuant to Title I of the Insurance Trade and Economic Development Amendment Act of 2000, effective April 3, 2001 (D.C. Law 13-265; D.C. Official Code § 31-2231.01 <em>et seq.</em>)." in its place.</text>
           <codify:find-replace position="last">
             <find>.</find>
-            <replace>; except, that complaints arising from a violation of <code-cite doc="D.C. Code" path="§32-541.07">section 107(j)</code-cite><span codify:value="(j)"/> shall be filed with the Department of Insurance, Securities, and Banking for resolution pursuant to <code-cite doc="D.C. Code" path="31|22A">Title I of the Insurance Trade and Economic Development Amendment Act of 2000, effective April 3, 2001 (D.C. Law 13-265; D.C. Official Code § 31-2231.01 <em>et seq.</em>)</code-cite>.</replace>
+            <replace>; except, that complaints arising from a violation of <code-cite doc="D.C. Code" path="§32-541.07|(j)">section 107(j)</code-cite> shall be filed with the Department of Insurance, Securities, and Banking for resolution pursuant to <code-cite doc="D.C. Code" path="31|22A">Title I of the Insurance Trade and Economic Development Amendment Act of 2000, effective April 3, 2001 (D.C. Law 13-265; D.C. Official Code § 31-2231.01 <em>et seq.</em>)</code-cite>.</replace>
           </codify:find-replace>
         </para>
         <para codify:path="§32-541.12|(a)">
@@ -8039,7 +8038,7 @@
         <text>The Workplace Leave Navigators Program Establishment Amendment Act of 2020, effective December 3, 2020 (D.C. Law 23-149; D.C. Official Code § 32-561.01 <em>et seq</em>.), is repealed.</text>
         <codify:repeal path="§32-561.01"/>
         <codify:repeal path="§32-561.02"/>
-        <codify:find-replace doc="D.C. Code" path="32|5|VI|heading" count="1">
+        <codify:find-replace doc="D.C. Code" path="32|5|VI|heading" count="1" display-template="">
           <find>Workplace Leave Navigators.</find>
           <replace>Workplace Leave Navigators. [Repealed].</replace>
         </codify:find-replace>
@@ -9589,21 +9588,21 @@
               <num>2091</num>
               <heading>Short title.</heading>
               <text>This subtitle may be cited as the "Workplace Rights Grant Program Act of 2021".</text>
-              <codify:insert doc="D.C. Code" path="32" after="1D-i" history="false" display-template="">
+              <!-- <codify:insert doc="D.C. Code" path="32" after="1D-i" history="false">
                 <container>
                   <prefix>Chapter</prefix>
                   <num>1D-ii</num>
                   <heading>Workplace Rights Grant Program.</heading>
                 </container>
-              </codify:insert>
+              </codify:insert> -->
             </section>
             <section>
-              <codify:insert path="32|1D-ii" num-value="32-175.01"/>
-              <num>2092</num>
+              <codify:replace doc="D.C. Code" path="§32-171.01"/>
+              <num codify:value="32-171.01">2092</num>
               <heading>Definitions.</heading>
               <para>
                 <num undesignated="true">(a)</num>
-                <text>For the purposes of <code-cite doc="D.C. Code" path="32|1D-ii">this subtitle</code-cite>, the term:</text>
+                <text>For the purposes of <code-cite doc="D.C. Code" path="32|1D">this subtitle</code-cite>, the term:</text>
                 <para>
                   <num>(1)</num>
                   <text>"Activities" means conducting outreach to, providing worker education to, or providing legal services for eligible individuals related to employment laws.</text>
@@ -9638,7 +9637,7 @@
                 </para>
                 <para>
                   <num>(5)</num>
-                  <text>"Grantee" means a community-based organization in receipt of a Program grant issued pursuant to <code-cite doc="D.C. Code" path="§32-175.02">section 2093</code-cite>.</text>
+                  <text>"Grantee" means a community-based organization in receipt of a Program grant issued pursuant to <code-cite doc="D.C. Code" path="§32-171.02">section 2093</code-cite>.</text>
                 </para>
                 <para>
                   <num>(6)</num>
@@ -9658,7 +9657,7 @@
                 </para>
                 <para>
                   <num>(10)</num>
-                  <text>"Program" means the Workplace Rights Grant Program established pursuant to <code-cite doc="D.C. Code" path="§32-175.02">section 2093</code-cite>.</text>
+                  <text>"Program" means the Workplace Rights Grant Program established pursuant to <code-cite doc="D.C. Code" path="§32-171.02">section 2093</code-cite>.</text>
                 </para>
                 <para>
                   <num>(11)</num>
@@ -9681,11 +9680,11 @@
                   </para>
                 </para>
               </para>
-              <annotation doc="D.C. Law 23-16" type="History" path="§2092">Sept. 11, 2019, D.C. Law 23-16, § 2092</annotation>
+              <!-- <annotation doc="D.C. Law 23-16" type="History" path="§2092">Sept. 11, 2019, D.C. Law 23-16, § 2092</annotation> -->
             </section>
             <section>
-              <codify:insert path="32|1D-ii" num-value="32-175.02"/>
-              <num>2093</num>
+              <codify:replace doc="D.C. Code" path="§32-171.02"/>
+              <num codify:value="32-171.02">2093</num>
               <heading>Establishment of Program and issuance of grants.</heading>
               <para>
                 <num>(a)</num>
@@ -9747,17 +9746,17 @@
                   <text>Be for not less than $100,000 per year per grant.</text>
                 </para>
               </para>
-              <annotation doc="D.C. Law 23-16" type="History" path="§2093">Sept. 11, 2019, D.C. Law 23-16, § 2093</annotation>
+              <!-- <annotation doc="D.C. Law 23-16" type="History" path="§2093">Sept. 11, 2019, D.C. Law 23-16, § 2093</annotation> -->
             </section>
             <section>
-              <codify:insert path="32|1D-ii" num-value="32-175.03"/>
-              <num>2094</num>
+              <codify:replace doc="D.C. Code" path="§32-171.03"/>
+              <num codify:value="32-171.03">2094</num>
               <heading>Grantee eligibility requirements.</heading>
               <para>
                 <num>(a)</num>
                 <para>
                   <num>(1)</num>
-                  <text>To be eligible for a grant authorized under <code-cite doc="D.C. Code" path="32|1D-ii">this subtitle</code-cite>, a community-based organization shall:</text>
+                  <text>To be eligible for a grant authorized under <code-cite doc="D.C. Code" path="32|1D">this subtitle</code-cite>, a community-based organization shall:</text>
                   <para>
                     <num>(A)</num>
                     <text>Demonstrate in its application that it is well qualified to engage in the types of activities which will be funded, in whole or in part, by the grant;</text>
@@ -9795,11 +9794,11 @@
                   </para>
                 </para>
               </para>
-              <annotation doc="D.C. Law 23-16" type="History" path="§2094">Sept. 11, 2019, D.C. Law 23-16, § 2094</annotation>
+              <!-- <annotation doc="D.C. Law 23-16" type="History" path="§2094">Sept. 11, 2019, D.C. Law 23-16, § 2094</annotation> -->
             </section>
             <section>
-              <codify:insert path="32|1D-ii" num-value="32-175.04"/>
-              <num>2095</num>
+              <codify:replace doc="D.C. Code" path="§32-171.04"/>
+              <num codify:value="32-171.04">2095</num>
               <heading>Grant uses.</heading>
               <para>
                 <num>(a)</num>
@@ -9817,11 +9816,11 @@
                 <num>(b)</num>
                 <text>Grantees that provide worker education shall provide, to an eligible individual or group of eligible individuals, information on the rights and responsibilities of accessing benefits under employment laws, recognizing violations of and learning how to prevent or rectify violations of employment laws, or learning how to assist others to take steps to prevent or rectify violations of employment laws.</text>
               </para>
-              <annotation doc="D.C. Law 23-16" type="History" path="§2095">Sept. 11, 2019, D.C. Law 23-16, § 2095</annotation>
+              <!-- <annotation doc="D.C. Law 23-16" type="History" path="§2095">Sept. 11, 2019, D.C. Law 23-16, § 2095</annotation> -->
             </section>
             <section>
-              <codify:insert path="32|1D-ii" num-value="32-175.05"/>
-              <num>2096</num>
+              <codify:replace doc="D.C. Code" path="§32-171.05"/>
+              <num codify:value="32-171.05">2096</num>
               <heading>Transparency and reporting.</heading>
               <para>
                 <num>(a)</num>
@@ -9875,12 +9874,12 @@
                 <num>(c)</num>
                 <text>OAG may not require grantees to release to OAG any personally identifying information in connection with the preparation or provision of the reports described in this section.</text>
               </para>
-              <annotation doc="D.C. Law 23-16" type="History" path="§2096">Sept. 11, 2019, D.C. Law 23-16, § 2096</annotation>
+              <!-- <annotation doc="D.C. Law 23-16" type="History" path="§2096">Sept. 11, 2019, D.C. Law 23-16, § 2096</annotation> -->
             </section>
           </container>
         </include>
         <aftertext>.</aftertext>
-        <codify:repeal doc="D.C. Code" path="32|1D"/>
+        <!-- <codify:repeal doc="D.C. Code" path="32|1D"/> -->
       </section>
       <section>
         <num>4153</num>
@@ -9903,7 +9902,7 @@
               <heading>Authority to issue grants for workplace rights.</heading>
               <para>
                 <num>(a)</num>
-                <text>The Attorney General may issue grants for the purposes authorized pursuant to <code-cite doc="D.C. Code" path="32|1D-ii">the Workplace Rights Grant Program Amendment Act of 2021, passed on 2nd reading on August 10, 2021 (Enrolled version of Bill 24-285)</code-cite>.</text>
+                <text>The Attorney General may issue grants for the purposes authorized pursuant to <code-cite doc="D.C. Code" path="32|1D">the Workplace Rights Grant Program Amendment Act of 2021, passed on 2nd reading on August 10, 2021 (Enrolled version of Bill 24-285)</code-cite>.</text>
               </para>
               <para>
                 <num>(b)</num>
@@ -11274,7 +11273,7 @@
         <para>
           <num>(a)</num>
           <text>Section 8b (D.C. Official Code § 7-771.07b) is repealed.</text>
-          <codify:find-replace path="§7-771.07a|(a-3)" count="1">
+          <codify:find-replace path="§7-771.07a|(a-3)" count="1" history="false" display-template="">
             <find><code-cite doc="D.C. Code" path="§7-771.07b|(b)|(4)|(B)|(ii)">section 8b(b)(4)(B)(ii)</code-cite> and <cite doc="D.C. Code" path="§7-771.07b|(b)|(4)|(B)|(iii)">(iii)</cite></find>
             <replace>[§7-771.07b(b)(4)(B)(ii) and (iii) [<cite doc="D.C. Code" path="§7-771.07b">§ 7-771.07b</cite> repealed]]
           </replace>
@@ -11492,7 +11491,7 @@
             </section>
           </include>
           <aftertext>.</aftertext>
-          <codify:find-replace doc="D.C. Code" path="3|12|VI-F|heading" count="1">
+          <codify:find-replace doc="D.C. Code" path="3|12|VI-F|heading" count="1" display-template="">
             <find>Midwives</find>
             <replace>Midwives and Doulas</replace>
           </codify:find-replace>
@@ -11885,7 +11884,6 @@
         </container>
       </codify:insert>
       <section>
-        <!-- <codify:marginalia display="Part RR of subchapter XI of Chapter 3 of Title 1"/> -->
         <codify:insert path="1|3|XI|RR" num-value="1-325.431"/>
         <num>5102</num>
         <heading>Early Childhood Educator Pay Equity Fund.</heading>
@@ -17246,6 +17244,7 @@
         <num>7163</num>
         <text>The Trash Compactor Tax Incentive Amendment Act of 2014, effective March 11, 2015 (D.C. Law 20-223; 62 DCR 227), is repealed.</text>
         <codify:repeal doc="D.C. Law 20-223"/>
+        <codify:repeal doc="D.C. Code" path="§47-2005|(37)"/>
       </section>
       <section>
         <num>7164</num>
@@ -17257,42 +17256,37 @@
         <num>7165</num>
         <text>The Hearing Aid Assistance Program Act of 2018, effective July 27, 2018 (D.C. Law 22-151; 65 DCR 6123), is repealed.</text>
         <codify:repeal doc="D.C. Law 22-151"/>
+        <codify:repeal doc="D.C. Code" path="§47-1803.02|(a)|(2)|(EE)"/>
       </section>
       <section>
         <num>7166</num>
         <text>Sections 2(a), (b)(2), (c)(1), (c)(2)(A), (c)(3), (c)(4)(B), (f), (g), (h), and (i) of the Traffic and Parking Ticket Penalty Amendment Act of 2018, effective October 30, 2018 (D.C. Law 22-175; 65 DCR 9546), and amendatory section 207 of the District of Columbia Traffic Adjudication Act of 1978, effective October 30, 2018 (D.C. Law 22-175; D.C. Official Code § 50-2302.07), in section 2(e) of the Traffic and Parking Ticket Penalty Amendment Act of 2018, effective October 30, 2018 (D.C. Law 22-175; 65 DCR 9546), are repealed.</text>
         <codify:repeal doc="D.C. Law 22-175" path="§2|(a)"/>
-        <!--  -->
         <codify:repeal doc="D.C. Code" path="§50-2302.04|(c-1)"/>
-        <!--  -->
         <codify:repeal doc="D.C. Law 22-175" path="§2|(c)|(1)"/>
-        <!--  -->
         <codify:find-replace doc="D.C. Code" path="§50-2302.05|(d)" count="1">
           <find>person</find>
           <replace>person</replace>
         </codify:find-replace>
-        <!--  -->
         <codify:repeal doc="D.C. Law 22-175" path="§2|(c)|(2)|(A)"/>
         <!-- <codify:repeal doc="D.C. Law 22-175" path="§2|(c)|(3)"/> -->
-        <!--  -->
         <codify:repeal doc="D.C. Code" path="§50-2302.05|(e-1)"/>
-        <!--  -->
         <codify:repeal doc="D.C. Law 22-175" path="§2|(c)|(4)|(B)"/>
         <codify:repeal doc="D.C. Law 22-175" path="§2|(f)"/>
         <codify:repeal doc="D.C. Law 22-175" path="§2|(g)|(1)"/>
         <codify:repeal doc="D.C. Law 22-175" path="§2|(g)|(2)"/>
-        <!--  -->
         <codify:repeal doc="D.C. Code" path="§50-2303.05|(d)|(3)"/>
         <!-- <codify:repeal/> -->
-        <!--  -->
         <codify:repeal doc="D.C. Code" path="§50-2303.09"/>
-        <codify:repeal doc="D.C. Law 22-175" path="§2|(i)"/>
+        <codify:repeal doc="D.C. Code" path="§50-2303.21"/>
         <codify:repeal path="§50-2302.07"/>
       </section>
       <section>
         <num>7167</num>
         <text>Section 101 of the Save Good Food Amendment Act of 2018, effective February 22, 2019 (D.C. Law 22-212; 65 DCR 12927), is repealed.</text>
-        <codify:repeal doc="D.C. Law 22-212" path="§101"/>
+        <codify:repeal doc="D.C. Code" path="§[47-1806.16]"/>
+        <codify:repeal doc="D.C. Code" path="§[47-1807.15]"/>
+        <codify:repeal doc="D.C. Code" path="§[47-1808.15]"/>
       </section>
       <section>
         <num>7168</num>
@@ -17307,7 +17301,7 @@
       <section>
         <num>7170</num>
         <text>The District Historical Records Advisory Board Amendment Act of 2018, effective March 28, 2019 (D.C. Law 22-271; 66 DCR 1446), is repealed.</text>
-        <codify:repeal doc="D.C. Law 22-271" path="§2|(a)"/>
+        <codify:repeal path="§2-1701|(6A)"/>
         <codify:repeal path="§2-1715"/>
         <codify:repeal path="§2-1716"/>
         <codify:repeal path="§2-1717"/>
@@ -17365,25 +17359,18 @@
         <num>7182</num>
         <text>Section 11 of the Childhood Lead Exposure Prevention Amendment Act of 2017, effective September 23, 2017 (D.C. Law 22-21; 64 DCR 7631), is repealed.</text>
         <codify:repeal doc="D.C. Law 22-21" path="§11"/>
-        <!--  -->
         <codify:annotation doc="D.C. Code" path="§38-821.01" type="Applicability" history="false"><cite doc="D.C.Law 24-45" path="§7182">Section 7182 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-21" path="§11">section 11 of D.C. Law 22-21</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by section 2(a) of Law 22-21 has been implemented.
         </codify:annotation>
-        <!--  -->
         <codify:annotation doc="D.C. Code" path="§38-825.01" type="Applicability" history="false"><cite doc="D.C.Law 24-45" path="§7182">Section 7182 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-21" path="§11">section 11 of D.C. Law 22-21</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by section 2(b) of Law 22-21 has been implemented.
         </codify:annotation>
-        <!--  -->
         <codify:annotation doc="D.C. Code" path="§38-825.01a" type="Applicability" history="false"><cite doc="D.C.Law 24-45" path="§7182">Section 7182 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-21" path="§11">section 11 of D.C. Law 22-21</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by section 2(c) of Law 22-21 has been implemented.
         </codify:annotation>
-        <!--  -->
         <codify:annotation doc="D.C. Code" path="§38-1802.04" type="Applicability" history="false"><cite doc="D.C.Law 24-45" path="§7182">Section 7182 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-21" path="§11">section 11 of D.C. Law 22-21</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by section 3 of Law 22-21 has been implemented.
         </codify:annotation>
-        <!--  -->
         <codify:annotation doc="D.C. Code" path="§10-551.07c" type="Applicability" history="false"><cite doc="D.C.Law 24-45" path="§7182">Section 7182 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-21" path="§11">section 11 of D.C. Law 22-21</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by section 4 of Law 22-21 has been implemented.
         </codify:annotation>
-        <!--  -->
         <codify:annotation doc="D.C. Code" path="§2-1831.03" type="Applicability" history="false"><cite doc="D.C.Law 24-45" path="§7182">Section 7182 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-21" path="§11">section 11 of D.C. Law 22-21</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by section 7 of Law 22-21 has been implemented.
         </codify:annotation>
-        <!--  -->
         <codify:annotation doc="D.C. Code" path="§2-1931" type="Applicability" history="false"><cite doc="D.C.Law 24-45" path="§7182">Section 7182 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-21" path="§11">section 11 of D.C. Law 22-21</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by section 8 of Law 22-21 has been implemented.
         </codify:annotation>
       </section>
@@ -17395,8 +17382,8 @@
             <num>(a)</num>
             <text>Sections 6(b)(4), (8), and (22), and (pp)<span codify:value=","/>(8) and (9) shall not apply to contracts, as defined in section 101(10C)(A)(ii) of the Board of Ethics and Government Accountability Establishment and Comprehensive Ethics Reform Amendment Act of 2011, effective April 27, 2012 (D.C. Law 19-124; D.C. Official Code § 1-1161.01(10C)(A)(ii)), including those contracts' option periods or similar contract extensions or modifications, sought, entered into, or executed before November 9, 2022.</text>
             <!-- Repeal of all S2A provisions -->
-            <codify:repeal doc="D.C. Law 22-250" path="§10|(a)"/>
-            <codify:repeal doc="D.C. Law 22-250" path="§10|(b)"/>
+            <codify:repeal doc="D.C. Law 22-250" path="§10|(a)" display-template=""/>
+            <codify:repeal doc="D.C. Law 22-250" path="§10|(b)" display-template=""/>
             <!-- Section 6(b)(4), (8), and (22) -->
             <codify:annotation doc="D.C. Code" path="§1-1161.01" type="Applicability" history="false">
               Section 7183 of D.C. Law 24-45 provided that the addition of paragraphs (9B), (10C), and (45A) through (45D) to this section shall not apply to contracts, as defined in <cite doc="D.C. Code" path="§1-1161.01|(10C)|(A)|(ii)">§ 1-1161.01(10C)(A)(ii)</cite>, including those contracts' option periods or similar contract extensions or modifications, sought, entered into, or executed before November 9, 2022.
@@ -17418,177 +17405,118 @@
              Section 7183 of D.C. Law 24-45 provided that the amendments made to this section by D.C. Law 22-250 shall not apply to contracts, as defined in <cite doc="D.C. Code" path="§1-1161.01|(10C)|(A)|(ii)">§ 1-1161.01(10C)(A)(ii)</cite>, including those contracts' option periods or similar contract extensions or modifications, sought, entered into, or executed before November 9, 2022.
           </codify:annotation>
             <!-- S2A notes -->
-            <!--  -->
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-129.21" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-523.01" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-603.01" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-604.06" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-609.08" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-611.08" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-618.01" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1001.03" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1001.04" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1001.05" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1001.05a" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1001.18" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1161.01" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1162.20" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1162.24" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1162.31" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.02" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.02a" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.02b" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.03" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.04" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.06" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.07" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.08" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.09" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.10" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.10a" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.11" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.12" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.12a" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.13" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.15" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.16" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.17" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.18" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.19" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.21" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.22" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.24" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.26" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.27" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.28" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.29" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.30" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.31" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.32" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.32a" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.32c" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.32f" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.32l" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.33" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.34a" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.35" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.36" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.37" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1163.38" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
-            <!--  -->
             <codify:annotation doc="D.C. Code" path="§1-1171.02" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7183">Section 7183 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 22-250" path="§10|(a)">section 10(a) of D.C. Law 22-250</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 22-250 has been implemented.
             </codify:annotation>
           </para>
@@ -17609,10 +17537,8 @@
         <num>7185</num>
         <text>Section 4 of the Care for LGBTQ Seniors and Seniors with HIV Amendment Act of 2020, effective December 23, 2020 (D.C. Law 23-154; 67 DCR 13244), is repealed.</text>
         <codify:repeal doc="D.C. Law 23-154" path="§4"/>
-        <!--  -->
         <codify:annotation doc="D.C. Law 23-154" path="§3" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7185">Section 7185 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 23-154" path="§4">section 4 of D.C. Law 23-154</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by Law 23-154 has been implemented.
         </codify:annotation>
-        <!--  -->
       </section>
       <section>
         <num>7186</num>
@@ -17643,6 +17569,8 @@
         <num>7187</num>
         <text>Section 5 of the Dementia Training for Direct Care Workers Support Amendment Act of 2020, effective March 16, 2021 (D.C. Law 23-201; 67 DCR 14750), is repealed.</text>
         <codify:repeal doc="D.C. Law 23-201" path="§5"/>
+        <codify:annotation doc="D.C. Code" path="§7-744.01" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7187">Section 7187 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 23-201" path="§5">section 5 of D.C. Law 23-201</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by Law 23-201 has been implemented.
+        </codify:annotation>
         <codify:annotation doc="D.C. Code" path="§7-744.02" type="Applicability" history="false"><cite doc="D.C. Law 24-45" path="§7187">Section 7187 of D.C. Law 24-45</cite> repealed <cite doc="D.C. Law 23-201" path="§5">section 5 of D.C. Law 23-201</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by Law 23-201 has been implemented.
         </codify:annotation>
       </section>
@@ -17915,17 +17843,12 @@
         <codify:repeal doc="D.C. Law 23-211" path="§6|(a)"/>
         <!-- <codify:applicability doc="D.C. Law 23-211" path="§2|(a)" date="notfunded" history="false" display-template=""/> -->
         <codify:applicability doc="D.C. Law 23-211" path="§2|(b)|(2)" date="notfunded" history="false" display-template=""/>
-        <!--  -->
-        <!--  -->
         <!-- <codify:applicability doc="D.C. Code" path="§8-1031.03a" date="notfunded" history="false" display-template=""/> This approach doesn't work-->
-        <!--  -->
         <!-- <codify:repeal doc="D.C. Code" path="§8-1031.03a"  history="false" display-template=""/>
       <codify:find-replace doc="D.C. Code" path="§8-1031.03a" count="2" history="false" display-template="">
         <find>Repealed</find>
         <replace>Not Funded</replace>
       </codify:find-replace> Repealed by ELaw 24-45 § 7203 -->
-        <!--  -->
-        <!--  -->
         <!--amendatory section 103a within 2(c)  -->
         <codify:applicability doc="D.C. Law 23-211" path="§2|(d)|(2)" date="notfunded" history="false" display-template=""/>
         <!-- <codify:applicability doc="D.C. Law 23-211" path="§2|(e)" date="notfunded" history="false" display-template=""/>
@@ -17937,29 +17860,21 @@
         <!-- <codify:applicability doc="D.C. Law 23-211" path="§2|(q)" date="notfunded" history="false" display-template=""/> -->
         <!-- <codify:applicability doc="D.C. Code" path="§8-1533|(e)|(1)" date="notfunded" history="false" display-template=""/>
       <codify:applicability doc="D.C. Code" path="§8-1533|(e)|(2)" date="notfunded" history="false" display-template=""/> -->
-        <!--  -->
-        <!--  -->
         <codify:repeal doc="D.C. Code" path="§8-1031.03|(e)" history="false" display-template=""/>
         <codify:find-replace doc="D.C. Code" path="§8-1031.03|(e)" count="1" history="false" display-template="">
           <find>Repealed</find>
           <replace>Not Funded</replace>
         </codify:find-replace>
-        <!--  -->
-        <!--  -->
         <codify:repeal doc="D.C. Code" path="§8-1031.12c" history="false" display-template=""/>
         <codify:find-replace doc="D.C. Code" path="§8-1031.12c" count="2" history="false" display-template="">
           <find>Repealed</find>
           <replace>Not Funded</replace>
         </codify:find-replace>
-        <!--  -->
-        <!--  -->
         <codify:repeal doc="D.C. Code" path="§8-1031.12e" history="false" display-template=""/>
         <codify:find-replace doc="D.C. Code" path="§8-1031.12e" count="2" history="false" display-template="">
           <find>Repealed</find>
           <replace>Not Funded</replace>
         </codify:find-replace>
-        <!--  -->
-        <!--  -->
         <!-- <codify:repeal doc="D.C. Code" path="§8-1533|(e)|(1)" history="false" display-template=""/>
       <codify:find-replace doc="D.C. Code" path="§8-1533|(e)|(1)" count="1" history="false" display-template="">
         <find>Repealed</find>
