@@ -26,17 +26,17 @@
     <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended by striking the phrase "While an emergency declaration is in effect," and inserting the phrase "Except as provided in subsection (a-1) of this section, while an emergency declaration is in effect," in its place.</text>
-      <codify:find-replace count="1">
+      <!-- <codify:find-replace count="1">
         <find>While an emergency declaration is in effect,</find>
         <replace>Except as provided in subsection (a-1) of this section, while an emergency declaration is in effect,</replace>
-      </codify:find-replace>
+      </codify:find-replace> -->
     </para>
     <para>
       <num>(b)</num>
       <text>A new subsection (a-1) is added to read as follows:</text>
       <include>
         <para>
-          <codify:insert after="(a)"/>
+          <!-- <codify:insert after="(a)"/> -->
           <num>(a-1)</num>
           <para>
             <num>(1)</num>
@@ -61,11 +61,11 @@
       </include>
       <aftertext>.</aftertext>
       <codify:emergency doc="D.C. Code" path="§7-2361.05"/>
-    <codify:insert doc="D.C. Code" path="§7-2361.05" before="heading" history="false" display-template="">
+    <!-- <codify:insert doc="D.C. Code" path="§7-2361.05" before="heading" history="false" display-template="">
       <text>
       *NOTE: This section includes amendments by emergency legislation that will expire on December 21, 2021. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§7-2361.05(Perm)">Permanent Version</cite>.*
       </text>
-    </codify:insert>
+    </codify:insert> -->
     </para>
   </section>
   <section>
@@ -121,6 +121,8 @@
       </section>
     </include>
     <aftertext>.</aftertext>
+    <!-- not working -->
+    <codify:emergency-new-sec doc="D.C. Code" path="§7-2341.02a" interim-path="§7-2341.02" perm-eff="2021-12-24"/>
   </section>
   <section>
     <num>4</num>
@@ -218,6 +220,7 @@
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:emergency doc="D.C. Code" path="§3-1205.02"/>
   </section>
   <section>
     <num>5</num>
