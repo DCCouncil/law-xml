@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 24-202">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 24-46">
+  <num type="law">24-46</num>
   <num type="act">24-202</num>
   <num type="bill">24-143</num>
   <heading type="short">Certified Midwife Credential Amendment Act of 2021</heading>
   <heading type="long">To amend the District of Columbia Health Occupations Revision Act of 1985 to provide for the licensure of certified midwives by the Board of Nursing, to identify the scope of practice of certified midwives, to allow certified midwives to operate at maternity centers, to allow certified midwives to be eligible for Medicaid reimbursement, and to prohibit representation as a certified midwife unless licensed; to amend the Medical Malpractice Amendment Act of 2006 to require maternity centers and midwives to report adverse events that occur during the course of medical care of a patient; and to make other conforming amendments.</heading>
   <meta>
     <introduced>2021-03-01</introduced>
-    <effective projected="true">2022-02-15</effective>
+    <effective>2021-12-29</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/46683/Signed_Act/B24-0143-Signed_Act.pdf">D.C. Law 24-46</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/46683/Signed_Act/B24-0143-Signed_Act.pdf">D.C. Act 24-202</citation>
       <citation type="register">68 DCR 011642</citation>
     </citations>
@@ -21,8 +23,6 @@
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Certified Midwife Credential Amendment Act of 2021".</text>
   <section codify:doc="D.C. Code">
-  <!-- projected effective date not working; this should become effective after Law 24-45; look for more comment-outs in this file -->
-  <!-- my mistake - remove this comment -->
     <num>2</num>
     <text>The District of Columbia Health Occupations Revision Act of 1985, effective</text>
     <text>March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01 <em>et seq.</em>), is amended as follows:</text>
@@ -187,17 +187,17 @@
           <num>(A)</num>
           <text>The lead-in language of subsection (a) is amended by striking the phrase "certified nurse-midwife" and inserting the phrase "certified nurse-midwife, certified midwife," in its place.</text>
           <codify:find-replace count="1">
-          <find>certified nurse-midwife</find>
-          <replace>certified nurse-midwife, certified midwife,</replace>
-        </codify:find-replace>
+            <find>certified nurse-midwife</find>
+            <replace>certified nurse-midwife, certified midwife</replace>
+          </codify:find-replace>
         </para>
         <para codify:path="(b)|(1)">
           <num>(B)</num>
           <text>Subsection (b)(1) is amended by striking the phrase "certified nurse-midwife" and inserting the phrase "certified nurse-midwife, certified midwife," in its place.</text>
           <codify:find-replace count="1">
-          <find>certified nurse-midwife</find>
-          <replace>certified nurse-midwife, certified midwife,</replace>
-        </codify:find-replace>
+            <find>certified nurse-midwife</find>
+            <replace>certified nurse-midwife, certified midwife,</replace>
+          </codify:find-replace>
         </para>
         <para codify:path="(c)">
           <num>(C)</num>
@@ -205,22 +205,23 @@
         </para>
         <codify:find-replace count="1">
           <find>certified nurse midwife</find>
-          <replace>certified nurse-midwife, certified midwife,</replace>
+          <replace>certified nurse-midwife, certified midwife</replace>
         </codify:find-replace>
       </para>
       <para codify:path="§3-1206.63">
         <num>(2)</num>
         <text>Section 663 (D.C. Official Code § 3-1206.63) is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(i)</num>
             <text>Paragraph (1) is amended to read as follows:</text>
             <include>
               <para>
                 <num>(a)</num>
                 <para>
+                  <codify:replace/>
                   <num>(1)</num>
                   <text>Each maternity center, regardless of size, shall have written practice guidelines establishing procedures for both normal and emergency care. The practice guidelines shall be consistent with the Practice Guidelines of the American College of Nurse-Midwives, Standards of Practice of the National Association of Certified Professional Midwives, and District of Columbia laws and regulations relating to midwifery practices. The practice guidelines shall indicate the areas of responsibility of medical, certified nurse-midwife, certified midwife, certified professional midwifery, and nursing personnel and the extent to which the responsibility of physicians can be delegated. The practice guidelines shall be available to all members of the center and shall be reviewed annually. The practice guidelines shall not be interpreted to set, establish, define, enumerate, or otherwise lower the applicable standard of care for a certified professional midwife, a certified nurse-midwife, or a certified midwife.</text>
                 </para>
@@ -228,16 +229,21 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(2)">
             <num>(ii)</num>
             <text>Paragraph (2) is amended by striking the phrase "a certified professional-midwife or" and inserting the phrase "certified midwife, certified professional midwife, or" in its place.</text>
+            <codify:find-replace>
+              <find>a certified professional midwife or</find>
+              <replace>certified midwife, certified professional midwife, or</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(B)</num>
           <text>Subsection (b) is amended to reads as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(b)</num>
               <text>A certified nurse-midwife, certified midwife, certified professional midwife, or physician with special training in obstetrics shall attend each patient-client in labor from the time of admission, during labor, during birth, and through the immediate postpartum period; except, that attendance may be delegated to another certified nurse-midwife, certified midwife, a CPM, or physician. At least 2 attendants shall be present at every birth, one of whom is a certified nurse-midwife, certified midwife, CPM, or physician with special training in obstetrics. Both attendants shall be certified in adult cardiopulmonary resuscitation ("CPR"), equivalent to the American Heart Association Class C basic life support, and neonatal CPR, equivalent to the American Academy of Pediatrics or American Heart Association standards. Qualified personnel, including a certified nurse-midwife, certified midwife, CPM, or a Board-certified physician, shall always be on duty when patient-clients are admitted, whether on the premises or on call.</text>
             </para>
@@ -248,40 +254,57 @@
       <para>
         <num>(3)</num>
         <text>Section 664 (D.C. Official Code § 3-1206.64) is amended by striking the phrase "CPM," both times it appears and inserting the phrase "CPM, certified midwife," in its place.</text>
+        <codify:find-replace path="§3-1206.64" count="2">
+          <find>CPM,</find>
+          <replace>CPM, certified midwife,</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§3-1206.71">
       <num>(f)</num>
       <text>Section 671 (D.C. Official Code § 3-1206.71) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended to read as follows:</text>
         <include>
           <section>
             <num>671</num>
             <heading>Reimbursement for certified professional midwives or certified midwives.</heading>
+            <codify:find-replace count="1">
+              <find>.</find>
+              <replace> or certified midwives.</replace>
+            </codify:find-replace>
           </section>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <text>A health benefit plan or health insurance provided through Medicaid shall provide coverage for services rendered by a certified professional midwife or a certified midwife for services within the scope of the practice of certified professional midwifery or the practice of certified midwifery, respectively, regardless of the location where such services are provided.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(3)</num>
         <text>Subsection (b) is amended by striking the phrase "certified professional midwife" and inserting the phrase 'certified professional midwife or certified midwife" in its place.</text>
+        <codify:find-replace count="1">
+          <find>certified professional midwife</find>
+          <replace>certified professional midwife or certified midwife</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(4)</num>
         <text>Subsection (c) is amended by striking the phrase "by a certified professional midwife" and inserting the phrase "by a certified professional midwife or a certified midwife" in its place.</text>
+        <codify:find-replace count="1">
+          <find>by a certified professional midwife</find>
+          <replace>by a certified professional midwife or a certified midwife</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -289,6 +312,7 @@
       <text>Section 1003 (D.C. Official Code § 3-1210.03) is amended by adding a new subsection (kk) to read as follows:</text>
       <include>
         <para>
+          <codify:insert path="§3-1210.03"/>
           <num>(kk)</num>
           <text>Unless authorized to practice certified midwifery under <code-cite doc="D.C. Code" path="3|12">this act</code-cite>, a person shall not use or imply the use of the words or terms "certified midwife", "licensed midwife", or any similar title or description of services with the intent to represent that the person practices midwifery as a certified midwife.</text>
         </para>
@@ -304,6 +328,7 @@
       <text>Section 202(a)(2) of the Medical Malpractice Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-263; D.C. Official Code § 7-161(a)(2)), is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace doc="D.C. Code" path="§7-161|(a)|(2)"/>
           <num>(2)</num>
           <text>"Healthcare provider" means an individual or entity licensed or otherwise authorized under District law to provide healthcare service, including a hospital, nursing facility, comprehensive outpatient rehabilitation facility, home health agency, hospice program, renal dialysis facility, ambulatory surgical center, pharmacy, physician or health care practitioner's office, long-term care facility, behavior health residential treatment facility, health clinic, clinical laboratory, health center, maternity center, physician, physician assistant, nurse practitioner, clinical nurse specialist, certified registered nurse anesthetist, certified nurse midwife, certified midwife, certified professional midwife, psychologist, certified social worker, registered dietitian or nutrition professional, physical or occupational therapist, pharmacist, or other individual health care practitioner.</text>
         </para>
@@ -313,30 +338,50 @@
     <para>
       <num>(b)</num>
       <text>Section 2 of An Act To relieve physicians of liability for negligent medical treatment at the scene of an accident in the District of Columbia, effective August 17, 1991 (D.C. Law 9-41; D.C. Official Code § 7-402), is amended by striking the phrase "or nurse-midwife" both times it appears and inserting the phrase "certified midwife, or advanced practice registered nurse" in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§7-402" count="2">
+        <find>or nurse-midwife</find>
+        <replace>certified midwife, or advanced practice registered nurse</replace>
+      </codify:find-replace>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>4</num>
     <heading>Conforming amendments.</heading>
-    <para>
+    <para codify:path="§7-801|text">
       <num>(a)</num>
       <text>Section 1 of An Act To provide for the prevention of blindness in infants born in the District of Columbia, approved April 27, 1937 (50 Stat. 120; D.C. Official Code § 7-801), is amended to read as follows:</text>
       <include>
         <text>The Mayor may, upon the advice of the Director of the Department of Health and pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em></code-cite>), issue rules to prevent and monitor the occurrence of ophthalmia in newborns. Unless the Mayor provides otherwise, each physician, certified midwife, certified professional midwife, or certified nurse-midwife who delivers or otherwise assumes the initial care of a newborn shall, immediately upon that delivery or assumption of care, administer to each eye of the newborn a 1% solution of silver nitrate, an ophthalmic ointment containing either 1% tetracycline or 0.5% erythromycin, or another prophylactic approved by the Mayor.</text>
       </include>
       <aftertext>.</aftertext>
+      <codify:find-replace count="1">
+        <find>The Mayor may, upon the advice of the Commissioner of Public Health and pursuant to <cite path="2|5|I">subchapter I of Chapter 5 of Title 2</cite>, issue rules to prevent and monitor the occurrence of ophthalmia in newborns. Unless the Mayor provides otherwise, each physician or nurse-midwife who delivers or otherwise assumes the initial care of a newborn shall immediately upon that delivery or assumption of care administer to each eye of the newborn a 1% solution of silver nitrate, an ophthalmic ointment containing either 1% tetracycline or 0.5% erythromycin, or another prophylactic approved by the Mayor.</find>
+        <replace>The Mayor may, upon the advice of the Director of the Department of Health and pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, issue rules to prevent and monitor the occurrence of ophthalmia in newborns. Unless the Mayor provides otherwise, each physician, certified midwife, certified professional midwife, or certified nurse-midwife who delivers or otherwise assumes the initial care of a newborn shall, immediately upon that delivery or assumption of care, administer to each eye of the newborn a 1% solution of silver nitrate, an ophthalmic ointment containing either 1% tetracycline or 0.5% erythromycin, or another prophylactic approved by the Mayor.</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>Section 3a(c) of the Newborn Health Insurance Act of 1979, effective April 9, 1997 (D.C. Law 11-241; D.C. Official Code § 31-3802.01(c)), is amended by striking the phrase "nurse midwife," and inserting the phrase "certified midwife, certified nurse-midwife," in its place.</text>
+      <codify:find-replace path="§31-3802.01|(c)" count="1">
+        <find>nurse midwife,</find>
+        <replace>certified midwife, certified nurse-midwife,</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>Section 301 of the Health Benefits Plan Members Bill of Rights Act of 1998, effective April 27, 1999 (D.C. Law 12-274; D.C. Official Code § 44-303.01), is amended by striking the phrase "physician or nurse midwife" and inserting the phrase "physician, certified nurse-midwife, or certified midwife" in its place.</text>
+      <codify:find-replace path="§44-303.01" count="1">
+        <find>physician or nurse midwife</find>
+        <replace>physician, certified nurse-midwife, or certified midwife</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(d)</num>
       <text>Section 2(6) of the District of Columbia Health Professional Recruitment Program Act of 2005, effective March 8, 2006 (D.C. Law 16-71; D.C. Official Code § 7-751.01(6)), is amended by striking the phrase "certified professional midwives," and inserting the phrase "certified midwives, certified professional midwives," in its place.</text>
+      <codify:find-replace path="§7-751.01|(6)" count="1">
+        <find>certified professional midwives,</find>
+        <replace>certified midwives, certified professional midwives,</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
