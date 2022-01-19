@@ -20,7 +20,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Motor Vehicle Accident Prevention Amendment Act of 2021".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Senior Citizen Motor Vehicle Accident Prevention Course Certification Act of 1983, effective February 9, 1984 (D.C. Law 5-46; D.C. Official Code § 50-2001 <em>et seq.</em>), is amended as follows:</text>
     <para>
@@ -30,17 +30,23 @@
     <para>
       <num>(b)</num>
       <text>The short title is amended by striking the phrase "Senior Citizen Motor" and inserting the word "Motor" in its place.</text>
+      <codify:find-replace path="50|20" count="1" history="false">
+        <find>Senior Citizen Motor</find>
+        <replace>Motor</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>Section 2 (D.C. Official Code § 50-2001) is repealed.</text>
+      <codify:repeal path="§50-2001"/>
     </para>
     <para>
       <num>(d)</num>
       <text>Section 3 (D.C. Official Code § 50-2002) is amended to read as follows:</text>
       <include>
         <section>
-          <num>3</num>
+          <codify:replace path="§50-2002"/>
+          <num codify:value="50-2002">3</num>
           <heading>Approval of courses; certificate of completion.</heading>
           <para>
             <num>(a)</num>
@@ -69,13 +75,15 @@
     <para>
       <num>(e)</num>
       <text>Section 4 (D.C. Official Code § 50-2002) is repealed.</text>
+      <!-- Sections 3 and 4 of Law 5-46 were codified together at § 50-2002. -->
     </para>
     <para>
       <num>(f)</num>
       <text>Section 5 (D.C. Official Code § 50-2003) is amended to read as follows:</text>
       <include>
         <section>
-          <num>5</num>
+          <codify:replace path="§50-2003"/>
+          <num codify:value="50-2003">5</num>
           <heading>Insurance discounts.</heading>
           <para>
             <num>(a)</num>
@@ -87,7 +95,7 @@
           </para>
           <para>
             <num>(c)</num>
-            <text>A certificate of completion issued pursuant to section 3(e) shall qualify an individual for the discount set forth in subsection (b) of this section during the 2-year period immediately following issuance of the certificate.</text>
+            <text>A certificate of completion issued pursuant to <code-cite doc="D.C. Code" path="§50-2002|(e)">section 3(e)</code-cite> shall qualify an individual for the discount set forth in subsection (b) of this section during the 2-year period immediately following issuance of the certificate.</text>
           </para>
           <para>
             <num>(d)</num>
@@ -100,6 +108,7 @@
     <para>
       <num>(g)</num>
       <text>Section 6 (D.C. Official Code§ 50-2003) is repealed.</text>
+      <!-- Sections 5 and 6 of Law 5-46 were codified together at § 50-2003. -->
     </para>
   </section>
   <section>
@@ -110,7 +119,6 @@
   <section>
     <num>4</num>
     <heading>Effective date.</heading>
-    <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 30-day period of congressional review as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December</text>
-    <text>24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)), and publication in the District of Columbia Register.</text>
+    <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 30-day period of congressional review as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)), and publication in the District of Columbia Register.</text>
   </section>
 </document>

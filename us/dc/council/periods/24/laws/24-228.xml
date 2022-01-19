@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 24-228">
-  <num type="act">24-228</num>
   <num type="bill">24-236</num>
+  <num type="act">24-228</num>
   <heading type="short">Child Wealth Building Act of 2021</heading>
   <heading type="long">To establish the Child Trust Fund and the Child Trust Fund Program to provide a subsidized wealth building and investment account for certain children.</heading>
   <meta>
@@ -20,12 +20,20 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Child Wealth Building Act of 2021".</text>
+  <codify:insert doc="D.C. Code" path="4" after="6C" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>6D</num>
+      <heading>Building Child Wealth.</heading>
+    </container>
+  </codify:insert>
   <section>
+    <codify:insert doc="D.C. Code" path="4|6D" num-value="4-681.01"/>
     <num>2</num>
     <heading>Definitions.</heading>
     <para>
       <num undesignated="true">(a)</num>
-      <text>For the purposes of this act, the term:</text>
+      <text>For the purposes of <code-cite doc="D.C. Code" path="4|6D">this act</code-cite>, the term:</text>
       <para>
         <num>(1)</num>
         <text>"Age of majority" means 18 years of age.</text>
@@ -43,7 +51,7 @@
       </para>
       <para>
         <num>(3)</num>
-        <text>"Chief Financial Officer" means the head of the Office of the Chief Financial Officer of the District of Columbia, established by section 424a of the Home Rule Act, or the designee of the Chief Financial Officer.</text>
+        <text>"Chief Financial Officer" means the head of the Office of the Chief Financial Officer of the District of Columbia, established by <code-cite doc="D.C. Code" path="§1-204.24a">section 424a of the Home Rule Act</code-cite>, or the designee of the Chief Financial Officer.</text>
       </para>
       <para>
         <num>(4)</num>
@@ -51,7 +59,7 @@
       </para>
       <para>
         <num>(5)</num>
-        <text>" CTF Program" means the Child Trust Fund Program established by section 4.</text>
+        <text>"CTF Program" means the Child Trust Fund Program established by <code-cite doc="D.C. Code" path="§4-681.03">section 4</code-cite>.</text>
       </para>
       <para>
         <num>(6)</num>
@@ -59,7 +67,7 @@
       </para>
       <para>
         <num>(7)</num>
-        <text>"Disability certification" means a written certification, determined to be satisfactory by the Chief Financial Officer or rules issued pursuant to this act, of a diagnosis from a licensed doctor and signed by a licensed physician that the eligible child has a medically determinable physical or mental impairment that results in marked and severe functional limitations lasting for a continuous 12 months or longer or that can be expected to result in death.</text>
+        <text>"Disability certification" means a written certification, determined to be satisfactory by the Chief Financial Officer or rules issued pursuant to <code-cite doc="D.C. Code" path="4|6D">this act</code-cite>, of a diagnosis from a licensed doctor and signed by a licensed physician that the eligible child has a medically determinable physical or mental impairment that results in marked and severe functional limitations lasting for a continuous 12 months or longer or that can be expected to result in death.</text>
       </para>
       <para>
         <num>(8)</num>
@@ -93,7 +101,7 @@
       </para>
       <para>
         <num>(9)</num>
-        <text>"Enrollee" means an eligible child participating in the Child Trust Fund Program who meets the requirements set forth in section 7.</text>
+        <text>"Enrollee" means an eligible child participating in the Child Trust Fund Program who meets the requirements set forth in <code-cite doc="D.C. Code" path="§4-681.06">section 7</code-cite>.</text>
       </para>
       <para>
         <num>(10)</num>
@@ -101,24 +109,25 @@
       </para>
       <para>
         <num>(11)</num>
-        <text>"Fund" means the Child Trust Fund established by section 3.</text>
+        <text>"Fund" means the Child Trust Fund established by <code-cite doc="D.C. Code" path="§4-681.02">section 3</code-cite>.</text>
       </para>
       <para>
         <num>(12)</num>
-        <text>"Home Rule Act" means the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 774; D. C. Official Code § 1-201.01 <em>et seq.</em>).</text>
+        <text>"Home Rule Act" means <code-cite doc="D.C. Code" path="1|2">the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 774; D. C. Official Code § 1-201.01 <em>et seq.</em>)</code-cite>.</text>
       </para>
       <para>
         <num>(13)</num>
-        <text>"Medicaid" means the medical assistance programs authorized by title XIX of the Social Security Act, approved July 30,1965 (79 Stat. 343; 42 U.S.C. § 1396 <em>et seq</em>.), or by section 1 of An Act To enable the District of Columbia to receive Federal financial assistance under title XIX of the Social Security Act for a medical assistance program, and for other purposes, approved December 27, 1967 (81 Stat. 744; D.C. Official Code § 1-307.02).</text>
+        <text>"Medicaid" means the medical assistance programs authorized by title XIX of the Social Security Act, approved July 30,1965 (79 Stat. 343; 42 U.S.C. § 1396 <em>et seq</em>.), or by <code-cite doc="D.C. Code" path="§1-307.02">section 1 of An Act To enable the District of Columbia to receive Federal financial assistance under title XIX of the Social Security Act for a medical assistance program, and for other purposes, approved December 27, 1967 (81 Stat. 744; D.C. Official Code § 1-307.02)</code-cite>.</text>
       </para>
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="4|6D" num-value="4-681.02"/>
     <num>3</num>
     <heading>Child Trust Fund.</heading>
     <para>
       <num>(a)</num>
-      <text>There is established as a special fund, the Child Trust Fund ("Fund"), which shall be administered by the Chief Financial Officer in accordance with subsection (c) of this section.  The Chief Financial Officer shall establish within the Fund a child trust fund account for each eligible child enrolled in the CTF Program.</text>
+      <text>There is established as a special fund, the Child Trust Fund ("Fund"), which shall be administered by the Chief Financial Officer in accordance with subsection (c) of this section. The Chief Financial Officer shall establish within the Fund a child trust fund account for each eligible child enrolled in the CTF Program.</text>
     </para>
     <para>
       <num>(b)</num>
@@ -129,19 +138,19 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>Other monies that may be appropriated for the purposes of this act.</text>
+        <text>Other monies that may be appropriated for the purposes of <code-cite doc="D.C. Code" path="4|6D">this act</code-cite>.</text>
       </para>
     </para>
     <para>
       <num>(c)</num>
-      <text>Money in the Fund shall be used for the purpose of establishing a child trust fund account for each eligible child in the CTF Program in accordance with this act and rules issued pursuant to this act.</text>
+      <text>Money in the Fund shall be used for the purpose of establishing a child trust fund account for each eligible child in the CTF Program in accordance with <code-cite doc="D.C. Code" path="4|6D">this act</code-cite> and rules issued pursuant to <code-cite doc="D.C. Code" path="4|6D">this act</code-cite>.</text>
     </para>
     <para>
       <num>(d)</num>
       <text>The money in the Fund, which shall consist of all the amounts paid into the fund pursuant to subsection (b) of this section, increased by the net earnings from investments of amounts held in the Fund or reduced by the net losses from investments of amounts held in the Fund, and less total payments, including distributions and administrative expenses, shall be used to:</text>
       <para>
         <num>(1)</num>
-        <text>Make distributions pursuant to section 7;</text>
+        <text>Make distributions pursuant to <code-cite doc="D.C. Code" path="§4-681.06">section 7</code-cite>;</text>
       </para>
       <para>
         <num>(2)</num>
@@ -160,7 +169,7 @@
       <num>(f)</num>
       <para>
         <num>(1)</num>
-        <text>The money deposited into the Fund but not expended in a fiscal year shall not revert to the unassigned fund balance of the General Fund of the District of Columbia at the end of a fiscal year, or at any other time.</text>
+        <text>The money deposited into the Fund, but not expended in a fiscal year, shall not revert to the unassigned fund balance of the General Fund of the District of Columbia at the end of a fiscal year, or at any other time.</text>
       </para>
       <para>
         <num>(2)</num>
@@ -171,11 +180,11 @@
       <num>(g)</num>
       <para>
         <num>(1)</num>
-        <text>All the money in the Fund shall belong to the District government until an amount is dispersed to make a payment pursuant to subsection (d)(2) or (3) of this section or a distribution pursuant to section 7.</text>
+        <text>All the money in the Fund shall belong to the District government until an amount is dispersed to make a payment pursuant to subsection (d)(2) or (3) of this section or a distribution pursuant to <code-cite doc="D.C. Code" path="§4-681.06">section 7</code-cite>.</text>
       </para>
       <para>
         <num>(2)</num>
-        <text>Prior to distribution pursuant section 7, and not withstanding any other law, money in the Fund designated for an eligible child enrolled in in the CFT program may not be considered:</text>
+        <text>Prior to distribution pursuant <code-cite doc="D.C. Code" path="§4-681.06">section 7</code-cite>, and not withstanding any other law, money in the Fund designated for an eligible child enrolled in in the CFT program may not be considered:</text>
         <para>
           <num>(A)</num>
           <text>Gross income of the eligible child or the parent; or</text>
@@ -188,6 +197,7 @@
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="4|6D" num-value="4-681.03"/>
     <num>4</num>
     <heading>Child Trust Fund Program.</heading>
     <para>
@@ -202,7 +212,7 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>The Chief Financial Officer, or the designee, or employees of the Chief Financial Officer, or employees of the designee shall not disclose information with respect to a child trust fund account maintained in the Fund; except that child trust fund account information may be disclosed, pursuant to rule, to the beneficiary of the child trust fund account or to another person at the beneficiary's request.</text>
+        <text>The Chief Financial Officer, or the designee, or employees of the Chief Financial Officer, or employees of the designee, shall not disclose information with respect to a child trust fund account maintained in the Fund; except that child trust fund account information may be disclosed, pursuant to rule, to the beneficiary of the child trust fund account or to another person at the beneficiary's request.</text>
       </para>
     </para>
     <para>
@@ -246,22 +256,24 @@
     </para>
     <para>
       <num>(d)</num>
-      <text>If a household is no longer enrolled in the DC Medicaid program or if the household's income increases above the federal poverty guideline, the annual deposit amounts shall cease but the amounts credited to the eligible child's trust fund account during the period of deposits shall remain available for distribution pursuant to section 7.</text>
+      <text>If a household is no longer enrolled in the DC Medicaid program or if the household's income increases above the federal poverty guideline, the annual deposit amounts shall cease but the amounts credited to the eligible child's trust fund account during the period of deposits shall remain available for distribution pursuant to <code-cite doc="D.C. Code" path="§4-681.06">section 7</code-cite>.</text>
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="4|6D" num-value="4-681.04"/>
     <num>5</num>
     <heading>Independent fiduciary.</heading>
     <text>The Chief Financial Officer may enter into a contract with an independent fiduciary to administer the Fund and the CTF Program.</text>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="4|6D" num-value="4-681.05"/>
     <num>6</num>
     <heading>Enrollment in the CTF Program; denial.</heading>
     <para>
       <num>(a)</num>
       <para>
         <num>(1)</num>
-        <text>Enrollment in the CTF Program shall be automatic. Beginning within 60 days after the applicability of this act, the Chief Financial Officer shall obtain from the agencies the information required by paragraph (2) of this subsection and issue rules pursuant to this act.</text>
+        <text>Enrollment in the CTF Program shall be automatic. Beginning within 60 days after <span codify:value="December 13, 2021">the applicability date of this act</span>, the Chief Financial Officer shall obtain from the agencies the information required by paragraph (2) of this subsection and issue rules pursuant to <code-cite doc="D.C. Code" path="4|6D">this act</code-cite>.</text>
       </para>
       <para>
         <num>(2)</num>
@@ -272,15 +284,17 @@
       <num>(b)</num>
       <para>
         <num>(1)</num>
-        <text>Following receipt of the information provided pursuant to subsection (a) of this section, verification by the Chief Financial Officer pursuant to section 4(b) that the child's household is an applicable family household, and, upon finding that the child is an eligible child, as defined in section 2(8), the Chief Financial Officer shall enroll the eligible child in the CTF Program and within 30 days of the enrollment make the required deposit into the Fund.</text>
+        <text>Following receipt of the information provided pursuant to subsection (a) of this section, verification by the Chief Financial Officer pursuant to <code-cite doc="D.C. Code" path="§4-681.03|(b)">section 4(b)</code-cite> that the child's household is an applicable family household, and, upon finding that the child is an eligible child, as defined in <code-cite doc="D.C. Code" path="§4-681.01|(8)">section 2(8)</code-cite>, the Chief Financial Officer shall enroll the eligible child in the CTF Program and within 30 days of the enrollment make the required deposit into the Fund.</text>
       </para>
       <para>
         <num>(2)</num>
         <text>The Chief Financial Officer shall send written notification to the parent informing the parent of the child's enrollment in the CTF Program.</text>
       </para>
     </para>
+    
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="4|6D" num-value="4-681.06"/>
     <num>7</num>
     <heading>Distribution of funds.</heading>
     <para>
@@ -298,7 +312,7 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>The amount of money to which an enrollee will be entitled at the age of majority, or following receipt by the Chief Financial Officer of a disability certification, shall be the amounts credited to his or her child trust fund account pursuant to section 3(b), less any amounts expended pursuant to section 3(d)(2) through (3).</text>
+        <text>The amount of money to which an enrollee will be entitled at the age of majority, or following receipt by the Chief Financial Officer of a disability certification, shall be the amounts credited to his or her child trust fund account pursuant to <code-cite doc="D.C. Code" path="§4-681.02|(b)">section 3(b)</code-cite>, less any amounts expended pursuant to <code-cite doc="D.C. Code" path="§4-681.02|(d)|(2)">section 3(d)(2)</code-cite> through <cite doc="D.C. Code" path="§4-681.02|(d)|(3)">(3)</cite>.</text>
       </para>
     </para>
     <para>
@@ -329,12 +343,12 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>No funds may be distributed unless the enrollee certifies, in accordance with</text>
+        <text>No funds may be distributed unless the enrollee certifies, in accordance with rules issued by the Chief Financial Officer, that the enrollee is a bona fide resident of the District and that the distributed funds shall be used for a purpose listed in paragraph (1) of this subsection.</text>
       </para>
-      <aftertext>rules issued by the Chief Financial Officer, that the enrollee is a bona fide resident of the District and that the distributed funds shall be used for a purpose listed in paragraph (1) of this subsection.</aftertext>
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="4|6D" num-value="4-681.07"/>
     <num>8</num>
     <heading>Reporting requirement.</heading>
     <para>
@@ -375,21 +389,22 @@
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="4|6D" num-value="4-681.08"/>
     <num>9</num>
     <heading>Rules.</heading>
-    <text>Within 60 days after the applicability of this act, the Chief Financial Officer shall issue rules to implement sections 2 through 7.  In drafting the rules, the Chief Financial Officer may consult with the agencies as the Chief Financial Officers considers necessary and appropriate.</text>
+    <text>Within 60 days after <span codify:value="December 13, 2021">the applicability date of this act</span>, the Chief Financial Officer shall issue rules to implement <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§4-681.01" codify:value="4-681.01">2</code-cite> through <code-cite doc="D.C. Code" path="§4-681.06" codify:value="4-681.06">7</code-cite>.  In drafting the rules, the Chief Financial Officer may consult with the agencies as the Chief Financial Officers considers necessary and appropriate.</text>
   </section>
   <section>
     <num>10</num>
     <heading>Conforming amendments.</heading>
     <para>
       <num>(a)</num>
-      <text>Section 47-1803.02(a)(2) of the District of Columbia Official Code is amended by</text>
-      <text>adding a new subparagraph (QQ) to read as follows:</text>
+      <text>Section 47-1803.02(a)(2) of the District of Columbia Official Code is amended by adding a new subparagraph (QQ) to read as follows:</text>
       <include lvl="2">
         <para>
+          <codify:insert doc="D.C. Code" path="§47-1803.02|(a)|(2)"/>
           <num>(QQ)</num>
-          <text>The amount received by an individual pursuant to section 6 of the Child Wealth Building Act of 2021, as introduced on May 3, 2021 (Bill 24-236).</text>
+          <text>The amount received by an individual pursuant to <code-cite doc="D.C. Code" path="§4-681.05">section 6 of the Child Wealth Building Act of 2021, as introduced on May 3, 2021 (Bill 24-236)</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
@@ -403,6 +418,6 @@
   <section>
     <num>12</num>
     <heading>Effective date.</heading>
-    <text>The act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 30-day period of congressional review as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December 24, 1973, (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)), and publication in the District of Columbia Register.</text>
+    <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 30-day period of congressional review as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)), and publication in the District of Columbia Register.</text>
   </section>
 </document>
