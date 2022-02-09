@@ -28,6 +28,11 @@
     <para>
       <num>(a)</num>
       <text>Section 101 (D.C. Official Code § 2-1401.01) is amended by striking the phrase "and place of residence or business" and inserting the phrase "place of residence or business, and status as a victim or family member of a victim of domestic violence, a sexual offense, or stalking" in its place.</text>
+      <!-- this corrects translation error "this act" to "this chapter". should be "this act" to "this unit" -->
+      <codify:find-replace path="§2-1401.01" count="1">
+        <find>this chapter</find>
+        <replace><cite doc="D.C. Code" path="2|14|A">this unit</cite></replace>
+      </codify:find-replace>
       <codify:find-replace path="§2-1401.01" count="1">
         <find>and place of residence or business</find>
         <replace>place of residence or business, and status as a victim or family member of a victim of domestic violence, a sexual offense, or stalking</replace>
