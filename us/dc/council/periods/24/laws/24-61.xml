@@ -1,27 +1,44 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 24-209">
-  <num type="act">24-209</num>
-  <num type="bill">24-404</num>
-  <heading type="short">COVID Vaccination Leave Emergency Amendment Act of 2021</heading>
-  <heading type="long">To amend, on an emergency basis, the Accrued Sick and Safe Leave Act of 2008 to provide paid time off for COVID vaccinations and recovery; the District of Columbia Family and Medical Leave Act of 1990 to extend and update existing unpaid leave available for COVID-related purposes; and the Coronavirus Support Temporary Amendment Act of 2021 to make conforming amendments.</heading>
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 24-61">
+  <num type="law">24-61</num>
+  <num type="act">24-255</num>
+  <num type="bill">24-405</num>
+  <heading type="short">COVID Vaccination Leave Temporary Amendment Act of 2021</heading>
+  <heading type="long">To amend, on a temporary basis, the Accrued Sick and Safe Leave Act of 2008 to provide paid time off for COVID vaccinations and recovery; the District of Columbia Family and Medical Leave Act of 1990 to extend and update existing unpaid leave available for COVID-related purposes; and the Coronavirus Support Temporary Amendment Act of 2021 to make conforming amendments.</heading>
   <meta>
     <introduced>2021-10-04</introduced>
-    <effective>2021-11-05</effective>
+    <effective>2022-02-18</effective>
+    <temporary/>
     <citations>
-      <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/47928/Signed_Act/B24-0404-Signed_Act.pdf">D.C. Act 24-209</citation>
-      <citation type="register">68 DCR 012355</citation>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/47929/Signed_Act/B24-0405-Signed_Act.pdf">D.C. Law 24-61</citation>
+      <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/47929/Signed_Act/B24-0405-Signed_Act.pdf">D.C. Act 24-405</citation>
+      <citation type="register">68 DCR 014074</citation>
     </citations>
-    <history url="https://lims.dccouncil.us/Legislation/B24-0404">
-      <vote date="2021-11-02" reading="Final"/>
+    <history url="https://lims.dccouncil.us/Legislation/B24-0405">
+      <vote date="2021-11-02" reading="First"/>
       <vote date="2021-11-02" reading="Amendment"/>
       <vote date="2021-11-02" reading="Amendment"/>
-      <enacted>2021-11-05</enacted>
+      <vote date="2021-12-07" reading="Final"/>
+      <vote date="2021-12-07" reading="Amendment"/>
+      <enacted>2021-12-22</enacted>
       <summary/>
       <committee>Retained by the Council</committee>
     </history>
   </meta>
-  <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "COVID Vaccination Leave Emergency Amendment Act of 2021".</text>
+  <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "COVID Vaccination Leave Temporary Amendment Act of 2021".</text>
+  <codify:insert doc="D.C. Code" path="32|5|III" after="§32-531.02" num-value="32-531.02a" history="false" display-template="">
+    <section>
+      <num>3a</num>
+      <heading>[Expired].</heading>
+    </section>
+  </codify:insert>
   <section codify:doc="D.C. Code">
+    <codify:insert doc="D.C. Code" path="§32-531.04" after="(a)" history="false" display-template="">
+      <para>
+        <num>(a-1)</num>
+        <text>[Expired].</text>
+      </para>
+    </codify:insert>
     <num>2</num>
     <text>The Accrued Sick and Safe Leave Act of 2008, effective May 13, 2008 (D.C. Law 17-152; D.C. Official Code § 32-531.01 <em>et seq</em>.), is amended as follows:</text>
     <para codify:path="§32-531.01|(5)">
@@ -29,7 +46,7 @@
       <text>Section 2(5) (D.C. Official Code § 32-531.01(5)) is amended to read as follows:</text>
       <include lvl="1">
         <para>
-          <!-- <codify:replace/> -->
+          <codify:replace/>
           <num>(5)</num>
           <text>"Paid leave" means:</text>
           <para>
@@ -38,38 +55,38 @@
           </para>
           <para>
             <num>(B)</num>
-            <text>Compensated leave required to be provided by an employer to an employee pursuant to section 3a or <code-cite doc="D.C. Code" path="§32-531.02b">section 3b</code-cite>.</text>
+            <text>Compensated leave required to be provided by an employer to an employee pursuant to <span codify:value="§ 32-531.02a [Expired]">section 3a</span> or <code-cite doc="D.C. Code" path="§32-531.02b">section 3b</code-cite>.</text>
           </para>
         </para>
       </include>
       <aftertext>.</aftertext>
-      <codify:emergency doc="D.C. Code" path="§32-531.01"/>
-       <!-- <codify:insert doc="D.C. Code" path="§32-531.01" before="heading" history="false" display-template="">
+      <codify:temporary doc="D.C. Code" path="§32-531.01"/>
+      <codify:insert doc="D.C. Code" path="§32-531.01" before="heading" history="false" display-template="">
         <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on February 3, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.01(Perm)">Permanent Version</cite>.*
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.01(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert>  -->
+      </codify:insert>
     </para>
     <para codify:path="§32-531.02|(c)|(1)">
       <num>(b)</num>
       <text>Section 3(c)(1) (D.C. Official Code § 32-531.02(c)(1)) is amended by striking the phrase "Paid leave under" and inserting the phrase "Except as provided in section 3a or 3b, paid leave under" in its place.</text>
-       <!-- <codify:find-replace count="1">
+      <codify:find-replace count="1">
         <find>Paid leave under</find>
-        <replace>Except as provided in section 3a or <code-cite doc="D.C. Code" path="§32-531.02b">section 3</code-cite>, paid leave under</replace>
-      </codify:find-replace>  -->
-      <codify:emergency doc="D.C. Code" path="§32-531.02"/>
-       <!-- <codify:insert doc="D.C. Code" path="§32-531.02" before="heading" history="false" display-template="">
+        <replace>Except as provided in <span codify:value="§ 32-531.02a [Expired]">section 3a</span> or <code-cite doc="D.C. Code" path="§32-531.02b">section 3</code-cite>, paid leave under</replace>
+      </codify:find-replace>
+      <codify:temporary doc="D.C. Code" path="§32-531.02"/>
+      <codify:insert doc="D.C. Code" path="§32-531.02" before="heading" history="false" display-template="">
         <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on February 3, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.02(Perm)">Permanent Version</cite>.*
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.02(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert>  -->
+      </codify:insert>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="32|5|III">
       <num>(c)</num>
       <text>A new section 3b is added to read as follows:</text>
       <include>
         <section>
-           <!-- <codify:insert path="32|5|III" num-value="32-531.02b" history-prefix="as added"/>  -->
+          <codify:insert after="§32-531.02a" num-value="32-531.02b" history-prefix="as added"/>
           <num>3b</num>
           <heading>Paid vaccination leave requirement.</heading>
           <para>
@@ -80,7 +97,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>An employer shall provide paid leave to an employee in the following amounts, but shall not be required to provide more than 48 hours of leave in total in a year beginning on November 5, 2021:</text>
+              <text>An employer shall provide paid leave to an employee in the following amounts, but shall not be required to provide more than 48 hours of leave in total in a year beginning on <span codify:value="November 18, 2021">the effective date of the COVID Vaccination Leave Emergency Amendment Act of 2021, effective  November 18, 2021 (D.C. Act 24-209; 68 DCR 12355)</span>:</text>
               <para>
                 <num>(A)</num>
                 <text>For vaccination leave, up to 2 hours per injection; and</text>
@@ -131,6 +148,10 @@
           </para>
           <para>
             <num>(d)</num>
+            <text>This section shall not apply to the extent it is preempted by a currently enforceable federal law, regulation, or standard.</text>
+          </para>
+          <para>
+            <num>(e)</num>
             <text>For the purposes of this section, the term:</text>
             <para>
               <num>(1)</num>
@@ -161,13 +182,13 @@
         </section>
       </include>
       <aftertext>.</aftertext>
-      <!-- <codify:emergency doc="D.C. Code" path="§32-531.02" action="dealing with paid vaccination leave"/> -->
-       <codify:emergency-new-sec doc="D.C. Code" path="§32-531.02b" interim-path="§32-531.02" perm-eff="2022-02-18"/> 
-       <!-- <codify:insert doc="D.C. Code" path="§32-531.02b" before="heading" history="false" display-template="">
+      <!-- <codify:temporary doc="D.C. Code" path="§32-531.02" action="dealing with paid vaccination leave"/> -->
+      <codify:temporary-new-sec doc="D.C. Code" path="§32-531.02b" interim-path="§32-531.02" perm-eff="2022-02-18"/>
+      <codify:insert doc="D.C. Code" path="§32-531.02b" before="heading" history="false" display-template="">
         <text>
-      *NOTE: This section was created by emergency legislation that will expire on February 3, 2022.*
+      *NOTE: This section was created by temporary legislation that will expire on October 1, 2022.*
       </text>
-      </codify:insert>  -->
+      </codify:insert>
     </para>
     <para codify:path="§32-531.03">
       <num>(c)</num>
@@ -175,16 +196,16 @@
       <para>
         <num>(1)</num>
         <text>The existing text is designated as subsection (a).</text>
-         <!-- <codify:redesignate-para path="§32-531.03" num-value="(a)"/>  -->
+        <codify:redesignate-para path="§32-531.03" num-value="(a)"/>
       </para>
       <para>
         <num>(2)</num>
         <text>New subsections (b) and (c) are added to read as follows:</text>
         <include>
           <para>
-             <!-- <codify:insert/>  -->
+            <codify:insert/>
             <num>(b)</num>
-            <text>An employer may not require an employee who seeks to use paid leave pursuant to section 3a to:</text>
+            <text>An employer may not require an employee who seeks to use paid leave pursuant to <span codify:value="§ 32-531.02a [Expired]">section 3a</span> to:</text>
             <para>
               <num>(1)</num>
               <text>For any reason, provide more than 48 hours' notice of the need to use such leave;</text>
@@ -199,18 +220,19 @@
             </para>
           </para>
           <para>
+            <codify:insert/>
             <num>(c)</num>
             <text>An employer may not require an employee who seeks to use paid leave pursuant to <code-cite doc="D.C. Code" path="§32-531.02b">section 3b</code-cite> to search for or identify another employee to perform the work hours or work of the employee using the paid leave.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <codify:emergency doc="D.C. Code" path="§32-531.03"/>
-       <!-- <codify:insert doc="D.C. Code" path="§32-531.03" before="heading" history="false" display-template="">
+      <codify:temporary doc="D.C. Code" path="§32-531.03"/>
+      <codify:insert doc="D.C. Code" path="§32-531.03" before="heading" history="false" display-template="">
         <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on February 3, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.03(Perm)">Permanent Version</cite>.*
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.03(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert>  -->
+      </codify:insert>
     </para>
     <para codify:path="§32-531.04">
       <num>(d)</num>
@@ -220,7 +242,7 @@
         <text>A new subsection (a-2) is added to read as follows:</text>
         <include>
           <para>
-             <!-- <codify:insert/>  -->
+            <codify:insert after="(a-1)"/>
             <num>(a-2)</num>
             <text>An employer may require that an employee who uses paid leave pursuant to <code-cite doc="D.C. Code" path="§32-531.02b">section 3b</code-cite> to provide reasonable documentation upon return to work of the need for leave, which may include a vaccination record or other documentation attesting to the date and time of the vaccination injection.</text>
           </para>
@@ -230,21 +252,21 @@
       <para codify:path="(b)|(2)">
         <num>(2)</num>
         <text>Subsection (b)(2) is amended by striking the phrase "under section 3" and inserting the phrase "under sections 3, 3a, or 3b" in its place.</text>
-         <!-- <codify:find-replace count="1">
+        <codify:find-replace count="1">
           <find>32-131.02</find>
           <replace>32-531.02</replace>
-        </codify:find-replace>  -->
-         <!-- <codify:find-replace count="1">
+        </codify:find-replace>
+        <codify:find-replace count="1">
           <find>shall</find>
-          <replace>, <cite doc="D.C. Code" path="§32-531.02a">§ 32-531.02a</cite>, or <cite doc="D.C. Code" path="§32-531.02b">§ 32-131.02b</cite> shall</replace>
-        </codify:find-replace>  -->
+          <replace>, § 32-531.02a [Expired], or <cite doc="D.C. Code" path="§32-531.02b">§ 32-131.02b</cite> shall</replace>
+        </codify:find-replace>
       </para>
-      <codify:emergency doc="D.C. Code" path="§32-531.04"/>
-       <!-- <codify:insert doc="D.C. Code" path="§32-531.04" before="heading" history="false" display-template="">
+      <codify:temporary doc="D.C. Code" path="§32-531.04"/>
+      <codify:insert doc="D.C. Code" path="§32-531.04" before="heading" history="false" display-template="">
         <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on February 3, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.04(Perm)">Permanent Version</cite>.*
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.04(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert>  -->
+      </codify:insert>
     </para>
   </section>
   <section codify:doc="D.C. Code">
@@ -252,12 +274,12 @@
     <text>The District of Columbia Family and Medical Leave Act of 1990, effective October 3, 1990 (D.C. Law 8-181; D.C. Official Code § 32-501 <em>et seq</em>.), is amended by adding a new section 3a to read as follows:</text>
     <include>
       <section>
-         <!-- <codify:insert path="32|5|I" after="§32-502" num-value="32-502.01" history-prefix="as added"/>  -->
+        <codify:insert path="32|5|I" after="§32-502" num-value="32-502.01" history-prefix="as added"/>
         <num>3a</num>
         <heading>COVID-19 leave.</heading>
         <para>
           <num>(a)</num>
-          <text>Beginning on November 5, 2021, an employee shall be entitled to leave if the employee is unable to work because the employee:</text>
+          <text>Beginning November 5, 2021, an employee shall be entitled to leave if the employee is unable to work because the employee:</text>
           <para>
             <num>(1)</num>
             <text>Has tested positive for COVID-19 or is caring for a family member or individual with whom the employee shares a household who has tested positive for COVID-19 and must quarantine pursuant to Department of Health guidelines;</text>
@@ -277,7 +299,7 @@
         </para>
         <para>
           <num>(b)</num>
-          <text>An employee may use no more than 16 weeks of leave pursuant to this section in the 2-year period beginning on <span codify:value="November 18, 2021">the effective date of the COVID Vaccination Leave Emergency Amendment Act of 2021, passed on emergency basis on November 2, 2021 (Enrolled version of Bill 24-404)</span>.</text>
+          <text>An employee may use no more than 16 weeks of leave pursuant to this section in the 2-year period beginning on <span codify:value="November 18, 2021">the effective date of the COVID Vaccination Leave Emergency Amendment Act of 2021, effective November 18, 2021 (D.C. Act 24-209; 68 DCR 12355)</span>.</text>
         </para>
         <para>
           <num>(c)</num>
@@ -315,7 +337,7 @@
           </para>
           <para>
             <num>(2)</num>
-            <text>Any paid leave provided by an employer that the employee elects to use for leave under this section shall count against the total workweeks of allowable leave provided in <code-cite doc="D.C. Code" path="32|5|III">this act</code-cite>.</text>
+            <text>Any paid leave provided by an employer that the employee elects to use for leave under this section shall count against the total workweeks of allowable leave provided in <code-cite doc="D.C. Code" path="32|5|I">this act</code-cite>.</text>
           </para>
           <para>
             <num>(3)</num>
@@ -346,13 +368,13 @@
       </section>
     </include>
     <aftertext>.</aftertext>
-    <codify:emergency doc="D.C. Code" path="§32-502" action="creation of a provision dealing with COVID-19 leave"/>
-     <!-- <codify:emergency-new-sec doc="D.C. Code" path="§32-502.01" interim-path="§32-502" perm-eff="2021-11-18"/>  -->
-     <!-- <codify:insert doc="D.C. Code" path="§32-502.01" before="heading" history="false" display-template="">
+    <codify:temporary doc="D.C. Code" path="§32-502" action="creation of a provision dealing with COVID-19 leave"/>
+    <codify:temporary-new-sec doc="D.C. Code" path="§32-502.01" interim-path="§32-502" perm-eff="2022-02-18"/>
+    <codify:insert doc="D.C. Code" path="§32-502.01" before="heading" history="false" display-template="">
       <text>
-      *NOTE: This section was created by emergency legislation that will expire on February 3, 2022.*
+      *NOTE: This section was created by temporary legislation that will expire on October 1, 2022.*
       </text>
-    </codify:insert>  -->
+    </codify:insert>
   </section>
   <section>
     <num>4</num>
@@ -387,6 +409,13 @@
   <section>
     <num>7</num>
     <heading>Effective date.</heading>
-    <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), and shall remain in effect for no longer than 90 days, as provided for emergency acts of the Council of the District of Columbia in section 412(a) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 788; D.C. Official Code § 1-204.12(a)).</text>
+    <para>
+      <num>(a)</num>
+      <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 30-day period of congressional review as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December 23, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)), and publication in the District of Columbia Register.</text>
+    </para>
+    <para>
+      <num>(b)</num>
+      <text>This act shall expire after 225 days of its having taken effect.</text>
+    </para>
   </section>
 </document>

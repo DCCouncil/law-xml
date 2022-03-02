@@ -1,42 +1,45 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 24-245">
-  <num type="bill">24-550</num>
-  <num type="act">24-245</num>
-  <heading type="short">Preserve Our Healthcare Workforce Congressional Review Emergency Amendment Act of 2021</heading>
-  <heading type="long">To amend, on an emergency basis, cue to congressional review, the Uniform Emergency Volunteer Health Practitioners Act of 2010 to allow qualified volunteer health care professionals and licensed health care providers to practice in the District without a District license until August 10, 2022; the Emergency Medical Services Act of 2008 to allow an individual to provide emergency medical services without a District license or certification until August 10, 2022; and the Health Occupation revision Act of 1985 to allow health care professionals to practice in the District without a District license, registration, or certification until August 10, 2022; and to make conforming amendments to the District of Columbia Municipal Regulations.</heading>
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 24-59">
+  <num type="law">24-59</num>
+  <num type="bill">24-400</num>
+  <num type="act">24-240</num>
+  <heading type="short">Preserve Our Healthcare Workforce Temporary Amendment Act of 2021</heading>
+  <heading type="long">To amend, on a temporary basis, the Uniform Emergency Volunteer Health Practitioners Act of 2010 to allow qualified volunteer health care professionals and licensed health care providers to practice in the District without a District license until August 10, 2022; the Emergency Medical Services Act of 2008 to allow an individual to provide emergency medical services without a District license or certification until August 10, 2022; and the District of Columbia Health Occupation Revision Act of 1985 to allow health care professionals to practice in the District without a District license, registration, or certification until August 10, 2022; and to make conforming amendments to the District of Columbia Municipal Regulations.</heading>
   <meta>
-    <introduced>2021-12-06</introduced>
-    <effective>2021-12-24</effective>
+    <introduced>2021-10-04</introduced>
+    <effective>2022-02-18</effective>
+    <temporary/>
     <citations>
-      <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/48384/Signed_Act/B24-0550-Signed_Act.pdf">D.C. Act 24-245</citation>
-      <citation type="register">68 DCR 013514</citation>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/47897/Signed_Act/B24-0400-Signed_Act.pdf">D.C. Law 24-59</citation>
+      <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/47897/Signed_Act/B24-0400-Signed_Act.pdf">D.C. Act 24-400</citation>
+      <citation type="register">68 DCR 013496</citation>
     </citations>
-    <history url="https://lims.dccouncil.us/Legislation/B24-0550">
-      <vote date="2021-12-07" reading="Final"/>
-      <vote date="2021-10-05" reading="Final"/>
-      <enacted>2021-12-24</enacted>
+    <history url="https://lims.dccouncil.us/Legislation/B24-0400">
+      <vote date="2021-10-05" reading="First"/>
+      <vote date="2021-11-02" reading="Final"/>
+      <enacted>2021-12-14</enacted>
       <summary/>
       <committee>Retained by the Council</committee>
     </history>
   </meta>
-  <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Preserve Our Healthcare Workforce Congressional Review Emergency Amendment Act of 2021".</text>
+  <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Preserve Our Healthcare Workforce Temporary Amendment Act of 2021".</text>
   <section codify:doc="D.C. Code" codify:path="§7-2361.05">
     <num>2</num>
     <text>Section 6 of the Uniform Emergency Volunteer Health Practitioners Act of 2010, effective July 1, 2010 (D.C. Law 18-184; D.C. Official Code § 7-2361.05), is amended as follows:</text>
     <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended by striking the phrase "While an emergency declaration is in effect," and inserting the phrase "Except as provided in subsection (a-1) of this section, while an emergency declaration is in effect," in its place.</text>
-      <!-- <codify:find-replace count="1">
+      <codify:find-replace count="1">
         <find>While an emergency declaration is in effect,</find>
         <replace>Except as provided in subsection (a-1) of this section, while an emergency declaration is in effect,</replace>
-      </codify:find-replace> -->
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>A new subsection (a-1) is added to read as follows:</text>
       <include>
         <para>
-          <!-- <codify:insert after="(a)"/> -->
+          <codify:insert after="(a)"/>
           <num>(a-1)</num>
           <para>
             <num>(1)</num>
@@ -60,12 +63,12 @@
         </para>
       </include>
       <aftertext>.</aftertext>
-      <codify:emergency doc="D.C. Code" path="§7-2361.05"/>
-      <!-- <codify:insert doc="D.C. Code" path="§7-2361.05" before="heading" history="false" display-template="">
+      <codify:temporary doc="D.C. Code" path="§7-2361.05"/>
+      <codify:insert doc="D.C. Code" path="§7-2361.05" before="heading" history="false" display-template="">
         <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on March 24, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§7-2361.05(Perm)">Permanent Version</cite>.*
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 1, 2021. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§7-2361.05(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert> -->
+      </codify:insert>
     </para>
   </section>
   <section>
@@ -73,7 +76,7 @@
     <text>The Emergency Medical Services Act of 2008, effective March 25, 2009 (D.C. Law 17-357; D.C. Official Code § 7-2341.01 <em>et seq</em>.), is amended by adding a new section 3a to read as follows:</text>
     <include>
       <section>
-        <!-- <codify:insert doc="D.C. Code" path="7|23B" after="§7-2341.02" num-value="7-2341.02a"/> -->
+        <codify:insert doc="D.C. Code" path="7|23B" after="§7-2341.02" num-value="7-2341.02a"/>
         <num>3a</num>
         <heading>Exemption from licensure or certification.</heading>
         <para>
@@ -97,7 +100,7 @@
           <text>An emergency medical services agency utilizing the services of an individual providing emergency medical services pursuant to this section shall:</text>
           <para>
             <num>(1)</num>
-            <text>Verify the credentials and license or certification status of the individual in order to ensure compliance with this section, including by confirming that the individual has not been issued a suspension or revocation order by the District and verifying that the individual has been fully vaccinated for COVID-19 or has received an exemption from vaccination by the Department;</text>
+            <text>Verify the credentials and license or certification status of the individual to ensure compliance with this section, including by confirming that the individual has not been issued a suspension or revocation order by the District and verifying that the individual has been fully vaccinated for COVID-19 or has received an exemption from vaccination by the Department;</text>
           </para>
           <para>
             <num>(2)</num>
@@ -112,7 +115,7 @@
           <num>(c)</num>
           <para>
             <num>(1)</num>
-            <text>The Mayor shall not require an individual providing emergency medical services pursuant to this section to apply for a District license or certification prior to March 31, 2022<s>.".</s>; and</text>
+            <text>The Mayor shall not require an individual providing emergency medical services pursuant to this section to apply for a District license or certification prior to March 31, 2022; and</text>
           </para>
           <para>
             <num>(2)</num>
@@ -122,26 +125,27 @@
       </section>
     </include>
     <aftertext>.</aftertext>
-    <codify:emergency-new-sec doc="D.C. Code" path="§7-2341.02a" interim-path="§7-2341.02" perm-eff="2022-02-18"/>
-    <!-- <codify:insert doc="D.C. Code" path="§7-2341.02a" before="heading" history="false" display-template="">
+    <!-- not working -->
+    <codify:temporary-new-sec doc="D.C. Code" path="§7-2341.02a" interim-path="§7-2341.02" perm-eff="2022-02-18"/>
+    <codify:insert doc="D.C. Code" path="§7-2361.05" before="heading" history="false" display-template="">
       <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on March 24, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§7-2341.02a(Perm)">Permanent Version</cite>.*
+      *NOTE: This section was created by temporary legislation that will expire on October 1, 2021.*
       </text>
-    </codify:insert> -->
+    </codify:insert>
   </section>
   <section>
     <num>4</num>
     <text>Section 502 of the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1205.02), is amended by adding a new subsection (c) to read as follows:</text>
     <include>
       <para>
-        <!-- <codify:insert doc="D.C. Code" path="§3-1205.02"/> -->
+        <codify:insert doc="D.C. Code" path="§3-1205.02"/>
         <num>(c)</num>
         <para>
           <num>(1)</num>
           <text>Notwithstanding any other law, an individual may engage in the practice of providing healthcare to District residents for a particular health occupation without a District license, registration, or certification until August 10, 2022, if the individual:</text>
           <para>
             <num>(A)</num>
-            <text>Is licensed, registered, or certified, and in good standing in another jurisdiction in the applicable health occupation;</text>
+            <text>Is licensed, registered, or certified, and in good standing in another jurisdiction in the applicable healthcare occupation;</text>
           </para>
           <para>
             <num>(B)</num>
@@ -169,7 +173,7 @@
           <text>For purposes of this subsection, the term "healthcare entity" means:</text>
           <para>
             <num>(A)</num>
-            <text>An ambulatory surgical facility, assisted living residence, community resident facility, group home for persons with intellectual disabilities, home care agency, hospice, hospital, maternity center, nursing home, or renal dialysis facility, as those terms are defined in <code-cite doc="D.C. Code" path="§44-1051.01">section 2(a) of the Health-Care and Community Residence Facility Hospice and Home Care Licensure Act of 1983, effective February 24, 1984 (D.C. Law 5-48; D.C. Official Code § 44-501(a))</code-cite>;</text>
+            <text>An ambulatory surgical facility, assisted living residence, community resident facility, group home for persons with intellectual disabilities, home care agency, hospice, hospital, maternity center, nursing home, or renal dialysis facility, as those terms are defined in <code-cite doc="D.C. Code" path="§44-501|(a)">section 2(a) of the Health-Care and Community Residence Facility Hospice and Home Care Licensure Act of 1983, effective February 24, 1984 (D.C. Law 5-48; D.C. Official Code § 44-501(a))</code-cite>;</text>
           </para>
           <para>
             <num>(B)</num>
@@ -226,12 +230,12 @@
       </para>
     </include>
     <aftertext>.</aftertext>
-    <codify:emergency doc="D.C. Code" path="§3-1205.02"/>
-      <!-- <codify:insert doc="D.C. Code" path="§3-1205.02" before="heading" history="false" display-template="">
-        <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on March 24, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§3-1205.02(Perm)">Permanent Version</cite>.*
+    <codify:temporary doc="D.C. Code" path="§3-1205.02"/>
+    <codify:insert doc="D.C. Code" path="§3-1205.02" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 1, 2021. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§3-1205.02(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert> -->
+    </codify:insert>
   </section>
   <section>
     <codify:marginalia display="DCMR"/>
@@ -313,11 +317,18 @@
   <section>
     <num>7</num>
     <heading>Fiscal impact statement.</heading>
-    <text>The Council adopts the fiscal impact statement of the Budget Director for the Preserve Out Healthcare Workforce Emergency Amendment Act of 2021, effective October 25, 2021 (D.C. ACt 24-189; 69 DCR 11343), as the fiscal impact statement required by section 4a of the General Legislative Procedures Act of 1975, approved October 16, 2006 (120 Stat. 2038; D.C. Official Code § 1-301.47a).</text>
+    <text>The Council adopts the fiscal impact statement of the Budget Director as the fiscal impact statement required by section 4a of the General Legislative Procedures Act of 1975, approved October 16, 2006 (120 Stat. 2038; D.C. Official Code § 1-301.47a).</text>
   </section>
   <section>
     <num>8</num>
     <heading>Effective date.</heading>
-    <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), and shall remain in effect for no longer than 90 days, as provided for emergency acts of the Council of the District of Columbia in section 412(a) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 788; D.C. Official Code § 1-204.12(a)).</text>
+    <para>
+      <num>(a)</num>
+      <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 30-day period of congressional review as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December 23, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)), and publication in the District of Columbia Register.</text>
+    </para>
+    <para>
+      <num>(b)</num>
+      <text>This act shall expire after 225 days of its having taken effect.</text>
+    </para>
   </section>
 </document>

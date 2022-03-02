@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 24-220">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 24-55">
+  <num type="law">24-55</num>
   <num type="act">24-220</num>
   <num type="bill">24-375</num>
   <heading type="short">Rent Control Housing Database Deadline Extension Temporary Amendment Act of 2021</heading>
   <heading type="long">To amend, on a temporary basis, the Rental Housing Act of 1985 to extend the deadline by which the Office of the Tenant Advocate must develop the Rent Control Housing  Database and transfer administration and maintenance of the database to the Rental  Accommodations Division.</heading>
   <meta>
     <introduced>2021-10-01</introduced>
-    <effective projected="true">2022-02-18</effective>
+    <effective>2022-02-18</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/47856/Signed_Act/B24-0375-Signed_Act.pdf">D.C. Law 24-55</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/47856/Signed_Act/B24-0375-Signed_Act.pdf">D.C. Act 24-220</citation>
       <citation type="register">68 DCR 013204</citation>
     </citations>
@@ -21,9 +23,19 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Rent Control Housing Database Deadline Extension Temporary Amendment Act of 2021".</text>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§42-3502.03c|(e)">
     <num>2</num>
     <text>Section 203c(e) of the Rental Housing Act of 1985, effective July 17, 1985 (D.C.  Law 6-10; D.C. Official Code § 42-3502.03c(e)), is amended by striking the phrase "September 30, 2020" and inserting the phrase "March 31, 2022" in its place.</text>
+    <codify:find-replace count="1">
+      <find>September 30, 2020</find>
+      <replace>March 31, 2022</replace>
+    </codify:find-replace>
+    <codify:temporary doc="D.C. Code" path="§42-3502.03c"/>
+    <codify:insert doc="D.C. Code" path="§42-3502.03c" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§42-3502.03c(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>4</num>
