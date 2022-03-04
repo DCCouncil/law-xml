@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 24-257">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 24-68">
+  <num type="law">24-68</num>
   <num type="act">24-257</num>
   <num type="bill">24-480</num>
   <heading type="short">Fifty-Point Preference Clarification Temporary Amendment Act of 2021</heading>
   <heading type="long">To amend, on a temporary basis, the Legalization of Marijuana for Medical Treatment Initiative of 2010 to clarify the eligibility requirements for utilizing the 50-point or 20% preference on an application for a dispensary, cultivation center, or testing laboratory registration when an applicant is certified by the Department of Small and Local Business Development as an equity impact enterprise; and to amend the Small and Certified Enterprise Development and Assistance Act of 2005 to clarify the definition of equity impact enterprise.</heading>
   <meta>
     <introduced>2021-11-01</introduced>
-    <effective projected="true">2022-02-18</effective>
+    <effective>2022-02-18</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/48163/Signed_Act/B24-0480-Signed_Act.pdf">D.C. Law 24-68</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/48163/Signed_Act/B24-0480-Signed_Act.pdf">D.C. Act 24-257</citation>
       <citation type="register">68 DCR 014082</citation>
     </citations>
@@ -26,6 +28,7 @@
     <text>Section 7(d)(5) of the Legalization of Marijuana for Medical Treatment Initiative of 2010, effective July 27, 2010 (D.C. Law 18-210; D.C. Official Code § 7-1671.06(d)(5), is amended to read as follows:</text>
     <include lvl="1">
       <para>
+        <codify:replace doc="D.C. Code" path="§7-1671.06|(d)|(5)"/>
         <num>(5)</num>
         <para>
           <num>(A)</num>
@@ -33,14 +36,14 @@
         </para>
         <para>
           <num>(B)</num>
-          <text>Straw ownership for the purposes of meeting the medical cannabis ownership requirements of this section is prohibited, both for a District resident and an out-of-state resident. A person who is found to have willfully asserted straw ownership shall be guilty of a misdemeanor and upon conviction shall be punished by a fine of not more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or imprisoned for not more than one year, or both.</text>
+          <text>Straw ownership for the purposes of meeting the medical cannabis ownership requirements of this section is prohibited, both for a District resident and an out-of-state resident. A person who is found to have willfully asserted straw ownership shall be guilty of a misdemeanor and upon conviction shall be punished by a fine of not more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01),</code-cite> or imprisoned for not more than one year, or both.</text>
         </para>
         <para>
           <num>(C)</num>
           <text>To qualify as a medical cannabis certified business enterprise the applicant shall:</text>
           <para>
             <num>(i)</num>
-            <text>Be certified by the Department of Small and Local Business Development ("Department") as an equity impact enterprise, as defined by section 2302(8A) of the Small and Certified Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 2-218.02(8A)), ("CBE Act") and rules issued pursuant to the CBE Act;</text>
+            <text>Be certified by the Department of Small and Local Business Development ("Department") as an equity impact enterprise, as defined by <code-cite doc="D.C. Code" path="§2-218.02|(8A)">section 2302(8A) of the Small and Certified Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 2-218.02(8A))</code-cite>, ("CBE Act") and rules issued pursuant to the CBE Act;</text>
           </para>
           <para>
             <num>(ii)</num>
@@ -58,10 +61,26 @@
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:temporary doc="D.C. Code" path="§7-1671.06"/>
+    <codify:insert doc="D.C. Code" path="§7-1671.06" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§7-1671.06(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
     <text>Section 2302(8A)(A) of the Small and Certified Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 2-218.02(8A)), is amended by striking the phrase "; or" and inserting the phrase "; and" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§2-218.02|(8A)|(A)" count="1">
+      <find>; or</find>
+      <replace>; and</replace>
+    </codify:find-replace>
+    <codify:temporary doc="D.C. Code" path="§2-218.02"/>
+    <codify:insert doc="D.C. Code" path="§2-218.02" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§2-218.02(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>4</num>

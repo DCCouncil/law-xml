@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 24-243">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 24-65">
+  <num type="law">24-65</num>
   <num type="act">24-243</num>
   <num type="bill">24-425</num>
   <heading type="short">Council Vaccination Policy Enforcement Temporary Amendment Act of 2021</heading>
   <heading type="long">To amend, on a temporary basis, the District of Columbia Government Comprehensive Merit Personnel Act of 1978 to allow the Chairman of the Council to take disciplinary action against Council employees for failure to comply with the Council COVID-19 Vaccination Policy.</heading>
   <meta>
     <introduced>2021-10-04</introduced>
-    <effective projected="true">2022-02-18</effective>
+    <effective>2022-02-18</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/47965/Signed_Act/B24-0425-Signed_Act.pdf">D.C. Law 24-65</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/47965/Signed_Act/B24-0425-Signed_Act.pdf">D.C. Act 24-243</citation>
       <citation type="register">68 DCR 013509</citation>
     </citations>
@@ -30,16 +32,34 @@
       <text>Section 406 (D.C. Official Code § 1-604.06) is amended by adding a new subsection (c) to read as follows:</text>
       <include>
         <para>
+          <codify:insert doc="D.C. Code" path="§1-604.06"/>
           <num>(c)</num>
           <text>For the purposes of enforcing the Council's COVID-19 Vaccination Policy ("policy"), the Chairman of the Council may, consistent with the policy, take disciplinary action against Council employees for failing to comply with the policy, up to and including termination. The Chairman's authority under this subsection, when exercised, shall supersede the authority granted to another councilmember pursuant to subsection (b)(3)(B) of this section.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:temporary doc="D.C. Code" path="§1-604.06"/>
+      <codify:insert doc="D.C. Code" path="§1-604.06" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§1-604.06(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
     <para>
       <num>(b)</num>
       <text>Section 905 (D.C. Official Code § 1-609.05) is amended by striking the phrase "employing them without" and inserting the phrase "employing them, or the Chairman of the Council pursuant to section 406(c), without" in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§1-609.05" count="1">
+        <find>employing them without</find>
+        <replace>employing them, or the Chairman of the Council pursuant to <code-cite doc="D.C. Code" path="§1-604.06|(c)">section 406(c)</code-cite>, without</replace>
+      </codify:find-replace>
+      <codify:temporary doc="D.C. Code" path="§1-609.05"/>
+    <codify:insert doc="D.C. Code" path="§1-609.05" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§1-609.05(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
     </para>
+    
   </section>
   <section>
     <num>3</num>
