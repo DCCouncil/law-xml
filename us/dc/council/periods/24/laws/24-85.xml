@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 24-285">
+<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Law 24-85">
+  <num type="law">24-85</num>
   <num type="act">24-285</num>
   <num type="bill">24-423</num>
   <heading type="short">Coronavirus Immunization of School Students and Early Childhood Workers Regulation Amendment Act of 2021</heading>
   <heading type="long">To amend the Immunization of School Students Act of 1979 to allow for electronic submission of immunization certifications by a healthcare professional authorized to administer a vaccine or the public health authorities and to require that eligible students in the District of Columbia receive a vaccination that is fully approved in the United States to prevent against COVID-19; and to amend Chapter 1 of Subtitle A of Title 5 of the District of Columbia Municipal Regulations to require all licensed Child Development Facilities to maintain a record of COVID-19 immunization for their staff.</heading>
   <meta>
     <introduced>2021-10-04</introduced>
-    <effective projected="true">2022-03-08</effective>
+    <effective>2022-03-02</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.us/downloads/LIMS/47962/Signed_Act/B24-0423-Signed_Act.pdf">D.C. Law 24-85</citation>
       <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/47962/Signed_Act/B24-0423-Signed_Act.pdf">D.C. Act 24-285</citation>
       <citation type="register">69 DCR 000440</citation>
     </citations>
@@ -30,17 +32,17 @@
       <para codify:path="(2)">
         <num>(1)</num>
         <text>Paragraph (2) is amended by striking the phrase "private physician" and inserting the phrase "healthcare professional authorized to administer a vaccine" in its place.</text>
-        <!-- <codify:find-replace count="1">
+        <codify:find-replace count="1">
           <find>private physician</find>
           <replace>healthcare professional authorized to administer a vaccine</replace>
-        </codify:find-replace> -->
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (2A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <!-- <codify:insert after="(2)"/> -->
+            <codify:insert after="(2)"/>
             <num>(2A)</num>
             <text>The term "COVID-19" means the disease caused by the novel coronavirus SARS-CoV-2.</text>
           </para>
@@ -52,7 +54,7 @@
         <text>Paragraph (8)(A) is amended to read as follows:</text>
         <include lvl="2">
           <para>
-            <!-- <codify:replace/> -->
+            <codify:replace/>
             <num>(A)</num>
             <text>A District of Columbia Public Schools school or a public charter school serving any grades pre-K through 12;</text>
           </para>
@@ -60,18 +62,20 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§38-502">
       <num>(b)</num>
       <text>Section 3 (D.C. Official Code § 38-502) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Designate the existing text as subsection (a).</text>
+        <codify:redesignate-para num-value="(a)"/>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (b) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(b)</num>
             <text>Beginning with School Year 2022-2023:</text>
             <para>
@@ -92,6 +96,7 @@
       <text>A new section 3a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="38|5" after="§38-502" num-value="38-502.01" history-prefix="as added"/>
           <num>3a</num>
           <heading>Certification of COVID-19 immunization.</heading>
           <para>
@@ -105,16 +110,16 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>The documentation required pursuant to section 7 demonstrating that the student is exempt from COVID-19 immunization.</text>
+                <text>The documentation required pursuant to <code-cite doc="D.C. Code" path="§38-506">section 7</code-cite> demonstrating that the student is exempt from COVID-19 immunization.</text>
               </para>
             </para>
             <para>
               <num>(2)</num>
-              <text>No student shall be admitted by a school unless the school has certification of COVID-19 immunization for that student or the student is exempted pursuant to section 7; provided, that this paragraph shall not be enforced until the start of School Year 2022-2023.</text>
+              <text>No student shall be admitted by a school unless the school has certification of COVID-19 immunization for that student or the student is exempted pursuant to <code-cite doc="D.C. Code" path="§38-506">section 7</code-cite>; provided, that this paragraph shall not be enforced until the start of School Year 2022-2023.</text>
             </para>
             <para>
               <num>(3)</num>
-              <text>Sections 5 and 6 shall apply to a student for whom a school does not have a certification of COVID-19 immunization; provided, that section 6 shall not be enforced with respect to certification of COVID-19 immunization until the start of School Year 2022-2023.</text>
+              <text>Sections <code-cite doc="D.C. Code" path="§38-504" codify:value="38-504">5</code-cite> and <code-cite doc="D.C. Code" path="§38-505" codify:value="38-505">6</code-cite> shall apply to a student for whom a school does not have a certification of COVID-19 immunization; provided, that <code-cite doc="D.C. Code" path="§38-505">section 6</code-cite> shall not be enforced with respect to certification of COVID-19 immunization until the start of School Year 2022-2023.</text>
             </para>
           </para>
           <para>
@@ -123,7 +128,7 @@
           </para>
           <para>
             <num>(c)</num>
-            <text>Electronic submission of a student's certification of COVID-19 immunization by a healthcare professional authorized to administer a vaccine or a public health authority in accordance with section 3(b) shall satisfy the requirement, in subsections (a) and (b) of this section, that a responsible person for the student submit the certification.</text>
+            <text>Electronic submission of a student's certification of COVID-19 immunization by a healthcare professional authorized to administer a vaccine or a public health authority in accordance with <code-cite doc="D.C. Code" path="§38-502|(b)">section 3(b)</code-cite> shall satisfy the requirement, in subsections (a) and (b) of this section, that a responsible person for the student submit the certification.</text>
           </para>
           <para>
             <num>(d)</num>
@@ -164,17 +169,28 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 3-20" type="History" path="§3a">Sept. 28, 1979, D.C. Law 3-20, § 3a</annotation>
     </para>
     <para>
       <num>(d)</num>
       <text>Section 4 (D.C. Official Code § 38-503) is amended by striking the period and inserting the phrase "; provided, that the Mayor may not issue regulations that conflict with the requirements of section 3a." in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§38-503" count="1">
+        <find>requested immunizations.</find>
+        <replace>requested immunizations; provided, that the Mayor may not issue regulations that conflict with the requirements of <cite doc="D.C. Code" path="§38-502.01">§ 38-502.01</cite>.</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(e)</num>
       <text>Section 5(a)(3) (D.C. Official Code § 38-506(a)(3)) is amended by striking the phrase "private physician" and inserting the phrase "healthcare professional authorized to administer a vaccine" in its place.</text>
+      <!-- § 38-504, not § 38-506 -->
+      <codify:find-replace path="§38-504|(a)|(3)" count="1">
+        <find>private physician</find>
+        <replace>healthcare professional authorized to administer a vaccine</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
+    <codify:marginalia display="DCMR"/>
     <num>3</num>
     <text>Chapter 1 of Subtitle A of Title 5 of the District of Columbia Municipal Regulations (5-A DCMR § 100 <em>et seq</em>.), is amended as follows:</text>
     <para>
