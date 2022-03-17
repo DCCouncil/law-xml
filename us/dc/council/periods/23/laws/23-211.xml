@@ -31,19 +31,19 @@
       <para codify:path="(1)|num">
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (1A).</text>
-        <!-- <codify:find-replace count="1">
+        <codify:find-replace count="1">
           <find>(1)</find>
           <replace>(1A)</replace>
-        </codify:find-replace> -->
-        <!-- fix when applicable -->
+        </codify:find-replace>
+        <!--Done: fix when applicable -->
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (1) is added to read as follows:</text>
         <include lvl="1">
-          <!-- fix when applicable -->
+          <!--Done: fix when applicable -->
           <para>
-            <codify:insert after="(1)" num-value="(1A)"/>
+            <codify:insert before="(1A)"/>
             <num>(1)</num>
             <text>"Back-of-house commercial food waste" means commercial food waste separated at the point of discard by employees of a commercial establishment. The term "back-of-house commercial food waste" does not include food waste discarded directly by customers of the establishment, but does include food waste discarded of on behalf of customers by employees.</text>
           </para>
@@ -1080,7 +1080,7 @@
             </para>
             <para>
               <num>(c)</num>
-              <text><code-cite doc="D.C. Code" path="8|7E">This subtitle</code-cite> shall not apply to batteries or battery-containing products that were imported into the District before<span codify:value="October 1, 2021"> the applicability date of section 2(q) of the Zero Waste Omnibus Amendment Act of 2020, passed on 2nd  reading on December 1, 2020 (Enrolled version of Bill 23-506)</span>.</text>
+              <text><code-cite doc="D.C. Code" path="8|7E">This subtitle</code-cite> shall not apply to batteries or battery-containing products that were imported into the District before <span codify:value="October 1, 2021"> the applicability date of section 2(q) of the Zero Waste Omnibus Amendment Act of 2020, passed on 2nd  reading on December 1, 2020 (Enrolled version of Bill 23-506)</span>.</text>
             </para>
              <annotation doc="D.C. Law 20-154" type="History" path="§129">Feb. 26, 2015, D.C. Law 20-154, § 129</annotation>
             <codify:not-funded-anno doc="D.C. Code" path="§8-771.02" action="creation of" applicability-path="§6" display-template=""/>
