@@ -64,7 +64,12 @@
   <section>
     <num>3</num>
     <!-- Waiting for this act to become law -->
+    <!-- Done late 4/7/22 -->
     <text>Section 2(h) of the Boundaries Act of 1975, effective December 16, 1975 (D.C. Law 1-38; D.C. Official Code § 1-1011.01(h)), is amended by striking the phrase "Any adjustment" and inserting the phrase "Except as may otherwise be provided in section 4 of the Redistricting Procedure Act of 1981, effective March 16, 1982 (D.C. Law 4-87; D.C. Official Code § 1-1041.03), any adjustment" in its place.</text>
+   <codify:find-replace doc="D.C. Code" path="§1-1011.01|(h)" count="1">
+     <find>Any adjustment</find>
+     <replace>Except as may otherwise be provided in <code-cite doc="D.C. Code" path="§1-1041.03">section 4 of the Redistricting Procedure Act of 1981, effective March 16, 1982 (D.C. Law 4-87; D.C. Official Code § 1-1041.03)</code-cite>, any adjustment</replace>
+   </codify:find-replace>
   </section>
   <section>
     <codify:marginalia display="DCMR"/>
@@ -121,10 +126,15 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(C)">
       <num>(c)</num>
       <text>Sub-paragraph (C) is amended by striking the phrase "; or" and inserting the phrase "; and" in its place.</text>
       <!-- Waiting for this act to become law -->
+      <!-- Done late 4/7/22  -->
+      <codify:find-replace count="1">
+        <find>; or</find>
+        <replace>; and</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
