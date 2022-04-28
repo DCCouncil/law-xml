@@ -318,8 +318,9 @@
     <include>
       <para>
         <codify:insert doc="D.C. Code" path="§47-2404" after="(h)"/>
+        <!-- need to include subsection (a) in link when funded -->
         <num>(h-1)</num>
-        <text>The Mayor may, after a hearing, suspend any license issued under this section for a first or second violation of <code-cite doc="D.C. Code" path="§7-1721.08|(a)">section 9(a) of An act to prohibit the sale of tobacco to minors under sixteen years of age in the District of Columbia, passed on 2nd reading on June 29, 2021 (Enrolled version of Bill 24-20)</code-cite>. The Mayor shall, after a hearing, revoke any license issued under this section for a third or subsequent violation of <code-cite doc="D.C. Code" path="§7-1721.08|(a)">section 9(a) of An act to prohibit the sale of tobacco to minors under sixteen years of age in the District of Columbia, passed on 2nd reading on June 29, 2021 (Enrolled version of Bill 24-20)</code-cite>.</text>
+        <text>The Mayor may, after a hearing, suspend any license issued under this section for a first or second violation of <code-cite doc="D.C. Code" path="§7-1721.08">section 9(a) of An act to prohibit the sale of tobacco to minors under sixteen years of age in the District of Columbia, passed on 2nd reading on June 29, 2021 (Enrolled version of Bill 24-20)</code-cite>. The Mayor shall, after a hearing, revoke any license issued under this section for a third or subsequent violation of <code-cite doc="D.C. Code" path="§7-1721.08">section 9(a) of An act to prohibit the sale of tobacco to minors under sixteen years of age in the District of Columbia, passed on 2nd reading on June 29, 2021 (Enrolled version of Bill 24-20)</code-cite>.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
@@ -331,7 +332,13 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
-             <codify:applicability  doc="D.C. Law 24-25" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 24-25" path="§2" date="notfunded" history="false" display-template=""/>
+      <!-- To add [] to Not Funded -->
+      <codify:repeal doc="D.C. Code" path="§47-2404|(h-1)"/>
+     <codify:find-replace doc="D.C. Code" path="§47-2404|(h-1)" count="1">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
