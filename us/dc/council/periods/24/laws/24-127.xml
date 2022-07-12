@@ -777,7 +777,7 @@
             </para>
             <para>
               <num>(h)</num>
-              <text>Within 180 days of <span codify:value="["></span><span codify:value="June 30, 2022">the effective date of the Reopen Washington DC Alcoholic Beverage Regulation Amendment Act of 2022, passed on 2nd reading on April 5, 2022 (Enrolled version of Bill 24-44)</span><span codify:value="]"></span>, the Board shall issue rules clarifying the parameters of the authority of private security in carrying out their duties while working the licensed premises of a center facility.</text>
+              <text>Within 180 days of <span codify:value="["/><span codify:value="June 30, 2022">the effective date of the Reopen Washington DC Alcoholic Beverage Regulation Amendment Act of 2022, passed on 2nd reading on April 5, 2022 (Enrolled version of Bill 24-44)</span><span codify:value="]"/>, the Board shall issue rules clarifying the parameters of the authority of private security in carrying out their duties while working the licensed premises of a center facility.</text>
             </para>
           </section>
         </include>
@@ -787,29 +787,31 @@
     <para>
       <num>(b)</num>
       <text>Chapter 2 is amended as follows:</text>
-      <para>
+      <para codify:path="§25-205">
         <num>(1)</num>
         <text>Section 25-205 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)|(2)">
           <num>(A)</num>
           <text>Subsection (a)(2) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(2)</num>
               <text>The support for, and objections to, the granting of licenses.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(B)</num>
           <text>Subsection (b) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(b)</num>
               <para>
                 <num>(1)</num>
-                <text>The Board shall maintain its records in a manner that allows disclosure to any person who has requested access to public records, except for those records or portions of records that are protected from disclosure by the exemptions listed in § 2-531 <em>et seq.</em> ("FOIA").</text>
+                <text>The Board shall maintain its records in a manner that allows disclosure to any person who has requested access to public records, except for those records or portions of records that are protected from disclosure by the exemptions listed in <cite doc="D.C. Code" path="§2-531">§ 2-531</cite> <em>et seq.</em> ("FOIA").</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -817,29 +819,30 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>The FOIA Officer shall respond to a FOIA request with a grant or a denial for access to records within 15 business days after the date of receipt of the request.  The 15-business-day limit may be extended up to an additional 10 business days for unusual circumstances, as set forth in § 2-532(d).</text>
+                <text>The FOIA Officer shall respond to a FOIA request with a grant or a denial for access to records within 15 business days after the date of receipt of the request.  The 15-business-day limit may be extended up to an additional 10 business days for unusual circumstances, as set forth in <cite doc="D.C. Code" path="§2-532|(d)">§ 2-532(d)</cite>.</text>
               </para>
               <para>
                 <num>(4)</num>
-                <text>Reasonable fees and costs may be imposed upon requesters pursuant to § 2-532(b) and (b-1).</text>
+                <text>Reasonable fees and costs may be imposed upon requesters pursuant to <cite doc="D.C. Code" path="§2-532|(b)">§ 2-532(b)</cite> and <cite doc="D.C. Code" path="§2-532|(b-1)">(b-1)</cite>.</text>
               </para>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(C)</num>
           <text>Subsection (d) is repealed.</text>
+          <codify:repeal/>
         </para>
       </para>
     </para>
     <para>
       <num>(c)</num>
       <text>Chapter 3 is amended as follows:</text>
-      <para>
+      <para codify:path="§25-303">
         <num>(1)</num>
         <text>Section 25-303 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended as follows:</text>
           <para>
@@ -847,21 +850,27 @@
             <text>A new paragraph (2A) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(2)"/>
                 <num>(2A)</num>
                 <text>Notwithstanding paragraph (2) of this subsection, a licensee under an on-premises retailer license, class CR, DR, CT, or DT, may hold an interest in one off-premises  retailer license, class A, B, AI, or BI, and a third-party alcohol delivery license.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(ii)</num>
             <text>Paragraph (3) is amended by striking the phrase "hold an interest in any other license" and inserting the phrase "hold an interest in any other license; except, that an off-premises retailer licensee, class A or B, may hold an interest in one on-premises retailer license class CR, DR, CT, or DT" in its place.</text>
+            <codify:find-replace count="1">
+              <find>hold an interest in any other license</find>
+              <replace>hold an interest in any other license; except, that an off-premises retailer licensee, class A or B, may hold an interest in one on-premises retailer license class CR, DR, CT, or DT</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(iii)</num>
             <text>Paragraph (4) is amended to read as follows:</text>
             <include lvl="1">
-              <para>
+              <para codify:path="(4)">
+                <codify:replace/>
                 <num>(4)</num>
                 <text>No licensee under an off-premises retailer license, class AI or BI, shall hold an interest in any other license; except, that an off-premises retailer licensee, class AI or BI, or a full-service grocery store class B or 25% grocery store class A may hold an interest in a third-party alcohol delivery license and one on-premises retailer license, class CR, DR, CT, or DT, and up to 5 off-premises retailer licenses, Class AI or BI.</text>
               </para>
@@ -873,6 +882,7 @@
             <text>A new paragraph (5) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(5)</num>
                 <text>No licensee under an on-premises retailer license, an off-premises retailer license, or a  manufacturer license shall hold a direct or indirect interest in a third-party alcohol delivery license; except, that an on-premises retailer licensee class CR, DR, CT, or DT, an off-premises retailer licensee class AI, BI, or full-service grocery store class B or 25% grocery store class A may hold a direct or indirect interest in a third-party alcohol delivery license.</text>
               </para>
@@ -880,23 +890,28 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="(c-1)">
           <num>(B)</num>
           <text>Subsection (c-1) is amended by striking the phrase "class CR or DR" and inserting the phrase "class CR, DR, CT, or DT" in its place.</text>
+          <codify:find-replace count="1">
+            <find>class CR or DR</find>
+            <replace>class CR, DR, CT, or DT</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new subsection (c-2) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(c-1)"/>
               <num>(c-2)</num>
               <para>
                 <num>(1)</num>
-                <text>Notwithstanding subsection (a) of this section, the holder of an off-premises retailer license, class A or B, shall be permitted to apply for one 25% grocery store class A retailer license for a grocery store that is newly constructed with a certificate of occupancy issued after January 1, 2021, that meets the requirements of § 25-333(f) and is located in either Ward 7 or Ward 8.</text>
+                <text>Notwithstanding subsection (a) of this section, the holder of an off-premises retailer license, class A or B, shall be permitted to apply for one 25% grocery store class A retailer license for a grocery store that is newly constructed with a certificate of occupancy issued after January 1, 2021, that meets the requirements of <cite doc="D.C. Code" path="§25-333|(f)">§ 25-333(f)</cite> and is located in either Ward 7 or Ward 8.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>After 12 months of operation in either Ward 7 or Ward 8, the holder of a 25% grocery store class A retailer license pursuant to paragraph (1) of this subsection shall be permitted to apply for one additional 25% grocery store class A retailer license for a grocery store that is newly constructed with a certificate of occupancy issued after January 1, 2021, that meets the requirements of § 25-333(f) at a location in Wards 1 through 6.</text>
+                <text>After 12 months of operation in either Ward 7 or Ward 8, the holder of a 25% grocery store class A retailer license pursuant to paragraph (1) of this subsection shall be permitted to apply for one additional 25% grocery store class A retailer license for a grocery store that is newly constructed with a certificate of occupancy issued after January 1, 2021, that meets the requirements of <cite doc="D.C. Code" path="§25-333|(f)">§ 25-333(f)</cite> at a location in Wards 1 through 6.</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -907,22 +922,27 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-314|(b)">
         <num>(2)</num>
         <text>Section 25-314(b) is amended by adding a new paragraph (12) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(12)</num>
-            <text>The 400-foot restriction shall not apply to an establishment operating under a 25% grocery store class A retailer license issued pursuant to § 25-303(c-2).</text>
+            <text>The 400-foot restriction shall not apply to an establishment operating under a 25% grocery store class A retailer license issued pursuant to <cite doc="D.C. Code" path="§25-303|(c-2)">§ 25-303(c-2)</cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-331|(e)">
         <num>(3)</num>
         <text>Section 25-331(e) is amended by striking the phrase "class AI," and inserting the phrase "class AI or 25% grocery store class A," in its place.</text>
+        <codify:find-replace count="1">
+          <find>class AI,</find>
+          <replace>class AI or 25% grocery store class A,</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§25-333">
         <num>(4)</num>
         <text>Section 25-333 is amended as follows:</text>
         <para>
@@ -930,6 +950,7 @@
           <text>A new subsection (c-2) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(c)" num-value="[(c-2)]"/>
               <num>(c-2)</num>
               <para>
                 <num>(1)</num>
@@ -952,13 +973,14 @@
           <text>A new subsection (f) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(f)</num>
               <para>
                 <num>(1)</num>
                 <text>This section shall not prohibit the issuance of a 25% grocery store class A retailer license for the sale of alcoholic beverages if:</text>
                 <para>
                   <num>(A)</num>
-                  <text>The applicant's establishment is newly constructed with a certificate of occupancy issued after January 1, 2021, and is located in either Ward 7 or 8, as set forth in § 1-1041.03(a);</text>
+                  <text>The applicant's establishment is newly constructed with a certificate of occupancy issued after January 1, 2021, and is located in either Ward 7 or 8, as set forth in <cite doc="D.C. Code" path="§1-1041.03|(a)">§ 1-1041.03(a)</cite>;</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -1038,11 +1060,12 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-339">
         <num>(5)</num>
         <text>Section 25-339 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace/>
             <prefix>§</prefix>
             <num>25-339</num>
             <heading>Special restrictions for the Georgetown historic district.</heading>
@@ -1056,17 +1079,17 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>Notwithstanding the requirements of Subchapter IV of this Chapter, beginning after the effective date of the Reopen Washington DC Alcoholic Beverage Regulation Amendment Act of 2022, passed on 2nd reading on April 5, 2022 (Enrolled version of Bill 24-44), there shall be a 3-year moratorium on any exceptions or changes to the limitation established in subsection (b) of this section.</text>
+              <text>Notwithstanding the requirements of <cite doc="D.C. Code" path="25|3|IV">Subchapter IV of this Chapter</cite>, beginning after <span codify:value="[June 30, 2022]">the effective date of the Reopen Washington DC Alcoholic Beverage Regulation Amendment Act of 2022, passed on 2nd reading on April 5, 2022 (Enrolled version of Bill 24-44)</span>, there shall be a 3-year moratorium on any exceptions or changes to the limitation established in subsection (b) of this section.</text>
             </para>
             <para>
               <num>(d)</num>
               <para>
                 <num>(1)</num>
-                <text>Upon the expiration of the moratorium established pursuant to subsection (c) of this section, at the request of any group with standing pursuant to § 25-601, the Board may hold a public hearing to determine whether the limitation set forth in subsection (b) of this section should be terminated or modified.</text>
+                <text>Upon the expiration of the moratorium established pursuant to subsection (c) of this section, at the request of any group with standing pursuant to <cite doc="D.C. Code" path="§25-601">§ 25-601</cite>, the Board may hold a public hearing to determine whether the limitation set forth in subsection (b) of this section should be terminated or modified.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>The public hearing shall be in the nature of a rulemaking hearing under § 2-505 and not in the nature of a contested case under § 2-509.</text>
+                <text>The public hearing shall be in the nature of a rulemaking hearing under <cite doc="D.C. Code" path="§2-505">§ 2-505</cite> and not in the nature of a contested case under <cite doc="D.C. Code" path="§2-509">§ 2-509</cite>.</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -1115,18 +1138,19 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-342">
         <num>(6)</num>
         <text>Section 25-342 is amended by adding a new subsection (d) to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(d)</num>
-            <text>The restrictions set forth in subsections (b) and (c) of this section shall not apply to an off-premises retailer license, class A or B, that operated as a full-service grocery store or received an exception from the Board pursuant to § 25-346(c) that is in Ward 7 but that was located in Ward 6 prior to the effective date of the Ward Redistricting Emergency Amendment Act of 2021, effective December 29, 2021 (D.C. Act 24-264; 69 DCR 1), or the Ward Redistricting Amendment Act of 2021, effective February 24, 2022 (D.C. Law 24-74; 69 DCR 10).</text>
+            <text>The restrictions set forth in subsections (b) and (c) of this section shall not apply to an off-premises retailer license, class A or B, that operated as a full-service grocery store or received an exception from the Board pursuant to <cite doc="D.C. Code" path="§25-346|(c)">§ 25-346(c)</cite> that is in Ward 7 but that was located in Ward 6 prior to <span codify:value="[December 29, 2021]">the effective date of the Ward Redistricting Emergency Amendment Act of 2021, effective December 29, 2021 (D.C. Act 24-264; 69 DCR 1)</span>, or <span codify:value="[February 24, 2022]">the Ward Redistricting Amendment Act of 2021, effective February 24, 2022 (D.C. Law 24-74; 69 DCR 10)</span>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-343">
         <num>(7)</num>
         <text>Section 25-343 is amended as follows:</text>
         <para>
@@ -1134,10 +1158,11 @@
           <text>A new subsection (b-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(b)"/>
               <num>(b-1)</num>
               <para>
                 <num>(1)</num>
-                <text>Notwithstanding subsection (b) of this section, the holder of a retailer license, class B, that meets the definition of a full-service grocery store as set forth in § 25-101(22A), or a 25% grocery store retailer license, class A, as set forth in § 25-333(f), in Ward 8 shall be allowed to divide a manufacturer's package of more than one container of beer, malt liquor, or ale to sell an individual container of the package that is 70 ounces or less.</text>
+                <text>Notwithstanding subsection (b) of this section, the holder of a retailer license, class B, that meets the definition of a full-service grocery store as set forth in <cite doc="D.C. Code" path="§25-101|(22A)">§ 25-101(22A)</cite>, or a 25% grocery store retailer license, class A, as set forth in <cite doc="D.C. Code" path="§25-333|(f)">§ 25-333(f)</cite>, in Ward 8 shall be allowed to divide a manufacturer's package of more than one container of beer, malt liquor, or ale to sell an individual container of the package that is 70 ounces or less.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1152,10 +1177,11 @@
           <text>New subsections (d) and (e) are added to read as follows :</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(d)</num>
               <para>
                 <num>(1)</num>
-                <text>Notwithstanding subsection (c) of this section, the holder of a retailer license, class B, that meets the definition of a full-service grocery store as defined in § 25-101(22A), or a 25% grocery store retailer license, class A, as set forth in § 25-333(f), in Ward 8 shall be allowed to sell, give, offer, expose for sale, or deliver an individual container of beer, malt liquor, or ale with a capacity of 70 ounces or less.</text>
+                <text>Notwithstanding subsection (c) of this section, the holder of a retailer license, class B, that meets the definition of a full-service grocery store as defined in <cite doc="D.C. Code" path="§25-101|(22A)">§ 25-101(22A)</cite>, or a 25% grocery store retailer license, class A, as set forth in <cite doc="D.C. Code" path="§25-333|(f)">§ 25-333(f)</cite>, in Ward 8 shall be allowed to sell, give, offer, expose for sale, or deliver an individual container of beer, malt liquor, or ale with a capacity of 70 ounces or less.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1163,29 +1189,34 @@
               </para>
             </para>
             <para>
+              <codify:insert/>
               <num>(e)</num>
-              <text>The restrictions set forth in subsections (b) and (c) of this section shall not apply to an off-premises retailer licensee, class A or B, that operated as a full-service grocery store or received an exception from the Board pursuant to § 25-346(c) that is in Ward 8 but that was located in Ward 6 prior to the effective date of the Ward Redistricting Emergency Amendment Act of 2021, effective December 29, 2021 (D.C. Act 24-264; 69 DCR 1), or the Ward Redistricting Amendment Act of 2021,effective February 24, 2022 (D.C. Law 24-74; 69 DCR 10).</text>
+              <text>The restrictions set forth in subsections (b) and (c) of this section shall not apply to an off-premises retailer licensee, class A or B, that operated as a full-service grocery store or received an exception from the Board pursuant to <cite doc="D.C. Code" path="§25-346|(c)">§ 25-346(c)</cite> that is in Ward 8 but that was located in Ward 6 prior to <cite doc="D.C. Code" path="[December 29, 2021]">the effective date of the Ward Redistricting Emergency Amendment Act of 2021, effective December 29, 2021 (D.C. Act 24-264; 69 DCR 1)</cite>, or <span codify:value="[February 24, 2022]">the Ward Redistricting Amendment Act of 2021,effective February 24, 2022 (D.C. Law 24-74; 69 DCR 10)</span>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-374">
         <num>(8)</num>
         <text>Section 25-374 is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Subsections (e), (f), and (g) are repealed.</text>
+          <codify:repeal path="(e)"/>
+          <codify:repeal path="(f)"/>
+          <codify:repeal path="(g)"/>
         </para>
         <para>
           <num>(B)</num>
           <text>A new subsection (h) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(h)</num>
               <para>
                 <num>(1)</num>
-                <text>Within 2 years of the effective date of Reopen Washington DC Alcoholic Beverage Regulation Amendment Act of 2022, passed on 2nd reading on April 5, 2022 (Enrolled version of Bill 24-44) ("Reopen Washington DC Act"), a class CN retailer license with a nude dancing endorsement under § 25-371(b) whose lease within the Buzzard Point section of Ward 6 expired or otherwise became ineffective within 24 months prior to the effective date of the Reopen Washington DC Act shall be permitted to transfer its license to a new location; provided that, the applicant satisfies the requirements set forth in §§ 25-314, 25-317, 25-421 and 25-422.</text>
+                <text>Within 2 years of <span codify:value="[June 30, 2022]">the effective date of Reopen Washington DC Alcoholic Beverage Regulation Amendment Act of 2022, passed on 2nd reading on April 5, 2022 (Enrolled version of Bill 24-44) ("Reopen Washington DC Act")</span>, a class CN retailer license with a nude dancing endorsement under <cite doc="D.C. Code" path="§25-371|(b)">§ 25-371(b)</cite> whose lease within the Buzzard Point section of Ward 6 expired or otherwise became ineffective within 24 months prior to <span codify:value="[June 30, 2022]">the effective date of the Reopen Washington DC Act</span> shall be permitted to transfer its license to a new location; provided that, the applicant satisfies the requirements set forth in §§ <cite doc="D.C. Code" path="§25-314" codify:value="25-314">25-314</cite>, <cite doc="D.C. Code" path="§25-317" codify:value="25-317">25-317</cite>, <cite doc="D.C. Code" path="§25-421" codify:value="25-421">25-421</cite> and <cite doc="D.C. Code" path="§25-422" codify:value="25-422">25-422</cite>.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1193,7 +1224,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>The transfer of a CN license with a nude dancing endorsement pursuant to paragraph (1) of this subsection shall be approved within 2 years of the effective date of the Reopen Washington DC Act.</text>
+                <text>The transfer of a CN license with a nude dancing endorsement pursuant to paragraph (1) of this subsection shall be approved within 2 years of <span codify:value="[Jun3 30, 2022]">the effective date of the Reopen Washington DC Act</span>.</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -1208,22 +1239,28 @@
     <para>
       <num>(d)</num>
       <text>Chapter 4 is amended as follows:</text>
-      <para>
+      <para codify:path="§25-401|(c)">
         <num>(1)</num>
         <text>Section 25-401(c) is amended by striking the phrase "shall sign a notarized statement certifying" and inserting the phrase "shall sign a statement with an original signature, which may be a signature by wet ink, an electronic signature, or a copy thereof, certifying" in its place.</text>
+        <codify:find-replace count="1">
+          <find>shall sign a notarized statement certifying</find>
+          <replace>shall sign a statement with an original signature, which may be a signature by wet ink, an electronic signature, or a copy thereof, certifying</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§25-402">
         <num>(2)</num>
         <text>Section 25-402 is amended as follows:</text>
-        <para>
+        <para codify:path="(d)">
           <num>(A)</num>
           <text>Subsection (d) is repealed.</text>
+          <codify:repeal/>
         </para>
         <para>
           <num>(B)</num>
           <text>A new subsection (e) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(e)</num>
               <para>
                 <num>(1)</num>
@@ -1231,37 +1268,47 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Failure to comply with paragraph (1) of this subsection may result in the Board issuing a fine or suspending or revoking the license in accordance with chapter 8 of this title.</text>
+                <text>Failure to comply with paragraph (1) of this subsection may result in the Board issuing a fine or suspending or revoking the license in accordance with <cite doc="D.C. Code" path="25|8">chapter 8 of this title</cite>.</text>
               </para>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-403">
         <num>(3)</num>
         <text>Section 25-403 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended by striking the phrase "verify, by affidavit" and inserting the phrase "self-certify" in its place.</text>
+          <codify:find-replace count="1">
+            <find>verify, by affidavit</find>
+            <replace>elf-certify</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(e)">
           <num>(B)</num>
           <text>Subsection (e) is repealed.</text>
+          <codify:repeal/>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-421">
         <num>(4)</num>
         <text>Section 25-421 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended by striking the phrase "the Board under 25-404, or for the transfer of a license to a new location, of a retailer's license, the Board shall give notice of the application to the following parties" and inserting the phrase "the Board under § 25-404, for the transfer of a retailer license to a new location, or for a unilateral petition to amend or terminate a settlement agreement, the Board shall give notice, in accordance with subsection (e) of this section, of the application to the following parties" in its place.</text>
+          <codify:find-replace count="1">
+            <find>the Board under [§] 25-404, or for the transfer of a license to a new location, of a retailer's license, the Board shall give notice of the application to the following partie</find>
+            <replace>the Board under <cite doc="D.C. Code" path="§25-404">§ 25-404</cite>, for the transfer of a retailer license to a new location, or for a unilateral petition to amend or terminate a settlement agreement, the Board shall give notice, in accordance with subsection (e) of this section, of the application to the following parties</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(e)">
           <num>(B)</num>
           <text>Subsection (e) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(e)</num>
               <text>The Board shall give notice to the ANC by electronic mail on or before the first day of the 45-day comment period to:</text>
               <para>
@@ -1280,16 +1327,21 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(h)">
           <num>(C)</num>
           <text>Subsection (h) is amended by striking the phrase "after 12:00 a.m." and inserting the phrase "after 1:00 a.m." in its place.</text>
+          <codify:find-replace count="1">
+            <find>after 12:00 a.m.</find>
+            <replace>after 1:00 a.m.</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-443">
         <num>(5)</num>
         <text>Section 25-443 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace/>
             <prefix>§</prefix>
             <num>25-443</num>
             <heading>Subpoena of witnesses.</heading>
@@ -1360,11 +1412,12 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-504">
         <num>(2)</num>
         <text>Section 25-504 is amended by adding a new subsection (c) to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(c)</num>
             <text>The minimum annual fee for a commercial lifestyle center license shall be:</text>
             <para>
@@ -1379,15 +1432,20 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-508">
         <num>(3)</num>
         <text>Section 25-508 is amended by striking the period and inserting the phrase "Sports wagering $100/year." in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace> Sports wagering $100/year.</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new section 25-513 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="25|5"/>
             <prefix>§</prefix>
             <num>25-513</num>
             <heading>Minimum fee for third-party alcohol delivery license.</heading>
@@ -1423,6 +1481,10 @@
               <prefix>§</prefix>
               <num>25-766</num>
               <heading>Prohibited statements in advertisements.</heading>
+              <codify:find-replace path="§25-766|heading" count="1">
+                <find>Prohibited statements.</find>
+                <replace>Prohibited statements in advertisements.</replace>
+              </codify:find-replace>
             </section>
           </include>
           <aftertext>.</aftertext>
@@ -1445,6 +1507,7 @@
         <text>A new section 25-704 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="25|7|I"/>
             <prefix>§</prefix>
             <num>25-704</num>
             <heading>Management agreements.</heading>
@@ -1460,18 +1523,19 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-711|(f)">
         <num>(3)</num>
         <text>Section 25-711(f) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(f)</num>
             <text>While managing or working at a licensed establishment, the owner, Board-approved manager, or employees or agents of a retailer, manufacturer, or wholesaler licensee shall carry a valid identification document on his or her person while on duty, including if he or she is outside of the licensed establishment or delivering alcoholic beverages, and shall show the identification document upon request to an ABRA investigator or a member of the Metropolitan Police Department.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-721">
         <num>(4)</num>
         <text>Section 25-721 is amended as follows:</text>
         <para>
@@ -1479,61 +1543,85 @@
           <text>Subsections (a), (a-1), and (b) are amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace path="(a)"/>
               <num>(a)</num>
               <text>A licensee under a  wholesaler license shall sell and deliver alcoholic beverages to other licensees only between the hours of 5:00 a.m. and 1:00 a.m., Monday through Saturday.</text>
             </para>
             <para>
+              <codify:replace path="(a-1)"/>
               <num>(a-1)</num>
               <text>Notwithstanding subsection (a) of this section, a licensed wholesaler may sell and deliver alcoholic beverages to District residents or to customers for curbside delivery between the hours of 5:00 a.m. and 1:00 a.m., Monday through Sunday.</text>
             </para>
             <para>
+              <codify:replace path="(b)"/>
               <num>(b)</num>
               <text>In addition to the provisions in subsection (a) of this section, a licensed wholesaler, class A or B, may deliver alcoholic beverages to other licensees between the hours 5:00 a.m. and 1:00 a.m., on Sunday.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(B)</num>
           <text>Subsection (d) is amended by striking the phrase "and the homes of District of Columbia residents" and inserting the phrase "and to District residents or provide to customers by curbside delivery" in its place.</text>
+          <codify:find-replace count="1">
+            <find>and the homes of District of Columbia residents</find>
+            <replace>and to District residents or provide to customers by curbside delivery</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-722">
         <num>(5)</num>
         <text>Section 25-722 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended by striking the phrase "alcoholic beverages" and inserting the phrase "alcoholic beverages to District residents or provide to customers by curbside delivery" in its place.</text>
+          <codify:find-replace count="1">
+            <find>alcoholic beverages</find>
+            <replace>alcoholic beverages to District residents or provide to customers by curbside delivery</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(B)</num>
           <text>Subsection (b) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(b)</num>
-              <text>The Board may also permit a licensee under an off-premises retailer license, class A or B, to sell or deliver alcoholic beverages to District residents or provide to customers by curbside delivery between the hours of 6:00 a.m. and 1:00 a.m. on Sundays subject to settlement agreement pursuant to § 25-446.</text>
+              <text>The Board may also permit a licensee under an off-premises retailer license, class A or B, to sell or deliver alcoholic beverages to District residents or provide to customers by curbside delivery between the hours of 6:00 a.m. and 1:00 a.m. on Sundays subject to settlement agreement pursuant to <cite doc="D.C. Code" path="§25-446">§ 25-446</cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-723">
         <num>(6)</num>
         <text>Section 25-723 is amended as follows:</text>
-        <para>
+        <para codify:path="(b)">
           <num>(A)</num>
           <text>Subsection (b) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the phrase "and subsections (c), (d), and (g)" and insert the phrase "and subsections (c) and (e)" in its place.</text>
+            <codify:find-replace count="1">
+              <find>and subsections (c), (d), and (g)</find>
+              <replace>and subsections (c) and (e)</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "on-premises retailer's" and insert the phrase "on-premises retailer license" in its place.</text>
+            <codify:find-replace count="1">
+              <find>on-premises retailer's</find>
+              <replace>on-premises retailer license</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(iii)</num>
             <text>Strike the word "consume" and insert the phrase "permit the consumption of" in its place.</text>
+            <codify:find-replace count="1">
+              <find>consume</find>
+              <replace>permit the consumption of</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -1541,8 +1629,9 @@
           <text>New subsections (b-1) and (b-2) are added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(b)"/>
               <num>(b-1)</num>
-              <text>Except as provided in § 25-724 and subsection (c) and (e) of this section, the licensee under an on-premises retailer license or manufacturer license that holds an on-site sales and consumption permit may deliver alcoholic beverages to the home of District residents, or provide to customers for curbside delivery at any time between the hours of:</text>
+              <text>Except as provided in <cite doc="D.C. Code" path="§25-724">§ 25-724</cite> and subsection (c) and (e) of this section, the licensee under an on-premises retailer license or manufacturer license that holds an on-site sales and consumption permit may deliver alcoholic beverages to the home of District residents, or provide to customers for curbside delivery at any time between the hours of:</text>
               <para>
                 <num>(1)</num>
                 <text>6:00 a.m. and 1:00 a.m., Monday through Friday, excluding District and federal holidays; and</text>
@@ -1553,13 +1642,14 @@
               </para>
             </para>
             <para>
+              <codify:insert after="(b-1)"/>
               <num>(b-2)</num>
               <text>Notwithstanding subsection (b) of this section, a holder of a commercial lifestyle center license may operate and permit the sale, service, and consumption of alcoholic beverages on the licensed premises between the hours of 7:00 a.m. and 11:00 p.m., Sunday through Thursday, and 7:00 a.m. and midnight, Friday and Saturday.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(C)</num>
           <text>Subsection (c) is amended as follows:</text>
           <para>
@@ -1574,41 +1664,68 @@
             <num>(iii)</num>
             <text>Paragraph (4) is amended by striking the phrase "and a public safety plan".</text>
           </para>
+          <codify:find-replace count="2">
+            <find>consume</find>
+            <replace>permit the consumption of</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>and a public safety plan</find>
+            <replace/>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(e)|(1)">
           <num>(D)</num>
           <text>Subsection (e)(1) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the phrase "manufacturer's license" and insert the phrase "manufacturer license holding an on-site sales and consumption permit" in its place.</text>
+            <codify:find-replace count="2">
+              <find>manufacturer's license</find>
+              <replace>manufacturer license holding an on-site sales and consumption permit</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the word "consume" and insert the phrase "permit the consumption of" in its place.</text>
+            <codify:find-replace count="1">
+              <find>consume</find>
+              <replace>permit the consumption of</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(iii)</num>
             <text>Subparagraph (A) is amended by striking the phrase "and a public safety plan,".</text>
+            <codify:find-replace count="1">
+              <find>and a public safety plan,</find>
+              <replace/>
+            </codify:find-replace>
           </para>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-725|(b)">
         <num>(7)</num>
         <text>Section 25-725(b)(3) is amended by striking the phrase "commercial or manufacturing zone" and inserting the phrase "commercial, manufacturing, or mixed-use zone" in its place.</text>
+        <codify:find-replace count="1">
+          <find>commercial or manufacturing zone</find>
+          <replace>commercial, manufacturing, or mixed-use zone</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§25-733|(b)">
         <num>(8)</num>
         <text>Section 25-733(b) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="§25-751|(c)">
         <num>(9)</num>
         <text>Section 25-751(c) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="§25-766">
         <num>(10)</num>
         <text>Section 25-766 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace/>
             <prefix>§</prefix>
             <num>25-766</num>
             <heading>Prohibited statements in advertisements.</heading>
@@ -1622,6 +1739,7 @@
         <text>A new section 25-767 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="25|7|VII"/>
             <prefix>§</prefix>
             <num>25-767</num>
             <heading>Outdoor common seating area.</heading>
@@ -1669,50 +1787,73 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-781">
         <num>(12)</num>
         <text>Section 25-781 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(i)</num>
             <text>Paragraph (1) is amended by striking the semicolon and inserting the phrase "; or" in its place.</text>
+            <codify:find-replace count="1">
+              <find>;</find>
+              <replace>;or</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(2)">
             <num>(ii)</num>
             <text>Paragraph (2) is amended by striking the phrase "; or" and inserting a period in its place.</text>
+            <codify:find-replace count="1">
+              <find>; or</find>
+              <replace>.</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(iii)</num>
             <text>Paragraph (3) is repealed.</text>
+            <codify:repeal/>
           </para>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(B)</num>
           <text>Subsection (b) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(i)</num>
             <text>Paragraph (1) is amended by striking the semicolon and inserting the phrase "; or" in its place.</text>
+            <codify:find-replace count="1">
+              <find>;</find>
+              <replace>; or</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(2)">
             <num>(ii)</num>
             <text>Paragraph (2) is amended by striking the phrase "; or" and inserting a period in its place.</text>
+            <codify:find-replace count="1">
+              <find>; or</find>
+              <replace>.</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(iii)</num>
             <text>Paragraph (3) is repealed.</text>
+            <codify:repeal/>
           </para>
         </para>
-        <para>
+        <para codify:path="(f)|(3)">
           <num>(C)</num>
           <text>Subsection (f)(3) is amended by striking the phrase "suspend the licensee" and inserting the phrase "suspend the license" in its place.</text>
+          <codify:find-replace count="1">
+            <find>suspend the licensee</find>
+            <replace>suspend the license</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(D)</num>
           <text>A new subsection (f-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(f)"/>
               <num>(f-1)</num>
               <text>The stayed suspension days imposed by the Board pursuant to subsection (f) of this section shall activate and be served by the licensee upon a finding by the Board that the licensee has committed another primary tier violation within one year of the date that the violation that resulted in the stayed suspension was adjudicated.</text>
             </para>
@@ -1724,6 +1865,7 @@
           <text>A new subsection (h) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(h)</num>
               <para>
                 <num>(1)</num>
@@ -1758,11 +1900,12 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-783|(e)">
         <num>(13)</num>
         <text>Section 25-783(e) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(e)</num>
             <text>It shall be an affirmative defense to a violation of subsection (a) of this section that:</text>
             <para>
@@ -1771,15 +1914,19 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>The licensee or a licensee's employee was shown and inspected a fake or fraudulent identification document of such quality that a reasonable person would, in accordance with § 25-781(h), believe that it was valid.</text>
+              <text>The licensee or a licensee's employee was shown and inspected a fake or fraudulent identification document of such quality that a reasonable person would, in accordance with <cite doc="D.C. Code" path="§25-781|(h)">§ 25-781(h)</cite>, believe that it was valid.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-791|(c-1)|(3)">
         <num>(14)</num>
         <text>Section 25-791(c-1)(3) is amended by striking the phrase "serving a suspension" and inserting the phrase "serving a suspension or a nightclub licensee with a nude dancing endorsement" in its place.</text>
+        <codify:find-replace count="1">
+          <find>serving a suspension</find>
+          <replace>serving a suspension or a nightclub licensee with a nude dancing endorsement</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -1801,23 +1948,39 @@
           </container>
         </include>
         <aftertext>.</aftertext>
+        <codify:insert doc="D.C. Code" path="25|8" after="II" history="false">
+          <container>
+            <prefix>Subchapter</prefix>
+            <num>III</num>
+            <heading>Security [P]lans and [S]ecurity [C]ameras.</heading>
+          </container>
+        </codify:insert>
       </para>
-      <para>
+      <para codify:path="§25-822|(a)">
         <num>(2)</num>
         <text>Section 25-822 is amended as follows:</text>
-        <para>
+        <para codify:path="(2)">
           <num>(A)</num>
           <text>Paragraph (2) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; or</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(B)</num>
           <text>Paragraph (3) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>; or</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new paragraph (4) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(4)</num>
               <text>The licensee has been convicted of assaulting an ABRA investigator or a member of the Metropolitan Police Department during the commission of an ABRA investigation.</text>
             </para>
@@ -1825,11 +1988,12 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§25-823|(a)|(5)">
         <num>(3)</num>
         <text>Section 25-823(a)(5) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(5)</num>
             <text>The licensee interferes or fails to cooperate with an ABRA or Metropolitan Police Department investigation by:</text>
             <para>
@@ -1856,20 +2020,36 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§25-826|(a)">
         <num>(4)</num>
         <text>Section 25-826(a) is amended by striking the phrase "safety of the public" and inserting the phrase "safety of the public or that the licensee or its agent has assaulted an ABRA investigator or a member of the Metropolitan Police Department during the commission of an investigation" in its place.</text>
+        <codify:find-replace count="1">
+          <find>safety of the public</find>
+          <replace>safety of the public or that the licensee or its agent has assaulted an ABRA investigator or a member of the Metropolitan Police Department during the commission of an investigation</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§25-830|(a)">
         <num>(5)</num>
         <text>Section 25-830(a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "60-day period of review" both times it appears and insert the phrase "90-day period of review" in its place.</text>
+          <codify:find-replace count="1">
+            <find>60-day period of review</find>
+            <replace>90-day period of review</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>60-day review period</find>
+            <replace>[90-day period of review]</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "deem disapproved" and insert the phrase "deemed approved" in its place.</text>
+          <codify:find-replace count="1">
+            <find>deem [deemed] disapproved</find>
+            <replace>deemed approved</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
@@ -1877,6 +2057,7 @@
         <text>A new section 25-836 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="25|8|III"/>
             <prefix>§</prefix>
             <num>25-836</num>
             <heading>Security plans and security cameras.</heading>
@@ -1988,7 +2169,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>If the licensee has been previously issued a written warning about timely compliance with paragraph (1) of this subsection, the failure to comply with paragraph (1) of this subsection may result in the Board issuing a fine against the licensee or suspending or revoking the license in accordance with Chapter 8 of this title.</text>
+                <text>If the licensee has been previously issued a written warning about timely compliance with paragraph (1) of this subsection, the failure to comply with paragraph (1) of this subsection may result in the Board issuing a fine against the licensee or suspending or revoking the license in accordance with <cite doc="D.C. Code" path="25|8">Chapter 8 of this title</cite>.</text>
               </para>
             </para>
           </section>
