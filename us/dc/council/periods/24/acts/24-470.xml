@@ -2730,8 +2730,7 @@
               <replace>Code Reform Commission</replace>
             </codify:find-replace>
           </para>
-        </para>
-        <codify:emergency doc="D.C. Code" path="§3-155"/>
+          <codify:emergency doc="D.C. Code" path="§3-155"/>
         <codify:insert doc="D.C. Code" path="§3-155" before="heading" history="false" display-template="">
           <text>
       *NOTE: This section includes amendments by emergency legislation that will expire on October 11, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§3-155(Perm)">Permanent Version</cite>.*
@@ -2742,6 +2741,8 @@
       *NOTE: Section 3065 of D.C. Act 24-470 provides that the amendments made to this section by section 3063(d) of D.C. Act 24-470 shall apply as of July 13, 2022.*
       </text>
         </codify:insert>
+        </para>
+        
       </section>
       <section>
         <num>3064</num>
@@ -5217,7 +5218,8 @@
         <text>Section 4253 of the Duke Ellington School of the Arts New Funding and Organization Model Act of 2021, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 38-2992), is amended to read as follows:</text>
         <include>
           <section>
-            <num>4253</num>
+            <codify:replace path="§38-2992"/>
+            <num codify:value="38-2992">4253</num>
             <heading>Proposed new funding and organizational model for the Duke Ellington School of the Arts.</heading>
             <para>
               <num>(a)</num>
@@ -5262,6 +5264,17 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:emergency doc="D.C. Code" path="§38-2992"/>
+          <codify:insert doc="D.C. Code" path="§38-2992" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 11, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§38-2992(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
+          <codify:insert doc="D.C. Code" path="§38-2992" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: Section 4143 of D.C. Act 24-470 provides that the amendments made to this section by section 4142 of D.C. Act 24-470 shall apply as of July 13, 2022.*
+      </text>
+          </codify:insert>
       </section>
       <section>
         <num>4143</num>
@@ -7019,7 +7032,7 @@
       </section>
     </container>
   </container>
-  <container>
+  <container codify:doc="D.C. Code">
     <prefix>TITLE</prefix>
     <num>VII</num>
     <heading>FINANCE AND REVENUE</heading>
@@ -7181,44 +7194,66 @@
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Gross Income Exclusion Emergency Amendment Act of 2022".</text>
       </section>
-      <section>
+      <section codify:path="§47-1803.02|(a)|(2)">
         <num>7042</num>
         <text>Section 47-1803.02(a)(2) of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="(JJ)">
           <num>(a)</num>
           <text>Subparagraph (JJ) is amended by striking the phrase "ending before January 1, 2023" and inserting the phrase "ending before January 1, 2024" in its place.</text>
+          <codify:find-replace count="1">
+            <find>ending before January 1, 2023</find>
+            <replace>ending before January 1, 2024</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>New subparagraphs (RR) through (WW) are added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert/>
               <num>(RR)</num>
-              <text>Grants awarded pursuant to § 1-328.04(w).</text>
+              <text>Grants awarded pursuant to <cite doc="D.C. Code" path="§1-328.04|(w)">§ 1-328.04(w)</cite>.</text>
             </para>
             <para>
+            <codify:insert/>
               <num>(SS)</num>
-              <text>Grants awarded pursuant to § 1-328.04(x).</text>
+              <text>Grants awarded pursuant to <cite doc="D.C. Code" path="§1-328.04|(x)">§ 1-328.04(x)</cite>.</text>
             </para>
             <para>
+              <codify:insert/>
               <num>(TT)</num>
-              <text>Funding received by a taxpayer from the District Department of the Environment or the District of Columbia Sustainable Energy Utility to incentivize solar installations benefiting low-income residents pursuant to the Solar for All Program, established by § 8-1774.16.</text>
+              <text>Funding received by a taxpayer from the District Department of the Environment or the District of Columbia Sustainable Energy Utility to incentivize solar installations benefiting low-income residents pursuant to the Solar for All Program, established by <cite doc="D.C. Code" path="§8-1774.16">§ 8-1774.16</cite>.</text>
             </para>
             <para>
+            <codify:insert/>
               <num>(UU)</num>
-              <text>Grants issued pursuant to § 8-1774.10(c)(22).</text>
+              <text>Grants issued pursuant to <cite doc="D.C. Code" path="§8-1774.10|(c)|(22)">§ 8-1774.10(c)(22)</cite>.</text>
             </para>
             <para>
+            <codify:insert/>
               <num>(VV)</num>
               <text>Rebates issued pursuant to section 5a of the Public Access to Automated External Defibrillator Act of 2000, passed on emergency basis on June 7, 2022 (Enrolled version of Bill 24-845).</text>
+              <!-- the link is not active until 10/1/2022 -->
             </para>
             <para>
+            <codify:insert/>
               <num>(WW)</num>
-              <text>Lump-sum payments an individual receives from the early educator pay parity program created and implemented pursuant to § 1-325.431(c)(1A).</text>
+              <text>Lump-sum payments an individual receives from the early educator pay parity program created and implemented pursuant to <cite doc="D.C. Code" path="§1-325.431|(c)|(1A)">§ 1-325.431(c)(1A)</cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
+        <codify:emergency doc="D.C. Code" path="§47-1803.02"/>
+          <codify:insert doc="D.C. Code" path="§47-1803.02" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 11, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§47-1803.02(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
+          <codify:insert doc="D.C. Code" path="§47-1803.02" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: Section 4143 of D.C. Act 24-470 provides that the amendments made to this section by section 4142 of D.C. Act 24-470 shall apply as of July 13, 2022.*
+      </text>
+          </codify:insert>
       </section>
       <section>
         <num>7043</num>
@@ -7670,6 +7705,7 @@
       <num>K</num>
       <heading>COMMUNITY FOR CREATIVE NON-VIOLENCE REAL PROPERTY TAX RELIEF</heading>
       <section>
+        <codify:marginalia display="Not Codified in D.C. Code"/>
         <num>7101</num>
         <heading>Short title.</heading>
         <text>This subtitle may be cited as the "Community for Creative Non-Violence Real Property Tax Relief Emergency Act of 2022".</text>
@@ -7854,6 +7890,7 @@
       <prefix>SUBTITLE</prefix>
       <num>O</num>
       <heading>FLAVORED TOBACCO PROHIBITION IMPLEMENTATION</heading>
+      <!-- not applicable until 10/1/2022 at the earliest -->
       <section>
         <num>7151</num>
         <heading>Short title.</heading>
