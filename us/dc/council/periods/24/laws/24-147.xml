@@ -28,7 +28,13 @@
     <section>
       <num>101</num>
       <text>Section 103(d) of the Jobs for D.C. Residents Amendment Act of 2007, effective May 23, 2019 (D.C. Law 22-315; D.C. Official Code § 1-515.03(d)), is amended by striking the phrase "subsection (a)(1)" and inserting the phrase "subsection (a)" in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§1-515.03|(d)" count="1">
+        <find>subsection (a)(1)</find>
+        <replace>subsection (a)</replace>
+      </codify:find-replace>
       <!-- add applicability note from below § 201 -->
+      <codify:annotation doc="D.C. Code" path="§1-515.03" type="Applicability" history="false"><cite doc="D.C. Law 24-147" path="§201">Section 201 of D.C. Law 24-147</cite> provides that the changes made to this section by D.C. Law 24-147 shall apply as of May 23, 2019.
+      </codify:annotation>
     </section>
     <section>
       <num>102</num>
@@ -71,15 +77,17 @@
     </section>
     <section>
       <num>104</num>
-      <!-- add applicability note from below § 201 -->
       <text>Section 11(d-1) of the Office of Administrative Hearings Establishment Act of 2001, effective March 6, 2002 (D.C. Law 14-76; D.C. Official Code § 2-1831.08(d-1)), is amended to read as follows:</text>
       <include>
         <para>
+          <codify:replace doc="D.C. Code" path="§2-1831.08|(d-1)"/>
           <num>(d-1)</num>
-          <text>An Administrative Law Judge first appointed after the effective date of the Technical Amendments Act of 2008, effective March 25, 2009 (D.C. Law 17-353; 56 DCR 1117), shall become a District resident within 180 days after appointment and shall remain a District resident for the duration of all terms the Administrative Law Judge serves, including reappointments, pursuant to sections 859(b) and 906(a) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code §§ 1-608.59(b), 1-609.06(a)).</text>
+          <text>An Administrative Law Judge first appointed after <span codify:value="March 25, 2009">the effective date of the Technical Amendments Act of 2008, effective March 25, 2009 (D.C. Law 17-353; 56 DCR 1117)</span>, shall become a District resident within 180 days after appointment and shall remain a District resident for the duration of all terms the Administrative Law Judge serves, including reappointments, pursuant to <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§1-608.59|(b)" codify:value="1-608.59(b)">859(b)</code-cite> and <code-cite doc="D.C. Code" path="§1-609.06|(a)" codify:value="1-609.06(a)">906(a) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code §§ 1-608.59(b), 1-609.06(a))</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:annotation doc="D.C. Code" path="§2-1831.08" type="Applicability" history="false"><cite doc="D.C. Law 24-147" path="§201">Section 201 of D.C. Law 24-147</cite> provides that the changes made to this section by D.C. Law 24-147 shall apply as of May 23, 2019.
+      </codify:annotation>
     </section>
     <section>
       <num>105</num>
@@ -1111,10 +1119,18 @@
       <para>
         <num>(a)</num>
         <text>Strike the phrase "and any person aggrieved by the denial of any claim for refund made under the provisions of § 47-1812.11 may, within 6 months" and insert the phrase "may, within 6 months" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§47-1815.01" count="1">
+          <find>and any person aggrieved by the denial of any claim for refund made under the provisions of <cite path="§47-1812.11">§ 47-1812.11</cite> [repealed] may, within 6 months</find>
+          <replace>may, within 6 months</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(b)</num>
         <text>Strike the phrase "from the date of the assessment of the deficiency or from the date of the denial of a claim for refund, as the case may be, appeal" and insert the phrase "from the date of the assessment of the deficiency, appeal" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§47-1815.01" count="1">
+          <find>from the date of the assessment of the deficiency or from the date of the denial of a claim for refund, as the case may be, appeal</find>
+          <replace>from the date of the assessment of the deficiency, appeal</replace>
+        </codify:find-replace>
       </para>
     </section>
     <section>
