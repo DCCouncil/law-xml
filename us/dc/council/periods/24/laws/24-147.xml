@@ -32,7 +32,6 @@
         <find>subsection (a)(1)</find>
         <replace>subsection (a)</replace>
       </codify:find-replace>
-      <!-- add applicability note from below § 201 -->
       <codify:annotation doc="D.C. Code" path="§1-515.03" type="Applicability" history="false"><cite doc="D.C. Law 24-147" path="§201">Section 201 of D.C. Law 24-147</cite> provides that the changes made to this section by D.C. Law 24-147 shall apply as of May 23, 2019.
       </codify:annotation>
     </section>
@@ -297,6 +296,10 @@
     <section>
       <num>120</num>
       <text>Section 2(c)(4) of the Alcoholic Beverage Enforcement Amendment Act of 2019, effective February 21, 2020 (D.C. Law 23-50; 67 DCR 9), is amended by striking the phrase "25-825a" both times it appears and inserting the phrase "25-825.01" in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§[25-825.01]" count="1">
+        <find>[25-825.01]</find>
+        <replace>25-825.01</replace>
+      </codify:find-replace>
     </section>
     <section>
       <num>121</num>
@@ -452,6 +455,12 @@
       <para>
         <num>(a)</num>
         <text>Subsection (e)(1) is amended by striking the phrase "in zoning regulations" and inserting the phrase "in the zoning regulations" in its place</text>
+         <!-- Already done in Code -->
+        <codify:find-replace doc="D.C. Code" path="§25-725|(b)|(3)" count="1">
+          <find>in the zoning regulations</find>
+          <replace>in the zoning regulations</replace>
+        </codify:find-replace>
+        <!-- For citation purposes only -->
       </para>
       <para>
         <num>(b)</num>
@@ -460,6 +469,12 @@
           <para>
             <num>(g)</num>
             <text>Section 25-911(c) is amended by striking the phrase "Corporation Counsel" and inserting the phrase "Attorney General for the District of Columbia" in its place.</text>
+             <!-- Already done in Code -->
+        <codify:find-replace doc="D.C. Code" path="§25-911|(c)" count="1">
+          <find>Attorney General for the District of Columbia</find>
+          <replace>Attorney General for the District of Columbia</replace>
+        </codify:find-replace>
+        <!-- For citation purposes only -->
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -471,6 +486,12 @@
       <para>
         <num>(a)</num>
         <text>Strike the phrase "retailers license" and insert the word "retailers" in its place.</text>
+        <!-- Already done in Code -->
+        <codify:find-replace doc="D.C. Code" path="§25-113|(i)|(5)" count="1">
+          <find>retailer</find>
+          <replace>retailer</replace>
+        </codify:find-replace>
+        <!-- For citation purposes only -->
       </para>
       <para>
         <num>(b)</num>
@@ -490,6 +511,12 @@
             <para>
               <num>(I)</num>
               <text>Subsection (e) is amended by striking the word "permits" and inserting the word "endorsements" in its place.</text>
+              <!-- Already done in Code -->
+              <codify:find-replace doc="D.C. Code" path="§25-117|(a)|(5)|(C)" count="1">
+                <find>endorsements</find>
+                <replace>endorsements</replace>
+              </codify:find-replace>
+              <!-- For citation purposes only -->
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -512,10 +539,18 @@
         <para>
           <num>(1)</num>
           <text>Subparagraph (E) is amended by striking the phrase "subsection (c-1)" and inserting the phrase "subsection (c-1) of this section" in its place.</text>
+          <codify:find-replace doc="D.C. Code" path="§25-124|(c)" count="1">
+            <find>subsection (c-1) [of this section]</find>
+            <replace>subsection (c-1) of this section</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(2)</num>
           <text>Subparagraph (H)(i)(I) is amended by striking the phrase "If the licensee" both times it appears and inserting the phrase "If a licensee" in its place.</text>
+          <codify:find-replace doc="D.C. Code" path="§25-124|(d-1)|(1)" count="1">
+            <find>If the licensee</find>
+            <replace>If a licensee</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
@@ -524,6 +559,10 @@
         <para>
           <num>(1)</num>
           <text>Subparagraph (D) is amended by striking the phrase "subsection (c-1)" and inserting the phrase "subsection (c-1) of this section" in its place.</text>
+          <codify:find-replace doc="D.C. Code" path="§25-125|(c)" count="1">
+            <find>subsection (c-1) [of this section]</find>
+            <replace>subsection (c-1) of this section</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(2)</num>
@@ -542,10 +581,15 @@
             <para>
               <num>(i)</num>
               <text>Strike the phrase "if a licensee" both times it appears and insert the phrase "If a licensee" in its place.</text>
+              <!-- Done -->
             </para>
             <para>
               <num>(ii)</num>
               <text>Strike the phrase "for or is the holder of" and insert the phrase "for, or is the holder of," in its place.</text>
+              <codify:find-replace doc="D.C. Code" path="§25-125|(d-1)|(1)" count="1">
+            <find>for or is the holder of</find>
+            <replace>for, or is the holder of,</replace>
+          </codify:find-replace>
             </para>
           </para>
           <para>
@@ -652,6 +696,10 @@
     <section>
       <num>139</num>
       <text>Section 25-113a of the District of Columbia Official Code is redesignated as "§ 25-113.01".</text>
+      <codify:find-replace doc="D.C. Code" path="§25-113.01" count="1">
+        <find>25-113.01</find>
+        <replace>25-113.01</replace>
+      </codify:find-replace>
     </section>
     <section>
       <num>140</num>
