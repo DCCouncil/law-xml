@@ -26,19 +26,19 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "COVID Vaccination Leave Temporary Amendment Act of 2021".</text>
-  <codify:insert doc="D.C. Code" path="32|5|III" after="§32-531.02" num-value="32-531.02a" history="false" display-template="">
+  <!-- <codify:insert doc="D.C. Code" path="32|5|III" after="§32-531.02" num-value="32-531.02a" history="false" display-template="">
     <section>
       <num>3a</num>
       <heading>[Expired].</heading>
     </section>
-  </codify:insert>
+  </codify:insert> -->
   <section codify:doc="D.C. Code">
-    <codify:insert doc="D.C. Code" path="§32-531.04" after="(a)" history="false" display-template="">
+    <!-- <codify:insert doc="D.C. Code" path="§32-531.04" after="(a)" history="false" display-template="">
       <para>
         <num>(a-1)</num>
         <text>[Expired].</text>
       </para>
-    </codify:insert>
+    </codify:insert> -->
     <num>2</num>
     <text>The Accrued Sick and Safe Leave Act of 2008, effective May 13, 2008 (D.C. Law 17-152; D.C. Official Code § 32-531.01 <em>et seq</em>.), is amended as follows:</text>
     <para codify:path="§32-531.01|(5)">
@@ -46,7 +46,7 @@
       <text>Section 2(5) (D.C. Official Code § 32-531.01(5)) is amended to read as follows:</text>
       <include lvl="1">
         <para>
-          <codify:replace/>
+          <!-- <codify:replace/> -->
           <num>(5)</num>
           <text>"Paid leave" means:</text>
           <para>
@@ -61,32 +61,32 @@
       </include>
       <aftertext>.</aftertext>
       <codify:temporary doc="D.C. Code" path="§32-531.01"/>
-      <codify:insert doc="D.C. Code" path="§32-531.01" before="heading" history="false" display-template="">
+      <!-- <codify:insert doc="D.C. Code" path="§32-531.01" before="heading" history="false" display-template="">
         <text>
       *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.01(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert>
+      </codify:insert> -->
     </para>
     <para codify:path="§32-531.02|(c)|(1)">
       <num>(b)</num>
       <text>Section 3(c)(1) (D.C. Official Code § 32-531.02(c)(1)) is amended by striking the phrase "Paid leave under" and inserting the phrase "Except as provided in section 3a or 3b, paid leave under" in its place.</text>
-      <codify:find-replace count="1">
+      <!-- <codify:find-replace count="1">
         <find>Paid leave under</find>
         <replace>Except as provided in <span codify:value="§ 32-531.02a [Expired]">section 3a</span> or <code-cite doc="D.C. Code" path="§32-531.02b">section 3</code-cite>, paid leave under</replace>
-      </codify:find-replace>
+      </codify:find-replace> -->
       <codify:temporary doc="D.C. Code" path="§32-531.02"/>
-      <codify:insert doc="D.C. Code" path="§32-531.02" before="heading" history="false" display-template="">
+      <!-- <codify:insert doc="D.C. Code" path="§32-531.02" before="heading" history="false" display-template="">
         <text>
       *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.02(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert>
+      </codify:insert> -->
     </para>
     <para codify:doc="D.C. Code" codify:path="32|5|III">
       <num>(c)</num>
       <text>A new section 3b is added to read as follows:</text>
       <include>
         <section>
-          <codify:insert after="§32-531.02a" num-value="32-531.02b" history-prefix="as added"/>
+          <!-- <codify:insert after="§32-531.02a" num-value="32-531.02b" history-prefix="as added"/> -->
           <num>3b</num>
           <heading>Paid vaccination leave requirement.</heading>
           <para>
@@ -182,13 +182,13 @@
         </section>
       </include>
       <aftertext>.</aftertext>
-      <!-- <codify:temporary doc="D.C. Code" path="§32-531.02" action="dealing with paid vaccination leave"/> -->
-      <codify:temporary-new-sec doc="D.C. Code" path="§32-531.02b" interim-path="§32-531.02" perm-eff="2022-02-18"/>
+      <codify:temporary doc="D.C. Code" path="§32-531.02" action="dealing with paid vaccination leave"/>
+      <!-- <codify:temporary-new-sec doc="D.C. Code" path="§32-531.02b" interim-path="§32-531.02" perm-eff="2022-02-18"/>
       <codify:insert doc="D.C. Code" path="§32-531.02b" before="heading" history="false" display-template="">
         <text>
       *NOTE: This section was created by temporary legislation that will expire on October 1, 2022.*
       </text>
-      </codify:insert>
+      </codify:insert> -->
     </para>
     <para codify:path="§32-531.03">
       <num>(c)</num>
@@ -196,14 +196,14 @@
       <para>
         <num>(1)</num>
         <text>The existing text is designated as subsection (a).</text>
-        <codify:redesignate-para path="§32-531.03" num-value="(a)"/>
+        <!-- <codify:redesignate-para path="§32-531.03" num-value="(a)"/> -->
       </para>
       <para>
         <num>(2)</num>
         <text>New subsections (b) and (c) are added to read as follows:</text>
         <include>
           <para>
-            <codify:insert/>
+            <!-- <codify:insert/> -->
             <num>(b)</num>
             <text>An employer may not require an employee who seeks to use paid leave pursuant to <span codify:value="§ 32-531.02a [Expired]">section 3a</span> to:</text>
             <para>
@@ -220,7 +220,7 @@
             </para>
           </para>
           <para>
-            <codify:insert/>
+            <!-- <codify:insert/> -->
             <num>(c)</num>
             <text>An employer may not require an employee who seeks to use paid leave pursuant to <code-cite doc="D.C. Code" path="§32-531.02b">section 3b</code-cite> to search for or identify another employee to perform the work hours or work of the employee using the paid leave.</text>
           </para>
@@ -228,11 +228,11 @@
         <aftertext>.</aftertext>
       </para>
       <codify:temporary doc="D.C. Code" path="§32-531.03"/>
-      <codify:insert doc="D.C. Code" path="§32-531.03" before="heading" history="false" display-template="">
+      <!-- <codify:insert doc="D.C. Code" path="§32-531.03" before="heading" history="false" display-template="">
         <text>
       *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.03(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert>
+      </codify:insert> -->
     </para>
     <para codify:path="§32-531.04">
       <num>(d)</num>
@@ -242,7 +242,7 @@
         <text>A new subsection (a-2) is added to read as follows:</text>
         <include>
           <para>
-            <codify:insert after="(a-1)"/>
+            <!-- <codify:insert after="(a-1)"/> -->
             <num>(a-2)</num>
             <text>An employer may require that an employee who uses paid leave pursuant to <code-cite doc="D.C. Code" path="§32-531.02b">section 3b</code-cite> to provide reasonable documentation upon return to work of the need for leave, which may include a vaccination record or other documentation attesting to the date and time of the vaccination injection.</text>
           </para>
@@ -252,21 +252,21 @@
       <para codify:path="(b)|(2)">
         <num>(2)</num>
         <text>Subsection (b)(2) is amended by striking the phrase "under section 3" and inserting the phrase "under sections 3, 3a, or 3b" in its place.</text>
-        <codify:find-replace count="1">
+        <!-- <codify:find-replace count="1">
           <find>32-131.02</find>
           <replace>32-531.02</replace>
-        </codify:find-replace>
-        <codify:find-replace count="1">
+        </codify:find-replace> -->
+        <!-- <codify:find-replace count="1">
           <find>shall</find>
           <replace>, § 32-531.02a [Expired], or <cite doc="D.C. Code" path="§32-531.02b">§ 32-131.02b</cite> shall</replace>
-        </codify:find-replace>
+        </codify:find-replace> -->
       </para>
       <codify:temporary doc="D.C. Code" path="§32-531.04"/>
-      <codify:insert doc="D.C. Code" path="§32-531.04" before="heading" history="false" display-template="">
+      <!-- <codify:insert doc="D.C. Code" path="§32-531.04" before="heading" history="false" display-template="">
         <text>
       *NOTE: This section includes amendments by temporary legislation that will expire on October 1, 2022. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§32-531.04(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert>
+      </codify:insert> -->
     </para>
   </section>
   <section codify:doc="D.C. Code">
@@ -274,7 +274,7 @@
     <text>The District of Columbia Family and Medical Leave Act of 1990, effective October 3, 1990 (D.C. Law 8-181; D.C. Official Code § 32-501 <em>et seq</em>.), is amended by adding a new section 3a to read as follows:</text>
     <include>
       <section>
-        <codify:insert path="32|5|I" after="§32-502" num-value="32-502.01" history-prefix="as added"/>
+        <!-- <codify:insert path="32|5|I" after="§32-502" num-value="32-502.01" history-prefix="as added"/> -->
         <num>3a</num>
         <heading>COVID-19 leave.</heading>
         <para>
@@ -369,12 +369,12 @@
     </include>
     <aftertext>.</aftertext>
     <codify:temporary doc="D.C. Code" path="§32-502" action="creation of a provision dealing with COVID-19 leave"/>
-    <codify:temporary-new-sec doc="D.C. Code" path="§32-502.01" interim-path="§32-502" perm-eff="2022-02-18"/>
-    <codify:insert doc="D.C. Code" path="§32-502.01" before="heading" history="false" display-template="">
+    <!-- <codify:temporary-new-sec doc="D.C. Code" path="§32-502.01" interim-path="§32-502" perm-eff="2022-02-18"/> -->
+    <!-- <codify:insert doc="D.C. Code" path="§32-502.01" before="heading" history="false" display-template="">
       <text>
       *NOTE: This section was created by temporary legislation that will expire on October 1, 2022.*
       </text>
-    </codify:insert>
+    </codify:insert> -->
   </section>
   <section>
     <num>4</num>
