@@ -843,22 +843,38 @@
     <section>
       <num>130</num>
       <text>Section 2(a)(4) of the Cottage Food Expansion Amendment Act of 2019, effective March 10, 2020 (D.C. Law 23-61; 67 DCR 572), is amended by striking the phrase "(5)(A)" and inserting the phrase "(5)" in its place.</text>
+       <para>
+        <codify:replace doc="D.C. Code" path="§7-742.01|(5)"/>
+        <num>(5)</num>
+        <text>"Food establishment" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§48-102|(5)">section 2(5) of An Act Relating to the adulteration of foods and drugs in the District of Columbia, approved February 17, 1898 (30 Stat. 246, D.C. Official Code § 48-102(5))</code-cite>.</text>
+      </para>
     </section>
     <section>
       <num>131</num>
       <text>Section 101(5B)(B) of the District Department of the Environment Establishment Act of 2005, effective February 15, 2006 (D.C. Law 16-51; D.C. Official Code § 8-151.01(5B)(B)), is amended by striking the phrase "9 U.S.C. § 20301 <em>et seq.</em>" and inserting the phrase "49 U.S.C. § 20301 <em>et seq.</em>" in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§8-151.01|(5B)|(B)" count="1">
+        <find>[49]</find>
+        <replace>49</replace>
+      </codify:find-replace>
     </section>
     <section>
       <num>132</num>
       <text>Section 501(a)(1)(E) of the Green Finance Authority Establishment Act of 2018, effective August 22, 2018 (D.C. Law 22-155; D.C. Official Code § 8-173.51(a)(1)(E)), is amended by striking the word "payed" and inserting the word "paid" in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§8-173.51|(a)|(1)|(E)" count="1">
+        <find>payed [paid]</find>
+        <replace>paid</replace>
+      </codify:find-replace>
     </section>
     <section>
       <num>133</num>
-      <heading>Title 28 of the D.</heading>
-      <text>C. Official Code is amended as follows:</text>
+      <text>Title 28 of the D.C. Official Code is amended as follows:</text>
       <para>
         <num>(a)</num>
         <text>Section 2701 is amended by striking the phrase "May; Independence Day," and inserting the phrase "May; Juneteenth National Independence Day, June 19; Independence Day," in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§28-2701" count="1">
+        <find>May; Independence Day,</find>
+        <replace>May; Juneteenth National Independence Day, June 19; Independence Day,</replace>
+      </codify:find-replace>
       </para>
       <para>
         <num>(b)</num>
@@ -866,20 +882,33 @@
         <para>
           <num>(1)</num>
           <text>Subsection (e-1) is amended by striking the word "Represent" and inserting the word "represent" in its place.</text>
+          <codify:find-replace doc="D.C. Code" path="§28-3904|(e-1)" count="1">
+        <find>[r]epresent</find>
+        <replace>represent</replace>
+      </codify:find-replace>
         </para>
         <para>
           <num>(2)</num>
           <text>Subsection (f-1) is amended by striking the word "Use" and inserting the word "use" in its place.</text>
+          <codify:find-replace doc="D.C. Code" path="§28-3904|(f-1)" count="1">
+        <find>[u]se</find>
+        <replace>use</replace>
+      </codify:find-replace>
         </para>
         <para>
           <num>(3)</num>
           <text>Subsection (x) is amended by striking the phrase "sections 28:2-312 through 318 of the District of Columbia Official Code" and inserting the phrase "sections 28-2-312 through 28-2-318" in its place.</text>
+          <codify:find-replace doc="D.C. Code" path="§28-3904|(x)" count="1">
+        <find>sections 28:2-312 through 318 of the District of Columbia Official Code</find>
+        <replace>sections 28:2-312 through 28:2-318</replace>
+      </codify:find-replace>
         </para>
       </para>
     </section>
     <section>
       <num>134</num>
       <text>Section 2 of the Rental Housing Smoke-Free Common Area Amendment Act of 2018, effective March 22, 2019 (D.C. Law 22-260; 66 DCR 1370), is amended as follows:</text>
+      <!-- This law repealed by Law 24-45 -->
       <para>
         <num>(a)</num>
         <text>The lead-in language is amended by striking the phrase "section 509" and inserting the phrase "section 909" in its place.</text>
@@ -892,25 +921,45 @@
     <section>
       <num>135</num>
       <text>Section 910(d) of the Rental Housing Act of 1985, effective April 16, 2020 (D.C.  Law 23-72; D.C. Official Code § 42-3509.10(d)), is amended by striking the phrase "pursuant to the Housing Production Trust Fund Act of 1988, effective March 16, 1989 (D.C Law 7-202; D.C. Official Code § 42-2801, <em>et seq.</em>)" and inserting the phrase "pursuant to section 3 of the Housing Production Trust Fund Act of 1988, effective March 16, 1989 (D.C Law 7-202; D.C. Official Code § 42-2802)" in its place.</text>
+     <codify:find-replace doc="D.C. Code" path="§42-3509.10|(d)" count="1">
+        <find>created</find>
+        <replace>created</replace>
+      </codify:find-replace>
+      <!-- already done in code -->
     </section>
     <section>
       <num>136</num>
       <text>Section 204(d) of the Conversion of Rental Housing to Condominium or Cooperative Status Act of 1980, effective September 10, 1980 (D.C. Law 3-86; D.C. Official Code § 42-3402.04(d) ), is amended by striking the phrase "pursuant to the Housing Production Trust Fund Act of 1988, effective March 16, 1989 (D.C Law 7-202; D.C. Official Code § 42-2801 <em>et seq.</em>)" and inserting the phrase "pursuant to section 3 of the Housing Production Trust Fund Act of 1988, effective March 16, 1989 (D.C Law 7-202; D.C. Official Code § 42-2802)" in its place.</text>
+      <codify:find-replace doc="D.C. Code" path="§42-3509.10|(d)" count="1">
+        <find>created</find>
+        <replace>created</replace>
+      </codify:find-replace>
+      <!-- already done in code -->
     </section>
     <section>
       <num>137</num>
       <text>Section 203e(d) of the Rental Housing Registration Update Amendment Act of 2018, effective October 30, 2018 (D.C. Law 22-168; D.C. Official Code § 42-3502.03e(d)), is amended by striking the phrase "203a" and inserting the phrase "203c" in its place.</text>
+      <!-- done maunally in organic because this find does not work with <span> -->
     </section>
     <section>
       <num>138</num>
       <text>Section 507(a) of the Rental Housing Act of 1985, effective March 14, 2007 (D.C. Law 16-273; D.C. Official Code § 42-3505.07(a)), is amended as follows:</text>
+     
       <para>
         <num>(a)</num>
         <text>Paragraph (1) is amended by striking the phrase "(14)" both times it appears and inserting the phrase "(15)" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§42-3505.07|(a)|(1)" count="1">
+        <find>(14)</find>
+        <replace>(15)</replace>
+      </codify:find-replace>
       </para>
       <para>
         <num>(b)</num>
         <text>Paragraph (4) is amended by striking the phrase "as defined" and inserting the phrase "as defined in" its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§42-3505.07|(a)|(4)" count="1">
+        <find>as defined</find>
+        <replace>as defined in</replace>
+      </codify:find-replace>
       </para>
     </section>
     <section>
