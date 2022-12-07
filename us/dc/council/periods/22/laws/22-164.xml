@@ -2162,9 +2162,10 @@
           <codify:find-replace count="1">
             <find>the Vital Records Act of 1981</find>
             <replace>
-              <span codify:value="["/>
+            <!-- TAA takes out the "[ . . . ]" -->
+              <!-- <span codify:value="["/> -->
               <code-cite doc="D.C. Code" path="7|2A">the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite>
-              <span codify:value="]"/>
+              <!-- <span codify:value="]"/> -->
             </replace>
           </codify:find-replace>
         </para>
@@ -2196,7 +2197,7 @@
         <text>Section 16-2345(a) is amended by striking the phrase "pursuant to section 16-909(e)(1)(A) and section 7-205(e)(3A))" and inserting the phrase "pursuant to section 16-909(e)(1)(A) and section 108(l)(6) of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)" in its place.</text>
         <codify:find-replace count="1">
           <find>pursuant to <cite path="§16-909|(e)|(1)|(A)">§ 16-909(e)(1)(A)</cite> and <cite path="§7-205|(e)|(3A)">§ 7-205(e)(3A)</cite></find>
-          <replace>pursuant to <span codify:value="sections">section</span> <cite doc="D.C. Code" path="§16-909|(e)|(1)|(A)" codify:value="16-909(e)(1)(A)">16-909(e)(1)(A)</cite> and <code-cite doc="D.C. Code" path="§7-231.08|(l)|(6)" codify:value="[7-231.08(l)(6)]">section 108(l)(6) of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite></replace>
+          <replace>pursuant to <span codify:value="sections">section</span> <cite doc="D.C. Code" path="§16-909|(e)|(1)|(A)" codify:value="16-909(e)(1)(A)">16-909(e)(1)(A)</cite> and <code-cite doc="D.C. Code" path="§7-231.08|(l)|(6)">section 108(l)(6) of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite></replace>
         </codify:find-replace>
       </para>
       <para codify:doc="D.C. Code" codify:path="§16-2503">
