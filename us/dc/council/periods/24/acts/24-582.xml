@@ -1,25 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="https://code.dccouncil.us/schemas/dc-library" id="D.C. Act 24-187">
-  <num type="bill">24-378</num>
-  <num type="act">24-187</num>
-  <heading type="short">Metropolitan Police Department Overtime Spending Accountability Emergency Act of 2021</heading>
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-582">
+  <num type="act">24-582</num>
+  <num type="bill">24-958</num>
+  <heading type="short">Metropolitan Police Department Overtime Spending Accountability Emergency Act of 2022</heading>
   <heading type="long">To require, on an emergency basis, the Metropolitan Police Department to provide a written report every 2 pay periods on its overtime pay spending to the Council, and to require those reports to include the amount spent year-to-date on overtime pay and describe the staffing plan and conditions justifying the overtime pay.</heading>
   <meta>
-    <introduced>2021-10-01</introduced>
-    <effective>2021-10-26</effective>
+    <introduced>2022-09-16</introduced>
+    <effective>2022-10-17</effective>
     <citations>
-      <citation type="act" url="https://lims.dccouncil.us/downloads/LIMS/47873/Signed_Act/B24-0378-Signed_Act.pdf">D.C. Act 24-187</citation>
-      <citation type="register">68 DCR 011339</citation>
+      <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/51176/Signed_Act/B24-0958-Signed_Act.pdf">D.C. Act 24-582</citation>
+      <citation type="register">69 DCR 012712</citation>
     </citations>
-    <history url="https://lims.dccouncil.us/Legislation/B24-0378">
-      <vote date="2021-10-05" reading="Final"/>
-      <enacted>2021-10-26</enacted>
+    <history url="https://lims.dccouncil.us/Legislation/B24-0958">
+      <vote date="2022-09-20" reading="Final"/>
+      <enacted>2022-10-17</enacted>
       <summary/>
       <committee>Retained by the Council</committee>
     </history>
   </meta>
-  <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Metropolitan Police Department Overtime Spending Accountability Emergency Act of 2021".</text>
+  <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Metropolitan Police Department Overtime Spending Accountability Emergency Act of 2022".</text>
+  <codify:insert doc="D.C. Code" path="5" after="5" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>5A</num>
+      <heading>MPD Overtime Spending Accountability.</heading>
+    </container>
+  </codify:insert>
   <section>
+    <codify:insert doc="D.C. Code" path="5|5A" num-value="5-581"/>
     <num>2</num>
     <heading>Metropolitan Police Department overtime pay reporting.</heading>
     <para>
@@ -31,7 +39,11 @@
       <text>The reports required by subsection (a) of this section shall include the amount spent year-to-date on overtime pay and a description of the staffing plan and conditions justifying the overtime pay.</text>
     </para>
     <codify:emergency-new-sec doc="D.C. Code" path="§5-581" interim-path="§5-501.01" perm-eff="2022-10-17"/>
-    <!-- <codify:emergency doc="D.C. Code" path="§5-501.01" action="requirement that the Metropolitan Police Department provide to the D.C. Council a written report every 2 pay periods on its overtime pay spending, and that those reports include the amount spent year-to-date on overtime pay and a description of the staffing plan and conditions justifying the overtime pay"/> -->
+    <codify:insert doc="D.C. Code" path="§5-581" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section was created by emergency legislation that will expire on January 15, 2023.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
