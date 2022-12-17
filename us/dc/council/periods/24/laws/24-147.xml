@@ -1118,7 +1118,7 @@
           </codify:find-replace>
           <codify:find-replace path="(8)" count="1">
             <find>[sic.]</find>
-            <replace></replace>
+            <replace/>
           </codify:find-replace>
         </para>
       </para>
@@ -1152,10 +1152,13 @@
       <text>Section 16-2345(a) of the District of Columbia Official Code is amended by striking the phrase "pursuant to section 16-909(e)(1)(A) and section 108(l)(6) of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)" and inserting the phrase "pursuant to § 7-321.08(l)(6)" in its place.</text>
       <!-- program does not find [7-231.08(l)(6)] -->
       <!-- this should be an amendment only to change the organic citation to the code section because the change is within an enacted title -->
-      
       <codify:find-replace doc="D.C. Code" path="§16-2345|(a)" position="first">
-        <find><code-cite doc="D.C. Code" path="§7-231.08|(l)|(6)">section 108(l)(6) of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite></find>
-        <replace><cite doc="D.C. Code" path="§7-231.08|(l)|(6)" codify:value="7-231.08(l)(6)">§ 7-231.08(l)(6)</cite></replace>
+        <find>
+          <code-cite doc="D.C. Code" path="§7-231.08|(l)|(6)">section 108(l)(6) of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)</code-cite>
+        </find>
+        <replace>
+          <cite doc="D.C. Code" path="§7-231.08|(l)|(6)" codify:value="7-231.08(l)(6)">§ 7-231.08(l)(6)</cite>
+        </replace>
       </codify:find-replace>
       <codify:annotation doc="D.C. Code" path="§16-2345" type="Editor's Notes" history="false">
         The Editor has interpreted the amendment to this section by section 151 of D.C. Law 24-147 as a correction to the citation of the organic act (Bill 22-250) and not a removal of the reference to § 16-909(e)(1)(A). Therefore the citation to "section 108(l)(6) of the Vital Records Modernization Amendment Act of 2018, passed on 3rd reading on July 10, 2018 (Enrolled version of Bill 22-250)" has been changed to "§ 7-231.08(l)(6))" since this section (16-2345) is within an enacted title of the D.C. Code. 
@@ -1349,9 +1352,9 @@
           <text>Paragraph (2)(A)(i) is amended by striking the word "Beginning" and inserting the phrase "Beginnning" in its place.</text>
           <!-- This is a correction to the "strike-language" -->
           <codify:find-replace doc="D.C. Code" path="§47-2002|(a)|text" count="1">
-          <find>The rate</find>
-          <replace>The rate</replace>
-        </codify:find-replace>
+            <find>The rate</find>
+            <replace>The rate</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
@@ -1374,8 +1377,12 @@
         <num>(g)</num>
         <text>Section 8032(b) is amended by striking the phrase "Subchapter IV of Chapter 3 of Title 47" and inserting the phrase "Subchapter IV of this chapter" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§47-310|(e)" count="1">
-          <find><cite doc="D.C. Code" path="47|3|IV">Subchapter IV of Chapter 3 of Title 47 of the District of Columbia Official Code</cite></find>
-          <replace><cite doc="D.C. Code" path="47|3|IV">Subchapter IV of this chapter</cite></replace>
+          <find>
+            <cite doc="D.C. Code" path="47|3|IV">Subchapter IV of Chapter 3 of Title 47 of the District of Columbia Official Code</cite>
+          </find>
+          <replace>
+            <cite doc="D.C. Code" path="47|3|IV">Subchapter IV of this chapter</cite>
+          </replace>
         </codify:find-replace>
       </para>
     </section>
@@ -1527,7 +1534,7 @@
         <num>(a)</num>
         <text>Strike the phrase "Sec. 1080" and insert the phrase "Sec. 1081" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§1-610.81|(1)" count="1" history-prefix="redesignated, § 1081, ">
-        <!-- for purposes of update to credits -->
+          <!-- for purposes of update to credits -->
           <find>means</find>
           <replace>means</replace>
         </codify:find-replace>
@@ -1536,7 +1543,7 @@
         <num>(b)</num>
         <text>Strike the phrase "Sec. 1081" and insert the phrase "Sec. 1082" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§1-610.82|(a)" count="1" history-prefix="redesignated, § 1082, ">
-        <!-- for purposes of update to credits -->
+          <!-- for purposes of update to credits -->
           <find>There is</find>
           <replace>There is</replace>
         </codify:find-replace>
@@ -1545,7 +1552,7 @@
         <num>(c)</num>
         <text>Strike the phrase "Sec. 1082" and insert the phrase "Sec. 1083" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§1-610.83|(a)|(1)" count="1" history-prefix="redesignated, § 1083, ">
-        <!-- for purposes of update to credits -->
+          <!-- for purposes of update to credits -->
           <find>The apprenticeship</find>
           <replace>The apprenticeship</replace>
         </codify:find-replace>
@@ -1554,7 +1561,7 @@
         <num>(d)</num>
         <text>Strike the phrase "Sec. 1083" and insert the phrase "Sec. 1084" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§1-610.84|(a)" count="1" history-prefix="redesignated, § 1084, ">
-        <!-- for purposes of update to credits -->
+          <!-- for purposes of update to credits -->
           <find>A host</find>
           <replace>A host</replace>
         </codify:find-replace>
@@ -1563,7 +1570,7 @@
         <num>(e)</num>
         <text>Strike the phrase "Sec. 1084" and insert the phrase "Sec. 1085" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§1-610.85|(a)" count="1" history-prefix="redesignated, § 1085 ">
-        <!-- for purposes of update to credits -->
+          <!-- for purposes of update to credits -->
           <find>each subsequent</find>
           <replace>each subsequent</replace>
         </codify:find-replace>
@@ -1578,12 +1585,10 @@
         <para>
           <num>(1)</num>
           <text>Paragraph (1) is by striking the phrase "47-1806.15" and inserting the phrase "47-1806.16" in its place.</text>
-          
         </para>
         <para>
           <num>(2)</num>
           <text>Paragraph (2) is by striking the phrase "47-1807.14" and inserting the phrase "47-1807.15" in its place.</text>
-          
         </para>
         <para>
           <num>(3)</num>
@@ -1594,25 +1599,25 @@
         <num>(b)</num>
         <text>Subsection (b) is amended by striking the phrase "47-1806.15" both times it appears and inserting the phrase "47-1806.16" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§[47-1806.16]" count="1">
-            <find>[47-1806.16]</find>
-            <replace>47-1806.16</replace>
-          </codify:find-replace>
+          <find>[47-1806.16]</find>
+          <replace>47-1806.16</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(c)</num>
         <text>Subsection (c) is amended by striking the phrase "47-1807.14" both times it appears and inserting the phrase "47-1807.15" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§[47-1807.15]" count="1">
-            <find>[47-1807.15]</find>
-            <replace>47-1807.15</replace>
-          </codify:find-replace>
+          <find>[47-1807.15]</find>
+          <replace>47-1807.15</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(d)</num>
         <text>Subsection (d) is amended by striking the phrase "47-1808.14" both times it appears and inserting the phrase "47-1808.15" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§[47-1808.15]" count="1">
-            <find>[47-1808.15]</find>
-            <replace>47-1808.15</replace>
-          </codify:find-replace>
+          <find>[47-1808.15]</find>
+          <replace>47-1808.15</replace>
+        </codify:find-replace>
       </para>
     </section>
     <section>
@@ -1655,7 +1660,7 @@
       <num>167</num>
       <text>Section 2(e) of the Rent Charged Definition Clarification Amendment Act of 2018, effective March 13, 2019 (D.C. Law 22-248; 66 DCR 943), is amended by striking the phrase "§ 42-3502.13(d)" and inserting the phrase "§ 42-3502.13(e)" in its place.</text>
       <codify:find-replace doc="D.C. Code" path="§42-3502.13|(e)" count="1">
-      <!-- fix is only to citation in the bill instruction-->
+        <!-- fix is only to citation in the bill instruction-->
         <find>Repealed</find>
         <replace>Repealed</replace>
       </codify:find-replace>
@@ -1745,8 +1750,8 @@
       <num>173</num>
       <text>Section 3(c)(1) of the District of Columbia Unemployment Compensation Act, approved August 28, 1935 (49 Stat. 949; D.C. Official Code § 51-103(c)(1)), is amended by striking the phrase "; provided, that contributions received after July 1, 1981, by reason of the solvency tax set forth in paragraph (4)(B)(ii) of this subsection shall not be credited to the separate account of each employer. Each year" and inserting the phrase ". Each year" in its place.</text>
       <codify:find-replace doc="D.C. Code" path="§51-103|(c)|(1)" count="1">
-        <find>; provided, that contributions received after July 1, 1981, by reason of the solvency tax set forth in paragraph (4)(B)(ii) of this subsection shall not be credited to the separate account of each employer. Each year</find>
-        <replace>. Each year</replace>
+        <find>; provided, that contributions received after July 1, 1981, by reason of the solvency tax set forth in paragraph (4)(B)(ii) of this subsection shall not be credited to the separate account of each employer</find>
+        <replace></replace>
       </codify:find-replace>
     </section>
     <section>
@@ -1821,7 +1826,7 @@
         <num>(b)</num>
         <text>Strike the phrase "Sec. 6019d. Lead Service Line" and insert the phrase "Sec. 6019e. Lead Service Line" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§34-2162|(a)" count="1" history-prefix="redesignated, § 6019e ">
-        <!-- for purposes of update to credits -->
+          <!-- for purposes of update to credits -->
           <find>Lead Service</find>
           <replace>Lead Service</replace>
         </codify:find-replace>
@@ -1830,7 +1835,7 @@
         <num>(c)</num>
         <text>Strike the phrase "Sec. 6019e. Reporting on" and insert the phrase "Sec. 6019f. Reporting on" in its place.</text>
         <codify:find-replace doc="D.C. Code" path="§34-2163|(a)" count="1" history-prefix="redesignated, § 6019f ">
-        <!-- for purposes of update to credits -->
+          <!-- for purposes of update to credits -->
           <find>DOEE</find>
           <replace>DOEE</replace>
         </codify:find-replace>
