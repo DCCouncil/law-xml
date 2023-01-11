@@ -27,7 +27,7 @@
     <text>The Department of Insurance and Securities Regulation Establishment Act of 1996, effective May 21, 1997 (D.C. Law 11-268; D.C. Official Code § 31-101 et seq.), is amended by adding a new section 5a to read as follows:</text>
     <include>
       <section>
-        <codify:insert doc="D.C. Code" path="31|1|I" after="§31-104" num-value="31-104.01"/>
+        <!-- <codify:insert doc="D.C. Code" path="31|1|I" after="§31-104" num-value="31-104.01"/> -->
         <num>5a</num>
         <heading>Emergency authority of the Commissioner during a declared public emergency.</heading>
         <para>
@@ -132,12 +132,17 @@
       </section>
     </include>
     <aftertext>.</aftertext>
-    <codify:temporary-new-sec doc="D.C. Code" path="§31-104.01" interim-path="§31-104" perm-eff="2022-05-18"/>
+    <codify:annotation doc="D.C. Code" path="§31-104" type="Temporary Legislation" history="false">
+      For temporary (225-day) grant to the Commissioner of the Department of Insurance, Securities and Banking the authority to exercise emergency powers to issue emergency rules, orders, or bulletins during the existence of a public emergency declared by the Mayor pursuant to the District of Columbia Public Emergency Act of 1980, see <cite doc="D.C. Law 24-125">Law 24-124</cite>.
+    </codify:annotation>
+      
+   
+    <!-- <codify:temporary-new-sec doc="D.C. Code" path="§31-104.01" interim-path="§31-104" perm-eff="2022-05-18"/>
     <codify:insert doc="D.C. Code" path="§31-104.01" before="heading" history="false" display-template="">
       <text>
       *NOTE: This section was created by temporary legislation that will expire on December 29, 2022.*
       </text>
-    </codify:insert>
+    </codify:insert> -->
   </section>
   <section>
     <num>3</num>
