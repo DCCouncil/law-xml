@@ -155,12 +155,13 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="heading">
-    <xs:complexType mixed="true">
-      <xs:sequence>
-        <xs:element ref="cite" minOccurs="0" maxOccurs="unbounded"/>
-      </xs:sequence>
-      <xs:attribute name="type" type="xs:string" use="optional"/>
-      <xs:attribute ref="codify:value" use="optional"/>
+    <xs:complexType>
+      <xs:complexContent mixed="true">
+        <xs:extension base="xs:anyType">
+          <xs:attribute name="type" type="xs:string" use="optional"/>
+          <xs:attribute ref="codify:value" use="optional"/>
+        </xs:extension>
+      </xs:complexContent>
     </xs:complexType>
   </xs:element>
   <xs:element name="include">
