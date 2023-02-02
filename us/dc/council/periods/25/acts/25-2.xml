@@ -19,14 +19,15 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Law Enforcement Career Opportunities for District Residents Expansion Emergency Amendment Act of 2023".</text>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§5-109.01">
     <num>2</num>
     <text>Section 2 of the Police Officer and Firefighter Cadet Programs Funding Authorization and Human Rights Act of 1977 Amendment Act of 1982, effective March 9, 1983 (D.C. Law 4-172; D.C. Official Code § 5-109.01), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended to read as follows:</text>
       <include>
         <para>
+        <codify:replace/>
           <num>(a)</num>
           <para>
             <num>(1)</num>
@@ -56,10 +57,20 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(b)">
       <num>(b)</num>
       <text>Subsection (b) is amended by striking the phrase "the Metropolitan Police Department" and inserting the acronym "MPD" in its place.</text>
+      <codify:find-replace count="1">
+        <find>the Metropolitan Police Department</find>
+        <replace>MPD</replace>
+      </codify:find-replace>
     </para>
+    <codify:emergency doc="D.C. Code" path="§5-109.01"/>
+      <codify:insert doc="D.C. Code" path="§5-109.01" before="heading" history="false" display-template="">
+        <text>
+              *NOTE: This section includes amendments by emergency legislation that will expire on April 19, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§5-109.01(Perm)">Permanent Version</cite>.*
+            </text>
+      </codify:insert>
   </section>
   <section>
     <num>3</num>
