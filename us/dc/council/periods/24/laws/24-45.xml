@@ -5442,9 +5442,14 @@
         <text>Section 1108(c-2) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-611.08(c-2)), is amended by adding a new paragraph (7) to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert path="§1-611.08|(c)"/>
+            <codify:insert path="§1-611.08|(c-2)"/>
             <num>(7)</num>
             <text>Each member of the Concealed Pistol Licensing Review Board, except members who are District or federal government employees, shall be entitled to a stipend of $250 per week for their service on the board.</text>
+            <!-- fix to section 2003 of this law -->
+            <codify:find-replace path="(6)" count="1">
+              <find>; and</find>
+              <replace>[;]</replace>
+            </codify:find-replace>
           </para>
         </include>
         <aftertext>.</aftertext>
