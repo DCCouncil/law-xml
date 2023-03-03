@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-659">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-238">
+  <num type="law">24-238</num>
   <num type="act">24-659</num>
   <num type="bill">24-142</num>
   <heading type="short">Bedbug Control Act of 2022</heading>
   <heading type="long">To require a housing provider to provide notice to a tenant of any bedbug infestation within the last 120 days before the tenant signs a lease, to require a housing provider to obtain services of a pest control professional within 10 calendar days of notification from a tenant that bedbugs may be present in his or her unit, to require bedbug monitoring services for 12 months after a pest control professional determines that no evidence of bedbugs can be found in the unit, to require a tenant to grant a housing provider and pest control professional access to the unit at a reasonable time noticed in advance by the housing provider, to require a tenant to cooperate with recommendations of the pest control professional in the event of an infestation, to allow housing providers to charge the cost of inspection and remediation of bedbugs in a unit to the tenant in limited circumstances, to require pest control professionals to report data to the Department of Buildings ("Department") annually and maintain certain records for two years, to establish a process by which the Department handles complaints from tenants regarding housing providers who do not comply with certain requirements of the act, to require the Department to create an infestation history notification form to be used by housing providers, to require the Department to create a pamphlet on bedbugs and conduct educational and outreach activities to housing providers and tenants, to establish the Bedbug Inspection and Remediation Assistance Program to be administered by the Department to provide financial reimbursement to remediate bedbug infestations, and to make conforming amendments.</heading>
   <meta>
     <introduced>2021-03-01</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/46684/Signed_Act/B24-0142-Signed_Act.pdf">D.C. Law 24-238</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/46684/Signed_Act/B24-0142-Signed_Act.pdf">D.C. Act 24-659</citation>
       <citation type="register">69 DCR 14738</citation>
     </citations>
@@ -22,12 +24,20 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Bedbug Control Act of 2022".</text>
+  <codify:insert doc="D.C. Code" path="42" after="35B" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>35C</num>
+      <heading>Bedbug Control.</heading>
+    </container>
+  </codify:insert>
   <section>
+    <codify:insert doc="D.C. Code" path="42|35C" num-value="42-3551.01"/>
     <num>2</num>
-    <text>Definitions</text>
+    <heading>Definitions</heading>
     <para>
       <num undesignated="true">(a)</num>
-      <text>For purposes of this act, the term:</text>
+      <text>For purposes of <code-cite doc="D.C. Code" path="42|35C">this act</code-cite>, the term:</text>
       <para>
         <num>(1)</num>
         <text>"Bedbug" means a member of the Cimicidae family of parasitic insects.</text>
@@ -70,23 +80,25 @@
       </para>
       <para>
         <num>(8)</num>
-        <text>"Program" means the Bedbug Inspection and Remediation Assistance Program established in section 6.</text>
+        <text>"Program" means the Bedbug Inspection and Remediation Assistance Program established in <code-cite doc="D.C. Code" path="§42-3551.05">section 6</code-cite>.</text>
       </para>
       <para>
         <num>(9)</num>
-        <text>"Reasonable notice" shall have the same meaning as provided in section 531(a)(1) of the Rental Housing Act of 1985, effective February 18, 2017 (D.C. Law 21-210; D.C. Official Code § 42-3505.51(a)(1)).</text>
+        <text>"Reasonable notice" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§42-3505.51|(a)|(1)">section 531(a)(1) of the Rental Housing Act of 1985, effective February 18, 2017 (D.C. Law 21-210; D.C. Official Code § 42-3505.51(a)(1))</code-cite>.</text>
       </para>
       <para>
         <num>(10)</num>
-        <text>"Reasonable time" shall have the same meaning as provided in section 531(a)(3) of the Rental Housing Act of 1985, effective February 18, 2017 (D.C. Law 21-210; D.C. Official Code § 42-3505.51(a)(3)).</text>
+        <text>"Reasonable time" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§42-3505.51|(a)|(3)">section 531(a)(3) of the Rental Housing Act of 1985, effective February 18, 2017 (D.C. Law 21-210; D.C. Official Code § 42-3505.51(a)(3))</code-cite>.</text>
       </para>
       <para>
         <num>(11)</num>
         <text>"Tenant" means a lessee, sublessee, or other person entitled to the possession or occupancy of a rental unit.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-3551.01" applicability-path="§9" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="42|35C" num-value="42-3551.02"/>
     <num>3</num>
     <heading proof="needed">Rights and responsibilities of housing providers and tenants.</heading>
     <para>
@@ -271,15 +283,17 @@
       <num>(h)</num>
       <para>
         <num>(1)</num>
-        <text>A tenant may file a complaint with the Department when a housing provider violates subsections (b) or (d) of this section. Complaints filed by a tenant shall be processed by the Department pursuant to section 5(a).</text>
+        <text>A tenant may file a complaint with the Department when a housing provider violates subsections (b) or (d) of this section. Complaints filed by a tenant shall be processed by the Department pursuant to <code-cite doc="D.C. Code" path="§42-3551.04|(a)">section 5(a)</code-cite>.</text>
       </para>
       <para>
         <num>(2)</num>
-        <text>Housing providers shall have 15 days from the receipt of a notice of infraction issued by the Department pursuant to section 5(a)(2)(B) to file an appeal with the Office of Administrative Hearings.</text>
+        <text>Housing providers shall have 15 days from the receipt of a notice of infraction issued by the Department pursuant to <code-cite doc="D.C. Code" path="§42-3551.04|(a)|(2)|(B)">section 5(a)(2)(B)</code-cite> to file an appeal with the Office of Administrative Hearings.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-3551.02" applicability-path="§9" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="42|35C" num-value="42-3551.03"/>
     <num>4</num>
     <heading proof="needed">Responsibilities of pest control professionals.</heading>
     <para>
@@ -313,8 +327,10 @@
         <text>Upon request by the tenant whose dwelling unit was subject to inspection or eradication measures, or upon request by the housing provider who owns the unit or rental property, a pest control professional shall provide the tenant or housing provider copies of any requested reports made by the pest control professional for the affected unit or rental property within 5 business days of receiving the request.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-3551.03" applicability-path="§9" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="42|35C" num-value="42-3551.04"/>
     <num>5</num>
     <heading proof="needed">Responsibilities of the Department.</heading>
     <para>
@@ -364,7 +380,7 @@
       </para>
       <para>
         <num>(3)</num>
-        <text>The Department shall include, with the written notice required by paragraph (1) of this subsection, information on the Bedbug Remediation Assistance Program established in section 6 and an application form for the Program. Proof of application to the Program shall toll further actions by the Department until a decision is made on whether the owner property is entitled to financial assistance.</text>
+        <text>The Department shall include, with the written notice required by paragraph (1) of this subsection, information on the Bedbug Remediation Assistance Program established in <code-cite doc="D.C. Code" path="§42-3551.05">section 6</code-cite> and an application form for the Program. Proof of application to the Program shall toll further actions by the Department until a decision is made on whether the owner property is entitled to financial assistance.</text>
       </para>
     </para>
     <para>
@@ -388,7 +404,7 @@
       </para>
       <para>
         <num>(4)</num>
-        <text>The responsibilities and rights of tenants and housing providers under this act.</text>
+        <text>The responsibilities and rights of tenants and housing providers under <code-cite doc="D.C. Code" path="42|35C">this act</code-cite>.</text>
       </para>
     </para>
     <para>
@@ -397,10 +413,12 @@
     </para>
     <para>
       <num>(e)</num>
-      <text>The Mayor may, pursuant to Title I of the District of Columbia Administrative Procedures Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), issue rules to implement the provisions of this act.</text>
+      <text>The Mayor may, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedures Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, issue rules to implement the provisions of <code-cite doc="D.C. Code" path="42|35C">this act</code-cite>.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-3551.04" applicability-path="§9" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="42|35C" num-value="42-3551.05"/>
     <num>6</num>
     <heading proof="needed">Bedbug Inspection and Remediation Assistance Program.</heading>
     <para>
@@ -508,43 +526,56 @@
       <num>(d)</num>
       <text>Financial assistance made available through the Program is subject to the availability of funds.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-3551.05" applicability-path="§9" action="creation of" display-template=""/>
   </section>
   <section>
     <num>7</num>
     <text>Section 6 of the Office of Administrative Hearings Establishment Act of 2001, effective March 6, 2002 (D.C. Law 14-76; D.C. Official Code § 2-1831.03), is amended by adding a new subsection (b-30) to read as follows:</text>
     <include>
       <para>
+        <codify:insert doc="D.C. Code" path="§2-1831.03" after="(b-29)"/>
         <num>(b-30)</num>
-        <text>This act shall apply to any appeals made pursuant to section 3(h)(2) of the Bedbug Control Act of 2022, passed on 2nd reading on November 1, 2022 (Enrolled version of Bill 24-142).</text>
+        <text><code-cite doc="D.C. Code" path="2|18A">This act</code-cite> shall apply to any appeals made pursuant to <code-cite doc="D.C. Code" path="§42-3551.02|(h)|(2)">section 3(h)(2) of the Bedbug Control Act of 2022, passed on 2nd reading on November 1, 2022 (Enrolled version of Bill 24-142)</code-cite>.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§2-1831.03" applicability-path="§9" display-template=""/>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§42-3502.22|(b)">
     <num>8</num>
     <text>Section 222(b) of the Rental Housing Act of 1985, effective August 5, 2006 (D.C. Law 16-145; D.C. Official Code § 42-3502.22(b)), is amended as follows:</text>
-    <para>
+    <para codify:path="(1)">
       <num>(a)</num>
       <text>Paragraph (1) is amended as follows:</text>
-      <para>
+      <para codify:path="(K)">
         <num>(1)</num>
         <text>Subparagraph (K) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(L)">
         <num>(2)</num>
         <text>Subparagraph (L) is amended by striking the period and inserting a semicolon in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>New subparagraphs (M) and (N) are added to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert/>
             <num>(M)</num>
-            <text>The form published by the Department of Buildings pursuant to section 5(b) of the Bedbug Control Act of 2022, passed on 2nd reading on November 1, 2022 (Enrolled version of Bill 24-142), which notifies a prospective tenant of any history of bedbug infestations in the building in the last 120 days; and</text>
+            <text>The form published by the Department of Buildings pursuant to <code-cite doc="D.C. Code" path="§42-3551.04|(b)">section 5(b) of the Bedbug Control Act of 2022, passed on 2nd reading on November 1, 2022 (Enrolled version of Bill 24-142)</code-cite>, which notifies a prospective tenant of any history of bedbug infestations in the building in the last 120 days; and</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(N)</num>
-            <text>The educational pamphlet about bedbugs published by the Department of Buildings pursuant to section 5(c) of the Bedbug Control Act of 2022, passed on 2nd reading on November 1, 2022 (Enrolled version of Bill 24-142).</text>
+            <text>The educational pamphlet about bedbugs published by the Department of Buildings pursuant to <code-cite doc="D.C. Code" path="§42-3551.04|(c)">section 5(c) of the Bedbug Control Act of 2022, passed on 2nd reading on November 1, 2022 (Enrolled version of Bill 24-142)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -555,12 +586,14 @@
       <text>A new paragraph (1C) is added to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(1B)"/>
           <num>(1C)</num>
           <text>The requirement in paragraph (1)(M) of this subsection shall apply to an application for a residential rental unit submitted at least 90 days after the form is published in the District of Columbia Register.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-3502.22" applicability-path="§9" display-template=""/>
   </section>
   <section>
     <num>9</num>
@@ -568,6 +601,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability  doc="D.C. Law 24-238" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

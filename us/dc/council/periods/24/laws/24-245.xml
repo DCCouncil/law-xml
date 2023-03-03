@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-704">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-245">
+  <num type="law">24-245</num>
   <num type="act">24-704</num>
   <num type="bill">24-455</num>
   <heading type="short">Omnibus Uniform Athlete Agent and College Athlete Name, Image, or Likeness Amendment Act of 2022</heading>
   <heading type="long">To amend of Part E of Subchapter IV of Chapter 28 of Title 47 of the District of Columbia Official Code to adopt the provisions of the Revised Uniform Athletes Agents Act, to expand the definition of athlete agent, to provide for reciprocal registration of athlete agents licensed in other states, to enhance the requirements for an athlete agent's signing of an agency contract to require an athlete agent to notify the educational institution at which a student-athlete is enrolled before contacting a student-athlete, to prohibit an athlete agent from encouraging another individual to take an action on behalf of the agent that the agent is prohibited from taking, to accommodate recent amendments to National Collegiate Athletic Association bylaws that provide more freedom and flexibility to student-athletes considering a professional career, to give a student-athlete a right of action against an athlete agent for conduct in violation of Title I; to adopt the Uniform College Athlete Name, Image, or Likeness Act of 2022 by establishing a legal framework for permitting college athletes to receive compensation for their name, image, and likeness, to provide parameters on the types of activity the athletes may engage in, and on the compensation the athletes may receive, to establish limitations on institution, conference, and athletic association involvement, to establish a disclosure requirement for college athletes, and to provide for civil remedies and enforcement by the Attorney General; and to add a new Part G to Subchapter IV of Chapter 28 of Title 47 of the District of Columbia Official Code to provide a mechanism for certifying and regulating name, image, or likeness agents, a mechanism for regulating third parties who provide compensation to college athletes for the use of their name, image, or likeness, a right of action for college athletes if their name, image, and likeness rights are violated, and civil remedies and for enforcement by the Attorney General.</heading>
   <meta>
     <introduced>2021-10-19</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/48105/Signed_Act/B24-0455-Signed_Act.pdf">D.C. Law 24-245</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/48105/Signed_Act/B24-0455-Signed_Act.pdf">D.C. Act 24-704</citation>
       <citation type="register">70 DCR 174</citation>
     </citations>
@@ -21,7 +23,9 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Omnibus Uniform Athlete Agent and College Athlete Name, Image, or Likeness Amendment Act of 2022".</text>
-  <text><b>Title I. ATHLETE AGENTS.</b></text>
+  <text>
+    <b>Title I. ATHLETE AGENTS.</b>
+  </text>
   <section>
     <num>101</num>
     <heading proof="needed">Short title.</heading>
@@ -36,14 +40,26 @@
       <para>
         <num>(1)</num>
         <text>The section designation for § 47-2887.04 is amended by striking the phrase "form; requirements." and inserting the phrase "application; requirements; reciprocal registration." in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§47-2887.04" count="1">
+          <find>form; requirements.</find>
+          <replace>application; requirements; reciprocal registration.</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>The section designation for § 47-2887.09 is amended by striking the phrase "of contract" and inserting the phrase "of agency contract" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§47-2887.09" count="1">
+          <find>of contract</find>
+          <replace>of agency contract</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>The section designation for § 47-2887.16 is amended by striking the word "Administrative" and inserting the word "Civil" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§47-2887.16" count="1">
+          <find>Administrative</find>
+          <replace>Civil</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
@@ -52,21 +68,26 @@
       <para>
         <num>(5)</num>
         <text>The section designation for § 47-2887.18 is amended by striking the word "Electronic" and inserting the phrase "Relation to Electronic" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§47-2887.18" position="first">
+          <find>Electronic</find>
+          <replace>Relation to Electronic</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§47-2887.01">
       <num>(b)</num>
       <text>Section 47-2887.01 is amended as follows:</text>
-      <para>
+      <para codify:path="(2)">
         <num>(1)</num>
         <text>Paragraph (2) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(2)</num>
             <text>"Athlete agent":</text>
             <para>
               <num>(A)</num>
-              <text>Means an individual, whether or not registered under this part, who:</text>
+              <text>Means an individual, whether or not registered under <cite doc="D.C. Code" path="47|28|IV|E">this part</cite>, who:</text>
               <para>
                 <num>(i)</num>
                 <text>Directly or indirectly recruits or solicits a student-athlete to enter into an agency contract or, for compensation, procures employment or offers, promises, attempts, or negotiates to obtain employment for a student-athlete as a professional athlete or member of a professional sports team or organization;</text>
@@ -133,6 +154,7 @@
         <text>A new paragraph (4A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(4)"/>
             <num>(4A)</num>
             <text>"Educational institution" includes a public or private elementary school, secondary school, technical or vocational school, community college, college, or university.</text>
           </para>
@@ -144,6 +166,7 @@
         <text>A new paragraph (5A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(5)"/>
             <num>(5A)</num>
             <text>"Enrolled" or "enrolls" means registered for courses and attending athletic practice or class.</text>
           </para>
@@ -155,14 +178,17 @@
         <text>New paragraphs (6A), (6B), and (6C) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(6)"/>
             <num>(6A)</num>
             <text>"Interscholastic sport" means a sport played between educational institutions that are not community colleges, colleges, or universities.</text>
           </para>
           <para>
+            <codify:insert after="(6A)"/>
             <num>(6B)</num>
             <text>"Licensed, registered, or certified professional" means an individual licensed, registered, or certified as an attorney, dealer in securities, financial planner, insurance agent, real estate broker or sales agent, tax consultant, accountant, or member of a profession, other than that of athlete agent, who is licensed, registered, or certified by the District or a nationally recognized organization that licenses, registers, or certifies members of the profession on the basis of experience, education, or testing.</text>
           </para>
           <para>
+            <codify:insert after="(6B)"/>
             <num>(6C)</num>
             <text>"Mayor" includes the Mayor's delegee.</text>
           </para>
@@ -174,6 +200,7 @@
         <text>Paragraph (8) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace path="(8)"/>
             <num>(8)</num>
             <text>Professional-sports-services-contract" means an agreement under which an individual is employed as a professional athlete or agrees to render services as a player on a professional sports team or with a professional sports organization.</text>
           </para>
@@ -185,6 +212,7 @@
         <text>A new paragraph (9A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(9)"/>
             <num>(9A)</num>
             <text>"Recruit or solicit" means to attempt to influence the choice of an athlete agent by a student-athlete or, if the student-athlete is a minor, the choice by a parent or guardian of the student-athlete. The term does not include giving advice on the selection of a particular agent in a family, coaching, or social situation unless the individual giving the advice does so because of the receipt or anticipated receipt of an economic benefit, directly or indirectly, from the agent.</text>
           </para>
@@ -196,6 +224,7 @@
         <text>A new paragraph (10A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(10)"/>
             <num>(10A)</num>
             <text>"Sign" means, with present intent to authenticate or adopt a record, to:</text>
             <para>
@@ -215,6 +244,7 @@
         <text>Paragraph (12) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace path="(12)"/>
             <num>(12)</num>
             <text>"Student-athlete" means an individual who is eligible to attend an educational institution and engages in, is eligible to engage in, or may be eligible in the future to engage in, any interscholastic or intercollegiate sport.  The term does not include an individual permanently ineligible to participate in a particular interscholastic or intercollegiate sport for that sport.</text>
           </para>
@@ -222,11 +252,12 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§47-2887.04">
       <num>(c)</num>
       <text>Section 47-2887.04 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>47-2887.04</num>
           <heading proof="needed">Registration as athlete agent; application; requirements; reciprocal registration.</heading>
@@ -396,10 +427,10 @@
           </para>
           <para>
             <num>(c)</num>
-            <text>Except as provided in § 47-2887.05(b), the Mayor shall issue a certificate of registration to an individual who applies for registration under subsection (b) of this section if the Mayor determines:</text>
+            <text>Except as provided in <cite doc="D.C. Code" path="§47-2887.05|(b)">§ 47-2887.05(b)</cite>, the Mayor shall issue a certificate of registration to an individual who applies for registration under subsection (b) of this section if the Mayor determines:</text>
             <para>
               <num>(1)</num>
-              <text>The application and registration requirements of the other State are substantially similar to or more restrictive than this part; and</text>
+              <text>The application and registration requirements of the other State are substantially similar to or more restrictive than <cite doc="D.C. Code" path="47|28|IV|E">this part</cite>; and</text>
             </para>
             <para>
               <num>(2)</num>
@@ -411,7 +442,7 @@
             <text>For purposes of implementing subsection (c) of this section, the Mayor shall:</text>
             <para>
               <num>(1)</num>
-              <text>Cooperate with national organizations concerned with athlete agent issues and agencies in other States that register athlete agents to develop a common registration form and determine which States have laws that are substantially similar to or more restrictive than this part; and</text>
+              <text>Cooperate with national organizations concerned with athlete agent issues and agencies in other States that register athlete agents to develop a common registration form and determine which States have laws that are substantially similar to or more restrictive than <cite doc="D.C. Code" path="47|28|IV|E">this part</cite>; and</text>
             </para>
             <para>
               <num>(2)</num>
@@ -422,14 +453,15 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§47-2887.05">
       <num>(d)</num>
       <text>Section 47-2887.05 is amended to read as follows:</text>
-      <para>
+      <para codify:path="(b)">
         <num>(1)</num>
         <text>Subsection (b) is amended by adding a new paragraph (5A) to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert after="(5)"/>
             <num>(5A)</num>
             <text>Been refused renewal of registration as an athlete agent in any State;</text>
           </para>
@@ -441,11 +473,12 @@
         <text>Subsection (e) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace path="(e)"/>
             <num>(e)</num>
-            <text>An athlete agent registered under § 47-2887.04(c) may renew the registration by proceeding under subsection (d) of this section or, if the registration in the other State has been renewed, by submitting to the Mayor copies of the application for renewal in the other State and the renewed registration from the other State. The Mayor shall renew the registration if the Mayor determines:</text>
+            <text>An athlete agent registered under <cite doc="D.C. Code" path="§47-2887.04|(c)">§ 47-2887.04(c)</cite> may renew the registration by proceeding under subsection (d) of this section or, if the registration in the other State has been renewed, by submitting to the Mayor copies of the application for renewal in the other State and the renewed registration from the other State. The Mayor shall renew the registration if the Mayor determines:</text>
             <para>
               <num>(1)</num>
-              <text>The registration requirements of the other State are substantially similar to or more restrictive than this part; and</text>
+              <text>The registration requirements of the other State are substantially similar to or more restrictive than <cite doc="D.C. Code" path="47|28|IV|E">this part</cite>; and</text>
             </para>
             <para>
               <num>(2)</num>
@@ -456,19 +489,27 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§47-2887.06">
       <num>(e)</num>
       <text>Section 48-2887.06 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the phrase "may suspend" and inserting the phrase "may limit, suspend" in its place.</text>
+        <codify:find-replace count="1">
+          <find>may suspend</find>
+          <replace>may limit, suspend</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the phrase "may deny" and inserting the phase "may limit, deny" in its place.</text>
+        <codify:find-replace count="1">
+          <find>may deny</find>
+          <replace>may limit, deny</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§47-2887.09">
       <num>(f)</num>
       <text>Section 47-2887.09 is amended as follows:</text>
       <para>
@@ -483,39 +524,43 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <text>An agency contract must be in a record signed by the parties.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(3)</num>
         <text>Subsection (b) is amended by adding a new paragraph (1A) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1)"/>
             <num>(1A)</num>
             <text>A statement that the athlete agent is registered as an athlete agent in the District and a list of any other States in which the person is registered as an athlete agent;</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(4)</num>
         <text>Subsection (c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c)</num>
             <text>Subject to subsection (f) of this section, an agency contract must contain a conspicuous notice in boldface type and in substantially the following form:</text>
-            <text>WARNING TO STUDENT-ATHLETE.</text>
-            <text>(1) YOU MAY LOSE YOUR ELIGIBILITY TO COMPETE AS A STUDENT- ATHLETE IN YOUR SPORT;</text>
-            <text>(2) IF YOU HAVE AN ATHLETIC DIRECTOR, WITHIN 72 HOURS AFTER SIGNING THIS CONTRACT OR BEFORE THE NEXT SCHEDULED ATHLETIC EVENT IN WHICH YOU PARTICIPATE, WHICHEVER OCCURS FIRST, BOTH YOU AND YOUR ATHLETE AGENT MUST NOTIFY YOUR ATHLETIC DIRECTOR THAT YOU HAVE ENTERED INTO THIS CONTRACT AND PROVIDE THE NAME AND CONTACT INFORMATION OF THE ATHLETE AGENT; AND</text>
-            <text>(3) YOU MAY CANCEL THIS CONTRACT WITHIN 14 DAYS AFTER SIGNING IT.  CANCELLATION OF THIS CONTRACT MAY NOT REINSTATE YOUR ELIGIBILITY AS A STUDENT-ATHLETE IN YOUR SPORT.</text>
+            <text>"WARNING TO STUDENT-ATHLETE.</text>
+            <text>"IF YOU SIGN THIS CONTRACT:</text>
+            <text>"(1) YOU MAY LOSE YOUR ELIGIBILITY TO COMPETE AS A STUDENT- ATHLETE IN YOUR SPORT;</text>
+            <text>"(2) IF YOU HAVE AN ATHLETIC DIRECTOR, WITHIN 72 HOURS AFTER SIGNING THIS CONTRACT OR BEFORE THE NEXT SCHEDULED ATHLETIC EVENT IN WHICH YOU PARTICIPATE, WHICHEVER OCCURS FIRST, BOTH YOU AND YOUR ATHLETE AGENT MUST NOTIFY YOUR ATHLETIC DIRECTOR THAT YOU HAVE ENTERED INTO THIS CONTRACT AND PROVIDE THE NAME AND CONTACT INFORMATION OF THE ATHLETE AGENT; AND</text>
+            <text>"(3) YOU MAY CANCEL THIS CONTRACT WITHIN 14 DAYS AFTER SIGNING IT.  CANCELLATION OF THIS CONTRACT MAY NOT REINSTATE YOUR ELIGIBILITY AS A STUDENT-ATHLETE IN YOUR SPORT."</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -525,6 +570,7 @@
         <text>A new subsection (c-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(c)"/>
             <num>(c-1)</num>
             <text>An agency contract must be accompanied by a separate record signed by the student-athlete or, if the student-athlete is a minor, the parent or guardian of the student-athlete, acknowledging that signing the contract may result in the loss of the student-athlete's eligibility to participate in the student-athlete's sport.</text>
           </para>
@@ -535,10 +581,12 @@
         <text>Subsections (d) and (e) are amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace path="(d)"/>
             <num>(d)</num>
             <text>A student-athlete or, if the student-athlete is a minor, the parent or guardian of the student-athlete may void an agency contract that does not conform to this section.  If the contract is voided, any consideration received from the athlete agent under the contract to induce entering into the contract is not required to be returned.</text>
           </para>
           <para>
+            <codify:replace path="(e)"/>
             <num>(e)</num>
             <text>At the time an agency contract is executed, the athlete agent shall give the student-athlete or, if the student-athlete is a minor, the parent or guardian of the student-athlete a copy in a record of the contract and the separate acknowledgement required by subsection (c-1) of this section.</text>
           </para>
@@ -550,6 +598,7 @@
         <text>A new subsection (f) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(f)</num>
             <text>If a student-athlete is a minor, an agency contract must be signed by the parent or guardian of the minor and the notice required by subsection (c) of this section must be revised  accordingly.</text>
           </para>
@@ -557,35 +606,55 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§47-2887.10">
       <num>(g)</num>
       <text>Section 47-2887.10 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "Within 72 hours" and insert the phrase "Not later than 72 hours" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Within 72 hours</find>
+            <replace>Not later than 72 hours</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "enrolled or the athlete agent" and insert the phrase "enrolled or at which the athlete agent" in its place.</text>
+          <codify:find-replace count="1">
+            <find>enrolled or the athlete agent</find>
+            <replace>enrolled or at which the athlete agent</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "Within 72 hours" and insert the phrase "Not later than 72 hours" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Within 72 hours</find>
+            <replace>Not later than 72 hours</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "athletic event" and insert the phrase "scheduled athletic event" in its place.</text>
+          <codify:find-replace count="1">
+            <find>athletic event</find>
+            <replace>scheduled athletic event</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>Strike the phrase "he or she has entered into an agency contract" and insert the phrase "the student-athlete has entered into an agency contract and the name and contact information of the athlete agent" in its place.</text>
+          <codify:find-replace count="1">
+            <find>he or she has entered into an agency contract</find>
+            <replace>the student-athlete has entered into an agency contract and the name and contact information of the athlete agent</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
@@ -593,10 +662,12 @@
         <text>New subsections (c), (d), (e), (f), (g), and (h) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(c)</num>
             <text>If an athlete agent enters into an agency contract with a student-athlete and the student-athlete subsequently enrolls at an educational institution, the agent shall notify the athletic director of the institution of the existence of the contract not later than 72 hours after the agent knew or should have known that the student-athlete enrolled in the educational institution.</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(d)</num>
             <text>If an athlete agent has a relationship with a student-athlete before the student-athlete enrolls in an educational institution and receives an athletic scholarship from the institution, the agent shall notify the institution of the relationship not later than 10 days after the enrollment if the agent knows or should have known of the enrollment and:</text>
             <para>
@@ -609,6 +680,7 @@
             </para>
           </para>
           <para>
+            <codify:insert/>
             <num>(e)</num>
             <text>An athlete agent shall give notice in a record to the athletic director of any educational institution at which a student-athlete is enrolled before the agent communicates or attempts to communicate with:</text>
             <para>
@@ -621,12 +693,14 @@
             </para>
           </para>
           <para>
+            <codify:insert/>
             <num>(f)</num>
             <text>If a communication or attempt to communicate with an athlete agent is initiated by a student-athlete or another individual on behalf of the student-athlete, the agent shall notify, in a record, the athletic director of any educational institution at which the student-athlete is enrolled. The notification must be made not later than 10 days after the communication or attempt.</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(g)</num>
-            <text>An educational institution that becomes aware of a violation of this part by an athlete agent shall notify the following entities of the violation:</text>
+            <text>An educational institution that becomes aware of a violation of <cite doc="D.C. Code" path="47|28|IV|E">this part</cite> by an athlete agent shall notify the following entities of the violation:</text>
             <para>
               <num>(1)</num>
               <text>The Mayor; and</text>
@@ -637,6 +711,7 @@
             </para>
           </para>
           <para>
+            <codify:insert/>
             <num>(h)</num>
             <text>For the purposes of this section, the term "communicates or attempts" to communicate" means contacting or attempting to contact by an in-person meeting, a record, or any other method that conveys or attempts to convey a message.</text>
           </para>
@@ -644,11 +719,12 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§47-2887.11">
       <num>(h)</num>
       <text>Section 47-2887.11 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>47-2887.11</num>
           <heading proof="needed">Student-athlete's right to cancel.</heading>
@@ -668,11 +744,12 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§47-2887.13">
       <num>(i)</num>
       <text>Section 47-2887.13 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>47-2887.13</num>
           <heading proof="needed">Prohibited conduct.</heading>
@@ -697,15 +774,15 @@
             </para>
             <para>
               <num>(3)</num>
-              <text>Initiate contact, directly or indirectly, with a student-athlete or, if the student-athlete is a minor, a parent or guardian of the student-athlete to recruit or solicit the student-athlete, parent, or guardian to enter an agency contract unless the athlete agent is registered under this part;</text>
+              <text>Initiate contact, directly or indirectly, with a student-athlete or, if the student-athlete is a minor, a parent or guardian of the student-athlete to recruit or solicit the student-athlete, parent, or guardian to enter an agency contract unless the athlete agent is registered under <cite doc="D.C. Code" path="47|28|IV|E">this part</cite>;</text>
             </para>
             <para>
               <num>(4)</num>
-              <text>Fail to create, retain, or permit inspection of the records required by § 47-2887.12;</text>
+              <text>Fail to create, retain, or permit inspection of the records required by <cite doc="D.C. Code" path="§47-2887.12">§ 47-2887.12</cite>;</text>
             </para>
             <para>
               <num>(5)</num>
-              <text>Fail to register when required by § 47-2887.03;</text>
+              <text>Fail to register when required by <cite doc="D.C. Code" path="§47-2887.03">§ 47-2887.03</cite>;</text>
             </para>
             <para>
               <num>(6)</num>
@@ -732,17 +809,18 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§47-2887.15">
       <num>(j)</num>
       <text>Section 47-2887.15 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>47-2887.15</num>
           <heading proof="needed">Civil remedies.</heading>
           <para>
             <num>(a)</num>
-            <text>An educational institution or student-athlete may bring an action for damages against an athlete agent if the institution or student-athlete is adversely affected by an act or omission of the athlete agent in violation of this part. An educational institution or student-athlete is adversely affected by an act or omission of the agent only if, because of the act or omission, the institution or an individual who was a student-athlete at the time of the act or omission and enrolled in the institution:</text>
+            <text>An educational institution or student-athlete may bring an action for damages against an athlete agent if the institution or student-athlete is adversely affected by an act or omission of the athlete agent in violation of <cite doc="D.C. Code" path="47|28|IV|E">this part</cite>. An educational institution or student-athlete is adversely affected by an act or omission of the agent only if, because of the act or omission, the institution or an individual who was a student-athlete at the time of the act or omission and enrolled in the institution:</text>
             <para>
               <num>(1)</num>
               <text>Is suspended or disqualified from participation in an interscholastic or intercollegiate sports event by or under the rules of a State or national federation or association that promotes or regulates interscholastic or intercollegiate sports; or</text>
@@ -760,50 +838,67 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§47-2887.16">
       <num>(k)</num>
       <text>Section 47-2887.16 is amended by striking the phrase "Administrative penalty" in the section heading and inserting the phrase "Civil penalty" in its place.</text>
+      <codify:find-replace count="1">
+        <find>Civil penalty</find>
+        <replace>Civil penalty</replace>
+      </codify:find-replace>
+      <codify:find-replace count="1">
+        <find>this part</find>
+        <replace>
+          <cite doc="D.C. Code" path="47|28|IV|E">this part</cite>
+        </replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(l)</num>
       <text>A new section 47-2887.16A is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert doc="D.C. Code" path="47|28|IV|E" after="§47-2887.16" num-value="[47-2887.16a]"/>
           <prefix>§</prefix>
           <num>47-1887.16A</num>
           <heading proof="needed">Rules.</heading>
-          <text>The Mayor may issue rules pursuant to § 2-501 <em>et seq.</em> to carry out the provisions of this part.</text>
+          <text>The Mayor may issue rules pursuant to <cite doc="D.C. Code" path="2|5">§ 2-501 et seq.</cite> to carry out the provisions of <cite doc="D.C. Code" path="47|28|IV|E">this part</cite>.</text>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§47-2887.18">
       <num>(m)</num>
       <text>Section 47-2887.18 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>47-2887.18</num>
           <heading proof="needed">Relation to Electronic Signatures in Global and National Commerce Act.</heading>
-          <text>This part modifies, limits, or supersedes the Electronic Signatures in Global and National Commerce Act, approved June 30, 2000 (114 Stat. 467; 5 U.S.C. § 7002) ("Act"), but does not modify, limit, or supersede section 101(c) of that Act, 15 U.S.C. § 7001(c), or authorize electronic delivery of any of the notices described in section 103(b) of that Act, 15 U.S.C. § 7003(b).</text>
+          <text><cite doc="D.C. Code" path="47|28|IV|E">This part</cite> modifies, limits, or supersedes the Electronic Signatures in Global and National Commerce Act, approved June 30, 2000 (114 Stat. 467; 5 U.S.C. § 7002) ("Act"), but does not modify, limit, or supersede section 101(c) of that Act, 15 U.S.C. § 7001(c), or authorize electronic delivery of any of the notices described in section 103(b) of that Act, 15 U.S.C. § 7003(b).</text>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <text><b>Title II. COLLEGE ATHLETE NAME, IMAGE, LIKENESS</b></text>
+  <text>
+    <b>Title II. COLLEGE ATHLETE NAME, IMAGE, LIKENESS</b>
+  </text>
   <section>
-      <num>201</num>
+    <num>201</num>
     <heading proof="needed">Short title.</heading>
     <text>This title may be cited as the "Uniform College Athlete Name, Image, or Likeness Act of 2022".</text>
   </section>
-  <text><b>SUBTITLE A. COLLEGE ATHLETE NAME, IMAGE, OR LIKENESS ACTIVITY</b></text>
+  <text>
+    <b>SUBTITLE A. COLLEGE ATHLETE NAME, IMAGE, OR LIKENESS ACTIVITY</b>
+  </text>
   <section>
-    <num>211</num>
+    <codify:replace doc="D.C. Code" path="§38-1631.01" display="New"/>
+    <num codify:value="38-1631.01">211</num>
     <heading proof="needed">Definitions.</heading>
     <para>
       <num undesignated="true">(a)</num>
-      <text>For the purposes of this subtitle, the term:</text>
+      <text>For the purposes of <code-cite doc="D.C. Code" path="38|16A">this subtitle</code-cite>, the term:</text>
       <para>
         <num>(1)</num>
         <text>"Athletic association" means a nonprofit, intercollegiate sport governance association that regulates the eligibility of players and institutions.</text>
@@ -903,27 +998,29 @@
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="38|16A" num-value="38-1631.02"/>
     <num>212</num>
     <heading proof="needed">Scope.</heading>
     <para>
       <num>(a)</num>
-      <text>This subtitle applies only to college athletes and intercollegiate sports.</text>
+      <text><code-cite doc="D.C. Code" path="38|16A">This subtitle</code-cite> applies only to college athletes and intercollegiate sports.</text>
     </para>
     <para>
       <num>(b)</num>
-      <text>This subtitle does not create an employment relationship between a college athlete and the athlete's institution with respect to the athlete's participation in an intercollegiate sport.  This subtitle may not be used as a factor in determining whether an employment relationship exists.</text>
+      <text><code-cite doc="D.C. Code" path="38|16A">This subtitle</code-cite> does not create an employment relationship between a college athlete and the athlete's institution with respect to the athlete's participation in an intercollegiate sport.  <code-cite doc="D.C. Code" path="38|16A">This subtitle</code-cite> may not be used as a factor in determining whether an employment relationship exists.</text>
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="38|16A" num-value="38-1631.03"/>
     <num>213</num>
     <heading proof="needed">Name, image, or likeness activity and compensation; limits on institutions, conferences, and athletic associations.</heading>
     <para>
       <num>(a)</num>
-      <text>Except as provided in section 214, this subtitle does not limit the ability of a college athlete to engage in name, image, or likeness activity to the extent permitted under other District law.</text>
+      <text>Except as provided in <code-cite doc="D.C. Code" path="§38-1631.04">section 214</code-cite>, <code-cite doc="D.C. Code" path="38|16A">this subtitle</code-cite> does not limit the ability of a college athlete to engage in name, image, or likeness activity to the extent permitted under other District law.</text>
     </para>
     <para>
       <num>(b)</num>
-      <text>Except as provided in section 214:</text>
+      <text>Except as provided in <code-cite doc="D.C. Code" path="§38-1631.04">section 214</code-cite>:</text>
       <para>
         <num>(1)</num>
         <text>An institution, conference, or athletic association may not:</text>
@@ -983,6 +1080,7 @@
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="38|16A" num-value="38-1631.04"/>
     <num>214</num>
     <heading proof="needed">Limit on name, image, or likeness activity and compensation.</heading>
     <para>
@@ -1037,7 +1135,7 @@
         </para>
         <para>
           <num>(B)</num>
-          <text>Tobacco, or an electronic smoking device as that term is defined in section 4915(1) of the Department of Health Functions Clarification Act of 2001, effective April 4, 2006 (D.C. Law 16-90; D.C. Official Code § 7-741.01(1));</text>
+          <text>Tobacco, or an electronic smoking device as that term is defined in <code-cite doc="D.C. Code" path="§7-741.01|(1)">section 4915(1) of the Department of Health Functions Clarification Act of 2001, effective April 4, 2006 (D.C. Law 16-90; D.C. Official Code § 7-741.01(1))</code-cite>;</text>
         </para>
         <para>
           <num>(C)</num>
@@ -1075,6 +1173,7 @@
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="38|16A" num-value="38-1631.05"/>
     <num>215</num>
     <heading proof="needed">Institution, conference, and athletic association involvement.</heading>
     <para>
@@ -1086,7 +1185,7 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>With the disclosure requirements of section 216; and</text>
+        <text>With the disclosure requirements of <code-cite doc="D.C. Code" path="§38-1631.06">section 216</code-cite>; and</text>
       </para>
       <para>
         <num>(3)</num>
@@ -1147,6 +1246,7 @@
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="38|16A" num-value="38-1631.06"/>
     <num>216</num>
     <heading proof="needed">Required disclosures.</heading>
     <para>
@@ -1219,7 +1319,7 @@
     </para>
     <para>
       <num>(d)</num>
-      <text>If an institution, conference, or athletic association voluntarily, or as required by this subtitle, adopts a limitation affecting a college athlete's ability to engage in name, image, or likeness activity, the institution shall provide, in a record, a copy of the limitation on its website that is accessible by the public and electronically searchable and to each college athlete the institution expects to participate in an intercollegiate sport:</text>
+      <text>If an institution, conference, or athletic association voluntarily, or as required by <code-cite doc="D.C. Code" path="38|16A">this subtitle</code-cite>, adopts a limitation affecting a college athlete's ability to engage in name, image, or likeness activity, the institution shall provide, in a record, a copy of the limitation on its website that is accessible by the public and electronically searchable and to each college athlete the institution expects to participate in an intercollegiate sport:</text>
       <para>
         <num>(1)</num>
         <text>At or before the time an offer of admission or financial aid is made, whichever is earlier; or</text>
@@ -1247,11 +1347,12 @@
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="38|16A" num-value="38-1631.07"/>
     <num>217</num>
     <heading proof="needed">Civil remedy.</heading>
     <para>
       <num>(a)</num>
-      <text>An institution or college athlete has a cause of action for damages against a name, image, or likeness agent or third party if the institution or athlete is adversely affected by an act or omission of the agent or third party in violation of this subtitle.  An institution or college athlete is adversely affected by an act or omission of the agent or third party only if, because of the act or omission, the institution or college athlete:</text>
+      <text>An institution or college athlete has a cause of action for damages against a name, image, or likeness agent or third party if the institution or athlete is adversely affected by an act or omission of the agent or third party in violation of <code-cite doc="D.C. Code" path="38|16A">this subtitle.</code-cite>  An institution or college athlete is adversely affected by an act or omission of the agent or third party only if, because of the act or omission, the institution or college athlete:</text>
       <para>
         <num>(1)</num>
         <text>Is sanctioned, suspended, or declared ineligible to participate in an intercollegiate sport; or</text>
@@ -1271,30 +1372,36 @@
     </para>
     <para>
       <num>(d)</num>
-      <text>A violation of this subtitle by an athlete agent or third party is a violation of and enforceable under Chapter 39 of Title 28.</text>
+      <text>A violation of <code-cite doc="D.C. Code" path="38|16A">this subtitle</code-cite> by an athlete agent or third party is a violation of and enforceable under <cite doc="D.C. Code" path="28|39">Chapter 39 of Title 28</cite>.</text>
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="38|16A" num-value="38-1631.08"/>
     <num>218</num>
     <heading proof="needed">Civil penalty.</heading>
-    <text>The Superior Court of the District of Columbia, pursuant to an action brought by the Attorney General for the District of Columbia, may assess a civil penalty against a name, image, or likeness agent or third party not to exceed $50,000 for a violation of this subtitle.</text>
+    <text>The Superior Court of the District of Columbia, pursuant to an action brought by the Attorney General for the District of Columbia, may assess a civil penalty against a name, image, or likeness agent or third party not to exceed $50,000 for a violation of <code-cite doc="D.C. Code" path="38|16A">this subtitle</code-cite>.</text>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="38|16A" num-value="38-1631.09"/>
     <num>219</num>
     <heading proof="needed">Rulemaking authority.</heading>
-    <text>The Mayor may adopt rules pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), to administer and implement this subtitle.</text>
+    <text>The Mayor may adopt rules pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>),</code-cite> to administer and implement <code-cite doc="D.C. Code" path="38|16A">this subtitle</code-cite>.</text>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="38|16A" num-value="38-1631.10"/>
     <num>220</num>
     <heading proof="needed">Uniformity of application and construction.</heading>
-    <text>In applying and construing this subtitle, a court shall consider the promotion of uniformity of the law among jurisdictions that have enacted it.</text>
+    <text>In applying and construing <code-cite doc="D.C. Code" path="38|16A">this subtitle</code-cite>, a court shall consider the promotion of uniformity of the law among jurisdictions that have enacted it.</text>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="38|16A" num-value="38-1631.11"/>
     <num>221</num>
     <heading proof="needed">Relation to Electronic Signatures in Global and National Commerce Act.</heading>
-    <text>This subtitle modifies, limits, or supersedes the Electronic Signatures in Global and National Commerce Act, approved June 30, 2000 (114 Stat. 467; 15 U.S.C. § 7001 <em>et seq.</em>) ("Act"), but does not modify, limit, or supersede section 101(c) of that Act, (15 U.S.C. § 7001(c)), or authorize electronic delivery of any of the notices described in section 103(b) of that Act, (15 U.S.C. § 7003(b)).</text>
+    <text><code-cite doc="D.C. Code" path="38|16A">This subtitle</code-cite> modifies, limits, or supersedes the Electronic Signatures in Global and National Commerce Act, approved June 30, 2000 (114 Stat. 467; 15 U.S.C. § 7001 <em>et seq.</em>) ("Act"), but does not modify, limit, or supersede section 101(c) of that Act, (15 U.S.C. § 7001(c)), or authorize electronic delivery of any of the notices described in section 103(b) of that Act, (15 U.S.C. § 7003(b)).</text>
   </section>
-  <text><b>SUBTITLE B. REGULATION OF COLLEGE ATHLETE NAME, IMAGE, LIKENESS AGENTS AND THIRD PARTIES</b></text>
+  <text>
+    <b>SUBTITLE B. REGULATION OF COLLEGE ATHLETE NAME, IMAGE, LIKENESS AGENTS AND THIRD PARTIES</b>
+  </text>
   <section>
     <num>222</num>
     <text>Subchapter IV of Chapter 28 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
@@ -1345,6 +1452,13 @@
       <aftertext>.</aftertext>
     </para>
     <para>
+      <codify:insert doc="D.C. Code" path="47|28|IV" history="false">
+        <container>
+          <prefix>Part</prefix>
+          <num>G</num>
+          <heading>College Athlete Name, Image, or Likeness Registration.</heading>
+        </container>
+      </codify:insert>
       <num>(b)</num>
       <text>A new Part G is added to read as follows:</text>
       <include lvl="2">
@@ -1353,25 +1467,28 @@
           <num>G</num>
           <heading>College Athlete Name, Image, or Likeness Registration.</heading>
           <section>
+            <codify:insert doc="D.C. Code" path="47|28|IV|G"/>
             <prefix>§</prefix>
             <num>47-2889.01</num>
             <heading proof="needed">Definitions.</heading>
-            <text>For the purposes of this part, the definitions in section 211 of the Uniform College Athlete Name, Image, or Likeness Act of 2022, passed on 2nd on December 6, 2022 (Enrolled version of Bill 24-455), shall apply.</text>
+            <text>For the purposes of <cite doc="D.C. Code" path="47|28|IV|G">this part</cite>, <code-cite doc="D.C. Code" path="§38-1631.01">the definitions in section 211 of the Uniform College Athlete Name, Image, or Likeness Act of 2022, passed on 2nd on December 6, 2022 (Enrolled version of Bill 24-455),</code-cite> shall apply.</text>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="47|28|IV|G"/>
             <prefix>§</prefix>
             <num>47-2889.02</num>
             <heading proof="needed">Registration as a name, image, or likeness agent; duties; fee arrangements.</heading>
             <para>
               <num>(a)</num>
-              <text>A name, image, or likeness agent shall register in the District as an athlete agent under Part E of this subchapter before engaging in conduct under this part.</text>
+              <text>A name, image, or likeness agent shall register in the District as an athlete agent under <cite doc="D.C. Code" path="47|28|IV|E">part E of this subchapter</cite> before engaging in conduct under <cite doc="D.C. Code" path="47|28|IV|G">this part</cite>.</text>
             </para>
             <para>
               <num>(b)</num>
-              <text>An agreement between a college athlete and a name, image, or likeness agent must have a fee arrangement consistent with the customary practice of the agent's industry and otherwise comply with Part E of this subchapter.</text>
+              <text>An agreement between a college athlete and a name, image, or likeness agent must have a fee arrangement consistent with the customary practice of the agent's industry and otherwise comply with <cite doc="D.C. Code" path="47|28|IV|E">part E of this subchapter</cite>.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="47|28|IV|G"/>
             <prefix>§</prefix>
             <num>47-2889.03</num>
             <heading proof="needed">Prohibited conduct by a third party.</heading>
@@ -1384,7 +1501,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Provide anything of value to a college athlete or another person except as permitted under this part if to do so may result in loss of the college athlete's eligibility to participate in the athlete's sport; or</text>
+                <text>Provide anything of value to a college athlete or another person except as permitted under <cite doc="D.C. Code" path="47|28|IV|G">this part</cite> if to do so may result in loss of the college athlete's eligibility to participate in the athlete's sport; or</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -1393,6 +1510,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="47|28|IV|G"/>
             <prefix>§</prefix>
             <num>47-2889.04</num>
             <heading proof="needed">Civil remedy.</heading>
@@ -1418,39 +1536,49 @@
             </para>
             <para>
               <num>(d)</num>
-              <text>A violation of this part is a violation of and enforceable under Chapter 39 of Title 28.</text>
+              <text>A violation of <cite doc="D.C. Code" path="47|28|IV|G">this part</cite> is a violation of and enforceable under Chapter 39 of Title 28.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="47|28|IV|G"/>
             <prefix>§</prefix>
             <num>47-2889.05</num>
             <heading proof="needed">Civil penalty.</heading>
-            <text>The Superior Court of the District of Columbia, pursuant to an action brought by the Attorney General for the District of Columbia, may assess a civil penalty against a name, image, or likeness agent or third party in an amount not to exceed $50,000 for a violation of this part.</text>
+            <text>The Superior Court of the District of Columbia, pursuant to an action brought by the Attorney General for the District of Columbia, may assess a civil penalty against a name, image, or likeness agent or third party in an amount not to exceed $50,000 for a violation of <cite doc="D.C. Code" path="47|28|IV|G">this part</cite>.</text>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="47|28|IV|G"/>
             <prefix>§</prefix>
             <num>47-2889.06</num>
             <heading proof="needed">Rulemaking authority.</heading>
-            <text>The Mayor may adopt rules pursuant to § 2-501 <em>et seq.</em>, to administer and implement this part.</text>
+            <text>The Mayor may adopt rules pursuant to <cite doc="D.C. Code" path="2|5">§ 2-501 et seq.</cite>, to administer and implement <cite doc="D.C. Code" path="47|28|IV|G">this part</cite>.</text>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="47|28|IV|G"/>
             <prefix>§</prefix>
             <num>47-2889.07</num>
             <heading proof="needed">Uniformity of application and construction.</heading>
-            <text>In applying and construing this part, a court shall consider the promotion of uniformity of the law among jurisdictions that have enacted it.</text>
+            <text>In applying and construing <cite doc="D.C. Code" path="47|28|IV|G">this part</cite>, a court shall consider the promotion of uniformity of the law among jurisdictions that have enacted it.</text>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="47|28|IV|G"/>
             <prefix>§</prefix>
             <num>47-2889.08</num>
             <heading proof="needed">Relation to Electronic Signatures in Global and National Commerce Act.</heading>
-            <text>This subtitle modifies, limits, or supersedes the Electronic Signatures in Global and National Commerce Act, approved June 30, 2000 (114 Stat. 467; 15 U.S.C. § 7001 <em>et seq.</em>) ("Act"), but does not modify, limit, or supersede section 101(c) of that Act, (15 U.S.C. § 7001(c)), or authorize electronic delivery of any of the notices described in section 103(b) of that Act, (15 U.S.C. § 7003(b)).</text>
+            <text><cite doc="D.C. Code" path="47|28|IV|G">This subtitle</cite> modifies, limits, or supersedes the Electronic Signatures in Global and National Commerce Act, approved June 30, 2000 (114 Stat. 467; 15 U.S.C. § 7001 <em>et seq.</em>) ("Act"), but does not modify, limit, or supersede section 101(c) of that Act, (15 U.S.C. § 7001(c)), or authorize electronic delivery of any of the notices described in section 103(b) of that Act, (15 U.S.C. § 7003(b)).</text>
+            <codify:find-replace doc="D.C. Code" path="§47-2889.08" count="1">
+              <find>subtitle</find>
+              <replace>part</replace>
+            </codify:find-replace>
           </section>
         </container>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <text><b>TITLE III. FISCAL IMPACT; EFFECTIVE DATE.</b></text>
+  <text>
+    <b>TITLE III. FISCAL IMPACT; EFFECTIVE DATE.</b>
+  </text>
   <section>
     <num>301</num>
     <heading proof="needed">Fiscal impact statement.</heading>

@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-638">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-239">
+  <num type="law">24-239</num>
   <num type="act">24-638</num>
   <num type="bill">24-156</num>
   <heading type="short">Partition of Real Property Act of 2022</heading>
   <heading type="long">To amend Title 16 of the District of Columbia Official Code to create procedures governing actions to partition real property, to require a public notice to be placed on the real property that is the subject of a partition action if the court orders notice by publication, to prescribe procedures used to determine the fair market value of real property that is the subject of a partition action, to give other cotenants a right of first refusal, to provide that if no other cotenant elects to purchase the ownership interest of a cotenant requesting a partition by sale, that  the court order a partition in kind, unless the court determines that partition in kind will result in great prejudice to the cotenants as a group, to provide that if the court determines that a partition in kind would result in great prejudice to the cotenants as a group and orders a partition by sale, that the property must be offered for sale on the open market at a price not lower than the court-determined value for a reasonable period of time and in a commercially reasonable manner, to require a real estate broker selected by the parties or the court to file a report with the court after receiving certain offers, and to prescribe procedures for owners of real property following a partition proceeding to pay all applicable taxes, fees, and costs and record deeds reflecting their interests.</heading>
   <meta>
     <introduced>2021-03-17</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/46793/Signed_Act/B24-0156-Signed_Act.pdf">D.C. Law 24-239</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/46793/Signed_Act/B24-0156-Signed_Act.pdf">D.C. Act 24-638</citation>
       <citation type="register">69 DCR 14590</citation>
     </citations>
@@ -95,11 +97,18 @@
       <text>A new Subchapter III is added to read as follows:</text>
       <include>
         <container>
-          <codify:insert doc="D.C. Code" path="16|29" after="II"/>
+          <codify:insert doc="D.C. Code" path="16|29" after="II" history="false">
+            <container>
+              <prefix>Subchapter</prefix>
+              <num>III</num>
+              <heading>Partition of Real Property.</heading>
+            </container>
+          </codify:insert>
           <prefix>Subchapter</prefix>
           <num>III</num>
           <heading>Partition of Real Property.</heading>
           <section>
+            <codify:insert doc="D.C. Code" path="16|29|III"/>
             <prefix>§</prefix>
             <num>16-2931</num>
             <heading>Definitions.</heading>
@@ -111,7 +120,7 @@
                 <text>"Determination of value" means a court order:</text>
                 <para>
                   <num>(A)</num>
-                  <text>Determining the fair market value of real property pursuant to § 16-2934 or § 16-2938; or</text>
+                  <text>Determining the fair market value of real property pursuant to <cite doc="D.C. Code" path="§16-2934">§ 16-2934</cite> or <cite doc="D.C. Code" path="§16-2938">§ 16-2938</cite>; or</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -120,7 +129,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>"Partition by sale" means a court-ordered sale of the entire real property, whether by auction, sealed bids, or open-market sale conducted pursuant to § 16-2938.</text>
+                <text>"Partition by sale" means a court-ordered sale of the entire real property, whether by auction, sealed bids, or open-market sale conducted pursuant to <cite doc="D.C. Code" path="§16-2938">§ 16-2938</cite>.</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -133,6 +142,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="16|29|III"/>
             <prefix>§</prefix>
             <num>16-2932</num>
             <heading>Applicability.</heading>
@@ -142,10 +152,11 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>This subchapter shall apply to partition actions filed on or after the effective date of this subchapter.</text>
+              <text>This subchapter shall apply to partition actions filed on or after <span codify:value="[February 23, 2023]">the effective date of this subchapter</span>.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="16|29|III"/>
             <prefix>§</prefix>
             <num>16-2933</num>
             <heading>Commencement; service; notice by posting.</heading>
@@ -185,6 +196,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="16|29|III"/>
             <prefix>§</prefix>
             <num>16-2934</num>
             <heading>Determination of value.</heading>
@@ -260,12 +272,13 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="16|29|III"/>
             <prefix>§</prefix>
             <num>16-2935</num>
             <heading>Cotenant buyout.</heading>
             <para>
               <num>(a)</num>
-              <text>If any cotenant requested partition by sale, after the determination of value pursuant to § 16-2934, the court shall send notice to the parties that any cotenant, except a cotenant that requested partition by sale, may buy all the interests of the cotenants that requested partition by sale.</text>
+              <text>If any cotenant requested partition by sale, after the determination of value pursuant to <cite doc="D.C. Code" path="§16-2934">§ 16-2934</cite>, the court shall send notice to the parties that any cotenant, except a cotenant that requested partition by sale, may buy all the interests of the cotenants that requested partition by sale.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -273,7 +286,7 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>The purchase price for each of the interests of a cotenant that requested partition by sale shall be the value of the entire parcel determined pursuant to § 16-2934, multiplied by the cotenant's fractional ownership of the entire parcel.</text>
+              <text>The purchase price for each of the interests of a cotenant that requested partition by sale shall be the value of the entire parcel determined pursuant to <cite doc="D.C. Code" path="§16-2934">§ 16-2934</cite>, multiplied by the cotenant's fractional ownership of the entire parcel.</text>
             </para>
             <para>
               <num>(d)</num>
@@ -300,7 +313,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>If no cotenant elects to buy all the interests of the cotenants that requested partition by sale, the court shall send notice to all the parties of that fact and resolve the partition action pursuant to § 16-2936(a) and (b).</text>
+                <text>If no cotenant elects to buy all the interests of the cotenants that requested partition by sale, the court shall send notice to all the parties of that fact and resolve the partition action pursuant to <cite doc="D.C. Code" path="§16-2936">§ 16-2936</cite>(a) and (b).</text>
               </para>
             </para>
             <para>
@@ -318,7 +331,7 @@
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>If no electing cotenant timely pays its apportioned price, the court shall resolve the partition pursuant to § 16-2936(a) and (b); or</text>
+                  <text>If no electing cotenant timely pays its apportioned price, the court shall resolve the partition pursuant to <cite doc="D.C. Code" path="§16-2936">§ 16-2936</cite>(a) and (b); or</text>
                 </para>
                 <para>
                   <num>(C)</num>
@@ -349,7 +362,7 @@
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>If no cotenant pays the entire price for the remaining interest, the court shall resolve the partition action pursuant to § 16-2936(a) and (b); or</text>
+                  <text>If no cotenant pays the entire price for the remaining interest, the court shall resolve the partition action pursuant to <cite doc="D.C. Code" path="§16-2936">§ 16-2936</cite>(a) and (b); or</text>
                 </para>
                 <para>
                   <num>(C)</num>
@@ -378,11 +391,12 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>The purchase price for the interest of a nonappearing cotenant shall be based on the court's determination of value pursuant to § 16-2934.</text>
+                <text>The purchase price for the interest of a nonappearing cotenant shall be based on the court's determination of value pursuant to<cite doc="D.C. Code" path="§16-2934"> § 16-2934</cite>.</text>
               </para>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="16|29|III"/>
             <prefix>§</prefix>
             <num>16-2936</num>
             <heading>Partition procedures.</heading>
@@ -390,7 +404,7 @@
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>If no cotenant requested partition by sale, or, if after completion of the procedures described in § 16-2935, a cotenant remains that has requested partition in kind, the court shall order partition in kind unless the court, after consideration of the factors listed in § 16-2937, finds that partition in kind will result in great prejudice to the cotenants as a group.</text>
+                <text>If no cotenant requested partition by sale, or, if after completion of the procedures described in <cite doc="D.C. Code" path="§16-2935">§ 16-2935</cite>, a cotenant remains that has requested partition in kind, the court shall order partition in kind unless the court, after consideration of the factors listed in <cite doc="D.C. Code" path="§16-2937">§ 16-2937</cite>, finds that partition in kind will result in great prejudice to the cotenants as a group.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -399,7 +413,7 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>If the court does not order partition in kind pursuant to subsection (a) of this section, the court shall order partition by sale pursuant to § 16-2938, or, if no cotenant requested partition by sale, the court shall dismiss the action.</text>
+              <text>If the court does not order partition in kind pursuant to subsection (a) of this section, the court shall order partition by sale pursuant to <cite doc="D.C. Code" path="§16-2938">§ 16-2938</cite>, or, if no cotenant requested partition by sale, the court shall dismiss the action.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -407,16 +421,17 @@
             </para>
             <para>
               <num>(d)</num>
-              <text>If the court orders partition in kind, the court shall allocate to the cotenants that are unknown, unlocatable, or the subject of a default judgment, if their interests were not bought out pursuant to § 16-2935(g), a part of the real property representing the combined interests of these cotenants as determined by the court, and this part of the real property shall remain undivided.</text>
+              <text>If the court orders partition in kind, the court shall allocate to the cotenants that are unknown, unlocatable, or the subject of a default judgment, if their interests were not bought out pursuant to <cite doc="D.C. Code" path="§16-2935|(g)">§ 16-2935(g)</cite>, a part of the real property representing the combined interests of these cotenants as determined by the court, and this part of the real property shall remain undivided.</text>
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="16|29|III"/>
             <prefix>§</prefix>
             <num>16-2937</num>
             <heading>Considerations for partition in kind.</heading>
             <para>
               <num>(a)</num>
-              <text>In determining pursuant to § 16-2936(a) whether partition in kind would result in great prejudice to the cotenants as a group, the court shall consider the following factors:</text>
+              <text>In determining pursuant to<cite doc="D.C. Code" path="§16-2936|(a)"> § 16-2936(a)</cite> whether partition in kind would result in great prejudice to the cotenants as a group, the court shall consider the following factors:</text>
               <para>
                 <num>(1)</num>
                 <text>Whether the real property practicably can be divided among the cotenants;</text>
@@ -452,6 +467,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="16|29|III"/>
             <prefix>§</prefix>
             <num>16-2938</num>
             <heading>Open-market sale, sealed bids, or auction.</heading>
@@ -479,7 +495,7 @@
               <text>If the real estate broker appointed pursuant to subsection (b) of this section obtains, within a reasonable time, an offer to purchase the real property for at least the determination of value:</text>
               <para>
                 <num>(1)</num>
-                <text>The broker shall comply with the reporting requirements in § 16-2939; and</text>
+                <text>The broker shall comply with the reporting requirements in <cite doc="D.C. Code" path="§16-2939">§ 16-2939</cite>; and</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -519,12 +535,13 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="16|29|III"/>
             <prefix>§</prefix>
             <num>16-2939</num>
             <heading>Report of open-market sale.</heading>
             <para>
               <num>(a)</num>
-              <text>A broker appointed pursuant to § 16-2938(b) to offer real property for open-market sale shall file a report with the court no later than 7 days after receiving an offer to purchase the real property for at least the value determined pursuant to § 16-2934 or § 16-2938.</text>
+              <text>A broker appointed pursuant to <cite doc="D.C. Code" path="§16-2938|(b)">§ 16-2938(b)</cite> to offer real property for open-market sale shall file a report with the court no later than 7 days after receiving an offer to purchase the real property for at least the value determined pursuant to <cite doc="D.C. Code" path="§16-2934">§ 16-2934</cite> or <cite doc="D.C. Code" path="§16-2938">§ 16-2938</cite>.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -560,6 +577,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="16|29|III"/>
             <prefix>§</prefix>
             <num>16-2940</num>
             <heading>Procedures following partition of real property.</heading>
@@ -571,11 +589,11 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Prior to the creation of such subdivisions, the owners of the lots to be subdivided shall pay all applicable taxes, fees, and costs related to the partition and subdivision pursuant to and under conditions required under § 47-832.</text>
+                <text>Prior to the creation of such subdivisions, the owners of the lots to be subdivided shall pay all applicable taxes, fees, and costs related to the partition and subdivision pursuant to and under conditions required under <cite doc="D.C. Code" path="§47-832">§ 47-832</cite>.</text>
               </para>
               <para>
                 <num>(3)</num>
-                <text>Subdivisions shall become effective in the records of the Office of Tax and Revenue under § 47-832.</text>
+                <text>Subdivisions shall become effective in the records of the Office of Tax and Revenue under <cite doc="D.C. Code" path="§47-832">§ 47-832</cite>.</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -588,6 +606,7 @@
             </para>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="16|29|III"/>
             <prefix>§</prefix>
             <num>16-2941</num>
             <heading>Relation to Electronic Signatures in Global and National Commerce Act.</heading>

@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-654">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-236">
+  <num type="law">24-236</num>
   <num type="act">24-654</num>
   <num type="bill">24-121</num>
   <heading type="short">Uniform Power of Attorney Amendment Act of 2022</heading>
   <heading type="long">To amend Title 21 of the District of Columbia Official Code to enact the Uniform Power of Attorney Act, to repeal the Uniform Durable Power of Attorney Act and the Uniform Statutory Form Power of Attorney Act, to provide clear statutory guidance to individuals creating powers of attorney and to agents acting under powers of attorney, to clarify the fiduciary duties of agent to their principals, to protect individuals creating powers of attorney against fraud or other abuse by agents, to protect third parties who deal with agents exercising powers of attorney, and to provide a statutory power of attorney form that is easy to use, comprehensive, and legally effective; and to amend An Act To establish a code of law for the District of Columbia to make technical and conforming changes.</heading>
   <meta>
     <introduced>2021-03-01</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/46643/Signed_Act/B24-0121-Signed_Act.pdf">D.C. Law 24-236</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/46643/Signed_Act/B24-0121-Signed_Act.pdf">D.C. Act 24-654</citation>
       <citation type="register">69 DCR 14660</citation>
     </citations>
@@ -29,15 +31,12 @@
       <para>
         <num>(1)</num>
         <text>Strike the phrase "20. Guardianship, Protective Proceedings, and Durable Power of Attorney." and insert the phrase "20. Guardianship and Protective Proceedings." in its place.</text>
-        <codify:find-replace doc="D.C. Code" path="21" count="1">
-          <find>Guardianship, Protective Proceedings, and Durable Power of Attorney.</find>
-          <replace>Guardianship and Protective Proceedings.</replace>
-        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Strike the phrase "21. Uniform General Power of Attorney.".</text>
-        <!-- What is this? -->
+        <!-- Ask Kay, what does this mean? -->
+        <!-- Done below -->
       </para>
       <para>
         <num>(3)</num>
@@ -59,16 +58,19 @@
         <text>The chapter designation is amended by striking the phrase "Chapter 20. Guardianship, Protective Proceedings, and Durable Power of Attorney." and inserting the phrase "Chapter 20. Guardianship and Protective Proceedings." in its place.</text>
         <!-- Done up top -->
       </para>
-      <para>
+      <para codify:path="21|20|VII">
         <num>(2)</num>
         <text>Subchapter VII is repealed.</text>
-        <codify:repeal doc="D.C. Code" path="21|20|VII"/>
+        <codify:marginalia display="Repeal subchapter VII"/>
+        <codify:marginalia display="Chapter 20, Title 21"/>
+        <codify:repeal doc="D.C. Code" path="21|20|VII" display-template=""/>
       </para>
     </para>
     <para>
       <num>(c)</num>
       <text>Chapter 21 is repealed.</text>
-      <codify:repeal doc="D.C. Code" path="21|21"/>
+      <codify:marginalia display="Repeal Chapter 21, Title 21"/>
+      <codify:repeal doc="D.C. Code" path="21|21" display-template=""/>
     </para>
     <para>
       <num>(d)</num>
@@ -329,23 +331,37 @@
             </section>
           </container>
           <container>
-            <codify:insert doc="D.C. Code" path="21"/>
+            <codify:insert doc="D.C. Code" path="21" after="25" history="false">
+              <container>
+                <prefix>Chapter</prefix>
+                <num>26</num>
+                <heading>Uniform Power of Attorney Act.</heading>
+              </container>
+            </codify:insert>
             <prefix>Chapter</prefix>
             <num>26</num>
             <heading>Uniform Power of Attorney Act</heading>
           </container>
           <container>
-            <codify:insert doc="D.C. Code" path="21|26"/>
+            <codify:insert doc="D.C. Code" path="21|26" history="false">
+              <container>
+                <prefix>Subchapter</prefix>
+                <num>I</num>
+                <heading>General Provisions.</heading>
+              </container>
+            </codify:insert>
             <prefix>Subchapter</prefix>
             <num>I</num>
             <heading>General Provisions</heading>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.01</num>
               <heading>Short title.</heading>
               <text>This chapter may be cited as the "Uniform Power of Attorney Act".</text>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.02</num>
               <heading>Definitions.</heading>
@@ -439,6 +455,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.03</num>
               <heading>Applicability.</heading>
@@ -463,21 +480,23 @@
                 </para>
                 <para>
                   <num>(5)</num>
-                  <text>A power created pursuant to § 21-110; and</text>
+                  <text>A power created pursuant to <cite doc="D.C. Code" path="§21-110">§ 21-110</cite>; and</text>
                 </para>
                 <para>
                   <num>(6)</num>
-                  <text>A custodial power of attorney under § 21-2301.</text>
+                  <text>A custodial power of attorney under <cite doc="D.C. Code" path="§21-2301">§ 21-2301</cite>.</text>
                 </para>
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.04</num>
               <heading>Power of attorney is durable.</heading>
               <text>A power of attorney created under this chapter is durable unless it expressly provides that it is terminated by the incapacity of the principal.</text>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.05</num>
               <heading>Execution of power of attorney.</heading>
@@ -491,23 +510,24 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.06</num>
               <heading>Validity of power of attorney.</heading>
               <para>
                 <num>(a)</num>
-                <text>A power of attorney executed in the District on or after the effective date of this chapter is valid if its execution complies with § 21-2601.05.</text>
+                <text>A power of attorney executed in the District on or after the effective date of this chapter [February 23, 2023] is valid if its execution complies with <cite doc="D.C. Code" path="§21-2601.05">§ 21-2601.05</cite>.</text>
               </para>
               <para>
                 <num>(b)</num>
-                <text>A power of attorney executed in the District before the effective date of this chapter is valid if its execution complied with District law as it existed at the time of execution.</text>
+                <text>A power of attorney executed in the District before the effective date of this chapter [February 23, 2023] is valid if its execution complied with District law as it existed at the time of execution.</text>
               </para>
               <para>
                 <num>(c)</num>
                 <text>A power of attorney executed other than in the District is valid in the District if, when the power of attorney was executed, the execution complied with:</text>
                 <para>
                   <num>(1)</num>
-                  <text>The law of the jurisdiction that determines the meaning and effect of the power of attorney pursuant to § 21-2601.07; or</text>
+                  <text>The law of the jurisdiction that determines the meaning and effect of the power of attorney pursuant to <cite doc="D.C. Code" path="§21-2601.07">§ 21-2601.07</cite>; or</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -520,18 +540,20 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.07</num>
               <heading>Meaning and effect of power of attorney.</heading>
               <text>The meaning and effect of a power of attorney is determined by the law of the jurisdiction indicated in the power of attorney and, in the absence of an indication of jurisdiction, by the law of the jurisdiction in which the power of attorney was executed.</text>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.08</num>
               <heading>Nomination of conservator; relation of agent to court-appointed fiduciary.</heading>
               <para>
                 <num>(a)</num>
-                <text>In a power of attorney, a principal may nominate a conservator of the principal's estate or guardian of the principal's person for consideration by the court if protective proceedings for the principal's estate or person are begun after the principal executes the power of attorney. Except for good cause shown or disqualification, the court shall make its appointment in accordance with the principal's most recent nomination as provided in §§ 21-2043(b) and 21-2057(a).</text>
+                <text>In a power of attorney, a principal may nominate a conservator of the principal's estate or guardian of the principal's person for consideration by the court if protective proceedings for the principal's estate or person are begun after the principal executes the power of attorney. Except for good cause shown or disqualification, the court shall make its appointment in accordance with the principal's most recent nomination as provided in §§ <cite doc="D.C. Code" path="§21-2043|(b)">21-2043(b)</cite> and <cite doc="D.C. Code" path="§21-2057|(a)">21-2057(a)</cite>.</text>
               </para>
               <para>
                 <num>(b)</num>
@@ -539,6 +561,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.09</num>
               <heading>When power of attorney effective.</heading>
@@ -555,11 +578,11 @@
                 <text>If a power of attorney becomes effective upon the principal's incapacity and the principal has not authorized a person to determine whether the principal is incapacitated, or the person authorized is unable or unwilling to make the determination, the power of attorney becomes effective upon a determination in a writing or other record by:</text>
                 <para>
                   <num>(1)</num>
-                  <text>A physician that the principal is incapacitated within the meaning of § 21-2601.02(5)(A); or</text>
+                  <text>A physician that the principal is incapacitated within the meaning of <cite doc="D.C. Code" path="§21-2601.02|(5)|(A)">§ 21-2601.02(5)(A)</cite>; or</text>
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>An attorney at law, a judge, or an appropriate governmental official that the principal is incapacitated within the meaning of § 21-2601.02(5)(B).</text>
+                  <text>An attorney at law, a judge, or an appropriate governmental official that the principal is incapacitated within the meaning of <cite doc="D.C. Code" path="§21-2601.02|(5)|(B)">§ 21-2601.02(5)(B)</cite>.</text>
                 </para>
               </para>
               <para>
@@ -568,6 +591,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.10</num>
               <heading>Termination of power of attorney or agent's authority.</heading>
@@ -648,6 +672,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.11</num>
               <heading>Coagents and successor agents.</heading>
@@ -684,6 +709,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.12</num>
               <heading>Reimbursement and compensation of agent.</heading>
@@ -701,12 +727,14 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.13</num>
               <heading>Agent's acceptance.</heading>
               <text>Except as otherwise provided in the power of attorney, a person accepts appointment as an agent under a power of attorney by exercising authority or performing duties as an agent or by any other assertion or conduct indicating acceptance.</text>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.14</num>
               <heading>Agent's duties.</heading>
@@ -796,6 +824,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.15</num>
               <heading>Exoneration of agent.</heading>
@@ -813,6 +842,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.16</num>
               <heading>Judicial relief.</heading>
@@ -862,6 +892,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.17</num>
               <heading>Agent's liability.</heading>
@@ -879,6 +910,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.18</num>
               <heading>Agent's resignation; notice.</heading>
@@ -908,16 +940,17 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.19</num>
               <heading>Acceptance of and reliance upon acknowledged power of attorney.</heading>
               <para>
                 <num>(a)</num>
-                <text>For the purposes of this section and § 21-2601.20, the term "acknowledged" means purportedly verified before a notary public or other individual authorized to take acknowledgements.</text>
+                <text>For the purposes of this section and <cite doc="D.C. Code" path="§21-2601.20">§ 21-2601.20</cite>, the term "acknowledged" means purportedly verified before a notary public or other individual authorized to take acknowledgements.</text>
               </para>
               <para>
                 <num>(b)</num>
-                <text>A person that in good faith accepts an acknowledged power of attorney without actual knowledge that the signature is not genuine may rely upon the presumption under § 21-2601.05 that the signature is genuine. A good faith acceptance by a financial institution requires it to exercise commercially reasonable procedures to review the validity of the purported signature of the principal on the power of attorney, if the financial institution maintains the principal's signature, sample signature, specimen signature, signature card, or any digital or automated process to obtain an image or sample of the principal's signature for verification purposes.</text>
+                <text>A person that in good faith accepts an acknowledged power of attorney without actual knowledge that the signature is not genuine may rely upon the presumption under <cite doc="D.C. Code" path="§21-2601.05">§ 21-2601.05</cite> that the signature is genuine. A good faith acceptance by a financial institution requires it to exercise commercially reasonable procedures to review the validity of the purported signature of the principal on the power of attorney, if the financial institution maintains the principal's signature, sample signature, specimen signature, signature card, or any digital or automated process to obtain an image or sample of the principal's signature for verification purposes.</text>
               </para>
               <para>
                 <num>(c)</num>
@@ -945,7 +978,7 @@
               </para>
               <para>
                 <num>(f)</num>
-                <text>For purposes of this section and § 21-2601.20, a person that conducts activities through employees is without actual knowledge of a fact relating to a power of attorney, a principal, or an agent if the employee conducting the transaction involving the power of attorney is without actual knowledge of the fact.</text>
+                <text>For purposes of this section and <cite doc="D.C. Code" path="§21-2601.02">§ 21-2601.20</cite>, a person that conducts activities through employees is without actual knowledge of a fact relating to a power of attorney, a principal, or an agent if the employee conducting the transaction involving the power of attorney is without actual knowledge of the fact.</text>
               </para>
               <para>
                 <num>(g)</num>
@@ -953,6 +986,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.20</num>
               <heading>Liability for refusal to accept acknowledged power of attorney.</heading>
@@ -961,11 +995,11 @@
                 <text>Except as otherwise provided in subsection (b) of this section:</text>
                 <para>
                   <num>(1)</num>
-                  <text>A person shall either accept an acknowledged power of attorney or request a certification, translation, or opinion of counsel under § 21-2601.19(d) no later than 7 business days after presentation of the power of attorney for acceptance;</text>
+                  <text>A person shall either accept an acknowledged power of attorney or request a certification, translation, or opinion of counsel under <cite doc="D.C. Code" path="§21-2601.19|(d)">§ 21-2601.19(d)</cite> no later than 7 business days after presentation of the power of attorney for acceptance;</text>
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>If a person requests a certification, translation, or opinion of counsel under § 21-2601.19(d), the person shall accept the power of attorney no later than 5 business days after receipt of the certification, translation, or opinion of counsel under § 21-2601.19(d); and</text>
+                  <text>If a person requests a certification, translation, or opinion of counsel under <cite doc="D.C. Code" path="§21-2601.19|(d)">§ 21-2601.19(d)</cite>, the person shall accept the power of attorney no later than 5 business days after receipt of the certification, translation, or opinion of counsel under <cite doc="D.C. Code" path="§21-2601.19|(d)">§ 21-2601.19(d)</cite>; and</text>
                 </para>
                 <para>
                   <num>(3)</num>
@@ -989,11 +1023,11 @@
                 </para>
                 <para>
                   <num>(4)</num>
-                  <text>A request for certification, translation, or opinion of counsel under § 21-2601.19(d) is refused;</text>
+                  <text>A request for certification, translation, or opinion of counsel under <cite doc="D.C. Code" path="§21-2601.19|(d)">§ 21-2601.19(d)</cite> is refused;</text>
                 </para>
                 <para>
                   <num>(5)</num>
-                  <text>The person in good faith believes that the power is not valid or that the agent does not have the authority to perform the act requested, whether or not a certification, translation, or opinion of counsel has been requested or provided under § 21-2601.19(d);</text>
+                  <text>The person in good faith believes that the power is not valid or that the agent does not have the authority to perform the act requested, whether or not a certification, translation, or opinion of counsel has been requested or provided under <cite doc="D.C. Code" path="§21-2601.19|(d)">§ 21-2601.19(d)</cite>;</text>
                 </para>
                 <para>
                   <num>(6)</num>
@@ -1018,18 +1052,21 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.21</num>
               <heading>Principles of law and equity.</heading>
               <text>Unless displaced by a provision of this chapter, the principles of law and equity supplement this chapter.</text>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.22</num>
               <heading>Laws applicable to financial institutions and entities.</heading>
               <text>This chapter does not supersede any other law applicable to financial institutions or other entities, and the other law controls if inconsistent with this chapter.</text>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|I"/>
               <prefix>§</prefix>
               <num>21-2601.23</num>
               <heading>Remedies under other law.</heading>
@@ -1037,11 +1074,18 @@
             </section>
           </container>
           <container>
-            <codify:insert doc="D.C. Code" path="21|26"/>
+            <codify:insert doc="D.C. Code" path="21|26" history="false">
+              <container>
+                <prefix>Subchapter</prefix>
+                <num>II</num>
+                <heading>Authority.</heading>
+              </container>
+            </codify:insert>
             <prefix>Subchapter</prefix>
             <num>II</num>
             <heading>Authority</heading>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.01</num>
               <heading>Authority that requires specific grant; grant of general authority.</heading>
@@ -1087,11 +1131,11 @@
               </para>
               <para>
                 <num>(c)</num>
-                <text>Subject to subsections (a), (b), (d), and (e) of this section, if a power of attorney grants to an agent authority to do all acts that a principal could do, the agent has the general authority described in §§ 21-2602.04 through 21-2602.16.</text>
+                <text>Subject to subsections (a), (b), (d), and (e) of this section, if a power of attorney grants to an agent authority to do all acts that a principal could do, the agent has the general authority described in §§ <cite doc="D.C. Code" path="§21-2602.04">21-2602.04</cite> through <cite doc="D.C. Code" path="§21-2602.16">21-2602.16</cite>.</text>
               </para>
               <para>
                 <num>(d)</num>
-                <text>Unless the power of attorney otherwise provides, a grant of authority to make a gift is subject to § 21-2601.17.</text>
+                <text>Unless the power of attorney otherwise provides, a grant of authority to make a gift is subject to <cite doc="D.C. Code" path="§21-2601.17">§ 21-2601.17</cite>.</text>
               </para>
               <para>
                 <num>(e)</num>
@@ -1107,16 +1151,17 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.02</num>
               <heading>Incorporation of authority.</heading>
               <para>
                 <num>(a)</num>
-                <text>An agent has authority described in this subchapter if the power of attorney refers to general authority with respect to the descriptive term for the subjects stated in §§ 21-2602.04 through 21-2602.17 or cites the section in which the authority is described.</text>
+                <text>An agent has authority described in this subchapter if the power of attorney refers to general authority with respect to the descriptive term for the subjects stated in §§ <cite doc="D.C. Code" path="§21-2602.04">21-2602.04</cite> through <cite doc="D.C. Code" path="§21-2602.17">21-2602.17</cite> or cites the section in which the authority is described.</text>
               </para>
               <para>
                 <num>(b)</num>
-                <text>A reference in a power of attorney to general authority with respect to the descriptive term for a subject in §§ 21-2602.04 through 21-2602.17 or a citation to a section of §§ 21-2602.04 through 21-2602.17 incorporates the entire section as if it were set out in full in the power of attorney.</text>
+                <text>A reference in a power of attorney to general authority with respect to the descriptive term for a subject in §§ <cite doc="D.C. Code" path="§21-2602.04">21-2602.04</cite> through <cite doc="D.C. Code" path="§21-2602.17">21-2602.17</cite> or a citation to a section of §§ <cite doc="D.C. Code" path="§21-2602.04">21-2602.04</cite> through <cite doc="D.C. Code" path="§21-2602.17">21-2602.17</cite> incorporates the entire section as if it were set out in full in the power of attorney.</text>
               </para>
               <para>
                 <num>(c)</num>
@@ -1124,12 +1169,13 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.03</num>
               <heading>Construction of authority generally.</heading>
               <para>
                 <num undesignated="true">(a)</num>
-                <text>Except as otherwise provided in the power of attorney, by executing a power of attorney that incorporates by reference a subject described in §§ 21-2602.04 through 21-2602.17 or that grants to an agent authority to do all acts that a principal could do pursuant to § 21-2602.01(c), a principal authorizes the agent, with respect to that subject, to:</text>
+                <text>Except as otherwise provided in the power of attorney, by executing a power of attorney that incorporates by reference a subject described in §§ <cite doc="D.C. Code" path="§21-2602.04">21-2602.04</cite> through <cite doc="D.C. Code" path="§21-2602.17">21-2602.17</cite> or that grants to an agent authority to do all acts that a principal could do pursuant to <cite doc="D.C. Code" path="§21-2602.01|(c)">§ 21-2602.01(c)</cite>, a principal authorizes the agent, with respect to that subject, to:</text>
                 <para>
                   <num>(1)</num>
                   <text>Demand, receive, and obtain by litigation or otherwise, money or another thing of value to which the principal is, may become, or claims to be entitled, and conserve, invest, disburse, or use anything so received or obtained for the purposes intended;</text>
@@ -1173,6 +1219,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.04</num>
               <heading>Real property.</heading>
@@ -1246,6 +1293,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.05</num>
               <heading>Tangible personal property.</heading>
@@ -1303,6 +1351,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.06</num>
               <heading>Stocks and bonds.</heading>
@@ -1332,6 +1381,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.07</num>
               <heading>Commodities and options.</heading>
@@ -1349,6 +1399,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.08</num>
               <heading>Banks and other financial institutions.</heading>
@@ -1402,6 +1453,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.09</num>
               <heading>Operation of entity or business.</heading>
@@ -1499,6 +1551,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.10</num>
               <heading>Insurance and annuities.</heading>
@@ -1560,6 +1613,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.11</num>
               <heading>Estates, trusts, and other beneficial interests.</heading>
@@ -1601,6 +1655,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.12</num>
               <heading>Claims and litigation.</heading>
@@ -1646,6 +1701,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.13</num>
               <heading>Personal and family maintenance.</heading>
@@ -1719,6 +1775,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.14</num>
               <heading>Benefits from governmental programs or civil or military service.</heading>
@@ -1731,7 +1788,7 @@
                 <text>Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to benefits from governmental programs or civil or military service authorizes the agent to:</text>
                 <para>
                   <num>(1)</num>
-                  <text>Execute vouchers in the name of the principal for allowances and reimbursements payable by the United States or a foreign government or by a state or subdivision of a state to the principal, including allowances and reimbursements for transportation of the individuals described in § 21-2602.13(a)(1), and for shipment of their household effects;</text>
+                  <text>Execute vouchers in the name of the principal for allowances and reimbursements payable by the United States or a foreign government or by a state or subdivision of a state to the principal, including allowances and reimbursements for transportation of the individuals described in § <cite doc="D.C. Code" path="§21-2602.13|(a)|(1)">21-2602.13(a)(1)</cite>, and for shipment of their household effects;</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -1756,6 +1813,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.15</num>
               <heading>Retirement plans.</heading>
@@ -1780,7 +1838,7 @@
                 </para>
                 <para>
                   <num>(5)</num>
-                  <text>A pension, profit-sharing, stock bonus, or other retirement plan qualified under 26 U.S.C. 401(a);</text>
+                  <text>A pension, profit-sharing, stock bonus, or other retirement plan qualified under 26 U.S.C. <span codify:value="[§]"/> 401(a);</text>
                 </para>
                 <para>
                   <num>(6)</num>
@@ -1821,6 +1879,7 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.16</num>
               <heading>Taxes.</heading>
@@ -1829,7 +1888,7 @@
                 <text>Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to taxes authorizes the agent to:</text>
                 <para>
                   <num>(1)</num>
-                  <text>Prepare, sign, and file federal, state, local, and foreign income, gift, payroll, property, Federal Insurance Contributions Act, and other tax returns, claims for refunds, requests for extension of time, petitions regarding tax matters, and any other tax-related documents, including receipts, offers, waivers, consents, including consents and agreements under 26 U.S.C. 2032A, closing agreements, and any power of attorney required by the Internal Revenue Service or other taxing authority with respect to a tax year upon which the statute of limitations has not run and the following 25 tax years;</text>
+                  <text>Prepare, sign, and file federal, state, local, and foreign income, gift, payroll, property, Federal Insurance Contributions Act, and other tax returns, claims for refunds, requests for extension of time, petitions regarding tax matters, and any other tax-related documents, including receipts, offers, waivers, consents, including consents and agreements under 26 U.S.C. <span codify:value="[§]"/> 2032A, closing agreements, and any power of attorney required by the Internal Revenue Service or other taxing authority with respect to a tax year upon which the statute of limitations has not run and the following 25 tax years;</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -1846,19 +1905,20 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|II"/>
               <prefix>§</prefix>
               <num>21-2602.17</num>
               <heading>Gifts.</heading>
               <para>
                 <num>(a)</num>
-                <text>For the purposes of this section, the term "gift for the benefit of a person" includes a gift to a trust, an account under §§ 21-301 to 21-324, and a tuition savings account or prepaid tuition plan as defined under 26 U.S.C. § 529.</text>
+                <text>For the purposes of this section, the term "gift for the benefit of a person" includes a gift to a trust, an account under §§ <cite doc="D.C. Code" path="§21-301">21-301</cite> to <cite doc="D.C. Code" path="§21-324">21-324</cite>, and a tuition savings account or prepaid tuition plan as defined under 26 U.S.C. § 529.</text>
               </para>
               <para>
                 <num>(b)</num>
                 <text>Unless the power of attorney otherwise provides, language in a power of attorney granting general authority with respect to gifts authorizes the agent only to:</text>
                 <para>
                   <num>(1)</num>
-                  <text>Make an outright gift for the benefit of a person or a gift of any of the principal's property, including by the exercise of a presently exercisable general power of appointment held by the principal, in an amount per donee not to exceed the annual dollar limits of the federal gift tax exclusion under 26 U.S.C. 2503(b), without regard to whether the federal gift tax exclusion applies to the gift, or if the principal's spouse agrees to consent to a split gift pursuant to 26 U.S.C. § 2513, in an amount per donee not to exceed twice the annual federal gift tax exclusion limit; and</text>
+                  <text>Make an outright gift for the benefit of a person or a gift of any of the principal's property, including by the exercise of a presently exercisable general power of appointment held by the principal, in an amount per donee not to exceed the annual dollar limits of the federal gift tax exclusion under 26 U.S.C. <span codify:value="[§]"/> 2503(b), without regard to whether the federal gift tax exclusion applies to the gift, or if the principal's spouse agrees to consent to a split gift pursuant to 26 U.S.C. § 2513, in an amount per donee not to exceed twice the annual federal gift tax exclusion limit; and</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -1892,15 +1952,22 @@
             </section>
           </container>
           <container>
-            <codify:insert doc="D.C. Code" path="21|26"/>
+            <codify:insert doc="D.C. Code" path="21|26" history="false">
+              <container>
+                <prefix>Subchapter</prefix>
+                <num>III</num>
+                <heading>Statutory Forms.</heading>
+              </container>
+            </codify:insert>
             <prefix>Subchapter</prefix>
             <num>III</num>
             <heading>Statutory Forms.</heading>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|III"/>
               <prefix>§</prefix>
               <num>21-2603.01</num>
               <heading>Statutory power of attorney form.</heading>
-              <text>A document substantially in the following form, and potentially subject to the additional notice requirement of § 21-2603.03 for powers governing real estate transactions, may be used to create a statutory power of attorney form that has the meaning and effect prescribed by this chapter:</text>
+              <text>A document substantially in the following form, and potentially subject to the additional notice requirement of <cite doc="D.C. Code" path="§21-2603.03">§ 21-2603.03</cite> for powers governing real estate transactions, may be used to create a statutory power of attorney form that has the meaning and effect prescribed by this chapter:</text>
               <text>"DISTRICT OF COLUMBIA STATUTORY POWER OF ATTORNEY FORM</text>
               <text>"IMPORTANT INFORMATION</text>
               <text>"This power of attorney authorizes another person (your agent) to make decisions concerning your property for you (the principal). Your agent will be able to make decisions and act with respect to your property (including your money) whether or not you are able to act for yourself.  The meaning of authority over subjects listed on this form is explained in the Uniform Power of Attorney Act of 2022 (D.C. Official Code § 21-2601.01 <em>et seq.</em>).</text>
@@ -1972,8 +2039,8 @@
               <text>RELIANCE ON THIS POWER OF ATTORNEY</text>
               <text>Any person, including my agent, may rely upon the validity of this power of attorney or a copy of it unless that person knows it has been terminated or is invalid.</text>
               <text>SIGNATURE AND ACKNOWLEDGMENT</text>
-              <text>_____________________________________________________<span codify:value="                 "></span> ____________________________</text>
-              <text>Your Signature <span codify:value="                                                              "></span>Date</text>
+              <text>_____________________________________________________<span codify:value="                 "/> ____________________________</text>
+              <text>Your Signature <span codify:value="                                                              "/>Date</text>
               <text>___________________________________________________________________________________________________</text>
               <text>Your Name Printed</text>
               <text>___________________________________________________________________________________________________</text>
@@ -1982,7 +2049,7 @@
               <text>Your Telephone Number</text>
               <text>District of Columbia.</text>
               <text>This document was acknowledged before me on _________________________________,</text>
-              <text><span codify:value="                       "></span>(Date)</text>
+              <text><span codify:value="                       "/>(Date)</text>
               <text>by ___________________________________________________________________________________________________.</text>
               <text>Name of Principal)</text>
               <text>___________________________________________________________________________________________________ (Seal, if any)</text>
@@ -2063,30 +2130,31 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|III"/>
               <prefix>§</prefix>
               <num>21-2603.02</num>
               <heading>Agent's certification.</heading>
               <text>The following optional form may be used by an agent to certify facts concerning a power of attorney.</text>
-              <text>AGENT'S CERTIFICATION AS TO THE VALIDITY OF POWER OF ATTORNEY AND AGENT'S AUTHORITY</text>
-              <text>District of Columbia ________________________</text>
-              <text>I, ________________________ (Name of Agent), certify under penalty of perjury that ________________________ (Name of Principal) granted me authority as an agent or successor agent in a power of attorney dated ________________________.</text>
+              <text>"AGENT'S CERTIFICATION AS TO THE VALIDITY OF POWER OF ATTORNEY AND AGENT'S AUTHORITY</text>
+              <text>"District of Columbia ________________________</text>
+              <text>"I, ________________________ (Name of Agent), certify under penalty of perjury that ________________________ (Name of Principal) granted me authority as an agent or successor agent in a power of attorney dated ________________________.</text>
               <para>
                 <num undesignated="true">(a)</num>
-                <text>I further certify that to my knowledge:</text>
+                <text>"I further certify that to my knowledge:</text>
                 <para>
-                  <num>(1)</num>
+                  <num>"(1)</num>
                   <text>The Principal is alive and has not revoked the Power of Attorney or my authority to act under the Power of Attorney and my authority to act under the Power of Attorney have not terminated;</text>
                 </para>
                 <para>
-                  <num>(2)</num>
+                  <num>"(2)</num>
                   <text>If the Power of Attorney was drafted to become effective upon the happening of an event or contingency, the event or contingency has occurred;</text>
                 </para>
                 <para>
-                  <num>(3)</num>
+                  <num>"(3)</num>
                   <text>If I was named as a successor agent, the prior agent is no longer able or willing to serve; and</text>
                 </para>
                 <para>
-                  <num>(4)</num>
+                  <num>"(4)</num>
                   <text>_______________________________________________________________________________________________________</text>
                   <text>_______________________________________________________________________________________________________</text>
                 </para>
@@ -2108,54 +2176,64 @@
               </para>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|III"/>
               <prefix>§</prefix>
               <num>21-2603.03</num>
               <heading>Additional notice if power of attorney authorizes real estate transactions.</heading>
               <text>If a power of attorney authorizes the agent to sell, grant, or release any interest in real property, it shall be executed in the same manner as a deed and shall be recorded with or prior to the deed executed pursuant to the power of attorney. If the power of attorney is recorded before the deed executed pursuant to the power of attorney, the deed shall include a recording date and instrument number reference of where the original recorded power of attorney is located in the Office of the Recorder of Deeds. All powers of attorney executed in accordance with this section shall contain on the top of the front page, the following words:</text>
-              <text>This power of attorney authorizes the person named below as my agent to sell, lease, grant, encumber, release, or otherwise convey an interest in my real property and to execute deeds and other instruments for me. I give my agent this power for (initial one):</text>
-              <text>(___) All my real property.</text>
-              <text>(___) Only the specific property described as follows: ____________________________________________________________."</text>
+              <text>"This power of attorney authorizes the person named below as my agent to sell, lease, grant, encumber, release, or otherwise convey an interest in my real property and to execute deeds and other instruments for me. I give my agent this power for (initial one):</text>
+              <text>"(___) All my real property.</text>
+              <text>"(___) Only the specific property described as follows: ____________________________________________________________."</text>
             </section>
           </container>
           <container>
-            <codify:insert doc="D.C. Code" path="21|26"/>
+            <codify:insert doc="D.C. Code" path="21|26" history="false">
+              <container>
+                <prefix>Subchapter</prefix>
+                <num>IV</num>
+                <heading>Miscellaneous Provisions.</heading>
+              </container>
+            </codify:insert>
             <prefix>Subchapter</prefix>
             <num>IV</num>
             <heading>Miscellaneous Provisions</heading>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|IV"/>
               <prefix>§</prefix>
               <num>21-2604.01</num>
               <heading>Uniformity of application and construction.</heading>
               <text>In applying and construing this uniform act, consideration shall be given to the need to promote uniformity of the law with respect to its subject matter among the states that enact it.</text>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|IV"/>
               <prefix>§</prefix>
               <num>21-2604.02</num>
               <heading>Relation to Electronic Signatures in Global and National Commerce Act.</heading>
               <text>This chapter modifies, limits, and supersedes the Electronic Signatures in Global and National Commerce Act, approved June 30, 2000 (114 Stat. 464; 15 U.S.C. § 7001 <em>et seq.</em>) ("Act"), but shall not be construed to modify, limit, or supersede section 101(c) of the Act, or authorize electronic delivery of any of the notices described in section 103(b) of the Act.</text>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="21|26|IV"/>
               <prefix>§</prefix>
               <num>21-2604.03</num>
               <heading>Effect on existing powers of attorney.</heading>
               <para>
                 <num undesignated="true">(a)</num>
-                <text>Except as otherwise provided in this chapter, on the effective date of this chapter:</text>
+                <text>Except as otherwise provided in this chapter, on the effective date of this chapter [February 23, 2023]:</text>
                 <para>
                   <num>(1)</num>
-                  <text>This chapter applies to a power of attorney created before, on, or after the effective date of this chapter;</text>
+                  <text>This chapter applies to a power of attorney created before, on, or after the effective date of this chapter [February 23, 2023];</text>
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>This chapter applies to a judicial proceeding concerning a power of attorney commenced on or after the effective date of this chapter;</text>
+                  <text>This chapter applies to a judicial proceeding concerning a power of attorney commenced on or after the effective date of this chapter [February 23, 2023];</text>
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>This chapter applies to a judicial proceeding concerning a power of attorney commenced before the effective date of this chapter unless the court finds that application of a provision of this chapter would substantially interfere with the effective conduct of the judicial proceeding or prejudice the rights of a party, in which case that provision does not apply and the superseded law applies; and</text>
+                  <text>This chapter applies to a judicial proceeding concerning a power of attorney commenced before the effective date of this chapter [February 23, 2023] unless the court finds that application of a provision of this chapter would substantially interfere with the effective conduct of the judicial proceeding or prejudice the rights of a party, in which case that provision does not apply and the superseded law applies; and</text>
                 </para>
                 <para>
                   <num>(4)</num>
-                  <text>An act done before the effective date of this chapter is not affected by this chapter.</text>
+                  <text>An act done before the effective date of this chapter [February 23, 2023] is not affected by this chapter.</text>
                 </para>
               </para>
             </section>

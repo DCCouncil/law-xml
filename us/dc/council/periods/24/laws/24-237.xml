@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-658">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-237">
+  <num type="law">24-237</num>
   <num type="act">24-658</num>
   <num type="bill">24-125</num>
   <heading type="short">Expedited Adoption Eligibility Amendment Act of 2022</heading>
   <heading type="long">To amend Chapter 3 of Title 16 of the District of Columbia Official Code to provide expedited adoption proceedings for a couple who uses assisted reproductive technology to produce a child of their union, to require each intended parent to join in a petition for expedited adoption and furnish specific information to be included in such petition, to require the attachment of certain exhibits to the petition, to provide that the court shall not require a home study or criminal background check on the petitioners seeking an expedited adoption, to require the court to issue 4 copies of the final decree of adoption to the petitioners at no additional cost, and to make technical and conforming changes; to amend the Prevention of Child Abuse and Neglect Act of 1977 to make conforming changes; and to amend the Vital Records Modernization Amendment Act of 2018 to make conforming changes.</heading>
   <meta>
     <introduced>2021-03-01</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/46647/Signed_Act/B24-0125-Signed_Act.pdf">D.C. Law 24-237</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/46647/Signed_Act/B24-0125-Signed_Act.pdf">D.C. Act 24-658</citation>
       <citation type="register">69 DCR 14733</citation>
     </citations>
@@ -20,7 +22,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Expedited Adoption Eligibility Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Chapter 3 of Title 16 of the District of Columbia Official Code is amended as follows:</text>
     <para>
@@ -36,62 +38,94 @@
       <aftertext>.</aftertext>
     </para>
     <para>
+      
       <num>(b)</num>
       <text>Section 16-302 is amended by striking the phrase "if he has one, joins in the petition, except that if either the husband or wife is a natural parent of the prospective adoptee, the natural parent need not join in the petition with the adopting parent, but need only give his or her consent" and inserting the phrase "if the petitioner has one, joins in the petition, except if either spouse is a natural parent of the prospective adoptee, the natural parent need not join in the petition with the adopting parent, but need only give consent" in its place.</text>
+      <codify:find-replace path="§16-302" count="1">
+        <find>if he has one, joins in the petition, except that if either the husband or wife is a natural parent of the prospective adoptee, the natural parent need not join in the petition with the adopting parent, but need only give his or her consent</find>
+        <replace>if the petitioner has one, joins in the petition, except if either spouse is a natural parent of the prospective adoptee, the natural parent need not join in the petition with the adopting parent, but need only give consent</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>Section 16-304(b)(1) is amended by striking the phrase "if he is fourteen years" and inserting the phrase "if the prospective adoptee is fourteen years" in its place.</text>
+      <codify:find-replace path="§16-304|(b)|(1)" count="1">
+        <find>if he is fourteen years</find>
+        <replace>if the prospective adoptee is fourteen years</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§16-305">
       <num>(d)</num>
       <text>Section 16-305 is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Paragraph (4) is repealed.</text>
+        <codify:repeal path="(4)"/>
       </para>
       <para>
         <num>(2)</num>
         <text>Paragraph (5) is repealed.</text>
+        <codify:repeal path="(5)"/>
       </para>
     </para>
-    <para>
+    <para codify:path="§16-307">
       <num>(e)</num>
       <text>Section 16-307 is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the phrase "section 16-308" and inserting the phrase "§§ 16-308 and 16-318" in its place.</text>
+        <codify:find-replace path="(a)" count="1">
+          <find>section 16-308</find>
+          <replace>§§ <cite doc="D.C. Code" path="§16-308">16-308</cite> and <cite doc="D.C. Code" path="§16-318">16-318</cite></replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Subsection (b)(1)(B) is amended by striking the phrase "whether he is" and inserting the phrase "whether the prospective adoptee is" in its place.</text>
+        <codify:find-replace path="(b)|(1)|(B)" count="1">
+          <find>whether he is</find>
+          <replace>whether the prospective adoptee is</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§16-308">
       <num>(f)</num>
       <text>Section 16-308 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "may dispense" and inserting the phrase "shall dispense" in its place.</text>
+          <codify:find-replace count="1">
+            <find>may dispense</find>
+            <replace>shall dispense</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; or</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(C)</num>
           <text>Paragraph (2) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>; or</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(D)</num>
           <text>A new paragraph (3) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(3)</num>
-              <text>A petition for expedited adoption is filed pursuant to § 16-318.</text>
+              <text>A petition for expedited adoption is filed pursuant to <cite doc="D.C. Code" path="§16-318">§ 16-318</cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -100,33 +134,51 @@
       <para>
         <num>(2)</num>
         <text>Subsection (b) is repealed.</text>
+        <codify:repeal path="(b)"/>
       </para>
     </para>
-    <para>
+    <para codify:path="§16-309">
       <num>(g)</num>
       <text>Section 16-309 is amended as follows:</text>
-      <para>
+      <para codify:path="(b-1)">
         <num>(1)</num>
         <text>Subsection (b-1) is amended by striking the phrase "the Mayor that he will" and inserting the phrase "the Mayor that the Mayor will" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the Mayor that he will</find>
+          <replace>the Mayor that the Mayor will</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(c)|(2)">
         <num>(2)</num>
         <text>Subsection (c)(2) is amended by striking the phrase "if he or she is" and inserting the phrase "if the prospective adoptee is" in its place.</text>
+        <codify:find-replace count="1">
+          <find>if he or she is</find>
+          <replace>if the prospective adoptee is</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§16-312|(a)">
       <num>(h)</num>
       <text>Section 16-312(a) is amended by striking the phrase "representative of his adoptive parent or parents in the same manner as a child by birth, and upon the death of an adoptee intestate, his property shall pass and be distributed in the same manner as if the adoptee had been born to the adopting parent or parents in lawful wedlock. All rights and duties including those of inheritance and succession between the adoptee, his natural parents, their issue, collateral relatives, and so forth, are cut off, except that when one of the natural parents is the spouse of the adopter, the rights and relations as between adoptee, that natural parent, and his parents" and inserting the phrase "representative of the adoptive parent in the same manner as a child by birth, and upon the death of an adoptee intestate, the adoptee's property shall pass and be distributed in the same manner as if the adoptee had been born to the adopting parent in lawful wedlock. All rights and duties including those of inheritance and succession between the adoptee, the adoptee's natural parents, their issue, collateral relatives, and so forth, are cut off, except that when one of the natural parents is the spouse of the adopter, the rights and relations as between adoptee, that natural parent and the adoptee's parents," in its place.</text>
+      <codify:find-replace count="1">
+        <find>representative of his adoptive parent or parents in the same manner as a child by birth, and upon the death of an adoptee intestate, his property shall pass and be distributed in the same manner as if the adoptee had been born to the adopting parent or parents in lawful wedlock. All rights and duties including those of inheritance and succession between the adoptee, his natural parents, their issue, collateral relatives, and so forth, are cut off, except that when one of the natural parents is the spouse of the adopter, the rights and relations as between adoptee, that natural parent, and his parents</find>
+        <replace>representative of the adoptive parent in the same manner as a child by birth, and upon the death of an adoptee intestate, the adoptee's property shall pass and be distributed in the same manner as if the adoptee had been born to the adopting parent in lawful wedlock. All rights and duties including those of inheritance and succession between the adoptee, the adoptee's natural parents, their issue, collateral relatives, and so forth, are cut off, except that when one of the natural parents is the spouse of the adopter, the rights and relations as between adoptee, that natural parent and the adoptee's parents,</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§16-314|(c)">
       <num>(i)</num>
       <text>Section 16-314(c) is amended by striking the phrase "furnish him" and inserting the phase "furnish the adopter" in its place.</text>
+      <codify:find-replace count="1">
+        <find>furnish him</find>
+        <replace>furnish the adopter</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(j)</num>
       <text>A new section 16-318 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="16|3"/>
           <prefix>§</prefix>
           <num>16-318</num>
           <heading proof="needed">Expedited adoption eligibility.</heading>
@@ -139,7 +191,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>The child was born through a gestational surrogacy process brought about by one or both of the intended parents, and the parentage of only one intended parent was established pursuant to § 16-909(e).</text>
+              <text>The child was born through a gestational surrogacy process brought about by one or both of the intended parents, and the parentage of only one intended parent was established pursuant to <cite doc="D.C. Code" path="§16-909|(e)">§ 16-909(e)</cite>.</text>
             </para>
           </para>
           <para>
@@ -193,7 +245,7 @@
               <text>In a proceeding under this section, the petitioners shall file, as exhibits to the petition for expedited adoption:</text>
               <para>
                 <num>(A)</num>
-                <text>A certified copy of any document that evidences the petitioners' relationship, such as a marriage certificate or registered domestic partnership certificate, or intent to parent together, such as a consent to parent form pursuant to § 16-909(e)(1)(A);</text>
+                <text>A certified copy of any document that evidences the petitioners' relationship, such as a marriage certificate or registered domestic partnership certificate, or intent to parent together, such as a consent to parent form pursuant to <cite doc="D.C. Code" path="§16-909|(e)|(1)|(A)">§ 16-909(e)(1)(A)</cite>;</text>
               </para>
               <para>
                 <num>(B)</num>
@@ -201,13 +253,13 @@
               </para>
               <para>
                 <num>(C)</num>
-                <text>A sworn statement by the petitioners that a written agreement pursuant to § 16-909.01(a)(1) has not been executed.</text>
+                <text>A sworn statement by the petitioners that a written agreement pursuant to <cite doc="D.C. Code" path="§16-909.01|(a)|(1)">§ 16-909.01(a)(1)</cite> has not been executed.</text>
               </para>
             </para>
           </para>
           <para>
             <num>(c)</num>
-            <text>The court shall not require an investigation, report, and recommendation pursuant to § 16-307 or criminal records check pursuant to § 4-1305.02 prior to the issuance of a final decree of adoption under this section.</text>
+            <text>The court shall not require an investigation, report, and recommendation pursuant to <cite doc="D.C. Code" path="§16-307">§ 16-307</cite> or criminal records check pursuant to <cite doc="D.C. Code" path="§4-1305.02">§ 4-1305.02</cite> prior to the issuance of a final decree of adoption under this section.</text>
           </para>
           <para>
             <num>(d)</num>
@@ -244,15 +296,15 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>Domestic partners registered in the District pursuant to § 32-702(a) or recognized by the District pursuant to § 32-702(i);</text>
+                <text>Domestic partners registered in the District pursuant to <cite doc="D.C. Code" path="§32-702|(a)">§ 32-702(a)</cite> or recognized by the District pursuant to <cite doc="D.C. Code" path="§32-702|(i)">§ 32-702(i)</cite>;</text>
               </para>
               <para>
                 <num>(C)</num>
-                <text>Individuals who maintain a committed relationship, as that term is defined in § 32-701(1); or</text>
+                <text>Individuals who maintain a committed relationship, as that term is defined in <cite doc="D.C. Code" path="§32-701|(1)">§ 32-701(1)</cite>; or</text>
               </para>
               <para>
                 <num>(D)</num>
-                <text>Individuals who signed a consent to parent form pursuant to § 16-909(e)(1).</text>
+                <text>Individuals who signed a consent to parent form pursuant to <cite doc="D.C. Code" path="§16-909|(e)|(1)">§ 16-909(e)(1)</cite>.</text>
               </para>
             </para>
           </para>
@@ -261,13 +313,21 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§4-1305.02|(4)">
     <num>3</num>
     <text>Section 502(4) of the Prevention of Child Abuse and Neglect Act of 1977, effective June 27, 2000 (D.C. Law 13-136; D.C. Official Code § 4-1305.02(4)), is amended by striking the phrase "of this section" and inserting the phrase "of this section or in an expedited adoption proceeding pursuant to D.C. Official Code § 16-318" in its place.</text>
+    <codify:find-replace count="1">
+      <find>of this section</find>
+      <replace>of this section or in an expedited adoption proceeding pursuant to <cite doc="D.C. Code" path="§16-318">[§ 16-318]</cite></replace>
+    </codify:find-replace>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§7-231.19|(a)">
     <num>4</num>
     <text>The lead-in language of section 119(a) of the Vital Records Modernization Amendment Act of 2018, effective October 30, 2018 (D.C. Law 22-164; D.C. Official Code § 7-231.19(a)), is amended by striking the phrase "The court" and inserting the phrase "Except for an expedited adoption pursuant to D.C. Official Code § 16-318, the court" in its place.</text>
+    <codify:find-replace count="1">
+      <find>The court</find>
+      <replace>Except for an expedited adoption pursuant to <cite doc="D.C. Code" path="§16-318">[§ 16-318]</cite>, the court</replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>5</num>
