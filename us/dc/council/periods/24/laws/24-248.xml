@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-660">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-248">
+  <num type="law">24-248</num>
   <num type="act">24-660</num>
   <num type="bill">24-526</num>
   <heading type="short">Engineering Licensure Amendment Act of 2022</heading>
   <heading type="long">To amend Chapter 28 of Title 47 of the District of Columbia Official Code to clarify eligibility requirements for professional engineers and to re-establish an exemption for engaging in engineering work without a license for employees, officers, and consultants of the District government and independent agencies, as well as graduates of accredited engineering programs who work under the supervision of a professional engineer.</heading>
   <meta>
     <introduced>2021-11-30</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/48323/Signed_Act/B24-0526-Signed_Act.pdf">D.C. Law 24-248</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/48323/Signed_Act/B24-0526-Signed_Act.pdf">D.C. Act 24-660</citation>
       <citation type="register">69 DCR 14748</citation>
     </citations>
@@ -20,25 +22,27 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Engineering Licensure Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Chapter 28 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="§47-2853.132">
       <num>(a)</num>
       <text>Section 47-2853.132 is amended by adding a new subsection (a-1) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(a)"/>
           <num>(a-1)</num>
           <text>Notwithstanding subsection (a) of this section, an applicant for licensure as a professional engineer may establish to the satisfaction of the Board of Professional Engineers that the applicant is licensed or certified as a professional engineer and in good standing in another state or is endorsed or certified by a national certifying organization and presents proof thereof to the Board. An applicant licensed and in good standing in another state must demonstrate to the satisfaction of the Board that, at the time the applicant was issued a license by the other state licensing entity, the licensure standards in that state were at least as high as those required by the laws of the District.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§47-2853.133">
       <num>(b)</num>
       <text>Section 47-2853.133 is amended to read as follows:</text>
       <include>
-        <para>
+        <para codify:path="(a)">
+          <codify:replace/>
           <num>(a)</num>
           <text>Unless licensed pursuant to § 47-2853.132, no person shall:</text>
           <para>
@@ -51,10 +55,11 @@
           </para>
           <para>
             <num>(3)</num>
-            <text>Engage directly in the practice of engineering in the District; except, that this paragraph shall not apply to a person acting as a consultant, officer, or employee of the District government or an independent agency of the District of Columbia, or to a graduate of a  program accredited by the Accreditation Board for Engineering and Technology or another accreditation entity that is acceptable to the Board of Professional Engineers while under the responsible charge of a professional engineer licensed pursuant to § 47-2853.132.</text>
+            <text>Engage directly in the practice of engineering in the District; except, that this paragraph shall not apply to a person acting as a consultant, officer, or employee of the District government or an independent agency of the District of Columbia, or to a graduate of a  program accredited by the Accreditation Board for Engineering and Technology or another accreditation entity that is acceptable to the Board of Professional Engineers while under the responsible charge of a professional engineer licensed pursuant to <cite doc="D.C. Code" path="§47-2853.132">§ 47-2853.132</cite>.</text>
           </para>
         </para>
-        <para>
+        <para codify:path="(b)">
+          <codify:replace/>
           <num>(b)</num>
           <text>A professional engineer under whose charge an individual is acting pursuant to subsection (a)(3) of this section shall refrain from affixing the professional engineer's signature to any plans or documents not prepared under the professional engineer's direction or control.</text>
         </para>

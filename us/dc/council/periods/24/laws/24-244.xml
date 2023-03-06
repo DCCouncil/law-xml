@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-684">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-244">
+  <num type="law">24-244</num>
   <num type="act">24-684</num>
   <num type="bill">24-431</num>
   <heading type="short">Limited Equity Cooperative Property Tax Assistance Amendment Act of 2022</heading>
   <heading type="long">To amend Title 47 of the District of Columbia Official Code to clarify the definition of a limited-equity cooperative ("LEC") to include an LEC that has membership limitations in its articles of incorporation or organization, limits the household income of a buyer, and requires a vote of at least 2/3 of its membership to amend its articles of incorporation or organization, and to make the property tax abatement for LECs permanent for LECs where at least 50% of the LEC's households are less than 80% of lower income guidelines.</heading>
   <meta>
     <introduced>2021-10-04</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47982/Signed_Act/B24-0431-Signed_Act.pdf">D.C. Law 24-244</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/47982/Signed_Act/B24-0431-Signed_Act.pdf">D.C. Act 24-684</citation>
       <citation type="register">69 DCR 15094</citation>
     </citations>
@@ -20,14 +22,15 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Limited Equity Cooperative Property Tax Assistance Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Title 47 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="§47-802|(11)">
       <num>(a)</num>
       <text>Section 802(11) is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace/>
           <num>(11)</num>
           <text>The term "limited-equity cooperative" means a cooperative that is required by a government agency, nonprofit organization, or by its articles of incorporation or organization to:</text>
           <para>
@@ -49,15 +52,17 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§47-802" applicability-path="§4" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§47-3503|(c)">
       <num>(b)</num>
       <text>Section 3503(c) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(1)</num>
             <text>For the purposes of this subsection, the term:</text>
             <para>
@@ -66,53 +71,76 @@
             </para>
             <para>
               <num>(B)</num>
-              <text>"Cooperative housing association" shall have the same meaning as in § 47-803(2).</text>
+              <text>"Cooperative housing association" shall have the same meaning as in <cite doc="D.C. Code" path="§47-803|(2)">§ 47-803(2)</cite>.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(2)|(B)">
         <num>(2)</num>
         <text>Paragraph (2)(B) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "§ 47-3502(2)(B)" and insert the phrase "§ 47-3502(a)(2)(B)" in its place.</text>
+          <codify:find-replace count="1">
+            <find> <cite path="§47-3502|(2)|(B)" proof="true">§ 47-3502(2)(B)</cite></find>
+            <replace>
+              <cite doc="D.C. Code" path="§47-3502|(a)|(2)|(B)">§ 47-3502(a)(2)(B)</cite>
+            </replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the word "rent" and insert the phrase "carrying charges" in its place.</text>
+          <codify:find-replace>
+            <find>rent</find>
+            <replace>carrying charges</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(3)</num>
         <text>Paragraph (3) is amended by striking the word "rent" and inserting the phrase "carrying charges" in its place.</text>
+        <codify:find-replace>
+          <find>rent</find>
+          <replace>carrying charges</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(4)">
         <num>(4)</num>
         <text>Paragraph (4) is amended by striking the word "rent" and inserting the phrase "carrying charges" in its place.</text>
+        <codify:find-replace>
+          <find>rent</find>
+          <replace>carrying charges</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>A new paragraph (4a) is added to read as follows:</text>
         <include lvl="1">
-          <text>(4a) Notwithstanding the provisions of paragraph (4) of this subsection, the exemption provided by this subsection shall apply to property owned by a limited-equity cooperative defined in § 47-802(11) and shall not expire; provided, that:</text>
           <para>
-            <num>(A)</num>
-            <text>At least 50% of the dwelling units are occupied by households whose household income does not exceed 80% of the lower income guidelines established pursuant to section 8 of the United States Housing Act of 1937, approved August 22, 1974 (88 Stat. 662; 42 U.S.C. § 1437f), for the Washington Standard Metropolitan Statistical Area, as the median is determined by the United States Department of Housing and Urban Development and adjusted yearly by historic trends of that median, and as further may be adjusted by an interim census of District incomes by local or regional government agencies;</text>
-          </para>
-          <para>
-            <num>(B)</num>
-            <text>The conditions described in § 47-3502 and the credit against carrying charges requirement described in paragraph (2)(B) of this subsection are met; and</text>
-          </para>
-          <para>
-            <num>(C)</num>
-            <text>The limited-equity cooperative files the report required by § 47-1007.</text>
+            <codify:insert after="(4)" num-value="[(4A)]"/>
+            <num>(4a)</num>
+            <text>Notwithstanding the provisions of paragraph (4) of this subsection, the exemption provided by this subsection shall apply to property owned by a limited-equity cooperative defined in <cite doc="D.C. Code" path="§47-802|(11)">§ 47-802(11)</cite> and shall not expire; provided, that:</text>
+            <para>
+              <num>(A)</num>
+              <text>At least 50% of the dwelling units are occupied by households whose household income does not exceed 80% of the lower income guidelines established pursuant to section 8 of the United States Housing Act of 1937, approved August 22, 1974 (88 Stat. 662; 42 U.S.C. § 1437f), for the Washington Standard Metropolitan Statistical Area, as the median is determined by the United States Department of Housing and Urban Development and adjusted yearly by historic trends of that median, and as further may be adjusted by an interim census of District incomes by local or regional government agencies;</text>
+            </para>
+            <para>
+              <num>(B)</num>
+              <text>The conditions described in <cite doc="D.C. Code" path="§47-3502">§ 47-3502</cite> and the credit against carrying charges requirement described in paragraph (2)(B) of this subsection are met; and</text>
+            </para>
+            <para>
+              <num>(C)</num>
+              <text>The limited-equity cooperative files the report required by <cite doc="D.C. Code" path="§47-1007">§ 47-1007</cite>.</text>
+            </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§47-3503" applicability-path="§4" display-template=""/>
   </section>
   <section>
     <num>3</num>
@@ -120,11 +148,13 @@
     <text>Section 2(2) of the Limited-Equity Cooperative Task Force Act of 2018, effective July 3, 2018 (D.C. Law 22-119; D.C. Official Code § 42-2061(2)), is amended to read as follows:</text>
     <include lvl="1">
       <para>
+        <codify:replace doc="D.C. Code" path="§42-2061|(2)"/>
         <num>(2)</num>
-        <text>"Limited-equity cooperative" or "LEC" shall have the same meaning as in D.C. Official Code § 47-802(11).</text>
+        <text>"Limited-equity cooperative" or "LEC" shall have the same meaning as in <code-cite doc="D.C. Code" path="§47-802|(11)">D.C. Official Code § 47-802(11)</code-cite>.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-2061" applicability-path="§4" display-template=""/>
   </section>
   <section>
     <num>4</num>
@@ -132,6 +162,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect is included in an approved budget and financial plan.</text>
+      <codify:applicability  doc="D.C. Law 24-244" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

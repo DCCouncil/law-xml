@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-683">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-243">
+  <num type="law">24-243</num>
   <num type="act">24-683</num>
   <num type="bill">24-430</num>
   <heading type="short">Limited Equity Cooperative Advisory Council Act of 2022</heading>
   <heading type="long">To establish a Limited-Equity Cooperative Advisory Council to provide continuing comprehensive policy recommendations to assist District residents and the District government with improving existing limited-equity cooperatives, establishing new limited equity cooperatives, and helping all limited-equity cooperatives succeed and prosper.</heading>
   <meta>
     <introduced>2021-10-04</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47981/Signed_Act/B24-0430-Signed_Act.pdf">D.C. Law 24-243</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/47981/Signed_Act/B24-0430-Signed_Act.pdf">D.C. Act 24-683</citation>
       <citation type="register">69 DCR 15091</citation>
     </citations>
@@ -20,32 +22,45 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Limited Equity Cooperative Advisory Council Act of 2022".</text>
+  <codify:create-sub-container doc="D.C. Code" path="42|20A" num-value="I" prefix-value="Subchapter" heading-value="Limited-Equity Cooperative Task Force." history="false"/>
+  <codify:insert doc="D.C. Code" path="42|20A" after="I" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>II</num>
+      <heading>Limited Equity Cooperative Advisory Council Act.</heading>
+    </container>
+  </codify:insert>
   <section>
+    <codify:insert doc="D.C. Code" path="42|20A|II" num-value="42-2067.01"/>
     <num>2</num>
     <heading proof="needed">Definitions.</heading>
     <para>
       <num undesignated="true">(a)</num>
-      <text>For the purposes of this act, the term:</text>
+      <text>For the purposes of <code-cite doc="D.C. Code" path="42|20A|II">this act</code-cite>, the term:</text>
       <para>
         <num>(1)</num>
-        <text>"Advisory Council" means the Limited Equity Cooperative Advisory Council established by section 3.</text>
+        <text>"Advisory Council" means the Limited Equity Cooperative Advisory Council established by <code-cite doc="D.C. Code" path="§42-2067.02">section 3</code-cite>.</text>
       </para>
       <para>
         <num>(2)</num>
-        <text>"Cooperative" shall have the same meaning as given in the Limited Equity Cooperative Task Force Act of 2018, effective July 3, 2018 (D.C. Law 22-119; D.C. Official Code § 42-2061(1)).</text>
+        <text>"Cooperative" shall have the same meaning as given in <code-cite doc="D.C. Code" path="§42-2061|(1)">the Limited Equity Cooperative Task Force Act of 2018, effective July 3, 2018 (D.C. Law 22-119; D.C. Official Code § 42-2061(1))</code-cite>.</text>
       </para>
       <para>
         <num>(3)</num>
-        <text>"Limited-Equity cooperative" or "LEC" shall have the same meaning as in D.C. Official Code § 47-802(11).</text>
+        <text>"Limited-Equity cooperative" or "LEC" shall have the same meaning as in <code-cite doc="D.C. Code" path="§47-802|(11)">D.C. Official Code § 47-802(11)</code-cite>.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-2067.01" applicability-path="§6" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="42|20A|II" num-value="42-2067.02"/>
     <num>3</num>
     <heading proof="needed">Establishment of the Limited-Equity Cooperative Advisory Council.</heading>
     <text>There is established a Limited-equity Cooperative Advisory Council to provide the Council with comprehensive policy recommendations on how the District can assist in the formation of new LECs and help existing LECs succeed.</text>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-2067.02" applicability-path="§6" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="42|20A|II" num-value="42-2067.03"/>
     <num>4</num>
     <heading proof="needed">Membership.</heading>
     <para>
@@ -141,8 +156,10 @@
       <num>(f)</num>
       <text>The Advisory Council may request administrative support from the Director of DHCD, who shall provide support as the Director of DHCD and not as a member of the Advisory Council for all such reasonable requests to prepare for the required reports and meetings of the Advisory Council.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-2067.03" applicability-path="§6" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="42|20A|II" num-value="42-2067.04"/>
     <num>5</num>
     <heading proof="needed">Duties of the Advisory Council.</heading>
     <para>
@@ -154,8 +171,7 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>Funding options and sources to assist in the formation of new LECs and to</text>
-        <text>provide technical support and assistance to LEC members and LEC boards in the District;</text>
+        <text>Funding options and sources to assist in the formation of new LECs and to provide technical support and assistance to LEC members and LEC boards in the District;</text>
       </para>
       <para>
         <num>(3)</num>
@@ -167,13 +183,19 @@
       </para>
       <aftertext proof="needed">preservation of LECs in the District.</aftertext>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-2067.04" applicability-path="§6" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="42|20A|II" num-value="42-2067.05"/>
     <num>6</num>
     <heading proof="needed">Applicability.</heading>
     <para>
       <num>(a)</num>
-      <text>This act shall apply upon the date of inclusion of its fiscal effect is included in an approved budget and financial plan.</text>
+      <text><code-cite doc="D.C. Code" path="42|20A|II">This act</code-cite> shall apply upon the date of inclusion of its fiscal effect is included in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 24-243" path="§2" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 24-243" path="§3" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 24-243" path="§4" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 24-243" path="§5" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
@@ -187,7 +209,7 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>The date of publication of the notice of the certification shall not affect the applicability of this act.</text>
+        <text>The date of publication of the notice of the certification shall not affect the applicability of <code-cite doc="D.C. Code" path="42|20A|II">this act</code-cite>.</text>
       </para>
     </para>
   </section>

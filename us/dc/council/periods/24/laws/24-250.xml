@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-687">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-250">
+  <num type="law">24-250</num>
   <num type="act">24-687</num>
   <num type="bill">24-653</num>
   <heading type="short">Period Equity Righting an Injustice of District Residents (PERIOD) Act of 2022</heading>
   <heading type="long">To require the entity responsible for managing or maintaining a public bathroom to install and maintain dispensers or similar receptacles of free-for-use period products in women's and gender-neutral bathrooms.</heading>
   <meta>
     <introduced>2022-02-02</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/48744/Signed_Act/B24-0653-Signed_Act.pdf">D.C. Law 24-250</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/48744/Signed_Act/B24-0653-Signed_Act.pdf">D.C. Act 24-687</citation>
       <citation type="register">69 DCR 15101</citation>
     </citations>
@@ -19,8 +21,16 @@
       <committee>Housing and Executive Administration</committee>
     </history>
   </meta>
+  <codify:insert doc="D.C. Code" path="7|1" after="III-A" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>III-B</num>
+      <heading>Free-for-use Period Products in Women's and Gender-neutral Bathrooms.</heading>
+    </container>
+  </codify:insert>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Period Equity Righting an Injustice of District Residents (PERIOD) Act of 2022".</text>
   <section>
+    <codify:insert doc="D.C. Code" path="7|1|III-B" num-value="7-163.01"/>
     <num>2</num>
     <heading proof="needed">Definitions.</heading>
     <para>
@@ -51,8 +61,10 @@
         <text>Other substances hazardous to user health.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§7-163.01" applicability-path="§4" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="7|1|III-B" num-value="7-163.02"/>
     <num>3</num>
     <heading proof="needed">Provision of period products.</heading>
     <para>
@@ -72,15 +84,19 @@
     </para>
     <para>
       <num>(b)</num>
-      <text>Period products required to be made available pursuant to this act shall be free of charge.</text>
+      <text>Period products required to be made available pursuant to <code-cite doc="D.C. Code" path="7|1|III-B">this act</code-cite> shall be free of charge.</text>
     </para>
+     <codify:not-funded-anno doc="D.C. Code" path="§7-163.02" applicability-path="§4" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="7|1|III-B" num-value="7-163.03"/>
     <num>4</num>
-    <text>Applicability</text>
+    <heading>Applicability</heading>
     <para>
       <num>(a)</num>
-      <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <text><code-cite doc="D.C. Code" path="7|1|III-B">This act</code-cite> shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 24-250" path="§2" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 24-250" path="§3" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
@@ -94,7 +110,7 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>The date of publication of the notice of the certification shall not affect the applicability of this act.</text>
+        <text>The date of publication of the notice of the certification shall not affect the applicability of <code-cite doc="D.C. Code" path="7|1|III-B">this act</code-cite>.</text>
       </para>
     </para>
   </section>
