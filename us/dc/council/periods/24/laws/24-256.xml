@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-680">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-256">
+  <num type="law">24-256</num>
   <num type="act">24-680</num>
   <num type="bill">24-798</num>
   <heading type="short">New Markets Tax Credit Real Property Tax Exemption Amendment Act of 2022</heading>
   <heading type="long">To amend section 47-1002 of the District of Columbia Official Code to provide a real property tax exemption for real property belonging to Qualified Low Income Community Businesses that participate in transactions qualifying for the New Markets Tax Credit provided under the Internal Revenue Code.</heading>
   <meta>
     <introduced>2022-04-27</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/49490/Signed_Act/B24-0798-Signed_Act.pdf">D.C. Law 24-256</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/49490/Signed_Act/B24-0798-Signed_Act.pdf">D.C. Act 24-680</citation>
       <citation type="register">69 DCR 15084</citation>
     </citations>
@@ -20,27 +22,43 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "New Markets Tax Credit Real Property Tax Exemption Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§47-1002">
     <num>2</num>
     <text>Section 47-1002 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="(30)">
       <num>(a)</num>
       <text>Paragraph (30) is amended by striking the word "and" at the end.</text>
+      <codify:find-replace position="last">
+        <find>and</find>
+        <replace></replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(31)|(C)">
       <num>(b)</num>
       <text>Paragraph (31)(C) is amended by striking the period and inserting the phrase ", including a nonprofit entity owning real estate titled through an LLC with a single member being the nonprofit applicant;" in its place.</text>
+      <codify:find-replace count="1">
+        <find>.</find>
+        <replace>, including a nonprofit entity owning real estate titled through an LLC with a single member being the nonprofit applicant;</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(32)">
       <num>(c)</num>
       <text>Paragraph (32) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the phrase "defined in in" and insert the phrase "defined in" in its place.</text>
+        <codify:find-replace count="1">
+          <find>in in</find>
+          <replace>in</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Strike the period at the end and insert the phrase "; and" in its place</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -48,6 +66,7 @@
       <text>A new paragraph (33) is added to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert/>
           <num>(33)</num>
           <para>
             <num>(A)</num>
@@ -69,7 +88,7 @@
             </para>
             <para>
               <num>(iii)</num>
-              <text>Notwithstanding any other provision of law, if the property is not used as required by subparagraph (A) of this paragraph within the permitted period of time, the exemption shall be rescinded retroactive to the initial grant of the exemption, subject to the appeal provisions of § 47-1009.</text>
+              <text>Notwithstanding any other provision of law, if the property is not used as required by subparagraph (A) of this paragraph within the permitted period of time, the exemption shall be rescinded retroactive to the initial grant of the exemption, subject to the appeal provisions of <cite doc="D.C. Code" path="§47-1009">§ 47-1009</cite>.</text>
             </para>
           </para>
         </para>

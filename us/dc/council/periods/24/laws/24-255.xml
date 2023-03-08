@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-645">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-255">
+  <num type="law">24-255</num>
   <num type="act">24-645</num>
   <num type="bill">24-730</num>
   <heading type="short">Child Development Facility Lead Testing Amendment Act of 2022</heading>
   <heading type="long">To amend the Child Develop Facilities Regulation Act of 1998 to clarify that drinking water sources shall not include sources of water for which a conspicuous sign is posted, to authorize the Department of Energy and Environment to assist child development facilities in meeting the lead testing and remediation requirements, to require that child development facilities with public-facing websites post on the child development facility's website the results of testing for lead in drinking water, including the timing of the test, planned remediation, and the date of remediation, to prescribe how the Department of Energy and Environment is to provide information to child development facilities that the agency has agreed to assist with meeting lead testing and remediation requirements, to require the Department of Energy and Environment to post information received by the agency from a child development facility on lead testing within 30 days after receipt of results, and to require that the Department of Energy and Environment post information received by the agency from a child development facility on lead testing prior to the effective date of this act within 120 days after the effective date of this act.</heading>
   <meta>
     <introduced>2022-03-25</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/49202/Signed_Act/B24-0730-Signed_Act.pdf">D.C. Law 24-255</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/49202/Signed_Act/B24-0730-Signed_Act.pdf">D.C. Act 24-645</citation>
       <citation type="register">69 DCR 14637</citation>
     </citations>
@@ -20,21 +22,26 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Child Development Facility Lead Testing Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Child Development Facilities Regulation Act of 1998, effective April 13, 1999 (D.C. Law 12-215; D.C. Official Code § 7-2031 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§7-2031|(3A)|(B)">
       <num>(a)</num>
       <text>Section 2(3A)(B) (D.C. Official Code § 7-2031(3A)(B)) is amended by striking the phrase "which a child development facility posts a conspicuous sign" and inserting the phrase "which a conspicuous sign is posted" in its place.</text>
+      <codify:find-replace count="1">
+        <find>which a child development facility posts a conspicuous sign</find>
+        <replace>which a conspicuous sign is posted</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§7-2051">
       <num>(b)</num>
       <text>Section 21a (D.C. Official Code § 7-2051) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended to reads as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <para>
               <num>(1)</num>
@@ -48,32 +55,38 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended as follows:</text>
-        <para>
+        <para codify:path="text">
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "facility shall" and inserting the phrase "facility or, where DOEE agrees to assist the child development facility with meeting the requirements of this subsection, DOEE shall" in its place.</text>
+          <codify:find-replace count="1">
+            <find>facility shall</find>
+            <replace>facility or, where DOEE agrees to assist the child development facility with meeting the requirements of this subsection, DOEE shall</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>A new paragraph (4A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(4)"/>
               <num>(4A)</num>
               <text>Where the child development facility has a public-facing website, the child development facility shall post on the child development facility's website the results of testing undertaken pursuant to paragraph (4) of this subsection, by drinking water source, within 14 calendar days of the child development facility's receipt of the results, including the date and time of the testing, and any remediation planned pursuant to paragraph (5)(B) of this section;</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(5)">
           <num>(C)</num>
           <text>Paragraph (5) is amended as follows:</text>
-          <para>
+          <para codify:path="(C)">
             <num>(i)</num>
             <text>Subparagraph (C) is amended to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:replace/>
                 <num>(C)</num>
                 <para>
                   <num>(i)</num>
@@ -87,11 +100,12 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(D)">
             <num>(ii)</num>
             <text>Subparagraph (D) is amended to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:replace/>
                 <num>(D)</num>
                 <para>
                   <num>(i)</num>
@@ -118,33 +132,40 @@
             <text>A new paragraph (E) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(E)</num>
-                <text>Where the child development facility has a public-facing website, the child development facility shall post notice of the completion of any remediation, including the date of completion and the results of testing drinking water sources after the completion of the remediation, on the child development facility's website in a location accessible to the public within 5 days after providing notice to parents under subparagraph (D) of this paragraph.".</text>
+                <text>Where the child development facility has a public-facing website, the child development facility shall post notice of the completion of any remediation, including the date of completion and the results of testing drinking water sources after the completion of the remediation, on the child development facility's website in a location accessible to the public within 5 days after providing notice to parents under subparagraph (D) of this paragraph.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
         </para>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>The existing text is designated as subparagraph (A);</text>
+            <codify:redesignate-para num-value="(A)"/>
           </para>
           <para>
             <num>(ii)</num>
             <text>The newly redesignated subparagraph (A) is amended by striking the phrase "provide the child" and inserting the phrase "provide DOEE or the child" in its place.</text>
+            <codify:find-replace count="1">
+              <find>provide the child</find>
+              <replace>provide DOEE or the child</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(iii)</num>
             <text>A new subparagraph (B) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(B)</num>
                 <text>Where applicable, DOEE shall provide a child development facility that DOEE provided with assistance under this section with a report or other information on actions taken pursuant to subsection (b) of this section, including providing written proof of compliance with this section that is provided to DOEE pursuant to subparagraph (A) of this subsection.</text>
               </para>
@@ -152,49 +173,60 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "to DOEE" and inserting the phrase "to DOEE and the Office of the State Superintendent ("OSSE"); provided, where DOEE provides a child development facility with written proof of compliance pursuant to paragraph (1)(B) of this subsection, the child development facility shall provide that proof of compliance to OSSE where required to do so by OSSE" in its place.</text>
+          <codify:find-replace count="1">
+            <find>to DOEE</find>
+            <replace>to DOEE and the Office of the State Superintendent ("OSSE"); provided, where DOEE provides a child development facility with written proof of compliance pursuant to paragraph (1)(B) of this subsection, the child development facility shall provide that proof of compliance to OSSE where required to do so by OSSE</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(4)</num>
         <text>Subsection (d) is amended by striking the phrase "After a child" and inserting the phrase "Where DOEE has not contracted with a contractor on behalf of the child development facility for services required under this subsection (b) of this section, after the child" in its place.</text>
+        <codify:find-replace count="1">
+          <find>After a child</find>
+          <replace>Where DOEE has not contracted with a contractor on behalf of the child development facility for services required under this subsection (b) of this section, after the child</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(g)">
         <num>(5)</num>
         <text>Subsection (g) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The existing text is designated as paragraph (1).</text>
+          <codify:redesignate-para num-value="(1)"/>
         </para>
         <para>
           <num>(B)</num>
           <text>A paragraph (2) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(2)</num>
               <text>DOEE shall post on the DOEE website, in a location accessible to the public, information received by DOEE as proof of compliance with this section, including, by drinking water source, the date, time, and location of testing, test results, planned remediation, the date of completion of the planned remediation, and the results of testing of drinking water sources after the completion of the planned remediation:</text>
               <para>
                 <num>(A)</num>
-                <text>For information regarding services conducted at child development facilities pursuant to this section provided to DOEE after the effective date of the Child Development Facility Lead Testing Amendment Act, passed on 2nd reading on October 18, 2022 (Enrolled version of Bill 24-730) ("Act"), within 30 days after receipt of a child development facility's proof of compliance under subsection (c) of this section; and</text>
+                <text>For information regarding services conducted at child development facilities pursuant to this section provided to DOEE after <span codify:value="February 23, 2023">the effective date of the Child Development Facility Lead Testing Amendment Act, passed on 2nd reading on October 18, 2022 (Enrolled version of Bill 24-730) ("Act")</span>, within 30 days after receipt of a child development facility's proof of compliance under subsection (c) of this section; and</text>
               </para>
               <para>
                 <num>(B)</num>
-                <text>For information regarding services conducted at child development facilities pursuant to this section provided to DOEE before the effective date of the Act, within 120 days after the effective date of the Act.</text>
+                <text>For information regarding services conducted at child development facilities pursuant to this section provided to DOEE before <span codify:value="February 23, 2023">the effective date of the Act</span>, within 120 days after <span codify:value="February 23, 2023">the effective date of the Act</span>.</text>
               </para>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(i)">
         <num>(6)</num>
         <text>Subsection (i) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(i)</num>
-            <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), may issue rules to implement the provisions of this section.</text>
+            <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement the provisions of this section.</text>
           </para>
         </include>
         <aftertext>.</aftertext>

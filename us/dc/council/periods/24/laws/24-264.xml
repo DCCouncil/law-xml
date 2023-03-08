@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-691">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-264">
+  <num type="law">24-264</num>
   <num type="act">24-691</num>
   <num type="bill">24-940</num>
   <heading type="short">Performing Arts Promotion Tax Rebate Clarification Amendment Act of 2022</heading>
   <heading type="long">To amend Title 47 of the District of Columbia Code to provide support during a public health emergency for certain businesses that host performing artists, to give the Mayor the authority to implement a tax rebate for performing arts venues, and to make other clarifying changes.</heading>
   <meta>
     <introduced>2022-07-12</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/51033/Signed_Act/B24-0940-Signed_Act.pdf">D.C. Law 24-264</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/51033/Signed_Act/B24-0940-Signed_Act.pdf">D.C. Act 24-691</citation>
       <citation type="register">69 DCR 15116</citation>
     </citations>
@@ -20,55 +22,81 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Performing Arts Promotion Tax Rebate Clarification Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Chapter 8 of Title 47 of the District of Columbia Code is amended as follows:</text>
-    <para>
+    <para codify:path="§47-802|(17)|(A)">
       <num>(a)</num>
       <text>Section 47-802(17)(A) is amended as follows:</text>
-      <para>
+      <para codify:path="text">
         <num>(1)</num>
         <text>The lead-in language is amended by striking the colon and inserting the phrase ", during a tax year:" in its place.</text>
+        <codify:find-replace>
+          <find>:</find>
+          <replace>, during a tax year:</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Sub-subparagraph (i) is amended by striking the phrase "; and" and inserting the phrase "except during months during which a public health emergency declared pursuant to section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194, D.C. Official Code § 7-2304.01) is in effect; and" in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace> except during months during which a public health emergency declared pursuant to <code-cite doc="D.C. Code" path="§7-2304.01">section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14-194, D.C. Official Code § 7-2304.01)</code-cite> is in effect; and</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§47-869">
       <num>(b)</num>
       <text>Section 47-869 of the District of Columbia Code is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(2)">
         <num>(1)</num>
         <text>Subsection (a)(2) is amended by striking the phrase "; and" and inserting the phrase "of the tax year; and" in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace> of the tax year; and</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended as follows:</text>
-        <para>
+        
+        <para >
           <num>(A)</num>
           <text>The lead-in language is amended to read as follows:</text>
           <include>
             <para>
               <num>(b)</num>
               <text>For tax years beginning on or after October 1, 2022, the application shall be submitted to the Mayor. The application shall include:</text>
+              <codify:find-replace count="1">
+                <find>The application shall include:</find>
+                <replace>For tax years beginning on or after October 1, 2022, the application shall be submitted to the Mayor. The application shall include:</replace>
+              </codify:find-replace>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the word "and".</text>
+          <codify:find-replace count="1">
+            <find>and</find>
+            <replace></replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(C)</num>
           <text>Paragraph (3) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(D)</num>
           <text>A new paragraph (4) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(4)</num>
               <text>Documentation or information satisfying any additional requirements for eligibility established by the Mayor through rulemaking or by publication on an official website.</text>
             </para>
@@ -81,6 +109,7 @@
         <text>Subsection (c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace path="(c)"/>
             <num>(c)</num>
             <para>
               <num>(1)</num>
@@ -94,16 +123,24 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(4)</num>
         <text>Subsection (d) is amended as follows:</text>
-        <para>
+        <para codify:path="text">
           <num>(A)</num>
           <text>The lead-in language is amended by striking the word "section" and inserting the phrase "section for a tax year" in its place</text>
+          <codify:find-replace count="1">
+            <find>section</find>
+            <replace>section for a tax year</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the word "tax" and inserting the phrase "tax for the tax year" in its place.</text>
+          <codify:find-replace count="1">
+            <find>tax</find>
+            <replace>tax for the tax year</replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>

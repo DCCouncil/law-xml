@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-655">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-253">
+  <num type="law">24-253</num>
   <num type="act">24-655</num>
   <num type="bill">24-668</num>
   <heading type="short">Zero Waste Plastic Products Recycling Amendment Act of 2022</heading>
   <heading type="long">To amend the Sustainable Solid Waste Management Amendment Act of 2014 to require covered retail establishments to make available to consumers a receptacle to collect disposable plastic bags, plastic film, and plastic shipping products for recycling and to recycle any disposable plastic bags, plastic film, and plastic shipping products collected in the receptacle, and to authorize the Mayor to administer virtual compost training.</heading>
   <meta>
     <introduced>2022-02-17</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/48831/Signed_Act/B24-0668-Signed_Act.pdf">D.C. Law 24-253</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/48831/Signed_Act/B24-0668-Signed_Act.pdf">D.C. Act 24-655</citation>
       <citation type="register">69 DCR 14691</citation>
     </citations>
@@ -20,10 +22,10 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Zero Waste Plastic Products Recycling Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code"> 
     <num>2</num>
     <text>The Sustainable Solid Waste Management Amendment Act of 2014, effective February 26, 2015 (D.C. Law 20-154; D.C. Official Code § 8-1031.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§8-1031.01">
       <num>(a)</num>
       <text>Section 101 (D.C. Official Code § 8-1031.01) is amended as follows:</text>
       <para>
@@ -31,6 +33,7 @@
         <text>A new paragraph (5A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert  after="(5)"/> 
             <num>(5A)</num>
             <text>"Covered retail establishment" means:</text>
             <para>
@@ -50,6 +53,7 @@
         <text>A new paragraph (6A) is added to reads as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert  after="(6)"/>
             <num>(6A)</num>
             <text>"Disposable plastic bags" means grocery and retail bags, newspaper bags, bread bags, dry cleaning bags, food storage bags, and produce bags made of plastic, and all plastic bags labeled #2 or #4. The term "disposable plastic bags" does not include degradable or compostable bags.</text>
           </para>
@@ -59,12 +63,17 @@
       <para>
         <num>(3)</num>
         <text>Paragraph (8C) is redesignated as paragraph (8D).</text>
+       <codify:find-replace path="(8C)" count="1">
+         <find>(8C)</find>
+         <replace>(8D)</replace>
+       </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (8C) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(8B)"/>
             <num>(8C)</num>
             <text>"Grocery store" means a retail establishment with a primary business of selling grocery products and that has a selling area that is used for a general line of food, including perishable food, and may also include household supplies or prescription pharmacy merchandise.</text>
           </para>
@@ -74,12 +83,21 @@
       <para>
         <num>(5)</num>
         <text>Paragraphs (10B) and (10C) are redesignated as paragraphs (10C) and (10D), respectively.</text>
+        <codify:find-replace count="1">
+          <find>(10C)</find>
+          <replace>(10D)</replace>
+        </codify:find-replace>
+        <codify:find-replace count="1">
+          <find>(10B)</find>
+          <replace>(10C)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(6)</num>
         <text>A new paragraph (10B) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(10A)"/>
             <num>(10B)</num>
             <text>"Large format retail" shall have the same meaning as provided in 11-B DCMR § 100.2.</text>
           </para>
@@ -91,10 +109,12 @@
         <text>New paragraphs (10E) and (10F) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(10D)"/>
             <num>(10E)</num>
             <text>"Plastic film" means plastic wraps or films, including wrappings for furniture, electronics, and bulk products that are made of plastic, and all plastic film products labeled #2 or #4. The term "plastic film" does not include degradable or compostable wrap or cling wrap products.</text>
           </para>
           <para>
+            <codify:insert after="(10E)"/>
             <num>(10F)</num>
             <text>"Plastic shipping products" means bubble wrap, air pillows, and plastic shipping envelopes.</text>
           </para>
@@ -102,11 +122,12 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§8-1031.12a|(f)">
       <num>(b)</num>
       <text>Section 112a(f) (D.C. Official Code § 8-1031.12a(f)) is amended by adding a new paragraph (1A) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(1)"/>
           <num>(1A)</num>
           <text>Notwithstanding paragraph (1) of this subsection, the Mayor, or a contractor selected by the Mayor, may provide the training required by paragraph (1) of this subsection remotely through videoconference or pre-recorded training video.</text>
         </para>
@@ -118,6 +139,7 @@
       <text>A new section 112f is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="8|10A" after="§8-1031.12e" num-value="8-1031.12f"/>
           <num>112f</num>
           <heading proof="needed">Recycling of disposable plastic bags, plastic film, and plastic shipping products.</heading>
           <para>

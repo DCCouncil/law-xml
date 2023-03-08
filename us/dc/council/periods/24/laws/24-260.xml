@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-682">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-260">
+  <num type="law">24-260</num>
   <num type="act">24-682</num>
   <num type="bill">24-894</num>
   <heading type="short">Whitman-Walker Entities at St. Elizabeths Tax Rebate Amendment Act of 2022</heading>
   <heading type="long">To amend Chapter 46 of Title 47 of the District of Columbia Official Code to provide tax abatements for Whitman-Walker Health and Whitman-Walker Health System at St. Elizabeths located in Square 5868-S, Lot 965 in Ward 8.</heading>
   <meta>
     <introduced>2022-06-27</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/49919/Signed_Act/B24-0894-Signed_Act.pdf">D.C. Law 24-260</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/49919/Signed_Act/B24-0894-Signed_Act.pdf">D.C. Act 24-682</citation>
       <citation type="register">69 DCR 15088</citation>
     </citations>
@@ -20,7 +22,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Whitman-Walker Entities at St. Elizabeths Tax Rebate Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Chapter 46 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
     <para>
@@ -30,14 +32,12 @@
         <section>
           <prefix>§</prefix>
           <num>47-4678</num>
-          <heading proof="needed">Whitman-Walker Health at St.</heading>
-          <text>Elizabeths tax rebate.</text>
+          <heading proof="needed">Whitman-Walker Health at St. Elizabeths tax rebate.</heading>
         </section>
         <section>
           <prefix>§</prefix>
           <num>47-4679</num>
-          <heading proof="needed">Whitman-Walker Health System at St.</heading>
-          <text>Elizabeths tax rebate.</text>
+          <heading proof="needed">Whitman-Walker Health System at St. Elizabeths tax rebate.</heading>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -47,10 +47,10 @@
       <text>New sections 47-4677 and 47-4678 are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="47|46"/>
           <prefix>§</prefix>
           <num>47-4678</num>
-          <heading proof="needed">Whitman-Walker Health at St.</heading>
-          <text>Elizabeths tax rebate.".</text>
+          <heading proof="needed">Whitman-Walker Health at St. Elizabeths tax rebate.</heading>
           <para>
             <num>(a)</num>
             <text>The real property taxes paid with respect to Square 5868 S, Lot 0965 shall be rebated to Whitman-Walker Health to the extent of Whitman-Walker Health's proportionate share of the real property tax incurred as reasonably allocated in relation to the assessed value of the space occupied, if:</text>
@@ -60,7 +60,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>Whitman-Walker Health applies for the rebate of real property tax by September 15 of the calendar year in which the tax was payable as provided under § 47-811; and</text>
+              <text>Whitman-Walker Health applies for the rebate of real property tax by September 15 of the calendar year in which the tax was payable as provided under <cite doc="D.C. Code" path="§47-811">§ 47-811</cite>; and</text>
             </para>
             <para>
               <num>(3)</num>
@@ -89,18 +89,19 @@
           </para>
           <para>
             <num>(e)</num>
-            <text>The rebate provided by this section shall begin no earlier than October 1, 2022, and shall be in effect for a minimum of 15 years and maximum of 25 years; provided, that Whitman-Walker Health occupies a portion of a building that is subject to real property taxation under Chapter 8 of this title pursuant to a signed lease with the lessor of that portion of a building at St. Elizabeths.  The amount of the rebate shall not exceed the amount of real property taxes paid by Whitman-Walker Health.</text>
+            <text>The rebate provided by this section shall begin no earlier than October 1, 2022, and shall be in effect for a minimum of 15 years and maximum of 25 years; provided, that Whitman-Walker Health occupies a portion of a building that is subject to real property taxation under <cite doc="D.C. Code" path="47|8">Chapter 8 of this title</cite> pursuant to a signed lease with the lessor of that portion of a building at St. Elizabeths.  The amount of the rebate shall not exceed the amount of real property taxes paid by Whitman-Walker Health.</text>
           </para>
           <para>
             <num>(f)</num>
             <text>The rebate provided pursuant to this section shall be in addition to, and not in lieu of, any other tax, financial, or development incentive, or tax credit, or any other type of incentive provided to Whitman-Walker Health under any District or federal program.</text>
           </para>
+           <codify:not-funded-anno doc="D.C. Code" path="§47-4678" applicability-path="§3" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="47|46"/>
           <prefix>§</prefix>
           <num>47-4679</num>
-          <heading proof="needed">Whitman-Walker Health System at St.</heading>
-          <text>Elizabeths tax rebate.</text>
+          <heading proof="needed">Whitman-Walker Health System at St. Elizabeths tax rebate.</heading>
           <para>
             <num>(a)</num>
             <text>The real property taxes paid with respect to Square 5868 S, Lot 0965 shall be rebated to Whitman-Walker Health System to the extent of Whitman-Walker Health System's proportionate share of the real property tax incurred as reasonably allocated in relation to the assessed value of the space occupied, if:</text>
@@ -110,7 +111,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>Whitman-Walker Health System applies for the rebate of real property tax by September 15 of the calendar year in which the tax was payable as provided under § 47-811; and</text>
+              <text>Whitman-Walker Health System applies for the rebate of real property tax by September 15 of the calendar year in which the tax was payable as provided under <cite doc="D.C. Code" path="§47-811">§ 47-811</cite>; and</text>
             </para>
             <para>
               <num>(3)</num>
@@ -139,12 +140,13 @@
           </para>
           <para>
             <num>(e)</num>
-            <text>The real property tax rebate established by this section shall begin no earlier than October 1, 2022, and shall be in effect for a minimum of 15 years and maximum of 25 years; provided, that Whitman-Walker Health System occupies a portion of a building that is subject to real property taxation under Chapter 8 of this title pursuant to a signed lease with the lessor of that portion of a building at St. Elizabeths.  The amount of the rebate shall not exceed the amount of real property taxes paid by Whitman-Walker Health System.</text>
+            <text>The real property tax rebate established by this section shall begin no earlier than October 1, 2022, and shall be in effect for a minimum of 15 years and maximum of 25 years; provided, that Whitman-Walker Health System occupies a portion of a building that is subject to real property taxation under <cite doc="D.C. Code" path="47|8">Chapter 8 of this title</cite> pursuant to a signed lease with the lessor of that portion of a building at St. Elizabeths.  The amount of the rebate shall not exceed the amount of real property taxes paid by Whitman-Walker Health System.</text>
           </para>
           <para>
             <num>(f)</num>
             <text>The rebate provided pursuant to this section shall be in addition to, and not in lieu of, any other tax, financial, or development incentive, or tax credit, or any other type of incentive provided to Whitman-Walker Health System under any District or federal program.</text>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§47-4679" applicability-path="§3" action="creation of" display-template=""/>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -156,6 +158,7 @@
     <para>
       <num>(a)</num>
       <text>This Act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 24-260" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

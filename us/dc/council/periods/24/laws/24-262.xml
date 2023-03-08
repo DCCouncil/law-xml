@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-689">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-262">
+  <num type="law">24-262</num>
   <num type="act">24-689</num>
   <num type="bill">24-934</num>
   <heading type="short">Condominium Warranty Claims Clarification Amendment Act of 2022</heading>
   <heading type="long">To amend the Condominium Act of 1976 to clarify standards and procedures governing the resolution of a claim filed upon a condominium developer's warranty against structural defects, to provide that a judicial, non-judicial, regulatory, or administrative proceeding for breach of a warrant that arises under this act shall be commenced within 5 years after the date the applicable warranty period began, to provide that the filing of a claim with the Mayor shall not preclude the claimant from also seeking to judicially enforce its claim, and to clarify the penalties for violating a provision of this act.</heading>
   <meta>
     <introduced>2022-07-11</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/50015/Signed_Act/B24-0934-Signed_Act.pdf">D.C. Law 24-262</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/50015/Signed_Act/B24-0934-Signed_Act.pdf">D.C. Act 24-689</citation>
       <citation type="register">69 DCR 15105</citation>
     </citations>
@@ -20,22 +22,23 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Condominium Warranty Claims Clarification Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
-    <text>The Condominium Act of 1976, effective March 29, 1977 (D.C. Law 8-233; D.C.</text>
-    <text>Official Code § 42-1901.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <text>The Condominium Act of 1976, effective March 29, 1977 (D.C. Law 8-233; D.C. Official Code § 42-1901.01 <em>et seq</em>.), is amended as follows:</text>
+    <para codify:path="§42-1903.16">
       <num>(a)</num>
       <text>Section 316 (D.C. Official Code § 42-1903.16) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Subsection (a) is repealed</text>
+        <codify:repeal path="(a)"/>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (a-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)"/>
             <num>(a-1)</num>
             <para>
               <num>(1)</num>
@@ -66,6 +69,7 @@
         <text>Subsection (e) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace path="(e)"/>
             <num>(e)</num>
             <para>
               <num>(1)</num>
@@ -195,6 +199,7 @@
         <text>A new subsection (e-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(e)"/>
             <num>(e-1)</num>
             <text>The Mayor shall approve the release of the funds secured under subsection (e) of this section to satisfy any costs that arise from a declarant's failure to satisfy the requirements of this section pursuant to:</text>
             <para>
@@ -220,16 +225,18 @@
       <para>
         <num>(5)</num>
         <text>Subsection (f) is repealed.</text>
+        <codify:repeal path="(f)"/>
       </para>
       <para>
         <num>(6)</num>
         <text>Subsection (g) is amended by adding a new paragraph (1A) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert path="(g)" after="(1)"/>
             <num>(1A)</num>
             <para>
               <num>(A)</num>
-              <text>The Mayor shall issue proposed rules to implement the provisions of the Condominium Warranty Claims Clarification Amendment Act of 2022, passed on 2nd reading November 15, 2022 (enrolled version of Bill 24-934) ("Amendment Act of 2022"), within 180 days after the effective date of the Amendment Act of 2022 .</text>
+              <text>The Mayor shall issue proposed rules to implement the provisions of the Condominium Warranty Claims Clarification Amendment Act of 2022<span codify:value=" [D.C. Law  24-262]">, passed on 2nd reading November 15, 2022 (enrolled version of Bill 24-934) ("Amendment Act of 2022"),</span> within 180 days after <span codify:value="February 23, 2023">the effective date of the Amendment Act of 2022 </span>.</text>
             </para>
             <para>
               <num>(B)</num>
@@ -244,6 +251,7 @@
         <text>A new subsection (h) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(h)</num>
             <para>
               <num>(1)</num>
@@ -262,6 +270,7 @@
         <text>A new subsection (i) is added to read as follows:</text>
         <include lvl="3">
           <para>
+            <codify:insert/>
             <num>(i)</num>
             <para>
               <num>(1)</num>
@@ -276,11 +285,12 @@
         <text>A new subsection (j) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(j)</num>
             <text>For the purposes of this section, the term:</text>
             <para>
               <num>(1)</num>
-              <text>"Adjudication" shall have the same meaning set forth in section 102(19) of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-502(19)).</text>
+              <text>"Adjudication" shall have the same meaning set forth in <code-cite doc="D.C. Code" path="§2-502|(19)">section 102(19) of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-502(19))</code-cite>.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -292,7 +302,7 @@
             </para>
             <para>
               <num>(4)</num>
-              <text>"Order" shall have the same meaning set forth in section 102(11) of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-502(11)).</text>
+              <text>"Order" shall have the same meaning set forth in <code-cite doc="D.C. Code" path="§2-502|(11)">section 102(11) of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-502(11))</code-cite>.</text>
             </para>
             <para>
               <num>(5)</num>
@@ -319,31 +329,38 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§42-1903.17">
       <num>(b)</num>
       <text>Section 317 (D.C. Official Code § 42-1903.17) is amended to read as follows:</text>
       <include>
         <para>
-          <num>(a)</num>
-          <text>A judicial, non-judicial, regulatory, or administrative proceeding for breach of a warranty that arises under section 316 shall be commenced within 5 years after the date the applicable warranty period began.</text>
+          <num/>
+          <codify:redesignate-para num-value="(a)"/>
         </para>
         <para>
+          <codify:replace path="(a)"/>
+          <num>(a)</num>
+          <text>A judicial, non-judicial, regulatory, or administrative proceeding for breach of a warranty that arises under <code-cite doc="D.C. Code" path="§42-1903.16">section 316</code-cite> shall be commenced within 5 years after the date the applicable warranty period began.</text>
+        </para>
+        <para>
+          <codify:insert/>
           <num>(b)</num>
           <text>Filing of a claim with the Mayor shall not preclude the claimant from also seeking to judicially enforce its claim. If a breach of warranty claim is filed with a court of competent jurisdiction, the Mayor's decision issued under this section will be stayed until the breach of warranty claim is resolved.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§42-1904.17">
       <num>(c)</num>
       <text>Section 417 (D.C. Official Code § 42-1904.17) is amended to read as follows:</text>
       <include>
         <para>
+          <codify:replace path="(a)"/>
           <num>(a)</num>
-          <text>Notwithstanding section 101 of the Criminal Fine Proportionality Amendment Act of 2012 (D.C. Official Code § 22-3571.01), a person shall be fined not less than $1,000 or double the amount of gain from the transaction, whichever is the larger, but not more than $50,000, or may be imprisoned for not more than 6 months, or both, for each offense, who knowingly or recklessly:</text>
+          <text>Notwithstanding <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012 (D.C. Official Code § 22-3571.01)</code-cite>, a person shall be fined not less than $1,000 or double the amount of gain from the transaction, whichever is the larger, but not more than $50,000, or may be imprisoned for not more than 6 months, or both, for each offense, who knowingly or recklessly:</text>
           <para>
             <num>(1)</num>
-            <text>Violates any provision of this act or any rule adopted and published under or order issued pursuant to section 412;</text>
+            <text>Violates any provision of <code-cite doc="D.C. Code" path="42|19">this act</code-cite> or any rule adopted and published under or order issued pursuant to <code-cite doc="D.C. Code" path="§42-1904.12">section 412</code-cite>;</text>
           </para>
           <para>
             <num>(2)</num>
@@ -351,14 +368,16 @@
           </para>
           <para>
             <num>(3)</num>
-            <text>Materially misrepresents the estimated construction or conversion costs in the posting of a bond or letter of credit or other security posted pursuant to section 316.</text>
+            <text>Materially misrepresents the estimated construction or conversion costs in the posting of a bond or letter of credit or other security posted pursuant to <code-cite doc="D.C. Code" path="§42-1903.16">section 316</code-cite>.</text>
           </para>
         </para>
         <para>
+          <codify:replace path="(b)"/>
           <num>(b)</num>
-          <text>Prosecution for violations of this act shall be brought in the name of the District of Columbia by the Attorney General.</text>
+          <text>Prosecution for violations of <code-cite doc="D.C. Code" path="42|19">this act</code-cite> shall be brought in the name of the District of Columbia by the Attorney General.</text>
         </para>
         <para>
+          <codify:insert/>
           <num>(c)</num>
           <para>
             <num>(1)</num>
@@ -376,7 +395,7 @@
               </para>
               <para>
                 <num>(ii)</num>
-                <text>An unfair or deceptive trade practice pursuant to Chapter 39 of Title 28 of the District of Columbia Official Code;</text>
+                <text>An unfair or deceptive trade practice pursuant to <code-cite doc="D.C. Code" path="28|39">Chapter 39 of Title 28 of the District of Columbia Official Code</code-cite>;</text>
               </para>
               <para>
                 <num>(iii)</num>
@@ -391,7 +410,7 @@
                 </para>
                 <para>
                   <num>(III)</num>
-                  <text>Costs of construction to substantiate the amount of a bond, letter of credit or other security posted pursuant to section 316.</text>
+                  <text>Costs of construction to substantiate the amount of a bond, letter of credit or other security posted pursuant to <code-cite doc="D.C. Code" path="§42-1903.16">section 316</code-cite>.</text>
                 </para>
               </para>
             </para>
@@ -450,19 +469,21 @@
           </para>
         </para>
         <para>
+          <codify:insert/>
           <num>(d)</num>
           <para>
             <num>(1)</num>
-            <text>Civil fines, penalties, and fees may be imposed as alternative sanctions for any infraction of the provisions of this title, or any rules or regulations issued under the authority of this title, pursuant to the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (D.C. Law 6-42; D.C. Official Code § 2-1801.01 <em>et seq.</em>).</text>
+            <text>Civil fines, penalties, and fees may be imposed as alternative sanctions for any infraction of the provisions of <code-cite doc="D.C. Code" path="42|19|IV">this title</code-cite>, or any rules or regulations issued under the authority of <code-cite doc="D.C. Code" path="42|19|IV">this title</code-cite>, pursuant to <code-cite doc="D.C. Code" path="2|18">the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (D.C. Law 6-42; D.C. Official Code § 2-1801.01 <em>et seq.</em>)</code-cite>.</text>
           </para>
           <para>
             <num>(2)</num>
-            <text>Adjudication of any infraction of this title shall be pursuant to the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (D.C. Law 6-42; D.C. Official Code § 2-1801.01 <em>et seq.</em>).</text>
+            <text>Adjudication of any infraction of <code-cite doc="D.C. Code" path="42|19|IV">this title</code-cite> shall be pursuant to <code-cite doc="D.C. Code" path="2|18">the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (D.C. Law 6-42; D.C. Official Code § 2-1801.01 <em>et seq.</em>)</code-cite>.</text>
           </para>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-1903.16" applicability-path="§3" action="creation of subsection (i)" display-template=""/>
   </section>
   <section>
     <num>3</num>
@@ -470,6 +491,7 @@
     <para>
       <num>(a)</num>
       <text>Section 2(a)(8) of this act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 24-262" path="§2|(a)|(8)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
