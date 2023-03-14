@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-663">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-270">
+  <num type="law">24-270</num>
   <num type="act">24-663</num>
   <num type="bill">24-1040</num>
   <heading type="short">Protecting Security-Sensitive Dashboard Data Temporary Amendment Act of 2022</heading>
   <heading type="long">To amend, on a temporary basis, the Department of General Services Establishment Act of 2011 to exempt data that is security sensitive from public dashboard disclosure requirements.</heading>
   <meta>
     <introduced>2022-10-13</introduced>
-    <effective projected="true">2023-03-08</effective>
+    <effective>2023-02-23</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/51421/Signed_Act/B24-1040-Signed_Act.pdf">D.C. Law 24-270</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/51421/Signed_Act/B24-1040-Signed_Act.pdf">D.C. Act 24-663</citation>
       <citation type="register">69 DCR 14756</citation>
     </citations>
@@ -21,26 +23,35 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Protecting Security-Sensitive Dashboard Data Temporary Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§10-551.07e">
     <num>2</num>
     <text>Section 1028e of the Department of General Services Establishment Act of 2011, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 10-551.07e), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended by striking the phrase "campus facility maintenance work orders," and inserting the phrase "campus facility maintenance work orders not exempted by subsection (e) of this section," in its place.</text>
+      <codify:find-replace count="1">
+        <find>campus facility maintenance work orders,</find>
+        <replace>campus facility maintenance work orders not exempted by subsection (e) of this section,</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(b)">
       <num>(b)</num>
-      <text>Subsection (b) is amended by striking the phrase "facility maintenance work orders," and inserting the phrase "facility maintenance work orders not exempted by subsection (e) of this section" in its place.</text>
+      <text>Subsection (b) is amended by striking the phrase "facility maintenance work orders," and inserting the phrase "facility maintenance work orders not exempted by subsection (e) of this section," in its place.</text>
+      <codify:find-replace count="1">
+        <find>facility maintenance work orders,</find>
+        <replace>facility maintenance work orders not exempted by subsection (e) of this section,</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>A new subsection (e) is added to read as follows:</text>
       <include>
         <para>
+          <codify:insert/>
           <num>(e)</num>
           <para>
             <num>(1)</num>
-            <text>The following types of work order data of the following types shall be exempt from the requirements of subsections (a) and (b) of this section:</text>
+            <text>The following types of work order data shall be exempt from the requirements of subsections (a) and (b) of this section:</text>
             <para>
               <num>(A)</num>
               <text>Any work order data regarding a door or lock issue that impairs ordinary operation or has the potential to impair lockdown of a campus space;</text>
@@ -56,7 +67,7 @@
           </para>
           <para>
             <num>(2)</num>
-            <text>The Department of General Services ("Department") shall provide prompt written notice to the chairs of the Council committees with jurisdiction over the Department, the District of Columbia Public Schools, and the Department of Parks and Recreation regarding any work order omitted from a dashboard pursuant to paragraph (1) of this subsection that remains open for 45 days or more.</text>
+            <text>The Department of General Services ("Department") shall provide prompt written notice to the chairs of the Council committees with jurisdiction over the Department, the District of Columbia Public Schools, and the Department of Parks and Recreation regarding any work order omitted from a dashboard pursuant to paragraph (1) this subsection that remains open for 45 days or more.</text>
           </para>
           <para>
             <num>(3)</num>
@@ -66,6 +77,12 @@
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:temporary doc="D.C. Code" path="§10-551.07e"/>
+    <codify:insert doc="D.C. Code" path="§10-551.07e" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 6, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§10-551.07e(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
