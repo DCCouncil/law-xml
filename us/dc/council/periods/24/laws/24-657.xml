@@ -20,19 +20,20 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Expanding Supports for Crime Victims Amendment Act of 2022".</text>
-  <container>
+  <container codify:doc="D.C. Code">
     <prefix>TITLE</prefix>
     <num>I</num>
     <heading>EXPANDING SERVICES AND PROTECTIONS FOR VICTIMS OF CRIME</heading>
-    <section>
+    <section codify:path="§2-536|(a)|(1)">
       <num>101</num>
       <text>Section 206(a)(1) of the District of Columbia Administrative Procedure Act, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-536(a)(1)), is amended to read as follows:</text>
       <para>
         <num undesignated="true">(a)</num>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(1)</num>
-            <text>The names, salaries, title, and dates of employment of all employees and officers of a public body, except for any employee or officer of a public body who is a participant, as that term is defined in section 101(12) of the Address Confidentiality Act of 2018, effective July 3, 2018 (D.C. Law 22-118; D.C. Official Code § 4-555.01(12)) ("Address Confidentiality Act"), in the Address Confidentiality Program established by section 102 of the Address Confidentiality Act, and submits a request to the Department of Human Resources ("Department"), through a process to be established by the Department, that their information not be made public.</text>
+            <text>The names, salaries, title, and dates of employment of all employees and officers of a public body, except for any employee or officer of a public body who is a participant, as that term is defined in <code-cite doc="D.C. Code" path="§4-555.01|(12)">section 101(12) of the Address Confidentiality Act of 2018, effective July 3, 2018 (D.C. Law 22-118; D.C. Official Code § 4-555.01(12)) ("Address Confidentiality Act")</code-cite>, in the Address Confidentiality Program established by <code-cite doc="D.C. Code" path="§4-555.02">section 102 of the Address Confidentiality Act</code-cite>, and submits a request to the Department of Human Resources ("Department"), through a process to be established by the Department, that their information not be made public.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -41,34 +42,48 @@
     <section>
       <num>102</num>
       <text>The Victims of Violent Crime Compensation Act of 1996, effective April 9, 1997 (D.C. Law 11-243; D.C. Official Code § 4-501 <em>et seq</em>.), is amended as follows:</text>
-      <para>
+      <para codify:path="§4-501">
         <num>(a)</num>
         <text>Section 2 (D.C. Official Code § 4-501) is amended as follows:</text>
-        <para>
+        <para codify:path="text">
           <num>(1)</num>
           <text>The lead-in language is amended by striking the phrase "act the" and inserting the phrase "act, the" in its place.</text>
+          <codify:find-replace count="1">
+            <find>chapter</find>
+            <replace>chapter,</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(2)</num>
           <text>Paragraph (2) is amended as follows:</text>
-          <para>
+          <para codify:path="(A)">
             <num>(A)</num>
             <text>Subparagraph (A) is amended by striking the semicolon and inserting the phrase "; or" in its place.</text>
+            <codify:find-replace count="1">
+              <find>;</find>
+              <replace>; or</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(B)">
             <num>(B)</num>
             <text>Subparagraph (B) is amended by striking the phrase "; or" and inserting a period in its place.</text>
+            <codify:find-replace count="1">
+              <find>; or</find>
+              <replace>.</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(C)">
             <num>(C)</num>
             <text>Subparagraph (C) is repealed.</text>
+            <codify:repeal/>
           </para>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(3)</num>
           <text>Paragraph (3) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(3)</num>
               <text>"Collateral source":</text>
               <para>
@@ -107,60 +122,61 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(6)">
           <num>(4)</num>
           <text>Paragraph (6) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(6)</num>
               <text>"Crime" means the following offenses, or the attempt to commit the following offenses, whether prosecuted under the District of Columbia Official Code or substantially similar offense defined in the United States Code, and whether committed in the District against any person or outside of the United States against a resident of the District:</text>
               <para>
                 <num>(A)</num>
-                <text>An act of terrorism, as described in section 103 of the Omnibus Anti-Terrorism Act of 2002, effective October 17, 2002 (D.C. Law 14-194; D.C Official Code § 22-3153);</text>
+                <text>An act of terrorism, as described in <code-cite doc="D.C. Code" path="§22-3153">section 103 of the Omnibus Anti-Terrorism Act of 2002, effective October 17, 2002 (D.C. Law 14-194; D.C Official Code § 22-3153)</code-cite>;</text>
               </para>
               <para>
                 <num>(B)</num>
-                <text>Arson, as described in section 820 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1323; D.C. Official Code § 22-301);</text>
+                <text>Arson, as described in s<code-cite doc="D.C. Code" path="§22-301">ection 820 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1323; D.C. Official Code § 22-301)</code-cite>;</text>
               </para>
               <para>
                 <num>(C)</num>
-                <text>Assault with intent to kill, rob, or poison, or to commit first degree sexual abuse, second degree sexual abuse or child sexual abuse, as described in section 803 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1321; D.C. Official Code § 22-401);</text>
+                <text>Assault with intent to kill, rob, or poison, or to commit first degree sexual abuse, second degree sexual abuse or child sexual abuse, as described in <code-cite doc="D.C. Code" path="§22-401">section 803 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1321; D.C. Official Code § 22-401)</code-cite>;</text>
               </para>
               <para>
                 <num>(D)</num>
-                <text>Assault with intent to commit mayhem or with a dangerous weapon, as described in section 804 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1321; D.C. Official Code § 22-402);</text>
+                <text>Assault with intent to commit mayhem or with a dangerous weapon, as described in <code-cite doc="D.C. Code" path="§22-402">section 804 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1321; D.C. Official Code § 22-402)</code-cite>;</text>
               </para>
               <para>
                 <num>(E)</num>
-                <text>Assault with intent to commit any offense, as described in section 805 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1322; D.C. Official Code § 22-403);</text>
+                <text>Assault with intent to commit any offense, as described in <code-cite doc="D.C. Code" path="§22-403">section 805 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1322; D.C. Official Code § 22-403)</code-cite>;</text>
               </para>
               <para>
                 <num>(F)</num>
-                <text>Assault or threatened assault in a menacing manner; stalking, as described in section 806 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1322; D.C. Official Code § 22-404);</text>
+                <text>Assault or threatened assault in a menacing manner; stalking, as described in <code-cite doc="D.C. Code" path="§44-404">section 806 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1322; D.C. Official Code § 22-404)</code-cite>;</text>
               </para>
               <para>
                 <num>(G)</num>
-                <text>Aggravated assault, as described in section 806a of An Act To establish a code of law for the District of Columbia, effective August 20, 1994 (D.C. Law 10-151; D.C. Official Code § 22-404.01);</text>
+                <text>Aggravated assault, as described in <code-cite doc="D.C. Code" path="§22-404.01">section 806a of An Act To establish a code of law for the District of Columbia, effective August 20, 1994 (D.C. Law 10-151; D.C. Official Code § 22-404.01)</code-cite>;</text>
               </para>
               <para>
                 <num>(H)</num>
-                <text>Assault on member of police force, campus or university special police, or fire department, as described in section 432 of the Revised Statutes of the District of Columbia (D.C. Official Code § 22-405);</text>
+                <text>Assault on member of police force, campus or university special police, or fire department, as described in <code-cite doc="D.C. Code" path="§22-405">section 432 of the Revised Statutes of the District of Columbia (D.C. Official Code § 22-405)</code-cite>;</text>
               </para>
               <para>
                 <num>(I)</num>
-                <text>Burglary, as described in section 823 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1323; D.C. Official Code § 22-801);</text>
+                <text>Burglary, as described in <code-cite doc="D.C. Code" path="§22-801">section 823 of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1323; D.C. Official Code § 22-801)</code-cite>;</text>
               </para>
               <para>
                 <num>(J)</num>
-                <text>Carjacking, as described in section 811a(a)(1) of An Act To establish a code of law for the District of Columbia, effective May 8, 1993 (D.C. Law 9-270; D.C. Official Code § 22-2803(a)(1)); or</text>
+                <text>Carjacking, as described in <code-cite doc="D.C. Code" path="§22-2803|(a)|(1)">section 811a(a)(1) of An Act To establish a code of law for the District of Columbia, effective May 8, 1993 (D.C. Law 9-270; D.C. Official Code § 22-2803(a)(1))</code-cite>; or</text>
               </para>
               <para>
                 <num>(K)</num>
-                <text>Armed carjacking, as described in section 811a(b)(1) of An Act To establish a code of law for the District of Columbia, effective May 8, 1993 (D.C. Law 9-270; D.C. Official Code § 22-2803(b)(1));</text>
+                <text>Armed carjacking, as described in <code-cite doc="D.C. Code" path="§22-2803|(b)|(1)">section 811a(b)(1) of An Act To establish a code of law for the District of Columbia, effective May 8, 1993 (D.C. Law 9-270; D.C. Official Code § 22-2803(b)(1))</code-cite>;</text>
               </para>
               <para>
                 <num>(L)</num>
-                <text>Criminal abuse of a vulnerable adult or elderly person, as described in section 203 of the Senior Protection Amendment Act of 2000, effective June 8, 2001 (D.C. Law 13-301; D.C. Official Code § 22-933);</text>
+                <text>Criminal abuse of a vulnerable adult or elderly person, as described in <code-cite doc="D.C. Code" path="§22-933">section 203 of the Senior Protection Amendment Act of 2000, effective June 8, 2001 (D.C. Law 13-301; D.C. Official Code § 22-933)</code-cite>;</text>
               </para>
               <para>
                 <num>(M)</num>
@@ -459,6 +475,7 @@
           <text>A new paragraph (8A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(8)"/>
               <num>(8A)</num>
               <text>"Intimate partner" means a person:</text>
               <para>
@@ -481,7 +498,7 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(9)">
           <num>(7)</num>
           <text>Paragraph (9) is amended as follows:</text>
           <para>
