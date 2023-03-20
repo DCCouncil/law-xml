@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-778">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-284">
+  <num type="law">24-284</num>
   <num type="act">24-778</num>
   <num type="bill">24-63</num>
   <heading type="short">Second Chance Amendment Act of 2022</heading>
   <heading type="long">To amend Chapter 8 of Title 16 of the District of Columbia Official Code to permit automatic expungement and expungement by motion for certain criminal records, to permit automatic sealing and sealing by motion for certain criminal records, to state the effect of expungement and sealing, to clarify access to sealed or expunged criminal records, and to provide for retroactive application; and to prohibit criminal history providers from reporting criminal history information related to records that have been sealed, expunged, or set aside, to authorize the Office of Human Rights to adjudicate complaints, and to provide penalties.</heading>
   <meta>
     <introduced>2021-02-02</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/46489/Signed_Act/B24-0063-Signed_Act.pdf">D.C. Law 24-284</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/46489/Signed_Act/B24-0063-Signed_Act.pdf">D.C. Act 24-778</citation>
       <citation type="register">70 DCR 913</citation>
     </citations>
@@ -23,6 +25,7 @@
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Second Chance Amendment Act of 2022".</text>
   <container>
+    <!-- add links when funded -->
     <prefix>TITLE</prefix>
     <num>I</num>
     <heading>CRIMINAL RECORD SEALING AND EXPUNGEMENT.</heading>
@@ -41,6 +44,10 @@
             <prefix>CHAPTER</prefix>
             <num>8</num>
             <heading>CRIMINAL RECORD SEALING AND EXPUNGEMENT.</heading>
+            <codify:find-replace doc="D.C. Code" path="16|8|heading" count="1">
+              <find>Sealing</find>
+              <replace>Sealing and Expungement</replace>
+            </codify:find-replace>
             <toc>
               <text>Sec.</text>
               <section>
@@ -81,6 +88,7 @@
               </section>
             </toc>
             <section>
+              <codify:replace doc="D.C. Code" path="§16-801"/>
               <prefix>§</prefix>
               <num>16-801</num>
               <heading proof="needed">Definitions.</heading>
@@ -140,8 +148,10 @@
                   </para>
                 </para>
               </para>
+              <codify:not-funded-anno doc="D.C. Code" path="§16-801" applicability-path="§301" display-template=""/>
             </section>
             <section>
+              <codify:replace doc="D.C. Code" path="§16-802"/>
               <prefix>§</prefix>
               <num>16-802</num>
               <heading proof="needed">Automatic expungement of criminal records.</heading>
@@ -197,8 +207,10 @@
                 <num>(b)</num>
                 <text>Eligible criminal records and court proceedings related to citations, arrests, charges, and convictions shall be expunged pursuant to subsection (a) of this section by January 1, 2025, or within 90 days after termination of the case by the prosecutor or final disposition, whichever is later.</text>
               </para>
+              <codify:not-funded-anno doc="D.C. Code" path="§16-802" applicability-path="§301" display-template=""/>
             </section>
             <section>
+              <codify:replace doc="D.C. Code" path="§16-803"/>
               <prefix>§</prefix>
               <num>16-803</num>
               <heading proof="needed">Expungement of criminal records by motion.</heading>
@@ -321,8 +333,10 @@
                 <num>(f)</num>
                 <text>Eligible criminal records and court proceedings related to citations, arrests, and charges shall be expunged pursuant to subsection (a) of this section within 90 days after a motion is granted.</text>
               </para>
+              <codify:not-funded-anno doc="D.C. Code" path="§16-803" applicability-path="§301" display-template=""/>
             </section>
             <section>
+              <codify:replace doc="D.C. Code" path="§16-804"/>
               <prefix>§</prefix>
               <num>16-804</num>
               <heading proof="needed">Effect of expungement of criminal records.</heading>
@@ -453,8 +467,10 @@
                   <text>A person, upon making inquiry of the Court concerning the existence of criminal records involving an individual, shall be entitled to rely, for any purpose under the law, upon the clerk's response that no records are available with respect to any issue about that person's knowledge of the individual's record.</text>
                 </para>
               </para>
+              <codify:not-funded-anno doc="D.C. Code" path="§16-804" applicability-path="§301" display-template=""/>
             </section>
             <section>
+              <codify:replace doc="D.C. Code" path="§16-805"/>
               <prefix>§</prefix>
               <num>16-805</num>
               <heading proof="needed">Automatic sealing of criminal records.</heading>
@@ -562,8 +578,10 @@
                   <text>Related to citations, arrests, charges, and convictions sealed pursuant to subsection (a)(2) of this section shall be sealed by January 1, 2027, or within 90 days after the expiration of the waiting period, whichever is later.</text>
                 </para>
               </para>
+              <codify:not-funded-anno doc="D.C. Code" path="§16-805" applicability-path="§301" display-template=""/>
             </section>
             <section>
+              <codify:replace doc="D.C. Code" path="§16-806"/>
               <prefix>§</prefix>
               <num>16-806</num>
               <heading proof="needed">Sealing of criminal records by motion.</heading>
@@ -857,8 +875,10 @@
                 <num>(j)</num>
                 <text>Criminal records and court proceedings related to citations, arrests, charges, and convictions sealed pursuant to subsection (a) of this section shall be sealed within 90 days after a motion to seal is granted.</text>
               </para>
+              <codify:not-funded-anno doc="D.C. Code" path="§16-806" applicability-path="§301" display-template=""/>
             </section>
             <section>
+              <codify:replace doc="D.C. Code" path="§16-807"/>
               <prefix>§</prefix>
               <num>16-807</num>
               <heading proof="needed">Effect of sealing of criminal records.</heading>
@@ -1029,18 +1049,23 @@
                   <text>A person, upon making inquiry of the Court concerning the existence of criminal records involving an individual, shall be entitled to rely, for any purpose under the law, upon the clerk's response that no records are available with respect to any issue about that person's knowledge of the individual's record.</text>
                 </para>
               </para>
+              <codify:not-funded-anno doc="D.C. Code" path="§16-807" applicability-path="§301" display-template=""/>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="16|8"/>
               <prefix>§</prefix>
               <num>16-808</num>
               <heading proof="needed">Applicability.</heading>
               <text>The sealing and expungement relief available under this chapter shall apply retroactively.</text>
+              <codify:not-funded-anno doc="D.C. Code" path="§16-808" applicability-path="§301" action="creation of" display-template=""/>
             </section>
             <section>
+              <codify:insert doc="D.C. Code" path="16|8"/>
               <prefix>§</prefix>
               <num>16-809</num>
               <heading proof="needed">Savings provision.</heading>
               <text>This chapter shall not supersede any other provision of the District of Columbia Official Code providing for the expungement, sealing, or setting aside of criminal citations, arrests, charges, or convictions.</text>
+              <codify:not-funded-anno doc="D.C. Code" path="§16-809" applicability-path="§301" action="creation of" display-template=""/>
             </section>
           </container>
         </include>
@@ -1048,11 +1073,19 @@
       </para>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="2" after="16" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>16A</num>
+      <heading>Criminal History Reports.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>II</num>
     <heading>CRIMINAL HISTORY REPORTS</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="2|16A" num-value="2-1651"/>
       <num>201</num>
       <heading proof="needed">Definitions.</heading>
       <para>
@@ -1071,8 +1104,10 @@
           <text>"Government agency" means any office, department, division, board, commission, or other agency of the District government, the government of the United States, or the government of another jurisdiction within the United States.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§2-1651" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="2|16A" num-value="2-1652"/>
       <num>202</num>
       <heading proof="needed">Restrictions on criminal history reports.</heading>
       <para>
@@ -1115,8 +1150,10 @@
           </para>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§2-1652" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="2|16A" num-value="2-1653"/>
       <num>203</num>
       <heading proof="needed">Filing a complaint with the Office of Human Rights; exclusive remedy.</heading>
       <para>
@@ -1127,8 +1164,10 @@
         <num>(b)</num>
         <text>The administrative remedies in subsection (a) of this section are exclusive. A person claiming to be aggrieved by a violation of this title shall not have a private cause of action in any court based on a violation of this title.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§2-1653" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="2|16A" num-value="2-1654"/>
       <num>204</num>
       <heading proof="needed">Penalties.</heading>
       <para>
@@ -1147,6 +1186,7 @@
         <num>(b)</num>
         <text>For any violation of this title that occurs within 6 months after the applicability date of the Second Chance Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-63), the Commission on Human Rights shall issue warnings and orders to correct instead of imposing a penalty pursuant to subsection (a) of this section.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§2-1654" applicability-path="§301" action="creation of" display-template=""/>
     </section>
   </container>
   <container>
@@ -1159,6 +1199,7 @@
       <para>
         <num>(a)</num>
         <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+        <codify:applicability doc="D.C. Law 24-284" date="notfunded" history="false" display-template=""/>
       </para>
       <para>
         <num>(b)</num>

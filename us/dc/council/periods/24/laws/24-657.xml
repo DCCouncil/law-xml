@@ -501,39 +501,52 @@
         <para codify:path="(9)">
           <num>(7)</num>
           <text>Paragraph (9) is amended as follows:</text>
-          <para>
+          <para codify:path="(C)">
             <num>(A)</num>
             <text>Subparagraph (C) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(D)">
             <num>(B)</num>
             <text>Subparagraph (D) is amended as follows:</text>
-            <para>
+            <para codify:path="(ii)">
               <num>(i)</num>
               <text>Sub-subparagraph (ii) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+              <codify:find-replace count="1">
+                <find>; or</find>
+                <replace>;</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(iii)">
               <num>(ii)</num>
               <text>Sub-subparagraph (iii) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+              <codify:find-replace count="1">
+                <find>.</find>
+                <replace>; or</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(iii)</num>
               <text>A new sub-subparagraph (iv) is added to read as follows:</text>
               <include lvl="3">
                 <para>
+                  <codify:insert/>
                   <num>(iv)</num>
                   <text>Individual licensed by the Board of Professional Counseling as a:</text>
                   <para>
                     <num>(I)</num>
-                    <text>Professional counselor, as described in section 710(a) of the District of Columbia Health Occupations Revision Act of 1985, effective July 22, 1992 (D.C. Law 9-126; D.C. Official Code § 3-1207.10(a));</text>
+                    <text>Professional counselor, as described in <code-cite doc="D.C. Code" path="§3-1207.10|(a)">section 710(a) of the District of Columbia Health Occupations Revision Act of 1985, effective July 22, 1992 (D.C. Law 9-126; D.C. Official Code § 3-1207.10(a))</code-cite>;</text>
                   </para>
                   <para>
                     <num>(II)</num>
-                    <text>Professional counselor, as described in section 710(c) of the District of Columbia Health Occupations Revision Act of 1985, effective July 22, 1992 (D.C. Law 9-126; D.C. Official Code § 3-1207.10(c)); or</text>
+                    <text>Professional counselor, as described in <code-cite doc="D.C. Code" path="§3-1207.10|(c)">section 710(c) of the District of Columbia Health Occupations Revision Act of 1985, effective July 22, 1992 (D.C. Law 9-126; D.C. Official Code § 3-1207.10(c))</code-cite>; or</text>
                   </para>
                   <para>
                     <num>(III)</num>
-                    <text>Graduate professional counselor, as described in in section 710(b) of the District of Columbia Health Occupations Revision Act of 1985, effective July 22, 1992 (D.C. Law 9-126; D.C. Official Code § 3-1207.10(b)); and</text>
+                    <text>Graduate professional counselor, as described <span codify:value="[in]">in in</span> <code-cite doc="D.C. Code" path="§3-1207.10|(b)">section 710(b) of the District of Columbia Health Occupations Revision Act of 1985, effective July 22, 1992 (D.C. Law 9-126; D.C. Official Code § 3-1207.10(b))</code-cite>; and</text>
                   </para>
                 </para>
               </include>
@@ -545,6 +558,7 @@
             <text>A new subparagraph (E) is added to read as follow:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(E)</num>
                 <text>Veterinary expenses in claims where the victim's animal was a victim of cruelty to animals, as described in section 1 of Chapter 106 of the Acts of the Legislative Assembly, adopted August 23, 1871 (D.C. Official Code § 22-1001).</text>
               </para>
@@ -557,73 +571,112 @@
           <text>A new paragraph (9A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(9)"/>
               <num>(9A)</num>
               <text>"Minor" means a person under 18 years of age.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(13)|(A)">
           <num>(9)</num>
           <text>Paragraph (13)(A) is amended by striking the phrase "step, and adopted" and inserting the phrase "step, foster, and adopted" in its place.</text>
+          <codify:find-replace count="1">
+            <find>step, and adopted</find>
+            <replace>step, foster, and adopted</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(14)">
           <num>(10)</num>
           <text>Paragraph (14) is amended as follows:</text>
-          <para>
+          <para codify:path="text">
             <num>(A)</num>
             <text>The lead-in language is amended by striking the phrase "the District of Columbia" wherever it appears and inserting the phrase "the District" in its place.</text>
+            <codify:find-replace count="4">
+              <find>the District of Columbia</find>
+              <replace>the District</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(C)">
             <num>(B)</num>
             <text>Subparagraph (C) is amended by striking the semicolon and inserting the phrase "; or" in its place.</text>
+            <codify:find-replace count="1">
+              <find>;</find>
+              <replace>; or</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(D)">
             <num>(C)</num>
             <text>Subparagraph (D) is amended by striking the phrase "; or" and inserting a period in its place.</text>
+            <codify:find-replace count="1">
+              <find>; or</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(E)">
             <num>(D)</num>
             <text>Subparagraph (E) is repealed.</text>
+            <codify:repeal/>
           </para>
         </para>
       </para>
-      <para>
+      <para codify:path="§4-502">
         <num>(b)</num>
         <text>Section 3 (D.C. Official Code § 4-502) is amended by striking the phrase "claims of victims of violent crime" and inserting the phrase "claims of victims and secondary victims" in its place.</text>
+        <codify:find-replace count="1">
+          <find>claims of victims of violent crime</find>
+          <replace>claims of victims and secondary victims</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§4-503">
         <num>(c)</num>
         <text>Section 4 (D.C. Official Code § 4-503) is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(1)</num>
           <text>Subsection (a) is amended by striking the phrase "the Superior Court of the District of Columbia ("Court")" and inserting the phrase "the Court" in its place.</text>
+          <codify:find-replace count="1">
+            <find>the Superior Court of the District of Columbia ("Court")</find>
+            <replace>the Court</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(2)</num>
           <text>Subsection (c) is amended as follows:</text>
-          <para>
+          <para codify:path="(6)">
             <num>(A)</num>
             <text>Paragraph (6) is amended by striking the phrase "the Crime Victims Compensation Appeals Board ("Board"), the District of Columbia Metropolitan Police Department, the U.S. Attorney's Office, the Corporation Counsel of the District of Columbia" and inserting the phrase "the Board, the Metropolitan Police Department, the Office of the Attorney General for the District of Columbia, the Office of the United States Attorney for the District of Columbia" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the Crime Victims Compensation Appeals Board ("Board"), the District of Columbia Metropolitan Police Department, the U.S. Attorney's Office, the Corporation Counsel of the District of Columbia</find>
+              <replace>the Board, the Metropolitan Police Department, the Office of the Attorney General for the District of Columbia, the Office of the United States Attorney for the District of Columbia</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(7)">
             <num>(B)</num>
             <text>Paragraph (7) is amended by striking the phrase "both English" and inserting the phrase "at least both English" in its place.</text>
+            <codify:find-replace count="1">
+              <find>both English</find>
+              <replace>at least both English</replace>
+            </codify:find-replace>
           </para>
         </para>
       </para>
-      <para>
+      <para codify:path="§4-504">
         <num>(d)</num>
         <text>Section 5 (D.C. Official Code § 4-504) is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(1)</num>
           <text>Subsection (a) is amended by striking the phrase "Commission ("Commission") is established" and inserting the phrase "Commission is established" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Commission ("Commission") is established</find>
+            <replace>Commission is established</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(2)</num>
           <text>Subsection (b) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(b)</num>
               <text>The Commission's members shall:</text>
               <para>
@@ -646,39 +699,60 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(3)</num>
           <text>Subsection (c) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(A)</num>
             <text>Paragraph (1) is amended by striking the phrase "Committee on the Judiciary of the Council of the District of Columbia" and inserting the phrase "Council committee with jurisdiction over victims' compensation" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Committee on the Judiciary of the Council of the District of Columbia</find>
+              <replace>Council committee with jurisdiction over victims' compensation</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(2)">
             <num>(B)</num>
             <text>Paragraph (2) is amended by striking the phrase "the Corporation Counsel" and inserting the phrase "the Attorney General for the District of Columbia" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the Corporation Counsel</find>
+              <replace>the Attorney General for the District of Columbia</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(C)</num>
             <text>Paragraph (3) is amended by striking the phrase "U.S. Attorney's Office" and inserting the phrase "Office of the United States Attorney for the District of Columbia" in its place.</text>
+            <codify:find-replace count="1">
+              <find>U.S. Attorney's Office</find>
+              <replace>Office of the United States Attorney for the District of Columbia</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(7)">
             <num>(D)</num>
             <text>Paragraph (7) is amended by striking the phrase "District of Columbia Department of Corrections" and inserting the phrase "Department of Corrections" in its place.</text>
+            <codify:find-replace count="1">
+              <find>District of Columbia Department of Corrections</find>
+              <replace>Department of Corrections</replace>
+            </codify:find-replace>
           </para>
         </para>
       </para>
-      <para>
+      <para codify:path="§4-505|(a)">
         <num>(e)</num>
         <text>Section 6(a) (D.C. Official Code § 4-505(a)) is amended by striking the phrase "Board ("Board") is" and inserting the phrase "Board is" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Board ("Board") is</find>
+          <replace>Board is</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§4-506">
         <num>(f)</num>
         <text>Section 7 (D.C. Official Code § 4-506) is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(1)</num>
           <text>Subsection (a) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(a)</num>
               <text>A claimant is eligible to receive compensation under this act if:</text>
               <para>
@@ -714,6 +788,7 @@
           <text>New subsections (a-1) and (a-2) are added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(a)"/>
               <num>(a-1)</num>
               <para>
                 <num>(1)</num>
@@ -725,6 +800,7 @@
               </para>
             </para>
             <para>
+              <codify:insert after="(a-1)"/>
               <num>(a-2)</num>
               <para>
                 <num>(1)</num>
@@ -746,11 +822,12 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(3)</num>
           <text>Subsection (c) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(c)</num>
               <text>Notwithstanding subsection (a)(2) of this section, the victim may satisfy the reporting requirement by:</text>
               <para>
@@ -818,6 +895,7 @@
           <text>New subsections (e) and (f) are added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(e)</num>
               <text>Any written requests for information release issued to providers of medical services to victims or secondary victims, including to hospitals, physicians, and mental health clinics, shall:</text>
               <para>
@@ -854,6 +932,7 @@
               </para>
             </para>
             <para>
+              <codify:insert/>
               <num>(f)</num>
               <text>In evaluating the claimant's application, the Program shall not require a victim or secondary victim to affirmatively and fully waive the physician-patient privilege as a condition to claiming such compensation.</text>
             </para>
@@ -861,18 +940,23 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§4-507">
         <num>(g)</num>
         <text>Section 8 (D.C. Official Code § 4-507) is amended as follows:</text>
-        <para>
+        <para codify:path="(a-1)">
           <num>(1)</num>
           <text>Subsection (a-1) is amended by striking the phrase "himself or herself of" and inserting the phrase "themselves of" in its place.</text>
+          <codify:find-replace count="1">
+            <find>himself or herself of</find>
+            <replace>themselves of</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(2)</num>
           <text>Subsection (b) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(b)</num>
               <text>The Court shall not award compensation in an amount exceeding $25,000 per victimization; except, that:</text>
               <para>
@@ -888,11 +972,12 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§4-508|(b)|(2)">
         <num>(h)</num>
         <text>Section 9(b)(2) (D.C. Official Code § 4-508(b)(2)) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(2)</num>
             <para>
               <num>(A)</num>
@@ -906,86 +991,115 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§4-509">
         <num>(i)</num>
         <text>Section 10 (D.C. Official Code § 4-509) is amended as follows:</text>
-        <para>
+        <para codify:path="(c)">
           <num>(1)</num>
           <text>Subsection (c) is amended by striking the phrase "The District of Columbia" both times it appears and inserting the phrase "The District" in its place.</text>
+          <codify:find-replace count="2">
+            <find>The District of Columbia</find>
+            <replace>The District</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(2)</num>
           <text>Subsection (d) is amended by striking the phrase "Corporation Counsel of the District of Columbia if a lawsuit for restitution or damages is instituted. The District of Columbia" and inserting the phrase "Office of the Attorney General for the District of Columbia if a lawsuit for restitution or damages is instituted. The District" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Corporation Counsel of the District of Columbia if a lawsuit for restitution or damages is instituted. The District of Columbia</find>
+            <replace>Office of the Attorney General for the District of Columbia if a lawsuit for restitution or damages is instituted. The District</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§4-512">
         <num>(j)</num>
         <text>Section 13 (D.C. Official Code § 4-512) is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(1)</num>
           <text>Subsection (a) is amended by striking the phrase "or by electronic mail" and inserting the phrase "online, or by electronic mail" in its place.</text>
+          <codify:find-replace count="1">
+            <find>or by electronic mail</find>
+            <replace>online, or by electronic mail</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(2)</num>
           <text>Subsection (b) is amended by striking the phrase "claimant by first class mail or electronic mail, along" and inserting the phrase "claimant, along" in its place.</text>
+          <codify:find-replace count="1">
+            <find>claimant by first class mail or electronic mail, along</find>
+            <replace>claimant, along</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(3)</num>
           <text>Subsection (c) is amended by striking the phrase "claimant by first class mail or electronic mail, along" and inserting the phrase "claimant, along" in its place.</text>
+          <codify:find-replace count="1">
+            <find>claimant by first class mail or electronic mail, along</find>
+            <replace>claimant, along</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§4-515.01">
         <num>(k)</num>
         <text>Section 16a (D.C. Official Code § 4-515.01) is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(1)</num>
           <text>Subsection (a) is amended by striking the phrase "Services." and inserting the phrase "Services and Justice Grants." in its place.</text>
+          <codify:find-replace count="1">
+            <find>Services.</find>
+            <replace>Services and Justice Grants.</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(c)">
           <num>(2)</num>
           <text>Subsection (c) is amended by striking the phrase "than 5% of" and inserting the phrase "than 8% of" in its place.</text>
+          <codify:find-replace count="1">
+            <find>than 5% of</find>
+            <replace>than 8% of</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§4-516|(a)">
         <num>(l)</num>
         <text>Section 17(a) (D.C. Code Official Code § 4-516(a)) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <para>
               <num>(1)</num>
               <text>In addition to and separate from punishment imposed, an assessment of $100 for each violation of the following crimes, an assessment of between $50 and $250 for other serious traffic or misdemeanor offenses, and an assessment of between $100 and $5,000 for each felony offense shall be imposed upon each person convicted of or pleading guilty or nolo contendere to the offense in the Court or any other court in which the offense charged is:</text>
               <para>
                 <num>(A)</num>
-                <text>Leaving after colliding, as defined in section 10c of District of Columbia Traffic Act, approved March 3, 1925 (43 Stat. 1119; D.C. Official Code § 50-2201.05c);</text>
+                <text>Leaving after colliding, as defined in <code-cite doc="D.C. Code" path="§50-2201.05c">section 10c of District of Columbia Traffic Act, approved March 3, 1925 (43 Stat. 1119; D.C. Official Code § 50-2201.05c)</code-cite>;</text>
               </para>
               <para>
                 <num>(B)</num>
-                <text>Object falling or flying from vehicle, as defined in section 10d of District of Columbia Traffic Act, approved March 3, 1925 (43 Stat. 1119; D.C. Official Code § 50-2201.05d);</text>
+                <text>Object falling or flying from vehicle, as defined in <code-cite doc="D.C. Code" path="§50-2201.05d">section 10d of District of Columbia Traffic Act, approved March 3, 1925 (43 Stat. 1119; D.C. Official Code § 50-2201.05d)</code-cite>;</text>
               </para>
               <para>
                 <num>(C)</num>
-                <text>Driving under the influence (DUI) of alcohol or a drug, as defined in section 3b of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.11);</text>
+                <text>Driving under the influence (DUI) of alcohol or a drug, as defined in <code-cite doc="D.C. Code" path="§50-2206.11">section 3b of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.11)</code-cite>;</text>
               </para>
               <para>
                 <num>(D)</num>
-                <text>Driving under the influence of alcohol or a drug (commercial vehicle), as defined in section 3c of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.12);</text>
+                <text>Driving under the influence of alcohol or a drug (commercial vehicle), as defined in <code-cite doc="D.C. Code" path="§50-2206.12">section 3c of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.12)</code-cite>;</text>
               </para>
               <para>
                 <num>(E)</num>
-                <text>Operating a vehicle while impaired, as defined in section 3e of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.14);</text>
+                <text>Operating a vehicle while impaired, as defined in <code-cite doc="D.C. Code" path="§50-2206.14">section 3e of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.14)</code-cite>;</text>
               </para>
               <para>
                 <num>(F)</num>
-                <text>Operating under the influence of alcohol or a drug (horse-drawn vehicle), as defined in section 3g of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.16);</text>
+                <text>Operating under the influence of alcohol or a drug<code-cite doc="D.C. Code" path="§50-2206.16"> (horse-drawn vehicle), as defined in section 3g of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.16)</code-cite>;</text>
               </para>
               <para>
                 <num>(G)</num>
-                <text>Operating under the influence of alcohol or a drug (watercraft), as defined in section 3j of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.31); or</text>
+                <text>Operating under the influence of alcohol or a drug (watercraft), as defined in <code-cite doc="D.C. Code" path="§50-2206.31">section 3j of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.31)</code-cite>; or</text>
               </para>
               <para>
                 <num>(H)</num>
-                <text>Operating a watercraft while impaired, as defined in section 3l of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.33).</text>
+                <text>Operating a watercraft while impaired, as defined in <code-cite doc="D.C. Code" path="§50-2206.33">section 3l of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-145; D.C. Official Code § 50-2206.33)</code-cite>.</text>
               </para>
             </para>
             <para>
@@ -1001,39 +1115,49 @@
         <aftertext>.</aftertext>
       </para>
     </section>
-    <section>
+    <section codify:doc="D.C. Code">
       <num>103</num>
       <text>The Sexual Assault Victims' Rights Act of 2014, effective November 20, 2014 (D.C. Law 20-139; D.C. Official Code § 4-561.01 <em>et seq.</em>), is amended as follows:</text>
-      <para>
+      <para codify:path="§4-561.04">
         <num>(a)</num>
         <text>Section 204 (D.C. Official Code § 4-561.04) is amended by adding a new subsection (e) to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(e)</num>
             <text>Once retained by OVSJG, the work product, reports, and recommendations of the independent expert consultant shall remain in the exclusive control of the independent expert consultant until the draft version of the independent expert consultant's report is provided to entities for review as described in section 206(a)(2)(A).</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§4-561.06|(a)">
         <num>(b)</num>
         <text>Section 206(a) (D.C. Official Code § 4-561.06(a)) is amended as followed:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(1)</num>
           <text>Paragraph (1) is amended as follows:</text>
-          <para>
+          <para codify:path="(A)|(v)">
             <num>(A)</num>
             <text>Subparagraph (A)(v) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(B)">
             <num>(B)</num>
             <text>Subparagraph (B) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(C)</num>
             <text>A new subparagraph (C) is amended to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(C)</num>
                 <text>Review any changes to the sexual assault response continuum of care resulting from the Sexual Assault Victims' Rights Act of 2014, effective November 20, 2014 (D.C. Law 20-139; 61 DCR 5913), and the Sexual Assault Victims' Rights Amendment Act of 2019, effective March 3, 2020 (D.C. Law 23-57; 66 DCR 15914), including the legal obligations imposed on entities participating in the sexual assault response continuum of care and the service delivery models used within the sexual assault response continuum of care.</text>
               </para>
@@ -1041,35 +1165,52 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(2)</num>
           <text>Paragraph (2) is amended as follows:</text>
-          <para>
+          <para codify:path="(A)">
             <num>(A)</num>
             <text>Subparagraph (A) is amended by striking the phrase "the Chief of Police for" and inserting in its place the phrase "the Mayor, the City Administrator, the Council, the Chief of Police, and the SART for" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the Chief of Police for</find>
+              <replace>the Mayor, the City Administrator, the Council, the Chief of Police, and the SART for</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(B)">
             <num>(B)</num>
             <text>Subparagraph (B) is amended by striking the phrase "of Police shall" and inserting the phrase "of Police and the SART shall" in its place.</text>
+            <codify:find-replace count="1">
+              <find>of Police shall</find>
+              <replace>of Police and the SART shall</replace>
+            </codify:find-replace>
           </para>
         </para>
       </para>
-      <para>
+      <para codify:path="§4-561.13|(a)">
         <num>(c)</num>
         <text>Section 213(a) (D.C. Official Code § 4-561.13(a)) is amended as follows:</text>
-        <para>
+        <para codify:path="(4)">
           <num>(1)</num>
           <text>Paragraph (4) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(5)|(F)">
           <num>(2)</num>
           <text>Paragraph (5)(F) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(3)</num>
           <text>A new paragraph (6) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(6)</num>
               <text>After reviewing the feedback and recommendations from the Case Review Subcommittee and national best practices, establish minimum standards of care for entities participating in the continuum of services for sexual assault victims, in consultation with the independent expert consultant.</text>
             </para>
@@ -1081,12 +1222,13 @@
     <section>
       <num>104</num>
       <text>An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.01 <em>et seq</em>.), is amended as follows:</text>
-      <para>
+      <para codify:path="§4-1321.02">
         <num>(a)</num>
         <text>Section 2 (D.C. Official Code § 4-1321.02) is amended to read as follows:</text>
         <include>
           <section>
-            <num>2</num>
+            <codify:replace/>
+            <num codify:value="4-1321.02">2</num>
             <heading proof="needed">Mandatory reporters.</heading>
             <para>
               <num>(a)</num>
@@ -1256,6 +1398,7 @@
         <text>A new section 8 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="4|13|II" num-value="4-1321.08"/>
             <num>8</num>
             <heading proof="needed">Training for mandatory reporters.</heading>
             <para>
@@ -1302,15 +1445,20 @@
     <section>
       <num>105</num>
       <text>Section 101(11)(E) of the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (D.C. Law 2-136; D.C. Official Code § 7-1201.01(11)(E)), is amended by striking the phrase "A rape crisis or sexual abuse counselor who has undergone at least 40 hours of training and is" and inserting the phrase "A sexual assault counselor, as that term is defined in D.C. Official Code § 23-1907(10), who is" in its place.</text>
+      <codify:find-replace path="§7-1201.01|(11)|(E)" count="1">
+        <find>A rape crisis or sexual abuse counselor who has undergone at least 40 hours of training and is</find>
+        <replace>A sexual assault counselor, as that term is defined in D.C. Official Code § 23-1907(10), who is</replace>
+      </codify:find-replace>
     </section>
-    <section>
+    <section codify:path="§7-2502.03">
       <num>106</num>
       <text>Section 203 of the Firearms Control Regulations Act of 1975, effective September 24, 1976 (D.C. Law 1-85; D.C. Official Code § 7-2502.03), is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(6)|(B)">
         <num>(a)</num>
         <text>Subsection (a)(6)(B) is amended to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:replace/>
             <num>(B)</num>
             <text>Subparagraph (A) of this paragraph shall not apply if:</text>
             <para>
@@ -1325,9 +1473,13 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(f)|(1)">
         <num>(b)</num>
         <text>Subsection (f)(1) is amended by striking the phrase ", or" and inserting the phrase ", 18 U.S.C. § 922(d)(4), or" in its place.</text>
+        <codify:find-replace count="1">
+          <find>, or</find>
+          <replace>, 18 U.S.C. § 922(d)(4), or</replace>
+        </codify:find-replace>
       </para>
     </section>
     <section>
@@ -1338,6 +1490,7 @@
         <text>Section 14-307 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace doc="D.C. Code" path="§14-307"/>
             <prefix>§</prefix>
             <num>14-307</num>
             <heading proof="needed">Confidential information.</heading>
@@ -1357,11 +1510,11 @@
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>A sexual act prohibited by Chapter 30 of Title 22; and</text>
+                  <text>A sexual act prohibited by <cite doc="D.C. Code" path="22|30">Chapter 30 of Title 22</cite>; and</text>
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Sexual contact prohibited by Chapter 30 of Title 22.</text>
+                  <text>Sexual contact prohibited by <cite doc="D.C. Code" path="22|30">Chapter 30 of Title 22</cite>.</text>
                 </para>
               </para>
             </para>
@@ -1378,27 +1531,27 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>Mental health professionals, as that term is defined in § 7-1201.01(11);</text>
+                <text>Mental health professionals, as that term is defined in <cite doc="D.C. Code" path="§7-1201.01|(11)">§ 7-1201.01(11)</cite>;</text>
               </para>
               <para>
                 <num>(4)</num>
-                <text>Domestic violence counselors, as that term is defined in § 14-310(a)(2);</text>
+                <text>Domestic violence counselors, as that term is defined in <cite doc="D.C. Code" path="§14-310|(a)|(2)">§ 14-310(a)(2)</cite>;</text>
               </para>
               <para>
                 <num>(5)</num>
-                <text>Human trafficking counselors, as that term is defined in § 14-311(a)(2);</text>
+                <text>Human trafficking counselors, as that term is defined in <cite doc="D.C. Code" path="§14-311|(a)|(2)">§ 14-311(a)(2)</cite>;</text>
               </para>
               <para>
                 <num>(6)</num>
-                <text>Sexual assault counselors, as that term is defined in § 23-1907(10);</text>
+                <text>Sexual assault counselors, as that term is defined in <cite doc="D.C. Code" path="§23-1907|(10)">§ 23-1907(10)</cite>;</text>
               </para>
               <para>
                 <num>(7)</num>
-                <text>HVIP members, as that term is defined in § 14-313(a)(4); and</text>
+                <text>HVIP members, as that term is defined in <cite doc="D.C. Code" path="§14-313|(a)|(4)">§ 14-313(a)(4)</cite>; and</text>
               </para>
               <para>
                 <num>(8)</num>
-                <text>Crime victim counselors, as that term is defined in § 14-314(a)(4).</text>
+                <text>Crime victim counselors, as that term is defined in <cite doc="D.C. Code" path="§14-314|(a)|(4)">§ 14-314(a)(4)</cite>.</text>
               </para>
             </para>
             <para>
@@ -1409,7 +1562,7 @@
                 <text>In a grand jury, criminal, delinquency, family, or domestic violence proceeding, where:</text>
                 <para>
                   <num>(A)</num>
-                  <text>A person is targeted for or charged with causing the death of or injuring a human being, or with attempting or threatening to kill or injure a human being, or a report has been filed with the police pursuant to § 7-2601; and</text>
+                  <text>A person is targeted for or charged with causing the death of or injuring a human being, or with attempting or threatening to kill or injure a human being, or a report has been filed with the police pursuant to <cite doc="D.C. Code" path="§7-2601">§ 7-2601</cite>; and</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -1437,7 +1590,7 @@
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>An elderly person or vulnerable adult, as those terms are defined in § 22-932(3) and (5)); or</text>
+                  <text>An elderly person or vulnerable adult, as those terms are defined in <cite doc="D.C. Code" path="§22-932|(3)">§ 22-932(3)</cite> and <cite doc="D.C. Code" path="§22-932|(5)">(5)</cite>; or</text>
                 </para>
               </para>
               <para>
@@ -1495,14 +1648,15 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§14-310">
         <num>(b)</num>
         <text>Section 14-310 is amended as follows:</text>
-        <para>
+        <para codify:path="(b)">
           <num>(1)</num>
           <text>Subsection (b) is amended by adding a new paragraph (4) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(4)</num>
               <text>Notwithstanding any other law, domestic violence counselors shall report to the Metropolitan Police Department or the Child and Family Services Agency any crime disclosed in a confidential communication if the domestic violence counselor has actual knowledge that the crime disclosed to the domestic violence counselor involves:</text>
               <para>
@@ -1511,7 +1665,7 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>A perpetrator or alleged perpetrator with whom the victim has a significant relationship, as that term is defined in § 22-3001(10); or</text>
+                <text>A perpetrator or alleged perpetrator with whom the victim has a significant relationship, as that term is defined in <cite doc="D.C. Code" path="§22-3001|(10)">§ 22-3001(10)</cite>; or</text>
               </para>
               <para>
                 <num>(C)</num>
@@ -1526,14 +1680,15 @@
           <text>Subsection (c)(1) is amended by striking the phrase "under 12 years" and inserting the phrase "under 13 years" in its place.</text>
         </para>
       </para>
-      <para>
+      <para codify:path="§14-311">
         <num>(c)</num>
         <text>Section 14-311 is amended as follows:</text>
-        <para>
+        <para codify:path="(b)">
           <num>(1)</num>
           <text>Subsection (b) is amended by adding a new paragraph (4) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(4)</num>
               <text>Notwithstanding any other law, human trafficking counselors shall report to the Metropolitan Police Department or the Child and Family Services Agency any crime disclosed in a confidential communication if the human trafficking counselor has actual knowledge that the crime disclosed to the human trafficking counselor involves:</text>
               <para>
@@ -1542,7 +1697,7 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>A perpetrator or alleged perpetrator with whom the victim has a significant relationship, as that term is defined in § 22-3001(10); or</text>
+                <text>A perpetrator or alleged perpetrator with whom the victim has a significant relationship, as that term is defined in <cite doc="D.C. Code" path="§22-3001|(10)">§ 22-3001(10)</cite>; or</text>
               </para>
               <para>
                 <num>(C)</num>
@@ -1552,29 +1707,39 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(c)|(1)">
           <num>(2)</num>
           <text>Subsection (c)(1) is amended by striking the phrase "under 12 years" and inserting the phrase "under 13 years" in its place.</text>
+          <codify:find-replace count="1">
+            <find>under 12 years</find>
+            <replace>under 13 years</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§14-312">
         <num>(d)</num>
         <text>Section 14-312 is amended as follows:</text>
-        <para>
+        <para codify:path="(b)">
           <num>(1)</num>
           <text>Subsection (b) is amended as follows:</text>
-          <para>
+          <para codify:path="(4)">
             <num>(A)</num>
             <text>Paragraph (4) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(5)">
             <num>(B)</num>
-            <text>Paragraph (5) is amended by striking the phrase "Notwithstanding § 4-1321.02, sexual assault counselors shall be exempt from mandatory reporting of any crime disclosed in a confidential communication unless the" and inserting the phrase "Notwithstanding any other law, sexual assault counselors shall report to the Metropolitan Police Department or the Child and Family Services Agency any crime disclosed in a confidential communication if the" in its place.</text>
+            <text>Paragraph (5) is amended by striking the phrase "Notwithstanding <cite doc="D.C. Code" path="§4-1321.02">§ 4-1321.02</cite>, sexual assault counselors shall be exempt from mandatory reporting of any crime disclosed in a confidential communication unless the" and inserting the phrase "Notwithstanding any other law, sexual assault counselors shall report to the Metropolitan Police Department or the Child and Family Services Agency any crime disclosed in a confidential communication if the" in its place.</text>
           </para>
         </para>
-        <para>
+        <para codify:path="(c)|(1)">
+          
           <num>(2)</num>
           <text>Subsection (c)(1) is amended by striking the phrase "subsection, when a sexual assault victim has" and inserting the phrase "subsection, when a sexual assault victim who is under 13 years of age has" in its place.</text>
+          <codify:find-replace count="1">
+            <find>subsection, when a sexual assault victim has</find>
+            <replace>subsection, when a sexual assault victim who is under 13 years of age has</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
@@ -1582,6 +1747,7 @@
         <text>New sections 14-313 and 14-314 are added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="14|3"/>
             <prefix>§</prefix>
             <num>14-313</num>
             <heading proof="needed">Hospital-based violence intervention programs.</heading>
@@ -1685,6 +1851,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="14|3"/>
             <prefix>§</prefix>
             <num>14-314</num>
             <heading proof="needed">Crime victim counselors.</heading>
@@ -1700,27 +1867,27 @@
                 <text>"Crime" means the following criminal offenses:</text>
                 <para>
                   <num>(A)</num>
-                  <text>Assault with intent to kill, rob, or poison, or to commit first degree sexual abuse, second degree sexual abuse or child sexual abuse, as provided in § 22-401;</text>
+                  <text>Assault with intent to kill, rob, or poison, or to commit first degree sexual abuse, second degree sexual abuse or child sexual abuse, as provided in <cite doc="D.C. Code" path="§22-401">§ 22-401</cite>;</text>
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>Assault with intent to commit mayhem or with dangerous weapon, as provided in § 22-402;</text>
+                  <text>Assault with intent to commit mayhem or with dangerous weapon, as provided in <cite doc="D.C. Code" path="§22-402">§ 22-402</cite>;</text>
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Aggravated assault, as provided in § 22-404.01;</text>
+                  <text>Aggravated assault, as provided in <cite doc="D.C. Code" path="§22-404.01">§ 22-404.01</cite>;</text>
                 </para>
                 <para>
                   <num>(D)</num>
-                  <text>Murder in the first degree, as provided in § 22-2101;</text>
+                  <text>Murder in the first degree, as provided in <cite doc="D.C. Code" path="§22-2101">§ 22-2101</cite>;</text>
                 </para>
                 <para>
                   <num>(E)</num>
-                  <text>Murder in the second degree, as provided in § 22-2103; and</text>
+                  <text>Murder in the second degree, as provided in <cite doc="D.C. Code" path="§22-2103">§ 22-2103</cite>; and</text>
                 </para>
                 <para>
                   <num>(F)</num>
-                  <text>Murder of a law enforcement officer, as provided in § 22-2106.</text>
+                  <text>Murder of a law enforcement officer, as provided in <cite doc="D.C. Code" path="§22-2106">§ 22-2106</cite>.</text>
                 </para>
               </para>
               <para>
@@ -1854,23 +2021,32 @@
     <section>
       <num>108</num>
       <text>Chapter 10 of Title 16 of the District of Columbia Official Code is amended as follows:</text>
-      <para>
+      <para codify:path="§16-1003|(d)">
         <num>(a)</num>
         <text>Section 16-1003(d) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(1)</num>
           <text>Paragraph (1) is amended by striking the phrase ", or legal custodian" and inserting the phrase ", legal custodian, or physical custodian" in its place.</text>
+          <codify:find-replace count="1">
+            <find>, or legal custodian</find>
+            <replace>, legal custodian, or physical custodian</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)|(A)">
           <num>(2)</num>
           <text>Paragraph (2)(A) is amended by striking the phrase ", legal custody" and inserting the phrase ", legal custody, physical custody" in its place.</text>
+          <codify:find-replace count="1">
+            <find>, legal custody</find>
+            <replace>, legal custody, physical custody</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§16-1005|(a-1)|(3)">
         <num>(b)</num>
         <text>Section 16-1005(a-1)(3) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(3)</num>
             <text>In a case in which an individual described in § 16-1003(d)(2)(A) petitioned on behalf of a minor petitioner 13 years of age or older, the court shall consider the expressed wishes of the minor petitioner in deciding whether to issue an order pursuant to this section and in determining the contents of such an order.</text>
           </para>
@@ -1881,47 +2057,54 @@
     <section>
       <num>109</num>
       <text>The Anti-Sexual Abuse Act of 1994, effective May 23, 1995 (D.C. Law 10-257; D.C. Official Code § 22-3001 <em>et seq</em>.), is amended as follows:</text>
-      <para>
+      <para codify:path="§22-3013">
         <num>(a)</num>
         <text>Section 212 (D.C. Official Code § 22-3013) is amended to read as follows:</text>
         <include>
           <section>
-            <num>212</num>
+            <codify:replace/>
+            <num codify:value="22-3013">212</num>
             <heading proof="needed">First degree sexual abuse of a ward, patient, client, arrestee, detainee, or prisoner.</heading>
-            <text>Any staff member, employee, contract employee, consultant, or volunteer of a law enforcement agency or at a hospital, treatment facility, law enforcement facility, detention or correctional facility, group home, or other institution; anyone who is an ambulance driver or attendant, bus driver or attendant, or person who participates in the transportation of a ward, patient, client, arrestee, detainee, or prisoner to and from such institutions; or any official custodian of a ward, patient, client, arrestee, detainee, or prisoner, who engages in a sexual act with a ward, patient, client, arrestee, detainee, or prisoner, or causes a ward, patient, client, arrestee, detainee, or prisoner to engage in or submit to a sexual act shall be fined not more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or incarcerated for no more than 10 years, or both.</text>
+            <text>Any staff member, employee, contract employee, consultant, or volunteer of a law enforcement agency or at a hospital, treatment facility, law enforcement facility, detention or correctional facility, group home, or other institution; anyone who is an ambulance driver or attendant, bus driver or attendant, or person who participates in the transportation of a ward, patient, client, arrestee, detainee, or prisoner to and from such institutions; or any official custodian of a ward, patient, client, arrestee, detainee, or prisoner, who engages in a sexual act with a ward, patient, client, arrestee, detainee, or prisoner, or causes a ward, patient, client, arrestee, detainee, or prisoner to engage in or submit to a sexual act shall be fined not more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or incarcerated for no more than 10 years, or both.</text>
           </section>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§22-3014">
         <num>(b)</num>
         <text>Section 213 (D.C. Official Code § 22-3014) is amended to read as follows:</text>
         <include>
           <section>
-            <num>213</num>
+            <codify:replace/>
+            <num codify:value="22-3014">213</num>
             <heading proof="needed">Second degree sexual abuse of a ward, patient, client, arrestee, detainee, or prisoner.</heading>
-            <text>Any staff member, employee, contract employee, consultant, or volunteer of a law enforcement agency or at a hospital, treatment facility, law enforcement facility, detention or correctional facility, group home, or other institution; anyone who is an ambulance driver or attendant, bus driver or attendant, or person who participates in the transportation of a ward, patient, client, arrestee, detainee, or prisoner to and from such institutions; or any official custodian of a ward, patient, client, arrestee, detainee, or prisoner, who engages in a sexual contact with a ward, patient, client, arrestee, detainee, or prisoner, or causes a ward, patient, client, arrestee, detainee, or prisoner, to engage in or submit to a sexual contact shall be fined not more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or incarcerated for no more than 5 years, or both.</text>
+            <text>Any staff member, employee, contract employee, consultant, or volunteer of a law enforcement agency or at a hospital, treatment facility, law enforcement facility, detention or correctional facility, group home, or other institution; anyone who is an ambulance driver or attendant, bus driver or attendant, or person who participates in the transportation of a ward, patient, client, arrestee, detainee, or prisoner to and from such institutions; or any official custodian of a ward, patient, client, arrestee, detainee, or prisoner, who engages in a sexual contact with a ward, patient, client, arrestee, detainee, or prisoner, or causes a ward, patient, client, arrestee, detainee, or prisoner, to engage in or submit to a sexual contact shall be fined not more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or incarcerated for no more than 5 years, or both.</text>
           </section>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§22-3020.52">
         <num>(c)</num>
         <text>Section 252 (D.C. Official Code § 22-3020.52) is amended as follows:</text>
-        <para>
+        <para codify:path="(c)|(3)">
           <num>(1)</num>
           <text>Subsection (c)(3) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(3)</num>
-              <text>Domestic violence counselors, as that term is defined in D.C. Official Code § 14-310(a)(2), human trafficking counselors, as that term is defined in D.C. Official Code § 14-311(a)(2), and sexual assault counselor, as that term is defined in D.C. Official Code § 14-312(a)(2), shall be exempt from reporting pursuant to subsection (a) of this section any crime disclosed in a confidential communication, as that term is defined in D.C. Official Code § 14-310(a)(1), § 14-311(a)(1), or § 14-312(a)(1), respectively.</text>
+              <text>Domestic violence counselors, as that term is defined in D.C. Official Code § 14-310(a)(2), human trafficking counselors, as that term is defined in <code-cite doc="D.C. Code" path="§14-311|(a)|(2)">D.C. Official Code § 14-311(a)(2)</code-cite>, and sexual assault counselor, as that term is defined in <code-cite doc="D.C. Code" path="§14-312|(a)|(2)">D.C. Official Code § 14-312(a)(2)</code-cite>, shall be exempt from reporting pursuant to subsection (a) of this section any crime disclosed in a confidential communication, as that term is defined in <code-cite doc="D.C. Code" path="§14-310|(a)|(1)">D.C. Official Code § 14-310(a)(1)</code-cite>, <cite doc="D.C. Code" path="§14-311|(a)|(1)">§ 14-311(a)(1)</cite>, or <cite doc="D.C. Code" path="§14-312|(a)|(1)">§ 14-312(a)(1)</cite>, respectively.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(2)</num>
           <text>Subsection (d) is amended by striking the phrase "in section 2(b) of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02(b))" and inserting the phrase "in section 2(a) of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02(a))" in its place.</text>
+          <codify:find-replace count="1">
+            <find>in <cite path="§4-1321.02|(b)">§ 4-1321.02(b)</cite></find>
+            <replace>in <code-cite doc="D.C. Code" path="§4-1321.02|(a)">section 2(a) of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02(a))</code-cite></replace>
+          </codify:find-replace>
         </para>
       </para>
     </section>
@@ -1979,13 +2162,14 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§23-581|(a)|(2)">
         <num>(b)</num>
         <text>Section 23-581(a)(2) is amended by adding a new subparagraph (G) to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert/>
             <num>(G)</num>
-            <text>Intentionally violating a condition of release that the person stay away from, or have no contact with, an individual or location as described in § 23-1329a.</text>
+            <text>Intentionally violating a condition of release that the person stay away from, or have no contact with, an individual or location as described in <cite doc="D.C. Code" path="§23-1329a">§ 23-1329a</cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -1995,6 +2179,7 @@
         <text>A new section 23-1329a is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="23|13|II" after="§23-1329"/>
             <prefix>§</prefix>
             <num>23-1329a</num>
             <heading proof="needed">Violation of a post-conviction stay away condition of release.</heading>
@@ -2023,6 +2208,7 @@
         <text>New sections 23-1904a, 23-1904b, and 23-1904c are added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="23|19|I" after="§23-1904"/>
             <prefix>§</prefix>
             <num>23-1904a</num>
             <heading proof="needed">Right to member of a hospital-based violence intervention program.</heading>
@@ -2075,6 +2261,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="23|19|I" after="§23-1904a"/>
             <prefix>§</prefix>
             <num>23-1904b</num>
             <heading proof="needed">Task Force on Hospital-Based Violence Intervention Programs.</heading>
@@ -2179,6 +2366,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="23|19|I" after="§23-1904b"/>
             <prefix>§</prefix>
             <num>23-1904c</num>
             <heading proof="needed">Hospital-based violence intervention policy and training pilot.</heading>
@@ -2227,6 +2415,7 @@
         <text>Section 23-1911 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§23-1911"/>
             <prefix>§</prefix>
             <num>23-1911</num>
             <heading proof="needed">Cause of action; remedies.</heading>
@@ -2247,19 +2436,20 @@
         <text>A new section 23-1912 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="23|19|II"/>
             <prefix>§</prefix>
             <num>23-1912</num>
             <heading proof="needed">Limitations on law enforcement actions against sexual assault victims seeking medical treatment.</heading>
             <para>
               <num>(a)</num>
-              <text>A sexual assault victim, when the sexual assault victim is seeking emergency medical treatment or medical forensic care related to a sexual assault, or a victim, as that term is defined in § 23-1904a(a)(4), when the victim is seeking emergency medical treatment or medical forensic care at a hospital related to an intentionally inflicted gunshot or stab wound, shall not be subject to a custodial arrest by a law enforcement officer unless a warrant for the sexual assault victim's arrest or the victim's arrest has been issued by a competent court of jurisdiction for the commission of a:</text>
+              <text>A sexual assault victim, when the sexual assault victim is seeking emergency medical treatment or medical forensic care related to a sexual assault, or a victim, as that term is defined in <cite doc="D.C. Code" path="§23-1904a|(a)|(4)">§ 23-1904a(a)(4)</cite>, when the victim is seeking emergency medical treatment or medical forensic care at a hospital related to an intentionally inflicted gunshot or stab wound, shall not be subject to a custodial arrest by a law enforcement officer unless a warrant for the sexual assault victim's arrest or the victim's arrest has been issued by a competent court of jurisdiction for the commission of a:</text>
               <para>
                 <num>(1)</num>
-                <text>Dangerous crime, as that term is defined in § 23-1331(3); or</text>
+                <text>Dangerous crime, as that term is defined in <cite doc="D.C. Code" path="§23-1331|(3)">§ 23-1331(3)</cite>; or</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>Crime of violence, as that term is defined in § 23-1331(4).</text>
+                <text>Crime of violence, as that term is defined in <cite doc="D.C. Code" path="§23-1331|(4)">§ 23-1331(4)</cite>.</text>
               </para>
             </para>
             <para>
@@ -2274,13 +2464,21 @@
     <section>
       <num>111</num>
       <text>An Act To provide for compulsory school attendance, for the taking of a school census in the District of Columbia, and for other purposes, approved February 4, 1925 (43 Stat. 806; D.C. Official Code § 38-201 <em>et seq.</em>), is amended as follows:</text>
-      <para>
+      <para codify:path="§38-203|(i)|(B)">
         <num>(a)</num>
         <text>Section 2(i)(B) of Article II (D.C. Official Code § 38-203(i)(B)) is amended by striking the phrase "to section 2(a-1) or (a-2) of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02(a-1) and (a-2))" and inserting the phrase "to section 2(b)(1)(B) of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02(b)(1)(B))" in its place.</text>
+        <codify:find-replace count="1">
+          <find>to <cite path="§4-1321.02|(a-1)">§ 4-1321.02(a-1)</cite> and (a-2)</find>
+          <replace>to section <code-cite doc="D.C. Code" path="§4-1321.02|(b)|(1)|(B)">2(b)(1)(B) of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02(b)(1)(B))</code-cite></replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§38-208|(c)|(1)|(A)">
         <num>(b)</num>
         <text>Section 7(c)(1)(A) of Article II (D.C. Official Code § 38-208(c)(1)(A)) is amended by striking the phrase "to section 2(a-1) of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02(a-1))" and inserting the phrase "to section 2(b)(1)(B) of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02(b)(1)(B))" in its place.</text>
+        <codify:find-replace count="1">
+          <find>to <cite path="§4-1321.02|(a-1)">§ 4-1321.02(a-1)</cite></find>
+          <replace>to <code-cite doc="D.C. Code" path="§4-1321.02|(b)|(1)|(B)">section 2(b)(1)(B) of An Act To provide for the mandatory reporting by physicians and institutions in the District of Columbia of certain physical abuse of children, approved November 6, 1966 (80 Stat. 1354; D.C. Official Code § 4-1321.02(b)(1)(B))</code-cite></replace>
+        </codify:find-replace>
       </para>
     </section>
   </container>

@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-782">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-285">
+  <num type="law">24-285</num>
   <num type="act">24-782</num>
   <num type="bill">24-66</num>
   <heading type="short">Safe Streets for Students Amendment Act of 2022</heading>
   <heading type="long">To amend the School Proximity Traffic Calming Act of 2000 to establish a Safe Passage Program within the Office of the Deputy Mayor for Education, to establish a Safe Blocks Program within the Office of the Deputy Mayor for Education, to authorize grants to be awarded to community-based organizations participating in the Safe Blocks Program, to detail the responsibilities of community-based organizations and their personnel participating in the program, to establish a School Safety and Safe Passage Working Group and prescribe the working group's membership, to establish a Safe Routes to School Program within the District Department of Transportation, to prescribe the timing, manner, and scope of Action Plans and spot safety assessments undertaken by the District Department of Transportation, to set the speed limit within school zones at 15 miles per hour, to provide that the District Department of Transportation may increase the speed limit within school zones to 25 miles per hour along arterials during hours school is not in session, to double the fine for certain moving violations occurring in a school zone,  to require submission of monthly statistical reports from the District of Columbia Public Schools  and Metropolitan Police Department on student traffic safety, to require that the District Department of Transportation implement a School Streets Pilot Program at least one public school per ward, to prescribe the placement, hours, and training received by school crossing guards, to permit schools to submit requests for crossing guards online, to require the District Department of Transportation  to transmit a plan to the Mayor and Council identifying options to convert part-time crossing guard positions to full-time positions, to require the Mayor to submit to the Council, every 5 years, a Safe Streets for Students Master Plan and prescribe its contents, the agencies responsible for its development, and opportunities for the public to review and comment on the draft plan, and to require that, every 5 years, the District Department of Transportation transmit a rubric to the Council that produces scores to prioritize schools for Action Plans, to prescribe annual reporting for the Deputy Mayor for Education and the District Department of Transportation  on safe passage and the Safe Routes to School Program,  to clarify that traffic safety infrastructure installed throughout the District shall not be deemed obstructions of the roadway, nor shall damage by traffic safety infrastructure be the basis for a cause of action; and to make conforming amendments to the School Safety and Security Contracting Procedures Act of 2004.</heading>
   <meta>
     <introduced>2021-02-04</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/46492/Signed_Act/B24-0066-Signed_Act.pdf">D.C. Law 24-285</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/46492/Signed_Act/B24-0066-Signed_Act.pdf">D.C. Act 24-782</citation>
       <citation type="register">70 DCR 998</citation>
     </citations>
@@ -20,15 +22,16 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Safe Streets for Students Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The School Proximity Traffic Calming Act of 2000, effective May 23, 2000 (D.C. Law 13-111; D.C. Official Code § 38-3101), is amended as follows:</text>
-    <para>
+    <para codify:path="§38-3101">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 38-3101) is amended to read as follows:</text>
       <include>
         <section>
-          <num>2</num>
+          <codify:replace/>
+          <num codify:value="38-3101">2</num>
           <heading proof="needed">Definitions.</heading>
           <para>
             <num undesignated="true">(a)</num>
@@ -109,12 +112,14 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§38-3101" applicability-path="§4" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
       <text>New sections 2a, 2b, 2c, 2d, 2e, 2f, 2g, 2h, 2i, 2j, and 2k are added to read as follows:</text>
       <include>
         <section>
+         <codify:insert path="38|31" num-value="38-3102"/>
           <num>2a</num>
           <heading proof="needed">Safe Passage Program.</heading>
           <para>
@@ -152,8 +157,10 @@
               </para>
             </para>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§38-3102" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+           <codify:insert path="38|31" num-value="38-3103"/>
           <num>2b</num>
           <heading proof="needed">Safe Blocks Program.</heading>
           <para>
@@ -275,8 +282,10 @@
             <num>(g)</num>
             <text>The DME shall have grant-making authority for the purpose of the implementation of safe passage programming.</text>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§38-3103" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+           <codify:insert path="38|31" num-value="38-3104"/>
           <num>2c</num>
           <heading proof="needed">School Safety and Safe Passage Working Group.</heading>
           <para>
@@ -335,8 +344,10 @@
             <num>(c)</num>
             <text>Within 14 days after a meeting of the Working Group, the Deputy Mayor shall post on DME's website meeting minutes and copies of materials considered by the Working Group at the meeting.</text>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§38-3104" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+           <codify:insert path="38|31" num-value="38-3105"/>
           <num>2d</num>
           <heading proof="needed">Safe Routes to School Program.</heading>
           <para>
@@ -375,8 +386,10 @@
               <text>Community engagement on the Safe Routes to School Program.</text>
             </para>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§38-3105" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+           <codify:insert path="38|31" num-value="38-3106"/>
           <num>2e</num>
           <heading proof="needed">Action Plans and spot safety assessments.</heading>
           <para>
@@ -423,8 +436,10 @@
               <text>Where a traffic safety installation called for under an Action Plan or spot safety assessment is not completed within one year after the conclusion of the Action Plan or spot safety assessment, DDOT shall provide written notice of the basis for the delay to the principals of schools within 1/10th of a mile of the location of the traffic safety installation, the Ward Councilmember whose ward includes the location of the traffic safety installation, and the Chairs of the Council Committees with oversight of DCPS and the Public Charter School Board.</text>
             </para>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§38-3106" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+           <codify:insert path="38|31" num-value="38-3107"/>
           <num>2f</num>
           <heading proof="needed">School zones.</heading>
           <para>
@@ -442,8 +457,10 @@
             <num>(b)</num>
             <text>The fine for speeding pursuant to 18 DCMR § 2600.1 shall be doubled when the infraction occurs in a school zone.</text>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§38-3107" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+           <codify:insert path="38|31" num-value="38-3108"/>
           <num>2g</num>
           <heading proof="needed">School Streets Pilot Program.</heading>
           <para>
@@ -509,8 +526,10 @@
               <text>Recommendations on how the pilot program could better enhance student safety, how inefficiencies or redundancies in the pilot program could be reduced, and on how the pilot program could best be expanded to other schools.</text>
             </para>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§38-3108" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+           <codify:insert path="38|31" num-value="38-3109"/>
           <num>2h</num>
           <heading proof="needed">School crossing guards.</heading>
           <para>
@@ -583,8 +602,10 @@
               </para>
             </para>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§38-3109" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+           <codify:insert path="38|31" num-value="38-3110"/>
           <num>2i</num>
           <heading proof="needed">Safe Streets for Students Master Plan.</heading>
           <para>
@@ -797,8 +818,10 @@
             <num>(g)</num>
             <text>DCPS, PCSB, and individual private schools shall notify DDOT of a new school no later than 90 days before the first day on which students will begin classes at the school.</text>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§38-3110" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+           <codify:insert path="38|31" num-value="38-3111"/>
           <num>2j</num>
           <heading proof="needed">Data collection and reporting.</heading>
           <para>
@@ -841,11 +864,14 @@
               <text>The number of bike racks within the school zone.</text>
             </para>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§38-3111" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+           <codify:insert path="38|31" num-value="38-3112"/>
           <num>2k</num>
           <heading proof="needed">Liability.</heading>
           <text>Traffic safety infrastructure, where installed and posted throughout the District and made available as the budget allows, pursuant to this act, shall not be deemed obstructions of the road or street. No cause of action at law or in equity, nor any administrative action shall be maintained against the District government for damages by traffic safety infrastructure.</text>
+          <codify:not-funded-anno doc="D.C. Code" path="§38-3112" applicability-path="§4" action="creation of" display-template=""/>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -854,6 +880,11 @@
   <section>
     <num>3</num>
     <text>Section 102(d)(3) of the School Safety and Security Contracting Procedures Act of 2004, effective April 13, 2005 (D.C. Law 15-350; D.C. Official Code § 5-132.02(d)(3)), is amended by striking the phrase "under section 2(f-1) of the School Proximity Traffic Calming Act of 2000, effective May 23, 2000 (D.C. Law 13-111; D.C. Official Code § 38-3101(f-1))" and inserting the phrase "under section 2i(d)(1) of the School Proximity Traffic Calming Act of 2000, passed on 2nd reading on December 20, 2022 (enrolled version of Bill 24-66)" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§5-132.02|(d)|(3)" count="1">
+      <find>under <cite path="§38-3101|(f-1)">§ 38-3101(f-1)</cite></find>
+      <replace>under section 2i(d)(1) of the School Proximity Traffic Calming Act of 2000, passed on 2nd reading on December 20, 2022 (enrolled version of Bill 24-66)</replace>
+    </codify:find-replace>
+    <codify:not-funded-anno doc="D.C. Code" path="§5-132.02" applicability-path="§4" action="creation of" display-template=""/>
   </section>
   <section>
     <num>4</num>
@@ -861,6 +892,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability  doc="D.C. Law 24-285" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
