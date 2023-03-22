@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-725">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-287">
+  <num type="law">24-287</num>
   <num type="act">24-725</num>
   <num type="bill">24-120</num>
   <heading type="short">Emergency Rental Assistance Reform and Career Mobility Action Plan Program Establishment Amendment Act of 2022</heading>
   <heading type="long">To amend the Homeless Services Reform Act of 2005 to reform the Emergency Rental Assistance Program to reduce administrative barriers to rental assistance payments for tenants in need; and to establish a program to reduce and remove obstacles that low-income households confront as they pursue higher incomes through employment.</heading>
   <meta>
     <introduced>2021-03-01</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/46641/Signed_Act/B24-0120-Signed_Act.pdf">D.C. Law 24-287</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/46641/Signed_Act/B24-0120-Signed_Act.pdf">D.C. Act 24-725</citation>
       <citation type="register">70 DCR 538</citation>
     </citations>
@@ -43,6 +45,7 @@
         <text>A new section 8f is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert doc="D.C. Code" path="4|7A|III" num-value="4-753.08" history-prefix="as added"/>
             <num>8f</num>
             <heading proof="needed">Emergency rental assistance.</heading>
             <para>
@@ -132,7 +135,7 @@
                   </para>
                   <para>
                     <num>(iii)</num>
-                    <text>The applicant unit is applying for Emergency Rental Assistance Funds during a public health emergency declared pursuant to section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14- 194; D.C. Official Code § 7-2304.01) ("public health emergency"), or within 180 days after its conclusion.</text>
+                    <text>The applicant unit is applying for Emergency Rental Assistance Funds during a public health emergency declared pursuant to <code-cite doc="D.C. Code" path="§7-2304.01">section 5a of the District of Columbia Public Emergency Act of 1980, effective October 17, 2002 (D.C. Law 14- 194; D.C. Official Code § 7-2304.01) ("public health emergency")</code-cite>, or within 180 days after its conclusion.</text>
                   </para>
                 </para>
                 <para>
@@ -222,6 +225,7 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+       <annotation doc="D.C. Law 16-35" type="History" path="§8f">Oct. 22, 2005, D.C. Law 16-35, § 8f</annotation>
       </para>
     </section>
     <section>
@@ -229,6 +233,7 @@
       <text>Section 501 of the Rental Housing Act of 1985, effective July 17, 1985 (D.C. Law 6-10; D.C. Official Code § 42-3505.01) is amended by adding a new subsection (r) to read as follows:</text>
       <include>
         <para>
+          <codify:insert doc="D.C. Code" path="§42-3505.01"/>
           <num>(r)</num>
           <para>
             <num>(1)</num>
@@ -243,16 +248,24 @@
       <aftertext>.</aftertext>
     </section>
   </container>
+  <codify:insert doc="D.C. Code" path="4" after="2C" history="false">
+            <container>
+              <prefix>Chapter</prefix>
+              <num>2D</num>
+              <heading>Career Mobility Action Plan Program.</heading>
+            </container>
+          </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>II</num>
     <heading>CAREER MOBILITY ACTION PLAN PROGRAM ESTABLISHMENT</heading>
     <section>
+      <codify:insert doc="D.C. Code" path="4|2D" num-value="4-281.01"/>
       <num>201</num>
       <heading proof="needed">Definitions.</heading>
       <para>
         <num undesignated="true">(a)</num>
-        <text>For the purposes of this title, the term:</text>
+        <text>For the purposes of <code-cite doc="D.C. Code" path="4|2D">this title</code-cite>, the term:</text>
         <para>
           <num>(1)</num>
           <text>"Area median income" means the area median income of the Washington Metropolitan Statistical Area as set forth in the periodic calculation provided by the U.S. Department of Housing and Urban Development.</text>
@@ -304,6 +317,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|2D" num-value="4-281.02"/>
       <num>202</num>
       <heading proof="needed">Career Mobility Action Plan program authorization.</heading>
       <para>
@@ -339,10 +353,11 @@
       </para>
       <para>
         <num>(c)</num>
-        <text>The Department may issue grants to service providers to implement the provisions of this title.</text>
+        <text>The Department may issue grants to service providers to implement the provisions of <code-cite doc="D.C. Code" path="4|2D">this title</code-cite>.</text>
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|2D" num-value="4-281.03"/>
       <num>203</num>
       <heading proof="needed">Eligibility, enrollment, and program requirements.</heading>
       <para>
@@ -398,7 +413,7 @@
       </para>
       <para>
         <num>(c)</num>
-        <text>No provision of this title shall be construed to create an entitlement to the program.</text>
+        <text>No provision of <code-cite doc="D.C. Code" path="4|2D">this title</code-cite> shall be construed to create an entitlement to the program.</text>
       </para>
       <para>
         <num>(d)</num>
@@ -422,7 +437,7 @@
             <text>Comply with paragraph (3) of this subsection; and</text>
           </para>
           <para>
-            <num>(C)</num>
+            <num codify:value="[(D)]">(C)</num>
             <!-- This should be (D) -->
             <text>Meet other requirements and criteria established by the Department.</text>
           </para>
@@ -434,6 +449,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|2D" num-value="4-281.04"/>
       <num>204</num>
       <heading proof="needed">Notice of changes to services or supports.</heading>
       <para>
@@ -459,7 +475,7 @@
           </para>
           <para>
             <num>(D)</num>
-            <text>Program participant's right to request a hearing as provided under section 205.</text>
+            <text>Program participant's right to request a hearing as provided under <code-cite doc="D.C. Code" path="§4-281.05">section 205</code-cite>.</text>
           </para>
         </para>
       </para>
@@ -469,6 +485,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|2D" num-value="4-281.05"/>
       <num>205</num>
       <heading proof="needed">Hearings.</heading>
       <para>
@@ -520,11 +537,11 @@
       </para>
       <para>
         <num>(d)</num>
-        <text>A program participant shall have 30 calendar days following receipt of the notice required under section 204 to request a hearing.</text>
+        <text>A program participant shall have 30 calendar days following receipt of the notice required under <code-cite doc="D.C. Code" path="§4-281.04">section 204</code-cite> to request a hearing.</text>
       </para>
       <para>
         <num>(e)</num>
-        <text>The hearing shall be conducted in accordance with section 26(f)(1)-(3) of the Homeless Services Reform Act of 2005, effective October 22, 2005 (D.C. Law 16-35; D.C. Official Code § 4-754.41(f)(1)-(3)).</text>
+        <text>The hearing shall be conducted in accordance with <code-cite doc="D.C. Code" path="§4-754.41|(f)|(1)">section 26(f)(1)-(3) of the Homeless Services Reform Act of 2005, effective October 22, 2005 (D.C. Law 16-35; D.C. Official Code § 4-754.41(f)(1)</code-cite>-<cite doc="D.C. Code" path="§4-754.41|(f)|(3)">(3)</cite>).</text>
       </para>
       <para>
         <num>(f)</num>
@@ -536,15 +553,16 @@
       </para>
       <para>
         <num>(h)</num>
-        <text>Materials and documents filed with OAH during the hearing proceedings shall be maintained in compliance with section 16(d) of the Office of Administrative Hearings Establishment Act of 2001, effective March 6, 2002 (D.C. Law 14-76; D.C. Official Code § 2-1831.13(d)), and any other District or federal law pertaining to the confidentiality of records.</text>
+        <text>Materials and documents filed with OAH during the hearing proceedings shall be maintained in compliance with <code-cite doc="D.C. Code" path="§2-1831.13|(d)">section 16(d) of the Office of Administrative Hearings Establishment Act of 2001, effective March 6, 2002 (D.C. Law 14-76; D.C. Official Code § 2-1831.13(d))</code-cite>, and any other District or federal law pertaining to the confidentiality of records.</text>
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|2D" num-value="4-281.06"/>
       <num>206</num>
       <heading proof="needed">Confidentiality.</heading>
       <para>
         <num>(a)</num>
-        <text>The Department shall not use or disclose information collected from or about a program participant or applicant except as provided in subsection (b) of this section .</text>
+        <text>The Department shall not use or disclose information collected from or about a program participant or applicant except as provided in subsection (b) of this section.</text>
       </para>
       <para>
         <num>(b)</num>
@@ -568,14 +586,16 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="4|2D" num-value="4-281.07"/>
       <num>207</num>
       <heading proof="needed">Exclusion from income for certain purposes.</heading>
-      <text>Support services shall not be considered income or an asset for purposes of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-201.01 <em>et seq.</em>).</text>
+      <text>Support services shall not be considered income or an asset for purposes of <code-cite doc="D.C. Code" path="4|2">the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-201.01 <em>et seq.</em>)</code-cite>.</text>
     </section>
     <section>
+    <codify:insert doc="D.C. Code" path="4|2D" num-value="4-281.08"/>
       <num>208</num>
       <heading proof="needed">Rulemaking.</heading>
-      <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), may issue rules to implement the provisions of this title.</text>
+      <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I"> Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement the provisions of <code-cite doc="D.C. Code" path="4|2D">this title</code-cite>.</text>
     </section>
   </container>
   <container>
