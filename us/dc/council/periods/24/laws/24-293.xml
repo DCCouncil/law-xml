@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-729">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-293">
+  <num type="law">24-293</num>
   <num type="act">24-729</num>
   <num type="bill">24-251</num>
   <heading type="short">Contractor Indemnity and Subcontractor Prompt Payment Amendment Act of 2022</heading>
   <heading type="long">To prohibit a contractor from requiring a subcontractor to indemnify the contractor or owner as to the negligence of the contractor or owner; and to amend the Private Contractor and Subcontractor Prompt Payment Act of 2013 to prohibit a general contractor from withholding payment to subcontractors for work performed and completed on one job to offset payments for another job.</heading>
   <meta>
     <introduced>2021-05-19</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47223/Signed_Act/B24-0251-Signed_Act.pdf">D.C. Law 24-293</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/47223/Signed_Act/B24-0251-Signed_Act.pdf">D.C. Act 24-729</citation>
       <citation type="register">70 DCR 557</citation>
     </citations>
@@ -20,12 +22,20 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Contractor Indemnity and Subcontractor Prompt Payment Amendment Act of 2022".</text>
+  <codify:insert doc="D.C. Code" path="27A" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>2</num>
+      <heading>Contractor Indemnity.</heading>
+    </container>
+  </codify:insert>
   <section>
+    <codify:insert doc="D.C. Code" path="27A|2" num-value="27A-201"/>
     <num>2</num>
     <heading proof="needed">Definitions.</heading>
     <para>
       <num undesignated="true">(a)</num>
-      <text>For purposes of this act, the term:</text>
+      <text>For purposes of <code-cite doc="D.C. Code" path="27A|2">this act</code-cite>, the term:</text>
       <para>
         <num>(1)</num>
         <text>"Construction contract" means an agreement of any kind or nature, express or implied, to provide labor or materials, or both, for demolition, building, renovation, alteration, or maintenance of buildings, roadways, appurtenances, and structures.</text>
@@ -36,7 +46,7 @@
       </para>
       <para>
         <num>(3)</num>
-        <text>"Owner" means a person with a legal ownership interest in the property subject to seizure or forfeiture. The term "owner" does not include a District agency, as defined in section 2(3) of the District of Columbia Government Quick Payment Act of 1984, effective March 15, 1985 (D.C. Law 5-164; D.C. Official Code § 2-221.01(3)).</text>
+        <text>"Owner" means a person with a legal ownership interest in the property subject to seizure or forfeiture. The term "owner" does not include a District agency, as defined in <code-cite doc="D.C. Code" path="§2-221.01|(3)">section 2(3) of the District of Columbia Government Quick Payment Act of 1984, effective March 15, 1985 (D.C. Law 5-164; D.C. Official Code § 2-221.01(3))</code-cite>.</text>
       </para>
       <para>
         <num>(4)</num>
@@ -57,6 +67,7 @@
     </para>
   </section>
   <section>
+     <codify:insert doc="D.C. Code" path="27A|2" num-value="27A-202"/>
     <num>3</num>
     <heading proof="needed">Certain indemnification in construction contracts declared void.</heading>
     <para>
@@ -72,17 +83,18 @@
       <text>The provisions of this section shall not apply to any provision of any contract entered into prior to April 1, 2023.</text>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>4</num>
     <text>The Private Contractor and Subcontractor Prompt Payment Act of 2013, effective November 5, 2013 (D.C. Law 20-34; D.C. Official Code § 27-131 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§27A-104">
       <num>(a)</num>
       <text>Section 5 (D.C. Official Code § 27-134) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <text>If a contract is between a contractor and subcontractor, or between subcontractors, the contractor or subcontractor shall pay undisputed amounts owed to its subcontractor within 7 days after receipt by the contractor or subcontractor of each payment received for its subcontractors' work or materials.</text>
           </para>
@@ -94,6 +106,7 @@
         <text>A new subsection (d) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(d)</num>
             <para>
               <num>(1)</num>
@@ -108,16 +121,17 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§27A-105">
       <num>(b)</num>
       <text>Section 6 (D.C. Official Code § 27-135) is amended to read as follows:</text>
       <include>
         <section>
-          <num>6</num>
+          <codify:replace/>
+          <num codify:value="27A-105">6</num>
           <heading proof="needed">Failure to make prompt payments to a subcontractor.</heading>
           <para>
             <num>(a)</num>
-            <text>If a contractor fails to make prompt payments to a subcontractor, as required by section 5, or a subcontractor fails to make prompt payments to another subcontractor, the contractor or subcontractor shall pay interest of 1.5% per month or any part of a month to the subcontractor on any undisputed amount not paid on time to the subcontractor.</text>
+            <text>If a contractor fails to make prompt payments to a subcontractor, as required by <code-cite doc="D.C. Code" path="§27A-104">section 5</code-cite>, or a subcontractor fails to make prompt payments to another subcontractor, the contractor or subcontractor shall pay interest of 1.5% per month or any part of a month to the subcontractor on any undisputed amount not paid on time to the subcontractor.</text>
           </para>
           <para>
             <num>(b)</num>

@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-776">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-292">
+  <num type="law">24-292</num>
   <num type="act">24-776</num>
   <num type="bill">24-228</num>
   <heading type="short">Fair Meals Delivery Act of 2022</heading>
   <heading type="long">To prohibit a third-party meal delivery platform from arranging to deliver a meal order from a restaurant without first obtaining an agreement with the restaurant expressly authorizing the third-party meal delivery platform to collect meal orders and deliver meals prepared by the restaurant, to prohibit the unauthorized listing of a restaurant on the application or website of a third-party meal delivery platform, to require disclosure of the fees charged by a third-party meal delivery platform, to prohibit the inclusion of an indemnification agreement in a third-party meal delivery agreement, to provide a limit on the fees a third-party meal delivery platform may charge, and to provide civil penalties and authorize civil action for violations of this act.</heading>
   <meta>
     <introduced>2021-04-29</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47096/Signed_Act/B24-0228-Signed_Act.pdf">D.C. Law 24-292</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/47096/Signed_Act/B24-0228-Signed_Act.pdf">D.C. Act 24-776</citation>
       <citation type="register">70 DCR 898</citation>
     </citations>
@@ -21,14 +23,23 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Fair Meals Delivery Act of 2022".</text>
+  <codify:insert doc="D.C. Code" path="48" after="6" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>6A</num>
+      <heading>Third-party Food Delivery.</heading>
+    </container>
+  </codify:insert>
   <section>
+     <codify:insert doc="D.C. Code" path="48|6A" num-value="48-651"/>
     <num>2</num>
-    <text>For the purposes of this act, the term:</text>
+    <heading codify:value="Definitions."/>
+    <text>For the purposes of <code-cite doc="D.C. Code" path="48|6A">this act</code-cite>, the term:</text>
     <para>
       <num undesignated="true">(a)</num>
       <para>
         <num>(1)</num>
-        <text>"Agreement" means the written contract between a restaurant and a third-party meal delivery platform required by this act.</text>
+        <text>"Agreement" means the written contract between a restaurant and a third-party meal delivery platform required by <code-cite doc="D.C. Code" path="48|6A">this act</code-cite>.</text>
       </para>
       <para>
         <num>(2)</num>
@@ -47,7 +58,7 @@
       <para>
         <num>(5)</num>
         <text>"Restaurant" means an establishment that is held out to and known by the</text>
-        <text>public as a food-service establishment.  The term includes an establishment defined in D.C. Official Code § 25-101(43) and (52).</text>
+        <text>public as a food-service establishment.  The term includes an establishment defined in <code-cite doc="D.C. Code" path="§25-101|(43)"> D.C. Official Code § 25-101(43)</code-cite> and <cite doc="D.C. Code" path="§25-101|(52)">(52)</cite>.</text>
       </para>
       <para>
         <num>(6)</num>
@@ -61,6 +72,7 @@
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="48|6A" num-value="48-652"/>
     <num>3</num>
     <heading proof="needed">Restrictions on third-party meals delivery platforms.</heading>
     <para>
@@ -88,6 +100,7 @@
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="48|6A" num-value="48-653"/>
     <num>4</num>
     <heading proof="needed">Customer disclosure requirement.</heading>
     <para>
@@ -104,6 +117,7 @@
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="48|6A" num-value="48-654"/>
     <num>5</num>
     <heading proof="needed">Limitation on fees.</heading>
     <para>
@@ -119,31 +133,33 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>Within 30 days of the effective date of this act, notifies all restaurants that have an existing agreement with the third-party meal delivery platform of the option described in paragraph (1) of this subsection.</text>
+        <text>Within 30 days of <span codify:value="March 10, 2023">the effective date of this act</span>, notifies all restaurants that have an existing agreement with the third-party meal delivery platform of the option described in paragraph (1) of this subsection.</text>
       </para>
     </para>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="48|6A" num-value="48-655"/>
     <num>6</num>
     <heading proof="needed">Third-party delivery platform; registration requirement.</heading>
     <text>A person, corporation, partnership, or association operating a third-party food delivery platform in the District of Columbia shall register with the Department of Licensing and Consumer Protection.</text>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="48|6A" num-value="48-656"/>
     <num>7</num>
     <heading proof="needed">Rules; enforcement.</heading>
     <para>
       <num>(a)</num>
-      <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall issue rules to implement this act.</text>
+      <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, shall issue rules to implement <code-cite doc="D.C. Code" path="48|6A">this act</code-cite>.</text>
     </para>
     <para>
       <num>(b)</num>
       <para>
         <num>(1)</num>
-        <text>A violation of this act, or rule issued pursuant to this act, shall be a violation of  Chapter 39 of Title 28 of the District of Columbia Official Code, enforceable by the Attorney General as an unfair or deceptive trade practice pursuant to D.C. Official Code § 28-3904.</text>
+        <text>A violation of <code-cite doc="D.C. Code" path="48|6A">this act</code-cite>, or rule issued pursuant to <code-cite doc="D.C. Code" path="48|6A">this act</code-cite>, shall be a violation of  <code-cite doc="D.C. Code" path="28|39">Chapter 39 of Title 28 of the District of Columbia Official Code,</code-cite> enforceable by the Attorney General as an unfair or deceptive trade practice pursuant to <code-cite doc="D.C. Code" path="§28-3904">D.C. Official Code § 28-3904</code-cite>.</text>
       </para>
       <para>
         <num>(2)</num>
-        <text>In addition to or in lieu of an enforcement action brought pursuant to paragraph (1) of this subsection, the Attorney General, in the name of the District of Columbia, shall have the exclusive authority to commence a civil action in the Superior Court of the District of Columbia, or any other court of competent jurisdiction, for damages in an amount not to exceed $5,000 or the amount of actual damages, whichever is greater, attorney fees and costs, and injunctive or other appropriate relief for a violation of this act.</text>
+        <text>In addition to or in lieu of an enforcement action brought pursuant to paragraph (1) of this subsection, the Attorney General, in the name of the District of Columbia, shall have the exclusive authority to commence a civil action in the Superior Court of the District of Columbia, or any other court of competent jurisdiction, for damages in an amount not to exceed $5,000 or the amount of actual damages, whichever is greater, attorney fees and costs, and injunctive or other appropriate relief for a violation of <code-cite doc="D.C. Code" path="48|6A">this act</code-cite>.</text>
       </para>
     </para>
   </section>

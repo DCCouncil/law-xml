@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-758">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-295">
+  <num type="law">24-295</num>
   <num type="act">24-758</num>
   <num type="bill">24-446</num>
   <heading type="short">Attorney General Civil Rights Enforcement Clarification Amendment Act of 2022</heading>
   <heading type="long">To amend the Human Rights Act of 1977 to clarify the role of the Attorney General in a civil action involving housing discrimination, to clarify the act's applicability to real estate organizations and property managers, to authorize the Attorney General to enforce the act and set forth procedures governing that authority and remedies, and to make technical corrections.</heading>
   <meta>
     <introduced>2021-10-15</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/48049/Signed_Act/B24-0446-Signed_Act.pdf">D.C. Law 24-295</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/48049/Signed_Act/B24-0446-Signed_Act.pdf">D.C. Act 24-758</citation>
       <citation type="register">70 DCR 829</citation>
     </citations>
@@ -20,26 +22,27 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Attorney General Civil Rights Enforcement Clarification Amendment Act of 2022".</text>
-  <section>
+  <section  codify:doc="D.C. Code">
     <num>2</num>
     <text>The Human Rights Act of 1977, effective December 13, 1977 (D.C. Law 2-38; D.C. Official Code § 2-1401.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§2-1401.02">
       <num>(a)</num>
       <text>Section 102 (D.C. Official Code § 2-1401.02) is amended as follows:</text>
-      <para>
+      <para codify:path="(16)">
         <num>(1)</num>
         <text>Paragraph (16) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(16)</num>
-            <text>"Make public" means disclosure to the public or to the news media of any personal or business data, documents, information, records, or reports obtained during the course of a complaint filed under the provisions of this act.  The term "make public" does not include:</text>
+            <text>"Make public" means disclosure to the public or to the news media of any personal or business data, documents, information, records, or reports obtained during the course of a complaint filed under the provisions of <code-cite doc="D.C. Code" path="2|14|A">this act</code-cite>.  The term "make public" does not include:</text>
             <para>
               <num>(A)</num>
               <text>The publication of EEO-1, EEO-2, or EEO-3 reports as required by the Equal Employment Opportunity Commission;</text>
             </para>
             <para>
               <num>(B)</num>
-              <text>The provision of any data, documents, information, records, or reports in the course of any administrative or judicial proceeding under this act or any judicial proceeding under Title VII of the Civil Rights Act of 1964, approved July 2, 1964 (78 Stat. 253; 42 U.S.C. § 2000e <em>et seq.</em>), or Title VIII or IX of the Civil Rights Act of 1968, approved April 11, 1968 (82 Stat. 81; 42 U.S.C § 3601 <em>et seq.</em>), involving such data, documents, information, records, or reports; or</text>
+              <text>The provision of any data, documents, information, records, or reports in the course of any administrative or judicial proceeding under <code-cite doc="D.C. Code" path="2|14|A">this act</code-cite> or any judicial proceeding under Title VII of the Civil Rights Act of 1964, approved July 2, 1964 (78 Stat. 253; 42 U.S.C. § 2000e <em>et seq.</em>), or Title VIII or IX of the Civil Rights Act of 1968, approved April 11, 1968 (82 Stat. 81; 42 U.S.C § 3601 <em>et seq.</em>), involving such data, documents, information, records, or reports; or</text>
             </para>
             <para>
               <num>(C)</num>
@@ -53,42 +56,54 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(21)">
         <num>(2)</num>
         <text>Paragraph (21) is amended by striking the phrase "real estate broker or salesman" and inserting the phrase "real estate broker, real estate salesperson, property manager," in its place.</text>
+        <codify:find-replace count="1">
+          <find>real estate broker or salesman</find>
+          <replace>real estate broker, real estate salesperson, property manager,</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(26)">
         <num>(3)</num>
         <text>Paragraph (26) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(26)</num>
-            <text>"Real estate broker" or "real estate salesperson" or "property manager" means a person who is licensed under Chapter 28 of Title 47 of the District of Columbia Official Code as a real estate broker, a real estate salesperson, or a property manager. The term "real estate broker" includes a real estate organization.</text>
+            <text>"Real estate broker" or "real estate salesperson" or "property manager" means a person who is licensed under <code-cite doc="D.C. Code" path="47|28">Chapter 28 of Title 47 of the District of Columbia Official Code</code-cite> as a real estate broker, a real estate salesperson, or a property manager. The term "real estate broker" includes a real estate organization.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§2-1402.23">
       <num>(b)</num>
       <text>Section 223 (D.C. Official Code § 2-1402.23) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "by broker or salesperson" and inserting the phrase "by real estate broker, real estate salesperson, or property manager" in its place.</text>
+        <codify:find-replace count="1">
+          <find>by broker or salesperson</find>
+          <replace>by real estate broker, real estate salesperson, or property manager</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>The existing text is designated as subsection (c).</text>
+        <codify:redesignate-para num-value="(c)"/>
       </para>
       <para>
         <num>(3)</num>
         <text>New subsections (a) and (b) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert before="(c)"/>
             <num>(a)</num>
-            <text>It shall be a violation of this section for any real estate broker, real estate salesperson, or property manager to commit any act of discrimination prohibited by this act.</text>
+            <text>It shall be a violation of this section for any real estate broker, real estate salesperson, or property manager to commit any act of discrimination prohibited by <code-cite doc="D.C. Code" path="2|14|A">this act</code-cite>.</text>
           </para>
           <para>
+            <codify:insert before="(c)"/>
             <num>(b)</num>
             <text>A finding by a court or the Commission that a holder of, or applicant for, any permit, license, franchise, benefit, exemption, or advantage issued by or on behalf of a District government agency, board, or commission has violated this section shall, in any proceeding conducted by that agency, board, or commission that considers whether the holder or applicant is acting in the public interest, constitutes prima facie evidence that the holder or applicant has endangered the public interest.</text>
           </para>
@@ -96,22 +111,27 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§2-1402.52">
       <num>(c)</num>
       <text>Section 252 (D.C. Official Code § 2-1402.52) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the phrase "6 months" and inserting the phrase "one year" in its place.</text>
+        <codify:find-replace count="1">
+          <find>6 months</find>
+          <replace>one year</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c)</num>
             <para>
               <num>(1)</num>
-              <text>All persons subject to this act shall furnish to the Office, at the time and in the manner prescribed by the Office, such data, documents, information, records, and reports relating to information under their control as the Office may require.</text>
+              <text>All persons subject to <code-cite doc="D.C. Code" path="2|14|A">this act</code-cite> shall furnish to the Office, at the time and in the manner prescribed by the Office, such data, documents, information, records, and reports relating to information under their control as the Office may require.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -122,26 +142,39 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§2-1403.05|(g)">
       <num>(d)</num>
       <text>Section 305(g) (D.C. Official Code § 2-1403.05(g)) is amended by striking the phrase "the Corporation Counsel" and inserting the phrase "the Attorney General" in its place.</text>
+      <codify:find-replace count="1">
+        <find>the Corporation Counsel</find>
+        <replace>the Attorney General</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§2-1403.07">
       <num>(e)</num>
       <text>Section 307 (D.C. Official Code § 2-1403.07) is amended by striking the phrase "the Corporation Counsel" both times it appears and inserting the phrase "the Attorney General" in its place.</text>
+      <codify:find-replace count="2">
+        <find>the Corporation Counsel</find>
+        <replace>the Attorney General</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§2-1403.15">
       <num>(f)</num>
       <text>Section 315 (D.C. Office Code § 2-1403.15) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the phrase "the Corporation Counsel" and inserting the phrase "the Attorney General" in its place.</text>
+        <codify:find-replace count="1">
+        <find>the Corporation Counsel</find>
+        <replace>the Attorney General</replace>
+      </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(b)</num>
             <para>
               <num>(1)</num>
@@ -152,7 +185,7 @@
               <text>If the order is enforceable, the Attorney General shall institute, in the name of the District, civil proceedings, including the seeking of such restraining orders and temporary or permanent injunctions as are necessary to obtain complete compliance with the Commission's orders.</text>
             </para>
             <para>
-              <num>(2)</num>
+              <num codify:value="[(3)]">(2)</num>
               <!-- this should be (3) -->
               <text>If civil proceedings instituted pursuant to paragraph (2) of this subsection do not result in securing such compliance, the Attorney General may institute criminal action.</text>
             </para>
@@ -166,11 +199,12 @@
       <text>A new section 316a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="2|14|A|III" after="§2-1403.16" num-value="2-1403.16a"  history-prefix="as added"/>
           <num>316a</num>
           <heading proof="needed">Civil actions by the Attorney General.</heading>
           <para>
             <num>(a)</num>
-            <text>In addition to any other remedies provided in this act, if the Attorney General has reason to believe that a person is violating the provisions of this act, the Attorney General may bring a civil action in the name of the District.</text>
+            <text>In addition to any other remedies provided in <code-cite doc="D.C. Code" path="2|14|A">this act</code-cite>, if the Attorney General has reason to believe that a person is violating the provisions of <code-cite doc="D.C. Code" path="2|14|A">this act</code-cite>, the Attorney General may bring a civil action in the name of the District.</text>
           </para>
           <para>
             <num>(b)</num>
@@ -189,7 +223,7 @@
             <text>In a civil action brought pursuant to this section:</text>
             <para>
               <num>(1)</num>
-              <text>If a person is found to have violated this act, the Attorney General may obtain the following civil penalties:</text>
+              <text>If a person is found to have violated <code-cite doc="D.C. Code" path="2|14|A">this act</code-cite>, the Attorney General may obtain the following civil penalties:</text>
               <para>
                 <num>(A)</num>
                 <text>If the person has not previously been adjudged to have committed any prior unlawful discriminatory practice or has committed at least one prior unlawful discriminatory practice other than in the periods provided in subparagraph (B) and (C) of this paragraph, in an amount not to exceed $10,000 per violation;</text>
@@ -212,20 +246,20 @@
             <num>(d)</num>
             <para>
               <num>(1)</num>
-              <text>Each separate and distinct action or practice that violates this act shall be deemed a violation under this section. An action or practice shall constitute multiple violations if it violates more than one provision of the act or violates the rights of more than one person.</text>
+              <text>Each separate and distinct action or practice that violates <code-cite doc="D.C. Code" path="2|14|A">this act</code-cite> shall be deemed a violation under this section. An action or practice shall constitute multiple violations if it violates more than one provision of the act or violates the rights of more than one person.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>Each day that a discriminatory advertisement is posted in violation of this act shall be a violation.</text>
+              <text>Each day that a discriminatory advertisement is posted in violation of <code-cite doc="D.C. Code" path="2|14|A">this act</code-cite> shall be a violation.</text>
             </para>
           </para>
           <para>
             <num>(e)</num>
-            <text>The court may grant any additional relief in the civil action that it deems appropriate, including the restitution of money or property and the relief provided in sections 307 and 313(a).</text>
+            <text>The court may grant any additional relief in the civil action that it deems appropriate, including the restitution of money or property and the relief provided in <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§2-1403.07" codify:value="2-1403.07">307</code-cite> and <code-cite doc="D.C. Code" path="§2-1403.13|(a)" codify:value="2-1403.13(a)">313(a)</code-cite>.</text>
           </para>
           <para>
             <num>(f)</num>
-            <text>Any penalties recovered pursuant to this section shall be deposited in the Litigation Support Fund, as established by section 106b of the Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010, effective October 22, 2015 (D.C. Law 21-36; D.C. Official Code § 1-301.86b).</text>
+            <text>Any penalties recovered pursuant to this section shall be deposited in the Litigation Support Fund, as established by <code-cite doc="D.C. Code" path="§1-301.86b">section 106b of the Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010, effective October 22, 2015 (D.C. Law 21-36; D.C. Official Code § 1-301.86b)</code-cite>.</text>
           </para>
           <para>
             <num>(g)</num>
@@ -341,13 +375,14 @@
             <num>(j)</num>
             <para>
               <num>(1)</num>
-              <text>Within 180 days after the effective date of the Attorney General Civil Rights Enforcement Clarification Amendment Act of 2022, passed on second reading on December 20, 2022 (Enrolled version of Bill 24-446), the Attorney General and the Office may enter into, and may from time to time update, a memorandum of understanding ("MOU") that addresses subjects such as the agencies' sharing of information and documents, notifications, and the procedures underlying the Attorney General's defense and enforcement of the Office's and the Commission's decisions and orders.</text>
+              <text>Within 180 days after <span codify:value="March 10, 2023">the effective date of the Attorney General Civil Rights Enforcement Clarification Amendment Act of 2022, passed on second reading on December 20, 2022 (Enrolled version of Bill 24-446)</span>, the Attorney General and the Office may enter into, and may from time to time update, a memorandum of understanding ("MOU") that addresses subjects such as the agencies' sharing of information and documents, notifications, and the procedures underlying the Attorney General's defense and enforcement of the Office's and the Commission's decisions and orders.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>No provision of this act, or rules issued pursuant to this act, shall be construed to limit the information sharing between the Attorney General and the Office that the MOU may authorize; except, that such information sharing shall remain limited by any confidentiality requirements in any other law.</text>
+              <text>No provision of <code-cite doc="D.C. Code" path="2|14|A">this act</code-cite>, or rules issued pursuant to <code-cite doc="D.C. Code" path="2|14|A">this act</code-cite>, shall be construed to limit the information sharing between the Attorney General and the Office that the MOU may authorize; except, that such information sharing shall remain limited by any confidentiality requirements in any other law.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 2-38" type="History" path="§316a">Dec. 13, 1977, D.C. Law 2-38, title III, § 316a</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>

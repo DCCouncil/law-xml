@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-730">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-294">
+  <num type="law">24-294</num>
   <num type="act">24-730</num>
   <num type="bill">24-419</num>
   <heading type="short">No Senior Hungry Omnibus Amendment Act of 2022</heading>
   <heading type="long">To amend the District of Columbia Act on the Aging to require the Department of Aging and Community Living to establish a Senior Nutrition Services Communications Plan, improve implementation of nutrition programming, and establish an Interagency Senior Food Security Taskforce; to amend the Food Stamp Expansion Act of 2009 to require the Department of Human Services to allow expanded access to the Supplemental Nutrition Assistance Program ("SNAP") enrollment system, adopt the Elderly Simplified Application Project, create a standard medical deduction for SNAP applications, and develop senior-targeted outreach and communications for online SNAP; to amend the Healthy Tots Act of 2014 to require the Office of State Superintendent of Education to provide outreach to adult day care centers eligible for the Child and Adult Care Food Program; and to amend the Department of Health Care Finance Establishment Act of 2007 to require reimbursable services under the Elderly and Persons with Physical Disabilities Medicaid waiver to include home-delivered meals, nutrition supplements, and medical nutrition therapy.</heading>
   <meta>
     <introduced>2021-10-01</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47958/Signed_Act/B24-0419-Signed_Act.pdf">D.C. Law 24-294</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/47958/Signed_Act/B24-0419-Signed_Act.pdf">D.C. Act 24-730</citation>
       <citation type="register">70 DCR 560</citation>
     </citations>
@@ -23,35 +25,42 @@
   <section>
     <num>2</num>
     <text>The District of Columbia Act on the Aging, effective October 29, 1975 (D.C. Law 1-24, D.C. Official Code § 7-501.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:doc="D.C. Code" codify:path="§7-502.01|(a)">
       <num>(a)</num>
       <text>Section 201 of Title II (D.C. Official Code § 7-502.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended by striking the word "means" and inserting the phrase "or "Senior" means" in its place.</text>
+        <codify:find-replace count="1">
+          <find>means</find>
+          <replace>or "Senior" means</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (4A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(4)"/>
             <num>(4A)</num>
             <text>"Nutrition services" means all District and federal programs providing food or nutrition assistance to seniors, including programs providing transportation and accessibility to food resources.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§7-502.01" applicability-path="§6" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
       <text>Title III is amended by adding new sections 319, 320, and 321 to read as follows:</text>
       <include>
         <section>
+          <codify:insert doc="D.C. Code" path="7|5|I|C" num-value="7-503.19" history-prefix="as added"/>
           <num>319</num>
           <heading proof="needed">Senior nutrition services communications plan.</heading>
           <para>
             <num>(a)</num>
-            <text>Within 180 days after the applicability date of the No Senior Hungry Omnibus Amendment Act of 2022, passed on 2nd reading on December 6, 2022 (Enrolled version of Bill 24-419), the Department shall establish and implement a senior nutrition services communications plan that, at a minimum:</text>
+            <text>Within 180 days after <span codify:value="[insert applicability date]">the applicability date of the No Senior Hungry Omnibus Amendment Act of 2022, passed on 2nd reading on December 6, 2022 (Enrolled version of Bill 24-419)</span>, the Department shall establish and implement a senior nutrition services communications plan that, at a minimum:</text>
             <para>
               <num>(1)</num>
               <text>Describes the outreach needs of the District's food insecure senior population and best practices for communicating with this population, including senior residents who are difficult to reach, such as those who are not currently participating in available programming;</text>
@@ -82,7 +91,7 @@
             <text>In preparing the plan required by subsection (a) of this section, the Department shall:</text>
             <para>
               <num>(1)</num>
-              <text>Coordinate with all District agencies providing services relevant to senior food insecurity and the taskforce established by section 321; and</text>
+              <text>Coordinate with all District agencies providing services relevant to senior food insecurity and the taskforce established by <code-cite doc="D.C. Code" path="§7-503.21">section 321</code-cite>; and</text>
             </para>
             <para>
               <num>(2)</num>
@@ -101,8 +110,11 @@
             <num>(c)</num>
             <text>The Department shall update the plan required by subsection (a) of this section every 3 years. The Department shall publish the plan required by subsection (a) of this section and all updates on its website.</text>
           </para>
+          <annotation doc="D.C. Law 1-24" type="History" path="§319">Oct. 29, 1975, D.C. Law 1-24, title III, §319</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§7-503.19" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert doc="D.C. Code" path="7|5|I|C" num-value="7-503.20" history-prefix="as added"/>
           <num>320</num>
           <heading proof="needed">Nutrition services.</heading>
           <para>
@@ -111,7 +123,7 @@
           </para>
           <para>
             <num>(b)</num>
-            <text>The Department shall implement the Senior Food Security Plan prepared by the Senior Food Security Interagency Taskforce under section 321(c)(3), including monitoring actions taken by other affected agencies.</text>
+            <text>The Department shall implement the Senior Food Security Plan prepared by the Senior Food Security Interagency Taskforce under <code-cite doc="D.C. Code" path="§7-503.21|(c)|(3)">section 321(c)(3)</code-cite>, including monitoring actions taken by other affected agencies.</text>
           </para>
           <para>
             <num>(c)</num>
@@ -137,8 +149,11 @@
             <num>(d)</num>
             <text>All agencies providing senior nutrition services shall provide all data or information relevant to the annual progress report required by subsection (c) of this section to the Department upon request.</text>
           </para>
+          <annotation doc="D.C. Law 1-24" type="History" path="§320">Oct. 29, 1975, D.C. Law 1-24, title III, §320</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§7-503.20" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert doc="D.C. Code" path="7|5|I|C" num-value="7-503.21" history-prefix="as added"/>
           <num>321</num>
           <heading proof="needed">Senior Food Security Interagency Taskforce.</heading>
           <para>
@@ -174,11 +189,11 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>Advise the Department in the development of the senior nutrition services communications plan required by section 319;</text>
+              <text>Advise the Department in the development of the senior nutrition services communications plan required by <code-cite doc="D.C. Code" path="§7-503.19">section 319</code-cite>;</text>
             </para>
             <para>
               <num>(3)</num>
-              <text>Within one year after the applicability date of the No Senior Hungry Omnibus Amendment Act of 2022, passed on 2nd reading December 6, 2022 (Enrolled version of Bill 24-419), prepare a Senior Food Security Plan that:</text>
+              <text>Within one year after <span codify:value="[insert applicability date]">the applicability date of the No Senior Hungry Omnibus Amendment Act of 2022, passed on 2nd reading December 6, 2022 (Enrolled version of Bill 24-419)</span>, prepare a Senior Food Security Plan that:</text>
               <para>
                 <num>(A)</num>
                 <text>Describes the state of food security among the District's senior population, including a description of the food insecure population by geography and demographics, root causes of food insecurity, and risks of food insecurity for the senior population, as well as descriptions of any subcategories among food insecure seniors, including the specific root causes, risks, and unique needs of such subcategories;</text>
@@ -193,7 +208,7 @@
               </para>
               <para>
                 <num>(D)</num>
-                <text>Identifies cross-promotion and referral pathways consistent with the senior food services communications plan required by section 319;</text>
+                <text>Identifies cross-promotion and referral pathways consistent with the senior food services communications plan required by <code-cite doc="D.C. Code" path="§7-503.19">section 319</code-cite>;</text>
               </para>
               <para>
                 <num>(E)</num>
@@ -213,27 +228,32 @@
               <text>Provide opportunity for public comment on the Senior Food Security Plan required by subsection (c)(3) of this section.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 1-24" type="History" path="§321">Oct. 29, 1975, D.C. Law 1-24, title III, §321</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§7-503.21" applicability-path="§4" action="creation of" display-template=""/>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>3</num>
     <text>The Food Stamp Expansion Act of 2009, effective March 3, 2010 (D.C. Law 18-111, D.C. Official Code § 4-261.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-261.01">
       <num>(a)</num>
       <text>Section 5081 (D.C. Official Code § 4-261.01) is amended by adding a new paragraph (4A) to read as follows:</text>
+      <para>
+        <codify:insert after="(4)"/>
+        <num>(4A)</num>
+        <text> "SNAP"  means the Supplemental Nutrition Assistance Program, established pursuant to section 4 of the Food Stam Act of 1964, approved August 31, 1964 (78 Stat. 703; 7 U.S.C. § 201).</text>
+      </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-261.01" applicability-path="§4" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
-      <text>"(4A) "SNAP"  means the Supplemental Nutrition Assistance Program, established pursuant to section 4 of the Food Stam Act of 1964, approved August 31, 1964 (78 Stat. 703; 7 U.S.C. § 201).</text>
-    </para>
-    <para>
-      <num>(c)</num>
       <text>A new section 5085 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="4|2B|I" num-value="4-261.05" history-prefix="as added"/>
           <num>5085</num>
           <heading proof="needed">Senior SNAP participation.</heading>
           <para>
@@ -241,7 +261,7 @@
             <text>To increase the number of eligible seniors enrolled in SNAP, the Department of Human Services shall:</text>
             <para>
               <num>(1)</num>
-              <text>Within one year after the applicability date of the No Senior Hungry Omnibus Amendment Act of 2022, passed on 2nd reading on December 6, 2022 (Enrolled version of Bill 24-419) ("No Senior Hungry Omnibus Amendment Act"), allow community-based organizations engaged in SNAP outreach and enrollment to access the SNAP enrollment system on behalf of SNAP participants; except, that the Department of Human Services may certify specific community-based organizations or allow individual SNAP participants to designate a proxy;</text>
+              <text>Within one year after <span codify:value="[inser appl. date]">the applicability date of the No Senior Hungry Omnibus Amendment Act of 2022, passed on 2nd reading on December 6, 2022 (Enrolled version of Bill 24-419) ("No Senior Hungry Omnibus Amendment Act")</span>, allow community-based organizations engaged in SNAP outreach and enrollment to access the SNAP enrollment system on behalf of SNAP participants; except, that the Department of Human Services may certify specific community-based organizations or allow individual SNAP participants to designate a proxy;</text>
             </para>
             <para>
               <num>(2)</num>
@@ -267,26 +287,36 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 18-111" type="History" path="§5085">Mar. 3, 2010, D.C. Law 18-111, § 5085</annotation>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-261.05" applicability-path="§4" action="creation of" display-template=""/>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>4</num>
     <text>The Healthy Tots Act of 2014, effective February 26, 2015 (D.C. Law 20-155; D.C. Official Code § 38-281 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§38-285">
       <num>(a)</num>
       <text>Section 4077 (D.C. Official Code § 38-285) is amended by striking the phrase "This subtitle shall apply" and inserting the phrase "Sections 4072 through 4075 shall apply" in its place.</text>
+      <codify:find-replace count="1">
+        <find>This chapter</find>
+        <replace>Sections <code-cite doc="D.C. Code" path="§38-281" codify:value="38-281">4072</code-cite> through <code-cite doc="D.C. Code" path="§38-284" codify:value="38-284">4075</code-cite></replace>
+      </codify:find-replace>
+      <codify:not-funded-anno doc="D.C. Code" path="§38-285" applicability-path="§4" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
       <text>A new section 4078 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="38|2B" num-value="38-286" history-prefix="as added"/>
           <num>4078</num>
           <heading proof="needed">Adult day care participation.</heading>
-          <text>Within 180 days after the applicability date of the No Senior Hungry Omnibus Amendment Act of 2022, passed on 2nd reading on December 6, 2022 (Enrolled version of Bill 24-419), OSSE shall identify all adult day care centers in the District eligible for the CACF Program and provide outreach and technical assistance to nonparticipating centers to enroll them in the CACF Program.</text>
+          <text>Within 180 days after <span codify:value="[insert applicability]">the applicability date of the No Senior Hungry Omnibus Amendment Act of 2022, passed on 2nd reading on December 6, 2022 (Enrolled version of Bill 24-419)</span>, OSSE shall identify all adult day care centers in the District eligible for the CACF Program and provide outreach and technical assistance to nonparticipating centers to enroll them in the CACF Program.</text>
+          <annotation doc="D.C. Law 20-155" type="History" path="§4078">Feb. 26, 2015, D.C. Law 20-155, §  4078</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§38-286" applicability-path="§4" action="creation of" display-template=""/>
     </para>
   </section>
   <section>
@@ -294,11 +324,12 @@
     <text>The Department of Health Care Finance Establishment Act of 2007, effective February 27, 2008 (D.C. Law 17-109; D.C. Official Code § 7-771.01 <em>et seq</em>.), is amended by adding a new section 11b to read as follows:</text>
     <include>
       <section>
+        <codify:insert doc="D.C. Code" path="7|7D" after="§7-771.10a" num-value="7-771.10b" history-prefix="as added"/>
         <num>11b</num>
         <heading proof="needed">Nutrition services.</heading>
         <para>
           <num>(a)</num>
-          <text>Within one year after the applicability date of the No Senior Hungry Omnibus Amendment Act of 2022, passed on 2nd  reading on December 6, 2022 (Enrolled version of Bill 24-419), the Department shall amend the services included in the Elderly and Persons with Physical Disabilities ("EPD") waiver to include:</text>
+          <text>Within one year after <span codify:value="[insert applicability date]">the applicability date of the No Senior Hungry Omnibus Amendment Act of 2022, passed on 2nd  reading on December 6, 2022 (Enrolled version of Bill 24-419)</span>, the Department shall amend the services included in the Elderly and Persons with Physical Disabilities ("EPD") waiver to include:</text>
           <para>
             <num>(1)</num>
             <text>Home-delivered meals to maintain optimal nutritional and health status of waiver enrollees;</text>
@@ -332,9 +363,11 @@
             <text>"Medical nutrition therapy" means screening, assessment, diagnosis, intervention, and ongoing monitoring, evaluation, and counseling provided by a licensed dietitian or nutritionist.</text>
           </para>
         </para>
+        <annotation doc="D.C. Law 17-109" type="History" path="§11b">Feb. 27, 2008, D.C. Law 17-109, § 11b</annotation>
       </section>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§7-771.10b" applicability-path="§4" action="creation of" display-template=""/>
   </section>
   <section>
     <num>6</num>
@@ -342,6 +375,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability  doc="D.C. Law 24-294" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

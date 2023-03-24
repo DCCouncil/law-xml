@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-757">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-291">
+  <num type="law">24-291</num>
   <num type="act">24-757</num>
   <num type="bill">24-200</num>
   <heading type="short">Internet Equity Amendment Act of 2022</heading>
   <heading type="long">To amend the Office of the Chief Technology Officer Establishment Act of 1998 to clarify the obligation and function of the Office of the Chief Technology Officer to pursue reasonable, affordable, and equitable access to high-speed internet services for all District residents and businesses, to require the Office of the Chief Technology Officer to identify and remedy various barriers to equitable internet access, and to require a status report on the District's participation in certain federal programs promoting internet equity, a study of the feasibility of federally funded fiber and conduit broadband infrastructure, and an assessment of the extent of certain potential gaps in federally supported internet equity programs.</heading>
   <meta>
     <introduced>2021-04-01</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/46926/Signed_Act/B24-0200-Signed_Act.pdf">D.C. Law 24-291</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/46926/Signed_Act/B24-0200-Signed_Act.pdf">D.C. Act 24-757</citation>
       <citation type="register">70 DCR 825</citation>
     </citations>
@@ -20,7 +22,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Internet Equity Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Office of the Chief Technology Officer Establishment Act of 1998, effective March 26, 1999 (D.C. Law 12-175; D.C. Official Code § 1-1401, <em>et seq.</em>), is amended as follows:</text>
     <para>
@@ -28,22 +30,29 @@
       <text>A new section 1812a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert doc="D.C. Code" path="1|14|I" after="§1-1401" num-value="1-1401.01" history-prefix="as added"/>
           <num>1812a</num>
           <heading proof="needed">Definitions.</heading>
-          <text>For the purpose of this act, the term "Office" means the Office of the Chief Technology Officer, established by section 1812.</text>
+          <text>For the purpose of <code-cite doc="D.C. Code" path="1|14|I">this act</code-cite>, the term "Office" means the Office of the Chief Technology Officer, established by <code-cite doc="D.C. Code" path="§1-1401">section 1812</code-cite>.</text>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 12-175" type="History" path="§1812a">Mar. 26, 1999, D.C. Law 12-175, § 1812a</annotation>
     </para>
-    <para>
+    <para codify:path="§1-1402">
       <num>(b)</num>
       <text>Section 1813 (D.C. Official Code § 1-1402) is amended by striking the phrase "In addition, the Office may work to ensure that reasonable, affordable access to high-speed Internet services is available to District residents and businesses." and inserting the phrase "In addition, the Office shall work to ensure that all District residents and businesses have reasonable, affordable, and equitable access to high-speed Internet services." in its place.</text>
+      <codify:find-replace count="1">
+        <find>In addition, the Office may work to ensure that reasonable, affordable access to high-speed Internet services is available to District residents and businesses.</find>
+        <replace>In addition, the Office shall work to ensure that all District residents and businesses have reasonable, affordable, and equitable access to high-speed Internet services.</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§1-1403|(11)">
       <num>(c)</num>
       <text>Section 1814(11) (D.C. Official Code § 1-1403(11)) is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace/>
           <num>(11)</num>
           <text>Develop and implement solutions designed to ensure that all District residents and businesses have equitable and affordable access to high-speed Internet services;</text>
         </para>
@@ -55,6 +64,7 @@
       <text>A new section 1814a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="1|14|I" after="§1-1403" num-value="1-1403.01" history-prefix="as added"/>
           <num>1814a</num>
           <heading proof="needed">Digital equity planning and reporting.</heading>
           <para>
@@ -63,7 +73,7 @@
           </para>
           <para>
             <num>(b)</num>
-            <text>Within 90 days after the effective date of the Internet Equity Amendment Act of 2022, passed on second reading on December 20, 2022 (Enrolled version of Bill 24-200), the Office shall deliver to the Council and post on its website an internet equity status report.</text>
+            <text>Within 90 days after <span codify:value="March 10, 2023">the effective date of the Internet Equity Amendment Act of 2022, passed on second reading on December 20, 2022 (Enrolled version of Bill 24-200)</span>, the Office shall deliver to the Council and post on its website an internet equity status report.</text>
             <para>
               <num>(1)</num>
               <text>The report shall include a description of the District's participation in federal programs pursuant to BIL, including:</text>
@@ -95,7 +105,7 @@
           </para>
           <para>
             <num>(c)</num>
-            <text>Within 1 year after the effective date of the Internet Equity Amendment Act of 2022, passed on second reading on December 20, 2022 (Enrolled version of Bill 24-200), the Office shall develop or obtain and shall deliver to the Council and post on its website a study of the feasibility and anticipated consequences of one or more projects using local or federal grant funds to increase District-owned fiber and conduit broadband infrastructure in areas identified by the Office as least likely to receive affordable, reliable high-speed internet service absent such investments, including:</text>
+            <text>Within 1 year after <span codify:value="March 10, 2023">the effective date of the Internet Equity Amendment Act of 2022, passed on second reading on December 20, 2022 (Enrolled version of Bill 24-200)</span>, the Office shall develop or obtain and shall deliver to the Council and post on its website a study of the feasibility and anticipated consequences of one or more projects using local or federal grant funds to increase District-owned fiber and conduit broadband infrastructure in areas identified by the Office as least likely to receive affordable, reliable high-speed internet service absent such investments, including:</text>
             <para>
               <num>(1)</num>
               <text>Overall recommendations as to the scale of such projects that may reasonably be completed within the implementation periods of any major BIL programs in which the Office intends to participate;</text>
@@ -125,7 +135,7 @@
             <num>(d)</num>
             <para>
               <num>(1)</num>
-              <text>Within 1 year after the effective date of the Internet Equity Amendment Act of 2022, passed on second reading on December 20, 2022 (Enrolled version of Bill 24-200), the Office shall deliver to the Council, and post on its website, an internet equity gap assessment report ("GA report").</text>
+              <text>Within 1 year after <span codify:value="March 10, 2023">the effective date of the Internet Equity Amendment Act of 2022, passed on second reading on December 20, 2022 (Enrolled version of Bill 24-200)</span>, the Office shall deliver to the Council, and post on its website, an internet equity gap assessment report ("GA report").</text>
             </para>
             <para>
               <num>(2)</num>
@@ -195,7 +205,9 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 12-175" type="History" path="§1814a">Mar. 26, 1999, D.C. Law 12-175, § 1814a</annotation>
     </para>
+
   </section>
   <section>
     <num>3</num>

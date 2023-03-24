@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-728">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-290">
+  <num type="law">24-290</num>
   <num type="act">24-728</num>
   <num type="bill">24-133</num>
   <heading type="short">Personal Medical Record Fee Amendment Act of 2022</heading>
   <heading type="long">To amend the District of Columbia Health Occupations Revision Act of 1985 to limit the amount of fees that a health care entity may charge persons authorized or designated to receive information by the patient or client or on behalf of the patient or client to obtain personal medical records and to extend the period of time personal medical records must be stored.</heading>
   <meta>
     <introduced>2021-03-01</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/46655/Signed_Act/B24-0133-Signed_Act.pdf">D.C. Law 24-290</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/46655/Signed_Act/B24-0133-Signed_Act.pdf">D.C. Act 24-728</citation>
       <citation type="register">70 DCR 553</citation>
     </citations>
@@ -20,7 +22,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Personal Medical Record Fee Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The District of Columbia Health Occupations Revision Act of 1985, March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01 <em>et seq.</em>), is amended as follows:</text>
     <para>
@@ -34,18 +36,23 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§3-1201.01|(a)">
       <num>(b)</num>
       <text>Section 101 (D.C. Official Code 3-1201.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(11A)|num">
         <num>(1)</num>
         <text>The existing paragraph (11A) is redesignated as paragraph (11B).</text>
+        <codify:find-replace count="1">
+          <find>(11A)</find>
+          <replace>(11B)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (11A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(11)"/>
             <num>(11A)</num>
             <text>"Personal medical record" means:</text>
             <para>
@@ -61,29 +68,35 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§3-1210.11">
       <num>(c)</num>
       <text>Section 1011 (D.C. Official Code § 3-1210.11) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
-        <para>
+        <para codify:path="text">
           <num>(A)</num>
           <text>The lead-in language is amended to read as follows:</text>
           <include>
             <text>Upon written request from a patient or client, or person authorized to have access to the patient's personal medical record under a health care power of attorney for the patient or client, a health care entity having custody and control of the patient's or client's personal medical record shall furnish a complete and current copy of that personal medical record. If the patient or client is deceased, the request may be made by:</text>
           </include>
           <aftertext>.</aftertext>
+          <codify:find-replace count="1">
+            <find>Upon written request from a patient or client, or person authorized to have access to the patient’s record under a health care power of attorney for the patient or client, the health care provider having custody and control of the patient’s or client’s record shall furnish, within a reasonable period of time, a complete and current copy of that record. If the patient or client is deceased, the request may be made by:</find>
+            <replace>Upon written request from a patient or client, or person authorized to have access to the patient's personal medical record under a health care power of attorney for the patient or client, a health care entity having custody and control of the patient's or client's personal medical record shall furnish a complete and current copy of that personal medical record. If the patient or client is deceased, the request may be made by:</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="(6)">
           <num>(C)</num>
           <text>Paragraph (6) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(6)</num>
               <text>Any survivor of the decedent or other persons involved in the decedent's health care or payment prior to the decedent's death, unless doing so would be inconsistent with any expressed preference of the decedent that is known to the health care entity.</text>
             </para>
@@ -91,18 +104,23 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "A health care provider may require the patient or client, or person authorized to have access to the patient's or client's record," and inserting the phrase "A health care entity may require the patient or client, a person authorized to have access to the patient's or client's record under a health care power of attorney for the patient or client, or, if the patient or client is deceased, a person listed under subsection (a) of this section," in its place.</text>
+          <codify:find-replace count="1">
+            <find>A health care provider may require the patient or client, or person authorized to have access to the patient's or client's record,</find>
+            <replace>A health care entity may require the patient or client, a person authorized to have access to the patient's or client's record under a health care power of attorney for the patient or client, or, if the patient or client is deceased, a person listed under subsection (a) of this section,</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(2)</num>
               <text>A health care entity shall not charge a person authorized to have access to a patient's or client's personal medical record under a health care power of attorney for the patient or client or, if the patient or client is deceased, a person listed under subsection (a) of this section, a fee different than the one the health care entity would charge the patient or client.</text>
             </para>
@@ -110,11 +128,12 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c)</num>
             <text>Medical records shall be maintained for a minimum period of 5 years from the date of last contact for an adult and a minimum period of 5 years after a minor reaches the age of majority.</text>
           </para>
@@ -126,6 +145,7 @@
         <text>A new subsection (d) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(d)</num>
             <text>For purposes of this section, the term "health care entity" means a health care provider or a business associate as defined in 45 C.F.R. § 160.103.</text>
           </para>
@@ -138,6 +158,8 @@
       <text>A new section 1011a is added to read as follows:</text>
       <include>
         <section>
+          
+          <codify:insert path="3|12|X" after="§3-1210.11" num-value="[3-1210.12]" history-prefix="as added"/>
           <num>1011a</num>
           <heading proof="needed">Persons authorized by a patient or client to receive personal medical records.</heading>
           <para>
@@ -217,6 +239,7 @@
             <num>(e)</num>
             <text>For purposes of this section, the term "health care entity" means a health care provider or a business associate as defined in 45 C.F.R. § 160.103.</text>
           </para>
+            <annotation doc="D.C. Law 6-99" type="History" path="§1011a">Mar. 25, 1986, D.C. Law 6-99, § 1011a</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
