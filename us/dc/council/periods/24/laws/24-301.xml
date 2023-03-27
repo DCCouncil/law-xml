@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-733">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-301">
+  <num type="law">24-301</num>
   <num type="act">24-733</num>
   <num type="bill">24-600</num>
   <heading type="short">Give SNAP a Raise Amendment Act of 2022</heading>
   <heading type="long">To amend the Food Stamp Expansion Act of 2009 to replace the phrase "food stamps" with the word "SNAP" and to provide a locally funded benefit equal to 10% of a household's federal maximum monthly allotment.</heading>
   <meta>
     <introduced>2022-01-03</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/48552/Signed_Act/B24-0600-Signed_Act.pdf">D.C. Law 24-301</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/48552/Signed_Act/B24-0600-Signed_Act.pdf">D.C. Act 24-733</citation>
       <citation type="register">70 DCR 581</citation>
     </citations>
@@ -20,25 +22,35 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Give SNAP a Raise Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Food Stamp Expansion Act of 2009, effective March 3, 2010 (D.C. Law 18-111; D.C. Official Code § 4-261.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-261.01">
       <num>(a)</num>
       <text>Section 5081 (D.C. Official Code § 4-261.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended by striking the phrase "the food stamps program" and inserting the word "SNAP" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the food stamps program</find>
+          <replace>SNAP</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(2)</num>
         <text>Paragraph (2) is amended by striking the phrase "Food stamp program" and inserting the word "SNAP" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Food stamp program</find>
+          <replace>SNAP</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (4A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+           <codify:replace path="(4A)"/>
+            <!-- same language in L24-294 but NF -->
             <num>(4A)</num>
             <text>"SNAP" means the Supplemental Nutrition Assistance Program, established pursuant to section 4 of the Food Stamp Act of 1964, approved August 31, 1964 (78 Stat. 703; 7 U.S.C. § 2013).</text>
           </para>
@@ -49,17 +61,26 @@
     <para>
       <num>(b)</num>
       <text>The section heading of section 5082 (D.C. Official Code § 4-261.02) is amended by striking the phrase "food stamps" and inserting the word "SNAP" in its place.</text>
+      <codify:find-replace path="§4-261.02|heading" count="1">
+        <find>food stamps</find>
+        <replace>SNAP</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>Section 5083(b) (D.C. Official Code § 4-261.03(b)) is amended by striking the phrase "food stamp program" and inserting the word "SNAP" in its place.</text>
+      <codify:find-replace path="§4-261.03|(b)" count="1">
+        <find>food stamp program</find>
+        <replace>SNAP</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(d)</num>
       <text>Section 5084 (D.C. Official Code § 4-261.04) is amended to read as follows:</text>
       <include>
         <section>
-          <num>5084</num>
+          <codify:replace path="§4-261.04"/>
+          <num codify:value="4-261.04">5084</num>
           <heading proof="needed">Locally funded supplemental benefits.</heading>
           <para>
             <num>(a)</num>
@@ -72,6 +93,7 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-261.04" applicability-path="§3" action="amendment of subsection (b) of" display-template=""/>
     </para>
   </section>
   <section>
@@ -80,6 +102,11 @@
     <para>
       <num>(a)</num>
       <text>Amendatory section 5084(b) within section 2(d) shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:repeal doc="D.C. Code" path="§4-261.04|(b)" history="false" display-template=""/>
+      <codify:find-replace doc="D.C. Code" path="§4-261.04|(b)" history="false" display-template="" count="1">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>

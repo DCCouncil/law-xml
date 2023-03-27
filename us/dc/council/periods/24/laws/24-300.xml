@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-785">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-300">
+  <num type="law">24-300</num>
   <num type="act">24-785</num>
   <num type="bill">24-570</num>
   <heading type="short">Schools First in Budgeting Amendment Act of 2022</heading>
   <heading type="long">To establish additional requirements for the submission of the annual budget for the District of Columbia Public Schools, to establish the method for developing the budget for the District of Columbia Public Schools system by requiring that schools' budgets be established first based on each school's previous year's budget and other factors, with the remainder of requested funds to be allocated between the School-Wide, School Support, and Central Administration departments, to provide that a school's budget will be under the control of the school's principal, to maintain reporting requirements on school expenditures and add reporting requirements on the uses of the at-risk concentration supplement; and to make conforming amendments.</heading>
   <meta>
     <introduced>2021-12-20</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/48460/Signed_Act/B24-0570-Signed_Act.pdf">D.C. Law 24-300</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/48460/Signed_Act/B24-0570-Signed_Act.pdf">D.C. Act 24-785</citation>
       <citation type="register">70 DCR 1021</citation>
     </citations>
@@ -21,6 +23,13 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Schools First in Budgeting Amendment Act of 2022".</text>
+  <codify:insert doc="D.C. Code" path="38" after="28" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>28A</num>
+      <heading>Additional Requirements for the Submission of the Annual Budget for the District of Columbia Public Schools.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>I</num>
@@ -30,11 +39,12 @@
       <heading proof="needed">This title may be cited as the "Schools First in Budgeting Amendment Act of 2022".</heading>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="38|28A" num-value="38-2851.01"/>
       <num>102</num>
       <heading proof="needed">Definitions.</heading>
       <para>
         <num undesignated="true">(a)</num>
-        <text>For the purposes of this title, the term:</text>
+        <text>For the purposes of <code-cite doc="D.C. Code" path="38|28A">this title</code-cite>, the term:</text>
         <para>
           <num>(1)</num>
           <text>"Central Administration" means the programs, services, and employees that support the functions necessary for the governance of the DCPS school district as a whole, including general oversight and management of support services, such as procurement, human resources, and financial administration, whose costs are not attributable to School Support, School-Wide, or Local Schools.</text>
@@ -69,11 +79,12 @@
         </para>
         <para>
           <num>(9)</num>
-          <text>"UPSFF Act" means the Uniform Per Student Funding Formula for Public Schools and Public Charter Schools Act of 1998, effective March 26, 1999 (D.C. Law 12-207; D.C. Official Code § 38-2901 <em>et seq.</em>).</text>
+          <text>"UPSFF Act" means <code-cite doc="D.C. Code" path="38|29|I">the Uniform Per Student Funding Formula for Public Schools and Public Charter Schools Act of 1998, effective March 26, 1999 (D.C. Law 12-207; D.C. Official Code § 38-2901 <em>et seq.</em>)</code-cite>.</text>
         </para>
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="38|28A" num-value="38-2851.02"/>
       <num>103</num>
       <heading proof="needed">DCPS's annual budget.</heading>
       <para>
@@ -226,7 +237,7 @@
       </para>
       <para>
         <num>(d)</num>
-        <text>Annually, no later than 42 calendar days before the Mayor's submission of the District's budget and financial plan to the Council and in accordance with section 104(d), the Chancellor shall make available on DCPS's website a detailed estimate of the amount of money required to operate DCPS for the ensuing year, including the Schools First budget, described in section 104(a), for each school.</text>
+        <text>Annually, no later than 42 calendar days before the Mayor's submission of the District's budget and financial plan to the Council and in accordance with <code-cite doc="D.C. Code" path="§38-2851.03|(d)">section 104(d)</code-cite>, the Chancellor shall make available on DCPS's website a detailed estimate of the amount of money required to operate DCPS for the ensuing year, including the Schools First budget, described in <code-cite doc="D.C. Code" path="§38-2851.03|(a)">section 104(a)</code-cite>, for each school.</text>
       </para>
       <para>
         <num>(e)</num>
@@ -242,7 +253,7 @@
       </para>
       <para>
         <num>(f)</num>
-        <text>No less than 90% of the funds allocated to DCPS pursuant to section 106a(a) and (b) of the UPSFF Act (D.C. Official Code § 38-2905.01(a) and (b)) shall be allocated to the Local Schools and School-Wide departments. Such funds shall be supplemental to and not supplant any Uniform Per Student Funding Formula, federal, or other funds.</text>
+        <text>No less than 90% of the funds allocated to DCPS pursuant to <code-cite doc="D.C. Code" path="§38-2905|(a)">section 106a(a)</code-cite> and (b)<span codify:value=""> of the UPSFF Act (D.C. Official Code § 38-2905.01(a) and (b))</span> shall be allocated to the Local Schools and School-Wide departments. Such funds shall be supplemental to and not supplant any Uniform Per Student Funding Formula, federal, or other funds.</text>
       </para>
       <para>
         <num>(g)</num>
@@ -253,7 +264,7 @@
         <text>For the purposes of this section:</text>
         <para>
           <num>(1)</num>
-          <text>The following terms shall have the same meaning as provided in section 102 of the UPSFF Act (D.C. Official Code § 38-2901):</text>
+          <text>The following terms shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§38-2901">section 102 of the UPSFF Act (D.C. Official Code § 38-2901)</code-cite>:</text>
           <para>
             <num>(A)</num>
             <text>"Adult education";</text>
@@ -285,7 +296,7 @@
         </para>
         <para>
           <num>(2)</num>
-          <text>The following terms shall have the same meaning as provided in section 106 of the UPSFF Act (D.C. Official Code §38-2905):</text>
+          <text>The following terms shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§38-2905">section 106 of the UPSFF Act (D.C. Official Code § 38-2905)</code-cite>:</text>
           <para>
             <num>(A)</num>
             <text>"At-risk high school over-age supplement";</text>
@@ -330,6 +341,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="38|28A" num-value="38-2851.03"/>
       <num>104</num>
       <heading proof="needed">Schools First budgets.</heading>
       <para>
@@ -344,7 +356,7 @@
           </para>
           <para>
             <num>(B)</num>
-            <text>Pandemic Supplement Fund funds authorized by section 106b of the UPSFF Act (D.C. Official Code § 38-2905.02);</text>
+            <text>Pandemic Supplement Fund funds authorized by <code-cite doc="D.C. Code" path="§38-2905.02">section 106b of the UPSFF Act (D.C. Official Code § 38-2905.02)</code-cite>;</text>
           </para>
           <para>
             <num>(C)</num>
@@ -352,7 +364,7 @@
           </para>
           <para>
             <num>(D)</num>
-            <text>Federal Investment in Schools funds as authorized by section 1003 of the Elementary and Secondary Education Act of 1965, approved January 8, 2002 (115 Stat. 1442; 20 U.S.C. § 6303));</text>
+            <text>Federal Investment in Schools funds as authorized by section 1003 of the Elementary and Secondary Education Act of 1965, approved January 8, 2002 (115 Stat. 1442; 20 U.S.C. § 6303);</text>
           </para>
           <para>
             <num>(E)</num>
@@ -360,7 +372,7 @@
           </para>
           <para>
             <num>(F)</num>
-            <text>District at-risk concentration supplement funds authorized by section 106a(c-2) of the UPSFF Act (Official Code § 38-2905.01(c-2)).</text>
+            <text>District at-risk concentration supplement funds authorized by <code-cite doc="D.C. Code" path="§38-2905.01|(c-2)">section 106a(c-2) of the UPSFF Act (D.C. Official Code § 38-2905.01(c-2))</code-cite>.</text>
           </para>
         </para>
         <para>
@@ -409,11 +421,11 @@
         </para>
         <para>
           <num>(8)</num>
-          <text>Adjust the amount derived pursuant to paragraph (7) of this subsection by the amount of per pupil funding derived from a proposed change, if any, to the weight for the forthcoming school year for the at-risk general education add-on described in section 106 of the UPSFF Act (D.C. Official Code § 38-2905).</text>
+          <text>Adjust the amount derived pursuant to paragraph (7) of this subsection by the amount of per pupil funding derived from a proposed change, if any, to the weight for the forthcoming school year for the at-risk general education add-on described in <code-cite doc="D.C. Code" path="§38-2905">section 106 of the UPSFF Act (D.C. Official Code § 38-2905)</code-cite>.</text>
         </para>
         <para>
           <num>(9)</num>
-          <text>As applicable, increase the amount derived pursuant to paragraph (7) of this subsection by the amount to be allocated to the school through the at-risk concentration supplement provided pursuant to section 106a(c-2) of the UPSFF Act (D.C. Official Code § 38-2905.01(c-2)).</text>
+          <text>As applicable, increase the amount derived pursuant to paragraph (7) of this subsection by the amount to be allocated to the school through the at-risk concentration supplement provided pursuant to <code-cite doc="D.C. Code" path="§38-2905.01|(c-2)">section 106a(c-2) of the UPSFF Act (D.C. Official Code § 38-2905.01(c-2))</code-cite>.</text>
         </para>
         <para>
           <num>(10)</num>
@@ -441,6 +453,7 @@
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="38|28A" num-value="38-2851.04"/>
       <num>105</num>
       <heading proof="needed">Principal authority.</heading>
       <para>
@@ -453,10 +466,11 @@
       </para>
       <para>
         <num>(c)</num>
-        <text>The principal shall report to the Chancellor on how the at-risk concentration supplement provided to the school pursuant to section 106a(c-2) of the UPSFF Ac (D.C. Official Code § 38-2905.01(c-2)) is being used to improve student achievement among at-risk students.</text>
+        <text>The principal shall report to the Chancellor on how the at-risk concentration supplement provided to the school pursuant to <code-cite doc="D.C. Code" path="§38-2905.01|(c-2)">section 106a(c-2) of the UPSFF Ac (D.C. Official Code § 38-2905.01(c-2))</code-cite> is being used to improve student achievement among at-risk students.</text>
       </para>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="38|28A" num-value="38-2851.05"/>
       <num>106</num>
       <heading proof="needed">Reports.</heading>
       <para>
@@ -465,11 +479,11 @@
       </para>
       <para>
         <num>(b)</num>
-        <text>By March 31, 2024, and annually thereafter, the Mayor shall transmit a report of the previous school year's actual expenditures, for each school, to the Office of the State Superintendent of Education. The report shall conform to the common financial reporting standards established by the Department of Education pursuant to section 202(b)(10) of the Department of Education Establishment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-191(b)(10)).</text>
+        <text>By March 31, 2024, and annually thereafter, the Mayor shall transmit a report of the previous school year's actual expenditures, for each school, to the Office of the State Superintendent of Education. The report shall conform to the common financial reporting standards established by the Department of Education pursuant to <code-cite doc="D.C. Code" path="§38-191|(b)|(10)">section 202(b)(10) of the Department of Education Establishment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-191(b)(10))</code-cite>.</text>
       </para>
       <para>
         <num>(c)</num>
-        <text>By no later than November 30th of each year, the Chancellor shall provide a written report to the Council describing programmatically how at-risk allocations provided to DCPS pursuant to section 106a of the UPSFF Act (D.C. Official Code § 38-2905.01) were used in the previous school year to improve student achievement among at-risk students. The report also shall explain the allocation of at-risk funds sorted by individual school.".</text>
+        <text>By no later than November 30th of each year, the Chancellor shall provide a written report to the Council describing programmatically how at-risk allocations provided to DCPS pursuant to <code-cite doc="D.C. Code" path="§38-2905.01">section 106a of the UPSFF Act (D.C. Official Code § 38-2905.01)</code-cite> were used in the previous school year to improve student achievement among at-risk students. The report also shall explain the allocation of at-risk funds sorted by individual school.<span codify:value="">".</span></text>
       </para>
     </section>
   </container>
@@ -480,6 +494,7 @@
     <section>
       <num>201</num>
       <text>Section 104 of the Public Education Reform Amendment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-173), is repealed.</text>
+      <codify:repeal doc="D.C. Code" path="§38-173"/>
     </section>
     <section>
       <num>202</num>
@@ -487,15 +502,18 @@
       <para>
         <num>(a)</num>
         <text>Section 6 (D.C. Official Code § 38-2831) is repealed.</text>
+        <codify:repeal doc="D.C. Code" path="§38-2831"/>
       </para>
       <para>
         <num>(b)</num>
         <text>Section 6a (D.C. Official Code § 38-2832) is repealed.</text>
+        <codify:repeal doc="D.C. Code" path="§38-2832"/>
       </para>
     </section>
     <section>
       <num>203</num>
       <text>Section 108a of the Uniform Per Student Funding Formula for Public Schools and Public Charter Schools Act of 1998, effective February 22, 2014 (D.C. Law 20-87; D.C. Official Code § 38-2907.01), is repealed.</text>
+      <codify:repeal doc="D.C. Code" path="§38-2907.01"/>
     </section>
   </container>
   <container>
@@ -505,7 +523,7 @@
     <section>
       <num>301</num>
       <heading proof="needed">Fiscal impact statement.</heading>
-      <text>The Council adopts the fiscal impact statement in the committee report as the fiscal impact statement required by section 4a of the General Legislative Procedures Act of 1975, approved October 16, 2006 (120 Stat. 2038; D.C. Official Code§ 1-301.47a).</text>
+      <text>The Council adopts the fiscal impact statement in the committee report as the fiscal impact statement required by section 4a of the General Legislative Procedures Act of 1975, approved October 16, 2006 (120 Stat. 2038; D.C. Official Code § 1-301.47a).</text>
     </section>
     <section>
       <num>302</num>

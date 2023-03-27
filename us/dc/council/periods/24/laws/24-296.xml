@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-783">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-296">
+  <num type="law">24-296</num>
   <num type="act">24-783</num>
   <num type="bill">24-450</num>
   <heading type="short">Uniform Electronic Wills Amendment Act of 2022</heading>
   <heading type="long">To amend Title 18 of the District of Columbia Official Code to enact the Uniform Electronic Wills Act, to provide that an electronic will executed in compliance with specified statutory procedures is a will under the law of the District for all purposes, to provide for a rule of harmless error, to provide that an electronic will may revoke, and may be revoked by, a paper will, to provide a procedure whereby an electronic will may be simultaneously executed, attested, and made self-proving, and to permit a testator to create a certified paper copy of an electronic will; and to amend Title 21 of the District of Columbia Official Code to permit the removal of a guardian or conservator for neglect and financial exploitation of the ward or individual for whom the conservator has been appointed, to prohibit the appointment of a guardian or conservator removed for abuse of their powers, neglect, or financial exploitation for 5 years and require the guardian or conservator to demonstrate rehabilitation to the court's satisfaction, and to permit the court to report any misconduct by a guardian or conservator to an appropriate professional licensing authority.</heading>
   <meta>
     <introduced>2021-10-18</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/48072/Signed_Act/B24-0450-Signed_Act.pdf">D.C. Law 24-296</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/48072/Signed_Act/B24-0450-Signed_Act.pdf">D.C. Act 24-783</citation>
       <citation type="register">70 DCR 1012</citation>
     </citations>
@@ -20,16 +22,22 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Uniform Electronic Wills Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>Title 18 of the District of Columbia Code is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>The table of contents is amended by adding at the end the phrase "Chapter 9. Uniform Electronic Wills Act.".</text>
     </para>
-    <para>
+    <para codify:path="§18-103">
       <num>(b)</num>
       <text>Section 18-103 is amended by striking the phrase "section 18-107" and inserting the phrase "§ 18-107 or Chapter 9 of this title" in its place.</text>
+      <codify:find-replace count="1">
+        <find>
+          <cite doc="D.C. Code" path="§18-107">section 18-107</cite>
+        </find>
+        <replace><cite doc="D.C. Code" path="§18-107">section 18-107</cite> or <cite doc="D.C. Code" path="18|9">Chapter 9 of this title</cite></replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
@@ -94,19 +102,28 @@
             <num>18-911</num>
             <heading proof="needed">Transitional provision.</heading>
           </section>
+          <codify:insert doc="D.C. Code" path="18" after="7" history="false">
+            <container>
+              <prefix>Chapter</prefix>
+              <num>9</num>
+              <heading>Uniform Electronic Wills Act.</heading>
+            </container>
+          </codify:insert>
           <section>
+            <codify:insert path="18|9"/>
             <prefix>§</prefix>
             <num>18-901</num>
             <heading proof="needed">Short title.</heading>
             <text>This chapter may be cited as the Uniform Electronic Wills Act.</text>
           </section>
           <section>
+            <codify:insert path="18|9"/>
             <prefix>§</prefix>
             <num>18-902</num>
             <heading proof="needed">Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For the purposes of this chapter, the term:</text>
+              <text>For the purposes of <cite doc="D.C. Code" path="18|9">this chapter</cite>, the term:</text>
               <para>
                 <num>(1)</num>
                 <text>"Electronic" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.</text>
@@ -117,7 +134,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>"Electronic will" means a will executed electronically in compliance with § 18-905(a).</text>
+                <text>"Electronic will" means a will executed electronically in compliance with <cite doc="D.C. Code" path="§18-905|(a)">§ 18-905(a)</cite>.</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -146,18 +163,20 @@
             </para>
           </section>
           <section>
+            <codify:insert path="18|9"/>
             <prefix>§</prefix>
             <num>18-903</num>
             <heading proof="needed">Law applicable to electronic will; principles of equity.</heading>
-            <text>An electronic will is a will for all purposes of the law of the District of Columbia. The law of the District of Columbia applicable to wills and principles of equity apply to an electronic will, except as modified by this chapter.</text>
+            <text>An electronic will is a will for all purposes of the law of the District of Columbia. The law of the District of Columbia applicable to wills and principles of equity apply to an electronic will, except as modified by <cite doc="D.C. Code" path="18|9">this chapter</cite>.</text>
           </section>
           <section>
+            <codify:insert path="18|9"/>
             <prefix>§</prefix>
             <num>18-904</num>
             <heading proof="needed">Choice of law regarding execution.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>A will executed electronically but not in compliance with § 18-905(a) is an electronic will under this chapter if executed in compliance with the law of the jurisdiction where the testator is:</text>
+              <text>A will executed electronically but not in compliance with <cite doc="D.C. Code" path="§18-905|(a)">§ 18-905(a)</cite> is an electronic will under <cite doc="D.C. Code" path="18|9">this chapter</cite> if executed in compliance with the law of the jurisdiction where the testator is:</text>
               <para>
                 <num>(1)</num>
                 <text>Physically located when the will is signed; or</text>
@@ -169,12 +188,13 @@
             </para>
           </section>
           <section>
+            <codify:insert path="18|9"/>
             <prefix>§</prefix>
             <num>18-905</num>
             <heading proof="needed">Execution of electronic will.</heading>
             <para>
               <num>(a)</num>
-              <text>Subject to § 18-908(d) and except as provided in § 18-906, an electronic will shall be:</text>
+              <text>Subject to <cite doc="D.C. Code" path="§18-908|(d)">§ 18-908(d)</cite> and except as provided in <cite doc="D.C. Code" path="§18-906">§ 18-906</cite>, an electronic will shall be:</text>
               <para>
                 <num>(1)</num>
                 <text>A record that is readable as text at the time of signing under paragraph (2) of this subsection;</text>
@@ -210,12 +230,13 @@
             </para>
           </section>
           <section>
+            <codify:insert path="18|9"/>
             <prefix>§</prefix>
             <num>18-906</num>
             <heading proof="needed">Harmless error.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>A record readable as text not executed in compliance with § 18-905(a) is deemed to comply with § 18-905(a) if the proponent of the record establishes by clear and convincing evidence that the decedent intended the record to be:</text>
+              <text>A record readable as text not executed in compliance with <cite doc="D.C. Code" path="§18-905|(a)">§ 18-905(a)</cite> is deemed to comply with <cite doc="D.C. Code" path="§18-905|(a)">§ 18-905(a)</cite> if the proponent of the record establishes by clear and convincing evidence that the decedent intended the record to be:</text>
               <para>
                 <num>(1)</num>
                 <text>The decedent's will;</text>
@@ -235,6 +256,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="18|9"/>
             <prefix>§</prefix>
             <num>18-907</num>
             <heading proof="needed">Revocation.</heading>
@@ -256,6 +278,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="18|9"/>
             <prefix>§</prefix>
             <num>18-908</num>
             <heading proof="needed">Electronic will attested and made self-proving at time of execution.</heading>
@@ -268,7 +291,7 @@
               <text>The acknowledgement and affidavits under subsection (a) of this section shall be:</text>
               <para>
                 <num>(1)</num>
-                <text>Made before an officer authorized to administer oaths under law of the state in which execution occurs or, if fewer than two attesting witnesses are physically present in the same location as the testator at the time of signing under § 18-905(a)(2), before an officer authorized under § 1-1231.13a.; and</text>
+                <text>Made before an officer authorized to administer oaths under law of the state in which execution occurs or, if fewer than two attesting witnesses are physically present in the same location as the testator at the time of signing under <cite doc="D.C. Code" path="§18-905|(a)|(2)">§ 18-905(a)(2)</cite>, before an officer authorized under <cite doc="D.C. Code" path="§1-1231.13a">§ 1-1231.13a</cite>.; and</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -281,42 +304,54 @@
               <text>I, ______________________________, the testator, and, being sworn, declare to the</text>
               <aftertext proof="needed">(Name)</aftertext>
               <aftertext proof="needed">undersigned officer that I sign this instrument as my electronic will, I willingly sign it or willingly direct another individual to sign it for me, I execute it as my voluntary act for the purposes expressed in this instrument, and I am 18 years of age or older, of sound mind, and under no constraint or undue influence.</aftertext>
+              <aftertext proof="needed">_________________________________________________________________</aftertext>
               <aftertext proof="needed">Testator</aftertext>
-              <aftertext proof="needed">We,  ,</aftertext>
-              <aftertext proof="needed">(Name)					(Name)</aftertext>
+              <aftertext proof="needed">We, ___________________________ and</aftertext>
+              <aftertext proof="needed">(Name)</aftertext>
+              <aftertext proof="needed">_______________________________,</aftertext>
+              <aftertext proof="needed">(Name)</aftertext>
               <aftertext proof="needed">witnesses, being sworn, declare to the undersigned officer that the testator signed this instrument as the testator's electronic will, that the testator willingly signed it or willingly directed another individual to sign for the testator, and that each of us, in the physical or electronic presence of the testator, signs this instrument as witness to the testator's signing, and to the best of our knowledge the testator is 18 years of age or older, of sound mind, and under no constraint or undue influence.</aftertext>
+              <aftertext tproof="needed">_________________________________________________________________</aftertext>
               <aftertext proof="needed">Witness</aftertext>
+              <aftertext proof="needed">_________________________________________________________________</aftertext>
               <aftertext proof="needed">Witness</aftertext>
               <aftertext proof="needed">Certificate of officer:</aftertext>
-              <aftertext proof="needed">State of</aftertext>
+              <aftertext proof="needed">State of _________________________</aftertext>
               <aftertext proof="needed">Subscribed, sworn to, and acknowledged before me by</aftertext>
-              <aftertext proof="needed">,</aftertext>
+              <aftertext proof="needed">__________________________________________________________, the testator,</aftertext>
               <aftertext proof="needed">(Name)</aftertext>
-              <aftertext proof="needed">the testator, and subscribed and sworn to before me by  and</aftertext>
+              <aftertext proof="needed">and subscribed and sworn to before me by</aftertext>
+              <aftertext proof="needed">________________________________  and,</aftertext>
               <aftertext proof="needed">(Name)</aftertext>
-              <aftertext proof="needed">, witnesses, this day of , .</aftertext>
+              <aftertext proof="needed"> ____________________________________,</aftertext>
               <aftertext proof="needed">(Name)</aftertext>
+              <aftertext proof="needed">witnesses, this _________ day of _____________________, ______________________________.</aftertext>
+              <aftertext proof="needed">_________________________</aftertext>
               <aftertext proof="needed">(Signed)</aftertext>
+              <aftertext proof="needed">_________________________</aftertext>
               <aftertext proof="needed">(Capacity of officer)</aftertext>
             </para>
             <para>
               <num>(d)</num>
-              <text>A signature physically or electronically affixed to an affidavit that is affixed to or logically associated with an electronic will under this chapter is deemed a signature of the electronic will under § 18-905(a).</text>
+              <text>A signature physically or electronically affixed to an affidavit that is affixed to or logically associated with an electronic will under <cite doc="D.C. Code" path="18|9">this chapter</cite> is deemed a signature of the electronic will under <cite doc="D.C. Code" path="§18-905|(a)">§ 18-905(a)</cite>.</text>
             </para>
           </section>
           <section>
+            <codify:insert path="18|9"/>
             <prefix>§</prefix>
             <num>18-909</num>
             <heading proof="needed">Certification of paper copy.</heading>
             <text>An individual may create a certified paper copy of an electronic will by affirming under penalty of perjury that a paper copy of the electronic will is a complete, true, and accurate copy of the electronic will. If the electronic will is made self-proving, the certified paper copy of the will shall include the self-proving affidavits.</text>
           </section>
           <section>
+            <codify:insert path="18|9"/>
             <prefix>§</prefix>
             <num>18-910</num>
             <heading proof="needed">Uniformity of application and construction.</heading>
-            <text>In applying and construing this uniform act, consideration shall be given to the need to promote uniformity of the law with respect to its subject matter among states that enact it.</text>
+            <text>In applying and construing <cite doc="D.C. Code" path="18|9">this uniform act</cite>, consideration shall be given to the need to promote uniformity of the law with respect to its subject matter among states that enact it.</text>
           </section>
           <section>
+            <codify:insert path="18|9"/>
             <prefix>§</prefix>
             <num>18-911</num>
             <heading proof="needed">Transitional provision.</heading>

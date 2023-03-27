@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-735">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-303">
+  <num type="law">24-303</num>
   <num type="act">24-735</num>
   <num type="bill">24-649</num>
   <heading type="short">Elimination of Discrimination Against Women Amendment Act of 2022</heading>
   <heading type="long">To amend the District of Columbia Commission for Women Act of 1978 to require that all District government agencies conduct gender analyses every 2 years, to require the Commission for Women to develop a citywide action plan to eliminate discrimination against women, and to require the Commission for Women to provide training on gender equity and human rights to District government employees.</heading>
   <meta>
     <introduced>2022-01-28</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/48706/Signed_Act/B24-0649-Signed_Act.pdf">D.C. Law 24-303</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/48706/Signed_Act/B24-0649-Signed_Act.pdf">D.C. Act 24-735</citation>
       <citation type="register">70 DCR 585</citation>
     </citations>
@@ -20,7 +22,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Elimination of Discrimination Against Women Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The District of Columbia Commission for Women Act of 1978, effective September 22, 1978 (D.C. Law 2-109; D.C. Official Code § 3-701 <em>et seq</em>.), is amended as follows:</text>
     <para>
@@ -28,18 +30,19 @@
       <text>A new section 2a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="3|7" after="§3-701" num-value="3-701.01" history-prefix="as added"/>
           <num>2a</num>
           <heading proof="needed">Definitions.</heading>
           <para>
             <num undesignated="true">(a)</num>
-            <text>For the purposes of this act, the term:</text>
+            <text>For the purposes of <code-cite doc="D.C. Code" path="3|7">this act</code-cite>, the term:</text>
             <para>
               <num>(1)</num>
               <text>"CEDAW" means the Convention on the Elimination of All Forms of Discrimination Against Women, as adopted by the United Nations General Assembly.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>"Commission" means the Commission for Women established in section 3.</text>
+              <text>"Commission" means the Commission for Women established in <code-cite doc="D.C. Code" path="§3-702">section 3</code-cite>.</text>
             </para>
             <para>
               <num>(3)</num>
@@ -51,7 +54,7 @@
             </para>
             <para>
               <num>(5)</num>
-              <text>"Gender identity or expression" shall have the same meaning as provided in section 102(12A) of the Human Rights Act of 1977, effective December 13, 1977 (D.C. Law 2-38; D.C. Official Code § 2-1401.02(12A)).".</text>
+              <text>"Gender identity or expression" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§2-1401.02|(12A)">section 102(12A) of the Human Rights Act of 1977, effective December 13, 1977 (D.C. Law 2-38; D.C. Official Code § 2-1401.02(12A))</code-cite>.<span codify:value="">".</span></text>
             </para>
             <para>
               <num>(6)</num>
@@ -62,28 +65,35 @@
               <text>"PII" means Personal Identifiable Information that can be used to distinguish or trace an individual's identity, either alone or when combined with other personal or identifying information that is linked or linkable to a specific individual, including name, birthdate, race, ethnicity, sex, gender, gender identity or expression, age, social security number, address, marital status, educational history, salary, job title, telephone numbers, disability, medical history, email addresses, computer passwords, spouse name, financial information, credit card numbers, bank account numbers, and biometric identifiers such as fingerprints, voiceprints, and iris scans.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 2-109" type="History" path="§2a">Sept. 22, 1978, D.C. Law 2-109, § 2a</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§3-701.01" applicability-path="§4" action="creation of" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§3-703">
       <num>(b)</num>
       <text>Section 4 (D.C. Official Code § 3-703) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(1)">
         <num>(1)</num>
         <text>Subsection (a)(1) is amended by striking the phrase "sex role" and inserting the word "gender" in its place.</text>
+        <codify:find-replace count="1">
+          <find>sex role</find>
+          <replace>gender</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (a-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)"/>
             <num>(a-1)</num>
             <para>
               <num>(1)</num>
               <para>
                 <num>(A)</num>
-                <text>Each District agency shall conduct a gender analysis, pursuant to guidelines developed by the Commission, and provide a report including the results of the analysis to the Mayor, the Council, and the Commission, not later than 6 months after the applicability date of the Elimination of Discrimination Against Women Amendment Act of 2022, passed on 2nd reading on December 6, 2022(Enrolled version of Bill 24-649) ("Amendment Act"), and every 2 years thereafter, that shall include:</text>
+                <text>Each District agency shall conduct a gender analysis, pursuant to guidelines developed by the Commission, and provide a report including the results of the analysis to the Mayor, the Council, and the Commission, not later than 6 months after <span codify:value="[insert applicability date]">the applicability date of the Elimination of Discrimination Against Women Amendment Act of 2022, passed on 2nd reading on December 6, 2022(Enrolled version of Bill 24-649) ("Amendment Act")</span>, and every 2 years thereafter, that shall include:</text>
                 <para>
                   <num>(i)</num>
                   <text>Data on gender disparities, including data on salaries, job titles, and promotional timelines, disaggregated by sex, race, ethnicity, age, familial status, marital status, sexual orientation, gender identity, immigration status, and disability; provided, that data shall be collected, stored, aggregated, and presented in a way that protects any PII from disclosure;</text>
@@ -150,6 +160,7 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§3-703" applicability-path="§4" display-template=""/>
     </para>
   </section>
   <section>
@@ -158,6 +169,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 24-303" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
