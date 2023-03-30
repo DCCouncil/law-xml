@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-738">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-307">
+  <num type="law">24-307</num>
   <num type="act">24-738</num>
   <num type="bill">24-830</num>
   <heading type="short">Protecting Health Professionals Providing Reproductive Health Care Amendment Act of 2022</heading>
   <heading type="long">To amend the District of Columbia Health Occupations Revision Act of 1985 to prohibit reciprocal disciplinary measures against certified, licensed, or registered health professionals solely for providing abortion and reproductive health care services, gender affirming care, or prescriptions to patients who live in states where these services are illegal or restricted but are permitted in the District, and to require the Mayor to expedite the review of certification, licensing, or registration of such health professionals.</heading>
   <meta>
     <introduced>2022-05-31</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/49646/Signed_Act/B24-0830-Signed_Act.pdf">D.C. Law 24-307</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/49646/Signed_Act/B24-0830-Signed_Act.pdf">D.C. Act 24-738</citation>
       <citation type="register">70 DCR 593</citation>
     </citations>
@@ -20,7 +22,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Protecting Health Professionals Providing Reproductive Health Care Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99, D.C. Official Code § 3-1201.01 <em>et seq.</em>), is amended as follows:</text>
     <para>
@@ -39,32 +41,40 @@
       <text>A new section 501a is added to read as follows:</text>
       <include lvl="1">
         <section>
+          <codify:insert doc="D.C. Code" path="3|12|V" after="§3-1205.01" num-value="3-1205.01a" history-prefix="as added"/>
           <num>501a</num>
           <heading proof="needed">Expedited licensure, registration, or certification.</heading>
           <para>
             <num>(a)</num>
-            <text>The Mayor shall authorize expedited review of an application for licensure, certification, or registration by a health professional whose certification, license, or registration has been suspended or revoked in another state solely because the health professional provided, facilitated, or attempted to provide or facilitate, conduct described in section 514(e-1) that is permitted in the District.</text>
+            <text>The Mayor shall authorize expedited review of an application for licensure, certification, or registration by a health professional whose certification, license, or registration has been suspended or revoked in another state solely because the health professional provided, facilitated, or attempted to provide or facilitate, conduct described in <code-cite doc="D.C. Code" path="§3-1205.14|(e-1)">section 514(e-1)</code-cite> that is permitted in the District.</text>
           </para>
           <para>
             <num>(b)</num>
-            <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (Stat. 1204; D.C. Official Code 2-501 <em>et seq.</em>), may issue rules to implement the provision of this section.</text>
+            <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (Stat. 1204; D.C. Official Code 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement the provision of this section.</text>
           </para>
+          <annotation doc="D.C. Law 6-99" type="History" path="§501a">Mar. 25, 1986, D.C. Law 6-99, § 501a</annotation>
         </section>
       </include>
+      
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§3-1205.14">
       <num>(c)</num>
       <text>Section 514 (D.C. Official Code § 3-1205.14) is amended as follows:</text>
-      <para>
+      <para codify:path="(c)">
         <num>(1)</num>
         <text>Subsection (c) is amended by striking the phrase "Upon determination" and inserting the phrase "Except as otherwise provided in subsection (e-1) of this section, upon determination" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Upon determination</find>
+          <replace>Except as otherwise provided in subsection (e-1) of this section, upon determination</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (e-1) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(e)"/>
             <num>(e-1)</num>
             <text>A board shall not take reciprocal adverse or disciplinary action described in subsection (c) of this section against a person whose license, registration, or certification in another state has been revoked, suspended, or restricted by adverse or disciplinary action if:</text>
             <para>

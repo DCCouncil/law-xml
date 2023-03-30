@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-788">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-308">
+  <num type="law">24-308</num>
   <num type="act">24-788</num>
   <num type="bill">24-837</num>
   <heading type="short">Ignition Interlock System Program Amendment Act of 2022</heading>
   <heading type="long">To amend the District of Columbia Traffic Act, 1925 to expand the list of those required to enroll in the Ignition Interlock System Program to include individuals who violate drinking and driving laws on military bases and in a foreign country and District licensees who refuse to take a chemical test as required by law; and to amend the District of Columbia Implied Consent Act to require a person who holds a driver's license issued by the District and refuses to provide a chemical specimen for testing to enter into the Ignition Interlock System Program.</heading>
   <meta>
     <introduced>2022-06-01</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/49645/Signed_Act/B24-0837-Signed_Act.pdf">D.C. Law 24-308</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/49645/Signed_Act/B24-0837-Signed_Act.pdf">D.C. Act 24-788</citation>
       <citation type="register">70 DCR 1039</citation>
     </citations>
@@ -20,25 +22,34 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Ignition Interlock System Program Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§50-2201.05a">
     <num>2</num>
     <text>Section 10a of the District of Columbia Traffic Act, 1925, effective April 3, 2001 (D.C. Law 13-238; D.C. Official Code § 50-2201.05a), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended as follows:</text>
-      <para>
+      <para codify:path="text">
         <num>(1)</num>
         <text>The lead-in language is amended by striking the phrase "means a violation of any of the following provisions of law" and inserting the word "means" in its place.</text>
+        <codify:find-replace count="1">
+          <find>means a violation of any of the following provisions of law</find>
+          <replace>means</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(1)">
         <num>(2)</num>
         <text>Paragraph (1) is amended by striking the word "Section" and inserting the phrase "A violation of section" in its place.</text>
+        <codify:find-replace count="1">
+          <find><cite doc="D.C. Code" path="§50-2206.11">Section </cite></find>
+          <replace>A violation of § </replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(3)</num>
         <text>Paragraph (2) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(2)</num>
             <text>Driving a motor vehicle in another jurisdiction, including foreign jurisdictions and military jurisdictions, while under the influence of intoxicating liquor or a narcotic drug or under the influence of any other drug to a degree that renders the driver incapable of safely driving a motor vehicle.</text>
           </para>
@@ -46,31 +57,47 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="(b)">
       <num>(b)</num>
       <text>Subsection (b) is amended as follows:</text>
-      <para>
+      <para codify:path="text">
         <num>(1)</num>
         <text>The lead-in language is amended to read as follows:</text>
         <include>
           <para>
             <num>(b)</num>
             <text>Except as provided in sections 3d(d-1), 3f(c-1), and 3t(a-1)(2) of the Anti-Drunk Driving Act of 1982, effective September 14, 1982 (D.C. Law 4-45; D.C. Official Code §§ 50-2206.13(d-1), 50-2206.15(c-1), and 50-2206.55(a-1)(2)), a person who holds a driver's license issued by the District and commits a covered offense shall enroll in the Ignition Interlock System Program ("Program") established by this section for:</text>
+            <codify:find-replace count="1">
+              <find>a person convicted of a covered offense who holds a driver's license issued by the District shall enroll in the Ignition Interlock System Program ("Program") established by this section for:</find>
+              <replace>a person who holds a driver's license issued by the District and commits a covered offense shall enroll in the Ignition Interlock System Program ("Program") established by this section for:</replace>
+            </codify:find-replace>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(1)">
         <num>(2)</num>
         <text>Paragraph (1) is amended by striking the phrase "a first conviction" and inserting the phrase "the first commission of a covered offense" in its place.</text>
+        <codify:find-replace count="1">
+          <find>a first conviction</find>
+          <replace>the first commission of a covered offense</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(3)</num>
         <text>Paragraph (2) is amended to striking the phrase "a second conviction" and inserting the phrase "the second commission of a covered offense" in its place.</text>
+        <codify:find-replace count="1">
+          <find>a second conviction</find>
+          <replace>the second commission of a covered offense</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(4)</num>
         <text>Paragraph (3) is amended to striking the phrase "a third or subsequent conviction" and inserting the phrase "the third or subsequent commission of a covered offense" in its place.</text>
+        <codify:find-replace count="1">
+          <find>a third or subsequent conviction</find>
+          <replace>the third or subsequent commission of a covered offense</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -78,26 +105,27 @@
       <text>A new subsection (b-3) is added to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(b-2)"/>
           <num>(b-3)</num>
           <para>
             <num>(1)</num>
-            <text>A person who holds a driver's license issued by the District and refuses to provide a specimen for chemical testing in violation of section 4b of the District of Columbia Implied Consent Act, effective April 27, 2013 (D.C. Law 19-266; D.C. Official Code § 50-1904.02) ("section 4b of the Implied Consent Act"), or a substantially similar law of another jurisdiction, shall enroll in the Program established by this section for:</text>
+            <text>A person who holds a driver's license issued by the District and refuses to provide a specimen for chemical testing in violation of <code-cite doc="D.C. Code" path="§50-1904.02">section 4b of the District of Columbia Implied Consent Act, effective April 27, 2013 (D.C. Law 19-266; D.C. Official Code § 50-1904.02) ("section 4b of the Implied Consent Act")</code-cite>, or a substantially similar law of another jurisdiction, shall enroll in the Program established by this section for:</text>
             <para>
               <num>(A)</num>
-              <text>A period of one year, if the person has never previously committed a covered offense and has never refused to provide a specimen for chemical testing in violation of section 4b of the Implied Consent Act, or a substantially similar law of another jurisdiction;</text>
+              <text>A period of one year, if the person has never previously committed a covered offense and has never refused to provide a specimen for chemical testing in violation of <code-cite doc="D.C. Code" path="§50-1904.02">section 4b of the Implied Consent Act</code-cite>, or a substantially similar law of another jurisdiction;</text>
             </para>
             <para>
               <num>(B)</num>
-              <text>A period of 2 years, if the person has previously committed one covered offense or refused to provide a specimen for chemical testing one time in violation of section 4b of the Implied Consent Act, or a substantially similar law of another jurisdiction; and</text>
+              <text>A period of 2 years, if the person has previously committed one covered offense or refused to provide a specimen for chemical testing one time in violation of <code-cite doc="D.C. Code" path="§50-1904.02">section 4b of the Implied Consent Act</code-cite>, or a substantially similar law of another jurisdiction; and</text>
             </para>
             <para>
               <num>(C)</num>
-              <text>A period of 3 years, if the person has previously committed 2 or more covered offenses or has refused to provide a specimen for chemical testing 2 or more times in violation of section 4b of the Implied Consent Act, or a substantially similar law of another jurisdiction.</text>
+              <text>A period of 3 years, if the person has previously committed 2 or more covered offenses or has refused to provide a specimen for chemical testing 2 or more times in violation of <code-cite doc="D.C. Code" path="§50-1904.02">section 4b of the Implied Consent Act</code-cite>, or a substantially similar law of another jurisdiction.</text>
             </para>
           </para>
           <para>
             <num>(2)</num>
-            <text>Notwithstanding subsection (b) of section, if a person refuses to provide a specimen for chemical testing in violation of section 4b of the Implied Consent Act, or a substantially similar law of another jurisdiction, during the same occurrence that gave rise to the commission of a covered offense, the timeframes described in this subsection shall apply.</text>
+            <text>Notwithstanding subsection (b) of section, if a person refuses to provide a specimen for chemical testing in violation of <code-cite doc="D.C. Code" path="§50-1904.02">section 4b of the Implied Consent Act</code-cite>, or a substantially similar law of another jurisdiction, during the same occurrence that gave rise to the commission of a covered offense, the timeframes described in this subsection shall apply.</text>
           </para>
         </para>
       </include>
@@ -108,6 +136,7 @@
       <text>A new subsection (c-1) is added to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(c)"/>
           <num>(c-1)</num>
           <text>The driver's license of a person required to enroll in the Program shall be suspended until the person enrolls in the Program.</text>
         </para>
@@ -115,45 +144,52 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§50-1905|(a)">
     <num>3</num>
     <text>Section 5(a) of the District of Columbia Implied Consent Act, approved October 21, 1972 (86 Stat. 1016; D.C. Official Code § 50-1905(a)), is amended as follows:</text>
-    <para>
+    <para codify:path="(1)">
       <num>(a)</num>
       <text>Paragraph (1) is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace/>
           <num>(1)</num>
-          <text>If a person under arrest refuses to submit specimens for chemical testing as provided in section 4b, he or she shall be informed that failure or refusal to submit to chemical testing will result in the revocation of his or her privilege to drive in the District as provided in this section<strong>. </strong>If the person holds a driver's license issued by the District, the person shall be informed that failure or refusal to submit to chemical testing will require him or her to enroll in the Ignition Interlock System Program established by section 10a of the District of Columbia Traffic Act, 1925, effective April 3, 2001 (D.C. Law 13-238; D.C. Official Code § 50-2201.05a).</text>
+          <text>If a person under arrest refuses to submit specimens for chemical testing as provided in <code-cite doc="D.C. Code" path="§50-1904.02">section 4b</code-cite>, he or she shall be informed that failure or refusal to submit to chemical testing will result in the revocation of his or her privilege to drive in the District as provided in this section<strong>. </strong>If the person holds a driver's license issued by the District, the person shall be informed that failure or refusal to submit to chemical testing will require him or her to enroll in the Ignition Interlock System Program established by <code-cite doc="D.C. Code" path="§50-2201.05a">section 10a of the District of Columbia Traffic Act, 1925, effective April 3, 2001 (D.C. Law 13-238; D.C. Official Code § 50-2201.05a)</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(2)">
       <num>(b)</num>
       <text>Paragraph (2) is amended as follows:</text>
-      <para>
+      <para codify:path="(A)">
         <num>(1)</num>
         <text>Subparagraph (A) is amended to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:replace/>
             <num>(A)</num>
             <text>Revoke his or her privilege to drive in the District of Columbia for a period of 12 months;</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(B)">
         <num>(2)</num>
         <text>Subparagraph (B) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>; or</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subparagraph (C) is added to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert/>
             <num>(C)</num>
-            <text>For a person who holds a driver's license issued by the District, require the person to enroll in the Ignition Interlock System Program established by section 10a of the District of Columbia Traffic Act, 1925, effective April 3, 2001 (D.C. Law 13-238; D.C. Official Code § 50-2201.05a).</text>
+            <text>For a person who holds a driver's license issued by the District, require the person to enroll in the Ignition Interlock System Program established by <code-cite doc="D.C. Code" path="§50-2201.05a">section 10a of the District of Columbia Traffic Act, 1925, effective April 3, 2001 (D.C. Law 13-238; D.C. Official Code § 50-2201.05a)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -168,7 +204,6 @@
   <section>
     <num>5</num>
     <heading proof="needed">Effective date.</heading>
-    <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 30-day period of congressional review as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December</text>
-    <text>24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)), and publication in the District of Columbia Register.</text>
+    <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 30-day period of congressional review as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)), and publication in the District of Columbia Register.</text>
   </section>
 </document>

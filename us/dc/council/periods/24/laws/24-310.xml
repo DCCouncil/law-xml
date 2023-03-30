@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-737">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-310">
+  <num type="law">24-310</num>
   <num type="act">24-737</num>
   <num type="bill">24-932</num>
   <heading type="short">Wastewater System Regulation Amendment Act of 2022</heading>
   <heading type="long">To amend the Wastewater System Regulation Amendment Act of 1985 to authorize the District of Columbia Water and Sewer Authority to, via regulation, limit the linear dimension size of solid substances discharged into the District's wastewater system to less than one inch, and to permit cooling waters to be discharged into the District's wastewater system.</heading>
   <meta>
     <introduced>2022-07-08</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/50013/Signed_Act/B24-0932-Signed_Act.pdf">D.C. Law 24-310</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/50013/Signed_Act/B24-0932-Signed_Act.pdf">D.C. Act 24-737</citation>
       <citation type="register">70 DCR 591</citation>
     </citations>
@@ -20,14 +22,15 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Wastewater System Regulation Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§8-105.06">
     <num>2</num>
     <text>Section 7 of the Wastewater System Regulation Amendment Act of 1985, effective March 12, 1986 (D.C. Law 6-95; D.C. Official Code § 8-105.06), is amended as follows:</text>
-    <para>
+    <para codify:path="(b)|(2)|(C)">
       <num>(a)</num>
       <text>Subsection (b)(2)(C) is amended to read as follow:</text>
       <include lvl="2">
         <para>
+          <codify:replace/>
           <num>(C)</num>
           <text>Solid or viscous substances in amounts which may cause, or contribute to obstruction of the flow in a sewer or otherwise interfere with the operation of the District's wastewater system, including:</text>
           <para>
@@ -50,9 +53,13 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(d)">
       <num>(b)</num>
       <text>Subsection (d) is amended by striking the phrase "drainage, cooling waters" and inserting the word "drainage" in its place.</text>
+      <codify:find-replace count="1">
+        <find>drainage, cooling waters</find>
+        <replace>drainage</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>

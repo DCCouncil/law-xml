@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-755">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-306">
+  <num type="law">24-306</num>
   <num type="act">24-755</num>
   <num type="bill">24-785</num>
   <heading type="short">Greener Government Buildings Amendment Act of 2022</heading>
   <heading type="long">To amend the Green Building Act of 2006 to require that construction of new or substantially improved buildings that the District government owns or finances in significant part adhere to net zero energy standards and not incorporate fossil fuel consumption; and to amend the Department of General Services Establishment Act of 2011 to codify the Sustainability and Energy Division of the Department of General Services, to give net zero energy ready, fossil fuel free buildings priority consideration for the District government's facility needs, to require the Department of General Services to host net zero energy construction and maintenance trainings every 2 years for facilities staff, certified business enterprises, and interested parties, and to require the Department of General Services to report every 2 years on certified business enterprise and resident employee participation in net zero energy and energy retrofitting projects.</heading>
   <meta>
     <introduced>2022-04-22</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/49460/Signed_Act/B24-0785-Signed_Act.pdf">D.C. Law 24-306</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/49460/Signed_Act/B24-0785-Signed_Act.pdf">D.C. Act 24-755</citation>
       <citation type="register">70 DCR 658</citation>
     </citations>
@@ -20,25 +22,34 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Greener Government Buildings Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§6-1451.02|(a)">
     <num>2</num>
     <text>Section 3(a) of the Green Building Act of 2006, effective March 8, 2007 (D.C. Law 16-234; D.C. Official Code § 6-1451.02(a)), is amended as follows:</text>
-    <para>
+    <para codify:path="(2)">
       <num>(a)</num>
       <text>Paragraph (2) is amended as follows:</text>
-      <para>
+      <para codify:path="(B)|(iii)|(II)">
         <num>(1)</num>
         <text>Subparagraph (B)(iii)(II) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(C)">
         <num>(2)</num>
         <text>Subparagraph (C) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace count="1">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subparagraph (D) is added to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert/>
             <num>(D)</num>
             <text>Maintain net zero energy compliance.</text>
           </para>
@@ -46,22 +57,31 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="(3)">
       <num>(b)</num>
       <text>Paragraph (3) is amended as follows:</text>
-      <para>
+      <para codify:path="(A)">
         <num>(1)</num>
         <text>Subparagraph (A) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(B)">
         <num>(2)</num>
         <text>Subparagraph (B) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace count="1">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subparagraph (C) is added to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert/>
             <num>(C)</num>
             <text>Maintain net zero energy compliance.</text>
           </para>
@@ -69,58 +89,79 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="(6)">
       <num>(c)</num>
       <text>Paragraph (6) is amended by striking the phrase "shall fulfill or exceed" and inserting the phrase "shall maintain net zero energy compliance and fulfill or exceed" in its place.</text>
+      <codify:find-replace count="1">
+        <find>shall fulfill or exceed</find>
+        <replace>shall maintain net zero energy compliance and fulfill or exceed</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(d)</num>
       <text>A new paragraph (7) is added to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert/>
           <num>(7)</num>
           <text>For the purposes of this subsection, the term "net zero energy compliance" means compliance with a net-zero-energy standard, as that term is defined in section 2(a)(3) of the Clean Energy DC Building Code Amendment Act of 2022, effective September 21, 2022 (D.C. Law 24-177; D.C. Official Code § 6-1453.01(a)(3)).</text>
+          <!-- link available 10/1/23 -->
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§6-1451.02" applicability-path="§4" display-template=""/>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>3</num>
     <text>The Department of General Services Establishment Act of 2011, effective September 14, 2011 (D.C. Law 19-21; D.C. Official Code § 10-551.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§10-551.02">
       <num>(a)</num>
       <text>Section 1023 (D.C. Official Code § 10-551.02) is amended as follows:</text>
-      <para>
+      <para codify:path="text">
         <num>(1)</num>
         <text>The lead-in language is amended by striking the number "6" and inserting the number "7" in its place.</text>
+        <codify:find-replace count="1">
+          <find>6</find>
+          <replace>7</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(5)|(F)">
         <num>(2)</num>
         <text>Paragraph (5)(F) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(6)">
         <num>(3)</num>
         <text>Paragraph (6) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (7) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(7)</num>
             <text>Sustainability and Energy, which shall implement and oversee energy and sustainability efforts at District-owned properties including:</text>
             <para>
               <num>(A)</num>
-              <text>Achieving compliance with building energy efficiency and net-zero-energy standards, as that term is defined in section 2(a)(3) of the Clean Energy DC Building Code Amendment Act of 2022, effective September 21, 2022 (D.C. Law 24-177; D.C. Official Code § 6-1453.01(a)(3)), as required under District law;</text>
+              <text>Achieving compliance with building energy efficiency and net-zero-energy standards, as that term is defined in section 2(a)(3) of the Clean Energy DC Building Code Amendment Act of 2022, effective September 21, 2022 (D.C. Law 24-177; D.C. Official Code § 6-1453.01(a)(3))<span codify:value=" [availble October 1,]"></span>, as required under District law;</text>
+              <!-- link available 10/1/23 -->
             </para>
             <para>
               <num>(B)</num>
-              <text>Ensuring that District-owned properties comply with sustainable waste management requirements under section 104a of the Sustainable Solid Waste Management Amendment Act of 2014, effective March 16, 2021 (D.C. Law 23-211; D.C. Official Code § 8-1031.04a), and developing and implementing waste diversion programs, including source reduction, recycling, reuse, composting, and other Zero Waste programs and services;</text>
+              <text>Ensuring that District-owned properties comply with sustainable waste management requirements under <code-cite doc="D.C. Code" path="§8-1031.04a">section 104a of the Sustainable Solid Waste Management Amendment Act of 2014, effective March 16, 2021 (D.C. Law 23-211; D.C. Official Code § 8-1031.04a)</code-cite>, and developing and implementing waste diversion programs, including source reduction, recycling, reuse, composting, and other Zero Waste programs and services;</text>
             </para>
             <para>
               <num>(C)</num>
-              <text>Overseeing the environmental programs office established by section 501 of the Healthy Schools Act of 2010, effective July 27, 2010 (D.C. Law 18-209; D.C. Official Code § 38-825.01); and</text>
+              <text>Overseeing the environmental programs office established by <code-cite doc="D.C. Code" path="§38-825.01">section 501 of the Healthy Schools Act of 2010, effective July 27, 2010 (D.C. Law 18-209; D.C. Official Code § 38-825.01)</code-cite>; and</text>
             </para>
             <para>
               <num>(D)</num>
@@ -130,20 +171,27 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§10-551.02" applicability-path="§4" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§10-551.06">
       <num>(b)</num>
       <text>Section 1027 (D.C. Official Code § 10-551.06) is amended to read as follows:</text>
       <include lvl="1">
         <text>Priority consideration for the District government's facility needs shall be given to buildings maintaining net zero energy compliance and to buildings fulfilling or exceeding the LEED-NC 2.2 standard or the LEED-CS 2.0 standard at the silver level.</text>
       </include>
       <aftertext>.</aftertext>
+      <codify:find-replace count="1">
+        <find>Priority consideration for the District government’s facility needs shall be given to buildings fulfilling or exceeding the LEED-NC 2.2 standard or the LEED-CS 2.0 standard at the silver level. For purposes of this subsection, the terms “LEED-CS” and “LEED-NC” shall have the same meanings as provided in <cite path="§6-1451.01|(28)">§ 6-1451.01(28)</cite> and (30), respectively.</find>
+        <replace>Priority consideration for the District government's facility needs shall be given to buildings maintaining net zero energy compliance and to buildings fulfilling or exceeding the LEED-NC 2.2 standard or the LEED-CS 2.0 standard at the silver level.</replace>
+      </codify:find-replace>
+      <codify:not-funded-anno doc="D.C. Code" path="§10-551.06" applicability-path="§4" display-template=""/>
     </para>
     <para>
       <num>(c)</num>
       <text>A new section 1022a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="10|5A" after="§10-551.01" num-value="10-551.01a" history-prefix="as added"/>
           <num>1022a</num>
           <heading proof="needed">Definitions.</heading>
           <para>
@@ -155,22 +203,25 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>"LEED-CS" and "LEED-NC" shall have the same meanings as provided in section 2(28) and (30), respectively, of the Green Building Act of2006, effective March 8, 2007 (D.C. Law 16-234; D.C. Official Code§ 6-1451.01(28) and (30)).</text>
+              <text>"LEED-CS" and "LEED-NC" shall have the same meanings as provided in <code-cite doc="D.C. Code" path="§6-1451.01|(28)">section 2(28) and (30), respectively, of the Green Building Act of2006, effective March 8, 2007 (D.C. Law 16-234; D.C. Official Code§ 6-1451.01(28)</code-cite> and <cite doc="D.C. Code" path="§6-1451.01|(30)">(30)</cite>).</text>
             </para>
             <para>
               <num>(3)</num>
-              <text>"Net zero energy compliance" shall have the same meaning as provided in section 3(a)(7) of the Green Buildings Act of 2006, effective March 8, 2007 (D.C. Law 16-234; D.C. Official Code § 6-1451.02(a)(7)).</text>
+              <text>"Net zero energy compliance" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§6-1451.02|(a)|(7)">section 3(a)(7) of the Green Buildings Act of 2006, effective March 8, 2007 (D.C. Law 16-234; D.C. Official Code § 6-1451.02(a)(7))</code-cite>.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 19-21" type="History" path="§1022a">Sept. 14, 2011, D.C. Law 19-21, § 1022a</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§10-551.01a" applicability-path="§4" action="creation of" display-template=""/>
     </para>
     <para>
       <num>(d)</num>
       <text>A new section 1027a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="10|5A" after="§10-551.06" num-value="10-551.06a" history-prefix="as added"/>
           <num>1027a</num>
           <heading proof="needed">Net zero energy construction and maintenance program.</heading>
           <para>
@@ -216,6 +267,8 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 19-21" type="History" path="§1027a">Sept. 14, 2011, D.C. Law 19-21, § 1027a</annotation>
+      <codify:not-funded-anno doc="D.C. Code" path="§10-551.06a" applicability-path="§4" action="creation of" display-template=""/>
     </para>
   </section>
   <section>
@@ -224,6 +277,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+       <codify:applicability  doc="D.C. Law 24-306" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
