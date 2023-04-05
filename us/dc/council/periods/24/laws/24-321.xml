@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-744">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-321">
+  <num type="law">24-321</num>
   <num type="act">24-744</num>
   <num type="bill">24-1029</num>
   <heading type="short">Automated Traffic Enforcement System Revenue Designation Amendment Act of 2022</heading>
   <heading type="long">To amend the Department of Transportation Establishment Act of 2002 to specify how the funds in the Vision Zero Enhancement Omnibus Amendment Act Implementation Fund shall be used.</heading>
   <meta>
     <introduced>2022-09-28</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/51381/Signed_Act/B24-1029-Signed_Act.pdf">D.C. Law 24-321</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/51381/Signed_Act/B24-1029-Signed_Act.pdf">D.C. Act 24-744</citation>
       <citation type="register">70 DCR 615</citation>
     </citations>
@@ -26,13 +28,14 @@
     <text>Section 9q(c) of the Department of Transportation Establishment Act of 2002, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 50-921.25(c)), is amended to read as follows:</text>
     <include>
       <para>
+        <codify:replace doc="D.C. Code" path="§50-921.25|(c)"/>
         <num>(c)</num>
         <para>
           <num>(1)</num>
           <text>Money in the Fund shall be used according to the following order of priority:</text>
           <para>
             <num>(A)</num>
-            <text>To implement sections 3, 4, 5, 7, 8(a), (b), (c), and (e), and 12 of the Vision Zero Enhancement Omnibus Amendment Act of 2020, effective December 23, 2020, (D.C. Law 23-158; 67 DCR 13057), including to pay recurring costs;</text>
+            <text>To implement sections 3, 4, 5, 7, 8(a), (b), (c), and (e), and 12 of <cite doc="D.C. Law 23-158" path="§3">the Vision Zero Enhancement Omnibus Amendment Act of 2020, effective December 23, 2020, (D.C. Law 23-158; 67 DCR 13057)</cite>, including to pay recurring costs;</text>
           </para>
           <para>
             <num>(B)</num>
@@ -40,7 +43,7 @@
           </para>
           <para>
             <num>(C)</num>
-            <text>To implement section 2 of the Safe Streets for Students Amendment Act of 2022, as approved by the Committee of the Whole on December 5, 2022 (Committee print of Bill 24-66), including to pay recurring costs; and</text>
+            <text>To implement <span codify:value="§§ 38-3102 through 38-31112 [Not Funded]">section 2 of the Safe Streets for Students Amendment Act of 2022, as approved by the Committee of the Whole on December 5, 2022 (Committee print of Bill 24-66)</span>, including to pay recurring costs; and</text>
           </para>
           <para>
             <num>(D)</num>
@@ -49,11 +52,12 @@
         </para>
         <para>
           <num>(2)</num>
-          <text>The Director is authorized to enter into intra-District transfers from the Fund and other agreements as necessary to implement provisions of the Automated Traffic Enforcement System Revenue Designation Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version Bill 24-1029).</text>
+          <text>The Director is authorized to enter into intra-District transfers from the Fund and other agreements as necessary to implement provisions of <cite doc="D.C. 24-321">the Automated Traffic Enforcement System Revenue Designation Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version Bill 24-1029)</cite>.</text>
         </para>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§50-921.25" applicability-path="§3" display-template=""/>
   </section>
   <section>
     <num>3</num>
@@ -61,6 +65,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 24-321" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

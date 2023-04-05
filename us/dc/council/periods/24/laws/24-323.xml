@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-766">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-323">
+  <num type="law">24-323</num>
   <num type="act">24-766</num>
   <num type="bill">24-1034</num>
   <heading type="short">Child Wealth Building Amendment Act of 2022</heading>
   <heading type="long">To amend the Child Wealth Building Act of 2021 to authorize distributions from the Child Trust Fund for eligible enrollees, eliminate child trust fund accounts, and for other purposes.</heading>
   <meta>
     <introduced>2022-10-03</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/51397/Signed_Act/B24-1034-Signed_Act.pdf">D.C. Law 24-323</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/51397/Signed_Act/B24-1034-Signed_Act.pdf">D.C. Act 24-766</citation>
       <citation type="register">70 DCR 869</citation>
     </citations>
@@ -20,91 +22,127 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Child Wealth Building Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Child Wealth Building Act of 2021, effective February 18, 2022 (D.C. Law 24-53; D.C. Official Code § 4-681.01 <em>et. seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-681.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 4-681.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(4)">
         <num>(1)</num>
         <text>Paragraph (4) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="(8)|(A)|(i)">
         <num>(2)</num>
         <text>Paragraph (8)(A)(i) is amended by striking the word "Medicaid" and inserting the phrase "DC Medicaid" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Medicaid</find>
+          <replace>DC Medicaid</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-681.02">
       <num>(b)</num>
       <text>Section 3 (D.C. Official Code § 4-681.02) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "subsection (c)" and insert the phrase "subsection (d) in its place.</text>
+          <codify:find-replace count="1">
+            <find>subsection (c)</find>
+            <replace>subsection (d)</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the sentence "The Chief Financial Officer shall establish within the Fund a child trust fund account for each eligible child enrolled in the CTF Program.".</text>
+          <codify:find-replace count="1">
+            <find>The Chief Financial Officer shall establish within the Fund a child trust fund account for each eligible child enrolled in the CTF Program.</find>
+            <replace/>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(3)</num>
         <text>Subsection (d) is amended as follows:</text>
-        <para>
+        <para codify:path="text">
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "paid into the fund" and inserting the phrase "paid into the Fund" in its place.</text>
+          <codify:find-replace count="1">
+            <find>paid into the fund</find>
+            <replace>paid into the Fund</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) in amended by striking the phrase "section 7;" and inserting the phrase "section 7 (D.C. Official Code § 4-681.06), and in accordance with the rules issued pursuant to this act;" in its place;</text>
+          <codify:find-replace count="1">
+            <find>pursuant to <code-cite doc="D.C. Code" path="§4-681.06">section 7</code-cite>;</find>
+            <replace><code-cite doc="D.C. Code" path="§4-681.06">section 7 (D.C. Official Code § 4-681.06)</code-cite>, and in accordance with the rules issued pursuant to <code-cite doc="D.C. Code" path="4|6D">this act</code-cite>;</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(e)">
         <num>(4)</num>
         <text>Subsection (e) is amended by striking the phrase "subsections (c) and (d) of this section" and inserting the phrase "subsection (d) of this section" in its place.</text>
+        <codify:find-replace count="1">
+          <find>subsections (c) and (d) of this section</find>
+          <replace>subsection (d) of this section</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-681.03">
       <num>(c)</num>
       <text>Section 4 (D.C. Official Code § 4-681.03) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
-            <text>There is established a Child Trust Fund Program, which shall be administered by the Chief Financial Officer, in consultation with the Department of Human Services and the Department of Health Care Finance, under which amounts from the Fund shall be designated for each enrollee in the CTF program pursuant to section 7 (D.C. Official Code § 4-681.06).</text>
+            <text>There is established a Child Trust Fund Program, which shall be administered by the Chief Financial Officer, in consultation with the Department of Human Services and the Department of Health Care Finance, under which amounts from the Fund shall be designated for each enrollee in the CTF program pursuant to <code-cite doc="D.C. Code" path="§4-681.06">section 7 (D.C. Official Code § 4-681.06)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the word "Medicaid" and insert the phrase "DC Medicaid" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Medicaid</find>
+              <replace>DC Medicaid</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the period and insert the phrase "; except, that parental consent shall be provided by the eligible child's parent or guardian within 18 months of the birth of the child to be eligible for enrollment in the CTF Program." in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>; except, that parental consent shall be provided by the eligible child's parent or guardian within 18 months of the birth of the child to be eligible for enrollment in the CTF Program.</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(2)</num>
               <text>The Chief Financial Officer, or the designee, or employees of the Chief Financial Officer, or employees of the designee shall not disclose information with respect to a distribution made from the Fund; except, that information regarding distribution may be disclosed, pursuant to rule, to the beneficiary of the distribution or to another person at the beneficiary's request.</text>
             </para>
@@ -116,103 +154,153 @@
           <text>A new Paragraph (3) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(3)</num>
-              <text>The Chief Financial Officer, or the designee, or employees of the Chief Financial Officer, or employees of the designee may disclose information regarding a distribution made pursuant to section 7 (D.C. Official Code § 4-681.06) to a parent or guardian if the beneficiary lacks legal capacity to request the information.</text>
+              <text>The Chief Financial Officer, or the designee, or employees of the Chief Financial Officer, or employees of the designee may disclose information regarding a distribution made pursuant to <code-cite doc="D.C. Code" path="§4-681.06">section 7 (D.C. Official Code § 4-681.06)</code-cite> to a parent or guardian if the beneficiary lacks legal capacity to request the information.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "to the child trust fund account" and inserting the phrase "in the Fund" in its place.</text>
+          <codify:find-replace count="1">
+            <find>to the child trust fund account</find>
+            <replace>in the Fund</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the phrase "the deposit amount designated to the child trust fund account" and insert the phrase "the deposit amount designated in the Fund" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the deposit amount designated to the child trust fund account</find>
+              <replace>the deposit amount designated in the Fund</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "Annual Deposit Amount" in the tabular array and insert the phrase "Annual Designated Amount" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Annual Deposit Amount</find>
+              <replace>Annual Designated Amount</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(C)</num>
           <text>Paragraph (3) is amended by striking the phrase "annual deposit" and inserting the phrase "annual amount" in its place.</text>
+          <codify:find-replace count="1">
+            <find>annual deposit</find>
+            <replace>annual amount</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(4)</num>
         <text>Subsection (d) is amended by striking the phrase "the annual deposit amounts shall cease but the amounts credited to the eligible child's trust fund account during the period of deposits" and inserting the phrase "the annual amounts designated in the Fund for the enrollee shall cease but the amounts already designated for the enrollee in the Fund" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the annual deposit amounts shall cease but the amounts credited to the eligible child's trust fund account during the period of deposits</find>
+          <replace>the annual amounts designated in the Fund for the enrollee shall cease but the amounts already designated for the enrollee in the Fund</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-681.05">
       <num>(d)</num>
       <text>Section 6 (D.C. Official Code § 4-681.05) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(1)">
         <num>(1)</num>
         <text>Subsection (a)(1) is amended by striking the phrase "shall be automatic." and inserting the phrase "shall be automatic, pursuant to the requirements of section 4 (D.C. Official Code § 4-681.03)." in its place.</text>
+        <codify:find-replace count="1">
+          <find>shall be automatic.</find>
+          <replace>shall be automatic, pursuant to the requirements of <code-cite doc="D.C. Code" path="§4-681.03">section 4 (D.C. Official Code § 4-681.03)</code-cite>.</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)|(1)">
         <num>(2)</num>
         <text>Subsection (b)(1) is amended by striking the phrase "verification by the Chief Financial Officer" and inserting the phrase "verification by the Department of Human Services or the Department of Health Care Finance" in its place.</text>
+        <codify:find-replace count="1">
+          <find>verification by the Chief Financial Officer</find>
+          <replace>verification by the Department of Human Services or the Department of Health Care Finance</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-681.06">
       <num>(e)</num>
       <text>Section 7 (D.C. Official Code § 4-681.06) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended as follows:</text>
-          <para>
+          <para codify:path="(A)">
             <num>(i)</num>
             <text>Subparagraph (A) is amended as follows:</text>
             <para>
               <num>(I)</num>
               <text>Strike the phrase "pro rata share of money in the Fund" and insert the phrase "dedicated share of money in the Fund pursuant to section 4 (D.C. Official Code § 4-681.03)" in its place.</text>
+              <codify:find-replace count="1">
+                <find>pro rata share of money in the Fund</find>
+                <replace>dedicated share of money in the Fund pursuant to <code-cite doc="D.C. Code" path="§4-681.03">section 4 (D.C. Official Code § 4-681.03)</code-cite></replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(II)</num>
               <text>Strike the phrase "resident." and insert the phrase "resident, and meets all other requirements set forth in this act." in its place.</text>
+              <codify:find-replace count="1">
+                <find>resident.</find>
+                <replace>resident, and meets all other requirements set forth in <code-cite doc="D.C. Code" path="4|6D">this act</code-cite>.</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(B)">
             <num>(ii)</num>
             <text>Subparagraph (B) is amended by striking the word "disable" and inserting the word "disabled" in its place.</text>
+            <codify:find-replace count="1">
+              <find>disable</find>
+              <replace>disabled</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "credited to his or her child trust fund account" and inserting the phrase "designated in the Fund" in its place.</text>
+          <codify:find-replace count="1">
+            <find>credited to his or her child trust fund account</find>
+            <replace>designated in the Fund</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(b)|(1)">
         <num>(2)</num>
-        <text>Subsection (b)(1) is amended by striking the phrase "a child trust fund</text>
+        <text>Subsection (b)(1) is amended by striking the phrase "a child trust fund account" and inserting the phrase "the Fund" in its place.</text>
+        <codify:find-replace count="1">
+          <find>a child trust fund account</find>
+          <replace>the Fund</replace>
+        </codify:find-replace>
       </para>
-      <aftertext proof="needed">account" and inserting the phrase "the Fund" in its place.</aftertext>
     </para>
-    <para>
+    <para codify:path="§4-681.07">
       <num>(f)</num>
       <text>Section 8 (D.C. Official Code § 4-681.07) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Designate the existing text as subsection (a).</text>
+        <codify:redesignate-para num-value="(a)"/>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>The newly designated subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <text>By March 1 of each year, the Chief Financial Officer shall submit a report to the Council for the preceding fiscal year that includes:</text>
             <para>
@@ -256,6 +344,7 @@
         <text>A new subsection (b) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(b)</num>
             <text>By February 1 of each year, the Department of Human Services shall submit the following information to the Office of the Chief Financial Officer for the preceding fiscal year, which the Chief Financial Officer shall include in his annual report to the Council:</text>
             <para>
@@ -275,9 +364,16 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-681.08">
       <num>(g)</num>
       <text>Section 9 (D.C. Official Code § 4-681.08) is amended by striking the phrase "Within 60 days after the applicability of this act, the Chief Financial Officer" and inserting the phrase "By December 31, 2022, the Chief Financial Officer" in its place.</text>
+      <!--  -->
+      <!-- This does not work with this span date(Error) -->
+      <!--  -->
+      <codify:find-replace count="1">
+        <find>Within 60 days after the applicability date of this act, the Chief Financial Officer</find>
+        <replace>By December 31, 2022, the Chief Financial Officer</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>

@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-762">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-317">
+  <num type="law">24-317</num>
   <num type="act">24-762</num>
   <num type="bill">24-989</num>
   <heading type="short">Educator Background Check Streamlining Amendment Act of 2022</heading>
   <heading type="long">To amend the School Safety Omnibus Amendment Act of 2018 to revise the process by which local education agencies screen applicants, to require that local education agencies review the National Sex Offender Registry in reviewing applicants for employment to education positions; and to amend Title II of the Prevention of Child Abuse and Neglect Act of 1977 to remove a notarization requirement, and to remove the review of the Child Protection Register as a required step in the educator background check process.</heading>
   <meta>
     <introduced>2022-09-16</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/51254/Signed_Act/B24-0989-Signed_Act.pdf">D.C. Law 24-317</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/51254/Signed_Act/B24-0989-Signed_Act.pdf">D.C. Act 24-762</citation>
       <citation type="register">70 DCR 851</citation>
     </citations>
@@ -20,25 +22,31 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Educator Background Check Streamlining Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§38-951.03">
     <num>2</num>
     <text>Section 103 of the School Safety Omnibus Amendment Act of 2018, effective April 11, 2019 (D.C. Law 22-294; D.C. Official Code § 38-951.03), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended as follows:</text>
-      <para>
+      <para codify:path="(3)">
         <num>(1)</num>
         <text>Paragraph (3) is amended by striking the phrase "any former employers" and inserting the phrase "each former employer in the preceding 7 years or each of the applicant's previous 3 employers, whichever period of time is longer," in its place.</text>
+        <codify:find-replace count="1">
+          <find>any former employers</find>
+          <replace>each former employer in the preceding 7 years or each of the applicant's previous 3 employers, whichever period of time is longer,</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para  codify:path="(5)">
         <num>(2)</num>
         <text>Paragraph (5) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (5A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(5)"/>
             <num>(5A)</num>
             <text>Reviews the United States Department of Justice Dru Sjodin National Sex Offender Public Website, also known as the National Sex Offender Public Registry, to determine if the person has been convicted of sex offenses or offenses against children.</text>
           </para>
@@ -46,40 +54,50 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="(b)">
       <num>(b)</num>
       <text>Subsection (b) is amended by striking the phrase "and shall provide, when contacted by another local education agency or school that is considering hiring the applicant, information pursuant to subsection (a)(3) of this section" and inserting the phrase "and shall provide such information to another local education agency or school that is considering hiring the individual when contacted by the local education agency or school" in its place.</text>
+      <codify:find-replace count="1">
+        <find>and shall provide, when contacted by another local education agency or school that is considering hiring the applicant, information pursuant to subsection (a)(3) of this section</find>
+        <replace>and shall provide such information to another local education agency or school that is considering hiring the individual when contacted by the local education agency or school</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>A new subsection (c) is added to read as follows:</text>
       <include>
         <para>
+          <codify:insert/>
           <num>(c)</num>
-          <text>An applicant who intentionally provides false information on an application submitted to a local education agency under subsection (a)(1) of this section shall be subject to prosecution under section 404 of the District of Columbia Theft and White Collar Crimes Act of 1982, effective December 1, 1982 (D.C. Law 4-164; D.C. Official Code § 22-2405).</text>
+          <text>An applicant who intentionally provides false information on an application submitted to a local education agency under subsection (a)(1) of this section shall be subject to prosecution under <code-cite doc="D.C. Code" path="§22-2405"> section 404 of the District of Columbia Theft and White Collar Crimes Act of 1982, effective December 1, 1982 (D.C. Law 4-164; D.C. Official Code § 22-2405)</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>3</num>
     <text>Title II of the Prevention of Child Abuse and Neglect Act of 1977, effective September 23, 1977 (D.C. Law 2-22; D.C. Official Code § 4-1302.02 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-1302.03|(a-1)">
       <num>(a)</num>
       <text>Section 203(a-1) (D.C. Official Code § 4-1302.03(a-1)) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended as follows:</text>
-        <para>
+        <para codify:path="text">
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "decisions regarding employees and volunteers or prospective employees and volunteers" and inserting the phrase "decisions regarding employees, contractors, and volunteers or prospective employees, contractors, and volunteers" in its place.</text>
+          <codify:find-replace count="1">
+            <find>decisions regarding employees and volunteers or prospective employees and volunteers</find>
+            <replace>decisions regarding employees, contractors, and volunteers or prospective employees, contractors, and volunteers</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(B)">
           <num>(B)</num>
           <text>Subparagraph (B) is amended to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:replace/>
               <num>(B)</num>
               <text>The request is accompanied by:</text>
               <para>
@@ -95,31 +113,45 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(2)</num>
         <text>Paragraph (2) is amended by striking the phrase "employee or volunteer, or prospective employee or volunteer" and inserting the phrase "employee, contractor, or volunteer, or prospective employee, contractor, or volunteer" in its place.</text>
+        <codify:find-replace count="1">
+          <find>employee or volunteer, or prospective employee or volunteer</find>
+          <replace>employee, contractor, or volunteer, or prospective employee, contractor, or volunteer</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-1302.05|(b)">
       <num>(b)</num>
       <text>Section 205(b) (D.C. Official Code § 4-1302.05(b)) is amended as follows:</text>
-      <para>
+      <para codify:path="(2)">
         <num>(1)</num>
         <text>Paragraph (2) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(2)</num>
         <text>Paragraph (3) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>New paragraphs (4) and (5) are added to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert/>
             <num>(4)</num>
             <text>A statement, in all capital letters, that states: "THIS IS A VERY SERIOUS MATTER"; and</text>
           </para>
           <para>
+            <codify:insert/>
             <num>(5)</num>
             <text>A statement that the person may be prevented from working in an organization serving children or in a public or private school if the person's name remains in the Child Protection Register.</text>
           </para>
@@ -127,12 +159,13 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-1302.07">
       <num>(c)</num>
       <text>Section 207 (D.C. Official Code § 4-1302.07) is amended to read as follows:</text>
       <include>
         <section>
-          <num>207</num>
+          <codify:replace/>
+          <num codify:value="4-1302.07">207</num>
           <heading proof="needed">Expungement.</heading>
           <para>
             <num>(a)</num>
@@ -143,11 +176,11 @@
             <text>The staff that maintain the Child Protection Register shall expunge a substantiated report from the Child Protection Register:</text>
             <para>
               <num>(1)</num>
-              <text>Three years after the date that the report was entered in the Child Protection Register if the child was not removed pursuant to section 304 and no subsequent substantiated or inconclusive report involving the person identified as responsible for the abuse or neglect was entered in the Child Protection Register during the preceding 3-year period; or</text>
+              <text>Three years after the date that the report was entered in the Child Protection Register if the child was not removed pursuant to <code-cite doc="D.C. Code" path="§4-1303.04">section 304</code-cite> and no subsequent substantiated or inconclusive report involving the person identified as responsible for the abuse or neglect was entered in the Child Protection Register during the preceding 3-year period; or</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>Three years from the date that the child, if removed pursuant to section 304 and a court made a finding that the child was abused or neglected, was reunified with the person identified as responsible for the abuse or neglect, or 5 years from the date that the substantiated report was entered in the Child Protection Register, whichever occurs first; provided, that no subsequent substantiated or inconclusive report involving the person identified as responsible for the abuse or neglect was entered in the Child Protection Register.</text>
+              <text>Three years from the date that the child, if removed pursuant to <code-cite doc="D.C. Code" path="§4-1303.04">section 304</code-cite> and a court made a finding that the child was abused or neglected, was reunified with the person identified as responsible for the abuse or neglect, or 5 years from the date that the substantiated report was entered in the Child Protection Register, whichever occurs first; provided, that no subsequent substantiated or inconclusive report involving the person identified as responsible for the abuse or neglect was entered in the Child Protection Register.</text>
             </para>
           </para>
           <para>
@@ -163,7 +196,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>Any material successfully challenged as incorrect pursuant to the rules adopted under section 206.</text>
+              <text>Any material successfully challenged as incorrect pursuant to the rules adopted under <code-cite doc="D.C. Code" path="§4-1302.06">section 206</code-cite>.</text>
             </para>
           </para>
           <para>
@@ -218,6 +251,7 @@
             <num>(g)</num>
             <text>The Mayor or the Mayor's designee shall have the right to overrule any expungement provided by this section on a case-by-case basis.</text>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-1302.07" applicability-path="§4" display-template=""/>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -229,6 +263,7 @@
     <para>
       <num>(a)</num>
       <text>Sections 3(c) shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 24-317" path="§3|(c)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

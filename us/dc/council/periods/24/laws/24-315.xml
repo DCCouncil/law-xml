@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-760">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-315">
+  <num type="law">24-315</num>
   <num type="act">24-760</num>
   <num type="bill">24-952</num>
   <heading type="short">Opioid Litigation Proceeds Amendment Act of 2022</heading>
   <heading type="long">To establish an Opioid Abatement Advisory Commission to make recommendations to the Mayor and Council regarding the use of opioid litigation settlement proceeds and District-wide goals, objectives, and performance indicators relating to opioid use disorder and co-occurring substance use and mental health disorders, and to establish an Office of Opioid Abatement and set forth its powers and duties; to amend the Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010 to make conforming changes; and to amend the Opioid Abatement Fund Establishment Act of 2022 to clarify the monies to be deposited into the Opioid Abatement Fund, to provide for how monies in the Opioid Abatement Fund shall be spent, to require an annual report to the Mayor, Council, and Attorney General concerning opioid abatement activities and the use of monies deposited into the Opioid Abatement Fund, and to require an audit of the Opioid Abatement Fund.</heading>
   <meta>
     <introduced>2022-07-14</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/51068/Signed_Act/B24-0952-Signed_Act.pdf">D.C. Law 24-315</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/51068/Signed_Act/B24-0952-Signed_Act.pdf">D.C. Act 24-760</citation>
       <citation type="register">70 DCR 838</citation>
     </citations>
@@ -24,15 +26,32 @@
     <prefix>TITLE</prefix>
     <num>I</num>
     <heading>OPIOID ABATEMENT</heading>
+    <codify:create-sub-container doc="D.C. Code" path="7|32" num-value="I" prefix-value="Subchapter" heading-value="Treatment and Prevention." history="false" display-template=""/>
+    <codify:insert doc="D.C. Code" path="7|32" after="I" history="false">
+      <container>
+        <prefix>Subchapter</prefix>
+        <num>II</num>
+        <heading>Opioid Litigation Proceeds.</heading>
+      </container>
+    </codify:insert>
+    <codify:find-replace doc="D.C. Code" path="§7-3201" count="1" history="false" display-template="">
+      <find><code-cite doc="D.C. Code" path="7|32">this act</code-cite></find>
+      <replace><cite doc="D.C. Code" path="7|32|I">this subchapter</cite></replace>
+    </codify:find-replace>
+    <codify:find-replace doc="D.C. Code" path="§7-3205" count="1" history="false" display-template="">
+      <find><code-cite doc="D.C. Code" path="7|32">this title</code-cite></find>
+      <replace><cite doc="D.C. Code" path="7|32|I">this subchapter</cite></replace>
+    </codify:find-replace>
     <section>
+      <codify:insert doc="D.C. Code" path="7|32|II" num-value="7-3211"/>
       <num>101</num>
       <heading proof="needed">Definitions.</heading>
       <para>
         <num undesignated="true">(a)</num>
-        <text>For the purposes of this title, the term:</text>
+        <text>For the purposes of <code-cite doc="D.C. Code" path="7|32|II">this title</code-cite>, the term:</text>
         <para>
           <num>(1)</num>
-          <text>"Commission" means the Opioid Abatement Advisory Commission established by section 102.</text>
+          <text>"Commission" means the Opioid Abatement Advisory Commission established by <code-cite doc="D.C. Code" path="§7-3212">section 102</code-cite>.</text>
         </para>
         <para>
           <num>(2)</num>
@@ -44,7 +63,7 @@
         </para>
         <para>
           <num>(4)</num>
-          <text>"Fund" means the Opioid Abatement Fund established by section 5012 of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441).</text>
+          <text>"Fund" means the Opioid Abatement Fund established by <code-cite doc="D.C. Code" path="§7-3221">section 5012 of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441)</code-cite>.</text>
         </para>
         <para>
           <num>(5)</num>
@@ -56,7 +75,7 @@
         </para>
         <para>
           <num>(7)</num>
-          <text>"Office" means the Office of Opioid Abatement established by section 103.</text>
+          <text>"Office" means the Office of Opioid Abatement established by <code-cite doc="D.C. Code" path="§7-3213">section 103</code-cite>.</text>
         </para>
         <para>
           <num>(8)</num>
@@ -99,8 +118,10 @@
           </para>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§7-3211" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="7|32|II" num-value="7-3212"/>
       <num>102</num>
       <heading proof="needed">Opioid Abatement Advisory Commission.</heading>
       <para>
@@ -264,7 +285,7 @@
       </para>
       <para>
         <num>(f)</num>
-        <text>The Commission shall hold public meetings at least quarterly, with meetings called by the Chair or a majority of Commission members. All Commission meetings shall be subject to the Open Meetings Act, effective March 31, 2011 (D.C. Law 18-350; D.C. Official Code § 2-571 <em>et seq.</em>).</text>
+        <text>The Commission shall hold public meetings at least quarterly, with meetings called by the Chair or a majority of Commission members. All Commission meetings shall be subject to <code-cite doc="D.C. Code" path="2|5|IV">the Open Meetings Act, effective March 31, 2011 (D.C. Law 18-350; D.C. Official Code § 2-571 <em>et seq.</em>)</code-cite>.</text>
       </para>
       <para>
         <num>(g)</num>
@@ -334,8 +355,10 @@
           <text>The infrastructure, activities, practices, programs, services, supports, and strategies currently available to individuals with an opioid use disorder in an area that a prospective awardee or grantee seeks to serve.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§7-3212" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="7|32|II" num-value="7-3213"/>
       <num>103</num>
       <heading proof="needed">Office of Opioid Abatement.</heading>
       <para>
@@ -362,7 +385,7 @@
         </para>
         <para>
           <num>(3)</num>
-          <text>Assist the Commission in preparing its recommendations regarding goals, objectives, and performance indicators pursuant to section 102(h)(2)(A);</text>
+          <text>Assist the Commission in preparing its recommendations regarding goals, objectives, and performance indicators pursuant to <code-cite doc="D.C. Code" path="§7-3212|(h)|(2)|(A)">section 102(h)(2)(A)</code-cite>;</text>
         </para>
         <para>
           <num>(4)</num>
@@ -382,7 +405,7 @@
         </para>
         <para>
           <num>(8)</num>
-          <text>Prepare the annual report required by section 5012(f) of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441(f)); and</text>
+          <text>Prepare the annual report required by <code-cite doc="D.C. Code" path="§7-3221|(f)">section 5012(f) of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441(f))</code-cite>; and</text>
         </para>
         <para>
           <num>(9)</num>
@@ -405,7 +428,7 @@
           </para>
           <para>
             <num>(E)</num>
-            <text>The annual reports prepared pursuant to section 5012(f) of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441(f)).</text>
+            <text>The annual reports prepared pursuant to<code-cite doc="D.C. Code" path="§7-3221|(f)"> section 5012(f) of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441(f))</code-cite>.</text>
           </para>
         </para>
       </para>
@@ -420,100 +443,138 @@
           <text>The Commission shall have at least 7 days after receipt of the Office's written explanation provided pursuant to paragraph (1) of this subsection to provide a written response before the Office proceeds with its decision.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§7-3213" applicability-path="§301" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert doc="D.C. Code" path="7|32|II" num-value="7-3214"/>
       <num>104</num>
       <heading proof="needed">Rules.</heading>
-      <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code 2-501 <em>et seq.</em>), may issue rules to implement the provisions of this title.</text>
+      <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement the provisions of <code-cite doc="D.C. Code" path="7|32|II">this title</code-cite>.</text>
+      <codify:not-funded-anno doc="D.C. Code" path="§7-3214" applicability-path="§301" action="creation of" display-template=""/>
     </section>
   </container>
-  <container>
+  <container codify:doc="D.C. Code">
     <prefix>TITLE</prefix>
     <num>II</num>
     <heading>AMENDMENTS</heading>
-    <section>
+    <section codify:path="§1-301.86b">
       <num>201</num>
       <text>Section 106b of the Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010, effective October 22, 2015 (D.C. Law 21-36; D.C. Official Code § 1-301.86b), is amended as follows:</text>
-      <para>
+      <para codify:path="(b)">
         <num>(a)</num>
         <text>Subsection (b) is amended as follows:</text>
-        <para>
+        <para codify:path="(2)">
           <num>(1)</num>
           <text>Paragraph (2) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(2)</num>
           <text>Paragraph (3) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace position="last">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(3)</num>
           <text>A new paragraph (4) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(4)</num>
-              <text>Subject to the limitations of subsection (d)(3)(D) of this section, funds received pursuant to section 5012(b)(1) and (1A) of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441(b)(1), (1A)).</text>
+              <text>Subject to the limitations of subsection (d)(3)(D) of this section, funds received pursuant to <code-cite doc="D.C. Code" path="§7-3221|(b)|(1)">section 5012(b)(1)</code-cite> and <cite doc="D.C. Code" path="§7-3221|(b)|(1A)">(1A)</cite><span codify:value=""> of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441(b)(1), (1A))</span>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(d)|(3)|(D)">
         <num>(b)</num>
         <text>Subsection (d)(3)(D) is amended to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:replace/>
             <num>(D)</num>
-            <text>The Attorney General shall transfer to the Opioid Abatement Fund, established by section 5012 of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441), at least 85% of any payment received prior to October 1, 2022, in settlement of the cases and settlements, judgments, and consent decrees specified in section 5012(b)(1) and (1A) of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441(b)(1) and (1A)), that was deposited into the Fund, and at least 90% of any payment received thereafter. The Attorney General may elect to retain the remainder of each such payment in the Fund by providing the Mayor, Chief Financial Officer, and Council with written notice of the amount of the election and the relevant payment. In making this election, the Attorney General shall ensure compliance with all applicable settlement terms.</text>
+            <text>The Attorney General shall transfer to the Opioid Abatement Fund, established by <code-cite doc="D.C. Code" path="§7-3221">section 5012 of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441)</code-cite>, at least 85% of any payment received prior to October 1, 2022, in settlement of the cases and settlements, judgments, and consent decrees specified in <code-cite doc="D.C. Code" path="§7-3221|(b)|(1)">section 5012(b)(1)</code-cite> and <cite doc="D.C. Code" path="§7-3221|(b)|(1A)">(1A)</cite><span codify:value=""> of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441(b)(1) and (1A))</span>, that was deposited into the Fund, and at least 90% of any payment received thereafter. The Attorney General may elect to retain the remainder of each such payment in the Fund by providing the Mayor, Chief Financial Officer, and Council with written notice of the amount of the election and the relevant payment. In making this election, the Attorney General shall ensure compliance with all applicable settlement terms.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§1-301.86b" applicability-path="§301" display-template=""/>
     </section>
-    <section>
+    <codify:insert doc="D.C. Code" path="7|32" after="II" history="false">
+      <container>
+        <prefix>Subchapter</prefix>
+        <num>III</num>
+        <heading>Opioid Abatement Fund.</heading>
+      </container>
+    </codify:insert>
+    <codify:recodify-section path="§1-325.441" num-value="7-3221" destination-path="7|32|III" history="false"  display-template=""/>
+    <section codify:path="§7-3221">
       <num>202</num>
       <text>Section 5012 of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441), is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(a)</num>
         <text>Subsection (a) is amended by striking the phrase "the Mayor" and inserting the phrase "the Department of Behavioral Health" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the Mayor</find>
+          <replace>the Department of Behavioral Health</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(b)</num>
         <text>Subsection (b) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(1)</num>
           <text>Paragraph (1) is amended as follows:</text>
-          <para>
+          <para codify:path="text">
             <num>(A)</num>
             <text>The lead-in language is amended by striking the phrase "time, in settlement of D.C. Superior Court cases" and inserting the phrase "time, pursuant to the settlement and trust-distribution agreements entered in the following cases" in its place.</text>
+            <codify:find-replace count="1">
+              <find>time, in settlement of D.C. Superior Court cases</find>
+              <replace>time, pursuant to the settlement and trust-distribution agreements entered in the following cases</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(A)">
             <num>(B)</num>
             <text>Subparagraph (A) is amended by striking the phrase "Case No. 2022-CA-001441-B" and inserting the phrase "Case No. 2022-CA-001441-B (D.C. Super. Ct.)" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Case No. 2022-CA-001441-B</find>
+              <replace>Case No. 2022-CA-001441-B (D.C. Super. Ct.)</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(B)">
             <num>(C)</num>
             <text>Subparagraph (B) is amended to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:replace/>
                 <num>(B)</num>
-                <heading proof="needed">District of Columbia v. McKesson Corp., et al.</heading>
-                <text>, Case No. 2022-CA-001401-B (D.C. Super. Ct.);</text>
+                <text><em>District of Columbia v. McKesson Corp.,</em>, <em> et al.</em>, Case No. 2022-CA-001401-B (D.C. Super. Ct.);</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(C)">
             <num>(D)</num>
             <text>Subparagraph (C) is amended by striking the phrase "Case No. 2021-CA-00327-B; and" and inserting the phrase "Case No. 2021-CA-00327-B (D.C. Super. Ct.); and" in its place.</text>
+            <codify:find-replace count="1">
+              <find>-B</find>
+              <replace>-B (D.C. Super. Ct.)</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(E)</num>
             <text>A new subparagraph (D) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(D)</num>
-                <heading proof="needed">In re Mallinckrodt PLC</heading>
-                <text>, No. 20-BK-12522 (Bankr. D. Del.);</text>
+                <text><em>In re Mallinckrodt PLC, No. 20-BK-12522 (Bankr. D. Del.)</em>;</text>
               </para>
             </include>
           </para>
@@ -523,6 +584,7 @@
           <text>A new paragraph (1A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(1)"/>
               <num>(1A)</num>
               <text>Funds received by the District pursuant to any pre- or post-suit settlement, judgment, or consent decree that the Attorney General designates as an opioid-related settlement, judgment, or consent decree; provided, that the Attorney General shall notify the Mayor and Council of any such designation within 30 days after the settlement, judgment, or consent decree becoming final; and</text>
             </para>
@@ -535,11 +597,12 @@
         <text>New subsections (b-1), (b-2), (b-3), and (b-4) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(b)"/>
             <num>(b-1)</num>
             <text>Monies in the Fund shall be used only for the following purposes:</text>
             <para>
               <num>(1)</num>
-              <text>Permissible Opioid Abatement Advisory Commission and Office of Opioid Abatement activities and operations, including personnel, pursuant to sections 102 and 103 of the Opioid Litigation Proceeds Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-952), respectively;</text>
+              <text>Permissible Opioid Abatement Advisory Commission and Office of Opioid Abatement activities and operations, including personnel, pursuant to <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§7-3211" codify:value="7-3211">102</code-cite> and <code-cite doc="D.C. Code" path="§7-3212" codify:value="7-3212">103 of the Opioid Litigation Proceeds Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-952)</code-cite>, respectively;</text>
             </para>
             <para>
               <num>(2)</num>
@@ -579,33 +642,41 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(b-1)"/>
             <num>(b-2)</num>
-            <text>Unless otherwise required by court order, monies in the Fund shall be used for prospective purposes and not to reimburse expenditures incurred prior to the effective date of the Opioid Litigation Proceeds Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-952).</text>
+            <text>Unless otherwise required by court order, monies in the Fund shall be used for prospective purposes and not to reimburse expenditures incurred prior to <span codify:value="March 10, 2023">the effective date of the Opioid Litigation Proceeds Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-952)</span>.</text>
           </para>
           <para>
+          <codify:insert after="(b-2)"/>
             <num>(b-3)</num>
             <text>Monies expended from the Fund for the purposes set forth in subsection (b-1) of this section shall supplement, and not supplant, any other funds, including insurance benefits or District or federal funding, that would otherwise have been expended for such purposes.</text>
           </para>
           <para>
+            <codify:insert after="(b-3)"/>
             <num>(b-4)</num>
             <text>Expenditures for Commission and Office activities and operations, including personnel, and expenditures for audits shall comply with any applicable terms in the settlement agreements, judgments, or consent decrees that limit the use of funds for administrative expenses.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(d)</num>
         <text>Subsection (c) is amended by striking the phrase "the Council of the District of Columbia" and inserting the phrase "the Council" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the Council of the District of Columbia</find>
+          <replace>the Council</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(e)</num>
         <text>New subsections (e), (f), and (g) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(e)</num>
             <para>
               <num>(1)</num>
-              <text>Notwithstanding subsection (b)(1) and (1A) of this section, the Attorney General may elect to have no more than 15% of any payment that the District receives prior to October 1, 2022, pursuant to the settlements, judgments, and consent decrees referenced in subsection (b)(1) and (1A) of this section, retained in the Litigation Support Fund established pursuant to section 106b of the Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010, effective October 22, 2015 (D.C. Law 21-36; D.C. Official Code § 1-301.86b), and no more than 10% of any payment received thereafter.</text>
+              <text>Notwithstanding subsection (b)(1) and (1A) of this section, the Attorney General may elect to have no more than 15% of any payment that the District receives prior to October 1, 2022, pursuant to the settlements, judgments, and consent decrees referenced in subsection (b)(1) and (1A) of this section, retained in the Litigation Support Fund established pursuant to <code-cite doc="D.C. Code" path="§1-301.86b">section 106b of the Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010, effective October 22, 2015 (D.C. Law 21-36; D.C. Official Code § 1-301.86b)</code-cite>, and no more than 10% of any payment received thereafter.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -613,6 +684,7 @@
             </para>
           </para>
           <para>
+            <codify:insert/>
             <num>(f)</num>
             <para>
               <num>(1)</num>
@@ -672,12 +744,14 @@
             </para>
           </para>
           <para>
+            <codify:insert/>
             <num>(g)</num>
             <text>The Office of the District of Columbia Auditor shall audit the Fund every 5 years.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§7-3221" applicability-path="§301" display-template=""/>
     </section>
   </container>
   <container>
@@ -690,6 +764,13 @@
       <para>
         <num>(a)</num>
         <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+         <codify:applicability doc="D.C. Law 24-315" path="§101" date="notfunded" history="false" display-template=""/>
+         <codify:applicability doc="D.C. Law 24-315" path="§102" date="notfunded" history="false" display-template=""/>
+         <codify:applicability doc="D.C. Law 24-315" path="§103" date="notfunded" history="false" display-template=""/>
+         <codify:applicability doc="D.C. Law 24-315" path="§104" date="notfunded" history="false" display-template=""/>
+        <!--  -->
+        <codify:applicability doc="D.C. Law 24-315" path="§201" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 24-315" path="§202" date="notfunded" history="false" display-template=""/>
       </para>
       <para>
         <num>(b)</num>
