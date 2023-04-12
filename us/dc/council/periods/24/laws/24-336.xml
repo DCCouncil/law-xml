@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-799">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-336">
+  <num type="law">24-336</num>
   <num type="act">24-799</num>
   <num type="bill">24-617</num>
   <heading type="short">Office of District Waterways Management Establishment Act of 2022</heading>
   <heading type="long">To establish the Office of District Waterways Management and the District Waterways Advisory Commission to comprehensively plan, promote, advocate for, and facilitate stakeholder cooperation for the diverse uses of and access to the District's waterways and adjacent property, and to require the development of a District Waterways Advisory Plan.</heading>
   <meta>
     <introduced>2022-01-19</introduced>
-    <effective projected="true">2023-03-28</effective>
+    <effective>2023-03-22</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/48618/Signed_Act/B24-0617-Signed_Act.pdf">D.C. Law 24-336</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/48618/Signed_Act/B24-0617-Signed_Act.pdf">D.C. Act 24-799</citation>
       <citation type="register">70 DCR 1623</citation>
     </citations>
@@ -19,8 +21,16 @@
       <committee>Housing and Executive Administration, Committee of the Whole</committee>
     </history>
   </meta>
+  <codify:insert doc="D.C. Code" path="8" after="1C" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>1D</num>
+      <heading>Office of District Waterways Management.</heading>
+    </container>
+  </codify:insert>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Office of District Waterways Management Establishment Act of 2022".</text>
   <section>
+    <codify:insert doc="D.C. Code" path="8|1D" num-value="8-191.01"/>
     <num>2</num>
     <heading proof="needed">Establishment; purpose and duties.</heading>
     <para>
@@ -32,7 +42,7 @@
       <text>The Office shall:</text>
       <para>
         <num>(1)</num>
-        <text>Publish the Waterways Advisory Plan adopted pursuant to section 4;</text>
+        <text>Publish the Waterways Advisory Plan adopted pursuant to <code-cite doc="D.C. Code" path="§8-191.03">section 4</code-cite>;</text>
       </para>
       <para>
         <num>(2)</num>
@@ -43,13 +53,15 @@
         <text>Advise the Mayor and the Council on issues related to the Anacostia and Potomac Rivers, the Washington Channel, and adjacent property, including public improvements, maintenance, operations, programming, budgeting, resiliency, planning, and public safety and security.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§8-191.01" action="creation of" applicability-path="§6" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="8|1D" num-value="8-191.02"/>
     <num>3</num>
     <heading proof="needed">Establishment of the District Waterways Advisory Commission; composition; duties.</heading>
     <para>
       <num>(a)</num>
-      <text>There is established a District Waterways Advisory Commission ("Commission") to advise the Office of District Waterways and to adopt a Waterways Advisory Plan pursuant to section 4.</text>
+      <text>There is established a District Waterways Advisory Commission ("Commission") to advise the Office of District Waterways and to adopt a Waterways Advisory Plan pursuant to <code-cite doc="D.C. Code" path="§8-191.03">section 4</code-cite>.</text>
     </para>
     <para>
       <num>(b)</num>
@@ -58,7 +70,7 @@
         <text>The Commission shall be comprised of 14 voting members appointed as follows:</text>
         <para>
           <num>(A)</num>
-          <text>Seven members appointed by the Mayor, with the advice and consent of the Council, pursuant to section 2(e) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-141; D.C. Official Code § 1-523.01(e)), one of whom shall be designated as Chairperson.  Each appointee shall have experience in at least one of the following areas:</text>
+          <text>Seven members appointed by the Mayor, with the advice and consent of the Council, pursuant to <code-cite doc="D.C. Code" path="§1-523.01|(e)">section 2(e) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-141; D.C. Official Code § 1-523.01(e))</code-cite>, one of whom shall be designated as Chairperson.  Each appointee shall have experience in at least one of the following areas:</text>
           <para>
             <num>(i)</num>
             <text>Public safety;</text>
@@ -184,18 +196,20 @@
     </para>
     <para>
       <num>(f)</num>
-      <text>The Commission shall meet at least once every month until the first Advisory Plan developed pursuant to section 4 is published and at least quarterly thereafter.</text>
+      <text>The Commission shall meet at least once every month until the first Advisory Plan developed pursuant to <code-cite doc="D.C. Code" path="§8-191.03">section 4</code-cite> is published and at least quarterly thereafter.</text>
     </para>
     <para>
       <num>(g)</num>
-      <text>Proceedings of the Commission are subject to the Open Meetings Act, effective March 31, 2011 (D.C. Law 18-350; D.C. Official Code § 2-571 <em>et seq</em>.).</text>
+      <text>Proceedings of the Commission are subject to <code-cite doc="D.C. Code" path="2|5|IV">the Open Meetings Act, effective March 31, 2011 (D.C. Law 18-350; D.C. Official Code § 2-571 <em>et seq</em>.)</code-cite>.</text>
     </para>
     <para>
       <num>(h)</num>
       <text>A majority of the members appointed pursuant to subsection (b) of this section shall constitute a quorum.</text>
     </para>
+     <codify:not-funded-anno doc="D.C. Code" path="§8-191.02" action="creation of" applicability-path="§6" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="8|1D" num-value="8-191.03"/>
     <num>4</num>
     <heading proof="needed">District Waterways Advisory Plan.</heading>
     <para>
@@ -257,8 +271,10 @@
       <num>(d)</num>
       <text>The Advisory Plan shall be updated at least once every 2 years, following the same process required for the initial Advisory Plan pursuant to subsection (b) of this section.</text>
     </para>
+     <codify:not-funded-anno doc="D.C. Code" path="§8-191.03" action="creation of" applicability-path="§6" display-template=""/>
   </section>
   <section>
+    <codify:marginalia display="DCMR"/>
     <num>5</num>
     <text>Section 2(a) of the Advisory Neighborhood Commission Boundaries Act of 2022, effective August 10, 2022 (D.C. Law 24-148; D.C. Official Code § 1-207.38, <em>note</em>), is amended as follows:</text>
     <para>
@@ -276,6 +292,7 @@
     <para>
       <num>(a)</num>
       <text>Sections 2, 3, and 4 of this act shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 24-336" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

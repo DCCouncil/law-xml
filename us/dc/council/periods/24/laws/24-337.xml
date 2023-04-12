@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-794">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-337">
+  <num type="law">24-337</num>
   <num type="act">24-794</num>
   <num type="bill">24-710</num>
   <heading type="short">Migratory Local Wildlife Protection Act of 2022</heading>
   <heading type="long">To require that for building permits for new construction or alterations involving the replacement of all or substantially all exterior glazing issued after October 1, 2024, the facade of the building's exterior wall envelope and exterior fenestration largely use bird friendly materials, to prescribe other building elements that must be constructed using bird friendly materials after October 1, 2024, to require that bird hazard installations be installed with bird friendly materials, and to require that the Department of Buildings, in consultation with The Department of Energy and Environment, to issue regulations to aid in implementation of the act.</heading>
   <meta>
     <introduced>2022-03-14</introduced>
-    <effective projected="true">2023-03-28</effective>
+    <effective>2023-03-22</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/49073/Signed_Act/B24-0710-Signed_Act.pdf">D.C. Law 24-337</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/49073/Signed_Act/B24-0710-Signed_Act.pdf">D.C. Act 24-794</citation>
       <citation type="register">70 DCR 1569</citation>
     </citations>
@@ -20,7 +22,16 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Migratory Local Wildlife Protection Act of 2022".</text>
+  <codify:insert doc="D.C. Code" path="8|22" after="III" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>IV</num>
+      <heading>Migratory Local Wildlife Protection.</heading>
+    </container>
+  </codify:insert>
   <section>
+    <codify:insert doc="D.C. Code" path="8|22|IV" num-value="8-2241.01"/>
+    <!-- Add links when funded -->
     <num>2</num>
     <heading proof="needed">Definitions.</heading>
     <para>
@@ -74,9 +85,12 @@
         <text>"Substantially all" means 75% or more.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§8-2241.01" action="creation of" applicability-path="§6" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="8|22|IV" num-value="8-2241.02"/>
     <num>3</num>
+    <heading codify:value="Bird friendly construction."/>
     <para>
       <num>(a)</num>
       <para>
@@ -108,8 +122,9 @@
       <num>(c)</num>
       <text>Bird hazard installations shall be constructed of bird friendly materials regardless of their height above grade.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§8-2241.02" action="creation of" applicability-path="§6" display-template=""/>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§6-1451.07|(c)">
     <num>4</num>
     <text>Section 8(c) of the Green Building Act of 2006, effective March 8, 2007 (D.C. Law 16-234; D.C. Official Code § 6-1451.07(c)), is amended as follows:</text>
     <para>
@@ -117,33 +132,45 @@
       <text>A new paragraph (5A) is added to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(5)"/>
           <num>(5A)</num>
           <text>Education and outreach on the requirements of the Migratory Local Wildlife Protection Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-710);</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(7)">
       <num>(b)</num>
       <text>Paragraph (7) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+      <codify:find-replace count="1">
+        <find>; and</find>
+        <replace>;</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(8)|num">
       <num>(c)</num>
       <text>Existing paragraph (8) is redesignated as paragraph (9).</text>
+      <codify:find-replace count="1">
+        <find>(8)</find>
+        <replace>(9)</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(d)</num>
       <text>A new paragraph (8) is inserted to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(8)" num-value="[(9)]"/>
           <num>(8)</num>
           <text>Income-contingent subsidies to assist District property owners with the costs related to installation of retrofits that meet the requirements of the Migratory Local Wildlife Protection Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-710); and</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§6-1451.07" applicability-path="§6" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="8|22|IV" num-value="8-2241.03"/>
     <num>5</num>
     <heading proof="needed">Rules.</heading>
     <para>
@@ -158,6 +185,7 @@
       <num>(c)</num>
       <text>The absence of regulations shall not delay the applicability of this act or of any provision in this act.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§8-2241.03" action="creation of" applicability-path="§6" display-template=""/>
   </section>
   <section>
     <num>6</num>
@@ -165,6 +193,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 24-337" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

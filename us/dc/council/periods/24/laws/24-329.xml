@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-786">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-329">
+  <num type="law">24-329</num>
   <num type="act">24-786</num>
   <num type="bill">24-1145</num>
   <heading type="short">District of Columbia Housing Authority Stabilization and Reform Temporary Amendment Act of 2022</heading>
   <heading type="long">To amend, on a temporary basis, the District of Columbia Housing Authority Act of 1999 to establish a temporary Stabilization and Reform Board to govern the District of Columbia Housing Authority ("DCHA") and to require that the Board and the Executive Director of DCHA take specific actions to reform and revitalize the operations of DCHA.</heading>
   <meta>
     <introduced>2022-12-02</introduced>
-    <effective projected="true">2023-03-16</effective>
+    <effective>2023-03-10</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/51827/Signed_Act/B24-1145-Signed_Act.pdf">D.C. Law 24-329</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/51827/Signed_Act/B24-1145-Signed_Act.pdf">D.C. Act 24-786</citation>
       <citation type="register">70 DCR 1029</citation>
     </citations>
@@ -22,49 +24,76 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "District of Columbia Housing Authority Stabilization and Reform Temporary Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The District of Columbia Housing Authority Act of 1999, effective May 9, 2000 (D.C. Law 13-105; D.C. Official Code § 6-201 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§6-201">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 6-201) is amended as follows:</text>
-      <para>
+      <para codify:path="(6)">
         <num>(1)</num>
         <text>Paragraph (6) is amended by striking the phrase "Board of Commissioners" and inserting the phrase "Stabilization and Reform Board" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Board of Commissioners</find>
+          <replace>Stabilization and Reform Board</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(12)">
         <num>(2)</num>
         <text>Paragraph (12) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (17A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+          <codify:insert after="(17)"/>
             <num>(17A)</num>
             <text>"Dwelling unit" means any room or group of rooms located within a residential or mixed-use building and forming a single unit that is used or intended to be used for living, sleeping, and the preparation and eating of meals.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+       <codify:temporary doc="D.C. Code" path="§6-201"/>
+      <codify:insert doc="D.C. Code" path="§6-201" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 21, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-201(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§6-209|(h)">
       <num>(b)</num>
       <text>Section 10(h) (D.C. Official Code § 6-209(h)) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the phrase "or Commissioner of the Authority" and insert the phrase "member of the Board, or member of the former Board of Commissioners" in its place.</text>
+        <codify:find-replace count="1">
+          <find>or Commissioner of the Authority</find>
+          <replace>member of the Board, or member of the former Board of Commissioners</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Strike the phrase "a Commissioner" and insert the phrase "a member of the Board, member of the former Board of Commissioners," in its place.</text>
+         <codify:find-replace count="1">
+          <find>a Commissioner,</find>
+          <replace>a member of the Board, member of the former Board of Commissioners,</replace>
+        </codify:find-replace>
       </para>
+      <codify:temporary doc="D.C. Code" path="§6-209"/>
+      <codify:insert doc="D.C. Code" path="§6-209" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 21, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-209(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
     <para>
       <num>(c)</num>
       <text>New sections 11a, 11b, and 11c are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="6|2|I" after="§6-210" num-value="6-210.01" history-prefix="as added"/>
           <num>11a</num>
           <heading proof="needed">Stabilization and Reform Board.</heading>
           <para>
@@ -212,8 +241,15 @@
             <num>(j)</num>
             <text>The Authority shall provide to the Stabilization and Reform Board at least 2 full-time employees who are qualified to provide legal and policy research as requested by members of the Board. Except as otherwise provided by law, a full-time employee provided to the Board pursuant to this subsection shall not share with employees of the Authority information about research performed for a Board member, unless the member of the Board authorizes sharing of information.</text>
           </para>
+          <codify:temporary-new-sec doc="D.C. Code" path="§6-210.01" interim-path="§6-210" perm-eff="2023-03-10"/>
+          <codify:insert doc="D.C. Code" path="§6-210.01" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section was created by temporary legislation that will expire on October 21, 2023.*
+      </text>
+          </codify:insert>
         </section>
         <section>
+          <codify:insert path="6|2|I" after="§6-210.01" num-value="6-210.02" history-prefix="as added"/>
           <num>11b</num>
           <heading proof="needed">Reform activities.</heading>
           <para>
@@ -303,8 +339,15 @@
             <num>(e)</num>
             <text>A quorum of members of the Stabilization and Reform Board shall be present at each listening session held pursuant to subsection (c)(2) of this section.</text>
           </para>
+          <codify:temporary-new-sec doc="D.C. Code" path="§6-210.02" interim-path="§6-210" perm-eff="2023-03-10"/>
+          <codify:insert doc="D.C. Code" path="§6-210.02" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section was created by temporary legislation that will expire on October 21, 2023.*
+      </text>
+          </codify:insert>
         </section>
         <section>
+          <codify:insert path="6|2|I" after="§6-210.02" num-value="6-210.03" history-prefix="as added"/>
           <num>11c</num>
           <heading proof="needed">City-Wide Resident Advisory Board.</heading>
           <para>
@@ -333,17 +376,27 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:temporary-new-sec doc="D.C. Code" path="§6-210.03" interim-path="§6-210" perm-eff="2023-03-10"/>
+          <codify:insert doc="D.C. Code" path="§6-210.03" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section was created by temporary legislation that will expire on October 21, 2023.*
+      </text>
+          </codify:insert>
     </para>
-    <para>
+    <para codify:path="§6-211">
       <num>(d)</num>
       <text>Section 12 (D.C. Official Code § 6-211) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended to read as follows:</text>
         <include>
           <section>
             <num>12</num>
             <heading proof="needed">Additional Board provisions.</heading>
+            <codify:find-replace count="1">
+              <find>Board of Commissioners.</find>
+              <replace>Additional Board provisions.</replace>
+            </codify:find-replace>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -351,108 +404,215 @@
       <para>
         <num>(2)</num>
         <text>Subsections (a), (b), (c), (e), (f), (g), (i), (j), (k), (l), (m), (n), (o), (p), (q), (v)(3), and (w) are repealed.</text>
+        <codify:repeal path="(a)"/>
+        <codify:repeal path="(b)"/>
+        <codify:repeal path="(c)"/>
+        <codify:repeal path="(e)"/>
+        <codify:repeal path="(f)"/>
+        <codify:repeal path="(g)"/>
+        <codify:repeal path="(i)"/>
+        <codify:repeal path="(j)"/>
+        <codify:repeal path="(k)"/>
+        <codify:repeal path="(l)"/>
+        <codify:repeal path="(m)"/>
+        <codify:repeal path="(n)"/>
+        <codify:repeal path="(o)"/>
+        <codify:repeal path="(p)"/>
+        <codify:repeal path="(q)"/>
+        <codify:repeal path="(v)|(3)"/>
+        <codify:repeal path="(w)"/>
       </para>
-      <para>
+      <para codify:path="(h)">
         <num>(3)</num>
         <text>Subsection (h) is amended by adding a new paragraph (7) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(7)</num>
             <text>Each reference to "Commissioner" in this paragraph shall be deemed to be a reference to a member of the Board.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(r)">
         <num>(4)</num>
         <text>Subsection (r) is amended by striking the phrase "No Commissioner" and inserting the phrase "No member of the Board" in its place.</text>
+        <codify:find-replace count="1">
+          <find>No Commissioner</find>
+          <replace>"No member of the Board</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(s)">
         <num>(5)</num>
-        <text>Subsection (s) is amended by striking the phrase "Commissioners shall" and inserting the phrase "Each member of the Board referred to in section 11a(a)(1)(A) through (I) shall" in its place.</text>
+        <text>Subsection (s) is amended by striking the phrase "Commissioners shall" and inserting the phrase "Each member of the Board referred to in <code-cite doc="D.C. Code" path="§6-210.01|(a)|(1)|(A)">section 11a(a)(1)(A)</code-cite> through <cite doc="D.C. Code" path="§6-210.01|(a)|(1)|(I)">(I)</cite> shall" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Commissioners shall</find>
+          <replace>Each member of the Board referred to in section 11a(a)(1)(A) through (I) shall</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(u)">
         <num>(6)</num>
         <text>Subsection (u) is amended by striking the phrase "any Commissioner" and inserting the phrase "any member of the Board" in its place.</text>
+        <codify:find-replace count="1">
+          <find>any Commissioner</find>
+          <replace>any member of the Board</replace>
+        </codify:find-replace>
       </para>
+      <codify:temporary doc="D.C. Code" path="§6-211"/>
+      <codify:insert doc="D.C. Code" path="§6-211" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 21, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-211(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§6-213">
       <num>(e)</num>
       <text>Section 14 (D.C. Official Code § 6-213) is amended as follows:</text>
-      <para>
+      <para codify:path="(c)">
         <num>(1)</num>
         <text>Subsection (c) is amended by striking the phrase "direction and supervision" and inserting the word "oversight" in its place.</text>
+        <codify:find-replace count="1">
+          <find>direction and supervision</find>
+          <replace>oversight</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (d) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert num-value="[(e)]"/>
             <num>(d)</num>
             <text>As part of the process of selecting an Executive Director, the Board shall seek and consider the input of public housing residents, voucher holders, and the resident advisory board for the Authority.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:temporary doc="D.C. Code" path="§6-213"/>
+      <codify:insert doc="D.C. Code" path="§6-213" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 21, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-213(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+     <para codify:path="§6-220">
       <num>(f)</num>
       <text>Section 21 (D.C. Official Code § 6-220) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "Board of Commissioners" and inserting the word "Board" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Board of Commissioners</find>
+          <replace>Board</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
-        <text>Subsection (a) is amended by striking the phrase "each Commissioner" and inserting the phrase "each member of the Board" in its place.</text>
+        <text>Subsection (a) is amended by striking the phrase "each Commissioner" and inserting the phrase "each member of the Board".</text>
+        <codify:find-replace count="1">
+          <find>each Commissioner</find>
+          <replace>each member of the Board</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(3)</num>
         <text>Subsection (b) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "as a Commissioner" and insert the phrase "as a member of the Board or a member of the former Board of Commissioners" in its place.</text>
+          <codify:find-replace count="1">
+            <find>as a Commissioner</find>
+            <replace>as a member of the Board or a member of the former Board of Commissioners</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "former Commissioner" and insert the phrase "former member of the Board or former member of the former Board of Commissioners" in its place.</text>
+          <codify:find-replace count="1">
+            <find>no former Commissioner</find>
+            <replace>no former member of the Board or former member of the former Board of Commissioners</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>Strike the phrase "as Commissioner" and insert the phrase "as a member of the Board or a member of the former Board of Commissioners" in its place.</text>
+          <codify:find-replace count="1">
+            <find>as Commissioner</find>
+            <replace>as a member of the Board or a member of the former Board of Commissioners</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(D)</num>
           <text>Strike the phrase "any former Commissioner" and insert the phrase "any former member of the Board or former member of the former Board of Commissioners" in its place.</text>
+          <codify:find-replace count="1">
+            <find>any former Commissioner</find>
+            <replace>any former member of the Board or former member of the former Board of Commissioners</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(4)</num>
         <text>Subsection (c) is amended by striking the phrase "any Commissioner" and inserting the phrase "any member of the Board" in its place.</text>
+        <codify:find-replace count="1">
+          <find>any Commissioner</find>
+          <replace>any member of the Board</replace>
+        </codify:find-replace>
       </para>
+      <codify:temporary doc="D.C. Code" path="§6-220"/>
+      <codify:insert doc="D.C. Code" path="§6-220" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 21, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-220(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§6-232|(b)|(2)|(C)">
       <num>(g)</num>
-      <text>Section 26g(b)(2)(C) (D.C. Official Code § 6-232(b)(2)(C)) is amended by</text>
-      <text>striking the phrase "resident commissioner and to vote for candidates for resident commissioner to serve on the Board, as provided in section 12" and inserting the phrase "resident commissioner" in its place.</text>
+      <text>Section 26g(b)(2)(C) (D.C. Official Code § 6-232(b)(2)(C)) is amended by striking the phrase "resident commissioner and to vote for candidates for resident commissioner to serve on the Board, as provided in section 12" and inserting the phrase "resident commissioner" in its place.</text>
+      <codify:find-replace count="1">
+        <find>resident commissioner and to vote for candidates for resident commissioner to serve on the Board, as provided in <code-cite doc="D.C. Code" path="§6-211">section 12</code-cite></find>
+        <replace>resident commissioner</replace>
+      </codify:find-replace>
+      <codify:temporary doc="D.C. Code" path="§6-232"/>
+      <codify:insert doc="D.C. Code" path="§6-232" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 21, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-232(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
   <section>
     <num>3</num>
-    <heading proof="needed">Conforming amendment.</heading>
+    <heading>Conforming amendment.</heading>
     <text>Section 2(e) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(e)), is amended by adding a new paragraph (27A) to read as follows:</text>
     <include lvl="1">
       <para>
+        <codify:insert doc="D.C. Code" path="§1-523.01|(e)" after="(27)"/>
         <num>(27A)</num>
-        <text>The Stabilization and Reform Board of the District of Columbia Housing Authority, established by section 11a of the District of Columbia Housing Authority Act of 1999, passed on 2nd reading on January 3, 2023 (Enrolled version of Bill 24-1145);</text>
+        <text>The Stabilization and Reform Board of the District of Columbia Housing Authority, established by <code-cite doc="D.C. Code" path="§6-210.01">section 11a of the District of Columbia Housing Authority Act of 1999, passed on emergency basis on December 20, 2022 (Enrolled version of Bill 24-1144)</code-cite>;</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:temporary doc="D.C. Code" path="§1-523.01"/>
+    <codify:insert doc="D.C. Code" path="§1-523.01" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 21, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-523.01(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>4</num>
     <heading proof="needed">Applicability.</heading>
     <text>Section 2(a), (b), (d), (e), and (f) shall apply on the date that the Stabilization and Reform Board assumes authority for the governance of the Authority, as provided in section 11a(h) of the District of Columba Housing Authority Act of 1999, passed on 2nd reading on January 3, 2023 (Enrolled version of Bill 24-1145).</text>
+    <codify:annotation doc="D.C. Code" path="§6-201" type="Applicability" history="false"><cite doc="D.C. Law 24-329" path="§4">Section 4 of D.C. Law 24-329</cite> provided that the amendments made to this section by D.C. Law 24-329 shall apply on the date that the Stabilization and Reform Board assumes authority for the governance of the Authority, as provided in <cite doc="D.C. Code" path="§6-210.01|(i)">§ 6-210.01|(i)</cite>.
+    </codify:annotation>
+    <codify:annotation doc="D.C. Code" path="§6-209" type="Applicability" history="false"><cite doc="D.C. Law 24-329" path="§4">Section 4 of D.C. Law 24-329</cite> provided that the amendments made to this section by D.C. Law 24-329 shall apply on the date that the Stabilization and Reform Board assumes authority for the governance of the Authority, as provided in <cite doc="D.C. Code" path="§6-210.01|(i)">§ 6-210.01|(i)</cite>.
+    </codify:annotation>
+    <codify:annotation doc="D.C. Code" path="§6-211" type="Applicability" history="false"><cite doc="D.C. Law 24-329" path="§4">Section 4 of D.C. Law 24-329</cite> provided that the amendments made to this section by D.C. Law 24-329 shall apply on the date that the Stabilization and Reform Board assumes authority for the governance of the Authority, as provided in <cite doc="D.C. Code" path="§6-210.01|(i)">§ 6-210.01|(i)</cite>.
+    </codify:annotation>
+    <codify:annotation doc="D.C. Code" path="§6-213" type="Applicability" history="false"><cite doc="D.C. Law 24-329" path="§4">Section 4 of D.C. Law 24-329</cite> provided that the amendments made to this section by D.C. Law 24-329 shall apply on the date that the Stabilization and Reform Board assumes authority for the governance of the Authority, as provided in <cite doc="D.C. Code" path="§6-210.01|(i)">§ 6-210.01|(i)</cite>.
+    </codify:annotation>
+    <codify:annotation doc="D.C. Code" path="§6-220" type="Applicability" history="false"><cite doc="D.C. Law 24-329" path="§4">Section 4 of D.C. Law 24-329</cite> provided that the amendments made to this section by D.C. Law 24-329 shall apply on the date that the Stabilization and Reform Board assumes authority for the governance of the Authority, as provided in <cite doc="D.C. Code" path="§6-210.01|(i)">§ 6-210.01|(i)</cite>.
+    </codify:annotation>
   </section>
   <section>
     <num>5</num>

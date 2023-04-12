@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-791">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-333">
+  <num type="law">24-333</num>
   <num type="act">24-791</num>
   <num type="bill">24-301</num>
   <heading type="short">Business and Entrepreneurship Support to Thrive Amendment Act of 2022</heading>
   <heading type="long">To amend the Advisory Neighborhood Commissions Act of 1975 to transfer from Title 47 of the District of Columbia Official Code a requirement that the Mayor provide certain notices to Advisory Neighborhood Commissions; to amend the Sustainable Solid Waste Management Amendment Act of 2014 to transfer from Title 47 of the District of Columbia Official Code the requirement that a person or entity granted a basic business license for a special event provide infrastructure onsite for the separation and recycling of recyclable waste and the prohibition on the issuance of a license to any waste tire generator that fails to provide the Mayor with certain information concerning waste tires at the site; to amend the Drug-Related Nuisance Abatement Act of 1998 to transfer from Title 47 of the District of Columbia Official Code the authority of the Mayor to suspend or revoke licenses of a licensee who knowingly has permitted on the licensed premises certain offenses related to controlled substances, drug paraphernalia, an act of prostitution, and the consumption of marijuana in public space; to amend Chapter 28 of Title 47 of the District of Columbia Official Code to reduce the number of basic business license categories to simplify the licensing process, to lower initial license fees, to allow for an exemption from fees for businesses with under $10,000 in annual revenue, to establish a progressive fee structure based on revenue, to establish a clearer process for business licensing by removing outdated and duplicative requirements, and to allow the Department of Licensing and Consumer Protection flexibility to implement policies and procedures as necessary to serve better the District's business community; to amend the Department of For-Hire Vehicles Establishment Act of 1985 to transfer from Title 47 of the District of Columbia Official Code certain licensing and other requirements; and to enact freestanding provisions of law to transfer from Title 47 of the District of Columbia Official Code the establishment of the MPD Overtime Reimbursement Fund.</heading>
   <meta>
     <introduced>2021-06-10</introduced>
-    <effective projected="true">2023-03-28</effective>
+    <effective>2023-03-22</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47375/Signed_Act/B24-0301-Signed_Act.pdf">D.C. Law 24-333</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/47375/Signed_Act/B24-0301-Signed_Act.pdf">D.C. Act 24-791</citation>
       <citation type="register">70 DCR 1524</citation>
     </citations>
@@ -26,7 +28,9 @@
     <num>2</num>
     <text>Section 13 of the Advisory Neighborhood Commissions Act of 1975, effective March 26, 1976 (D.C. Law 1-58; D.C. Official Code § 1-309.10), is amended by adding a new subsection (q) to read as follows:</text>
     <include>
+      <!-- Do annotations when funded -->
       <para>
+        <codify:insert doc="D.C. Code" path="§1-309.10"/>
         <num>(q)</num>
         <para>
           <num>(1)</num>
@@ -82,15 +86,17 @@
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§1-309.10" applicability-path="§9" display-template=""/>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>3</num>
     <text>The Sustainable Solid Waste Management Amendment Act of 2014, effective February 26, 2015 (D.C. Law 20-154; D.C. Official Code § 8-1031.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§8-1031.03">
       <num>(a)</num>
       <text>Section 103 (D.C. Official Code § 8-1031.03) is amended by adding a new subsection (g) to read as follows:</text>
       <include>
         <para>
+          <codify:insert/>
           <num>(g)</num>
           <para>
             <num>(1)</num>
@@ -103,12 +109,14 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§8-1031.03" applicability-path="§9" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
       <text>A new section 103c is added to read as follows.</text>
       <include>
         <section>
+          <codify:insert path="8|10A" after="§8-1031.03b" num-value="8-1031.03c" history-prefix="as added"/>
           <num>103c</num>
           <heading proof="needed">Collection, storage, and processing of waste tires.</heading>
           <para>
@@ -119,7 +127,7 @@
             <num>(b)</num>
             <para>
               <num>(1)</num>
-              <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue rules pertaining to the collection and storage of waste tires, which shall include:</text>
+              <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue rules pertaining to the collection and storage of waste tires, which shall include:</text>
               <para>
                 <num>(A)</num>
                 <text>A prohibition on outdoor storage of waste tires;</text>
@@ -161,16 +169,19 @@
               <text>"Waste tire generator" means any person who buys, sells, or stores new or used tires for use on automobiles, motorcycles, heavy equipment, or trucks and which retains any of the customer's used tires after replacement.</text>
             </para>
           </para>
+        <annotation doc="D.C. Law 20-154" type="History" path="§103c">Feb. 25, 2010, D.C. Law 20-154 § 103c</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§8-1031.03c" action="creation of" applicability-path="§9" display-template=""/>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>4</num>
     <text>The Drug-Related Nuisance Abatement Act of 1998, effective March 26, 1999 (D.C. Law 12-194; D.C. Official Code § 42-3101 <em>et seq</em>.), is amended by adding a new section 15a to read as follows:</text>
     <include>
       <section>
+        <codify:insert doc="D.C. Code" path="42|31" num-value="42-3115" history-prefix="as added"/>
         <num>15a</num>
         <heading proof="needed">Suspension or revocation of licenses.</heading>
         <para>
@@ -427,11 +438,13 @@
           <num>(d)</num>
           <text>Notwithstanding any of the provisions of Chapter 28 of Title 47 of the District of Columbia Official Code requiring an inspection as a prerequisite to the issuance of a license, the Mayor is authorized to provide by regulation that any such inspection shall be made either prior or subsequent to the issuance of a license, but any such license, whether issued prior or subsequent to a required inspection, may be suspended or revoked for failure of the licensee to comply with the laws or regulations applicable to the licensed business, trade, profession, or calling.</text>
         </para>
+        <annotation doc="D.C. Law 12-194" type="History" path="§15a">Feb. 25, 2010, D.C. Law 12-194, § 15a</annotation>
       </section>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§42-3115" action="creation of" applicability-path="§9" display-template=""/>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>5</num>
     <text>Chapter 28 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
     <para>
@@ -777,7 +790,7 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="47|28|I">
       <num>(b)</num>
       <text>Subchapter I is amended as follows:</text>
       <para>
@@ -956,6 +969,16 @@
         <num>(44)</num>
         <text>Section 47-2850 is repealed.</text>
       </para>
+      <codify:repeal/>
+      <codify:find-replace path="§2-1801.06|(a)" count="1" history="false" display-template="">
+        <find>, shall be a per se</find>
+        <replace> [Repealed], shall be a per se</replace>
+      </codify:find-replace>
+      <codify:find-replace path="§2-1801.06|(c)|(2)" count="1" history="false" display-template="">
+        <find>shall have the right</find>
+        <replace>[Repealed] shall have the right</replace>
+      </codify:find-replace>
+      <codify:not-funded-anno doc="D.C. Code" path="47|28|I" action="repeal of" applicability-path="§9" display-template=""/>
     </para>
     <para>
       <num>(c)</num>
@@ -965,6 +988,7 @@
         <text>Section 47-2851.01 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§47-2851.01"/>
             <prefix>§</prefix>
             <num>47-2851.01</num>
             <heading proof="needed">Definitions.</heading>
@@ -1059,12 +1083,14 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.01" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(2)</num>
         <text>New sections 47-2851.01a and 47-2851.01b are added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="47|28|I-A" after="§47-2851.01" num-value="47-2851.01a"/>
             <prefix>§</prefix>
             <num>47-2851.01a</num>
             <heading proof="needed">Scope of subchapter.</heading>
@@ -1080,8 +1106,10 @@
               <num>(c)</num>
               <text>The issuance of a basic business license does not guarantee the registration of a trade name under subchapter I-C of this chapter.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2851.01a" action="creation of" applicability-path="§9" display-template=""/>
           </section>
           <section>
+            <codify:insert path="47|28|I-A" after="§47-2851.01a" num-value="47-2851.01b"/>
             <prefix>§</prefix>
             <num>47-2851.01b</num>
             <heading proof="needed">Powers and duties of the Department.</heading>
@@ -1112,6 +1140,7 @@
               <num>(e)</num>
               <text>Nothing in this subchapter shall be construed as limiting or reassigning any District agency's power to inspect for compliance, as required by statute or regulation; provided, that any agency finding of noncompliance that affects the inspected person's eligibility for a basic business license shall be referred to the Department for appropriate action with respect to the basic business license.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2851.01b" action="creation of" applicability-path="§9" display-template=""/>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -1121,6 +1150,7 @@
         <text>Section 47-2851.02 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§47-2851.02"/>
             <prefix>§</prefix>
             <num>47-2851.02</num>
             <heading proof="needed">Basic business license required.</heading>
@@ -1186,16 +1216,20 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.02" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(4)</num>
         <text>Section 47-2851.02a is repealed.</text>
+        <codify:repeal path="§47-2851.02a"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.02a" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(5)</num>
         <text>Section 47-2851.03 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§47-2851.03"/>
             <prefix>§</prefix>
             <num>47-2851.03</num>
             <heading proof="needed">Categories of basic business licenses; endorsements.</heading>
@@ -1266,28 +1300,38 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.03" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(6)</num>
         <text>Section 47-2851.03a is repealed.</text>
+        <codify:repeal path="§47-2851.03a"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.03a" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(7)</num>
         <text>Section 47-2851.03b is repealed.</text>
+        <codify:repeal path="§47-2851.03b"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.03b" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(8)</num>
         <text>Section 47-2851.03c is repealed.</text>
+        <codify:repeal path="§47-2851.03c"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.03c" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(9)</num>
         <text>Section 47-2851.03d is repealed.</text>
+        <codify:repeal path="§47-2851.03d"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.03d" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(10)</num>
         <text>Section 47-2851.04 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§47-2851.04"/>
             <prefix>§</prefix>
             <num>47-2851.04</num>
             <heading proof="needed">License application and fees.</heading>
@@ -1382,22 +1426,28 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.04" applicability-path="§9" display-template=""/>
       </para>
-      <para>
+      <para codify:path="§47-2851.05">
         <num>(11)</num>
         <text>Section 47-2851.05 is amended as follows:</text>
-        <para>
+        <para codify:path="(b)">
           <num>(A)</num>
           <text>Subsection (b) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Paragraphs (3), (4), (5), and (6) are repealed.</text>
+            <codify:repeal path="(3)"/>
+            <codify:repeal path="(4)"/>
+            <codify:repeal path="(5)"/>
+            <codify:repeal path="(6)"/>
           </para>
           <para>
             <num>(ii)</num>
             <text>Paragraph (8) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace path="(8)"/>
                 <num>(8)</num>
                 <text>To the extent feasible, each basic business license shall have a unique identifying number to be used for all official purposes, including taxation.</text>
               </para>
@@ -1408,13 +1458,17 @@
         <para>
           <num>(B)</num>
           <text>Subsections (c) and (d) are repealed.</text>
+          <codify:repeal path="(c)"/>
+          <codify:repeal path="(d)"/>
         </para>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.05" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(12)</num>
         <text>Section 47-2851.06 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§47-2851.06"/>
             <prefix>§</prefix>
             <num>47-2851.06</num>
             <heading proof="needed">Public information.</heading>
@@ -1433,12 +1487,14 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.06" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(13)</num>
         <text>Section 47-2851.07 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§47-2851.07"/>
             <prefix>§</prefix>
             <num>47-2851.07</num>
             <heading proof="needed">Issuance of licenses.</heading>
@@ -1530,20 +1586,26 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.07" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(14)</num>
         <text>Section 47-2851.08 is repealed.</text>
+        <codify:repeal path="§47-2851.08"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.08" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(15)</num>
         <text>Section 47-2851.09 is repealed.</text>
+        <codify:repeal path="§47-2851.09"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.09" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(16)</num>
         <text>Section 47-2851.10 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§47-2851.10"/>
             <prefix>§</prefix>
             <num>47-2851.10</num>
             <heading proof="needed">Lapsed and reinstated licenses.</heading>
@@ -1601,20 +1663,26 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.10" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(17)</num>
         <text>Section 47-2851.11 is repealed.</text>
+        <codify:repeal doc="D.C. Code" path="§47-2851.11"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.11" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(18)</num>
         <text>Section 47-2851.12 is repealed.</text>
+        <codify:repeal doc="D.C. Code" path="§47-2851.12"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.12" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(19)</num>
         <text>Section 47-2851.13 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§47-2851.13"/>
             <prefix>§</prefix>
             <num>47-2851.13</num>
             <heading proof="needed">Establishment of Basic Business License Fund.</heading>
@@ -1656,67 +1724,98 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.13" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(20)</num>
         <text>Section 47-2851.15(b) is amended by striking the phrase "§ 47-2851.09" and inserting the phrase "the provisions of this subchapter" in its place.</text>
+        <codify:find-replace path="§47-2851.15|(b)" count="1">
+          <find>with <cite path="§47-2851.09">§ 47-2851.09</cite>.</find>
+          <replace>with the provisions of <cite doc="D.C. Code" path="47|28|I-A">this subchapter</cite></replace>
+        </codify:find-replace>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.15" applicability-path="§9" display-template=""/>
       </para>
-      <para>
+      <para codify:path="§47-2851.16">
         <num>(21)</num>
         <text>Section 47-2851.16 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(a)</num>
               <text>The Department may, if the Director determines it is feasible, allow a business required to be inspected under this subchapter the option of obtaining an inspection by an authorized third-party inspector.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(B)</num>
           <text>The lead-in language of subsection (b) is amended to read as follows:</text>
           <include>
             <text>The third-party inspector shall be qualified by virtue of a certification from a nationally recognized and accredited organization; provided that the third-party inspector:</text>
           </include>
           <aftertext>.</aftertext>
+          <codify:find-replace count="1">
+            <find>The Director shall, whenever feasible, allow businesses required to be inspected pursuant to this subchapter the option of obtaining a third party inspector qualified for such activities by virtue of a certification from a nationally recognized and accredited organization; provided that the third party inspector:</find>
+            <replace>The third-party inspector shall be qualified by virtue of a certification from a nationally recognized and accredited organization; provided that the third-party inspector:</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(C)</num>
           <text>Subsection (d) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the word "Center" and insert the word "Department" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Center</find>
+              <replace>Department</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "or inspection at the applicant's expense" and insert the phrase "or inspection" in its place.</text>
+            <codify:find-replace count="1">
+              <find>or inspection at the applicant's expense</find>
+              <replace>or inspection</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(e)">
           <num>(D)</num>
           <text>Subsection (e) is amended by striking the phrase "master business license or endorsement" and inserting the phrase "basic business license" in its place.</text>
+          <codify:find-replace count="1">
+            <find>master [basic] business license or endorsement</find>
+            <replace>basic business license</replace>
+          </codify:find-replace>
         </para>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.16" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(22)</num>
         <text>Section 47-2851.18 is repealed.</text>
+        <codify:repeal path="§47-2851.18"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.18" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(23)</num>
         <text>Section 47-2851.19 is repealed.</text>
+        <codify:repeal path="§47-2851.19"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.19" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(24)</num>
         <text>Section 47-2851.20 is repealed.</text>
+        <codify:repeal path="§47-2851.20"/>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.20" action="repeal of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(25)</num>
         <text>New sections 47-2851.21, 47-2851.22, 47-2851.23, and 47-2851.24 are added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="47|28|I-A"/>
             <prefix>§</prefix>
             <num>47-2851.21</num>
             <heading proof="needed">Bonding of licensees authorized to collect monies; exemptions.</heading>
@@ -1771,8 +1870,10 @@
                 <text>Employees of any class or subclass of licensees required to give bond under this subsection.".</text>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2851.21" action="creation of" applicability-path="§9" display-template=""/>
           </section>
           <section>
+            <codify:insert path="47|28|I-A"/>
             <prefix>§</prefix>
             <num>47-2851.22</num>
             <heading proof="needed">Cease and desist orders.</heading>
@@ -1828,14 +1929,18 @@
               <num>(f)</num>
               <text>If a person fails to comply with a lawful order of a board issued pursuant to this section, the board may petition the court to issue an order compelling compliance or take any other action authorized by this subchapter.".</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2851.22" action="creation of" applicability-path="§9" display-template=""/>
           </section>
           <section>
+            <codify:insert path="47|28|I-A"/>
             <prefix>§</prefix>
             <num>47-2851.23</num>
             <heading proof="needed">Prosecutions.</heading>
             <text>Prosecutions for violations of any of the provisions of this subchapter, or of any provision as may be added from time to time by the Council, or of any regulation made by the Council under the authority of this subchapter, shall be on information in the Superior Court of the District of Columbia by the Attorney General, or any of the Attorney General's assistants.</text>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2851.23" action="creation of" applicability-path="§9" display-template=""/>
           </section>
           <section>
+            <codify:insert path="47|28|I-A"/>
             <prefix>§</prefix>
             <num>47-2851.24</num>
             <heading proof="needed">Penalties.</heading>
@@ -1858,16 +1963,18 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2851.24" action="creation of" applicability-path="§9" display-template=""/>
       </para>
     </para>
     <para>
       <num>(d)</num>
       <text>Subchapter I-B is amended as follow:</text>
-      <para>
+      <para codify:path="§47-2853.04|(a)">
         <num>(1)</num>
         <text>Section 47-2853.04(a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <text>The following non-health related occupations and professions have been determined to require regulation in order to protect public health, safety or welfare or to assure the public that persons engaged in these occupations or professions have the specialized skills or training required to perform the services offered:</text>
             <para>
@@ -2057,12 +2164,14 @@
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2853.04" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(2)</num>
         <text>Part D-i is amended by adding a new section 47-2853.76 to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="47|28|I-B|D-i" before="§47-2853.76a"/>
             <prefix>§</prefix>
             <num>47-2853.76</num>
             <heading proof="needed">Definitions.</heading>
@@ -2137,12 +2246,14 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2853.76" action="creation of" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(3)</num>
         <text>Section 47-2853.76b is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§47-2853.76b"/>
             <prefix>§</prefix>
             <num>47-2853.76b</num>
             <heading proof="needed">Regulation of body artists and body art establishments.</heading>
@@ -2212,15 +2323,17 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§47-2853.76b" applicability-path="§9" display-template=""/>
       </para>
       <para>
         <num>(4)</num>
         <text>A new Part Q-i is added to read as follows:</text>
         <include>
           <container>
+            <codify:insert path="47|28|I-B" after="Q"/>
             <prefix>Part</prefix>
-            <num>Q</num>
-            <heading>i. Detective and Security Services.</heading>
+            <num>Q-i</num>
+            <heading>Detective and Security Services.</heading>
             <section>
               <prefix>§</prefix>
               <num>47-2853.207</num>
@@ -2253,6 +2366,7 @@
                   <text>"Special police officer" means an individual appointed under § 5-129.02 and subject to the requirements of Chapter 11 of Title 6A of the District of Columbia Municipal Regulations.</text>
                 </para>
               </para>
+              <codify:not-funded-anno doc="D.C. Code" path="§47-2853.207" action="creation of" applicability-path="§9" display-template=""/>
             </section>
             <section>
               <prefix>§</prefix>
@@ -2306,6 +2420,7 @@
                 <num>(f)</num>
                 <text>The Department may, through the promulgation of rules pursuant to subchapter 1 of Chapter 5 of Title 2, establish qualifications and fees for occupational licenses issued pursuant to this section, and establish civil penalties for violations of this section.</text>
               </para>
+              <codify:not-funded-anno doc="D.C. Code" path="§47-2853.208" action="creation of" applicability-path="§9" display-template=""/>
             </section>
           </container>
         </include>
@@ -2316,14 +2431,16 @@
         <text>A new Part R-i  is added to read as follows:</text>
         <include>
           <container>
+            <codify:insert path="47|28|I-B" after="R"/>
             <prefix>Part</prefix>
-            <num>R</num>
-            <heading>i. Tour Guides.</heading>
+            <num>R-i</num>
+            <heading>Tour Guides.</heading>
             <section>
               <prefix>§</prefix>
               <num>47-2853.217</num>
               <heading proof="needed">Definitions.</heading>
               <text>For purposes of this part, the term "tour guide" means a person who engages primarily in the business of guiding or directing people to any place or point of interest in the District.".</text>
+              <codify:not-funded-anno doc="D.C. Code" path="§47-2853.217" action="creation of" applicability-path="§9" display-template=""/>
             </section>
             <section>
               <prefix>§</prefix>
@@ -2349,6 +2466,7 @@
                 <num>(b)</num>
                 <text>The Department may, through the promulgation of rules pursuant to Subchapter 1 of Chapter 5 of Title 2, establish qualifications and fees for occupational licenses issued pursuant to this section, and establish civil penalties for violations of this section.</text>
               </para>
+              <codify:not-funded-anno doc="D.C. Code" path="§47-2853.218" action="creation of" applicability-path="§9" display-template=""/>
             </section>
           </container>
         </include>
@@ -2361,6 +2479,7 @@
     <text>Section 8a of An Act Relating to the adulteration of foods and drugs in the District of Columbia, effective May 2, 2002 (D.C. Law 14-116; D.C. Official Code § 48-108.01), is amended by adding a new subsection (c-1) to read as follows:</text>
     <include>
       <para>
+        <codify:insert doc="D.C. Code" path="§48-108.01" after="(c)"/>
         <num>(c-1)</num>
         <para>
           <num>(1)</num>
@@ -2377,13 +2496,15 @@
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§48-108.01" applicability-path="§9" display-template=""/>
   </section>
   <section>
     <num>7</num>
     <text>Section 14 of the Department of For-Hire Vehicles Establishment Act of 1985, effective March 25, 1986 (D.C. Law 6-97; D.C. Official Code § 50-301.13), is amended to read as follows:</text>
     <include>
       <section>
-        <num>14</num>
+        <codify:replace doc="D.C. Code" path="§50-301.13"/>
+        <num codify:value="50-301.13">14</num>
         <heading proof="needed">Regulation of public vehicles-for-hire.</heading>
         <para>
           <num>(a)</num>
@@ -2659,8 +2780,17 @@
       </section>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§50-301.13" applicability-path="§9" display-template=""/>
   </section>
   <section>
+    <codify:insert doc="D.C. Code" path="5" after="5A" history="false">
+      <container>
+        <prefix>Chapter</prefix>
+        <num>5B</num>
+        <heading>MPD Overtime Reimbursement Fund.</heading>
+      </container>
+    </codify:insert>
+    <codify:insert doc="D.C. Code" path="5|5B" num-value="5-583"/>
     <num>8</num>
     <heading proof="needed">MPD Overtime Reimbursement Fund.</heading>
     <para>
@@ -2695,6 +2825,7 @@
         <text>Provide security details to establishments, such as bars, nightclubs, and sports teams, that pay for extra police coverage.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§5-583" action="creation of" applicability-path="§9" display-template=""/>
   </section>
   <section>
     <num>9</num>
@@ -2702,6 +2833,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 24-333" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

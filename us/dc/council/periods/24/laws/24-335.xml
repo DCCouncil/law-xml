@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-793">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-335">
+  <num type="law">24-335</num>
   <num type="act">24-793</num>
   <num type="bill">24-429</num>
   <heading type="short">Metro for D.C. Amendment Act of 2022</heading>
   <heading type="long">To amend the Department of Transportation Establishment Act of 2002 to require the Director to enter into an agreement with the Washington Metropolitan Area Transit Authority for fare-free Metrobus travel and expanded after-hours Metrobus service in the District, to establish the District Resident Transit Subsidy Program, to establish the Fare-Free Bus Service Fund, to establish the Bus Service Enhancement Fund, and to direct certain revenues to the Fare-Free Bus Service Fund and the Bus Service Enhancement Fund; and to amend section 47-1803.02 of the District of Columbia Official Code to exclude from gross income subsidies provided pursuant to the District Resident Transit Subsidy Program.</heading>
   <meta>
     <introduced>2021-10-04</introduced>
-    <effective projected="true">2023-03-28</effective>
+    <effective>2023-03-22</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47980/Signed_Act/B24-0429-Signed_Act.pdf">D.C. Law 24-335</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/47980/Signed_Act/B24-0429-Signed_Act.pdf">D.C. Act 24-793</citation>
       <citation type="register">70 DCR 1562</citation>
     </citations>
@@ -20,41 +22,56 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Metro for D.C. Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Department of Transportation Establishment Act of 2002, effective May 21, 2002 (D.C. Law 14-137; D.C. Official Code § 50-921.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§50-921.01a|(a)">
       <num>(a)</num>
       <text>Section 2a (D.C. Official Code § 50-921.01a) is amended as follows:</text>
       <para>
         <num>(1)</num>
-        <text>Paragraphs (1), (1A), and (1B) are, respectively, redesignated as paragraphs (1B, (1C), and (1D).</text>
+        <text>Paragraphs (1), (1A), and (1B) are, respectively, redesignated as paragraphs (1B), (1C), and (1D).</text>
+        <codify:find-replace path="(1B)|num" count="1">
+          <find>(1B)</find>
+          <replace>(1D)</replace>
+        </codify:find-replace>
+        <codify:find-replace path="(1A)|num" count="1">
+          <find>(1A)</find>
+          <replace>(1C)</replace>
+        </codify:find-replace>
+        <codify:find-replace path="(1)|num" count="1">
+          <find>(1)</find>
+          <replace>(1B)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>New paragraphs (1) and (1A) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert before="(1B)"/>
             <num>(1)</num>
-            <text>"DDOT" means the District Department of Transportation established by section 2.</text>
+            <text>"DDOT" means the District Department of Transportation established by <code-cite doc="D.C. Code" path="§50-921.01">section 2</code-cite>.</text>
           </para>
           <para>
+            <codify:insert before="(1B)"/>
             <num>(1A)</num>
-            <text>"Director" means head of DDOT appointed pursuant to section 3.</text>
+            <text>"Director" means head of DDOT appointed pursuant to <code-cite doc="D.C. Code" path="§50-921.02">section 3</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§50-921.02">
       <num>(b)</num>
       <text>Section 3 (D.C. Official Code § 50-921.02) is amended by adding a new subsection (h) to read as follows:</text>
       <include>
         <para>
+          <codify:insert/>
           <num>(h)</num>
           <para>
             <num>(1)</num>
-            <text>Within 60 days of the effective date of the Metro for D.C. Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-429), the Director shall enter into a fare buydown agreement with the Washington Metropolitan Area Transit Authority to facilitate:</text>
+            <text>Within 60 days of <span codify:value="March 22, 2023">the effective date of the Metro for D.C. Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-429)</span>, the Director shall enter into a fare buydown agreement with the Washington Metropolitan Area Transit Authority to facilitate:</text>
             <para>
               <num>(A)</num>
               <text>The provision of fare-free Metrobus transportation within the District; and</text>
@@ -77,6 +94,13 @@
       <aftertext>.</aftertext>
     </para>
     <para>
+      <codify:insert doc="D.C. Code" path="50|9A" after="IV" history="false">
+        <container>
+          <prefix>Subchapter</prefix>
+          <num>V</num>
+          <heading>Transit Subsidies for District Residents.</heading>
+        </container>
+      </codify:insert>
       <num>(b)</num>
       <!-- should be (c) -->
       <text>A new title VI is added to read as follows:</text>
@@ -86,30 +110,33 @@
           <num>VI</num>
           <heading>TRANSIT SUBSIDIES FOR DISTRICT RESIDENTS.</heading>
           <section>
+            <codify:insert path="V" num-value="50-921.81" history-prefix="as added"/>
             <num>11t</num>
             <heading proof="needed">Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For the purposes of this title, the term:</text>
+              <text>For the purposes of <code-cite doc="D.C. Code" path="50|9A|V">this title</code-cite>, the term:</text>
               <para>
                 <num>(1)</num>
                 <text>"DDOT" means the District Department of Transportation.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>"Participant" means an individual who has applied and been determined eligible for the Program within the prior 12 months, pursuant to section 11w.</text>
+                <text>"Participant" means an individual who has applied and been determined eligible for the Program within the prior 12 months, pursuant to <code-cite doc="D.C. Code" path="§50-921.84">section 11w</code-cite>.</text>
               </para>
               <para>
                 <num>(3)</num>
-                <text>"Program" means the District Resident Transit Subsidy Program, established by section 11u.</text>
+                <text>"Program" means the District Resident Transit Subsidy Program, established by <code-cite doc="D.C. Code" path="§50-921.82">section 11u</code-cite>.</text>
               </para>
               <para>
                 <num>(4)</num>
                 <text>"WMATA" means the Washington Metropolitan Area Transit Authority.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 14-137" type="History" path="§11t">May 21, 2002, D.C. Law 14-137, § 11t</annotation>
           </section>
           <section>
+            <codify:insert path="V" num-value="50-921.82" history-prefix="as added"/>
             <num>11u</num>
             <heading proof="needed">Transit Subsidy Program established.</heading>
             <para>
@@ -138,10 +165,13 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>Assistance provided pursuant to this title shall not constitute an entitlement nor be considered income for the purpose of determining eligibility for public assistance.</text>
+              <text>Assistance provided pursuant to <code-cite doc="D.C. Code" path="50|9A|V">this title</code-cite> shall not constitute an entitlement nor be considered income for the purpose of determining eligibility for public assistance.</text>
             </para>
+            <annotation doc="D.C. Law 14-137" type="History" path="§11u">May 21, 2002, D.C. Law 14-137, § 11u</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§50-921.82" action="creation of" applicability-path="§4" display-template=""/>
           </section>
           <section>
+            <codify:insert path="V" num-value="50-921.83" history-prefix="as added"/>
             <num>11v</num>
             <heading proof="needed">Transit subsidy payments.</heading>
             <para>
@@ -152,8 +182,11 @@
               <num>(b)</num>
               <text>Upon the cancellation or expiration of a participant's transit card, WMATA or another agency shall revert to the District any remaining funds on the transit card disbursed pursuant to the Program.</text>
             </para>
+            <annotation doc="D.C. Law 14-137" type="History" path="§11v">May 21, 2002, D.C. Law 14-137, § 11v</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§50-921.83" action="creation of" applicability-path="§4" display-template=""/>
           </section>
           <section>
+            <codify:insert path="V" num-value="50-921.84" history-prefix="as added"/>
             <num>11w</num>
             <heading proof="needed">Eligibility.</heading>
             <para>
@@ -178,7 +211,7 @@
                   </para>
                   <para>
                     <num>(ii)</num>
-                    <text>Free transit fares from the Kids Ride Free Program pursuant to section 6044 of the Student, Foster Youth, Summer Youth Employee, and Adult Learner Transit Subsidies Act of 2019, effective September 11, 2019 (D.C. Law 23-16; D.C. Official Code § 35-243).</text>
+                    <text>Free transit fares from the Kids Ride Free Program pursuant to <code-cite doc="D.C. Code" path="§35-243">section 6044 of the Student, Foster Youth, Summer Youth Employee, and Adult Learner Transit Subsidies Act of 2019, effective September 11, 2019 (D.C. Law 23-16; D.C. Official Code § 35-243)</code-cite>.</text>
                   </para>
                 </para>
               </para>
@@ -202,7 +235,7 @@
                 <text>DDOT shall:</text>
                 <para>
                   <num>(A)</num>
-                  <text>Establish a process for persons to apply for a subsidy under this title, which, at a minimum, shall include accepting applications online through the DDOT website and in hard copy via mail; and</text>
+                  <text>Establish a process for persons to apply for a subsidy under <code-cite doc="D.C. Code" path="50|9A|V">this title</code-cite>, which, at a minimum, shall include accepting applications online through the DDOT website and in hard copy via mail; and</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -219,7 +252,7 @@
               <text>DDOT shall promulgate a list of the documentation or other proof that an applicant, who is not otherwise presumed to be a District resident pursuant to this subsection, may submit to prove that the applicant is a resident of the District; except, that an applicant shall be presumed to be a District resident if:</text>
               <para>
                 <num>(1)</num>
-                <text>During the previous year, the applicant filed an income tax return, pursuant to Subchapter VI of Chapter 18 of Title 47 of the District of Columbia Official Code, as a resident of the District;</text>
+                <text>During the previous year, the applicant filed an income tax return, pursuant to <code-cite doc="D.C. Code" path="47|18|VI">Subchapter VI of Chapter 18 of Title 47 of the District of Columbia Official Code</code-cite>, as a resident of the District;</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -227,7 +260,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>The applicant receives public assistance, as that term is defined in section 101(6) of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-201.01(6)), administered by a District agency; or</text>
+                <text>The applicant receives public assistance, as that term is defined in <code-cite doc="D.C. Code" path="§4-201.01|(6)">section 101(6) of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-201.01(6))</code-cite>, administered by a District agency; or</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -276,17 +309,24 @@
                 </para>
               </para>
             </para>
+            <annotation doc="D.C. Law 14-137" type="History" path="§11w">May 21, 2002, D.C. Law 14-137, § 11w</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§50-921.84" action="creation of" applicability-path="§4" display-template=""/>
           </section>
           <section>
+            <codify:insert path="V" num-value="50-921.85" history-prefix="as added"/>
             <num>11x</num>
             <heading proof="needed">Authorization to negotiate fares.</heading>
             <text>The Mayor is authorized to enter into an agreement with WMATA or other agencies for reduced transit fares for participants.</text>
+            <annotation doc="D.C. Law 14-137" type="History" path="§11x">May 21, 2002, D.C. Law 14-137, § 11x</annotation>
           </section>
           <section>
+            <codify:insert path="V" num-value="50-921.86" history-prefix="as added"/>
             <num>11y</num>
-            <text>[Reserved]</text>
+            <heading>[Reserved]</heading>
+            <annotation doc="D.C. Law 14-137" type="History" path="§11y">May 21, 2002, D.C. Law 14-137, § 11y</annotation>
           </section>
           <section>
+            <codify:insert path="V" num-value="50-921.87" history-prefix="as added"/>
             <num>11z</num>
             <heading proof="needed">Fare-Free Bus Fund established.</heading>
             <para>
@@ -319,7 +359,7 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>Money in the Fund shall be used to support the fare buydown agreement entered into pursuant to section 3(h) to provide fare-free Metrobus transportation within the District and 24-hour daily Metrobus service on Metrobus lines as specified by the fare buydown agreement.</text>
+              <text>Money in the Fund shall be used to support the fare buydown agreement entered into pursuant to <code-cite doc="D.C. Code" path="§50-921.02|(h)">section 3(h)</code-cite> to provide fare-free Metrobus transportation within the District and 24-hour daily Metrobus service on Metrobus lines as specified by the fare buydown agreement.</text>
             </para>
             <para>
               <num>(d)</num>
@@ -332,8 +372,10 @@
                 <text>Subject to authorization in an approved budget and financial plan, any funds appropriated in the Fund shall be continually available without regard to fiscal year limitation.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 14-137" type="History" path="§11z">May 21, 2002, D.C. Law 14-137, § 11z</annotation>
           </section>
           <section>
+            <codify:insert path="V" num-value="50-921.88" history-prefix="as added"/>
             <num>11aa</num>
             <heading proof="needed">Bus Service Enhancement Fund established.</heading>
             <para>
@@ -342,7 +384,7 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>Provided that the Chief Financial Officer certifies that sufficient revenue exists pursuant to section 11bb, there shall be deposited into the Fund general retail sales tax revenue collected pursuant to Chapter 20 of Title 47 of the D.C. Official Code as follows:</text>
+              <text>Provided that the Chief Financial Officer certifies that sufficient revenue exists pursuant to <code-cite doc="D.C. Code" path="§50-921.89">section 11bb</code-cite>, there shall be deposited into the Fund general retail sales tax revenue collected pursuant to <code-cite doc="D.C. Code" path="47|20">Chapter 20 of Title 47 of the D.C. Official Code</code-cite> as follows:</text>
               <para>
                 <num>(1)</num>
                 <text>In Fiscal Year 2023, $2.5 million; and</text>
@@ -399,15 +441,17 @@
                 <text>Subject to authorization in an approved budget and financial plan, any funds appropriated in the Fund shall be continually available without regard to fiscal year limitation.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 14-137" type="History" path="§11aa">May 21, 2002, D.C. Law 14-137, § 11aa</annotation>
           </section>
           <section>
+            <codify:insert path="V" num-value="50-921.89" history-prefix="as added"/>
             <num>11bb</num>
             <heading proof="needed">Revised revenue allocation for bus service.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>The fiscal impact of the general sales tax dedication to the Fare-Free Bus Service Fund, established pursuant to section 11z, and the general sales tax dedication to the Bus Service Enhancement Fund, established pursuant to section 11aa, shall be offset, in that order, by local fiscal year recurring revenues included in the Chief Financial Officer's December 2022 revenue estimate and, if necessary, the February 2023 revenue estimate, that exceed the local fund revenue incorporated in the Fiscal Year 2023 approved budget and financial plan.</text>
+                <text>The fiscal impact of the general sales tax dedication to the Fare-Free Bus Service Fund, established pursuant to <code-cite doc="D.C. Code" path="§50-921.87">section 11z</code-cite>, and the general sales tax dedication to the Bus Service Enhancement Fund, established pursuant to <code-cite doc="D.C. Code" path="§50-921.88">section 11aa</code-cite>, shall be offset, in that order, by local fiscal year recurring revenues included in the Chief Financial Officer's December 2022 revenue estimate and, if necessary, the February 2023 revenue estimate, that exceed the local fund revenue incorporated in the Fiscal Year 2023 approved budget and financial plan.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -446,18 +490,22 @@
                 <text>That all such excess revenues, together with the excess revenues identified pursuant to this subsection in the December 2022 revenue estimate, have been set aside to ensure the general sales tax dedication identified in subsection (a) of this section is fully offset.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 14-137" type="History" path="§11bb">May 21, 2002, D.C. Law 14-137, § 11bb</annotation>
           </section>
           <section>
+            <codify:insert path="V" num-value="50-921.90" history-prefix="as added"/>
             <num>11cc</num>
             <heading proof="needed">Rules.</heading>
-            <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall issue rules to implement the provisions of this title.</text>
+            <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall issue rules to implement the provisions of <code-cite doc="D.C. Code" path="50|9A|V">this title</code-cite>.</text>
+            <annotation doc="D.C. Law 14-137" type="History" path="§11cc">May 21, 2002, D.C. Law 14-137, § 11cc</annotation>
           </section>
           <section>
+            <codify:insert path="V" num-value="50-921.91" history-prefix="as added"/>
             <num>11dd</num>
             <heading proof="needed">Reporting.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>By January 1, 2024, and each year thereafter, DDOT shall post information publicly on its website, and, to the extent practical, make the underlying data publicly available, regarding the implementation and administration of this title. At a minimum, the information shall include, for the preceding fiscal year, data on the Bus Service Enhancement Fund established in section 11aa, including:</text>
+              <text>By January 1, 2024, and each year thereafter, DDOT shall post information publicly on its website, and, to the extent practical, make the underlying data publicly available, regarding the implementation and administration of <code-cite doc="D.C. Code" path="50|9A|V">this title</code-cite>. At a minimum, the information shall include, for the preceding fiscal year, data on the Bus Service Enhancement Fund established in <code-cite doc="D.C. Code" path="§50-921.88">section 11aa</code-cite>, including:</text>
               <para>
                 <num>(1)</num>
                 <text>A list of services and projects receiving funding from the Bus Service Enhancement Fund, including specific funding levels if available; and</text>
@@ -467,6 +515,8 @@
                 <text>Data on service or ridership changes that occurred for Bus Service Enhancement Fund funded projects.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 14-137" type="History" path="§11dd">May 21, 2002, D.C. Law 14-137, § 11dd</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§50-921.91" action="creation of" applicability-path="§4" display-template=""/>
           </section>
         </container>
       </include>
@@ -478,11 +528,13 @@
     <text>Section 47-1803.02(a)(2) of the District of Columbia Official Code is amended by adding a new subparagraph (YY) to read as follows:</text>
     <include lvl="2">
       <para>
+        <codify:insert doc="D.C. Code" path="§47-1803.02|(a)|(2)"/>
         <num>(YY)</num>
-        <text>A subsidy provided pursuant to Title VI of the Department of Transportation Establishment Act of 2002, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-429).</text>
+        <text>A subsidy provided pursuant to <code-cite doc="D.C. Code" path="50|9A|V">Title VI of the Department of Transportation Establishment Act of 2002, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-429)</code-cite>.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§47-1803.02" applicability-path="§4" display-template=""/>
   </section>
   <section>
     <num>4</num>
@@ -490,6 +542,29 @@
     <para>
       <num>(a)</num>
       <text>Amendatory sections 11u, 11v, 11w, and 11dd of the Department of Transportation Establishment Act of 2002, passed on 2nd reading on December 20, 2022 (Enrolled version print of Bill 24-429), in section 2 and section 3 shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:repeal doc="D.C. Code" path="§50-921.82"/>
+      <codify:find-replace doc="D.C. Code" path="§50-921.82" count="2">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
+      <codify:repeal doc="D.C. Code" path="§50-921.83"/>
+      <codify:find-replace doc="D.C. Code" path="§50-921.83" count="2">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
+      <codify:applicability doc="D.C. Law 24-335" path="§3" date="notfunded" history="false" display-template=""/>
+      <codify:repeal doc="D.C. Code" path="§50-921.84"/>
+      <codify:find-replace doc="D.C. Code" path="§50-921.84" count="2">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
+      <codify:applicability doc="D.C. Law 24-335" path="§3" date="notfunded" history="false" display-template=""/>
+      <codify:repeal doc="D.C. Code" path="§50-921.91"/>
+      <codify:find-replace doc="D.C. Code" path="§50-921.91" count="2">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
+      <codify:applicability doc="D.C. Law 24-335" path="§3" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
