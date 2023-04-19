@@ -3191,7 +3191,7 @@
             <text>A new subparagraph (A-i) is added to read as follows:</text>
             <include lvl="2">
               <para>
-                <!-- <codify:insert after="(A)"/> -->
+                <codify:insert after="(A)"/>
                 <num>(A-i)</num>
                 <text>The bureau, division, unit, and if applicable, police service area, of the officer who conducted the stop, at the time it was conducted;</text>
               </para>
@@ -3201,18 +3201,18 @@
           <para codify:path="(I)">
             <num>(2)</num>
             <text>Subparagraph (I) is amended by striking the phrase "The gender" and inserting the phrase "The perceived gender" in its place.</text>
-            <!-- <codify:find-replace count="1">
+            <codify:find-replace count="1">
               <find>The gender</find>
               <replace>The perceived gender</replace>
-            </codify:find-replace> -->
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>Subparagraph (J) is amended by striking the phrase "The race or ethnicity" and inserting the phrase "The perceived race or ethnicity" in its place.</text>
-            <!-- <codify:find-replace count="1">
+            <codify:find-replace count="1">
               <find>The race or ethnicity</find>
               <replace>The perceived race or ethnicity</replace>
-            </codify:find-replace> -->
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -3332,11 +3332,14 @@
         <num>3073</num>
         <heading>Applicability.</heading>
         <text>Section 3072(b) shall apply as of April 1, 2023.</text>
-        <codify:insert doc="D.C. Code" path="§5-113.01" before="heading" history="false" display-template="">
+        <codify:annotation doc="D.C. Code" path="§5-113.01" type="Applicability" history="false">
+          <cite doc="D.C. Law 24-167" path="§3073">Section 3073 of D.C. Law 24-167</cite> provides that the amendments made to subsection (a)(4B) of this section by section 3072(b) of D.C. Law 24-167 shall apply as of April 1, 2023.
+        </codify:annotation>
+        <!-- <codify:insert doc="D.C. Code" path="§5-113.01" before="heading" history="false" display-template="">
           <text>
       *NOTE: <cite doc="D.C. Law 24-167" path="§3073">Section 3073 of D.C. Law 24-167</cite> provides that the amendments made to subsection (a)(4B) of this section by section 3072(b) of D.C. Law 24-167 shall apply as of April 1, 2023. Therefore, those amendments will not be implemented until then.*
       </text>
-        </codify:insert>
+        </codify:insert> -->
       </section>
     </container>
   </container>
