@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-780">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-348">
+  <num type="law">24-348</num>
   <num type="act">24-780</num>
   <num type="bill">24-838</num>
   <heading type="short">Restoring Trust and Credibility to Forensic Sciences Amendment Act of 2022</heading>
   <heading type="long">To amend the Department of Forensic Sciences Establishment Act of 2011 to redesignate the Department of Forensic Sciences as the Forensic Sciences and Public Health Laboratory, to redesignate the Forensic Sciences and Public Health Laboratory as an independent agency within the executive branch of the District of Columbia government, to amend the qualifications and term of the Director, to expand the types of documents that are to be made publicly available, to amend the duties of the Director, to codify the budget process for the Forensic Sciences and Public Health Laboratory, to establish the position of Chief Forensic Sciences Officer within the Forensic Sciences and Public Health Laboratory, to address circumstances that unduly bias the provision of forensic sciences services and independence of the Forensic Sciences and Public Health Laboratory, to redesignate the Science Advisory Board as the Science Advisory and Review Board, to provide for a robust procedure for addressing self-disclosures, complaints, or allegations of testing errors before the Science Advisory and Review Board, to require that correspondence and reports published by the Science Advisory and Review Board be made public, to expand membership and change the qualifications for members on the Science Advisory and Review Board, and to grant access to the Science Advisory and Review Board to all records of the Forensic Sciences and Public Health Laboratory; and to make other technical and conforming changes.</heading>
   <meta>
     <introduced>2022-06-02</introduced>
-    <effective projected="true">2023-05-11</effective>
+    <effective>2023-04-21</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/49655/Signed_Act/B24-0838-Signed_Act.pdf">D.C. Law 24-348</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/49655/Signed_Act/B24-0838-Signed_Act.pdf">D.C. Act 24-780</citation>
       <citation type="register">70 DCR 937</citation>
     </citations>
@@ -24,29 +26,39 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Restoring Trust and Credibility to Forensic Sciences Amendment Act of 2022".</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Department of Forensic Sciences Establishment Act of 2011, effective August 17, 2011 (D.C. Law 19-18; D.C. Official Code § 5-1501.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§5-1501.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 5-1501.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended by striking the phrase "Science Advisory" and inserting the phrase "Science Advisory and Review" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Science Advisory</find>
+          <replace>Science Advisory and Review</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(2)</num>
         <text>Paragraph (2) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(3)</num>
         <text>Paragraph (3) is amended by striking the phrase "Department of Forensic Sciences" and inserting the phrase "Forensic Sciences and Public Health Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department of Forensic Sciences</find>
+          <replace>Forensic Sciences and Public Health Laboratory</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (4A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(4)"/>
             <num>(4A)</num>
             <text>"Laboratory" means the Forensic Sciences and Public Health Laboratory established by section 3.</text>
           </para>
@@ -54,65 +66,86 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§5-1501.02">
       <num>(b)</num>
       <text>Section 3 (D.C. Official Code § 5-1501.02) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "Department of Forensic Sciences" and inserting the phrase "Forensic Sciences and Public Health Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department of Forensic Sciences</find>
+          <replace>Forensic Sciences and Public Health Laboratory</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subsection (a-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)"/>
             <num>(a-1)</num>
             <text>There is established as an independent agency within the executive branch of the government of the District of Columbia, the Forensic Sciences and Public Health Laboratory.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(4)</num>
         <text>Subsection (b) is amended as follows:</text>
-        <para>
+        <para codify:path="text">
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "Department shall be to provide" and inserting the phrase "Laboratory shall be to provide independent," in its place.</text>
+          <codify:find-replace count="1">
+            <find>Department shall be to provide</find>
+            <replace>Laboratory shall be to provide independent,</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new paragraph (2A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(2)"/>
               <num>(2A)</num>
               <text>A commitment to timely response and accountability to customers and stakeholders; and</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-      </para>
-      <para>
-        <num>(5)</num>
-        <text>Paragraph (3) is amended by striking the word "safety" and inserting the word "health" in its place.</text>
+        <para codify:path="(3)">
+          <num>(5)</num>
+          <text>Paragraph (3) is amended by striking the word "safety" and inserting the word "health" in its place.</text>
+          <codify:find-replace count="1">
+            <find>safety</find>
+            <replace>health</replace>
+          </codify:find-replace>
+        </para>
       </para>
     </para>
-    <para>
+    <para codify:path="§5-1501.03">
       <num>(c)</num>
       <text>Section 4 (D.C. Official Code § 5-1501.02) is repealed.</text>
+      <codify:repeal/>
     </para>
     <para>
       <num>(d)</num>
       <text>A new section 4a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="5|15" after="§5-1501.03" num-value="5-1501.03a" history-prefix="as added"/>
           <num>4a</num>
           <heading proof="needed">Director; appointment, qualifications, compensation, and term.</heading>
           <para>
@@ -169,29 +202,39 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§5-1501.04">
       <num>(e)</num>
       <text>Section 5 (D.C. Official Code § 5-1501.04) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Department</find>
+            <replace>Laboratory</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(B)</num>
           <text>Paragraph (4) is amended by striking the word "Department" and inserting the phrase "Laboratory pursuant to section 13a" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Department</find>
+            <replace>Laboratory pusuant to <code-cite doc="D.C. Code" path="§5-1501.12a">section 13a</code-cite></replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(6)">
           <num>(C)</num>
           <text>Paragraph (6) is repealed.</text>
+          <codify:repeal/>
         </para>
         <para>
           <num>(D)</num>
           <text>A new paragraph (6A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(6)"/>
               <num>(6A)</num>
               <text>Provide access to the Board to all books, records, and documents of the Laboratory; and</text>
             </para>
@@ -199,47 +242,59 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subsection (b-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(b)" num-value=""/>
             <num>(b-1)</num>
-            <text>The Director shall develop a publicly-accessible database for the release and dissemination of all public documents identified in section 7(i).</text>
+            <text>The Director shall develop a publicly-accessible database for the release and dissemination of all public documents identified in <code-cite doc="D.C. Code" path="§5-1501.06|(i)">section 7(i)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(4)</num>
         <text>Subsection (c) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "documents promulgated pursuant to subsection (b) of this section" and inserting the phrase "training manuals and operating procedures" in its place.</text>
+          <codify:find-replace count="1">
+            <find>documents promulgated pursuant to subsection (b) of this section</find>
+            <replace>training manuals and operating procedures</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is repealed.</text>
+          <codify:repeal/>
         </para>
         <para>
           <num>(C)</num>
           <text>A new paragraph (3) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(3)</num>
-              <text>The Director shall address and implement any corrective actions identified by the Board pursuant to section 13a(c)(1)(C).</text>
+              <text>The Director shall address and implement any corrective actions identified by the Board pursuant to <code-cite doc="D.C. Code" path="§5-1501.12a|(c)|(1)|(C)">section 13a(c)(1)(C)</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(5)</num>
         <text>Subsection (d) is amended by striking the word "Department's" and inserting the word "Laboratory's" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department's</find>
+          <replace>Laboratory's</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -247,17 +302,18 @@
       <text>A new section 5a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="5|15|" after="§5-1501.04" num-value="5-1501-04a" history-prefix="as added"/>
           <num>5a</num>
           <heading proof="needed">Annual budget for the Forensic Sciences and Public Health Laboratory.</heading>
           <para>
             <num>(a)</num>
             <para>
               <num>(1)</num>
-              <text>The Director shall prepare and submit to the Mayor, for inclusion in the annual budget of the District of Columbia under Part D of Title IV of the Home Rule Act (D.C. Official Code § 1-204.41 <em>et seq.</em>), for the year, annual estimates of the expenditures and appropriations necessary for the operation of the Laboratory for the year.</text>
+              <text>The Director shall prepare and submit to the Mayor, for inclusion in the annual budget of the District of Columbia under <code-cite doc="D.C. Code" path="1|2|IV|D">Part D of Title IV of the Home Rule Act (D.C. Official Code § 1-204.41 <em>et seq.</em>)</code-cite>, for the year, annual estimates of the expenditures and appropriations necessary for the operation of the Laboratory for the year.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>The Mayor shall make recommendations to the Council based on said submissions for the Council's action pursuant to section 446 of the Home Rule Act (D.C. Official Code § 1-204.46), and section 603(c) of the Home Rule Act (D.C. Official Code § 1-206.03(c)).</text>
+              <text>The Mayor shall make recommendations to the Council based on said submissions for the Council's action pursuant to <span codify:value="§§">section</span> <code-cite doc="D.C. Code" path="§1-204.46" codify:value="1-204.46">446 of the Home Rule Act (D.C. Official Code § 1-204.46),</code-cite> and <code-cite doc="D.C. Code" path="§1-206.03|(c)">section 603(c) of the Home Rule Act (D.C. Official Code § 1-206.03(c))</code-cite>.</text>
             </para>
           </para>
           <para>
@@ -268,15 +324,17 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§5-1501.05">
       <num>(g)</num>
       <text>Section 6 (D.C. Official Code § 5-1501.05) is repealed.</text>
+      <codify:repeal/>
     </para>
     <para>
       <num>(h)</num>
       <text>A new section 6a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="5|15" after="§5-1501.05" num-value="5-1501.05a" history-prefix="as added"/>
           <num>6a</num>
           <heading proof="needed">Chief Forensic Sciences Officer; appointment, qualifications, duties, and other personnel.</heading>
           <para>
@@ -386,12 +444,16 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§5-1501.06">
       <num>(i)</num>
       <text>Section 7 (D.C. Official Code § 5-1501.06) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The section heading is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="22">
+          <find>Department</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
@@ -406,6 +468,7 @@
         <text>A new subsection (b-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(b)"/>
             <num>(b-1)</num>
             <text>The Laboratory shall identify task-irrelevant information that could create bias and impact the interpretation of evidence submitted for forensic science services and develop policies and procedures to address and document exposure to such information.</text>
           </para>
@@ -444,6 +507,7 @@
           <text>Paragraph (3) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace path="(d)|(3)"/>
               <num>(3)</num>
               <text>Any forensic unit not included in the Laboratory's accreditation, and any forensic unit subsequently added to the Laboratory, shall be accredited as soon as possible.</text>
             </para>
@@ -471,7 +535,7 @@
         <num>(12)</num>
         <text>Subsection (g) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
       </para>
-      <para>
+      <para codify:path="(h)">
         <num>(13)</num>
         <text>Subsection (h) is amended as follows:</text>
         <para>
@@ -481,12 +545,14 @@
         <para>
           <num>(B)</num>
           <text>Paragraph (2) is repealed.</text>
+          <codify:repeal path="(2)"/>
         </para>
         <para>
           <num>(C)</num>
           <text>A new paragraph (2A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(2)"/>
               <num>(2A)</num>
               <para>
                 <num>(A)</num>
@@ -504,7 +570,7 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(D)</num>
           <text>Paragraph (3) is amended as follows:</text>
           <para>
@@ -512,6 +578,7 @@
             <text>Subparagraph (H) is amended to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:replace path="(H)"/>
                 <num>(H)</num>
                 <text>Any written communications or records of oral communications regarding a specific individual case between the Laboratory and any other agency or between the Laboratory and any person not employed by the Laboratory, except as otherwise prohibited by law;</text>
               </para>
@@ -521,12 +588,17 @@
           <para>
             <num>(ii)</num>
             <text>Subparagraph (I) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace path="(I)" position="last">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(iii)</num>
             <text>A new subparagraph (J) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(J)</num>
                 <text>Chain of custody logs, documents, or reports.</text>
               </para>
@@ -535,7 +607,7 @@
           </para>
         </para>
       </para>
-      <para>
+      <para codify:path="(i)">
         <num>(14)</num>
         <text>Subsection (i) is amended as follows:</text>
         <para>
@@ -545,67 +617,101 @@
             <para>
               <num>(i)</num>
               <text>The following documents shall be public documents and published on the Laboratory's website:</text>
+              <codify:find-replace count="1">
+                <find>The following documents shall be public documents:</find>
+                <replace>The following documents shall be public documents and published on the Laboratory's website:</replace>
+              </codify:find-replace>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the word "documents" and inserting the phrase "certificates, correspondence, and manuals" in its place.</text>
+          <codify:find-replace count="1">
+            <find>documents</find>
+            <replace>certificates, correspondence, and manuals</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(C)</num>
           <text>Paragraph (2) is amended by striking the phrase "section 5(b)" and inserting the phrase "section 6a(c)(5), including all internal validation studies conducted by the Laboratory, and all data generated during the studies on or after the effective date of the Restoring Trust and Credibility to Forensic Sciences Amendment Act of 2022, passed on 2nd reading on December 20, 2022( Enrolled version of Bill 24-838); except, that the Laboratory may conceal the names of individuals who submitted samples for the studies" in its place.</text>
+          <codify:find-replace count="1">
+            <find>
+              <cite doc="D.C. Code" path="§5-1501.04|(b)">§ 5-1501.04(b)</cite>
+            </find>
+            <replace><code-cite doc="D.C. Code" path="§5-1501.05a|(c)|(5)">section 6a(c)(5)</code-cite>, including all internal validation studies conducted by the Laboratory, and all data generated during the studies on or after <span codify:value="April 21, 2023">the effective date of the Restoring Trust and Credibility to Forensic Sciences Amendment Act of 2022, passed on 2nd reading on December 20, 2022( Enrolled version of Bill 24-838)</span>; except, that the Laboratory may conceal the names of individuals who submitted samples for the studies</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(D)</num>
           <text>Paragraph (3) is repealed.</text>
+          <codify:repeal/>
         </para>
         <para>
           <num>(E)</num>
           <text>A new paragraph (3A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(3)"/>
               <num>(3A)</num>
               <text>All reports generated by the Laboratory that address quality assurance, including quality corrective actions, quality preventative actions, and other quality nonconformities; except, that, the Laboratory may redact the name of the analyst associated with the document for the version published on the Laboratory's website but shall maintain identifying information for the Laboratory and for disclosure to counsel; and</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(F)</num>
           <text>Paragraph (4) is repealed.</text>
+          <codify:repeal/>
         </para>
       </para>
     </para>
-    <para>
+    <para codify:path="§5-1501.06a">
       <num>(j)</num>
       <text>Section 7a (D.C. Official Code § 5-1501.06a) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "Department Laboratory" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department Laboratory</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is amended by striking the phrase "Department of Forensic Sciences Laboratory Fund" and inserting the phrase "Forensic Sciences and Public Health Laboratory Fund" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department of Forensic Sciences Laboratory Fund</find>
+          <replace>Forensic Sciences and Public Health Laboratory Fund</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)|(2)">
         <num>(3)</num>
         <text>Subsection (b)(2) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(4)</num>
         <text>Subsection (c) is amended by striking the phrase "Department's laboratories" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department's laboratories</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§5-1501.07">
       <num>(k)</num>
       <text>Section 8 (D.C. Official Code § 5-1501.07) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <para>
               <num>(1)</num>
@@ -626,55 +732,86 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§5-1501.08">
       <num>(l)</num>
       <text>Section 9 (D.C. Official Code § 5-1501.08) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(a-1)">
         <num>(2)</num>
         <text>Subsection (a-1) is amended by striking the word "Department" the first time it appears and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace position="first">
+          <find>Department</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§5-1501.09">
       <num>(m)</num>
       <text>Section 10 (D.C. Official Code § 5-1501.09) is amended to read as follows:</text>
       <include>
         <text>The facilities, equipment, or supplies of the Laboratory shall not be used by an independent expert employed by the accused or the accused's attorney for any reexamination of materials previously examined by the Laboratory.</text>
       </include>
       <aftertext>.</aftertext>
+      <codify:find-replace count="2">
+        <find>Department</find>
+        <replace>Laboratory</replace>
+      </codify:find-replace>
+      <codify:find-replace count="1">
+        <find>his or her</find>
+        <replace>the accused's</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§5-1501.10">
       <num>(n)</num>
       <text>Section 11 (D.C. Official Code § 5-1501.10) is repealed.</text>
+      <codify:repeal/>
     </para>
-    <para>
+    <para codify:path="§5-1501.11">
       <num>(o)</num>
       <text>Section 12 (D.C. Official Code § 5-1501.11) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "Science Advisory" and inserting the phrase "Science Advisory and Review" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Science Advisory</find>
+          <replace>Science Advisory and Review</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(3)</num>
         <text>New subsections (a-1) and (a-2) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)"/>
             <num>(a-1)</num>
             <text>There is established a Science Advisory and Review Board, which shall consist of 9 voting members to be appointed pursuant to section 2(f) of the Confirmation Act of 1978, effective May 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(f)), as follows:</text>
             <para>
@@ -703,6 +840,7 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(a-1)"/>
             <num>(a-2)</num>
             <para>
               <num>(1)</num>
@@ -716,30 +854,37 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(4)</num>
         <text>Subsection (b) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(5)</num>
         <text>A new subsection (e-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(e)"/>
             <num>(e-1)</num>
             <text>Members of the Board shall be entitled to receive a stipend pursuant to section 1108(c-2)(8) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-611.08(c-2)(8)).</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(g)">
         <num>(6)</num>
         <text>Subsection (g) is amended by striking the word "meeting" and inserting the phrase "meeting and be published on the Laboratory's website" in its place.</text>
+        <codify:find-replace count="1">
+          <find>meeting</find>
+          <replace>meeting and be published on the Laboratory's website</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(7)</num>
         <text>New subsections (h) and (i) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(h)</num>
             <para>
               <num>(1)</num>
@@ -763,6 +908,7 @@
             </para>
           </para>
           <para>
+            <codify:insert/>
             <num>(i)</num>
             <text>The Laboratory shall provide funding to the Board to:</text>
             <para>
@@ -782,46 +928,58 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§5-1501.12">
       <num>(p)</num>
       <text>Section 13 (D.C. Official Code § 5-1501.12) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(1)</num>
             <text>Review self-disclosures, complaints, or allegations of professional negligence, misconduct, misidentification, or other testing errors that occurred in the provision of forensic science services or public health laboratory services at the Laboratory pursuant to section 13a;</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(2)</num>
         <text>Paragraph (2) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(4)">
         <num>(3)</num>
         <text>Paragraph (4) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(4)</num>
         <text>New paragraphs (4A) and (4B) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(4)"/>
             <num>(4A)</num>
             <text>Review biannually and make recommendations on all competency and proficiency procedures, including position descriptions, applicable to analysts providing forensic science services;</text>
           </para>
           <para>
+            <codify:insert after="(4A)"/>
             <num>(4B)</num>
             <text>Seek an independent audit or review of the Laboratory's operations every 3 years and publish the findings on the Laboratory's website; and</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(5)">
         <num>(5)</num>
         <text>Paragraph (5) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -829,6 +987,7 @@
       <text>A new section 13a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="5|15" after="§5-1501.12" num-value="5-1501.12a" history-prefix="as added"/>
           <num>13a</num>
           <heading proof="needed">Process for addressing allegations of negligence, misconduct, misidentification, or other testing errors.</heading>
           <para>
@@ -937,36 +1096,43 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§5-1501.13">
       <num>(r)</num>
       <text>Section 14 (D.C. Official Code § 5-1501.13) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
-        <para>
+        <para codify:path="(10)">
           <num>(A)</num>
           <text>Paragraph (10) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(10)</num>
               <text>The Director of the Laboratory;</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(11)">
           <num>(B)</num>
           <text>Paragraph (11) is amended by striking the phrase "Department." and inserting the phrase "Laboratory;" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Department.</find>
+            <replace>Laboratory;</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>New paragraphs (12) and (13) are added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(12)</num>
               <text>The chairperson of the Council committee with jurisdiction over the Laboratory; and</text>
             </para>
             <para>
+              <codify:insert/>
               <num>(13)</num>
               <text>An exoneree whose wrongful conviction involved the misapplication or misunderstanding of forensic science or a representative of an organization serving such persons in the District.</text>
             </para>
@@ -974,66 +1140,96 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(3)</num>
         <text>Subsection (d) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(d)</num>
             <text>The chairperson of the Stakeholder Council shall be the Chief Medical Examiner. In the Chief Medical Examiner's absence, the Director of the Department of Health shall be the chairperson.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(e)">
         <num>(4)</num>
         <text>Subsection (e) is amended by striking the number "2" and inserting the number "4" in its place.</text>
+        <codify:find-replace count="1">
+          <find>2</find>
+          <replace>4</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§5-1501.14">
       <num>(s)</num>
       <text>Section 15 (D.C. Official Code § 5-1501.14) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended as follows:</text>
-        <para>
+        <para codify:path="(A)">
           <num>(A)</num>
           <text>Subparagraph (A) is amended by striking the word "Department's" and inserting the word "Laboratory's" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Department's</find>
+            <replace>Laboratory's</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(B)">
           <num>(B)</num>
           <text>Subparagraph (B) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Department</find>
+            <replace>Laboratory</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(2)</num>
         <text>Paragraph (2) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§5-1501.15">
       <num>(t)</num>
       <text>Section 16 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(1)">
         <num>(1)</num>
         <text>Subsection (a)(1) is amended as follows:</text>
-        <para>
+        <para codify:path="(A)">
           <num>(A)</num>
           <text>Subparagraph (A) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Department</find>
+            <replace>Laboratory</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(B)">
           <num>(B)</num>
           <text>Subparagraph (B) is amended as follows:</text>
-          <para>
+          <para codify:path="text">
             <num>(i)</num>
             <text>The lead-in language is amended by striking the word "Department" both times it appears and inserting the word "Laboratory" in its place.</text>
+            <codify:find-replace count="2">
+              <find>Department</find>
+              <replace>Laboratory</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(i)">
             <num>(ii)</num>
             <text>Sub-subparagraph (i) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Department</find>
+              <replace>Laboratory</replace>
+            </codify:find-replace>
           </para>
         </para>
       </para>
@@ -1042,6 +1238,7 @@
         <text>A new subsection (a-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)" num-value=""/>
             <num>(a-1)</num>
             <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall issue rules proscribing access to records that pertain to a criminal prosecution, as described in section 6(h)(2A)(C).</text>
           </para>
@@ -1049,9 +1246,13 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§5-1501.16">
       <num>(u)</num>
       <text>Section 17 (D.C. Official Code § 5-1501.16) is amended by striking the word "Department" and inserting the word "Laboratory" in its place.</text>
+      <codify:find-replace count="1">
+        <find>Department</find>
+        <replace>Laboratory</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
@@ -1059,35 +1260,46 @@
     <text>Section 2(f)(48) of the Confirmation Act of 1978, effective May 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(f)(48)), is amended to read as follows as follows:</text>
     <include lvl="1">
       <para>
+        <codify:replace doc="D.C. Code" path="§1-523.01|(f)|(48)"/>
         <num>(48)</num>
         <text>The Science Advisory and Review Board to the Forensic Sciences and Public Health Laboratory, established by section 12 of the Department of Forensic Sciences Establishment Act of 2011, effective August 17, 2011 (D.C. Law 19-18; D.C. Official Code § 5-1501.11).</text>
       </para>
     </include>
     <aftertext>.</aftertext>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>4</num>
     <text>The District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-601.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§1-604.06|(b)">
       <num>(a)</num>
       <text>Section 406(b) (D.C. Official Code § 1-604.06(b)) is amended as follows:</text>
-      <para>
+      <para codify:path="(29)">
         <num>(1)</num>
         <text>Paragraph (29) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(30)">
         <num>(2)</num>
         <text>Paragraph (30) is amended by striking the period and inserting a semicolon in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>New paragraphs (31) and (32) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(31)" num-value="[(32)]"/>
             <num>(31)</num>
             <text>For employees of the Forensic Sciences and Public Health Laboratory, the personnel authority is the Director of the Forensic Sciences and Public Health Laboratory; and</text>
           </para>
           <para>
+            <codify:insert after="[(32)]" num-value="[(33)]"/>
             <num>(32)</num>
             <text>For employees of the Science Advisory and Review Board, the personnel authority is the Science Advisory and Review Board.</text>
           </para>
@@ -1095,22 +1307,31 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-609.08">
       <num>(b)</num>
       <text>Section 908 (D.C. Official Code § 1-609.08) is amended as follows:</text>
-      <para>
+      <para codify:path="(18)">
         <num>(1)</num>
         <text>Paragraph (18) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="[(19)]">
         <num>(2)</num>
         <text>Paragraph (19) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (20) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert path="(a)"/>
             <num>(20)</num>
             <text>The Director of the Forensic Sciences and Public Health Laboratory.</text>
           </para>
@@ -1121,23 +1342,33 @@
     <para>
       <num>(c)</num>
       <text>Section 1052a(g)(1) (D.C. Official Code § 1-610.52a(g)(1)) is repealed.</text>
+      <codify:repeal doc="D.C. Code" path="§1-610.52a|(g)|(1)"/>
     </para>
-    <para>
+    <para codify:path="§1-611.08|(c-2)">
       <num>(d)</num>
       <text>Section 1108(c-2) (D.C. Official Code § 1-611.08(c-2)) is amended as follows:</text>
-      <para>
+      <para codify:path="(6)">
         <num>(1)</num>
         <text>Paragraph (6) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>[;]</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(7)">
         <num>(2)</num>
         <text>Paragraph (7) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace position="last">
+          <find>[; and]</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (8) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(8)</num>
             <text>Each member of the Science Advisory and Review Board ("SARB") appointed pursuant to section 12 of the Department of Forensic Sciences Establishment Act of 2011, effective August 17, 2011 (D.C. Law 19-18; D.C. Official Code § 5-1501.11), shall be entitled to compensation in the form of a stipend not to exceed $50 per meeting of the SARB.</text>
           </para>
@@ -1149,22 +1380,28 @@
   <section>
     <num>5</num>
     <text>Section 101(10) of the Address Confidentiality Act of 2018, effective July 3, 2018 (D.C. Law 22-118; D.C. Official Code § 4-555.01(10)), is amended by striking the phrase "Department of Forensic Sciences" and inserting the phrase "Forensic Sciences and Public Health Laboratory" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§4-555.01|(10)" count="1">
+      <find>Department of Forensic Sciences</find>
+      <replace>Forensic Sciences and Public Health Laboratory</replace>
+    </codify:find-replace>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>6</num>
     <text>The Sexual Assault Victim's Rights Act of 2014, effective November 20, 2014 (D.C. Law 20-139; D.C. Official Code § 4-561.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-561.01">
       <num>(a)</num>
       <text>Section 201 (D.C. Official Code § 4-561.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(4)">
         <num>(1)</num>
         <text>Paragraph (4) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (6A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert path="(a)" after="(6)"/>
             <num>(6A)</num>
             <text>"Laboratory" means the Forensic Sciences and Public Health Laboratory.</text>
           </para>
@@ -1172,26 +1409,38 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-561.02">
       <num>(b)</num>
       <text>Section 202 (D.C. Official Code § 4-561.02) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(1)">
         <num>(1)</num>
         <text>Subsection (a)(1) is amended by striking the phrase "DFS" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="1">
+          <find>DFS</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "DFS" both times it appears and inserting the word "Laboratory" in its place.</text>
+          <codify:find-replace count="2">
+          <find>DFS</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "DFS" both times it appears and inserting the word "Laboratory" in its place.</text>
+          <codify:find-replace count="2">
+          <find>DFS</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(b-1)">
         <num>(3)</num>
         <text>Subsection (b-1) is amended as follows:</text>
         <para>
@@ -1200,6 +1449,10 @@
           <para>
             <num>(i)</num>
             <text>The lead-in language is amended by striking the phrase "DFS" and inserting the word "Laboratory" in its place.</text>
+            <codify:find-replace count="5">
+          <find>DFS</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
@@ -1216,16 +1469,24 @@
         </para>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-561.05|(5)">
       <num>(c)</num>
       <text>Section 205(5) (D.C. Official Code § 4-561.05(5)) is amended by striking the phrase "DFS" and inserting the word "Laboratory" in its place.</text>
+      <codify:find-replace count="1">
+          <find>DFS</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§4-561.10">
       <num>(d)</num>
       <text>Section 210 (D.C. Official Code § 4-561.10) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "DFS" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="10">
+          <find>DFS</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
@@ -1252,34 +1513,54 @@
         <text>Paragraph (7) is amended by striking the phrase "DFS" and inserting the word "Laboratory" in its place.</text>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-561.12">
       <num>(e)</num>
       <text>Section 212 (D.C. Official Code § 4-561.12) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Subsection (c)(16) is amended by striking the phrase "DFS" and inserting the word "Laboratory" in its place.</text>
+        <codify:find-replace count="2">
+          <find>DFS</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Subsection (h)(1) is amended by striking the phrase "DFS" and inserting the word "Laboratory" in its place.</text>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-561.14|(b)|(5)">
       <num>(f)</num>
       <text>Section 214(b)(5) (D.C. Official Code § 4-561.14(b)(5)) is amended by striking the phrase "DFS" and inserting the word "Laboratory" in its place.</text>
+      <codify:find-replace count="1">
+          <find>DFS</find>
+          <replace>Laboratory</replace>
+        </codify:find-replace>
     </para>
   </section>
   <section>
     <num>7</num>
     <text>Section 2(f) of the Retired Police Officer Redeployment Amendment Act of 1992, effective September 29, 1992 (D.C. Law 9-163; D.C. Official Code § 5-761(f)), is amended by striking the phrase "Department of Forensic Sciences" and inserting the phrase "Forensic Sciences and Public Health Laboratory" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§5-761|(f)" count="1">
+      <find>Department of Forensic Sciences</find>
+      <replace>Forensic Sciences and Public Health Laboratory</replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>8</num>
     <text>Section 1013(a)(1)(J) of the Firearms Control Regulations Act of 1975, effective April 27, 2021 (D.C. Law 23-274; D.C. Official Code § 7-2510.13(a)(1)(J)), is amended by striking the phrase "Department of Forensic Sciences" and inserting the phrase "Forensic Sciences and Public Health Laboratory" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§7-2510.13|(a)|(1)|(J)" count="1">
+      <find>Department of Forensic Sciences</find>
+      <replace>Forensic Sciences and Public Health Laboratory</replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>9</num>
     <text>Section 23-1910(b)(3) of the District of Columbia Official Code is amended by striking the phrase "DFS" both times it appears and inserting the phrase "Forensic Sciences and Public Health Laboratory" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§23-1910|(b)|(3)" count="2">
+      <find>DFS</find>
+      <replace>Forensic Sciences and Public Health Laboratory</replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>10</num>
@@ -1287,6 +1568,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <!-- <codify:applicability doc="D.C. Law 24-348" date="notfunded" history="false" display-template=""/> -->
     </para>
     <para>
       <num>(b)</num>

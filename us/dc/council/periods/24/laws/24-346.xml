@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-732">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-346">
+  <num type="law">24-346</num>
   <num type="act">24-732</num>
   <num type="bill">24-560</num>
   <heading type="short">Animal Care and Control Omnibus Amendment Act of 2022</heading>
   <heading type="long">To amend Title 18 of the District of Columbia Municipal Regulations to authorize animal control officers to operate emergency lights and sirens when responding to an animal-related emergency; to amend Chapter 106 of the Acts of the Legislative Assembly to provide for the provision of a bond to care for seized animals during the pendency of criminal or other proceedings, to prohibit the possession of an implement of animal fighting, and to establish new criminal offenses prohibiting sexual contact between persons and animals, creating or distributing an obscene image of an animal, and cat declawing; to amend Chapter 3 of Title 25-J of the District of Columbia Municipal Regulations to prohibit a pet store operator from selling mammals, amphibians, arachnids, birds, or reptiles in a pet store unless the animal was obtained from the Animal Care and Control Agency, a society for the prevention of cruelty to animals, a humane society shelter, or rescue group; and to amend section 16-910 of the District of Columbia Official Code to allow judges to consider the best interests of a pet and award joint custody in a divorce case.</heading>
   <meta>
     <introduced>2021-12-09</introduced>
-    <effective projected="true">2023-05-11</effective>
+    <effective>2023-04-21</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/48423/Signed_Act/B24-0560-Signed_Act.pdf">D.C. Law 24-346</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/48423/Signed_Act/B24-0560-Signed_Act.pdf">D.C. Act 24-732</citation>
       <citation type="register">70 DCR 570</citation>
     </citations>
@@ -21,6 +23,7 @@
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Animal Care and Control Omnibus Amendment Act of 2022".</text>
   <section>
+      <codify:marginalia display="DCMR"/>
     <num>2</num>
     <text>Title 18 of the District of Columbia Municipal Regulations is amended as follows:</text>
     <para>
@@ -64,39 +67,42 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>3</num>
     <text>Chapter 106 of the Acts of the Legislative Assembly, adopted August 23, 1871 (D.C. Official Code § 22-1001 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§22-1004">
       <num>(a)</num>
       <text>Section 4 (D.C. Official Code § 22-1004) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
-            <text>A person found violating the laws in relation to cruelty to animals may be arrested and held without a warrant, in the manner provided by section 5 of An Act to incorporate an Association for the Prevention of Cruelty to Animals in the District of Columbia, approved June 21, 1870 (16 Stat. 158; D.C. Official Code § 44-1505), and the person making an arrest, with or without a warrant, shall use reasonable diligence to give notice thereof to the owner of animals found in the charge or custody of the person arrested and shall properly care and provide for such animals until the owner thereof shall take charge of the same.</text>
+            <text>A person found violating the laws in relation to cruelty to animals may be arrested and held without a warrant, in the manner provided by <code-cite doc="D.C. Code" path="§44-1505">section 5 of An Act to incorporate an Association for the Prevention of Cruelty to Animals in the District of Columbia, approved June 21, 1870 (16 Stat. 158; D.C. Official Code § 44-1505)</code-cite>, and the person making an arrest, with or without a warrant, shall use reasonable diligence to give notice thereof to the owner of animals found in the charge or custody of the person arrested and shall properly care and provide for such animals until the owner thereof shall take charge of the same.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)|(1)">
         <num>(2)</num>
         <text>Subsection (b)(1) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(1)</num>
             <text>A humane officer of the Washington Humane Society may take possession of any animal to protect it from neglect or cruelty. The person taking possession of the animal or animals shall use reasonable diligence to give notice thereof to the owner of animals found in the charge or custody of the person arrested and shall properly care and provide for the animals until the owner shall take charge of the animals.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c)</num>
             <para>
               <num>(1)</num>
@@ -141,7 +147,7 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>Within 90 days after the effective date of the Animal Care and Control Omnibus Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-560), the proposed rules shall be submitted to the Council for a 45-day review period of review, excluding weekends, legal holidays, and days of Council recess. If the Council does not approve or disapprove of the proposed rules, by resolution, within the 45-day review period, the rules shall be deemed approved.</text>
+                <text>Within 90 days after <span codify:value="April 21, 2023">the effective date of the Animal Care and Control Omnibus Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-560)</span>, the proposed rules shall be submitted to the Council for a 45-day review period of review, excluding weekends, legal holidays, and days of Council recess. If the Council does not approve or disapprove of the proposed rules, by resolution, within the 45-day review period, the rules shall be deemed approved.</text>
               </para>
             </para>
           </para>
@@ -153,6 +159,7 @@
         <text>A new subsection (d) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert/>
             <num>(d)</num>
             <para>
               <num>(1)</num>
@@ -168,7 +175,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>This subsection shall apply to all cases pending before the court as of the effective date of the Animal Care and Control Omnibus Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-560).</text>
+              <text>This subsection shall apply to all cases pending before the court as of <span codify:value="April 21, 2023">the effective date of the Animal Care and Control Omnibus Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-560)</span>.</text>
             </para>
           </para>
         </include>
@@ -180,19 +187,20 @@
       <text>A new section 6b is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="22|10" after="§22-1006.01" num-value="22-1006.02"/>
           <num>6b</num>
           <heading proof="needed">Possession of an implement of animal fighting.</heading>
           <para>
             <num>(a)</num>
             <heading proof="needed">Offense. </heading>
-            <text>A person commits the offense of possession of an implement of animal fighting when that person purposefully possesses, with the intent to use in furtherance of engaging in animal fighting, as described in section 6a, an implement of animal fighting.</text>
+            <text>A person commits the offense of possession of an implement of animal fighting when that person purposefully possesses, with the intent to use in furtherance of engaging in animal fighting, as described in <code-cite doc="D.C. Code" path="§22-1006.01">section 6a</code-cite>, an implement of animal fighting.</text>
           </para>
           <para>
             <num>(b)</num>
             <para>
               <num>(1)</num>
               <heading proof="needed">Penalties.</heading>
-              <text>A person convicted of possession of an implement of animal fighting shall be fined no more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or incarcerated for no more than 10 days, or both.</text>
+              <text>A person convicted of possession of an implement of animal fighting shall be fined no more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01),</code-cite> or incarcerated for no more than 10 days, or both.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -239,6 +247,7 @@
       <text>New sections 11a, 11b, 11c, and 11d are added to read as follows:</text>
       <include>
         <section>
+        <codify:insert path="22|10" after="§22-1012" num-value="22-1012.01"/>
           <num>11a</num>
           <heading proof="needed">Prohibiting sexual contact between a person and animal.</heading>
           <para>
@@ -294,11 +303,11 @@
             <text>A person convicted of:</text>
             <para>
               <num>(1)</num>
-              <text>First degree sexual contact between a person and animal shall be fined no more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or incarcerated for no more than 2 years, or both.</text>
+              <text>First degree sexual contact between a person and animal shall be fined no more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or incarcerated for no more than 2 years, or both.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>Second degree sexual contact between a person and animal shall be fined no more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or incarcerated for no more than 180 days, or both.</text>
+              <text>Second degree sexual contact between a person and animal shall be fined no more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or incarcerated for no more than 180 days, or both.</text>
             </para>
           </para>
           <para>
@@ -392,6 +401,7 @@
           </para>
         </section>
         <section>
+          <codify:insert path="22|10" after="§22-1012.01" num-value="22-1012.02"/>
           <num>11b</num>
           <heading proof="needed">Creating or distributing an obscene image of an animal.</heading>
           <para>
@@ -447,11 +457,11 @@
             <text>A person convicted of:</text>
             <para>
               <num>(1)</num>
-              <text>First degree creating or distributing an obscene image of an animal shall be fined no more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or incarcerated for no more than 180 days, or both.</text>
+              <text>First degree creating or distributing an obscene image of an animal shall be fined no more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or incarcerated for no more than 180 days, or both.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>Second degree creating or distributing an obscene image of an animal shall be fined no more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or incarcerated for no more than 90 days, or both.".</text>
+              <text>Second degree creating or distributing an obscene image of an animal shall be fined no more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or incarcerated for no more than 90 days, or both.".</text>
             </para>
           </para>
           <para>
@@ -485,6 +495,7 @@
           </para>
         </section>
         <section>
+          <codify:insert path="22|10" after="§22-1012.02" num-value="22-1012.03"/>
           <num>11c</num>
           <heading proof="needed">Unlawful cat declawing.</heading>
           <para>
@@ -495,7 +506,7 @@
           <para>
             <num>(b)</num>
             <heading proof="needed">Penalties.</heading>
-            <text>A person convicted of unlawful cat declawing shall be fined no more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or incarcerated for no more than 90 days, or both.</text>
+            <text>A person convicted of unlawful cat declawing shall be fined no more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01),</code-cite> or incarcerated for no more than 90 days, or both.</text>
           </para>
           <para>
             <num>(c)</num>
@@ -504,11 +515,12 @@
           </para>
         </section>
         <section>
+          <codify:insert path="22|10" after="§22-1012.03" num-value="22-1012.04"/>
           <num>11d</num>
           <heading proof="needed">Additional penalties.</heading>
           <para>
             <num undesignated="true">(a)</num>
-            <text>Upon conviction for a violation of section 1, 2, 11a, 11b, or 11c:</text>
+            <text>Upon conviction for a violation of <code-cite doc="D.C. Code" path="§22-1001">section 1</code-cite>, <code-cite doc="D.C. Code" path="§22-1002">2</code-cite>, <code-cite doc="D.C. Code" path="§22-1012.01">11a</code-cite>, <code-cite doc="D.C. Code" path="§22-1012.02">11b</code-cite>, or <code-cite doc="D.C. Code" path="§22-1012.03">11c</code-cite>:</text>
             <para>
               <num>(1)</num>
               <text>The person shall, in addition to any other penalties provided by law, forfeit the animal whose treatment was the basis of the conviction to the custody of the Washington Humane Society; and</text>
@@ -532,6 +544,7 @@
     </para>
   </section>
   <section>
+    <codify:marginalia display="DCMR"/>
     <num>4</num>
     <text>Chapter 3 of Title 25-J of the District of Columbia Municipal Regulations (25-J DCMR 300 <em>et seq.</em>), is amended by adding a new section 330 to read as follows:</text>
     <include>
@@ -539,15 +552,15 @@
         <num>330</num>
         <heading proof="needed">Restrictions relating to mammals, amphibians, arachnids, birds, and reptiles.</heading>
         <para>
-          <num></num>
+          <num/>
           <text>330.1 A pet store operator shall not sell live mammals, amphibians, arachnids, birds, or reptiles in a pet store unless the animal was obtained from the Animal Care and Control Agency, society for the prevention of cruelty to animals shelter, humane society shelter, or rescue group that is in a cooperative agreement with at least one private or public shelter.</text>
         </para>
         <para>
-          <num></num>
+          <num/>
           <text>330.2 Each pet store shall maintain records sufficient to document the source of each mammal, amphibian, arachnid, bird, and reptile that the pet store sells or for which it provided space for at least one year. Additionally, each pet store shall post, in a conspicuous location on the cage or enclosure of each animal, a sign listing the name of the Animal Care and Control Agency, society for the prevention of cruelty to animals shelter, humane society shelter, or rescue group from which each mammal, amphibian, arachnid, bird, and reptile was obtained.</text>
         </para>
         <para>
-          <num></num>
+          <num/>
           <text>330.3 Each animal offered for sale in violation of this section shall constitute a separate violation.</text>
         </para>
       </section>
@@ -559,6 +572,7 @@
     <text>Section 16-910 of the District of Columbia Official Code is amended to read as follows:</text>
     <include>
       <section>
+        <codify:replace doc="D.C. Code" path="§16-910"/>
         <prefix>§</prefix>
         <num>16-910</num>
         <heading proof="needed">Assignment and equitable distribution of property.</heading>

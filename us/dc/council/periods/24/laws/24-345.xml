@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 24-781">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 24-345">
+  <num type="law">24-345</num>
   <num type="act">24-781</num>
   <num type="bill">24-320</num>
   <heading type="short">Comprehensive Policing and Justice Reform Amendment Act of 2022</heading>
   <heading type="long">To provide for comprehensive policing and justice reform for District residents and visitors, and for other purposes.</heading>
   <meta>
     <introduced>2021-06-15</introduced>
-    <effective projected="true">2023-05-11</effective>
+    <effective>2023-04-21</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47448/Signed_Act/B24-0320-Signed_Act.pdf">D.C. Law 24-345</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/47448/Signed_Act/B24-0320-Signed_Act.pdf">D.C. Act 24-781</citation>
       <citation type="register">70 DCR 953</citation>
     </citations>
@@ -22,7 +24,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Comprehensive Policing and Justice Reform Amendment Act of 2022".</text>
-  <container>
+  <container codify:doc="D.C. Code">
     <prefix>TITLE</prefix>
     <num>I</num>
     <heading>IMPROVING POLICE ACCOUNTABILITY AND TRANSPARENCY</heading>
@@ -33,12 +35,13 @@
       <section>
         <num>101</num>
         <text>The Limitation on the Use of the Chokehold Act of 1985, effective January 25, 1986 (D.C. Law 6-77; D.C. Official Code § 5-125.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§5-125.01">
           <num>(a)</num>
           <text>Section 2 (D.C. Official Code § 5-125.01) is amended to read as follows:</text>
           <include>
             <section>
-              <num>2</num>
+              <codify:replace/>
+              <num codify:value="5-125.01">2</num>
               <para>
                 <num>(a)</num>
                 <text>The Council finds that law enforcement officers' use of neck restraints, or any other technique that causes asphyxiation, presents an unnecessary danger to the public and constitutes excessive force.</text>
@@ -49,28 +52,31 @@
               </para>
               <para>
                 <num>(c)</num>
-                <text>Police brutality is abhorrent and antithetical to the District's values. It is the intent of the Council that this act unequivocally strengthen the 1985 ban on the use of neck restraints and other techniques that can cause asphyxiation by law enforcement officers.</text>
+                <text>Police brutality is abhorrent and antithetical to the District's values. It is the intent of the Council that <code-cite doc="D.C. Code" path="5|1|XIII">this act</code-cite> unequivocally strengthen the 1985 ban on the use of neck restraints and other techniques that can cause asphyxiation by law enforcement officers.</text>
               </para>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§5-125.02">
           <num>(b)</num>
           <text>Section 3 (D.C. Official Code § 5-125.02) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(1)</num>
             <text>Paragraph (1) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(2)">
             <num>(2)</num>
             <text>Paragraph (2) is repealed.</text>
+            <codify:repeal/>
           </para>
           <para>
             <num>(3)</num>
             <text>New paragraphs (3), (4), (5), and (6) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(3)</num>
                 <text>"Asphyxiating restraint" means:</text>
                 <para>
@@ -83,6 +89,7 @@
                 </para>
               </para>
               <para>
+                <codify:insert/>
                 <num>(4)</num>
                 <text>"Law enforcement officer" means:</text>
                 <para>
@@ -119,10 +126,12 @@
                 </para>
               </para>
               <para>
+                <codify:insert/>
                 <num>(5)</num>
                 <text>"Neck restraint" means the use of any body part or object by a law enforcement officer to apply pressure against a person's neck, including the trachea, carotid artery, or jugular vein, with the purpose, intent, or effect of controlling or restricting the person's movement, blood flow, or breathing.</text>
               </para>
               <para>
+                <codify:insert/>
                 <num>(6)</num>
                 <text>"Prohibited technique" means an asphyxiating restraint or a neck restraint.</text>
               </para>
@@ -130,12 +139,13 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§5-125.03">
           <num>(c)</num>
           <text>Section 4 (D.C. Official Code § 5-125.03) is amended to read as follows:</text>
           <include>
             <section>
-              <num>4</num>
+              <codify:replace/>
+              <num codify:value="5-125.03">4</num>
               <heading proof="needed">Use of prohibited techniques.</heading>
               <para>
                 <num>(a)</num>
@@ -162,34 +172,47 @@
           <aftertext>.</aftertext>
         </para>
       </section>
-      <section>
+      <section codify:path="§5-302">
         <num>102</num>
         <text>Section 3 of the Federal Law Enforcement Officer Cooperation Act of 1999, effective May 9, 2000 (D.C. Law 13-100; D.C. Official Code § 5-302), is amended by striking the phrase "use of trachea and carotid artery holds under sections 3 and 4 of the Limitation on the Use of the Chokehold Act of 1985, effective January 25, 1986 (D.C. Law 6-77; D.C. Official Code § 5-125.01 <em>et seq</em>.)," and inserting the phrase "use of prohibited techniques, as that term is defined in section 3(6) of the Limitation on the Use of the Chokehold Act of 1985, effective January 25, 1986 (D.C. Law 6-77; D.C. Official Code § 5-125.02(6))," in its place.</text>
+        <codify:find-replace count="1">
+          <find>use of trachea and carotid artery holds under §§ <cite path="§5-125.02">5-125.02</cite> and <cite path="§5-125.03">5-125.03</cite></find>
+          <replace>use of prohibited techniques, as that term is defined in <code-cite doc="D.C. Code" path="§5-125.02|(6)">section 3(6) of the Limitation on the Use of the Chokehold Act of 1985, effective January 25, 1986 (D.C. Law 6-77; D.C. Official Code § 5-125.02(6))</code-cite>,</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>B</num>
       <heading>IMPROVING ACCESS TO BODY-WORN CAMERA VIDEO RECORDINGS</heading>
-      <section>
+      <section codify:path="§5-116.33">
         <num>103</num>
         <text>Section 3004 of the Body-Worn Camera Regulation and Reporting Requirements Act of 2015, effective October 22, 2015 (D.C. Law 21-36; D.C. Official Code § 5-116.33), is amended as follows:</text>
-        <para>
+        <para codify:path="heading">
           <num>(a)</num>
           <text>The section heading is amended by striking the phrase "reporting requirements." and inserting the phrase "reporting requirements; access." in its place.</text>
+          <codify:find-replace count="1">
+            <find>reporting requirements.</find>
+            <replace>reporting requirements; access.</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(a)">
           <num>(b)</num>
           <text>Subsection (a) is amended as follows:</text>
-          <para>
+          <para codify:path="(3)">
             <num>(1)</num>
             <text>Paragraph (3) is amended by striking the phrase "interactions;" and inserting the phrase "interactions, and the results of those internal investigations, including any discipline imposed;" in its place.</text>
+            <codify:find-replace count="1">
+              <find>interactions;</find>
+              <replace>interactions, and the results of those internal investigations, including any discipline imposed;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(7)">
             <num>(2)</num>
             <text>Paragraph (7) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace/>
                 <num>(7)</num>
                 <text>How many Freedom of Information Act requests the Metropolitan Police Department ("Department") received for body-worn camera recordings during the reporting period, the outcome of each request, including any reasons for denial, any costs invoiced to the requestor, the cost to the Department for complying with each request, including redaction, and the length of time between the initial request and the Department's final response; and</text>
               </para>
@@ -202,6 +225,7 @@
           <text>New subsections (c), (d), (e), (f), and (g) are added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(c)</num>
               <text>Notwithstanding any other law:</text>
               <para>
@@ -264,6 +288,7 @@
               </para>
             </para>
             <para>
+              <codify:insert/>
               <num>(d)</num>
               <text>Before publicly releasing a body-worn camera recording of an officer-involved death, the Metropolitan Police Department shall:</text>
               <para>
@@ -288,6 +313,7 @@
               </para>
             </para>
             <para>
+              <codify:insert/>
               <num>(e)</num>
               <para>
                 <num>(1)</num>
@@ -299,15 +325,17 @@
               </para>
             </para>
             <para>
+              <codify:insert/>
               <num>(f)</num>
               <text>When releasing body-worn camera recordings, the likenesses of any local, county, state, or federal government employees acting in their professional capacities, other than those acting undercover, shall not be redacted or otherwise obscured.</text>
             </para>
             <para>
+              <codify:insert/>
               <num>(g)</num>
               <text>For the purposes of this section, the term:</text>
               <para>
                 <num>(1)</num>
-                <text>"FOIA" means Title II of the District of Columbia Administrative Procedure Act, effective March 25, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>).</text>
+                <text>"FOIA" means <code-cite doc="D.C. Code" path="2|5|II">Title II of the District of Columbia Administrative Procedure Act, effective March 25, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>)</code-cite>.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -337,7 +365,7 @@
                   </para>
                   <para>
                     <num>(iii)</num>
-                    <text>Involving the use of a prohibited technique, as that term is defined in section 3(6) of the Limitation on the Use of the Chokehold Act of 1985, effective January 25, 1986 (D.C. Law 6-77; D.C. Official Code § 5-125.02(6)); and</text>
+                    <text>Involving the use of a prohibited technique, as that term is defined in <code-cite doc="D.C. Code" path="§5-125.02|(6)">section 3(6) of the Limitation on the Use of the Chokehold Act of 1985, effective January 25, 1986 (D.C. Law 6-77; D.C. Official Code § 5-125.02(6))</code-cite>; and</text>
                   </para>
                   <para>
                     <num>(iv)</num>
@@ -355,6 +383,7 @@
         </para>
       </section>
       <section>
+        <codify:marginalia display="DCMR"/>
         <num>104</num>
         <text>Chapter 39 of Title 24 of the District of Columbia Municipal Regulations is amended as follows:</text>
         <para>
@@ -588,26 +617,34 @@
       <section>
         <num>105</num>
         <text>The Office of Citizen Complaint Review Establishment Act of 1998, effective March 26, 1999 (D.C. Law 12-208; D.C. Official Code § 5-1101 <em>et seq</em>.), is amended as follows:</text>
-        <para>
+        <para codify:path="§5-1101">
           <num>(a)</num>
           <text>Section 2 (D.C. Official Code § 5-1101) is amended by adding new paragraphs (3A) and (3B) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(3)"/>
               <num>(3A)</num>
               <text>Members of the District of Columbia Housing Authority Police Department ("DCHAPD") are also authorized to make arrests, carry a firearm, and perform other functions normally reserved for members of the Metropolitan Police Department. As the powers of DCHAPD officers closely resemble the powers of MPD officers, an effective system of police oversight must include a process for resolving allegations concerning DCHAPD officers.</text>
             </para>
             <para>
+              <codify:insert after="(3A)"/>
               <num>(3B)</num>
               <text>Employees of the Office of the Inspector General ("OIG") are authorized to carry a firearm, make warrantless arrests for felony violations of the law, and serve as affiants for search warrants. As the powers of this specific class of OIG employees have powers that closely resemble the powers of MPD officers, an effective system of police oversight must include a process for resolving allegations concerning OIG employees conducting felony investigations.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
+          <codify:not-funded-anno doc="D.C. Code" path="§5-1101" applicability-path="§301" display-template=""/>
         </para>
-        <para>
+        <para codify:path="§5-1102">
           <num>(b)</num>
           <text>The lead-in language of section 3 (D.C. Official Code § 5-1102) is amended by striking the phrase "citizen complaints against police officers" and inserting the phrase "complaints against law enforcement officers" in its place.</text>
+          <codify:find-replace count="1">
+            <find>citizen complaints against police officers</find>
+            <replace>complaints against law enforcement officers</replace>
+          </codify:find-replace>
+          <codify:not-funded-anno doc="D.C. Code" path="§5-1102" applicability-path="§301" display-template=""/>
         </para>
-        <para>
+        <para codify:path="§5-1103">
           <num>(c)</num>
           <text>Section 4 (D.C. Official Code § 5-1103) is amended as follows:</text>
           <para>
@@ -615,14 +652,17 @@
             <text>New paragraphs (2A), (2B), and (2C) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(2)"/>
                 <num>(2A)</num>
                 <text>"DCHA" means the District of Columbia Housing Authority.</text>
               </para>
               <para>
+                <codify:insert after="(2A)"/>
                 <num>(2B)</num>
                 <text>"DCHAPD" means the District of Columbia Housing Authority Police Department.</text>
               </para>
               <para>
+                <codify:insert after="(2B)"/>
                 <num>(2C)</num>
                 <text>"Designated agency principal" means:</text>
                 <para>
@@ -646,6 +686,7 @@
             <text>A new paragraph (3B) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(3A)"/>
                 <num>(3B)</num>
                 <text>"MPD" means the Metropolitan Police Department.</text>
               </para>
@@ -657,21 +698,24 @@
             <text>A new paragraph (5) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(4)"/>
                 <num>(5)</num>
                 <text>"OIG" means the Office of the Inspector General.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§5-1103" applicability-path="§301" display-template=""/>
         </para>
-        <para>
+        <para codify:path="§5-1104">
           <num>(d)</num>
           <text>Section 5 (D.C. Official Code § 5-1104) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(a)</num>
                 <para>
                   <num>(1)</num>
@@ -700,33 +744,43 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended by striking the phrase "The Mayor shall designate the chairperson of the Board, and may remove a member of the Board from office for cause." and inserting the phrase "The Board shall select a chairperson from among its members. The Mayor may remove a member of the Board from office for cause." in its place.</text>
+            <codify:find-replace count="1">
+              <find>The Mayor shall designate the chairperson of the Board, and may remove a member of the Board from office for cause.</find>
+              <replace>The Board shall select a chairperson from among its members. The Mayor may remove a member of the Board from office for cause.</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(3)</num>
             <text>Subsection (c) is amended by striking the number "3" and inserting the number "5" in its place.</text>
+            <codify:find-replace count="1">
+              <find>3</find>
+              <replace>5</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(4)</num>
             <text>Subsection (d) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(d)</num>
                 <text>The Board shall conduct periodic reviews of the complaint review process and make recommendations, where appropriate, to the Mayor, the Council, and the designated agency principal concerning the status and the improvement of the complaint process and the management of the MPD and the DCHAPD affecting the incidence of police misconduct, such as the recruitment, training, evaluation, discipline, and supervision of police officers.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(d-2)">
             <num>(5)</num>
             <text>Subsection (d-2) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace/>
                   <num>(1)</num>
                   <text>The Board shall review the following with respect to the MPD, the DCHAPD, or the OIG:</text>
                   <para>
@@ -753,27 +807,41 @@
               </include>
               <aftertext>.</aftertext>
             </para>
-            <para>
+            <para codify:path="(2)">
               <num>(B)</num>
               <text>Paragraph (2) is amended by striking the phrase "have timely and complete access to information" and inserting the phrase "have unfettered access to all information" in its place.</text>
+              <codify:find-replace count="1">
+                <find>have timely and complete access to information</find>
+                <replace>have unfettered access to all information</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(3)">
               <num>(C)</num>
               <text>Paragraph (3) is repealed.</text>
+              <codify:repeal/>
             </para>
-            <para>
+            <para codify:path="(4)">
               <num>(D)</num>
               <text>Paragraph (4) is amended by striking the phrase "the MPD to" both times it appears and inserting the phrase "the MPD, the DCHAPD, or the OIG to" in its place.</text>
+              <codify:find-replace count="2">
+                <find>the MPD to</find>
+                <replace>the MPD, the DCHAPD, or the OIG to</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(5)">
               <num>(E)</num>
               <text>Paragraph (5) is amended by striking the phrase "the MPD" and inserting the phrase "the MPD, DCHAPD, or OIG, respectively" in its place.</text>
+              <codify:find-replace count="1">
+                <find>the MPD</find>
+                <replace>the MPD, DCHAPD, or OIG, respectively</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(F)</num>
               <text>A new paragraph (7) is added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert/>
                   <num>(7)</num>
                   <text>In its review of in-custody deaths described in paragraph (1)(E) of this subsection, the Board shall issue findings related to, and recommendations in response to, each death.</text>
                 </para>
@@ -781,7 +849,7 @@
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(d-3)|(2)|(C)">
             <num>(6)</num>
             <text>Subsection (d-3)(2)(C) is amended by striking the phrase "citizen complaints" and inserting the word "complaints" in its place.</text>
           </para>
@@ -790,6 +858,7 @@
             <text>A new subsection (d-4) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(d-3)"/>
                 <num>(d-4)</num>
                 <para>
                   <num>(1)</num>
@@ -831,15 +900,17 @@
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§5-1104" applicability-path="§301" display-template=""/>
         </para>
-        <para>
+        <para codify:path="§5-1106">
           <num>(e)</num>
           <text>Section 7 (D.C. Official Code § 5-1106) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(a)</num>
                 <para>
                   <num>(1)</num>
@@ -863,21 +934,22 @@
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>The District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-601.01 <em>et seq.</em>), shall apply to the Executive Director and other employees of the Office.</text>
+                  <text><code-cite doc="D.C. Code" path="1|6">The District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-601.01 <em>et seq.</em>)</code-cite>, shall apply to the Executive Director and other employees of the Office.</text>
                 </para>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(2)</num>
             <text>Subsection (c) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(c)</num>
                 <para>
                   <num>(1)</num>
-                  <text>Subject to approval of the Board, the Executive Director shall establish a pool of qualified persons who shall be assigned by the Executive Director to carry out the mediation and complaint determination functions ("pool") set forth in this act.</text>
+                  <text>Subject to approval of the Board, the Executive Director shall establish a pool of qualified persons who shall be assigned by the Executive Director to carry out the mediation and complaint determination functions ("pool") set forth in <code-cite doc="D.C. Code" path="5|11|I">this act</code-cite>.</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -907,30 +979,44 @@
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§5-1106" applicability-path="§301" display-template=""/>
         </para>
-        <para>
+        <para codify:path="§5-1107">
           <num>(f)</num>
           <text>Section 8 (D.C. Official Code § 5-1107) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended as follows:</text>
-            <para>
+            <para codify:path="text">
               <num>(A)</num>
               <text>The lead-in language is amended by striking the phrase "a citizen complaint" and inserting the phrase "a complaint" in its place.</text>
+              <codify:find-replace count="1">
+                <find>a citizen complaint</find>
+                <replace>a complaint</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(5)">
               <num>(B)</num>
               <text>Paragraph (5) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+              <codify:find-replace count="1">
+                <find>; or</find>
+                <replace>;</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(6)">
               <num>(C)</num>
               <text>Paragraph (6) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+              <codify:find-replace count="1">
+                <find>.</find>
+                <replace>; or</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(D)</num>
               <text>A new paragraph (7) is added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert/>
                   <num>(7)</num>
                   <text>Recklessly making false statements in applications for search warrants, arrest warrants, or in sworn testimony before a court of competent jurisdiction.</text>
                 </para>
@@ -938,34 +1024,48 @@
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(a-1)">
             <num>(2)</num>
             <text>Subsection (a-1) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(a-1)</num>
                 <text>If the MPD, DCHAPD, or OIG receives a complaint under subsection (a) of this section, the designated agency principal shall cause the complaint to be transmitted to the Office within 3 business days after receipt.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(3)</num>
             <text>Subsection (b) is amended by striking the phrase "to the Police Chief for further processing by the MPD or the District of Columbia Housing Authority Police Department ("DCHAPD"), as appropriate" and inserting the phrase "to the designated agency principal" in its place.</text>
+            <codify:find-replace count="1">
+              <find>to the Police Chief for further processing by the MPD or the District of Columbia Housing Authority Police Department ("HAPD"), as appropriate</find>
+              <replace>to the designated agency principal</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(b-1)">
             <num>(4)</num>
             <text>Subsection (b-1) is amended by striking the phrase "the MPD or the HAPD a citizen complaint received" and inserting the phrase "the MPD, DCHAPD, or OIG, a complaint received" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the MPD or the HAPD a citizen complaint received</find>
+              <replace>the MPD, DCHAPD, or OIG, a complaint received</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(5)</num>
             <text>Subsection (d) is amended by striking the phrase "within 90 days" and inserting the phrase "within 120 days" in its place.</text>
+            <codify:find-replace count="1">
+              <find>within 90 day</find>
+              <replace>within 120 days</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(e)">
             <num>(6)</num>
             <text>Subsection (e) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(e)</num>
                 <text>Each complaint shall be submitted to the Office in a format that the Office determines will provide it with sufficient information to begin an investigation and may be:</text>
                 <para>
@@ -980,16 +1080,24 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(g)">
             <num>(7)</num>
             <text>Subsection (g) is amended as follow:</text>
-            <para>
+            <para codify:path="text">
               <num>(A)</num>
               <text>The lead-in language is amended by striking the phrase "the complainant. Within" and inserting the phrase "the complainant, if known. Within" in its place.</text>
+              <codify:find-replace count="1">
+                <find>the complainant. Within</find>
+                <replace>the complainant, if known. Within</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(6)">
               <num>(B)</num>
               <text>The paragraph (6) is amended by striking the phrase "the MPD or the HAPD" and inserting the phrase "the MPD, DCHAPD, or OIG" in its place.</text>
+              <codify:find-replace count="1">
+                <find>the MPD or the HAPD</find>
+                <replace>the MPD, DCHAPD, or OIG</replace>
+              </codify:find-replace>
             </para>
           </para>
           <para>
@@ -997,6 +1105,7 @@
             <text>A new subsection (g-1) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(g)"/>
                 <num>(g-1)</num>
                 <para>
                   <num>(1)</num>
@@ -1026,11 +1135,12 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(h)">
             <num>(9)</num>
             <text>Subsection (h) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(h)</num>
                 <para>
                   <num>(1)</num>
@@ -1044,51 +1154,64 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(h-1)">
             <num>(10)</num>
             <text>Subsection (h-1) is amended by striking the phrase "The MPD and the HAPD shall" and inserting the phrase "The MPD, DCHAPD, and OIG shall" in its place.</text>
+            <codify:find-replace count="1">
+              <find>The MPD and the HAPD shall</find>
+              <replace>The MPD, DCHAPD, and OIG shall</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(h-2)">
             <num>(11)</num>
             <text>Subsection (h-2) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace/>
                   <num>(1)</num>
                   <text>The Office shall have the authority to audit complaints referred to the MPD, DCHAPD, or OIG for further action.</text>
                 </para>
               </include>
               <aftertext>.</aftertext>
             </para>
-            <para>
+            <para codify:path="(2)">
               <num>(B)</num>
               <text>Paragraph (2) is amended by striking the phrase "have timely and complete access to information" and inserting the phrase "have unfettered access to all information" in its place.</text>
+              <codify:find-replace count="1">
+                <find>have timely and complete access to information</find>
+                <replace>have unfettered access to all information</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(i)">
             <num>(12)</num>
             <text>Subsection (i) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(j)">
             <num>(13)</num>
             <text>Subsection (j) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(j)</num>
-                <text>This act shall also apply to the DCHAPD, OIG, and to any federal law enforcement agency that, pursuant to the Federal Law Enforcement Officer Cooperation Act of 1999, effective May 9, 2000 (D.C. Law 13-100; D.C. Official Code § 5-301 <em>et seq.</em>), has a cooperative agreement with MPD that requires coverage by the Office; provided, that the Chief of the respective law enforcement department or agency or the designated agency principal, where applicable, shall perform the duties of the MPD Chief of Police for the members of their respective departments or agencies.</text>
+                <text><code-cite doc="D.C. Code" path="5|11|I">This act</code-cite> shall also apply to the DCHAPD, OIG, and to any federal law enforcement agency that, pursuant to <code-cite doc="D.C. Code" path="3|5">the Federal Law Enforcement Officer Cooperation Act of 1999, effective May 9, 2000 (D.C. Law 13-100; D.C. Official Code § 5-301 <em>et seq.</em>)</code-cite>, has a cooperative agreement with MPD that requires coverage by the Office; provided, that the Chief of the respective law enforcement department or agency or the designated agency principal, where applicable, shall perform the duties of the MPD Chief of Police for the members of their respective departments or agencies.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§5-1107" applicability-path="§301" display-template=""/>
         </para>
-        <para>
+        <para codify:path="§5-1108">
           <num>(g)</num>
           <text>Section 9 (D.C. Official Code § 5-1108) is amended to read follows:</text>
           <include>
             <section>
-              <num>9</num>
+              <codify:replace/>
+              <num codify:value="5-1108">9</num>
               <heading proof="needed">Dismissal of complaint.</heading>
               <para>
                 <num>(a)</num>
@@ -1108,17 +1231,19 @@
               </para>
               <para>
                 <num>(b)</num>
-                <text>A complainant shall not be deemed to have refused to cooperate with the investigation solely because the complainant submitted a complaint anonymously as described in section 8(e)(2).</text>
+                <text>A complainant shall not be deemed to have refused to cooperate with the investigation solely because the complainant submitted a complaint anonymously as described in <code-cite doc="D.C. Code" path="§5-1107|(e)|(2)">section 8(e)(2)</code-cite>.</text>
               </para>
             </section>
           </include>
           <aftertext>.</aftertext>
+          <codify:not-funded-anno doc="D.C. Code" path="§5-1108" applicability-path="§301" display-template=""/>
         </para>
-        <para>
+        <para codify:path="§5-1109|(b)">
           <num>(h)</num>
           <text>Section 10(b) (D.C. Official Code § 5-1109(b)) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(b)</num>
               <text>The Executive Director shall give written notification of such referral to the:</text>
               <para>
@@ -1136,31 +1261,46 @@
             </para>
           </include>
           <aftertext>.</aftertext>
+          <codify:not-funded-anno doc="D.C. Code" path="§5-1109" applicability-path="§301" display-template=""/>
         </para>
-        <para>
+        <para codify:path="§5-1110">
           <num>(i)</num>
           <text>Section 11 (D.C. Official Code § 5-1110) is amended as follows:</text>
-          <para>
+          <para codify:path="(f)">
             <num>(1)</num>
             <text>Subsection (f) is amended by striking the phrase "the MPD as" and inserting the phrase "the MPD, DCHAPD, or OIG as" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the MPD as</find>
+              <replace>the MPD, DCHAPD, or OIG as</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(g)">
             <num>(2)</num>
             <text>Subsection (g) is amended by striking the phrase "Police Chief" both times it appears and inserting the phrase "designated agency principal" in its place.</text>
+            <codify:find-replace count="2">
+              <find>Police Chief</find>
+              <replace>designated agency principal</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(k)">
             <num>(3)</num>
             <text>Subsection (k) is amended by striking the phrase "Police Chief" both times it appears and inserting the phrase "designated agency principal" in its place.</text>
+            <codify:find-replace count="2">
+              <find>Police Chief</find>
+              <replace>designated agency principal</replace>
+            </codify:find-replace>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§5-1110" applicability-path="§301" display-template=""/>
         </para>
-        <para>
+        <para codify:path="§5-1111">
           <num>(j)</num>
           <text>Section 12 (D.C. Official Code § 5-1111) is amended as follows:</text>
-          <para>
+          <para codify:path="(c)">
             <num>(1)</num>
             <text>Subsection (c) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(c)</num>
                 <para>
                   <num>(1)</num>
@@ -1170,7 +1310,7 @@
                   </para>
                   <para>
                     <num>(B)</num>
-                    <text>Notwithstanding subparagraph (A) of this paragraph, the Executive Director shall not seek subpoenas against a complainant who submitted an application anonymously, as described in section 8(e)(2).</text>
+                    <text>Notwithstanding subparagraph (A) of this paragraph, the Executive Director shall not seek subpoenas against a complainant who submitted an application anonymously, as described in <code-cite doc="D.C. Code" path="§5-1107|(e)|(2)">section 8(e)(2)</code-cite>.</text>
                   </para>
                 </para>
                 <para>
@@ -1192,11 +1332,12 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(2)</num>
             <text>Subsection (d) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(d)</num>
                 <para>
                   <num>(1)</num>
@@ -1213,22 +1354,23 @@
                   <num>(2)</num>
                   <para>
                     <num>(A)</num>
-                    <text>An employee of the MPD, DCHAPD, or OIG shall not retaliate, directly or indirectly, against a person who files a complaint under this act.</text>
+                    <text>An employee of the MPD, DCHAPD, or OIG shall not retaliate, directly or indirectly, against a person who files a complaint under <code-cite doc="D.C. Code" path="5|11|I">this act</code-cite>.</text>
                   </para>
                   <para>
                     <num>(B)</num>
-                    <text>If a complaint of retaliation is sustained under this act, the subject police officer or employee shall be subject to appropriate discipline, including dismissal; provided, that such disciplinary action shall not be taken with respect to an employee's invocation of the Fifth Amendment privilege against self-incrimination.</text>
+                    <text>If a complaint of retaliation is sustained under <code-cite doc="D.C. Code" path="5|11|I">this act</code-cite>, the subject police officer or employee shall be subject to appropriate discipline, including dismissal; provided, that such disciplinary action shall not be taken with respect to an employee's invocation of the Fifth Amendment privilege against self-incrimination.</text>
                   </para>
                 </para>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(h)">
             <num>(3)</num>
             <text>Subsection (h) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(h)</num>
                 <para>
                   <num>(1)</num>
@@ -1240,17 +1382,18 @@
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>For the purposes of this act, these written findings of fact and determinations by the complaint examiner (collectively, "merits determination") may not be rejected unless they clearly misapprehend the record before the complaint examiner and are not supported by substantial, reliable, and probative evidence in that record.</text>
+                  <text>For the purposes of <code-cite doc="D.C. Code" path="5|11|I">this act</code-cite>, these written findings of fact and determinations by the complaint examiner (collectively, "merits determination") may not be rejected unless they clearly misapprehend the record before the complaint examiner and are not supported by substantial, reliable, and probative evidence in that record.</text>
                 </para>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(i)">
             <num>(4)</num>
             <text>Subsection (i) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(i)</num>
                 <para>
                   <num>(1)</num>
@@ -1279,23 +1422,29 @@
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§5-1111" applicability-path="§301" display-template=""/>
         </para>
-        <para>
+        <para codify:path="§5-1112">
           <num>(k)</num>
           <text>Section 13 (D.C. Official Code § 5-1112) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the phrase "the Police Chief shall" and inserting the phrase "the designated agency principal shall" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the Police Chief shall</find>
+              <replace>the designated agency principal shall</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(b)</num>
                 <para>
                   <num>(1)</num>
-                  <text>The review of the complaint file shall include a review of the personnel file of the subject officer or officers, including any record of prior misconduct by the subject police officer or officers and the Executive Director's recommendation for the discipline to be imposed on the subject police officer as described in section 12(i)(1)(A).</text>
+                  <text>The review of the complaint file shall include a review of the personnel file of the subject officer or officers, including any record of prior misconduct by the subject police officer or officers and the Executive Director's recommendation for the discipline to be imposed on the subject police officer as described in <code-cite doc="D.C. Code" path="§5-1111|(i)|(1)|(A)">section 12(i)(1)(A)</code-cite>.</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -1312,15 +1461,20 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(3)</num>
             <text>Subsection (c) is amended by striking the phrase "the Police Chief" and inserting the phrase "the designated agency principal" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the Police Chief</find>
+              <replace>the designated agency principal</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>Subsections (d) and (e) are amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace path="(d)"/>
                 <num>(d)</num>
                 <para>
                   <num>(1)</num>
@@ -1332,6 +1486,7 @@
                 </para>
               </para>
               <para>
+                <codify:replace path="(e)"/>
                 <num>(e)</num>
                 <para>
                   <num>(1)</num>
@@ -1353,16 +1508,24 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(f)">
             <num>(5)</num>
             <text>Subsection (f) is amended by striking the phrase "Police Chief" both times it appears and inserting the phrase "designated agency principal" in its place.</text>
+            <codify:find-replace count="2">
+              <find>Police Chief</find>
+              <replace>designated agency principal</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(g)">
             <num>(6)</num>
             <text>Subsection (g) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>The lead-in language is amended by striking the phrase "Police Chief" and inserting the phrase "designated agency principal" in its place.</text>
+              <codify:find-replace count="6">
+                <find>Police Chief</find>
+                <replace>designated agency principal</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
@@ -1373,18 +1536,31 @@
               <text>Paragraph (2) is amended by striking the phrase "Police Chief" wherever it appears and inserting the phrase "designated agency principal" in its place.</text>
             </para>
           </para>
-          <para>
+          <para codify:path="(h)">
             <num>(7)</num>
             <text>Subsection (h) is amended by striking the phrase "Police Chief" wherever it appears and inserting the phrase "designated agency principal" in its place.</text>
+            <codify:find-replace count="6">
+              <find>Police Chief</find>
+              <replace>designated agency principal</replace>
+            </codify:find-replace>
           </para>
+          <codify:not-funded-anno doc="D.C. Code" path="§5-1112" applicability-path="§301" display-template=""/>
         </para>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="5" after="3A" history="false">
+      <container>
+        <prefix>Chapter</prefix>
+        <num>3B-i</num>
+        <heading>Use of Force Review Board.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>D</num>
       <heading>USE OF FORCE REVIEW BOARD MEMBERSHIP EXPANSION</heading>
       <section>
+        <codify:insert doc="D.C. Code" path="5|3B-i" num-value="5-353.01"/>
         <num>106</num>
         <heading proof="needed">Use of Force Review Board; membership.</heading>
         <para>
@@ -1400,7 +1576,7 @@
           </para>
           <para>
             <num>(2)</num>
-            <text>Three civilian members appointed by the Mayor, pursuant to section 2(e) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1- 523.01(e)), with the following qualifications and no current or prior affiliation with law enforcement, including being employed by a law enforcement agency or law enforcement union:</text>
+            <text>Three civilian members appointed by the Mayor, pursuant to <code-cite doc="D.C. Code" path="§1-523.01|(e)">section 2(e) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1- 523.01(e))</code-cite>, with the following qualifications and no current or prior affiliation with law enforcement, including being employed by a law enforcement agency or law enforcement union:</text>
             <para>
               <num>(A)</num>
               <text>One member who has personally experienced the use of force by a law enforcement officer;</text>
@@ -1432,24 +1608,33 @@
           </para>
         </para>
       </section>
-      <section>
+      <section codify:doc="D.C. Code" codify:path="§1-523.01|(e)">
         <num>107</num>
         <text>Section 2(e) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(e)), is amended as follows:</text>
-        <para>
+        <para codify:path="[(38)]">
           <num>(a)</num>
           <text>Paragraph (38) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="[(39)]">
           <num>(b)</num>
           <text>Paragraph (39) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace position="last">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>A new paragraph (40) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(40)</num>
-              <text>Use of Force Review Board, established by section 106 of the Comprehensive Policing and Justice Reform Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-320).</text>
+              <text>Use of Force Review Board, established by <code-cite doc="D.C. Code" path="§5-363.01">section 106 of the Comprehensive Policing and Justice Reform Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-320)</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -1461,20 +1646,29 @@
       <num>E</num>
       <heading>ANTI-MASK LAW REPEAL</heading>
       <section>
-        <num>108</num>
+        <num>106</num>
         <text>The Anti-Intimidation and Defacing of Public or Private Property Criminal Penalty Act of 1982, effective March 10, 1983 (D.C. Law 4-203; D.C. Official Code § 22-3312 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§22-3312.03">
           <num>(a)</num>
           <text>Section 4 (D.C. Official Code § 22-3312.03) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="§22-3312.04|(b)">
           <num>(b)</num>
           <text>Section 5(b) (D.C. Official Code § 22-3312.04(b)) is amended by striking the phrase "or section 4 shall be" and inserting the phrase "shall be" in its place.</text>
+          <codify:find-replace count="1">
+            <find>or <cite path="§22-3312.03">§ 22-3312.03</cite> shall be</find>
+            <replace>shall be</replace>
+          </codify:find-replace>
         </para>
       </section>
-      <section>
-        <num>109</num>
-        <text>Section 23-581(a-3) of the District of Columbia Official Code is amended by striking the phrase "sections 22-3112.1, 22-3112.2, and 22-3112.3" and inserting the phrase "§§ 22-3312.01 and 22-3312.02" in its place.</text>
+      <section codify:path="§23-581|(a-3)">
+        <num>107</num>
+        <text>Section 23-581(a-3) of the District of Columbia Official Code is amended by striking the phrase "sections 22-3112.1, 22-3112.2, and 22-3112.3" and inserting the phrase "sections 22-3112.1 and 22-3112.2" in its place.</text>
+        <codify:find-replace count="1">
+          <find>sections 22-3312.01, 22-3312.02, and 22-3312.03</find>
+          <replace><span codify:value="§§ ">sections</span><cite doc="D.C. Code" path="§22-3312.01" codify:value="[22-3312.01]">[22-3312.01]</cite> and <cite doc="D.C. Code" path="§22-3312.02" codify:value="[22-3312.02]">[22-3312.02]</cite></replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -1486,6 +1680,7 @@
         <text>Subchapter II of Chapter 5 of Title 23 of the District of Columbia Official Code is amended by adding a new section 23-526 to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="23|5|II" after="§23-525"/>
             <prefix>§</prefix>
             <num>23-526</num>
             <heading proof="needed">Limitations on consent searches.</heading>
@@ -1584,52 +1779,68 @@
       <section>
         <num>111</num>
         <text>Title II of the Metropolitan Police Department Application, Appointment, and Training Requirements of 2000, effective October 4, 2000 (D.C. Law 13-160; D.C. Official Code § 5-107.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§5-107.02|(b)">
           <num>(a)</num>
           <text>Section 203(b) (D.C. Official Code § 5-107.02(b)) is amended as follows:</text>
-          <para>
+          <para codify:path="(2)">
             <num>(1)</num>
             <text>Paragraph (2) is amended by striking the phrase "biased-based policing" and inserting the phrase "biased-based policing, racism, and white supremacy" in its place.</text>
+            <codify:find-replace count="1">
+              <find>biased-based policing</find>
+              <replace>biased-based policing, racism, and white supremacy</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(2)</num>
             <text>Paragraph (3) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace/>
                 <num>(3)</num>
                 <text>Limiting the use of force and employing de-escalation tactics;</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(4)">
             <num>(3)</num>
             <text>Paragraph (4) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace/>
                 <num>(4)</num>
-                <text>Prohibited techniques, as that term is defined in section 3(6) of the Limitation on the Use of the Chokehold Act of 1985, effective January 25, 1986 (D.C. Law 6-77; D.C. Official Code § 5-125.02(6));</text>
+                <text>Prohibited techniques, as that term is defined in <code-cite doc="D.C. Code" path="§5-125.02|(6)">section 3(6) of the Limitation on the Use of the Chokehold Act of 1985, effective January 25, 1986 (D.C. Law 6-77; D.C. Official Code § 5-125.02(6))</code-cite>;</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(5)">
             <num>(4)</num>
             <text>Paragraph (5) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(6)">
             <num>(5)</num>
             <text>Paragraph (6) is amended by striking the period and inserting a semicolon in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(6)</num>
             <text>New paragraphs (7) and (8) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(7)</num>
-                <text>The constitutional requirements for conducting searches and seizures, including the use of protective pat-downs, and the limitations on the use of consent searches, as described in D.C. Official Code § 23-526; and</text>
+                <text>The constitutional requirements for conducting searches and seizures, including the use of protective pat-downs, and the limitations on the use of consent searches, as described in <code-cite doc="D.C. Code" path="§23-526">D.C. Official Code § 23-526</code-cite>; and</text>
               </para>
               <para>
+                <codify:insert/>
                 <num>(8)</num>
                 <text>The duty of a sworn officer to report, and the method for reporting, suspected misconduct or excessive use of force by a law enforcement officer that a sworn member observes or that comes to the sworn member's attention, as well as any governing District laws and regulations and Department written directives.</text>
               </para>
@@ -1637,51 +1848,66 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§5-107.03">
           <num>(b)</num>
           <text>Section 204 (D.C. Official Code § 5-107.03) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)">
             <num>(1)</num>
             <text>Subsection (a) is amended by striking the phrase "the District of Columbia Police" and inserting the phrase "the Police" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the District of Columbia Police</find>
+              <replace>the Police</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended as follows:</text>
-            <para>
+            <para codify:path="text">
               <num>(A)</num>
               <text>The lead-in language is amended by striking the phrase "11 persons" and inserting the phrase "15 persons" in its place.</text>
+              <codify:find-replace count="1">
+                <find>11 persons</find>
+                <replace>15 persons</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>A new paragraph (2A) is added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert after="(2)"/>
                   <num>(2A)</num>
                   <text>Executive Director of the Office of Police Complaints or the Executive Director's designee;</text>
                 </para>
               </include>
               <aftertext>.</aftertext>
             </para>
-            <para>
+            <para codify:path="(3)">
               <num>(C)</num>
               <text>Paragraph (3) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace/>
                   <num>(3)</num>
                   <text>The Attorney General for the District of Columbia or the Attorney General's designee;</text>
                 </para>
               </include>
               <aftertext>.</aftertext>
             </para>
-            <para>
+            <para codify:path="(8)">
               <num>(D)</num>
               <text>Paragraph (8) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+              <codify:find-replace position="last">
+                <find>.</find>
+                <replace>; and</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(9)">
               <num>(E)</num>
               <text>Paragraph (9) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace/>
                   <num>(9)</num>
                   <text>Five community representatives appointed by the Mayor, each with expertise in one of the following areas:</text>
                   <para>
@@ -1709,31 +1935,48 @@
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(i)">
             <num>(3)</num>
             <text>Subsection (i) is amended by striking the phrase "promptly after the appointment and qualification of its members" and inserting the phrase "by September 1, 2020" in its place.</text>
+            <codify:find-replace count="1">
+              <find>promptly after the appointment and qualification of its members</find>
+              <replace>by September 1, 2020</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§5-107.04|(a)">
           <num>(c)</num>
           <text>Section 205(a) (D.C. Official Code § 5-107.04(a)) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(1)</num>
             <text>Paragraph (1) is amended by striking the phrase "a citizen of the United States" and inserting the phrase "a citizen or national of, or person lawfully admitted for permanent residence in, the United States" in its place.</text>
+            <codify:find-replace count="1">
+              <find>a citizen of the United States</find>
+              <replace>a citizen or national of, or person lawfully admitted for permanent residence in, the United States</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(10)">
             <num>(2)</num>
             <text>Paragraph (10) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(11)">
             <num>(3)</num>
             <text>Paragraph (11) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>A new paragraph (12) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(12)</num>
                 <text>If the applicant has prior service with another law enforcement or public safety agency in the District or another jurisdiction, information on any alleged or sustained misconduct or discipline imposed by that law enforcement or public safety agency.</text>
               </para>
@@ -1743,11 +1986,11 @@
         </para>
       </section>
     </container>
-    <container>
+    <container codify:doc="D.C. Code">
       <prefix>SUBTITLE</prefix>
       <num>H</num>
       <heading>IDENTIFICATION OF MPD OFFICERS DURING FIRST AMENDMENT ASSEMBLIES AS LOCAL LAW ENFORCEMENT</heading>
-      <section>
+      <section codify:path="§5-331.09">
         <num>112</num>
         <text>Section 109 of the First Amendment Assemblies Act of 2004, effective April 13, 2005 (D.C. Law 15-352; D.C. Official Code § 5-331.09), is amended to read as follows:</text>
         <include>
@@ -1762,8 +2005,24 @@
               <num>(2)</num>
               <text>Ensure that all uniformed District law enforcement officers assigned to police First Amendment assemblies are equipped with the enhanced identification and may be identified even if wearing riot gear.</text>
             </para>
+            <codify:redesignate-para num-value="(a)"/>
+            <codify:insert>
+              <para>
+                <codify:insert path="(a)"/>
+                <num>(1)</num>
+                <text>Implement a method for enhancing the visibility to the public of the name and badge number of District law enforcement officers policing a First Amendment assembly by modifying the manner in which those officers' names and badge numbers are affixed to the officers' uniforms or helmets; and</text>
+              </para>
+            </codify:insert>
+            <codify:insert>
+              <para>
+                <codify:insert path="(a)"/>
+                <num>(2)</num>
+                <text>Ensure that all uniformed District law enforcement officers assigned to police First Amendment assemblies are equipped with the enhanced identification and may be identified even if wearing riot gear.</text>
+              </para>
+            </codify:insert>
           </para>
           <para>
+            <codify:insert/>
             <num>(b)</num>
             <text>During a First Amendment assembly, the uniforms and helmets of District law enforcement officers policing the assembly shall prominently identify the officers' affiliation with a District law enforcement agency.</text>
           </para>
@@ -1775,42 +2034,51 @@
       <prefix>SUBTITLE</prefix>
       <num>I</num>
       <heading>PRESERVING THE RIGHT TO JURY TRIAL</heading>
-      <section>
-        <num>113</num>
+      <section codify:path="§16-705|(b)|(1)">
+        <num>111</num>
         <text>Section 16-705(b)(1) of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="(A)">
           <num>(a)</num>
           <text>Subparagraph (A) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; or</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(B)">
           <num>(b)</num>
           <text>Subparagraph (B) is amended by striking the phrase "; and" and inserting the phrase "; or" in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>; or</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>A new subparagraph (C) is added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert/>
               <num>(C)</num>
               <para>
                 <num>(i)</num>
                 <text>The defendant is charged with an offense under:</text>
                 <para>
                   <num>(I)</num>
-                  <text>Section 806(a)(1) of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1322; D.C. Official Code § 22-404(a)(1));</text>
+                  <text><span codify:value="[Section "/><code-cite doc="D.C. Code" path="§22-404|(a)|(1)" codify:value="22-404(a)(1)">Section 806(a)(1) of An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1322; D.C. Official Code § 22-404(a)(1))</code-cite><span codify:value="]"/>;</text>
                 </para>
                 <para>
                   <num>(II)</num>
-                  <text>Section 432a of the Revised Statutes of the District of Columbia (D.C. Official Code § 22-405.01); or</text>
+                  <text><span codify:value="[Section "/><code-cite doc="D.C. Code" path="§22-405.01" codify:value="22-405.01">Section 432a of the Revised Statutes of the District of Columbia (D.C. Official Code § 22-405.01)</code-cite><span codify:value="]"/>; or</text>
                 </para>
                 <para>
                   <num>(III)</num>
-                  <text>Section 2 of An Act To confer concurrent jurisdiction on the police court of the District of Columbia in certain cases, approved July 16, 1912 (37 Stat. 193; D.C. Official Code § 22-407); and</text>
+                  <text><span codify:value="[Section "/><code-cite doc="D.C. Code" path="§22-407" codify:value="22-407">Section 2 of An Act To confer concurrent jurisdiction on the police court of the District of Columbia in certain cases, approved July 16, 1912 (37 Stat. 193; D.C. Official Code § 22-407)</code-cite><span codify:value="]"/>; and</text>
                 </para>
               </para>
               <para>
                 <num>(ii)</num>
-                <text>The person who is alleged to have been the victim of the offense is a law enforcement officer, as that term is defined in section 432(a) of the Revised Statutes of the District of Columbia (D.C. Official Code § 22-405(a)); and</text>
+                <text>The person who is alleged to have been the victim of the offense is a law enforcement officer, as that term is defined in <code-cite doc="D.C. Code" path="§22-405|(a)">section 432(a) of the Revised Statutes of the District of Columbia (D.C. Official Code § 22-405(a))</code-cite>; and</text>
               </para>
             </para>
           </include>
@@ -1825,6 +2093,7 @@
       <section>
         <num>114</num>
         <text>Section 400 of the Revised Statutes of the District of Columbia (D.C. Official Code § 5-115.03), is repealed.</text>
+        <codify:repeal doc="D.C. Code" path="§5-115.03"/>
       </section>
     </container>
     <container>
@@ -1836,6 +2105,7 @@
         <text>Section 202 of the Omnibus Police Reform Amendment Act of 2000, effective October 4, 2000 (D.C. Law 13-160; D.C. Official Code § 5-107.01), is amended by adding a new subsection (f) to read as follows:</text>
         <include>
           <para>
+            <codify:insert doc="D.C. Code" path="§5-107.01"/>
             <num>(f)</num>
             <text>An applicant shall be ineligible for appointment as a sworn member of the Metropolitan Police Department if the applicant:</text>
             <para>
@@ -1862,13 +2132,14 @@
       <section>
         <num>116</num>
         <text>The District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-601.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§1-608.01|(d)">
           <num>(a)</num>
           <text>Section 801(d) (D.C. Official Code 1-608.01(d)) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(d)</num>
-              <text>The Mayor may issue separate rules and regulations concerning the personnel system affecting members of the uniform services of the Fire and Emergency Medical Services Department ("FEMS") which may provide for a probationary period of at least one year. Other such separate rules and regulations may only be issued to carry out provisions of this act that accord such member of the uniform services of FEMS separate treatment under this act. The separate rules and regulations are not a bar to collective bargaining during the negotiation process between the Mayor and the recognized labor organizations for FEMS, but shall be within the parameters of section 708.</text>
+              <text>The Mayor may issue separate rules and regulations concerning the personnel system affecting members of the uniform services of the Fire and Emergency Medical Services Department ("FEMS") which may provide for a probationary period of at least one year. Other such separate rules and regulations may only be issued to carry out provisions of <code-cite doc="D.C. Code" path="1|6">this act</code-cite> that accord such member of the uniform services of FEMS separate treatment under <code-cite doc="D.C. Code" path="1|6">this act</code-cite>. The separate rules and regulations are not a bar to collective bargaining during the negotiation process between the Mayor and the recognized labor organizations for FEMS, but shall be within the parameters of <span codify:value="[]"/><code-cite doc="D.C. Code" path="§1-617.08">section 708</code-cite><span codify:value="]"/>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -1878,6 +2149,7 @@
           <text>Section 1708 (D.C. Official Code § 1-617.08) is amended by adding a new subsection (c) to read as follows:</text>
           <include>
             <para>
+              <codify:insert path="§1-617.08"/>
               <num>(c)</num>
               <para>
                 <num>(1)</num>
@@ -1897,18 +2169,20 @@
       <prefix>SUBTITLE</prefix>
       <num>M</num>
       <heading>OFFICER DISCIPLINE REFORMS</heading>
-      <section>
+      <section codify:path="§5-1031">
         <num>117</num>
         <text>Section 502 of the Omnibus Public Safety Agency Reform Amendment Act of 2004, effective September 30, 2004 (D.C. Law 15-194; D.C. Official Code § 5-1031), is amended as follows:</text>
-        <para>
+        <para codify:path="(a-1)">
           <num>(a)</num>
           <text>Subsection (a-1) is repealed.</text>
+          <codify:repeal/>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(b)</num>
           <text>Subsection (b) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(b)</num>
               <text>If the act or occurrence allegedly constituting cause is the subject of a criminal investigation by the Metropolitan Police Department or any law enforcement or prosecuting agency with jurisdiction within the United States, the Office of the United States Attorney for the District of Columbia, or the Office of the Attorney General, or is the subject of an investigation by the Office of the Inspector General or the Office of the District of Columbia Auditor, the 90-day period for commencing a corrective or adverse action under subsection (a) of this section shall be tolled until the conclusion of the investigation.</text>
             </para>
@@ -1920,6 +2194,7 @@
           <text>A new subsection (c) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(c)</num>
               <para>
                 <num>(1)</num>
@@ -1949,13 +2224,22 @@
       <section>
         <num>118</num>
         <text>Section 6-A1001.5 of Chapter 10 of Title 6 of the District of Columbia Municipal Regulations is amended by striking the phrase "reduce the penalty" and inserting the phrase "reduce or increase the penalty" in its place.</text>
+        <codify:marginalia display="DCMR"/>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="5" after="3A" history="false">
+      <container>
+        <prefix>Chapter</prefix>
+        <num>3B</num>
+        <heading>Use of Deadly Force.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>N</num>
       <heading>USE OF FORCE REFORMS</heading>
       <section>
+        <codify:insert doc="D.C. Code" path="5|3B" num-value="5-351.01"/>
         <num>119</num>
         <heading proof="needed">Use of deadly force.</heading>
         <para>
@@ -2040,11 +2324,19 @@
         </para>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="5" after="3B" history="false">
+      <container>
+        <prefix>Chapter</prefix>
+        <num>3C</num>
+        <heading>Limitation on military weaponry.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>O</num>
       <heading>RESTRICTIONS ON THE PURCHASE AND USE OF MILITARY WEAPONRY</heading>
       <section>
+        <codify:insert path="5|3C" num-value="5-361.01"/>
         <num>120</num>
         <heading proof="needed">Limitations on military weaponry acquired by District law enforcement agencies.</heading>
         <para>
@@ -2097,7 +2389,7 @@
         </para>
         <para>
           <num>(c)</num>
-          <text>Within 180 days after the effective date of the Comprehensive Policing and Justice Reform Second Emergency Amendment Act of 2020, effective July 22, 2020 (D.C. Act 23-336; 67 DCR 9148), District law enforcement agencies shall:</text>
+          <text>Within 180 days after <span codify:value="July 22, 2020">the effective date of the Comprehensive Policing and Justice Reform Second Emergency Amendment Act of 2020, effective July 22, 2020 (D.C. Act 23-336; 67 DCR 9148)</span>, District law enforcement agencies shall:</text>
           <para>
             <num>(1)</num>
             <text>Return or dispose of any property described in subsection (a) of this section that the agencies currently possess; and</text>
@@ -2116,18 +2408,27 @@
       <section>
         <num>121</num>
         <text>The First Amendment Assemblies Act of 2004, effective April 13, 2005 (D.C. Law 15-352; D.C. Official Code § 5-331.01 <em>et seq</em>.), is amended as follows:</text>
-        <para>
+        <para codify:path="§5-331.02">
           <num>(a)</num>
           <text>Section 102 (D.C. Official Code § 5-331.02) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Paragraphs (1) and (2) are redesignated as paragraphs (2) and (5), respectively.</text>
+            <codify:find-replace path="(2)|num" count="1">
+              <find>(2)</find>
+              <replace>(5)</replace>
+            </codify:find-replace>
+            <codify:find-replace path="(1)|num" count="1">
+              <find>(1)</find>
+              <replace>(2)</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>A new paragraph (1) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert before="(2)"/>
                 <num>(1)</num>
                 <text>"Chemical irritant" means any:</text>
                 <para>
@@ -2147,10 +2448,12 @@
             <text>New paragraphs (3) and (4) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(2)"/>
                 <num>(3)</num>
                 <text>"Less-lethal projectile" means any munition that can cause bodily injury or death through the transfer of kinetic energy and blunt force trauma, including rubber or foam-covered bullets and stun grenades.</text>
               </para>
               <para>
+                <codify:insert after="(3)"/>
                 <num>(4)</num>
                 <text>"Less-lethal weapons" means:</text>
                 <para>
@@ -2166,12 +2469,13 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§5-331.03">
           <num>(b)</num>
           <text>Section 103 (D.C. Official Code § 5-331.03) is amended to read as follows:</text>
           <include>
             <section>
-              <num>103</num>
+              <codify:replace/>
+              <num codify:value="5-331.03">103</num>
               <heading proof="needed">Policy on First Amendment assemblies.</heading>
               <para>
                 <num undesignated="true">(a)</num>
@@ -2189,7 +2493,7 @@
                   </para>
                   <para>
                     <num>(B)</num>
-                    <text>Has issued an order to disperse as described in section 107(e) and (e-1).</text>
+                    <text>Has issued an order to disperse as described in <code-cite doc="D.C. Code" path="§5-331.07|(e)">section 107(e)</code-cite> and <cite doc="D.C. Code" path="§5-331.07|(e-1)">(e-1)</cite>.</text>
                   </para>
                 </para>
               </para>
@@ -2197,22 +2501,31 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§5-331.07">
           <num>(c)</num>
           <text>Section 107 (D.C. Official Code § 5-331.07) is amended as follows:</text>
-          <para>
+          <para codify:path="(b)|(2)">
             <num>(1)</num>
             <text>Subsection (b)(2) is amended by striking the phrase "or property." and inserting the phrase "or property; provided, that there is individualized probable cause for arrest." in its place.</text>
+            <codify:find-replace count="1">
+              <find>or property.</find>
+              <replace>or property; provided, that there is individualized probable cause for arrest.</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(2)</num>
             <text>Subsection (c) is amended by striking the phrase "by dispersing, controlling, or arresting the persons engaging in such conduct" and inserting the phrase "by identifying and dispersing, controlling, or arresting the particular persons engaging in such conduct" in its place.</text>
+            <codify:find-replace count="1">
+              <find>by dispersing, controlling, or arresting the persons engaging in such conduct</find>
+              <replace>by identifying and dispersing, controlling, or arresting the particular persons engaging in such conduct</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(e)">
             <num>(3)</num>
             <text>Subsection (e) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(e)</num>
                 <text>If the MPD determines that a lawful First Amendment assembly, any other public assembly, riot, or part thereof, should be dispersed, the MPD shall:</text>
                 <para>
@@ -2244,6 +2557,7 @@
             <text>New subsections (e-1) and (e-2) are added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(e)"/>
                 <num>(e-1)</num>
                 <text>An order to disperse shall:</text>
                 <para>
@@ -2264,6 +2578,7 @@
                 </para>
               </para>
               <para>
+                <codify:insert after="(e-1)"/>
                 <num>(e-2)</num>
                 <text>When dispersing a First Amendment assembly, any other public assembly, riot, or part thereof, MPD shall, to the extent possible:</text>
                 <para>
@@ -2285,7 +2600,8 @@
           <text>Section 116 (D.C. Official Code § 5-331.16) is amended to read as follows:</text>
           <include>
             <section>
-              <num>116</num>
+              <codify:replace path="§5-331.16"/>
+              <num codify:value="5-331.16">116</num>
               <heading proof="needed">Use of riot gear, chemical irritants, or less-lethal projectiles; reporting requirements.</heading>
               <para>
                 <num>(a)</num>
@@ -2379,7 +2695,7 @@
                   <text>The totality of circumstances, which shall include whether:</text>
                   <para>
                     <num>(A)</num>
-                    <text>The law enforcement officer, or another law enforcement officer in close proximity, engaged in reasonable de-escalation measures prior to the deployment of less-lethal weapons or riot gear, including issuing an order to disperse and providing individuals a reasonable opportunity to disperse, as described in section 107(e) and (e-1);</text>
+                    <text>The law enforcement officer, or another law enforcement officer in close proximity, engaged in reasonable de-escalation measures prior to the deployment of less-lethal weapons or riot gear, including issuing an order to disperse and providing individuals a reasonable opportunity to disperse, as described in <code-cite doc="D.C. Code" path="§5-331.07|(e)">section 107(e)</code-cite> and <cite doc="D.C. Code" path="§5-331.07|(e-1)">(e-1)</cite>;</text>
                   </para>
                   <para>
                     <num>(B)</num>
@@ -2422,7 +2738,7 @@
                   </para>
                   <para>
                     <num>(F)</num>
-                    <text>Whether the deployment of officers in riot gear, or the deployment of less-lethal weapons or any other uses of force, met the requirements of this act.</text>
+                    <text>Whether the deployment of officers in riot gear, or the deployment of less-lethal weapons or any other uses of force, met the requirements of <code-cite doc="D.C. Code" path="5|3A">this act</code-cite>.</text>
                   </para>
                 </para>
                 <para>
@@ -2431,7 +2747,7 @@
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>If MPD cannot post a report in compliance with section 116(e)(2), MPD shall post an explanation of the delay within 10 business days.</text>
+                  <text>If MPD cannot post a report in compliance with <code-cite doc="D.C. Code" path="§5-331.16|(e)|(2)">section 116(e)(2)</code-cite> <span codify:value="[of this section]"></span>, MPD shall post an explanation of the delay within 10 business days.</text>
                 </para>
               </para>
               <para>
@@ -2448,13 +2764,22 @@
         <text>Section 901 of An Act relating to crime and criminal procedure in the District of Columbia, effective December 27, 1967 (81 Stat. 742; D.C. Official Code § 22-1322), is amended by adding a new section (e) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§22-1322"/>
             <num>(e)</num>
-            <text>A law enforcement officer's failure to comply with the requirements of section 107 of the First Amendment Assemblies Act of 2004, effective April 13, 2005 (D.C. Law 15-352; D.C. Official Code § 5-331.07), shall be a defense in prosecutions for violations of subsection (b) or (c) of this section.</text>
+            <text>A law enforcement officer's failure to comply with the requirements of <code-cite doc="D.C. Code" path="§5-331.07">section 107 of the First Amendment Assemblies Act of 2004, effective April 13, 2005 (D.C. Law 15-352; D.C. Official Code § 5-331.07),</code-cite> shall be a defense in prosecutions for violations of subsection (b) or (c) of this section.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </section>
+      <codify:insert doc="D.C. Code" path="5" after="3C" history="false">
+        <container>
+          <prefix>Chapter</prefix>
+          <num>3D</num>
+          <heading>Use of less-lethal weapons.</heading>
+        </container>
+      </codify:insert>
       <section>
+        <codify:insert path="5|3D" num-value="5-363.01"/>
         <num>123</num>
         <heading proof="needed">Limitations on less-lethal weapons acquired by District law enforcement agencies; reporting requirements.</heading>
         <para>
@@ -2490,7 +2815,7 @@
           </para>
           <para>
             <num>(5)</num>
-            <text>A description of the training those personnel have or will receive on how to use or deploy the less-lethal weapon, including how the training addresses the requirements of the First Amendment Assemblies Act of 2004, effective April 13, 2005 (D.C. Law 15-352; D.C. Official Code § 5-331.01 <em>et seq</em>.); and</text>
+            <text>A description of the training those personnel have or will receive on how to use or deploy the less-lethal weapon, including how the training addresses the requirements of <code-cite doc="D.C. Code" path="5|3A">the First Amendment Assemblies Act of 2004, effective April 13, 2005 (D.C. Law 15-352; D.C. Official Code § 5-331.01 <em>et seq</em>.)</code-cite>; and</text>
           </para>
           <para>
             <num>(6)</num>
@@ -2512,6 +2837,7 @@
         <text>Section 5 of the Office of Citizen Complaint Review Establishment Act of 1998, effective March 26, 1999 (D.C. Law 12-208; D.C. Official Code § 5-1104), is amended by adding a new subsection (d-5) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§5-1104" after="(d-4)"/>
             <num>(d-5)</num>
             <para>
               <num>(1)</num>
@@ -2607,23 +2933,31 @@
             </para>
             <para>
               <num>(4)</num>
-              <text>The Executive Director shall submit a report on the study to the Council no later than 12 months after the effective date of the Comprehensive Policing and Justice Reform Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-320).</text>
+              <text>The Executive Director shall submit a report on the study to the Council no later than 12 months after <span codify:value="April 21, 2023">the effective date of the Comprehensive Policing and Justice Reform Amendment Act of 2022, passed on 2nd reading on December 20, 2022 (Enrolled version of Bill 24-320)</span>.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="5|1" after="XII" history="false">
+      <container>
+        <prefix>Subchapter</prefix>
+        <num>XII-A</num>
+        <heading>Preventing White Supremacy in Policing.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>R</num>
       <heading>PREVENTING WHITE SUPREMACY IN POLICING.</heading>
       <section>
+        <codify:insert path="5|1|XII-A" num-value="5-123.31"/>
         <num>125</num>
         <heading proof="needed">Definitions.</heading>
         <para>
           <num undesignated="true">(a)</num>
-          <text>For the purposes of this subtitle, the term:</text>
+          <text>For the purposes of <code-cite doc="D.C. Code" path="5|1|XII-A">this subtitle</code-cite>, the term:</text>
           <para>
             <num>(1)</num>
             <text>"Hate group" means an organization or group of individuals whose goals, activities, and advocacy are primarily or substantially based on a shared antipathy, hatred, hostility, or violence towards people of one or more different races, ethnicities, religions, nationalities, genders, or sexual or gender identities.</text>
@@ -2641,8 +2975,10 @@
             <text>"White supremacy" means a hate group whose shared antipathy, hatred, hostility, or violence is based on the belief that white people are innately superior to other races.</text>
           </para>
         </para>
+        <codify:not-funded-anno doc="D.C. Code" path="§5-123.31" action="creation of" applicability-path="§301" display-template=""/>
       </section>
       <section>
+        <codify:insert path="5|1|XII-A" num-value="5-123.32"/>
         <num>126</num>
         <heading proof="needed">White supremacy in policing assessment and recommendations.</heading>
         <para>
@@ -2704,7 +3040,7 @@
           <num>(e)</num>
           <para>
             <num>(1)</num>
-            <text>ODCA shall submit a report describing the comprehensive assessment, relevant findings, and recommendations to the Mayor and Council no later than 18 months after the effective date of this act.</text>
+            <text>ODCA shall submit a report describing the comprehensive assessment, relevant findings, and recommendations to the Mayor and Council no later than 18 months after <span codify:value="April 21, 2023">the effective date of this act</span>.</text>
           </para>
           <para>
             <num>(2)</num>
@@ -2713,16 +3049,24 @@
         </para>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="5" after="3D" history="false">
+      <container>
+        <prefix>Chapter</prefix>
+        <num>3E</num>
+        <heading>Use of Vehicular Pursuits.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>S</num>
       <heading>LIMITATIONS ON THE USE OF VEHICULAR PURSUITS BY LAW ENFORCEMENT OFFICERS.</heading>
       <section>
+        <codify:insert path="5|3E" num-value="5-365.01"/>
         <num>127</num>
         <heading proof="needed">Definitions.</heading>
         <para>
           <num>(a)</num>
-          <text>For the purposes of this subtitle, the term:</text>
+          <text>For the purposes of <code-cite doc="D.C. Code" path="5|3E">this subtitle</code-cite>, the term:</text>
           <para>
             <num>(1)</num>
             <text>"Boxing in" means a practice or tactic in which law enforcement officers intentionally surround a suspect motor vehicle with pursuit vehicles and then reduce the traveling speed of the pursuit vehicles with the intent to stop or slow the suspect motor vehicle.</text>
@@ -2733,7 +3077,7 @@
           </para>
           <para>
             <num>(3)</num>
-            <text>"Crime of violence" shall have the same meaning as provided in D.C. Official Code § 23-1331(4).</text>
+            <text>"Crime of violence" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§23-1331|(4)">D.C. Official Code § 23-1331(4)</code-cite>.</text>
           </para>
           <para>
             <num>(4)</num>
@@ -2760,7 +3104,7 @@
           </para>
           <para>
             <num>(6)</num>
-            <text>"Law enforcement officer" shall have the same meaning as provided in D.C. Official Code § 23-501(2).</text>
+            <text>"Law enforcement officer" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§23-501|(2)">D.C. Official Code § 23-501(2)</code-cite>.</text>
           </para>
           <para>
             <num>(7)</num>
@@ -2805,6 +3149,7 @@
         </para>
       </section>
       <section>
+        <codify:insert path="5|3E" num-value="5-365.02"/>
         <num>128</num>
         <heading proof="needed">Law enforcement vehicular pursuit reform.</heading>
         <para>
@@ -2955,7 +3300,7 @@
       <section>
         <num>129</num>
         <text>The Attendance Accountability Amendment Act of 2013, effective September 19, 2013 (D.C. Law 20-17; D.C. Official Code § 38-236.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§38-236.01|(a)">
           <num>(a)</num>
           <text>Section 201 (D.C. Official Code § 38-236.01) is amended as follows:</text>
           <para>
@@ -2963,6 +3308,7 @@
             <text>A new paragraph (10A) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(10)"/>
                 <num>(10A)</num>
                 <text>"Law enforcement officer" means:</text>
                 <para>
@@ -3001,11 +3347,12 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(17)">
             <num>(2)</num>
             <text>Paragraph (17) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace/>
                 <num>(17)</num>
                 <text>"School-related arrest" means an arrest of a student that occurred, or was based on conduct that occurred, at a District of Columbia Public School or public charter school, on its grounds, within a school vehicle or other form of transportation, or at a school-sponsored activity.</text>
               </para>
@@ -3013,29 +3360,35 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§38-236.09|(a)|(2)">
           <num>(b)</num>
           <text>Section 209(a)(2) (D.C. Official Code § 38-236.09(a)(2)) is amended as follows:</text>
-          <para>
+          <para codify:path="(G)">
             <num>(1)</num>
             <text>Subparagraph (G) is amended by striking the phrase "arrest; and" and inserting the phrase "arrest and the reason for involving law enforcement officers;" in its place.</text>
+            <codify:find-replace count="1">
+              <find>arrest; and</find>
+              <replace>arrest and the reason for involving law enforcement officers;</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>A new subparagraph (G-i) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert after="(G)"/>
                 <num>(G-i)</num>
                 <text>The type and count of weapons or controlled substances recovered during a school-related arrest; and</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(H)">
             <num>(3)</num>
             <text>Subparagraph (H) is amended to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:replace/>
                 <num>(H)</num>
                 <text>A description of the conduct that led to or reasoning behind each suspension, involuntary dismissal, emergency removal, disciplinary unenrollment, voluntary withdrawal or transfer, referral to law enforcement, school-related arrest, recovery of weapons, recovery of controlled dangerous substances, and, for students with disabilities, change in placement; and</text>
               </para>
@@ -3044,29 +3397,42 @@
           </para>
         </para>
       </section>
-      <section>
+      <section codify:path="§5-113.01">
         <num>130</num>
         <text>Section 386 of the Revised Statutes of the District of Columbia (D.C. Official Code § 5-113.01), is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(a)</num>
           <text>Subsection (a) is amended as follows:</text>
-          <para>
+          <para codify:path="(4B)|(K)">
             <num>(1)</num>
             <text>Paragraph (4B)(K) is amended by striking the period and inserting a semicolon in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(4C)|(G)">
             <num>(2)</num>
             <text>Paragraph (4C)(G) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(4D)">
             <num>(3)</num>
             <text>Paragraph (4D) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>A new paragraph (4E) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(4D)"/>
                 <num>(4E)</num>
                 <text>The following information, disaggregated by school, except in cases where disaggregation could reveal a student's identity:</text>
                 <para>
@@ -3079,7 +3445,7 @@
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>The number of school-related arrests, as that term is defined in section 201(17) of the Attendance Accountability Amendment Act of 2013, effective August 25, 2018 (D.C. Law 22-157; D.C. Official Code § 38-236.01(17)), involving an officer;</text>
+                  <text>The number of school-related arrests, as that term is defined in <code-cite doc="D.C. Code" path="§38-236.01|(17)">section 201(17) of the Attendance Accountability Amendment Act of 2013, effective August 25, 2018 (D.C. Law 22-157; D.C. Official Code § 38-236.01(17))</code-cite>, involving an officer;</text>
                 </para>
                 <para>
                   <num>(D)</num>
@@ -3111,6 +3477,7 @@
           <text>Subsection (c) is amended by adding a new paragraph (1A) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert path="(a)" after="(1)"/>
               <num>(1A)</num>
               <text>Biannually, aggregated data collected in accordance with subsection (a)(4E) of this section;</text>
             </para>
@@ -3128,6 +3495,7 @@
         <text>Section 4(b) of the Drug Paraphernalia Act of 1982, effective September 17, 1982 (D.C. Law 4-149; D.C. Official Code § 48-1103(b)), is amended by adding a new paragraph (1B) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert path="§48-1103|(b)" after="(1A)"/>
             <num>(1B)</num>
             <text>Notwithstanding paragraph (1) of this subsection, it shall not be unlawful for District government employees, contractors, and grantees, acting within the scope of their employment, contract, or grant, to deliver, or possess with intent to deliver, drug paraphernalia for the personal use of a controlled substance.</text>
           </para>
@@ -3139,25 +3507,34 @@
       <prefix>SUBTITLE</prefix>
       <num>V</num>
       <heading>METROPOLITAN POLICE DEPARTMENT OVERTIME SPENDING TRANSPARENCY.</heading>
-      <section>
+      <section codify:path="§5-113.01">
         <num>132</num>
         <text>Section 386 of the Revised Statutes of the District of Columbia (D.C. Official Code § 5-113.01), is amended as follows:</text>
-        <para>
+        <para codify:path="(c)|(1)">
           <num>(a)</num>
           <text>Subsection (c)(1) is amended as follows:</text>
-          <para>
+          <para codify:path="(A)">
             <num>(1)</num>
             <text>Subparagraph (A) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(B)|(ii)">
             <num>(2)</num>
             <text>Subparagraph (B)(ii) is amended by striking the semicolon and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace count="1">
+              <find>;</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>A new subparagraph (C) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert/>
                 <num>(C)</num>
                 <text>Copies of the overtime pay spending reports submitted to the Council as described in subsection (d) of this section.</text>
               </para>
@@ -3170,6 +3547,7 @@
           <text>A new subsection (d) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert/>
               <num>(d)</num>
               <text>MPD shall provide a written report every 2 pay periods on MPD's overtime pay spending to the Council that describes the amount spent year-to-date on overtime pay and the staffing plan and conditions justifying the overtime pay.</text>
             </para>
@@ -3182,14 +3560,15 @@
       <prefix>SUBTITLE</prefix>
       <num>W</num>
       <heading>METROPOLITAN POLICE DEPARTMENT CADET PROGRAM EXPANSION.</heading>
-      <section>
+      <section codify:path="§5-109.01">
         <num>133</num>
         <text>Section 2 of the Police Officer and Firefighter Cadet Programs Funding Authorization and Human Rights Act of 1977 Amendment Act of 1982, effective March 9, 1983 (D.C. Law 4-172; D.C. Official Code § 5-109.01), is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(a)</num>
           <text>Subsection (a) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
@@ -3219,9 +3598,13 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(b)</num>
           <text>Subsection (b) is amended by striking the phrase "the Metropolitan Police Department" and inserting the acronym "MPD" in its place.</text>
+          <codify:find-replace count="1">
+            <find>the Metropolitan Police Department</find>
+            <replace>MPD</replace>
+          </codify:find-replace>
         </para>
       </section>
     </container>
@@ -3234,10 +3617,11 @@
         <text>Section 204 of the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-534), is amended by adding new subsections (d-1) and (d-2) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§2-534" after="(d)"/>
             <num>(d-1)</num>
             <para>
               <num>(1)</num>
-              <text>Notwithstanding any provision of this act, a request under this act for disciplinary records shall not be categorically denied or redacted on the basis that it constitutes an unwarranted invasion of a personal privacy for officers within the Metropolitan Police Department ("MPD"), the District of Columbia Housing Authority Police Department ("HAPD"), or the Office of the Inspector General ("OIG"), except as described in paragraph (3) of this subsection.</text>
+              <text>Notwithstanding any provision of <code-cite doc="D.C. Code" path="2|5">this act</code-cite>, a request under <code-cite doc="D.C. Code" path="2|5">this act</code-cite> for disciplinary records shall not be categorically denied or redacted on the basis that it constitutes an unwarranted invasion of a personal privacy for officers within the Metropolitan Police Department ("MPD"), the District of Columbia Housing Authority Police Department ("HAPD"), or the Office of the Inspector General ("OIG"), except as described in paragraph (3) of this subsection.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -3309,22 +3693,25 @@
             </para>
           </para>
           <para>
+            <codify:insert path="§2-534" after="(d-1)"/>
             <num>(d-2)</num>
             <text>Notwithstanding any other provision of law, agencies shall not categorically treat law enforcement disciplinary records as falling within any exemption listed in this section.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§2-534" applicability-path="§301" display-template=""/>
       </section>
       <section>
         <num>135</num>
         <text>The Office of Citizen Complaint Review Establishment Act of 1998, effective March 26, 1999 (D.C. Law 12-208; D.C. Official Code § 5-1101 <em>et seq</em>.), is amended by adding new sections 17 and 18 to read as follows:</text>
         <include>
           <section>
+            <codify:insert doc="D.C. Code" path="5|11|I" num-value="5-1116" history-prefix="as added"/>
             <num>17</num>
             <heading proof="needed">Officer disciplinary records database.</heading>
             <para>
               <num>(a)</num>
-              <text>Notwithstanding section 3105 of the District of Columbia Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-631.05), by December 31, 2024, the Office shall maintain a publicly accessible database that contains the following information related to sustained allegations of misconduct pertaining to an officer's commission of a crime, the officer's interactions with members of the public, or the officer's integrity in criminal investigations, as determined by the Office, MPD, DCHAPD, or  OIG for incidents that occurred on or after the effective date of the Comprehensive Policing and Justice Reform Amendment Act of 2022, passed on 2nd reading on December 20, 202 (Enrolled version of Bill 24-320):</text>
+              <text>Notwithstanding <code-cite doc="D.C. Code" path="§1-631.05">section 3105 of the District of Columbia Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-631.05)</code-cite>, by December 31, 2024, the Office shall maintain a publicly accessible database that contains the following information related to sustained allegations of misconduct pertaining to an officer's commission of a crime, the officer's interactions with members of the public, or the officer's integrity in criminal investigations, as determined by the Office, MPD, DCHAPD, or  OIG for incidents that occurred on or after <span codify:value="April 21, 2023">the effective date of the Comprehensive Policing and Justice Reform Amendment Act of 2022, passed on 2nd reading on December 20, 202 (Enrolled version of Bill 24-320)</span>:</text>
               <para>
                 <num>(1)</num>
                 <text>The name, badge number, rank, length of service, and current duty status of an officer against whom an allegation of misconduct has been sustained;</text>
@@ -3358,11 +3745,11 @@
                 </para>
                 <para>
                   <num>(D)</num>
-                  <text>A complaint submitted to the Office pursuant to section 8(a);</text>
+                  <text>A complaint submitted to the Office pursuant to <code-cite doc="D.C. Code" path="§5-1107|(a)">section 8(a)</code-cite>;</text>
                 </para>
                 <para>
                   <num>(E)</num>
-                  <text>The Executive Director as described in section 8(g-1); or</text>
+                  <text>The Executive Director as described in section <code-cite doc="D.C. Code" path="§5-1107|(g-1)">8(g-1)</code-cite>; or</text>
                 </para>
                 <para>
                   <num>(F)</num>
@@ -3379,7 +3766,7 @@
               </para>
               <para>
                 <num>(6)</num>
-                <text>If applicable, the discipline recommended by the Office, as described in section 12(i)(1)(A); and</text>
+                <text>If applicable, the discipline recommended by the Office, as described in <code-cite doc="D.C. Code" path="§5-1111|(i)|(1)|(A)">section 12(i)(1)(A)</code-cite>; and</text>
               </para>
               <para>
                 <num>(7)</num>
@@ -3394,13 +3781,15 @@
               <num>(c)</num>
               <text>MPD shall maintain records necessary to update the database as needed and furnish that information to the Office as requested.</text>
             </para>
+              <codify:not-funded-anno doc="D.C. Code" path="§5-1116" action="creation of" applicability-path="§301" display-template=""/>
           </section>
           <section>
+            <codify:insert doc="D.C. Code" path="5|11|I" num-value="5-1117" history-prefix="as added"/>
             <num>18</num>
             <heading proof="needed">Advisory group on public disclosure of disciplinary records.</heading>
             <para>
               <num>(a)</num>
-              <text>The Office shall establish and consult with an advisory group to provide recommendations regarding the public disclosure of disciplinary records through the database described in section 17 or available under the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq</em>.), on:</text>
+              <text>The Office shall establish and consult with an advisory group to provide recommendations regarding the public disclosure of disciplinary records through the database described in <code-cite doc="D.C. Code" path="§5-1116">section 17</code-cite> or available under <code-cite doc="D.C. Code" path="2|5|II">the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq</em>.)</code-cite>, on:</text>
               <para>
                 <num>(1)</num>
                 <text>Records retention policies for District law enforcement agencies;</text>
@@ -3415,11 +3804,11 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>Methods to improve the timeliness of responses to requests for records under the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>);</text>
+                <text>Methods to improve the timeliness of responses to requests for records under <code-cite doc="D.C. Code" path="2|5|II">the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>)</code-cite>;</text>
               </para>
               <para>
                 <num>(5)</num>
-                <text>Standards for determining whether a record is exempt from disclosure under the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>);</text>
+                <text>Standards for determining whether a record is exempt from disclosure under <code-cite doc="D.C. Code" path="2|5|II">the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>)</code-cite>;</text>
               </para>
               <para>
                 <num>(6)</num>
@@ -3427,7 +3816,7 @@
               </para>
               <para>
                 <num>(7)</num>
-                <text>Standards for determining whether documents may be furnished without charge or at a reduced charge as described in section 202(b) of the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-532(b));</text>
+                <text>Standards for determining whether documents may be furnished without charge or at a reduced charge as described in <code-cite doc="D.C. Code" path="§2-532|(b)">section 202(b) of the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-532(b))</code-cite>;</text>
               </para>
               <para>
                 <num>(8)</num>
@@ -3435,7 +3824,7 @@
               </para>
               <para>
                 <num>(9)</num>
-                <text>Whether a need exists to modify the provisions related to the contents of the disciplinary database described in section 17 or the disciplinary records available under the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq</em>.).</text>
+                <text>Whether a need exists to modify the provisions related to the contents of the disciplinary database described in <code-cite doc="D.C. Code" path="§5-1116">section 17</code-cite> or the disciplinary records available under <code-cite doc="D.C. Code" path="2|5|II">the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq</em>.)</code-cite>.</text>
               </para>
             </para>
             <para>
@@ -3494,9 +3883,11 @@
                 </para>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§5-1117" action="creation of" applicability-path="§301" display-template=""/>
           </section>
         </include>
         <aftertext>.</aftertext>
+
       </section>
     </container>
     <container>
@@ -3504,6 +3895,7 @@
       <num>Y</num>
       <heading>LIMITING APPLICATION OF DUNCAN ORDINANCE AND OTHER LIMITATIONS ON DATA-SHARING.</heading>
       <section>
+        <codify:marginalia display="DCMR"/>
         <num>136</num>
         <text>Section 1004 of Title 1 of the District of Columbia Municipal Regulations (1 DCMR § 1004), is amended by adding a new subsection 1004.10 to read as follows:</text>
         <include>
@@ -3536,6 +3928,7 @@
         <text>The Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010, effective May 27, 2010 (D.C. Law 18-160; D.C. Official Code § 1-301.81 <em>et seq.</em>), is amended by adding a new section 122 to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="1|3|I|D-i" num-value="1-301.91"/>
             <num>122</num>
             <heading proof="needed">Publication of arrest data.</heading>
             <para>
@@ -3560,6 +3953,7 @@
         <text>The District of Columbia Auditor Subpoena and Oath Authority Act of 2004, effective April 22, 2004 (D.C. Law 15-146; D.C. Official Code § 1-301.171 <em>et seq</em>.), is amended by adding new sections 4b and 4c to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="1|3|" num-value="1-301.175"/>
             <num>4b</num>
             <heading proof="needed">Deputy Auditor for Public Safety.</heading>
             <para>
@@ -3576,6 +3970,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="1|3|" num-value="1-301.176"/>
             <num>4c</num>
             <heading proof="needed">Duties of the Deputy Auditor for Public Safety.</heading>
             <para>
@@ -3610,6 +4005,7 @@
                 </para>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§1-301.176" action="creation of" applicability-path="§301" display-template=""/>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -3617,6 +4013,11 @@
       <section>
         <num>139</num>
         <text>Section 903(a)(4) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-609.03(a)(4)), is amended by striking the phrase "than 4 persons" and inserting the phrase "than 5 persons" in its place.</text>
+        <codify:find-replace path="§1-609.03|(a)" count="1">
+          <find>than 4 persons</find>
+          <replace>than 5 persons</replace>
+        </codify:find-replace>
+        <codify:not-funded-anno doc="D.C. Code" path="§1-609.03" applicability-path="§301" display-template=""/>
       </section>
     </container>
   </container>
@@ -3625,6 +4026,7 @@
     <num>II</num>
     <heading>CONFORMING AMENDMENT.</heading>
     <section>
+      <codify:marginalia display="Not effective as law"/>
       <num>201</num>
       <text>The amendatory § 22A-101(75) within section 101 of the Revised Criminal Code Act, passed on 2nd reading on November 15, 2022 (Enrolled version of Bill 24-416), is amended as follows:</text>
       <para>
@@ -3660,6 +4062,16 @@
         <para>
           <num>(1)</num>
           <text>Sections 105, 125, 134, and 135, amendatory section 4c in section 138, and section 139 shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+           <codify:applicability doc="D.C. Law 24-345" path="§105" date="notfunded" history="false" display-template=""/>
+           <codify:applicability doc="D.C. Law 24-345" path="§125" date="notfunded" history="false" display-template=""/>
+           <codify:applicability doc="D.C. Law 24-345" path="§134" date="notfunded" history="false" display-template=""/>
+           <codify:applicability doc="D.C. Law 24-345" path="§135" date="notfunded" history="false" display-template=""/>
+           <codify:applicability doc="D.C. Law 24-345" path="§139" date="notfunded" history="false" display-template=""/>
+           <codify:repeal doc="D.C. Code" path="§1-301.176"/>
+      <codify:find-replace doc="D.C. Code" path="§1-301.176" count="2">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
         </para>
         <para>
           <num>(2)</num>
