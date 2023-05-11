@@ -113,7 +113,7 @@
           <text>New paragraphs (3), (4), and (5) are added to read as follows:</text>
           <include lvl="1">
             <para>
-              <!-- <codify:insert/> -->
+              <codify:insert/>
               <num>(3)</num>
               <text>Petition sheets circulated in support of a candidate shall be filed with the Board in hard copy but may be electronically provided by the:</text>
               <para>
@@ -130,12 +130,12 @@
               </para>
             </para>
             <para>
-              <!-- <codify:insert/> -->
+              <codify:insert/>
               <num>(4)</num>
               <text>No signature on a petition sheet shall be invalidated because the signer was also the circulator of the same petition sheet on which the signature appears.</text>
             </para>
             <para>
-              <!-- <codify:insert/> -->
+              <codify:insert/>
               <num>(5)</num>
               <para>
                 <num>(A)</num>
@@ -295,6 +295,7 @@
       <text>Section 13(c) (D.C. Official Code § 1-309.10(c)) is amended by adding a new paragraph (5) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert path="§1-309.10|(c)"/>
           <num>(5)</num>
           <text>The Department of Corrections shall employ a staff liaison for any Commissioner in its care and custody who represents the single-member district containing the Central Detention Facility and Correctional Treatment Facility. Such liaison shall assist the Commissioner in carrying out the Commissioner's duties, including pursuant to this section. The Commissioner shall be entitled to technology and space necessary to access Commission meetings and perform the Commissioner's duties.</text>
         </para>
@@ -307,17 +308,17 @@
       <para codify:path="(1A)">
         <num>(1)</num>
         <text>Paragraph (1A) is amended by striking the phrase "A Commissioner" and inserting the phrase "Except as provided in paragraph (1B) of this subsection, a Commissioner" in its place.</text>
-        <!-- <codify:find-replace count="1">
+        <codify:find-replace count="1">
           <find>A Commissioner</find>
           <replace>Except as provided in paragraph (1B) of this subsection, a Commissioner</replace>
-        </codify:find-replace>  working-->
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (1B) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <!-- <codify:insert after="(1A)"/> -->
+            <codify:insert after="(1A)"/>
             <num>(1B)</num>
             <text>If the Commission contains the Central Detention Facility and Correctional Treatment Facility:</text>
             <para>
@@ -476,7 +477,7 @@
         <para codify:path="(9A)|num">
           <num>(D)</num>
           <text>Paragraph (9B) is redesignated as paragraph (9A).</text>
-          <!-- <codify:find-replace count="1">
+          <!--<codify:find-replace count="1">
             <find>(9A)</find>
             <replace>(9B)</replace>
           </codify:find-replace> not necessary-->
@@ -1824,6 +1825,14 @@
     <para>
       <num>(a)</num>
       <text>Section 2(d) and the amendatory section 5(10A), (10E), and (21) within section 3(c)(1)(G), (H), and (N) shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 24-342" path="§2|(d)" date="notfunded" history="false" display-template=""/>
+      <codify:repeal doc="D.C. Code" path="§1-1001.05|(a)|(10E)"/>
+      <codify:find-replace doc="D.C. Code" path="§1-1001.05|(a)|(10E)" count="1">
+        <find>Repeal</find>
+        <replace>Not funded</replace>
+      </codify:find-replace>
+      <codify:applicability doc="D.C. Law 24-342" path="§3|(c)|(1)|(G)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 24-342" path="§3|(c)|(1)|(H)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
