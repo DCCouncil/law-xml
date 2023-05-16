@@ -179,7 +179,7 @@
           </para>
           <para>
             <num>(2)</num>
-            <text>To any claims pending as of the effective date of the Anti-SLAPP Emergency Amendment Act of 2021, effective November 8, 2021 (D.C. Act 24-208; 68 DCR 12193) <span codify:value="[November 8, 2021]"/>.</text>
+            <text>To any claims pending as of <span codify:value="[November 8. 2021]">the effective date of the Anti-SLAPP Emergency Amendment Act of 2021, effective November 8, 2021 (D.C. Act 24-208; 68 DCR 12193)</span>.</text>
           </para>
         </para>
       </section>
@@ -1044,7 +1044,11 @@
     <para codify:path="§24-221.02|(b)">
       <num>(c)</num>
       <text>Section 4(b) (D.C. Official Code § 24-221.02(b)) is amended by striking the word "inmate" wherever it appears and inserting the word "person" in its place.</text>
-      <codify:find-replace count="3">
+      <codify:find-replace count="1">
+        <find>An inmate</find>
+        <replace>[A] person</replace>
+      </codify:find-replace>
+      <codify:find-replace count="2">
         <find>inmate</find>
         <replace>person</replace>
       </codify:find-replace>
@@ -1117,7 +1121,7 @@
       <text>Section 2 (D.C. Official Code § 24-251.01) is amended to read as follows:</text>
       <include>
         <section>
-          <codify:repeal path="§24-251.01"/>
+          <codify:replace path="§24-251.01"/>
           <num codify:value="24-251.01">2</num>
           <heading proof="needed">Definitions.</heading>
           <para>
@@ -1280,10 +1284,10 @@
         <replace>the resident's earliest</replace>
       </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§24-251.06">
       <num>(f)</num>
       <text>Section 7 (D.C. Official Code § 24-251.06) is amended by striking the phrase "the Director, or his designee" and inserting the phrase "the Director" in its place.</text>
-      <codify:find-replace count="2">
+      <codify:find-replace count="1">
         <find>the Director, or his designee</find>
         <replace>the Director</replace>
       </codify:find-replace>
@@ -1575,9 +1579,13 @@
     <para codify:path="§24-283">
       <num>(d)</num>
       <text>Section 3004 (D.C. Official Code § 24-283) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "Inmate Welfare" and inserting the phrase "Resident Welfare" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Inmate Welfare</find>
+          <replace>Resident Welfare</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
@@ -1591,9 +1599,13 @@
     <para codify:path="§24-284">
       <num>(e)</num>
       <text>Section 3005 (D.C. Official Code § 24-284) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "Inmate Welfare" and inserting the phrase "Resident Welfare" in its place.</text>
+         <codify:find-replace count="1">
+          <find>Inmate Welfare</find>
+          <replace>Resident Welfare</replace>
+        </codify:find-replace>
       </para>
       <para codify:path="(a)">
         <num>(2)</num>
@@ -1654,7 +1666,7 @@
     <text>An Act To establish a Board of Indeterminate Sentence and Parole for the District of Columbia and to determine its functions, and for other purposes, approved July 15, 1932 (47 Stat. 696; D.C. Official Code § 24-403 <em>et seq</em>.), is amended by adding a new section 3a-2 to read as follows:</text>
     <include>
       <section>
-        <codify:insert doc="D.C. Code" path="24|4|I" after="24-403.01a" num-value="24-403.01b"/>
+        <codify:insert doc="D.C. Code" path="24|4|I" after="24-403.01a" num-value="24-403.01b" history-prefix="as added"/>
         <num>3a-2</num>
         <heading proof="needed">First Step Act parity in earned time credits.</heading>
         <para>
@@ -1677,6 +1689,7 @@
           <num>(c)</num>
           <text>This section shall apply as of December 21, 2018.</text>
         </para>
+        <annotation type="History" doc="Stat. 72-1-ch492" path="§3a-2">July 15, 1932, 47 Stat. 697, ch. 492, § 3a-2</annotation>
       </section>
     </include>
     <aftertext>.</aftertext>
@@ -1819,12 +1832,13 @@
     </para>
   </section>
   <section>
+  <codify:marginalia display="Waiting for section 201 of D.C. Law 24-341 to be funded."/>
     <num>25</num>
     <text>Section 201(a)(2) of the Expanding Supports for Crime Victims Amendment Act of 2022, enacted on November 21, 2022 (D.C. Act 24-657; 69 DCR 14698), is amended by striking the phrase "appointed by the Mayor" and inserting the phrase "appointed by the Mayor with the advice and consent of the Council, pursuant to section 2(a) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(a))," in its place.</text>
-    <codify:find-replace doc="D.C. Code" path="§4-581.01|(a)|(2)" count="1">
+    <!-- <codify:find-replace doc="D.C. Code" path="§4-581.01|(a)|(2)" count="1">
       <find>appointed by the Mayor</find>
       <replace>appointed by the Mayor with the advice and consent of the Council, pursuant to <code-cite doc="D.C. Code" path="§1-523.01|(a)">section 2(a) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(a))</code-cite>,</replace>
-    </codify:find-replace>
+    </codify:find-replace> waiting for section 201 of D.C. Law 24-341 to be funded.-->
   </section>
   <section>
     <num>26</num>
