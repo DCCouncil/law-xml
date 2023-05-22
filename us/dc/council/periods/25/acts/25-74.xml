@@ -41,6 +41,7 @@
       <text>A new subsection (a-1) is added to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(a)"/>
           <num>(a-1)</num>
           <text>Agencies are authorized to provide personally identifying information to the Criminal Justice Coordinating Council to aid in the development of reports pursuant to this section.</text>
         </para>
@@ -52,6 +53,7 @@
       <text>A new subsection (d) is added to read as follows:</text>
       <include>
         <para>
+          <codify:insert/>
           <num>(d)</num>
           <para>
             <num>(1)</num>
@@ -117,26 +119,68 @@
       </include>
       <aftertext>.</aftertext>
     </para>
+     <codify:emergency doc="D.C. Code" path="§22-4234"/>
+       <codify:insert doc="D.C. Code" path="§22-4234" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on July 23, 2023. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§22-4234(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
   </section>
   <section>
     <num>3</num>
     <text>Section 102(a)(5) of the Data-Sharing and Information Coordination Amendment Act of 2010, effective December 4, 2010 (D.C. Law 18-273; D.C. Official Code § 7-242(a)(5)), is amended by striking the phrase "report required by section 1505(b-3) of the Criminal Justice Coordinating Council for the District of Columbia Establishment Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 22-4234(b-3)" and inserting the phrase "reports required by section 1505(b-3) and (d) of the Criminal Justice Coordinating Council for the District of Columbia Establishment Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 22-4234(b-3) and (d))" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§7-242|(a)|(5)" count="1">
+      <find>report required by <code-cite doc="D.C. Code" path="§22-4232|(b-3)">section 1505(b-3) of the Criminal Justice Coordinating Council for the District of Columbia Establishment Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 22-4234(b-3))</code-cite></find>
+      <replace>reports required by <code-cite doc="D.C. Code" path="§22-4234|(b-3)">section 1505(b-3)</code-cite> and <cite doc="D.C. Code" path="§22-4234|(d)">(d)</cite></replace>
+    </codify:find-replace>
+     <codify:emergency doc="D.C. Code" path="§7-242"/>
+       <codify:insert doc="D.C. Code" path="§7-242" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on July 23, 2023. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§7-242(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
   </section>
   <section>
     <num>4</num>
     <text>Section 302 of the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (D.C. Law 2-136; D.C. Official Code § 7-1203.02), is amended by striking the phrase "section 1505(b-3) of the Criminal Justice Coordinating Council for the District of Columbia Establishment Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 22-4234(b-3)" and inserting the phrase "section 1505(b-3) and (d) of the Criminal Justice Coordinating Council for the District of Columbia Establishment Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 22-4234(b-3) and (d))" in its place.</text>
+    <codify:find-replace doc="D.C. Code" path="§7-1203.02" count="1">
+      <find>
+        <code-cite doc="D.C. Code" path="§22-4232|(b-3)">section 1505(b-3) of the Criminal Justice Coordinating Council for the District of Columbia Establishment Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 22-4234(b-3))</code-cite>
+      </find>
+      <replace><code-cite doc="D.C. Code" path="§22-4234|(b-3)">section 1505(b-3)</code-cite> and <cite doc="D.C. Code" path="§22-4234|(d)">(d)</cite></replace>
+    </codify:find-replace>
+     <codify:emergency doc="D.C. Code" path="§7-1203.02"/>
+       <codify:insert doc="D.C. Code" path="§7-1203.02" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on July 23, 2023. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§7-1203.02(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
   </section>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§5-653">
     <num>5</num>
     <text>Section 653 of the Fire and Police Medical Leave and Limited Duty Amendment Act of 2004, effective May 1, 2013 (D.C. Law 19-311; D.C. Official Code § 5-653), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)|(1)">
       <num>(a)</num>
       <text>Subsection (a)(1) is amended by striking the phrase "rectal, testicular" and inserting the phrase "rectal, liver, testicular" in its place.</text>
+      <codify:find-replace count="1">
+        <find>rectal, testicular</find>
+        <replace>rectal, liver, testicular</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(b)|(1)">
       <num>(b)</num>
       <text>Subsection (b)(1) is amended by striking the phrase "rectal, testicular" and inserting the phrase "rectal, liver, testicular" in its place.</text>
+      <codify:find-replace count="1">
+        <find>rectal, testicular</find>
+        <replace>rectal, liver, testicular</replace>
+      </codify:find-replace>
     </para>
+     <codify:emergency doc="D.C. Code" path="§5-653"/>
+       <codify:insert doc="D.C. Code" path="§5-653" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on July 23, 2023. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§5-653(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
   </section>
   <section>
     <num>6</num>
