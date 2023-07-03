@@ -28,9 +28,9 @@
     <para codify:path="(A)">
       <num>(a)</num>
       <text>Subparagraph (A) is amended by striking the word "or" at the end.</text>
-      <codify:find-replace doc="D.C. Code" path="§" count="1">
+      <codify:find-replace position="last">
         <find> or</find>
-        <replace></replace>
+        <replace/>
       </codify:find-replace>
     </para>
     <para codify:path="(B)">
@@ -52,7 +52,12 @@
         </para>
       </include>
       <aftertext>.</aftertext>
-      <codify:not-funded-anno doc="D.C. Code" path="§47-2861" applicability-path="§3" display-template=""/>
+      <codify:annotation doc="D.C. Code" path="§47-2861" type="Applicability" history="false">
+        Applicability of D.C. Law 24-174: § 3 of D.C. Law 24-174 provided that the change made to this section by § 2(c) of D.C. Law 24-174 is subject to the inclusion of the law’s fiscal effect in an approved budget and financial plan. Therefore that amendment has not been implemented.
+      </codify:annotation>
+      <codify:annotation doc="D.C. Code" path="§47-2861" type="Applicability" history="false">
+       According to the Office of the Budget Director, D.C. Law 24-174 is currently funded. Therefore, the amendment to this section made by D.C. Law 24-174 has been implemented. 
+     </codify:annotation>
     </para>
   </section>
   <section>
@@ -61,7 +66,8 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon inclusion of its fiscal effect in an approved budget and financial plan.</text>
-      <codify:applicability  doc="D.C. Law 24-174" date="notfunded" history="false" display-template=""/>
+      <!-- <codify:applicability doc="D.C. Law 24-174" date="notfunded" history="false" display-template=""/> -->
+      <!-- Funded per Budget Office 6/15/23 -->
     </para>
     <para>
       <num>(b)</num>
