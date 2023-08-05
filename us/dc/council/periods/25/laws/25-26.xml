@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-102">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-26">
+  <num type="law">25-26</num>
   <num type="act">25-102</num>
   <num type="bill">25-141</num>
   <heading type="short">Copay Accumulator Amendment Act of 2023.</heading>
   <heading type="long">To amend the Specialty Drug Copayment Limitation Act to require health insurers to apply discounts, financial assistance payments, product vouchers, or other reductions in out-of-pocket expenses made by or on behalf of a member when calculating the member's coinsurance, copayment, cost-sharing responsibility, deductible, or out-of-pocket maximum for prescription drugs.</heading>
   <meta>
     <introduced>2023-02-16</introduced>
-    <effective projected="true">2023-07-29</effective>
+    <effective>2023-07-20</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/52346/Signed_Act/B25-0141-Signed_Act.pdf?Id=162128">D.C. Law 25-26</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/52346/Signed_Act/B25-0141-Signed_Act.pdf?Id=162128">D.C. Act 25-102</citation>
       <citation type="register">70 DCR 7912</citation>
     </citations>
@@ -20,10 +22,10 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Copay Accumulator Amendment Act of 2023."</text>
-  <section>
+  <section codify:doc="D.C. Code">
     <num>2</num>
     <text>The Specialty Drug Copayment Limitation Act of 2016, effective April 7, 2017 (D.C. Law 21-248; D.C. Official Code § 48-855.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§48-855.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 48-855.01) is amended as follows:</text>
       <para>
@@ -31,6 +33,7 @@
         <text>A new paragraph (3C) is added to read as follows:</text>
         <include lvl="1">
           <para>
+          <codify:insert after="(3B)"/>
             <num>(3C)</num>
             <text>"Generic drug" means a chemically equivalent copy of a brand-name drug with an expired patent.</text>
           </para>
@@ -42,6 +45,7 @@
         <text>A new paragraph (5A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(5)"/>
             <num>(5A)</num>
             <text>"Interchangeable biological product" means a biological product that is licensed and determined by the Food and Drug Administration to meet the standards for interchangeability under 42 U.S.C. § 262(k)(4) or determined to be biosimilar to and interchangeable with a reference biological product as stated in the Lists of Licensed Biological Products with Reference Product Exclusivity and Biosimilarity or Interchangeability Evaluations, also known as the Purple Books.</text>
           </para>
@@ -54,6 +58,7 @@
       <text>A new section 3b is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="48|8H" after="§48-855.02a" num-value="48-855.02b" history-prefix="as added"/>
           <num>3b</num>
           <heading proof="needed">Calculation of member's contributions for a prescription drug covered under the health benefit plan.</heading>
           <para>
@@ -76,6 +81,7 @@
             <num>(c)</num>
             <text>This section shall apply to health benefit plans entered into, amended, extended, or renewed on or after January 1, 2025.</text>
           </para>
+        <annotation doc="D.C. Law 21-248" type="History" path="§3b">Apr. 17, 2017, D.C. Law 21-248, § 3b</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
