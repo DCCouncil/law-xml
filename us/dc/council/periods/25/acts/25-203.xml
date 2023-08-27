@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-203">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-203" codify:doc="D.C. Code">
   <num type="act">25-203</num>
   <num type="bill">25-385</num>
   <heading type="short">Vulnerable Youth Guardianship Protection Emergency Amendment Act of 2023</heading>
@@ -19,29 +19,51 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Vulnerable Youth Guardianship Protection Emergency Amendment Act of 2023".</text>
-  <section>
+  <section codify:path="§13-336|(b)">
     <num>2</num>
     <text>Section 13-336(b) of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="(7)">
       <num>(a)</num>
       <text>Paragraph (7) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+      <codify:find-replace count="1">
+        <find>; and</find>
+        <replace>;</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(8)">
       <num>(b)</num>
       <text>Paragraph (8) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+      <codify:find-replace count="1">
+        <find>.</find>
+        <replace>; and</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>A new paragraph (9) is added to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert/>
           <num>(9)</num>
-          <text>actions for the appointment of a vulnerable youth guardian under Subchapter VI of Chapter 23 of Title 16 of the District of Columbia Official Code.</text>
+          <text>actions for the appointment of a vulnerable youth guardian under <code-cite doc="D.C. Code" path="16|23|VI">Subchapter VI of Chapter 23 of Title 16 of the District of Columbia Official Code</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:emergency doc="D.C. Code" path="§13-336"/>
+      <codify:insert doc="D.C. Code" path="§13-336" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 25, 2023. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§13-336(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
   </section>
+  <codify:insert doc="D.C. Code" path="16|23" after="V" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>VI</num>
+      <heading>Vulnerable Youth Guardian.</heading>
+    </container>
+  </codify:insert>
   <section>
     <num>3</num>
     <text>Chapter 23 of Title 16 of the District of Columbia Official Code is amended as follows:</text>
@@ -111,6 +133,7 @@
           <num>VI</num>
           <heading>Vulnerable Youth Guardian.</heading>
           <section>
+            <codify:insert path="16|23|VI"/>
             <prefix>§</prefix>
             <num>16-2399.01</num>
             <heading proof="needed">Definitions.</heading>
@@ -119,7 +142,7 @@
               <text>For purposes of this subchapter, the term:</text>
               <para>
                 <num>(1)</num>
-                <text>"Guardian" means a person designated by the court pursuant to this subchapter as the guardian of a vulnerable youth.</text>
+                <text>"Guardian" means a person designated by the court pursuant to <cite doc="D.C. Code" path="16|23|VI">this subchapter</cite> as the guardian of a vulnerable youth.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -127,7 +150,7 @@
               </para>
               <para>
                 <!-- this is a second (2) -->
-                <num>(2)</num>
+                <num codify:value="[(2)]">(2)</num>
                 <text>"Noncitizen" means a person who is not a United States citizen.</text>
               </para>
               <para>
@@ -143,14 +166,21 @@
                 <text>"Vulnerable youth" means an unmarried noncitizen who is at least 18 but younger than 21 years old.</text>
               </para>
             </para>
+            <codify:emergency doc="D.C. Code" path="§16-2399.01"/>
+            <codify:insert doc="D.C. Code" path="§16-2399.01" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on October 25, 2023.*
+      </text>
+            </codify:insert>
           </section>
           <section>
+            <codify:insert path="16|23|VI"/>
             <prefix>§</prefix>
             <num>16-2399.02</num>
             <heading proof="needed">Guardianship petition.</heading>
             <para>
               <num>(a)</num>
-              <text>A vulnerable youth or proposed guardian may file a petition with the Family Division of the Superior Court to appoint a guardian under this subchapter. The petition shall name the proposed guardian and describe why:</text>
+              <text>A vulnerable youth or proposed guardian may file a petition with the Family Division of the Superior Court to appoint a guardian under <cite doc="D.C. Code" path="16|23|VI">this subchapter</cite>. The petition shall name the proposed guardian and describe why:</text>
               <para>
                 <num>(1)</num>
                 <text>The appointment is in the best interests of the vulnerable youth;</text>
@@ -188,11 +218,31 @@
                 <text>The vulnerable youth's opinion of their own best interest.</text>
               </para>
             </para>
+            <codify:emergency doc="D.C. Code" path="§16-2399.02"/>
+            <codify:insert doc="D.C. Code" path="§16-2399.02" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on October 25, 2023.*
+      </text>
+            </codify:insert>
           </section>
           <section>
+            <codify:insert path="16|23|VI" num-value="16-2399.03"/>
             <prefix>§</prefix>
-            <num>16-2399</num>
-            <heading proof="needed">04 Timing and notice.</heading>
+            <num>16-2399.03</num>
+            <heading proof="needed">Parties.</heading>
+             <text>Parties to a guardianship proceeding shall be the vulnerable youth, the proposed guardian, and the vulnerable youth’s parents. The court may, at its discretion, on its own motion, or in response to a motion for joinder or intervention, join additional parties to a guardianship proceeding.</text>
+             <codify:emergency doc="D.C. Code" path="§16-2399.03"/>
+            <codify:insert doc="D.C. Code" path="§16-2399.03" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on October 25, 2023.*
+      </text>
+            </codify:insert>
+          </section>
+          <section>
+            <codify:insert path="16|23|VI"/>
+            <prefix>§</prefix>
+            <num>16-2399.04</num>
+            <heading proof="needed">Timing and notice.</heading>
             <para>
               <num>(a)</num>
               <text>When a petition for guardianship is filed, the court shall promptly set a time for an adjudicatory hearing, as soon as administratively feasible, and shall cause notice thereof to be given to all parties and their attorneys.</text>
@@ -205,21 +255,35 @@
               <num>(c)</num>
               <text>If personal service under this section cannot be effected, then notice shall be made constructively pursuant to rules of the Superior Court of the District of Columbia.</text>
             </para>
+            <codify:emergency doc="D.C. Code" path="§16-2399.04"/>
+            <codify:insert doc="D.C. Code" path="§16-2399.04" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on October 25, 2023.*
+      </text>
+            </codify:insert>
           </section>
           <section>
+            <codify:insert path="16|23|VI"/>
             <prefix>§</prefix>
             <num>16-2399.05</num>
             <heading proof="needed">Conduct of the hearings.</heading>
             <para>
               <num>(a)</num>
-              <text>All hearings and proceedings conducted pursuant to this subchapter shall be held by a judge, without a jury.</text>
+              <text>All hearings and proceedings conducted pursuant to <cite doc="D.C. Code" path="16|23|VI">this subchapter</cite> shall be held by a judge, without a jury.</text>
             </para>
             <para>
               <num>(b)</num>
-              <text>All hearings and proceedings conducted pursuant to this subchapter shall be recorded by appropriate means.</text>
+              <text>All hearings and proceedings conducted pursuant to <cite doc="D.C. Code" path="16|23|VI">this subchapter</cite> shall be recorded by appropriate means.</text>
             </para>
+            <codify:emergency doc="D.C. Code" path="§16-2399.05"/>
+            <codify:insert doc="D.C. Code" path="§16-2399.05" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on October 25, 2023.*
+      </text>
+            </codify:insert>
           </section>
           <section>
+            <codify:insert path="16|23|VI"/>
             <prefix>§</prefix>
             <num>16-2399.06</num>
             <heading proof="needed">Adjudicatory hearings.</heading>
@@ -245,14 +309,21 @@
             </para>
             <para>
               <num>(f)</num>
-              <text>Notwithstanding the provisions of §§ 14-306 and 14-307, neither the spouse or domestic partner privilege nor the physician/client or mental health professional/client privilege shall be a ground for excluding evidence in any proceeding brought under this subchapter.</text>
+              <text>Notwithstanding the provisions of §§ <cite doc="D.C. Code" path="§14-306">14-306</cite> and <cite doc="D.C. Code" path="§14-307">14-307</cite>, neither the spouse or domestic partner privilege nor the physician/client or mental health professional/client privilege shall be a ground for excluding evidence in any proceeding brought under this subchapter.</text>
             </para>
             <para>
               <num>(g)</num>
               <text>The court may enter, modify, or terminate a guardianship order after considering all of the evidence presented, and after making a determination based upon a preponderance of the evidence that creation, modification, or termination of the guardianship order is in the vulnerable youth's best interests. If the court does not find that sufficient grounds exist to create, modify, or terminate a guardianship order, the petition may be dismissed.</text>
             </para>
+            <codify:emergency doc="D.C. Code" path="§16-2399.06"/>
+            <codify:insert doc="D.C. Code" path="§16-2399.06" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on October 25, 2023.*
+      </text>
+            </codify:insert>
           </section>
           <section>
+            <codify:insert path="16|23|VI"/>
             <prefix>§</prefix>
             <num>16-2399.07</num>
             <heading proof="needed">Order appointing a guardian of a vulnerable youth.</heading>
@@ -262,7 +333,7 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>After the guardianship is established, upon request by the proposed guardian or the vulnerable youth, the court shall, if the court finds that the allegations in the petition pursuant to §16-2399.02(a) are supported by a preponderance of the evidence, enter a guardianship order containing the following judicial determinations supported by relevant statutory citations and findings of fact:</text>
+              <text>After the guardianship is established, upon request by the proposed guardian or the vulnerable youth, the court shall, if the court finds that the allegations in the petition pursuant to <cite doc="D.C. Code" path="§16-2399.02|(a)">§16-2399.02(a)</cite> are supported by a preponderance of the evidence, enter a guardianship order containing the following judicial determinations supported by relevant statutory citations and findings of fact:</text>
               <para>
                 <num>(1)</num>
                 <text>Where the identity is known, the specific identity of the parent or parents;</text>
@@ -292,11 +363,18 @@
               <num>(e)</num>
               <text>A guardianship order entered under this subchapter shall automatically terminate when the youth reaches age 21.</text>
             </para>
+            <codify:emergency doc="D.C. Code" path="§16-2399.07"/>
+            <codify:insert doc="D.C. Code" path="§16-2399.07" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on October 25, 2023.*
+      </text>
+            </codify:insert>
           </section>
           <section>
+            <codify:insert path="16|23|VI"/>
             <prefix>§</prefix>
-            <num>16-2399</num>
-            <heading proof="needed">08 Effect of guardianship order.</heading>
+            <num>16-2399.08</num>
+            <heading proof="needed">Effect of guardianship order.</heading>
             <para>
               <num>(a)</num>
               <text>Unless the court specifies other rights and responsibilities, the guardian shall have the following rights and responsibilities concerning the vulnerable youth:</text>
@@ -317,23 +395,36 @@
               <num>(b)</num>
               <text>The guardian is not liable to third persons by reason of the relationship for acts of the vulnerable youth.</text>
             </para>
+            <codify:emergency doc="D.C. Code" path="§16-2399.08"/>
+            <codify:insert doc="D.C. Code" path="§16-2399.08" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on October 25, 2023.*
+      </text>
+            </codify:insert>
           </section>
           <section>
+            <codify:insert path="16|23|VI" num-value="[16-2399.09]"/>
             <prefix>§</prefix>
             <num>16-2409</num>
             <heading proof="needed">Additional available remedies.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>Nothing in this subchapter shall be construed to prevent:</text>
+              <text>Nothing in <cite doc="D.C. Code" path="16|23|VI">this subchapter</cite> shall be construed to prevent:</text>
               <para>
                 <num>(1)</num>
                 <text>A proposed guardian or vulnerable youth from seeking any other remedy or protections available under District law; or</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>The court from issuing judicial determinations similar to those in §16-2399.07(b) in any other proceeding concerning a noncitizen under age 18.</text>
+                <text>The court from issuing judicial determinations similar to those in <cite doc="D.C. Code" path="§16-2399.07|(b)">§16-2399.07(b)</cite> in any other proceeding concerning a noncitizen under age 18.</text>
               </para>
             </para>
+            <codify:emergency doc="D.C. Code" path="§[16-2399.09]"/>
+            <codify:insert doc="D.C. Code" path="§[16-2399.09]" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on October 25, 2023.*
+      </text>
+            </codify:insert>
           </section>
         </container>
       </include>
@@ -344,6 +435,8 @@
     <num>4</num>
     <heading proof="needed">Applicability.</heading>
     <text>This act shall apply as of September 1, 2023.</text>
+    <codify:annotation doc="D.C. Code" path="§16-2399.01" type="Applicability" history="false"><cite doc="D.C. Act 25-203" path="§4">Section 4 of D.C. Act 25-203</cite> provided that the provisions of D.C. Act 25-203 shall apply as of September 1, 2023.
+    </codify:annotation>
   </section>
   <section>
     <num>5</num>
