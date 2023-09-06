@@ -9,9 +9,9 @@
     <introduced>2021-06-15</introduced>
     <effective>2023-04-21</effective>
     <citations>
-      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47448/Signed_Act/B24-0320-Signed_Act.pdf">D.C. Law 24-345</citation>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47448/Signed_Act/B24-0320-Signed_Act.pdf?Id=154135">D.C. Law 24-345</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/47448/Signed_Act/B24-0320-Signed_Act.pdf">D.C. Act 24-781</citation>
-      <citation type="register">70 DCR 953</citation>
+      <citation type="register">70 DCR 7904</citation>
     </citations>
     <history url="https://lims.dccouncil.us/Legislation/B24-0320">
       <vote date="2022-12-06" reading="First"/>
@@ -176,7 +176,7 @@
       <section codify:path="§5-302">
         <num>102</num>
         <text>Section 3 of the Federal Law Enforcement Officer Cooperation Act of 1999, effective May 9, 2000 (D.C. Law 13-100; D.C. Official Code § 5-302), is amended by striking the phrase "use of trachea and carotid artery holds under sections 3 and 4 of the Limitation on the Use of the Chokehold Act of 1985, effective January 25, 1986 (D.C. Law 6-77; D.C. Official Code § 5-125.01 <em>et seq</em>.)," and inserting the phrase "use of prohibited techniques, as that term is defined in section 3(6) of the Limitation on the Use of the Chokehold Act of 1985, effective January 25, 1986 (D.C. Law 6-77; D.C. Official Code § 5-125.02(6))," in its place.</text>
-       <codify:find-replace count="1">
+        <codify:find-replace count="1">
           <find>use of trachea and carotid artery holds under §§ <cite path="§5-125.02">5-125.02</cite> and <cite path="§5-125.03">5-125.03</cite></find>
           <replace>use of prohibited techniques, as that term is defined in <code-cite doc="D.C. Code" path="§5-125.02|(6)">section 3(6) of the Limitation on the Use of the Chokehold Act of 1985, effective January 25, 1986 (D.C. Law 6-77; D.C. Official Code § 5-125.02(6))</code-cite></replace>
         </codify:find-replace>
@@ -1647,7 +1647,7 @@
       <num>E</num>
       <heading>ANTI-MASK LAW REPEAL</heading>
       <section>
-        <num>106</num>
+        <num>108</num>
         <text>The Anti-Intimidation and Defacing of Public or Private Property Criminal Penalty Act of 1982, effective March 10, 1983 (D.C. Law 4-203; D.C. Official Code § 22-3312 <em>et seq.</em>), is amended as follows:</text>
         <para codify:path="§22-3312.03">
           <num>(a)</num>
@@ -1664,7 +1664,7 @@
         </para>
       </section>
       <section codify:path="§23-581|(a-3)">
-        <num>107</num>
+        <num>109</num>
         <text>Section 23-581(a-3) of the District of Columbia Official Code is amended by striking the phrase "sections 22-3112.1, 22-3112.2, and 22-3112.3" and inserting the phrase "sections 22-3112.1 and 22-3112.2" in its place.</text>
         <codify:find-replace count="1">
           <find>sections 22-3312.01, 22-3312.02, and 22-3312.03</find>
@@ -1987,46 +1987,35 @@
         </para>
       </section>
     </container>
-    <container codify:doc="D.C. Code">
+    <container>
       <prefix>SUBTITLE</prefix>
       <num>H</num>
       <heading>IDENTIFICATION OF MPD OFFICERS DURING FIRST AMENDMENT ASSEMBLIES AS LOCAL LAW ENFORCEMENT</heading>
-      <section codify:path="§5-331.09">
+     <section>
         <num>112</num>
         <text>Section 109 of the First Amendment Assemblies Act of 2004, effective April 13, 2005 (D.C. Law 15-352; D.C. Official Code § 5-331.09), is amended to read as follows:</text>
         <include>
-          <para>
-            <num>(a)</num>
-            <text>MPD shall:</text>
+          <section>
+            <codify:replace doc="D.C. Code" path="§5-331.09"/>
+            <num codify:value="5-331.09">109</num>
+            <heading proof="needed">Identification of MPD personnel policing First Amendment assemblies.</heading>
             <para>
-              <num>(1)</num>
-              <text>Implement a method for enhancing the visibility to the public of the name and badge number of District law enforcement officers policing a First Amendment assembly by modifying the manner in which those officers' names and badge numbers are affixed to the officers' uniforms or helmets; and</text>
-            </para>
-            <para>
-              <num>(2)</num>
-              <text>Ensure that all uniformed District law enforcement officers assigned to police First Amendment assemblies are equipped with the enhanced identification and may be identified even if wearing riot gear.</text>
-            </para>
-            <codify:redesignate-para num-value="(a)"/>
-            <codify:insert>
+              <num>(a)</num>
+              <text>MPD shall:</text>
               <para>
-                <codify:insert path="(a)"/>
                 <num>(1)</num>
                 <text>Implement a method for enhancing the visibility to the public of the name and badge number of District law enforcement officers policing a First Amendment assembly by modifying the manner in which those officers' names and badge numbers are affixed to the officers' uniforms or helmets; and</text>
               </para>
-            </codify:insert>
-            <codify:insert>
               <para>
-                <codify:insert path="(a)"/>
                 <num>(2)</num>
                 <text>Ensure that all uniformed District law enforcement officers assigned to police First Amendment assemblies are equipped with the enhanced identification and may be identified even if wearing riot gear.</text>
               </para>
-            </codify:insert>
-          </para>
-          <para>
-            <codify:insert/>
-            <num>(b)</num>
-            <text>During a First Amendment assembly, the uniforms and helmets of District law enforcement officers policing the assembly shall prominently identify the officers' affiliation with a District law enforcement agency.</text>
-          </para>
+            </para>
+            <para>
+              <num>(b)</num>
+              <text>During a First Amendment assembly, the uniforms and helmets of District law enforcement officers policing the assembly shall prominently identify the officers' affiliation with a District law enforcement agency.</text>
+            </para>
+          </section>
         </include>
         <aftertext>.</aftertext>
       </section>
@@ -2036,7 +2025,7 @@
       <num>I</num>
       <heading>PRESERVING THE RIGHT TO JURY TRIAL</heading>
       <section codify:path="§16-705|(b)|(1)">
-        <num>111</num>
+        <num>113</num>
         <text>Section 16-705(b)(1) of the District of Columbia Official Code is amended as follows:</text>
         <para codify:path="(A)">
           <num>(a)</num>
@@ -2329,7 +2318,7 @@
       <container>
         <prefix>Chapter</prefix>
         <num>3C</num>
-        <heading>Limitation on military weaponry.</heading>
+        <heading>Limitation on Military Weaponry.</heading>
       </container>
     </codify:insert>
     <container>
@@ -2748,7 +2737,7 @@
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>If MPD cannot post a report in compliance with <code-cite doc="D.C. Code" path="§5-331.16|(e)|(2)">section 116(e)(2)</code-cite> <span codify:value="[subsection (e)(2) of this section]"></span>, MPD shall post an explanation of the delay within 10 business days.</text>
+                  <text>If MPD cannot post a report in compliance with <code-cite doc="D.C. Code" path="§5-331.16|(e)|(2)">section 116(e)(2)</code-cite> <span codify:value="[subsection (e)(2) of this section]"/>, MPD shall post an explanation of the delay within 10 business days.</text>
                 </para>
               </para>
               <para>
@@ -2776,7 +2765,7 @@
         <container>
           <prefix>Chapter</prefix>
           <num>3D</num>
-          <heading>Use of less-lethal weapons.</heading>
+          <heading>Use of Less-lethal Weapons.</heading>
         </container>
       </codify:insert>
       <section>
@@ -3782,8 +3771,8 @@
               <num>(c)</num>
               <text>MPD shall maintain records necessary to update the database as needed and furnish that information to the Office as requested.</text>
             </para>
-               <annotation doc="D.C. Law 12-208" type="History" path="§17">Mar. 26, 1999, D.C. Law 12-208, § 17, 45 DCR 8107</annotation>
-              <codify:not-funded-anno doc="D.C. Code" path="§5-1116" action="creation of" applicability-path="§301" display-template=""/>
+            <annotation doc="D.C. Law 12-208" type="History" path="§17">Mar. 26, 1999, D.C. Law 12-208, § 17, 45 DCR 8107</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§5-1116" action="creation of" applicability-path="§301" display-template=""/>
           </section>
           <section>
             <codify:insert doc="D.C. Code" path="5|11|I" num-value="5-1117" history-prefix="as added"/>
@@ -3890,7 +3879,6 @@
           </section>
         </include>
         <aftertext>.</aftertext>
-
       </section>
     </container>
     <container>
@@ -3972,7 +3960,7 @@
               <num>(c)</num>
               <text>In addition to other qualifications the Auditor considers necessary, the Deputy Auditor for Public Safety shall, at a minimum, have knowledge of law enforcement and corrections policies and practices, particularly regarding internal investigations for officer misconduct and uses of force.</text>
             </para>
-             <annotation doc="D.C. Law 1-96" type="History" path="§4b">Mar. 25, 1977, D.C. Law 1-96, § 4b</annotation>
+            <annotation doc="D.C. Law 1-96" type="History" path="§4b">Mar. 25, 1977, D.C. Law 1-96, § 4b</annotation>
           </section>
           <section>
             <codify:insert path="1|3|" num-value="1-301.176" history-prefix="as added"/>
@@ -4010,7 +3998,7 @@
                 </para>
               </para>
             </para>
-              <annotation doc="D.C. Law 1-96" type="History" path="§4c">Mar. 25, 1977, D.C. Law 1-96, § 4c</annotation>
+            <annotation doc="D.C. Law 1-96" type="History" path="§4c">Mar. 25, 1977, D.C. Law 1-96, § 4c</annotation>
             <codify:not-funded-anno doc="D.C. Code" path="§1-301.176" action="creation of" applicability-path="§301" display-template=""/>
           </section>
         </include>
@@ -4068,16 +4056,16 @@
         <para>
           <num>(1)</num>
           <text>Sections 105, 125, 134, and 135, amendatory section 4c in section 138, and section 139 shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
-           <codify:applicability doc="D.C. Law 24-345" path="§105" date="notfunded" history="false" display-template=""/>
-           <codify:applicability doc="D.C. Law 24-345" path="§125" date="notfunded" history="false" display-template=""/>
-           <codify:applicability doc="D.C. Law 24-345" path="§134" date="notfunded" history="false" display-template=""/>
-           <codify:applicability doc="D.C. Law 24-345" path="§135" date="notfunded" history="false" display-template=""/>
-           <codify:applicability doc="D.C. Law 24-345" path="§139" date="notfunded" history="false" display-template=""/>
-           <codify:repeal doc="D.C. Code" path="§1-301.176" history="false" display-template=""/>
-      <codify:find-replace doc="D.C. Code" path="§1-301.176" history="false" display-template="" count="2">
-        <find>Repealed</find>
-        <replace>Not Funded</replace>
-      </codify:find-replace>
+          <codify:applicability doc="D.C. Law 24-345" path="§105" date="notfunded" history="false" display-template=""/>
+          <codify:applicability doc="D.C. Law 24-345" path="§125" date="notfunded" history="false" display-template=""/>
+          <codify:applicability doc="D.C. Law 24-345" path="§134" date="notfunded" history="false" display-template=""/>
+          <codify:applicability doc="D.C. Law 24-345" path="§135" date="notfunded" history="false" display-template=""/>
+          <codify:applicability doc="D.C. Law 24-345" path="§139" date="notfunded" history="false" display-template=""/>
+          <codify:repeal doc="D.C. Code" path="§1-301.176" history="false" display-template=""/>
+          <codify:find-replace doc="D.C. Code" path="§1-301.176" history="false" display-template="" count="2">
+            <find>Repealed</find>
+            <replace>Not Funded</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(2)</num>
