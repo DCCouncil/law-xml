@@ -2464,7 +2464,7 @@
             <replace>$13,046 per student for Fiscal Year 2024</replace>
           </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§38-2904">
           <num>(c)</num>
           <text>Section 105 (D.C. Official Code § 38-2904) is amended by striking the tabular array and inserting the following tabular array in its place:</text>
           <include>
@@ -2526,12 +2526,53 @@
             </text>
           </include>
           <aftertext>.</aftertext>
+           <codify:find-replace count="1">
+            <find>FY 2023</find>
+            <replace>FY 2024</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$16,641</find>
+            <replace>$17,482</replace>
+          </codify:find-replace>
+          <codify:find-replace count="2">
+            <find>$16,145</find>
+            <replace>$16,960</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$12,419</find>
+            <replace>$13,046</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$13,413</find>
+            <replace>$14,090</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$15,151</find>
+            <replace>$15,916</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$18,877</find>
+            <replace>$19,830</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$14,530</find>
+            <replace>$15,264</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>0.91</find>
+            <replace>0.91</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$11,301</find>
+            <replace>$11,872</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§38-2905|(c)">
           <num>(d)</num>
           <text>Section 106(c) (D.C. Official Code § 38-2905(c)) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(c)</num>
               <text>The supplemental allocations shall be calculated by applying weightings to the foundation level as follows:</text>
               <text>Special Education Add-ons:</text>
@@ -2731,22 +2772,28 @@
         <para>
           <num>(e)</num>
           <text>Section 106a(c-2)(1) (D.C. Official Code § 38-2905.01(c-2)(1)) is amended by striking the phrase "based on projected enrollments" and inserting the phrase "based on actual audited enrollments for public charter schools and projected enrollments for DCPS schools" in its place.</text>
+          <codify:find-replace path="§38-2905.01|(c-2)|(1)" count="1">
+            <find>based on projected enrollments</find>
+            <replace>based on actual audited enrollments for public charter schools and projected enrollments for DCPS schools</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§38-2905.02">
           <num>(f)</num>
           <text>Section 106b (D.C. Official Code § 38-2905.02) is amended as follows:</text>
-          <para>
+          <para codify:path="(b)">
             <num>(1)</num>
             <text>Subsection (b) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Designate the existing text as paragraph (1).</text>
+              <codify:redesignate-para num-value="(1)"/>
             </para>
             <para>
               <num>(B)</num>
               <text>A new paragraph (2) is added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert/>
                   <num>(2)</num>
                   <text>There shall be deposited into the Fund $19,835,082 in Fiscal Year 2024.</text>
                 </para>
@@ -2754,11 +2801,12 @@
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(2)</num>
             <text>Subsection (c) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(c)</num>
                 <para>
                   <num>(1)</num>
@@ -2776,15 +2824,20 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(3)</num>
             <text>Subsection (d) is amended by striking the phrase "PCS Amount" and inserting the phrase "FY23 PCS Amount" in its place.</text>
+            <codify:find-replace count="1">
+              <find>PCS Amount</find>
+              <replace>FY23 PCS Amount</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>A new subsection (d-1) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(d)"/>
                 <num>(d-1)</num>
                 <text>From the FY24 PCS Amount, in School Year 2023-2024, the Mayor shall award each public charter school $196.11 per enrolled pupil, which the Mayor shall pay in quarterly installments throughout Fiscal Year 2024 according to the schedule and enrollment figures the Mayor uses to make Formula payments pursuant to section 107b(b); provided, that the first quarterly payment may be paid by October 15, 2023.</text>
               </para>
@@ -2808,6 +2861,7 @@
         <text>Section 202 of the Department of Education Establishment Act of 2007, effective June 12. 2007 (D.C. Law 17-9; D.C. Official Code § 38-191), is amended by adding new subsections (b-1) and (b-2) to read as follows:</text>
         <include>
           <para>
+            <codify:insert path="§38-191" after="(b)"/>
             <num>(b-1)</num>
             <para>
               <num>(1)</num>
@@ -2891,28 +2945,38 @@
             </para>
           </para>
           <para>
+            <codify:insert path="§38-191" after="(b-1)"/>
             <num>(b-2)</num>
             <text>The Department of Education shall be considered an authorized representative of the Office of the State Superintendent of Education and the Higher Education Licensure Commission under applicable federal, District, and state laws and regulations for the purpose of accessing and compiling student record data for research purposes.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </section>
-      <section>
+      <section codify:path="§51-113|(f)">
         <num>4013</num>
         <text>Section 13(f) of the District of Columbia Unemployment Compensation Act, approved August 28, 1935 (49 Stat. 953; D.C. Official Code § 51-113(f)), is amended as follows:</text>
-        <para>
+        <para codify:path="(2)">
           <num>(a)</num>
           <text>Paragraph (2) is amended by redesignating the second subparagraph (C) as subparagraph (D).</text>
+          <codify:find-replace path="[(D)]" count="1">
+            <find>[(D)]</find>
+            <replace>(C)</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(b)</num>
           <text>Paragraph (3) is amended by striking the phrase "or the maintenance of a system of public employment offices" and inserting the phrase ", the maintenance of a system of public employment offices, or with responsibility or authority for the evaluation of workforce or education programs" in its place.</text>
+          <codify:find-replace count="1">
+            <find>or the maintenance of a system of public employment offices</find>
+            <replace>, the maintenance of a system of public employment offices, or with responsibility or authority for the evaluation of workforce or education programs</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>A new paragraph (4) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(4)</num>
               <text>The Director may disclose workforce and employment data that is otherwise protected pursuant to paragraph (1) of this subsection without prior consent from the employing unit or individual when:</text>
               <para>
@@ -2938,27 +3002,43 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Universal Paid Leave Implementation Fund Amendment Act of 2023".</text>
       </section>
-      <section>
+      <section codify:path="§32-551.01">
         <num>4022</num>
         <text>Section 1152 of the Universal Paid Leave Implementation Fund Act of 2016, effective October 8, 2016 (D.C. Law 21-160; D.C. Official Code § 32-551.01), is amended as follows:</text>
-        <para>
+        <para codify:path="(b)|(2)">
           <num>(a)</num>
           <text>Subsection (b)(2) is amended as follows:</text>
-          <para>
+          <para codify:path="text">
             <num>(1)</num>
             <text>The lead-in language is amended by striking the phrase "Fund the Universal Paid Leave" and inserting the phrase "Fund each fiscal year the Universal Paid Leave" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Fund the Universal Paid Leave</find>
+              <replace>Fund each fiscal year the Universal Paid Leave</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(A)">
             <num>(2)</num>
             <text>Subparagraph (A) is amended by striking the phrase "No more than 8.75% of money in the Fund" and inserting the phrase "No more than 15% of the money estimated to be deposited in the Fund" in its place.</text>
+            <codify:find-replace count="1">
+              <find>No more than 8.75% of money in the Fund</find>
+              <replace>No more than 15% of the money estimated to be deposited in the Fund</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(B)">
             <num>(3)</num>
             <text>Subparagraph (B) is amended by striking the phrase "money in the Fund" and inserting the phrase "money estimated to be deposited in the Fund" in its place.</text>
+            <codify:find-replace count="1">
+              <find>money in the Fund</find>
+              <replace>money estimated to be deposited in the Fund</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(C)">
             <num>(4)</num>
             <text>Subparagraph (C) is amended by striking the phrase "money in the Fund" and inserting the phrase "money estimated to be deposited in the Fund" in its place.</text>
+            <codify:find-replace count="1">
+              <find>money in the Fund</find>
+              <replace>money estimated to be deposited in the Fund</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -2966,8 +3046,9 @@
           <text>A new subsection (b-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(b)"/> 
               <num>(b-1)</num>
-              <text>For the purposes of subsection (b) of this section, the phrase "money estimated to be deposited in the Fund" means the amount of revenue that the Chief Financial Officer estimates will be deposited in the Fund, as indicated in the certification provided by the Chief Financial Officer pursuant to section 104a(b) of the Universal Paid Leave Amendment Act of 2016, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 32-541.04a(b)), during the fiscal year in which the money in the Fund will be used to fund the Universal Paid Leave Administration Fund.</text>
+              <text>For the purposes of subsection (b) of this section, the phrase "money estimated to be deposited in the Fund" means the amount of revenue that the Chief Financial Officer estimates will be deposited in the Fund, as indicated in the certification provided by the Chief Financial Officer pursuant to <code-cite doc="D.C. Code" path="§32-541.04a|(b)">section 104a(b) of the Universal Paid Leave Amendment Act of 2016, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 32-541.04a(b))</code-cite>, during the fiscal year in which the money in the Fund will be used to fund the Universal Paid Leave Administration Fund.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
