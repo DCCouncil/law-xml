@@ -3064,25 +3064,34 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Enhancing Child Care Access for Children with Disabilities Amendment Act of 2023".</text>
       </section>
-      <section>
+      <section codify:path="§4-402">
         <num>4032</num>
         <text>Section 3 of the Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-402), is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(a)</num>
           <text>Subsection (a) is amended as follows:</text>
-          <para>
+          <para codify:path="(4)">
             <num>(1)</num>
             <text>Paragraph (4) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(5)">
             <num>(2)</num>
             <text>Paragraph (5) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace position="last">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>A new paragraph (6) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(6)</num>
                 <text>Provide a program which supports the childcare needs of children with disabilities and their families.</text>
               </para>
@@ -3095,11 +3104,12 @@
           <text>A new subsection (b-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(b)"/>
               <num>(b-1)</num>
               <text>The Department is further authorized to:</text>
               <para>
                 <num>(1)</num>
-                <text>Make grants, as authorized by section 7g(c)(5) of the State Education Office Establishment Act of 2000, effective March 10, 2015 (D.C. Law 20-196; D.C. Official Code § 38-2613(c)(5)), to child development facilities to support the costs of:</text>
+                <text>Make grants, as authorized by <code-cite doc="D.C. Code" path="§38-2613|(c)|(5)">section 7g(c)(5) of the State Education Office Establishment Act of 2000, effective March 10, 2015 (D.C. Law 20-196; D.C. Official Code § 38-2613(c)(5))</code-cite>, to child development facilities to support the costs of:</text>
                 <para>
                   <num>(A)</num>
                   <text>Maintaining dedicated slots for infants, toddlers, and preschoolers with disabilities;</text>
@@ -3118,22 +3128,31 @@
           <aftertext>.</aftertext>
         </para>
       </section>
-      <section>
+      <section codify:path="§38-2613|(c)">
         <num>4033</num>
         <text>Section 7g(c) of the State Education Office Establishment Act of 2000, effective March 10, 2015 (D.C. Law 20-196; D.C. Official Code § 38-2613(c)), is amended as follows:</text>
-        <para>
+        <para codify:path="(3)|(C)">
           <num>(a)</num>
           <text>Paragraph (3)(C) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(b)</num>
           <text>Paragraph (4) is amended by striking the period at the end and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace position="last">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>A new paragraph (5) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert/>
               <num>(5)</num>
               <text>Make grants to child development facilities to support the costs of maintaining dedicated slots for infants, toddlers, and preschoolers with disabilities and providing out-of-school-time programming to school-aged children with disabilities and to implement a referral program to place children with disabilities in dedicated grant-funded slots.</text>
             </para>
