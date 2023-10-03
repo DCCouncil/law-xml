@@ -2024,7 +2024,7 @@
           <para>
             <codify:insert path="§42-2802" after="(b-5)"/>
             <num>(b-6)</num>
-            <text>Notwithstanding any provision of <code-cite doc="D.C. Code" path="42|28">this chapter</code-cite> or any other law, the Mayor may in Fiscal Year 2024 transfer the following from the Fund:</text>
+            <text>Notwithstanding any provision of <span codify:value="[]"></span><code-cite doc="D.C. Code" path="42|28">this chapter</code-cite><span codify:value="]"></span> or any other law, the Mayor may in Fiscal Year 2024 transfer the following from the Fund:</text>
             <para>
               <num>(1)</num>
               <text>$4 million to the Home Purchase Assistance Program; and</text>
@@ -3344,6 +3344,7 @@
         <text>This subtitle may be cited as the "Ward 4 Libraries Act of 2023".</text>
       </section>
       <section>
+        <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>4072</num>
         <para>
           <num>(a)</num>
@@ -3387,6 +3388,7 @@
         <text>This subtitle may be cited as the "Community Access to Recreational Space Pilot Program Act of 2023".</text>
       </section>
       <section>
+        <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>4082</num>
         <heading proof="needed">Public Access to Recreational Facilities Pilot Program.</heading>
         <para>
@@ -3416,6 +3418,7 @@
         <text>This subtitle may be cited as the "Department of Parks and Recreation Grants Act of 2023".</text>
       </section>
       <section>
+        <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>4092</num>
         <text>Notwithstanding the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq.</em>), in Fiscal Year 2024, the Department of Parks and Recreation shall issue the following grants:</text>
         <para>
@@ -3441,6 +3444,7 @@
         <text>This subtitle may be cited as the "University of the District of Columbia Funding Act of 2023".</text>
       </section>
       <section>
+        <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>4102</num>
         <para>
           <num>(a)</num>
@@ -3452,6 +3456,7 @@
         </para>
       </section>
       <section>
+        <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>4103</num>
         <para>
           <num>(a)</num>
@@ -3503,6 +3508,7 @@
         <text>This subtitle may be cited as the "Special Needs Public Charter School Funding Authorization Act of 2023".</text>
       </section>
       <section>
+        <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>4122</num>
         <para>
           <num>(a)</num>
@@ -3563,7 +3569,7 @@
               <replace>Except as provided in paragraphs (2), (3), and (4) of this subsection</replace>
             </codify:find-replace>
           </para>
-          <para codify:path="(4)">
+          <para>
             <num>(2)</num>
             <text>A new paragraph (4) is added to read as follows:</text>
             <include lvl="1">
@@ -3706,36 +3712,61 @@
       <section>
         <num>4152</num>
         <text>Section 10005 of the Revised Revenue Estimate Adjustment Allocation Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-325.251), is repealed.</text>
+        <codify:repeal path="§1-325.251"/>
       </section>
       <section>
         <num>4153</num>
         <text>Section 7a of the Child Development Facilities Regulation Act of 1998, effective December 13, 2017 (D.C. Law 22-33; D.C. Official Code § 7-2036.01), is repealed.</text>
+        <codify:repeal path="§7-2036.01"/>
       </section>
       <section>
         <num>4154</num>
-        <para>
+        <para codify:path="§38-282">
+
           <num>(a)</num>
           <text>Section 4073 of the Healthy Tots Act of 2014, effective February 26, 2015 (D.C. Law 20-155; D.C. Official Code § 38-282), is amended as follows:</text>
-          <para>
+          <para codify:path="heading">
             <num>(1)</num>
             <text>The section heading is amended by striking the word "Fund" and inserting the word "funding" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Fund</find>
+              <replace>funding</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Subsections (a) and (b) are repealed.</text>
+            <codify:repeal path="(a)"/>
+            <codify:repeal path="(b)"/>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(3)</num>
             <text>The lead-in language of subsection (c) is amended by striking the phrase "the Fund" and inserting the phrase "annual appropriations for the Healthy Tots Program" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the Fund</find>
+              <replace>annual appropriations for the Healthy Tots Program</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(4)</num>
             <text>The lead-in language of subsection (d) is amended by striking the phrase "the Fund" and inserting the phrase "annual appropriations for the Healthy Tots Program" in its place.</text>
+            <codify:find-replace count="1">
+              <find>the Fund</find>
+              <replace>annual appropriations for the Healthy Tots Program</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§38-2602|(b)|(23)">
           <num>(b)</num>
           <text>Section 3(b)(23) of the of the State Education Office Establishment Act of 2000, effective October 21, 2000 (D.C. Law 13-176; D.C. Official Code § 38-2602(b)(23)), is amended by striking the phrase "the Healthy Tots Fund fulfill its" and inserting the phrase "Healthy Tots funding and fulfill its" in its place.</text>
+          <codify:find-replace count="1">
+            <find>the Healthy</find>
+            <replace>Healthy</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>Fund</find>
+            <replace>funding and</replace>
+          </codify:find-replace>
         </para>
       </section>
       <section>
@@ -3744,15 +3775,18 @@
         <para>
           <num>(a)</num>
           <text>Section 2(c) (D.C. Official Code § 38-302(c)) is repealed.</text>
+          <codify:repeal path="§38-302|(c)"/>
         </para>
         <para>
           <num>(b)</num>
           <text>Section 15b (D.C. Official Code § 38-312.02) is repealed.</text>
+          <codify:repeal path="§38-312.02"/>
         </para>
       </section>
       <section>
         <num>4156</num>
         <text>Section 7j of the State Education Office Establishment Act of 2000, effective September 11, 2019 (D.C. Law 23-16; D.C. Official Code § 38-2616), is repealed.</text>
+        <codify:repeal path="§38-2616"/>
       </section>
     </container>
     <container>
@@ -4474,6 +4508,7 @@
     <prefix>TITLE</prefix>
     <num>V</num>
     <heading>HUMAN SUPPORT SERVICES</heading>
+    
     <container>
       <prefix>SUBTITLE</prefix>
       <num>A</num>
@@ -4538,6 +4573,13 @@
         </para>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="44" after="6A" history="false">
+      <container>
+        <prefix>Chapter</prefix>
+        <num>6B</num>
+        <heading>Medicaid Provider Reimbursement.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>B</num>
