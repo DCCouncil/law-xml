@@ -2526,7 +2526,7 @@
             </text>
           </include>
           <aftertext>.</aftertext>
-           <codify:find-replace count="1">
+          <codify:find-replace count="1">
             <find>FY 2023</find>
             <replace>FY 2024</replace>
           </codify:find-replace>
@@ -3046,7 +3046,7 @@
           <text>A new subsection (b-1) is added to read as follows:</text>
           <include>
             <para>
-              <codify:insert after="(b)"/> 
+              <codify:insert after="(b)"/>
               <num>(b-1)</num>
               <text>For the purposes of subsection (b) of this section, the phrase "money estimated to be deposited in the Fund" means the amount of revenue that the Chief Financial Officer estimates will be deposited in the Fund, as indicated in the certification provided by the Chief Financial Officer pursuant to <code-cite doc="D.C. Code" path="§32-541.04a|(b)">section 104a(b) of the Universal Paid Leave Amendment Act of 2016, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 32-541.04a(b))</code-cite>, during the fiscal year in which the money in the Fund will be used to fund the Universal Paid Leave Administration Fund.</text>
             </para>
@@ -3211,6 +3211,10 @@
       <section>
         <num>4052</num>
         <text>Section 14(b) of An Act To establish and provide for the maintenance of a free public library and reading room in the District of Columbia, effective September 20, 2012 (D.C. Law 19-168; D.C. Official Code § 39-114(b)), is amended by striking the phrase "Public Library" and inserting the phrase "Public Library and to support the procurement, processing, and cataloging of library materials" in its place.</text>
+        <codify:find-replace path="§39-114|(b)" count="1">
+          <find>Public Library</find>
+          <replace>Public Library and to support the procurement, processing, and cataloging of library materials</replace>
+        </codify:find-replace>
       </section>
     </container>
     <codify:insert doc="D.C. Code" path="38|18A" after="II" history="false">
@@ -3323,14 +3327,6 @@
         <codify:annotation doc="D.C. Code" path="§47-368.07" type="Applicability" history="false">
           Section 4064 of D.C. Law 25-50 provided that the amendments to this section by § 4063 of D.C. Law 25-50 shall apply as of July 1, 2023.
         </codify:annotation>
-        <!-- emergency anno -->
-        <codify:emergency doc="D.C. Code" path="§47-368.07"/>
-        <!-- expiration anno -->
-        <codify:insert doc="D.C. Code" path="§47-368.07" before="heading" history="false" display-template="">
-          <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§47-368.07(Perm)">Permanent Version</cite>.*
-      </text>
-        </codify:insert>
       </section>
       <section>
         <num>4064</num>
@@ -3490,12 +3486,6 @@
         <codify:annotation doc="D.C. Code" path="§38-823.02" type="Applicability" history="false">
           Section 4113 of D.C. Law 25-50 provided that the amendments to this section by § 4112 of D.C. Law 25-50 shall apply as of July 14, 2023.
         </codify:annotation>
-        <codify:emergency doc="D.C. Code" path="§38-823.02"/>
-        <codify:insert doc="D.C. Code" path="§38-823.02" before="heading" history="false" display-template="">
-          <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§38-823.02(Perm)">Permanent Version</cite>.*
-      </text>
-        </codify:insert>
       </section>
       <section>
         <num>4113</num>
@@ -3554,22 +3544,31 @@
       <section>
         <num>4132</num>
         <text>The Office of Out of School Time Grants and Youth Outcomes Establishment Act of 2016, effective April 7, 2017 (D.C. Law 21-261; D.C. Official Code § 2-1555.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§2-1555.03|(b)">
           <num>(a)</num>
           <text>Section 4(b) (D.C. Official Code § 2-1555.03(b)) is amended by striking the phrase "organizations providing" and inserting the phrase "organizations, District of Columbia Public Schools schools, and public charter schools providing" in its place.</text>
+          <codify:find-replace path="§2-1555.03" count="1">
+            <find>organizations providing</find>
+            <replace>organizations, District of Columbia Public Schools schools, and public charter schools providing</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§2-1555.04|(b)">
           <num>(b)</num>
           <text>Section 5(b) (D.C. Official Code § 2-1555.04(b)), is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(1)</num>
             <text>Paragraph (1) is amended by striking the phrase "Except as provided in paragraphs (2) and (3) of this subsection" and inserting the phrase "Except as provided in paragraphs (2), (3), and (4) of this subsection" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Except as provided in paragraphs (2) and (3) of this subsection</find>
+              <replace>Except as provided in paragraphs (2), (3), and (4) of this subsection</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(4)">
             <num>(2)</num>
             <text>A new paragraph (4) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(4)</num>
                 <text>The Office may award grants on a competitive or formula basis to one or more District of Columbia Public Schools schools or public charter schools to provide out-of-school-time programs; provided, that:</text>
                 <para>
@@ -3688,12 +3687,6 @@
         <codify:annotation doc="D.C. Code" path="§4-410.02" type="Applicability" history="false">
           Section 4143 of D.C. Law 25-50 provided that the amendments to this section by § 4142 of D.C. Law 25-50 shall apply as of July 14, 2023.
         </codify:annotation>
-        <codify:emergency doc="D.C. Code" path="§4-410.02"/>
-        <codify:insert doc="D.C. Code" path="§4-410.02" before="heading" history="false" display-template="">
-          <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§4-410.02(Perm)">Permanent Version</cite>.*
-      </text>
-        </codify:insert>
       </section>
       <section>
         <num>4143</num>
@@ -4445,12 +4438,6 @@
           <codify:annotation doc="D.C. Code" path="§38-2851.01" type="Applicability" history="false">
             Section 4203 of D.C. Law 25-50 provided that the changes made to this section by section 4202(a) D.C. Law 25-50 shall apply as of July 1, 2023.
           </codify:annotation>
-          <codify:emergency doc="D.C. Code" path="§38-2851.01"/>
-          <codify:insert doc="D.C. Code" path="§38-2851.01" before="heading" history="false" display-template="">
-            <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§38-2851.01(Perm)">Permanent Version</cite>.*
-      </text>
-          </codify:insert>
         </para>
         <para>
           <num>(b)</num>
@@ -4474,12 +4461,6 @@
           <codify:annotation doc="D.C. Code" path="§38-2851.02" type="Applicability" history="false">
             Section 4203 of D.C. Law 25-50 provided that the changes made to this section by section 4202(b) D.C. Law 25-50 shall apply as of July 1, 2023.
           </codify:annotation>
-          <codify:emergency doc="D.C. Code" path="§38-2851.02"/>
-          <codify:insert doc="D.C. Code" path="§38-2851.02" before="heading" history="false" display-template="">
-            <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§38-2851.02(Perm)">Permanent Version</cite>.*
-      </text>
-          </codify:insert>
         </para>
       </section>
       <section>
@@ -5222,12 +5203,6 @@
           <codify:annotation doc="D.C. Code" path="§44-951.04" type="Applicability" history="false">
             Section 5093 of D.C. Law 25-50 provided that the changes made to this section by D.C. Law 25-50 shall apply as of May 19, 2021.
           </codify:annotation>
-          <codify:emergency doc="D.C. Code" path="§44-951.04"/>
-          <codify:insert doc="D.C. Code" path="§44-951.04" before="heading" history="false" display-template="">
-            <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§44-951.04(Perm)">Permanent Version</cite>.*
-      </text>
-          </codify:insert>
         </para>
         <para codify:path="§44-951.09|(b)">
           <num>(b)</num>
@@ -5302,12 +5277,6 @@
           <codify:annotation doc="D.C. Code" path="§44-951.09" type="Applicability" history="false">
             Section 5093 of D.C. Law 25-50 provided that the changes made to this section by D.C. Law 25-50 shall apply as of May 19, 2021.
           </codify:annotation>
-          <codify:emergency doc="D.C. Code" path="§44-951.09"/>
-          <codify:insert doc="D.C. Code" path="§44-951.09" before="heading" history="false" display-template="">
-            <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§44-951.09(Perm)">Permanent Version</cite>.*
-      </text>
-          </codify:insert>
         </para>
         <para codify:path="§44-951.19">
           <num>(c)</num>
@@ -5347,12 +5316,6 @@
           <codify:annotation doc="D.C. Code" path="§44-951.19" type="Applicability" history="false">
             Section 5093 of D.C. Law 25-50 provided that the changes made to this section by D.C. Law 25-50 shall apply as of May 19, 2021.
           </codify:annotation>
-          <codify:emergency doc="D.C. Code" path="§44-951.19"/>
-          <codify:insert doc="D.C. Code" path="§44-951.19" before="heading" history="false" display-template="">
-            <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§44-951.19(Perm)">Permanent Version</cite>.*
-      </text>
-          </codify:insert>
         </para>
       </section>
       <section>
@@ -5586,12 +5549,6 @@
         <codify:annotation doc="D.C. Code" path="§50-921.21" type="Applicability" history="false">
           Section 6044 of D.C. Law 25-50 provided that the amendments to this section by § 6042 of D.C. Law 25-50 shall apply as of July 14, 2023.
         </codify:annotation>
-        <codify:emergency doc="D.C. Code" path="§50-921.21"/>
-        <codify:insert doc="D.C. Code" path="§50-921.21" before="heading" history="false" display-template="">
-          <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§50-921.21(Perm)">Permanent Version</cite>.*
-      </text>
-        </codify:insert>
       </section>
       <section codify:path="§47-362">
         <num>6043</num>
@@ -5607,12 +5564,6 @@
         <codify:annotation doc="D.C. Code" path="§47-362" type="Applicability" history="false">
           Section 6044 of D.C. Law 25-50 provided that the amendments to this section by § 6043 of D.C. Law 25-50 shall apply as of July 14, 2023.
         </codify:annotation>
-        <codify:emergency doc="D.C. Code" path="§47-362"/>
-        <codify:insert doc="D.C. Code" path="§47-362" before="heading" history="false" display-template="">
-          <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§47-362(Perm)">Permanent Version</cite>.*
-      </text>
-        </codify:insert>
       </section>
       <section>
         <num>6044</num>
@@ -6338,12 +6289,6 @@
         <codify:annotation doc="D.C. Code" path="§50-1541.24a" type="Applicability" history="false">
           Section 6143 of D.C. Law 25-50 provided that the amendments to this section by § 6142 of D.C. Law 25-50 shall apply as of January 1, 2016.
         </codify:annotation>
-        <codify:emergency doc="D.C. Code" path="§50-1541.24a"/>
-        <codify:insert doc="D.C. Code" path="§50-1541.24a" before="heading" history="false" display-template="">
-          <text>
-      *NOTE: This section was created by emergency legislation that will expire on October 12, 2023.*
-      </text>
-        </codify:insert>
       </section>
     </container>
   </container>
@@ -6388,12 +6333,6 @@
         <codify:annotation doc="D.C. Code" path="§10-1601.02" type="Applicability" history="false">
           Section 7013 of D.C. Law 25-50 provided that the amendments to this section by § 7012 of D.C. Law 25-50 shall apply as of September 1, 2023.
         </codify:annotation>
-        <codify:emergency doc="D.C. Code" path="§10-1601.02"/>
-        <!-- <codify:insert doc="D.C. Code" path="§10-1601.02" before="heading" history="false" display-template="">
-          <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. . . . . *
-      </text>
-        </codify:insert> -->
       </section>
       <section>
         <num>7013</num>
@@ -6707,12 +6646,6 @@
         <codify:annotation doc="D.C. Code" path="§47-392.02" type="Applicability" history="false">
           Section 7033 of D.C. Law 25-50 provided that the amendments to this section by § 7032 of D.C. Law 25-50 shall apply as of June 27, 2023.
         </codify:annotation>
-        <codify:emergency doc="D.C. Code" path="§47-392.02"/>
-        <codify:insert doc="D.C. Code" path="§47-392.02" before="heading" history="false" display-template="">
-          <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on October 12, 2023. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§47-392.02(Perm)">Permanent Version</cite>.*
-      </text>
-        </codify:insert>
       </section>
       <section>
         <num>7033</num>
