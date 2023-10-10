@@ -2960,7 +2960,7 @@
           <text>Paragraph (2) is amended by redesignating the second subparagraph (C) as subparagraph (D).</text>
           <codify:find-replace path="[(D)]" count="1">
             <find>[(D)]</find>
-            <replace>(C)</replace>
+            <replace>(D)</replace>
           </codify:find-replace>
         </para>
         <para codify:path="(3)">
@@ -3176,6 +3176,7 @@
         <!-- codify -->
         <include>
           <section>
+            <codify:marginalia display="Applicable January 1, 2024"/>
             <num>1110</num>
             <heading proof="needed">Compensation — Members of the State Board of Education.</heading>
             <para>
@@ -4251,7 +4252,7 @@
                   <text>"Youth development program" means a program or service that engages youth in a variety of social, emotional, educational, or recreational activities to promote improvements to their intellectual, behavioral, and physical well-being, consistent with a youth development approach.</text>
                 </para>
               </para>
-               <annotation doc="D.C. Law 13-176" type="History" path="§7k">Oct. 21, 2000, D.C. Law 13-176, § 7k</annotation>
+              <annotation doc="D.C. Law 13-176" type="History" path="§7k">Oct. 21, 2000, D.C. Law 13-176, § 7k</annotation>
             </section>
           </include>
           <aftertext>.</aftertext>
@@ -4590,7 +4591,7 @@
         </para>
       </section>
     </container>
-     <codify:insert doc="D.C. Code" path="44" after="6A" history="false">
+    <codify:insert doc="D.C. Code" path="44" after="6A" history="false">
       <container>
         <prefix>Chapter</prefix>
         <num>6B</num>
@@ -4600,7 +4601,6 @@
     <container>
       <prefix>SUBTITLE</prefix>
       <num>B</num>
-    
       <heading>MEDICAID PROVIDER REIMBURSEMENT</heading>
       <section>
         <num>5011</num>
@@ -4608,7 +4608,7 @@
         <text>This subtitle may be cited as the "Medicaid Provider Reimbursement Act of 2023".</text>
       </section>
       <section>
-      <codify:insert path="44|6B" num-value="44-671.01"/>
+        <codify:insert path="44|6B" num-value="44-651.01"/>
         <num>5012</num>
         <heading>Definitions</heading>
         <para>
@@ -4649,7 +4649,7 @@
         </para>
       </section>
       <section>
-      <codify:insert path="44|6B" num-value="44-671.02"/>
+        <codify:insert path="44|6B" num-value="44-651.02"/>
         <num>5013</num>
         <heading proof="needed">Medicaid hospital provider reimbursement.</heading>
         <para>
@@ -4674,13 +4674,13 @@
         </para>
       </section>
       <section>
-      <codify:insert path="44|6B" num-value="44-671.03"/>
+        <codify:insert path="44|6B" num-value="44-651.03"/>
         <num>5014</num>
         <heading proof="needed">Annual hospital costs reporting.</heading>
         <text>By December 31, 2023, and by December 31 of each year thereafter, the Department shall publish on its website a report on District all-payer hospital costs.</text>
       </section>
       <section>
-      <codify:insert path="44|6B" num-value="44-671.04"/>
+        <codify:insert path="44|6B" num-value="44-651.04"/>
         <num>5015</num>
         <heading proof="needed">Medicaid physician provider reimbursement.</heading>
         <text>The Mayor may direct the Department to make changes to the physician reimbursement methodology set forth in the State Plan for implementation no later than October 1, 2024.</text>
@@ -5186,6 +5186,7 @@
         <text>This subtitle may be cited as the "Department of Health Grant Act of 2023".</text>
       </section>
       <section>
+      <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>5072</num>
         <text>Notwithstanding the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.), in Fiscal Year 2024 the Department of Health shall issue a grant of $250,000 to Joseph's House to support its work providing comprehensive nursing and support services to homeless men and women with advanced HIV disease or terminal cancer.</text>
       </section>
@@ -5200,6 +5201,7 @@
         <text>This subtitle may be cited as the "Department of Human Services Grant Act of 2023".</text>
       </section>
       <section>
+      <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>5082</num>
         <text>Notwithstanding the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.), in Fiscal Year 2024 the Department of Human Services shall issue a grant of $150,000 to A Wider Circle to support its work providing furniture and home goods to low-income individuals and families.</text>
       </section>
@@ -5444,6 +5446,7 @@
         <text>This subtitle may be cited as the "Department of Health Care Finance Grants Act of 2023".</text>
       </section>
       <section>
+        <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>5102</num>
         <text>Notwithstanding the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.), in Fiscal Year 2024 the Department of Health Care Finance shall issue the following grants:</text>
         <para>
@@ -6418,14 +6421,33 @@
       <section>
         <num>7002</num>
         <text>The Public School Health Services Amendment Act of 2017, effective February 17, 2018 (D.C. Law 22-61; 65 DCR 127), is repealed.</text>
+        <!-- In order to add repeal to cite line -->
+        <codify:find-replace path="§38-621|(a)" count="1">
+          <find>nurse</find>
+          <replace>nurse</replace>
+        </codify:find-replace>
+        <codify:annotation doc="D.C. Code" path="§38-621" type="Applicability" history="false"><cite doc="D.C. Law 25-50" path="§7002"> Section 7002 of D.C. Law 25-50</cite> repealed D.C. Law 22-61 including the applicability provision impacting this section. 
+        </codify:annotation>
       </section>
       <section>
         <num>7003</num>
         <text>Sections 3 and 6 of the Opioid Overdose Treatment and Prevention Omnibus Amendment Act of 2020, effective March 16, 2021 (D.C. Law 23-182; 68 DCR 8), are repealed.</text>
+        <codify:repeal path="§7-3201|(9A)"/>
+        <codify:repeal path="§7-3201|(9B)"/>
+        <codify:repeal path="§7-3201|(9C)"/>
+        <codify:repeal path="§7-3204.01"/>
+        <codify:annotation doc="D.C. Code" path="§7-3201" type="Applicability" history="false"><cite doc="D.C. Law 25-50" path="§7003"> Section 7003 of D.C. Law 25-50</cite> repealed §§ 3 and 6 of D.C. Law 23-182 including the applicability provisions impacting this section. 
+        </codify:annotation>
+        <codify:annotation doc="D.C. Code" path="§7-3204.01" type="Applicability" history="false"><cite doc="D.C. Law 25-50" path="§7003"> Section 7003 of D.C. Law 25-50</cite> repealed §§ 3 and 6 of D.C. Law 23-182 including the applicability provisions impacting this section. 
+        </codify:annotation>
       </section>
       <section>
         <num>7004</num>
         <text>Sections 201 and 301 of the Performance Parking and RPP Exclusion Amendment Act of 2020, effective March 15, 2021 (D.C. Law 23-230; 68 DCR 1122), are repealed.</text>
+        <codify:repeal doc="D.C. Law 23-230" path="§201"/>
+        <codify:repeal doc="D.C. Law 23-230" path="§301"/>
+        <codify:annotation doc="D.C. Code" path="§50-2561" type="Applicability" history="false"><cite doc="D.C. Law 25-50" path="§7004"> Section 7004 of D.C. Law 25-50</cite> repealed §§ 201 and 301 of D.C. Law 23-182 including the applicability provisions impacting this section. 
+        </codify:annotation>
       </section>
     </container>
     <container>
@@ -6468,19 +6490,23 @@
           <para>
             <num>(1)</num>
             <text>Section 311(a)(3) (D.C. Official Code § 36-621.11(a)(3)) is repealed.</text>
+            <codify:repeal path="§36-621.11|(a)|(3)"/>
           </para>
           <para>
             <num>(2)</num>
             <text>Section 315(c) (D.C. Official Code § 36-621.15(c)) is repealed.</text>
+            <codify:repeal path="§36-621.15|(c)"/>
           </para>
         </para>
         <para>
           <num>(b)</num>
           <text>Section 11d of the Day Care Policy Act of 1979, effective March 19, 2020 (D.C. Law 23-68; D.C. Official Code § 4-410.04), is repealed.</text>
+          <codify:repeal path="§4-410.04"/>
         </para>
         <para>
           <num>(c)</num>
           <text>Section 103(b)(1) of the Neighborhood Engagement Achieves Results Amendment Act of 2016, effective June 30, 2016 (D.C. Law 21-125; D.C. Official Code § 7-2413(b)(1)), is repealed.</text>
+          <codify:repeal path="§7-2413|(b)|(1)"/>
         </para>
       </section>
       <section>
@@ -6491,6 +6517,7 @@
           <text>Section 9q(b) of the Department of Transportation Establishment Act of 2002, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 50-921.25(b)), is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace path="§50-921.25|(b)"/>
               <num>(b)</num>
               <text>There shall be deposited in the revenue from fines generated from the automated traffic enforcement system, authorized by section 901 of the Fiscal Year 1997 Budget Support Act of 1996, effective April 9, 1997 (D.C. Law 11-198; D.C. Official Code § 50-2209.01), in excess of the following threshholds:</text>
               <para>
@@ -6513,23 +6540,25 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§50-2209.05">
           <num>(b)</num>
           <text>Section 905 of the Fiscal Year 1997 Budget Support Act of 1996, effective December 3, 2020 (D.C. Law 23-149; D.C. Official Code § 50-2209.05), is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>The existing text is designated as subsection (a).</text>
+            <codify:redesignate-para num-value="(a)"/>
           </para>
           <para>
             <num>(2)</num>
             <text>A new subsection (b) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert/>
                 <num>(b)</num>
                 <text>The Chief Financial Officer ("CFO") shall submit to the Mayor and Council monthly reports that:</text>
                 <para>
                   <num>(1)</num>
-                  <text>State the amount of actual revenue deposited in the Fund established by section 9q of the Department of Transportation Establishment Act of 2002, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 50-921.25), for the fiscal year to-date;</text>
+                  <text>State the amount of actual revenue deposited in the Fund established by <code-cite doc="D.C. Code" path="§50-921.25">section 9q of the Department of Transportation Establishment Act of 2002, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 50-921.25),</code-cite> for the fiscal year to-date;</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -6549,22 +6578,28 @@
         <num>7024</num>
         <heading proof="needed">Commission on the Arts and Humanities Revenue Dedication.</heading>
         <text>Title 47 of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="§47-2002|(d)">
           <num>(a)</num>
           <text>Section 47-2002(d) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>The existing text is designated as paragraph (1).</text>
+            <codify:redesignate-para num-value="(1)"/>
           </para>
-          <para>
+          <para codify:path="(1)">
             <num>(2)</num>
             <text>The newly designated paragraph (1) is amended by striking the phrase "5% of the sales tax revenue" and inserting the phrase "For fiscal years ending before October 1, 2023, 5% of the sales tax revenue" in its place.</text>
+            <codify:find-replace count="1">
+              <find>5% of the sales tax revenue</find>
+              <replace>For fiscal years ending before October 1, 2023, 5% of the sales tax revenue</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>New paragraphs (2) and (3) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(2)</num>
                 <text>For fiscal years beginning after September 30, 2023, and before October 1, 2027, there shall be dedicated to the Arts and Humanities Fund, from the sales tax revenue collected at the rate provided by the lead-in language of subsection (a) of this section, the lesser of:</text>
                 <para>
@@ -6577,6 +6612,7 @@
                 </para>
               </para>
               <para>
+                <codify:insert/>
                 <num>(3)</num>
                 <text>For fiscal years beginning after September 30, 2027, 5% of the sales tax revenue collected at the rate provided by the lead-in language of subsection (a) of this section that is not dedicated to legislatively proposed or existing tax increment financing districts or pledged to the benefit of holders of District bonds or notes existing on or before October 30, 2018, shall be dedicated to the Arts and Humanities Fund.</text>
               </para>
@@ -6584,22 +6620,28 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§47-2202|(b)">
           <num>(b)</num>
           <text>Section 47-2202(b) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>The existing text is designated as paragraph (1).</text>
+            <codify:redesignate-para num-value="(1)"/>
           </para>
-          <para>
+          <para codify:path="(1)">
             <num>(2)</num>
             <text>The newly designated paragraph (1) is amended by striking the phrase "5% of the use tax revenue" and inserting the phrase "For fiscal years beginning before October 1, 2023, 5% of the use tax revenue" in its place.</text>
+            <codify:find-replace count="1">
+              <find>5% of the use tax revenue</find>
+              <replace>For fiscal years beginning before October 1, 2023, 5% of the use tax revenue</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>New paragraphs (2) and (3) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert/>
                 <num>(2)</num>
                 <text>For fiscal years beginning after September 30, 2023, and ending before October 1, 2027, there shall be dedicated to the Arts and Humanities Fund, from the use tax revenue collected at the rate provided by the lead-in language of subsection (a) of this section, the lesser of:</text>
                 <para>
@@ -6612,6 +6654,7 @@
                 </para>
               </para>
               <para>
+                <codify:insert/>
                 <num>(3)</num>
                 <text>For fiscal years beginning after September 30, 2027, 5% of the use tax revenue collected at the rate provided by the lead-in language of subsection (a) of this section that is not dedicated to legislatively proposed or existing tax increment financing districts or pledged to the benefit of holders of District bonds or notes existing on or before October 30, 2018, shall be dedicated to the Arts and Humanities Fund.</text>
               </para>
@@ -6628,12 +6671,16 @@
           <num>(a)</num>
           <text>The table of contents is amended by striking the phrase "47-2002.07. Revenue from tax on gross receipts from sale of or charges for service of parking or storing vehicles of trailers dedicated to WMATA operating subsidy." and inserting the phrase "47-2002.07. Revenue from tax on gross receipts from sale of or charges for service of parking or storing vehicles or trailers dedicated to WMATA operating subsidy." in its place.</text>
         </para>
-        <para>
+        <para codify:path="§47-2002.07">
           <num>(b)</num>
           <text>Section 47-2002.07 is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>The heading is amended by striking the phrase "parking or storing vehicles of trailers" and inserting the phrase "parking or storing vehicles or trailers" in its place.</text>
+            <codify:find-replace count="1">
+              <find>parking or storing vehicles of trailers</find>
+              <replace>parking or storing vehicles or trailers</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
@@ -6641,10 +6688,19 @@
             <para>
               <num>(A)</num>
               <text>Strike the phrase "All of the revenue" and insert the phrase "For fiscal years beginning after September 30, 2017, and ending before October 1, 2023, all of the revenue" in its place.</text>
+              <codify:redesignate-para num-value="(a)"/>
+              <codify:find-replace count="1">
+                <find>All of the revenue</find>
+                <replace>For fiscal years beginning after September 30, 2017, and ending before October 1, 2023, all of the revenue</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Strike the phrase "§ 47-2002(1)" and inserting the phrase "§ 47-2002(a)(1)" in its place.</text>
+              <codify:find-replace count="1">
+                <find>§ 47-2002(1)</find>
+                <replace><cite doc="D.C. Code" path="§47-2002|(a)|(1)">§ 47-2002(a)(1</cite>)</replace>
+              </codify:find-replace>
             </para>
           </para>
           <para>
@@ -6652,6 +6708,7 @@
             <text>New subsections (b) and (c) are added to read as follows:</text>
             <include>
               <para>
+                <codify:insert/>
                 <num>(b)</num>
                 <text>For fiscal years beginning after September 30, 2023, and ending before October 1, 2027, from the revenue described in subsection (a) of this section there shall be dedicated annually to paying the District's annual operating subsidies to WMATA the lesser of:</text>
                 <para>
@@ -6664,6 +6721,7 @@
                 </para>
               </para>
               <para>
+                <codify:insert/>
                 <num>(c)</num>
                 <text>For fiscal years beginning after September 30, 2027, all of the revenue described in subsection (a) of this section shall be dedicated annually to paying the District's annual operating subsidies to WMATA.</text>
               </para>
@@ -6672,27 +6730,36 @@
           </para>
         </para>
       </section>
-      <section>
+      <section codify:path="§1-325.431|(b)">
         <num>7026</num>
         <heading proof="needed">Early Childhood Educator Pay Equity Fund Dedication.</heading>
         <text>Section 5102(b) of the Early Childhood Educator Pay Equity Fund Establishment Act of 2021, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 1-325.431(b)), is amended as follows:</text>
-        <para>
+        <para codify:path="(3)">
           <num>(a)</num>
           <text>Paragraph (3) is amended by striking the phrase "$73,883,680 in local funds" and inserting the phrase "$69,508,332 in local funds" in its place.</text>
+          <codify:find-replace count="1">
+            <find>$73,883,680 in local funds</find>
+            <replace>$69,508,332 in local funds</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(b)</num>
           <text>Paragraph (4) is amended by striking the phrase "$74,878,268 in local funds" and inserting the phrase "$70,502,920 in local funds" in its place.</text>
+          <codify:find-replace count="1">
+            <find>$74,878,268 in local funds</find>
+            <replace>$70,502,920 in local funds</replace>
+          </codify:find-replace>
         </para>
       </section>
       <section>
         <num>7027</num>
         <heading proof="needed">District-wide PAVEDC-Local Street Paving Project.</heading>
-        <para>
+        <para codify:path="§47-362|(f)|(2)">
           <num>(a)</num>
           <text>Section 47-362(f)(2) of the District of Columbia Official Code is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(2)</num>
               <text>At the end of a fiscal year, any excess shall be transferred to the District Department of Transportation's District-wide PAVEDC-Local Street Paving Project, established to maintain, repair, or replace the District's local streets.</text>
             </para>
@@ -6705,10 +6772,15 @@
           <para>
             <num>(1)</num>
             <text>Section 11h(4) (D.C. Official Code § 50-921.51(4)) is repealed.</text>
+            <codify:repeal path="§50-921.51|(4)"/>
           </para>
           <para>
             <num>(2)</num>
             <text>Section 11j(a) (D.C. Official Code § 50-921.53(a)) is amended by striking the phrase "and then equally among the Local Streets Ward-based capital projects" and inserting the phrase "and then to the District-wide PAVEDC-Local Street Paving Project" in its place.</text>
+            <codify:find-replace path="§50-921.53|(a)" count="1">
+              <find>and then equally among the Local Streets Ward-based capital projects</find>
+              <replace>and then to the District-wide PAVEDC-Local Street Paving Project</replace>
+            </codify:find-replace>
           </para>
         </para>
       </section>
@@ -6773,6 +6845,7 @@
         <text>This subtitle may be cited as the "Designated Fund Transfer Act of 2023".</text>
       </section>
       <section>
+        <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>7042</num>
         <para>
           <num>(a)</num>
@@ -7018,49 +7091,67 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "New Howard University Hospital Tax Abatement Amendment Act of 2023".</text>
       </section>
-      <section>
+      <section codify:path="§47-4673">
         <num>7052</num>
         <text>Section 47-4673 of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(a)</num>
           <text>Subsection (a) is amended as follows:</text>
-          <para>
+          <para codify:path="(4)">
             <num>(1)</num>
             <text>Paragraph (4) is amended by striking the phrase "New Hospital Operator" and inserting the phrase "New Hospital Developer" in its place.</text>
+            <codify:find-replace count="1">
+              <find>New Hospital Operator</find>
+              <replace>New Hospital Developer</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(9)">
             <num>(2)</num>
             <text>Paragraph (9) is amended by striking the phrase "Square 3072, and Lot 73" and inserting the phrase "Square 3072, Lots 26 and 30 in Square 3078, and Lot 73" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Square 3072, and Lot 73</find>
+              <replace>Square 3072, Lots 26 and 30 in Square 3078, and Lot 73</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(b)</num>
           <text>Subsection (d) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)|(A)">
             <num>(1)</num>
             <text>Paragraph (1)(A) is amended to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:replace/>
                 <num>(A)</num>
                 <text>The earlier of October 1, 2024, or the opening of the New Hospital; and</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(2)</num>
             <text>Paragraph (3) is amended by striking the phrase "tax year 2048" and inserting the phrase "tax year 2050" in its place.</text>
+            <codify:find-replace count="1">
+              <find>tax year 2048</find>
+              <replace>tax year 2050</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(e)|[(4)]">
           <num>(c)</num>
           <text>Subsection (e)(4) is amended by striking the phrase "by October 1, 2026, and operate" and inserting the phrase "by October 1, 2028, and the New Hospital Operator shall operate" in its place.</text>
+          <codify:find-replace count="1">
+            <find>by October 1, 2026, and operate</find>
+            <replace>by October 1, 2028, and the New Hospital Operator shall operate</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(f)">
           <num>(d)</num>
           <text>Subsection (f) is amended by adding a new paragraph (1A) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(1)"/>
               <num>(1A)</num>
               <text>The District shall provide funding to support the operations of the New Hospital to Howard University. The District shall provide $5 million in each fiscal year from Fiscal Year 2028 through Fiscal Year 2032, totaling $25 million.</text>
             </para>
@@ -7081,6 +7172,10 @@
       <section>
         <num>7062</num>
         <text>Section 47-2002(b) of the District of Columbia Official Code is amended by striking the figure "$1,170,000" and inserting the figure "$1,070,000" in its place.</text>
+        <codify:find-replace path="§47-2002|(b)" count="1">
+          <find>$1,170,000</find>
+          <replace>$1,070,000</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -7107,8 +7202,12 @@
           <num>(c)</num>
           <text>A grant awarded pursuant to this section shall be in addition to any other grant awarded by Events DC in support of the Festival.</text>
         </para>
+        <codify:annotation doc="D.C. Code" path="§10-1202.03" type="Editor's Notes" history="false">
+          For the establishment of a matching grant program to support the 2024 National Cherry Blossom Festival ("Program"), which shall be administered by the Washington Convention and Sports Authority ("Events DC"), see <cite doc="D.C. Law 25-52" path="§7072">§ 7072 of D.C. Law 25-50</cite>.
+        </codify:annotation>
       </section>
       <section>
+        <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>7073</num>
         <heading proof="needed">Washington Nationals Youth Baseball Academy.</heading>
         <para>
@@ -7139,10 +7238,17 @@
           <num>(c)</num>
           <text>A grant awarded pursuant to this section shall be in addition to any other grant awarded by Events DC in support of historical education and research.</text>
         </para>
+        <codify:annotation doc="D.C. Code" path="§10-1202.03" type="Editor's Notes" history="false">
+          For the establishment of a grant program to support historical research, which shall be administered by the Washington Convention and Sports Authority ("Events DC"), see <cite doc="D.C. Law 25-52" path="§7074">§ 7074 of D.C. Law 25-50</cite>.
+        </codify:annotation>
       </section>
       <section>
         <num>7075</num>
         <text>The lead-in language of section 204(m) of the Washington Convention Center Authority Act of 1994, effective September 28, 1994 (D.C. Law 10-188; D.C. Official Code § 10-1202.04(m)), is amended by striking the phrase "or 2023" and inserting the phrase "2023, or 2024" in its place.</text>
+        <codify:find-replace path="§10-1202.04|(m)" count="1">
+          <find> or 2023</find>
+          <replace>2023, or 2024</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -7245,11 +7351,11 @@
       <section>
         <num>7087</num>
         <text>Section 3 of the Automatic Voter Registration Expansion Amendment Act of 2022, effective February 23, 2023 (D.C. Law 24-265; 70 DCR 198), is repealed.</text>
-        <!-- <codify:repeal doc="D.C. Law 24-265" path="§3"/>
-         <codify:annotation doc="D.C. Code" path="1-1001.07" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7087">Section 7087 of D.C. Law 25-50</cite> repealed <cite doc="D.C. Law 24-265" path="§3">section 3 of D.C. Law 24-265</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by section 2(a) of Law 24-265 has been implemented.
+        <codify:repeal doc="D.C. Law 24-265" path="§3"/>
+        <codify:annotation doc="D.C. Code" path="§1-1001.07" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7087">Section 7087 of D.C. Law 25-50</cite> repealed <cite doc="D.C. Law 24-265" path="§3">section 3 of D.C. Law 24-265</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by section 2(a) of Law 24-265 has been implemented.
         </codify:annotation>
-        <codify:annotation doc="D.C. Code" path="1-1001.07b" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7087">Section 7087 of D.C. Law 25-50</cite> repealed <cite doc="D.C. Law 24-265" path="§3">section 3 of D.C. Law 24-265</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by section 2(b) of Law 24-265 has been implemented.
-        </codify:annotation> -->
+        <codify:annotation doc="D.C. Code" path="§1-1001.07b" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7087">Section 7087 of D.C. Law 25-50</cite> repealed <cite doc="D.C. Law 24-265" path="§3">section 3 of D.C. Law 24-265</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by section 2(b) of Law 24-265 has been implemented.
+        </codify:annotation>
       </section>
       <section>
         <num>7088</num>
@@ -7318,43 +7424,91 @@
         <para>
           <num>(a)</num>
           <text>Paragraph (1) is amended by striking the phrase "shall apply upon the date of the inclusion of their fiscal affect in an approved budget and financial plan" and inserting the phrase "shall apply as of October 1, 2023" in its place.</text>
+          <!-- Applicable October 1, 2023 -->
+          <codify:repeal doc="D.C. Law 24-305" path="§401|(a)|(1)"/>
+          <codify:annotation doc="D.C. Code" path="§32-1071.01" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7090">Section 7090(a) of D.C. Law 25-50</cite> amended <cite doc="D.C. Law 24-305" path="§401">section 401 of D.C. Law 24-305</cite> changing the applicability provision impacting this section to January 1, 2023.  Therefore the creation of this section by Law 24-305 has been implemented.
+        </codify:annotation>
+          <codify:annotation doc="D.C. Code" path="§32-1071.03" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7090">Section 7090(a) of D.C. Law 25-50</cite> amended <cite doc="D.C. Law 24-305" path="§401">section 401 of D.C. Law 24-305</cite> changing the applicability provision impacting this section to January 1, 2023.  Therefore the creation of this section by Law 24-305 has been implemented.
+        </codify:annotation>
+          <codify:annotation doc="D.C. Code" path="§32-1071.05" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7090">Section 7090(a) of D.C. Law 25-50</cite> amended <cite doc="D.C. Law 24-305" path="§401">section 401 of D.C. Law 24-305</cite> changing the applicability provision impacting this section to January 1, 2023.  Therefore the creation of this section by Law 24-305 has been implemented.
+        </codify:annotation>
         </para>
         <para>
           <num>(b)</num>
           <text>Paragraph (2) is amended by striking the phrase "shall apply 120 calendar days after the date of inclusion of their fiscal effect in an approved budget and financial plan" and inserting the phrase "shall apply as of January 29, 2024" in its place.</text>
+          <!-- Applicable January 29, 2024 -->
+          <codify:find-replace doc="D.C. Code" path="§32-1071.02" count="2">
+            <find>Not Funded</find>
+            <replace>Applicable Janaury 29, 2024</replace>
+          </codify:find-replace>
+          <codify:annotation doc="D.C. Code" path="§32-1071.02" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7090">Section 7090(b) of D.C. Law 25-50</cite> amended <cite doc="D.C. Law 24-305" path="§401">section 401 of D.C. Law 24-305</cite> changing the applicability provision impacting this section to January 29, 2024.  Therefore the creation of this section by Law 24-305 shall be applicable January 29, 2024.
+        </codify:annotation>
+          <codify:find-replace doc="D.C. Code" path="§32-1071.04" count="2">
+            <find>Not Funded</find>
+            <replace>Applicable Janaury 29, 2024</replace>
+          </codify:find-replace>
+          <codify:annotation doc="D.C. Code" path="§32-1071.04" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7090">Section 7090(b) of D.C. Law 25-50</cite> amended <cite doc="D.C. Law 24-305" path="§401">section 401 of D.C. Law 24-305</cite> changing the applicability provision impacting this section to January 29, 2024.  Therefore the creation of this section by Law 24-305 shall be applicable January 29, 2024.
+        </codify:annotation>
+          <codify:find-replace doc="D.C. Code" path="§32-1071.06" count="2">
+            <find>Not Funded</find>
+            <replace>Applicable Janaury 29, 2024</replace>
+          </codify:find-replace>
+          <codify:annotation doc="D.C. Code" path="§32-1071.06" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7090">Section 7090(b) of D.C. Law 25-50</cite> amended <cite doc="D.C. Law 24-305" path="§401">section 401 of D.C. Law 24-305</cite> changing the applicability provision impacting this section to January 29, 2024.  Therefore the creation of this section by Law 24-305 shall be applicable January 29, 2024.
+        </codify:annotation>
         </para>
       </section>
       <section>
         <num>7091</num>
         <text>Section 4 of the Greener Government Buildings Amendment Act of 2022, effective March 10, 2023 (D.C. Law 24-306; 70 DCR 658), is repealed.</text>
+        <codify:repeal doc="D.C. Law 24-306" path="§4"/>
+        <codify:annotation doc="D.C. Code" path="§6-1451.02" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7091">Section 7091 of D.C. Law 25-50</cite> repealed <cite doc="D.C. Law 24-306" path="§4">section 4 of D.C. Law 24-306</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by section 2 of Law 24-306 has been implemented.
+        </codify:annotation>
+        <codify:annotation doc="D.C. Code" path="§10-551.02" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7091">Section 7091 of D.C. Law 25-50</cite> repealed <cite doc="D.C. Law 24-306" path="§4">section 4 of D.C. Law 24-306</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by section 3(a) of Law 24-306 has been implemented.
+        </codify:annotation>
+        <codify:annotation doc="D.C. Code" path="§10-551.06" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7091">Section 7091 of D.C. Law 25-50</cite> repealed <cite doc="D.C. Law 24-306" path="§4">section 4 of D.C. Law 24-306</cite> removing the applicability provision impacting this section.  Therefore the amendment of this section by section 3(b) of Law 24-306 has been implemented.
+        </codify:annotation>
+        <codify:annotation doc="D.C. Code" path="§10-551.01a" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7091">Section 7091 of D.C. Law 25-50</cite> repealed <cite doc="D.C. Law 24-306" path="§4">section 4 of D.C. Law 24-306</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by section 3(c) of Law 24-306 has been implemented.
+        </codify:annotation>
+        <codify:annotation doc="D.C. Code" path="§10-551.06a" type="Applicability" history="false"><cite doc="D.C.Law 25-50" path="§7091">Section 7091 of D.C. Law 25-50</cite> repealed <cite doc="D.C. Law 24-306" path="§4">section 4 of D.C. Law 24-306</cite> removing the applicability provision impacting this section.  Therefore the creation of this section by section 3(d) of Law 24-306 has been implemented.
+        </codify:annotation>
       </section>
       <section>
         <num>7092</num>
         <text>Section 5 of the Preserving Our Kids' Equity Through Trusts and Fostering Stable Housing Opportunities Amendment Act of 2022, effective March 10, 2023 (D.C. Law 24-309, 70 DCR 662), is repealed.</text>
+        <codify:repeal doc="D.C. Law 24-309" path="§5"/>
       </section>
       <section>
         <num>7093</num>
         <text>Section 301 of the High Need Healthcare Career Scholarship and Health Professional Loan Repayment Program Amendment Act of 2022, effective March 10, 2023 (D.C. Law 24-313; 70 DCR 600), is repealed.</text>
+        <codify:repeal doc="D.C. Law 24-313" path="§301"/>
       </section>
       <section>
         <num>7094</num>
         <text>Section 4 of the Educator Background Check Streamlining Amendment Act of 2022, effective March 10, 2023 (D.C. Law 24-317, 70 DCR 851), is repealed.</text>
+        <codify:repeal doc="D.C. Law 24-317" path="§4"/>
       </section>
       <section>
         <num>7095</num>
         <text>Section 3 of the Automated Traffic Enforcement System Revenue Designation Amendment Act of 2022, effective March 10, 2023 (D.C. Law 24-321; 70 DCR 615), is repealed.</text>
+        <codify:repeal doc="D.C. Law 24-321" path="§3"/>
       </section>
       <section>
         <num>7096</num>
         <text>Section 6 of the Office of District Waterways Management Establishment Act of 2022, effective March 22, 2023 (D.C. Law 24-336; 70 DCR 1623), is repealed.</text>
+        <codify:repeal doc="D.C. Law 24-336" path="§6"/>
       </section>
       <section>
         <num>7097</num>
         <text>Section 301(a)(1) of the Comprehensive Policing and Justice Reform Amendment Act of 2022, effective April 21, 2023 (D.C. Law 24-345; 70 DCR 953), is amended by striking the phrase "Sections 105, 125, 134, and 135, amendatory section 4c in section 138, and section 139 shall apply" and inserting the phrase "Sections 105, 134, and 135 shall apply" in its place.</text>
+        <codify:repeal doc="D.C. Law 24-345" path="§301|(a)|(1)"/>
+        <codify:applicability doc="D.C. Law 24-345" path="§105" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 24-345" path="§134" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 24-345" path="§135" date="notfunded" history="false" display-template=""/>
       </section>
       <section>
         <num>7098</num>
         <text>Section 5 of the Street Vendor Advancement Amendment Act of 2023, enacted on May 4, 2023 (D.C. Act 25-94; 70 DCR 6762), is repealed.</text>
+        <codify:repeal doc="D.C. Law 25-21" path="§5"/>
       </section>
     </container>
     <container>
@@ -7367,7 +7521,9 @@
         <text>This subtitle may be cited as the "Revised Revenue Funding Act of 2023".</text>
       </section>
       <section>
+      <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>7102</num>
+        
         <para>
           <num>(a)</num>
           <text>To the extent that Fiscal Year 2023 local revenues certified in the September 2023 quarterly revenue estimates exceed the local revenue estimate of the Chief Financial Officer dated February 28, 2023, excess local funds shall be allocated and expended pursuant to the Appropriation of Additional Resources section of the Fiscal Year 2024 Local Budget Act of 2023, passed on 2nd reading on May 30, 2023 (Enrolled version of Bill 25-203), and this section.</text>
@@ -7397,6 +7553,7 @@
         </para>
       </section>
       <section>
+      <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>7103</num>
         <text>In the September 2023 revenue estimate, the Chief Financial Officer shall certify:</text>
         <para>
@@ -7436,18 +7593,31 @@
       <para>
         <num>(a)</num>
         <text>Amendatory section 108(d)(1)(B) of the Urban Forest Preservation Act of 2002, effective June 12, 2003 (D.C. Law 14-309; D.C. Official Code § 8-651.08(d)(1)(B)), in section 2(g)(2) of the Urban Forest Preservation Authority Amendment Act of 2022, effective August 16, 2022 (D.C. Law 24-152; 69 DCR 7730), is amended by striking the phrase "effective date of this act." and inserting the phrase "effective date of the Urban Forest Preservation Authority Amendment Act of 2022, effective August 16, 2022 (D.C. Law 24-152; 69 DCR 7730)." in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§8-651.08|(d)|(1)|(B)" count="1">
+          <find>the effective date of this act</find>
+          <replace><span codify:value="August 16, 2022">the effective date of this act</span></replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(b)</num>
         <text>Amendatory section 204(11) of the Office of Human Rights Establishment Act of 1999, effective October 20, 1999 (D.C. Law 13-38; D.C. Official Code § 2-1411.03(11)), in section 3(c)(3) of the Human Rights Enhancement Amendment Act of 2022, effective September 21, 2022 (D.C. Law 24-172; 69 DCR 9218), is amended by striking the phrase "this act" and inserting the phrase "subtitle A of title II of this act" in its place.</text>
+        <codify:find-replace path="§2-1411.03|(11)" count="1">
+          <find><code-cite doc="D.C. Code" path="2|14|B">this act</code-cite></find>
+          <replace><code-cite doc="D.C. Code" path="2|14|A">this act</code-cite></replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(c)</num>
         <text>Section 5081(2) of the Food Stamp Expansion Act of 2009, effective March 3, 2010 (D.C. Law 18-111; D.C. Official Code § 4-261.01(2)), is repealed.</text>
+        <codify:repeal path="§4-261.01|(2)"/>
       </para>
       <para>
         <num>(d)</num>
         <text>The lead-in language of section 1022a of the Department of General Services Establishment Act of 2011, effective March 10, 2023 (D.C. Law 24-306; D.C. Official Code § 10-551.01a), is amended by striking the word "section" and inserting the word "subtitle" in its place.</text>
+        <codify:find-replace doc="D.C. Code" path="§10-551.01a" position="first">
+          <find>this section</find>
+          <replace><code-cite doc="D.C. Code" path="10|5A">this subtitle</code-cite></replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(e)</num>
