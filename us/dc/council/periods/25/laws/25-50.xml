@@ -153,9 +153,12 @@
         <text>The lead-in language of section 16a(c) of the Advisory Neighborhood Commissions Act of 1975, effective December 3, 2020 (D.C. Law 23-14; D.C. Official Code § 1-309.13a(c)), is amended to read as follows:</text>
         <include>
           <para>
-            <codify:replace path="§1-309.13a|(c)"/>
             <num>(c)</num>
             <text>Money in the Fund shall be used by the OANC to provide services and supports to Advisory Neighborhood Commissions, which may include:</text>
+            <codify:find-replace path="§1-309.13a|(c)|text" count="1">
+              <find>Money in the Fund shall be used to provide the following services and supports at the request of Advisory Neighborhood Commissions subject to such limitations or prioritization as the Office may establish due to limitation of funding:</find>
+              <replace>Money in the Fund shall be used by the OANC to provide services and supports to Advisory Neighborhood Commissions, which may include:</replace>
+            </codify:find-replace>
           </para>
         </include>
         <aftertext>.</aftertext>
