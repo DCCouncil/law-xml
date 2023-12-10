@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-228">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-83" codify:doc="D.C. Code">
+  <num type="law">25-83</num>
   <num type="act">25-228</num>
   <num type="bill">25-390</num>
   <heading type="short">Short-Term Disability Insurance Benefit Protection Clarification Temporary Amendment Act of 2023</heading>
   <heading type="long">To amend, on a temporary basis, the Universal Paid Leave Amendment Act of 2016 to prohibit private disability insurance providers from reducing short-term disability benefits based on actual or estimated paid leave benefits to which an eligible individual may be entitled from the District, regardless of the jurisdiction in which the insurance policy was issued or written; and to amend Title I of the Insurance Trade and Economic Development Amendment Act of 2000 to make the prohibition on offsetting or reducing benefits under a private market short-term disability insurance policy based on estimated or actual benefits received under the Universal Paid Leave Amendment Act of 2016 enforceable under that law regardless of the jurisdiction in which the insurance policy was issued or written.</heading>
   <meta>
     <introduced>2023-07-10</introduced>
-    <effective projected="true">2023-12-01</effective>
+    <effective>2023-11-28</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/53526/Signed_Act/B25-0390-Signed_Act.pdf?Id=178022">D.C. Law 25-83</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/53526/Signed_Act/B25-0390-Signed_Act.pdf?Id=178022">D.C. Act 25-228</citation>
       <citation type="register">70 DCR 13760</citation>
     </citations>
@@ -21,7 +23,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Short-Term Disability Insurance Benefit Protection Clarification Temporary Amendment Act of 2023".</text>
-  <section>
+  <section codify:path="§32-541.07|(j)|(1)">
     <num>2</num>
     <text>Section 107(j)(1) of the Universal Paid Leave Amendment Act of 2016, effective</text>
     <para>
@@ -29,46 +31,61 @@
       <text>April 7, 2017 (D.C. Law 21-264; D.C. Official Code § 32-541.07(j)(1)), is amended to read as follows:</text>
       <include lvl="1">
         <para>
+        <codify:replace/>
           <num>(1)</num>
-          <text>No insurer may offset or reduce benefits or income available to an eligible individual under an individual or group policy for temporary or short-term disability insurance based on estimated or actual benefits the eligible individual may or does receive under this act, regardless of the jurisdiction in which such policy was issued, executed, written, or delivered.</text>
+          <text>No insurer may offset or reduce benefits or income available to an eligible individual under an individual or group policy for temporary or short-term disability insurance based on estimated or actual benefits the eligible individual may or does receive under <code-cite doc="D.C. Code" path="32|5|IV">this act</code-cite>, regardless of the jurisdiction in which such policy was issued, executed, written, or delivered.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:temporary doc="D.C. Code" path="§32-541.07"/>
+      <codify:insert doc="D.C. Code" path="§32-541.07" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on July 10, 2024. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§32-541.07(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
-  <section>
+  <section codify:path="§31-2231.20a">
     <num>3</num>
     <text>Section 120a the Insurance Trade and Economic Development Amendment Act of 2000, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 31-2231.20a), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended to read as follows:</text>
       <include>
         <para>
+        <codify:replace/>
           <num>(a)</num>
-          <text>No insurer may offset or reduce benefits or income available to an eligible individual under a temporary or short-term disability insurance policy, based on estimated or actual benefits the eligible individual may or does receive under the Universal Paid Leave Amendment Act of 2016, effective April 7, 2017 (D.C. Law 21-264; D.C. Official Code § 32-541.01 <em>et seq.</em>), regardless of in which jurisdiction such policy was executed, written, or delivered.</text>
+          <text>No insurer may offset or reduce benefits or income available to an eligible individual under a temporary or short-term disability insurance policy, based on estimated or actual benefits the eligible individual may or does receive under <code-cite doc="D.C. Code" path="32|5|IV">the Universal Paid Leave Amendment Act of 2016, effective April 7, 2017 (D.C. Law 21-264; D.C. Official Code § 32-541.01 <em>et seq.</em>)</code-cite>, regardless of in which jurisdiction such policy was executed, written, or delivered.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(c)">
       <num>(b)</num>
       <text>Subsection (c) is amended to read as follows:</text>
       <include>
         <para>
+        <codify:replace/>
           <num>(c)</num>
           <text>For the purposes of this section, the term:</text>
           <para>
             <num>(1)</num>
-            <text>"Eligible individual" shall have the same meaning as provided in section 101(6) of the Universal Paid Leave Amendment Act of 2016, effective April 7, 2017 (D.C. Law 21-264; D.C. Official Code § 32-541.01(6)).</text>
+            <text>"Eligible individual" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§32-541.01|(6)">section 101(6) of the Universal Paid Leave Amendment Act of 2016, effective April 7, 2017 (D.C. Law 21-264; D.C. Official Code § 32-541.01(6))</code-cite>.</text>
           </para>
           <para>
             <num>(2)</num>
-            <text>"Self-insured employer" shall have the same meaning as provided in section 101(19A) of the Universal Paid Leave Amendment Act of 2016, effective April 7, 2017 (D.C. Law 21-264; D.C. Official Code § 32-541.01(19A)).</text>
+            <text>"Self-insured employer" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§32-541.01|(19A)">section 101(19A) of the Universal Paid Leave Amendment Act of 2016, effective April 7, 2017 (D.C. Law 21-264; D.C. Official Code § 32-541.01(19A))</code-cite>.</text>
           </para>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:temporary doc="D.C. Code" path="§31-2231.20a"/>
+      <codify:insert doc="D.C. Code" path="§31-2231.20a" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on July 10, 2024. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§31-2231.20a(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
   </section>
   <section>
     <num>4</num>

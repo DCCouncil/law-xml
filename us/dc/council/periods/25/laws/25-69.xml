@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-241">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-69" codify:doc="D.C. Code">
+  <num type="law">25-69</num>
   <num type="act">25-241</num>
   <num type="bill">25-358</num>
   <heading type="short">Public Health Emergency Credit Alert Temporary Amendment Act of 2023</heading>
   <heading type="long">To amend, on a temporary basis, Chapter 38 of Title 28 of the District of Columbia Official Code to require credit reporting agencies to accept a personal statement from a consumer indicating the consumer experienced financial hardship resulting from a public health emergency; to prohibit users of credit reports from taking into consideration adverse information in a report that was the result of the consumer's action or inaction that occurred during the public health emergency, to require credit reporting agencies to notify residents of the right to request a personal statement, and to provide for civil action for such violations.</heading>
   <meta>
     <introduced>2023-07-05</introduced>
-    <effective projected="true">2023-12-01</effective>
+    <effective>2023-11-28</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/53463/Signed_Act/B25-0358-Signed_Act.pdf?Id=178044">D.C. Law 25-69</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/53463/Signed_Act/B25-0358-Signed_Act.pdf?Id=178044">D.C. Act 25-241</citation>
       <citation type="register">70 DCR 13804</citation>
     </citations>
@@ -21,6 +23,13 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Public Health Emergency Credit Alert Temporary Amendment Act of 2023".</text>
+  <codify:insert doc="D.C. Code" path="28|38" after="III" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>IV</num>
+      <heading>Public Health Emergency Credit Alert.</heading>
+    </container>
+  </codify:insert>
   <section>
     <num>2</num>
     <text>Chapter 38 of Title 28 of the District of Columbia Official Code is amended as follows:</text>
@@ -47,6 +56,7 @@
       <text>A new section 28-3871 is added to read as follows:</text>
       <include>
         <section>
+        <codify:insert doc="D.C. Code" path="28|38|IV"/>
           <prefix>§</prefix>
           <num>28-3871</num>
           <heading proof="needed">COVID-19 Emergency credit alert.</heading>
@@ -98,7 +108,7 @@
           </para>
           <para>
             <num>(g)</num>
-            <text>The following terms shall have the same meaning as defined in § 28-3861:</text>
+            <text>The following terms shall have the same meaning as defined in <code-cite doc="D.C. Code" path="§28-3861">§ 28-3861</code-cite>:</text>
             <para>
               <num>(1)</num>
               <text>Consumer;</text>
@@ -119,6 +129,12 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:temporary-new-sec doc="D.C. Code" path="§28-3871" interim-path="§28-3864" perm-eff="2023-11-28"/>
+      <codify:insert doc="D.C. Code" path="§28-3871" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section was created by temporary legislation that will expire on July 10, 2024.*
+      </text>
+      </codify:insert>
     </para>
   </section>
   <section>

@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-242">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-70" codify:doc="D.C. Code">
+  <num type="law">25-70</num>
   <num type="act">25-242</num>
   <num type="bill">25-362</num>
   <heading type="short">Advisory Neighborhood Commissions Remote Operations Temporary Amendment Act of 2023</heading>
   <heading type="long">To amend, on a temporary basis, the Advisory Neighborhood Commissions Act of 1975 to continue authorization for Advisory Neighborhood Commissions to meet remotely.</heading>
   <meta>
     <introduced>2023-07-10</introduced>
-    <effective projected="true">2023-12-01</effective>
+    <effective>2023-11-28</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/53475/Signed_Act/B25-0362-Signed_Act.pdf?Id=178052">D.C. Law 25-70</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/53475/Signed_Act/B25-0362-Signed_Act.pdf?Id=178052">D.C. Act 25-242</citation>
       <citation type="register">70 DCR 13807</citation>
     </citations>
@@ -21,24 +23,32 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Advisory Neighborhood Commissions Remote Operations Temporary Amendment Act of 2023".</text>
-  <section>
+  <section codify:path="§1-309.11|(b)">
     <num>2</num>
     <text>Section 14(b) of the Advisory Neighborhood Commissions Act of 1975, effective March 26, 1976 (D.C. Law 1-58; D.C. Official Code § 1-309.11(b)) is amended as follows:</text>
-    <para>
+    <para codify:path="(1A)">
       <num>(a)</num>
       <text>Paragraph (1A) is repealed.</text>
+      <codify:repeal/>
     </para>
     <para>
       <num>(b)</num>
       <text>A new paragraph (1C) is added to read as follows:</text>
       <include lvl="1">
         <para>
+        <codify:insert after="(1B)" num-value="(1C)"/>
           <num>(1C)</num>
           <text>Notwithstanding any other provision of law, an Advisory Neighborhood Commissioner may call a meeting and remotely participate in that meeting and vote on matters before the Commission without being physically present through a teleconference or through digital means identified by the Commission for this purpose. Members physically or remotely present shall be counted for determination of a quorum.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:temporary doc="D.C. Code" path="§1-309.11"/>
+     <codify:insert doc="D.C. Code" path="§1-309.11" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on July 10, 2024. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-309.11(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
   </section>
   <section>
     <num>3</num>
