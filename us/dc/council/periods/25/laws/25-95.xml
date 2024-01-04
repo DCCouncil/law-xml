@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-288">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-95">
+  <num type="law">25-95</num>
   <num type="act">25-288</num>
   <num type="bill">25-451</num>
   <heading type="short">River East at Grandview Condominiums Assistance Tax Exemption Temporary Amendment Act of 2023</heading>
   <heading type="long">To amend, on a temporary basis, section 47-3503 of the District of Columbia Official Code to provide for an extended real property tax exemption for unit owners of the River East at Grandview Condominiums for the duration of their relocation from the property.</heading>
   <meta>
     <introduced>2023-09-18</introduced>
-    <effective projected="true">2024-01-17</effective>
+    <effective>2023-12-20</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/53754/Signed_Act/B25-0451-Signed_Act.pdf?Id=179115">D.C. Law 25-95</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/53754/Signed_Act/B25-0451-Signed_Act.pdf?Id=179115">D.C. Act 25-288</citation>
       <citation type="register">70 DCR 14508</citation>
     </citations>
@@ -21,23 +23,31 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "River East at Grandview Condominiums Assistance Tax Exemption Temporary Amendment Act of 2023".</text>
-  <section>
+  <section codify:doc="D.C. Code" codify:path="§47-3503|(c)|(4)">
     <num>2</num>
     <text>Section 47-3503(c)(4) of the District of Columbia Official Code is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>The existing text is designated as subparagraph (A).</text>
+      <codify:redesignate-para num-value="(A)"/>
     </para>
     <para>
       <num>(b)</num>
       <text>A new subparagraph (B) is added to read as follows:</text>
       <include lvl="2">
         <para>
+          <codify:insert num-value="(B)"/>
           <num>(B)</num>
           <text>Notwithstanding subparagraph (A) of this paragraph, a homeowner of a condominium unit at the River East at Grandview Condominiums located at 1262 Talbert Street, S.E., situated in Square 5807, Lots 2047 through 2092, for which application to the Lower Income Homeownership Exemption Program was accepted and approved by the Office of Tax and Revenue, shall continue to receive the real property tax exemption prescribed under this subsection through the conclusion of real property tax year 2024 or the period provided in subparagraph (A) of this paragraph, whichever is later; provided, that the condominium unit was occupied by the household or was the owner's principal place of residence, as applicable, immediately prior to evacuation of the unit.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:temporary doc="D.C. Code" path="§47-3503"/>
+      <codify:insert doc="D.C. Code" path="§47-3503" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on August 1, 2024. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§47-3503(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
   <section>
