@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-86">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-86" codify:doc="D.C. Code">
   <num type="law">25-86</num>
   <num type="act">25-282</num>
   <num type="bill">25-118</num>
@@ -22,6 +22,13 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Public Health Emergency Credit Alert Amendment Act of 2023".</text>
+  <codify:insert doc="D.C. Code" path="28|38" after="III" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>IV</num>
+      <heading>Public Health Emergency Credit Alert.</heading>
+    </container>
+  </codify:insert>
   <section>
     <num>2</num>
     <text>Chapter 38 of Title 28 of the District of Columbia Official Code is amended as follows:</text>
@@ -43,7 +50,7 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§28-3861|(2)">
       <num>(b)</num>
       <text>Section 28-3861(2) is amended to read as follows:</text>
       <include lvl="1">
@@ -75,6 +82,8 @@
           <num>IV</num>
           <heading>Public Health Emergency Credit Alert.</heading>
           <section>
+            <codify:insert doc="D.C. Code" path="28|38|IV"/>
+            <!-- enacted title, do not use "as added" -->
             <prefix>§</prefix>
             <num>28-3871</num>
             <heading proof="needed">Public health emergency credit alert.</heading>
@@ -82,7 +91,7 @@
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>If a consumer reports in good faith that the consumer has experienced financial hardship resulting directly or indirectly from a public health emergency declared pursuant to § 7-2304.01, a credit reporting agency maintaining a file on the consumer shall accept and include in that file a personal statement furnished by the consumer indicating that the consumer has been financially impacted by the public health emergency.</text>
+                <text>If a consumer reports in good faith that the consumer has experienced financial hardship resulting directly or indirectly from a public health emergency declared pursuant to <cite doc="D.C. Code" path="§7-2304.01">§ 7-2304.01</cite>, a credit reporting agency maintaining a file on the consumer shall accept and include in that file a personal statement furnished by the consumer indicating that the consumer has been financially impacted by the public health emergency.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -97,19 +106,19 @@
               <num>(c)</num>
               <para>
                 <num>(1)</num>
-                <text>No user of a credit report shall consider adverse information in a report that was the result of an action or inaction of a consumer that occurred during, and was directly or indirectly the result of, a public health emergency declared pursuant to § 7-2304.01, if:</text>
+                <text>No user of a credit report shall consider adverse information in a report that was the result of an action or inaction of a consumer that occurred during, and was directly or indirectly the result of, a public health emergency declared pursuant to <cite doc="D.C. Code" path="§7-2304.01">§ 7-2304.01</cite>, if:</text>
                 <para>
                   <num>(A)</num>
                   <text>The credit report includes a personal statement pursuant to subsection (a) of this section; or</text>
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>The consumer provides a written statement to the user of a credit report that indicates in good faith that the consumer has experienced financial hardship resulting directly or indirectly from the public health emergency declared pursuant to § 7-2304.01, before the user of the credit report makes a determination.</text>
+                  <text>The consumer provides a written statement to the user of a credit report that indicates in good faith that the consumer has experienced financial hardship resulting directly or indirectly from the public health emergency declared pursuant to <cite doc="D.C. Code" path="§7-2304.01">§ 7-2304.01</cite>, before the user of the credit report makes a determination.</text>
                 </para>
               </para>
               <para>
                 <num>(2)</num>
-                <text>If the consumer receives a denial or rejection by the user of a credit report due to adverse information that was the result of an action or inaction of a consumer that occurred during, and was directly or indirectly the result of, the public health emergency declared pursuant to § 7-2304.01, the user must inform the consumer of the consumer's right to provide a written statement pursuant to paragraph (1) of this subsection.</text>
+                <text>If the consumer receives a denial or rejection by the user of a credit report due to adverse information that was the result of an action or inaction of a consumer that occurred during, and was directly or indirectly the result of, the public health emergency declared pursuant to <cite doc="D.C. Code" path="§7-2304.01">§ 7-2304.01</cite>, the user must inform the consumer of the consumer's right to provide a written statement pursuant to paragraph (1) of this subsection.</text>
               </para>
             </para>
             <para>
@@ -153,7 +162,7 @@
             </para>
             <para>
               <num>(g)</num>
-              <text>The following terms shall have the same meaning as set forth in § 28-3861:</text>
+              <text>The following terms shall have the same meaning as set forth in <cite doc="D.C. Code" path="§28-3861">§ 28-3861</cite>:</text>
               <para>
                 <num>(1)</num>
                 <text>Consumer;</text>
