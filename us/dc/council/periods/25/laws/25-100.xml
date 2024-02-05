@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-301">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-100" codify:doc="D.C. Code">
+  <num type="law">25-100</num>
   <num type="act">25-301</num>
   <num type="bill">25-124</num>
   <heading type="short">Prior Authorization Reform Amendment Act of 2023</heading>
   <heading type="long">To prescribe the manner in which a utilization review entity shall make publicly available information on prior authorization requirements and restrictions, to set notice requirements for prior authorization determinations, to prescribe the minimum length that a prior authorization approval shall be considered valid, to set the qualifications for personnel authorized to make adverse determinations and appeals, to permit enrollees to appeal an adverse determination and to set deadlines for submissions of appeals, to prescribe a utilization review entity's obligations to review requests for prior authorization for non-urgent, urgent, and emergency health care services, to permit utilization review entities to require prior authorization only when based on a determination of medical necessity for different care and to prohibit a utilization review entity from requiring prior authorization for a treatment solely based on cost, to prohibit a utilization review entity from revoking, limiting, conditioning, or restricting approval if care was provided within 45 days of approval, to require that a utilization review entity honor an approval granted by a previous utilization review entity for at least the initial 60 days of coverage, to clarify that health care services are deemed authorized if a utilization review entity fails to comply with title I of this act, and to require a utilization review entity make certain statistics available to the public; to amend the Uniform Health Insurance Claims Forms Act of 1995 to require all utilization review entities accept and respond to prior authorization requests using the NCPDP SCRIPT Standard ePA transaction by January 1, 2024; and to amend the Health Insurance Portability and Accountability Federal Law Conformity and No-Fault Motor Vehicle Insurance Act of 1998 to require that employers provide notice to employees of treatments, including particular services or medications, not included in the negotiated health benefit plan but that are included in the standard health benefit plan or formulary offered by the health insurer.</heading>
   <meta>
     <introduced>2023-02-07</introduced>
-    <effective projected="true">2024-02-01</effective>
+    <effective>2024-01-17</effective>
     <citations>
-      <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/52301/Signed_Act/B25-0124-Signed_Act.pdf?Id=180462">D.C. Act 25-301</citation>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/52301/Signed_Act/B25-0124-Signed_Act.pdf?Id=180462">D.C. Law 25-100</citation>
       <citation type="register">70 DCR 15238</citation>
     </citations>
     <history url="https://lims.dccouncil.us/Legislation/B25-0124">
@@ -20,16 +21,24 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Prior Authorization Reform Amendment Act of 2023".</text>
+  <codify:insert doc="D.C. Code" path="31" after="38E" history="false">
+        <container>
+          <prefix>Chapter</prefix>
+          <num>38F</num>
+          <heading>Prior Authorization.</heading>
+        </container>
+      </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>I</num>
     <heading>PRIOR AUTHORIZATION.</heading>
     <section>
+    <codify:insert path="31|38F" num-value="31-3881"/>
       <num>101</num>
       <heading proof="needed">Definitions.</heading>
       <para>
         <num undesignated="true">(a)</num>
-        <text>For purposes of this title, the term:</text>
+        <text>For purposes of <code-cite doc="D.C. Code" path="31|38F">this title</code-cite>, the term:</text>
         <para>
           <num>(1)</num>
           <text>"Adverse determination" means a decision by a utilization review entity that the health care services furnished or proposed to be furnished to an enrollee is denied, reduced, or terminated as being not medically necessary or experimental or investigational.</text>
@@ -87,11 +96,11 @@
           <text>"Utilization review entity" means an individual or entity that performs prior authorization review for:</text>
           <para>
             <num>(A)</num>
-            <text>A health insurer as that term is defined in section 5040 of the Healthy DC Act of 2008, effective August 16, 2008 (D.C. Law 17-219; D.C. Official Code § 4-631);</text>
+            <text>A health insurer as that term is defined in <code-cite doc="D.C. Code" path="§4-631">section 5040 of the Healthy DC Act of 2008, effective August 16, 2008 (D.C. Law 17-219; D.C. Official Code § 4-631)</code-cite>;</text>
           </para>
           <para>
             <num>(B)</num>
-            <text>A preferred provider organization or health maintenance organization as those terms are described in section 2105(2) and (3) of the District of Columbia Comprehensive Merit Personnel Act of 1978, effective October 1, 1987 (D.C. Law 8-190; D.C. Official Code § 1-621.05(2) and (3));</text>
+            <text>A preferred provider organization or health maintenance organization as those terms are described in <code-cite doc="D.C. Code" path="§1-621.05|(2)">section 2105(2)</code-cite> and <code-cite doc="D.C. Code" path="§1-621.05|(3)">(3) of the District of Columbia Comprehensive Merit Personnel Act of 1978, effective October 1, 1987 (D.C. Law 8-190; D.C. Official Code § 1-621.05(2) and (3))</code-cite>;</text>
           </para>
           <para>
             <num>(C)</num>
@@ -107,8 +116,10 @@
           </para>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§31-3881" applicability-path="§301" display-template=""/>
     </section>
     <section>
+    <codify:insert path="31|38F" after="31-3881" num-value="31-3882"/>
       <num>102</num>
       <heading proof="needed">Prior authorization requirements and restrictions.</heading>
       <para>
@@ -194,8 +205,10 @@
         <num>(d)</num>
         <text>If a utilization review entity intends to amend or replace its prior authorization requirements, any changes to the requirements shall not be effective until the utilization review entity's website has been updated to reflect the new requirements.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§31-3882" applicability-path="§301" display-template=""/>
     </section>
     <section>
+    <codify:insert path="31|38F" after="§31-3882" num-value="31-3883"/>
       <num>103</num>
       <heading proof="needed">Prior authorization in non-urgent, urgent, and emergency circumstances.</heading>
       <para>
@@ -288,8 +301,10 @@
         <num>(f)</num>
         <text>For purposes of this section, the term "required information" includes the results of any face-to-face clinical evaluation or second opinion that may be required under the utilization review entity's prior authorization requirements.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§31-3883" applicability-path="§301" display-template=""/>
     </section>
     <section>
+    <codify:insert path="31|38F" after="§31-3883" num-value="31-3884"/>
       <num>104</num>
       <heading proof="needed">Length of prior authorization.</heading>
       <para>
@@ -311,8 +326,10 @@
         <num>(c)</num>
         <text>A utilization review entity may not revoke, limit, condition, or restrict approval if care is provided within 45 business days from the date the enrollee receives notice of the approval; provided, that approval may be revoked or otherwise restricted in cases of fraud.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§31-3884" applicability-path="§301" display-template=""/>
     </section>
     <section>
+    <codify:insert path="31|38F" after="§31-3884" num-value="31-3885"/>
       <num>105</num>
       <heading proof="needed">Appeals.</heading>
       <para>
@@ -353,6 +370,7 @@
       </para>
     </section>
     <section>
+    <codify:insert path="31|38F" after="§31-3885" num-value="31-3886"/>
       <num>106</num>
       <heading proof="needed">Review personnel qualifications.</heading>
       <para>
@@ -419,6 +437,7 @@
       </para>
     </section>
     <section>
+    <codify:insert path="31|38F" after="§31-3886" num-value="31-3887"/>
       <num>107</num>
       <heading proof="needed">Continuity of care for enrollees.</heading>
       <para>
@@ -442,25 +461,27 @@
       </para>
     </section>
     <section>
+    <codify:insert path="31|38F" after="§31-3887" num-value="31-3888"/>
       <num>108</num>
       <heading proof="needed">Failure to comply and penalties.</heading>
       <para>
         <num>(a)</num>
-        <text>Any failure by a utilization review entity to comply with the requirements specified in this title shall result in the health care service in question being deemed approved.</text>
+        <text>Any failure by a utilization review entity to comply with the requirements specified in <code-cite doc="D.C. Code" path="31|38F">this title</code-cite> shall result in the health care service in question being deemed approved.</text>
       </para>
       <para>
         <num>(b)</num>
-        <text>An action by a utilization review entity that establishes a pattern or practice of repeated violations of this title, as determined by the Commissioner of the Department of Insurance and Securities Regulation, shall constitute a violation of the Insurance Trade and Economic Development Amendment Act of 2000, effective April 3, 2001 (D.C. Law 13-265; D.C. Official Code § 31-2231.01 <em>et seq.</em>).</text>
+        <text>An action by a utilization review entity that establishes a pattern or practice of repeated violations of <code-cite doc="D.C. Code" path="31|38F">this title</code-cite>, as determined by the Commissioner of the Department of Insurance and Securities Regulation, shall constitute a violation of <code-cite doc="D.C. Code" path="31|22A">the Insurance Trade and Economic Development Amendment Act of 2000, effective April 3, 2001 (D.C. Law 13-265; D.C. Official Code § 31-2231.01 <em>et seq.</em>)</code-cite>.</text>
       </para>
     </section>
     <section>
+    <codify:insert path="31|38F" after="§31-3888" num-value="31-3889"/>
       <num>109</num>
       <heading proof="needed">Data transparency.</heading>
       <para>
         <num>(a)</num>
         <para>
           <num>(1)</num>
-          <text>Beginning January 1, 2025, a utilization review entity shall make available on its website, or by phone upon request, to an enrollee, representative, and health care provider, the information required by paragraph (2) of this subsection regarding the enrollee's active prior authorization requests made to that utilization review entity in at least the preceding 5 years; provided that, this paragraph shall not apply to a prior authorization request made before the effective date of this title.</text>
+          <text>Beginning January 1, 2025, a utilization review entity shall make available on its website, or by phone upon request, to an enrollee, representative, and health care provider, the information required by paragraph (2) of this subsection regarding the enrollee's active prior authorization requests made to that utilization review entity in at least the preceding 5 years; provided that, this paragraph shall not apply to a prior authorization request made before <span codify:value="January 17, 2024">the effective date of this title</span>.</text>
         </para>
         <para>
           <num>(2)</num>
@@ -471,7 +492,7 @@
           </para>
           <para>
             <num>(B)</num>
-            <text>A copy of all notices of determination provided to the enrollee issued pursuant to section 103 of this title.</text>
+            <text>A copy of all notices of determination provided to the enrollee issued pursuant to <code-cite doc="D.C. Code" path="§31-3883">section 103</code-cite> of <code-cite doc="D.C. Code" path="31|38F">this title</code-cite>.</text>
           </para>
         </para>
       </para>
@@ -515,22 +536,25 @@
         <num>(c)</num>
         <text>This section shall not apply to information pertaining to long-term services and supports.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§31-3889" applicability-path="§301" display-template=""/>
     </section>
     <section>
+    <codify:insert path="31|38F" after="§31-3889" num-value="31-3890"/>
       <num>110</num>
       <heading proof="needed">Rulemaking.</heading>
-      <text proof="needed">The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), may issue rules to implement the provisions of this title.</text>
+      <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, may issue rules to implement the provisions of <code-cite doc="D.C. Code" path="31|38F">this title</code-cite>.</text>
     </section>
   </container>
   <container>
     <prefix>TITLE</prefix>
     <num>II</num>
     <heading>AMENDMENTS.</heading>
-    <section>
+    <section codify:path="§31-3201">
       <num>201</num>
       <text>Section 2 of the Uniform Health Insurance Claim Forms Act of 1995, effective February 27, 1996 (D.C. Law 11-89; D.C. Code § 31-3201), is amended by adding a new subsection (c) to read as follows:</text>
       <include>
         <para>
+        <codify:insert after="(b)" num-value="(c)"/>
           <num>(c)</num>
           <para>
             <num>(1)</num>
@@ -556,11 +580,12 @@
       </include>
       <aftertext>.</aftertext>
     </section>
-    <section>
+    <section codify:path="31|33|III">
       <num>202</num>
       <text>The Health Insurance Portability and Accountability Federal Law Conformity and No-Fault Motor Vehicle Insurance Act of 1998, effective April 13, 1999 (D.C. Law 12-209; D.C. Official Code § 31-3301.01 <em>et seq.</em>), is amended by adding a new section 313e to read as follows:</text>
       <include>
         <section>
+        <codify:insert after="§31-3303.13d" num-value="31-3303.13e" history-prefix="as added"/>
           <num>313e</num>
           <heading proof="needed">Negotiated health benefit plans.</heading>
           <para>
@@ -583,6 +608,7 @@
             <num>(c)</num>
             <text>For the purposes of this section, the term "negotiated health benefit plan" means a health benefit plan that an employer negotiates with a health insurer to provide to its employees which may otherwise differ from the standard health benefit plan offered by the health insurer.</text>
           </para>
+          <annotation doc="D.C. Law 12-209" type="History" path="§313e">Apr. 13, 1999, D.C. Law 12-209, § 313e</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -598,6 +624,14 @@
       <para>
         <num>(a)</num>
         <text>Sections 101(5), (10)(C), and (D), 102(a)(2)(A)(i) and (ii), 103(a)(2), 104(b)(2), and 109(c) shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+        <codify:applicability doc="D.C. Law 25-100" path="§101|(5)" date="notfunded" history="false"/>
+        <codify:applicability doc="D.C. Law 25-100" path="§101|(10)|(C)" date="notfunded" history="false"/>
+        <codify:applicability doc="D.C. Law 25-100" path="§101|(10)|(D)" date="notfunded" history="false"/>
+        <codify:applicability doc="D.C. Law 25-100" path="§102|(a)|(2)|(A)|(i)" date="notfunded" history="false"/>
+        <codify:applicability doc="D.C. Law 25-100" path="§102|(a)|(2)|(A)|(ii)" date="notfunded" history="false"/>
+        <codify:applicability doc="D.C. Law 25-100" path="§103|(a)|(2)" date="notfunded" history="false"/>
+        <codify:applicability doc="D.C. Law 25-100" path="§104|(b)|(2)" date="notfunded" history="false"/>
+        <codify:applicability doc="D.C. Law 25-100" path="§109|(c)" date="notfunded" history="false"/>
       </para>
       <para>
         <num>(b)</num>
