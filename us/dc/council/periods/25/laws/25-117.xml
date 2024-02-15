@@ -1,40 +1,43 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-296" codify:doc="D.C. Code">
-  <num type="act">25-296</num>
-  <num type="bill">25-531</num>
-  <heading type="short">Let Our Vows Endure (LOVE) Emergency Amendment Act of 2023</heading>
-  <heading type="long">To amend, on an emergency basis, An Act To establish a code of law for the District of Columbia to authorize the Mayor to issue marriage licenses and authorize temporary marriage officiants during a period of time when the Clerk of the Superior Court of the District of Columbia is not issuing marriage licenses because of a federal government shutdown.</heading>
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-117" codify:doc="D.C. Code">
+  <num type="law">25-117</num>
+  <num type="act">25-323</num>
+  <num type="bill">25-532</num>
+  <heading type="short">Let Our Vows Endure (LOVE) Temporary Amendment Act of 2023</heading>
+  <heading type="long">To amend, on a temporary basis, An Act To establish a code of law for the District of Columbia to authorize the Mayor to issue marriage licenses and authorize temporary marriage officiants during a period of time when the Clerk of the Superior Court of the District of Columbia is not issuing marriage licenses because of a federal government shutdown.</heading>
   <meta>
-    <introduced>2023-10-02</introduced>
-    <effective>2023-11-15</effective>
+    <introduced>2023-09-29</introduced>
+    <effective>2024-02-06</effective>
+    <temporary/>
     <citations>
-      <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/54017/Signed_Act/B25-0531-Signed_Act.pdf?Id=180458">D.C. Act 25-296</citation>
-      <citation type="register">70 DCR 15226</citation>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/54018/Signed_Act/B25-0532-Signed_Act.pdf?Id=181828">D.C. Law 25-117</citation>
+      <citation type="register">70 DCR 15726</citation>
     </citations>
-    <history url="https://lims.dccouncil.us/Legislation/B25-0531">
-      <vote date="2023-11-07" reading="Final"/>
-      <enacted>2023-11-15</enacted>
+    <history url="https://lims.dccouncil.us/Legislation/B25-0532">
+      <vote date="2023-11-07" reading="First"/>
+      <vote date="2023-11-21" reading="Final"/>
+      <enacted>2023-12-07</enacted>
       <summary/>
       <committee>Retained by the Council</committee>
     </history>
   </meta>
-  <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Let Our Vows Endure (LOVE) Emergency Amendment Act of 2023".</text>
+  <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Let Our Vows Endure (LOVE) Temporary Amendment Act of 2023".</text>
   <section>
     <num>2</num>
     <text>An Act To establish a code of law for the District of Columbia, approved March 3, 1901 (31 Stat. 1391; D.C. Official Code § 46-401 <em>passim</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§46-406|(a)|(4)">
       <num>(a)</num>
       <text>Section 1288(a)(4) (D.C. Official Code § 46-406(a)(4)) is amended by striking the phrase "authorized by the Clerk" and inserting the phrase "authorized by the Mayor or the Clerk" in its place.</text>
-      <!-- <codify:find-replace path="§46-406|(a)|(4)" count="1">
+      <codify:find-replace count="1">
         <find>authorized by the Clerk</find>
         <replace>authorized by the Mayor or the Clerk</replace>
-      </codify:find-replace> -->
-      <codify:emergency doc="D.C. Code" path="§46-406"/>
-      <!-- <codify:insert doc="D.C. Code" path="§46-406" before="heading" history="false" display-template="">
+      </codify:find-replace>
+      <codify:temporary doc="D.C. Code" path="§46-406"/>
+      <codify:insert doc="D.C. Code" path="§46-406" before="heading" history="false" display-template="">
         <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on February 13, 2024. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§46-406(Perm)">Permanent Version</cite>.*
+      *NOTE: This section includes amendments by temporary legislation that will expire on September 18, 2024. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§46-406(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert> -->
+      </codify:insert>
     </para>
     <para codify:path="§46-410">
       <num>(b)</num>
@@ -46,10 +49,10 @@
           <section>
             <num>1291</num>
             <heading proof="needed">Duty of the Mayor or Clerk.</heading>
-            <!-- <codify:find-replace count="1">
+            <codify:find-replace count="1">
               <find>Issuance of license — Duty of Clerk; false swearing by applicant deemed perjury</find>
               <replace>Duty of the Mayor or Clerk</replace>
-            </codify:find-replace> -->
+            </codify:find-replace>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -57,31 +60,31 @@
       <para>
         <num>(2)</num>
         <text>The text is amended by striking the phrase "the Clerk" both times it appears and inserting the phrase "the Mayor or the Clerk" in its place.</text>
-        <!-- <codify:find-replace count="2">
+        <codify:find-replace count="2">
           <find>the Clerk</find>
           <replace>the Mayor or the Clerk</replace>
-        </codify:find-replace> -->
-      </para>
-      <codify:emergency doc="D.C. Code" path="§46-410"/>
-      <!-- <codify:insert doc="D.C. Code" path="§46-410" before="heading" history="false" display-template="">
-        <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on February 13, 2024. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§46-410(Perm)">Permanent Version</cite>.*
+        </codify:find-replace>
+        <codify:temporary doc="D.C. Code" path="§46-410"/>
+        <codify:insert doc="D.C. Code" path="§46-410" before="heading" history="false" display-template="">
+          <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on September 18, 2024. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§46-410(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert> -->
+        </codify:insert>
+      </para>
     </para>
     <para codify:path="§46-411">
       <num>(c)</num>
       <text>Section 1292 (D.C. Official Code § 46-411) is amended by striking the word "Clerk" wherever it appears and inserting the phrase "Mayor or Clerk" in its place.</text>
-      <!-- <codify:find-replace count="3">
+      <codify:find-replace count="3">
         <find>Clerk</find>
         <replace>Mayor or Clerk</replace>
-      </codify:find-replace> -->
-      <codify:emergency doc="D.C. Code" path="§46-411"/>
-      <!-- <codify:insert doc="D.C. Code" path="§46-411" before="heading" history="false" display-template="">
+      </codify:find-replace>
+      <codify:temporary doc="D.C. Code" path="§46-411"/>
+      <codify:insert doc="D.C. Code" path="§46-411" before="heading" history="false" display-template="">
         <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on February 13, 2024. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§46-411(Perm)">Permanent Version</cite>.*
+      *NOTE: This section includes amendments by temporary legislation that will expire on September 18, 2024. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§46-411(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert> -->
+      </codify:insert>
     </para>
     <para codify:path="§46-412">
       <num>(d)</num>
@@ -89,22 +92,22 @@
       <para>
         <num>(1)</num>
         <text>The existing text is designated as subsection (a).</text>
-        <!-- <codify:redesignate-para num-value="(a)"/> -->
+        <codify:redesignate-para num-value="(a)"/>
       </para>
       <para codify:path="(a)">
         <num>(2)</num>
         <text>The newly designated subsection (a) is amended by striking the phrase "following form:" and inserting the phrase "following form (except when such a license is issued by the Mayor, in which case a form consistent with the provisions of subsection (b) of this section shall be used):" in its place.</text>
-        <!-- <codify:find-replace count="3">
+        <codify:find-replace count="3">
           <find>following form:</find>
           <replace>following form (except when such a license is issued by the Mayor, in which case a form consistent with the provisions of subsection (b) of this section shall be used):</replace>
-        </codify:find-replace> -->
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subsection (b) is added to read as follows:</text>
         <include>
           <para>
-            <!-- <codify:insert/> -->
+            <codify:insert after="(a)" num-value="(b)"/>
             <num>(b)</num>
             <para>
               <num>(1)</num>
@@ -120,18 +123,18 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>The Mayor shall issue the form for a license described in paragraph (1) of this subsection to persons authorized by <code-cite doc="D.C. Code" path="§46-406">section 1288</code-cite> to perform a marriage ceremony when authorized to issue a license pursuant to <span codify:value="["/><span codify:value="§§"/> <code-cite doc="D.C. Code" path="§46-404" codify:value="46-404">the Let Our Vows Endure Emergency Amendment Act of 2023, passed on emergency basis on November 7, 2023 (Enrolled version of Bill 25-531)</code-cite> <span codify:value="through"/> <code-cite doc="D.C. Code" path="§46-415.01" codify:value="46-415.01"/> <span codify:value="]"/>.</text>
+              <text>The Mayor shall issue the form for a license described in paragraph (1) of this subsection to persons authorized by <code-cite doc="D.C. Code" path="§46-406">section 1288</code-cite> to perform a marriage ceremony when authorized to issue a license pursuant to <span codify:value="["/><span codify:value="§§"/> <code-cite doc="D.C. Code" path="§46-401" codify:value="46-401">sections 1283 through 1295a</code-cite> <span codify:value="through"/> <code-cite doc="D.C. Code" path="§46-415.01" codify:value="46-415.01"/> <span codify:value="]"/>.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <codify:emergency doc="D.C. Code" path="§46-412"/>
-      <!-- <codify:insert doc="D.C. Code" path="§46-412" before="heading" history="false" display-template="">
+      <codify:temporary doc="D.C. Code" path="§46-412"/>
+      <codify:insert doc="D.C. Code" path="§46-412" before="heading" history="false" display-template="">
         <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on February 13, 2024. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§46-412(Perm)">Permanent Version</cite>.*
+      *NOTE: This section includes amendments by temporary legislation that will expire on September 18, 2024. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§46-412(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert> -->
+      </codify:insert>
     </para>
     <para codify:path="§46-414">
       <num>(e)</num>
@@ -139,14 +142,14 @@
       <para>
         <num>(1)</num>
         <text>The existing text is designated as subsection (a).</text>
-        <!-- <codify:redesignate-para path="§46-414" num-value="(a)"/> -->
+        <codify:redesignate-para num-value="(a)"/>
       </para>
       <para>
         <num>(2)</num>
         <text>New subsections (b) and (c) are added to read as follows:</text>
         <include>
           <para>
-            <!-- <codify:insert/> -->
+            <codify:insert after="(a)" num-value="(b)"/>
             <num>(b)</num>
             <para>
               <num>(1)</num>
@@ -178,7 +181,7 @@
             </para>
           </para>
           <para>
-            <!-- <codify:insert/> -->
+            <codify:insert after="(b)" num-value="(c)"/>
             <num>(c)</num>
             <para>
               <num>(1)</num>
@@ -192,33 +195,32 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <codify:emergency doc="D.C. Code" path="§46-414"/>
-      <!-- <codify:insert doc="D.C. Code" path="§46-414" before="heading" history="false" display-template="">
+      <codify:temporary doc="D.C. Code" path="§46-414"/>
+      <codify:insert doc="D.C. Code" path="§46-414" before="heading" history="false" display-template="">
         <text>
-      *NOTE: This section includes amendments by emergency legislation that will expire on February 13, 2024. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§46-414(Perm)">Permanent Version</cite>.*
+      *NOTE: This section includes amendments by temporary legislation that will expire on September 18, 2024. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§46-414(Perm)">Permanent Version</cite>.*
       </text>
-      </codify:insert> -->
+      </codify:insert>
     </para>
     <para>
       <num>(f)</num>
       <text>A new section 1297a is added to read as follows:</text>
       <include>
         <section>
-          <!-- <codify:insert path="46|4" after="§46-415" num-value="46-415.01" history-prefix="as added"/> -->
+          <codify:insert path="46|4" after="§46-415" num-value="46-415.01" history-prefix="as added"/>
           <num>1297a</num>
           <heading proof="needed">Applicability of authority of Mayor to issue marriage licenses.</heading>
-          <text>The authority of the Mayor under <span codify:value="["/><span codify:value="§§"/> <code-cite doc="D.C. Code" path="§46-404" codify:value="46-404">this act</code-cite> <span codify:value="through"/> <code-cite doc="D.C. Code" path="§46-415.01" codify:value="46-415.01"/><span codify:value="]"/> to issue marriage licenses and authorize officiants shall apply only during a period of time when the Clerk of the Superior Court of the District of Columbia is not issuing marriage licenses because of a total or partial federal government shutdown.</text>
+          <text>The authority of the Mayor under <span codify:value="["/><span codify:value="§§"/> <code-cite doc="D.C. Code" path="§46-401" codify:value="46-401">sections 1283 through 1295a</code-cite> <span codify:value="through"/> <code-cite doc="D.C. Code" path="§46-415.01" codify:value="46-415.01"/> <span codify:value="]"/> to issue marriage licenses and authorize officiants shall apply only during a period of time when the Clerk of the Superior Court of the District of Columbia is not issuing marriage licenses because of a total or partial federal government shutdown.</text>
         </section>
       </include>
       <aftertext>.</aftertext>
       <annotation type="History" doc="Stat. 56-2-ch854" path="§1297a">Mar. 3, 1901, 31 Stat. 1394, ch. 854, § 1297a</annotation>
-      <!-- <codify:emergency doc="D.C. Code" path="§46-415.01"/> -->
-      <codify:emergency-new-sec doc="D.C. Code" path="§46-415.01" interim-path="§46-415" perm-eff="2024-02-06"/>
-      <!-- <codify:insert doc="D.C. Code" path="§46-415.01" before="heading" history="false" display-template="">
+      <codify:temporary-new-sec doc="D.C. Code" path="§46-415.01" interim-path="§46-415" perm-eff="2024-02-06"/>
+      <codify:insert doc="D.C. Code" path="§46-415.01" before="heading" history="false" display-template="">
         <text>
-      *NOTE: This section was created by emergency legislation that will expire on February 13, 2024.*
+      *NOTE: This section was created by temporary legislation that will expire on September 18, 2024.*
       </text>
-      </codify:insert> -->
+      </codify:insert>
     </para>
   </section>
   <section>
@@ -229,6 +231,13 @@
   <section>
     <num>4</num>
     <heading proof="needed">Effective date.</heading>
-    <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), and shall remain in effect no longer than 90 days, as provided for emergency acts of the Council of the District of Columbia in section 412(a) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 788; D.C. Official Code § 1-204.12(a)).</text>
+    <para>
+      <num>(a)</num>
+      <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto), a 30-day period of congressional review as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)), and publication in the District of Columbia Register.</text>
+    </para>
+    <para>
+      <num>(b)</num>
+      <text>This act shall expire after 225 days of its having taken effect.</text>
+    </para>
   </section>
 </document>
