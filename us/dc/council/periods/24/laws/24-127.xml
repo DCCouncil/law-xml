@@ -281,10 +281,20 @@
                 <para>
                   <num>(vii)</num>
                   <text>This subparagraph shall expire on December 31, 2023.</text>
+                  
                 </para>
+                
               </para>
             </include>
             <aftertext>.</aftertext>
+            <codify:repeal path="§25-113|(a)|(3)|(D)" history="false" display-template=""/>
+            <codify:find-replace path="§25-113|(a)|(3)|(D)" count="1" history="false" display-template="">
+              <find>Repealed</find>
+              <replace>Expired</replace>
+            </codify:find-replace>
+            <codify:annotation doc="D.C. Code" path="§25-113" type="Expiration of Law" history="false"><cite doc="D.C. Law 24-127" path="§2|(a)|(4)|(A)(i)">Section 2(a)(4)(A)(i) of D.C. Law 24-127</cite> provided that subparagraph (D) of subsection (a)(3) shall expire on December 31, 2023.
+        </codify:annotation>
+            
           </para>
           <para>
             <num>(ii)</num>
@@ -472,11 +482,11 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <codify:insert doc="D.C. Code" path="§25-113" before="heading" history="false" display-template="">
+        <!-- <codify:insert doc="D.C. Code" path="§25-113" before="heading" history="false" display-template="">
           <text>
       *NOTE: This section contains <cite doc="D.C. Code" path="§25-113|(a)|(3)|(D)|(vii)">provisions that will expire on December 31, 2023</cite>.*
       </text>
-        </codify:insert>
+        </codify:insert> -->
       </para>
       <para codify:path="§25-113.01">
         <num>(5)</num>
@@ -1441,20 +1451,23 @@
         <num>(3)</num>
         <text>Section 25-508 is amended by striking the period and inserting the phrase "Sports wagering $100/year." in its place.</text>
         <codify:find-replace count="1">
-          <find><tr>
-                  <td>Game of skill machine endorsement</td>
-                  <td>$200/year.</td>
-                </tr></find>
-          <replace><tr>
-                  <td>Game of skill machine endorsement</td>
-                  <td>$200/year</td>
-                </tr>
-                <tr>
-                  <td>Sports wagering</td>
-                  <td>$100/year.</td>
-                </tr></replace>
+          <find>
+            <tr>
+              <td>Game of skill machine endorsement</td>
+              <td>$200/year.</td>
+            </tr>
+          </find>
+          <replace>
+            <tr>
+              <td>Game of skill machine endorsement</td>
+              <td>$200/year</td>
+            </tr>
+            <tr>
+              <td>Sports wagering</td>
+              <td>$100/year.</td>
+            </tr>
+          </replace>
         </codify:find-replace>
-        
       </para>
       <para>
         <num>(4)</num>
