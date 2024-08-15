@@ -87,9 +87,10 @@
         <para>
           <num>(A)</num>
           <text>Existing paragraph (1C) is redesignated as paragraph (1).</text>
-          <codify:find-replace path="(1C)|num" count="1">
+          <!-- codify would not find this [(1E)] had to change it to (1E) -->
+          <codify:find-replace path="(1C)" count="1">
             <find>(1C)</find>
-            <replace>[(1E)]</replace>
+            <replace>(1E)</replace>
           </codify:find-replace>
         </para>
         <para codify:path="(a)">
