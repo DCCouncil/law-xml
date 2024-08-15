@@ -301,7 +301,7 @@
         </para>
         <para>
           <num>(2)</num>
-          
+          <!-- should be "second paragraph (1) is designated as paragraph (1E)" -->
           <text>The second paragraph (1) is designated as paragraph (1C).</text>
           <codify:find-replace path="[(1C)]" count="1">
             <find>[(1C)]</find>
@@ -311,6 +311,11 @@
             <find>[(1D)]</find>
             <replace>(1D)</replace>
           </codify:find-replace>
+          <!-- codify would not find this [(1E)] had to change it to (1E) in Law 23-97-->
+          <!-- <codify:find-replace path="[(1E)]" count="1">
+            <find>[(1E)]</find>
+            <replace>(1E)</replace>
+          </codify:find-replace> -->
         </para>
         <para>
           <num>(3)</num>
@@ -1722,7 +1727,7 @@
           <text>Subsection (c) is amended by striking the period and inserting the phrase "; except, that from the effective date of the Health Occupations Revision General Amendment Act of 2024, passed on 2nd reading on May 7, 2024 (Enrolled version of Bill 25-545), of the members of the Board, 3 shall be respiratory care practitioners licensed in the District, one shall be either a physician with knowledge and experience in the practice of respiratory care or a respiratory care practitioner, licensed in the District, and one shall be a consumer member.".</text>
           <codify:find-replace count="1">
             <find>.</find>
-            <replace>; except, that from the effective date of the Health Occupations Revision General Amendment Act of 2024, passed on 2nd reading on May 7, 2024 (Enrolled version of Bill 25-545), of the members of the Board, 3 shall be respiratory care practitioners licensed in the District, one shall be either a physician with knowledge and experience in the practice of respiratory care or a respiratory care practitioner, licensed in the District, and one shall be a consumer member.</replace>
+            <replace>; except, that from <span codify:value="July 19, 2024">the effective date of the Health Occupations Revision General Amendment Act of 2024, passed on 2nd reading on May 7, 2024 (Enrolled version of Bill 25-545)</span>, of the members of the Board, 3 shall be respiratory care practitioners licensed in the District, one shall be either a physician with knowledge and experience in the practice of respiratory care or a respiratory care practitioner, licensed in the District, and one shall be a consumer member.</replace>
           </codify:find-replace>
         </para>
       </para>
@@ -2024,7 +2029,7 @@
                 <num>(a)</num>
                 <para codify:path="(1)">
                   <codify:replace/>
-                  <!-- strange talk to Davic -->
+                  <!-- strange talk to David -->
                   <num>(1)</num>
                   <text>A license issued pursuant to <span codify:value="this chapter">this act</span> is required to practice acupuncture, advanced practice registered nursing, assisted living administration, audiology, cardiovascular-interventionist technology, chiropractic, certified midwifery, certified professional midwifery, computed tomography technology, dental hygiene, dentistry, dietetics, health services psychology, general applied psychology, home health care administration, magnetic resonance technology, mammography, marriage and family therapy, massage therapy, medicine, naturopathic medicine, nuclear medicine technology, nursing home administration, nutrition, occupational therapy, optometry, pharmaceutical detailing, pharmacy, physical therapy, podiatry, practical nursing, professional art therapy, professional counseling, radiography, recreational therapy, registered nursing, respiratory care, social work, speech-language pathology, ultrasound technology or sonography, veterinary medicine, or to practice as an anesthesiologist assistant, athletic trainer, graduate marriage and family therapist, graduate professional art therapist, physician assistant, physical therapist assistant, polysomnographic technologist, occupational therapy assistant, radiation therapist, radiologist assistant, surgical assistant, or as a trauma technologist in the District, except as otherwise provided in <span codify:value="this chapter">this act</span>.</text>
                 </para>
@@ -2284,14 +2289,14 @@
           <para codify:path="(1)">
             <num>(A)</num>
             <text>Paragraph (1) is amended by striking the word "midwifery" and inserting the phrase "certified professional midwifery" in its place.</text>
-           
+           <!-- Assuming only the first instance -->
             <codify:find-replace position="first">
               <find>midwifery</find>
               <replace>certified professional midwifery</replace>
             </codify:find-replace>
           </para>
           <para codify:path="(2)">
-           
+           <!-- Assuming only two of three instances -->
             <num>(B)</num>
             <text>Paragraph (2) is amended by striking the word "midwifery" and inserting the phrase "certified professional midwifery" in its place.</text>
             <codify:find-replace position="first">
@@ -2402,7 +2407,7 @@
         <para codify:path="(a)">
           <num>(1)</num>
           <text>Subsection (a) is amended by striking the phrase "the Board" and inserting the phrase "the Board of Medicine" in its place.</text>
-          
+          <!-- Assuming both instances -->
           <codify:find-replace count="2">
             <find>the Board</find>
             <replace>the Board of Medicine</replace>
@@ -3063,7 +3068,7 @@
             <codify:insert path="3|12|VI" after="§3-1206.05" num-value="3-1206.05a" history-prefix="as added"/>
             <num>605a</num>
             <heading proof="needed">Certified registered nurse anesthetist.</heading>
-            <text>In addition to the functions authorized in section 604, a certified registered nurse anesthetist may plan and deliver anesthesia, pain management, and related care to patients or clients of all health complexities across the lifespan. This practice incorporates the use of independent judgement as well as collaborative interaction with other health care professionals.</text>
+            <text>In addition to the functions authorized in <code-cite doc="D.C. Code" path="§3-1206.04">section 604</code-cite>, a certified registered nurse anesthetist may plan and deliver anesthesia, pain management, and related care to patients or clients of all health complexities across the lifespan. This practice incorporates the use of independent judgement as well as collaborative interaction with other health care professionals.</text>
             <annotation doc="D.C. Law 6-99" type="History" path="§605a">Mar. 25, 1986, D.C. Law 6-99, § 605a</annotation>
           </section>
         </include>
@@ -3596,7 +3601,7 @@
             <para>
               <codify:replace/>
               <num>(c)</num>
-              <text>For purposes of this section, references to the Board on Rehabilitative Therapies prior to its commencement of operations pursuant to section 223(e) shall refer to the Board of Audiology and Speech-Language Pathology.</text>
+              <text>For purposes of this section, references to the Board on Rehabilitative Therapies prior to its commencement of operations pursuant to <code-cite doc="D.C. Code" path="§3-1202.23|(e)">section 223(e)</code-cite> shall refer to the Board of Audiology and Speech-Language Pathology.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -3694,19 +3699,19 @@
                 <text>No person may practice psychology in the District without one of the following:</text>
                 <para>
                   <num>(1)</num>
-                  <text>A health services psychology license, which is required for the practice of psychology as defined in section 102(16)(A);</text>
+                  <text>A health services psychology license, which is required for the practice of psychology as defined in <code-cite doc="D.C. Code" path="§3-1201.02|(16)|(A)">section 102(16)(A)</code-cite>;</text>
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>A general applied psychology license, which is required for the practice of psychology within the scope of section 102(16)(A)(ii);</text>
+                  <text>A general applied psychology license, which is required for the practice of psychology within the scope of <code-cite doc="D.C. Code" path="§3-1201.02|(16)|(A)|(ii)">section 102(16)(A)(ii)</code-cite>;</text>
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>A school psychology registration, which is required for the practice of psychology within the scope of section 102(16)(A)(iii); or</text>
+                  <text>A school psychology registration, which is required for the practice of psychology within the scope of <code-cite doc="D.C. Code" path="§3-1201.02|(16)|(A)|(iii)">section 102(16)(A)(iii)</code-cite>; or</text>
                 </para>
                 <para>
                   <num>(4)</num>
-                  <text>A psychology associate registration, which is required for the practice of psychology within the scope of section 102(16)(A)(iv).</text>
+                  <text>A psychology associate registration, which is required for the practice of psychology within the scope of <span codify:value="["></span>section 102(16)(A)(iv)<span codify:value="]"></span>.</text>
                 </para>
               </para>
               <para>
@@ -3745,7 +3750,7 @@
               </para>
               <para>
                 <num>(d)</num>
-                <text>Notwithstanding subsections (a) and (b) of this section, individuals currently practicing as general applied psychologists or school psychologists who do not meet the qualifications of this section shall be eligible for licensure or registration if they apply for a license or registration within 24 months after the effective date of the Health Occupations Revision General Amendment Act of 2024, passed on 2nd reading on May 7, 2024 (Enrolled version of Bill 25-545).</text>
+                <text>Notwithstanding subsections (a) and (b) of this section, individuals currently practicing as general applied psychologists or school psychologists who do not meet the qualifications of this section shall be eligible for licensure or registration if they apply for a license or registration within 24 months after <span codify:value="July 19, 2024">the effective date of the Health Occupations Revision General Amendment Act of 2024, passed on 2nd reading on May 7, 2024 (Enrolled version of Bill 25-545)</span>.</text>
               </para>
               <annotation doc="D.C. Law 6-99" type="History" path="§888">Mar. 25, 1986, D.C. Law 6-99, § 882</annotation>
             </section>
@@ -3755,7 +3760,7 @@
               <heading proof="needed">Limitations.</heading>
               <para>
                 <num>(a)</num>
-                <text>A registered school psychologist shall not practice psychology as defined under section 102(16)(A)(i) or (ii) without the authorization required for such practice.</text>
+                <text>A registered school psychologist shall not practice psychology as defined under <code-cite doc="D.C. Code" path="§3-1201.02|(16)|(A)|(i)">section 102(16)(A)(i)</code-cite> or <cite doc="D.C. Code" path="§3-1201.02|(16)|(A)|(ii)">(ii)</cite> without the authorization required for such practice.</text>
               </para>
               <para>
                 <num>(b)</num>
@@ -3843,7 +3848,7 @@
               <heading proof="needed">Limitations on practice.</heading>
               <para>
                 <num>(a)</num>
-                <text>A person licensed under this title may only practice under the supervision of a licensed physician or a licensed advanced practice registered nurse.</text>
+                <text>A person licensed under <code-cite doc="D.C. Code" path="3|12|VIII-G"> this title</code-cite> may only practice under the supervision of a licensed physician or a licensed advanced practice registered nurse.</text>
               </para>
               <para>
                 <num>(b)</num>
@@ -3855,7 +3860,7 @@
               <codify:insert path="3|12|VIII-G" num-value="3-1208.83" history-prefix="as added"/>
               <num>893</num>
               <heading proof="needed">Transition of licensed and registered medical radiation practitioners.</heading>
-              <text>For a period of one year after the effective date of implementing regulations issued pursuant to this title, unless further time is granted by the Mayor through rulemaking, a person who has received appropriate training for the tasks assigned may, regardless of licensure status, practice as a medical radiation practitioner, cardiovascular-interventional technologist, computed tomography technologist,  magnetic resonance technologist, mammographer, nuclear medicine technologist, radiographer, radiologist assistant, or ultrasound technologist. After a period of one year or additional time authorized by the Mayor, a license shall be required for any person to work or identify themselves as a medical radiation practitioner, cardiovascular-interventional technologist, computed tomography technologist, magnetic resonance technologist, mammography technologist, nuclear medicine technologist, radiographer, radiologist assistant, or ultrasound technologist.</text>
+              <text>For a period of one year after the effective date of implementing regulations issued pursuant to<code-cite doc="D.C. Code" path="3|12|VIII-G"> this title</code-cite>, unless further time is granted by the Mayor through rulemaking, a person who has received appropriate training for the tasks assigned may, regardless of licensure status, practice as a medical radiation practitioner, cardiovascular-interventional technologist, computed tomography technologist,  magnetic resonance technologist, mammographer, nuclear medicine technologist, radiographer, radiologist assistant, or ultrasound technologist. After a period of one year or additional time authorized by the Mayor, a license shall be required for any person to work or identify themselves as a medical radiation practitioner, cardiovascular-interventional technologist, computed tomography technologist, magnetic resonance technologist, mammography technologist, nuclear medicine technologist, radiographer, radiologist assistant, or ultrasound technologist.</text>
               <annotation doc="D.C. Law 6-99" type="History" path="§893">Mar. 25, 1986, D.C. Law 6-99, § 893</annotation>
             </section>
           </container>
@@ -4024,11 +4029,11 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>The Mayor shall, pursuant to the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), issue rules setting forth the standards of education and experience required to qualify as nursing assistive personnel.</text>
+              <text>The Mayor shall, pursuant to <code-cite doc="D.C. Code" path="2|5">the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, issue rules setting forth the standards of education and experience required to qualify as nursing assistive personnel.</text>
             </para>
             <para>
               <num>(c)</num>
-              <text>The Mayor shall allow for a registration or certification of an applicant who is at least 16 years of age; provided, that the applicant shall have obtained or be enrolled and is actively pursuing a high school diploma or high school equivalency diploma as that term is defined in section 561(6) of the District of Columbia Public Assistance Act of 1982, effective October 27, 1995 (D.C. Law 11-72; D.C. Official Code § 4-205.61(6)).</text>
+              <text>The Mayor shall allow for a registration or certification of an applicant who is at least 16 years of age; provided, that the applicant shall have obtained or be enrolled and is actively pursuing a high school diploma or high school equivalency diploma as that term is defined in <code-cite doc="D.C. Code" path="§4-205.61|(6)">section 561(6) of the District of Columbia Public Assistance Act of 1982, effective October 27, 1995 (D.C. Law 11-72; D.C. Official Code § 4-205.61(6))</code-cite>.</text>
             </para>
           </section>
         </include>
@@ -4057,7 +4062,7 @@
             <para>
               <codify:insert/>
               <num>(i)</num>
-              <text>For purposes of this section, references to the Board on Rehabilitative Therapies prior to its commencement of operations pursuant to section 223(e) shall refer to the Board of Audiology and Speech-Language Pathology.</text>
+              <text>For purposes of this section, references to the Board on Rehabilitative Therapies prior to its commencement of operations pursuant to <code-cite doc="D.C. Code" path="§3-1202.23|(e)">section 223(e)</code-cite> shall refer to the Board of Audiology and Speech-Language Pathology.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -4081,7 +4086,7 @@
             <para>
               <codify:insert/>
               <num>(i)</num>
-              <text>For purposes of this section, references to the Board on Rehabilitative Therapies prior to its commencement of operations pursuant to section 223(e) shall refer to the Board of Audiology and Speech-Language Pathology.</text>
+              <text>For purposes of this section, references to the Board on Rehabilitative Therapies prior to its commencement of operations pursuant to <code-cite doc="D.C. Code" path="§3-1202.23|(e)">section 223(e)</code-cite> shall refer to the Board of Audiology and Speech-Language Pathology.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -4105,7 +4110,7 @@
             <para>
               <codify:insert/>
               <num>(h)</num>
-              <text>For purposes of this section, references to the Board on Rehabilitative Therapies prior to its commencement of operations pursuant to section 223(e) shall refer to the Board of Audiology and Speech-Language Pathology.</text>
+              <text>For purposes of this section, references to the Board on Rehabilitative Therapies prior to its commencement of operations pursuant to <code-cite doc="D.C. Code" path="§3-1202.23|(e)">section 223(e)</code-cite> shall refer to the Board of Audiology and Speech-Language Pathology.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -4157,7 +4162,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Engage in the practice of medicine as defined in section 102(7).</text>
+                <text>Engage in the practice of medicine as defined in <code-cite doc="D.C. Code" path="§3-1201.02|(7)">section 102(7)</code-cite>.</text>
               </para>
             </para>
             <annotation doc="D.C. Law 6-99" type="History" path="§913">Mar. 25, 1986, D.C. Law 6-99, § 913</annotation>
@@ -4292,12 +4297,12 @@
           <para>
             <codify:insert/>
             <num>(72)</num>
-            <text>Board of Rehabilitative Therapies established by section 223 of the District of Columbia Health Occupations Revision Act of 1985, passed on 2nd reading on May 7, 2024 (Enrolled version of Bill 25-545); and</text>
+            <text>Board of Rehabilitative Therapies established by <code-cite doc="D.C. Code" path="§3-1202.23">section 223 of the District of Columbia Health Occupations Revision Act of 1985, passed on 2nd reading on May 7, 2024 (Enrolled version of Bill 25-545)</code-cite>; and</text>
           </para>
           <para>
             <codify:insert/>
             <num>(73)</num>
-            <text>Board of Integrative Healthcare established by section 224 of the District of Columbia Health Occupations Revision Act of 1985, passed on 2nd reading on May 7, 2024 (Enrolled version of Bill 25-545).</text>
+            <text>Board of Integrative Healthcare established by <code-cite doc="D.C. Code" path="§3-1202.24">section 224 of the District of Columbia Health Occupations Revision Act of 1985, passed on 2nd reading on May 7, 2024 (Enrolled version of Bill 25-545)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -4374,7 +4379,7 @@
         <para>
           <codify:replace/>
           <num>(7)</num>
-          <text>"Unlicensed person" means a person not required to be licensed pursuant to the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01 <em>et seq</em>.), who functions in a complementary or assistance role to licensed health care professionals in providing direct patient care or in performing common nursing tasks. The term "unlicensed person" includes housekeeping, maintenance, and administrative staff for whom it is foreseeable that the prospective employee or contract worker will come in direct contact with patients.</text>
+          <text>"Unlicensed person" means a person not required to be licensed pursuant to <code-cite doc="D.C. Code" path="3|12">the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01 <em>et seq</em>.),</code-cite> who functions in a complementary or assistance role to licensed health care professionals in providing direct patient care or in performing common nursing tasks. The term "unlicensed person" includes housekeeping, maintenance, and administrative staff for whom it is foreseeable that the prospective employee or contract worker will come in direct contact with patients.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
@@ -4386,7 +4391,7 @@
         <para>
           <codify:replace/>
           <num>(3)</num>
-          <text>Four hours covering cognitive impairments in an in-service training in accordance with the dementia training for direct care workers requirements established by section 4952 of the Department of Health Functions Clarification Act of 2001, effective March 16, 2021 (D.C. Law 23-201; D.C. Official Code § 7-744.02); and</text>
+          <text>Four hours covering cognitive impairments in an in-service training in accordance with the dementia training for direct care workers requirements established by <code-cite doc="D.C. Code" path="§7-744.02">section 4952 of the Department of Health Functions Clarification Act of 2001, effective March 16, 2021 (D.C. Law 23-201; D.C. Official Code § 7-744.02)</code-cite>; and</text>
         </para>
       </include>
       <aftertext>.</aftertext>
@@ -4437,7 +4442,7 @@
           <para>
             <codify:insert/>
             <num>(21)</num>
-            <text>Information exempt from disclosure under section 525 of the District of Columbia Health Occupations Revision Act of 1985, passed on 2nd reading on May 7, 2024 (Enrolled version of Bill 25-545).</text>
+            <text>Information exempt from disclosure under <code-cite doc="D.C. Code" path="§3-1205.25">section 525 of the District of Columbia Health Occupations Revision Act of 1985, passed on 2nd reading on May 7, 2024 (Enrolled version of Bill 25-545)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
