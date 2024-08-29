@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-176">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-176" codify:doc="D.C. Code">
   <num type="law">25-176</num>
   <num type="act">25-457</num>
   <num type="bill">25-298</num>
@@ -69,6 +69,9 @@
       <num>(d)</num>
       <text>The Office shall submit the final report to the Mayor, the Council, the District of Columbia Archives, and the DC Public Library's People's Archives by May 1, 2025.</text>
     </para>
+    <codify:annotation doc="D.C. Code" path="§2-1382" type="Editor's Notes" history="false">
+      Sections 2, 3, and 4(b) of <cite doc="D.C. Law 25-176">D.C. Law 25-176</cite> required the Office of Lesbian, Gay, Bisexual, Transgender, and Questioning Affairs ("Office") to research and produce a report on Black LGBTQIA+ history in the District; established an Advisory Committee to provide guidance and feedback on the development of the report; and provided that expenses incurred by the Advisory Committee as a whole, or by an individual member when the expenses are duly authorized by the Office, shall be reimbursed pursuant <cite doc="D.C. Code" path="§1-611.08|(d)">D.C. Code § 1-611.08(d)</cite>.
+    </codify:annotation>
   </section>
   <section>
     <num>3</num>
@@ -105,24 +108,30 @@
   <section>
     <num>4</num>
     <heading proof="needed">Advisory committee compensation.</heading>
-    <para>
+    <para codify:path="§1-611.08|(c-2)">
       <num>(a)</num>
       <text>Section 1108(c-2) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code §1-611.08(c-2)), is amended as follows:</text>
-      <para>
+      <para codify:path="[(8)]">
         <num>(1)</num>
         <text>Paragraph (8) is amended by striking the period "." and inserting a semi-colon in its place.</text>
+        <codify:find-replace position="last">
+          <find>.</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (10) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert/>
             <num>(10)</num>
-            <text>Each member of the Advisory Committee appointed pursuant to section 3 of the Black LGBTQ History Preservation Establishment Act of 2024, passed on 2nd reading on April 2, 2024 (Enrolled version of Bill 25-298), may receive compensation in the form of a stipend of not more than $100 per meeting of the Advisory Committee, in accordance with standards the Mayor may establish by rulemaking.</text>
+            <text>Each member of the Advisory Committee appointed pursuant to <cite doc="D.C. Law 25-176" path="§3">section 3 of the Black LGBTQ History Preservation Establishment Act of 2024</cite>,<span codify:value=""> passed on 2nd reading on April 2, 2024 (Enrolled version of Bill 25-298),</span> may receive compensation in the form of a stipend of not more than $100 per meeting of the Advisory Committee, in accordance with standards the Mayor may establish by rulemaking.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-176" applicability-path="§5" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
@@ -135,6 +144,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+       <codify:applicability doc="D.C. Law 25-176" path="§4|(a)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
