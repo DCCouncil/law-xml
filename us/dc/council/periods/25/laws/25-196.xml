@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-196">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-196" codify:doc="D.C. Code">
   <num type="law">25-196</num>
   <num type="act">25-486</num>
   <num type="bill">25-774</num>
@@ -217,24 +217,42 @@
     <section>
       <num>201</num>
       <text>The Skyland Town Center Omnibus Act of 2014, effective June 21, 2014 (D.C. Law 20-110; D.C. Official Code § 2-1217.35a <em>et seq</em>.), is amended as follows:</text>
-      <para>
+      <para codify:path="§2-1217.35d">
         <num>(a)</num>
         <text>Section 203 (D.C. Official Code § 2-1217.35d) is amended by striking the phrase "not to exceed $40 million to fund the project" and inserting the phrase "not to exceed $25 million to fund the project" in its place.</text>
+        <codify:find-replace count="1">
+          <find>not to exceed $40 million to fund the project</find>
+          <replace>not to exceed $25 million to fund the project</replace>
+        </codify:find-replace>
+         <codify:temporary doc="D.C. Code" path="§2-1217.35d"/>
+        <codify:insert doc="D.C. Code" path="§2-1217.35d" before="heading" history="false" display-template="">
+          <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on March 1, 2025. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§2-1217.35d(Perm)">Prior Permanent Version</cite>.*
+      </text>
+        </codify:insert>
       </para>
       <para>
         <num>(b)</num>
         <text>A new section 203a is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="2|12|IX|B|5" after="§2-1217.35d" num-value="2-1217.35d-1" history-prefix="as added"/>
             <num>203a</num>
             <heading proof="needed">Grant authorization.</heading>
-            <text>Notwithstanding the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.), the Deputy Mayor for Planning and Economic Development may issue a grant in an amount not to exceed $15 million to the Developer for the purpose of supporting the completion of the project.</text>
+            <text>Notwithstanding <code-cite doc="D.C. Code" path="1|3|XII-A|B">the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.)</code-cite>, the Deputy Mayor for Planning and Economic Development may issue a grant in an amount not to exceed $15 million to the Developer for the purpose of supporting the completion of the project.</text>
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:temporary-new-sec doc="D.C. Code" path="§2-1217.35d-1" interim-path="§2-1217.35d" perm-eff="2024-07-19"/>
+        <codify:insert doc="D.C. Code" path="§2-1217.35d-1" before="heading" history="false" display-template="">
+          <text>
+      *NOTE: This section was created by temporary legislation that will expire on March 1, 2025.*
+      </text>
+        </codify:insert>
       </para>
     </section>
     <section>
+      <codify:marginalia display="Not codified in D.C. Code"/>
       <num>202</num>
       <heading proof="needed">Reprogramming.</heading>
       <para>
