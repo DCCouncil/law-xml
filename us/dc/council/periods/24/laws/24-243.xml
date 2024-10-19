@@ -9,7 +9,7 @@
     <introduced>2021-10-04</introduced>
     <effective>2023-02-23</effective>
     <citations>
-      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47981/Signed_Act/B24-0430-Signed_Act.pdf">D.C. Law 24-243</citation>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/47981/Signed_Act/B24-0430-Signed_Act.pdf?Id=151849">D.C. Law 24-243</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/47981/Signed_Act/B24-0430-Signed_Act.pdf">D.C. Act 24-683</citation>
       <citation type="register">69 DCR 15091</citation>
     </citations>
@@ -31,12 +31,20 @@
     </container>
   </codify:insert>
   <codify:find-replace doc="D.C. Code" path="§42-2061" count="1">
-    <find><code-cite doc="D.C. Code" path="42|20A">this act</code-cite></find>
-    <replace><code-cite doc="D.C. Code" path="42|20A|I">this act</code-cite></replace>
+    <find>
+      <code-cite doc="D.C. Code" path="42|20A">this act</code-cite>
+    </find>
+    <replace>
+      <code-cite doc="D.C. Code" path="42|20A|I">this act</code-cite>
+    </replace>
   </codify:find-replace>
   <codify:find-replace doc="D.C. Code" path="§42-2065" count="1">
-    <find><code-cite doc="D.C. Code" path="42|20A">This act</code-cite></find>
-    <replace><code-cite doc="D.C. Code" path="42|20A|I">This act</code-cite></replace>
+    <find>
+      <code-cite doc="D.C. Code" path="42|20A">This act</code-cite>
+    </find>
+    <replace>
+      <code-cite doc="D.C. Code" path="42|20A|I">This act</code-cite>
+    </replace>
   </codify:find-replace>
   <section>
     <codify:insert doc="D.C. Code" path="42|20A|II" num-value="42-2067.01"/>
@@ -187,9 +195,8 @@
       </para>
       <para>
         <num>(4)</num>
-        <text>Any other identified needs or requirements for the successful formation and</text>
+        <text>Any other identified needs or requirements for the successful formation and preservation of LECs in the District.</text>
       </para>
-      <aftertext proof="needed">preservation of LECs in the District.</aftertext>
     </para>
     <codify:not-funded-anno doc="D.C. Code" path="§42-2067.04" applicability-path="§6" action="creation of" display-template=""/>
   </section>
