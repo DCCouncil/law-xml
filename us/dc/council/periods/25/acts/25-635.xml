@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-635">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-635" codify:doc="D.C. Code">
   <num type="act">25-635</num>
   <num type="bill">25-1024</num>
   <heading type="short">Protecting Adjacent and Adjoining Property Owners from Construction Damage Second Congressional Review Emergency Amendment Act of 2024</heading>
@@ -19,14 +19,15 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Protecting Adjacent and Adjoining Property Owners from Construction Damage Second Congressional Review Emergency Amendment Act of 2024".</text>
-  <section>
+  <section codify:path="§6-1405.01|(a)|(2A)">
     <num>2</num>
     <text>Section 6a(a)(2A) of the Co-nstruction Codes Approval and Amendments Act of 1986, effective April 20, 1999 (D.C. Law 12-261; D.C. Official Code § 6-1405.01(a)(2A)), is amended as follows:</text>
-    <para>
+    <para codify:path="(B)">
       <num>(a)</num>
       <text>Subparagraph (B) is amended to read as follows:</text>
       <include lvl="2">
         <para>
+          <codify:replace/>
           <num>(B)</num>
           <text>The following permits shall require insurance pursuant to subparagraph (A) of this paragraph; provided, that the requirements shall only apply to permits issued 90 days after the adoption of emergency or final rules issued by the Mayor pursuant to subparagraph (E) of this paragraph:</text>
           <para>
@@ -65,27 +66,34 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(D)|(i)">
       <num>(b)</num>
       <text>Subparagraph (D)(i) is amended to read as follows:</text>
       <include lvl="3">
         <para>
+          <codify:replace/>
           <num>(i)</num>
           <text>"Adjacent property" means any privately held real property (all or a portion thereof) within 30 feet of a property line of the real property for which the permit is applied.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(E)">
       <num>(c)</num>
       <text>Subparagraph (E) is amended to read as follows:</text>
       <include lvl="2">
         <para>
           <num>(E)</num>
-          <text>The Mayor shall issue rules to implement this paragraph, pursuant to the authority provided in section 10.</text>
+          <text>The Mayor shall issue rules to implement this paragraph, pursuant to the authority provided in <code-cite doc="D.C. Code" path="§6-1409">section 10</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:emergency doc="D.C. Code" path="§6-1405.01"/>
+      <codify:insert doc="D.C. Code" path="§6-1405.01" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on February 20, 2025. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-1405.01(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
   <section>
