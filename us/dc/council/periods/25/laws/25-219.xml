@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-558">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-219" codify:doc="D.C. Code">
+  <num type="law">25-219</num>
   <num type="act">25-558</num>
   <num type="bill">25-37</num>
   <heading type="short">New Student Loan Borrower Bill of Rights Amendment Act of 2024</heading>
   <heading type="long">To amend the Department of Insurance and Securities Regulation Establishment Act of 1996 to prevent abusive acts or practices related to student education loans and private education loans, require the creation of a revised Student Loan Borrower Bill of Rights by January 1, 2025, clarify that student loan servicers under contract with the United States Department of Education shall be automatically issued a limited student loan servicing license upon meeting certain criteria, clarify the rights and obligations regarding denials of applications for approval, prescribe prohibited conduct on the part of student loan servicers and private education lenders, assign duties to student loan servicers and private education lenders, establish responsibilities of private education lenders regarding disability discharge and cosigner release, authorize the Attorney General to bring an action for a violation of certain provisions, and make a conforming amendment.</heading>
   <meta>
     <introduced>2023-01-13</introduced>
-    <effective projected="true">2024-12-11</effective>
+    <effective>2024-11-27</effective>
     <citations>
-      <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/52071/Signed_Act/B25-0037-Signed_Act.pdf?Id=198845">D.C. Act 25-558</citation>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/52071/Signed_Act/B25-0037-Signed_Act.pdf?Id=198845">D.C. Law 25-219</citation>
       <citation type="register">71 DCR 12314</citation>
     </citations>
     <history url="https://lims.dccouncil.us/Legislation/B25-0037">
@@ -23,18 +24,23 @@
   <section>
     <num>2</num>
     <text>The Department of Insurance and Securities Regulation Establishment Act of 1996, effective May 21, 1997 (D.C. Law 11-268; D.C. Official Code § 31-101 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§31-101">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 31-101) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (1A).</text>
+        <codify:find-replace count="1">
+          <find>(1)</find>
+          <replace>(1A)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (1) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert num-value="(1)" before="(1A)"/>
             <num>(1)</num>
             <text>"Abusive act or practice" means an act or practice that:</text>
             <para>
@@ -74,10 +80,11 @@
         <aftertext>.</aftertext>
       </para>
       <para>
-        <num codify:value="[(2a)]">(2)</num>
+        <num>(2)</num>
         <text>A new paragraph (2A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(2)" num-value="(2A)"/>
             <num>(2A)</num>
             <para>
               <num>(A)</num>
@@ -96,14 +103,17 @@
         <text>New paragraphs (6C), (6D), (6E), (6F), and (6G) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(6B)" num-value="(6C)"/>
             <num>(6C)</num>
             <text>"Overpayment" means a payment on a student education loan or private education loan in excess of the monthly amount due from the student loan borrower on a student education loan or private education loan.</text>
           </para>
           <para>
+            <codify:insert after="(6C)" num-value="(6D)"/>
             <num>(6D)</num>
             <text>"Partial payment" means a payment on a student education loan account that contains multiple individual loans in an amount less than the amount necessary to satisfy the outstanding payment due on all loans in the student education loan account.</text>
           </para>
           <para>
+            <codify:insert after="(6D)" num-value="(6E)"/>
             <num>(6E)</num>
             <para>
               <num>(A)</num>
@@ -111,10 +121,11 @@
             </para>
             <para>
               <num>(B)</num>
-              <text>For the purpose of this paragraph, the term "postsecondary" has the same meaning as that term is defined in section 201(12B) of the Education Licensure Commission Act of 1976, effective April 6, 1977 (D.C. Law 1-104; D.C. Official Code § 38-1302(12B)).</text>
+              <text>For the purpose of this paragraph, the term "postsecondary" has the same meaning as that term is defined in <code-cite doc="D.C. Code" path="§38-1302|(12B)">section 201(12B) of the Education Licensure Commission Act of 1976, effective April 6, 1977 (D.C. Law 1-104; D.C. Official Code § 38-1302(12B))</code-cite>.</text>
             </para>
           </para>
           <para>
+            <codify:insert after="(6E)" num-value="(6F)"/>
             <num>(6F)</num>
             <text>"Private education lender" means a person engaged in the business of securing, making, or extending private education loans, or a holder of a private education loan.  The term does not include, to the extent preempted by federal law:</text>
             <para>
@@ -131,6 +142,7 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(6F)" num-value="(6G)"/>
             <num>(6G)</num>
             <para>
               <num>(A)</num>
@@ -152,11 +164,12 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(9)">
         <num>(4)</num>
         <text>Paragraph (9) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(9)</num>
             <text>"Student loan borrower" means a resident of the District of Columbia who has received or agreed to pay a student education loan or a private education loan to fund his or her postsecondary education.</text>
           </para>
@@ -168,6 +181,7 @@
         <text>A new paragraph (13) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(12)" num-value="(13)"/>
             <num>(13)</num>
             <text>"Total and permanent disability" is the condition of an individual who:</text>
             <para>
@@ -183,32 +197,38 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§31-106.01|(c)|(10)">
       <num>(b)</num>
       <text>Section 7a(c)(10) (D.C. Official Code § 31-106.01(c)(10)) is amended to read as follows:</text>
       <include>
         <para>
+          <codify:replace/>
           <num>(10)</num>
           <text>By January 1, 2025, develop an updated consumer-facing student loan borrower bill of rights, and make it available on the Department's website.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§31-106.02">
       <num>(c)</num>
       <text>Section 7b (D.C. Official Code § 31-106.02) is amended as follows:</text>
-      <para>
+      <para codify:path="(c)">
         <num>(1)</num>
         <text>Subsection (c) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)|(B)">
           <num>(A)</num>
           <text>Paragraph (1)(B) is amended by striking the phrase "Application fees and other fees" and inserting the phrase "Application fees, investigation fees, and other fees" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Application fees and other fees</find>
+            <replace>Application fees, investigation fees, and other fees</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>A new paragraph (3) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(2)" num-value="(3)"/>
               <num>(3)</num>
               <text>The Commissioner shall automatically issue a limited, irrevocable license to a person or entity servicing a student education loan under contract with the United States Department of Education provided that:</text>
               <para>
@@ -251,24 +271,29 @@
               </para>
               <para>
                 <num>(F)</num>
-                <text>In the case of student loan servicing conducted pursuant to a contract awarded by the United States Secretary of Education under 20 U.S.C § 1087f, nothing in this section shall prevent the Commissioner from issuing a cease-and-desist order or an injunction against a student loan servicer to cease activities in violation of this act or D.C. Official Code §28-3901 <em>et seq</em>.</text>
+                <text>In the case of student loan servicing conducted pursuant to a contract awarded by the United States Secretary of Education under 20 U.S.C § 1087f, nothing in this section shall prevent the Commissioner from issuing a cease-and-desist order or an injunction against a student loan servicer to cease activities in violation of <code-cite doc="D.C. Code" path="31|1|I">this act</code-cite> or <code-cite doc="D.C. Code" path="28|39">D.C. Official Code §28-3901 <em>et seq</em></code-cite>.</text>
               </para>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(g)|(1)|(C)">
         <num>(2)</num>
         <text>Subsection (g)(1)(C) is amended by striking the phrase "The Commissioner may deny an application for renewal" and inserting the phrase "Except as provided under subsection (c)(3) of this section, the Commissioner may deny an application for renewal" in its place.</text>
+        <codify:find-replace count="1">
+          <find>The Commissioner may deny an application for renewal</find>
+          <replace>Except as provided under subsection (c)(3) of this section, the Commissioner may deny an application for renewal</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subsection (k) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(j)" num-value="(k)"/>
             <num>(k)</num>
-            <text>In a format prescribed by the Commissioner, a licensee shall maintain the contact information for the Department and the Ombudsman, as defined in section 2(6B), on the licensee's website.</text>
+            <text>In a format prescribed by the Commissioner, a licensee shall maintain the contact information for the Department and the Ombudsman, as defined in <code-cite doc="D.C. Code" path="§31-101|(6B)">section 2(6B)</code-cite>, on the licensee's website.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -279,6 +304,7 @@
       <text>New sections 7b-1, 7b-2, 7b-3, 7b-4, and 7b-5 are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="31|1|I" after="§31-106.02" num-value="31-106.02a" history-prefix="as added"/>
           <num>7b-1</num>
           <heading proof="needed">Prohibited conduct – student loan servicers.</heading>
           <para>
@@ -340,8 +366,10 @@
               </para>
             </para>
           </para>
+          <annotation doc="D.C. Law 11-268" type="History" path="§7b-1">May 21, 1997, D.C. Law 11-268, § 7b-1</annotation>
         </section>
         <section>
+          <codify:insert path="31|1|I" after="§31-106.02a" num-value="31-106.02b" history-prefix="as added"/>
           <num>7b-2</num>
           <heading proof="needed">Affirmative duties – student loan servicers.</heading>
           <para>
@@ -437,8 +465,10 @@
             <num>(d)</num>
             <text>A student loan servicer shall evaluate a student loan borrower for eligibility for an income-driven repayment program prior to placing the student loan borrower in forbearance or default if an income-driven repayment program is available to the student loan borrower.</text>
           </para>
+          <annotation doc="D.C. Law 11-268" type="History" path="§7b-2">May 21, 1997, D.C. Law 11-268, § 7b-2</annotation>
         </section>
         <section>
+          <codify:insert path="31|1|I" after="§31-106.02b" num-value="31-106.02c" history-prefix="as added"/>
           <num>7b-3</num>
           <heading proof="needed">Prohibited acts – private education lenders.</heading>
           <para>
@@ -523,8 +553,10 @@
               </para>
             </para>
           </para>
+          <annotation doc="D.C. Law 11-268" type="History" path="§7b-3">May 21, 1997, D.C. Law 11-268, § 7b-3</annotation>
         </section>
         <section>
+          <codify:insert path="31|1|I" after="§31-106.02c" num-value="31-106.02d" history-prefix="as added"/>
           <num>7b-4</num>
           <heading proof="needed">Affirmative duties – private education lenders.</heading>
           <para>
@@ -715,8 +747,10 @@
               <text>Upon written notice from the student loan borrower or cosigner, the private education lender may redact or withhold contact information for the student loan borrower and cosigner.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 11-268" type="History" path="§7b-4">May 21, 1997, D.C. Law 11-268, § 7b-4</annotation>
         </section>
         <section>
+          <codify:insert path="31|1|I" after="§31-106.02d" num-value="31-106.02e" history-prefix="as added"/>
           <num>7b-5</num>
           <heading proof="needed">Enforcement.</heading>
           <para>
@@ -725,11 +759,11 @@
           </para>
           <para>
             <num>(b)</num>
-            <text>A violation of section 7b-1 or 7b-3 is an unfair or deceptive trade practice pursuant to D.C. Official Code § 28-3904.</text>
+            <text>A violation of <code-cite doc="D.C. Code" path="§31-106.02a">section 7b-1</code-cite> or <code-cite doc="D.C. Code" path="§31-106.02c">7b-3</code-cite> is an unfair or deceptive trade practice pursuant to <code-cite doc="D.C. Code" path="§28-3904">D.C. Official Code § 28-3904</code-cite>.</text>
           </para>
           <para>
             <num>(c)</num>
-            <text>Any person who suffers damage as a result of the failure of a student loan servicer or private education lender to comply with sections 7b, 7b-1, 7b-2, 7b-3, 7b-4, or 7b-5(a) may bring an action on their own behalf and on behalf of a similarly situated class of consumers against that student loan servicer or private education lender to recover or obtain:</text>
+            <text>Any person who suffers damage as a result of the failure of a student loan servicer or private education lender to comply with <span codify:value="§§">sections</span> <code-cite codify:value="31-106.02" doc="D.C. Code" path="§31-106.02">7b</code-cite>, <code-cite codify:value="31-106.02a" doc="D.C. Code" path="§31-106.02a">7b-1</code-cite>, <code-cite codify:value="31-106.02b" doc="D.C. Code" path="§31-106.02b">7b-2</code-cite>, <code-cite codify:value="31-106.02c" doc="D.C. Code" path="§31-106.02c">7b-3</code-cite>, <code-cite codify:value="31-106.02d" doc="D.C. Code" path="§31-106.02d">7b-4</code-cite>, or <code-cite codify:value="31-106.02e(a)" doc="D.C. Code" path="§31-106.02e|(a)">7b-5(a)</code-cite> may bring an action on their own behalf and on behalf of a similarly situated class of consumers against that student loan servicer or private education lender to recover or obtain:</text>
             <para>
               <num>(1)</num>
               <text>Actual damages, but in no case shall the total award of damages be less than $500 per plaintiff, per violation;</text>
@@ -765,29 +799,35 @@
           </para>
           <para>
             <num>(f)</num>
-            <text>The Attorney General may bring an action for any violation of sections 7b, 7b-1, 7b-2, 7b-3, 7b-4 or 7b-5(a) under the authority granted in § 28-3909.</text>
+            <text>The Attorney General may bring an action for any violation of <span codify:value="§§">sections</span> <code-cite codify:value="31-106.02" doc="D.C. Code" path="§31-106.02">7b</code-cite>, <code-cite codify:value="31-106.02a" doc="D.C. Code" path="§31-106.02a">7b-1</code-cite>, <code-cite codify:value="31-106.02b" doc="D.C. Code" path="§31-106.02b">7b-2</code-cite>, <code-cite codify:value="31-106.02c" doc="D.C. Code" path="§31-106.02c">7b-3</code-cite>, <code-cite codify:value="31-106.02d" doc="D.C. Code" path="§31-106.02d">7b-4</code-cite>, or <code-cite codify:value="31-106.02e(a)" doc="D.C. Code" path="§31-106.02e|(a)">7b-5(a)</code-cite> under the authority granted in <code-cite doc="D.C. Code" path="§28-3909">§ 28-3909</code-cite>.</text>
           </para>
           <para>
             <num>(g)</num>
-            <text>The Department shall share information on a quarterly basis related to the implementation, execution, and enforcement of sections 7b, 7b-1, 7b-2, 7b-3, 7b-4 and 7b-5(a) with the Office of the Attorney General.</text>
+            <text>The Department shall share information on a quarterly basis related to the implementation, execution, and enforcement of <span codify:value="§§">sections</span> <code-cite codify:value="31-106.02" doc="D.C. Code" path="§31-106.02">7b</code-cite>, <code-cite codify:value="31-106.02a" doc="D.C. Code" path="§31-106.02a">7b-1</code-cite>, <code-cite codify:value="31-106.02b" doc="D.C. Code" path="§31-106.02b">7b-2</code-cite>, <code-cite codify:value="31-106.02c" doc="D.C. Code" path="§31-106.02c">7b-3</code-cite>, <code-cite codify:value="31-106.02d" doc="D.C. Code" path="§31-106.02d">7b-4</code-cite>, or <code-cite codify:value="31-106.02e(a)" doc="D.C. Code" path="§31-106.02e|(a)">7b-5(a)</code-cite> with the Office of the Attorney General.</text>
           </para>
+          <annotation doc="D.C. Law 11-268" type="History" path="§7b-5">May 21, 1997, D.C. Law 11-268, § 7b-5</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§31-106.03">
       <num>(e)</num>
       <text>Section 7c is amended by striking the phrase "sections 7a and 7b." and inserting the phrase "sections 7b, 7b-1, 7b-2, 7b-3, 7b-4 and 7b-5(a)." in its place.</text>
+      <codify:find-replace count="1">
+        <find><code-cite doc="D.C. Code" path="§31-106.01" codify:value="31-106.01">7a</code-cite> and <code-cite doc="D.C. Code" path="§31-106.02" codify:value="31-106.02"> 7b</code-cite>.</find>
+        <replace><code-cite doc="D.C. Code" path="§31-106.02" codify:value="31-106.02">7b</code-cite>, <code-cite doc="D.C. Code" path="§31-106.02a" codify:value="31-106.02a">7b-1</code-cite>, <code-cite doc="D.C. Code" path="§31-106.02b" codify:value="31-106.02b">7b-2</code-cite>, <code-cite doc="D.C. Code" path="§31-106.02c" codify:value="31-106.02c">7b-3</code-cite>, <code-cite doc="D.C. Code" path="§31-106.02d" codify:value="31-106.02d">7b-4</code-cite> and <code-cite doc="D.C. Code" path="§31-106.02e|(a)" codify:value="31-106.02e(a)">7b-5(a)</code-cite>.</replace>
+      </codify:find-replace>
     </para>
   </section>
-  <section>
+  <section codify:path="§28-3903">
     <num>3</num>
     <heading proof="needed">Conforming amendment.</heading>
     <text>Section 28-3903 of the District of Columbia Official Code is amended by adding a new subsection (d) to read as follows:</text>
     <include>
       <para>
+        <codify:insert after="(c)" num-value="(d)"/>
         <num>(d)</num>
-        <text>The Attorney General may bring an action pursuant to section 7b-5(f) of the Department of Insurance and Securities Regulation Establishment Act of 1996,  passed on 2nd reading on September 17, 2024 (Enrolled version of Bill 25-37) ("act"), for a violation of sections 7b, 7b-1, 7b-2, 7b-3, 7b-4 or 7b-5(a) of the act.</text>
+        <text>The Attorney General may bring an action pursuant to <code-cite doc="D.C. Code" path="§31-106.02e|(f)">section 7b-5(f) of the Department of Insurance and Securities Regulation Establishment Act of 1996, passed on 2nd reading on September 17, 2024 (Enrolled version of Bill 25-37) ("act")</code-cite>, for a violation of <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§31-106.02">7b</code-cite>, <code-cite doc="D.C. Code" path="§31-106.02a">7b-1</code-cite>, <code-cite doc="D.C. Code" path="§31-106.02b">7b-2</code-cite>, <code-cite doc="D.C. Code" path="§31-106.02c">7b-3</code-cite>, <code-cite doc="D.C. Code" path="§31-106.02d">7b-4</code-cite> or <code-cite doc="D.C. Code" path="§31-106.02e|(a)">7b-5(a)</code-cite> of <cite doc="D.C. Law 11-268">the act</cite>.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
