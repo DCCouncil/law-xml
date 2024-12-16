@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-559">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-559" codify:doc="D.C. Code">
   <num type="act">25-559</num>
   <num type="bill">25-247</num>
   <heading type="short">Female Genital Mutilation Prohibition Act of 2024</heading>
@@ -20,7 +20,15 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Female Genital Mutilation Prohibition Act of 2024".</text>
+  <!-- <codify:insert path="22" after="14" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>14A</num>
+      <heading>Female Genital Mutilation.</heading>
+    </container>
+  </codify:insert> -->
   <section>
+    <!-- <codify:insert path="22|14A" num-value="22-1431"/> -->
     <num>2</num>
     <heading proof="needed">Prohibition on female genital mutilation.</heading>
     <para>
@@ -48,7 +56,7 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>"Guardian" shall have the same meaning as provided in D.C. Official Code § 21-2401.02(3).</text>
+        <text>"Guardian" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§21-2401.02|(3)">D.C. Official Code § 21-2401.02(3)</code-cite>.</text>
       </para>
     </para>
     <para>
@@ -69,7 +77,7 @@
     </para>
     <para>
       <num>(c)</num>
-      <text>A person who violates subsection (b) of this section shall, upon conviction, be fined no more than the amount set forth in section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01), or incarcerated for no more than 10 years, or both.</text>
+      <text>A person who violates subsection (b) of this section shall, upon conviction, be fined no more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or incarcerated for no more than 10 years, or both.</text>
     </para>
     <para>
       <num>(d)</num>
@@ -100,7 +108,7 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>In the case of a piercing, was conducted on a consenting adult by a body artist, as that term is defined in D.C. Official Code § 47-2809.01(3).</text>
+        <text>In the case of a piercing, was conducted on a consenting adult by a body artist, as that term is defined in <code-cite doc="D.C. Code" codify:value="[§47-2809.01(a)(3)]" path="§47-2809.01|(a)|(3)">D.C. Official Code § 47-2809.01(3)</code-cite>.</text>
       </para>
     </para>
     <para>
@@ -142,36 +150,46 @@
       </para>
     </para>
   </section>
-  <section>
+  <section codify:path="§16-2301|(9)|(A)">
     <num>3</num>
     <text>Section 16-2301(9)(A) of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="(ix)">
       <num>(a)</num>
       <text>Sub-subparagraph (ix) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+      <!-- <codify:find-replace count="1">
+        <find>; or</find>
+        <replace>;</replace>
+      </codify:find-replace> -->
     </para>
-    <para>
+    <para codify:path="(x)">
       <num>(b)</num>
       <text>Sub-subparagraph (x) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+      <!-- <codify:find-replace count="1">
+        <find>.</find>
+        <replace>; or</replace>
+      </codify:find-replace> -->
     </para>
     <para>
       <num>(c)</num>
       <text>A new sub-subparagraph (xi) is added to read as follows:</text>
       <include lvl="3">
         <para>
+        <!-- <codify:insert after="(x)" num-value="(xi)"/> -->
           <num>(xi)</num>
-          <text>who has been subjected to, or is in imminent danger of being subjected to, female genital mutilation pursuant to section 2(b) of the Female Genital Mutilation Prohibition Act of 2024, passed on 2nd reading on September 17, 2024 (Enrolled version of Bill 25-247).</text>
+          <text>who has been subjected to, or is in imminent danger of being subjected to, female genital mutilation pursuant to <code-cite doc="D.C. Code" path="§22-1431|(b)">section 2(b) of the Female Genital Mutilation Prohibition Act of 2024, passed on 2nd reading on September 17, 2024 (Enrolled version of Bill 25-247)</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:path="§23-113|(d)">
     <num>4</num>
     <text>Section 23-113(d) of the District of Columbia Official Code is amended by adding a new paragraph (6) to read as follows:</text>
     <include lvl="1">
       <para>
+      <!-- <codify:insert after="(5)" num-value="(6)"/> -->
         <num>(6)</num>
-        <text>The period of limitation for an offense under section 2(b) of the Female Genital Mutilation Prohibition Act of 2024, passed on 2nd reading on September 17, 2024 (Enrolled version of Bill 25-247), shall not begin to run until the victim reaches 18 years of age.</text>
+        <text>The period of limitation for an offense under <code-cite doc="D.C. Code" path="§22-1431|(b)">section 2(b) of the Female Genital Mutilation Prohibition Act of 2024, passed on 2nd reading on September 17, 2024 (Enrolled version of Bill 25-247)</code-cite>, shall not begin to run until the victim reaches 18 years of age.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
