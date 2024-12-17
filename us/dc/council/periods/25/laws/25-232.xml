@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-232">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-232" codify:doc="D.C. Code">
   <num type="law">25-232</num>
   <num type="act">25-589</num>
   <num type="bill">25-565</num>
@@ -25,24 +25,26 @@
   <section>
     <num>2</num>
     <text>The District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§3-1202.04">
       <num>(a)</num>
       <text>Section 204 (D.C. Official Code § 3-1202.04) is amended by adding a new subsection (h) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(g)" num-value="(h)"/>
           <num>(h)</num>
-          <text>Within 6 months of the effective date of this subsection, the Board shall provide recommendations to the Mayor for their consideration in developing and issuing rules governing nursing assistive personnel with the title of certified nurse aide, as described under section 907(d), in accordance with guidelines approved by the Advisory Committee on Certified Nurse Aides and Nursing Assistive Personnel.</text>
+          <text>Within 6 months of the effective date of this subsection, the Board shall provide recommendations to the Mayor for their consideration in developing and issuing rules governing nursing assistive personnel with the title of certified nurse aide, as described under <code-cite doc="D.C. Code" path="§3-1209.07|(d)">section 907(d)</code-cite>, in accordance with guidelines approved by the Advisory Committee on Certified Nurse Aides and Nursing Assistive Personnel.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§3-1209.07">
       <num>(b)</num>
       <text>Section 907 (D.C. Official Code § 3-1209.07) is amended by adding subsection (d) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(c)" num-value="(d)"/>
           <num>(d)</num>
-          <text>The Mayor shall, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), issue rules setting forth the standards of education and experience required to qualify as a certified nurse aide, which shall include:</text>
+          <text>The Mayor shall, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, issue rules setting forth the standards of education and experience required to qualify as a certified nurse aide, which shall include:</text>
           <para>
             <num>(1)</num>
             <text>Combining the registration or certification process for nurse aides and home-health aides into one profession, which shall bear the title of certified nurse aide;</text>
@@ -68,11 +70,12 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:path="7|7A|IV">
     <num>3</num>
     <text>The Department of Health Functions Clarification Act of 2001, effective October 1, 2001 (D.C. Law 14-28; D.C. Official Code § 7-743.01 <em>et seq.</em>), is amended by adding a new section 4949b to read as follows:</text>
     <include>
       <section>
+        <codify:insert after="§7-743.10" num-value="7-743.11" history-prefix="as added"/>
         <num>4949b</num>
         <heading proof="needed">Advisory Committee on Certified Nurse Aides and Nursing Assistive Personnel.</heading>
         <para>
@@ -106,26 +109,41 @@
       </section>
     </include>
     <aftertext>.</aftertext>
+    <annotation doc="D.C. Law 14-28" type="History" path="§4949b">Oct. 3, 2001, D.C. Law 14-28, § 4949b</annotation>
   </section>
   <section>
     <num>4</num>
     <text>The Direct Support Professional Payment Rate Act of 2020, effective April 16, 2020 (D.C. Law 25-161; D.C. Official Code § 4-2001 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-2002|(a)">
       <num>(a)</num>
       <text>Section 3(a) (D.C. Official Code § 4-2002(a)) is amended by striking the numeral "117.6%" both times it appears and inserting the numeral "120%" in its place.</text>
+      <codify:find-replace count="2">
+        <find>117.6%</find>
+        <replace>120%</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§4-2004">
       <num>(b)</num>
       <text>Section 5 (D.C. Official Code § 4-4004) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the numeral "117.6%" wherever it appears and inserting the numeral "120%" in its place.</text>
+        <codify:find-replace count="4">
+          <find>117.6%</find>
+          <replace>120%</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the numeral "117.6%" both times it appears and inserting the numeral "120%" in its place.</text>
+        <codify:find-replace count="2">
+          <find>117.6%</find>
+          <replace>120%</replace>
+        </codify:find-replace>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-232" path="§4" applicability-path="§5|(a)" action="amendments to" display-template=""/>
+    <codify:marginalia display="Not Funded"/>
   </section>
   <section>
     <num>5</num>
@@ -133,6 +151,7 @@
     <para>
       <num>(a)</num>
       <text>Section 4 shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 25-232" path="§4" date="pending" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
