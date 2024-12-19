@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-591">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-235" codify:doc="D.C. Code">
+  <num type="law">25-235</num>
   <num type="act">25-591</num>
   <num type="bill">25-229</num>
   <heading type="short">Cost-Free Coverage for Prostate Cancer Screening Amendment Act of 2024</heading>
   <heading type="long">To amend the Prostate Cancer Screening Insurance Coverage Requirement Act of 2002 to provide cost-free coverage of one prostate-specific antigen test and digital rectal exam per year and prohibit any health insurer from imposing a deductible, coinsurance, copayment, or other cost-sharing requirement for prostate cancer screening.</heading>
   <meta>
     <introduced>2023-03-20</introduced>
-    <effective>2024-10-24</effective>
+    <effective>2024-12-17</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/52727/Signed_Act/B25-0229-Signed_Act.pdf?Id=200335">D.C. Law 25-235</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/52727/Signed_Act/B25-0229-Signed_Act.pdf?Id=200335">D.C. Act 25-591</citation>
       <citation type="register">71 DCR 12976</citation>
     </citations>
@@ -20,18 +22,23 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Cost-Free Coverage for Prostate Cancer Screening Amendment Act of 2024".</text>
-  <section>
+  <section codify:path="§31-2952">
     <num>2</num>
     <text>Section 3 of the Prostate Cancer Screening Insurance Coverage Requirement Act of 2002, effective March 25, 2003 (D.C. Law 14-233; D.C. Official Code § 31-2952), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended by striking the phrase "the latest screening guidelines issued by the American Cancer Society for the ages, family histories, and frequencies referenced in such guidelines" and inserting the phrase "the latest screening guidelines issued by the National Comprehensive Cancer Network, to include no less than one prostate-specific antigen test and digital rectal exam per year" in its place.</text>
+      <codify:find-replace count="1">
+        <find>the latest screening guidelines issued by the American Cancer Society for the ages, family histories, and frequencies referenced in such guidelines</find>
+        <replace>the latest screening guidelines issued by the National Comprehensive Cancer Network, to include no less than one prostate-specific antigen test and digital rectal exam per year</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>A new subsection (c) is added to read as follows:</text>
       <include>
         <para>
+        <codify:insert num-value="(c)"/>
           <num>(c)</num>
           <text>A health insurer shall not impose on an individual receiving benefits pursuant to this section any deductible, coinsurance, copayment, or other cost-sharing requirement, except to the extent that coverage without cost-sharing would disqualify the individual from a high deductible health benefit plan, as defined in 26 U.S.C. § 223(c)(2)), from eligibility for a health savings account pursuant to 26 U.S.C. § 223.</text>
         </para>

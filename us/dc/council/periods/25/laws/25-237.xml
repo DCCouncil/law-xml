@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-593">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-237" codify:doc="D.C. Code">
+  <num type="law">25-237</num>
   <num type="act">25-593</num>
   <num type="bill">25-277</num>
   <heading type="short">Landscape Architect Services Sales Tax Clarification Amendment Act of 2024</heading>
   <heading type="long">To amend Chapter 20 of Title 47 of the District of Columbia Official Code to clarify that landscape architecture services performed by a landscape architect licensed in the District or provided by a professional design firm that employs a landscape architect licensed in the District are exempt from sales tax.</heading>
   <meta>
     <introduced>2023-04-27</introduced>
-    <effective>2024-10-30</effective>
+    <effective>2024-12-17</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/52958/Signed_Act/B25-0277-Signed_Act.pdf?Id=200337">D.C. Law 25-237</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/52958/Signed_Act/B25-0277-Signed_Act.pdf?Id=200337">D.C. Act 25-593</citation>
       <citation type="register">71 DCR 12980</citation>
     </citations>
@@ -21,37 +23,46 @@
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Landscape Architect Services Sales Tax Clarification Amendment Act of 2024".</text>
   <section>
+  <codify:marginalia display="Not Funded"/>
     <num>2</num>
     <text>Chapter 20 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="§47-2001">
       <num>(a)</num>
       <text>Section 47-2001(n)(1)(M) is amended as follows:</text>
-      <para>
+      <para codify:path="(n)|(1)|(M)">
         <num>(1)</num>
         <text>Strike the phrase "and landscaping." and insert the phrase "and landscaping; except, that the sale of or charge for landscape architecture services shall be exempt pursuant § 47-2005(41)." in its place.</text>
+        <codify:find-replace count="1">
+          <find>and landscaping.</find>
+          <replace>and landscaping; except, that the sale of or charge for landscape architecture services shall be exempt pursuant <cite doc="D.C. Code" path="§47-2005|(41)">§ 47-2005(41)</cite>.</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(ii)">
         <num>(2)</num>
         <text>Sub-subparagraph (ii) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(ii)</num>
             <text>For the purposes of this paragraph, the term "landscaping" means any activity of arranging or modifying areas of land and natural scenery for an improved or aesthetic effect; the addition, removal, or arrangement of natural forms, features, and plantings; or the addition, removal, or modification or retaining walls, ponds, sprinklers systems, or other landscape construction services.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-237" path="§2|(a)" applicability-path="§47-2001" action="amendments to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§47-2005">
       <num>(b)</num>
       <text>Section § 47-2005 is amended by adding a new paragraph (41) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(40)" num-value="(41)"/>
           <num>(41)</num>
           <text>The sale of or charge for landscape architecture services as described in § 47-2853.116 performed by a landscape architect licensed in the District or provided by a professional design firm that employs a landscape architect licensed in the District.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 25-237" path="§2|(b)" applicability-path="§47-2005" action="amendments to" display-template=""/>
     </para>
   </section>
   <section>
@@ -60,6 +71,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 25-273" path="§2" date="pending" history="false" display-template=""/> 
     </para>
     <para>
       <num>(b)</num>

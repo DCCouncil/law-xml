@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-592">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-236" codify:doc="D.C. Code">
+  <num type="law">25-236</num>
   <num type="act">25-592</num>
   <num type="bill">25-240</num>
   <heading type="short">United Negro College Fund Real Property Tax Abatement Extension Amendment Act of 2024</heading>
   <heading type="long">To amend section 47-4635 of the District of Columbia Official Code to provide an abatement of real property taxes on real property owned by the United Negro College Fund.</heading>
   <meta>
     <introduced>2023-04-03</introduced>
-    <effective>2024-10-24</effective>
+    <effective>2024-12-17</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/52751/Signed_Act/B25-0240-Signed_Act.pdf?Id=200336">D.C. Law 25-236</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/52751/Signed_Act/B25-0240-Signed_Act.pdf?Id=200336">D.C. Act 25-592</citation>
       <citation type="register">71 DCR 12978</citation>
     </citations>
@@ -20,10 +22,10 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "United Negro College Fund Real Property Tax Abatement Extension Amendment Act of 2024".</text>
-  <section>
+  <section codify:path="§47-4635">
     <num>2</num>
     <text>Section 47-4635 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="(b)">
       <num>(a)</num>
       <text>Subsection (b) is amended as follows:</text>
       <para>
@@ -33,29 +35,40 @@
           <text>The real property taxes imposed by Chapter 8 of this title on the property shall be abated for 10 years, beginning on October 1, 2024, provided, that:</text>
         </include>
         <aftertext>.</aftertext>
+        <codify:find-replace count="1">
+          <find>The real property taxes imposed by <cite path="47|8">Chapter 8 of this title</cite> on the property shall be abated for 10 years, beginning on the later of October 1, 2011, or the 1st day following DCRA’s issuance of the certificate of occupancy for the property and UNCF’s physical occupancy of the property; provided, that:</find>
+          <replace>The real property taxes imposed by Chapter 8 of this title on the property shall be abated for 10 years, beginning on October 1, 2024, provided, that:</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Paragraphs (3) and (4) are repealed.</text>
+        <codify:repeal path="(3)"/>
+        <codify:repeal path="(4)"/>
       </para>
     </para>
-    <para>
+    <para codify:path="(c)">
       <num>(b)</num>
       <text>Subsection (c) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+          <codify:replace/>
             <num>(1)</num>
             <text>In tax year 2025, $515,000; and</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(2)</num>
         <text>Paragraph (2) is amended by striking the phrase "$400,000 in Fiscal Year 2012" and inserting the phrase "$515,000 in Fiscal Year 2025" in its place.</text>
+        <codify:find-replace count="1">
+          <find>$400,000 in Fiscal Year 2012</find>
+          <replace>$515,000 in Fiscal Year 2025</replace>
+        </codify:find-replace>
       </para>
     </para>
   </section>
