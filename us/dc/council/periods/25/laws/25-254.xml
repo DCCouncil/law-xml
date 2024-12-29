@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-254">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-254" codify:doc="D.C. Code">
   <num type="law">25-254</num>
   <num type="act">25-613</num>
   <num type="bill">25-570</num>
@@ -25,7 +25,7 @@
   <section>
     <num>2</num>
     <text>The Public Access to Automated External Defibrillator Act of 2000, effective April 27, 2001 (D.C. Law 13-278; D.C. Official Code § 7-2371.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§7-2371.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 7-2371.01) is amended as follows:</text>
       <para>
@@ -33,6 +33,7 @@
         <text>A new paragraph (1A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1)" num-value="(1A)"/>
             <num>(1A)</num>
             <text>"CERP" means a cardiac emergency response plan, which is a written document that establishes the specific steps to be taken to reduce death from cardiac arrest in any setting, be it a school, community organization, workplace, or sports facility.</text>
           </para>
@@ -43,43 +44,64 @@
         <num>(2)</num>
         <text>A new paragraph (2B-i) is added to read as follows:</text>
         <include lvl="1">
-          <text>(2B-i) "Department" means the Fire and Emergency Medical Services Department.</text>
+          <para>
+            <codify:insert after="(2B)" num-value="(2B-i)"/>
+            <num>(2B-i)</num>
+            <text>"Department" means the Fire and Emergency Medical Services Department.</text>
+          </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§7-2371.02c">
       <num>(b)</num>
       <text>Section 3c (D.C. Official Code § 7-2371.02c) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "Within 120 days after the effective date of the Public Safety Telecomunicator and District School CPR and AED Training Amendment Act of 2016, passed on 2nd reading on June 21, 2016 (Enrolled version of Bill 21-669), each school" and inserting the phrase "Each school" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Within 120 days after October 8, 2016, each school</find>
+            <replace>Each school</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the semicolon and inserting the phrase ", and by the beginning of School Year 2025-2026 adopt and implement a CERP compliant with subsection (a-1)(1) of this section;" in its place.</text>
+          <codify:find-replace count="1">
+            <find>;</find>
+            <replace>, and by the beginning of School Year 2025-2026 adopt and implement a CERP compliant with subsection (a-1)(1) of this section;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(C)</num>
           <text>Paragraph (2) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(2)</num>
               <text>Have at least one AED on-site at the school in a location that is identified in the school's CERP and complies with guidelines set by the American Heart Association, American Red Cross, or another nationally recognized, evidence-based standard;</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(D)</num>
           <text>Paragraph (3) is amended by striking the phrase "guidelines and includes" and inserting the phrase "guidelines, is described in the school's CERP, and includes" in its place.</text>
+          <codify:find-replace count="1">
+            <find>guidelines and includes</find>
+            <replace>guidelines, is described in the school's CERP, and includes</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(7)">
           <num>(E)</num>
           <text>Paragraph (7) is amended by striking the period and inserting the phrase "and provide them with the school's CERP." in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>and provide them with the school's CERP.</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
@@ -87,6 +109,7 @@
         <text>A new subsection (a-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)" num-value="(a-1)"/>
             <num>(a-1)</num>
             <para>
               <num>(1)</num>
@@ -136,11 +159,12 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(3)</num>
         <text>Subsection (b) is amended by adding a new paragraph (1A) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1)" num-value="(1A)"/>
             <num>(1A)</num>
             <text>The Mayor shall establish a procedure for monitoring school adherence to the requirements set forth in subsection (a) of this section.</text>
           </para>

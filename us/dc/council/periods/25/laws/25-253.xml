@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-253">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-253" codify:doc="D.C. Code">
   <num type="law">25-253</num>
   <num type="act">25-611</num>
   <num type="bill">25-969</num>
@@ -23,13 +23,13 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Emergency Rental Assistance Reform Temporary Amendment Act of 2024".</text>
-  <section>
+  <section codify:path="§4-753.08">
     <num>2</num>
     <text>Section 8f of the Homeless Services Reform Act of 2005, effective March 10, 2023 (D.C. Law 24-287; D.C. Official Code § 4-753.08), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended as follows:</text>
-      <para>
+      <para codify:path="(2)|(A)">
         <num>(1)</num>
         <text>Paragraph (2)(A) is amended as follows:</text>
         <para>
@@ -41,20 +41,29 @@
               <para>
                 <num>(A)</num>
                 <text>To qualify for emergency rental assistance funds, an applicant unit shall be required to document:</text>
+                <codify:find-replace count="1">
+                  <find>To qualify for Emergency Rental Assistance Funds, an applicant unit may be required to document or otherwise establish</find>
+                  <replace>To qualify for emergency rental assistance funds, an applicant unit shall be required to document</replace>
+                </codify:find-replace>
               </para>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(v)">
           <num>(B)</num>
           <text>Sub-subparagraph (v) is amended by striking the phrase "for payment." and inserting the phrase "for payment; and" in its place.</text>
+          <codify:find-replace count="1">
+            <find>for payment.</find>
+            <replace>for payment; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new sub-subparagraph (vi) is added to read as follows:</text>
           <include lvl="3">
             <para>
+            <codify:insert after="(v)" num-value="(vi)"/>
               <num>(vi)</num>
               <text>The nature of the emergency situation; provided, that if the nature of the emergency situation precludes documentation, an unsworn declaration made under penalty of perjury explaining both the emergency situation and the reason why the applicant unit does not possess documentation regarding the nature of the emergency situation may be considered sufficient documentation or proof for this element of an application.</text>
             </para>
@@ -65,25 +74,34 @@
       <para>
         <num>(2)</num>
         <text>Paragraph (3) is repealed.</text>
+        <codify:repeal path="(3)"/>
       </para>
     </para>
-    <para>
+    <para codify:path="(d)|(3)">
       <num>(b)</num>
       <text>Subsection (d)(3) is amended to read as follows:</text>
       <include lvl="1">
         <para>
+        <codify:replace/>
           <num>(3)</num>
           <text>"Emergency situation" means a situation in which immediate action is necessary to avoid homelessness or eviction, to re-establish a rental home, or otherwise to prevent displacement from a rental home, which is the result of an unforeseen or unusual event, such as the loss of a job or high medical costs, that impacts the applicant unit's ability to pay rent and that cannot be resolved without financial assistance.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:temporary doc="D.C. Code" path="§4-753.08"/>
+    <codify:insert doc="D.C. Code" path="§4-753.08" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on July 30, 2025. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§4-753.08(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
-  <section>
+  <section codify:path="§42-3505.01|(r)">
     <num>3</num>
     <text>Section 501(r) of the Rental Housing Act of 1985, effective July 17, 1985 (D.C. Law 6-10; D.C. Official Code § 42-3505.01(r)), is amended to read as follows:</text>
     <include>
       <para>
+      <codify:replace/>
         <num>(r)</num>
         <para>
           <num>(1)</num>
@@ -100,6 +118,12 @@
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:temporary doc="D.C. Code" path="§42-3505.01"/>
+    <codify:insert doc="D.C. Code" path="§42-3505.01" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on July 30, 2025. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§42-3505.01(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>4</num>

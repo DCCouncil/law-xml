@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-244">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-244" codify:doc="D.C. Code">
   <num type="law">25-244</num>
   <num type="act">25-599</num>
   <num type="bill">25-737</num>
@@ -23,6 +23,13 @@
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "General Contractor Licensing Amendment Act of 2024".</text>
   <section>
+    <codify:insert doc="D.C. Code" path="47|28|I-B" after="D-i" history="false">
+      <container>
+        <prefix>Part</prefix>
+        <num>D-ii</num>
+        <heading>Construction Managers and General Contractors.</heading>
+      </container>
+    </codify:insert>
     <num>2</num>
     <text>Chapter 28 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
     <para>
@@ -41,8 +48,9 @@
             </para>
           </section>
           <section>
-            <num>47</num>
-            <text>2853.78a. Scope of practice for construction management and general contracting.</text>
+            <num>47-2853</num>
+            <heading>78a.</heading>
+            <text>Scope of practice for construction management and general contracting.</text>
           </section>
           <section>
             <num>47-2853</num>
@@ -88,7 +96,7 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§47-2853.04|(a)">
       <num>(b)</num>
       <text>Section 47-2853.04(a) is amended as follows:</text>
       <para>
@@ -96,6 +104,7 @@
         <text>A new paragraph (8A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert num-value="(8A)" after="(8)"/>
             <num>(8A)</num>
             <text>Commercial contractor;</text>
           </para>
@@ -107,6 +116,7 @@
         <text>A new paragraph (11A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert num-value="(11A)" after="(11)"/>
             <num>(11A)</num>
             <text>Construction manager;</text>
           </para>
@@ -118,18 +128,21 @@
         <text>A new paragraph (29A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert num-value="(29A)" after="(29)"/>
             <num>(29A)</num>
             <text>Residential contractor;</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§47-2853.04" applicability-path="§3" action="change made to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§47-2853.06">
       <num>(c)</num>
       <text>Section 47-2853.06 is amended by adding a new subsection (i) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(h)" num-value="(i)"/>
           <num>(i)</num>
           <para>
             <num>(1)</num>
@@ -161,11 +174,12 @@
           </para>
           <para>
             <num>(2)</num>
-            <text>The Board shall regulate the practice of construction management and general contracting, except as provided for in §§ 47-2853.78a and 47-2853.78b(b). The Board may establish insurance requirements, subcategories for licensure, education, and experience requirements for licensure, and other requirements.</text>
+            <text>The Board shall regulate the practice of construction management and general contracting, except as provided for in §§ <cite doc="D.C. Code" path="§47-2853.78a">47-2853.78a</cite> and <cite doc="D.C. Code" path="§47-2853.78b|(b)">47-2853.78b(b)</cite>. The Board may establish insurance requirements, subcategories for licensure, education, and experience requirements for licensure, and other requirements.</text>
           </para>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§47-2853.06" applicability-path="§3" action="change made to" display-template=""/>
     </para>
     <para>
       <num>(d)</num>
@@ -173,14 +187,15 @@
       <include>
         <container>
           <prefix>Part</prefix>
-          <num>D</num>
-          <heading>ii. Construction managers and general contractors.</heading>
+          <num>D-ii</num>
+          <heading>Construction managers and general contractors.</heading>
           <section>
-            <num>47-2853</num>
+            <codify:insert path="D-ii" num-value="47-2853.78"/>
+            <num>47-2853.78</num>
+            <heading>Defintions.</heading>
             <para>
-              <num>78.</num>
-              <text>Definitions.</text>
-              <text>As used in this part:</text>
+              <num undesignated="true">(a)</num>
+              <text>As used in <cite doc="D.C. Code" path="47|28|I-B|D-ii">this part</cite>:</text>
               <para>
                 <num>(1)</num>
                 <text>"Board" means the Board of Construction Managers and General Contractors.</text>
@@ -191,7 +206,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>"Commercial property" shall have the same meaning as set forth in § 42-2103(1A).</text>
+                <text>"Commercial property" shall have the same meaning as set forth in <cite doc="D.C. Code" path="§42-2103|(1A)">§ 42-2103(1A)</cite>.</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -223,7 +238,7 @@
               </para>
               <para>
                 <num>(6)</num>
-                <text>"Licensee" means a residential contractor, commercial contractor, or construction manager licensed under this part.</text>
+                <text>"Licensee" means a residential contractor, commercial contractor, or construction manager licensed under <cite doc="D.C. Code" path="47|28|I-B|D-ii">this part</cite>.</text>
               </para>
               <para>
                 <num>(7)</num>
@@ -242,34 +257,36 @@
                 </para>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2853.78" applicability-path="§3" action="creation of" display-template=""/>
           </section>
           <section>
-            <num>47-2853</num>
-            <heading proof="needed">78a.</heading>
-            <text>Scope of practice for construction management and general contracting.</text>
+            <codify:insert path="D-ii" after="§47-2853.78" num-value="47-2853.78a"/>
+            <num>47-2853.78a</num>
+            <heading proof="needed">Scope of practice for construction management and general contracting.</heading>
             <para>
               <num>(a)</num>
-              <text>For purposes of this part, the term "practice of construction management" means scheduling, estimating and approving, coordinating, managing or directing phases of a project for the construction, demolition, alteration, or reconstruction of any commercial or residential property.</text>
+              <text>For purposes of <cite doc="D.C. Code" path="47|28|I-B|D-ii">this part</cite>, the term "practice of construction management" means scheduling, estimating and approving, coordinating, managing or directing phases of a project for the construction, demolition, alteration, or reconstruction of any commercial or residential property.</text>
             </para>
             <para>
               <num>(b)</num>
               <para>
                 <num>(1)</num>
-                <text>For purposes of this part, the term "practice of general contracting" means undertaking or offering to undertake, or submitting a bid to construct, alter, repair, add to, subtract from, improve, move, wreck, or demolish any building, excavation or other structure, project, development, or improvement with respect to residential real property or commercial property.</text>
+                <text>For purposes of <cite doc="D.C. Code" path="47|28|I-B|D-ii">this part</cite>, the term "practice of general contracting" means undertaking or offering to undertake, or submitting a bid to construct, alter, repair, add to, subtract from, improve, move, wreck, or demolish any building, excavation or other structure, project, development, or improvement with respect to residential real property or commercial property.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>For purposes of this part, the term "practice of general contracting" does not include construction work on electrical systems, elevators, fire protection systems, refrigeration or air conditioning systems, or any other work that requires a specific trade license issued by the Board of Industrial Trades pursuant to this subchapter.</text>
+                <text>For purposes of <cite doc="D.C. Code" path="47|28|I-B|D-ii">this part</cite>, the term "practice of general contracting" does not include construction work on electrical systems, elevators, fire protection systems, refrigeration or air conditioning systems, or any other work that requires a specific trade license issued by the Board of Industrial Trades pursuant to <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite>.</text>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2853.78a" applicability-path="§3" action="creation of" display-template=""/>
           </section>
           <section>
-            <num>47-2853</num>
-            <heading proof="needed">78b.</heading>
-            <text>Necessity for license; exemptions.</text>
+            <codify:insert path="D-ii" after="§47-2853.78a" num-value="47-2853.78b"/>
+            <num>47-2853.78b</num>
+            <heading proof="needed">Necessity for license; exemptions.</heading>
             <para>
               <num>(a)</num>
-              <text>No person may engage in the District in any activity as a construction manager, commercial contractor, or residential contractor, or submit a bid to perform work as a construction manager, commercial contractor, or residential contractor, as defined in § 47-2853.78, unless that person holds an applicable license issued under the provisions of this part.</text>
+              <text>No person may engage in the District in any activity as a construction manager, commercial contractor, or residential contractor, or submit a bid to perform work as a construction manager, commercial contractor, or residential contractor, as defined in <cite doc="D.C. Code" path="§47-2853.78">§ 47-2853.78</cite>, unless that person holds an applicable license issued under the provisions of <cite doc="D.C. Code" path="47|28|I-B|D-ii">this part</cite>.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -292,7 +309,7 @@
               </para>
               <para>
                 <num>(5)</num>
-                <text>Work performed by a public utility, as defined in § 34-214;</text>
+                <text>Work performed by a public utility, as defined in <cite doc="D.C. Code" path="§34-214">§ 34-214</cite>;</text>
               </para>
               <para>
                 <num>(6)</num>
@@ -315,11 +332,12 @@
                 <text>Work personally performed on a residential real property by the owner or occupant thereof.</text>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2853.78b" applicability-path="§3" action="creation of" display-template=""/>
           </section>
           <section>
-            <num>47-2853</num>
-            <heading proof="needed">78c.</heading>
-            <text>Eligibility criteria for construction managers and general contractors.</text>
+            <codify:insert path="D-ii" after="§47-2853.78b" num-value="47-2853.78c"/>
+            <num>47-2853.78c</num>
+            <heading proof="needed">Eligibility criteria for construction managers and general contractors.</heading>
             <para>
               <num>(a)</num>
               <text>Notwithstanding subsection (b) of this section, an applicant for licensure shall establish to the satisfaction of the Board that the applicant:</text>
@@ -364,11 +382,11 @@
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Is compliant with financial statement, balance sheet, or bonding requirements under § 47-2853.78d and any insurance requirements established by the Board;</text>
+                  <text>Is compliant with financial statement, balance sheet, or bonding requirements under <cite doc="D.C. Code" path="§47-2853.78d">§ 47-2853.78d</cite> and any insurance requirements established by the Board;</text>
                 </para>
                 <para>
                   <num>(D)</num>
-                  <text>Has not had a license issued pursuant to this part denied, suspended, or revoked within one year prior to the date on which the application is filed; and</text>
+                  <text>Has not had a license issued pursuant to <cite doc="D.C. Code" path="47|28|I-B|D-ii">this part</cite> denied, suspended, or revoked within one year prior to the date on which the application is filed; and</text>
                 </para>
                 <para>
                   <num>(E)</num>
@@ -378,13 +396,14 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>A construction manager, residential contractor, or commercial contractor with an active basic business license issued prior to the effective date of this act is deemed to be eligible for licensure until the expiration of his or her basic business license and shall satisfy the eligibility requirements for licensure at the renewal of his or her business license.</text>
+              <text>A construction manager, residential contractor, or commercial contractor with an active basic business license issued prior to <span codify:value="[December 17, 2024]">the effective date of this act</span> is deemed to be eligible for licensure until the expiration of his or her basic business license and shall satisfy the eligibility requirements for licensure at the renewal of his or her business license.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2853.78c" applicability-path="§3" action="creation of" display-template=""/>
           </section>
           <section>
-            <num>47-2853</num>
-            <heading proof="needed">78d.</heading>
-            <text>Financial statements or balance sheets; surety bonds in lieu of providing financial statements or balance sheets.</text>
+            <codify:insert path="D-ii" after="§47-2853.78c" num-value="47-2853.78d"/>
+            <num>47-2853.78d</num>
+            <heading proof="needed">Financial statements or balance sheets; surety bonds in lieu of providing financial statements or balance sheets.</heading>
             <para>
               <num>(a)</num>
               <text>As proof of financial responsibility, an applicant for a commercial or residential contractor license shall demonstrate compliance with a minimum net worth requirement fixed by the Board by providing either:</text>
@@ -416,16 +435,17 @@
                 <text>Proof of current bond shall be submitted to the Board and shall come from a corporate surety certified by the U.S. Department of Treasury to do business pursuant to 31 U.S.C. § 9305.</text>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2853.78d" applicability-path="§3" action="creation of" display-template=""/>
           </section>
           <section>
-            <num>47-2853</num>
-            <heading proof="needed">78e.</heading>
-            <text>Recovery on bond.</text>
+            <codify:insert path="D-ii" after="§47-2853.78d" num-value="47-2853.78e"/>
+            <num>47-2853.78e</num>
+            <heading proof="needed">Recovery on bond.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>If a commercial or residential contractor who elected to hold a continuous bond pursuant to § 47-2853.78d(b) fails to satisfy a judgment awarded by a court of competent jurisdiction in the District for improper or dishonest conduct, the judgment creditor shall have a claim against the surety bond for such damages. In order to recover the amount of any unpaid judgment, up to but not exceeding the maximum liability fixed by the Board, the judgment creditor shall meet the eligibility requirements of § 47-2853.78g(b)(1) through (5) and shall bring suit directly on the surety bond no later than 12 months after the judgment becomes final.</text>
+                <text>If a commercial or residential contractor who elected to hold a continuous bond pursuant to <cite doc="D.C. Code" path="§47-2853.78d|(b)">§ 47-2853.78d(b)</cite> fails to satisfy a judgment awarded by a court of competent jurisdiction in the District for improper or dishonest conduct, the judgment creditor shall have a claim against the surety bond for such damages. In order to recover the amount of any unpaid judgment, up to but not exceeding the maximum liability fixed by the Board, the judgment creditor shall meet the eligibility requirements of <cite doc="D.C. Code" path="§47-2853.78g|(b)|(1)">§ 47-2853.78g(b)(1) through (5)</cite> and shall bring suit directly on the surety bond no later than 12 months after the judgment becomes final.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -436,11 +456,12 @@
                 <text>The corporate surety shall notify the Board when a claim is made against a contractor's bond, when a claim is paid, and when the bond is cancelled. Such notification shall include the amount of the claim and the circumstances surrounding the claim. Notification of cancellation shall include the effective date and reason for the cancellation. The bond may be cancelled as to future liability by the contractor's surety upon 30 days' notice to the Board.</text>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2853.78e" applicability-path="§3" action="creation of" display-template=""/>
           </section>
           <section>
-            <num>47-2853</num>
-            <heading proof="needed">78f.</heading>
-            <text>Establishment of Residential and Commercial Contractor Guaranty and Education Fund.</text>
+            <codify:insert path="D-ii" after="§47-2853.78e" num-value="47-2853.78f"/>
+            <num>47-2853.78f</num>
+            <heading proof="needed">Establishment of Residential and Commercial Contractor Guaranty and Education Fund.</heading>
             <para>
               <num>(a)</num>
               <text>There is established a Residential and Commercial Contractor Guaranty and Education Fund ("Fund").</text>
@@ -449,7 +470,7 @@
               <num>(b)</num>
               <para>
                 <num>(1)</num>
-                <text>On or after the effective date of the Construction Manager and General Contractor Licensing Amendment Act of 2024, passed on 2nd reading on October 1, 2024 (Enrolled version of Bill 25-737), every commercial and residential contractor licensed under this subchapter shall, as a condition for renewing his or her license, pay, in addition to other fees required under this subchapter, a sum to be established by the Mayor for deposit into the Fund.</text>
+                <text>On or after <span codify:value="[December 17, 2024]">the effective date of the Construction Manager and General Contractor Licensing Amendment Act of 2024, passed on 2nd reading on October 1, 2024 (Enrolled version of Bill 25-737)</span>, every commercial and residential contractor licensed under <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite> shall, as a condition for renewing his or her license, pay, in addition to other fees required under <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite>, a sum to be established by the Mayor for deposit into the Fund.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -467,14 +488,15 @@
                 </para>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2853.78f" applicability-path="§3" action="creation of" display-template=""/>
           </section>
           <section>
-            <num>47-2853</num>
-            <heading proof="needed">78g.</heading>
-            <text>Applications for payments from Fund; maximum payment; management of Fund.</text>
+            <codify:insert path="D-ii" after="§47-2853.78f" num-value="47-2853.78g"/>
+            <num>47-2853.78g</num>
+            <heading proof="needed">Applications for payments from Fund; maximum payment; management of Fund.</heading>
             <para>
               <num>(a)</num>
-              <text>Any person who obtains final judgment, including a settlement reduced to a final judgment, in any court of competent jurisdiction in the District against any other person on the grounds of fraud, misrepresentation, deceit, embezzlement, false pretenses, forgery, or violations of the provisions of this subchapter, arising directly out of any transaction which occurred when the other person was licensed under this subchapter, during the course of which the licensee performed acts for which a license is required under this subchapter, and which transaction occurred on or after the effective date of the Construction Manager and General Contractor Licensing Amendment Act of 2024, passed on 2nd reading on October 1, 2024 (Enrolled version of Bill 25-737) ("Act"); and who meets the requirements of subsection (b) of this section, may, upon termination of all proceedings, including reviews and appeals in connection with the judgment, file a written application, under oath, with the Mayor for an order directing payment from the Fund of the amount of actual and direct loss in the transaction (excluding the amount of any interest, attorney's fees, court costs, or punitive or exemplary damages) which remains unpaid upon the judgment. The application shall be filed no later 12 months after the date on which the judgment became final.</text>
+              <text>Any person who obtains final judgment, including a settlement reduced to a final judgment, in any court of competent jurisdiction in the District against any other person on the grounds of fraud, misrepresentation, deceit, embezzlement, false pretenses, forgery, or violations of the provisions of <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite>, arising directly out of any transaction which occurred when the other person was licensed under <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite>, during the course of which the licensee performed acts for which a license is required under <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite>, and which transaction occurred on or after <span codify:value="[December 17, 2024]">the effective date of the Construction Manager and General Contractor Licensing Amendment Act of 2024, passed on 2nd reading on October 1, 2024 (Enrolled version of Bill 25-737) ("Act")</span>; and who meets the requirements of subsection (b) of this section, may, upon termination of all proceedings, including reviews and appeals in connection with the judgment, file a written application, under oath, with the Mayor for an order directing payment from the Fund of the amount of actual and direct loss in the transaction (excluding the amount of any interest, attorney's fees, court costs, or punitive or exemplary damages) which remains unpaid upon the judgment. The application shall be filed no later 12 months after the date on which the judgment became final.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -510,29 +532,29 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>The maximum amount that may be paid from the Fund to satisfy in whole or in part a final judgment against a licensee as provided for herein, including any amount paid from recovery on a contractor's bond pursuant to § 47-2853.78e, shall be as follows:</text>
+              <text>The maximum amount that may be paid from the Fund to satisfy in whole or in part a final judgment against a licensee as provided for herein, including any amount paid from recovery on a contractor's bond pursuant to <cite doc="D.C. Code" path="§47-2853.78e">§ 47-2853.78e</cite>, shall be as follows:</text>
               <text>Amount</text>
-              <aftertext proof="needed">$10,000 ...... Judgment is final during the first year following the effective date of the Act;</aftertext>
-              <aftertext proof="needed">$20,000 ...... Judgment is final during the second year following the effective date of the Act;</aftertext>
-              <aftertext proof="needed">$30,000 ...... Judgment is final during the third year following the effective date of the Act;</aftertext>
-              <aftertext proof="needed">$40,000 ...... Judgment is final during the fourth year following the effective date of the Act;</aftertext>
-              <aftertext proof="needed">$50,000 ...... Judgment is final during the fifth year following the effective date of the Act, and thereafter.</aftertext>
+              <text proof="needed">$10,000 ...... Judgment is final during the first year following <span codify:value="[December 17, 2024]">the effective date of the Act</span>;</text>
+              <text proof="needed">$20,000 ...... Judgment is final during the second year following <span codify:value="[December 17, 2024]">the effective date of the Act</span>;</text>
+              <text proof="needed">$30,000 ...... Judgment is final during the third year following <span codify:value="[December 17, 2024]">the effective date of the Act</span>;</text>
+              <text proof="needed">$40,000 ...... Judgment is final during the fourth year following <span codify:value="[December 17, 2024]">the effective date of the Act</span>;</text>
+              <text proof="needed">$50,000 ...... Judgment is final during the fifth year following <span codify:value="[December 17, 2024]">the effective date of the Act</span>, and thereafter.</text>
             </para>
             <para>
               <num>(d)</num>
-              <text>The aggregate of claims by judgment creditors against the Fund based upon an unpaid final judgment arising out of the acts of the licensee in connection with a single transaction shall be $50,000, including any amount paid from recovery on a contractor's bond pursuant to § 47-2853.78e, regardless of the number of claimants. If the aggregate of claims exceeds $50,000, the Board shall pay $50,000 to the claimants in proportion to the amounts of the claimants' final judgments against the Fund which remain unpaid. If the Mayor has reason to believe that there may be additional claims against the Fund arising out of the same transaction, the Mayor may withhold payment from the Fund involving the licensee for a period of not more than one year.</text>
+              <text>The aggregate of claims by judgment creditors against the Fund based upon an unpaid final judgment arising out of the acts of the licensee in connection with a single transaction shall be $50,000, including any amount paid from recovery on a contractor's bond pursuant to <cite doc="D.C. Code" path="§47-2853.78e">§ 47-2853.78e</cite>, regardless of the number of claimants. If the aggregate of claims exceeds $50,000, the Board shall pay $50,000 to the claimants in proportion to the amounts of the claimants' final judgments against the Fund which remain unpaid. If the Mayor has reason to believe that there may be additional claims against the Fund arising out of the same transaction, the Mayor may withhold payment from the Fund involving the licensee for a period of not more than one year.</text>
             </para>
             <para>
               <num>(e)</num>
-              <text>Any person who commences an action for a judgment which could be the basis for an order of the Mayor directing payment from the Fund shall notify the Mayor in writing within 30 days after the date of the commencement of the action. Any failure to notify the Mayor as required under this subsection shall be grounds for the Mayor to deny an application of the person for payment from the Fund. The Mayor may waive this requirement if good cause is shown for failure to notify. The Mayor may, in accordance with the provisions of this subchapter, commence an investigation of the complaint and hold a hearing to determine whether any license issued pursuant to this subchapter should be suspended or revoked.</text>
+              <text>Any person who commences an action for a judgment which could be the basis for an order of the Mayor directing payment from the Fund shall notify the Mayor in writing within 30 days after the date of the commencement of the action. Any failure to notify the Mayor as required under this subsection shall be grounds for the Mayor to deny an application of the person for payment from the Fund. The Mayor may waive this requirement if good cause is shown for failure to notify. The Mayor may, in accordance with the provisions of <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite>, commence an investigation of the complaint and hold a hearing to determine whether any license issued pursuant to <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite> should be suspended or revoked.</text>
             </para>
             <para>
               <num>(f)</num>
-              <text>Whenever an aggrieved person who has become a judgment creditor as provided in this section files an application for an order directing payment from the Fund, the Mayor shall  cause a copy of the application to be served on the licensee alleged to be the judgment debtor, by certified mail, return receipt requested, to the address of record of the licensee, and the matter shall be set for hearing before the Board. Whenever the Mayor determines that the applicant is entitled to payment from the Fund, the Mayor shall issue an order directing payment from the Fund in an amount consistent with this subchapter.</text>
+              <text>Whenever an aggrieved person who has become a judgment creditor as provided in this section files an application for an order directing payment from the Fund, the Mayor shall  cause a copy of the application to be served on the licensee alleged to be the judgment debtor, by certified mail, return receipt requested, to the address of record of the licensee, and the matter shall be set for hearing before the Board. Whenever the Mayor determines that the applicant is entitled to payment from the Fund, the Mayor shall issue an order directing payment from the Fund in an amount consistent with <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite>.</text>
             </para>
             <para>
               <num>(g)</num>
-              <text>If the Mayor issues an order directing payment from the Fund of any amount towards satisfaction of a judgment against a licensed residential contractor, commercial contractor, or construction manager, the license of the person shall be automatically suspended upon the issuance of the order. No residential contractor, commercial contractor, or construction manager shall be eligible to have his or her license restored until he or she has repaid in full the amount ordered paid from the Fund, plus interest at an annual rate established by the Mayor from the date of payment of the amount from the Fund, and has satisfied all rules governing licensure as set forth in this subchapter.</text>
+              <text>If the Mayor issues an order directing payment from the Fund of any amount towards satisfaction of a judgment against a licensed residential contractor, commercial contractor, or construction manager, the license of the person shall be automatically suspended upon the issuance of the order. No residential contractor, commercial contractor, or construction manager shall be eligible to have his or her license restored until he or she has repaid in full the amount ordered paid from the Fund, plus interest at an annual rate established by the Mayor from the date of payment of the amount from the Fund, and has satisfied all rules governing licensure as set forth in <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite>.</text>
             </para>
             <para>
               <num>(h)</num>
@@ -548,7 +570,7 @@
             </para>
             <para>
               <num>(k)</num>
-              <text>Should the Office of the Chief Financial Officer project that the year-end Fund balance for any fiscal year will be less than the minimum balance established pursuant to subsection (j) of this section, the Mayor shall assess each licensee an amount, not to exceed $50 during any license year, within 30 calendar days, that is sufficient, when combined with similar assessments of other licensees, to bring the balance of the Fund up to the minimum established. Whenever the amount deposited in the Fund is more than the maximum balance established, the Mayor shall waive contributions to the Fund required by this subchapter.</text>
+              <text>Should the Office of the Chief Financial Officer project that the year-end Fund balance for any fiscal year will be less than the minimum balance established pursuant to subsection (j) of this section, the Mayor shall assess each licensee an amount, not to exceed $50 during any license year, within 30 calendar days, that is sufficient, when combined with similar assessments of other licensees, to bring the balance of the Fund up to the minimum established. Whenever the amount deposited in the Fund is more than the maximum balance established, the Mayor shall waive contributions to the Fund required by <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite>.</text>
             </para>
             <para>
               <num>(l)</num>
@@ -566,18 +588,21 @@
               <num>(o)</num>
               <text>When the Mayor has ordered a sum from the Fund to be paid to a judgment creditor, the Mayor shall be subrogated to all of the rights of the judgment creditor up to the amount paid and the judgment creditor shall assign to the Mayor all rights, title, and interest in the judgment up to the amount paid from the Fund. Any amount and interest so recovered by the Mayor or the judgment creditor on the judgment up to the amount paid shall be deposited in the Fund.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2853.78g" applicability-path="§3" action="creation of" display-template=""/>
           </section>
           <section>
-            <num>47-2853</num>
-            <heading proof="needed">78h.</heading>
-            <text>Responsibility for contracting with persons lacking proper license.</text>
-            <text>Any construction manager or contractor that directly employs or otherwise contracts with a person who is not licensed by the Board for work requiring a license under this part shall be solely responsible for any monetary penalty or other sanction resulting from the act of employing or contracting with a person who lacks a proper license based upon such person's failure to obtain or maintain the required license.</text>
+            <codify:insert path="D-ii" after="§47-2853.78g" num-value="47-2853.78h"/>
+            <num>47-2853.78h</num>
+            <heading proof="needed">Responsibility for contracting with persons lacking proper license.</heading>
+            <text>Any construction manager or contractor that directly employs or otherwise contracts with a person who is not licensed by the Board for work requiring a license under <cite doc="D.C. Code" path="47|28|I-B|D-ii">this part</cite> shall be solely responsible for any monetary penalty or other sanction resulting from the act of employing or contracting with a person who lacks a proper license based upon such person's failure to obtain or maintain the required license.</text>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2853.78h" applicability-path="§3" action="creation of" display-template=""/>
           </section>
           <section>
-            <num>47-2853</num>
-            <heading proof="needed">78i.</heading>
-            <text>Certain representations prohibited.</text>
-            <text>Unless licensed under this subchapter, no person shall assume or use the titles or designations "construction manager," "commercial contractor," or "residential contractor," or any other title, designation, words, letters, abbreviations, sign, card, or device, tending to indicate that the person is licensed as a construction manager, commercial contractor, or residential contractor in the District.</text>
+            <codify:insert path="D-ii" after="§47-2853.78h" num-value="47-2853.78i"/>
+            <num>47-2853.78i</num>
+            <heading proof="needed">Certain representations prohibited.</heading>
+            <text>Unless licensed under <cite doc="D.C. Code" path="47|28|I-B">this subchapter</cite>, no person shall assume or use the titles or designations "construction manager," "commercial contractor," or "residential contractor," or any other title, designation, words, letters, abbreviations, sign, card, or device, tending to indicate that the person is licensed as a construction manager, commercial contractor, or residential contractor in the District.</text>
+            <codify:not-funded-anno doc="D.C. Code" path="§47-2853.78i" applicability-path="§3" action="creation of" display-template=""/>
           </section>
         </container>
       </include>
@@ -590,6 +615,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the later of January 1, 2026, or 120 days after the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 25-244" path="§2" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
