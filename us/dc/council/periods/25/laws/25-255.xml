@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-255">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-255" codify:doc="D.C. Code">
   <num type="law">25-255</num>
   <num type="act">25-614</num>
   <num type="bill">25-581</num>
@@ -24,15 +24,20 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Medical Cannabis Clarification and Program Enforcement Amendment Act of 2024".</text>
-  <section>
+  <section codify:path="§1-301.86b|(b)|[(6)]">
     <num>2</num>
     <text>Section 106b(b)(6) of the Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010, effective October 22, 2015 (D.C. Law 21-36; D.C. Official Code § 1-301.86b(b)(6)), is amended by striking the phrase "pursuant to D.C. Official Code § 47-2844(a-2)(1B)" and inserting the phrase "pursuant to section 9 of the Legalization of Marijuana for Medical Treatment Initiative of 1999, effective July 27, 2010 (D.C. Law 18-210; D.C. Official Code § 7-1671.08)" in its place.</text>
+    <codify:find-replace count="1">
+      <find>pursuant to <code-cite doc="D.C. Code" path="§47-2844|(a-2)|(1B)">D.C. Official Code § 47-2844(a-2)(1B)</code-cite></find>
+      <replace>pursuant to <code-cite doc="D.C. Code" path="§7-1671.08">section 9 of the Legalization of Marijuana for Medical Treatment Initiative of 1999, effective July 27, 2010 (D.C. Law 18-210; D.C. Official Code § 7-1671.08)</code-cite></replace>
+    </codify:find-replace>
   </section>
-  <section>
+  <section codify:path="§1-350.01|(2)">
     <num>3</num>
     <text>Section 1042(2) of the Delinquent Debt Recovery Act of 2012, effective September 20, 2012 (D.C. Law 19-168; D.C. Official Code § 1-350.01(2)), is amended to read as follows:</text>
     <include lvl="1">
       <para>
+        <codify:replace/>
         <num>(2)</num>
         <text>"Delinquent debt" means:</text>
         <para>
@@ -41,7 +46,7 @@
         </para>
         <para>
           <num>(B)</num>
-          <text>A fine issued by the Alcoholic Beverage and Cannabis Administration pursuant to section 9 of the Legalization of Marijuana for Medical Treatment Initiative of 1999, effective July 27, 2010 (D.C. Law 18-210; D.C. Official Code § 7-1671.08), or section 8 of the Medical Cannabis Amendment Act of 2022, effective March 22, 2023 (D.C. Law 24-332; D.C. Official Code § 7-1675.01), that remains unpaid more than 30 days after it was due.</text>
+          <text>A fine issued by the Alcoholic Beverage and Cannabis Administration pursuant to <code-cite doc="D.C. Code" path="§7-1671.08">section 9 of the Legalization of Marijuana for Medical Treatment Initiative of 1999, effective July 27, 2010 (D.C. Law 18-210; D.C. Official Code § 7-1671.08)</code-cite>, or <code-cite doc="D.C. Code" path="§7-1675.01">section 8 of the Medical Cannabis Amendment Act of 2022, effective March 22, 2023 (D.C. Law 24-332; D.C. Official Code § 7-1675.01)</code-cite>, that remains unpaid more than 30 days after it was due.</text>
         </para>
       </para>
     </include>
@@ -50,22 +55,28 @@
   <section>
     <num>4</num>
     <text>The Legalization of Marijuana for Medical Treatment Initiative of 1999, effective July 27, 2010 (D.C. Law 18-210; D.C. Official Code § 7-1671.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§7-1671.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 7-1671.01) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Paragraph (1E) is redesignated as paragraph (1G).</text>
+        <codify:find-replace count="1">
+          <find>(1E)</find>
+          <replace>(1G)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>New paragraphs (1E) and (1F) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1D)" num-value="(1E)"/>
             <num>(1E)</num>
             <text>"Affected ANC" means any Advisory Neighborhood Commission within 600 feet of where a medical cannabis cultivator, manufacturer, retailer, or internet retailer facility is or will be located.</text>
           </para>
           <para>
+            <codify:insert after="(1E)" num-value="(1F)"/>
             <num>(1F)</num>
             <text>"Another jurisdiction" means any state, commonwealth, or territory of the United States.</text>
           </para>
@@ -75,40 +86,61 @@
       <para>
         <num>(3)</num>
         <text>Paragraph (5A) is redesignated as paragraph (5B).</text>
+        <codify:find-replace count="1">
+          <find>(5A)</find>
+          <replace>(5B)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (5A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(5)" num-value="(5A)"/>
             <num>(5A)</num>
-            <text>"Daycare center" means a child development center, as that term is defined in section 2(2) of the Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-401(2)), that is licensed by the Office of the State Superintendent of Education.</text>
+            <text>"Daycare center" means a child development center, as that term is defined in <code-cite doc="D.C. Code" path="§4-401|(2)">section 2(2) of the Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-401(2))</code-cite>, that is licensed by the Office of the State Superintendent of Education.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(13B)">
         <num>(5)</num>
         <text>Paragraph (13B) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "resident who" and inserting the phrase "resident who is a person who resides or is domiciled in another state, territory, foreign country, or foreign territory and who" in its place.</text>
+          <codify:find-replace count="1">
+            <find>resident who</find>
+            <replace>resident who is a person who resides or is domiciled in another state, territory, foreign country, or foreign territory and who</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(B)">
           <num>(B)</num>
           <text>Subparagraph (B) is amended by striking the phrase "30-day registration identification card" and inserting the phrase "registration identification card valid for periods established by the ABC Board by rulemaking, which are between 3 days and no longer than one year in length" in its place.</text>
+          <codify:find-replace count="1">
+            <find>30-day registration identification card</find>
+            <replace>registration identification card valid for periods established by the ABC Board by rulemaking, which are between 3 days and no longer than one year in length</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(19)">
         <num>(6)</num>
         <text>Paragraph (19) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "dental treatment, or" and insert the phrase "dental treatment, a patient who is a non-resident cardholder, or" in its place.</text>
+          <codify:find-replace count="1">
+            <find>dental treatment, or</find>
+            <replace>dental treatment, a patient who is a non-resident cardholder, or</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "provided, that a patient" and insert the phrase "provided, that a patient who is a non-resident cardholder or a patient" in its place.</text>
+          <codify:find-replace count="1">
+            <find>provided, that a patient</find>
+            <replace>provided, that a patient who is a non-resident cardholder or a patient</replace>
+          </codify:find-replace>
         </para>
       </para>
       <para>
@@ -116,41 +148,59 @@
         <text>A new paragraph (19B) is added to read as follows:</text>
         <include lvl="1">
           <para>
+          <codify:insert after="(19A)" num-value="(19B)"/>
             <num>(19B)</num>
             <text>"Recreation center" means a Department of Parks and Recreation public facility.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(20C)|(B)">
         <num>(8)</num>
         <text>Paragraph (20C)(B) is amended by striking the phrase "or has a non-parent legal guardian who is or has been incarcerated" and inserting the phrase "or has a non-parent legal guardian, a grandparent, or a sibling who is or has been arrested, convicted, or incarcerated" in its place.</text>
+        <codify:find-replace count="1">
+          <find>or has a non-parent legal guardian who is or has been incarcerated</find>
+          <replace>or has a non-parent legal guardian, a grandparent, or a sibling who is or has been arrested, convicted, or incarcerated</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§7-1671.05|(b)">
       <num>(b)</num>
       <text>Section 6(b) (D.C. Official Code § 7-1671.05(b)) is amended as follows:</text>
-      <para>
+      <para codify:path="(4)">
         <num>(1)</num>
         <text>Paragraph (4) is amended as follows:</text>
-        <para>
+        <para codify:path="(A)">
           <num>(A)</num>
           <text>Subparagraph (A) is amended by striking the phrase "30 days" and inserting the phrase "periods established by the ABC Board by rulemaking, which are between 3 days and no longer than one year in length" in its place.</text>
+          <codify:find-replace count="1">
+            <find>30 days</find>
+            <replace>periods established by the ABC Board by rulemaking, which are between 3 days and no longer than one year in length</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(B)">
           <num>(B)</num>
           <text>Subparagraph (B) is amended by striking the phrase "30-day temporary non-resident" and inserting the phrase "temporary non-resident" in its place.</text>
+          <codify:find-replace count="1">
+            <find>30-day temporary non-resident</find>
+            <replace>temporary non-resident</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(5)|(C)">
         <num>(2)</num>
         <text>Paragraph (5)(C) is amended by striking the phrase "3 years" and inserting the phrase "3 years, except for temporary non-resident registration identification cards that are valid for periods established by the ABC Board by rulemaking, which shall be between 3 days and no longer than one year in length" in its place.</text>
+        <codify:find-replace count="1">
+          <find>3 years</find>
+          <replace>3 years, except for temporary non-resident registration identification cards that are valid for periods established by the ABC Board by rulemaking, which shall be between 3 days and no longer than one year in length</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (11A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+          <codify:insert after="(11)" num-value="(11A)"/>
             <num>(11A)</num>
             <text>Allow testing laboratories to:</text>
             <para>
@@ -170,19 +220,26 @@
         <text>A new paragraph (14A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+          <codify:insert after="(14)" num-value="(14A)"/>
             <num>(14A)</num>
             <text>Conduct announced and unannounced inspections of unlicensed establishments;</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(15)">
         <num>(5)</num>
         <text>Paragraph (15) is amended by striking the phrase "Establish sliding-scale registration and annual renewal fees for all persons and entities required to register or obtain a license pursuant to this act; provided" and inserting the phrase "Establish registration, sliding-scale registration, and annual renewal fees for all persons and entities required to register or obtain a license pursuant to this act and permit the ABC Board, by rule, to make qualifying patient and caregiver registrations available at no cost; provided" in its place.</text>
+        <codify:find-replace count="1">
+        <find>Establish sliding-scale registration and annual renewal fees for all persons and entities required to register or obtain a license pursuant to <code-cite doc="D.C. Code" path="7|16B">this act</code-cite>; provided</find>
+        <replace>Establish registration, sliding-scale registration, and annual renewal fees for all persons and entities required to register or obtain a license pursuant to <code-cite doc="D.C. Code" path="7|16B">this act</code-cite> and permit the ABC Board, by rule, to make qualifying patient and caregiver registrations available at no cost; provided</replace>
+      </codify:find-replace>
       </para>
-      <para>
+      
+      <para codify:path="(18)">
         <num>(6)</num>
         <text>Paragraph (18) is repealed.</text>
+        <codify:repeal/>
       </para>
     </para>
     <para>
