@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-679">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-679" codify:doc="D.C. Code">
   <num type="act">25-679</num>
   <num type="bill">25-1054</num>
   <heading type="short">DC Circulator Transition Congressional Review Emergency Amendment Act of 2024</heading>
@@ -19,16 +19,23 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "DC Circulator Transition Congressional Review Emergency Amendment Act of 2024".</text>
-  <section>
+  <section codify:path="§47-362">
     <num>2</num>
     <text>Section 47-362 of the District of Columbia Official Code is amended by adding a new subsection (j) to read as follows:</text>
     <include>
       <para>
+        <codify:insert after="(i)" num-value="(j)"/>
         <num>(j)</num>
-        <text>Notwithstanding § 47-361(14), § 47-363(a) shall apply to any reprogramming request, regardless of dollar value, related to the DC Circulator, as described in Title III of the Department of Transportation Establishment Act of 2002, effective March 5, 2007 (D.C. Law 16-225; D.C. Official Code § 50-921.31 et seq.).</text>
+        <text>Notwithstanding <cite doc="D.C. Code" path="§47-361|(14)">§ 47-361(14)</cite>, <cite doc="D.C. Code" path="§47-363|(a)">§ 47-363(a)</cite> shall apply to any reprogramming request, regardless of dollar value, related to the DC Circulator, as described in <cite doc="D.C. Code" path="50|9A|II">Title III of the Department of Transportation Establishment Act of 2002, effective March 5, 2007 (D.C. Law 16-225; D.C. Official Code § 50-921.31 et seq.)</cite>.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:emergency doc="D.C. Code" path="§47-362"/>
+    <codify:insert doc="D.C. Code" path="§47-362" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on April 3, 2025. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§47-362(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
@@ -37,8 +44,9 @@
       <num>(a)</num>
       <text>Section 11c (D.C. Official Code § 50-921.33) is amended to read as follows:</text>
       <include>
-        <section>
-          <num>11c</num>
+        <section codify:path="§50-921.33">
+          <codify:replace/>
+          <num codify:value="50-921.33">11c</num>
           <heading proof="needed">DC Circulator Fund establishment.</heading>
           <para>
             <num>(a)</num>
@@ -49,7 +57,7 @@
             <text>All special purpose funds collected from the following sources shall be deposited into the Fund:</text>
             <para>
               <num>(1)</num>
-              <text>All revenue collected pursuant to section 11b by the District, WMATA, or their agents;</text>
+              <text>All revenue collected pursuant to <code-cite doc="D.C. Code" path="§50-921.32">section 11b</code-cite> by the District, WMATA, or their agents;</text>
             </para>
             <para>
               <num>(2)</num>
@@ -95,16 +103,23 @@
             <num>(e)</num>
             <text>The money deposited into the Fund but not expended in a fiscal year shall not revert to the unassigned fund balance of the General Fund of the District of Columbia at the end of a fiscal year, or at any other time.</text>
           </para>
+          <codify:emergency doc="D.C. Code" path="§50-921.33"/>
+          <codify:insert doc="D.C. Code" path="§50-921.33" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on April 3, 2025. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§50-921.33(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§50-921.36">
       <num>(b)</num>
       <text>Section 11f (D.C. Official Code § 50-921.36) is amended to read as follows:</text>
       <include>
         <section>
-          <num>11f</num>
+          <codify:replace path="§50-921.36"/>
+          <num codify:value="50-921.36">11f</num>
           <heading proof="needed">Coordination with WMATA regarding DC Circulator termination.</heading>
           <para>
             <num undesignated="true">(a)</num>
@@ -122,6 +137,12 @@
               <text>Hiring former DC Circulator workers while preserving their rate of pay and seniority.</text>
             </para>
           </para>
+          <codify:emergency doc="D.C. Code" path="§50-921.36"/>
+          <codify:insert doc="D.C. Code" path="§50-921.36" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on April 3, 2025. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§50-921.36(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </section>
       </include>
       <aftertext>.</aftertext>
