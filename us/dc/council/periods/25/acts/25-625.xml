@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-625">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-625" codify:doc="D.C. Code">
   <num type="act">25-625</num>
   <num type="bill">25-106</num>
   <heading type="short">Comprehensive Electric Vehicle Infrastructure Access, Readiness, and Sustainability Amendment Act of 2024</heading>
@@ -9,7 +9,7 @@
     <effective>2024-11-14</effective>
     <citations>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/52272/Signed_Act/B25-0106-Signed_Act.pdf?Id=201195">D.C. Act 25-625</citation>
-      <citation type="register">0 DCR 0</citation>
+      <citation type="register">71 DCR 14111</citation>
     </citations>
     <history url="https://lims.dccouncil.us/Legislation/B25-0106">
       <vote date="2024-10-01" reading="Amendment"/>
@@ -25,22 +25,23 @@
   <section>
     <num>2</num>
     <text>The Department of Transportation Establishment Act of 2002, effective May 21, 2002 (D.C. Law 14-137; D.C. Official Code § 50-921.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§50-921.04|(a)">
       <num>(a)</num>
       <text>Section 5(a) (D.C. Official Code § 50-921.04(a)) is amended by adding a new paragraph (3B) to read as follows:</text>
       <include lvl="1">
         <para>
+          <!-- <codify:insert after="(3A)" num-value="(3B)"/> -->
           <num>(3B)</num>
           <para>
             <num>(A)</num>
             <text>DDOT shall not issue a public space permit for electric vehicle charging infrastructure that, if approved, would result in that person having a permit for more than 5 electric vehicle charging ports in the District cumulatively, unless the person has agreed to:</text>
             <para>
               <num>(i)</num>
-              <text>Provide data to the Mayor for the purpose of preparing reports required by section 109f of the District Department of the Environment Establishment Act of 2005, passed on 2nd reading on October 15, 2024 (Enrolled version of Bill 25-106); and</text>
+              <text>Provide data to the Mayor for the purpose of preparing reports required by <cite doc="D.C. Code" path="§8-151.09f">section 109f of the District Department of the Environment Establishment Act of 2005, passed on 2nd reading on October 15, 2024 (Enrolled version of Bill 25-106)</cite>; and</text>
             </para>
             <para>
               <num>(ii)</num>
-              <text>Unless prohibited by Federal law or regulation, utilize companies eligible to be certified as certified business enterprises, pursuant to part D of the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code  § 2-218.31 <em>et seq</em>.), for at least 35% of the installation and maintenance of electric vehicle charging ports that the person installs or maintains in the District for projects that receive funding from the District government, including federal funding administered by the District government.</text>
+              <text>Unless prohibited by Federal law or regulation, utilize companies eligible to be certified as certified business enterprises, pursuant to <code-cite doc="D.C. Code" path="2|2|IX-A|D">part D of the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code  § 2-218.31 <em>et seq</em>.)</code-cite>, for at least 35% of the installation and maintenance of electric vehicle charging ports that the person installs or maintains in the District for projects that receive funding from the District government, including federal funding administered by the District government.</text>
             </para>
           </para>
           <para>
@@ -59,12 +60,13 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§50-921.23">
       <num>(b)</num>
       <text>Section 9o (D.C. Official Code § 50-921.23) is amended to read as follows:</text>
       <include>
         <section>
-          <num>9o</num>
+          <!-- <codify:replace/> -->
+          <num codify:value="50-921.23">9o</num>
           <heading proof="needed">Neighborhood Electric Vehicle Charging Infrastructure Pilot Program.</heading>
           <para>
             <num>(a)</num>
@@ -162,7 +164,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>"Area median income" shall have the same meaning as provided in section 2(1)(A) of the Housing Production Trust Fund Act of 1988, effective March 16, 1989 (D.C. Law 7-202; D.C. Official Code § 42-2801(1)(A)).</text>
+              <text>"Area median income" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§42-2801|(1)|(A)">section 2(1)(A) of the Housing Production Trust Fund Act of 1988, effective March 16, 1989 (D.C. Law 7-202; D.C. Official Code § 42-2801(1)(A))</code-cite>.</text>
             </para>
             <para>
               <num>(3)</num>
@@ -174,11 +176,12 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:path="8|1A|I">
     <num>3</num>
     <text>The District Department of the Environment Establishment Act of 2005, effective February 15, 2006 (D.C. Law 16-51; D.C. Official Code § 8-151.01 <em>et seq.</em>), is amended by adding new sections 109f, 109g, and 109h to read as follows:</text>
     <include>
       <section>
+        <!-- <codify:insert after="§8-151.09e" num-value="8-151.09f" history-prefix="as added"/> -->
         <num>109f</num>
         <heading proof="needed">Report on electric vehicle infrastructure deployment and management.</heading>
         <para>
@@ -206,7 +209,7 @@
           </para>
           <para>
             <num>(6)</num>
-            <text>A list of electric vehicle equity emphasis areas that identifies census tracts in the District where a majority of the population has incomes of 60% of area median income, as that term is defined in section 2(1)(A) of the Housing Production Trust Fund Act of 1988, effective March 16, 1989 (D.C. Law 7-202; D.C. Official Code § 42-2801(1)(A)), or less and where DOEE has determined that there is not sufficient publicly accessible charging infrastructure;</text>
+            <text>A list of electric vehicle equity emphasis areas that identifies census tracts in the District where a majority of the population has incomes of 60% of area median income, as that term is defined in <code-cite doc="D.C. Code" path="§42-2801|(1)|(A)">section 2(1)(A) of the Housing Production Trust Fund Act of 1988, effective March 16, 1989 (D.C. Law 7-202; D.C. Official Code § 42-2801(1)(A))</code-cite>, or less and where DOEE has determined that there is not sufficient publicly accessible charging infrastructure;</text>
           </para>
           <para>
             <num>(7)</num>
@@ -245,8 +248,10 @@
             </para>
           </para>
         </para>
+        <annotation doc="D.C. Law 16-51" type="History" path="§109f">Feb. 15, 2006, D.C. Law 16-51, § 109f</annotation>
       </section>
       <section>
+        <!-- <codify:insert after="§8-151.09f" num-value="8-151.09g" history-prefix="as added"/> -->
         <num>109g</num>
         <heading proof="needed">Electric vehicle charging incentive program.</heading>
         <para>
@@ -255,14 +260,16 @@
         </para>
         <para>
           <num>(b)</num>
-          <text>DOEE may work with the electric company, as that term is defined in section 8(1) of An Act Making appropriations to provide for the expenses of the government of the District of Columbia for the fiscal year ending June thirtieth, nineteen hundred and fourteen, and for other purposes, approved March 4, 1913 (37 Stat. 976; D.C. Official Code § 34-207), to develop assistance offered by the Program; provided, that any ratepayer-funded assistance offered by the electric company under the Program shall be approved by the Public Service Commission.</text>
+          <text>DOEE may work with the electric company, as that term is defined in <code-cite doc="D.C. Code" path="§34-207">section 8(1) of An Act Making appropriations to provide for the expenses of the government of the District of Columbia for the fiscal year ending June thirtieth, nineteen hundred and fourteen, and for other purposes, approved March 4, 1913 (37 Stat. 976; D.C. Official Code § 34-207)</code-cite>, to develop assistance offered by the Program; provided, that any ratepayer-funded assistance offered by the electric company under the Program shall be approved by the Public Service Commission.</text>
         </para>
         <para>
           <num>(c)</num>
-          <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), may issue rules to implement the provisions of this section. The proposed rules shall be submitted to the Council for a 45-day period of review, excluding Saturdays, Sundays, legal holidays, and days of Council recess. If the Council does not approve or disapprove the proposed rules, in whole or in part, by resolution within the 45-day review period, the proposed rules shall be deemed approved.</text>
+          <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement the provisions of this section. The proposed rules shall be submitted to the Council for a 45-day period of review, excluding Saturdays, Sundays, legal holidays, and days of Council recess. If the Council does not approve or disapprove the proposed rules, in whole or in part, by resolution within the 45-day review period, the proposed rules shall be deemed approved.</text>
         </para>
+        <annotation doc="D.C. Law 16-51" type="History" path="§109g">Feb. 15, 2006, D.C. Law 16-51, § 109g</annotation>
       </section>
       <section>
+        <!-- <codify:insert after="§8-151.09g" num-value="8-151.09h" history-prefix="as added"/> -->
         <num>109h</num>
         <heading proof="needed">Public awareness campaign regarding electric vehicle adoption and electric vehicle charging infrastructure availability.</heading>
         <para>
@@ -289,6 +296,7 @@
           <num>(c)</num>
           <text>The campaign required by subsection (a) of this section shall remain in effect for not less than 2 years from the date the campaign is established.</text>
         </para>
+        <annotation doc="D.C. Law 16-51" type="History" path="§109h">Feb. 15, 2006, D.C. Law 16-51, § 109h</annotation>
       </section>
     </include>
     <aftertext>.</aftertext>
@@ -296,53 +304,76 @@
   <section>
     <num>4</num>
     <text>The Green Building Act of 2006, effective March 8, 2007 (D.C. Law 16-234; D.C. Official Code § 6-1451.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§6-1451.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 6-1451.01) is amended by adding new paragraphs (11C) and (11D) to read as follows:</text>
       <include lvl="1">
         <para>
+          <!-- <codify:insert after="(11B)" num-value="(11C)"/> -->
           <num>(11C)</num>
           <text>"Electric vehicle installed" means a designated parking space which is provided with service from a dedicated circuit that is 120-volt or greater assigned for electric vehicle supply equipment terminating in a receptacle or junction box located in close proximity to the location of the EV parking space, in compliance with the current DC Electrical Code.</text>
         </para>
         <para>
+          <!-- <codify:insert after="(11C)" num-value="(11D)"/> -->
           <num>(11D)</num>
           <text>"Electric vehicle ready" means a designated parking space with electrical panel capacity and space for a circuit dedicated to allow service to the electric vehicle parking space that is 120-volt or greater and equipped with raceways either underground or surface mounted, to enable the future installation of electric vehicle supply equipment, in compliance with the current DC Electrical Code.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§6-1451.03a">
       <num>(b)</num>
       <text>Section 4a (D.C. Official Code § 6-1451.03a) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "Electric vehicle make-ready" and inserting the phrase "Electric vehicle ready" in its place.</text>
+        <!-- <codify:find-replace position="first">
+          <find>Electric vehicle make-ready</find>
+          <replace>Electric vehicle ready</replace>
+        </codify:find-replace> -->
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is amended by striking the phrase "electric vehicle make-ready" and inserting the phrase "electric vehicle ready" in its place.</text>
+        <!-- <codify:find-replace count="1">
+          <find>electric vehicle make-ready</find>
+          <replace>electric vehicle ready</replace>
+        </codify:find-replace> -->
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(3)</num>
         <text>Subsection (b) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "this section" and inserting the phrase "subsections (a) and (c) of this section" in its place.</text>
+          <!-- <codify:find-replace position="first">
+            <find>this section</find>
+            <replace>subsections (a) and (c) of this section</replace>
+          </codify:find-replace> -->
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the phrase "electric vehicle make-ready" and inserting the phrase "electric vehicle ready" in its place.</text>
+          <!-- <codify:find-replace count="1">
+            <find>electric vehicle make-ready</find>
+            <replace>electric vehicle ready</replace>
+          </codify:find-replace> -->
         </para>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(4)</num>
         <text>Subsection (c) is amended by striking the phrase "electric vehicle make-ready" and inserting the phrase "electric vehicle ready" in its place.</text>
+        <!-- <codify:find-replace count="1">
+          <find>electric vehicle make-ready</find>
+          <replace>electric vehicle ready</replace>
+        </codify:find-replace> -->
       </para>
       <para>
         <num>(5)</num>
         <text>A new subsection (d) is added to read as follows:</text>
         <include>
           <para>
+            <!-- <codify:insert after="(c)" num-value="(d)"/> -->
             <num>(d)</num>
             <para>
               <num>(1)</num>
@@ -378,6 +409,7 @@
       <text>New sections 4b, 4c, and 4d are added to read as follows:</text>
       <include>
         <section>
+          <!-- <codify:insert path="6|14A" after="§6-1451.03a" num-value="6-1451.03b" history-prefix="as added"/> -->
           <num>4b</num>
           <heading proof="needed">Electric vehicle ready parking spaces in new single-family homes.</heading>
           <para>
@@ -407,8 +439,10 @@
             <num>(d)</num>
             <text>The buyer, prospective buyer, or homeowner shall provide a physical or electronic signature indicating that the buyer, prospective buyer, or homeowner, respectively, has received the notice and information listed in subsection (c) of this section.</text>
           </para>
+          <annotation doc="D.C. Law 16-234" type="History" path="§4b">Mar. 8, 2007, D.C. Law 16-234, § 4b</annotation>
         </section>
         <section>
+          <!-- <codify:insert path="6|14A" after="§6-1451.03b" num-value="6-1451.03c" history-prefix="as added"/> -->
           <num>4c</num>
           <heading proof="needed">Electric vehicle charging port rights for condominium associations, community associations, or other common interest developments.</heading>
           <para>
@@ -573,8 +607,10 @@
             <num>(i)</num>
             <text>DOB shall fine a condominium association, community association, or other common interest development that willfully violates this section an amount not to exceed $1,000 for each 60-day period that the reported violation is not brought into compliance with this section. A condominium association, community association, or other common interest development may appeal an enforcement action taken pursuant to this section to the Office of Administrative Hearings.</text>
           </para>
+          <annotation doc="D.C. Law 16-234" type="History" path="§4c">Mar. 8, 2007, D.C. Law 16-234, § 4c</annotation>
         </section>
         <section>
+          <!-- <codify:insert path="6|14A" after="§6-1451.03c" num-value="6-1451.03d" history-prefix="as added"/> -->
           <num>4d</num>
           <heading proof="needed">Electric vehicle charging rights for tenants.</heading>
           <para>
@@ -679,18 +715,20 @@
           </para>
           <para>
             <num>(j)</num>
-            <text>DOB shall fine a housing provider that willfully violates this section an amount not to exceed $1,000 for each 30-day period that the reported violation is not brought into compliance with this section. A housing provider may appeal an enforcement action under this section to the Office of Administrative Hearings ("OAH"). A housing provider may appeal a decision from OAH to the Rental Housing Commission pursuant to section 202(a)(2) of the Rental Housing Act of 1985, effective July 17, 1985 (D.C. Law 6-10; D.C. Official Code § 42-3502.02(a)(2)).</text>
+            <text>DOB shall fine a housing provider that willfully violates this section an amount not to exceed $1,000 for each 30-day period that the reported violation is not brought into compliance with this section. A housing provider may appeal an enforcement action under this section to the Office of Administrative Hearings ("OAH"). A housing provider may appeal a decision from OAH to the Rental Housing Commission pursuant to <code-cite doc="D.C. Code" path="§42-3502.02|(a)|(2)">section 202(a)(2) of the Rental Housing Act of 1985, effective July 17, 1985 (D.C. Law 6-10; D.C. Official Code § 42-3502.02(a)(2))</code-cite>.</text>
           </para>
+          <annotation doc="D.C. Law 16-234" type="History" path="§4d">Mar. 8, 2007, D.C. Law 16-234, § 4d</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:path="§10-561.07|(a)">
     <num>5</num>
     <text>Section 107(a) of the Department of Buildings Establishment Act of 2020, effective April 5, 2021 (D.C. Law 23-269; D.C. Official Code § 10-561.07(a)), is amended by adding a new paragraph (3A) to read as follows:</text>
     <include lvl="1">
       <para>
+        <!-- <codify:insert after="(3)" num-value="(3A)"/> -->
         <num>(3A)</num>
         <para>
           <num>(A)</num>
@@ -701,7 +739,7 @@
           </para>
           <para>
             <num>(ii)</num>
-            <text>Unless prohibited by Federal law or regulation, utilize companies eligible to be certified as certified business enterprises, pursuant to part D of the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code  § 2-218.31 <em>et seq</em>.), for at least 35% of the installation and maintenance of electric vehicle charging ports that the applicant installs and maintains in the District for projects that receive funding from the District government, including federal funding administered by the District government.</text>
+            <text>Unless prohibited by Federal law or regulation, utilize companies eligible to be certified as certified business enterprises, pursuant to <code-cite doc="D.C. Code" path="2|2|IX-A|D">part D of the Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code  § 2-218.31 <em>et seq</em>.)</code-cite>, for at least 35% of the installation and maintenance of electric vehicle charging ports that the applicant installs and maintains in the District for projects that receive funding from the District government, including federal funding administered by the District government.</text>
           </para>
         </para>
         <para>
@@ -720,11 +758,12 @@
     </include>
     <aftertext>.</aftertext>
   </section>
-  <section>
+  <section codify:path="§36-302.02">
     <num>6</num>
     <text>Section 3-102 of the Retail Service Station Act of 1976, effective April 19, 1977 (D.C. Law 1-123, D.C. Official Code § 36-302.02), is amended by adding a new subsection (d) to read as follows:</text>
     <include>
       <para>
+      <!-- <codify:insert after="(c)" num-value="(d)"/> -->
         <num>(d)</num>
         <text>Beginning October 1, 2025, a person constructing a new retail service station, or making improvements equal to at least 50% of the value of the real property of an existing retail service station that is projected to sell more than one million gallons of gasoline per year, shall install one electric vehicle charging station capable of providing at least 150 kW direct-current fast charging for at least 2 vehicles simultaneously for each gasoline dispensing pump operated by the retail service station.</text>
       </para>
