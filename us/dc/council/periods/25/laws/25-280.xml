@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-280">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-280" codify:doc="D.C. Code">
   <num type="law">25-280</num>
   <num type="act">25-650</num>
   <num type="bill">25-790</num>
@@ -25,20 +25,27 @@
   <section>
     <num>2</num>
     <text>The District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code Section § 2-501 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§2-505|(a)">
       <num>(a)</num>
       <text>Section 105(a) (D.C. Official Code § 2-505(a)) is amended by striking the phrase "either orally or in writing, as may be specified in such notice." and inserting the phrase "both orally and in writing. The notice shall provide for electronic submission of written data and views in all instances.".</text>
+      <codify:find-replace count="1">
+        <find>either orally or in writing, as may be specified in such notice.</find>
+        <replace>both orally and in writing. The notice shall provide for electronic submission of written data and views in all instances.</replace>
+      </codify:find-replace>
+      <codify:not-funded-anno doc="D.C. Law 25-280" path="§2|(a)" applicability-path="§3" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§2-553">
       <num>(b)</num>
       <text>Section 303 (D.C. Official Code § 2-553) is amended by adding a new subsection (j) to read as follows:</text>
       <include>
         <para>
+        <codify:insert path="§2-553" after="(i)" num-value="(j)"/>
           <num>(j)</num>
           <text>The District of Columbia Office of Documents shall publish and maintain an electronic directory of all proposed rules open for public comment under this act.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 25-280" path="§2|(b)" applicability-path="§3" action="amendment to" display-template=""/>
     </para>
   </section>
   <section>
@@ -47,6 +54,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability  doc="D.C. Law 25-280" path="§2" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

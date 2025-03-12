@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-275">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-275" codify:doc="D.C. Code">
   <num type="law">25-275</num>
   <num type="act">25-648</num>
   <num type="bill">25-610</num>
@@ -27,6 +27,7 @@
     <text>The Retired Police Officer Redeployment Amendment Act of 1992, effective September 29, 1992 (D.C. Law 9-163; Official Code § 5-761), is amended by adding a new section 2a to read as follows:</text>
     <include>
       <section>
+        <codify:insert path="5|7|IV" after="§5-761" num-value="5-761.01" history-prefix="as added"/>
         <num>2a</num>
         <heading proof="needed">Redeployment as Office of Unified Communications 911 call taker and dispatcher.</heading>
         <para>
@@ -35,15 +36,20 @@
         </para>
         <para>
           <num>(b)</num>
-          <text>Service pursuant to this section shall not count as creditable service for the purpose of section 12(c) of the Policemen and Firemen's Retirement and Disability Act, approved September 1, 1916 (39 Stat. 718; D.C. Official Code § 5-704).</text>
+          <text>Service pursuant to this section shall not count as creditable service for the purpose of <code-cite doc="D.C. Code" path="§5-704">section 12(c) of the Policemen and Firemen's Retirement and Disability Act, approved September 1, 1916 (39 Stat. 718; D.C. Official Code § 5-704)</code-cite>.</text>
         </para>
       </section>
     </include>
     <aftertext>.</aftertext>
+    <annotation doc="D.C. Law 9-163" type="History" path="§2a">Sept. 29, 1992, D.C. Law 9-163, § 2a</annotation>
   </section>
-  <section>
+  <section codify:path="§5-723|(e)">
     <num>3</num>
     <text>Section 12(p)(5) of the Policemen and Firemen's Retirement and Disability Act, approved September 1, 1916 (39 Stat. 718; D.C. Official Code § 5-723(e)), is amended by striking the phrase "Amendment Act of 1994." and inserting the phrase "Amendment Act of 1994. The provisions of this subsection shall not apply to an annuitant employed by the Office of Unified Communications under section 2a of the Retired Police Officer Redeployment Amendment Act of 1992, passed on 2nd reading on November 12, 2024 (Enrolled version of Bill 25-610)." in its place.</text>
+    <codify:find-replace count="1">
+      <find>Amendment Act of 1994.</find>
+      <replace>Amendment Act of 1994. The provisions of this subsection shall not apply to an annuitant employed by the Office of Unified Communications under <code-cite doc="D.C. Code" path="§5-761.01">section 2a of the Retired Police Officer Redeployment Amendment Act of 1992, passed on 2nd reading on November 12, 2024 (Enrolled version of Bill 25-610).</code-cite>.</replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>4</num>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-276">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-276" codify:doc="D.C. Code">
   <num type="law">25-276</num>
   <num type="act">25-661</num>
   <num type="bill">25-640</num>
@@ -25,56 +25,74 @@
   <section>
     <num>2</num>
     <text>The Ballpark Omnibus Financing and Revenue Act of 2004, effective April 8, 2005 (D.C. Law 15-320; D.C. Official Code § 10-1601.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§10-1601.02">
       <num>(a)</num>
       <text>Section 102 (D.C. Official Code § 10-1601.02) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <text>For purposes of this section, the term:</text>
             <para>
               <num>(1)</num>
-              <text>"Ballpark" shall have the meaning specified in D.C. Official Code § 47-2002.05(a)(1).</text>
+              <text>"Ballpark" shall have the meaning specified in <code-cite doc="D.C. Code" path="§47-2002.05|(a)|(1)">D.C. Official Code § 47-2002.05(a)(1)</code-cite>.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>"Ballpark Revenue Bonds" shall have the same meaning as the term "bonds" in section 103(a)(2).</text>
+              <text>"Ballpark Revenue Bonds" shall have the same meaning as the term "bonds" in <cite doc="D.C. Code" path="§10-1601.03|(a)|(2)">section 103(a)(2)</cite>.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "identified by any provision of District of Columbia law to be paid into the fund" and insert the phrase "identified by any provision of District of Columbia law to be paid into the Ballpark Revenue Fund" in its place.</text>
+          <codify:find-replace count="1">
+            <find>identified by any provision of District of Columbia law to be paid into the fund</find>
+            <replace>identified by any provision of District of Columbia law to be paid into the Ballpark Revenue Fund</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "pursuant to a lease of the ballpark" and insert the phrase "pursuant to a lease of the ballpark until the Ballpark Revenue Bonds have been defeased" in its place.</text>
+          <codify:find-replace count="1">
+            <find>pursuant to a lease of the ballpark</find>
+            <replace>pursuant to a lease of the ballpark until the Ballpark Revenue Bonds have been defeased</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>Strike the phrase "The Mayor, or any District government agency or instrumentality that has been designated by the Mayor," and insert the phrase "Until October 1, 2023, the Mayor, or any District government agency or instrumentality that has been designated by the Mayor," in its place.</text>
+          <codify:find-replace count="1">
+            <find>The Mayor, or any District government agency or instrumentality that has been designated by the Mayor,</find>
+            <replace>Until October 1, 2023, the Mayor, or any District government agency or instrumentality that has been designated by the Mayor,</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended as follows:</text>
-        <para>
+        <para codify:path="(7)">
           <num>(A)</num>
           <text>Paragraph (7) is amended by striking the phrase "upgrades to Robert F. Kennedy Stadium or the new ballpark after its construction has been completed;" and inserting the phrase "upgrades to Robert F. Kennedy Stadium prior to the opening of the new ballpark;" in its place.</text>
+          <codify:find-replace count="1">
+            <find>upgrades to Robert F. Kennedy Stadium or the new ballpark after its construction has been completed;</find>
+            <replace>upgrades to Robert F. Kennedy Stadium prior to the opening of the new ballpark;</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>A new paragraph (7A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(7)" num-value="(7A)"/>
               <num>(7A)</num>
               <para>
                 <num>(A)</num>
@@ -94,6 +112,7 @@
         <text>A new subsection (c-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(c)" num-value="(c-1)"/>
             <num>(c-1)</num>
             <text>The Ballpark Revenue Fund shall not be used to pledge and create a security interest in the funds in the Ballpark Revenue Fund, or any sub-account or sub-accounts within the Ballpark Revenue Fund, to finance any additional bonds.</text>
           </para>
@@ -105,18 +124,22 @@
         <text>A new subsection (e) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(d)" num-value="(e)"/>
             <num>(e)</num>
-            <text>Any Ballpark Revenue Fund balance remaining after the Ballpark Revenue Bonds have been defeased and the requirements of subsection (d) of this section have been met shall be transferred to the Ballpark Preservation and Improvement Fund, established by section 102a.</text>
+            <text>Any Ballpark Revenue Fund balance remaining after the Ballpark Revenue Bonds have been defeased and the requirements of subsection (d) of this section have been met shall be transferred to the Ballpark Preservation and Improvement Fund, established by <code-cite doc="D.C. Code" path="§10-1601.02a">section 102a</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:annotation applicability="effective" doc="D.C. Code" path="§10-1601.02" type="Applicability"><cite doc="D.C. Law 25-276" path="§4">Section 4 of D.C. Law 25-276</cite> provided that the amendments made to this section by <cite doc="D.C. Law 25-276" path="§2|(a)">Section 2(a) of D.C. Law 25-276</cite> shall become applicable upon the execution and Council approval of a lease amendment agreement between the District and the Washington Nationals Stadium, LLC that extends the current lease agreement through February 28, 2054. Therefore those amendments have not been implemented.
+      </codify:annotation>
     </para>
     <para>
       <num>(b)</num>
       <text>A new section 102a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="10|16|I|A" after="§10-1601.02" num-value="10-1601.02a" history-prefix="as added"/>
           <num>102a</num>
           <heading proof="needed">Ballpark Preservation and Improvement Fund.</heading>
           <para>
@@ -140,10 +163,10 @@
           </para>
           <para>
             <num>(b)</num>
-            <text>Beginning when the requirements of section 102(e) have been met, revenue from the following sources shall be deposited in the Fund:</text>
+            <text>Beginning when the requirements of <code-cite doc="D.C. Code" path="§10-1601.02|(e)">section 102(e)</code-cite> have been met, revenue from the following sources shall be deposited in the Fund:</text>
             <para>
               <num>(1)</num>
-              <text>All receipts from the ballpark sales taxes collected pursuant to D.C. Official Code § 47-2002.05 except that if said ballpark sales taxes collected in any fiscal year exceed 110% of the ballpark sales taxes collected in the previous fiscal year, the amount in excess of 110% shall not be deposited in the Fund but shall be deposited in the General Fund of the District of Columbia;</text>
+              <text>All receipts from the ballpark sales taxes collected pursuant to <code-cite doc="D.C. Code" path="§47-2002.05">D.C. Official Code § 47-2002.05</code-cite> except that if said ballpark sales taxes collected in any fiscal year exceed 110% of the ballpark sales taxes collected in the previous fiscal year, the amount in excess of 110% shall not be deposited in the Fund but shall be deposited in the General Fund of the District of Columbia;</text>
             </para>
             <para>
               <num>(2)</num>
@@ -151,11 +174,11 @@
             </para>
             <para>
               <num>(3)</num>
-              <text>Amounts collected pursuant to D.C. Official Code § 47-2501(a-2); and</text>
+              <text>Amounts collected pursuant to <code-cite doc="D.C. Code" path="§47-2501|(a-2)">D.C. Official Code § 47-2501(a-2)</code-cite>; and</text>
             </para>
             <para>
               <num>(4)</num>
-              <text>Any balance remaining in the Ballpark Revenue Fund, established by section 102.</text>
+              <text>Any balance remaining in the Ballpark Revenue Fund, established by <code-cite doc="D.C. Code" path="§10-1601.02">section 102</code-cite>.</text>
             </para>
           </para>
           <para>
@@ -190,8 +213,11 @@
           </para>
           <para>
             <num>(f)</num>
-            <text>For the purposes of this section, the term "Ballpark Revenue Bonds" shall have the same meaning as the term "bonds" in section 103(a)(2).</text>
+            <text>For the purposes of this section, the term "Ballpark Revenue Bonds" shall have the same meaning as the term "bonds" in <code-cite doc="D.C. Code" path="§10-1601.03|(a)|(2)">section 103(a)(2)</code-cite>.</text>
           </para>
+          <annotation doc="D.C. Law 15-320" type="History" path="§102a">Apr. 8, 2005, D.C. Law 15-320, § 102a</annotation>
+          <codify:annotation applicability="effective" doc="D.C. Code" path="§10-1601.02a" type="Applicability"><cite doc="D.C. Law 25-276" path="§4">Section 4 of D.C. Law 25-276</cite> provided that the creation of this section by <cite doc="D.C. Law 25-276" path="§2|(b)">Section 2(b) of D.C. Law 25-276</cite> shall become applicable upon the execution and Council approval of a lease amendment agreement between the District and the Washington Nationals Stadium, LLC that extends the current lease agreement through February 28, 2054. Therefore those amendments have not been implemented.
+          </codify:annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -200,38 +226,78 @@
   <section>
     <num>3</num>
     <text>Title 47 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="§47-2002.05">
       <num>(a)</num>
       <text>Section 47-2002.05 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by adding new paragraphs (1A) and (1B) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1)" num-value="(1A)"/>
             <num>(1A)</num>
-            <text>"Ballpark Preservation and Improvement Fund" means the fund established by § 10-1601.02a.</text>
+            <text>"Ballpark Preservation and Improvement Fund" means the fund established by <cite doc="D.C. Code" path="§10-1601.02a">§ 10-1601.02a</cite>.</text>
           </para>
           <para>
+            <codify:insert after="(1A)" num-value="(1B)"/>
             <num>(1B)</num>
-            <text>"Ballpark Revenue Bonds" shall have the same meaning as the term "bonds" in § 10-1601.03(a)(2).</text>
+            <text>"Ballpark Revenue Bonds" shall have the same meaning as the term "bonds" in <cite doc="D.C. Code" path="§10-1601.03|(a)|(2)">§ 10-1601.03(a)(2)</cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(2)</num>
         <text>The lead-in language of subsection (d) is amended by striking the phrase "shall be deposited into one or more accounts within the Ballpark Revenue Fund" and inserting the phrase "shall be deposited into one or more accounts within the Ballpark Revenue Fund until the requirements of § 10-1601.02(e) have been met, at which time the following revenues shall be deposited in the Ballpark Preservation and Improvement Fund" in its place.</text>
+        <codify:find-replace count="1">
+          <find>shall be deposited into one or more accounts within the Ballpark Revenue Fund</find>
+          <replace>shall be deposited into one or more accounts within the Ballpark Revenue Fund until the requirements of <cite doc="D.C. Code" path="§10-1601.02|(e)">§ 10-1601.02(e)</cite> have been met, at which time the following revenues shall be deposited in the Ballpark Preservation and Improvement Fund</replace>
+        </codify:find-replace>
       </para>
+      <codify:annotation applicability="effective" doc="D.C. Code" path="§47-2002.05" type="Applicability"><cite doc="D.C. Law 25-276" path="§4">Section 4 of D.C. Law 25-276</cite> provided that the amendments made to this section by <cite doc="D.C. Law 25-276" path="§3|(a)">Section 3(a) of D.C. Law 25-276</cite> shall become applicable upon the execution and Council approval of a lease amendment agreement between the District and the Washington Nationals Stadium, LLC that extends the current lease agreement through February 28, 2054. Therefore those amendments have not been implemented.
+      </codify:annotation>
     </para>
-    <para>
+    <para codify:path="§47-2501|(a-2)">
       <num>(b)</num>
       <text>Section 47-2501(a-2) is amended by striking the phrase "deposited in the Ballpark Revenue Fund established by section 102 of the Ballpark Omnibus Financing and Revenue Act of 2004, passed on reconsideration on December 21, 2004 (Re-enrolled version of Bill 15-1028)" and inserting the phrase "deposited in the Ballpark Revenue Fund established by § 10-1601.02(b) until the requirements of § 10-1601.02(e) have been met, at which time this amount shall be deposited in the Ballpark Preservation and Improvement Fund established by § 10-1601.02a" in its place.</text>
+      <codify:find-replace count="1">
+        <find>deposited in the Ballpark Revenue Fund established by [<cite path="§10-1601.02">§ 10-1601.02</cite>]</find>
+        <replace>deposited in the Ballpark Revenue Fund established by <cite doc="D.C. Code" path="§10-1601.02|(b)">§ 10-1601.02(b)</cite> until the requirements of <cite doc="D.C. Code" path="§10-1601.02|(e)">§ 10-1601.02(e)</cite> have been met, at which time this amount shall be deposited in the Ballpark Preservation and Improvement Fund established by <cite doc="D.C. Code" path="§10-1601.02a">§ 10-1601.02a</cite></replace>
+      </codify:find-replace>
+      <codify:annotation applicability="effective" doc="D.C. Code" path="§47-2501" type="Applicability"><cite doc="D.C. Law 25-276" path="§4">Section 4 of D.C. Law 25-276</cite> provided that the amendments made to this section by <cite doc="D.C. Law 25-276" path="§3|(b)">Section 3(b) of D.C. Law 25-276</cite> shall become applicable upon the execution and Council approval of a lease amendment agreement between the District and the Washington Nationals Stadium, LLC that extends the current lease agreement through February 28, 2054. Therefore those amendments have not been implemented.
+      </codify:annotation>
     </para>
   </section>
   <section>
     <num>4</num>
     <heading proof="needed">Applicability.</heading>
     <text>This act shall become applicable upon the execution and Council approval of a lease amendment agreement between the District and the Washington Nationals Stadium, LLC that extends the current lease agreement through February 28, 2054.</text>
+    <codify:applicability doc="D.C. Law 25-276" path="§2" date="notfunded" history="false" display-template=""/>
+    <codify:applicability doc="D.C. Law 25-276" path="§3" date="notfunded" history="false" display-template=""/>
+    <codify:find-replace path="§10-1601.02|(c)|(7A)" count="1">
+      <find>Not Funded.</find>
+      <replace>Not Applicable.</replace>
+    </codify:find-replace>
+    <codify:find-replace path="§10-1601.02|(c-1)" count="1">
+      <find>Not Funded.</find>
+      <replace>Not Applicable.</replace>
+    </codify:find-replace>
+    <codify:find-replace path="§10-1601.02|(e)" count="1">
+      <find>Not Funded.</find>
+      <replace>Not Applicable.</replace>
+    </codify:find-replace>
+    <codify:find-replace path="§10-1601.02a" count="2">
+      <find>Not Funded</find>
+      <replace>Not Applicable</replace>
+    </codify:find-replace>
+    <codify:find-replace path="§47-2002.05|(a)|(1A)" count="1">
+      <find>Not Funded.</find>
+      <replace>Not Applicable.</replace>
+    </codify:find-replace>
+    <codify:find-replace path="§47-2002.05|(a)|(1B)" count="1">
+      <find>Not Funded.</find>
+      <replace>Not Applicable.</replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>5</num>

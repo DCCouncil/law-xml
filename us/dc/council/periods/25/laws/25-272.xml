@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-272">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-272" codify:doc="D.C. Code">
   <num type="law">25-272</num>
   <num type="act">25-647</num>
   <num type="bill">25-571</num>
@@ -25,22 +25,34 @@
   <section>
     <num>2</num>
     <text>The Student Access to Treatment Act of 2007, effective February 2, 2008 (D.C. Law 17-107; D.C. Official Code § 38-651.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§38-651.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 38-651.01) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Paragraphs (5A) and (5B) are redesignated as paragraphs (5C) and (5D).</text>
+        <codify:find-replace count="1">
+          <find>(5A)</find>
+          <replace>(5C)</replace>
+        </codify:find-replace>
+        <codify:find-replace count="1">
+          <find>(5B)</find>
+          <replace>(5D)</replace>
+        </codify:find-replace>
+        <!-- <codify:redesignate-para path="(5A)" num-value="(5C)"/>
+        <codify:redesignate-para path="(5B)" num-value="(5D)"/> -->
       </para>
       <para>
         <num>(2)</num>
         <text>New paragraphs (5A) and (5B) are added to read as follows:</text>
         <include lvl="1">
           <para>
+          <codify:insert after="(5)" num-value="(5A)"/>
             <num>(5A)</num>
             <text>"Seizure action plan" means a written, individualized health plan designed to acknowledge and prepare for the health care needs of a student diagnosed with a seizure disorder.</text>
           </para>
           <para>
+          <codify:insert after="(5A)" num-value="(5B)"/>
             <num>(5B)</num>
             <text>"Seizure treatment" means seizure medication, a Vagus Nerve Stimulator magnet, or other medical treatments prescribed by a physician for an individual diagnosed with a seizure disorder.</text>
           </para>
@@ -50,9 +62,10 @@
       <para>
         <num>(3)</num>
         <text>Paragraph (7A) is redesignated as paragraph (8).</text>
+        <codify:redesignate-para path="[(8)]" num-value="(8)"/>
       </para>
     </para>
-    <para>
+    <para codify:path="§38-651.02|(a)">
       <num>(b)</num>
       <text>Section 3(a) (D.C. Official Code § 38-651.02(a)) is amended as follows:</text>
       <para>
@@ -61,15 +74,27 @@
         <para>
           <num>(A)</num>
           <text>Strike the phrase "medication at" and insert the phrase "medication or non-medication seizure treatment at" in its place.</text>
+          <codify:find-replace count="1">
+            <find>medication at</find>
+            <replace>medication or non-medication seizure treatment at</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "in order to treat asthma, anaphylaxis, or other illness" and insert the phrase "in order to treat asthma, anaphylaxis, a seizure disorder, or other illness" in its place.</text>
+          <codify:find-replace count="1">
+            <find>in order to treat asthma, anaphylaxis, or other illness</find>
+            <replace>in order to treat asthma, anaphylaxis, a seizure disorder, or other illness</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(1)">
         <num>(2)</num>
         <text>Paragraph (1) is amended by striking the phrase "medication action plan" and inserting the phrase "medication action plan or seizure action plan" in its place.</text>
+        <codify:find-replace count="1">
+          <find>medication action plan</find>
+          <replace>medication action plan or seizure action plan</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -77,6 +102,7 @@
       <text>A new section 4a is added to read as follows:</text>
       <include>
         <section>
+        <codify:insert path="38|6|IV" after="§38-651.03" num-value="38-651.03a"/>
           <num>4a</num>
           <heading proof="needed">Seizure action plan and training requirements.</heading>
           <para>
@@ -148,7 +174,7 @@
             </para>
             <para>
               <num>(3)</num>
-              <text>Written acknowledgment that the District, a school, or an employee or agent of a school, who has received training in the administration of seizure treatment, shall be immune from civil liability for the good-faith performance of responsibilities under this act; except, that no immunity shall extend to criminal acts, intentional wrongdoing, gross negligence, or wanton or willful misconduct.</text>
+              <text>Written acknowledgment that the District, a school, or an employee or agent of a school, who has received training in the administration of seizure treatment, shall be immune from civil liability for the good-faith performance of responsibilities under <code-cite doc="D.C. Code" path="38|6|IV">this act</code-cite>; except, that no immunity shall extend to criminal acts, intentional wrongdoing, gross negligence, or wanton or willful misconduct.</text>
             </para>
           </para>
           <para>
@@ -167,18 +193,20 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§38-651.05">
       <num>(d)</num>
       <text>Section 6 (D.C. Official Code § 38-651.05) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The existing language is designated as subsection (a).</text>
+        <codify:redesignate-para num-value="(a)"/>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (b) is added to read as follows:</text>
         <include>
           <para>
+          <codify:insert after="(a)" num-value="(b)"/>
             <num>(b)</num>
             <para>
               <num>(1)</num>
@@ -193,32 +221,45 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§38-651.08">
       <num>(e)</num>
       <text>Section 9 (D.C. Official Code § 38-651.08) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the phrase "medication action plans" and inserting the phrase "medication action plans or seizure action plans" in its place.</text>
+        <codify:find-replace count="1">
+          <find>medication action plans</find>
+          <replace>medication action plans or seizure action plans</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the phrase "medication action plans," and inserting the phrase "medication action plans or seizure action plans," in its place.</text>
+        <codify:find-replace count="1">
+          <find>medication action plans,</find>
+          <replace>medication action plans or seizure action plans,</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(3)</num>
         <text>Subsection (d) is amended by striking the phrase "medication was administered" and inserting the phrase "medication or seizure treatment was administered" in its place.</text>
+        <codify:find-replace count="1">
+          <find>medication was administered</find>
+          <replace>medication or seizure treatment was administered</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§38-651.09|(b)">
       <num>(f)</num>
       <text>Section 10(b) (D.C. Official Code § 38-651.09(b)) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended to read as follows:</text>
         <include lvl="1">
           <para>
             <num>(b)</num>
             <para>
+            <codify:replace/>
               <num>(1)</num>
               <text>A school may receive medication or seizure treatment to store for the treatment of asthma, anaphylaxis, a seizure disorder, or other illness from the responsible person for a student with a valid medication action plan or seizure action plan.</text>
             </para>
@@ -226,15 +267,20 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(2)</num>
         <text>Paragraph (2) is amended by striking the word "medication" and inserting the phrase "medication or seizure treatment" in its place.</text>
+        <codify:find-replace count="1" position="first">
+          <find>medication</find>
+          <replace>medication or seizure treatment</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (4) is added to read as follows:</text>
         <include lvl="1">
           <para>
+          <codify:insert after="(3)" num-value="(4)"/>
             <num>(4)</num>
             <text>For a student with a seizure action plan, this subsection shall apply to any seizure treatment, including a Vagus Nerve Stimulator magnet.</text>
           </para>
@@ -242,9 +288,13 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§38-651.10|(a)">
       <num>(g)</num>
       <text>Section 11(a) (D.C. Official Code § 38-651.10(a)) is amended by striking the phrase "medication action plan" and inserting the phrase "medication action plan or seizure action plan" in its place.</text>
+      <codify:find-replace count="1">
+        <find>medication action plan</find>
+        <replace>medication action plan or seizure action plan</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>

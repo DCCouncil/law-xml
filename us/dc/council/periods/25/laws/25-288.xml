@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-288">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-288" codify:doc="D.C. Code">
   <num type="law">25-288</num>
   <num type="act">25-639</num>
   <num type="bill">25-1006</num>
@@ -23,17 +23,28 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Department of Energy and Environment Rulemaking Clarification Temporary Amendment Act of 2024".</text>
-  <section>
+  <section codify:path="§8-151.10">
     <num>2</num>
     <text>Section 110 of the District Department of the Environment Establishment Act of 2005, effective February 15, 2006 (D.C. Law 16-51; D.C. Official Code § 8-151.10), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended by striking the phrase "Mayor shall promulgate" and inserting the phrase "Mayor may promulgate" in its place.</text>
+      <codify:find-replace count="1">
+        <find>Mayor shall promulgate</find>
+        <replace>Mayor may promulgate</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(b)">
       <num>(b)</num>
       <text>Subsection (b) is repealed.</text>
+      <codify:repeal/>
     </para>
+    <codify:temporary doc="D.C. Code" path="§8-151.10"/>
+    <codify:insert doc="D.C. Code" path="§8-151.10" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 18, 2025. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§8-151.10(Perm)">Past Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
