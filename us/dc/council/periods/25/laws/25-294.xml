@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-294">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-294" codify:doc="D.C. Code">
   <num type="law">25-294</num>
   <num type="act">25-683</num>
   <num type="bill">25-1059</num>
@@ -23,38 +23,59 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Streatery Program Endorsement Extension Temporary Amendment Act of 2024".</text>
-  <section>
+  <section codify:path="§25-113|(a)|(6)">
     <num>2</num>
     <text>Section 25-113(a)(6) of the District of Columbia Code is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>Strike the phrase "2022 and 2023" wherever it appears and insert the phrase "2022, 2023, 2024, and through July 31, 2025" in its place.</text>
+      <codify:find-replace count="4">
+        <find>2022 and 2023</find>
+        <replace>2022, 2023, 2024, and through July 31, 2025</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(A)|(i)|(II)">
       <num>(b)</num>
       <text>Subparagraph (A)(i)(II) is amended by striking the semicolon and inserting the phrase "annually with the fee for 2025 due by April 1, 2025; except, that an on-premises retailer licensee, class C/T, D/T, C/N, or D/N, or a manufacturer licensee class B, shall pay the fee for 2025 by September 30, 2025;" in its place.</text>
+      <codify:find-replace count="1">
+        <find>;</find>
+        <replace>annually with the fee for 2025 due by April 1, 2025; except, that an on-premises retailer licensee, class C/T, D/T, C/N, or D/N, or a manufacturer licensee class B, shall pay the fee for 2025 by September 30, 2025;</replace>
+      </codify:find-replace>
     </para>
+    <codify:temporary doc="D.C. Code" path="§25-113"/>
+    <codify:insert doc="D.C. Code" path="§25-113" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 18, 2025. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§25-113(Perm)">Past Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
-  <section>
+  <section codify:path="§7-1671.06|(q)">
     <num>3</num>
     <text>Section 7(q)(1) the Legalization of Marijuana for Medical Treatment Initiative of 1999, effective July 27, 2010 (D.C. Law 18-210; D.C. Official Code § 7-1671.06(q)(1)), is amended to read as follows:</text>
     <include>
       <para>
         <num>(q)</num>
         <para>
+          <codify:replace path="(1)"/>
           <num>(1)</num>
           <para>
             <num>(A)</num>
-            <text>A retailer or internet retailer shall not locate within any residential district or within 400 feet of a preschool, primary or secondary school, or recreation center; except, that a license holder or an applicant who has applied prior to the effective date of the Medical Cannabis Clarification and Program Enforcement Amendment Act of 2024, passed on 2nd reading on October 1, 2024 (Enrolled version of Bill 25-581), shall not be permitted to locate within 300 feet of a preschool, primary or secondary school, or recreation center.</text>
+            <text>A retailer or internet retailer shall not locate within any residential district or within 400 feet of a preschool, primary or secondary school, or recreation center; except, that a license holder or an applicant who has applied prior to <span codify:value="December 17, 2024">the effective date of the Medical Cannabis Clarification and Program Enforcement Amendment Act of 2024, passed on 2nd reading on October 1, 2024 (Enrolled version of Bill 25-581)</span>, shall not be permitted to locate within 300 feet of a preschool, primary or secondary school, or recreation center.</text>
           </para>
           <para>
             <num>(B)</num>
-            <text>Notwithstanding paragraph (A) of this paragraph, an unlicensed establishment license holder or applicant that applied for a retailer or internet retailer license during the 90-calendar day open application period set forth in section 7a(a)(1) D.C. Official Code § 7-1671.06a(a)(1)) shall be permitted to locate within 300 feet of a preschool, primary or secondary school, or recreation center where the main entrance to the preschool, primary school or secondary school, or recreation center is actually on or occupies ground zoned commercial or industrial according to the official atlases of the Zoning Commission of the District of Columbia.</text>
+            <text>Notwithstanding paragraph (A) of this paragraph, an unlicensed establishment license holder or applicant that applied for a retailer or internet retailer license during the 90-calendar day open application period set forth in <code-cite doc="D.C. Code" path="§7-1671.06a|(a)|(1)">section 7a(a)(1) D.C. Official Code § 7-1671.06a(a)(1))</code-cite> shall be permitted to locate within 300 feet of a preschool, primary or secondary school, or recreation center where the main entrance to the preschool, primary school or secondary school, or recreation center is actually on or occupies ground zoned commercial or industrial according to the official atlases of the Zoning Commission of the District of Columbia.</text>
           </para>
         </para>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:temporary doc="D.C. Code" path="§7-1671.06"/>
+    <codify:insert doc="D.C. Code" path="§7-1671.06" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on October 18, 2025. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§7-1671.06(Perm)">Past Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>4</num>

@@ -31,17 +31,17 @@
       <para codify:path="(9A)|num">
         <num>(1)</num>
         <text>Paragraph (9A) is redesignated paragraph (9B).</text>
-        <codify:find-replace count="1">
+        <!-- <codify:find-replace count="1">
           <find>(9A)</find>
           <replace>(9B)</replace>
-        </codify:find-replace>
+        </codify:find-replace> -->
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (9A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(9)"/>
+            <!-- <codify:insert after="(9)"/> -->
             <num>(9A)</num>
             <text>"Formal complaint" means a complaint that is submitted to the Department in writing, sworn to by the complainant, and notarized.</text>
           </para>
@@ -53,7 +53,7 @@
         <text>A new paragraph (10A) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(10)"/>
+            <!-- <codify:insert after="(10)"/> -->
             <num>(10A)</num>
             <text>"Informal complaint" means a complaint other than a formal complaint and includes complaints submitted in person, by email, by telephone, or through the Department's complaint hotline.</text>
           </para>
@@ -63,28 +63,28 @@
       <para>
         <num>(4)</num>
         <text>Paragraph (13B) is redesignated as paragraph (13C).</text>
-        <codify:find-replace path="(13B)|num" count="1">
+        <!-- <codify:find-replace path="(13B)|num" count="1">
           <find>(13B)</find>
           <replace>(13C)</replace>
-        </codify:find-replace>
+        </codify:find-replace> -->
       </para>
       <para>
         <num>(5)</num>
         <text>A new paragraph (13B) is added to read as follows:</text>
         <include lvl="1">
           <para>
-            <codify:insert after="(13A)"/>
+            <!-- <codify:insert after="(13A)"/> -->
             <num>(13B)</num>
             <text>"Person" means any individual, firm, partnership, joint venture, general partner of a partnership, limited liability company, registered limited liability partnership, foreign limited liability partnership, association, corporation, unincorporated business, company, syndicate, estate, trust, business trust, trustee, trustee in bankruptcy, receiver, executor, administrator, assignee, fiduciary, or entity of any kind.</text>
           </para>
         </include>
       </para>
-       <codify:temporary doc="D.C. Code" path="§2-218.02"/>
-    <codify:insert doc="D.C. Code" path="§2-218.02" before="heading" history="false" display-template="">
+      <codify:temporary doc="D.C. Code" path="§2-218.02"/>
+      <!-- <codify:insert doc="D.C. Code" path="§2-218.02" before="heading" history="false" display-template="">
       <text>
       *NOTE: This section includes amendments by temporary legislation that will expire on March 1, 2025. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§2-218.02(Perm)">Permanent Version</cite>.*
       </text>
-    </codify:insert>
+    </codify:insert> -->
     </para>
     <para codify:path="§2-218.63">
       <num>(b)</num>
@@ -92,10 +92,10 @@
       <para codify:path="(c)">
         <num>(1)</num>
         <text>Subsection (c) is amended by striking the phrase ", in accordance with procedures set forth in subsection (e) of this section,".</text>
-        <codify:find-replace count="1">
+        <!-- <codify:find-replace count="1">
           <find>, in accordance with the procedure set forth in subsection (e) of this section,</find>
           <replace></replace>
-        </codify:find-replace>
+        </codify:find-replace> -->
       </para>
       <para>
         <num>(2)</num>
@@ -107,7 +107,7 @@
             <para>
               <num>(e)</num>
               <para>
-                <codify:replace path="§2-218.63|(e)|(1)"/>
+                <!-- <codify:replace path="§2-218.63|(e)|(1)"/> -->
                 <num>(1)</num>
                 <para>
                   <num>(A)</num>
@@ -118,13 +118,13 @@
                   <text>The Department shall maintain a hotline for the filing of informal complaints.</text>
                 </para>
               </para>
-              <para >
-              <codify:replace path="§2-218.63|(e)|(2)"/>
+              <para>
+                <!-- <codify:replace path="§2-218.63|(e)|(2)"/> -->
                 <num>(2)</num>
                 <text>Except as provided in paragraph (3) of this subsection, the Department shall investigate each formal or informal complaint filed with it.</text>
               </para>
               <para>
-              <codify:replace path="§2-218.63|(e)|(3)"/>
+                <!-- <codify:replace path="§2-218.63|(e)|(3)"/> -->
                 <num>(3)</num>
                 <text>The Department may dismiss a complaint without conducting an investigation if the Department determines the complaint is frivolous or otherwise without merit. If the Department dismisses a formal complaint as frivolous or otherwise without merit, the Department shall prepare a report that includes:</text>
                 <para>
@@ -151,19 +151,19 @@
         <para codify:path="(e)|(4)">
           <num>(B)</num>
           <text>Paragraph (4) is repealed.</text>
-          <codify:repeal/>
+          <!-- <codify:repeal/> -->
         </para>
         <para>
           <num>(C)</num>
           <text>New paragraphs (5) and (6) are added to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:insert path="(e)"/>
+              <!-- <codify:insert path="(e)"/> -->
               <num>(5)</num>
               <text>After the completion of an investigation conducted pursuant to this subsection, the Department shall take such enforcement action, if any, it deems appropriate.</text>
             </para>
             <para>
-              <codify:insert path="(e)"/>
+              <!-- <codify:insert path="(e)"/> -->
               <num>(6)</num>
               <text>The Department shall maintain a record listing all formal complaints, which shall contain:</text>
               <para>
@@ -188,7 +188,7 @@
         <text>Subsection (g) is amended to read as follows:</text>
         <include>
           <para>
-            <codify:replace/>
+            <!-- <codify:replace/> -->
             <num>(g)</num>
             <para>
               <num>(1)</num>
@@ -263,31 +263,32 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-     <codify:temporary doc="D.C. Code" path="§2-218.63"/>
-    <codify:insert doc="D.C. Code" path="§2-218.63" before="heading" history="false" display-template="">
+      <codify:temporary doc="D.C. Code" path="§2-218.63"/>
+      <!-- <codify:insert doc="D.C. Code" path="§2-218.63" before="heading" history="false" display-template="">
       <text>
       *NOTE: This section includes amendments by temporary legislation that will expire on March 1, 2025. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§2-218.63(Perm)">Permanent Version</cite>.*
       </text>
-    </codify:insert>
-    </para>  </section>
+    </codify:insert> -->
+    </para>
+  </section>
   <section codify:path="§47-2908">
     <num>3</num>
     <heading proof="needed">Technical amendment.</heading>
     <text>Section 47-2908 of the District of Columbia Official Code is amended by adding a new subsection (c) to read as follows:</text>
     <include>
       <para>
-        <codify:insert/>
+        <!-- <codify:insert/> -->
         <num>(c)</num>
         <text>If a business licensed under this section imposes a service fee consistent with the provisions of subsection (b) of this section, the imposition of the service fee shall not constitute an unfair or deceptive trade practice under <cite doc="D.C. Code" path="§28-3904">§ 28-3904</cite>.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
     <codify:temporary doc="D.C. Code" path="§47-2908"/>
-    <codify:insert doc="D.C. Code" path="§47-2908" before="heading" history="false" display-template="">
+    <!-- <codify:insert doc="D.C. Code" path="§47-2908" before="heading" history="false" display-template="">
       <text>
       *NOTE: This section includes amendments by temporary legislation that will expire on March 1, 2025. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§47-2908(Perm)">Permanent Version</cite>.*
       </text>
-    </codify:insert>
+    </codify:insert> -->
   </section>
   <section>
     <num>4</num>
