@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-277">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-277" codify:doc="D.C. Code">
   <num type="law">25-277</num>
   <num type="act">25-644</num>
   <num type="bill">25-672</num>
@@ -22,12 +22,20 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Radiation Protection Act of 2024".</text>
+  <codify:insert path="8" after="15A" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>15B</num>
+      <heading>Radiation Protection.</heading>
+    </container>
+  </codify:insert>
   <section>
+    <codify:insert path="8|15B" num-value="8-1551"/>
     <num>2</num>
     <heading proof="needed">Definitions.</heading>
     <para>
       <num undesignated="true">(a)</num>
-      <text>For the purposes of this act, the term:</text>
+      <text>For the purposes of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite>, the term:</text>
       <para>
         <num>(1)</num>
         <text>"Ionizing radiation" means alpha particles, beta particles, gamma rays, x-rays, high-speed electrons, high-speed protons, neutrons, and other particles capable of producing ions.</text>
@@ -85,13 +93,15 @@
         <text>"Supplier" means a person who makes, sells, leases, repairs, lends, transfers, or installs medical or dental x-ray equipment for use in the District.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-277" path="§2" applicability-path="§11" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert path="8|15B" after="§8-1551" num-value="8-1552"/>
     <num>3</num>
     <heading proof="needed">Regulation of radiation; licensure, certification, and registration requirements.</heading>
     <para>
       <num>(a)</num>
-      <text>Except as otherwise provided in this act, no person shall make, acquire, receive, possess, lease, lend, use, donate, service, transfer, transport, install, or dispose of a source of ionizing radiation, radioactive material, or radioactive waste in the District.</text>
+      <text>Except as otherwise provided in <code-cite doc="D.C. Code" path="8|15B">this act</code-cite>, no person shall make, acquire, receive, possess, lease, lend, use, donate, service, transfer, transport, install, or dispose of a source of ionizing radiation, radioactive material, or radioactive waste in the District.</text>
     </para>
     <para>
       <num>(b)</num>
@@ -117,11 +127,11 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>Paragraph (1)(B) of this subsection shall not apply to an individual licensed to practice medical radiation technology in a category authorized to operate an ionizing radiation machine or equipment pursuant to Title VIII-G of the District of Columbia Health Occupations Revision Act of 1985, effective July 19, 2024 (D.C. Law 25-191; D.C. Official Code § 3-1208.91 <em>et seq.</em>).</text>
+        <text>Paragraph (1)(B) of this subsection shall not apply to an individual licensed to practice medical radiation technology in a category authorized to operate an ionizing radiation machine or equipment pursuant to <code-cite doc="D.C. Code" path="3|12|VIII-G">Title VIII-G of the District of Columbia Health Occupations Revision Act of 1985, effective July 19, 2024 (D.C. Law 25-191; D.C. Official Code § 3-1208.91 <em>et seq.</em>)</code-cite>.</text>
       </para>
       <para>
         <num>(3)</num>
-        <text>Paragraph (1)(A) of this subsection shall not apply to a solid waste facility permitted pursuant to the Solid Waste Facility Permit Act of 1995, effective February 27, 1996 (D.C. Law 11-94; D.C. Official Code § 8-1051 <em>et seq.</em>) ("Solid Waste Act"), if the facility's contact with radioactive waste is unintentional and its handling or disposal of the radioactive waste is consistent with its obligations under the Solid Waste Act.</text>
+        <text>Paragraph (1)(A) of this subsection shall not apply to a solid waste facility permitted pursuant to <code-cite doc="D.C. Code" path="8|10C">the Solid Waste Facility Permit Act of 1995, effective February 27, 1996 (D.C. Law 11-94; D.C. Official Code § 8-1051 <em>et seq.</em>)</code-cite> ("Solid Waste Act"), if the facility's contact with radioactive waste is unintentional and its handling or disposal of the radioactive waste is consistent with its obligations under the Solid Waste Act.</text>
       </para>
     </para>
     <para>
@@ -136,7 +146,7 @@
         <text>Require, and establish standards and procedures for, the licensure, registration, or certification of a person who:</text>
         <para>
           <num>(A)</num>
-          <text>Operates, receives, possesses, uses, transfers, owns, acquires, or disposes of a nonionizing radiation medical machine or equipment; except, that this subparagraph shall not apply to an individual licensed to practice medical radiation technology in a category authorized to operate such machinery or equipment pursuant to Title VIII-G of the District of Columbia Health Occupations Revision Act of 1985, effective July 19, 2024 (D.C. Law 25-191; D.C. Official Code § 3-1208.91 <em>et seq.</em>);</text>
+          <text>Operates, receives, possesses, uses, transfers, owns, acquires, or disposes of a nonionizing radiation medical machine or equipment; except, that this subparagraph shall not apply to an individual licensed to practice medical radiation technology in a category authorized to operate such machinery or equipment pursuant to <code-cite doc="D.C. Code" path="3|12|VIII-G">Title VIII-G of the District of Columbia Health Occupations Revision Act of 1985, effective July 19, 2024 (D.C. Law 25-191; D.C. Official Code § 3-1208.91 <em>et seq.</em>)</code-cite>;</text>
         </para>
         <para>
           <num>(B)</num>
@@ -169,7 +179,7 @@
       </para>
       <para>
         <num>(4)</num>
-        <text>Restrict or exclude persons who are unqualified or otherwise fail to observe the provisions of this act or rules issued pursuant to this act from acquiring, receiving, possessing, using, transferring, or disposing of a source of ionizing radiation, radioactive material, radioactive waste, or nonionizing radiation medical machines or equipment;</text>
+        <text>Restrict or exclude persons who are unqualified or otherwise fail to observe the provisions of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite> or rules issued pursuant to <span codify:value="this chapter">this act</span> from acquiring, receiving, possessing, using, transferring, or disposing of a source of ionizing radiation, radioactive material, radioactive waste, or nonionizing radiation medical machines or equipment;</text>
       </para>
       <para>
         <num>(5)</num>
@@ -192,12 +202,14 @@
         </para>
         <para>
           <num>(D)</num>
-          <text>Such other actions under this act as the Mayor deems appropriate.</text>
+          <text>Such other actions under <code-cite doc="D.C. Code" path="8|15B">this act</code-cite> as the Mayor deems appropriate.</text>
         </para>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-277" path="§3" applicability-path="§11" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert path="8|15B" after="§8-1552" num-value="8-1553"/>
     <num>4</num>
     <heading proof="needed">Mayoral enforcement authority.</heading>
     <para>
@@ -208,7 +220,7 @@
         <text>Inspect a facility, operation, machine, or equipment:</text>
         <para>
           <num>(A)</num>
-          <text>Licensed, certified, or registered pursuant to section 3(b) or (c), or pursuant to section 3(d) if licensure, certification, or registration is required by the Mayor through rulemaking;</text>
+          <text>Licensed, certified, or registered pursuant to <code-cite doc="D.C. Code" path="§8-1552|(b)">section 3(b)</code-cite> or <cite doc="D.C. Code" path="§8-1552|(c)">(c)</cite>, or pursuant to <code-cite doc="D.C. Code" path="§8-1552|(d)">section 3(d)</code-cite> if licensure, certification, or registration is required by the Mayor through rulemaking;</text>
         </para>
         <para>
           <num>(B)</num>
@@ -224,7 +236,7 @@
         <text>Inspect records related to a facility, operation, machine, equipment, or person:</text>
         <para>
           <num>(A)</num>
-          <text>Licensed, certified, or registered pursuant to section 3(b) or (c), or pursuant to section 3(d) if licensure, certification, or registration is required by the Mayor through rulemaking;</text>
+          <text>Licensed, certified, or registered pursuant to <code-cite doc="D.C. Code" path="§8-1552|(b)">section 3(b)</code-cite> or <cite doc="D.C. Code" path="§8-1552|(c)">(c)</cite>, or pursuant to <code-cite doc="D.C. Code" path="§8-1552|(d)">section 3(d)</code-cite> if licensure, certification, or registration is required by the Mayor through rulemaking;</text>
         </para>
         <para>
           <num>(B)</num>
@@ -258,23 +270,23 @@
           <text>Seize and impound a source of ionizing radiation, radioactive material, radioactive waste, nonionizing radiation medical machine or equipment regulated by the Mayor through rulemaking, or any part thereof ("radiation product"), if it:</text>
           <para>
             <num>(i)</num>
-            <text>Is in the possession of a person who is not licensed, certified, or registered pursuant to section 3(b) or (d) or is not equipped or qualified by training and experience to possess and operate such radiation product;</text>
+            <text>Is in the possession of a person who is not licensed, certified, or registered pursuant to <code-cite doc="D.C. Code" path="§8-1552|(b)">section 3(b)</code-cite> or <cite doc="D.C. Code" path="§8-1552|(d)">(d)</cite> or is not equipped or qualified by training and experience to possess and operate such radiation product;</text>
           </para>
           <para>
             <num>(ii)</num>
-            <text>Is an ionizing radiation machine or equipment not registered pursuant to section 3(c) or a nonionizing radiation medical machine or equipment not registered if required by the Mayor through rulemaking;</text>
+            <text>Is an ionizing radiation machine or equipment not registered pursuant to <code-cite doc="D.C. Code" path="§8-1552|(c)">section 3(c)</code-cite> or a nonionizing radiation medical machine or equipment not registered if required by the Mayor through rulemaking;</text>
           </para>
           <para>
             <num>(iii)</num>
-            <text>Is in the possession or control of a person who fails to comply with the requirements of this act or the rules issued pursuant to this act;</text>
+            <text>Is in the possession or control of a person who fails to comply with the requirements of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite> or the rules issued pursuant to <span codify:value="this chapter">this act</span>;</text>
           </para>
           <para>
             <num>(iv)</num>
-            <text>Does not comply with the requirements of this act or the rules issued pursuant to this act; or</text>
+            <text>Does not comply with the requirements of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite> or the rules issued pursuant to <span codify:value="this chapter">this act</span>; or</text>
           </para>
           <para>
             <num>(v)</num>
-            <text>Is being used in violation of this act or the rules issued pursuant to this act.</text>
+            <text>Is being used in violation of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite> or the rules issued pursuant to <span codify:value="this chapter">this act</span>.</text>
           </para>
         </para>
         <para>
@@ -341,7 +353,7 @@
       </para>
       <para>
         <num>(3)</num>
-        <text>The Mayor may recover up to 3 times the cost and expense incurred for taking action to protect the public from the effects and potential effects of a violation of this act or a rule issued pursuant to this act.</text>
+        <text>The Mayor may recover up to 3 times the cost and expense incurred for taking action to protect the public from the effects and potential effects of a violation of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite> or a rule issued pursuant to <span codify:value="this chapter">this act</span>.</text>
       </para>
       <para>
         <num>(4)</num>
@@ -368,7 +380,7 @@
       <num>(d)</num>
       <para>
         <num>(1)</num>
-        <text>The Mayor may impose civil fines and penalties for any violation of this act, or any rule issued pursuant to this act, pursuant to the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (D.C. Law 6-42; D.C. Official Code § 2-1801.01 <em>et </em>seq.) ("Civil Infractions Act"); except, that the Mayor may recover up to 3 times the cost and expense of taking action to protect the public from the effects or potential effects of the violation. Fines and penalties may be imposed for each day that a violation continues.</text>
+        <text>The Mayor may impose civil fines and penalties for any violation of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite>, or any rule issued pursuant to <span codify:value="this chapter">this act</span>, pursuant to <code-cite doc="D.C. Code" path="2|18">the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (D.C. Law 6-42; D.C. Official Code § 2-1801.01 <em>et </em>seq.)</code-cite> ("Civil Infractions Act"); except, that the Mayor may recover up to 3 times the cost and expense of taking action to protect the public from the effects or potential effects of the violation. Fines and penalties may be imposed for each day that a violation continues.</text>
       </para>
       <para>
         <num>(2)</num>
@@ -378,14 +390,14 @@
         <num>(3)</num>
         <para>
           <num>(A)</num>
-          <text>The notice of infraction may require the respondent to take action to correct a violation of this act or a rule issued pursuant to this act, or to cease conduct that violates this act or a rule issued pursuant to this act.</text>
+          <text>The notice of infraction may require the respondent to take action to correct a violation of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite> or a rule issued pursuant to <span codify:value="this chapter">this act</span>, or to cease conduct that violates <span codify:value="this chapter">this act</span> or a rule issued pursuant to <span codify:value="this chapter">this act</span>.</text>
         </para>
         <para>
           <num>(B)</num>
-          <text>If the notice of infraction requires the respondent to take corrective action, the notice of infraction shall, in addition to the information required by section 201 of the Civil Infractions Act (D.C. Official Code § 2-1802.01), include:</text>
+          <text>If the notice of infraction requires the respondent to take corrective action, the notice of infraction shall, in addition to the information required by <code-cite doc="D.C. Code" path="§2-1802.01">section 201 of the Civil Infractions Act (D.C. Official Code § 2-1802.01)</code-cite>, include:</text>
           <para>
             <num>(i)</num>
-            <text>A statement that the respondent's conduct violating the act or rule must cease, or that the respondent must take action to correct the violation;</text>
+            <text>A statement that the respondent's conduct violating <code-cite doc="D.C. Code" path="8|15B">this act</code-cite> or rule must cease, or that the respondent must take action to correct the violation;</text>
           </para>
           <para>
             <num>(ii)</num>
@@ -418,7 +430,7 @@
       <num>(e)</num>
       <para>
         <num>(1)</num>
-        <text>If the Mayor determines that a violation of this act or a rule issued pursuant to this act poses an immediate threat to the health, safety, welfare, or property of individuals or the public, the Mayor may issue an immediate compliance order or an immediate cease and desist order without first issuing a notice of infraction or opportunity to be heard, or may seek a temporary restraining order, in order to require a person to correct a violation of this act or a rule issued pursuant to this act.</text>
+        <text>If the Mayor determines that a violation of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite> or a rule issued pursuant to <span codify:value="this chapter">this act</span> poses an immediate threat to the health, safety, welfare, or property of individuals or the public, the Mayor may issue an immediate compliance order or an immediate cease and desist order without first issuing a notice of infraction or opportunity to be heard, or may seek a temporary restraining order, in order to require a person to correct a violation of <span codify:value="this chapter">this act</span> or a rule issued pursuant to <span codify:value="this chapter">this act</span>.</text>
       </para>
       <para>
         <num>(2)</num>
@@ -426,16 +438,18 @@
       </para>
       <para>
         <num>(3)</num>
-        <text>Notwithstanding section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code 22-3571.01), any person who fails to comply with a final compliance order or a final cease and desist order issued pursuant to this subsection shall be liable for a civil penalty of not more than $25,000 for each day of noncompliance.</text>
+        <text>Notwithstanding <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code 22-3571.01)</code-cite>, any person who fails to comply with a final compliance order or a final cease and desist order issued pursuant to this subsection shall be liable for a civil penalty of not more than $25,000 for each day of noncompliance.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-277" path="§4" applicability-path="§11" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert path="8|15B" after="§8-1553" num-value="8-1554"/>
     <num>5</num>
     <heading proof="needed">Entry and administrative warrant procedures.</heading>
     <para>
       <num>(a)</num>
-      <text>For the purpose of conducting any of the authorized actions in section 4, the Mayor may enter upon and into any building, facility, establishment, or property during all reasonable hours; provided, that if an owner or tenant of the building, facility, establishment, or property does not give permission to enter that portion of the premises under the tenant or owner's exclusive control, the Mayor shall not enter that portion of the premises unless the Mayor has:</text>
+      <text>For the purpose of conducting any of the authorized actions in <code-cite doc="D.C. Code" path="§8-1553">section 4</code-cite>, the Mayor may enter upon and into any building, facility, establishment, or property during all reasonable hours; provided, that if an owner or tenant of the building, facility, establishment, or property does not give permission to enter that portion of the premises under the tenant or owner's exclusive control, the Mayor shall not enter that portion of the premises unless the Mayor has:</text>
       <para>
         <num>(1)</num>
         <text>A valid administrative search warrant issued pursuant to subsection (c) of this section that permits the entry for the prescribed action; or</text>
@@ -447,7 +461,7 @@
     </para>
     <para>
       <num>(b)</num>
-      <text>The Mayor may apply to a judge of the District of Columbia for an administrative search warrant to enter any premises for any action authorized by section 4.</text>
+      <text>The Mayor may apply to a judge of the District of Columbia for an administrative search warrant to enter any premises for any action authorized by <code-cite doc="D.C. Code" path="§8-1553">section 4</code-cite>.</text>
     </para>
     <para>
       <num>(c)</num>
@@ -461,11 +475,11 @@
         <text>The Mayor has demonstrated that the action is sought as a result of:</text>
         <para>
           <num>(A)</num>
-          <text>Evidence of an existing violation of this act or a rule issued pursuant to this act; or</text>
+          <text>Evidence of an existing violation of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite> or a rule issued pursuant to <span codify:value="this chapter">this act</span>; or</text>
         </para>
         <para>
           <num>(B)</num>
-          <text>A general and neutral administrative plan to conduct periodic inspections or examinations relating to the issuance or renewal of a license, certification, or registration under section 3(b) or (c), or section 3(d) if licensure, certification, or registration is required by the Mayor through rulemaking;</text>
+          <text>A general and neutral administrative plan to conduct periodic inspections or examinations relating to the issuance or renewal of a license, certification, or registration under <code-cite doc="D.C. Code" path="§8-1552|(b)">section 3(b)</code-cite> or <cite doc="D.C. Code" path="§8-1552|(c)">(c)</cite>, or <code-cite doc="D.C. Code" path="§8-1552|(d)">section 3(d)</code-cite> if licensure, certification, or registration is required by the Mayor through rulemaking;</text>
         </para>
       </para>
       <para>
@@ -477,15 +491,17 @@
         <text>The action is sought to protect the health, safety, welfare, or property of individuals or the public.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-277" path="§5" applicability-path="§11" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert path="8|15B" after="§8-1554" num-value="8-1555"/>
     <num>6</num>
     <heading proof="needed">Criminal and civil enforcement by the Office of the Attorney General.</heading>
     <para>
       <num>(a)</num>
       <para>
         <num>(1)</num>
-        <text>Any person who knowingly violates any of the provisions of this act, or the rules promulgated pursuant to this act, shall be punished by a fine not to exceed $25,000, or imprisonment not to exceed one year.</text>
+        <text>Any person who knowingly violates any of the provisions of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite>, or the rules promulgated pursuant to <span codify:value="this chapter">this act</span>, shall be punished by a fine not to exceed $25,000, or imprisonment not to exceed one year.</text>
       </para>
       <para>
         <num>(2)</num>
@@ -493,7 +509,7 @@
       </para>
       <para>
         <num>(3)</num>
-        <text>The fine set forth in this subsection shall not be limited by section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code 22-3571.01).</text>
+        <text>The fine set forth in this subsection shall not be limited by <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code 22-3571.01)</code-cite>.</text>
       </para>
     </para>
     <para>
@@ -501,54 +517,63 @@
       <text>The Mayor may request that the Attorney General:</text>
       <para>
         <num>(1)</num>
-        <text>Commence an appropriate civil action in the Superior Court of the District of Columbia to secure a temporary restraining order, a preliminary injunction, a permanent injunction, or other appropriate relief from the court, to enforce this act or rules issued pursuant to this act; or</text>
+        <text>Commence an appropriate civil action in the Superior Court of the District of Columbia to secure a temporary restraining order, a preliminary injunction, a permanent injunction, or other appropriate relief from the court, to enforce <code-cite doc="D.C. Code" path="8|15B">this act</code-cite> or rules issued pursuant to <span codify:value="this chapter">this act</span>; or</text>
       </para>
       <para>
         <num>(2)</num>
         <text>Institute a court action for injunctive relief, damages, or civil penalties, or to recoup corrective action costs, if a person fails to comply with a final compliance order or cease and desist order within the time period specified in the order.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-277" path="§6" applicability-path="§11" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert path="8|15B" after="§8-1555" num-value="8-1556"/>
     <num>7</num>
     <heading proof="needed">Exemptions.</heading>
     <para>
       <num>(a)</num>
-      <text>A person may submit a request for an exemption from a requirement within section 3, which shall include explanations of how complying with section 3 would result in unnecessary hardship or practical difficulty to the applicant and why the public health and welfare would not be endangered or the public interest would be served by the exemption.</text>
+      <text>A person may submit a request for an exemption from a requirement within <code-cite doc="D.C. Code" path="§8-1552">section 3</code-cite>, which shall include explanations of how complying with <code-cite doc="D.C. Code" path="§8-1552">section 3</code-cite> would result in unnecessary hardship or practical difficulty to the applicant and why the public health and welfare would not be endangered or the public interest would be served by the exemption.</text>
     </para>
     <para>
       <num>(b)</num>
       <text>The Mayor may grant an application for exemption, in whole or in part, by:</text>
       <para>
         <num>(1)</num>
-        <text>Publishing notice of the proposed exemption for a 30-day period for public comment and explaining why enforcement of the section 3 requirement would result in unnecessary hardship or practical difficulty to the applicant, and why the public health and welfare would not be endangered or the public interest would be served by the exemption; and</text>
+        <text>Publishing notice of the proposed exemption for a 30-day period for public comment and explaining why enforcement of the <code-cite doc="D.C. Code" path="§8-1552">section 3</code-cite> requirement would result in unnecessary hardship or practical difficulty to the applicant, and why the public health and welfare would not be endangered or the public interest would be served by the exemption; and</text>
       </para>
       <para>
         <num>(2)</num>
         <text>After the public comment period has closed, publishing the approved exemption, including a description of any differences between the approved exemption and initially proposed exemption, and responses to any public comments received during the comment period.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-277" path="§7" applicability-path="§11" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert path="8|15B" after="§8-1556" num-value="8-1557"/>
     <num>8</num>
     <heading proof="needed">Rulemaking.</heading>
-    <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall issue rules to implement the provisions of this act.</text>
+    <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, shall issue rules to implement the provisions of <code-cite doc="D.C. Code" path="8|15B">this act</code-cite>.</text>
+    <codify:not-funded-anno doc="D.C. Law 25-277" path="§8" applicability-path="§11" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert path="8|15B" after="§8-1557" num-value="8-1558"/>
     <num>9</num>
     <heading proof="needed">Transfers; continuation.</heading>
     <para>
       <num>(a)</num>
-      <text>All functions, authority, programs, positions, personnel, property, records, and unexpended balances of appropriations, allocations, or other funds available to the Department of Health for the purposes of carrying out the District of Columbia Low-Level Radioactive Waste Generator Regulatory Policy Act of 1990, effective March 7, 1991 (D.C. Law 8-226; D.C. Official Code § 8-1501 <em>et seq.</em>), are transferred to the Mayor.</text>
+      <text>All functions, authority, programs, positions, personnel, property, records, and unexpended balances of appropriations, allocations, or other funds available to the Department of Health for the purposes of carrying out <cite doc="D.C. Code" path="8|15">the District of Columbia Low-Level Radioactive Waste Generator Regulatory Policy Act of 1990, effective March 7, 1991 (D.C. Law 8-226; D.C. Official Code § 8-1501 et seq.)</cite>, are transferred to the Mayor.</text>
     </para>
     <para>
       <num>(b)</num>
       <text>All rules, orders, obligations, determinations, grants, contracts, licenses, and agreements of the Department of Health transferred to the Mayor under subsection (a) of this section shall continue in effect according to their terms until lawfully amended, repealed, or modified.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-277" path="§9" applicability-path="§11" action="creation of" display-template=""/>
   </section>
   <section>
     <num>10</num>
     <text>The District of Columbia Low-Level Radioactive Waste Generator Regulatory Policy Act of 1990, effective March 7, 1991 (D.C. Law 8-226; D.C. Official Code § 8-1501 <em>et seq</em>.), is repealed.</text>
+    <codify:repeal path="8|15"/>
+    <codify:not-funded-anno doc="D.C. Law 25-277" path="§10" applicability-path="§11" action="repeal of" display-template=""/>
   </section>
   <section>
     <num>11</num>
@@ -556,6 +581,15 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 25-277" path="§2" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-277" path="§3" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-277" path="§4" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-277" path="§5" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-277" path="§6" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-277" path="§7" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-277" path="§8" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-277" path="§9" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-277" path="§10" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
