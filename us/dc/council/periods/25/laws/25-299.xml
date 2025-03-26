@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-691">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-299" codify:doc="D.C. Code">
+  <num type="law">25-299</num>
   <num type="act">25-691</num>
   <num type="bill">25-243</num>
   <heading type="short">Child and Family Services Agency Investigation Completion Amendment Act of 2024</heading>
   <heading type="long">To amend the Prevention of Child Abuse and Neglect Act to extend the timeframe for completing an investigation into suspected child abuse and neglect to 45 days, unless the investigation involves a report of a child fatality, sex trafficking, or abuse or neglect occurring in an institutional setting, in which case the timeframe shall be extended to 60 days, and to remove the practice of conducting family assessments.</heading>
   <meta>
     <introduced>2023-04-11</introduced>
-    <effective projected="true">2025-03-29</effective>
+    <effective>2025-03-21</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/52801/Signed_Act/B25-0243-Signed_Act.pdf?Id=204903">D.C. Law 25-299</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/52801/Signed_Act/B25-0243-Signed_Act.pdf?Id=204903">D.C. Act 25-691</citation>
       <citation type="register">72 DCR 735</citation>
     </citations>
@@ -23,57 +25,70 @@
   <section>
     <num>2</num>
     <text>Title I of the Prevention of Child Abuse and Neglect Act of 1977, effective September 23, 1977 (D.C. Law 2-22; D.C. Official Code § 4-1301.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-1301.02|(9A)">
       <num>(a)</num>
       <text>Section 102(9A) (D.C. Official Code 4-1301.02(9A)) is repealed.</text>
+      <codify:repeal/>
     </para>
-    <para>
+    <para codify:path="§4-1301.04">
       <num>(b)</num>
       <text>Section 104 (D.C. Official Code 4-1301.04) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include lvl="2">
           <para>
+          <codify:replace/>
             <num>(a)</num>
             <text>The Agency shall conduct a thorough investigation of a report of suspected child abuse or neglect to protect the health and safety of the child or children.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "neglect or a referral for investigation following a family assessment" and inserting the word "neglect" in its place.</text>
+          <codify:find-replace count="1">
+            <find>neglect or a referral for investigation following a family assessment</find>
+            <replace>neglect</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "report or a referral for investigation following a family assessment" and inserting the word "report" in its place.</text>
+          <codify:find-replace count="1">
+            <find>report or a referral for investigation following a family assessment</find>
+            <replace>report</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(c)|(3)|(G)">
         <num>(3)</num>
         <text>Subsection(c)(3)(G) is amended to read as follows:</text>
         <include lvl="2">
           <para>
+          <codify:replace/>
             <num>(G)</num>
             <text>A finding as to whether the report of abuse or neglect is substantiated, inconclusive, or unfounded.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(e)|(2)">
         <num>(4)</num>
         <text>Subsection(e)(2) is repealed.</text>
+        <codify:repeal/>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-1301.06|(a)">
       <num>(c)</num>
       <text>Section 106(a) (D.C. Official Code § 4-1301.06(a)) is amended to read as follows:</text>
       <include>
         <para>
+        <codify:replace/>
           <num>(a)</num>
           <text>The full investigation shall be completed no more than 45 days after the receipt of the first notice of the suspected abuse or neglect; except, that the full investigation shall be completed no more than 60 days after the receipt of the first notice of the suspected abuse or neglect if the investigation involves:</text>
           <para>
@@ -90,11 +105,11 @@
           </para>
           <para>
             <num>(4)</num>
-            <text>A commercial sex act, as that term is defined in section 101(4) of the Prohibition Against Human Trafficking Amendment Act of 2010, effective October 23, 2010 (D.C. Law 18-239; D.C. Official Code § 22-1831(4)); or</text>
+            <text>A commercial sex act, as that term is defined in <code-cite doc="D.C. Code" path="§22-1831|(4)">section 101(4) of the Prohibition Against Human Trafficking Amendment Act of 2010, effective October 23, 2010 (D.C. Law 18-239; D.C. Official Code § 22-1831(4))</code-cite>; or</text>
           </para>
           <para>
             <num>(5)</num>
-            <text>Sex trafficking of children, as described in section 104 of the Prohibition Against Human Trafficking Amendment Act of 2010, effective October 23, 2010 (D.C. Law 18-239; D.C. Official Code § 22-1834).</text>
+            <text>Sex trafficking of children, as described in <code-cite doc="D.C. Code" path="§22-1834">section 104 of the Prohibition Against Human Trafficking Amendment Act of 2010, effective October 23, 2010 (D.C. Law 18-239; D.C. Official Code § 22-1834)</code-cite>.</text>
           </para>
         </para>
       </include>

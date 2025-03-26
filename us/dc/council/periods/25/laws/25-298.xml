@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-690">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-298" codify:doc="D.C. Code">
+  <num type="law">25-298</num>
   <num type="act">25-690</num>
   <num type="bill">25-225</num>
   <heading type="short">Uniform Directed Trust Amendment Act of 2024</heading>
   <heading type="long">To amend Title 19 of the District of Columbia Official Code to enact the Uniform Directed Trust Code, to provide clear rules that allow a settlor to freely structure a directed trust while preserving key fiduciary safeguards for beneficiaries, to provide default rules for information sharing among trustees and trust directors, the procedures for accepting appointment as a trust director, and the distinction between a power of direction and a nonfiduciary power of appointment, and to make conforming and clarifying amendments concerning directed trusts and insurable interests in trustees.</heading>
   <meta>
     <introduced>2023-03-16</introduced>
-    <effective projected="true">2025-03-29</effective>
+    <effective>2025-03-21</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/52719/Signed_Act/B25-0225-Signed_Act.pdf?Id=204902">D.C. Law 25-298</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/52719/Signed_Act/B25-0225-Signed_Act.pdf?Id=204902">D.C. Act 25-690</citation>
       <citation type="register">72 DCR 724</citation>
     </citations>
@@ -26,11 +28,12 @@
     <para>
       <num>(a)</num>
       <text>The table of contents is amended by adding at the end the phrase: "21.  Uniform Directed Trust Code . . . 19-2101.".</text>
+      <!-- done below -->
     </para>
     <para>
       <num>(b)</num>
       <text>Chapter 13 is amended as follows:</text>
-      <para>
+      <para codify:path="§19-1301.03|(20)">
         <num>(1)</num>
         <text>Section 19-1301.05(20) is amended to read as follows:</text>
         <include lvl="1">
@@ -62,20 +65,21 @@
               </para>
               <para>
                 <num>(iii)</num>
-                <text>A nonjudicial settlement agreement under § 19-1301.11.</text>
+                <text>A nonjudicial settlement agreement under <cite doc="D.C. Code" path="§19-1301.11">§ 19-1301.11</cite>.</text>
               </para>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§19-1301.05|(b)|(2)">
         <num>(2)</num>
         <text>Section 19-1301.05(b)(2) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(2)</num>
-            <text>Subject to §§ 19-2109, 19-2111, and 19-2112, the duty of a trustee to act in good faith and in accordance with the purposes of the trust;</text>
+            <text>Subject to §§ <cite doc="D.C. Code" path="§19-2109">19-2109</cite>, <cite doc="D.C. Code" path="§19-2111">19-2111</cite>, and <cite doc="D.C. Code" path="§19-2112">19-2112</cite>, the duty of a trustee to act in good faith and in accordance with the purposes of the trust;</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -85,6 +89,7 @@
         <text>A new section 19-1301.12 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="19|13|I" after="§19-1301.11" num-value="19-1301.12" history-prefix="as added"/>
             <prefix>§</prefix>
             <num>19-1301.12</num>
             <heading proof="needed">Insurable interest of trustee.</heading>
@@ -131,39 +136,51 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <annotation doc="D.C. Law 25-298" type="History">Mar. 21, 2025, D.C. Law 25-298, § 2(b)(3), 72 DCR 724</annotation>
       </para>
-      <para>
+      <para codify:path="§19-1306.03">
         <num>(4)</num>
         <text>Section 19-1306.03 is amended by adding the following new subsection (d) to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(c)" num-value="(d)"/>
             <num>(d)</num>
             <text>While a trust is revocable, the trustee may follow a direction of the settlor that is contrary to the terms of the trust.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§19-1307.03">
         <num>(5)</num>
         <text>Section 19-1307.03 is amended as follows:</text>
-        <para>
+        <para codify:path="(c)">
           <num>(A)</num>
           <text>Subsection (c) is amended by striking the word "A" and inserting the phrase "Subject to § 19-2112, a" in its place.</text>
+          <codify:find-replace count="1">
+            <find>A</find>
+            <replace>Subject to <cite doc="D.C. Code" path="§19-2112">§ 19-2112</cite>, a</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(g)">
           <num>(B)</num>
           <text>Subsection (g) is amended by striking the word "Each" and inserting the phrase "Subject to § 19-2112, each" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Each</find>
+            <replace>Subject to <cite doc="D.C. Code" path="§19-2112">§ 19-2112</cite>, each</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="§19-1308.08">
         <num>(6)</num>
         <text>Section 19-1308.08 is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="§19-1310.09">
         <num>(7)</num>
         <text>Section 19-1310.09 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace/>
             <prefix>§</prefix>
             <num>19-1310.09</num>
             <heading proof="needed">Beneficiary's consent, release, or ratification.</heading>
@@ -192,7 +209,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>A trust terminates early pursuant to § 19-1304.11; or</text>
+                <text>A trust terminates early pursuant to <cite doc="D.C. Code" path="§19-1304.11">§ 19-1304.11</cite>; or</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -279,11 +296,11 @@
             </para>
             <para>
               <num>(h)</num>
-              <text>§§ 19-1303.01 through 19-1303.04 shall apply to this section.</text>
+              <text>§§ <cite doc="D.C. Code" path="§19-1303.01">19-1303.01</cite> through <cite doc="D.C. Code" path="§19-1303.04">19-1303.04</cite> shall apply to this section.</text>
             </para>
             <para>
               <num>(i)</num>
-              <text>Nothing in this section shall preclude a trustee from proceeding under § 19-1302.01 to have the trustee's accounts reviewed and settled by the court.</text>
+              <text>Nothing in this section shall preclude a trustee from proceeding under § <cite doc="D.C. Code" path="§19-1302.01">19-1302.01</cite> to have the trustee's accounts reviewed and settled by the court.</text>
             </para>
           </section>
         </include>
@@ -291,6 +308,13 @@
       </para>
     </para>
     <para>
+      <codify:insert doc="D.C. Code" path="19" after="19" history="false">
+        <container>
+          <prefix>Chapter</prefix>
+          <num>21</num>
+          <heading>Uniform Directed Trust Code.</heading>
+        </container>
+      </codify:insert>
       <num>(c)</num>
       <text>A new chapter 21 is added to read as follows:</text>
       <include>
@@ -300,7 +324,9 @@
           <heading/>
           <container>
             <heading>UNIFORM DIRECTED TRUST CODE</heading>
-            <text><b>Section</b></text>
+            <text>
+              <b>Section</b>
+            </text>
             <section>
               <prefix>§</prefix>
               <num>19-2101</num>
@@ -392,18 +418,20 @@
               <text>Relation to Electronic Signatures in Global and National Commerce Act</text>
             </section>
             <section>
+            <codify:insert path="21" num-value="19-2101"/>
               <prefix>§</prefix>
               <num>19-2101</num>
               <heading proof="needed">Short title.</heading>
-              <text>This chapter may be cited as the "Uniform Directed Trust Act".</text>
+              <text><cite doc="D.C. Code" path="19|21">This chapter</cite> may be cited as the "Uniform Directed Trust Act".</text>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2101" num-value="19-2102"/>
               <prefix>§</prefix>
               <num>19-2102</num>
               <heading proof="needed">Definitions.</heading>
               <para>
                 <num undesignated="true">(a)</num>
-                <text>For the purposes of this chapter, the term:</text>
+                <text>For the purposes of <cite doc="D.C. Code" path="19|21">this chapter</cite>, the term:</text>
                 <para>
                   <num>(1)</num>
                   <text>"Breach of trust" includes a violation by a trust director or trustee of a duty imposed on that director or trustee by the terms of the trust, this chapter, or law of the District other than this chapter pertaining to trusts.</text>
@@ -426,7 +454,7 @@
                 </para>
                 <para>
                   <num>(6)</num>
-                  <text>"Power of direction" means a power over a trust granted to a person by the terms of the trust to the extent the power is exercisable while the person is not serving as a trustee. The term "power of direction" includes a power over the investment, management, or distribution of trust property or other matters of trust administration. The term "power of direction" does not include the powers described in § 19-2105(b).</text>
+                  <text>"Power of direction" means a power over a trust granted to a person by the terms of the trust to the extent the power is exercisable while the person is not serving as a trustee. The term "power of direction" includes a power over the investment, management, or distribution of trust property or other matters of trust administration. The term "power of direction" does not include the powers described in <cite doc="D.C. Code" path="§19-2105|(b)">§ 19-2105(b)</cite>.</text>
                 </para>
                 <para>
                   <num>(7)</num>
@@ -464,7 +492,7 @@
                     </para>
                     <para>
                       <num>(iii)</num>
-                      <text>A nonjudicial settlement agreement under § 19-1301.11.</text>
+                      <text>A nonjudicial settlement agreement under <cite doc="D.C. Code" path="§19-1301.11">§ 19-1301.11</cite>.</text>
                     </para>
                   </para>
                 </para>
@@ -479,12 +507,13 @@
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2102" num-value="19-2103"/>
               <prefix>§</prefix>
               <num>19-2103</num>
               <heading proof="needed">Application; principal place of administration.</heading>
               <para>
                 <num>(a)</num>
-                <text>This chapter applies to a trust, whenever created, that has its principal place of administration in the District, subject to the following rules:</text>
+                <text><cite doc="D.C. Code" path="19|21">This chapter</cite> applies to a trust, whenever created, that has its principal place of administration in the District, subject to the following rules:</text>
                 <para>
                   <num>(1)</num>
                   <text>If the trust was created before the effective date of this chapter, this chapter applies only to a decision or action occurring on or after the effective date of this chapter; and</text>
@@ -512,12 +541,14 @@
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2103" num-value="19-2104"/>
               <prefix>§</prefix>
               <num>19-2104</num>
               <heading proof="needed">Common law and principles of equity.</heading>
-              <text>The common law and principles of equity supplement this chapter, except to the extent modified by this chapter or law of the District other than this chapter.</text>
+              <text>The common law and principles of equity supplement this chapter, except to the extent modified by this chapter or law of the District other than <cite doc="D.C. Code" path="19|21">this chapter</cite>.</text>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2104" num-value="19-2105"/>
               <prefix>§</prefix>
               <num>19-2105</num>
               <heading proof="needed">Exclusions.</heading>
@@ -527,7 +558,7 @@
               </para>
               <para>
                 <num>(b)</num>
-                <text>This chapter does not apply to a:</text>
+                <text><cite doc="D.C. Code" path="19|21">This chapter</cite> does not apply to a:</text>
                 <para>
                   <num>(1)</num>
                   <text>Power of appointment;</text>
@@ -549,7 +580,7 @@
                   </para>
                   <para>
                     <num>(B)</num>
-                    <text>Another beneficiary represented by the beneficiary under §§ 19-1303.01 through 19-1303.05 with respect to the exercise or nonexercise of the power; or</text>
+                    <text>Another beneficiary represented by the beneficiary under §§ <cite doc="D.C. Code" path="§19-1303.01">19-1303.01</cite> through <cite doc="D.C. Code" path="§19-1303.05">19-1303.05</cite> with respect to the exercise or nonexercise of the power; or</text>
                   </para>
                 </para>
                 <para>
@@ -571,12 +602,13 @@
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2105" num-value="19-2106"/>
               <prefix>§</prefix>
               <num>19-2106</num>
               <heading proof="needed">Powers of trust director.</heading>
               <para>
                 <num>(a)</num>
-                <text>Subject to § 19-2107, the terms of a trust may grant a power of direction to a trust director.</text>
+                <text>Subject to <cite doc="D.C. Code" path="§19-2107">§ 19-2107</cite>, the terms of a trust may grant a power of direction to a trust director.</text>
               </para>
               <para>
                 <num>(b)</num>
@@ -592,12 +624,13 @@
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2106" num-value="19-2107"/>
               <prefix>§</prefix>
               <num>19-2107</num>
               <heading proof="needed">Limitations on trust director.</heading>
               <para>
                 <num undesignated="true">(a)</num>
-                <text>A trust director is subject to the same rules as a trustee in a like position and under similar circumstances in the exercise or nonexercise of a power of direction or further power under § 19-2106(b)(1) regarding:</text>
+                <text>A trust director is subject to the same rules as a trustee in a like position and under similar circumstances in the exercise or nonexercise of a power of direction or further power under <cite doc="D.C. Code" path="§19-2106|(b)|(1)">§ 19-2106(b)(1)</cite> regarding:</text>
                 <para>
                   <num>(1)</num>
                   <text>A payback provision in the terms of a trust necessary to comply with the reimbursement requirements of Medicaid law in section 1917(d)(4)(A) of the Social Security Act, approved September 3, 1982 (96 Stat. 370; 42 U.S.C. § 1396p(d)(4)(A)), and regulations issued thereunder; and</text>
@@ -609,12 +642,13 @@
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2107" num-value="19-2108"/>
               <prefix>§</prefix>
               <num>19-2108</num>
               <heading proof="needed">Duty and liability of trust director.</heading>
               <para>
                 <num>(a)</num>
-                <text>Subject to subsection (b) of this section, with respect to a power of direction or further power under § 19-2106(b)(1):</text>
+                <text>Subject to subsection (b) of this section, with respect to a power of direction or further power under <cite doc="D.C. Code" path="§19-2106|(b)|(1)">§ 19-2106(b)(1)</cite>:</text>
                 <para>
                   <num>(1)</num>
                   <text>A trust director has the same fiduciary duty and liability in the exercise or nonexercise of the power:</text>
@@ -634,7 +668,7 @@
               </para>
               <para>
                 <num>(b)</num>
-                <text>Unless the terms of a trust provide otherwise, if a trust director is licensed, certified, or otherwise authorized or permitted by law other than this chapter to provide health care in the ordinary course of the director's business or practice of a profession, to the extent the director acts in that capacity, the director has no duty or liability under this chapter.</text>
+                <text>Unless the terms of a trust provide otherwise, if a trust director is licensed, certified, or otherwise authorized or permitted by law other than <cite doc="D.C. Code" path="19|21">this chapter</cite> to provide health care in the ordinary course of the director's business or practice of a profession, to the extent the director acts in that capacity, the director has no duty or liability under this chapter.</text>
               </para>
               <para>
                 <num>(c)</num>
@@ -642,16 +676,17 @@
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2108" num-value="19-2109"/>
               <prefix>§</prefix>
               <num>19-2109</num>
-              <text>Duty and liability of directed trustee</text>
+              <heading>Duty and liability of directed trustee</heading>
               <para>
                 <num>(a)</num>
-                <text>Subject to subsection (b) of this section, a directed trustee shall take reasonable action to comply with a trust director's exercise or nonexercise of a power of direction or further power under § 19-2106(b)(1), and the trustee is not liable for the action.</text>
+                <text>Subject to subsection (b) of this section, a directed trustee shall take reasonable action to comply with a trust director's exercise or nonexercise of a power of direction or further power under <cite doc="D.C. Code" path="§19-2106|(b)|(1)">§ 19-2106(b)(1)</cite>, and the trustee is not liable for the action.</text>
               </para>
               <para>
                 <num>(b)</num>
-                <text>A directed trustee shall not comply with a trust director's exercise or nonexercise of a power of direction or further power under § 19-2106(b)(1) to the extent that by complying the trustee would engage in willful misconduct.</text>
+                <text>A directed trustee shall not comply with a trust director's exercise or nonexercise of a power of direction or further power under <cite doc="D.C. Code" path="§19-2106|(b)|(1)">§ 19-2106(b)(1)</cite> to the extent that by complying the trustee would engage in willful misconduct.</text>
               </para>
               <para>
                 <num>(c)</num>
@@ -679,12 +714,13 @@
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2109" num-value="19-2110"/>
               <prefix>§</prefix>
               <num>19-2110</num>
               <heading proof="needed">Duty to provide information to trust director or trustee.</heading>
               <para>
                 <num>(a)</num>
-                <text>Subject to § 19-2111, a trustee shall provide information to a trust director to the extent the information is reasonably related both to:</text>
+                <text>Subject to <cite doc="D.C. Code" path="§19-2111">§ 19-2111</cite>, a trustee shall provide information to a trust director to the extent the information is reasonably related both to:</text>
                 <para>
                   <num>(1)</num>
                   <text>The powers or duties of the trustee; and</text>
@@ -696,7 +732,7 @@
               </para>
               <para>
                 <num>(b)</num>
-                <text>Subject to § 19-2111, a trust director shall provide information to a trustee or another trust director to the extent the information is reasonably related both to:</text>
+                <text>Subject to <cite doc="D.C. Code" path="§19-2111">§ 19-2111</cite>, a trust director shall provide information to a trustee or another trust director to the extent the information is reasonably related both to:</text>
                 <para>
                   <num>(1)</num>
                   <text>The powers or duties of the director; and</text>
@@ -716,6 +752,7 @@
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2110" num-value="19-2111"/>
               <prefix>§</prefix>
               <num>19-2111</num>
               <heading proof="needed">No duty to monitor, inform, or advise.</heading>
@@ -761,37 +798,41 @@
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2111" num-value="19-2112"/>
               <prefix>§</prefix>
               <num>19-2112</num>
               <heading proof="needed">Application to cotrustee.</heading>
-              <text>The terms of a trust may relieve a cotrustee from duty and liability with respect to another cotrustee's exercise or nonexercise of a power of the other cotrustee to the same extent that in a directed trust a directed trustee is relieved from duty and liability with respect to a trust director's power of direction under §§ 19-2109 through 19-2111.</text>
+              <text>The terms of a trust may relieve a cotrustee from duty and liability with respect to another cotrustee's exercise or nonexercise of a power of the other cotrustee to the same extent that in a directed trust a directed trustee is relieved from duty and liability with respect to a trust director's power of direction under §§ <cite doc="D.C. Code" path="§19-2109">19-2109</cite> through <cite doc="D.C. Code" path="§19-2111">19-2111</cite>.</text>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2112" num-value="19-2113"/>
               <prefix>§</prefix>
               <num>19-2113</num>
               <heading proof="needed">Limitation of action against trust director.</heading>
               <para>
                 <num>(a)</num>
-                <text>An action against a trust director for breach of trust must be commenced within the same limitation period as provided under § 19-1310.05 for an action for breach of trust against a trustee in a like position and under similar circumstances.</text>
+                <text>An action against a trust director for breach of trust must be commenced within the same limitation period as provided under <cite doc="D.C. Code" path="§19-1310.05">§ 19-1310.05</cite> for an action for breach of trust against a trustee in a like position and under similar circumstances.</text>
               </para>
               <para>
                 <num>(b)</num>
-                <text>A report or accounting has the same effect on the limitation period for an action against a trust director for breach of trust that the report or accounting would have under § 19-1310.05 in an action for breach of trust against a trustee in a like position and under similar circumstances.</text>
+                <text>A report or accounting has the same effect on the limitation period for an action against a trust director for breach of trust that the report or accounting would have under <cite doc="D.C. Code" path="§19-1310.05">§ 19-1310.05</cite> in an action for breach of trust against a trustee in a like position and under similar circumstances.</text>
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2113" num-value="19-2114"/>
               <prefix>§</prefix>
               <num>19-2114</num>
               <heading proof="needed">Defenses in action against trust director.</heading>
               <text>In an action against a trust director for breach of trust, the director may assert the same defenses a trustee in a like position and under similar circumstances could assert in an action for breach of trust against the trustee.</text>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2114" num-value="19-2115"/>
               <prefix>§</prefix>
               <num>19-2115</num>
               <heading proof="needed">Jurisdiction over trust director.</heading>
               <para>
                 <num>(a)</num>
-                <text>By accepting appointment as a trust director of a trust subject to this chapter, the director submits to personal jurisdiction of the courts of the District regarding any matter related to a power or duty of the director.</text>
+                <text>By accepting appointment as a trust director of a trust subject to <cite doc="D.C. Code" path="19|21">this chapter</cite>, the director submits to personal jurisdiction of the courts of the District regarding any matter related to a power or duty of the director.</text>
               </para>
               <para>
                 <num>(b)</num>
@@ -799,6 +840,7 @@
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2115" num-value="19-2116"/>
               <prefix>§</prefix>
               <num>19-2116</num>
               <heading proof="needed">Office of trust director.</heading>
@@ -807,41 +849,43 @@
                 <text>Unless the terms of a trust provide otherwise, the rules applicable to a trustee apply to a trust director regarding the following matters:</text>
                 <para>
                   <num>(1)</num>
-                  <text>Acceptance under § 19-1307.01;</text>
+                  <text>Acceptance under <cite doc="D.C. Code" path="§19-1307.01">§ 19-1307.01</cite>;</text>
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>Giving of bond to secure performance under § 19-1307.02;</text>
+                  <text>Giving of bond to secure performance under <cite doc="D.C. Code" path="§19-1307.02">§ 19-1307.02</cite>;</text>
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>Reasonable compensation under § 19-1307.08;</text>
+                  <text>Reasonable compensation under <cite doc="D.C. Code" path="§19-1307.08">§ 19-1307.08</cite>;</text>
                 </para>
                 <para>
                   <num>(4)</num>
-                  <text>Resignation under § 19-1307.05;</text>
+                  <text>Resignation under <cite doc="D.C. Code" path="§19-1307.05">§ 19-1307.05</cite>;</text>
                 </para>
                 <para>
                   <num>(5)</num>
-                  <text>Removal under § 19-1307.06; and</text>
+                  <text>Removal under <cite doc="D.C. Code" path="§19-1307.06">§ 19-1307.06</cite>; and</text>
                 </para>
                 <para>
                   <num>(6)</num>
-                  <text>Vacancy and appointment of successor under § 19-1307.04.</text>
+                  <text>Vacancy and appointment of successor under <cite doc="D.C. Code" path="§19-1307.04">§ 19-1307.04</cite>.</text>
                 </para>
               </para>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2116" num-value="19-2117"/>
               <prefix>§</prefix>
               <num>19-2117</num>
               <heading proof="needed">Uniformity of application and construction.</heading>
-              <text>In applying and construing this chapter, consideration must be given to the need to promote uniformity of the law with respect to its subject matter among states that enact it.</text>
+              <text>In applying and construing <cite doc="D.C. Code" path="19|21">this chapter</cite>, consideration must be given to the need to promote uniformity of the law with respect to its subject matter among states that enact it.</text>
             </section>
             <section>
+            <codify:insert path="21" after="§19-2117" num-value="19-2118"/>
               <prefix>§</prefix>
               <num>19-2118</num>
               <heading proof="needed">Relation to Electronic Signatures in Global and National Commerce Act.</heading>
-              <text>This chapter modifies, limits, or supersedes the Electronic Signatures in Global and National Commerce Act, approved June 30, 2000 (114 Stat. 464; 15 U.S.C. § 7001 <em>et seq.</em>), but does not modify, limit, or supersede section 101(c) of that act (15 U.S.C. § 7001(c)), or authorize electronic delivery of any of the notices described in section 103(b) of that act (15 U.S.C. § 7003(b)).</text>
+              <text><cite doc="D.C. Code" path="19|21">This chapter</cite> modifies, limits, or supersedes the Electronic Signatures in Global and National Commerce Act, approved June 30, 2000 (114 Stat. 464; 15 U.S.C. § 7001 <em>et seq.</em>), but does not modify, limit, or supersede section 101(c) of that act (15 U.S.C. § 7001(c)), or authorize electronic delivery of any of the notices described in section 103(b) of that act (15 U.S.C. § 7003(b)).</text>
             </section>
           </container>
         </container>

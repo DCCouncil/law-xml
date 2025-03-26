@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 25-689">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-297" codify:doc="D.C. Code">
+  <num type="law">25-297</num>
   <num type="act">25-689</num>
   <num type="bill">25-131</num>
   <heading type="short">Containing Litter and Ensuring Adequate Neighborhood (CLEAN) Collections Amendment Act of 2024</heading>
   <heading type="long">To amend the Sustainable Solid Waste Management Amendment Act of 2014 to specify requirements for private collection properties including that they provide at least 32 gallons of solid waste container space per residential unit and collection services twice per week at minimum and to require the Department of Public Works to install public litter containers in residential areas and to require the Department of Public Works to undertake a commercial waste zones study; and to amend section 47-872 of the District of Columbia Official Code to require the Chief Financial Officer to undertake a study of the solid waste tax credit deduction issued to owners of condominium living units or homeowners who pay for commercial solid waste collection services.</heading>
   <meta>
     <introduced>2023-02-08</introduced>
-    <effective projected="true">2025-03-29</effective>
+    <effective>2025-03-21</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/52329/Signed_Act/B25-0131-Signed_Act.pdf?Id=206555">D.C. Law 25-297</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/52329/Signed_Act/B25-0131-Signed_Act.pdf?Id=204901">D.C. Act 25-689</citation>
       <citation type="register">72 DCR 720</citation>
     </citations>
@@ -24,25 +26,31 @@
   <section>
     <num>2</num>
     <text>Title I of the Sustainable Solid Waste Management Amendment Act of 2014, effective February 26, 2015 (D.C. Law 20-154; D.C. Official Code § 8-1031.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§8-1031.04|(a)">
       <num>(a)</num>
       <text>Section 104(a) (D.C. Official Code § 8-1031.04(a)) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended as follows:</text>
-        <para>
+        <para codify:path="(A)">
           <num>(A)</num>
           <text>Subparagraph (A) is amended by striking the phrase "; and" and inserting the phrase, ", such that, taking into account frequency of service, the property owner is providing, at a minimum, capacity equivalent to 32 gallons of solid waste storage space per occupied residential unit on the property per week;" in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>, such that, taking into account frequency of service, the property owner is providing, at a minimum, capacity equivalent to 32 gallons of solid waste storage space per occupied residential unit on the property per week;</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>New subparagraphs (C) and (D) are added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert after="(B)" num-value="(C)"/>
               <num>(C)</num>
               <text>Be of equal volume for source-separated trash and recyclable materials, such that residents are able to dispose of as much recyclable material as they are trash; and</text>
             </para>
             <para>
+              <codify:insert after="(C)" num-value="(D)"/>
               <num>(D)</num>
               <text>Be dumpsters, rather than 32-gallon or 64-gallon waste containers, where feasible, and where dumpsters are infeasible, waste containers shall be secured in such a manner so as to protect against theft of the container when not set out for collection.</text>
             </para>
@@ -50,24 +58,29 @@
           <aftertext>.</aftertext>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-297" path="§2|(a)" applicability-path="§4" action="amendment to" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
       <text>A new section 104b is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="8|10A" after="§8-1031.04a" num-value="8-1031.04b" history-prefix="as added"/>
           <num>104b</num>
           <heading proof="needed">Collection services at private collection properties.</heading>
           <text>Private collection properties shall enter into contracts with collectors of solid waste to receive services not less than twice per week at each property; provided that contracts may authorize less frequent collection during weeks where a District holiday or hazardous weather conditions prevent multiple collections.</text>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 20-154" type="History" path="§104b">Feb. 26, 2015, D.C. Law 20-154, § 104b</annotation>
+      <codify:not-funded-anno doc="D.C. Law 25-297" path="§2|(b)" applicability-path="§4" action="creation of" display-template=""/>
     </para>
     <para>
       <num>(c)</num>
       <text>A new section 106a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="8|10A" after="§8-1031.06" num-value="8-1031.06a" history-prefix="as added"/>
           <num>106a</num>
           <heading proof="needed">Installation of public litter containers in residential areas.</heading>
           <para>
@@ -91,18 +104,21 @@
             </para>
             <para>
               <num>(4)</num>
-              <text>Give great weight to any comment from an affected ANC, pursuant to section 13(3)(A) of the Advisory Neighborhood Commissions Act of 1975 (D.C. Law 1-21; D.C. Official Code § 1-309.10(3)(A) ).</text>
+              <text>Give great weight to any comment from an affected ANC, pursuant to <code-cite doc="D.C. Code" path="§1-309.10|(d)|(3)|(A)">section 13(3)(A) of the Advisory Neighborhood Commissions Act of 1975 (D.C. Law 1-21; D.C. Official Code § 1-309.10(3)(A))</code-cite>.</text>
             </para>
           </para>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 20-154" type="History" path="§106a">Feb. 26, 2015, D.C. Law 20-154, § 106a</annotation>
+      <codify:not-funded-anno doc="D.C. Law 25-297" path="§2|(c)" applicability-path="§4" action="creation of" display-template=""/>
     </para>
     <para>
       <num>(d)</num>
       <text>A new section 106b is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="8|10A" after="§8-1031.06a" num-value="8-1031.06b" history-prefix="as added"/>
           <num>106b</num>
           <heading proof="needed">Commercial waste zones study.</heading>
           <para>
@@ -135,7 +151,7 @@
           </para>
           <para>
             <num>(c)</num>
-            <text>The Director may exercise the authority granted to the Director pursuant to section 105 to obtain information related to the study from a collector.</text>
+            <text>The Director may exercise the authority granted to the Director pursuant to <code-cite doc="D.C. Code" path="§8-1031.05">section 105</code-cite> to obtain information related to the study from a collector.</text>
           </para>
           <para>
             <num>(d)</num>
@@ -144,13 +160,16 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 20-154" type="History" path="§106b">Feb. 26, 2015, D.C. Law 20-154, § 106b</annotation>
+      <codify:not-funded-anno doc="D.C. Law 25-297" path="§2|(d)" applicability-path="§4" action="creation of" display-template=""/>
     </para>
   </section>
-  <section>
+  <section codify:path="§47-872">
     <num>3</num>
     <text>Section 47-872 of the District of Columbia Official Code is amended by adding a new subsection (f) to read as follows:</text>
     <include>
       <para>
+        <codify:insert after="(e)" num-value="(f)"/>
         <num>(f)</num>
         <text>The Chief Financial Officer shall include in its periodic Tax Expenditure Review covering public works tax credits:</text>
         <para>
@@ -164,6 +183,7 @@
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Law 25-297" path="§3" applicability-path="§4" action="amendment to" display-template=""/>
   </section>
   <section>
     <num>4</num>
@@ -171,6 +191,11 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 25-297" path="§2|(a)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-297" path="§2|(b)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-297" path="§2|(c)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-297" path="§2|(d)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-297" path="§3" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
