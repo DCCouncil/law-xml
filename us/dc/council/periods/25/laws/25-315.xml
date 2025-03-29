@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-315">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-315" codify:doc="D.C. Code">
   <num type="law">25-315</num>
   <num type="act">25-708</num>
   <num type="bill">25-1052</num>
@@ -26,11 +26,12 @@
   <section>
     <num>2</num>
     <text>The Autonomous Vehicle Act of 2012, effective April 23, 2013 (D.C. Law 19-278; D.C. Official Code § 50-2351 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§50-2352.01|(d)">
       <num>(a)</num>
       <text>Section 3a(d) (D.C. Official Code § 50-2352.01(d)) is amended to read as follows:</text>
       <include>
         <para>
+          <codify:replace/>
           <num>(d)</num>
           <text>A person or entity shall not test or operate an autonomous vehicle on a District roadway without an AV testing permit, unless the Department has not yet made an AV testing permit application available and:</text>
           <para>
@@ -68,14 +69,37 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:temporary doc="D.C. Code" path="§50-2352.01"/>
+      <codify:insert doc="D.C. Code" path="§50-2352.01" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on November 1, 2025. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§50-2352.01(Perm)">Past Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§50-2352.05">
       <num>(b)</num>
       <text>Section 3e (D.C. Official Code § 50-2352.05) is repealed.</text>
+      <codify:repeal/>
+      <codify:temporary doc="D.C. Code" path="§50-2352.05"/>
+      <codify:insert doc="D.C. Code" path="§50-2352.05" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on November 1, 2025. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§50-2352.05(Perm)">Past Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§50-2352.06|(a)|(1)">
       <num>(c)</num>
       <text>Section 3f(a)(1) (D.C. Official Code § 50-2352.06(a)(1)) is amended by striking the phrase "An AV testing entity" and inserting the phrase "A person or entity" in its place.</text>
+      <codify:find-replace count="1">
+        <find>An AV testing entity</find>
+        <replace>A person or entity</replace>
+      </codify:find-replace>
+      <codify:temporary doc="D.C. Code" path="§50-2352.06"/>
+      <codify:insert doc="D.C. Code" path="§50-2352.06" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on November 1, 2025. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§50-2352.06(Perm)">Past Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
   <section>

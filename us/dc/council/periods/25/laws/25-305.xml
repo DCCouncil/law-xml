@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-305">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-305" codify:doc="D.C. Code">
   <num type="law">25-305</num>
   <num type="act">25-699</num>
   <num type="bill">25-696</num>
@@ -27,6 +27,7 @@
     <text>An Act To provide for regulation of certain insurance rates in the District of Columbia, and for other purposes, approved May 20, 1948 (62 Stat. 242; D.C. Official Code § 31-2701 <em>et seq</em>.), is amended by adding a new section 3a to read as follows:</text>
     <include lvl="1">
       <section>
+        <codify:insert path="31|27" after="§31-2703" num-value="31-2703.01" history-prefix="as added"/>
         <num>3a</num>
         <heading proof="needed">Additional requirements for insurers.</heading>
         <para>
@@ -54,7 +55,7 @@
           <text>For the purposes of this section, the term:</text>
           <para>
             <num>(1)</num>
-            <text>"Gender-affirming care" shall have the same meaning as provided in section 102(12A) of the Human Rights Act of 1977, effective December 13, 1977 (D.C. Law 2-38; D.C. Official Code § 2-1401.02(12A)).</text>
+            <text>"Gender-affirming care" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§2-1401.02|(12A)">section 102(12A) of the Human Rights Act of 1977, effective December 13, 1977 (D.C. Law 2-38; D.C. Official Code § 2-1401.02(12A))</code-cite>.</text>
           </para>
           <para>
             <num>(2)</num>
@@ -71,8 +72,9 @@
         </para>
         <para>
           <num>(e)</num>
-          <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue rules to implement the provisions of this section.</text>
+          <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue rules to implement the provisions of this section.</text>
         </para>
+        <annotation type="History" doc="Stat. 80-2-ch324" path="§3a">May 20, 1948, 62 Stat. 242, ch. 324, § 3a</annotation>
       </section>
     </include>
     <aftertext>.</aftertext>
@@ -80,30 +82,34 @@
   <section>
     <num>3</num>
     <text>The Women's Health and Cancer Rights Federal Law Conformity Act of 2000, effective April 3, 2001 (D.C. Law 13-254; D.C. Official Code § 31-3831 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§31-3831">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 31-3831) is amended by adding new paragraphs (9), (10), and (11) to read as follows:</text>
       <include lvl="2">
         <para>
+          <codify:insert after="(8)" num-value="(9)"/>
           <num>(9)</num>
           <text>"Vasectomy" means a medical procedure to cut or seal the vas deferens tubes that carry a person's sperm to permanently prevent pregnancy.</text>
         </para>
         <para>
+          <codify:insert after="(9)" num-value="(10)"/>
           <num>(10)</num>
           <text>"Voluntary sterilization" means a vasectomy, tubal ligation, or any medical procedure to permanently prevent pregnancy.</text>
         </para>
         <para>
+          <codify:insert after="(10)" num-value="(11)"/>
           <num>(11)</num>
           <text>"Voluntary sterilization procedures and services" means consultations, procedures, or follow-up appointments related to a voluntary sterilization, including up to 2 voluntary sterilization reversals.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§31-3834.03|(a)|(1)">
       <num>(b)</num>
       <text>Section 5c(a)(1) (D.C. Official Code § 31-3834.03(a)(1)) is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace/>
           <num>(1)</num>
           <text>Voluntary sterilization procedures and services;</text>
         </para>
@@ -114,34 +120,40 @@
       <num>(c)</num>
       <text>A new section 5c-1 is added to read as follows:</text>
       <include>
-        <text><span codify:value="[Sec.]">Sec,</span> 5c-1. Coverage of additional reproductive services.</text>
-        <para>
-          <num>(a)</num>
+        <section>
+          <codify:insert path="31|38B" after="§31-3834.03" num-value="31-3834.03a" history-prefix="as added"/>
+          <num>(5c-1)</num>
+          <heading>Coverage of additional reproductive services. </heading>
+          <!-- <text><span codify:value="[Sec.]">Sec,</span> 5c-1. </text> -->
           <para>
-            <num>(1)</num>
-            <text>An individual health plan or group health plan shall provide coverage for abortion and abortion-care services, including follow-up services, to an enrollee.</text>
+            <num>(a)</num>
+            <para>
+              <num>(1)</num>
+              <text>An individual health plan or group health plan shall provide coverage for abortion and abortion-care services, including follow-up services, to an enrollee.</text>
+            </para>
+            <para>
+              <num>(2)</num>
+              <text>No individual health plan or group health plan shall impose any deductible, coinsurance, copayment, or other cost-sharing requirement, on an enrollee for the coverage required by this section; except, that an individual health plan or group health plan may require a deductible, co-payment, or cost sharing for an enrollee covered by a high deductible health plan, as defined in 26 U.S.C. § 223(c)(2), if required by federal law.</text>
+            </para>
           </para>
           <para>
-            <num>(2)</num>
-            <text>No individual health plan or group health plan shall impose any deductible, coinsurance, copayment, or other cost-sharing requirement, on an enrollee for the coverage required by this section; except, that an individual health plan or group health plan may require a deductible, co-payment, or cost sharing for an enrollee covered by a high deductible health plan, as defined in 26 U.S.C. § 223(c)(2), if required by federal law.</text>
+            <num>(b)</num>
+            <text>No individual health plan or group health plan covered under subsection (a) of this section shall impose any medically unnecessary restrictions or delays on the coverage required by this section.</text>
           </para>
-        </para>
-        <para>
-          <num>(b)</num>
-          <text>No individual health plan or group health plan covered under subsection (a) of this section shall impose any medically unnecessary restrictions or delays on the coverage required by this section.</text>
-        </para>
-        <para>
-          <num>(c)</num>
-          <text>Coverage for services under this section shall be provided without discrimination on the basis of age, ancestry, disability, domestic partner status, gender, gender expression, gender identity, genetic information, marital status, national origin, race, religion, sex, or sexual orientation.</text>
-        </para>
-        <para>
-          <num>(d)</num>
-          <text>This section shall not apply to health insurance coverage through Medicaid, the DC Healthcare Alliance program, or the Immigrant Children's program.</text>
-        </para>
-        <para>
-          <num>(e)</num>
-          <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue rules to implement the provisions of this section.</text>
-        </para>
+          <para>
+            <num>(c)</num>
+            <text>Coverage for services under this section shall be provided without discrimination on the basis of age, ancestry, disability, domestic partner status, gender, gender expression, gender identity, genetic information, marital status, national origin, race, religion, sex, or sexual orientation.</text>
+          </para>
+          <para>
+            <num>(d)</num>
+            <text>This section shall not apply to health insurance coverage through Medicaid, the DC Healthcare Alliance program, or the Immigrant Children's program.</text>
+          </para>
+          <para>
+            <num>(e)</num>
+            <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue rules to implement the provisions of this section.</text>
+          </para>
+          <annotation doc="D.C. Law 13-254" type="History" path="§5c-1">Apr. 3, 2001, D.C. Law 13-254, § 5c-1</annotation>
+        </section>
       </include>
       <aftertext>.</aftertext>
     </para>
@@ -149,73 +161,121 @@
       <num>(d)</num>
       <text>Section 5d (D.C. Official Code § 31-2834.04) is amended as follows:</text>
       <!-- drafting error, should be § 31-3834.04 -->
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "and services under sections 5a, 5b, 5c, and 5f." and inserting the phrase "and services, abortion and abortion-care services, or voluntary sterilization procedures and services under sections 5a, 5b, 5c, 5c-1, 5f, and 5g." in its place.</text>
+          <codify:find-replace count="1">
+            <find>and services under §§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite>, and <code-cite doc="D.C. Code" path="§31-3834.06" codify:value="31-3834.06">5f</code-cite>.</find>
+            <replace>and services, abortion and abortion-care services, or voluntary sterilization procedures and services under §§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03a" codify:value="31-3834.03a">5c-1</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.06" codify:value="31-3834.06">5f</code-cite>, and <code-cite doc="D.C. Code" path="§31-3834.07" codify:value="31-3834.07">5g</code-cite>.</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "and services" and inserting the phrase "and services, abortion and abortion-care services, or voluntary sterilization procedures and services" in its place.</text>
+          <codify:find-replace count="1">
+            <find>and services</find>
+            <replace>and services, abortion and abortion-care services, or voluntary sterilization procedures and services</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(b)|(1)">
         <num>(2)</num>
         <text>Subsection (b)(1) is amended by striking the phrase "and services" and inserting the phrase "and services, abortion and abortion-care services, or voluntary sterilization procedures and services" in its place.</text>
+        <codify:find-replace count="1">
+          <find>and services</find>
+          <replace>and services, abortion and abortion-care services, or voluntary sterilization procedures and services</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "sections 5a, 5b, 5c, or 5f" and inserting the phrase "sections 5a, 5b, 5c, 5c-1, 5f, or 5g" in its place.</text>
+          <codify:find-replace count="1">
+            <find><code-cite doc="D.C. Code" path="§31-3834.01">section 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02">section 5b</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03">5c</code-cite>, or <code-cite doc="D.C. Code" path="§31-3834.06">5f</code-cite></find>
+            <replace>§§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03a" codify:value="31-3834.03a">5c-1</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.06" codify:value="31-3834.06">5f</code-cite>, or <code-cite doc="D.C. Code" path="§31-3834.07" codify:value="31-3834.07">5g</code-cite></replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the phrase "or services" and inserting the phrase "or services, abortion and abortion-care services, or voluntary sterilization procedures and services" in its place.</text>
+          <codify:find-replace count="1">
+            <find>or services</find>
+            <replace>or services, abortion and abortion-care services, or voluntary sterilization procedures and services</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(C)</num>
           <text>Paragraph (2) is amended by striking the phrase "or services" and inserting the phrase "or services, abortion and abortion-care services, or voluntary sterilization procedures and services" in its place.</text>
+          <codify:find-replace count="1">
+            <find>or services</find>
+            <replace>or services, abortion and abortion-care services, or voluntary sterilization procedures and services</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(4)</num>
         <text>Subsection (d) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "or services" and inserting the phrase "or services, abortion and abortion-care services, or voluntary sterilization procedures and services" in its place.</text>
+          <codify:find-replace count="1">
+            <find>or services</find>
+            <replace>or services, abortion and abortion-care services, or voluntary sterilization procedures and services</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "5a, 5b, 5c, or 5f" and inserting the phrase "5a, 5b, 5c, 5c-1, 5f, or 5g" in its place.</text>
+          <codify:find-replace count="1">
+            <find><code-cite doc="D.C. Code" path="§31-3834.01">section 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02">section 5b</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03">section 5c</code-cite>, or <code-cite doc="D.C. Code" path="§31-3834.06">5f</code-cite></find>
+            <replace>§§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03a" codify:value="31-3834.03a">5c-1</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.06" codify:value="31-3834.06">5f</code-cite>, or <code-cite doc="D.C. Code" path="§31-3834.07" codify:value="31-3834.07">5g</code-cite></replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
-    <para>
+    <para codify:path="§31-3834.05">
       <num>(e)</num>
       <text>Section 5e (D.C. Official Code § 31-3834.05) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "sections 5a, 5b, or 5c" and inserting the phrase "sections 5a, 5b, 5c, 5c-1, 5f, or 5g" in its place.</text>
+          <codify:find-replace count="1">
+            <find><code-cite doc="D.C. Code" path="§31-3834.01">section 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02">section 5b</code-cite>, or <code-cite doc="D.C. Code" path="§31-3834.03">section 5c</code-cite></find>
+            <replace>§§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03a" codify:value="31-3834.03a">5c-1</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.06" codify:value="31-3834.06">5f</code-cite>, or <code-cite doc="D.C. Code" path="§31-3834.07" codify:value="31-3834.07">5g</code-cite></replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the phrase "contraceptive drugs, devices, products, and services" and inserting the phrase "contraceptive and fertility enhancing drugs, devices, products, and services, abortion and abortion-care services, and voluntary sterilization procedures and services" in its place.</text>
+          <codify:find-replace count="1">
+            <find>contraceptive drugs, devices, products, and services</find>
+            <replace>contraceptive and fertility enhancing drugs, devices, products, and services, abortion and abortion-care services, and voluntary sterilization procedures and services</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(C)</num>
           <text>Paragraph (2) is amended by striking the phrase "sections 5a, 5b, or 5c" and inserting the phrase "sections 5a, 5b, 5c, 5c-1, 5f, and 5g" in its place.</text>
+          <codify:find-replace count="1">
+            <find><code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, and <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite></find>
+            <replace><code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03a" codify:value="31-3834.03a">5c-1</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.06" codify:value="31-3834.06">5f</code-cite>, and <code-cite doc="D.C. Code" path="§31-3834.07" codify:value="31-3834.07">5g</code-cite></replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is amended by striking the phrase "and services described in sections 5a, 5b, or 5c" and inserting the phrase "and services, abortion and abortion-care services, and voluntary sterilization procedures and services described in sections 5a, 5b, 5c, 5c-1, 5f, and 5g" in its place.</text>
+        <codify:find-replace count="1">
+          <find>and services described in §§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, and <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite></find>
+          <replace>and services, abortion and abortion-care services, and voluntary sterilization procedures and services described in §§ <code-cite doc="D.C. Code" path="§31-3834.01" codify:value="31-3834.01">sections 5a</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.02" codify:value="31-3834.02">5b</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03" codify:value="31-3834.03">5c</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.03a" codify:value="31-3834.03a">5c-1</code-cite>, <code-cite doc="D.C. Code" path="§31-3834.06" codify:value="31-3834.06">5f</code-cite>, and <code-cite doc="D.C. Code" path="§31-3834.07" codify:value="31-3834.07">5g</code-cite></replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -223,6 +283,7 @@
       <text>A new section 5g is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="31|38B" after="§31-3834.06" num-value="31-3834.07" history-prefix="as added"/>
           <num>5g</num>
           <heading proof="needed">Coverage of voluntary sterilization procedures and services.</heading>
           <para>
@@ -235,11 +296,12 @@
           </para>
           <para>
             <num>(c)</num>
-            <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue rules to implement the provisions of this section.</text>
+            <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue rules to implement the provisions of this section.</text>
           </para>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 13-254" type="History" path="§5g">Apr. 3, 2001, D.C. Law 13-254, § 5g</annotation>
     </para>
   </section>
   <section>

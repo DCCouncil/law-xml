@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-316">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-316" codify:doc="D.C. Code">
   <num type="law">25-316</num>
   <num type="act">25-709</num>
   <num type="bill">25-1057</num>
@@ -25,6 +25,7 @@
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Driver License and Identification Card Renewal Temporary Amendment Act of 2024".</text>
   <section>
+    <codify:marginalia display="DCMR"/>
     <num>2</num>
     <text>Section 110 of Chapter 1 of Title 18 of the District of Columbia Municipal Regulations (18 DCMR § 110), is amended as follows:</text>
     <para>
@@ -43,9 +44,19 @@
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:path="§50-1401.01|(a)|(1)">
     <num>3</num>
     <text>Section 7(a)(1) of the District of Columbia Traffic Act, 1925, approved March 3, 1925 (43 Stat. 1121; D.C. Official Code § 50-1401.01(a)(1)) is amended by striking the phrase "8 years plus any time period prior to the expiration date of a previous license not to exceed 2 months, to" and inserting the phrase "8 years, or another time period established by the Mayor through rulemaking, to" in its place.</text>
+    <codify:find-replace count="1">
+      <find>8 years plus any time period prior to the expiration date of a previous license not to exceed 2 months, to</find>
+      <replace>8 years, or another time period established by the Mayor through rulemaking, to</replace>
+    </codify:find-replace>
+    <codify:temporary doc="D.C. Code" path="§50-1401.01"/>
+    <codify:insert doc="D.C. Code" path="§50-1401.01" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on November 1, 2025. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§50-1401.01(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>4</num>

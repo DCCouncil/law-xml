@@ -905,6 +905,7 @@
           <text>A new paragraph (8A-i) is added to read as follows:</text>
           <include>
             <para>
+              <!-- need to comment out this instruction to avoid error with Law 25-301; AMB 3/28/25 -->
               <codify:insert after="(8A)"/>
               <num>(8A-i)</num>
               <text>"Director" means the Director of the Department of For-Hire-Vehicles.</text>
@@ -917,11 +918,13 @@
           <text>New paragraphs (9A) and (9B) are added to read as follows:</text>
           <include>
             <para>
+              <!-- need to remove this instruction to avoid error and misnumbering from creation of new paragraphs and redesignation of this paragraph in D.C. Law 25-301; AMB 3/27/25 -->
               <codify:insert after="(9)"/>
               <num>(9A)</num>
               <text>"DFHV" means the Department of For-Hire Vehicles established by <code-cite path="§5">section 5</code-cite>.</text>
             </para>
             <para>
+            <!-- once Law 25-301 is funded, change this instruction to "num="(9B)"" to avoid misnumbering errors -->
               <codify:insert after="(9A)"/>
               <num>(9B)</num>
               <text>"FHVAC" means the For-Hire Vehicle Advisory Council established by <code-cite path="§11a">section 11a</code-cite>.</text>

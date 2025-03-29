@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-302">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-302" codify:doc="D.C. Code">
   <num type="law">25-302</num>
   <num type="act">25-696</num>
   <num type="bill">25-538</num>
@@ -22,11 +22,12 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Strengthening Probate Administration Amendment Act of 2024".</text>
-  <section>
+  <section codify:path="§15-712">
     <num>2</num>
     <text>Section 15-712 of the District of Columbia Official Code is amended by adding a new subsection (i) to read as follows:</text>
     <include>
       <para>
+        <codify:insert after="(h)" num-value="(i)"/>
         <num>(i)</num>
         <text>The Probate Division of the Superior Court of the District of Columbia shall not require the payment of court costs on behalf of a decedent's estate:</text>
         <para>
@@ -44,15 +45,20 @@
   <section>
     <num>3</num>
     <text>Title 19 of the District of Columbia Code is amended as follows:</text>
-    <para>
+    <para codify:path="§19-101.02">
       <num>(a)</num>
       <text>Section 19-101.02 is amended by striking the phrase "$15,000" both times it appears and inserting the phrase "$30,000" in its place.</text>
+      <codify:find-replace count="2">
+        <find>$15,000</find>
+        <replace>$30,000</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§19-101.03">
       <num>(b)</num>
       <text>Section 19-101.03 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>19-101.03</num>
           <heading proof="needed">Exempt property.</heading>
@@ -77,7 +83,7 @@
           </para>
           <para>
             <num>(d)</num>
-            <text>Rights to exempt property have priority over all claims against the estate, except the homestead allowance, the family allowance, and as provided in § 20-906.</text>
+            <text>Rights to exempt property have priority over all claims against the estate, except the homestead allowance, the family allowance, and as provided in <cite doc="D.C. Code" path="§20-906">§ 20-906</cite>.</text>
           </para>
           <para>
             <num>(e)</num>
@@ -87,53 +93,72 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§19-101.05|(a)">
       <num>(c)</num>
       <text>Section 19-101.05(a) is amended by striking the phrase "$15,000" and inserting the phrase "$30,000" in its place.</text>
+      <codify:find-replace count="1">
+        <find>$15,000</find>
+        <replace>$30,000</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
     <num>4</num>
     <heading proof="needed">Title 20 of the District of Columbia Code is amended as follows.</heading>
-    <para>
+    <para codify:path="§20-101|(r)">
       <num>(a)</num>
       <text>Section 20-101(r) is amended by striking the phrase "Standard probate" and inserting the phrase "Formal probate" in its place.</text>
+      <codify:find-replace count="1">
+        <find>Standard probate</find>
+        <replace>Formal probate</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-103">
       <num>(b)</num>
       <text>Section 20-103 is amended by adding a new subsection (f) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(e)" num-value="(f)"/>
           <num>(f)</num>
           <text><strong>Waiver of notice. —</strong> A person may waive the right to any notice or may consent to any matter. The waiver or consent shall set forth the specific matter that is the subject of the waiver or consent, be signed, and be filed with the Court and served on the personal representative. A person may revoke a waiver or consent at any time by filing a revocation with the Court and serving it on the personal representative. The revocation shall have prospective effect only.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§20-301">
       <num>(c)</num>
       <text>Section 20-301 is amended by striking the phrase "standard probate proceeding" and inserting the phrase "formal probate proceeding" in its place.</text>
+      <codify:find-replace path="(b)" count="1">
+        <find>standard probate proceeding</find>
+        <replace>formal probate proceeding</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-303">
       <num>(d)</num>
       <text>Section 20-303 is amended by a new subsection (c-1) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(c)" num-value="(c-1)"/>
           <num>(c-1)</num>
           <text><strong>Appointment by Nomination. —</strong>  Subject to subsections (a) and (b) of this section, the heirs of an intestate decedent or the legatees of a testate decedent may nominate by writing a person to act as personal representative. A person may renounce his or her right to nominate, to be nominated, or to be appointed by filing an appropriate writing with the Court. The Register of Wills may prescribe the form by which such nomination shall occur.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§20-304|(e)">
       <num>(e)</num>
       <text>Section 20-304(e) is amended by striking the phrase "standard probate" both times it appears and inserting the phrase "formal probate" in its place.</text>
+      <codify:find-replace count="2">
+        <find>standard probate</find>
+        <replace>formal probate</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-311">
       <num>(f)</num>
       <text>Section 20-311 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>20-311</num>
           <heading proof="needed">Nature of proceeding.</heading>
@@ -155,36 +180,53 @@
           </para>
           <para>
             <num>(c)</num>
-            <text>The finality of abbreviated probate shall be governed by § 20-331.</text>
+            <text>The finality of abbreviated probate shall be governed by <cite doc="D.C. Code" path="§20-331">§ 20-331</cite>.</text>
           </para>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="20|3|III">
       <num>(g)</num>
       <text>The subchapter heading for Subchapter III of Chapter 3 is amended by striking the phrase "Standard Probate" and inserting the phrase "Formal Probate" in its place.</text>
+      <codify:find-replace path="heading" count="1">
+        <find>Standard Probate</find>
+        <replace>Formal Probate</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-321">
       <num>(h)</num>
       <text>Section 20-321 is amended by striking the phrase "standard probate" wherever it appears and inserting the phrase "formal probate" in its place.</text>
+      <codify:find-replace count="4">
+        <find>standard probate</find>
+        <replace>formal probate</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-322">
       <num>(i)</num>
       <text>The lead-in language of section 20-322 is amended by striking the phrase "standard probate" and inserting the phrase "formal probate" in its place.</text>
+      <codify:find-replace count="1">
+        <find>standard probate</find>
+        <replace>formal probate</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-323">
       <num>(j)</num>
       <text>Section 20-323 is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "standard probate" and inserting the phrase "formal probate" in its place.</text>
+        <codify:find-replace count="1">
+          <find>standard probate</find>
+          <replace>formal probate</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
             <text><strong>When given. –</strong> A person filing a petition for formal probate shall promptly give notice to all known interested persons. In addition, the petitioner shall publish a notice once a week for 2 successive weeks in a legal periodical of general circulation in the District or in any other publication the Court may provide by Rule.</text>
           </para>
@@ -192,41 +234,66 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§20-324">
       <num>(k)</num>
       <text>Section 20-324 is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The lead-in language is amended by striking the phrase "standard probate" and inserting the phrase "formal probate" in its place.</text>
+        <codify:find-replace count="2">
+          <find>standard probate</find>
+          <replace>formal probate</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Paragraph (2) is amended by striking the phrase "standard probate" and inserting the phrase "formal probate" in its place.</text>
+        <!-- done above -->
       </para>
     </para>
-    <para>
+    <para codify:path="§20-331">
       <num>(l)</num>
       <text>Section 20-331 is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended by striking the phrase "standard probate" and inserting the phrase "formal probate" in its place.</text>
+        <codify:find-replace count="1">
+          <find>standard probate</find>
+          <replace>formal probate</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is amended by striking the phrase "standard probate" and inserting the phrase "formal probate" in its place.</text>
+        <codify:find-replace count="1">
+          <find>standard probate</find>
+          <replace>formal probate</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(3)</num>
         <text>Subsection (b) is amended by striking the phrase "standard probate" and inserting the phrase "formal probate" in its place.</text>
+        <codify:find-replace count="1">
+          <find>standard probate</find>
+          <replace>formal probate</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§20-343|(a)">
       <num>(m)</num>
       <text>Section 20-343(a) is amended by striking the phrase "3 successive weeks a notice in a newspaper of general circulation in the District of Columbia and" and inserting the phrase "2 successive weeks a notice in a legal periodical of general circulation in the District or" in its place.</text>
+      <codify:find-replace count="1">
+        <find>3 successive weeks a notice in a newspaper of general circulation in the District of Columbia and</find>
+        <replace>2 successive weeks a notice in a legal periodical of general circulation in the District or</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-351">
       <num>(n)</num>
       <text>Section 20-351 is amended by striking the phrase "$40,000" and inserting the phrase "$80,000" in its place.</text>
+      <codify:find-replace count="1">
+        <find>$40,000</find>
+        <replace>$80,000</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(o)</num>
@@ -236,13 +303,21 @@
           <prefix>Subchapter</prefix>
           <num>VII</num>
           <heading>Transfers by affidavit.</heading>
+          <codify:insert path="20|3" after="VI" history="false">
+            <container>
+              <prefix>Subchapter</prefix>
+              <num>VII</num>
+              <heading>Transfers by Affidavit.</heading>
+            </container>
+          </codify:insert>
           <section>
+            <codify:insert path="20|3|VII"/>
             <prefix>§</prefix>
             <num>20-360</num>
             <heading proof="needed">Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For the purposes of this subchapter, the term:</text>
+              <text>For the purposes of <cite doc="D.C. Code" path="20|3|VII">this subchapter</cite>, the term:</text>
               <para>
                 <num>(1)</num>
                 <text>"Designated successor" means one who shall have a fiduciary duty to safeguard and promptly pay or deliver the small asset as required by District law.</text>
@@ -262,6 +337,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="20|3|VII" after="§20-360"/>
             <prefix>§</prefix>
             <num>20-361</num>
             <heading proof="needed">Payment or delivery of small asset by affidavit.</heading>
@@ -298,7 +374,7 @@
               </para>
               <para>
                 <num>(8)</num>
-                <text>The person named as successor to the small asset under the affidavit swears or affirms that all statements in the affidavit are true and material, under penalty of perjury pursuant to § 22-2402.</text>
+                <text>The person named as successor to the small asset under the affidavit swears or affirms that all statements in the affidavit are true and material, under penalty of perjury pursuant to <cite doc="D.C. Code" path="§22-2402">§ 22-2402</cite>.</text>
               </para>
             </para>
             <para>
@@ -310,7 +386,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Paying it to such successor's custodian under Chapter 3 of Title 21 or custodial trustee under Chapter 11 of Title 19, and, for that purpose, creating a custodianship or custodial trust;</text>
+                <text>Paying it to such successor's custodian under <cite doc="D.C. Code" path="21|3">Chapter 3 of Title 21</cite> or custodial trustee under <cite doc="D.C. Code" path="19|11">Chapter 11 of Title 19</cite>, and, for that purpose, creating a custodianship or custodial trust;</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -337,7 +413,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Notwithstanding the provisions of §§ 28:3-403, 28:3-417, and 28:3-420, a financial institution accepting such check, draft, or other negotiable instrument presented for deposit in such manner is discharged from all claims for the amount accepted.</text>
+                <text>Notwithstanding the provisions of §§ <cite doc="D.C. Code" path="§28:3-403">28:3-403</cite>, <cite doc="D.C. Code" path="§28:3-417">28:3-417</cite>, and <cite doc="D.C. Code" path="§28:3-420">28:3-420</cite>, a financial institution accepting such check, draft, or other negotiable instrument presented for deposit in such manner is discharged from all claims for the amount accepted.</text>
               </para>
             </para>
             <para>
@@ -346,6 +422,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="20|3|VII" after="§20-361"/>
             <prefix>§</prefix>
             <num>20-362</num>
             <heading proof="needed">Effect of affidavit.</heading>
@@ -353,7 +430,7 @@
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>Any person paying or delivering a small asset pursuant to § 20-361 shall be discharged and released to the same extent as if that person dealt with the personal representative of the decedent.</text>
+                <text>Any person paying or delivering a small asset pursuant to <cite doc="D.C. Code" path="§20-361">§ 20-361</cite> shall be discharged and released to the same extent as if that person dealt with the personal representative of the decedent.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -384,46 +461,75 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§20-527">
       <num>(p)</num>
       <text>Section 20-527 is amended by striking the phrase "standard probate" wherever it appears and inserting the phrase "formal probate" in its place.</text>
+      <codify:find-replace count="3">
+        <find>standard probate</find>
+        <replace>formal probate</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-701|(b)">
       <num>(q)</num>
       <text>Section 20-701(b) is amended by striking the phrase "standard probate" both times it appears and inserting the phrase "formal probate" in its place.</text>
+      <codify:find-replace count="2">
+        <find>standard probate</find>
+        <replace>formal probate</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-704">
       <num>(r)</num>
       <text>Section 20-704 is amended by striking the phrase "publish a notice of the appointment in a newspaper of general circulation in the District of Columbia and any other publication the Court may order or provide by Rule once a week for 3 successive weeks" and inserting the phrase "publish a notice of the appointment in a legal periodical of general circulation in the District or any other publication as the Court may provide by Rule once a week for 2 successive weeks" in its place.</text>
+      <codify:find-replace count="1">
+        <find>publish a notice of the appointment in a newspaper of general circulation of the District of Columbia and any other publication the Court may order or provide by Rule once a week for 3 successive weeks</find>
+        <replace>publish a notice of the appointment in a legal periodical of general circulation in the District or any other publication as the Court may provide by Rule once a week for 2 successive weeks</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-741|(16)">
       <num>(s)</num>
       <text>Section 20-741(16) is amended by striking the phrase "$5,000" and inserting the phrase "$15,000" in its place.</text>
+      <codify:find-replace count="1">
+        <find>$5,000</find>
+        <replace>$15,000</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-906|(a)|(2)">
       <num>(t)</num>
       <text>Section 20-906(a)(2) is amended by striking the phrase "$1,500" and inserting the phrase "$5,000" in its place.</text>
+      <codify:find-replace count="1">
+        <find>$1,500</find>
+        <replace>$5,000</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-907">
       <num>(u)</num>
       <text>Section 20-907 is amended by striking the phrase "$1,500 according to the condition and circumstances of the decedent, but in no event shall such allowance exceed $5,000" and inserting the phrase "$5,000 according to the condition and circumstances of the decedent, but in no event shall such allowance exceed $15,000" in its place.</text>
+      <codify:find-replace count="1">
+        <find>$1,500 according to the condition and circumstances of the decedent, but in no event shall such allowance exceed $5,000</find>
+        <replace>$5,000 according to the condition and circumstances of the decedent, but in no event shall such allowance exceed $15,000</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
     <num>5</num>
     <text>Title 47 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="§47-850.02|(b)">
       <num>(a)</num>
       <text>Section 47-850.02(b) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended by striking the phrase "30 days" and inserting the phrase "12 months" in its place.</text>
+        <codify:find-replace count="1">
+          <find>30 days</find>
+          <replace>12 months</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (7) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(6)" num-value="(7)"/>
             <num>(7)</num>
             <text>Notwithstanding paragraphs (1)-(3) of this subsection, if a real property no longer qualifies as a homestead as a result of the death of the owner, the following provisions shall apply:</text>
             <para>
@@ -446,12 +552,14 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-302" path="§5|(a)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§47-863|(f)">
       <num>(b)</num>
       <text>Section 47-863(f) is amended by adding a new paragraph (7) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(6)" num-value="(7)"/>
           <num>(7)</num>
           <text>Notwithstanding paragraphs (1)-(3) of this subsection, if a real property no longer qualifies as a homestead as a result of the death of the owner, the following provisions shall apply:</text>
           <para>
@@ -473,11 +581,13 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 25-302" path="§5|(b)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
   </section>
   <section>
     <num>6</num>
     <text>Section 45(a)(1) of the Secure DC Omnibus Amendment Act of 2024, effective June 8, 2024 (D.C. Law 25-175; 71 DCR 2732), is amended to read as follows:</text>
+    <!-- already done, per 10/17/24 letter from OCFO sent to me from Anne Phelps/Council Budget Office -->
     <include>
       <para>
         <num>(a)</num>
@@ -495,6 +605,8 @@
     <para>
       <num>(a)</num>
       <text>Section 5 shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 25-302" path="§5|(a)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-302" path="§5|(b)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
