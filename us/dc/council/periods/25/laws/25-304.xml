@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-304">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-304" codify:doc="D.C. Code">
   <num type="law">25-304</num>
   <num type="act">25-698</num>
   <num type="bill">25-692</num>
@@ -26,62 +26,122 @@
   <section>
     <num>2</num>
     <text>Chapter 5 of Title 21 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="§21-501">
       <num>(a)</num>
       <text>Section 21-501 is amended as follows:</text>
-      <para>
+      <para codify:path="(4A)">
         <num>(1)</num>
         <text>Paragraph (4A) is amended by striking the phrase "Department of Mental Health" and inserting the phrase "Department of Behavioral Health" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department of Mental Health</find>
+          <replace>Department of Behavioral Health</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(9A)">
         <num>(2)</num>
         <text>Designate the existing paragraph (9A) as paragraph (9B).</text>
+        <codify:find-replace path="num" count="1">
+          <find>(9A)</find>
+          <replace>(9B)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (9A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(9)" num-value="(9A)"/>
             <num>(9A)</num>
-            <text>"Qualified nurse practitioner" means a person who is licensed under the laws of the District of Columbia to practice as a certified nurse practitioner pursuant to § 3-1206.07a, has completed a master's or doctoral degree in psychiatric nursing, and is nationally board-certified as a psychiatric-mental health nurse practitioner.</text>
+            <text>"Qualified nurse practitioner" means a person who is licensed under the laws of the District of Columbia to practice as a certified nurse practitioner pursuant to <cite doc="D.C. Code" path="§3-1206.07a">§ 3-1206.07a</cite>, has completed a master's or doctoral degree in psychiatric nursing, and is nationally board-certified as a psychiatric-mental health nurse practitioner.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(9B)">
         <num>(4)</num>
         <text>Paragraph (9B) is amended by striking the word "section" and inserting the symbol "§" in its place.</text>
+        <codify:find-replace count="1">
+          <find>section 21-522</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-522">§ 21-522</cite>
+          </replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(10)">
         <num>(5)</num>
         <text>Paragraph (10) is amended by striking the phase "section 501 of the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1205.01)," and inserting the phrase "§ 3-1205.01, or working as a psychologist and authorized to practice pursuant to § 3-1205.02(a)(2)," in its place.</text>
+        <codify:find-replace count="1">
+          <find>section 501 of the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (<cite doc="D.C. Law 6-99">D.C. Law 6-99</cite>; D.C. Official Code <cite path="§3-1205.01">§ 3-1205.01</cite>),</find>
+          <replace><cite doc="D.C. Code" path="§3-1205.01">§ 3-1205.01</cite>, or working as a psychologist and authorized to practice pursuant to <cite doc="D.C. Code" path="§3-1205.02|(a)|(2)">§ 3-1205.02(a)(2)</cite>,</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-501.01|(a)">
       <num>(b)</num>
       <text>Section 21-501.01(a) is amended by striking the phrase "the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01 <em>et seq.</em>)." and inserting the phrase "§ 3-1201.01 <em>et seq.</em>" in its place.</text>
+      <codify:find-replace count="1">
+        <find>the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (<cite doc="D.C. Law 6-99">D.C. Law 6-99</cite>; D.C. Official Code <cite path="§3-1201.01">§ 3-1201.01</cite> et seq.)</find>
+        <replace>
+          <cite doc="D.C. Code" path="3|12">§ 3-1201.01 et seq.</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§21-511|(b)">
       <num>(c)</num>
       <text>Section 21-511(b) is amended by striking the phrase "the Mental Health Service Delivery Reform Act of 2001, effective December 18, 2001 (D.C. Law 14-56; D.C. Official Code § 7-1131.01 <em>et seq.</em>)," and inserting the phrase "§ 7-1131.01 <em>et seq</em>.," in its place.</text>
+      <codify:find-replace count="1">
+        <find>the Mental Health Service Delivery Reform Act of 2001, effective December 18, 2001 (<cite doc="D.C. Law 14-56">D.C. Law 14-56</cite>; D.C. Official  Code <cite path="§7-1131.01">§ 7-1131.01</cite> et seq.),</find>
+        <replace><cite doc="D.C. Code" path="7|11B">§ 7-1131.01 et seq.</cite>,</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§21-512">
       <num>(d)</num>
       <text>Section 21-512 is amended by striking the phrase "section 21-511" wherever it appears and inserting the phrase "§ 21-511" in its place.</text>
+      <codify:find-replace position="1">
+        <find>section 21-511</find>
+        <replace>
+          <cite doc="D.C. Code" path="§21-511">§ 21-511</cite>
+        </replace>
+      </codify:find-replace>
+      <codify:find-replace position="2">
+        <find>section 21-511</find>
+        <replace>
+          <cite doc="D.C. Code" path="§21-511">§ 21-511</cite>
+        </replace>
+      </codify:find-replace>
+      <codify:find-replace position="3">
+        <find>section 21-511</find>
+        <replace>
+          <cite doc="D.C. Code" path="§21-511">§ 21-511</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§21-513">
       <num>(e)</num>
       <text>Section 21-513 is amended by striking the phrase "section 21-514" and inserting the phrase "§ 21-514" in its place.</text>
+      <codify:find-replace count="1">
+        <find>section 21-514</find>
+        <replace>
+          <cite doc="D.C. Code" path="§21-514">§ 21-514</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§21-514">
       <num>(f)</num>
       <text>Section 21-514 is amended by striking the phrase "section 21-513" and inserting the phrase "§ 21-513" in its place.</text>
+      <codify:find-replace position="2">
+        <find>section 21-513</find>
+        <replace>
+          <cite doc="D.C. Code" path="§21-513">§ 21-513</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§21-521">
       <num>(g)</num>
       <text>Section 21-521 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>21-521</num>
           <heading proof="needed">Detention of persons believed to be mentally ill; transportation and application to hospital.</heading>
@@ -90,109 +150,182 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§21-522">
       <num>(h)</num>
       <text>Section 21-522 is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the word "section" wherever it appears and insert the symbol "§" in its place.</text>
+        <codify:find-replace position="1">
+          <find>section 21-523</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-523">§ 21-523</cite>
+          </replace>
+        </codify:find-replace>
+        <codify:find-replace position="2">
+          <find>section 21-523</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-523">§ 21-523</cite>
+          </replace>
+        </codify:find-replace>
+        <codify:find-replace position="1">
+          <find>section 21-521</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-523">§ 21-521</cite>
+          </replace>
+        </codify:find-replace>
+        <codify:find-replace position="2">
+          <find>section 21-521</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-523">§ 21-521</cite>
+          </replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(2)</num>
         <text>Subsection (d) is amended by striking the phrase "the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (D.C. Law 2-136; D.C. Official Code § 7-1201.01 <em>et seq</em>.)," and inserting the phrase "§ 7-1201.01 <em>et seq</em>.," in its place.</text>
+        <codify:find-replace count="1">
+          <find>the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (<cite doc="D.C. Law 2-136">D.C. Law 2-136</cite>; D.C. Official  Code <cite path="§7-1201.01">§ 7-1201.01</cite> et seq.),</find>
+          <replace><cite doc="D.C. Code" path="7|12">§ 7-1201.01 et seq.</cite>,</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-523">
       <num>(i)</num>
       <text>Section 21-523 is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Designate the existing text as subsection (a).</text>
+        <codify:redesignate-para num-value="(a)"/>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(2)</num>
         <text>Subsection (a) is amended by striking the phrase "section 21-522" and inserting the phrase "§ 21-522" in its place.</text>
+        <codify:find-replace count="1">
+          <find>section 21-522</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-522">§ 21-522</cite>
+          </replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subsection (b) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)" num-value="(b)"/>
             <num>(b)</num>
-            <text>A person brought in for emergency diagnosis and observation may be provided treatment if the person gives their informed consent or has been deemed incapacitated and substituted consent has been given, pursuant to § 21-2210, prior to commitment.</text>
+            <text>A person brought in for emergency diagnosis and observation may be provided treatment if the person gives their informed consent or has been deemed incapacitated and substituted consent has been given, pursuant to <cite doc="D.C. Code" path="§21-2210">§ 21-2210</cite>, prior to commitment.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-524">
       <num>(j)</num>
       <text>Section 21-524 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the phrase "section 21-523" and inserting the phrase "§ 21-523" in its place.</text>
+        <codify:find-replace count="1">
+          <find>section 21-523</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-523">§ 21-523</cite>
+          </replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the phrase "section 21-522" and inserting the phrase "§ 21-522" in its place.</text>
+        <codify:find-replace count="1">
+          <find>section 21-522</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-522">§ 21-522</cite>
+          </replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-525">
       <num>(k)</num>
       <text>Section 21-525 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>21-525</num>
           <heading proof="needed">Hearing by court.</heading>
-          <text>The court shall grant a hearing to a person whose continued hospitalization is ordered under § 21-524, if they request the hearing. The hearing shall be held within 48 hours after receipt of the request.</text>
+          <text>The court shall grant a hearing to a person whose continued hospitalization is ordered under <cite doc="D.C. Code" path="§21-524">§ 21-524</cite>, if they request the hearing. The hearing shall be held within 48 hours after receipt of the request.</text>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§21-526">
       <num>(l)</num>
       <text>Section 21-526 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(a)</num>
-            <text>If the maximum period of time prescribed by §§ 21-512, 21-523, 21-524, 21-525, or 21-548, during which an action or determination may or shall be taken, expires on a Saturday, Sunday, legal holiday, or day on which the Court is closed, the period may be extended to not later than noon of the next succeeding day which is not a Saturday, Sunday, legal holiday, or day on which the Court is closed.</text>
+            <text>If the maximum period of time prescribed by §§ <cite doc="D.C. Code" path="§21-512">21-512</cite>, <cite doc="D.C. Code" path="§21-523">21-523</cite>, <cite doc="D.C. Code" path="§21-524">21-524</cite>, <cite doc="D.C. Code" path="§21-525">21-525</cite>, or <cite doc="D.C. Code" path="§21-548">21-548</cite>, during which an action or determination may or shall be taken, expires on a Saturday, Sunday, legal holiday, or day on which the Court is closed, the period may be extended to not later than noon of the next succeeding day which is not a Saturday, Sunday, legal holiday, or day on which the Court is closed.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "section 21-524" and insert the phrase "§ 21-524" in its place.</text>
+          <codify:find-replace count="1">
+            <find>section 21-524</find>
+            <replace>
+              <cite doc="D.C. Code" path="§21-524">§ 21-524</cite>
+            </replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "section 21-543(b)" and insert the phrase "§ 21-543(b)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>section 21-543(b)</find>
+            <replace>
+              <cite doc="D.C. Code" path="§21-543|(b)">§ 21-543(b)</cite>
+            </replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(3)</num>
         <text>Subsection (d) is amended by striking the phrase "section 21-542" and inserting the phrase "§ 21-542" in its place.</text>
+        <codify:find-replace count="1">
+          <find>section 21-542</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-542">§ 21-542</cite>
+          </replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(e)">
         <num>(4)</num>
         <text>Subsection (e) is amended by striking the phrase "chapter." and inserting the phrase "chapter; except, that the person may agree to remain in an inpatient status on a voluntary basis until an appropriate discharge plan is implemented if the Department agrees that this is an appropriate accommodation." in its place.</text>
+        <codify:find-replace count="1">
+          <find>under <cite path="21|5|IV">subchapter IV of this chapter</cite>.</find>
+          <replace>under <cite path="21|5|IV">subchapter IV of this chapter</cite>; except, that the person may agree to remain in an inpatient status on a voluntary basis until an appropriate discharge plan is implemented if the Department agrees that this is an appropriate accommodation.</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>A new subsection (f) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(e)" num-value="(f)"/>
             <num>(f)</num>
             <para>
               <num>(1)</num>
-              <text>If it is determined by the Court that transporting the person who is the subject of detention for emergency observation and diagnosis to the courthouse for a hearing under § 21-525 poses a significant risk to the safety and wellbeing of the person, court personnel, or the public, the Court may, upon written request from the chief of service of a hospital, the chief clinical officer of the Department of Behavioral Health or their designee, or the person's attorney, grant a continuance of the hearing. The Court shall consider reasonable alternatives to in-person attendance, such as virtual attendance, in lieu of granting a continuance under this subsection. The continuance shall last no longer than 48 hours and shall take into consideration the nature of the case and the specific circumstances that would warrant a continuance, which may include:</text>
+              <text>If it is determined by the Court that transporting the person who is the subject of detention for emergency observation and diagnosis to the courthouse for a hearing under <cite doc="D.C. Code" path="§21-525">§ 21-525</cite> poses a significant risk to the safety and wellbeing of the person, court personnel, or the public, the Court may, upon written request from the chief of service of a hospital, the chief clinical officer of the Department of Behavioral Health or their designee, or the person's attorney, grant a continuance of the hearing. The Court shall consider reasonable alternatives to in-person attendance, such as virtual attendance, in lieu of granting a continuance under this subsection. The continuance shall last no longer than 48 hours and shall take into consideration the nature of the case and the specific circumstances that would warrant a continuance, which may include:</text>
               <para>
                 <num>(A)</num>
                 <text>severe weather conditions that pose a safety risk;</text>
@@ -212,38 +345,68 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>If the Court grants a continuance under paragraph (1) of this subsection, the 48-hour time period for holding a hearing under § 21-525 shall be tolled for the duration of the continuance.</text>
+              <text>If the Court grants a continuance under paragraph (1) of this subsection, the 48-hour time period for holding a hearing under <cite doc="D.C. Code" path="§21-525">§ 21-525</cite> shall be tolled for the duration of the continuance.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-527">
       <num>(m)</num>
       <text>Section 21-527 is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the phrase "section 21-524" both times it appears and insert the phrase "§ 21-524" in its place.</text>
+        <codify:find-replace path="(a)" count="1">
+          <find>section 21-524</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-524">§ 21-524</cite>
+          </replace>
+        </codify:find-replace>
+        <codify:find-replace path="(b)" count="1">
+          <find>section 21-524</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-524">§ 21-524</cite>
+          </replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(a)|(3)|(D)">
         <num>(2)</num>
         <text>Subsection (a)(3)(D) is amended by striking the phrase "the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (D.C. Law 2-136; D.C. Official Code § 7-1201.01 <em>et seq</em>.)." and inserting the phrase "§ 7-1201.01 <em>et seq.</em>" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (<cite doc="D.C. Law 2-136">D.C. Law 2-136</cite>; D.C. Official  Code <cite path="§7-1201.01">§ 7-1201.01</cite> et seq.).</find>
+          <replace>
+            <cite doc="D.C. Code" path="7|12">§ 7-1201.01 et seq.</cite>
+          </replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(3)</num>
         <text>Subsection (b) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "section 21-526(c)" and inserting the phrase "§ 21-526(c)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>section 21-526(c)</find>
+            <replace>
+              <cite doc="D.C. Code" path="§21-526|(c)">§ 21-526(c)</cite>
+            </replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)|(D)">
           <num>(B)</num>
           <text>Paragraph (2)(D) is amended by striking the phrase "the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (D.C. Law 2-136; D.C. Official Code § 7-1201.01 <em>et seq.</em>)." and inserting the phrase "§ 7-1201.01 <em>et seq</em>." in its place.</text>
+          <codify:find-replace count="1">
+            <find>the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (<cite doc="D.C. Law 2-136">D.C. Law 2-136</cite>; D.C. Official Code <cite path="§7-1201.01">§ 7-1201.01</cite> et seq.).</find>
+            <replace>
+              <cite doc="D.C. Code" path="7|12">§ 7-1201.01 et seq.</cite>
+            </replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-541">
       <num>(n)</num>
       <text>Section 21-541 is amended as follows:</text>
       <para>
@@ -251,17 +414,19 @@
         <text>A new subsection (a-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)" num-value="(a-1)"/>
             <num>(a-1)</num>
             <text>Except for those petitions filed by the Department, all petitions seeking commitment of a person to the Department shall be served upon the Director of the Department or their designee.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(b)</num>
             <text>Within 3 days after the Department receives a petition filed under subsection (a) of this section, the Department shall serve a copy of the petition on the person with respect to whom it was filed by:</text>
             <para>
@@ -284,6 +449,7 @@
         <text>A new subsection (c) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(b)" num-value="(c)"/>
             <num>(c)</num>
             <text>If the petition is served via a method authorized under subsection (b)(2) or (b)(3) of this section, the petition shall be sealed in an envelope and conspicuously marked with the following statement:</text>
             <text>IMPORTANT LEGAL DOCUMENTS - TO BE OPENED ONLY BY THE INDIVIDUAL NAMED ON THIS ENVELOPE".</text>
@@ -292,24 +458,37 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-542">
       <num>(o)</num>
       <text>Section 21-542 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the phrase "section 21-541" and inserting the phrase "§ 21-541" in its place.</text>
+        <codify:find-replace count="1">
+          <find>section 21-541</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-541">§ 21-541</cite>
+          </replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the phrase "section 21-586" and inserting the phrase "§ 21-586" in its place.</text>
+        <codify:find-replace count="1">
+          <find>section 21-586</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-586">§ 21-586</cite>
+          </replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subsection (c) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(b)" num-value="(c)"/>
             <num>(c)</num>
-            <text>If it is determined by the Commission that transporting a person who is the subject of a petition filed under § 21-541 for a hearing under this section poses a significant risk to the safety and wellbeing to the person, court personnel, or the public, the Commission may, upon written request from the chief of service of a hospital, the chief clinical officer of the Department of Behavioral Health or their designee, or the person's attorney, grant a continuance of the hearing. The Commission shall consider reasonable alternatives to in-person attendance, such as virtual attendance, in lieu of granting a continuance under this subsection. The continuance shall last for no longer than 48 hours and shall take into consideration the nature of the case and the specific circumstances that would warrant a continuance, which may include:</text>
+            <text>If it is determined by the Commission that transporting a person who is the subject of a petition filed under <cite doc="D.C. Code" path="§21-541">§ 21-541</cite> for a hearing under this section poses a significant risk to the safety and wellbeing to the person, court personnel, or the public, the Commission may, upon written request from the chief of service of a hospital, the chief clinical officer of the Department of Behavioral Health or their designee, or the person's attorney, grant a continuance of the hearing. The Commission shall consider reasonable alternatives to in-person attendance, such as virtual attendance, in lieu of granting a continuance under this subsection. The continuance shall last for no longer than 48 hours and shall take into consideration the nature of the case and the specific circumstances that would warrant a continuance, which may include:</text>
             <para>
               <num>(1)</num>
               <text>severe weather conditions that pose a safety risk;</text>
@@ -331,53 +510,85 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-544">
       <num>(p)</num>
       <text>Section 21-544 is amended by striking the phrase "section 21-542" and inserting the phrase "§ 21-542" in its place.</text>
+      <codify:find-replace count="1">
+        <find>section 21-542</find>
+        <replace>
+          <cite doc="D.C. Code" path="§21-542">§ 21-542</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§21-545">
       <num>(q)</num>
       <text>Section 21-545 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Strike the phrase "section 21-544" and insert the phrase "§ 21-544" in its place.</text>
+          <codify:find-replace count="1">
+            <find>section 21-544</find>
+            <replace>
+              <cite doc="D.C. Code" path="§21-544">§ 21-544</cite>
+            </replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Strike the phrase "served personally" and insert the word "served" in its place.</text>
+          <codify:find-replace count="1">
+            <find>served personally</find>
+            <replace>served</replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-545.01">
       <num>(r)</num>
       <text>Section 21-545.01 is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the phrase "registered mail" both times it appears and insert the word "mail" in its place.</text>
+        <codify:find-replace count="2">
+          <find>registered mail</find>
+          <replace>mail</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Strike the phrase "section 21-545" wherever it appears and insert the phrase "§ 21-545" in its place.</text>
+        <codify:find-replace count="3">
+          <find>section 21-545</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-545">§ 21-545</cite>
+          </replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(a)">
         <num>(3)</num>
         <text>Subsection (a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Designate the existing text as paragraph (1).</text>
+          <codify:redesignate-para num-value="(1)"/>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the phrase "a petition of commitment" and insert the phrase "a petition for renewal of commitment" in its place.</text>
+          <codify:find-replace count="1">
+            <find>a petition of commitment</find>
+            <replace>a petition for renewal of commitment</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new paragraph (2) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(1)" num-value="(2)"/>
               <num>(2)</num>
               <text>In lieu of a certificate from a psychiatrist or qualified psychologist, the petition for renewal of commitment may be supported by a sworn written statement from the petitioner that:</text>
               <para>
@@ -393,91 +604,175 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(4)</num>
         <text>Subsection (c) is amended by striking the phrase "sections 21-542 and 21-543" and insert the phrase "§§ 21-542 and 21-543" in its place.</text>
+        <codify:find-replace count="1">
+          <find>sections 21-542 and 21-543</find>
+          <replace>§§ <cite doc="D.C. Code" path="§21-542">21-542</cite> and <cite doc="D.C. Code" path="§21-543">21-543</cite></replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-546">
       <num>(s)</num>
       <text>Section 21-546 is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the phrase "section 21-545" wherever it appears and insert the phrase "§ 21-545" in its place.</text>
+        <codify:find-replace path="(a)" count="2">
+          <find>section 21-545 </find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-545">§ 21-545 </cite>
+          </replace>
+        </codify:find-replace>
+        <codify:find-replace path="(c)" count="1">
+          <find>section 21-545 </find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-545">§ 21-545 </cite>
+          </replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Strike the phrase "section 21-545.01" wherever it appears and insert the phrase "§ 21-545.01" in its place.</text>
+        <codify:find-replace path="(a)" count="2">
+          <find>section 21-545.01</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-545.01">§ 21-545.01</cite>
+          </replace>
+        </codify:find-replace>
+        <codify:find-replace path="(c)" count="1">
+          <find>section 21-545.01</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-545.01">§ 21-545.01</cite>
+          </replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-547|(a)">
       <num>(t)</num>
       <text>Section 21-547(a) is amended by striking the phrase "section 21-546" and inserting the phrase "§ 21-546" in its place.</text>
+      <codify:find-replace count="1">
+        <find>section 21-546</find>
+        <replace>
+          <cite doc="D.C. Code" path="§21-546">§ 21-546</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§21-548">
       <num>(u)</num>
       <text>Section 21-548 is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the phrase "section 21-545 or section 21-545.01" both times it appears and insert the phrase "§ 21-545 or § 21-545.01" in its place.</text>
+        <codify:find-replace path="(a)" count="1">
+          <find>section 21-545 or section 21-545.01</find>
+          <replace><cite doc="D.C. Code" path="§21-545">§ 21-545</cite> or <cite doc="D.C. Code" path="§21-545.01">§ 21-545.01</cite></replace>
+        </codify:find-replace>
+        <codify:find-replace path="(b)" count="1">
+          <find>section 21-545 or section 21-545.01</find>
+          <replace><cite doc="D.C. Code" path="§21-545">§ 21-545</cite> or <cite doc="D.C. Code" path="§21-545.01">§ 21-545.01</cite></replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended as follows:</text>
-        <para>
+        <para codify:path="(2)">
           <num>(A)</num>
           <text>Paragraph (2) is amended by striking the number "24" and inserting the number "48" in its place.</text>
+          <codify:find-replace count="1">
+            <find>24</find>
+            <replace>48</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(B)</num>
           <text>Paragraph (3) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the number "24" and insert the number "48" in its place.</text>
+            <codify:find-replace count="1">
+              <find>24</find>
+              <replace>48</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the word "affidavit" both times it appears and insert the word "statement" in its place.</text>
+            <codify:find-replace count="2">
+              <find>affidavit</find>
+              <replace>statement</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(C)</num>
           <text>Paragraph (4) is amended by striking the phrase "notice and affidavit" and inserting the phrase "notice and statement" in its place.</text>
+          <codify:find-replace count="1">
+            <find>notice and affidavit</find>
+            <replace>notice and statement</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(6)">
           <num>(D)</num>
           <text>Paragraph (6) is amended by striking the phrase "section 21-526" and inserting the phrase "§ 21-526" in its place.</text>
+          <codify:find-replace count="1">
+            <find>section 21-526</find>
+            <replace>
+              <cite doc="D.C. Code" path="§21-526">§ 21-526</cite>
+            </replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-551|(a)">
       <num>(v)</num>
       <text>Section 21-551(a) is amended by striking the phrase "section 21-545" and inserting the phrase "§ 21-545" in its place.</text>
+      <codify:find-replace count="1">
+        <find>section 21-545</find>
+        <replace>
+          <cite doc="D.C. Code" path="§21-545">§ 21-545</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§21-561|(a)">
       <num>(w)</num>
       <text>Section 21-561(a) is amended to read as follows:</text>
       <include>
         <para>
+          <codify:replace/>
           <num>(a)</num>
-          <text>A person hospitalized in a public or private hospital pursuant to this chapter, or committed under §§ 21-545, 21-545.01, or 21-548, may exercise the right to communicate with others as set forth in § 7-1231.01 <em>et seq</em>.</text>
+          <text>A person hospitalized in a public or private hospital pursuant to <cite doc="D.C. Code" path="21|5">this chapter</cite>, or committed under §§ <cite doc="D.C. Code" path="§21-545">21-545</cite>, <cite doc="D.C. Code" path="§21-545.01">21-545.01</cite>, or <cite doc="D.C. Code" path="§21-548">21-548</cite>, may exercise the right to communicate with others as set forth in<cite doc="D.C. Code" path="7|12A"> § 7-1231.01 et seq</cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§21-562">
       <num>(x)</num>
       <text>Section 21-562 is amended by striking the phrase "the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (D.C. Law 2-136; D.C. Official Code § 7-1201.01 <em>et seq.</em>)," and inserting the phrase "§ 7-1201.01 <em>et seq</em>." in its place.</text>
+      <codify:find-replace position="1">
+        <find>the District of Columbia Mental Health Information Act of 1978, effective March 3, 1979 (<cite doc="D.C. Law 2-136">D.C. Law 2-136</cite>; D.C. Official Code <cite path="§7-1201.01">§ 7-1201.01</cite> et seq.)</find>
+        <replace>
+          <cite doc="D.C. Code" path="7|12">§ 7-1201.01 et seq.</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§21-563">
       <num>(y)</num>
       <text>Section 21-563 is amended by striking the phrase "the Mental Health Consumers' Rights Protection Act of 2001, effective December 18, 2001 (D.C. Law 14-56; D.C. Official Code § 7-1231.01 <em>et seq</em>.)." and inserting the phrase "§ 7-1231.01 <em>et seq</em>." in its place.</text>
+      <codify:find-replace position="1">
+        <find>the Mental Health Consumers’ Rights Protection Act of 2001, effective December 18, 2001 (<cite doc="D.C. Law 14-56">D.C. Law 14-56</cite>; D.C. Official Code <cite path="§7-1231.01">§ 7-1231.01</cite> et seq.)</find>
+        <replace>
+          <cite doc="D.C. Code" path="7|12A">§ 7-1231.01 et seq.</cite>
+        </replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§21-582">
       <num>(z)</num>
       <text>Section 21-582 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>21-582</num>
           <heading proof="needed">Petitions, applications, or certificates of physicians, qualified psychologists, and qualified nurse practitioners.</heading>
@@ -485,11 +780,11 @@
             <num>(a)</num>
             <para>
               <num>(1)</num>
-              <text>A petition, application, or certificate authorized under §§ 21-521, 21-541(a), 21-545.01, or 21-548 may not be considered if made by a psychiatrist, physician, qualified psychologist, or qualified nurse practitioner who is related by blood, marriage, or domestic partnership to the person about whom the petition, application, or certificate is made.</text>
+              <text>A petition, application, or certificate authorized under §§ <cite doc="D.C. Code" path="§21-521">21-521</cite>, <cite doc="D.C. Code" path="§21-541|(a)">21-541(a)</cite>, <cite doc="D.C. Code" path="§21-545.01">21-545.01</cite>, or <cite doc="D.C. Code" path="§21-548">21-548</cite> may not be considered if made by a psychiatrist, physician, qualified psychologist, or qualified nurse practitioner who is related by blood, marriage, or domestic partnership to the person about whom the petition, application, or certificate is made.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>A petition, application, or certificate authorized under §§ 21-521, 21-523, 21-541(a), 21-545.01, or 21-548 may be considered if made by a psychiatrist, physician, qualified psychologist, or qualified nurse practitioner employed or contracted by the hospital in which the person is to be detained and the psychiatrist, physician, qualified psychologist, or qualified nurse practitioner may admit the person to the hospital if they certify in writing that their financial arrangement with the hospital is not based on the volume of inpatient referrals or admissions.</text>
+              <text>A petition, application, or certificate authorized under §§ <cite doc="D.C. Code" path="§21-521">21-521</cite>, <cite doc="D.C. Code" path="§21-523">21-523</cite>, <cite doc="D.C. Code" path="§21-541|(a)">21-541(a)</cite>, <cite doc="D.C. Code" path="§21-545.01">21-545.01</cite>, or <cite doc="D.C. Code" path="§21-548">21-548</cite> may be considered if made by a psychiatrist, physician, qualified psychologist, or qualified nurse practitioner employed or contracted by the hospital in which the person is to be detained and the psychiatrist, physician, qualified psychologist, or qualified nurse practitioner may admit the person to the hospital if they certify in writing that their financial arrangement with the hospital is not based on the volume of inpatient referrals or admissions.</text>
             </para>
           </para>
           <para>
@@ -500,53 +795,81 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§21-583">
       <num>(aa)</num>
       <text>Section 21-583 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>21-583</num>
           <heading proof="needed">Physicians, psychiatrists, qualified psychologists, and qualified nurse practitioners as witnesses.</heading>
-          <text>A physician, psychiatrist, qualified psychologist, or qualified nurse practitioner making application or conducting an examination under this chapter is a competent and compellable witness at any trial, hearing or other proceeding conducted pursuant to this chapter and the physician- or psychologist-patient privilege is not applicable.</text>
+          <text>A physician, psychiatrist, qualified psychologist, or qualified nurse practitioner making application or conducting an examination under <cite doc="D.C. Code" path="21|5">this chapter</cite> is a competent and compellable witness at any trial, hearing or other proceeding conducted pursuant to this chapter and the physician- or psychologist-patient privilege is not applicable.</text>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§21-589">
       <num>(bb)</num>
       <text>Section 21-589 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the word "sections" both times it appears and inserting the symbol "§§" in its place.</text>
+        <codify:find-replace count="2">
+          <find>sections</find>
+          <replace>§§</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the phrase "section 21-546" and inserting the phrase "§ 21-546" in its place.</text>
+        <codify:find-replace count="1">
+          <find>section 21-546</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-546">§ 21-546</cite>
+          </replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-589.01">
       <num>(cc)</num>
       <text>Section 21-589.01 is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the phrase "section 21-545" and inserting the phrase "§ 21-545" in its place.</text>
+        <codify:find-replace count="1">
+          <find>section 21-545</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-545">§ 21-545</cite>
+          </replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the phrase "section 21-545.01" and inserting the phrase "§ 21-545.01" in its place.</text>
+        <codify:find-replace count="1">
+          <find>section 21-545.01</find>
+          <replace>
+            <cite doc="D.C. Code" path="§21-545.01">§ 21-545.01</cite>
+          </replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§21-591|(3)">
       <num>(dd)</num>
       <text>Section 21-591(3) is amended by striking the phrase "or qualified psychologist" and inserting the phrase ", qualified psychologist, or qualified nurse practitioner" in its place.</text>
+      <codify:find-replace count="1">
+        <find>or qualified psychologist</find>
+        <replace>, qualified psychologist, or qualified nurse practitioner</replace>
+      </codify:find-replace>
     </para>
   </section>
-  <section>
+  <section codify:path="§21-2047|(b)|(4)">
     <num>3</num>
     <text>Section 21-2047(b)(4) of the District of Columbia Official Code is amended to read as follows:</text>
     <include lvl="1">
       <para>
+        <codify:replace/>
         <num>(4)</num>
         <para>
           <num>(A)</num>
@@ -560,15 +883,20 @@
     </include>
     <aftertext>.</aftertext>
   </section>
-  <section>
+  <section codify:path="§24-531.07|(c)|(2)">
     <num>4</num>
     <text>Section 107(c)(2) of the Incompetent Defendants Criminal Commitment Act of 2004, effective May 24, 2005 (D.C. Law 15-358; D.C. Official Code § 24-531.07(c)(2)), is amended by striking the phrase "within 24 hours" and inserting the phrase "within 48 hours" in its place."</text>
+    <codify:find-replace count="1">
+      <find>within 24 hours</find>
+      <replace>within 48 hours</replace>
+    </codify:find-replace>
   </section>
-  <section>
+  <section codify:path="7|11C|I">
     <num>5</num>
     <text>The Department of Behavioral Health Establishment Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 7-1141.01 <em>et seq.</em>), is amended by adding a new section 5117c to read as follows:</text>
     <include>
       <section>
+        <codify:insert after="§7-1141.06b" num-value="7-1141.06c" history-prefix="as added"/>
         <num>5117c</num>
         <heading proof="needed">Development of online training materials.</heading>
         <para>
@@ -656,6 +984,8 @@
       </section>
     </include>
     <aftertext>.</aftertext>
+    <annotation doc="D.C. Law 20-61" type="History" path="§5117c">Dec. 24, 2013, D.C. Law 20-61, § 5117c</annotation>
+    <codify:not-funded-anno doc="D.C. Law 25-304" path="§5" applicability-path="§6" action="creation of" display-template=""/>
   </section>
   <section>
     <num>6</num>
@@ -663,6 +993,7 @@
     <para>
       <num>(a)</num>
       <text>Section 5 shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 25-304" path="§5" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
