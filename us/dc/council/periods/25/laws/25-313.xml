@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-313">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-313" codify:doc="D.C. Code">
   <num type="law">25-313</num>
   <num type="act">25-716</num>
   <num type="bill">25-749</num>
@@ -24,6 +24,27 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Amplified Sound Mitigation Regulation Amendment Act of 2024".</text>
+  <codify:insert path="10" after="11A" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>11B</num>
+      <heading>Amplified Sound Mitigation.</heading>
+    </container>
+  </codify:insert>
+  <codify:insert path="10|11B" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>I</num>
+      <heading>Public Space Amplified Sound License.</heading>
+    </container>
+  </codify:insert>
+  <codify:insert path="10|11B" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>II</num>
+      <heading>Noise Control Enforecment and Coordination.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>I</num>
@@ -33,11 +54,12 @@
       <heading proof="needed">This title may be cited as the "Public Space Amplified Sound License Act of 2024".</heading>
     </section>
     <section>
+      <codify:insert path="10|11B|I" num-value="10-1183.01"/>
       <num>102</num>
-      <text>Definitions</text>
+      <heading>Definitions.</heading>
       <para>
         <num undesignated="true">(a)</num>
-        <text>For the purposes of this title, the term:</text>
+        <text>For the purposes of <code-cite doc="D.C. Code" path="10|11B|I">this title</code-cite>, the term:</text>
         <para>
           <num>(1)</num>
           <text>"Amplified sound device" means a device that increases the volume of sound through electrical means and includes stereo systems, speakers internal or external to the sound source, microphones, and megaphones, but does not include cellular phones and other portable two-way communication devices or speakers in vehicles.</text>
@@ -55,8 +77,10 @@
           <text>"Public space" means all roadway, tree space, sidewalk, or parking space owned or under the jurisdiction of the District.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-313" path="§102" applicability-path="§401" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert path="10|11B|I" after="§10-1183.01" num-value="10-1183.02"/>
       <num>103</num>
       <heading proof="needed">Public space amplified sound license.</heading>
       <para>
@@ -119,7 +143,7 @@
         </para>
         <para>
           <num>(2)</num>
-          <text>Amplifying sound on public space to a level that exceeds the lesser of the following, as measured by the Department or other District agency charged with enforcing the terms of this title, in accordance with the requirements specified in Chapter 29 of Title 20 of the District of Columbia Municipal Regulations:</text>
+          <text>Amplifying sound on public space to a level that exceeds the lesser of the following, as measured by the Department or other District agency charged with enforcing the terms of <code-cite doc="D.C. Code" path="10|11B|I">this title</code-cite>, in accordance with the requirements specified in Chapter 29 of Title 20 of the District of Columbia Municipal Regulations:</text>
           <para>
             <num>(A)</num>
             <text>55 decibels, measured inside of the nearest residential unit an enforcement officer is given permission to enter;</text>
@@ -151,7 +175,7 @@
         </para>
         <para>
           <num>(2)</num>
-          <text>The holder is adjudicated to have violated the terms of the license pursuant to this title.</text>
+          <text>The holder is adjudicated to have violated the terms of the license pursuant to <code-cite doc="D.C. Code" path="10|11B|I">this title</code-cite>.</text>
         </para>
       </para>
       <para>
@@ -166,23 +190,25 @@
         <num>(i)</num>
         <text>The licensing requirements of this section shall not apply to individuals or events using public space that are otherwise required by District law or regulation to obtain a permit or license from the Department or another District government agency.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-313" path="§103" applicability-path="§401" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert path="10|11B|I" after="§10-1183.02" num-value="10-1183.03"/>
       <num>104</num>
       <heading proof="needed">Enforcement and penalties.</heading>
       <para>
         <num>(a)</num>
-        <text>The Department shall enforce violations of this title.</text>
+        <text>The Department shall enforce violations of <code-cite doc="D.C. Code" path="10|11B|I">this title</code-cite>.</text>
       </para>
       <para>
         <num>(b)</num>
-        <text>The failure to obtain a license required by this title or the violation of a license issued pursuant to this title shall be a class 4 civil infraction under the schedule of fines in 16 DCMR § 3201, issued pursuant to the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (Law 6-42; D.C. Code § 2-1801.01 <em>et seq.</em>) ("Civil Infractions Act"), and the Mayor may assess civil fines, penalties, and fees as sanctions for any violation of the provisions of this title, or the rules issued under authority of this title, pursuant to the Civil Infractions Act. Adjudication of any infractions shall be pursuant to the Civil Infractions Act.</text>
+        <text>The failure to obtain a license required by <code-cite doc="D.C. Code" path="10|11B|I">this title</code-cite> or the violation of a license issued pursuant to this title shall be a class 4 civil infraction under the schedule of fines in 16 DCMR § 3201, issued pursuant to <code-cite doc="D.C. Code" path="2|18|I">the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (Law 6-42; D.C. Code § 2-1801.01 <em>et seq.</em>) ("Civil Infractions Act")</code-cite>, and the Mayor may assess civil fines, penalties, and fees as sanctions for any violation of the provisions of this title, or the rules issued under authority of this title, pursuant to the Civil Infractions Act. Adjudication of any infractions shall be pursuant to the Civil Infractions Act.</text>
       </para>
       <para>
         <num>(c)</num>
         <para>
           <num>(1)</num>
-          <text>Any person who is reasonably suspected of violating this title in the presence of an enforcement agent shall identify himself or herself at the direction of the agent by giving his or her legal name and current address. If the person refuses to provide his or her legal name and current address, or if the enforcement agent has reason to believe that the person is providing an incorrect name or address, the enforcement agent may request that the person provide reasonable identification. Upon request of the enforcement agent, the person shall produce reasonable identification.</text>
+          <text>Any person who is reasonably suspected of violating <code-cite doc="D.C. Code" path="10|11B|I">this title</code-cite> in the presence of an enforcement agent shall identify himself or herself at the direction of the agent by giving his or her legal name and current address. If the person refuses to provide his or her legal name and current address, or if the enforcement agent has reason to believe that the person is providing an incorrect name or address, the enforcement agent may request that the person provide reasonable identification. Upon request of the enforcement agent, the person shall produce reasonable identification.</text>
         </para>
         <para>
           <num>(2)</num>
@@ -191,7 +217,7 @@
       </para>
       <para>
         <num>(d)</num>
-        <text>Before issuing a notice of infraction for a violation of this title, an enforcement agent shall provide a written warning to the violator. A person who receives a written warning must be given reasonable time to abate the infraction, test equipment to ensure compliance with this title, or to obtain a license pursuant to this title, as the circumstances warrant.</text>
+        <text>Before issuing a notice of infraction for a violation of <cite doc="D.C. Code" path="10|11B|I">this title</cite>, an enforcement agent shall provide a written warning to the violator. A person who receives a written warning must be given reasonable time to abate the infraction, test equipment to ensure compliance with this title, or to obtain a license pursuant to this title, as the circumstances warrant.</text>
       </para>
       <para>
         <num>(e)</num>
@@ -202,23 +228,28 @@
         </para>
         <para>
           <num>(2)</num>
-          <text>"Enforcement agent" means a person authorized to enforce the provisions of this title.</text>
+          <text>"Enforcement agent" means a person authorized to enforce the provisions of <code-cite doc="D.C. Code" path="10|11B|I">this title</code-cite>.</text>
         </para>
         <para>
           <num>(3)</num>
           <text>"Reasonable identification" means any form of identification that includes a person's legal name and current address.</text>
         </para>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-313" path="§104" applicability-path="§401" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert path="10|11B|I" after="§10-1183.03" num-value="10-1183.04"/>
       <num>105</num>
       <heading proof="needed">Rulemaking.</heading>
-      <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall issue rules to implement the provisions of this title.</text>
+      <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, shall issue rules to implement the provisions of <code-cite doc="D.C. Code" path="10|11B|I">this title</code-cite>.</text>
+      <codify:not-funded-anno doc="D.C. Law 25-313" path="§105" applicability-path="§401" action="creation of" display-template=""/>
     </section>
     <section>
+      <codify:insert path="10|11B|I" after="§10-1183.04" num-value="10-1183.05"/>
       <num>106</num>
       <heading proof="needed">Construction.</heading>
-      <text>This title shall be construed to supersede the District of Columbia Noise Control Act of 1977, effective March 16, 1978 (D.C. Law 2-53; 20 DCMR <em>passim</em>) ("Noise Control Act"), to the extent its provisions conflict with the Noise Control Act, except that nothing in this title shall be construed as preventing the Metropolitan Police Department from enforcing the Noise Control Act against an individual who operates an amplified sound device on public space without a valid public space amplified sound license.</text>
+      <text><code-cite doc="D.C. Code" path="10|11B|I">This title</code-cite> shall be construed to supersede the District of Columbia Noise Control Act of 1977, effective March 16, 1978 (D.C. Law 2-53; 20 DCMR <em>passim</em>) ("Noise Control Act"), to the extent its provisions conflict with the Noise Control Act, except that nothing in this title shall be construed as preventing the Metropolitan Police Department from enforcing the Noise Control Act against an individual who operates an amplified sound device on public space without a valid public space amplified sound license.</text>
+      <codify:not-funded-anno doc="D.C. Law 25-313" path="§106" applicability-path="§401" action="creation of" display-template=""/>
     </section>
   </container>
   <container>
@@ -230,17 +261,19 @@
       <heading proof="needed">This title may be cited as the "Noise Control Enforcement and Coordination Act of 2024".</heading>
     </section>
     <section>
+      <codify:insert path="10|11B|II" num-value="10-1185.01"/>
       <num>202</num>
+      <heading>Noise Control Enforcement and Coordination.</heading>
       <para>
         <num>(a)</num>
-        <text>The Mayor shall determine the agencies responsible for enforcing compliance with the Noise Control Act of 1977, effective March 16, 1978 (D.C. Law 2-53; 20 DCMR <em>passim</em>) ("Noise Control Act"), for the types of noise listed below, and shall submit recommendations and proposed amendments to the Noise Control Act to the Council no later than 180 days after the applicability date of this title:</text>
+        <text>The Mayor shall determine the agencies responsible for enforcing compliance with the Noise Control Act of 1977, effective March 16, 1978 (D.C. Law 2-53; 20 DCMR <em>passim</em>) ("Noise Control Act"), for the types of noise listed below, and shall submit recommendations and proposed amendments to the Noise Control Act to the Council no later than 180 days after the applicability date of <code-cite doc="D.C. Code" path="10|11B|II">this title</code-cite>:</text>
         <para>
           <num>(1)</num>
           <text>Construction noise, described at 5(d)(2) of the Noise Control Act (D.C. Law 2-53; 20 DCMR §§ 2802, 2803) and all structural soundproofing regulations and related building code requirements;</text>
         </para>
         <para>
           <num>(2)</num>
-          <text>Noise in public spaces other than noise required to be licensed pursuant to Title I of the Amplified Sound Mitigation Regulation Amendment Act of 2024, passed on second reading on December 17, 2024 (Enrolled version of Bill 25-749); and</text>
+          <text>Noise in public spaces other than noise required to be licensed pursuant to <code-cite doc="D.C. Code" path="10|11B|I">Title I of the Amplified Sound Mitigation Regulation Amendment Act of 2024, passed on second reading on December 17, 2024 (Enrolled version of Bill 25-749)</code-cite>; and</text>
         </para>
         <para>
           <num>(3)</num>
@@ -257,15 +290,17 @@
       </para>
       <para>
         <num>(d)</num>
-        <text>No later than one year after the applicability date of this section, the Mayor shall permit persons to submit requests through the District's 311 system regarding noise complaints. The 311 system shall provide categories for noise complaints, such as trash truck noise,  violations of D.C. Official Code § 25-725, or noise related to amplified sound on public space, and route the complaint to the appropriate enforcement agency.</text>
+        <text>No later than one year after the applicability date of this section, the Mayor shall permit persons to submit requests through the District's 311 system regarding noise complaints. The 311 system shall provide categories for noise complaints, such as trash truck noise,  violations of <code-cite doc="D.C. Code" path="§25-725">D.C. Official Code § 25-725</code-cite>, or noise related to amplified sound on public space, and route the complaint to the appropriate enforcement agency.</text>
       </para>
       <para>
         <num>(e)</num>
         <text>No later than one year after the applicability date of this section, and each year thereafter, the Mayor shall submit to the Council a report of the number of requests for service received pursuant to subsection (d) of this section and the number of warnings and citations issued for violations of the District's noise control laws and regulations.</text>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-313" path="§202" applicability-path="§401" action="creation of" display-template=""/>
     </section>
   </container>
   <container>
+    <codify:marginalia display="DCMR"/>
     <prefix>TITLE</prefix>
     <num>III</num>
     <heading>NOISE CONTROL AMENDMENTS</heading>
@@ -377,6 +412,12 @@
       <para>
         <num>(a)</num>
         <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+        <codify:applicability doc="D.C. Law 25-313" path="§102" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 25-313" path="§103" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 25-313" path="§104" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 25-313" path="§105" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 25-313" path="§106" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 25-313" path="§202" date="notfunded" history="false" display-template=""/>
       </para>
       <para>
         <num>(b)</num>

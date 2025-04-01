@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-312">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-312" codify:doc="D.C. Code">
   <num type="law">25-312</num>
   <num type="act">25-715</num>
   <num type="bill">25-577</num>
@@ -22,18 +22,23 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Public Life and Activity Zones Amendment ("PLAZA") Act of 2024".</text>
-  <section>
+  <section codify:path="§7-551.01|(c)">
     <num>2</num>
     <text>Subsection 2(c) of the Safe at Home Act of 2016, effective November 26, 2016 (D.C. Law 21-168; D.C. Official Code § 7-551.01(c)), is amended as follows:</text>
-    <para>
+    <para codify:path="(7)">
       <num>(a)</num>
       <text>Paragraph (7) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+      <codify:find-replace count="1">
+        <find>; and</find>
+        <replace>;</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>A new paragraph (7A) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(7)" num-value="(7A)"/>
           <num>(7A)</num>
           <text>Modifications to improve the physical accessibility of an off-street parking space; and</text>
         </para>
@@ -49,6 +54,7 @@
       <text>A new section 108 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="50|19B" after="§50-1951.07" num-value="50-1951.08" history-prefix="as added"/>
           <num>108</num>
           <heading proof="needed">Multimodal metrics of effectiveness.</heading>
           <para>
@@ -98,12 +104,14 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 21-155" type="History" path="§108">Oct. 8, 2016, D.C. Law 21-155, § 108</annotation>
     </para>
     <para>
       <num>(b)</num>
       <text>A new section 202 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="50|23C" after="§50-2371" num-value="50-2372" history-prefix="as added"/>
           <num>202</num>
           <heading proof="needed">Public Life and Activity Zones Program.</heading>
           <para>
@@ -252,25 +260,36 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <annotation doc="D.C. Law 21-155" type="History" path="§202">Oct. 8, 2016, D.C. Law 21-155, § 202</annotation>
+      <codify:not-funded-anno doc="D.C. Law 25-312" path="§3|(b)" applicability-path="§7" action="creation of" display-template=""/>
     </para>
   </section>
   <section>
     <num>4</num>
     <text>The Block Party Act of 2012, effective October 23, 2012 (D.C. Law 19-190; D.C. Official Code § 9-631 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§9-631">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 9-631) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Existing paragraphs (1) and (2) are redesignated as paragraphs (2) and (3), respectively.</text>
+        <codify:find-replace count="1">
+          <find>(1)</find>
+          <replace>(2)</replace>
+        </codify:find-replace>
+        <codify:find-replace position="2">
+          <find>(2)</find>
+          <replace>(3)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (1) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert before="(2)" num-value="(1)"/>
             <num>(1)</num>
-            <text>"Authorized resident" means a District resident who was listed on a block party preauthorization application, as described in section 3a(b)(2), that has been approved by the Department and can submit an expedited block party application for a preauthorized block on which they reside.</text>
+            <text>"Authorized resident" means a District resident who was listed on a block party preauthorization application, as described in <code-cite doc="D.C. Code" path="§9-632.01|(b)|(2)">section 3a(b)(2)</code-cite>, that has been approved by the Department and can submit an expedited block party application for a preauthorized block on which they reside.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -280,19 +299,22 @@
         <text>A new paragraph (4) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(3)" num-value="(4)"/>
             <num>(4)</num>
-            <text>"Preauthorized block" means a section of roadway for which an authorized resident can submit an expedited block party application following the approval of a block party preauthorization application as described in sections 3a and 4.</text>
+            <text>"Preauthorized block" means a section of roadway for which an authorized resident can submit an expedited block party application following the approval of a block party preauthorization application as described in <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§9-632.01" codify:value="9-632.01">3a</code-cite> and <code-cite doc="D.C. Code" path="§9-633" codify:value="9-633">4</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-312" path="§4|(a)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§9-632">
       <num>(b)</num>
       <text>Section 3 (D.C. Official Code § 9-632) is amended to read as follows:</text>
       <include>
         <section>
-          <num>3</num>
+          <codify:replace/>
+          <num codify:value="9-632">3</num>
           <heading proof="needed">Block party application and requirements.</heading>
           <para>
             <num>(a)</num>
@@ -324,7 +346,7 @@
                 <text>Include either:</text>
                 <para>
                   <num>(i)</num>
-                  <text>A list of at least 51% of the residents, owners, or businesses abutting the section of the street requested to be closed who have consented to the block party, excluding any property that has been identified as a vacant building, as that term is defined in section 5(5) of An Act To provide for the abatement of nuisances in the District of Columbia by the Commissioner of said District, and for other purposes, approved April 14, 1906 (34 Stat. 114; D.C. Official Code § 42-3131.05(5)); or</text>
+                  <text>A list of at least 51% of the residents, owners, or businesses abutting the section of the street requested to be closed who have consented to the block party, excluding any property that has been identified as a vacant building, as that term is defined in <code-cite doc="D.C. Code" path="§42-3131.05|(5)">section 5(5) of An Act To provide for the abatement of nuisances in the District of Columbia by the Commissioner of said District, and for other purposes, approved April 14, 1906 (34 Stat. 114; D.C. Official Code § 42-3131.05(5))</code-cite>; or</text>
                 </para>
                 <para>
                   <num>(ii)</num>
@@ -355,12 +377,14 @@
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 25-312" path="§4|(b)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="9|6A">
       <num>(c)</num>
       <text>A new section 3a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert after="§9-632" num-value="9-632.01" history-prefix="as added"/>
           <num>3a</num>
           <heading proof="needed">Block party preauthorization application; expedited block party application.</heading>
           <para>
@@ -375,7 +399,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>In addition to the requirements for block party applications described in section 3(b)(2), the block party preauthorization application:</text>
+              <text>In addition to the requirements for block party applications described in <code-cite doc="D.C. Code" path="§9-632|(b)|(2)">section 3(b)(2)</code-cite>, the block party preauthorization application:</text>
               <para>
                 <num>(A)</num>
                 <text>Shall include</text>
@@ -400,11 +424,11 @@
                 <text>The designation of a preauthorized block shall remain in effect for the purposes of requesting an expedited block party application for the following time periods:</text>
                 <para>
                   <num>(i)</num>
-                  <text>For block party preauthorization applications approved within one year after the effective date of the Public Life and Activity Zones Amendment ("PLAZA") Act of 2024, as approved by the Committee on Transportation and the Environment on November 25, 2024 (Committee print of Bill 25-577), a preauthorized block shall be effective for 6 months after the date the block party preauthorization application was approved, or until the end of the calendar year during which the block party preauthorization application was approved, whichever occurs first; or</text>
+                  <text>For block party preauthorization applications approved within one year after <span codify:value="March 21, 2025">the effective date of the Public Life and Activity Zones Amendment ("PLAZA") Act of 2024, as approved by the Committee on Transportation and the Environment on November 25, 2024 (Committee print of Bill 25-577)</span>, a preauthorized block shall be effective for 6 months after the date the block party preauthorization application was approved, or until the end of the calendar year during which the block party preauthorization application was approved, whichever occurs first; or</text>
                 </para>
                 <para>
                   <num>(ii)</num>
-                  <text>For block party preauthorization applications approved on or after the date that is one year after the effective date of the Public Life and Activity Zones Amendment ("PLAZA") Act of 2024, as approved by the Committee on Transportation and the Environment on November 25, 2024 (Committee print of Bill 25-577), preauthorization shall be effective for one calendar year.</text>
+                  <text>For block party preauthorization applications approved on or after the date that is one year after <span codify:value="March 21, 2025">the effective date of the Public Life and Activity Zones Amendment ("PLAZA") Act of 2024, as approved by the Committee on Transportation and the Environment on November 25, 2024 (Committee print of Bill 25-577)</span>, preauthorization shall be effective for one calendar year.</text>
                 </para>
               </para>
               <para>
@@ -473,7 +497,7 @@
           </para>
           <para>
             <num>(e)</num>
-            <text>An authorized resident may submit an expedited block party application for any day that is not prohibited by the Department in the block party preauthorization permit as described in section 4(b-2) and is:</text>
+            <text>An authorized resident may submit an expedited block party application for any day that is not prohibited by the Department in the block party preauthorization permit as described in <code-cite doc="D.C. Code" path="§9-633|(b-2)">section 4(b-2)</code-cite> and is:</text>
             <para>
               <num>(1)</num>
               <text>A weekend;</text>
@@ -491,27 +515,37 @@
               <text>A scheduled day off for all students during the District of Columbia Public Schools school year.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 19-190" type="History" path="§3a">Oct. 8, 2016, D.C. Law 19-190, § 3a</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 25-312" path="§4|(c)" applicability-path="§7" action="creation of" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§9-633">
       <num>(d)</num>
       <text>Section 4 (D.C. Official Code § 9-633) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
-        <text>Subsection (a) is amended by striking the phrase "approving block party</text>
-        <text>applications" and inserting the phrase "approving block party, expedited block party, and block party preauthorization applications" in its place.</text>
+        <text>Subsection (a) is amended by striking the phrase "approving block party applications" and inserting the phrase "approving block party, expedited block party, and block party preauthorization applications" in its place.</text>
+        <codify:find-replace count="1">
+          <find>approving block party applications</find>
+          <replace>approving block party, expedited block party, and block party preauthorization applications</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(b)">
         <num>(2)</num>
         <text>Subsection (b) is amended by striking the phrase "a completed application" and inserting the phrase "a completed block party application or block party preauthorization application" in its place.</text>
+        <codify:find-replace count="1">
+          <find>a completed application</find>
+          <replace>a completed block party application or block party preauthorization application</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>New subsections (b-1) and (b-2) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(b)" num-value="(b-1)"/>
             <num>(b-1)</num>
             <text>The Department shall approve or deny, and notify the applicant of its determination, for:</text>
             <para>
@@ -528,23 +562,29 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(b-1)" num-value="(b-2)"/>
             <num>(b-2)</num>
             <text>When notifying an applicant of its approval of a block party preauthorization application, the Department may place additional reasonable restrictions and conditions on permits for expedited block parties, including restrictions or on the dates and times that the street is eligible for closure or conditions on the manner of closure.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-312" path="§4|(d)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§9-634">
       <num>(e)</num>
       <text>Section 5 (D.C. Official Code § 9-634) is amended as follows:</text>
-      <para>
+      <para codify:path="(b)">
         <num>(1)</num>
         <text>The lead-in language of subsection (b) is amended to read as follows:</text>
         <include>
           <para>
             <num>(b)</num>
             <text>A block party application or expedited block party application shall not be denied unless:</text>
+            <codify:find-replace count="1">
+              <find>An application for a block party shall not be denied unless:</find>
+              <replace>A block party application or expedited block party application shall not be denied unless:</replace>
+            </codify:find-replace>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -554,11 +594,12 @@
         <text>A new subsection (c) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(b)" num-value="(c)"/>
             <num>(c)</num>
             <text>An application for a block party preauthorization shall not be denied unless the Department determines that:</text>
             <para>
               <num>(1)</num>
-              <text>The application fails to meet the requirements of section 3a;</text>
+              <text>The application fails to meet the requirements of <code-cite doc="D.C. Code" path="§9-632.01">section 3a</code-cite>;</text>
             </para>
             <para>
               <num>(2)</num>
@@ -572,20 +613,30 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-312" path="§4|(e)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
   </section>
-  <section>
+  <section codify:path="§47-2862|(d)">
     <num>5</num>
     <text>Section 47-2862(d) of the District of Columbia Official Code is amended by striking the phrase "to an applicant for a block party permit pursuant" and inserting the phrase "to an application for a block party permit, an expedited block party permit, or a block party preauthorization permit pursuant" in its place.</text>
+    <codify:find-replace count="1">
+      <find>to an applicant for a block party permit pursuant</find>
+      <replace>to an application for a block party permit, an expedited block party permit, or a block party preauthorization permit pursuant</replace>
+    </codify:find-replace>
+    <codify:not-funded-anno doc="D.C. Law 25-312" path="§5" applicability-path="§7" action="amendment to" display-template=""/>
   </section>
   <section>
     <num>6</num>
     <text>The Autonomous Vehicle Act of 2012, effective April 23, 2013 (D.C. Law 19-278; D.C. Official Code § 50-2351 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§50-2351|(1D)">
       <num>(a)</num>
       <text>Section 2(1D) (D.C. Official Code § 50-2351(1D)) is amended by striking the phrase "means a person applying" and inserting the phrase "means a person or entity applying" in its place.</text>
+      <codify:find-replace count="1">
+        <find>means a person applying</find>
+        <replace>means a person or entity applying</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§50-2352.01">
       <num>(b)</num>
       <text>Section 3a (D.C. Official Code § 50-2352.01) is amended as follows:</text>
       <para>
@@ -593,6 +644,7 @@
         <text>Subsection (d) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace codify:path="(d)"/>
             <num>(d)</num>
             <text>A person or entity shall not test or operate an autonomous vehicle on a District roadway without an AV testing permit, unless the Department has not yet made an AV testing permit application available and:</text>
             <para>
@@ -631,11 +683,12 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(f)|(1)|(E)">
         <num>(2)</num>
         <text>Subsection (f)(1)(E) is amended to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:replace/>
             <num>(E)</num>
             <text>An increase in the number of vehicles tested;</text>
           </para>
@@ -643,18 +696,19 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§50-2352.02">
       <num>(c)</num>
       <text>Section 3b (D.C. Official Code § 50-2352.02) is amended to read as follows:</text>
       <include>
         <section>
-          <num>3b</num>
+          <codify:replace/>
+          <num codify:value="50-2352.02">3b</num>
           <heading proof="needed">Restrictions on testing.</heading>
           <para>
             <num>(a)</num>
             <para>
               <num>(1)</num>
-              <text>The Department may order an AV testing entity to temporarily restrict testing on select roadways, or District-wide, under certain circumstances identified by the Department through rulemaking, including a person or entity's failure to comply with the requirements of this act or other applicable laws, emergencies, special events, or specific roadway conditions that raise safety concerns.</text>
+              <text>The Department may order an AV testing entity to temporarily restrict testing on select roadways, or District-wide, under certain circumstances identified by the Department through rulemaking, including a person or entity's failure to comply with the requirements of <code-cite doc="D.C. Code" path="50|23A">this act</code-cite> or other applicable laws, emergencies, special events, or specific roadway conditions that raise safety concerns.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -669,33 +723,50 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§50-2352.03">
       <num>(d)</num>
       <text>Section 3c (D.C. Official Code § 50-2352.03) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the phrase "a semi-annual basis" and inserting the phrase "a quarterly basis" in its place.</text>
+        <codify:find-replace count="1">
+          <find>a semi-annual basis</find>
+          <replace>a quarterly basis</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "An AV testing entity shall" and inserting the phrase "An AV testing entity, or a person or entity engaged in AV testing as described in section 3a(d), shall" in its place.</text>
+          <codify:find-replace count="1">
+            <find>An AV testing entity shall</find>
+            <replace>An AV testing entity, or a person or entity engaged in AV testing as described in <code-cite doc="D.C. Code" path="§50-2352.01|(d)">section 3a(d)</code-cite>, shall</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "AV testing entity shall" and inserting the phrase "AV testing entity, or the person or entity engaged in AV testing as described in section 3a(d), shall" in its place.</text>
+          <codify:find-replace count="1">
+            <find>AV testing entity shall</find>
+            <replace>AV testing entity, or the person or entity engaged in AV testing as described in section <code-cite doc="D.C. Code" path="§50-2352.01|(d)">3a(d)</code-cite>, shall</replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
-    <para>
+    <para codify:path="§50-2352.05">
       <num>(e)</num>
       <text>Section 3e (D.C. Official Code § 50-2352.05) is repealed.</text>
+      <codify:repeal/>
     </para>
-    <para>
+    <para codify:path="§50-2352.06|(a)|(1)">
       <num>(f)</num>
       <text>Section 3f(a)(1) (D.C. Official Code § 50-2352.06(a)(1)) is amended by striking the phrase "An AV testing entity" and inserting the phrase "A person or entity" in its place.</text>
+      <codify:find-replace count="1">
+        <find>An AV testing entity</find>
+        <replace>A person or entity</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
@@ -704,6 +775,23 @@
     <para>
       <num>(a)</num>
       <text>Sections 3(b), 4, and 5 shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 25-312" path="§3|(b)" date="notfunded" history="false" display-template=""/>
+      <!-- <codify:applicability doc="D.C. Law 25-312" path="§4|(a)" date="notfunded" history="false" display-template=""/> -->
+      <codify:repeal path="§9-631|(1)"/>
+      <codify:find-replace path="§9-631|(1)" count="1">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
+      <codify:repeal path="§9-631|(4)"/>
+      <codify:find-replace path="§9-631|(4)" count="1">
+        <find>Repealed</find>
+        <replace>Not Funded</replace>
+      </codify:find-replace>
+      <codify:applicability doc="D.C. Law 25-312" path="§4|(b)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-312" path="§4|(c)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-312" path="§4|(d)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-312" path="§4|(e)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-312" path="§5" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
