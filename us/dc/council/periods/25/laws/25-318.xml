@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-318">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-318" codify:doc="D.C. Code">
   <num type="law">25-318</num>
   <num type="act">25-717</num>
   <num type="bill">25-750</num>
@@ -22,12 +22,20 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Harmonious Living Amendment Act of 2024".</text>
+  <codify:insert doc="D.C. Code" path="6" after="14B" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>14C</num>
+      <heading>Sound Level Reduction Design Requirements.</heading>
+    </container>
+  </codify:insert>
   <section>
+    <codify:insert path="6|14C" num-value="6-1455.01"/>
     <num>2</num>
     <heading proof="needed">Definitions.</heading>
     <para>
       <num>(a)</num>
-      <text>For purposes of this act, the term:</text>
+      <text>For purposes of  <span codify:value="[this chapter and §34-1252.04]">this act</span>, the term:</text>
       <para>
         <num>(1)</num>
         <text>"Activity area" includes any parcel or lot within, or with exterior boundaries abutting, the following zones as defined in Title 11 of the District of Columbia Municipal Regulations:</text>
@@ -50,11 +58,11 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>"Construction codes" shall have the same meaning as provided in section 2(2) of the Construction Codes Approval and Amendments Act of 1986, effective March 21, 1987 (D.C. Law 6-216; D.C. Official Code § 6-1401(2)).</text>
+        <text>"Construction codes" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§6-1401|(2)">section 2(2) of the Construction Codes Approval and Amendments Act of 1986, effective March 21, 1987 (D.C. Law 6-216; D.C. Official Code § 6-1401(2))</code-cite>.</text>
       </para>
       <para>
         <num>(3)</num>
-        <text>"Dwelling unit" means a room or group of rooms that form a single independent habitable unit for permanent occupation by one or more individuals and that has living facilities with permanent provisions for living, sleeping, eating, and sanitation. The term "dwelling unit" does not include a unit within a hotel, motel, or seasonal or transient facility, unless such unit is or will be occupied by a person at risk, as defined in section 2(31) of the Lead-Hazard Prevention and Elimination Act of 2008, effective March 31, 2009 (D.C. Law 17-381; D.C. Official Code § 8-231.01(31)), for a period exceeding 30 days.</text>
+        <text>"Dwelling unit" means a room or group of rooms that form a single independent habitable unit for permanent occupation by one or more individuals and that has living facilities with permanent provisions for living, sleeping, eating, and sanitation. The term "dwelling unit" does not include a unit within a hotel, motel, or seasonal or transient facility, unless such unit is or will be occupied by a person at risk, as defined in <code-cite doc="D.C. Code" path="§8-231.01|(31)">section 2(31) of the Lead-Hazard Prevention and Elimination Act of 2008, effective March 31, 2009 (D.C. Law 17-381; D.C. Official Code § 8-231.01(31))</code-cite>, for a period exceeding 30 days.</text>
       </para>
       <para>
         <num>(4)</num>
@@ -65,11 +73,11 @@
         <text>"Entertainment venue" means:</text>
         <para>
           <num>(A)</num>
-          <text>An establishment with an on-premises retailer's license for a nightclub, club, or multipurpose facility as provided for in D.C. Official Code § 25-113;</text>
+          <text>An establishment with an on-premises retailer's license for a nightclub, club, or multipurpose facility as provided for in <code-cite doc="D.C. Code" path="§25-113">D.C. Official Code § 25-113</code-cite>;</text>
         </para>
         <para>
           <num>(B)</num>
-          <text>An establishment with a manufacturer's license, class A, B, or C, holding an on-site sales and consumption permit or a retailer's license, class C/R, D/R, C/H, D/H, C/T, D/T, C/B, and D/B, with an entertainment endorsement as provided for in D.C. Official Code § 25-113.01; or</text>
+          <text>An establishment with a manufacturer's license, class A, B, or C, holding an on-site sales and consumption permit or a retailer's license, class C/R, D/R, C/H, D/H, C/T, D/T, C/B, and D/B, with an entertainment endorsement as provided for in <code-cite doc="D.C. Code" path="§25-113.01">D.C. Official Code § 25-113.01</code-cite>; or</text>
         </para>
         <para>
           <num>(C)</num>
@@ -85,13 +93,15 @@
         <text>"Residential property" means improved real property used exclusively for non-transient residential dwelling purposes.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-318" path="§2" applicability-path="§7" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert path="6|14C" after="§6-1455.01" num-value="6-1455.02"/>
     <num>3</num>
     <heading proof="needed">Sound level reduction design guidelines and requirements rulemaking.</heading>
     <para>
       <num>(a)</num>
-      <text>No later than 2 years after the applicability date of this act, the Construction Codes Coordinating Board shall promulgate rules amending the Construction Codes to establish sound level reduction design requirements for any new residential property construction within an activity area or an entertainment area. Such requirements shall consider:</text>
+      <text>No later than 2 years after the applicability date of <code-cite doc="D.C. Code" path="6|14C">this act</code-cite>, the Construction Codes Coordinating Board shall promulgate rules amending the Construction Codes to establish sound level reduction design requirements for any new residential property construction within an activity area or an entertainment area. Such requirements shall consider:</text>
       <para>
         <num>(1)</num>
         <text>Sound attenuation measures in entertainment areas that account for frequencies below 125 hertz; and</text>
@@ -103,10 +113,12 @@
     </para>
     <para>
       <num>(b)</num>
-      <text>No later than one year after the applicability date of this act, the Mayor shall publish guidelines and principles for sound level reduction in activity areas and entertainment areas to ensure that established entertainment and sound-generating uses remain viable and can continue or grow without unreasonable restrictions.</text>
+      <text>No later than one year after the applicability date of <code-cite doc="D.C. Code" path="6|14C">this act</code-cite>, the Mayor shall publish guidelines and principles for sound level reduction in activity areas and entertainment areas to ensure that established entertainment and sound-generating uses remain viable and can continue or grow without unreasonable restrictions.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-318" path="§3" applicability-path="§7" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert path="6|14C" after="§6-1455.02" num-value="6-1455.03"/>
     <num>4</num>
     <heading proof="needed">Sound level disclosure.</heading>
     <para>
@@ -139,19 +151,21 @@
     </para>
     <para>
       <num>(d)</num>
-      <text>No later than 6 months after the applicability date of this act, the Mayor shall make publicly available the sound disclosure form required by subsection (b) of this section.</text>
+      <text>No later than 6 months after the applicability date of <code-cite doc="D.C. Code" path="6|14C">this act</code-cite>, the Mayor shall make publicly available the sound disclosure form required by subsection (b) of this section.</text>
     </para>
     <para>
       <num>(e)</num>
       <text>A transfer subject to this section shall not be invalidated solely because of the failure of any person to comply with any provisions of this section.</text>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-318" path="§4" applicability-path="§7" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert path="6|14C" after="§6-1455.03" num-value="6-1455.04"/>
     <num>5</num>
     <heading proof="needed">Grants for soundproofing upgrades.</heading>
     <para>
       <num>(a)</num>
-      <text>No later than one year after the applicability date of this act, the Mayor shall establish a grant program to support the installation of measures mitigating sound transfer between an entertainment venue and abutting or nearby residential properties. Eligibility for grants shall be limited to:</text>
+      <text>No later than one year after the applicability date of <code-cite doc="D.C. Code" path="6|14C">this act</code-cite>, the Mayor shall establish a grant program to support the installation of measures mitigating sound transfer between an entertainment venue and abutting or nearby residential properties. Eligibility for grants shall be limited to:</text>
       <para>
         <num>(1)</num>
         <text>Property owners whose dwelling unit or residential property are entirely located within an activity area or entertainment area; provided, that a property owner shall demonstrate that:</text>
@@ -175,7 +189,7 @@
     </para>
     <para>
       <num>(b)</num>
-      <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue rules to implement the provisions of this section. The rules shall, at a minimum, include the following:</text>
+      <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue rules to implement the provisions of this section. The rules shall, at a minimum, include the following:</text>
       <para>
         <num>(1)</num>
         <text>The maximum grant award amount for eligible property owners and entertainment venues;</text>
@@ -189,12 +203,14 @@
         <text>A process or criteria that will prioritize grant funding for eligible property owners who are low-income or live in older properties. For purposes of this paragraph, the term "low-income" means the property owner has a household income that is 60% or less of the median family income.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 25-318" path="§5" applicability-path="§7" action="creation of" display-template=""/>
   </section>
   <section>
     <num>6</num>
     <text>The Office of Cable Television, Film, Music, and Entertainment Amendment Act of 2015, effective October 9, 2002 (D.C. Law 14-193; D.C. Official Code § 34-1252.01 <em>et seq.</em>), is amended by adding a new section 204 to read as follows:</text>
     <include>
       <section>
+        <codify:insert path="34|12|II|B" after="§34-1252.03" num-value="34-1252.04" history-prefix="as added"/>
         <num>204</num>
         <heading proof="needed">Outdoor performances.</heading>
         <para>
@@ -267,9 +283,11 @@
             </para>
           </para>
         </para>
+        <annotation doc="D.C. Law 14-193" type="History" path="§204">Oct. 9, 2002, D.C. Law 14-193, § 204</annotation>
       </section>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Law 25-318" path="§6" applicability-path="§7" action="creation of" display-template=""/>
   </section>
   <section>
     <num>7</num>
@@ -277,6 +295,11 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 25-318" path="§2" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-318" path="§3" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-318" path="§4" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-318" path="§5" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-318" path="§6" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-321">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 25-321" codify:doc="D.C. Code">
   <num type="law">25-321</num>
   <num type="act">25-720</num>
   <num type="bill">25-826</num>
@@ -25,11 +25,12 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Recidivism Reduction at DYRS Amendment Act of 2024".</text>
-  <section>
+  <section codify:path="1|3|I|J">
     <num>2</num>
     <text>The District of Columbia Auditor Subpoena and Oath Authority Act of 2004, effective April 22, 2004 (D.C. Law 15-146; D.C. Official Code § 1-301.171 <em>et seq</em>.), is amended by adding a new section 4d to read as follows:</text>
     <include>
       <section>
+        <codify:insert after="§1-301.176" num-value="1-301.177" history-prefix="as added"/>
         <num>4d</num>
         <heading proof="needed">Oversight of juvenile justice facilities.</heading>
         <para>
@@ -41,7 +42,7 @@
           </para>
           <para>
             <num>(2)</num>
-            <text>"Department" means the Department of Youth Rehabilitation Services established by section 102 of the Department of Youth Rehabilitation Services Establishment Act of 2004, effective April 12, 2005 (D.C. Law 15-335; D.C. Official Code § 2-1515.02).</text>
+            <text>"Department" means the Department of Youth Rehabilitation Services established by <code-cite doc="D.C. Code" path="§2-1515.02">section 102 of the Department of Youth Rehabilitation Services Establishment Act of 2004, effective April 12, 2005 (D.C. Law 15-335; D.C. Official Code § 2-1515.02)</code-cite>.</text>
           </para>
           <para>
             <num>(3)</num>
@@ -61,30 +62,37 @@
           </para>
           <para>
             <num>(2)</num>
-            <text>Monitor and publicly report on the completeness and timeliness, based on a prima facie review, of individualized rehabilitation plans developed by the Department pursuant to D.C. Official Code § 16-2319.</text>
+            <text>Monitor and publicly report on the completeness and timeliness, based on a prima facie review, of individualized rehabilitation plans developed by the Department pursuant to <code-cite doc="D.C. Code" path="§16-2319">D.C. Official Code § 16-2319.</code-cite></text>
           </para>
         </para>
       </section>
     </include>
     <aftertext>.</aftertext>
+    <annotation doc="D.C. Law 15-146" type="History" path="§4d">Apr. 22, 2004, D.C. Law 15-146, § 4d</annotation>
+    <codify:not-funded-anno doc="D.C. Law 25-321" path="§2" applicability-path="§7" action="creation of" display-template=""/>
   </section>
   <section>
     <num>3</num>
     <text>The Department of Youth Rehabilitation Services Establishment Act of 2004, effective April 12, 2005 (D.C. Law 15-335; D.C. Official Code § 2-1515.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§2-1515.01">
       <num>(a)</num>
       <text>Section 101 (D.C. Official Code § 2-1515.01) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Paragraph (9B) is redesignated as paragraph (9C).</text>
+        <codify:find-replace count="1">
+          <find>(9B)</find>
+          <replace>(9C)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (9B) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(9A)" num-value="(9B)"/>
             <num>(9B)</num>
-            <text>"Individualized rehabilitation plan" means a written plan, developed and completed pursuant to D.C. Official Code § 16-2319, with clearly identified goals that are based upon a review of all pertinent circumstances in the child's background, including:</text>
+            <text>"Individualized rehabilitation plan" means a written plan, developed and completed pursuant to <code-cite doc="D.C. Code" path="§16-2319">D.C. Official Code § 16-2319</code-cite>, with clearly identified goals that are based upon a review of all pertinent circumstances in the child's background, including:</text>
             <para>
               <num>(A)</num>
               <text>The child's criminal risk factors and criminogenic needs, as identified and evaluated through a validated risk and needs assessment;</text>
@@ -104,14 +112,21 @@
           </para>
         </include>
         <aftertext>.</aftertext>
+        <!-- comment the below instructions out once Law is funded -->
+        <codify:repeal path="§2-1515.01|(9B)"/>
+        <codify:find-replace path="§2-1515.01|(9B)" count="1">
+          <find>Repealed.</find>
+          <replace>Not Funded.</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num codify:value="[3]">(4)</num>
         <text>A new paragraph (10A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(10)" num-value="(10A)"/>
             <num>(10A)</num>
-            <text>"Predisposition meeting" means a meeting conducted pursuant to D.C. Official Code § 16-2319 for a child for whom a recommendation to commit has been received by the Department to review a child's validated risk and needs assessment and to begin the development of an individualized rehabilitation plan for the child at which the Department shall:</text>
+            <text>"Predisposition meeting" means a meeting conducted pursuant to <code-cite doc="D.C. Code" path="§16-2319">D.C. Official Code § 16-2319</code-cite> for a child for whom a recommendation to commit has been received by the Department to review a child's validated risk and needs assessment and to begin the development of an individualized rehabilitation plan for the child at which the Department shall:</text>
             <para>
               <num>(A)</num>
               <text>Allow the child, the child's attorney, the child's parent, guardian, or custodian, the Department pre-commitment worker, a Court Social Services representative, a Child and Family Services Agency representative, if relevant, or any other individual requested by the Department the opportunity to participate; and</text>
@@ -124,11 +139,12 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(11)">
         <num codify:value="[4]">(5)</num>
         <text>Paragraph (11) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(11)</num>
             <text>"Rehabilitative services" means services designed to reduce the risk of recidivism and assist youth in acquiring, retaining, and improving their socialization, behavioral, and generic competency skills.</text>
           </para>
@@ -136,102 +152,132 @@
         <aftertext>.</aftertext>
       </para>
       <para>
-        <num>(6)</num>
+        <num codify:value="[5]">(6)</num>
         <text>A new paragraph (11B) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(11A)" num-value="(11B)"/>
             <num>(11B)</num>
             <text>"Validated risk and needs assessment" means an instrument demonstrated by scientific research to be accurate and reliable in assessing the criminal risk factors and criminogenic needs of a child that, if addressed, should reduce the child's likelihood of reoffending.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-321" path="§3|(a)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§2-1515.04">
       <num>(b)</num>
       <text>Section 104 (D.C. Official Code § 2-1515.04) is amended as follows:</text>
-      <para>
+      <para codify:path="(9)">
         <num>(1)</num>
         <text>Paragraph (9) is amended by striking the phrase "and facilities;" and inserting the phrase "and facilities, including monitoring the conditions of Department-contracted community facilities, including shelter homes, group homes, residential facilities, and therapeutic foster care placements, whether within or outside the District, and those facilities' obligation to provide for the health, safety, and welfare of youth;" in its place.</text>
+        <codify:find-replace count="1">
+          <find>and facilities;</find>
+          <replace>and facilities, including monitoring the conditions of Department-contracted community facilities, including shelter homes, group homes, residential facilities, and therapeutic foster care placements, whether within or outside the District, and those facilities' obligation to provide for the health, safety, and welfare of youth;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(12)">
         <num>(2)</num>
         <text>Paragraph (12) is amended by striking the phrase "and the rehabilitative needs of youth in the juvenile justice system;" and inserting the phrase "and the rehabilitative needs of youth in the juvenile justice system, including by conducting regular oversight of the program and facility compliance;" in its place.</text>
+        <codify:find-replace count="1">
+          <find>and the rehabilitative needs of youth in the juvenile justice system;</find>
+          <replace>and the rehabilitative needs of youth in the juvenile justice system, including by conducting regular oversight of the program and facility compliance;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(17)">
         <num>(3)</num>
         <text>Paragraph (17) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; and</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(18)|(C)">
         <num>(4)</num>
         <text>Paragraph (18)(C) is amended by striking the period and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>.</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>New paragraphs (19) and (20) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(18)" num-value="(19)"/>
             <num>(19)</num>
-            <text>Performing validated risk and needs assessments, convening predisposition meetings, and developing, completing, and regularly updating individualized rehabilitation plans, pursuant to D.C. Official Code §§ 16-2319 and 16-2323; and</text>
+            <text>Performing validated risk and needs assessments, convening predisposition meetings, and developing, completing, and regularly updating individualized rehabilitation plans, pursuant to <span codify:value="§§">D.C. Official Code §§</span> <cite doc="D.C. Code" path="§16-2319">16-2319</cite> and <cite doc="D.C. Code" path="§16-2323">16-2323</cite>; and</text>
           </para>
           <para>
+            <codify:insert after="(19)" num-value="(20)"/>
             <num>(20)</num>
             <text>Cooperating with all reasonable requests of the District of Columbia Auditor, including by providing access to all facilities and youth confined in facilities, through unannounced and scheduled visits, subject to legitimate institutional needs based on safety considerations.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-321" path="§3|(b)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§2-1515.05">
       <num>(c)</num>
       <text>Section 105 (D.C. Official Code § 2-1515.05) is amended by adding a new subsection (j-1) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(j)" num-value="(j-1)"/>
           <num>(j-1)</num>
           <text>The Department shall not discipline or otherwise retaliate against a person who is or was previously detained by, in the custody of, or committed to the Department solely because the person provided information to the District of Columbia Auditor that the person reasonably believed to be true.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 25-321" path="§3|(c)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
   </section>
   <section>
     <num>4</num>
     <text>Chapter 23 of Title 16 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="§16-2301">
       <num>(a)</num>
       <text>Section 16-2301 is amended by adding new paragraphs (47), (48), (49), (50), and (51) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(46)" num-value="(47)"/>
           <num>(47)</num>
-          <text>The term "hardware secure facility" shall have the same meaning as provided in § 2-1515.01(9A).</text>
+          <text>The term "hardware secure facility" shall have the same meaning as provided in <cite doc="D.C. Code" path="§2-1515.01|(9A)">§ 2-1515.01(9A)</cite>.</text>
         </para>
         <para>
+          <codify:insert after="(47)" num-value="(48)"/>
           <num>(48)</num>
-          <text>The term "staff secure facility" shall have the same meaning as provided in § 2-1515.01(11A).</text>
+          <text>The term "staff secure facility" shall have the same meaning as provided in <cite doc="D.C. Code" path="§2-1515.01|(11A)">§ 2-1515.01(11A)</cite>.</text>
         </para>
         <para>
+          <codify:insert after="(48)" num-value="(49)"/>
           <num>(49)</num>
-          <text>The term "individualized rehabilitation plan" shall have the same meaning as provided in § 2-1515.01(9B).</text>
+          <text>The term "individualized rehabilitation plan" shall have the same meaning as provided in <cite doc="D.C. Code" path="§2-1515.01|(9B)">§ 2-1515.01(9B)</cite>.</text>
         </para>
         <para>
+          <codify:insert after="(49)" num-value="(50)"/>
           <num>(50)</num>
-          <text>The term "predisposition meeting" shall have the same meaning as provided in § 2-1515.01(10A).</text>
+          <text>The term "predisposition meeting" shall have the same meaning as provided in <cite doc="D.C. Code" path="§2-1515.01|(10A)">§ 2-1515.01(10A)</cite>.</text>
         </para>
         <para>
+          <codify:insert after="(50)" num-value="(51)"/>
           <num>(51)</num>
-          <text>The term "validated risk and needs assessment" shall have the same meaning as provided in § 2-1515.01(11B).</text>
+          <text>The term "validated risk and needs assessment" shall have the same meaning as provided in <cite doc="D.C. Code" path="§2-1515.01|(11B)">§ 2-1515.01(11B)</cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 25-321" path="§4|(a)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§16-2319">
       <num>(b)</num>
       <text>Section 16-2319 is amended as follows:</text>
-      <para>
+      <para codify:path="(d)">
         <num>(1)</num>
         <text>Subsection (d) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(d)</num>
             <text>Following Court Social Services's or the Office of the Attorney General's notice to the Division of its recommendation to commit a child to the Department of Youth Rehabilitation Services ("Department"), and the Department receiving such notice, the Department shall:</text>
             <para>
@@ -283,6 +329,7 @@
         <text>A new subsection (d-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(d)" num-value="(d-1)"/>
             <num>(d-1)</num>
             <text>For a validated risk and needs assessment required by subsection (d) of this section, the Department shall use a culturally and gender-informed instrument that identifies and evaluates:</text>
             <para>
@@ -310,6 +357,7 @@
         <text>Subsections (e), (f), and (g) are amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace path="(e)"/>
             <num>(e)</num>
             <text>At the predisposition meeting required by subsection (d) of this section, the Department shall:</text>
             <para>
@@ -322,29 +370,34 @@
             </para>
           </para>
           <para>
+            <codify:replace path="(f)"/>
             <num>(f)</num>
-            <text>When a child has been adjudicated delinquent and a dispositional order has been entered by the Division under §§ 16-2317 and 16-2320 transferring legal custody of a child to the Department, or a change in placement has been made pursuant to Chapter 12 of Title 29 of the District of Columbia Municipal Regulations (29 DCMR § 1200 <em>et seq.</em>) or any other provision of law, the Department shall implement the individualized rehabilitation plan required by subsection (d) of this section upon placement.</text>
+            <text>When a child has been adjudicated delinquent and a dispositional order has been entered by the Division under §§ <cite doc="D.C. Code" path="§16-2317">16-2317</cite> and <cite doc="D.C. Code" path="§16-2320">16-2320</cite> transferring legal custody of a child to the Department, or a change in placement has been made pursuant to Chapter 12 of Title 29 of the District of Columbia Municipal Regulations (29 DCMR § 1200 <em>et seq.</em>) or any other provision of law, the Department shall implement the individualized rehabilitation plan required by subsection (d) of this section upon placement.</text>
           </para>
           <para>
+            <codify:replace path="(g)"/>
             <num>(g)</num>
             <text>The Division may, on its own motion, on the motion of any party, or at the request of the Department, for good cause shown, extend the time periods set forth in subsections (d) and (f) of this section for completion of the validated risk and needs assessment and the individualized rehabilitation plan.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-321" path="§4|(b)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§16-2320">
       <num>(c)</num>
       <text>Section 16-2320 is amended by adding a new subsection (i) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(h)" num-value="(i)"/>
           <num>(i)</num>
           <text>For a child adjudicated delinquent and committed to the Department of Youth Rehabilitation Services, the Department of Youth Rehabilitation Services shall begin to develop a discharge and reentry plan within 60 days of the child's admittance into a hardware secure facility, residential treatment facility, psychiatric residential treatment facility, staff secure facility, therapeutic foster care placement through the Department of Youth Rehabilitation Services, or any other placement outside the child's family's, guardian's, or custodian's residence through the Department of Youth Rehabilitation Services.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 25-321" path="§4|(c)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§16-2323">
       <num>(d)</num>
       <text>Section 16-2323 is amended as follows:</text>
       <para>
@@ -352,8 +405,9 @@
         <text>Subsections (g) and (h) are amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace path="(g)"/>
             <num>(g)</num>
-            <text>When a child has been adjudicated delinquent and a dispositional order has been entered by the Division pursuant to § 16-2320, the Director of Court Social Services or the Department of Youth Rehabilitation Services, whichever is responsible for supervision of the disposition order, shall conduct periodic assessments of the child, and at least once every 90 days in the case of the Department of Youth Rehabilitation Services, to:</text>
+            <text>When a child has been adjudicated delinquent and a dispositional order has been entered by the Division pursuant to <cite doc="D.C. Code" path="§16-2320">§ 16-2320</cite>, the Director of Court Social Services or the Department of Youth Rehabilitation Services, whichever is responsible for supervision of the disposition order, shall conduct periodic assessments of the child, and at least once every 90 days in the case of the Department of Youth Rehabilitation Services, to:</text>
             <para>
               <num>(1)</num>
               <text>Determine if rehabilitative progress has been made and if the services provided to the child have been effective;</text>
@@ -364,14 +418,15 @@
             </para>
             <para>
               <num>(3)</num>
-              <text>Update the child's individualized rehabilitation plan completed pursuant to § 16-2319 as necessary.".</text>
+              <text>Update the child's individualized rehabilitation plan completed pursuant to <cite doc="D.C. Code" path="§16-2319">§ 16-2319</cite> as necessary.".</text>
             </para>
           </para>
           <para>
+            <codify:replace path="(h)"/>
             <num>(h)</num>
             <para>
               <num>(1)</num>
-              <text>Not more than once in a 4-month period, the child, or the child's parent, guardian, or custodian may petition the Division to modify a dispositional order, issued pursuant to § 16-2320, on the grounds that the child is not receiving appropriate services or level of placement.</text>
+              <text>Not more than once in a 4-month period, the child, or the child's parent, guardian, or custodian may petition the Division to modify a dispositional order, issued pursuant to <cite doc="D.C. Code" path="§16-2320">§ 16-2320</cite>, on the grounds that the child is not receiving appropriate services or level of placement.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -385,9 +440,11 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 25-321" path="§4|(d)" applicability-path="§7" action="amendment to" display-template=""/>
     </para>
   </section>
   <section>
+    <codify:marginalia display="Not Funded"/>
     <num>5</num>
     <heading proof="needed">Unified juvenile justice system plan.</heading>
     <para>
@@ -414,6 +471,39 @@
       <num>(b)</num>
       <text>In developing the plan required pursuant to subsection (a) of this section, the Mayor shall consult with, and consider any recommendations of, the Superior Court of the District of Columbia, the Office of the Attorney General, and the Public Defender Service for the District of Columbia. The plan shall include, as an attachment, any written recommendations submitted by these agencies and organizations.</text>
     </para>
+    <codify:annotation doc="D.C. Code" path="§2-1515.02" type="Editor's Notes" history="false">
+      <text>Section 5 of <cite doc="D.C. Law 25-321" path="§5">D.C. Law 25-321</cite> provided:</text>
+      <include>
+        <section>
+          <num>5</num>
+          <heading proof="needed">Unified juvenile justice system plan.</heading>
+          <para>
+            <num>(a)</num>
+            <text>No later than one year after the applicability date of this section, the Mayor shall submit to the Council a proposed plan to create a unified juvenile justice system in the District of Columbia. The plan shall include:</text>
+            <para>
+              <num>(1)</num>
+              <text>A list and detailed explanation of recommended actions that would enable the Department of Youth Rehabilitation Services to perform the intake, evaluation, predisposition supervision, and probation duties currently performed by the Court Social Services Division of the Superior Court of the District of Columbia;</text>
+            </para>
+            <para>
+              <num>(2)</num>
+              <text>A timeline for when the Department of Youth Rehabilitation Services could reasonably implement the actions listed pursuant to paragraph (1) of this subsection;</text>
+            </para>
+            <para>
+              <num>(3)</num>
+              <text>A detailed list of resources necessary to enable the Department of Youth Rehabilitation Services to perform the intake, evaluation, predisposition supervision, and probation duties currently performed by the Court Social Services Division of the Superior Court of the District of Columbia, including additional personnel, equipment, assessments, office space, and other material resources; and</text>
+            </para>
+            <para>
+              <num>(4)</num>
+              <text>Any statutory changes necessary to enable the Department of Youth Rehabilitation Services to perform the intake, evaluation, predisposition supervision, and probation duties currently handled by the Court Social Services Division of the Superior Court of the District of Columbia.</text>
+            </para>
+          </para>
+          <para>
+            <num>(b)</num>
+            <text>In developing the plan required pursuant to subsection (a) of this section, the Mayor shall consult with, and consider any recommendations of, the Superior Court of the District of Columbia, the Office of the Attorney General, and the Public Defender Service for the District of Columbia. The plan shall include, as an attachment, any written recommendations submitted by these agencies and organizations.</text>
+          </para>
+        </section>
+      </include>
+    </codify:annotation>
   </section>
   <section>
     <num>6</num>
@@ -434,6 +524,31 @@
         <text>A plan for how the facility will integrate with existing systems of care and community-based services to ensure continuity of treatment and support for youth upon discharge.</text>
       </para>
     </para>
+    <codify:annotation doc="D.C. Code" path="§2-1515.02" type="Editor's Notes" history="false">
+      <text>Section 6 of <cite doc="D.C. Law 25-321" path="§6">D.C. Law 25-321</cite> provided that:</text>
+      <include>
+        <section>
+          <num>6</num>
+          <heading proof="needed">Psychiatric Residential Treatment Facility plan.</heading>
+          <para>
+            <num>(a)</num>
+            <text>No later than 6 months after <span codify:value="[March 28, 2025]">the effective date of this act</span>, the Mayor shall submit to the Council a plan for the construction or adaptation of existing government-owned structures to operate a Psychiatric Residential Treatment Facility for youth in the District of Columbia. The plan, at a minimum, shall include:</text>
+            <para>
+              <num>(1)</num>
+              <text>Detailed costs necessary to construct and operate a Psychiatric Residential Treatment Facility for youth in the District of Columbia, including reimbursement rates;</text>
+            </para>
+            <para>
+              <num>(2)</num>
+              <text>A proposed timeline for the construction of the Psychiatric Residential Treatment Facility; and</text>
+            </para>
+            <para>
+              <num>(3)</num>
+              <text>A plan for how the facility will integrate with existing systems of care and community-based services to ensure continuity of treatment and support for youth upon discharge.</text>
+            </para>
+          </para>
+        </section>
+      </include>
+    </codify:annotation>
   </section>
   <section>
     <num>7</num>
@@ -441,6 +556,18 @@
     <para>
       <num>(a)</num>
       <text>Sections 2, 3, 4, and 5 of this act shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 25-321" path="§2" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-321" path="§3|(a)|(4)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-321" path="§3|(a)|(5)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-321" path="§3|(a)|(6)" date="notfunded" history="false" display-template=""/>
+      <!-- comment the additional "Repealed/Not Funded" "find/replace" instructions in sec. 3(a)(2) once funded -->
+      <codify:applicability doc="D.C. Law 25-321" path="§3|(b)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-321" path="§3|(c)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-321" path="§4|(a)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-321" path="§4|(b)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-321" path="§4|(c)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-321" path="§4|(d)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-321" path="§5" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
