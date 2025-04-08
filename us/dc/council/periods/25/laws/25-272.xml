@@ -47,12 +47,12 @@
         <text>New paragraphs (5A) and (5B) are added to read as follows:</text>
         <include lvl="1">
           <para>
-          <codify:insert after="(5)" num-value="(5A)"/>
+            <codify:insert after="(5)" num-value="(5A)"/>
             <num>(5A)</num>
             <text>"Seizure action plan" means a written, individualized health plan designed to acknowledge and prepare for the health care needs of a student diagnosed with a seizure disorder.</text>
           </para>
           <para>
-          <codify:insert after="(5A)" num-value="(5B)"/>
+            <codify:insert after="(5A)" num-value="(5B)"/>
             <num>(5B)</num>
             <text>"Seizure treatment" means seizure medication, a Vagus Nerve Stimulator magnet, or other medical treatments prescribed by a physician for an individual diagnosed with a seizure disorder.</text>
           </para>
@@ -62,7 +62,11 @@
       <para>
         <num>(3)</num>
         <text>Paragraph (7A) is redesignated as paragraph (8).</text>
-        <codify:redesignate-para path="[(8)]" num-value="(8)"/>
+        <!-- <codify:redesignate-para path="[(8)]" num-value="(8)"/> -->
+        <codify:find-replace count="1">
+          <find>[(8)]</find>
+          <replace>(8)</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para codify:path="§38-651.02|(a)">
@@ -102,7 +106,7 @@
       <text>A new section 4a is added to read as follows:</text>
       <include>
         <section>
-        <codify:insert path="38|6|IV" after="§38-651.03" num-value="38-651.03a"/>
+          <codify:insert path="38|6|IV" after="§38-651.03" num-value="38-651.03a"/>
           <num>4a</num>
           <heading proof="needed">Seizure action plan and training requirements.</heading>
           <para>
@@ -206,7 +210,7 @@
         <text>A new subsection (b) is added to read as follows:</text>
         <include>
           <para>
-          <codify:insert after="(a)" num-value="(b)"/>
+            <codify:insert after="(a)" num-value="(b)"/>
             <num>(b)</num>
             <para>
               <num>(1)</num>
@@ -259,7 +263,7 @@
           <para>
             <num>(b)</num>
             <para>
-            <codify:replace/>
+              <codify:replace/>
               <num>(1)</num>
               <text>A school may receive medication or seizure treatment to store for the treatment of asthma, anaphylaxis, a seizure disorder, or other illness from the responsible person for a student with a valid medication action plan or seizure action plan.</text>
             </para>
@@ -280,7 +284,7 @@
         <text>A new paragraph (4) is added to read as follows:</text>
         <include lvl="1">
           <para>
-          <codify:insert after="(3)" num-value="(4)"/>
+            <codify:insert after="(3)" num-value="(4)"/>
             <num>(4)</num>
             <text>For a student with a seizure action plan, this subsection shall apply to any seizure treatment, including a Vagus Nerve Stimulator magnet.</text>
           </para>
