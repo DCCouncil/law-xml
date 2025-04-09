@@ -81,10 +81,15 @@
         <num>(1)</num>
         <text>Paragraph (9B) is redesignated as paragraph (9C).</text>
         <!-- <codify:redesignate-para path="(9B)" num-value="(9C)"/> -->
+
         <codify:find-replace count="1">
           <find>(9B)</find>
           <replace>(9C)</replace>
         </codify:find-replace>
+
+        <!-- <codify:replace path="(9B)|num" count="1">
+          <replace>(9C)</replace>
+        </codify:replace> -->
       </para>
       <para>
         <num>(2)</num>
