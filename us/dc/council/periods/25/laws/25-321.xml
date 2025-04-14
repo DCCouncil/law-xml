@@ -81,15 +81,9 @@
         <num>(1)</num>
         <text>Paragraph (9B) is redesignated as paragraph (9C).</text>
         <!-- <codify:redesignate-para path="(9B)" num-value="(9C)"/> -->
-
-        <codify:find-replace count="1">
-          <find>(9B)</find>
-          <replace>(9C)</replace>
-        </codify:find-replace>
-
-        <!-- <codify:replace path="(9B)|num" count="1">
-          <replace>(9C)</replace>
-        </codify:replace> -->
+        <codify:replace path="(9B)|num" count="1">
+          <num>(9C)</num>
+        </codify:replace>
       </para>
       <para>
         <num>(2)</num>
@@ -118,12 +112,6 @@
           </para>
         </include>
         <aftertext>.</aftertext>
-        <!-- comment the below instructions out once Law is funded -->
-        <codify:repeal path="§2-1515.01|(9B)"/>
-        <codify:find-replace path="§2-1515.01|(9B)" count="1">
-          <find>Repealed.</find>
-          <replace>Not Funded.</replace>
-        </codify:find-replace>
       </para>
       <para>
         <num codify:value="[3]">(4)</num>
@@ -531,7 +519,7 @@
       </para>
     </para>
     <codify:annotation doc="D.C. Code" path="§2-1515.02" type="Editor's Notes" history="false">
-      <text>Section 6 of <cite doc="D.C. Law 25-321" path="§6">D.C. Law 25-321</cite> provided that:</text>
+      <text>Section 6 of <cite doc="D.C. Law 25-321" path="§6">D.C. Law 25-321</cite> provided:</text>
       <include>
         <section>
           <num>6</num>
@@ -563,10 +551,10 @@
       <num>(a)</num>
       <text>Sections 2, 3, 4, and 5 of this act shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
       <codify:applicability doc="D.C. Law 25-321" path="§2" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-321" path="§3|(a)|(2)" date="notfunded" history="false" display-template=""/>
       <codify:applicability doc="D.C. Law 25-321" path="§3|(a)|(4)" date="notfunded" history="false" display-template=""/>
       <codify:applicability doc="D.C. Law 25-321" path="§3|(a)|(5)" date="notfunded" history="false" display-template=""/>
       <codify:applicability doc="D.C. Law 25-321" path="§3|(a)|(6)" date="notfunded" history="false" display-template=""/>
-      <!-- comment the additional "Repealed/Not Funded" "find/replace" instructions in sec. 3(a)(2) once funded -->
       <codify:applicability doc="D.C. Law 25-321" path="§3|(b)" date="notfunded" history="false" display-template=""/>
       <codify:applicability doc="D.C. Law 25-321" path="§3|(c)" date="notfunded" history="false" display-template=""/>
       <codify:applicability doc="D.C. Law 25-321" path="§4|(a)" date="notfunded" history="false" display-template=""/>
