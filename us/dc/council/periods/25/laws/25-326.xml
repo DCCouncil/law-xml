@@ -28,6 +28,7 @@
     <text>An Act To create a Department of Corrections in the District of Columbia, approved June 27, 1946 (60 Stat. 320; D.C. Official Code § 24-211.01 <em>et seq</em>.), is amended by adding new sections 10 and 11 to read as follows:</text>
     <include>
       <section>
+        <codify:insert path="24|2|II|A" after="§24-211.09" num-value="24-211.10" history-prefix="as added"/>
         <num>10</num>
         <heading proof="needed">Safe and supported pregnancy and delivery for incarcerated individuals.</heading>
         <para>
@@ -43,7 +44,7 @@
           </para>
           <para>
             <num>(2)</num>
-            <text>Specialized pregnancy or postpartum healthcare, if necessary, which may be referred to external healthcare providers, in accordance with the Limitations on the Use of Restraints Amendment Act of 2014, effective July 25, 2015 (D.C. Law 20-280; D.C. Official Code 24-276.01 <em>et seq</em>.); and</text>
+            <text>Specialized pregnancy or postpartum healthcare, if necessary, which may be referred to external healthcare providers, in accordance with <code-cite doc="D.C. Code" path="24|2|VIII-A">the Limitations on the Use of Restraints Amendment Act of 2014, effective July 25, 2015 (D.C. Law 20-280; D.C. Official Code 24-276.01 <em>et seq</em>.)</code-cite>; and</text>
           </para>
           <para>
             <num>(3)</num>
@@ -168,15 +169,18 @@
         </para>
         <para>
           <num>(k)</num>
-          <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall issue rules to implement the provisions of this section.</text>
+          <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, shall issue rules to implement the provisions of this section.</text>
         </para>
+        <annotation type="History" doc="Stat. 79-2-ch507" path="§10">June 27, 1946, 60 Stat. 320, ch. 507, § 10</annotation>
+        <codify:not-funded-anno doc="D.C. Law 25-326" path="§2|includes|10" applicability-path="§4" action="creation of subsections (c), (e), and (g) in" display-template=""/>
       </section>
       <section>
+        <codify:insert path="24|2|II|A" after="§24-211.10" num-value="24-211.11" history-prefix="as added"/>
         <num>11</num>
         <heading proof="needed">Private right of action.</heading>
         <para>
           <num>(a)</num>
-          <text>Any incarcerated individual who has been deprived of the rights conferred by section 10 shall have a private cause of action in any court of competent jurisdiction for damages and such other remedies as may be appropriate. A private cause of action pursuant to this section shall be filed in a court of competent jurisdiction within one year after the unlawful act, or the discovery thereof.</text>
+          <text>Any incarcerated individual who has been deprived of the rights conferred by <code-cite doc="D.C. Code" path="§24-211.10">section 10</code-cite> shall have a private cause of action in any court of competent jurisdiction for damages and such other remedies as may be appropriate. A private cause of action pursuant to this section shall be filed in a court of competent jurisdiction within one year after the unlawful act, or the discovery thereof.</text>
         </para>
         <para>
           <num>(b)</num>
@@ -198,6 +202,8 @@
             <text>In an action under this section, an incarcerated individual's sworn statement including facts that if true would be sufficient to show the individual had either completed the grievance process or that the grievance process was unavailable to the individual, shall create a rebuttable presumption that can only be overcome by clear and convincing evidence that the grievance process was completed or unavailable.</text>
           </para>
         </para>
+        <annotation type="History" doc="Stat. 79-2-ch507" path="§11">June 27, 1946, 60 Stat. 320, ch. 507, § 11</annotation>
+        <codify:not-funded-anno doc="D.C. Law 25-326" path="§2|includes|11" applicability-path="§4" action="creation of" display-template=""/>
       </section>
     </include>
     <aftertext>.</aftertext>
@@ -205,24 +211,30 @@
   <section>
     <num>3</num>
     <text>The Limitations on the Use of Restraints Amendment Act of 2014, effective July 25, 2015 (D.C. Law 20-280; D.C. Official Code § 24-276.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§24-276.03|(b)">
       <num>(a)</num>
       <text>Section 203(b) (D.C. Official Code § 24-276.03(b)) is amended by striking the phrase "provide the following information to the Council:" and inserting the phrase "submit to the Council Secretary and to the Council chairperson with oversight jurisdiction over the Department a report containing, at a minimum, the following:" in its place.</text>
+      <codify:find-replace count="1">
+        <find>provide the following information to the Council:</find>
+        <replace>submit to the Council Secretary and to the Council chairperson with oversight jurisdiction over the Department a report containing, at a minimum, the following:</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§24-276.04">
       <num>(b)</num>
       <text>Section 204 (D.C. Official Code § 24-276.04) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The existing text is designated as subsection (a).</text>
+        <codify:redesignate-para num-value="(a)"/>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (b) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)" num-value="(b)"/>
             <num>(b)</num>
-            <text>The Department shall ensure that all guards and staff who interact with incarcerated individuals known to be or could become pregnant receive annual training of their responsibilities under this title.</text>
+            <text>The Department shall ensure that all guards and staff who interact with incarcerated individuals known to be or could become pregnant receive annual training of their responsibilities under <code-cite doc="D.C. Code" path="24|2|VIII-A">this title</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -233,11 +245,12 @@
       <text>A new section 205 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="24|2|VIII-A" after="§24-276.04" num-value="24-276.05" history-prefix="as added"/>
           <num>205</num>
           <heading proof="needed">Private right of action.</heading>
           <para>
             <num>(a)</num>
-            <text>Any incarcerated individual who has been deprived of the rights conferred by this title shall have a private cause of action in any court of competent jurisdiction for damages and such other remedies as may be appropriate. A private cause of action pursuant to this section shall be filed in a court of competent jurisdiction within one year after the unlawful act, or the discovery thereof.</text>
+            <text>Any incarcerated individual who has been deprived of the rights conferred by <code-cite doc="D.C. Code" path="24|2|VIII-A">this title</code-cite> shall have a private cause of action in any court of competent jurisdiction for damages and such other remedies as may be appropriate. A private cause of action pursuant to this section shall be filed in a court of competent jurisdiction within one year after the unlawful act, or the discovery thereof.</text>
           </para>
           <para>
             <num>(b)</num>
@@ -259,6 +272,7 @@
               <text>In an action under this section, an incarcerated individual's sworn statement including facts that if true would be sufficient to show the individual had either completed the grievance process or that the grievance process was unavailable to the individual, shall create a rebuttable presumption that can only be overcome by clear and convincing evidence that the grievance process was completed or unavailable.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 20-280" type="History" path="§205">July 25, 2015, D.C. Law 20-280, §  205</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -270,6 +284,10 @@
     <para>
       <num>(a)</num>
       <text>Amendatory sections 10(c), (e), and (g), and 11 within section 2 shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 25-326" path="§2|includes|10|(c)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-326" path="§2|includes|10|(e)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-326" path="§2|includes|10|(g)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 25-326" path="§2|includes|11" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
