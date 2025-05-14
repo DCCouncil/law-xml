@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-5">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-5" codify:doc="D.C. Code">
   <num type="law">26-5</num>
   <num type="act">26-26</num>
   <num type="bill">26-88</num>
@@ -25,32 +25,57 @@
   <section>
     <num>2</num>
     <text>The Open Meetings Act, effective March 31, 2011 (D.C. Law 18-350; D.C. Official Code § 2-571 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§2-575|(a)">
       <num>(a)</num>
       <text>Section 405(a) (D.C. Official Code § 2-575(a)) is amended as follows:</text>
-      <para>
+      <para codify:path="(2)">
         <num>(1)</num>
         <text>Paragraph (2) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; or</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(2)</num>
         <text>Paragraph (3) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+        <codify:find-replace count="1">
+          <find>.</find>
+          <replace>; or</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (4) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(3)" num-value="(4)"/>
             <num>(4)</num>
             <text>The public body takes steps reasonably calculated to allow the public to view or hear the meeting while the meeting is taking place, or, if doing so is not technologically feasible, as soon thereafter as reasonably practicable.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:temporary doc="D.C. Code" path="§2-575"/>
+      <codify:insert doc="D.C. Code" path="§2-575" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on May 6, 2025. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§2-575(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§2-577|(a)|(1)">
       <num>(b)</num>
       <text>Section 407(a)(1) (D.C. Official Code § 2-577(a)(1)) is amended by striking the phrase "attend the meeting;" and inserting the phrase "attend the meeting, or steps are taken that are reasonably calculated to allow the public to view or hear the meeting while the meeting is taking place, or, if doing so is not technologically feasible, as soon thereafter as reasonably practicable;" in its place.</text>
+      <codify:find-replace count="1">
+        <find>attend the meeting;</find>
+        <replace>attend the meeting, or steps are taken that are reasonably calculated to allow the public to view or hear the meeting while the meeting is taking place, or, if doing so is not technologically feasible, as soon thereafter as reasonably practicable;</replace>
+      </codify:find-replace>
+      <codify:temporary doc="D.C. Code" path="§2-577"/>
+      <codify:insert doc="D.C. Code" path="§2-577" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on May 6, 2025. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§2-577(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
   <section>
