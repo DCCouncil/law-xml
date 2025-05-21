@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<xs:schema xmlns="https://code.dccouncil.us/schemas/dc-library"
-  xmlns:codified="https://code.dccouncil.us/schemas/codified"
-  xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
-  targetNamespace="https://code.dccouncil.us/schemas/dc-library">
+<xs:schema xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="https://code.dccouncil.us/schemas/dc-library">
   <xs:import namespace="https://code.dccouncil.us/schemas/codified" schemaLocation="codified.xsd"/>
   <xs:import namespace="https://code.dccouncil.us/schemas/codify" schemaLocation="codify.xsd"/>
   <xs:import namespace="http://www.w3.org/2001/XInclude" schemaLocation="XInclude.xsd"/>
@@ -73,8 +69,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:sequence>
-          <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0"
-            maxOccurs="unbounded"/>
+          <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
           <xs:element ref="codified:at" minOccurs="0"/>
           <xs:element ref="prefix" minOccurs="0"/>
           <xs:element ref="num" minOccurs="0"/>
@@ -101,8 +96,7 @@
     <xs:complexType>
       <xs:sequence>
         <!-- laws & code -->
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0"
-          maxOccurs="unbounded"/>
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="codified:at" minOccurs="0"/>
         <xs:element ref="num" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="heading" minOccurs="0" maxOccurs="unbounded"/>
@@ -223,7 +217,7 @@
                           <xs:element minOccurs="1" name="out" type="xs:string"/>
                         </xs:sequence>
                       </xs:complexType>
-                     </xs:element>
+                    </xs:element>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
@@ -299,6 +293,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="codify:marginalia"/>
           <xs:element ref="codify:insert"/>
           <xs:element ref="codify:organic"/>
           <xs:element ref="codify:replace"/>
@@ -314,8 +309,7 @@
         <xs:element ref="para" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="aftertext" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="annotation" minOccurs="0" maxOccurs="unbounded"/>
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0"
-          maxOccurs="unbounded"/>
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
       </xs:sequence>
       <xs:attributeGroup ref="codify:allAttributes"/>
     </xs:complexType>
@@ -346,19 +340,17 @@
     <xs:complexType>
       <xs:sequence>
         <!-- remaining sections -->
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0"
-          maxOccurs="unbounded"/>
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="codified:at" minOccurs="0"/>
         <xs:element ref="prefix" minOccurs="0"/>
         <xs:element ref="num"/>
         <xs:element ref="codified:stub" minOccurs="0" maxOccurs="unbounded"/>
         <xs:element ref="reason" minOccurs="0"/>
         <xs:group ref="sectionContents"/>
-        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0"
-          maxOccurs="unbounded"/>
+        <xs:any namespace="https://code.dccouncil.us/schemas/codify" minOccurs="0" maxOccurs="unbounded"/>
       </xs:sequence>
       <xs:attribute name="containing-doc" type="xs:string" use="optional"/>
-       <xs:attribute name="name" type="xs:string" use="optional"/>
+      <xs:attribute name="name" type="xs:string" use="optional"/>
       <xs:attributeGroup ref="codify:allAttributes"/>
     </xs:complexType>
   </xs:element>
@@ -447,7 +439,8 @@
   <!-- attribute groups -->
   <xs:attributeGroup name="targetAttributes">
     <xs:attribute name="doc" type="xs:string" use="optional">
-      <!-- @summary: The ``doc`` and ``path`` attributes together determine the target of the transform. :ref:`Learn more here <appendix_docAndPath>`. --> </xs:attribute>
+      <!-- @summary: The ``doc`` and ``path`` attributes together determine the target of the transform. :ref:`Learn more here <appendix_docAndPath>`. -->
+    </xs:attribute>
     <xs:attribute name="path" type="xs:string" use="optional">
       <!-- @summary: The ``doc`` and ``path`` attributes together determine the target of the transform. :ref:`Learn more here <appendix_docAndPath>`. -->
     </xs:attribute>
