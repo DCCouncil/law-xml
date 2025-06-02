@@ -52,12 +52,17 @@
       <para>
         <num>(3)</num>
         <text>Paragraph (9) is redesignated as paragraph (8B).</text>
+        <codify:find-replace count="1">
+          <find>(9)</find>
+          <replace>(8B)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (9) is added to read as follows:</text>
         <include lvl="1">
           <para>
+          <codify:insert after="(8B)" num-value="(9)"/>
             <num>(9)</num>
             <text>"Formal complaint" means a complaint that is submitted to the Department in writing, sworn to by the complainant, and notarized.</text>
           </para>
