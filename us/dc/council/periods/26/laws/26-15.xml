@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-66">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-15" codify:doc="D.C. Code">
+  <num type="law">26-15</num>
   <num type="act">26-66</num>
   <num type="bill">26-150</num>
   <heading type="short">Residential Building Permit Classification Temporary Amendment Act of 2025</heading>
   <heading type="long">To amend, on a temporary basis, section 47-813 of the District of Columbia Official Code to provide for more timely classification changes for commercial properties that are to be put to residential use, to provide for an application process to make classification changes, to provide for appeal rights if such application is denied, and to provide for a claw back in the event the real property is not timely put to residential use.</heading>
   <meta>
     <introduced>2025-03-03</introduced>
-    <effective projected="true">2025-06-21</effective>
+    <effective>2025-06-17</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/57265/Signed_Act/B26-0150-Signed_Act.pdf?Id=210581">D.C. Law 26-15</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/57265/Signed_Act/B26-0150-Signed_Act.pdf?Id=210581">D.C. Act 26-66</citation>
       <citation type="register">72 DCR 5339</citation>
     </citations>
@@ -21,24 +23,25 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Residential Building Permit Classification Temporary Amendment Act of 2025".</text>
-  <section>
+  <section codify:path="§47-813">
     <num>2</num>
     <text>Section 47-813 of the District of Columbia Official Code is amended to read as follows:</text>
-    <para>
+    <para codify:path="(c-9)|(2)">
       <num>(a)</num>
       <text>Subsection (c-9)(2) is amended as follows:</text>
-      <para>
+      <para codify:path="(A)">
         <num>(1)</num>
         <text>Subparagraph (A) is amended to read as follows:</text>
         <include lvl="2">
           <para>
             <num>(2)</num>
             <para>
+              <codify:replace/>
               <num>(A)</num>
               <text>Except as otherwise provided in this paragraph and subject to paragraphs (4) and (5) of this subsection, Class 1A Property shall be comprised of:</text>
               <para>
                 <num>(i)</num>
-                <text>Residential real property that is improved and its legal use is for nontransient residential dwelling purposes, and that is not Class 1B Property; provided, that such property may be used to host transient guests pursuant to an unexpired short-term rental license endorsement issued pursuant to § 30-201.04; or</text>
+                <text>Residential real property that is improved and its legal use is for nontransient residential dwelling purposes, and that is not Class 1B Property; provided, that such property may be used to host transient guests pursuant to an unexpired short-term rental license endorsement issued pursuant to <cite doc="D.C. Code" path="§30-201.04">§ 30-201.04</cite>; or</text>
               </para>
               <para>
                 <num>(ii)</num>
@@ -57,31 +60,40 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(C)">
         <num>(2)</num>
         <text>Subparagraph (C) is amended by striking the phrase "designated as" and inserting the phrase "designated solely as" in its place.</text>
+        <codify:find-replace count="1">
+          <find>designated as</find>
+          <replace>designated solely as</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="(d-2)">
       <num>(b)</num>
       <text>The lead-in language of subsection (d-2) is amended by striking the phrase "Class 3 Property or Class 4 Property," and inserting the phrase "Class 2 Property, Class 3 Property, or Class 4 Property," in its place.</text>
+      <codify:find-replace count="1">
+        <find>Class 3 Property or Class 4 Property,</find>
+        <replace>Class 2 Property, Class 3 Property, or Class 4 Property,</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>A new subsection (d-3) is added to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(d-2)" num-value="(d-3)"/>
           <num>(d-3)</num>
           <para>
             <num>(1)</num>
             <text>If real property changes classification to Class 1A Property as defined in subsection (c-9)(2)(A)(ii) of this section during the period:</text>
             <para>
               <num>(A)</num>
-              <text>October 1 through March 31 of the tax year, the newly reclassified Class 1A Property, or the portion thereof used exclusively for residential purposes if already improved or assessed under § 47-829, shall be taxed at the Class 1A Property tax rate for the entire tax year; or</text>
+              <text>October 1 through March 31 of the tax year, the newly reclassified Class 1A Property, or the portion thereof used exclusively for residential purposes if already improved or assessed under <cite doc="D.C. Code" path="§47-829">§ 47-829</cite>, shall be taxed at the Class 1A Property tax rate for the entire tax year; or</text>
             </para>
             <para>
               <num>(B)</num>
-              <text>April 1 through September 30 of the tax year, the newly reclassified Class 1A Property, or the portion thereof used exclusively for residential purposes if already improved or assessed under § 47-829, shall be taxed at the Class 1A Property tax rate for the second installment only.</text>
+              <text>April 1 through September 30 of the tax year, the newly reclassified Class 1A Property, or the portion thereof used exclusively for residential purposes if already improved or assessed under <cite doc="D.C. Code" path="§47-829">§ 47-829</cite>, shall be taxed at the Class 1A Property tax rate for the second installment only.</text>
             </para>
           </para>
           <para>
@@ -98,7 +110,7 @@
           </para>
           <para>
             <num>(5)</num>
-            <text>Within 45 days from the date of the notice of denial of Class 1A Property reclassification under this subsection, the owner may petition for an administrative review of the rescission or denial and appeal from a final determination thereof to the same extent as if the appeal were filed under § 47-825.01a(d)(2).</text>
+            <text>Within 45 days from the date of the notice of denial of Class 1A Property reclassification under this subsection, the owner may petition for an administrative review of the rescission or denial and appeal from a final determination thereof to the same extent as if the appeal were filed under <cite doc="D.C. Code" path="§47-825.01a|(d)|(2)">§ 47-825.01a(d)(2)</cite>.</text>
           </para>
           <para>
             <num>(6)</num>
@@ -106,12 +118,18 @@
           </para>
           <para>
             <num>(7)</num>
-            <text>The provisions of this subsection, subsection (c-9)(2)(A)(ii) of this section, and § 47-829 shall not supersede the requirement to timely file for mixed-use classification for the upcoming tax year pursuant to subsection (f) of this section, when the annual assessment for such upcoming tax year is made under § 47-824 and the certificate of occupancy (final or temporary) was issued.</text>
+            <text>The provisions of this subsection, subsection (c-9)(2)(A)(ii) of this section, and <cite doc="D.C. Code" path="§47-829">§ 47-829</cite> shall not supersede the requirement to timely file for mixed-use classification for the upcoming tax year pursuant to subsection (f) of this section, when the annual assessment for such upcoming tax year is made under <cite doc="D.C. Code" path="§47-824">§ 47-824</cite> and the certificate of occupancy (final or temporary) was issued.</text>
           </para>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:temporary doc="D.C. Code" path="§47-813"/>
+    <codify:insert doc="D.C. Code" path="§47-813" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on January 28, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§47-813(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
