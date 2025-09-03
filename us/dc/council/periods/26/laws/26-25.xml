@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-87">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-25" codify:doc="D.C. Code">
+  <num type="law">26-25</num>
   <num type="act">26-87</num>
   <num type="bill">26-207</num>
   <heading type="short">Certified Business Enterprise Program Compliance and Enforcement Support Temporary Amendment Act of 2025</heading>
   <heading type="long">To amend, on a temporary basis, the Small and Certified Business Enterprise Development and Assistance Act of 2005 to require a business applying for certification as a local business enterprise to be independently owned and operated, to amend minimum certified business enterprise performance requirements in a certified joint venture, and to establish uniform hearing procedures for enforcement actions.</heading>
   <meta>
     <introduced>2025-03-26</introduced>
-    <effective projected="true">2025-09-16</effective>
+    <effective>2025-08-16</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/57476/Signed_Act/B26-0207-Signed_Act.pdf?Id=215767">D.C. Law 26-25</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/57476/Signed_Act/B26-0207-Signed_Act.pdf?Id=215767">D.C. Act 26-87</citation>
       <citation type="register">72 DCR 7536</citation>
     </citations>
@@ -24,25 +26,27 @@
   <section>
     <num>2</num>
     <text>The Small and Certified Business Enterprise Development and Assistance Act of 2005, effective October 20, 2005 (D.C. Law 16-33; D.C. Official Code § 2-218.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§2-218.02">
       <num>(a)</num>
       <text>Section 2302 (D.C. Official Code § 2-218.02) is amended as follows:</text>
-      <para>
+      <para codify:path="(7)">
         <num>(1)</num>
         <text>Paragraph (7) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(7)</num>
             <text>"Economically disadvantaged individual" means an individual who owns at least a 51% interest in a business enterprise and whose personal net worth does not exceed the limits set by the United States Department of Transportation, pursuant to 49 C.F.R. § 26.68.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(8A)">
         <num>(2)</num>
         <text>Paragraph (8A) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(8A)</num>
             <text>"Equity impact enterprise" means a business enterprise that is a resident- owned business, small business enterprise, and disadvantaged business enterprise.</text>
           </para>
@@ -52,12 +56,17 @@
       <para>
         <num>(3)</num>
         <text>Paragraph (9) is redesignated as paragraph (8B).</text>
+        <codify:find-replace count="1">
+          <find>(9)</find>
+          <replace>(8B)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (9) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(8B)" num-value="(9)"/>
             <num>(9)</num>
             <text>"Formal complaint" means a complaint that is submitted to the Department in writing, sworn to by the complainant, and notarized.</text>
           </para>
@@ -69,6 +78,7 @@
         <text>A new paragraph (10A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(10)" num-value="(10A)"/>
             <num>(10A)</num>
             <text>"Informal complaint" means a complaint other than a formal complaint and includes complaints submitted in person, by email, by telephone, or through the Department's complaint hotline.</text>
           </para>
@@ -80,6 +90,7 @@
         <text>A new paragraph (10B) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(10A)" num-value="(10B)"/>
             <num>(10B)</num>
             <text>"Independently owned and operated" means that the business enterprise manages and controls its day-to-day operations without being subject to control, restriction, modification, or limitation by another business enterprise or not-for-profit business that has an ownership or other financial interest in the business enterprise.</text>
           </para>
@@ -90,16 +101,27 @@
         <num>(7)</num>
         <text>A new paragraph (13A-i) is added to read as follows:</text>
         <include lvl="1">
-          <text>(13A-i) "Person" means any individual, firm, partnership, joint venture, general partner of a partnership, limited liability company, registered limited liability partnership, foreign limited liability partnership, association, corporation, unincorporated business, company, syndicate, estate, trust, business trust, trustee, trustee in bankruptcy, receiver, executor, administrator, assignee, fiduciary, or entity of any kind.</text>
+          <para>
+            <codify:insert after="(13A)" num-value="(13A-i)"/>
+            <num>(13A-i)</num>
+            <text> "Person" means any individual, firm, partnership, joint venture, general partner of a partnership, limited liability company, registered limited liability partnership, foreign limited liability partnership, association, corporation, unincorporated business, company, syndicate, estate, trust, business trust, trustee, trustee in bankruptcy, receiver, executor, administrator, assignee, fiduciary, or entity of any kind.</text>
+          </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:temporary doc="D.C. Code" path="§2-218.02"/>
+      <codify:insert doc="D.C. Code" path="§2-218.02" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on March 29, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§2-218.02(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§2-218.31">
       <num>(b)</num>
       <text>Section 2331 (D.C. Official Code § 2-218.31) is amended by adding a new paragraph (1A) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(1)" num-value="(1A)"/>
           <num>(1A)</num>
           <para>
             <num>(A)</num>
@@ -120,19 +142,39 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:temporary doc="D.C. Code" path="§2-218.31"/>
+      <codify:insert doc="D.C. Code" path="§2-218.31" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on March 29, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§2-218.31(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§2-218.46|(b)|(2)|(A)">
       <num>(c)</num>
       <text>Section 2346(b)(2)(A) (D.C. Official Code § 2-218.46(b)(2)(A)) is amended by striking the phrase "the certified business enterprise perform at least 50% of the contracting effort with its own organization and resources and, if it subcontracts, 35% of the subcontracted effort shall be with certified business enterprises." and inserting the phrase "each certified business enterprise holding a majority or minority interest in the certified joint venture shall, with its own organization and resources, perform a percentage of the work equal to or greater than its percentage interest in the joint venture, and, if the certified joint venture  subcontracts, at least 35% of the subcontracted effort shall be with certified business enterprises." in its place.</text>
+      <codify:find-replace count="1">
+        <find>the certified business enterprise perform at least 50% of the contracting effort with its own organization and resources and, if it subcontracts, 35% of the subcontracted effort shall be with certified business enterprises</find>
+        <replace>each certified business enterprise holding a majority or minority interest in the certified joint venture shall, with its own organization and resources, perform a percentage of the work equal to or greater than its percentage interest in the joint venture, and, if the certified joint venture subcontracts, at least 35% of the subcontracted effort shall be with certified business enterprises</replace>
+      </codify:find-replace>
+      <codify:temporary doc="D.C. Code" path="§2-218.46"/>
+      <codify:insert doc="D.C. Code" path="§2-218.46" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on March 29, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§2-218.46(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§2-218.63">
       <num>(d)</num>
       <text>Section 2363 (D.C. Official Code § 2-218.63) is amended as follows:</text>
-      <para>
+      <para codify:path="(c)">
         <num>(1)</num>
         <text>Subsection (c) is amended by striking the phrase ", in accordance with procedures set forth in subsection (e) of this section, that" and inserting the word "that" in its place.</text>
+        <codify:find-replace count="1">
+          <find>, in accordance with the procedure set forth in subsection (e) of this section, that</find>
+          <replace> that</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(e)">
         <num>(2)</num>
         <text>Subsection (e) is amended as follows:</text>
         <para>
@@ -142,10 +184,11 @@
             <para>
               <num>(e)</num>
               <para>
+                <codify:replace path="(1)"/>
                 <num>(1)</num>
                 <para>
                   <num>(A)</num>
-                  <text>Any person may file with the Department a formal or informal complaint alleging a violation of this act.</text>
+                  <text>Any person may file with the Department a formal or informal complaint alleging a violation of <code-cite doc="D.C. Code" path="2|2|IX-A">this act</code-cite>.</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -153,10 +196,12 @@
                 </para>
               </para>
               <para>
+                <codify:replace path="(2)"/>
                 <num>(2)</num>
                 <text>Except as provided in paragraph (3) of this subsection, the Department shall investigate each formal or informal complaint filed with it.</text>
               </para>
               <para>
+                <codify:replace path="(3)"/>
                 <num>(3)</num>
                 <text>The Department may dismiss a complaint without conducting an investigation if the Department determines the complaint is frivolous or otherwise without merit. If the Department dismisses a formal complaint as frivolous or otherwise without merit, the Department shall prepare a report that includes:</text>
                 <para>
@@ -165,7 +210,7 @@
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>The name of the person or certified joint venture alleged to be in violation of this act;</text>
+                  <text>The name of the person or certified joint venture alleged to be in violation of <code-cite doc="D.C. Code" path="2|2|IX-A">this act</code-cite>;</text>
                 </para>
                 <para>
                   <num>(C)</num>
@@ -183,21 +228,24 @@
         <para>
           <num>(B)</num>
           <text>Paragraph (4) is repealed.</text>
+          <codify:repeal path="(4)"/>
         </para>
         <para>
           <num>(C)</num>
           <text>New paragraphs (5) and (6) are added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(4)" num-value="(5)"/>
               <num>(5)</num>
               <text>After the completion of an investigation conducted pursuant to this subsection, the Department shall take such enforcement action, if any, it deems appropriate.</text>
             </para>
             <para>
+              <codify:insert after="(5)" num-value="(6)"/>
               <num>(6)</num>
               <text>The Department shall maintain a record listing all formal complaints, which shall contain:</text>
               <para>
                 <num>(A)</num>
-                <text>The name of the person alleged to be in violation of this act;</text>
+                <text>The name of the person alleged to be in violation of <code-cite doc="D.C. Code" path="2|2|IX-A">this act</code-cite>;</text>
               </para>
               <para>
                 <num>(B)</num>
@@ -212,11 +260,12 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(g)">
         <num>(3)</num>
         <text>Subsection (g) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(g)</num>
             <para>
               <num>(1)</num>
@@ -240,7 +289,7 @@
             </para>
             <para>
               <num>(3)</num>
-              <text>If a hearing is requested, the Office of Administrative Hearings shall consider the matter pursuant to section 19 of the Office of Administrative Hearings Establishment Act of 2001, effective March 6, 2002 (D.C. Law 14-76; D.C. Official Code § 2-1831.16), and the rules issued pursuant to it. The Department shall bear the burden of establishing the violation by a preponderance of the evidence.</text>
+              <text>If a hearing is requested, the Office of Administrative Hearings shall consider the matter pursuant to <code-cite doc="D.C. Code" path="§2-1831.16">section 19 of the Office of Administrative Hearings Establishment Act of 2001, effective March 6, 2002 (D.C. Law 14-76; D.C. Official Code § 2-1831.16)</code-cite>, and the rules issued pursuant to it. The Department shall bear the burden of establishing the violation by a preponderance of the evidence.</text>
             </para>
             <para>
               <num>(4)</num>
@@ -273,7 +322,7 @@
               <num>(8)</num>
               <para>
                 <num>(A)</num>
-                <text>If, after an investigation, the Department determines that a business enterprise or joint venture certified under this act has violated any provision of this act in such a manner as to present an imminent danger to the health, safety, or welfare of any person or the general public, the Department may summarily suspend the certification of the business enterprise or joint venture upon issuing the notice of determination described in paragraph (1) of this subsection.</text>
+                <text>If, after an investigation, the Department determines that a business enterprise or joint venture certified under <code-cite doc="D.C. Code" path="2|2|IX-A">this act</code-cite> has violated any provision of <code-cite doc="D.C. Code" path="2|2|IX-A">this act</code-cite> in such a manner as to present an imminent danger to the health, safety, or welfare of any person or the general public, the Department may summarily suspend the certification of the business enterprise or joint venture upon issuing the notice of determination described in paragraph (1) of this subsection.</text>
               </para>
               <para>
                 <num>(B)</num>
@@ -290,6 +339,12 @@
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:temporary doc="D.C. Code" path="§2-218.63"/>
+        <codify:insert doc="D.C. Code" path="§2-218.63" before="heading" history="false" display-template="">
+          <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on March 29, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§2-218.63(Perm)">Permanent Version</cite>.*
+      </text>
+        </codify:insert>
       </para>
     </para>
   </section>
