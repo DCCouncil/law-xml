@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-95">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-27" codify:doc="D.C. Code">
+  <num type="law">26-27</num>
   <num type="bill">26-109</num>
   <num type="act">26-95</num>
   <heading type="short">Farmers Market Support Amendment Act of 2025</heading>
   <heading type="long">To amend the Department of Health Functions Clarification Act of 2001 to establish a farmers market support program within the Department of Health to provide technical assistance to farmers markets, farm stands, and mobile markets, to recommend improvements to the licensing and permitting processes and regulations, to oversee coordination between agencies regulating farmers markets, and to establish and administer a farmers market grant program; and to amend the Vending Regulation Act of 2009 to require the Mayor to establish a centralized application system for farmers markets, standardize licensing and permitting requirements, and waive the fees for operating in a low food access area.</heading>
   <meta>
     <introduced>2025-01-31</introduced>
-    <effective projected="true">2025-09-30</effective>
+    <effective>2025-08-23</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/57066/Signed_Act/B26-0109-Signed_Act.pdf?Id=216747">D.C. Law 26-27</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/57066/Signed_Act/B26-0109-Signed_Act.pdf?Id=216747">D.C. Act 26-95</citation>
       <citation type="register">72 DCR 7661</citation>
     </citations>
@@ -20,20 +22,28 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Farmers Market Support Amendment Act of 2025".</text>
+  <codify:insert path="7|7A" after="III-A" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>III-B</num>
+      <heading>Farmers Markets.</heading>
+    </container>
+  </codify:insert>
   <section>
     <num>2</num>
     <text>The Department of Health Functions Clarification Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 7-731 <em>et seq</em>.), is amended by adding a new subtitle C-ii to read as follows:</text>
     <include>
       <container>
         <prefix>Subtitle</prefix>
-        <num>C</num>
-        <heading>ii. Farmers Markets.</heading>
+        <num>C-ii</num>
+        <heading>Farmers Markets.</heading>
         <section>
+          <codify:insert path="7|7A|III-B" num-value="7-742.21" history-prefix="as added"/>
           <num>4938</num>
           <heading proof="needed">Definitions.</heading>
           <para>
             <num undesignated="true">(a)</num>
-            <text>For the purposes of this subtitle, the term:</text>
+            <text>For the purposes of <code-cite doc="D.C. Code" path="7|7A|III-B">this subtitle</code-cite>, the term:</text>
             <para>
               <num>(1)</num>
               <text>"Farmer" means a person or entity that raises or produces locally grown farm products on land that the person or entity farms and owns, rents, or leases for direct sale to consumers.</text>
@@ -52,11 +62,11 @@
             </para>
             <para>
               <num>(5)</num>
-              <text>"Locally grown" shall have the same meaning as provided in section 101(3) of the Healthy Schools Act of 2010, effective July 27, 2010 (D.C. Law 18-209; D.C. Official Code § 38-821.01(3)).</text>
+              <text>"Locally grown" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§38-821.01|(3)">section 101(3) of the Healthy Schools Act of 2010, effective July 27, 2010 (D.C. Law 18-209; D.C. Official Code § 38-821.01(3))</code-cite>.</text>
             </para>
             <para>
               <num>(6)</num>
-              <text>"Locally processed food products" means food that has been processed, including canning, cooking, dehydrating, milling, or the addition of other ingredients, in the jurisdictions listed in section 101(3) of the Healthy Schools Act of 2010, effective July 27, 2010 (D.C. Law 18-209; D.C. Official Code § 38-821.01(3)). The term "locally processed food products" includes cooked ready-to-eat foods, bread, baked goods, pickles, jams, and other value-added farm products.</text>
+              <text>"Locally processed food products" means food that has been processed, including canning, cooking, dehydrating, milling, or the addition of other ingredients, in the jurisdictions listed in <code-cite doc="D.C. Code" path="§38-821.01|(3)">section 101(3) of the Healthy Schools Act of 2010, effective July 27, 2010 (D.C. Law 18-209; D.C. Official Code § 38-821.01(3))</code-cite>. The term "locally processed food products" includes cooked ready-to-eat foods, bread, baked goods, pickles, jams, and other value-added farm products.</text>
             </para>
             <para>
               <num>(7)</num>
@@ -83,8 +93,10 @@
               <text>"Value-added farm product" means any product processed by a producer from a locally grown farm product.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 14-28" type="History" path="§4938">Oct. 3, 2001, D.C. Law 14-28, § 4938</annotation>
         </section>
         <section>
+          <codify:insert path="7|7A|III-B" after="§7-742.21" num-value="7-742.22" history-prefix="as added"/>
           <num>4939</num>
           <heading proof="needed">Farmers market support program.</heading>
           <para>
@@ -100,11 +112,11 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>Provide recommendations to the Mayor and Council to improve existing District licensing, permitting, and processes for establishing and operating a farmers market, farm stand, or mobile market, including recommendations for implementing the centralized application system established by section 7(b) of the Vending Regulation Act of 2009, effective October 22, 2009 (D.C. Law 18-71; D.C. Official Code § 37-131.06(b));</text>
+              <text>Provide recommendations to the Mayor and Council to improve existing District licensing, permitting, and processes for establishing and operating a farmers market, farm stand, or mobile market, including recommendations for implementing the centralized application system established by <code-cite doc="D.C. Code" path="§37-131.06|(b)">section 7(b) of the Vending Regulation Act of 2009, effective October 22, 2009 (D.C. Law 18-71; D.C. Official Code § 37-131.06(b))</code-cite>;</text>
             </para>
             <para>
               <num>(3)</num>
-              <text>Convene and coordinate with District agencies involved in licensing, permitting, and supporting farmers markets, farm stands, and mobile markets, including the Office of Planning, the District Department of Transportation, the Department of Parks and Recreation, the Department of Small and Local Business Development, and the Department of Licensing and Consumer Protection, for the purpose of supporting farmers markets, farm stands, and mobile markets in the District, including establishing the centralized application system under section 7(b) of the Vending Regulation Act of 2009, effective October 22, 2009 (D.C. Law 18-71; D.C. Official Code § 37-131.06(b));</text>
+              <text>Convene and coordinate with District agencies involved in licensing, permitting, and supporting farmers markets, farm stands, and mobile markets, including the Office of Planning, the District Department of Transportation, the Department of Parks and Recreation, the Department of Small and Local Business Development, and the Department of Licensing and Consumer Protection, for the purpose of supporting farmers markets, farm stands, and mobile markets in the District, including establishing the centralized application system under <code-cite doc="D.C. Code" path="§37-131.06|(b)">section 7(b) of the Vending Regulation Act of 2009, effective October 22, 2009 (D.C. Law 18-71; D.C. Official Code § 37-131.06(b))</code-cite>;</text>
             </para>
             <para>
               <num>(4)</num>
@@ -190,32 +202,44 @@
               <text>Preference shall be given to entities that are providing locally grown fruits and vegetables, or which include District-owned businesses as vendors.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 14-28" type="History" path="§4939">Oct. 3, 2001, D.C. Law 14-28, § 4939</annotation>
         </section>
       </container>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Law 26-27" path="§2" applicability-path="§5" action="creation of" display-template=""/>
   </section>
   <section>
     <num>3</num>
     <text>The Vending Regulation Act of 2009, effective October 22, 2009 (D.C. Law 18-71; D.C. Official Code § 37-131.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§37-131.01|(a)">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 37-131.01) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Paragraph (1) is redesignated as paragraph (1B).</text>
+        <para>
+          <codify:insert after="(1)" num-value="(1B)"/>
+          <num>(1B)</num>
+          <text>"Fund" means the Vending Regulation Fund established by <code-cite doc="D.C. Code" path="§37-131.08|(b)">§ 37-131.08(b)</code-cite>.</text>
+        </para>
+        <!-- <codify:replace path="(1)|num">
+          <num>(1B)</num>
+        </codify:replace> -->
       </para>
       <para>
         <num>(2)</num>
         <text>New paragraphs (1) and (1A) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace path="(1)"/>
             <num>(1)</num>
-            <text>"Farmers market" shall have the same meaning as in section 4938(2) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109).</text>
+            <text>"Farmers market" shall have the same meaning as in <code-cite doc="D.C. Code" path="§7-742.21|(a)|(2)">section 4938(2) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109)</code-cite>.</text>
           </para>
           <para>
+            <codify:insert after="(1)" num-value="(1A)"/>
             <num>(1A)</num>
-            <text>"Farm stand" shall have the same meaning as in section 4938(4) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109).</text>
+            <text>"Farm stand" shall have the same meaning as in <code-cite doc="D.C. Code" path="§7-742.21|(a)|(4)">section 4938(4) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -223,37 +247,59 @@
       <para>
         <num>(3)</num>
         <text>Paragraph (2) is redesignated as paragraph (2A)</text>
+        <para>
+          <codify:insert after="(2)" num-value="(2A)"/>
+          <num>(2A)</num>
+          <text>"Public market" means a vending operation that takes place in an area of public space set aside and permitted on a regular basis for the sale of goods, merchandise, or services provided onsite, including a farmers market, flea market, or antique market.</text>
+        </para>
+        <!-- <codify:replace path="(2)|num">
+          <num>(2A)</num>
+        </codify:replace> -->
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (2) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace path="(2)"/>
             <num>(2)</num>
-            <text>"Mobile market" shall have the same meaning as in section 4938(8) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109).</text>
+            <text>"Mobile market" shall have the same meaning as in <code-cite doc="D.C. Code" path="§7-742.21|(a)|(8)">section 4938(8) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(2A)">
         <num>(5)</num>
         <text>Paragraph (2A) is amended by striking the phrase "including a farmers market, flea market, or antique market." and inserting the phrase "including a flea market or antique market." in its place.</text>
+        <codify:find-replace count="1">
+          <find>including a farmers market, flea market, or antique market.</find>
+          <replace>including a flea market or antique market.</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§37-131.02|(b)|(3)">
       <num>(b)</num>
       <text>Section 3(b)(3) (D.C. Official Code § 37-131.02(b)(3)) is amended by striking the phrase "at a public market" and inserting the phrase "at a farmers market or public market" in its place.</text>
+      <codify:find-replace count="1">
+        <find>at a public market</find>
+        <replace>at a farmers market or public market</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§37-131.03|(b)">
       <num>(c)</num>
       <text>Section 4(b) (D.C. Official Code § 37-131.03(b)) is amended by striking the phrase "event or public market" and inserting the phrase "event, farmers market, or public market" in its place.</text>
+      <codify:find-replace count="1">
+        <find>event or public market</find>
+        <replace>event, farmers market, or public market</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§37-131.06">
       <num>(d)</num>
       <text>Section 7 (D.C. Official Code § 37-131.06) is amended to read as follows:</text>
       <include>
         <section>
-          <num>7</num>
+          <codify:replace/>
+          <num codify:value="37-131.06">7</num>
           <heading proof="needed">Public markets and farmers markets.</heading>
           <para>
             <num>(a)</num>
@@ -290,108 +336,145 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§37-131.07|(a-1)">
       <num>(e)</num>
       <text>Section 8(a-1) (D.C. Official Code § 37-131.07(a-1)) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the term "farmer's market" wherever it appears and insert the phrase "farmers market" in its place.</text>
+        <codify:find-replace count="6">
+          <find>farmer's market</find>
+          <replace>farmers market</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new paragraph (2A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(2)" num-value="(2A)"/>
             <num>(2A)</num>
             <text>Notwithstanding any other provision of this section, the Mayor shall waive all licensing, permitting, or temporary parking restriction fees for a farmers market, farm stand, or mobile market located, or applying to locate, in a low food access area.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num codify:value="[3]">(1)</num>
         <text>Paragraph (3) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(3)</num>
-            <text>For the purposes of this subsection, the term "low food access area" shall have the same definition as in section 4938(7) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109).</text>
+            <text>For the purposes of this subsection, the term "low food access area" shall have the same definition as in <code-cite doc="D.C. Code" path="§7-742.21|(a)|(7)">section 4938(7) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 26-27" path="§3" applicability-path="§5" action="amendment to" display-template=""/>
   </section>
   <section>
     <num>4</num>
     <heading proof="needed">Conforming Amendments.</heading>
-    <para>
+    <para codify:path="§2-1212.01|(3)">
       <num>(a)</num>
       <text>Section 101(3) of the Food, Environmental, and Economic Development in the District of Columbia Act of 2010, effective April 8, 2011 (D.C. Law 18-353; D.C. Official Code § 2-1212.01(3)), is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace/>
           <num>(3)</num>
-          <text>"Farmers market" shall have the same meaning as in section 4938(2) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109).</text>
+          <text>"Farmers market" shall have the same meaning as in <code-cite doc="D.C. Code" path="§7-742.21|(a)|(2)">section 4938(2) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109)</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 26-27" path="§4|(a)" applicability-path="§5" action="amendment to" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
       <text>The Food Policy Council and Director Establishment Act of 2014, effective March 10, 2015 (D.C. Official Code § 48-311 <em>et seq.</em>), is amended as follows:</text>
-      <para>
+      <para codify:path="§48-311">
         <num>(1)</num>
         <text>Section 2 (D.C. Official Code § 48-311) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Paragraph (3) is repealed.</text>
+          <codify:repeal path="(3)"/>
         </para>
         <para>
           <num>(B)</num>
           <text>A new paragraph (6A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(6)" num-value="(6A)"/>
               <num>(6A)</num>
-              <text>"Low food access area" shall have the same definition as in section 4938(7) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109).</text>
+              <text>"Low food access area" shall have the same definition as in <code-cite doc="D.C. Code" path="§7-742.21|(a)|(7)">section 4938(7) of the Department of Health Functions Clarification Act of 2001, passed on 2nd reading on June 17, 2025 (Enrolled version of Bill 26-109)</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§48-312">
         <num>(2)</num>
         <text>Section 3 (D.C. Official Code § 48-312) is amended by striking the term "food deserts" both times it appears and insert the phrase "low food access areas" in its place.</text>
+        <codify:find-replace count="2">
+          <find>food deserts</find>
+          <replace>low food access areas</replace>
+        </codify:find-replace>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 26-27" path="§4|(b)" applicability-path="§5" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§44-403">
       <num>(c)</num>
       <text>Section 4 of the Health Services Planning Program Re-establishment Act of 1996, effective April 9, 1997 (D.C. Law 11-191; D.C. Official Code § 44-403), is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the number "15" and inserting the number "9" in its place.</text>
+        <codify:find-replace count="1">
+          <find>15</find>
+          <replace>9</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) shall be amended by striking the word "Four" and inserting the word "Two" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Four</find>
+            <replace>Two</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) shall be amended by striking the word "Three" and inserting the word "Two" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Three</find>
+            <replace>Two</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>Paragraph (6) is repealed.</text>
+          <codify:repeal path="(6)"/>
         </para>
       </para>
-      <para>
+      <para codify:path="(d)">
         <num>(3)</num>
         <text>Subsection (d) is amended by striking the phrase "Government representatives shall serve for the duration of their service in the positions stated in subsection (c)(6) and (7) of this section." and inserting the phrase "The government representative shall serve for the duration of their service in the described position." in its place.</text>
+        <codify:find-replace count="1">
+          <find>Government representatives shall serve for the duration of their service in the positions stated in subsection (c)(6) and (7) of this section.</find>
+          <replace>The government representative shall serve for the duration of their service in the described position.</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(e)">
         <num>(4)</num>
         <text>Subsection (e) is amended by striking the phrase "2 consecutive terms" and inserting the phrase "2 consecutive full terms" in its place.</text>
+        <codify:find-replace count="1">
+          <find>2 consecutive terms</find>
+          <replace>2 consecutive full terms</replace>
+        </codify:find-replace>
       </para>
     </para>
   </section>
@@ -401,6 +484,10 @@
     <para>
       <num>(a)</num>
       <text>Sections 2, 3, and 4(a) and (b) shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-27" path="§2" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-27" path="§3" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-27" path="§4|(a)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-27" path="§4|(b)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
