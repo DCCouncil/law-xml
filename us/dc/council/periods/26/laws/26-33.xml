@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-33">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-33" codify:doc="D.C. Code">
   <num type="law">26-33</num>
   <num type="act">26-101</num>
   <num type="bill">26-273</num>
@@ -23,27 +23,43 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Rental Housing Registration Extension Temporary Amendment Act of 2025".</text>
-  <section>
+  <section codify:path="§42-3502.05|(f)">
     <num>2</num>
     <text>Section 205(f) of the Rental Housing Act of 1985, effective July 17, 1985 (D.C. Law 6-10; D.C. Official Code § 42-3502.05(f)), is amended as follows:</text>
-    <para>
+    <para codify:path="(1)">
       <num>(a)</num>
       <text>Paragraph (1) is amended by striking the number "90" and inserting the number "180" in its place.</text>
+      <codify:find-replace count="1">
+        <find>90</find>
+        <replace>180</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(2)">
       <num>(b)</num>
       <text>Paragraph (2) is amended by striking the number "90" and inserting the number "180" in its place.</text>
+      <codify:find-replace count="1">
+        <find>90</find>
+        <replace>180</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(4)">
       <num>(c)</num>
       <text>Paragraph (4) is amended as follows:</text>
-      <para>
+      <para codify:path="(A)">
         <num>(1)</num>
         <text>Subparagraph (A) is amended by striking the number "90" and inserting the number "180" in its place.</text>
+        <codify:find-replace count="1">
+          <find>90</find>
+          <replace>180</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(B)|(i)">
         <num>(2)</num>
         <text>Subparagraph (B)(i) is amended by striking the number "91" and inserting the number "181" in its place.</text>
+        <codify:find-replace count="1">
+          <find>91</find>
+          <replace>181</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -51,6 +67,7 @@
       <text>A new paragraph (5) is added to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(4)" num-value="(5)"/>
           <num>(5)</num>
           <para>
             <num>(A)</num>
@@ -72,6 +89,12 @@
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:emergency doc="D.C. Code" path="§42-3502.05"/>
+    <codify:insert doc="D.C. Code" path="§42-3502.05" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on April 5, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§42-3502.05(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
