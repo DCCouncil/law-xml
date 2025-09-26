@@ -201,7 +201,7 @@
         <para>
           <codify:replace/>
           <num>(2)</num>
-          <text><span codify:value="[&quot;]"></span>COVID-19 relief" means federal monetary unemployment assistance provided under the Coronavirus Aid, Relief, and Economic Security Act, approved March 27, 2020 (134 Stat. 281; 15 U.S.C. § 9001 <em>et seq.</em>), which shall include tax credits but shall not include federal Economic Impact Payments or other stimulus relief for which eligibility is not contingent on the recipient's employment status.</text>
+          <text><span codify:value="[&quot;]"/>COVID-19 relief" means federal monetary unemployment assistance provided under the Coronavirus Aid, Relief, and Economic Security Act, approved March 27, 2020 (134 Stat. 281; 15 U.S.C. § 9001 <em>et seq.</em>), which shall include tax credits but shall not include federal Economic Impact Payments or other stimulus relief for which eligibility is not contingent on the recipient's employment status.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
@@ -317,10 +317,11 @@
           <section>
             <num>4</num>
             <heading>Lottery, Gambling, and Gaming Fund.</heading>
-            <codify:find-replace count="1">
+            <!-- <codify:find-replace count="1">
               <find>Lottery, Charitable Games, and Sports Wagering Fund</find>
               <replace>Lottery, Gambling, and Gaming Fund</replace>
-            </codify:find-replace>
+            </codify:find-replace> -->
+            <!-- already done in Law 23-149 -->
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -339,7 +340,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>All fees collected pursuant to <span codify:value="§§">sections</span> <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§36-641.06" codify:value="36-641.06">406</code-cite> through <code-cite doc="D.C. Code" path="§36-641.08" codify:value="36-641.08">408</code-cite>.</text>
+              <text>All fees collected pursuant to <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§36-641.06" codify:value="36-641.06">406</code-cite> through <code-cite doc="D.C. Code" path="§36-641.08" codify:value="36-641.08">408</code-cite>.</text>
             </para>
           </para>
         </include>
@@ -348,17 +349,18 @@
       <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended by striking the word "gambling" and inserting the phrase "gambling and gaming" in its place.</text>
-        <codify:find-replace count="1">
+        <!-- already done in Law 23-149 -->
+        <!-- <codify:find-replace count="1">
           <find>gambling</find>
           <replace>gambling and gaming</replace>
-        </codify:find-replace>
-        <codify:insert doc="D.C. Code" path="36|6" history="false">
+        </codify:find-replace> -->
+        <!-- <codify:insert doc="D.C. Code" path="36|6" history="false">
           <container>
             <prefix>Subchapter</prefix>
             <num>III</num>
             <heading>Game of Skill Machines.</heading>
           </container>
-        </codify:insert>
+        </codify:insert> -->
       </para>
     </para>
     <para>
@@ -370,8 +372,9 @@
           <num>IV</num>
           <heading>GAME OF SKILL MACHINES.</heading>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.01" history-prefix="as added"/>
-            <num>401</num>
+            <codify:replace path="§36-641.01" history-prefix="as added"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.01" history-prefix="as added"/> -->
+            <num codify:value="36-641.01">401</num>
             <heading>Definitions</heading>
             <para>
               <num undesignated="true">(a)</num>
@@ -468,20 +471,21 @@
                 <num>(13)</num>
                 <text>"Retailer" means a person that is licensed under <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> to offer game of skill machines on its licensed premises.</text>
               </para>
-              
             </para>
             <annotation doc="D.C. Law 3-172" type="History" path="§401">Mar. 10, 1981, D.C. Law 3-172, § 401</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.02" history-prefix="as added"/>
-            <num>402</num>
+            <codify:replace path="§36-641.02" history-prefix="as added"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.02" history-prefix="as added"/> -->
+            <num codify:value="36-641.02">402</num>
             <heading>Authorization of game of skill machines.</heading>
             <text>The operation of game of skill machines shall be lawful in the District if conducted in accordance with <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite> and the rules issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>.</text>
             <annotation doc="D.C. Law 3-172" type="History" path="§402">Mar. 10, 1981, D.C. Law 3-172, § 402</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.03" history-prefix="as added"/>
-            <num>403</num>
+            <codify:replace path="§36-641.03" history-prefix="as added"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.03" history-prefix="as added"/> -->
+            <num codify:value="36-641.03">403</num>
             <heading>Game of skill machine license requirements; prohibition.</heading>
             <para>
               <num>(a)</num>
@@ -547,8 +551,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§403">Mar. 10, 1981, D.C. Law 3-172, § 403</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.04" history-prefix="as added"/>
-            <num>404</num>
+            <codify:replace path="§36-641.04"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.04" history-prefix="as added"/> -->
+            <num codify:value="36-641.04">404</num>
             <heading>License prohibitions; suspensions and revocation of licenses.</heading>
             <para>
               <num>(a)</num>
@@ -604,8 +609,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§404">Mar. 10, 1981, D.C. Law 3-172, § 404</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.05" history-prefix="as added"/>
-            <num>405</num>
+            <codify:replace path="§36-641.05"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.05" history-prefix="as added"/> -->
+            <num codify:value="36-641.05">405</num>
             <heading>Conflicts of interest.</heading>
             <para>
               <num>(a)</num>
@@ -626,8 +632,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§405">Mar. 10, 1981, D.C. Law 3-172, § 405</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.06" history-prefix="as added"/>
-            <num>406</num>
+            <codify:replace path="§36-641.06"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.06" history-prefix="as added"/> -->
+            <num codify:value="36-641.06">406</num>
             <heading>Manufacturer licensure.</heading>
             <para>
               <num>(a)</num>
@@ -675,8 +682,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§406">Mar. 10, 1981, D.C. Law 3-172, § 406</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.07" history-prefix="as added"/>
-            <num>407</num>
+            <codify:replace path="§36-641.07"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.07" history-prefix="as added"/> -->
+            <num codify:value="36-641.07">407</num>
             <heading>Distributor licensure.</heading>
             <para>
               <num>(a)</num>
@@ -741,8 +749,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§407">Mar. 10, 1981, D.C. Law 3-172, § 407</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.08" history-prefix="as added"/>
-            <num>408</num>
+            <codify:replace path="§36-641.08"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.08" history-prefix="as added"/> -->
+            <num codify:value="36-641.08">408</num>
             <heading>Retailer licensure.</heading>
             <para>
               <num>(a)</num>
@@ -799,8 +808,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§408">Mar. 10, 1981, D.C. Law 3-172, § 408</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.09" history-prefix="as added"/>
-            <num>409</num>
+            <codify:replace path="§36-641.09"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.09" history-prefix="as added"/> -->
+            <num codify:value="36-641.09">409</num>
             <heading>Minimum requirements of game of skill machines.</heading>
             <para>
               <num>(a)</num>
@@ -904,8 +914,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§409">Mar. 10, 1981, D.C. Law 3-172, § 409</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.10" history-prefix="as added"/>
-            <num>410</num>
+            <codify:replace path="§36-641.10"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.10" history-prefix="as added"/> -->
+            <num codify:value="36-641.10">410</num>
             <heading>Registration; display of registration sticker, license, and warning sign; locations of game of skill machines.</heading>
             <para>
               <num>(a)</num>
@@ -961,8 +972,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§410">Mar. 10, 1981, D.C. Law 3-172, § 410</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.11" history-prefix="as added"/>
-            <num>411</num>
+            <codify:replace path="§36-641.11"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.11" history-prefix="as added"/> -->
+            <num codify:value="36-641.11">411</num>
             <heading>Cash award.</heading>
             <para>
               <num>(a)</num>
@@ -987,8 +999,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§411">Mar. 10, 1981, D.C. Law 3-172, § 411</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.12" history-prefix="as added"/>
-            <num>412</num>
+            <codify:replace path="§36-641.12"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.12" history-prefix="as added"/> -->
+            <num codify:value="36-641.12">412</num>
             <heading>Game of skill machine use by minors prohibited.</heading>
             <para>
               <num>(a)</num>
@@ -1001,8 +1014,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§412">Mar. 10, 1981, D.C. Law 3-172, § 412</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.13" history-prefix="as added"/>
-            <num>413</num>
+            <codify:replace path="§36-641.13"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.13" history-prefix="as added"/> -->
+            <num codify:value="36-641.13">413</num>
             <heading>Centralized accounting system.</heading>
             <para>
               <num>(a)</num>
@@ -1038,15 +1052,17 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§413">Mar. 10, 1981, D.C. Law 3-172, § 413</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.14" history-prefix="as added"/>
-            <num>414</num>
+            <codify:replace path="§36-641.14"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.14" history-prefix="as added"/> -->
+            <num codify:value="36-641.14">414</num>
             <heading>Insurance.</heading>
             <text>The Office may require by rule, issued pursuant to <code-cite doc="D.C. Code" path="36|6|III">this title</code-cite>, that a distributor maintain liability insurance on the game of skill machines that it places in licensed establishments or that a retailer maintain liability insurance on the game of skill machines that are located in its licensed establishment.</text>
             <annotation doc="D.C. Law 3-172" type="History" path="§414">Mar. 10, 1981, D.C. Law 3-172, § 414</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.15" history-prefix="as added"/>
-            <num>415</num>
+            <codify:replace path="§36-641.15"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.15" history-prefix="as added"/> -->
+            <num codify:value="36-641.15">415</num>
             <heading>Penalties.</heading>
             <para>
               <num>(a)</num>
@@ -1075,8 +1091,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§415">Mar. 10, 1981, D.C. Law 3-172, § 415</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.16" history-prefix="as added"/>
-            <num>416</num>
+            <codify:replace path="§36-641.16"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.16" history-prefix="as added"/> -->
+            <num codify:value="36-641.16">416</num>
             <heading>Authority of the Office.</heading>
             <para>
               <num>(a)</num>
@@ -1113,8 +1130,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§416">Mar. 10, 1981, D.C. Law 3-172, § 416</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.17" history-prefix="as added"/>
-            <num>417</num>
+            <codify:replace path="§36-641.17"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.17" history-prefix="as added"/> -->
+            <num codify:value="36-641.17">417</num>
             <heading>Investigations and inspections.</heading>
             <para>
               <num>(a)</num>
@@ -1135,8 +1153,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§417">Mar. 10, 1981, D.C. Law 3-172, § 417</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.18" history-prefix="as added"/>
-            <num>418</num>
+            <codify:replace path="§36-641.18"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.18" history-prefix="as added"/> -->
+            <num codify:value="36-641.18">418</num>
             <heading>Unlawful acts; action by the Attorney General.</heading>
             <para>
               <num>(a)</num>
@@ -1156,8 +1175,9 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§418">Mar. 10, 1981, D.C. Law 3-172, § 418</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.19" history-prefix="as added"/>
-            <num>419</num>
+            <codify:replace path="§36-641.19"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.19" history-prefix="as added"/> -->
+            <num codify:value="36-641.19">419</num>
             <heading>Taxation of game of skill machines.</heading>
             <para>
               <num>(a)</num>
@@ -1190,15 +1210,17 @@
             <annotation doc="D.C. Law 3-172" type="History" path="§419">Mar. 10, 1981, D.C. Law 3-172, § 419</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.20" history-prefix="as added"/>
-            <num>420</num>
+            <codify:replace path="§36-641.20"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.20" history-prefix="as added"/> -->
+            <num codify:value="36-641.20">420</num>
             <heading>Deposit of license fees.</heading>
             <text>All fees collected under <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§36-641.06" codify:value="36-641.06">406</code-cite> through <code-cite doc="D.C. Code" path="§36-641.08" codify:value="36-641.08">408</code-cite> shall be deposited in the Lottery, Gambling, and Gaming Fund, established by <code-cite doc="D.C. Code" path="§36-601.12">section 4 (D.C. Official Code § 36-601.12)</code-cite>.</text>
             <annotation doc="D.C. Law 3-172" type="History" path="§420">Mar. 10, 1981, D.C. Law 3-172, § 420</annotation>
           </section>
           <section>
-            <codify:insert path="36|6|III" num-value="36-641.21" history-prefix="as added"/>
-            <num>421</num>
+            <codify:replace path="§36-641.21"/>
+            <!-- <codify:insert path="36|6|III" num-value="36-641.21" history-prefix="as added"/> -->
+            <num codify:value="36-641.21">421</num>
             <heading>Rules and regulations governing game of skill machines.</heading>
             <para>
               <num>(a)</num>
@@ -1260,7 +1282,7 @@
                 <text>Internal control standards for game of skill machines.</text>
               </para>
             </para>
-          <annotation doc="D.C. Law 3-172" type="History" path="§421">Mar. 10, 1981, D.C. Law 3-172, § 421</annotation>
+            <annotation doc="D.C. Law 3-172" type="History" path="§421">Mar. 10, 1981, D.C. Law 3-172, § 421</annotation>
           </section>
         </container>
       </include>
@@ -1281,7 +1303,8 @@
           <text>A new paragraph (22B) is added to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:insert after="(22A)"/>
+              <codify:replace path="(22B)"/>
+              <!-- <codify:insert after="(22A)"/> -->
               <num>(22B)</num>
               <text>"Game of skill machine" has the meaning set forth in <cite doc="D.C. Code" path="§36-641.01|(6)">§ 36-641.01(6)</cite></text>
             </para>
@@ -1293,7 +1316,8 @@
           <text>A new paragraph (53A) is added to read as follows:</text>
           <include lvl="1">
             <para>
-              <codify:insert after="(53)"/>
+              <codify:replace path="(53A)"/>
+              <!-- <codify:insert after="(53)"/> -->
               <num>(53A)</num>
               <text>"Voucher" means a ticket issued by a game of skill machine that is redeemable for cash winnings.</text>
             </para>
@@ -1301,16 +1325,17 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para codify:path="§[25-113.01]">
+      <para codify:path="§25-113.01">
         <num>(2)</num>
         <text>Section 25-113a is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The section is redesignated as § 25-113.01.</text>
-          <codify:find-replace count="1">
+          <!-- <codify:find-replace count="1">
             <find>[25-113.01]</find>
             <replace>25-113.01</replace>
-          </codify:find-replace>
+          </codify:find-replace> -->
+          <!-- already done in Law 23-149 -->
         </para>
         <para>
           <num>(B)</num>
@@ -1323,9 +1348,11 @@
             </section>
           </include>
           <aftertext>.</aftertext>
-          <codify:find-replace doc="D.C. Code" path="§10-1102.01b" count="1" history="false" display-template ="">
+          <codify:find-replace doc="D.C. Code" path="§10-1102.01b" count="1" history="false" display-template="">
             <find>D.C. Official Code § 25-113a(c)</find>
-            <replace><cite doc="D.C. Code" path="§25-113.01|(c)">25-113.01(c)</cite></replace>
+            <replace>
+              <cite doc="D.C. Code" path="§25-113.01|(c)">25-113.01(c)</cite>
+            </replace>
           </codify:find-replace>
         </para>
         <para>
@@ -1333,7 +1360,8 @@
           <text>A new subsection (e) is added to read as follows:</text>
           <include>
             <para>
-              <codify:insert path="§25-113.01" before="(f)"/>
+              <codify:replace path="(e)"/>
+              <!-- <codify:insert path="§25-113.01" before="(f)"/> -->
               <num>(e)</num>
               <para>
                 <num>(1)</num>
@@ -1373,7 +1401,8 @@
       <text>Section 25-401 is amended by adding a new subsection (e) to read as follows:</text>
       <include>
         <para>
-          <codify:insert/>
+          <codify:replace path="(e)"/>
+          <!-- <codify:insert/> -->
           <num>(e)</num>
           <text>An applicant for a game of skill machine endorsement shall submit to the Board with its application:</text>
           <para>
@@ -1445,7 +1474,8 @@
         <text>Section 25-763 is amended by adding a new subsection (g) to read as follows:</text>
         <include>
           <para>
-            <codify:insert path="§25-763"/>
+            <codify:replace path="§25-763|(g)"/>
+            <!-- <codify:insert path="§25-763"/> -->
             <num>(g)</num>
             <text>Exterior signs advertising game of skill machines shall be prohibited on the licensed establishment.</text>
           </para>
@@ -1457,7 +1487,8 @@
         <text>Section 25-765 is amended by adding a new subsection (c) to read as follows:</text>
         <include>
           <para>
-            <codify:insert path="§25-765"/>
+            <codify:replace path="§25-765|(c)"/>
+            <!-- <codify:insert path="§25-765"/> -->
             <num>(c)</num>
             <text>Advertisements related to game of skill machines shall not be placed on the interior or exterior of a window or on the exterior of a door that is used to enter or exit the licensed establishment.</text>
           </para>
@@ -1469,7 +1500,8 @@
         <text>A new section 25-786 is added to read as follows:</text>
         <include>
           <section>
-            <codify:insert path="25|7|IX"/>
+            <codify:replace path="§25-786"/>
+            <!-- <codify:insert path="25|7|IX"/> -->
             <prefix>§</prefix>
             <num>25-786</num>
             <heading>Game of skill machine operating requirements.</heading>
@@ -1519,7 +1551,8 @@
       <text>Section 25-801 is amended by adding a new subsection (h) to read as follows:</text>
       <include>
         <para>
-          <codify:insert path="§25-801"/>
+          <codify:replace path="§25-801|(h)"/>
+          <!-- <codify:insert path="§25-801"/> -->
           <num>(h)</num>
           <text>An ABRA investigator may request and check the identification of a person who has played, is playing, or is attempting to play a game of skill machine. An ABRA investigator may seize fake identification used by a person under 18 years of age and may seize such records related to a game of skill machine as the investigator considers appropriate to investigate the playing of a game of skill machine by a person under 18 years of age.</text>
         </para>
@@ -1533,14 +1566,16 @@
     <para>
       <num>(a)</num>
       <text>The existing text is designated as subsection (a).</text>
-      <codify:redesignate-para num-value="(a)"/>
+      <!-- <codify:redesignate-para num-value="(a)"/> -->
+      <!-- already done in Law 23-149 -->
     </para>
     <para>
       <num>(b)</num>
       <text>A new subsection (b) is added to read as follows:</text>
       <include>
-         <para>
-          <codify:insert/>
+        <para>
+          <codify:replace path="(b)"/>
+          <!-- <codify:insert/> -->
           <num>(b)</num>
           <text>It shall be unlawful to install or operate a game of skill machine in the District except as permitted by <code-cite doc="D.C. Code" path="36|6|III">Title IV of the Law to Legalize Lotteries, Daily Numbers Games, and Bingo Raffles for Charitable Purposes in the District of Columbia, passed on 2nd Reading on October 20, 2020 (Enrolled version of Bill 23-945) ("Title IV")</code-cite>. Whoever shall install or operate a game of skill machine in the District in violation of <code-cite doc="D.C. Code" path="36|6|III">Title IV</code-cite> shall be guilty of a misdemeanor and, upon  conviction thereof, shall be imprisoned for not more than180 days or fined not more than the amount set forth in <code-cite doc="D.C. Code" path="§22-3571.01">section 101 of the Criminal Fine Proportionality Amendment Act of 2012, effective June 11, 2013 (D.C. Law 19-317; D.C. Official Code § 22-3571.01)</code-cite>, or both.</text>
         </para>
