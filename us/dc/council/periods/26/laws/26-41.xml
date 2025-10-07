@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-41">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-41" codify:doc="D.C. Code">
   <num type="law">26-41</num>
   <num type="act">26-128</num>
   <num type="bill">26-53</num>
@@ -21,6 +21,13 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Vacant to Vibrant Amendment Act of 2025".</text>
+  <codify:insert doc="D.C. Code" path="42" after="16B" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>16C</num>
+      <heading>Tangled Title Disclosure.</heading>
+    </container>
+  </codify:insert>
   <container>
     <prefix>TITLE</prefix>
     <num>I</num>
@@ -30,26 +37,27 @@
       <num>A</num>
       <heading>TANGLED TITLE INFORMATION SHEET.</heading>
       <section>
+        <codify:insert path="42|16C" num-value="42-1681"/>
         <num>101</num>
         <heading proof="needed">Definitions.</heading>
         <para>
           <num undesignated="true">(a)</num>
-          <text>For purposes of this subtitle, the term:</text>
+          <text>For purposes of <code-cite doc="D.C. Code" path="42|16C">this subtitle</code-cite>, the term:</text>
           <para>
             <num>(1)</num>
             <text>"Department" means the Department of Housing and Community Development.</text>
           </para>
           <para>
             <num>(2)</num>
-            <text>"Funeral services establishment" shall have the same meaning as set forth in section 3(11) of the District of Columbia Funeral Services Regulatory Act of 1984, effective May 22, 1984 (D.C. Law 5-84; D.C. Official Code § 3-402(11)).</text>
+            <text>"Funeral services establishment" shall have the same meaning as set forth in <code-cite doc="D.C. Code" path="§3-402|(11)">section 3(11) of the District of Columbia Funeral Services Regulatory Act of 1984, effective May 22, 1984 (D.C. Law 5-84; D.C. Official Code § 3-402(11))</code-cite>.</text>
           </para>
           <para>
             <num>(3)</num>
-            <text>"Heir" shall have the same meaning as set forth in section 101(c) of the District of Columbia Probate Reform Act of 1980, effective June 24, 1980 (D.C. Law 3-72; D.C. Official Code § 20-101(c)).</text>
+            <text>"Heir" shall have the same meaning as set forth in <code-cite doc="D.C. Code" path="§20-101|(c)">section 101(c) of the District of Columbia Probate Reform Act of 1980, effective June 24, 1980 (D.C. Law 3-72; D.C. Official Code § 20-101(c))</code-cite>.</text>
           </para>
           <para>
             <num>(4)</num>
-            <text>"Legatee" shall have the same meaning as set forth in section 101(g) of the District of Columbia Probate Reform Act of 1980, effective June 24, 1980 (D.C. Law 3-72; D.C. Official Code § 20-101(g)).</text>
+            <text>"Legatee" shall have the same meaning as set forth in <code-cite doc="D.C. Code" path="§20-101|(g)">section 101(g) of the District of Columbia Probate Reform Act of 1980, effective June 24, 1980 (D.C. Law 3-72; D.C. Official Code § 20-101(g))</code-cite>.</text>
           </para>
           <para>
             <num>(5)</num>
@@ -58,11 +66,12 @@
         </para>
       </section>
       <section>
+        <codify:insert path="42|16C" after="§42-1681" num-value="42-1682"/>
         <num>102</num>
         <heading proof="needed">Tangled title disclosure.</heading>
         <para>
           <num>(a)</num>
-          <text>No later than 180 days after the effective date of this subtitle, the Department shall, in consultation with the Superior Court of the District of Columbia and legal service providers, create and make publicly available a tangled title information sheet detailing the steps necessary, after the death of a real property owner, to legally transfer the real property to a decedent's heirs or legatees. The information sheet also shall include information on legal service providers who offer low-cost or no-cost representation in estate administration cases.</text>
+          <text>No later than <span codify:value="[March 30, 2026]">180 days after the effective date of this subtitle</span>, the Department shall, in consultation with the Superior Court of the District of Columbia and legal service providers, create and make publicly available a tangled title information sheet detailing the steps necessary, after the death of a real property owner, to legally transfer the real property to a decedent's heirs or legatees. The information sheet also shall include information on legal service providers who offer low-cost or no-cost representation in estate administration cases.</text>
         </para>
         <para>
           <num>(b)</num>
@@ -77,6 +86,13 @@
         </para>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="18" after="9" history="false">
+      <container>
+        <prefix>Chapter</prefix>
+        <num>10</num>
+        <heading>Will Registry.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>B</num>
@@ -118,6 +134,7 @@
                 </section>
               </toc>
               <section>
+                <codify:insert path="18|10" num-value="18-1001"/>
                 <prefix>§</prefix>
                 <num>18-1001</num>
                 <heading proof="needed">General provisions.</heading>
@@ -131,10 +148,11 @@
                 </para>
                 <para>
                   <num>(c)</num>
-                  <text>The Register of Wills shall keep an index of all wills deposited under this chapter.</text>
+                  <text>The Register of Wills shall keep an index of all wills deposited under <cite doc="D.C. Code" path="18|10">this chapter</cite>.</text>
                 </para>
               </section>
               <section>
+                <codify:insert path="18|10" after="§18-1001" num-value="18-1002"/>
                 <prefix>§</prefix>
                 <num>18-1002</num>
                 <heading proof="needed">Deposit of will in testator's lifetime.</heading>
@@ -186,11 +204,12 @@
                   </para>
                   <para>
                     <num>(2)</num>
-                    <text>If a testator is adjudicated incapacitated or an investigation or proceeding has been initiated in accordance with § 22-931 <em>et seq</em>., or in accordance with Chapter 5 of Title 21, and the will was deposited with the registry less than one year from the adjudication or investigation, a court-appointed guardian, conservator, guardian ad litem, or counsel in the proceedings may be authorized to unseal and examine a deposited will of testator under procedures designed to maintain the confidential character of the document, to the extent possible, and to ensure that it will be resealed and kept on deposit after the examination. If the will of an incapacitated testator has been deposited continuously for more than one year, the will cannot be unsealed without a court order.</text>
+                    <text>If a testator is adjudicated incapacitated or an investigation or proceeding has been initiated in accordance with <code-cite doc="D.C. Code" path="22|9A">§ 22-931 <em>et seq</em></code-cite>., or in accordance with <cite doc="D.C. Code" path="21|5">Chapter 5 of Title 21</cite>, and the will was deposited with the registry less than one year from the adjudication or investigation, a court-appointed guardian, conservator, guardian ad litem, or counsel in the proceedings may be authorized to unseal and examine a deposited will of testator under procedures designed to maintain the confidential character of the document, to the extent possible, and to ensure that it will be resealed and kept on deposit after the examination. If the will of an incapacitated testator has been deposited continuously for more than one year, the will cannot be unsealed without a court order.</text>
                   </para>
                 </para>
               </section>
               <section>
+                <codify:insert path="18|10" after="§18-1002" num-value="18-1003"/>
                 <prefix>§</prefix>
                 <num>18-1003</num>
                 <heading proof="needed">Custodian of will upon death of testator.</heading>
@@ -203,7 +222,7 @@
                   </para>
                   <para>
                     <num>(2)</num>
-                    <text>Deliver the will to the Probate Court for filing in accordance with § 18-110.</text>
+                    <text>Deliver the will to the Probate Court for filing in accordance with <cite doc="D.C. Code" path="§18-110">§ 18-110</cite>.</text>
                   </para>
                 </para>
                 <para>
@@ -217,16 +236,24 @@
         </para>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="42" after="30" history="false">
+      <container>
+        <prefix>Chapter</prefix>
+        <num>30A</num>
+        <heading>Single Family Home Rehabilitation Program.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>C</num>
       <heading>SINGLE FAMILY HOME REHABILITATION PROGRAM.</heading>
       <section>
+        <codify:insert path="42|30A" num-value="42-3021"/>
         <num>121</num>
         <heading proof="needed">Definitions.</heading>
         <para>
           <num undesignated="true">(a)</num>
-          <text>For purposes of this subtitle, the term:</text>
+          <text>For purposes of <code-cite doc="D.C. Code" path="42|30A">this subtitle</code-cite>, the term:</text>
           <para>
             <num>(1)</num>
             <text>"Area median income" means the area median income of the Washington Metropolitan Statistical Area as set forth in the periodic calculation provided by the U.S. Department of Housing and Urban Development.</text>
@@ -256,7 +283,7 @@
             </para>
             <para>
               <num>(E)</num>
-              <text>Is current on all District and federal taxes; provided, that an owner who has not defaulted on a real property tax payment plan entered into pursuant to D.C. Official Code § 47-811.05 and remains current on real property taxes that come due shall be considered current on District real property taxes for purposes of determining eligibility under this paragraph; and</text>
+              <text>Is current on all District and federal taxes; provided, that an owner who has not defaulted on a real property tax payment plan entered into pursuant to <cite doc="D.C. Code" path="§47-811.05">D.C. Official Code § 47-811.05</cite> and remains current on real property taxes that come due shall be considered current on District real property taxes for purposes of determining eligibility under this paragraph; and</text>
             </para>
             <para>
               <num>(F)</num>
@@ -265,11 +292,13 @@
           </para>
           <para>
             <num>(4)</num>
-            <text>"Single-family residential property" shall have the same meaning as set forth in D.C. Official Code § 47 803(6).</text>
+            <text>"Single-family residential property" shall have the same meaning as set forth in <cite doc="D.C. Code" path="§47-803|(6)">D.C. Official Code § 47 803(6)</cite>.</text>
           </para>
         </para>
+        <codify:not-funded-anno doc="D.C. Law 26-41" path="§121" applicability-path="§401|(a)" action="creation of" display-template=""/>
       </section>
       <section>
+        <codify:insert path="42|30A" after="§42-3021" num-value="42-3022"/>
         <num>122</num>
         <heading proof="needed">Single-family home rehabilitation program.</heading>
         <para>
@@ -313,8 +342,9 @@
         </para>
         <para>
           <num>(c)</num>
-          <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue rules to implement the provisions of this section.</text>
+          <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue rules to implement the provisions of this section.</text>
         </para>
+        <codify:not-funded-anno doc="D.C. Law 26-41" path="§122" applicability-path="§401|(a)" action="creation of" display-template=""/>
       </section>
     </container>
     <container>
@@ -345,6 +375,7 @@
             <text>A new section 47-811.05 is added to read as follows:</text>
             <include>
               <section>
+                <codify:insert path="47|8|II" after="§47-811.04" num-value="47-811.05"/>
                 <prefix>§</prefix>
                 <num>47-811.05</num>
                 <heading proof="needed">Real property tax payment plans.</heading>
@@ -353,7 +384,7 @@
                   <text>For purposes of this section, the term:</text>
                   <para>
                     <num>(1)</num>
-                    <text>"Eligible homeowner" means an owner or owners who receives the homestead deduction pursuant to § 47-850 and:</text>
+                    <text>"Eligible homeowner" means an owner or owners who receives the homestead deduction pursuant to <cite doc="D.C. Code" path="§47-850">§ 47-850</cite> and:</text>
                     <para>
                       <num>(A)</num>
                       <text>Can demonstrate hardship;</text>
@@ -396,7 +427,7 @@
                     </para>
                     <para>
                       <num>(F)</num>
-                      <text>Amounts certified by external agencies pursuant to § 47-1340.</text>
+                      <text>Amounts certified by external agencies pursuant to <cite doc="D.C. Code" path="§47-1340">§ 47-1340</cite>.</text>
                     </para>
                   </para>
                 </para>
@@ -506,22 +537,24 @@
               </section>
             </include>
             <aftertext>.</aftertext>
+            <codify:not-funded-anno doc="D.C. Law 26-41" path="§131|(a)|(2)" applicability-path="§401|(a)" action="creation of" display-template=""/>
           </para>
         </para>
-        <para>
+        <para codify:path="§47-1341">
           <num>(b)</num>
           <text>Section 47-1341 is amended as follows:</text>
-          <para>
+          <para codify:path="(a)|(2)">
             <num>(1)</num>
             <text>Subsection (a)(2) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace/>
                 <num>(2)</num>
                 <text>The notice required pursuant to paragraph (1) of this subsection shall be in substantively the following form and may include a payment coupon or enclosed bill:</text>
                 <text>THIS IS A NOTICE OF DELINQUENCY. FAILURE TO PAY TAXES WILL HAVE SERIOUS CONSEQUENCES WHICH MAY INCLUDE LOSS OF TITLE TO THE PROPERTY.</text>
                 <aftertext proof="needed">Subject Property: [Identify by taxation square, suffix, and lot number, or parcel and lot number, and by premises address, the real property to be sold]</aftertext>
                 <aftertext proof="needed">TO AVOID TAX SALE YOU MUST PAY $ [Amount Subject to Sale] by May 31, 20__.</aftertext>
-                <aftertext proof="needed">The amount that you must pay to avoid the tax sale may be less than the total amount owed on the real property account. This amount may include fees or fines due to other DC agencies that have been certified to the Office of Tax and Revenue to be included in a tax sale pursuant to D.C. Code § 47-1340.</aftertext>
+                <aftertext proof="needed">The amount that you must pay to avoid the tax sale may be less than the total amount owed on the real property account. This amount may include fees or fines due to other DC agencies that have been certified to the Office of Tax and Revenue to be included in a tax sale pursuant to <cite doc="D.C. Code" path="§47-1340">D.C. Code § 47-1340</cite>.</aftertext>
                 <aftertext proof="needed">According to the Mayor's tax roll, you own or may have an interest in the real property listed above. Notice is given that unless you pay the amount stated above or fall within one of the limited exemptions from the tax sale, the Office of Tax and Revenue may sell this real property at tax sale.</aftertext>
                 <aftertext proof="needed">If the property is sold at tax sale, the purchaser may have the right to file a lawsuit to foreclose on the property. You must act now to avoid additional costs and significant expenses, as well as potential loss of title to the property.</aftertext>
                 <aftertext proof="needed">Payment to the "DC Treasurer" may be made online at MyTax.DC.gov or mailed (with payment coupon from tax bill) to the Office of Tax and Revenue, DC Government Real Property Taxes, P.O. Box 718095, Philadelphia, PA 19171-8095 (please write your square, suffix, and lot numbers on the check). You should keep a copy of your proof of payment in case there is a later dispute about the payment.</aftertext>
@@ -539,17 +572,18 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(b-1)|(2)">
             <num>(2)</num>
             <text>Subsection (b-1)(2) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace/>
                 <num>(2)</num>
                 <text>The notice required pursuant to paragraph (1) of this subsection shall be in substantively the following form, and may include a payment coupon or enclosed bill:</text>
                 <text>THIS IS A NOTICE OF DELINQUENCY. FAILURE TO PAY TAXES IMMEDIATELY MAY HAVE SERIOUS CONSEQUENCES WHICH MAY INCLUDE LOSS OF TITLE TO THE PROPERTY.</text>
                 <aftertext proof="needed">Subject Property: [Identify by taxation square, suffix, and lot number, or parcel and lot number, and by premises address, the real property to be sold]</aftertext>
                 <aftertext proof="needed">TO AVOID TAX SALE YOU MUST PAY $[Amount Subject to Sale] by [Last Business Day before tax sale]</aftertext>
-                <aftertext proof="needed">The amount that you must pay to avoid the tax sale may be less than the total amount owed on the real property account. This amount may include fees or fines due to other DC agencies that have been certified to the Office of Tax and Revenue to be included in a tax sale pursuant to D.C. Code § 47-1340.</aftertext>
+                <aftertext proof="needed">The amount that you must pay to avoid the tax sale may be less than the total amount owed on the real property account. This amount may include fees or fines due to other DC agencies that have been certified to the Office of Tax and Revenue to be included in a tax sale pursuant to <cite doc="D.C. Code" path="§47-1340">D.C. Code § 47-1340</cite>.</aftertext>
                 <aftertext proof="needed">According to the Mayor's tax roll, you own or may have an interest in the real property listed above. Notice is given that unless you pay the amount stated above or fall within one of the limited exemptions from the tax sale, the Office of Tax and Revenue may sell this real property at tax sale.</aftertext>
                 <aftertext proof="needed">If the property is sold at tax sale, the purchaser may have the right to file a lawsuit to foreclose on the property. You must act now to avoid additional costs and significant expenses, as well as potential loss of title to the property.</aftertext>
                 <aftertext proof="needed">Payment to the "DC Treasurer" may be made online at MyTax.DC.gov or mailed (with payment coupon from tax bill) to the Office of Tax and Revenue, DC Government Real Property Taxes, P.O. Box 718095, Philadelphia, PA 19171-8095 (please write your square, suffix, and lot numbers on the check). You should keep a copy of your proof of payment in case there is a later dispute about the payment.</aftertext>
@@ -569,6 +603,7 @@
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:not-funded-anno doc="D.C. Law 26-41" path="§131|(b)" applicability-path="§401|(a)" action="amendment to" display-template=""/>
         </para>
       </section>
     </container>
@@ -577,11 +612,12 @@
     <prefix>TITLE</prefix>
     <num>II</num>
     <heading>VACANT AND BLIGHTED PROPERTY REGISTRATION REFINEMENTS.</heading>
-    <section>
+    <section codify:path="§10-562.01">
       <num>201</num>
       <text>Section 201 of the Department of Buildings Establishment Act of 2020, effective April 5, 2021 (D.C. Law 23-269; D.C. Official Code § 10-562.01), is amended by adding new subsections (d) and (e) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(c)" num-value="(d)"/>
           <num>(d)</num>
           <text>For the January 1, 2026, Strategic Enforcement Plan required pursuant to subsection (a) of this section, the following information shall be included:</text>
           <para>
@@ -598,6 +634,7 @@
           </para>
         </para>
         <para>
+          <codify:insert after="(d)" num-value="(e)"/>
           <num>(e)</num>
           <text>For the January 1, 2027, Strategic Enforcement Plan required pursuant to subsection (a) of this section, and for the Strategic Enforcement Plans issued every 3 years thereafter, the SEA shall include a vacant and blighted property rehabilitation strategic plan. In developing the strategic plan, the SEA shall:</text>
           <para>
@@ -659,16 +696,17 @@
     <section>
       <num>202</num>
       <text>An Act To provide for the abatement of nuisances in the District of Columbia by the Commissioners of said District, and for other purposes, approved April 14, 1906 (34 Stat. 114; D.C. Official Code § 42-3131.01 <em>et seq</em>.), is amended as follows:</text>
-      <para>
+      <para codify:path="§42-3131.05">
         <num>(a)</num>
         <text>Section 5 (D.C. Official Code § 42-3131.05) is amended to read as follows:</text>
         <include>
           <section>
-            <num>5</num>
+            <codify:replace/>
+            <num codify:value="42-3131.05">5</num>
             <heading proof="needed">Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For purposes of sections 5 through 21, the term:</text>
+              <text>For purposes of <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§42-3131.05" codify:value="42-3131.05">5</code-cite> through <code-cite doc="D.C. Code" path="§42-3131.21">21</code-cite>, the term:</text>
               <para>
                 <num>(1)</num>
                 <text>"Active construction" means construction activity being performed pursuant to a valid building permit.</text>
@@ -735,7 +773,7 @@
               </para>
               <para>
                 <num>(11)</num>
-                <text>"Real property" shall have the same meaning as set forth in D.C. Official Code § 47-802(1).</text>
+                <text>"Real property" shall have the same meaning as set forth in <cite doc="D.C. Code" path="§47-802|(1)">D.C. Official Code § 47-802(1)</cite>.</text>
               </para>
               <para>
                 <num>(12)</num>
@@ -754,16 +792,17 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§42-3131.05a">
         <num>(b)</num>
         <text>Section 5a (D.C. Official Code § 42-3131.05a) is amended to read as follows:</text>
         <include>
           <section>
-            <num>5a</num>
+            <codify:replace/>
+            <num codify:value="42-3131.05a">5a</num>
             <heading proof="needed">Notice.</heading>
             <para>
               <num>(a)</num>
-              <text>Notice shall be deemed to be served properly on the date when mailed by first-class mail to the owner of record of the vacant building at the owner's mailing address as updated in the real property tax records of the Office of Tax and Revenue, or when effectuated in the manner provided in section 3.</text>
+              <text>Notice shall be deemed to be served properly on the date when mailed by first-class mail to the owner of record of the vacant building at the owner's mailing address as updated in the real property tax records of the Office of Tax and Revenue, or when effectuated in the manner provided in <code-cite doc="D.C. Code" path="§42-3131.03">section 3</code-cite>.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -782,6 +821,7 @@
         <text>A new section 5b is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="42|31A|II" after="§42-3131.05a" num-value="42-3131.05b" history-prefix="as added"/>
             <num>5b</num>
             <heading proof="needed">Determination of vacancy and blight.</heading>
             <para>
@@ -864,20 +904,22 @@
                 <text>Any other criteria the Mayor deems relevant.</text>
               </para>
             </para>
+            <annotation type="History" doc="Stat. 59-1-ch1626" path="§5b">Apr. 14, 1906, 34 Stat. 115, ch. 1626, § 5b</annotation>
           </section>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§42-3131.06">
         <num>(d)</num>
         <text>Section 6 (D.C. Official Code § 42-3131.06) is amended to read as follows:</text>
         <include>
           <section>
-            <num>6</num>
+            <codify:replace/>
+            <num codify:value="42-3131.06">6</num>
             <heading proof="needed">Registration of vacant buildings; renewal.</heading>
             <para>
               <num>(a)</num>
-              <text>Except as provided in section 6a, the owner of a vacant building shall, within 90 days after it becomes vacant, register the building and pay the registration fee. The Mayor may extend the time for good cause.</text>
+              <text>Except as provided in <code-cite doc="D.C. Code" path="§42-3131.06a">section 6a</code-cite>, the owner of a vacant building shall, within 90 days after it becomes vacant, register the building and pay the registration fee. The Mayor may extend the time for good cause.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -902,7 +944,7 @@
                 </para>
                 <para>
                   <num>(E)</num>
-                  <text>A signed vacant building maintenance plan required pursuant to section 12.</text>
+                  <text>A signed vacant building maintenance plan required pursuant to <code-cite doc="D.C. Code" path="§42-3131.12">section 12</code-cite>.</text>
                 </para>
               </para>
               <para>
@@ -919,7 +961,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>The building has been maintained in accordance with the requirements of section 12;</text>
+                <text>The building has been maintained in accordance with the requirements of <code-cite doc="D.C. Code" path="§42-3131.12">section 12</code-cite>;</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -960,7 +1002,7 @@
             </para>
             <para>
               <num>(d)</num>
-              <text>If the owner of a vacant building fails to comply with the provisions of subsection (c) of this section, both initially and throughout the registration period, the Mayor may deny or revoke the owner's registration and may subject the owner to the penalties provided in section 10.</text>
+              <text>If the owner of a vacant building fails to comply with the provisions of subsection (c) of this section, both initially and throughout the registration period, the Mayor may deny or revoke the owner's registration and may subject the owner to the penalties provided in <code-cite doc="D.C. Code" path="§42-3131.10">section 10</code-cite>.</text>
             </para>
             <para>
               <num>(e)</num>
@@ -988,7 +1030,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>This subsection shall not in any way limit the Mayor's authority to register as vacant any property for which the owner failed to register it as required by this act.</text>
+                <text>This subsection shall not in any way limit the Mayor's authority to register as vacant any property for which the owner failed to register it as required by <code-cite doc="D.C. Code" path="42|31A">this act</code-cite>.</text>
               </para>
             </para>
           </section>
@@ -1000,11 +1042,12 @@
         <text>A new section 6a is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="42|31A|II" after="§42-3131.06" num-value="42-3131.06a" history-prefix="as added"/>
             <num>6a</num>
             <heading proof="needed">Exemptions.</heading>
             <para>
               <num>(a)</num>
-              <text>A vacant building shall not be subject to the registration requirements of section 6, the registration fee pursuant to section 9, or the increased real property tax rates for vacant buildings set forth in D.C. Official Code § 47-812(b-10), if it is:</text>
+              <text>A vacant building shall not be subject to the registration requirements of <code-cite doc="D.C. Code" path="§42-3131.06">section 6</code-cite>, the registration fee pursuant to <code-cite doc="D.C. Code" path="§42-3131.09">section 9</code-cite>, or the increased real property tax rates for vacant buildings set forth in <code-cite doc="D.C. Code" path="§47-812|(b-10)">D.C. Official Code § 47-812(b-10)</code-cite>, if it is:</text>
               <para>
                 <num>(1)</num>
                 <text>Owned by the government of the United States or its instrumentalities; or</text>
@@ -1016,14 +1059,14 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>A vacant building shall not be subject to the registration fee pursuant to section 9 or the increased real property tax rates for vacant buildings set forth in D.C. Official Code § 47-812(b-10) if it is:</text>
+              <text>A vacant building shall not be subject to the registration fee pursuant to <code-cite doc="D.C. Code" path="§42-3131.09">section 9</code-cite> or the increased real property tax rates for vacant buildings set forth in <code-cite doc="D.C. Code" path="§47-812|(b-10)">D.C. Official Code § 47-812(b-10)</code-cite> if it is:</text>
               <para>
                 <num>(1)</num>
                 <text>Exempted by the Mayor in extraordinary circumstances and upon a showing of substantial economic or personal hardship as determined pursuant to subsection (c) of this section;</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>In compliance with the requirements of section 12 and applicable property maintenance code standards for the District of Columbia, and, if a rental, properly licensed in accordance with applicable District regulations, and the owner or his or her agent has been actively seeking in good faith to rent or sell the building; provided, that an exemption under this paragraph shall only be available for a period not to exceed:</text>
+                <text>In compliance with the requirements of <code-cite doc="D.C. Code" path="§42-3131.12">section 12</code-cite> and applicable property maintenance code standards for the District of Columbia, and, if a rental, properly licensed in accordance with applicable District regulations, and the owner or his or her agent has been actively seeking in good faith to rent or sell the building; provided, that an exemption under this paragraph shall only be available for a period not to exceed:</text>
                 <para>
                   <num>(A)</num>
                   <text>Half a tax year from the initial listing, offer, or advertisement of rent or sale in the case of a single-family residential building;</text>
@@ -1039,7 +1082,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>For a period not to exceed 3 tax years, the subject of a probate proceeding or the title is the subject of litigation (not including a foreclosure of the right of redemption action brought under Chapter 13A of Title 47 of the District of Columbia Official Code). The tax year in which the exemption under this paragraph commences is determined by the filing date of the applicable probate proceeding or litigation;</text>
+                <text>For a period not to exceed 3 tax years, the subject of a probate proceeding or the title is the subject of litigation (not including a foreclosure of the right of redemption action brought under <code-cite doc="D.C. Code" path="47|13A">Chapter 13A of Title 47 of the District of Columbia Official Code)</code-cite>. The tax year in which the exemption under this paragraph commences is determined by the filing date of the applicable probate proceeding or litigation;</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -1107,22 +1150,25 @@
             </para>
             <para>
               <num>(e)</num>
-              <text>If a vacant building is owned by the District of Columbia or its instrumentalities, it shall be subject to the registration requirements of section 6 and the maintenance requirements of section 12, but not subject to the fee requirements of section 9, the fines and penalties collected under section 10, or the increased real property tax rates for vacant buildings set forth in D.C. Official Code § 47-812(b-10).</text>
+              <text>If a vacant building is owned by the District of Columbia or its instrumentalities, it shall be subject to the registration requirements of <code-cite doc="D.C. Code" path="§42-3131.06">section 6</code-cite> and the maintenance requirements of <code-cite doc="D.C. Code" path="§42-3131.12">section 12</code-cite>, but not subject to the fee requirements of <code-cite doc="D.C. Code" path="§42-3131.09">section 9</code-cite>, the fines and penalties collected under <code-cite doc="D.C. Code" path="§42-3131.10">section 10</code-cite>, or the increased real property tax rates for vacant buildings set forth in <code-cite doc="D.C. Code" path="§47-812|(b-10)">D.C. Official Code § 47-812(b-10)</code-cite>.</text>
             </para>
+            <annotation type="History" doc="Stat. 59-1-ch1626" path="§6a">Apr. 14, 1906, 34 Stat. 115, ch. 1626, § 6a</annotation>
           </section>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§42-3131.07">
         <num>(f)</num>
         <text>Section 7 (D.C. Official Code § 42-3131.07) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="§42-3131.09">
         <num>(g)</num>
         <text>Section 9 (D.C. Official Code § 42-3131.09) is amended to read as follows:</text>
         <include>
           <section>
-            <num>9</num>
+            <codify:replace/>
+            <num codify:value="42-3131.09">9</num>
             <heading proof="needed">Fees.</heading>
             <para>
               <num>(a)</num>
@@ -1142,24 +1188,25 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>The Mayor may increase the fees set forth in subsection (b) of this section through rules issued pursuant to section 21.</text>
+              <text>The Mayor may increase the fees set forth in subsection (b) of this section through rules issued pursuant to <code-cite doc="D.C. Code" path="§42-3131.21">section 21</code-cite>.</text>
             </para>
           </section>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§42-3131.10">
         <num>(h)</num>
         <text>Section 10 (D.C. Official Code § 42-3131.10) is amended to read as follows:</text>
         <include>
           <section>
-            <num>10</num>
+            <codify:replace/>
+            <num codify:value="42-3131.10">10</num>
             <heading proof="needed">Penalties for noncompliance.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>The failure of the owner of a vacant building to pay all required fees under section 9 after notice of the designation of the owner's building as vacant, the determination of delinquency of registration or fee payment, the denial or revocation of registration, the filing by an owner of any false or misleading registration-related information, or the refusal of the owner of a vacant building to permit the Mayor to inspect the building shall be subject to a civil penalty of up to $1,000 for the first violation, $2,500 for the second violation, and $5,000 for the third and subsequent violations.</text>
+                <text>The failure of the owner of a vacant building to pay all required fees under <code-cite doc="D.C. Code" path="§42-3131.09">section 9</code-cite> after notice of the designation of the owner's building as vacant, the determination of delinquency of registration or fee payment, the denial or revocation of registration, the filing by an owner of any false or misleading registration-related information, or the refusal of the owner of a vacant building to permit the Mayor to inspect the building shall be subject to a civil penalty of up to $1,000 for the first violation, $2,500 for the second violation, and $5,000 for the third and subsequent violations.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1168,10 +1215,10 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>If the owner of a vacant building fails to maintain the building in compliance with the requirements of section 12 or, having obtained a vacant property registration, subsequently fails to comply with the other registration requirements under section 6, the Mayor, in addition to issuing civil penalties pursuant to subsection (a) of this section, may:</text>
+              <text>If the owner of a vacant building fails to maintain the building in compliance with the requirements of <code-cite doc="D.C. Code" path="§42-3131.12">section 12</code-cite> or, having obtained a vacant property registration, subsequently fails to comply with the other registration requirements under <code-cite doc="D.C. Code" path="§42-3131.06">section 6</code-cite>, the Mayor, in addition to issuing civil penalties pursuant to subsection (a) of this section, may:</text>
               <para>
                 <num>(1)</num>
-                <text>Charge the owner with failure to comply and enforce all applicable penalties under this act; and</text>
+                <text>Charge the owner with failure to comply and enforce all applicable penalties under <code-cite doc="D.C. Code" path="42|31A">this act</code-cite>; and</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -1180,26 +1227,31 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>Civil fines, penalties, and fees may be imposed as additional sanctions for any infraction of the provisions of sections 6, 8, 9, or 12, pursuant to the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (D.C. Law 6-42; D.C. Official Code § 2-1801.01 <em>et seq.</em>).</text>
+              <text>Civil fines, penalties, and fees may be imposed as additional sanctions for any infraction of the provisions of <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§42-3131.06" codify:value="42-3131.06">6</code-cite>, <code-cite doc="D.C. Code" path="§42-3131.08" codify:value="42-3131.08">8</code-cite>, <code-cite doc="D.C. Code" path="§42-3131.09" codify:value="42-3131.09">9</code-cite>, or <code-cite doc="D.C. Code" path="§42-3131.12" codify:value="42-3131.12">12</code-cite>, pursuant to <code-cite doc="D.C. Code" path="2|18">the Department of Consumer and Regulatory Affairs Civil Infractions Act of 1985, effective October 5, 1985 (D.C. Law 6-42; D.C. Official Code § 2-1801.01 <em>et seq.</em>)</code-cite>.</text>
             </para>
             <para>
               <num>(d)</num>
-              <text>Criminal prosecutions under sections 5 through 21 shall be brought in the name of the District of Columbia by the Attorney General for the District of Columbia.</text>
+              <text>Criminal prosecutions under <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§42-3131.05" codify:value="42-3131.05">5</code-cite> through <code-cite doc="D.C. Code" path="§42-3131.21" codify:value="42-3131.21">21</code-cite> shall be brought in the name of the District of Columbia by the Attorney General for the District of Columbia.</text>
             </para>
           </section>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§42-3131.11|(b)">
         <num>(i)</num>
         <text>Section 11(b) (D.C. Official Code § 42-3131.11(b)) is amended by striking the phrase "Department of Consumer and Regulatory Affairs" and inserting the phrase "Department of Buildings" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Department of Consumer and Regulatory Affairs</find>
+          <replace>Department of Buildings</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="§42-3131.12">
         <num>(j)</num>
         <text>Section 12 (D.C. Official Code § 42-3131.12) is amended to read as follows:</text>
         <include>
           <section>
-            <num>12</num>
+            <codify:replace/>
+            <num codify:value="42-3131.12">12</num>
             <heading proof="needed">Vacant building maintenance standard and plan.</heading>
             <para>
               <num>(a)</num>
@@ -1267,7 +1319,7 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>The owner of a vacant property or his or her agent shall submit a vacant property maintenance plan with the registration form required pursuant to section 6. The plan shall include the following:</text>
+              <text>The owner of a vacant property or his or her agent shall submit a vacant property maintenance plan with the registration form required pursuant to <code-cite doc="D.C. Code" path="§42-3131.06">section 6</code-cite>. The plan shall include the following:</text>
               <para>
                 <num>(1)</num>
                 <text>The name, address, and contact information (telephone number and electronic mailing address where applicable) of the person submitting the plan;</text>
@@ -1292,13 +1344,15 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Law 26-41" path="§202|(j)" applicability-path="§401|(a)" action="amendment to" display-template=""/>
       </para>
-      <para>
+      <para codify:path="§42-3131.15">
         <num>(k)</num>
         <text>Section 15 (D.C. Official Code § 42-3131.15) is amended to read as follows:</text>
         <include>
           <section>
-            <num>15</num>
+            <codify:replace/>
+            <num codify:value="42-3131.15">15</num>
             <heading proof="needed">Administrative review and appeal.</heading>
             <para>
               <num>(a)</num>
@@ -1339,12 +1393,13 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§42-3131.16">
         <num>(l)</num>
         <text>Section 16 (D.C. Official Code § 42-3131.16) is amended to read as follows:</text>
         <include>
           <section>
-            <num>16</num>
+            <codify:replace/>
+            <num codify:value="42-3131.16">16</num>
             <heading proof="needed">Transmission of list by Mayor.</heading>
             <para>
               <num>(a)</num>
@@ -1359,7 +1414,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>For which the time period to issue a notice of final determination under section 15 has expired or a notice of final determination has been issued under section 15 and administrative appeals have been exhausted or expired.</text>
+                <text>For which the time period to issue a notice of final determination under <code-cite doc="D.C. Code" path="§42-3131.15">section 15</code-cite> has expired or a notice of final determination has been issued under <code-cite doc="D.C. Code" path="§42-3131.15">section 15</code-cite> and administrative appeals have been exhausted or expired.</text>
               </para>
             </para>
             <para>
@@ -1378,16 +1433,18 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§42-3131.17">
         <num>(m)</num>
         <text>Section 17 (D.C. Official Code § 42-3131.17) is repealed.</text>
+        <codify:repeal/>
       </para>
-      <para>
+      <para codify:path="§42-3131.18">
         <num>(n)</num>
         <text>Section 18 (D.C. Official Code § 42-3131.18) is amended to read as follows:</text>
         <include>
           <section>
-            <num>18</num>
+            <codify:replace/>
+            <num codify:value="42-3131.18">18</num>
             <heading proof="needed">Publication of vacant and blighted vacant building information by the Department of Buildings.</heading>
             <para>
               <num>(a)</num>
@@ -1402,7 +1459,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>The date on which the building was designated a vacant building or blighted vacant building or registered as a vacant building pursuant to section 6;</text>
+                <text>The date on which the building was designated a vacant building or blighted vacant building or registered as a vacant building pursuant to <code-cite doc="D.C. Code" path="§42-3131.06">section 6</code-cite>;</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -1425,15 +1482,17 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§42-3131.19">
         <num>(o)</num>
         <text>Section 19 (D.C. Official Code § 42-3131.19) is repealed.</text>
+        <codify:repeal/>
       </para>
       <para>
         <num>(p)</num>
         <text>New sections 20 and 21 are added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="42|31A|II" after="§42-3131.19" num-value="42-3131.20" history-prefix="as added"/>
             <num>20</num>
             <heading proof="needed">Vacant and blighted vacant building receivership.</heading>
             <para>
@@ -1449,7 +1508,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>The vacant building is subject to a condemnation order by the Board for the Condemnation of Insanitary Buildings pursuant to section 3 of An Act To create a board for the condemnation of insanitary buildings in the District of Columbia, and for other purposes, approved May 1, 1906 (34 Stat. 157; D.C. Official Code § 6-903).</text>
+                <text>The vacant building is subject to a condemnation order by the Board for the Condemnation of Insanitary Buildings pursuant to <code-cite doc="D.C. Code" path="§6-903">section 3 of An Act To create a board for the condemnation of insanitary buildings in the District of Columbia, and for other purposes, approved May 1, 1906 (34 Stat. 157; D.C. Official Code § 6-903)</code-cite>.</text>
               </para>
             </para>
             <para>
@@ -1465,7 +1524,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Evidence that the owner failed to comply with the vacant building maintenance requirements under section 12, if applicable;</text>
+                <text>Evidence that the owner failed to comply with the vacant building maintenance requirements under <code-cite doc="D.C. Code" path="§42-3131.12">section 12</code-cite>, if applicable;</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -1680,35 +1739,41 @@
             </para>
             <para>
               <num>(n)</num>
-              <text>For purposes of this section, a "nuisance property" means a vacant building that has been registered or designated as vacant for at least 24 months, excluding any building that is exempted from the registration fee and increased real property tax rates for vacant buildings pursuant to section 6a(b), and for which either:</text>
+              <text>For purposes of this section, a "nuisance property" means a vacant building that has been registered or designated as vacant for at least 24 months, excluding any building that is exempted from the registration fee and increased real property tax rates for vacant buildings pursuant to <code-cite doc="D.C. Code" path="§42-3131.06a|(b)">section 6a(b)</code-cite>, and for which either:</text>
               <para>
                 <num>(1)</num>
-                <text>The owner has failed to comply with the vacant building maintenance requirements under section 12; or</text>
+                <text>The owner has failed to comply with the vacant building maintenance requirements under <code-cite doc="D.C. Code" path="§42-3131.12">section 12</code-cite>; or</text>
               </para>
               <para>
                 <num>(2)</num>
                 <text>A violation of the property maintenance code (12G DCMR § 101G <em>et seq</em>.) remains unabated for at least 30 days after the issuance of a final order by the Office of Administrative Hearings.</text>
               </para>
             </para>
+            <annotation type="History" doc="Stat. 59-1-ch1626" path="§20">Apr. 14, 1906, 34 Stat. 115, ch. 1626, § 20</annotation>
+            <codify:not-funded-anno doc="D.C. Law 26-41" path="§202|(p)" applicability-path="§401|(a)" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="42|31A|II" after="§42-3131.20" num-value="42-3131.21" history-prefix="as added"/>
             <num>21</num>
             <heading proof="needed">Rules.</heading>
-            <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), may issue rules to implement sections 5 through 20. The proposed rules shall be submitted to the Council for a 45-day period of review, excluding days of Council recess. If the Council does not approve or disapprove of the proposed rules, by resolution, within the 45-day review period, the proposed rules shall be deemed approved.</text>
+            <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§42-3131.05" codify:value="42-3131.05">5</code-cite> through <code-cite doc="D.C. Code" path="§42-3131.20" codify:value="42-3131.20">20</code-cite>. The proposed rules shall be submitted to the Council for a 45-day period of review, excluding days of Council recess. If the Council does not approve or disapprove of the proposed rules, by resolution, within the 45-day review period, the proposed rules shall be deemed approved.</text>
+            <annotation type="History" doc="Stat. 59-1-ch1626" path="§21">Apr. 14, 1906, 34 Stat. 115, ch. 1626, § 21</annotation>
+            <codify:not-funded-anno doc="D.C. Law 26-41" path="§202|(p)" applicability-path="§401|(a)" action="creation of" display-template=""/>
           </section>
         </include>
         <aftertext>.</aftertext>
       </para>
     </section>
-    <section>
+    <section codify:path="§47-825.01a|(e)|(1)|(B)">
       <num>203</num>
       <text>Section 47-825.01a(e)(1)(B) of the District of Columbia Official Code is amended to read as follows:</text>
       <include lvl="2">
         <para>
+          <codify:replace/>
           <num>(B)</num>
           <para>
             <num>(i)</num>
-            <text>If an owner is aggrieved by a notice of final determination issued pursuant to § 42-3131.15 or the time period to issue a notice of final determination under that section has expired, the owner may file an appeal on the determination of vacancy with the Commission within 45 days after the date of the notice or expiration. The Commission may not extend the time to file an appeal. Notwithstanding any other provision of this section, the Commission shall render a decision on the appeal within 120 days after the filing.</text>
+            <text>If an owner is aggrieved by a notice of final determination issued pursuant to <cite doc="D.C. Code" path="§42-3131.15">§ 42-3131.15</cite> or the time period to issue a notice of final determination under that section has expired, the owner may file an appeal on the determination of vacancy with the Commission within 45 days after the date of the notice or expiration. The Commission may not extend the time to file an appeal. Notwithstanding any other provision of this section, the Commission shall render a decision on the appeal within 120 days after the filing.</text>
           </para>
           <para>
             <num>(ii)</num>
@@ -1730,11 +1795,12 @@
       </include>
       <aftertext>.</aftertext>
     </section>
-    <section>
+    <section codify:path="§42-3171.01|(1A)">
       <num>204</num>
       <text>Section 431(1A) of the Abatement and Condemnation of Nuisance Properties Omnibus Amendment Act of 2000, effective April 19, 2002 (D.C. Law 14-114; D.C. Official Code § 42-3171.01(1A)), is amended to read as follows:</text>
       <include>
         <para>
+          <codify:replace/>
           <num>(1A)</num>
           <text>"Blighted area" means an area determined by the Mayor:</text>
           <para>
@@ -1762,11 +1828,12 @@
       <prefix>SUBTITLE</prefix>
       <num>A</num>
       <heading>EXPEDITED PERMIT REVIEW FOR VACANT AND BLIGHTED PROPERTIES.</heading>
-      <section>
+      <section codify:path="6|14|I">
         <num>301</num>
         <text>The Construction Codes Approval and Amendments Act of 1986, effective March 21, 1987 (D.C. Law 6-216; D.C. Official Code § 6-1401 <em>et seq</em>.), is amended by adding a new section 10e to read as follows:</text>
         <include>
           <section>
+            <codify:insert after="§6-1413" num-value="6-1414" history-prefix="as added"/>
             <num>10e</num>
             <heading proof="needed">Expedited permit review for vacant and blighted vacant properties.</heading>
             <para>
@@ -1809,6 +1876,8 @@
               <num>(c)</num>
               <text>The Department shall not charge additional fees beyond the standard permit fees for eligible applicants to utilize the expedited permit review process established pursuant to subsection (a) of this section.</text>
             </para>
+            <annotation doc="D.C. Law 6-216" type="History" path="§10e">Mar. 21, 1987, D.C. Law 6-216, § 10e</annotation>
+            <codify:not-funded-anno doc="D.C. Law 26-41" path="§301" applicability-path="§401|(a)" action="creation of" display-template=""/>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -1821,11 +1890,12 @@
       <section>
         <num>302</num>
         <text>Chapter 8 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="§47-812">
           <num>(a)</num>
           <text>Section 47-812 is amended by adding a new subsection (b-13) to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(b-12)" num-value="(b-13)"/>
               <num>(b-13)</num>
               <para>
                 <num>(1)</num>
@@ -1869,14 +1939,14 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>The Department of Buildings, when certifying real properties to the Office of Tax and Revenue as vacant or blighted vacant under § 42-3131.16, shall further delineate the applicable tax rate for the applicable half tax year for each real property.</text>
+                <text>The Department of Buildings, when certifying real properties to the Office of Tax and Revenue as vacant or blighted vacant under <cite doc="D.C. Code" path="§42-3131.16">§ 42-3131.16</cite>, shall further delineate the applicable tax rate for the applicable half tax year for each real property.</text>
               </para>
               <para>
                 <num>(4)</num>
                 <text>For purposes of determining the applicable tax rate under paragraphs (1) or (2) of this subsection, an exemption period or period during which real property was not properly classified shall be counted as years during which a property was registered or designated as vacant or designated as blighted vacant, if:</text>
                 <para>
                   <num>(A)</num>
-                  <text>The real property receives an exemption from the tax rates established by this subsection pursuant to § 42-3131.06a(b), and:</text>
+                  <text>The real property receives an exemption from the tax rates established by this subsection pursuant to <code-cite doc="D.C. Code" path="§42-3131.06a|(b)">§ 42-3131.06a(b)</code-cite>, and:</text>
                   <para>
                     <num>(i)</num>
                     <text>The Department of Buildings withdraws the exemption; or</text>
@@ -1894,25 +1964,27 @@
             </para>
           </include>
           <aftertext>.</aftertext>
+          <codify:not-funded-anno doc="D.C. Law 26-41" path="§302|(a)" applicability-path="§401|(a)" action="amendment to" display-template=""/>
         </para>
-        <para>
+        <para codify:path="§47-813">
           <num>(b)</num>
           <text>Section 47-813 is amended as follows:</text>
-          <para>
+          <para codify:path="(c-9)">
             <num>(1)</num>
             <text>Subsection (c-9) is amended as follows:</text>
-            <para>
+            <para codify:path="(2)|(A)">
               <num>(A)</num>
               <text>Paragraph (2)(A) is amended as follows:</text>
               <include lvl="1">
                 <para>
                   <num>(2)</num>
                   <para>
+                    <codify:replace/>
                     <num>(A)</num>
                     <text>Except as otherwise provided in this paragraph and subject to paragraphs (4) and (5) of this subsection, Class 1A Property shall be comprised of:</text>
                     <para>
                       <num>(i)</num>
-                      <text>Residential real property that is improved and its legal use is for nontransient residential dwelling purposes, and that is not Class 1B Property; provided, that such property may be used to host transient guests pursuant to an unexpired short-term rental license endorsement issued pursuant to § 30-201.04; or</text>
+                      <text>Residential real property that is improved and its legal use is for nontransient residential dwelling purposes, and that is not Class 1B Property; provided, that such property may be used to host transient guests pursuant to an unexpired short-term rental license endorsement issued pursuant to <cite doc="D.C. Code" path="§30-201.04">§ 30-201.04</cite>; or</text>
                     </para>
                     <para>
                       <num>(ii)</num>
@@ -1931,25 +2003,26 @@
               </include>
               <aftertext>.</aftertext>
             </para>
-            <para>
+            <para codify:path="(4)">
               <num>(B)</num>
               <text>Paragraph (4) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace/>
                   <num>(4)</num>
                   <para>
                     <num>(A)</num>
-                    <text>Class 3 property shall be comprised of all improved real property that appears as vacant on the list compiled under § 42-3131.16(a)(1).</text>
+                    <text>Class 3 property shall be comprised of all improved real property that appears as vacant on the list compiled under <cite doc="D.C. Code" path="§42-3131.16|(a)|(1)">§ 42-3131.16(a)(1)</cite>.</text>
                   </para>
                   <para>
                     <num>(B)</num>
-                    <text>The Office of Tax and Revenue may request the Mayor to inspect improved real property to determine whether the property is correctly registered or designated as vacant on the list compiled under § 42-3131.16(a)(1).</text>
+                    <text>The Office of Tax and Revenue may request the Mayor to inspect improved real property to determine whether the property is correctly registered or designated as vacant on the list compiled under <cite doc="D.C. Code" path="§42-3131.16|9(a)|(1)">§ 42-3131.16(a)(1)</cite>.</text>
                   </para>
                 </para>
               </include>
               <aftertext>.</aftertext>
             </para>
-            <para>
+            <para codify:path="(5)">
               <num>(C)</num>
               <text>Paragraph (5) is amended to read as follows:</text>
               <include lvl="1">
@@ -1957,48 +2030,53 @@
                   <num>(5)</num>
                   <para>
                     <num>(A)</num>
-                    <text>Class 4 Property shall be comprised of all improved real property that appears as blighted vacant on the list compiled under § 42-3131.16(a)(2).</text>
+                    <text>Class 4 Property shall be comprised of all improved real property that appears as blighted vacant on the list compiled under <cite doc="D.C. Code" path="§42-3131.16|(a)|(2)">§ 42-3131.16(a)(2)</cite>.</text>
                   </para>
                   <para>
                     <num>(B)</num>
-                    <text>The Office of Tax and Revenue may request the Mayor to inspect improved real property to determine whether the property is correctly designated as blighted vacant on the list compiled under § 42-3131.16(a)(2).</text>
+                    <text>The Office of Tax and Revenue may request the Mayor to inspect improved real property to determine whether the property is correctly designated as blighted vacant on the list compiled under <cite doc="D.C. Code" path="§42-3131.16|(a)|(2)">§ 42-3131.16(a)(2)</cite>.</text>
                   </para>
                 </para>
               </include>
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(d-1)">
             <num>(2)</num>
             <text>Subsection (d-1) is amended as follows:</text>
-            <para>
+            <para codify:path="(4A)">
               <num>(A)</num>
               <text>Paragraph (4A) is amended by striking the phrase "under § 42-3131.16 or § 42-3131.17" and inserting the phrase "under § 42-3131.16" in its place.</text>
+              <codify:find-replace count="1">
+                <find>under <cite doc="D.C. Code" path="§42-3131.16">§ 42-3131.16</cite> or <cite doc="D.C. Code" path="§42-3131.17">§ 42-3131.17</cite></find>
+                <replace>under <cite doc="D.C. Code" path="§42-3131.16">§ 42-3131.16</cite></replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(5)">
               <num>(B)</num>
               <text>Paragraph (5)(A-i), (B), and (C) are amended to read follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:replace path="(A-i)"/>
                   <num>(A-i)</num>
                   <para>
                     <num>(i)</num>
-                    <text>Whenever the classification of improved real property that appears on a list compiled under § 42-3131.16 shall change to Class 3 or Class 4 Property:</text>
+                    <text>Whenever the classification of improved real property that appears on a list compiled under <cite doc="D.C. Code" path="§42-3131.16">§ 42-3131.16</cite> shall change to Class 3 or Class 4 Property:</text>
                     <para>
                       <num>(I)</num>
-                      <text>The owner shall notify the Department of Buildings within 30 days of the change by making application to register the property as vacant under § 42-3131.06, and the change in classification of the real property to Class 3 or 4 Property shall be retroactive to the half tax year during which one of the following first occurred:</text>
+                      <text>The owner shall notify the Department of Buildings within 30 days of the change by making application to register the property as vacant under <cite doc="D.C. Code" path="§42-3131.06">§ 42-3131.06</cite>, and the change in classification of the real property to Class 3 or 4 Property shall be retroactive to the half tax year during which one of the following first occurred:</text>
                       <para>
-                        <num codify:value="[a]">(aa)</num>
-                        <text>The owner of the real property registered the real property as vacant under § 42-3131.06; or</text>
+                        <num>(aa)</num>
+                        <text>The owner of the real property registered the real property as vacant under <cite doc="D.C. Code" path="§42-3131.06">§ 42-3131.06</cite>; or</text>
                       </para>
                       <para>
-                        <num codify:value="[b]">(bb)</num>
-                        <text>The owner of real property received a notice of final determination under § 42-3131.15, or the time period to issue a notice of final determination under that section has expired;</text>
+                        <num>(bb)</num>
+                        <text>The owner of real property received a notice of final determination under <cite doc="D.C. Code" path="§42-3131.15">§ 42-3131.15</cite>, or the time period to issue a notice of final determination under that section has expired;</text>
                       </para>
                     </para>
                     <para>
                       <num>(II)</num>
-                      <text>The Office of Tax and Revenue shall re-classify the real property without limitation for each tax year or half tax year after receipt of the list under § 42-3131.16; and</text>
+                      <text>The Office of Tax and Revenue shall re-classify the real property without limitation for each tax year or half tax year after receipt of the list under <cite doc="D.C. Code" path="§42-3131.16">§ 42-3131.16</cite>; and</text>
                     </para>
                     <para>
                       <num>(III)</num>
@@ -2007,14 +2085,16 @@
                   </para>
                   <para>
                     <num>(ii)</num>
-                    <text>Whenever improved real property that appears on a list compiled under § 42-3131.16 shall cease to be Class 3 or Class 4 Property, the owner shall notify the Department of Buildings within 30 days after the change in the manner as may be prescribed by the Mayor. If the request for a change in classification is approved, the change in classification of the real property from Class 3 or Class 4 Property shall be retroactive to the half tax year when the Department of Buildings was so notified. If the request is denied, the owner shall have a right to administrative review of the determination as provided under § 42-3131.15.</text>
+                    <text>Whenever improved real property that appears on a list compiled under <cite doc="D.C. Code" path="§42-3131.16">§ 42-3131.16</cite> shall cease to be Class 3 or Class 4 Property, the owner shall notify the Department of Buildings within 30 days after the change in the manner as may be prescribed by the Mayor. If the request for a change in classification is approved, the change in classification of the real property from Class 3 or Class 4 Property shall be retroactive to the half tax year when the Department of Buildings was so notified. If the request is denied, the owner shall have a right to administrative review of the determination as provided under <cite doc="D.C. Code" path="§42-3131.15">§ 42-3131.15</cite>.</text>
                   </para>
                 </para>
                 <para>
+                  <codify:replace path="(B)"/>
                   <num>(B)</num>
                   <text>Notwithstanding subparagraph (A-i) of this paragraph, if the real property is transferred and continued to qualify for the classification 30 days or less before the date of execution of the deed of transfer, the grantor shall not be required to notify the applicable agency of the change in classification.</text>
                 </para>
                 <para>
+                  <codify:replace path="(C)"/>
                   <num>(C)</num>
                   <text>If the tax is paid within 30 days of the corresponding bill, timely notification of the change in classification shall preclude assessment of penalty and interest.</text>
                 </para>
@@ -2022,26 +2102,31 @@
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(d-2)">
             <num>(3)</num>
             <text>The lead-in language of subsection (d-2) is amended by striking the phrase "Class 3 Property or Class 4 Property," and inserting the phrase "Class 2 Property, Class 3 Property, or Class 4 Property," in its place.</text>
+            <codify:find-replace count="1">
+              <find>Class 3 Property or Class 4 Property,</find>
+              <replace>Class 2 Property, Class 3 Property, or Class 4 Property,</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(4)</num>
             <text>A new subsection (d-3) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(d-2)" num-value="(d-3)"/>
                 <num>(d-3)</num>
                 <para>
                   <num>(1)</num>
                   <text>If real property changes classification to Class 1A Property as defined in subsection (c-9)(2)(A)(ii) during the period of:</text>
                   <para>
                     <num>(A)</num>
-                    <text>October 1 through March 31 of the tax year, the newly reclassified Class 1A Property, or the portion thereof used exclusively for residential purposes if already improved or assessed under § 47-829, shall be taxed at the Class 1A Property tax rate for the entire tax year; or</text>
+                    <text>October 1 through March 31 of the tax year, the newly reclassified Class 1A Property, or the portion thereof used exclusively for residential purposes if already improved or assessed under <cite doc="D.C. Code" path="§47-829">§ 47-829</cite>, shall be taxed at the Class 1A Property tax rate for the entire tax year; or</text>
                   </para>
                   <para>
                     <num>(B)</num>
-                    <text>April 1 through September 30 of the tax year, the newly reclassified Class 1A Property, or the portion thereof used exclusively for residential purposes if already improved or assessed under § 47-829, shall be taxed at the Class 1A Property tax rate for the second installment only.</text>
+                    <text>April 1 through September 30 of the tax year, the newly reclassified Class 1A Property, or the portion thereof used exclusively for residential purposes if already improved or assessed under <cite doc="D.C. Code" path="§47-829">§ 47-829</cite>, shall be taxed at the Class 1A Property tax rate for the second installment only.</text>
                   </para>
                 </para>
                 <para>
@@ -2058,7 +2143,7 @@
                 </para>
                 <para>
                   <num>(5)</num>
-                  <text>Within 45 days from the date of the notice of denial of Class 1A Property reclassification under this subsection, the owner may petition for an administrative review of the rescission or denial and appeal from a final determination thereof to the same extent as if the appeal were filed under § 47-825.01a(d)(2).</text>
+                  <text>Within 45 days from the date of the notice of denial of Class 1A Property reclassification under this subsection, the owner may petition for an administrative review of the rescission or denial and appeal from a final determination thereof to the same extent as if the appeal were filed under <code-cite doc="D.C. Code" path="§47-825.01a|(d)|(2)">§ 47-825.01a(d)(2)</code-cite>.</text>
                 </para>
                 <para>
                   <num>(6)</num>
@@ -2066,15 +2151,23 @@
                 </para>
                 <para>
                   <num>(7)</num>
-                  <text>The provisions of this subsection, subsection (c-9)(2)(A)(ii) of this section, and § 47-829 shall not supersede the requirement to timely file for mixed-use classification for the upcoming tax year pursuant to subsection (f) of this section, when the annual assessment for such upcoming tax year is made under § 47-824 and the certificate of occupancy (final or temporary) was issued.</text>
+                  <text>The provisions of this subsection, subsection (c-9)(2)(A)(ii) of this section, and <cite doc="D.C. Code" path="§47-829">§ 47-829</cite> shall not supersede the requirement to timely file for mixed-use classification for the upcoming tax year pursuant to subsection (f) of this section, when the annual assessment for such upcoming tax year is made under <cite doc="D.C. Code" path="§47-824">§ 47-824</cite> and the certificate of occupancy (final or temporary) was issued.</text>
                 </para>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:not-funded-anno doc="D.C. Law 26-41" path="§302|(b)" applicability-path="§401|(a)" action="amendment to" display-template=""/>
         </para>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="47|13A" after="IV" history="false">
+      <container>
+        <prefix>Subchapter</prefix>
+        <num>V</num>
+        <heading>Foreclosure by the Office of the Attorney General of Class 3 and 4 Properties.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>C</num>
@@ -2128,7 +2221,7 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§47-1330">
           <num>(b)</num>
           <text>Section 47-1330 is amended as follows:</text>
           <para>
@@ -2136,12 +2229,14 @@
             <text>New paragraphs (1A) and (1B) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(1)" num-value="(1A)"/>
                 <num>(1A)</num>
-                <text>"Class 3 property" shall have the same meaning as set forth in § 47-813(c-9)(4)(A).</text>
+                <text>"Class 3 property" shall have the same meaning as set forth in <cite doc="D.C. Code" path="§47-813|(c-9)|(4)|(A)">§ 47-813(c-9)(4)(A)</cite>.</text>
               </para>
               <para>
+                <codify:insert after="(1A)" num-value="(1B)"/>
                 <num>(1B)</num>
-                <text>"Class 4 property" shall have the same meaning as set forth in § 47-813(c-9)(5)(A).</text>
+                <text>"Class 4 property" shall have the same meaning as set forth in <cite doc="D.C. Code" path="§47-813|(c-9)|(5)|(A)">§ 47-813(c-9)(5)(A)</cite>.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
@@ -2149,12 +2244,19 @@
           <para>
             <num>(2)</num>
             <text>Paragraph (4A) is redesignated as Paragraph (4B)</text>
+            <codify:insert after="(4A)">
+              <para>
+                <num>(4B)</num>
+                <text>“Premises address” means the address, if any, for the square, suffix, and lot numbers, or parcel and lot numbers, of real property as reflected in the records in the Office of Tax and Revenue.</text>
+              </para>
+            </codify:insert>
           </para>
           <para>
             <num>(3)</num>
             <text>A new paragraph (4A) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace path="(4A)"/>
                 <num>(4A)</num>
                 <text>"Interested party" means any person having an interest in real property:</text>
                 <para>
@@ -2188,13 +2290,15 @@
               </para>
             </include>
             <aftertext>.</aftertext>
+            <codify:not-funded-anno doc="D.C. Law 26-41" path="§303|(b)" applicability-path="§401|(a)" action="amendment to" display-template=""/>
           </para>
         </para>
-        <para>
+        <para codify:path="§47-1332|(c)">
           <num>(c)</num>
           <text>Section 47-1332(c) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(c)</num>
               <text>The Mayor shall not sell any real property if:</text>
               <para>
@@ -2203,7 +2307,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>The owner enters into a payment plan pursuant to § 47-811.05 prior to the date of the tax sale;</text>
+                <text>The owner enters into a payment plan pursuant to <cite doc="D.C. Code" path="§47-811.05">§ 47-811.05</cite> prior to the date of the tax sale;</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -2220,6 +2324,7 @@
             </para>
           </include>
           <aftertext>.</aftertext>
+          <codify:not-funded-anno doc="D.C. Law 26-41" path="§303|(c)" applicability-path="§401|(a)" action="amendment to" display-template=""/>
         </para>
         <para>
           <num>(d)</num>
@@ -2230,6 +2335,7 @@
               <num>V</num>
               <heading>Foreclosure by the Attorney General of Class 3 and 4 Properties.</heading>
               <section>
+                <codify:insert path="47|13A|V" num-value="47-1390"/>
                 <prefix>§</prefix>
                 <num>47-1390</num>
                 <heading proof="needed">Eligibility to foreclose on a Class 3 or 4 Property.</heading>
@@ -2246,7 +2352,7 @@
                   </para>
                   <para>
                     <num>(3)</num>
-                    <text>The Mayor has provided notice pursuant to § 47-1391.</text>
+                    <text>The Mayor has provided notice pursuant to <cite doc="D.C. Code" path="§47-1391">§ 47-1391</cite>.</text>
                   </para>
                 </para>
                 <para>
@@ -2254,22 +2360,22 @@
                   <text>The Office may decline to file a complaint with Superior Court, or may dismiss a pending complaint, if the Office ascertains, through application by an interested party or pursuant to the Office's own review and investigation, that:</text>
                   <para>
                     <num>(1)</num>
-                    <text>An interested party paid the amount set forth in the pre-complaint notice provided pursuant to § 47-1391;</text>
+                    <text>An interested party paid the amount set forth in the pre-complaint notice provided pursuant to <cite doc="D.C. Code" path="§47-1391">§ 47-1391</cite>;</text>
                   </para>
                   <para>
                     <num>(2)</num>
-                    <text>An interested party proves that the real property identified in the pre-complaint notice provided pursuant to § 47-1391 meets the definition of occupied in § 42-3131.05(8)(A);</text>
+                    <text>An interested party proves that the real property identified in the pre-complaint notice provided pursuant to <cite doc="D.C. Code" path="§47-1391">§ 47-1391</cite> meets the definition of occupied in <cite doc="D.C. Code" path="§42-3131.05|(8)|(A)">§ 42-3131.05(8)(A)</cite>;</text>
                   </para>
                   <para>
                     <num>(3)</num>
                     <text>An interested party proves:</text>
                     <para>
                       <num>(A)</num>
-                      <text>A failure of the Mayor to mail the notices required by §§ 47-1341(a) or 47-1391; or</text>
+                      <text>A failure of the Mayor to mail the notices required by §§ <cite doc="D.C. Code" path="§47-1341|(a)">47-1341(a)</cite> or <cite doc="D.C. Code" path="§47-1391">47-1391</cite>; or</text>
                     </para>
                     <para>
                       <num>(B)</num>
-                      <text>That the mailing address of the person who last appears as the record owner of the real property on the tax roll, as properly updated by the record owner by the filing of a change of address with the Office of Tax and Revenue in accordance with § 42-405, was not correctly or substantively updated by the Office of Tax and Revenue notwithstanding proper filing;</text>
+                      <text>That the mailing address of the person who last appears as the record owner of the real property on the tax roll, as properly updated by the record owner by the filing of a change of address with the Office of Tax and Revenue in accordance with <cite doc="D.C. Code" path="§42-405">§ 42-405</cite>, was not correctly or substantively updated by the Office of Tax and Revenue notwithstanding proper filing;</text>
                     </para>
                   </para>
                   <para>
@@ -2289,8 +2395,10 @@
                   <num>(c)</num>
                   <text>After declining to file a complaint or dismissing a complaint pursuant to subsection (b) of this section, the Office shall publish notice of the action in the District of Columbia Register.  The notice shall contain the name of the owner, the address of the property, and the date on which the exemption from immediate sale was approved or the date on which the pending complaint was dismissed.".</text>
                 </para>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§303|(d)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
               <section>
+                <codify:insert path="47|13A|V" after="§47-1390" num-value="47-1391"/>
                 <prefix>§</prefix>
                 <num>47-1391</num>
                 <heading proof="needed">Pre-complaint notice; publication requirements.</heading>
@@ -2300,11 +2408,11 @@
                     <num>(1)</num>
                     <para>
                       <num>(A)</num>
-                      <text>No less than 90 days prior to the filing of a complaint with the Court pursuant to § 47-1392, the Mayor shall send written notice to the owner or owners of record of the property at such owner's mailing address as updated in the Office of Tax and Revenue's real property records.</text>
+                      <text>No less than 90 days prior to the filing of a complaint with the Court pursuant to <cite doc="D.C. Code" path="§47-1392">§ 47-1392</cite>, the Mayor shall send written notice to the owner or owners of record of the property at such owner's mailing address as updated in the Office of Tax and Revenue's real property records.</text>
                     </para>
                     <para>
                       <num>(B)</num>
-                      <text>The notice shall inform the owner or owners of record of the property of the intent to file a complaint to foreclose the right of redemption. The notice shall also contain the amount of real property tax due as of the day of the notice and state that the owner may enter into a real property tax payment plan pursuant to § 47-811.05 or pay the amount due, together with any additional interest and penalties, which may be owed prior to the filing date to halt the filing of a complaint pursuant to § 47-1392.</text>
+                      <text>The notice shall inform the owner or owners of record of the property of the intent to file a complaint to foreclose the right of redemption. The notice shall also contain the amount of real property tax due as of the day of the notice and state that the owner may enter into a real property tax payment plan pursuant to § 47-811.05 or pay the amount due, together with any additional interest and penalties, which may be owed prior to the filing date to halt the filing of a complaint pursuant to <cite doc="D.C. Code" path="§47-1392">§ 47-1392</cite>.</text>
                     </para>
                   </para>
                   <para>
@@ -2316,8 +2424,10 @@
                   <num>(b)</num>
                   <text>At any time after 60 days from the mailing of the notice required by subsection (a) of this section, the Mayor shall cause to be advertised once in not fewer than 2 newspapers of general circulation in the District that are published once every 2 weeks, notice that the listed property will be subject to foreclosure proceedings due to delinquent real property taxes.</text>
                 </para>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§303|(d)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
               <section>
+                <codify:insert path="47|13A|V" after="§47-1391" num-value="47-1392"/>
                 <prefix>§</prefix>
                 <num>47-1392</num>
                 <heading proof="needed">Complaint form.</heading>
@@ -2353,21 +2463,23 @@
                   </para>
                   <para>
                     <num>(3)</num>
-                    <text>A copy of the notice issued pursuant to § 47-1391 shall be attached to the complaint and shall be made part of the complaint.</text>
+                    <text>A copy of the notice issued pursuant to <cite doc="D.C. Code" path="§47-1391">§ 47-1391</cite> shall be attached to the complaint and shall be made part of the complaint.</text>
                   </para>
                 </para>
                 <para>
                   <num>(b)</num>
                   <text>A complaint filed pursuant to subsection (a) of this section may be amended to include all delinquent taxes on the real property after the commencement of the foreclosure action.</text>
                 </para>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§303|(d)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
               <section>
+                <codify:insert path="47|13A|V" after="§47-1392" num-value="47-1393"/>
                 <prefix>§</prefix>
                 <num>47-1393</num>
                 <heading proof="needed">Parties; service of process.</heading>
                 <para>
                   <num>(a)</num>
-                  <text>The plaintiff in a complaint filed pursuant to § 47-1392 shall be the District.</text>
+                  <text>The plaintiff in a complaint filed pursuant to <cite doc="D.C. Code" path="§47-1392">§ 47-1392</cite> shall be the District.</text>
                 </para>
                 <para>
                   <num>(b)</num>
@@ -2393,7 +2505,7 @@
                   </para>
                   <para>
                     <num>(3)</num>
-                    <text>Other than the methods described in paragraph (2) of this subsection, the District is not required to conduct any further investigations or to search any additional record to ascertain an address for a defendant prior to filing the complaint and undertaking the publication and notice as specified in § 47-1394.</text>
+                    <text>Other than the methods described in paragraph (2) of this subsection, the District is not required to conduct any further investigations or to search any additional record to ascertain an address for a defendant prior to filing the complaint and undertaking the publication and notice as specified in <cite doc="D.C. Code" path="§47-1394">§ 47-1394</cite>.</text>
                   </para>
                 </para>
                 <para>
@@ -2410,11 +2522,11 @@
                 <para>
                   <num>(d)</num>
                   <text>When the owner of a real property cannot be reasonably ascertained, the unknown owner to the property may be included as a defendant by the following designation:</text>
-                  <text>Unknown owner of [identify the nature of the interest: fee simple, leasehold, or reversionary] interest in the property [give a description of the property in substantially the same form as the description that appears on the pre-complaint notice], the unknown owner's heirs, devisees, and personal representatives and their or any of their heirs, devisees, executors, administrators, grantees, assigns, or successors in right, title, and interest.</text>
+                  <text>"Unknown owner of [identify the nature of the interest: fee simple, leasehold, or reversionary] interest in the property [give a description of the property in substantially the same form as the description that appears on the pre-complaint notice], the unknown owner's heirs, devisees, and personal representatives and their or any of their heirs, devisees, executors, administrators, grantees, assigns, or successors in right, title, and interest."</text>
                 </para>
                 <para>
                   <num>(e)</num>
-                  <text>Any complaint filed pursuant to § 47-1392 against an unknown owner shall attach to it an affidavit by the person making the search stating at a minimum that:</text>
+                  <text>Any complaint filed pursuant to <cite doc="D.C. Code" path="§47-1392">§ 47-1392</cite> against an unknown owner shall attach to it an affidavit by the person making the search stating at a minimum that:</text>
                   <para>
                     <num>(1)</num>
                     <text>The owner of the real property is unknown; and</text>
@@ -2424,13 +2536,15 @@
                     <text>A complete search of records for at least 50 years immediately before the filing of the action was performed in accordance with generally accepted standards of title examination of the records of the Recorder of Deeds and the probate decisions of the Superior Court.</text>
                   </para>
                 </para>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§303|(d)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
               <section>
+                <codify:insert path="47|13A|V" after="§47-1393" num-value="47-1394"/>
                 <num>47-1394</num>
                 <heading proof="needed">Notice by publication.</heading>
                 <para>
                   <num>(a)</num>
-                  <text>At the same time the summons (or initial summons) is issued, the Office of the Attorney General shall obtain an order of publication directed to all defendants, naming them as provided in § 47-1393. The order of publication shall:</text>
+                  <text>At the same time the summons (or initial summons) is issued, the Office of the Attorney General shall obtain an order of publication directed to all defendants, naming them as provided in <cite doc="D.C. Code" path="§47-1393">§ 47-1393</cite>. The order of publication shall:</text>
                   <para>
                     <num>(1)</num>
                     <text>Describe the real property in the same manner in which it is described in the complaint;</text>
@@ -2476,8 +2590,10 @@
                     <text>This subsection only applies to instances when the Office of the Attorney General has ascertained a defendant's last known address.</text>
                   </para>
                 </para>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§303|(d)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
               <section>
+                <codify:insert path="47|13A|V" after="§47-1394" num-value="47-1395"/>
                 <prefix>§</prefix>
                 <num>47-1395</num>
                 <heading proof="needed">Foreclosure proceedings.</heading>
@@ -2496,8 +2612,10 @@
                   <num>(b)</num>
                   <text>A guardian ad litem shall be appointed to serve for all interested parties who are or may be minors, or who have been adjudicated incompetent at the date of filing such a list.</text>
                 </para>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§303|(d)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
               <section>
+                <codify:insert path="47|13A|V" after="§47-1395" num-value="47-1396"/>
                 <prefix>§</prefix>
                 <num>47-1396</num>
                 <heading proof="needed">Entry of judgment.</heading>
@@ -2532,14 +2650,16 @@
                   <num>(c)</num>
                   <text>After entry of a judgment pursuant to subsection (a) of this section, the Mayor shall record a judgment transferring title to the Mayor in the land records with the Recorder of Deeds.</text>
                 </para>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§303|(d)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
               <section>
+                <codify:insert path="47|13A|V" after="§47-1396" num-value="47-1397"/>
                 <prefix>§</prefix>
                 <num>47-1397</num>
                 <heading proof="needed">Post-judgment conveyance or sale; excess.</heading>
                 <para>
                   <num>(a)</num>
-                  <text>After obtaining and recording a judgment pursuant to § 47-1396, the Mayor may:</text>
+                  <text>After obtaining and recording a judgment pursuant to <cite doc="D.C. Code" path="§47-1396">§ 47-1396</cite>, the Mayor may:</text>
                   <para>
                     <num>(1)</num>
                     <text>Convey the property to a land bank; or</text>
@@ -2625,6 +2745,7 @@
                     <text>To the highest bidder, if the real property is sold at a public auction.</text>
                   </para>
                 </para>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§303|(d)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
             </container>
           </include>
@@ -2632,6 +2753,13 @@
         </para>
       </section>
     </container>
+    <codify:insert doc="D.C. Code" path="47|18" after="XVIII" history="false">
+      <container>
+        <prefix>Subchapter</prefix>
+        <num>XIX</num>
+        <heading>Vacant and Blighted Property Rehabilitation Credit.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>D</num>
@@ -2678,23 +2806,24 @@
               <num>XIX</num>
               <heading>Vacant and Blighted Property Rehabilitation Credit.</heading>
               <section>
+                <codify:insert path="47|18|XIX" num-value="47-1819.01"/>
                 <prefix>§</prefix>
                 <num>47-1819.01</num>
                 <heading proof="needed">Definitions.</heading>
                 <para>
                   <num undesignated="true">(a)</num>
-                  <text>For purposes of §§ 47-1819.01 through 47-1819.04, the term:</text>
+                  <text>For purposes of §§ <cite doc="D.C. Code" path="§47-1819.01">47-1819.01</cite> through <cite doc="D.C. Code" path="§47-1819.04">47-1819.04</cite>, the term:</text>
                   <para>
                     <num>(1)</num>
                     <text>"Area median family income" means the median family income for the Washington Metropolitan Statistical Area as set forth by the United States Department of Housing and Urban Development, adjusted for household size.</text>
                   </para>
                   <para>
                     <num>(2)</num>
-                    <text>"Class 3 property" shall have the same meaning as set forth in § 47-813(c-9)(4)(A).</text>
+                    <text>"Class 3 property" shall have the same meaning as set forth in <cite doc="D.C. Code" path="§47-813|(c-9)|(4)|(A)">§ 47-813(c-9)(4)(A)</cite>.</text>
                   </para>
                   <para>
                     <num>(3)</num>
-                    <text>"Class 4 property" shall have the same meaning as set forth in § 47-813(c-9)(5)(A).</text>
+                    <text>"Class 4 property" shall have the same meaning as set forth in <cite doc="D.C. Code" path="§47-813|(c-9)|(5)|(A)">§ 47-813(c-9)(5)(A)</cite>.</text>
                   </para>
                   <para>
                     <num>(4)</num>
@@ -2709,12 +2838,12 @@
                     </para>
                     <para>
                       <num>(B)</num>
-                      <text>Located in a qualifying census tract as determined by the Mayor as of the date of the application pursuant to § 47-1819.04.</text>
+                      <text>Located in a qualifying census tract as determined by the Mayor as of the date of the application pursuant to <cite doc="D.C. Code" path="§47-1819.04">§ 47-1819.04</cite>.</text>
                     </para>
                   </para>
                   <para>
                     <num>(6)</num>
-                    <text>"Eligible taxpayer" means a taxpayer certified by the Mayor pursuant § 47-1819.04(b) as eligible to claim the credit established under this subchapter.</text>
+                    <text>"Eligible taxpayer" means a taxpayer certified by the Mayor pursuant <cite doc="D.C. Code" path="§47-1819.04|(b)">§ 47-1819.04(b)</cite> as eligible to claim the credit established under <cite doc="D.C. Code" path="47|18|XIX">this subchapter</cite>.</text>
                   </para>
                   <para>
                     <num>(7)</num>
@@ -2737,14 +2866,16 @@
                     <text>"Substantial rehabilitation" means amounts paid or incurred for rehabilitation of an eligible property if such amounts exceed $150,000.</text>
                   </para>
                 </para>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§304|(b)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
               <section>
+                <codify:insert path="47|18|XIX" after="§47-1819.01" num-value="47-1819.02"/>
                 <prefix>§</prefix>
                 <num>47-1819.02</num>
                 <heading proof="needed">Credit established.</heading>
                 <para>
                   <num>(a)</num>
-                  <text>For tax years beginning after December 31, 2026, there is established a District of Columbia vacant and blighted home revitalization tax credit that may be claimed against taxes imposed under this chapter.</text>
+                  <text>For tax years beginning after December 31, 2026, there is established a District of Columbia vacant and blighted home revitalization tax credit that may be claimed against taxes imposed under <cite doc="D.C. Code" path="47|18">this chapter</cite>.</text>
                 </para>
                 <para>
                   <num>(b)</num>
@@ -2752,14 +2883,14 @@
                 </para>
                 <para>
                   <num>(c)</num>
-                  <text>The credit may exceed the tax liability under this chapter, including any minimum tax due under §§ 47-1807.02(b) or 47-1808.03(b), for that taxable year and shall be refundable to the eligible taxpayer, including an organization exempt under § 47-1802.01(a)(3) from taxation under this chapter.</text>
+                  <text>The credit may exceed the tax liability under <cite doc="D.C. Code" path="47|18">this chapter</cite>, including any minimum tax due under §§ <cite doc="D.C. Code" path="§47-1807.02|(b)">47-1807.02(b)</cite> or <cite doc="D.C. Code" path="§47-1801.03|(b)">47-1808.03(b)</cite>, for that taxable year and shall be refundable to the eligible taxpayer, including an organization exempt under <cite doc="D.C. Code" path="§47-1802.01|(a)|(3)">§ 47-1802.01(a)(3)</cite> from taxation under <cite doc="D.C. Code" path="47|18">this chapter</cite>.</text>
                 </para>
                 <para>
                   <num>(d)</num>
                   <text>The credit may only be allowed if it:</text>
                   <para>
                     <num>(1)</num>
-                    <text>Has been approved and certified by the Mayor to the Chief Financial Officer pursuant to § 47-1819.04:</text>
+                    <text>Has been approved and certified by the Mayor to the Chief Financial Officer pursuant to <cite doc="D.C. Code" path="§47-1819.04">§ 47-1819.04</cite>:</text>
                   </para>
                   <para>
                     <num>(2)</num>
@@ -2770,24 +2901,28 @@
                     <text>Is claimed in the manner and form prescribed by the Chief Financial Officer.</text>
                   </para>
                 </para>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§304|(b)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
               <section>
+                <codify:insert path="47|18|XIX" after="§47-1819.02" num-value="47-1819.03"/>
                 <prefix>§</prefix>
                 <num>47-1819.03</num>
                 <heading proof="needed">Annual cap.</heading>
                 <text>The Mayor may approve up to $2,000,000 in credits under this subchapter each fiscal year.</text>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§304|(b)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
               <section>
+                <codify:insert path="47|18|XIX" after="§47-1819.03" num-value="47-1819.04"/>
                 <prefix>§</prefix>
                 <num>47-1809.04</num>
                 <heading proof="needed">Application and Mayoral certification.</heading>
                 <para>
                   <num>(a)</num>
-                  <text>Before a taxpayer may claim a credit pursuant this subchapter, the taxpayer must apply to the Mayor requesting approval.</text>
+                  <text>Before a taxpayer may claim a credit pursuant <cite doc="D.C. Code" path="47|18|XIX">this subchapter</cite>, the taxpayer must apply to the Mayor requesting approval.</text>
                 </para>
                 <para>
                   <num>(b)</num>
-                  <text>If a taxpayer's application is approved in accordance with this subchapter, the Mayor shall certify to the Chief Financial Officer the following on before December 1 of the calendar year following the end of the fiscal year in which the credit was approved:</text>
+                  <text>If a taxpayer's application is approved in accordance with <cite doc="D.C. Code" path="47|18|XIX">this subchapter</cite>, the Mayor shall certify to the Chief Financial Officer the following on before December 1 of the calendar year following the end of the fiscal year in which the credit was approved:</text>
                   <para>
                     <num>(1)</num>
                     <text>The name and taxpayer identification number of the eligible taxpayer;</text>
@@ -2821,6 +2956,7 @@
                     <text>Any other information requested by the Chief Financial Officer.</text>
                   </para>
                 </para>
+                <codify:not-funded-anno doc="D.C. Law 26-41" path="§304|(b)" applicability-path="§401|(a)" action="creation of" display-template=""/>
               </section>
             </container>
           </include>
@@ -2860,24 +2996,25 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="47|8|III">
           <num>(b)</num>
           <text>New sections 47-861.01, 47-861.02, 47-861.03, and 47-861.04 are added to read as follows:</text>
           <include>
             <section>
+              <codify:insert after="§47-861" num-value="47-861.01"/>
               <prefix>§</prefix>
               <num>47-861.01</num>
               <heading proof="needed">Tax abatements for the redevelopment of vacant and blighted commercial properties – Definitions.</heading>
               <para>
                 <num undesignated="true">(a)</num>
-                <text>For purposes of §§ 47-861.01 through 47-861.04, the term:</text>
+                <text>For purposes of §§ <cite doc="D.C. Code" path="§47-861.01">47-861.01</cite> through <cite doc="D.C. Code" path="§47-861.04">47-861.04</cite>, the term:</text>
                 <para>
                   <num>(1)</num>
-                  <text>"Class 3 property" shall have the same meaning as set forth in § 47-813(c-9)(4)(A).</text>
+                  <text>"Class 3 property" shall have the same meaning as set forth in <cite doc="D.C. Code" path="§47-813|(c-9)|(4)|(A)">§ 47-813(c-9)(4)(A)</cite>.</text>
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>"Class 4 property" shall have the same meaning as set forth in § 47-813(c-9)(5)(A).</text>
+                  <text>"Class 4 property" shall have the same meaning as set forth in <cite doc="D.C. Code" path="§47-813|(c-9)|(5)|(A)">§ 47-813(c-9)(5)(A)</cite>.</text>
                 </para>
                 <para>
                   <num>(3)</num>
@@ -2892,7 +3029,7 @@
                   </para>
                   <para>
                     <num>(B)</num>
-                    <text>Has been registered or designated as vacant or designated blighted vacant for at least 12 months without any exemptions pursuant to § 42-3131.06a.</text>
+                    <text>Has been registered or designated as vacant or designated blighted vacant for at least 12 months without any exemptions pursuant to <cite doc="D.C. Code" path="§42-3131.06a">§ 42-3131.06a</cite>.</text>
                   </para>
                 </para>
                 <para>
@@ -2904,14 +3041,16 @@
                   <text>"OTR" means the Office of Tax and Revenue.</text>
                 </para>
               </para>
+              <codify:not-funded-anno doc="D.C. Law 26-41" path="§305|(b)" applicability-path="§401|(a)" action="creation of" display-template=""/>
             </section>
             <section>
+              <codify:insert after="§47-861.01" num-value="47-861.02"/>
               <prefix>§</prefix>
               <num>47-861.02</num>
               <heading proof="needed">Tax abatements for the redevelopment of vacant and blighted commercial properties – Requirements.</heading>
               <para>
                 <num>(a)</num>
-                <text>Subject to § 47-861.03, the Mayor may approve an abatement of the tax otherwise imposed under this chapter, in an amount calculated pursuant to § 47-861.03(a), for an eligible property if:</text>
+                <text>Subject to <cite doc="D.C. Code" path="§47-861.03">§ 47-861.03</cite>, the Mayor may approve an abatement of the tax otherwise imposed under this chapter, in an amount calculated pursuant to <cite doc="D.C. Code" path="§47-861.03|(a)">§ 47-861.03(a)</cite>, for an eligible property if:</text>
                 <para>
                   <num>(1)</num>
                   <text>Eligible development costs exceed $1.5 million;</text>
@@ -2922,7 +3061,7 @@
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>The property owner, or its designee or assignee, enters into an agreement with the District that requires the owner, or its designee or assignee, to, at a minimum, contract with certified business enterprises for at least 35% of the contract dollar volume of the construction of the project, in accordance with § 2-218.46;</text>
+                  <text>The property owner, or its designee or assignee, enters into an agreement with the District that requires the owner, or its designee or assignee, to, at a minimum, contract with certified business enterprises for at least 35% of the contract dollar volume of the construction of the project, in accordance with <cite doc="D.C. Code" path="§2-218.46">§ 2-218.46</cite>;</text>
                 </para>
                 <para>
                   <num>(4)</num>
@@ -2930,11 +3069,11 @@
                 </para>
                 <para>
                   <num>(5)</num>
-                  <text>The property owner, or its designee or assignee, requests a letter from the Mayor stating that the proposed redevelopment project is eligible for the tax abatement, setting forth the expected amount of the abatement, as determined pursuant to § 47-861.03(a), and reserving that amount for the project; and</text>
+                  <text>The property owner, or its designee or assignee, requests a letter from the Mayor stating that the proposed redevelopment project is eligible for the tax abatement, setting forth the expected amount of the abatement, as determined pursuant to <cite doc="D.C. Code" path="§47-861.03|(a)">§ 47-861.03(a)</cite>, and reserving that amount for the project; and</text>
                 </para>
                 <para>
                   <num>(6)</num>
-                  <text>The Mayor transmits to the owner the eligibility and reservation letter requested under paragraph (5) of this subsection, subject to such conditions as may be imposed by the Mayor and subject to the adjustment of the abatement amount based on the certifications provided for in § 47-860.03(a) and the abatement cap set forth in § 47-861.03(b).</text>
+                  <text>The Mayor transmits to the owner the eligibility and reservation letter requested under paragraph (5) of this subsection, subject to such conditions as may be imposed by the Mayor and subject to the adjustment of the abatement amount based on the certifications provided for in <cite doc="D.C. Code" path="§47-860.03|(a)">§ 47-860.03(a)</cite> and the abatement cap set forth in <cite doc="D.C. Code" path="§47-861.03|(b)">§ 47-861.03(b)</cite>.</text>
                 </para>
               </para>
               <para>
@@ -2953,7 +3092,7 @@
                 <num>(e)</num>
                 <para>
                   <num>(1)</num>
-                  <text>After the completion of a project for which an eligibility and reservation letter was issued, the Mayor shall, if the conditions set forth in this section and the eligibility and reservation letter have been met, and subject to the abatement cap set forth in § 47-860.03(b), issue the property owner a certification of tax abatement, subject to such conditions as the Mayor may impose. The Mayor shall provide a copy of the certification letter to OTR. The certification shall identify:</text>
+                  <text>After the completion of a project for which an eligibility and reservation letter was issued, the Mayor shall, if the conditions set forth in this section and the eligibility and reservation letter have been met, and subject to the abatement cap set forth in <cite doc="D.C. Code" path="§47-860.03|(b)">§ 47-860.03(b)</cite>, issue the property owner a certification of tax abatement, subject to such conditions as the Mayor may impose. The Mayor shall provide a copy of the certification letter to OTR. The certification shall identify:</text>
                   <para>
                     <num>(A)</num>
                     <text>The property to which the certification applies by square and lot, or parcel or reservation number;</text>
@@ -2984,30 +3123,32 @@
                   <text>The Mayor shall notify the property owner and OTR if any property or owner certified under paragraph (1) of this subsection becomes ineligible for the abatement. The notice shall be written and shall identify the ineligible property, the date that the property became ineligible, and any other information required by OTR to terminate the abatement.</text>
                 </para>
               </para>
+              <codify:not-funded-anno doc="D.C. Law 26-41" path="§305|(b)" applicability-path="§401|(a)" action="creation of" display-template=""/>
             </section>
             <section>
+              <codify:insert after="§47-861.02" num-value="47-861.03"/>
               <prefix>§</prefix>
               <num>47-861.03</num>
               <heading proof="needed">Tax abatements for the redevelopment of vacant and blighted vacant commercial properties – Abatement period, abatement amount, and caps.</heading>
               <para>
                 <num>(a)</num>
-                <text>For each property for which a certification of abatement was issued under § 47-860.02(e), the real property tax imposed on the property under this chapter shall be abated as follows:</text>
+                <text>For each property for which a certification of abatement was issued under <cite doc="D.C. Code" path="§47-860.02|(e)">§ 47-860.02(e)</cite>, the real property tax imposed on the property under this chapter shall be abated as follows:</text>
                 <para>
                   <num>(1)</num>
-                  <text>Half of the otherwise applicable tax in each of the first 6 tax years following the tax year during which a certification of tax abatement is issued pursuant to § 47-860.02(e);</text>
+                  <text>Half of the otherwise applicable tax in each of the first 6 tax years following the tax year during which a certification of tax abatement is issued pursuant to <cite doc="D.C. Code" path="§47-860.02|(e)">§ 47-860.02(e)</cite>;</text>
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>Two-thirds of the applicable tax in each of the 7th and 8th tax years following the tax year during which a certification of tax abatement is issued pursuant to § 47-860.02(e); and</text>
+                  <text>Two-thirds of the applicable tax in each of the 7th and 8th tax years following the tax year during which a certification of tax abatement is issued pursuant to <cite doc="D.C. Code" path="§47-860.02|(e)">§ 47-860.02(e)</cite>; and</text>
                 </para>
                 <para>
                   <num>(3)</num>
-                  <text>Three-quarters of the applicable tax in each of the 9th and 10th tax years following the tax year during which a certification of tax abatement is issued pursuant to § 47-860.02(e).</text>
+                  <text>Three-quarters of the applicable tax in each of the 9th and 10th tax years following the tax year during which a certification of tax abatement is issued pursuant to <cite doc="D.C. Code" path="§47-860.02|(e)">§ 47-860.02(e)</cite>.</text>
                 </para>
               </para>
               <para>
                 <num>(b)</num>
-                <text>The total amount of tax abatements the Mayor may approve or certify under § 47-860.02 in each fiscal year, including amounts certified in prior years, shall be capped at the following amounts, subject to the availability of funding:</text>
+                <text>The total amount of tax abatements the Mayor may approve or certify under <cite doc="D.C. Code" path="§47-860.02">§ 47-860.02</cite> in each fiscal year, including amounts certified in prior years, shall be capped at the following amounts, subject to the availability of funding:</text>
                 <para>
                   <num>(1)</num>
                   <text>For fiscal years 2027, 2028, and 2029, up to $2,500,000; and</text>
@@ -3021,7 +3162,7 @@
                 <num>(c)</num>
                 <para>
                   <num>(1)</num>
-                  <text>Prior to the preparation by OTR of tax bills for each half-year installment of tax, the Mayor shall certify to OTR, by a date and in a form and medium prescribed by OTR, each property eligible to receive a real property tax abatement pursuant to a certification issued pursuant to § 47-860.02(e), and the portion of the tax to be abated under subsection (a) of this section for each such property with respect to such half-year installment bill.</text>
+                  <text>Prior to the preparation by OTR of tax bills for each half-year installment of tax, the Mayor shall certify to OTR, by a date and in a form and medium prescribed by OTR, each property eligible to receive a real property tax abatement pursuant to a certification issued pursuant to <cite doc="D.C. Code" path="§47-860.02|(e)">§ 47-860.02(e)</cite>, and the portion of the tax to be abated under subsection (a) of this section for each such property with respect to such half-year installment bill.</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -3032,12 +3173,15 @@
                 <num>(d)</num>
                 <text>If the amount of tax to be abated for any semiannual billing period for all properties certified under subsection (c)(1) of this section exceeds the total dollar amount of tax abatements available as certified under subsection (c)(2) of this section, the available dollar amount shall be allocated pro rata among all properties certified under subsection (c)(1) of this section.</text>
               </para>
+              <codify:not-funded-anno doc="D.C. Law 26-41" path="§305|(b)" applicability-path="§401|(a)" action="creation of" display-template=""/>
             </section>
             <section>
+              <codify:insert after="§47-861.03" num-value="47-861.04"/>
               <prefix>§</prefix>
               <num>47-861.04</num>
               <heading proof="needed">Tax abatements for the redevelopment of vacant and blighted commercial properties – Rules.</heading>
-              <text>The Mayor, pursuant to § 2-501 <em>et seq.</em>, shall issue rules to implement §§ 47-861.01 through 47-861.03.</text>
+              <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">§ 2-501 <em>et seq.</em></code-cite>, shall issue rules to implement §§ <cite doc="D.C. Code" path="§47-861.01">47-861.01</cite> through <cite doc="D.C. Code" path="§47-861.03">47-861.03</cite>.</text>
+              <codify:not-funded-anno doc="D.C. Law 26-41" path="§305|(b)" applicability-path="§401|(a)" action="creation of" display-template=""/>
             </section>
           </include>
           <aftertext>.</aftertext>
@@ -3055,6 +3199,19 @@
       <para>
         <num>(a)</num>
         <text>Sections 104, 105, 106, 202(j), 202(p), 301, 302, 303, 304, and 305 of this act shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+        <codify:applicability doc="D.C. Law 26-41" path="§121" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§122" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§131" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§202|(j)" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§202|(p)" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§301" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§302|(a)" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§302|(b)" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§303|(b)" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§303|(c)" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§303|(d)" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§304|(b)" date="notfunded" history="false" display-template=""/>
+        <codify:applicability doc="D.C. Law 26-41" path="§305|(b)" date="notfunded" history="false" display-template=""/>
       </para>
       <para>
         <num>(b)</num>
@@ -3075,9 +3232,7 @@
     <section>
       <num>402</num>
       <heading proof="needed">Fiscal impact statement.</heading>
-      <text>The Council adopts the fiscal impact statement of the Budget Director as the fiscal</text>
-      <text>impact statement required by section 4a of the General Legislative Procedures Act of 1975,</text>
-      <text>approved October 16, 2006 (120 Stat. 2038; D.C. Official Code § 1-301.47a).</text>
+      <text>The Council adopts the fiscal impact statement of the Budget Director as the fiscal impact statement required by section 4a of the General Legislative Procedures Act of 1975, approved October 16, 2006 (120 Stat. 2038; D.C. Official Code § 1-301.47a).</text>
     </section>
     <section>
       <num>403</num>
