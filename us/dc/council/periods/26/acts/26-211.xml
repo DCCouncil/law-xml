@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-211">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-211" codify:doc="D.C. Code">
   <num type="act">26-211</num>
   <num type="bill">26-451</num>
   <heading type="short">Food &amp; Friends Property Tax Exemption Emergency Amendment Act of 2025</heading>
@@ -24,8 +24,7 @@
     <text>Chapter 10 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
     <para>
       <num>(a)</num>
-      <text>The table of contents is amended by adding a new section designation to read as</text>
-      <text>follows:</text>
+      <text>The table of contents is amended by adding a new section designation to read as follows:</text>
       <include>
         <toc>
           <section>
@@ -41,9 +40,10 @@
       <text>A new section 47-1099.15 is added to read as follows:</text>
       <include>
         <section>
+          <!-- <codify:insert path="47|10" after="§47-1099.14" num-value="47-1099.15"/> -->
           <prefix>§</prefix>
           <num>47-1099.15</num>
-          <text>Food &amp; Friends, Inc.; Lot 0005, Square 3766.</text>
+          <heading>Food &amp; Friends, Inc.; Lot 0005, Square 3766.</heading>
           <para>
             <num>(a)</num>
             <text>The real property, and any improvements on the property, located at 219 Riggs Road, NE, known for tax and assessment purposes as Lot 0005, Square 3766 ("Property"), shall be exempt from the tax imposed by Chapter 8 of this title; provided, that the Property is owned by Food &amp; Friends, Inc.; and provided further, that Food &amp; Friends, Inc., or any lessee of the Property, continues to use the Property to provide charitable food distribution or related services.</text>
@@ -56,6 +56,12 @@
             <num>(c)</num>
             <text>The tax exemption provided pursuant to this section shall be in addition to and not in lieu of any other tax relief or assistance from any other source applicable to Food &amp; Friends, Inc.</text>
           </para>
+          <!-- <codify:emergency-new-sec doc="D.C. Code" path="§47-1099.15" interim-path="§47-1099.14" perm-eff="2025-11-24"/>
+          <codify:insert doc="D.C. Code" path="§47-1099.15" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section was created by emergency legislation that will expire on February 22, 2026.*
+      </text>
+          </codify:insert> -->
         </section>
       </include>
       <aftertext>.</aftertext>
