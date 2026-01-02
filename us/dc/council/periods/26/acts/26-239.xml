@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-239">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-239" codify:doc="D.C. Code">
   <num type="act">26-239</num>
   <num type="bill">26-499</num>
   <heading type="short">Housing Authority Resident Empowerment Congressional Review Emergency Amendment Act of 2025</heading>
@@ -22,16 +22,17 @@
   <section>
     <num>2</num>
     <text>The District of Columbia Housing Authority Act of 1999, effective May 9, 2000 (D.C. Law 13-105; D.C. Official Code § 6-201 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§6-201">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 6-201) is amended as follows:</text>
-      <para>
+      <para codify:path="(6)">
         <num>(1)</num>
         <text>Paragraph (6) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(6)</num>
-            <text>"Board" means the Board of Commissioners established by section 4a; provided, that for the purposes of sections 10(h), 12(r), and 21(b), the term "Board" shall include any prior form in which the Board existed since the establishment of the Authority pursuant to this act.</text>
+            <text>"Board" means the Board of Commissioners established by <code-cite doc="D.C. Code" path="§6-203.01">section 4a</code-cite>; provided, that for the purposes of <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§6-209|(h)" codify:value="6-209(h)">10(h)</code-cite>, <code-cite doc="D.C. Code" path="§6-211|(r)" codify:value="6-211(r)">12(r)</code-cite>, and <code-cite doc="D.C. Code" path="§6-220|(b)" codify:value="6-220(b)">21(b)</code-cite>, the term "Board" shall include any prior form in which the Board existed since the establishment of the Authority pursuant to <code-cite doc="D.C. Code" path="6|2|I">this act</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -39,57 +40,90 @@
       <para>
         <num>(2)</num>
         <text>Paragraphs (8), (22), and (33) are repealed.</text>
+        <codify:repeal path="(8)"/>
+        <codify:repeal path="(22)"/>
+        <codify:repeal path="(33)"/>
       </para>
-      <para>
+      <para codify:path="(10)">
         <num>(3)</num>
         <text>Paragraph (10) is amended by striking the phrase "Resident Council Advisory Board" and inserting the phrase "Resident Advisory Board" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Resident Council Advisory Board</find>
+          <replace>Resident Advisory Board</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(15)">
         <num>(4)</num>
         <text>Paragraph (15) is amended by striking the phrase "District of Columbia Housing Authority" and inserting the word "Authority" in its place.</text>
+        <codify:find-replace count="2">
+          <find>District of Columbia Housing Authority</find>
+          <replace>Authority</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>A new paragraph (17A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(17)" num-value="(17A)"/>
             <num>(17A)</num>
             <text>"Dwelling unit" means any room or group of rooms located within a residential or mixed-use building and forming a single unit that is used or intended to be used for living, sleeping, and the preparation and eating of meals.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§6-201"/>
+      <codify:insert doc="D.C. Code" path="§6-201" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-201(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§6-202|(b-1)|(1)|(A)">
       <num>(b)</num>
       <text>Section 3(b-1)(1)(A) (D.C. Official Code § 6-202(b-1)(1)(A)) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The lead-in language is amended by striking the phrase "Beginning on December 1, 2022, and monthly thereafter, the Authority shall submit a report" and inserting the phrase "The Authority shall submit a quarterly report" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Beginning on December 1, 2022, and monthly thereafter, the Authority shall submit a report</find>
+          <replace>The Authority shall submit a quarterly report</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(iii)">
         <num>(2)</num>
         <text>Sub-subparagraph (iii) is amended by striking the phrase "units have been vacant in the prior year," and inserting the phrase "units have been vacant," in its place.</text>
+        <codify:find-replace count="1">
+          <find>units have been vacant in the prior year,</find>
+          <replace>units have been vacant,</replace>
+        </codify:find-replace>
       </para>
+      <codify:emergency doc="D.C. Code" path="§6-202"/>
+      <codify:insert doc="D.C. Code" path="§6-202" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-202(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
     <para>
       <num>(c)</num>
       <text>A new section 4a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="6|2|I" after="§6-203" num-value="6-203.01" history-prefix="as added"/>
           <num>4a</num>
           <heading proof="needed">Board of Commissioners.</heading>
           <para>
             <num>(a)</num>
-            <text>The Authority shall be governed by a Board of Commissioners ("Board"), which shall consist of 9 members and shall govern in accordance with this section and section 12.</text>
+            <text>The Authority shall be governed by a Board of Commissioners ("Board"), which shall consist of 9 members and shall govern in accordance with this section and <code-cite doc="D.C. Code" path="§6-211">section 12</code-cite>.</text>
           </para>
           <para>
             <num>(b)</num>
-            <text>Residents of Housing Properties shall elect 2 Commissioners in accordance with section 12(k). The Authority shall conduct elections for one such Commissioner to take office no later than December 31, 2025, and every 3 years thereafter, and for the second elected Commissioner to take office no later than December 31, 2026, and every 3 years thereafter.</text>
+            <text>Residents of Housing Properties shall elect 2 Commissioners in accordance with <code-cite doc="D.C. Code" path="§6-211|(k)">section 12(k)</code-cite>. The Authority shall conduct elections for one such Commissioner to take office no later than December 31, 2025, and every 3 years thereafter, and for the second elected Commissioner to take office no later than December 31, 2026, and every 3 years thereafter.</text>
           </para>
           <para>
             <num>(c)</num>
-            <text>The Mayor shall appoint 7 Commissioners with the advice and consent of the Council, in accordance with section 2(e) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(e)), as follows:</text>
+            <text>The Mayor shall appoint 7 Commissioners with the advice and consent of the Council, in accordance with <code-cite doc="D.C. Code" path="§1-523.01|(e)">section 2(e) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(e))</code-cite>, as follows:</text>
             <para>
               <num>(1)</num>
               <text>No later than October 1, 2025, and every 3 years thereafter, the Mayor shall nominate:</text>
@@ -133,50 +167,68 @@
           </para>
           <para>
             <num>(d)</num>
-            <text>No person shall be elected, appointed, or reappointed to the Board if the person has served 9 years or longer, either in consecutive or non-consecutive terms, as a member of the Board in any form in which the Board existed since the establishment of the Authority pursuant to this act.</text>
+            <text>No person shall be elected, appointed, or reappointed to the Board if the person has served 9 years or longer, either in consecutive or non-consecutive terms, as a member of the Board in any form in which the Board existed since the establishment of the Authority pursuant to <code-cite doc="D.C. Code" path="6|2|I">this act</code-cite>.</text>
           </para>
+          <annotation doc="D.C. Law 13-105" type="History" path="§4a">May 9, 2000, D.C. Law 13-105, § 4a</annotation>
+          <codify:emergency-new-sec doc="D.C. Code" path="§6-203.01" interim-path="§6-203" perm-eff="2025-12-19"/>
+          <codify:insert doc="D.C. Code" path="§6-203.01" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section was created by emergency legislation that will expire on March 19, 2026.*
+      </text>
+          </codify:insert>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§6-207.01|(a)|(1)">
       <num>(d)</num>
       <text>Section 8a(a)(1) (D.C. Official Code § 6-207.01(a)(1)) is amended by striking the word "February" and inserting the word "June" in its place.</text>
+      <codify:find-replace position="1">
+        <find>February</find>
+        <replace>June</replace>
+      </codify:find-replace>
+      <codify:emergency doc="D.C. Code" path="§6-207.01"/>
+      <codify:insert doc="D.C. Code" path="§6-207.01" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-207.01(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
     <para>
       <num>(e)</num>
       <text>New sections 11a and 11b are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="6|2|I" after="§6-210" num-value="6-210.01" history-prefix="as added"/>
           <num>11a</num>
           <heading proof="needed">Transition from temporary Stabilization and Reform Board.</heading>
           <para>
             <num>(a)</num>
-            <text>Each individual who served as a voting or non-voting member of the temporary Stabilization and Reform Board of the Authority as of the effective date of the Housing Authority Resident Empowerment Emergency Amendment Act of 2025, effective September 4, 2025 (D.C. Act 26-145; 72 DCR 9614), shall serve as a voting interim Commissioner of the Board established by section 4a without need for confirmation or appointment until he or she is replaced or reappointed in accordance with this section. Section 12(d) shall not apply to individuals named in this section for purposes of the special initial terms prescribed in this section.</text>
+            <text>Each individual who served as a voting or non-voting member of the temporary Stabilization and Reform Board of the Authority as of <span codify:value="[September 4, 2025]">the effective date of the Housing Authority Resident Empowerment Emergency Amendment Act of 2025, effective September 4, 2025 (D.C. Act 26-145; 72 DCR 9614)</span>, shall serve as a voting interim Commissioner of the Board established by <code-cite doc="D.C. Code" path="§6-203.01">section 4a</code-cite> without need for confirmation or appointment until he or she is replaced or reappointed in accordance with this section. <code-cite doc="D.C. Code" path="§6-211|(d)">Section 12(d)</code-cite> shall not apply to individuals named in this section for purposes of the special initial terms prescribed in this section.</text>
           </para>
           <para>
             <num>(b)</num>
-            <text>No later than October 1, 2025, the Mayor shall nominate an interim Commissioner with the qualifications listed in section 4a(c)(3)(C) for a 2-year term; provided, that notwithstanding section 12(c)(2), the Mayor may nominate the Chief Financial Officer or their designee, who shall be an employee of the Office of the Chief Financial Officer, for such initial 2-year term as a non-voting Commissioner; provided, further that Leroy Clay III shall serve as an interim non-voting Commissioner until reconfirmed or replaced in this manner. The 2-year term of the interim Commissioner appointed pursuant to this subsection shall expire when the Commissioner identified in section 4a(c)(3)(C) is appointed.</text>
+            <text>No later than October 1, 2025, the Mayor shall nominate an interim Commissioner with the qualifications listed in <code-cite doc="D.C. Code" path="§6-203.01|(c)|(3)|(C)">section 4a(c)(3)(C)</code-cite> for a 2-year term; provided, that notwithstanding <code-cite doc="D.C. Code" path="§6-211|(c)|(2)">section 12(c)(2)</code-cite>, the Mayor may nominate the Chief Financial Officer or their designee, who shall be an employee of the Office of the Chief Financial Officer, for such initial 2-year term as a non-voting Commissioner; provided, further that Leroy Clay III shall serve as an interim non-voting Commissioner until reconfirmed or replaced in this manner. The 2-year term of the interim Commissioner appointed pursuant to this subsection shall expire when the Commissioner identified in <code-cite doc="D.C. Code" path="§6-203.01|(c)|(3)|(C)">section 4a(c)(3)(C)</code-cite> is appointed.</text>
           </para>
           <para>
             <num>(c)</num>
-            <text>Rosa Burbridge shall serve as an interim Commissioner until the first Commissioner identified in section 4a(b) is elected and takes office.</text>
+            <text>Rosa Burbridge shall serve as an interim Commissioner until the first Commissioner identified in <code-cite doc="D.C. Code" path="§6-203.01|(b)">section 4a(b)</code-cite> is elected and takes office.</text>
           </para>
           <para>
             <num>(d)</num>
-            <text>No later than October 1, 2025, the Mayor shall nominate 2 interim Commissioners with the qualifications listed in section 4a(c)(2)(A) for one-year terms; provided, that Raymond A. Skinner and James M. Dickerson shall serve as interim Commissioners until they are reappointed or replaced in this manner; provided, further that Raymond A. Skinner shall be the interim Chairperson of the Board until the Board selects a Chairperson pursuant to section 12(m). The 2 interim Commissioners appointed pursuant to this subsection shall serve as interim Commissioners until the second Commissioner identified in section 4a(b) is elected and takes office and the Commissioner identified in section 4a(c)(2)(A) is appointed.</text>
+            <text>No later than October 1, 2025, the Mayor shall nominate 2 interim Commissioners with the qualifications listed in <code-cite doc="D.C. Code" path="§6-203.01|(c)|(2)|(A)">section 4a(c)(2)(A)</code-cite> for one-year terms; provided, that Raymond A. Skinner and James M. Dickerson shall serve as interim Commissioners until they are reappointed or replaced in this manner; provided, further that Raymond A. Skinner shall be the interim Chairperson of the Board until the Board selects a Chairperson pursuant to <code-cite doc="D.C. Code" path="§6-211|(m)">section 12(m)</code-cite>. The 2 interim Commissioners appointed pursuant to this subsection shall serve as interim Commissioners until the second Commissioner identified in <code-cite doc="D.C. Code" path="§6-203.01|(b)">section 4a(b)</code-cite> is elected and takes office and the Commissioner identified in <code-cite doc="D.C. Code" path="§6-203.01|(c)|(2)|(A)">section 4a(c)(2)(A)</code-cite> is appointed.</text>
           </para>
           <para>
             <num>(e)</num>
-            <text>Christopher Murphy shall serve as an interim Commissioner until he is reappointed as, or replaced by the appointment of, the  Commissioner identified in section 4a(c)(1)(A).</text>
+            <text>Christopher Murphy shall serve as an interim Commissioner until he is reappointed as, or replaced by the appointment of, the  Commissioner identified in <code-cite doc="D.C. Code" path="§6-203.01|(c)|(1)|(A)">section 4a(c)(1)(A)</code-cite>.</text>
           </para>
           <para>
             <num>(f)</num>
-            <text>No later than October 1, 2025, the Mayor shall nominate one interim Commissioner with the qualifications listed in section 4a(c)(3)(B) for a 2-year term.</text>
+            <text>No later than October 1, 2025, the Mayor shall nominate one interim Commissioner with the qualifications listed in <code-cite doc="D.C. Code" path="§6-203.01|(c)|(3)|(B)">section 4a(c)(3)(B)</code-cite> for a 2-year term.</text>
           </para>
           <para>
             <num>(g)</num>
-            <text>No later than October 1, 2025, the Mayor shall nominate one interim Commissioner with the qualifications listed in section 4a(c)(3)(A) for a 2-year term; provided, that Denise Blackson shall serve as a Commissioner until she is reappointed to such 2-year term or replaced by the appointee to such 2-year term.</text>
+            <text>No later than October 1, 2025, the Mayor shall nominate one interim Commissioner with the qualifications listed in <code-cite doc="D.C. Code" path="§6-203.01|(c)|(3)|(A)">section 4a(c)(3)(A)</code-cite> for a 2-year term; provided, that Denise Blackson shall serve as a Commissioner until she is reappointed to such 2-year term or replaced by the appointee to such 2-year term.</text>
           </para>
           <para>
             <num>(h)</num>
@@ -184,15 +236,15 @@
           </para>
           <para>
             <num>(i)</num>
-            <text>Notwithstanding section 12(c)(2), the Mayor may nominate the Executive Director of the Interagency Council on Homelessness for the initial 3-year term specified in section 4a(c)(1)(B). Theresa Silla shall serve as an interim Commissioner until she is reappointed or replaced in this manner.</text>
+            <text>Notwithstanding <code-cite doc="D.C. Code" path="§6-211|(c)|(2)">section 12(c)(2)</code-cite>, the Mayor may nominate the Executive Director of the Interagency Council on Homelessness for the initial 3-year term specified in <code-cite doc="D.C. Code" path="§6-203.01|(c)|(1)|(B)">section 4a(c)(1)(B)</code-cite>. Theresa Silla shall serve as an interim Commissioner until she is reappointed or replaced in this manner.</text>
           </para>
           <para>
             <num>(j)</num>
-            <text>Jennifer Reed shall serve as a Commissioner until a quorum of Commissioners confirmed, reconfirmed, or elected pursuant to this section and section 4a take office.</text>
+            <text>Jennifer Reed shall serve as a Commissioner until a quorum of Commissioners confirmed, reconfirmed, or elected pursuant to this section and <code-cite doc="D.C. Code" path="§6-203.01">section 4a</code-cite> take office.</text>
           </para>
           <para>
             <num>(k)</num>
-            <text>Notwithstanding section 1108(c-2)(1) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-611.08(c-2)(1)):</text>
+            <text>Notwithstanding <code-cite doc="D.C. Code" path="§1-611.08|(c-2)|(1)">section 1108(c-2)(1) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-611.08(c-2)(1))</code-cite>:</text>
             <para>
               <num>(1)</num>
               <text>Commissioners who are District government employees shall not be entitled to stipends for their service on the Board; and</text>
@@ -204,10 +256,18 @@
           </para>
           <para>
             <num>(l)</num>
-            <text>This section shall sunset upon all Commissioners of the Board established pursuant to section 4a taking office.</text>
+            <text>This section shall sunset upon all Commissioners of the Board established pursuant to <code-cite doc="D.C. Code" path="§6-203.01">section 4a</code-cite> taking office.</text>
           </para>
+          <annotation doc="D.C. Law 13-105" type="History" path="§11a">May 9, 2000, D.C. Law 13-105, § 11a</annotation>
+          <codify:emergency-new-sec doc="D.C. Code" path="§6-210.01" interim-path="§6-210" perm-eff="2025-12-19"/>
+          <codify:insert doc="D.C. Code" path="§6-210.01" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section was created by emergency legislation that will expire on March 19, 2026.*
+      </text>
+          </codify:insert>
         </section>
         <section>
+          <codify:insert path="6|2|I" after="§6-210.01" num-value="6-210.02" history-prefix="as added"/>
           <num>11b</num>
           <heading proof="needed">City-Wide Resident Advisory Board training and consultation.</heading>
           <para>
@@ -230,20 +290,31 @@
             <num>(e)</num>
             <text>At least once a quarter, the Board shall invite the City-Wide Resident Advisory Board to report to the Board on any topics of interest or concerns and respond to the concerns of the City-Wide Resident Advisory Board in writing, no later than 45 days following the quarterly meeting.</text>
           </para>
+          <annotation doc="D.C. Law 13-105" type="History" path="§11b">May 9, 2000, D.C. Law 13-105, § 11b</annotation>
+          <codify:emergency-new-sec doc="D.C. Code" path="§6-210.02" interim-path="§6-210" perm-eff="2025-12-19"/>
+          <codify:insert doc="D.C. Code" path="§6-210.02" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section was created by emergency legislation that will expire on March 19, 2026.*
+      </text>
+          </codify:insert>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§6-211">
       <num>(f)</num>
       <text>Section 12 (D.C. Official Code § 6-211) is amended as follows:</text>
-      <para>
+      <para codify:path="heading">
         <num>(1)</num>
         <text>The section heading is amended to read as follows:</text>
         <include>
           <section>
             <num>12</num>
             <heading proof="needed">Additional Board provisions.</heading>
+            <codify:find-replace count="1">
+              <find>Board of Commissioners.</find>
+              <replace>Additional Board provisions.</replace>
+            </codify:find-replace>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -251,16 +322,25 @@
       <para>
         <num>(2)</num>
         <text>Subsections (a), (b), (e), (f), (g), (j), (o), and (p) are repealed.</text>
+        <codify:repeal path="(a)"/>
+        <codify:repeal path="(b)"/>
+        <codify:repeal path="(e)"/>
+        <codify:repeal path="(f)"/>
+        <codify:repeal path="(g)"/>
+        <codify:repeal path="(j)"/>
+        <codify:repeal path="(o)"/>
+        <codify:repeal path="(p)"/>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c)</num>
             <para>
               <num>(1)</num>
-              <text>An individual seeking to serve as a Commissioner identified under section 4a(c)(1), (2), and (3)(B) and (C) shall have 5 or more years of professional experience in a relevant leadership role out of the last 10 years.</text>
+              <text>An individual seeking to serve as a Commissioner identified under <code-cite doc="D.C. Code" path="§6-203.01|(c)|(1)">section 4a(c)(1)</code-cite>, <cite doc="D.C. Code" path="§6-203.01|(c)|(2)">(2)</cite>, and <cite doc="D.C. Code" path="§6-203.01|(c)|(3)|(B)">(3)(B)</cite> and <cite doc="D.C. Code" path="§6-203.01|(c)|(3)|(C)">(C)</cite> shall have 5 or more years of professional experience in a relevant leadership role out of the last 10 years.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -270,16 +350,17 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(h)">
         <num>(4)</num>
         <text>Subsection (h) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended to read as follows:</text>
           <include>
             <para>
               <num>(h)</num>
               <para>
+                <codify:replace/>
                 <num>(1)</num>
                 <text>Within 90 days after a Commissioner's appointment or election, the Commissioner shall complete training covering the following topics:</text>
                 <para>
@@ -314,12 +395,14 @@
         <para>
           <num>(B)</num>
           <text>Paragraph (2) is repealed.</text>
+          <codify:repeal path="(2)"/>
         </para>
         <para>
           <num>(C)</num>
           <text>Paragraph (3) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace path="(3)"/>
               <num>(3)</num>
               <text>In addition to the training required in paragraph (1) of this subsection, each Commissioner shall spend at least 4 hours per quarter in training or educational seminars on corporate governance, public housing and the Housing Choice Voucher Program law and regulations, the Moving to Work program, resident opportunity such as HUD's Section 3 requirements for economic and employment opportunities, HUD reporting requirements, public housing performance monitoring and risk management, federal or local language access guidelines, labor and personnel, real estate and construction, or other subjects related to housing authority operation, and management. The maximum reimbursable cost, if any, of this training shall be established by the Board and paid by the Authority.</text>
             </para>
@@ -329,29 +412,32 @@
         <para>
           <num>(D)</num>
           <text>Paragraph (6) is repealed.</text>
+          <codify:repeal path="(6)"/>
         </para>
       </para>
-      <para>
+      <para codify:path="(i)">
         <num>(5)</num>
         <text>Subsection (i) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(i)</num>
             <text>The elected Commissioners shall be public housing residents at the time of election; provided, that an elected Commissioner who ceases to reside in public housing following their election may complete their term, unless they are otherwise removed pursuant to subsection (t) of this section.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(k)">
         <num>(6)</num>
         <text>Subsection (k) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended to read as follows:</text>
           <include>
             <para>
               <num>(k)</num>
               <para>
+                <codify:replace/>
                 <num>(1)</num>
                 <text>Elections of Commissioners by residents of Housing Properties shall be conducted in accordance with rules and procedures established by the Board and shall be held no sooner than 5 months and no later than 2 months prior to the expiration of the then current 3-year term. All elections shall be held under the supervision of an independent expert in election monitoring, to be selected by the Board.</text>
               </para>
@@ -359,7 +445,7 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended as follows:</text>
           <para>
@@ -369,55 +455,83 @@
               <para>
                 <num>(2)</num>
                 <text>The results of each election shall be retained until the elected Commissioner begins their term pursuant to the next scheduled election. If the elected Commissioner becomes unable to serve or is removed from the Board as hereinafter provided, that Commissioner's seat for the remaining term shall be filled as follows:</text>
+                <codify:find-replace count="1">
+                  <find>The results of each election shall be retained until the elected Commissioners begin their term pursuant to the next scheduled election. If one of the elected Commissioners becomes unable to serve or is removed from the Board as hereinafter provided, that Commissioner’s seat for the remaining term shall be filled as follows:</find>
+                  <replace>The results of each election shall be retained until the elected Commissioner begins their term pursuant to the next scheduled election. If the elected Commissioner becomes unable to serve or is removed from the Board as hereinafter provided, that Commissioner's seat for the remaining term shall be filled as follows:</replace>
+                </codify:find-replace>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(A)">
             <num>(ii)</num>
             <text>Subparagraph (A) is amended by striking the phrase "City-Wide Resident Council Advisory Board;" and inserting the phrase "City-Wide Resident Advisory Board;" in its place.</text>
+            <codify:find-replace count="1">
+              <find>City-Wide Resident Council Advisory Board;</find>
+              <replace>City-Wide Resident Advisory Board;</replace>
+            </codify:find-replace>
           </para>
         </para>
       </para>
-      <para>
+      <para codify:path="(m)">
         <num>(7)</num>
         <text>Subsection (m) is amended by striking the phrase "The Mayor shall designate one of his or her 4 nominees nominated pursuant to subsection (a)(1) of this section as Chairperson. The ex officio Commissioner shall not be appointed as Chairperson." and inserting the phrase "The Board shall elect a Chairperson from among its members." in its place.</text>
+        <codify:find-replace count="1">
+          <find>The Mayor shall designate one of his or her 4 nominees nominated pursuant to subsection (a)(1) of this section as Chairperson. The ex officio Commissioner shall not be appointed as Chairperson.</find>
+          <replace>The Board shall elect a Chairperson from among its members.</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(q)">
         <num>(8)</num>
         <text>Subsection (q) is amended by striking the phrase "Other than the ex officio Commissioner and the labor representative who is a Commissioner, no person" and inserting the phrase "No person" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Other than the ex officio Commissioner and the labor representative who is a Commissioner, no person</find>
+          <replace>No person</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(u)">
         <num>(9)</num>
         <text>Subsection (u) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(u)</num>
             <text>The Board may, by majority vote, require that any Commissioner or Executive Director resolve actual or potential conflicts of interest by reporting the actual or potential conflict of interest to the general counsel and ethics officer of the Authority for consideration and determination of required steps, which may include public disclosure of the conflict of interest and recusal from the decision-making process involving the conflict, divestiture, or any other manner which complies with federal and District law.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(w)">
         <num>(10)</num>
         <text>Subsection (w) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(w)</num>
-            <text>The Board shall meet regularly at least 10 times each calendar year. Each meeting shall provide for a period for public comments, which shall not be limited in time, except that the time allowed each individual speaker may be reasonably limited. To allow the Board to meet and entertain any proposed action, there must be a quorum present, which shall consist of at least 5 Commissioners. Meetings of the Board shall be subject to the Open Meetings Act, effective March 31, 2011 (D.C. Law 18-350; D.C. Official Code § 2-571 <em>et seq.</em>).</text>
+            <text>The Board shall meet regularly at least 10 times each calendar year. Each meeting shall provide for a period for public comments, which shall not be limited in time, except that the time allowed each individual speaker may be reasonably limited. To allow the Board to meet and entertain any proposed action, there must be a quorum present, which shall consist of at least 5 Commissioners. Meetings of the Board shall be subject to <code-cite doc="D.C. Code" path="2|5|IV">the Open Meetings Act, effective March 31, 2011 (D.C. Law 18-350; D.C. Official Code § 2-571 <em>et seq.</em>)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§6-211"/>
+      <codify:insert doc="D.C. Code" path="§6-211" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-211(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§6-213">
       <num>(g)</num>
       <text>Section 14 (D.C. Official Code § 6-213) is amended as follows:</text>
-      <para>
+      <para codify:path="(c)">
         <num>(1)</num>
         <text>Subsection (c) is amended by striking the phrase "direction and supervision" and inserting the word "oversight" in its place.</text>
+        <codify:find-replace count="1">
+          <find>direction and supervision</find>
+          <replace>oversight</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(d)|(1)">
         <num>(2)</num>
         <text>The lead-in language of subsection (d)(1) is amended to read as follows:</text>
         <include>
@@ -426,6 +540,10 @@
             <para>
               <num>(1)</num>
               <text>Within 90 days after the Executive Director's appointment, to the extent directed by the Board, the Executive Director shall complete training covering the following topics:</text>
+              <codify:find-replace count="1">
+                <find>Within 30 days of the Executive Director's appointment and on an annual basis thereafter, the Executive Director shall complete training offered by or in connection with HUD covering the following topics:</find>
+                <replace>Within 90 days after the Executive Director's appointment, to the extent directed by the Board, the Executive Director shall complete training covering the following topics:</replace>
+              </codify:find-replace>
             </para>
           </para>
         </include>
@@ -436,21 +554,29 @@
         <text>A new subsection (e) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(d)" num-value="(e)"/>
             <num>(e)</num>
             <text>As part of the process of selecting an Executive Director, the Board shall seek and consider the input of public housing residents, voucher holders, and the City-Wide Resident Advisory Board.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§6-213"/>
+      <codify:insert doc="D.C. Code" path="§6-213" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-213(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§6-232|(b)|(2)">
       <num>(h)</num>
       <text>Section 26g(b)(2) (D.C. Official Code § 6-232(b)(2)) is amended as follows:</text>
-      <para>
+      <para codify:path="(E)">
         <num>(1)</num>
         <text>Subparagraph (E) is amended to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:replace/>
             <num>(E)</num>
             <text>To file a complaint that requests an administrative determination of the resident's rights when the resident believes that the resident has been aggrieved or adversely affected by an act or a failure to act by an Authority official, as provided in Authority policy and regulations;</text>
           </para>
@@ -462,46 +588,69 @@
         <text>Subparagraphs (G), (H), and (I) are amended to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:replace path="(G)"/>
             <num>(G)</num>
             <text>To have a lease terminated only for serious or repeated violations of the material terms of the lease, as provided in the relevant provisions of the Authority's public housing regulations, which shall be identified in the Bill of Rights;</text>
           </para>
           <para>
+            <codify:replace path="(H)"/>
             <num>(H)</num>
             <text>To 30 days' notice of any action to correct, cure, or vacate for violation of a lease, except where the Authority has determined that the head of household responsible for the dwelling unit under the lease is deceased and there are no remaining household members, as provided in the relevant provisions of the Authority's public housing regulations, which shall be identified in the Bill of Rights;</text>
           </para>
           <para>
+            <codify:replace path="(I)"/>
             <num>(I)</num>
             <text>To be relocated away from living conditions that represent an emergency or a threat to life, health, or safety as determined by the Authority, another governmental entity, or as a result of a judicial proceeding, to alleviate the threat of attack by criminal elements as verified and documented by the Authority Police Department or any other police department or law enforcement agency authorized to operate in the District, and in certain other circumstances, as provided in the relevant provisions of the Authority's public housing regulations, which shall be identified in the Bill of Rights;</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§6-232"/>
+      <codify:insert doc="D.C. Code" path="§6-232" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§6-232(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
-  <section>
+  <section codify:path="§1-611.08|(c-2)|(1)">
     <num>3</num>
     <text>Section 1108(c-2)(1) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-611.08(c-2)(1)), is amended to read as follows:</text>
     <para>
       <num undesignated="true">(a)</num>
       <include lvl="1">
         <para>
+          <codify:replace/>
           <num>(1)</num>
           <text>Each Commissioner of the Board of the District of Columbia Housing Authority ("Board") shall be entitled to a stipend of $8,000 per year for their service, and the chairperson shall be entitled to an additional stipend of $4,000 per year; provided, that subsection (c-3) of this section shall not apply to the chairperson. Each Commissioner shall also be entitled to reimbursement of actual travel and other expenses reasonably related to attendance at Board meetings and fulfillment of official duties. Stipends and reimbursements shall be made at least quarterly and prorated, if necessary, to reflect the dates of actual membership on the Board or dates of service as chairperson;</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:emergency doc="D.C. Code" path="§1-611.08"/>
+    <codify:insert doc="D.C. Code" path="§1-611.08" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-611.08(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
-  <section>
+  <section codify:path="§1-523.01|(e)|(27)">
     <num>4</num>
     <text>Section 2(e)(27) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(e)(27)), is amended to read as follows:</text>
     <include lvl="1">
       <para>
+        <codify:replace/>
         <num>(27)</num>
-        <text>The Board of the District of Columbia Housing Authority, as established by section 4a of the District of Columbia Housing Authority Act of 1999, passed on emergency basis on December 2, 2025  (Enrolled version of Bill 26-499);</text>
+        <text>The Board of the District of Columbia Housing Authority, as established by <code-cite doc="D.C. Code" path="§6-203.01">section 4a of the District of Columbia Housing Authority Act of 1999, passed on emergency basis on December 2, 2025  (Enrolled version of Bill 26-499)</code-cite>;</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:emergency doc="D.C. Code" path="§1-523.01"/>
+    <codify:insert doc="D.C. Code" path="§1-523.01" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-523.01(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>5</num>

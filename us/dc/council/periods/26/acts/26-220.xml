@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-220">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-220" codify:doc="D.C. Code">
   <num type="act">26-220</num>
   <num type="bill">26-500</num>
   <heading type="short">Streatery Program Endorsements and Protest Process Emergency Amendment Act of 2025</heading>
@@ -22,7 +22,7 @@
   <section>
     <num>2</num>
     <text>Title 25 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="§25-101|(a)">
       <num>(a)</num>
       <text>Section 25-101 is amended as follows:</text>
       <para>
@@ -30,6 +30,7 @@
         <text>A new paragraph (50A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(50)" num-value="(50A)"/>
             <num>(50A)</num>
             <text>"Streatery" means the occupation of the parking lane of a roadway or use of designated parts of an alley network or travel lane used specifically for outdoor dining pursuant to a valid Streatery Permit issued by the District Department of Transportation and Certificate of Use issued by the Department of Buildings.</text>
           </para>
@@ -41,44 +42,69 @@
         <text>A new paragraph (55A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(55)" num-value="(55A)"/>
             <num>(55A)</num>
             <text>"Washington Convention and Sports Authority food and alcohol business" means a retailer with commercial street frontage at a location under the jurisdiction of the Washington Convention and Sports Authority that sells food and is approved by the Washington Convention and Sports Authority to sell alcoholic beverages for on-premises consumption.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§25-101"/>
+      <codify:insert doc="D.C. Code" path="§25-101" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§25-101(Perm)">Past Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§25-113|(a)|(6)">
       <num>(b)</num>
       <text>Section 25-113(a)(6) is amended as follows:</text>
       <para>
         <num>(1)</num>
+        <!-- already done by Law 26-58 -->
         <text>Strike the phrase "2022 and 2023" wherever it appears and insert the phrase "2022, 2023, 2024, and through December 31, 2025" in its place.</text>
+        <!-- <codify:find-replace count="4">
+          <find>2022 and 2023</find>
+          <replace>2022, 2023, 2024, and through December 31, 2025</replace>
+        </codify:find-replace> -->
       </para>
-      <para>
+      <para codify:path="(A)|(i)|(II)">
         <num>(2)</num>
+        <!-- already done by Law 26-58 -->
         <text>Subparagraph (A)(i)(II) is amended by striking the semicolon and inserting the phrase " annually with the fee for 2025 due by April 1, 2025; except, that an on-premises retailer licensee, class C/T, D/T, C/N, or D/N, or a manufacturer licensee class B, shall pay the fee for 2025 by September 30, 2025;" in its place.</text>
+        <!-- <codify:find-replace count="1">
+          <find>;</find>
+          <replace> annually with the fee for 2025 due by April 1, 2025; except, that an on-premises retailer licensee, class C/T, D/T, C/N, or D/N, or a manufacturer licensee class B, shall pay the fee for 2025 by September 30, 2025;</replace>
+        </codify:find-replace> -->
       </para>
       <para>
         <num>(3)</num>
         <text>A new subparagraph (F) is added to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert after="(E)" num-value="(F)"/>
             <num>(F)</num>
-            <text>After December 31, 2025, the provisions of § 25-113.01(c-1) shall apply to any establishment that wishes to sell, serve, or permit the consumption of beer, wine, or spirits to patrons on a streatery.</text>
+            <text>After December 31, 2025, the provisions of <cite doc="D.C. Code" path="§25-113.01|(c-1)">§ 25-113.01(c-1)</cite> shall apply to any establishment that wishes to sell, serve, or permit the consumption of beer, wine, or spirits to patrons on a streatery.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§25-113"/>
+      <codify:insert doc="D.C. Code" path="§25-113" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§25-113(Perm)">Past Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§25-113.01">
       <num>(c)</num>
       <text>Section 25-113.01 is amended as follows:</text>
-      <para>
+      <para codify:path="(c)">
         <num>(1)</num>
         <text>Subsection (c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c)</num>
             <para>
               <num>(1)</num>
@@ -96,11 +122,12 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c-1)">
         <num>(2)</num>
         <text>Subsection (c-1) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c-1)</num>
             <para>
               <num>(1)</num>
@@ -146,7 +173,7 @@
               <num>(4)</num>
               <para>
                 <num>(A)</num>
-                <text>As of January 1, 2026, an establishment that registered with the Board pursuant to § 25-113(a)(6) shall be deemed to be in violation of this subsection if it continues to sell, serve, or permit the consumption of beer, wine, or spirits to patrons in outdoor spaces unless:</text>
+                <text>As of January 1, 2026, an establishment that registered with the Board pursuant to <cite doc="D.C. Code" path="§25-113|(a)|(6)">§ 25-113(a)(6)</cite> shall be deemed to be in violation of this subsection if it continues to sell, serve, or permit the consumption of beer, wine, or spirits to patrons in outdoor spaces unless:</text>
                 <para>
                   <num>(i)</num>
                   <text>If the establishment operates a streatery, it submits an application to the Board for the appropriate endorsement or license by December 31, 2025; or</text>
@@ -158,7 +185,7 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>An applicant that registered with the Board pursuant to § 25-113(a)(6) and filed its application for the a streatery, summer garden, or sidewalk café endorsement or license by December 31, 2025, may continue to sell, serve, or permit the consumption of beer, wine, or spirits to patrons consistent with that registration until the Board renders a decision on its application.</text>
+                <text>An applicant that registered with the Board pursuant to <cite doc="D.C. Code" path="§25-113|(a)|(6)">§ 25-113(a)(6)</cite> and filed its application for the a streatery, summer garden, or sidewalk café endorsement or license by December 31, 2025, may continue to sell, serve, or permit the consumption of beer, wine, or spirits to patrons consistent with that registration until the Board renders a decision on its application.</text>
               </para>
             </para>
             <para>
@@ -180,18 +207,20 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(g)|(1)">
         <num>(3)</num>
         <text>Subsection (g)(1) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Designate the existing text as subparagraph (A).</text>
+          <codify:redesignate-para num-value="(A)"/>
         </para>
         <para>
           <num>(B)</num>
           <text>A new subparagraph (B) is added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert after="(A)" num-value="(B)"/>
               <num>(B)</num>
               <text>Effective January 1, 2026, a Washington Convention and Sports Authority food and alcohol business that is not already licensed pursuant to subparagraph (A) of this paragraph shall obtain a carry out and delivery license from the Board to be eligible to sell beer, wine, or spirits in closed containers to individuals for carry out, or deliver beer, wine, or spirits in closed containers to consumers in the District.</text>
             </para>
@@ -199,28 +228,48 @@
           <aftertext>.</aftertext>
         </para>
       </para>
+      <codify:emergency doc="D.C. Code" path="§25-113.01"/>
+      <codify:insert doc="D.C. Code" path="§25-113.01" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§25-113.01(Perm)">Past Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§25-421">
       <num>(d)</num>
       <text>Section 25-421 is amended by adding a new subsection (a-1) is added to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(a)" num-value="(a-1)"/>
           <num>(a-1)</num>
           <text>For the purposes of subsection (a) of this section, an application for a streatery, sidewalk café, or summer garden endorsement or license shall be considered to be a substantial change in operation and subject to the notice requirements of this section.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:emergency doc="D.C. Code" path="§25-421"/>
+      <codify:insert doc="D.C. Code" path="§25-421" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§25-421(Perm)">Past Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§25-601">
       <num>(e)</num>
       <text>Section 25-601 is amended by adding a new subsection (c) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(b)" num-value="(c)"/>
           <num>(c)</num>
           <text>For the purposes of this section, an application for a streatery, sidewalk café, or summer garden endorsement or license shall be considered to be a substantial change in operation.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:emergency doc="D.C. Code" path="§25-601"/>
+      <codify:insert doc="D.C. Code" path="§25-601" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§25-601(Perm)">Past Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
   <section>

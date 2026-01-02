@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-233">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-233" codify:doc="D.C. Code">
   <num type="act">26-233</num>
   <num type="bill">26-516</num>
   <heading type="short">Streatery Program Emergency Amendment Act of 2025</heading>
@@ -25,6 +25,7 @@
     <text>The Department of Transportation Establishment Act of 2002, effective May 21, 2002 (D.C. Law 14-137; D.C. Official Code § 50-921.01 <em>et seq.</em>), is amended by adding a new section 9v to read as follows:</text>
     <include>
       <section>
+        <codify:insert path="50|9A|I" after="§50-921.29" num-value="50-921.30" history-prefix="as added"/>
         <num>9v</num>
         <heading proof="needed">Streatery program.</heading>
         <para>
@@ -65,35 +66,50 @@
             <text>A streatery permit holder that receives an exception under paragraph (2) of this subsection shall apply for a streatery permit renewal through the Public Space Committee every 2 years.</text>
           </para>
         </para>
+        <annotation doc="D.C. Law 14-137" type="History" path="§9v">May 21, 2002, D.C. Law 14-137, §  9v</annotation>
+        <codify:emergency-new-sec doc="D.C. Code" path="§50-921.30" interim-path="§50-921.29" perm-eff="2025-12-19"/>
+        <codify:insert doc="D.C. Code" path="§50-921.30" before="heading" history="false" display-template="">
+          <text>
+      *NOTE: This section was created by emergency legislation that will expire on March 19, 2026.*
+      </text>
+        </codify:insert>
       </section>
     </include>
     <aftertext>.</aftertext>
   </section>
-  <section>
+  <section codify:path="§50-2372">
     <num>3</num>
     <text>Section 202 of the Bicycle and Pedestrian Safety Amendment Act of 2016, effective March 21, 2025 (D.C. Law 25-312; D.C. Official Code § 50-2372), is amended as follows:</text>
-    <para>
+    <para codify:path="(b)">
       <num>(a)</num>
       <text>Subsection (b) is amended by adding a new paragraph (4) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(3)" num-value="(4)"/>
           <num>(4)</num>
           <text>One of the roadways selected pursuant to this subsection shall include the 2000-2400 blocks of 18th Street, NW, in Ward 1.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(c)">
       <num>(b)</num>
       <text>Subsection (c) is amended by adding a new paragraph (7A) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(7)" num-value="(7A)"/>
           <num>(7A)</num>
           <text>Recommendations on the designation and design of curbside space for use as streateries, parklets, or other public space activations;</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:emergency doc="D.C. Code" path="§50-2372"/>
+    <codify:insert doc="D.C. Code" path="§50-2372" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§50-2372(Perm)">Past Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>4</num>

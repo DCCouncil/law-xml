@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-61">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-61" codify:doc="D.C. Code">
   <num type="law">26-61</num>
   <num type="act">26-175</num>
   <num type="bill">26-336</num>
@@ -24,21 +24,32 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Volunteer Services Clarification Temporary Amendment Act of 2025".</text>
-  <section>
+  <section codify:path="§1-319.02">
     <num>2</num>
     <text>Section 3 of the Volunteers Services Act of 1977, effective June 28, 1977 (D.C. Law 2-12; D.C. Official Code § 1-319.02), is amended by striking the phrase "District of Columbia Board of Education" and inserting the phrase "District of Columbia Board of Education, Attorney General for the District of Columbia," in its place.</text>
+    <codify:find-replace count="1">
+      <find>District of Columbia Board of Education</find>
+      <replace>District of Columbia Board of Education, Attorney General for the District of Columbia,</replace>
+    </codify:find-replace>
+    <codify:temporary doc="D.C. Code" path="§1-319.02"/>
+    <codify:insert doc="D.C. Code" path="§1-319.02" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on July 31, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§1-319.02(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
     <text>The Juvenile Curfew Act of 1995, effective September 20, 1995 (D.C. Law 11-48; D.C. Official Code § 2-1541 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§2-1542">
       <num>(a)</num>
       <text>Section 3 (D.C. Official Code § 2-1542) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(1)</num>
             <text>"Chief of Police" means the Chief of the Metropolitan Police Department.</text>
           </para>
@@ -50,6 +61,7 @@
         <text>A new paragraph (1A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1)" num-value="(1A)"/>
             <num>(1A)</num>
             <text>"Curfew hours" means:</text>
             <para>
@@ -74,42 +86,54 @@
             </para>
             <para>
               <num>(D)</num>
-              <text>Extended curfew hours established by the Mayor pursuant to section 3a; and</text>
+              <text>Extended curfew hours established by the Mayor pursuant to <code-cite doc="D.C. Code" path="§2-1542.01">section 3a</code-cite>; and</text>
             </para>
             <para>
               <num>(E)</num>
-              <text>Extended curfew hours in extended juvenile curfew zones established by the Chief of Police pursuant to section 3b.</text>
+              <text>Extended curfew hours in extended juvenile curfew zones established by the Chief of Police pursuant to <code-cite doc="D.C. Code" path="§2-1542.02">section 3b</code-cite>.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(5)">
         <num>(3)</num>
         <text>Paragraph (5) is amended by striking the phrase "under the age of 17 years" and inserting the phrase "under the age of 18 years" in its place.</text>
+        <codify:find-replace count="1">
+          <find>under the age of 17 years</find>
+          <replace>under the age of 18 years</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (6A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(6)" num-value="(6A)"/>
             <num>(6A)</num>
             <text>"Notice of violation of curfew" means a verbal warning, authorized by an official that informs a groups of juveniles that they are violating the terms of a curfew, that they may be arrested if they continue to violate the curfew, and identifies reasonable steps that they can take to leave the area to avoid arrest.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:temporary doc="D.C. Code" path="§2-1542"/>
+      <codify:insert doc="D.C. Code" path="§2-1542" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on July 31, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§2-1542(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
     <para>
       <num>(b)</num>
       <text>New sections 3a and 3b are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="2|15|III" after="§2-1542" num-value="2-1542.01" history-prefix="as added"/>
           <num>3a</num>
           <heading proof="needed">Temporary extensions of juvenile curfew hours.</heading>
           <para>
             <num>(a)</num>
-            <text>The Mayor may, by issuance of an administrative order pursuant to section 422(11) of the District of Columbia Home Rule Act, effective December 24, 1973 (87 Stat. 790; D.C. Official Code § 1-204.22(11), extend the juvenile curfew hours in the District, or any part of the District, beyond the hours established in section 3(1A)(A), (B), and (C), if the Mayor determines that such an extension is appropriate to protect public safety or public or private property.</text>
+            <text>The Mayor may, by issuance of an administrative order pursuant to <code-cite doc="D.C. Code" path="§1-204.22|(11)">section 422(11) of the District of Columbia Home Rule Act, effective December 24, 1973 (87 Stat. 790; D.C. Official Code § 1-204.22(11)</code-cite>, extend the juvenile curfew hours in the District, or any part of the District, beyond the hours established in <code-cite doc="D.C. Code" path="§2-1542|(1A)|(A)">section 3(1A)(A)</code-cite>, <cite doc="D.C. Code" path="§2-1542|(1A)|(B)">(B)</cite>, and <cite doc="D.C. Code" path="§2-1542|(1A)|(C)">(C)</cite>, if the Mayor determines that such an extension is appropriate to protect public safety or public or private property.</text>
           </para>
           <para>
             <num>(b)</num>
@@ -175,8 +199,16 @@
               <text>Capture on body-worn camera each component of the order to return home described in paragraph (1) of this subsection.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 11-48" type="History" path="§3a">Sept. 20, 1995, D.C. Law 11-48, § 3a</annotation>
+          <codify:temporary-new-sec doc="D.C. Code" path="§2-1542.01" interim-path="§2-1542" perm-eff="2025-12-18"/>
+          <codify:insert doc="D.C. Code" path="§2-1542.01" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section was created by temporary legislation that will expire on July 31, 2026.*
+      </text>
+          </codify:insert>
         </section>
         <section>
+          <codify:insert path="2|15|III" after="§2-1542.01" num-value="2-1542.02" history-prefix="as added"/>
           <num>3b</num>
           <heading proof="needed">Temporary designations of extended juvenile curfew hour zones.</heading>
           <para>
@@ -223,15 +255,15 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>Police reports of disturbances of the public peace described in section 1 of An Act To confer concurrent jurisdiction on the police court of the District of Columbia in certain cases, approved July 16, 1912 (37 Stat. 192; D.C. Official Code § 22-1301), sections 6, 3, 9, or 16 of An act for the preservation of the public peace and the protection of property within the District of Columbia, approved July 29, 1892 (27 Stat. 323; D.C. Official Code §§ 22-1307, 22-1309, 22-1312, or 22-1318), section 211 of the District of Columbia Law Enforcement Act of 1953, approved June 29, 1953 (67 Stat. 98; D.C. Official Code § 22-1321), or section 901 of An Act relating to crime and criminal procedure in the District of Columbia, approved December27, 1967 (81 Stat. 742; D.C. Official Code § 22-1322), in the proposed extended juvenile curfew hours zone;</text>
+                <text>Police reports of disturbances of the public peace described in <code-cite doc="D.C. Code" path="§22-1301">section 1 of An Act To confer concurrent jurisdiction on the police court of the District of Columbia in certain cases, approved July 16, 1912 (37 Stat. 192; D.C. Official Code § 22-1301)</code-cite>, <span codify:value="§§">sections</span> <cite doc="D.C. Code" path="§22-1307" codify:value="22-1307">6</cite>, <cite doc="D.C. Code" path="§22-1309" codify:value="22-1309">3</cite>, <cite doc="D.C. Code" path="§22-1312" codify:value="22-1312">9</cite>, or <cite doc="D.C. Code" path="§22-1318" codify:value="22-1318">16 of An act for the preservation of the public peace and the protection of property within the District of Columbia, approved July 29, 1892 (27 Stat. 323; D.C. Official Code §§ 22-1307,  22-1309, 22-1312, or 22-1318)</cite>, <code-cite doc="D.C. Code" path="§22-1321">section 211 of the District of Columbia Law Enforcement Act of 1953, approved June 29, 1953 (67 Stat. 98; D.C. Official Code § 22-1321)</code-cite>, or <code-cite doc="D.C. Code" path="§22-1322">section 901 of An Act relating to crime and criminal procedure in the District of Columbia, approved December27, 1967 (81 Stat. 742; D.C. Official Code § 22-1322)</code-cite>, in the proposed extended juvenile curfew hours zone;</text>
               </para>
               <para>
                 <num>(C)</num>
-                <text>Police reports of dangerous crimes, as that term is defined in D.C. Official Code § 23-1331(3), in the proposed extended juvenile curfew hours zone;</text>
+                <text>Police reports of dangerous crimes, as that term is defined in <code-cite doc="D.C. Code" path="§23-1331|(3)">D.C. Official Code § 23-1331(3)</code-cite>, in the proposed extended juvenile curfew hours zone;</text>
               </para>
               <para>
                 <num>(D)</num>
-                <text>Police reports of crimes of violence, as that term is defined in D.C. Official Code § 23-1331(4), in the proposed extended juvenile curfew hours zone; or</text>
+                <text>Police reports of crimes of violence, as that term is defined in <code-cite doc="D.C. Code" path="§23-1331|(4)">D.C. Official Code § 23-1331(4)</code-cite>, in the proposed extended juvenile curfew hours zone; or</text>
               </para>
               <para>
                 <num>(E)</num>
@@ -314,6 +346,13 @@
               <text>Consideration of a petition submitted under this section, and the determination of whether to designate an extended juvenile curfew hours zone in response to the petition, shall be at the sole discretion of the Chief of Police.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 11-48" type="History" path="§3b">Sept. 20, 1995, D.C. Law 11-48, § 3b</annotation>
+          <codify:temporary-new-sec doc="D.C. Code" path="§2-1542.02" interim-path="§2-1542" perm-eff="2025-12-18"/>
+          <codify:insert doc="D.C. Code" path="§2-1542.02" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section was created by temporary legislation that will expire on July 31, 2026.*
+      </text>
+          </codify:insert>
         </section>
       </include>
       <aftertext>.</aftertext>

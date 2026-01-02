@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-235">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-235" codify:doc="D.C. Code">
   <num type="act">26-235</num>
   <num type="bill">26-535</num>
   <heading type="short">Energy Efficiency Financing Debt Cap Emergency Amendment Act of 2025</heading>
@@ -19,9 +19,19 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Energy Efficiency Financing Debt Cap Emergency Amendment Act of 2025".</text>
-  <section>
+  <section codify:path="§8-1778.22|(a)">
     <num>2</num>
     <text>Section 202(a) of the Energy Efficiency Financing Act of 2010, effective May 27, 2010 (D.C. Law 18-183; D.C. Official Code § 8-1778.22(a)), is amended by striking the phrase "of bonds in an aggregate principal amount not to exceed $250 million" and inserting the phrase "of bonds" in its place.</text>
+    <codify:find-replace count="1">
+      <find>of bonds in an aggregate principal amount not to exceed $250 million</find>
+      <replace>of bonds</replace>
+    </codify:find-replace>
+    <codify:emergency doc="D.C. Code" path="§8-1778.22"/>
+    <codify:insert doc="D.C. Code" path="§8-1778.22" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on March 19, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§8-1778.22(Perm)">Past Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
