@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-179">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-62" codify:doc="D.C. Code">
+  <num type="law">26-62</num>
   <num type="bill">26-66</num>
   <num type="act">26-179</num>
   <heading type="short">Youth Advisory Council on Climate Change and Environmental Conservation Establishment Act of 2025</heading>
   <heading type="long">To establish the Youth Advisory Council on Climate Change and Environmental Conservation to provide an organized youth perspective on various issues, including the impacts of the changing climate, adverse weather events, and ways the District can mitigate, prepare, and adapt to climate change and create and sustain environmental educational opportunities for youth; and to amend the District of Columbia Government Comprehensive Merit Personnel Act of 1979 to authorize a stipend for members of the Youth Advisory Council on Climate Change and Environmental Conservation.</heading>
   <meta>
     <introduced>2025-01-17</introduced>
-    <effective projected="true">2026-01-17</effective>
+    <effective>2025-12-31</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/56947/Signed_Act/B26-0066-Signed_Act.pdf?Id=226791">D.C. Law 26-62</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/56947/Signed_Act/B26-0066-Signed_Act.pdf?Id=226791">D.C. Act 26-179</citation>
       <citation type="register">72 DCR 12840</citation>
     </citations>
@@ -20,7 +22,15 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Youth Advisory Council on Climate Change and Environmental Conservation Establishment Act of 2025".</text>
+  <codify:insert doc="D.C. Code" path="8" after="1C" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>1C-i</num>
+      <heading>Youth Advisory Council on Climate Change and Environmental Conservation. [Not Funded]</heading>
+    </container>
+  </codify:insert>
   <section>
+    <codify:insert path="8|1C-i" num-value="8-183.01"/>
     <num>2</num>
     <heading proof="needed">Youth Advisory Council on Climate Change and Environmental Conservation.</heading>
     <para>
@@ -94,7 +104,7 @@
       <num>(c)</num>
       <para>
         <num>(1)</num>
-        <text>All initial appointments to the Youth Climate Council shall be made no later than 180 days after the applicability date of this act. Initial appointments shall be as follows:</text>
+        <text>All initial appointments to the Youth Climate Council shall be made no later than 180 days after the applicability date of <cite doc="D.C. Law 26-62" codify:value="the Youth Advisory Council on Climate Change and Environmental Conservation Establishment Act of 2025">this act</cite>. Initial appointments shall be as follows:</text>
         <para>
           <num>(A)</num>
           <text>Of the members appointed by the Mayor pursuant to subsection (b)(1) of this section, 5 members shall be appointed for a term of 2 years, and 4 members shall be appointed for a term of one year; and</text>
@@ -219,15 +229,17 @@
       </para>
       <para>
         <num>(4)</num>
-        <text>Requirements of the Open Meetings Act, effective March 31, 2011 (D.C. Law 18-350; D.C. Official Code § 2-571 <em>et seq</em>.), and how to conduct meetings based on Robert's Rules of Order; and</text>
+        <text>Requirements of <code-cite doc="D.C. Code" path="2|5|IV">the Open Meetings Act, effective March 31, 2011 (D.C. Law 18-350; D.C. Official Code § 2-571 <em>et seq</em>.)</code-cite>, and how to conduct meetings based on Robert's Rules of Order; and</text>
       </para>
       <para>
         <num>(5)</num>
         <text>Informational material provided by the Office of Open Government concerning the duties of Youth Climate Council members, and other District boards, commissions, and advisory bodies.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 26-62" path="§2" applicability-path="§5|(a)" action="creation of" display-template=""/>
   </section>
   <section>
+    <codify:insert path="8|1C-i" after="§8-183.01" num-value="8-183.02"/>
     <num>3</num>
     <heading proof="needed">Functions and procedures of the Youth Climate Council.</heading>
     <para>
@@ -303,7 +315,7 @@
       </para>
       <para>
         <num>(2)</num>
-        <text>The Youth Climate Council may use space and supplies owned or rented by the District government for purposes consistent with this act.</text>
+        <text>The Youth Climate Council may use space and supplies owned or rented by the District government for purposes consistent with <cite doc="D.C. Law 26-66" codify:value="the Youth Advisory Council on Climate Change and Environmental Conservation Establishment Act of 2025">this act</cite>.</text>
       </para>
       <para>
         <num>(3)</num>
@@ -314,25 +326,32 @@
         <text>The chairpersons of the Council committees with jurisdiction over the environment, energy, and natural resources shall provide an opportunity for the Youth Climate Council to report in person on its findings and recommendations at least once each year.</text>
       </para>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 26-62" path="§3" applicability-path="§5|(a)" action="creation of" display-template=""/>
   </section>
-  <section>
+  <section codify:path="§1-611.08|(c-2)">
     <num>4</num>
     <text>Section 1108(c-2) of the District of Columbia Government Comprehensive Merit Personnel Act of 1979, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-611.08(c-2)), is amended as follows:</text>
-    <para>
+    <para codify:path="(10)">
       <num>(a)</num>
       <text>Paragraph (10) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+      <codify:find-replace position="last" count="1">
+        <find>.</find>
+        <replace>; and</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>A new paragraph (11) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(10)" num-value="(11)"/>
           <num>(11)</num>
-          <text>Each member of the Youth Council on Climate Change and Environmental Conservation appointed pursuant to section 2 of the Youth Advisory Council on Climate Change and Environmental Conservation Establishment Act of 2025, passed on 2nd reading on October 21, 2025 (Enrolled version of Bill 26-66), may receive compensation in the form of a stipend of not more than $1000 per year, in accordance with standards the Mayor may establish by rulemaking.</text>
+          <text>Each member of the Youth Council on Climate Change and Environmental Conservation appointed pursuant to <code-cite doc="D.C. Code" path="§8-183.01">section 2 of the Youth Advisory Council on Climate Change and Environmental Conservation Establishment Act of 2025, passed on 2nd reading on October 21, 2025 (Enrolled version of Bill 26-66)</code-cite>, may receive compensation in the form of a stipend of not more than $1000 per year, in accordance with standards the Mayor may establish by rulemaking.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:not-funded-anno doc="D.C. Law 26-62" path="§4" applicability-path="§5|(a)" action="amendment to" display-template=""/>
   </section>
   <section>
     <num>5</num>
@@ -340,6 +359,9 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-62" path="§2" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-62" path="§3" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-62" path="§4" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
