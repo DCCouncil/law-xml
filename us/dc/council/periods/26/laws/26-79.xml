@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-79">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-79" codify:doc="D.C. Code">
   <num type="law">26-79</num>
   <num type="act">26-198</num>
   <num type="bill">26-373</num>
@@ -14,7 +14,7 @@
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/60393/Signed_Act/B26-0373-Signed_Act.pdf?Id=227054">D.C. Act 26-198</citation>
       <citation type="register">72 DCR 12892</citation>
     </citations>
-    <history url="https://lims.dccouncil.us/Legislation/B26-0373">
+    <history url="https://lims.dccouncil.gov/Legislation/B26-0373">
       <vote date="2025-10-07" reading="First"/>
       <vote date="2025-10-21" reading="Final"/>
       <enacted>2025-11-13</enacted>
@@ -23,16 +23,25 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the Language Access Rulemaking Temporary Amendment Act of 2025".</text>
-  <section>
+  <section codify:path="§2-1935">
     <num>2</num>
     <text>Section 6 of the Language Access Act of 2004, effective June 19, 2004 (D.C. Law 15-167; D.C. Official Code § 2-1935), is amended by adding a new subsection (c) to read as follows:</text>
     <include>
       <para>
+        <codify:insert after="(b)" num-value="(c)"/>
         <num>(c)</num>
-        <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 et seq.), shall issue rules to implement the provisions of this act.</text>
+        <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 et seq.)</code-cite>, shall issue rules to implement the provisions of <cite doc="D.C. Code" path="2|19|II">this act</cite>.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:temporary doc="D.C. Code" path="§2-1935"/>
+    <codify:insert doc="D.C. Code" path="§2-1935" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on August 13, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§2-1935(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
+    <codify:annotation applicability="effective" doc="D.C. Code" path="§2-1935" type="Applicability"><cite doc="D.C. Law 26-79" path="§3">Section 3 of D.C. Law 26-79</cite> provided that the amendments made to this section by <cite doc="D.C. Law 26-79" path="§2">section 2</cite> of D.C. Law 26-79 shall apply as of June 19, 2004. 
+         </codify:annotation>
   </section>
   <section>
     <num>3</num>
