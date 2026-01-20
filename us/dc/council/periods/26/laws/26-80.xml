@@ -330,6 +330,7 @@
               </para>
             </para>
             <para>
+              <codify:insert after="(e)" num-value="(f)"/>
               <num>(f)</num>
               <text>A tenant's rights under <code-cite doc="D.C. Code" path="42|34|IV">this title</code-cite> vest at the time of receipt of an offer of sale pursuant to <code-cite doc="D.C. Code" path="§42-3404.03">section 403</code-cite> and shall not apply to a tenant that begins occupying a housing accommodation after the issuance of an offer of sale.</text>
             </para>
@@ -925,9 +926,13 @@
       <para codify:path="§42-3404.05">
         <num>(g)</num>
         <text>Section 405 (D.C. Official Code § 42-3404.05) is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(1)</num>
           <text>Subsection (a) is amended by striking the phrase "sections 410(4) and 411(4), respectively" both times it appears and inserting the phrase "sections 410(a)(4) and 411(4), respectively" in its place.</text>
+          <codify:find-replace count="2">
+            <find>§§ <code-cite doc="D.C. Code" path="§42-3404.10|(a)|(4)" codify:value="42-3404.10(a)(4)">sections 410(4)</code-cite> and <code-cite doc="D.C. Code" path="§42-3404.11|(4)" codify:value="42-3404.11(4)">411(4)</code-cite></find>
+            <replace><span codify:value="§§">sections</span><code-cite doc="D.C. Code" path="§42-3404.10|(a)|(4)" codify:value="42-3404.10(a)(4)"> 410(a)(4)</code-cite> and <code-cite doc="D.C. Code" path="§42-3404.11|(4)" codify:value="42-3404.11(4)">411(4)</code-cite></replace>
+          </codify:find-replace>
         </para>
         <para codify:path="(a-1)">
           <num>(2)</num>
@@ -1029,6 +1034,22 @@
       <para codify:path="§42-3404.08">
         <num>(j)</num>
         <text>Section 408 (D.C. Official Code § 42-3404.08) is amended by striking the phrase "sections 409(c)(4), 410(2), and 411(2)" both times it appears and inserting the phrase "409(c)(4), 410(a)(2), or 411(2)" in its place.</text>
+        <codify:find-replace count="1">
+          <find>
+            <cite path="§42-3404.10|(2)">§ 42-3404.10(2)</cite>
+          </find>
+          <replace>
+            <code-cite doc="D.C. Code" path="§42-3404.10|(a)|(2)">410(a)(2)</code-cite>
+          </replace>
+        </codify:find-replace>
+        <codify:find-replace count="1">
+          <find>
+            <cite path="§42-3404.10|(2)">42-3404.10(2)</cite>
+          </find>
+          <replace>
+            <code-cite doc="D.C. Code" path="§42-3404.10|(a)|(2)" codify:value="42-3404.10(a)(2)">410(a)(2)</code-cite>
+          </replace>
+        </codify:find-replace>
       </para>
       <para codify:path="§42-3404.10">
         <num>(k)</num>
@@ -1988,17 +2009,14 @@
     <section codify:path="§1-611.08|(c-2)|(1)">
       <num>602</num>
       <text>Section 1108(c-2)(1) of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-611.08(c-2)(1)), is amended to read as follows:</text>
-      <para>
-        <num undesignated="true">(a)</num>
-        <include lvl="1">
-          <para>
-            <codify:replace/>
-            <num>(1)</num>
-            <text>Each Commissioner of the Board of the District of Columbia Housing Authority ("Board") shall be entitled to a stipend of $8,000 per year for their service, and the chairperson shall be entitled to an additional stipend of $4,000 per year; provided, that subsection (c-3) of this section shall not apply to the chairperson of such Board. Each such Commissioner also shall be entitled to reimbursement of actual travel and other expenses reasonably related to attendance at Board meetings and fulfillment of official duties. Stipends and reimbursements shall be made at least quarterly and prorated, if necessary, to reflect the dates of actual membership on the Board or dates of service as chairperson of the Board;</text>
-          </para>
-        </include>
-        <aftertext>.</aftertext>
-      </para>
+      <include lvl="1">
+        <para>
+          <codify:replace/>
+          <num>(1)</num>
+          <text>Each Commissioner of the Board of the District of Columbia Housing Authority ("Board") shall be entitled to a stipend of $8,000 per year for their service, and the chairperson shall be entitled to an additional stipend of $4,000 per year; provided, that subsection (c-3) of this section shall not apply to the chairperson of such Board. Each such Commissioner also shall be entitled to reimbursement of actual travel and other expenses reasonably related to attendance at Board meetings and fulfillment of official duties. Stipends and reimbursements shall be made at least quarterly and prorated, if necessary, to reflect the dates of actual membership on the Board or dates of service as chairperson of the Board;</text>
+        </para>
+      </include>
+      <aftertext>.</aftertext>
     </section>
     <section codify:path="§1-523.01|(e)|(27)">
       <num>603</num>
