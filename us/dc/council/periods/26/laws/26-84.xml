@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-201">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-84" codify:doc="D.C. Code">
+  <num type="law">26-84</num>
   <num type="act">26-201</num>
   <num type="bill">26-32</num>
   <heading type="short">Uniform Special Deposits Act of 2025</heading>
   <heading type="long">To amend Title 28 of the District of Columbia Official Code to enact the Uniform Special Deposits Act to establish clear criteria for what constitutes a special deposit, to permit parties to opt-in to the protections of the act by agreement, to establish the conditions under which a bank is obligated to pay a special deposit to a beneficiary, to provide that neither the depositor nor the beneficiary have a property interest in a special deposit, to clarify the applicability of the creditor process on a special deposit, to clarify the legality of a bank's right to exercise a setoff or right to recoupment against a special deposit that its unrelated to the special deposit, to establish a 5-year default term for special deposits, to provide that this act shall be applied and construed in a manner that promotes uniformity among the jurisdictions that adopt it, and to provide for its application to existing and future special deposits.</heading>
   <meta>
     <introduced>2025-01-07</introduced>
-    <effective projected="true">2026-01-29</effective>
+    <effective>2026-02-03</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/56889/Signed_Act/B26-0032-Signed_Act.pdf?Id=227783">D.C. Law 26-84</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/56889/Signed_Act/B26-0032-Signed_Act.pdf?Id=227783">D.C. Act 26-201</citation>
       <citation type="register">72 DCR 13482</citation>
     </citations>
@@ -20,6 +22,13 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Uniform Special Deposits Act of 2025".</text>
+  <codify:insert doc="D.C. Code" path="28" after="29" history="false">
+    <container>
+      <prefix>Chapter</prefix>
+      <num>29A</num>
+      <heading>Uniform Special Deposits.</heading>
+    </container>
+  </codify:insert>
   <section>
     <num>2</num>
     <text>Title 28 of the District of Columbia Official Code is amended as follows:</text>
@@ -103,12 +112,13 @@
             </section>
           </toc>
           <section>
+            <codify:insert path="28|29A" num-value="28-2951"/>
             <prefix>§</prefix>
             <num>28-2951</num>
             <heading proof="needed">Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For the purposes of this chapter, the term:</text>
+              <text>For the purposes of <cite doc="D.C. Code" path="28|29A">this chapter</cite>, the term:</text>
               <para>
                 <num>(1)</num>
                 <text>"Account agreement" means an agreement that:</text>
@@ -122,12 +132,12 @@
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>States the intention of the parties to establish a special deposit governed by this chapter.</text>
+                  <text>States the intention of the parties to establish a special deposit governed by <cite doc="D.C. Code" path="28|29A">this chapter</cite>.</text>
                 </para>
               </para>
               <para>
                 <num>(2)</num>
-                <text>"Bank" means a person engaged in the business of banking and includes a savings bank, savings and loan association, credit union, and trust company. Each branch or separate office of a bank is a separate bank for the purposes of this chapter.</text>
+                <text>"Bank" means a person engaged in the business of banking and includes a savings bank, savings and loan association, credit union, and trust company. Each branch or separate office of a bank is a separate bank for the purposes of <cite doc="D.C. Code" path="28|29A">this chapter</cite>.</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -263,17 +273,18 @@
               </para>
               <para>
                 <num>(13)</num>
-                <text>"Special deposit" means a deposit that satisfies the requirements set forth in § 28-2954.</text>
+                <text>"Special deposit" means a deposit that satisfies the requirements set forth in <cite doc="D.C. Code" path="§28-2954">§ 28-2954</cite>.</text>
               </para>
             </para>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2951" num-value="28-2952"/>
             <prefix>§</prefix>
             <num>28-2952</num>
             <heading proof="needed">Scope; choice of law; forum.</heading>
             <para>
               <num>(a)</num>
-              <text>This chapter applies to a special deposit under an account agreement that states the intention of the parties to establish a special deposit governed by this chapter, regardless of whether a party to the account agreement or a transaction related to the special deposit, or the special deposit itself, has a reasonable relation to the District.</text>
+              <text><cite doc="D.C. Code" path="28|29A">This chapter</cite> applies to a special deposit under an account agreement that states the intention of the parties to establish a special deposit governed by <cite doc="D.C. Code" path="28|29A">this chapter</cite>, regardless of whether a party to the account agreement or a transaction related to the special deposit, or the special deposit itself, has a reasonable relation to the District.</text>
             </para>
             <para>
               <num>(b)</num>
@@ -281,10 +292,10 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>This chapter does not affect:</text>
+              <text><cite doc="D.C. Code" path="28|29A">This chapter</cite> does not affect:</text>
               <para>
                 <num>(1)</num>
-                <text>A right or obligation relating to a deposit other than a special deposit under this chapter; or</text>
+                <text>A right or obligation relating to a deposit other than a special deposit under <cite doc="D.C. Code" path="28|29A">this chapter</cite>; or</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -293,16 +304,17 @@
             </para>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2952" num-value="28-2953"/>
             <prefix>§</prefix>
             <num>28-2953</num>
             <heading proof="needed">Variation by agreement or amendment.</heading>
             <para>
               <num>(a)</num>
-              <text>The effect of §§ 28-2951 through 28-2955, §§ 28-2957 through 28-2960, and § 28-2963 may not be varied by agreement, except as provided in those sections. Subject to subsection (b) of this section, the effect of §§ 28-2956, 28-2961, and 28-2962 may be varied by agreement.</text>
+              <text>The effect of §§ <cite doc="D.C. Code" path="§28-2951">28-2951</cite> through <cite doc="D.C. Code" path="§28-2955">28-2955</cite>, §§ <cite doc="D.C. Code" path="§28-2957">28-2957</cite> through <cite doc="D.C. Code" path="§28-2960">28-2960</cite>, and § <cite doc="D.C. Code" path="§28-2963">28-2963</cite> may not be varied by agreement, except as provided in those sections. Subject to subsection (b) of this section, the effect of §§ <cite doc="D.C. Code" path="§28-2956">28-2956</cite>, <cite doc="D.C. Code" path="§28-2961">28-2961</cite>, and <cite doc="D.C. Code" path="§28-2962">28-2962</cite> may be varied by agreement.</text>
             </para>
             <para>
               <num>(b)</num>
-              <text>A provision in an account agreement or other record that substantially excuses liability or substantially limits remedies for failure to perform an obligation under this chapter is not sufficient to vary the effect of a provision of this chapter.</text>
+              <text>A provision in an account agreement or other record that substantially excuses liability or substantially limits remedies for failure to perform an obligation under <cite doc="D.C. Code" path="28|29A">this chapter</cite> is not sufficient to vary the effect of a provision of <cite doc="D.C. Code" path="28|29A">this chapter</cite>.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -318,6 +330,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2953" num-value="28-2954"/>
             <prefix>§</prefix>
             <num>28-2954</num>
             <heading proof="needed">Requirements for special deposit.</heading>
@@ -347,6 +360,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2954" num-value="28-2955"/>
             <prefix>§</prefix>
             <num>28-2955</num>
             <heading proof="needed">Permissible purpose.</heading>
@@ -356,7 +370,7 @@
             </para>
             <para>
               <num>(b)</num>
-              <text>If, before termination of the special deposit, the bank or a court determines the special deposit no longer satisfies subsection (a) of this section, §§ 28-2957 through 28-2960 shall cease to apply to any funds deposited in the special deposit after the special deposit ceases to satisfy subsection (a) of this section.</text>
+              <text>If, before termination of the special deposit, the bank or a court determines the special deposit no longer satisfies subsection (a) of this section, §§ <cite doc="D.C. Code" path="§28-2957">28-2957</cite> through <cite doc="D.C. Code" path="§28-2960">28-2960</cite> shall cease to apply to any funds deposited in the special deposit after the special deposit ceases to satisfy subsection (a) of this section.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -364,6 +378,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2955" num-value="28-2956"/>
             <prefix>§</prefix>
             <num>28-2956</num>
             <heading proof="needed">Payment to beneficiary by bank.</heading>
@@ -409,6 +424,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2956" num-value="28-2957"/>
             <prefix>§</prefix>
             <num>28-2957</num>
             <heading proof="needed">Property interest of depositor or beneficiary.</heading>
@@ -422,6 +438,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2957" num-value="28-2958"/>
             <prefix>§</prefix>
             <num>28-2958</num>
             <heading proof="needed">When creditor process enforceable against bank.</heading>
@@ -451,12 +468,14 @@
             </para>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2958" num-value="28-2959"/>
             <prefix>§</prefix>
             <num>28-2959</num>
             <heading proof="needed">Injunction or similar relief.</heading>
             <text>A court may enjoin, or grant similar relief that would have the effect of enjoining, a bank from paying a depositor or beneficiary only if payment would constitute a material fraud or facilitate a material fraud with respect to a special deposit.</text>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2959" num-value="28-2960"/>
             <prefix>§</prefix>
             <num>28-2960</num>
             <heading proof="needed">Recoupment or setoff.</heading>
@@ -490,6 +509,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2960" num-value="28-2961"/>
             <prefix>§</prefix>
             <num>28-2961</num>
             <heading proof="needed">Duties and liability of bank.</heading>
@@ -503,11 +523,11 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>The bank holding a special deposit has a duty to a beneficiary to comply with the account agreement and this chapter.</text>
+              <text>The bank holding a special deposit has a duty to a beneficiary to comply with the account agreement and <cite doc="D.C. Code" path="28|29A">this chapter</cite>.</text>
             </para>
             <para>
               <num>(d)</num>
-              <text>If the bank holding a special deposit does not comply with the account agreement or this chapter, the bank is liable to a depositor or beneficiary only for damages proximately caused by the noncompliance. Except as provided by other law of the District, the bank is not liable for consequential, special, or punitive damages.</text>
+              <text>If the bank holding a special deposit does not comply with the account agreement or <cite doc="D.C. Code" path="28|29A">this chapter</cite>, the bank is liable to a depositor or beneficiary only for damages proximately caused by the noncompliance. Except as provided by other law of the District, the bank is not liable for consequential, special, or punitive damages.</text>
             </para>
             <para>
               <num>(e)</num>
@@ -523,6 +543,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2961" num-value="28-2962"/>
             <prefix>§</prefix>
             <num>28-2962</num>
             <heading proof="needed">Term and termination.</heading>
@@ -540,34 +561,41 @@
             </para>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2962" num-value="28-2963"/>
             <prefix>§</prefix>
             <num>28-2963</num>
             <heading proof="needed">Principles of law and equity.</heading>
-            <text>Subtitle I of this title, District consumer protection law, District laws governing deposits generally, District law related to escheat and abandoned or unclaimed property, and the principles of law and equity, including law related to capacity to contract, principal and agent, estoppel, fraud, misrepresentation, duress, coercion, mistake, and bankruptcy, supplement this chapter except to the extent inconsistent with this chapter.</text>
+            <text><cite doc="D.C. Code" path="28|I">Subtitle I of this title</cite>, District consumer protection law, District laws governing deposits generally, District law related to escheat and abandoned or unclaimed property, and the principles of law and equity, including law related to capacity to contract, principal and agent, estoppel, fraud, misrepresentation, duress, coercion, mistake, and bankruptcy, supplement <cite doc="D.C. Code" path="28|29A">this chapter</cite> except to the extent inconsistent with <cite doc="D.C. Code" path="28|29A">this chapter</cite>.</text>
           </section>
           <section>
+            <codify:insert path="28|29A" after="§28-2963" num-value="28-2964"/>
             <prefix>§</prefix>
             <num>28-2964</num>
             <heading proof="needed">Uniformity of application and construction.</heading>
-            <text>In applying and construing this chapter, consideration must be given to the need to promote uniformity of the law among jurisdictions that enact it.</text>
-            <text>§ 28- 2965. Transitional provision.</text>
+            <text>In applying and construing <cite doc="D.C. Code" path="28|29A">this chapter</cite>, consideration must be given to the need to promote uniformity of the law among jurisdictions that enact it.</text>
+          </section>
+          <section>
+            <codify:insert path="28|29A" after="§28-2964" num-value="28-2965"/>
+            <prefix>§</prefix>
+            <num>28-2965</num>
+            <text>Transitional provision.</text>
             <para>
               <num undesignated="true">(a)</num>
-              <text>This chapter applies to:</text>
+              <text><cite doc="D.C. Code" path="28|29A">This chapter</cite> applies to:</text>
               <para>
                 <num>(1)</num>
-                <text>A special deposit made under an account agreement executed on or after the effective date of this chapter; and</text>
+                <text>A special deposit made under an account agreement executed on or after <span codify:value="[February 3, 2026]">the effective date of this chapter</span>; and</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>A deposit made under an agreement executed before the effective date of this chapter, if:</text>
+                <text>A deposit made under an agreement executed before <span codify:value="[February 3, 2026]">the effective date of this chapter</span>, if:</text>
                 <para>
                   <num>(A)</num>
-                  <text>All parties entitled to amend the agreement agree to make the deposit a special deposit governed by this chapter; and</text>
+                  <text>All parties entitled to amend the agreement agree to make the deposit a special deposit governed by <cite doc="D.C. Code" path="28|29A">this chapter</cite>; and</text>
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>The special deposit referenced in the amended agreement satisfies § 28-2954.</text>
+                  <text>The special deposit referenced in the amended agreement satisfies <cite doc="D.C. Code" path="§28-2954">§ 28-2954</cite>.</text>
                 </para>
               </para>
             </para>
@@ -585,7 +613,6 @@
   <section>
     <num>4</num>
     <heading proof="needed">Effective date.</heading>
-    <text>This act shall take effect following approval by the Mayor (or in the event of veto by the</text>
-    <text>Mayor, action by the Council to override the veto) and a 30-day period of congressional review as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)).</text>
+    <text>This act shall take effect following approval by the Mayor (or in the event of veto by the Mayor, action by the Council to override the veto) and a 30-day period of congressional review as provided in section 602(c)(1) of the District of Columbia Home Rule Act, approved December 24, 1973 (87 Stat. 813; D.C. Official Code § 1-206.02(c)(1)).</text>
   </section>
 </document>

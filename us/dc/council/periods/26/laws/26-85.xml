@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-202">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-85" codify:doc="D.C. Code">
+  <num type="law">26-85</num>
   <num type="act">26-202</num>
   <num type="bill">26-35</num>
   <heading type="short">Uniform Commercial Code Financing Statement Forms Amendment Act of 2025</heading>
   <heading type="long">To amend the Uniform Commercial Code to provide that the Recorder of Deeds may not refuse to accept a written initial financing statement in the form provided by the International Association of Commercial Administrators or in a form adopted by the Chief Financial Officer by rule and to permit the Chief Financial Officer to promulgate rules setting fees for filing and indexing of initial financing statements.</heading>
   <meta>
     <introduced>2025-01-09</introduced>
-    <effective projected="true">2026-01-29</effective>
+    <effective>2026-02-03</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/56902/Signed_Act/B26-0035-Signed_Act.pdf?Id=227784">D.C. Law 26-85</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/56902/Signed_Act/B26-0035-Signed_Act.pdf?Id=227784">D.C. Act 26-202</citation>
       <citation type="register">72 DCR 13490</citation>
     </citations>
@@ -28,32 +30,41 @@
       <text>Section 28:9-521 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace path="§28:9-521"/>
           <prefix>§</prefix>
           <num>28:9-521</num>
           <heading proof="needed">Uniform form of written financing statement and amendment.</heading>
           <para>
             <num undesignated="true">(a)</num>
-            <text>Except for a reason set forth in § 28:9-516(b), a filing office that accepts written records may not refuse to accept a written record for a filing authorized by this article if the record conforms to a format that is:</text>
+            <text>Except for a reason set forth in <cite doc="D.C. Code" path="§28:9-516|(b)">§ 28:9-516(b)</cite>, a filing office that accepts written records may not refuse to accept a written record for a filing authorized by <cite doc="D.C. Code" path="28|I|9">this article</cite> if the record conforms to a format that is:</text>
             <para>
               <num>(1)</num>
               <text>Currently approved by the International Association of Commercial Administrators; or</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>Adopted by rule issued by the Chief Financial Officer pursuant to § 28:9-526.</text>
+              <text>Adopted by rule issued by the Chief Financial Officer pursuant to <cite doc="D.C. Code" path="§28:9-526">§ 28:9-526</cite>.</text>
             </para>
           </para>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§28:9-525|(a)">
       <num>(b)</num>
       <text>Section 28:9-525(a) is amended by striking the word "Mayor" and inserting the phrase "Chief Financial Officer" in its place.</text>
+      <codify:find-replace count="1">
+        <find>Mayor</find>
+        <replace>Chief Financial Officer</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§28:9-526">
       <num>(c)</num>
       <text>Section § 28:9-526 is amended by striking the word "Mayor" both times it appears and inserting the phrase "Chief Financial Officer" in its place.</text>
+      <codify:find-replace count="2">
+        <find>Mayor</find>
+        <replace>Chief Financial Officer</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
