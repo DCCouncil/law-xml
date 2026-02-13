@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-238">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-94" codify:doc="D.C. Code">
+  <num type="law">26-94</num>
   <num type="act">26-238</num>
   <num type="bill">26-456</num>
   <heading type="short">Private Vehicle-for-Hire Operator Clarification Temporary Amendment Act of 2025</heading>
   <heading type="long">To amend, on an temporary basis, the Department of For-Hire Vehicles Establishment Act of 1985 to clarify the definition of a private vehicle-for-hire operator.</heading>
   <meta>
     <introduced>2025-11-03</introduced>
-    <effective projected="true">2026-02-12</effective>
+    <effective>2026-02-12</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/60653/Signed_Act/B26-0456-Signed_Act.pdf?Id=230022">D.C. Law 26-94</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/60653/Signed_Act/B26-0456-Signed_Act.pdf?Id=230022">D.C. Act 26-238</citation>
       <citation type="register">73 DCR 70</citation>
     </citations>
@@ -21,16 +23,23 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Private Vehicle-for-Hire Operator Clarification Temporary Amendment Act of 2025".</text>
-  <section>
+  <section codify:path="§50-301.03|(16C)">
     <num>2</num>
     <text>Section 4(16C) of the Department of For-Hire Vehicles Establishment Act of 1985, effective March 25, 1986 (D.C. Law 6-97; D.C. Official Code § 50-301.03(16C)), is amended to read as follows:</text>
     <include lvl="1">
       <para>
+        <codify:replace/>
         <num>(16C)</num>
         <text>"Private vehicle-for-hire operator" means an individual who utilizes the digital dispatch of a private vehicle-for-hire company to operate a motor vehicle to provide transportation to passengers.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:temporary doc="D.C. Code" path="§50-301.03"/>
+    <codify:insert doc="D.C. Code" path="§50-301.03" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on September 25, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§50-301.03(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
