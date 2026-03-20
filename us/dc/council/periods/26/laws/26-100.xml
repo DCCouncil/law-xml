@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-204">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-100" codify:doc="D.C. Code">
+  <num type="law">26-100</num>
   <num type="act">26-204</num>
   <num type="bill">26-176</num>
   <heading type="short">Early Childhood Educator Pay Scales Amendment Act of 2025</heading>
   <heading type="long">To amend the Day Care Policy Act of 1979 to update the minimum salaries child development facilities must pay assistant and lead teachers beginning in January 2026 to participate in the Early Childhood Educator Pay Equity Program and to incorporate the Early Childhood Educator Equitable Compensation Task Force and the Early Childhood Educator Pay Equity Fund into the act; and to make conforming amendments.</heading>
   <meta>
     <introduced>2025-03-21</introduced>
-    <effective projected="true">2026-03-24</effective>
+    <effective>2026-03-18</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/57392/Signed_Act/B26-0176-Signed_Act.pdf?Id=227820">D.C. Law 26-100</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/57392/Signed_Act/B26-0176-Signed_Act.pdf?Id=227820">D.C. Act 26-204</citation>
       <citation type="register">72 DCR 13494</citation>
     </citations>
@@ -24,40 +26,63 @@
   <section>
     <num>2</num>
     <text>The Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-401 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-401|(a)">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 4-401) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>A new paragraph (3A-i) is added to read as follows:</text>
         <include lvl="1">
-          <text>(3A-i) The term "community-based organization" means a Head Start or early childhood education program operated by a nonprofit entity, faith-based organization, or other entity that participates in federally funded early childhood programs.</text>
+          <para>
+            <codify:insert after="(3A)" num-value="(3A-i)"/>
+            <num>(3A-i)</num>
+            <text> The term "community-based organization" means a Head Start or early childhood education program operated by a nonprofit entity, faith-based organization, or other entity that participates in federally funded early childhood programs.</text>
+          </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(4A)">
         <num>(2)</num>
         <text>Paragraph (4A) is amended by striking the phrase "section 5102 of the Early Childhood Educator Pay Equity Fund Establishment Act of 2021, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 1-325.431)" and inserting the phrase "section 11d" in its place.</text>
+        <codify:find-replace count="1">
+          <find>
+            <code-cite doc="D.C. Code" path="§1-325.431">section 5102 of the Early Childhood Educator Pay Equity Fund Establishment Act of 2021, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 1-325.431)</code-cite>
+          </find>
+          <replace>
+            <code-cite doc="D.C. Code" path="§4-410.04">section 11d</code-cite>
+          </replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(4C)">
         <num>(3)</num>
         <text>Paragraph (4C) is amended by striking the phrase "section 11b(b)-(c)" and inserting the phrase "section 11b" in its place.</text>
+        <codify:find-replace count="1">
+          <find><code-cite doc="D.C. Code" path="§4-410.02|(b)">section 11b(b)</code-cite>-<cite doc="D.C. Code" path="4-410.02|(c)">(c)</cite></find>
+          <replace>
+            <code-cite doc="D.C. Code" path="§4-410.02">section 11b</code-cite>
+          </replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(4)</num>
         <text>A new paragraph (5C-i) is added to read as follows:</text>
         <include lvl="1">
-          <text>(5C-i) The term "subsidy" means supplemental payments made by the Mayor pursuant to section 5a.</text>
+          <para>
+            <codify:insert after="(5C)" num-value="(5C-i)"/>
+            <num>(5C-i)</num>
+            <text>The term "subsidy" means supplemental payments made by the Mayor pursuant to <code-cite doc="D.C. Code" path="§4-404.01">section 5a</code-cite>.</text>
+          </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-410.01">
       <num>(b)</num>
       <text>Section 11a (D.C. Official Code § 4-410.01) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Subsection (b) is repealed.</text>
+        <codify:repeal path="(b)"/>
       </para>
       <para>
         <num>(2)</num>
@@ -66,12 +91,16 @@
           <para>
             <num>(c)</num>
             <text>By February 1, 2024, and on a triennial basis thereafter, OSSE shall conduct a cost modeling analysis to estimate the costs of care for child development facilities in the District, which shall incorporate the cost of implementing the ECE salary scale established and updated pursuant to section 11b, and submit a report to the Council that includes:</text>
+            <codify:find-replace count="1">
+              <find>By February 1, 2024, and on a triennial basis thereafter, OSSE shall submit a report to the Council that includes:</find>
+              <replace>By February 1, 2024, and on a triennial basis thereafter, OSSE shall conduct a cost modeling analysis to estimate the costs of care for child development facilities in the District, which shall incorporate the cost of implementing the ECE salary scale established and updated pursuant to <code-cite doc="D.C. Code" path="§4-410.02">section 11b</code-cite>, and submit a report to the Council that includes:</replace>
+            </codify:find-replace>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-410.02">
       <num>(c)</num>
       <text>Section 11b (D.C. Official Code § 4-410.02) is amended as follows:</text>
       <para>
@@ -79,6 +108,7 @@
         <text>New subsections (b-1) and (b-2) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(b)" num-value="(b-1)"/>
             <num>(b-1)</num>
             <para>
               <num>(1)</num>
@@ -190,13 +220,14 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(b-1)" num-value="(b-2)"/>
             <num>(b-2)</num>
             <text>The Department shall issue guidance to assist child development facilities with aligning the minimum salary requirements in subsections (b) and (b-1) of this section with the qualifications for child development facility assistant and lead teachers it has established by regulation.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is amended as follows:</text>
         <para>
@@ -206,6 +237,7 @@
             <para>
               <num>(c)</num>
               <para>
+                <codify:replace path="(1)"/>
                 <num>(1)</num>
                 <text>Beginning February 1, 2026, and annually by February 1 thereafter, the Department shall provide a public report to the Council and to the members of the Early Childhood Educator Equitable Compensation Task Force that analyzes possible updates to the minimum salaries for assistant and lead teachers for the following fiscal year. The analysis shall consider the salary tables provided in subsection (b-1) of this section from the past 3 years. The report shall include:</text>
                 <para>
@@ -236,26 +268,36 @@
         <para>
           <num>(B)</num>
           <text>Paragraph (3) is repealed.</text>
+          <codify:repeal path="(3)"/>
         </para>
       </para>
-      <para>
+      <para codify:path="(d)|(1)">
         <num>(3)</num>
         <text>Subsection (d)(1) is amended as follows:</text>
-        <para>
+        <para codify:path="(A)">
           <num>(A)</num>
           <text>Subparagraph (A) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; or</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(B)">
           <num>(B)</num>
           <text>Subparagraph (B) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+          <codify:find-replace position="last">
+            <find>.</find>
+            <replace>; or</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new subparagraph (C) is added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert after="(B)" num-value="(C)"/>
               <num>(C)</num>
-              <text>Revise, consistent with appropriations, the minimum salaries provided in subsection (b-1) of this section by rule issued pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1024; D.C. Official Code § 2-501 <em>et seq</em>.).</text>
+              <text>Revise, consistent with appropriations, the minimum salaries provided in subsection (b-1) of this section by rule issued pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1024; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -266,6 +308,7 @@
         <text>A new subsection (e) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(d)" num-value="(e)"/>
             <num>(e)</num>
             <text>The Chief Financial Officer shall report to the Council on a quarterly basis indicating the fiscal year expenditures from the Early Childhood Educator Pay Equity Fund ("Fund") to date and the total amount of funds remaining in the Fund. The report shall be submitted no later than 21 days following the end of each quarter.</text>
           </para>
@@ -273,16 +316,17 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§4-410.04">
       <num>(d)</num>
       <text>Section 11d (D.C. Official Code § 4-410.04) is revived and amended to read as follows:</text>
       <include>
         <section>
-          <num>11d</num>
+          <codify:replace history-prefix="revived"/>
+          <num codify:value="4-410.04">11d</num>
           <heading proof="needed">Early Childhood Educator Pay Equity Fund.</heading>
           <para>
             <num>(a)</num>
-            <text>There is established as a special fund the Early Childhood Educator Pay Equity Fund ("Fund"), which shall be a continuation of the fund established by the Early Childhood Educator Pay Equity Fund Establishment Act of 2021, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 1-325.431), and administered by the Department in accordance with subsection (c) of this section.</text>
+            <text>There is established as a special fund the Early Childhood Educator Pay Equity Fund ("Fund"), which shall be a continuation of the fund established by <code-cite doc="D.C. Code" path="§1-325.431">the Early Childhood Educator Pay Equity Fund Establishment Act of 2021, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 1-325.431)</code-cite>, and administered by the Department in accordance with subsection (c) of this section.</text>
           </para>
           <para>
             <num>(b)</num>
@@ -317,7 +361,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>Subject to appropriations, reduce health insurance premiums paid by child development facilities, or employees of child development facilities eligible to receive the minimum salaries listed in section 11b, pursuant to an agreement with the District of Columbia Health Benefit Exchange; and</text>
+              <text>Subject to appropriations, reduce health insurance premiums paid by child development facilities, or employees of child development facilities eligible to receive the minimum salaries listed in <code-cite doc="D.C. Code" path="§4-410.02">section 11b</code-cite>, pursuant to an agreement with the District of Columbia Health Benefit Exchange; and</text>
             </para>
             <para>
               <num>(3)</num>
@@ -359,14 +403,14 @@
             <text>Unless otherwise prohibited by federal law, lump-sum payments an individual receives from the Fund shall not be counted as income or assets:</text>
             <para>
               <num>(1)</num>
-              <text>For the purposes of determining eligibility or calculating benefits under the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-201.01 <em>et seq.</em>); and</text>
+              <text>For the purposes of determining eligibility or calculating benefits under <code-cite doc="D.C. Code" path="4|2">the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-201.01 <em>et seq.</em>)</code-cite>; and</text>
             </para>
             <para>
               <num>(2)</num>
               <text>For the purpose of determining eligibility or calculating benefits for the following benefit programs:</text>
               <para>
                 <num>(A)</num>
-                <text>D.C. HealthCare Alliance, referenced in section 8(2) of the Department of Health Care Finance Establishment Act of 2007, effective February 27, 2008 (D.C. Law 17-109; D.C. Official Code § 7-771.07(2)), or any subsequent program established to provide public health insurance coverage to residents ineligible for Medicaid;</text>
+                <text>D.C. HealthCare Alliance, referenced in <code-cite doc="D.C. Code" path="§7-771.07|(2)">section 8(2) of the Department of Health Care Finance Establishment Act of 2007, effective February 27, 2008 (D.C. Law 17-109; D.C. Official Code § 7-771.07(2))</code-cite>, or any subsequent program established to provide public health insurance coverage to residents ineligible for Medicaid;</text>
               </para>
               <para>
                 <num>(B)</num>
@@ -374,19 +418,19 @@
               </para>
               <para>
                 <num>(C)</num>
-                <text>Home Purchase Assistance Program, referenced in section 3a of the Home Purchase Assistance Fund Act of 1978, effective July 1, 2016 (D.C. Law 21-139; D.C. Official Code § 42-2602.01);</text>
+                <text>Home Purchase Assistance Program, referenced in <code-cite doc="D.C. Code" path="§42-2602.01">section 3a of the Home Purchase Assistance Fund Act of 1978, effective July 1, 2016 (D.C. Law 21-139; D.C. Official Code § 42-2602.01)</code-cite>;</text>
               </para>
               <para>
                 <num>(D)</num>
-                <text>Housing subsidy vouchers issued through the Rent Supplement Program, established by section 26a of the District of Columbia Housing Authority Act of 1999, effective March 2, 2007 (D.C. Law 16-192; D.C. Official Code § 6-226);</text>
+                <text>Housing subsidy vouchers issued through the Rent Supplement Program, established by <code-cite doc="D.C. Code" path="§6-226">section 26a of the District of Columbia Housing Authority Act of 1999, effective March 2, 2007 (D.C. Law 16-192; D.C. Official Code § 6-226)</code-cite>;</text>
               </para>
               <para>
                 <num>(E)</num>
-                <text>Grandparent Caregiver Program established by section 102 of the Grandparent Caregivers Pilot Program Establishment Act of 2005, effective March 8, 2006 (D.C. Law 16-69; D.C. Official Code § 4-251.02);</text>
+                <text>Grandparent Caregiver Program established by <cite doc="D.C. Code" path="§4-251.02">section 102 of the Grandparent Caregivers Pilot Program Establishment Act of 2005, effective March 8, 2006 (D.C. Law 16-69; D.C. Official Code § 4-251.02)</cite>;</text>
               </para>
               <para>
                 <num>(F)</num>
-                <text>Close Relative Caregiver Program, established by section 102 of the Close Relative Caregiver Subsidy Pilot Program Establishment Amendment Act of 2019, effective November 26, 2019 (D.C. Law 23-32; D.C. Official Code § 4-251.22); and</text>
+                <text>Close Relative Caregiver Program, established by <code-cite doc="D.C. Code" path="§4-251.22">section 102 of the Close Relative Caregiver Subsidy Pilot Program Establishment Amendment Act of 2019, effective November 26, 2019 (D.C. Law 23-32; D.C. Official Code § 4-251.22)</code-cite>; and</text>
               </para>
               <para>
                 <num>(G)</num>
@@ -403,11 +447,12 @@
       <text>A new section 15c is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="4|4" after="§4-416" num-value="4-417" history-prefix="as added"/>
           <num>15c</num>
           <heading proof="needed">Early Childhood Educator Equitable Compensation Task Force.</heading>
           <para>
             <num>(a)</num>
-            <text>There is established by the Council an Early Childhood Educator Equitable Compensation Task Force ("Task Force"), which shall have, as of the effective date of the Early Childhood Educator Pay Scales Emergency Amendment Act of 2025, passed on emergency basis on October 21, 2025 (Enrolled version of Bill 26-433) ("ECE Pay Scales Amendment Act"), the same members as the Early Childhood Educator Equitable Compensation Task Force established pursuant to the Early Childhood Educator Equitable Compensation Task Force Act of 2021, effective November 13, 2021 (D.C. Law 24-45, D.C. Official Code § 38-2241 <em>et seq</em>.), until their successors are appointed.</text>
+            <text>There is established by the Council an Early Childhood Educator Equitable Compensation Task Force ("Task Force"), which shall have, as of <span codify:value="[November 10, 2025]">the effective date of the Early Childhood Educator Pay Scales Emergency Amendment Act of 2025, passed on emergency basis on October 21, 2025 (Enrolled version of Bill 26-433) ("ECE Pay Scales Amendment Act")</span>, the same members as the Early Childhood Educator Equitable Compensation Task Force established pursuant to <code-cite doc="D.C. Code" path="38|22B">the Early Childhood Educator Equitable Compensation Task Force Act of 2021, effective November 13, 2021 (D.C. Law 24-45, D.C. Official Code § 38-2241 <em>et seq</em>.)</code-cite>, until their successors are appointed.</text>
           </para>
           <para>
             <num>(b)</num>
@@ -458,7 +503,7 @@
           </para>
           <para>
             <num>(c)</num>
-            <text>Following the effective date of the ECE Pay Scales Amendment Act, the Task Force shall convene:</text>
+            <text>Following <span codify:value="[November 10, 2025]">the effective date of the ECE Pay Scales Amendment Act</span>, the Task Force shall convene:</text>
             <para>
               <num>(1)</num>
               <text>At least every 3rd calendar year starting in 2027; or</text>
@@ -470,7 +515,7 @@
           </para>
           <para>
             <num>(d)</num>
-            <text>Within 60 days after the Department publishes the report required pursuant to section 11b(c), the Task Force shall meet and submit a response to the Council that:</text>
+            <text>Within 60 days after the Department publishes the report required pursuant to <code-cite doc="D.C. Code" path="§4-410.02|(c)">section 11b(c)</code-cite>, the Task Force shall meet and submit a response to the Council that:</text>
             <para>
               <num>(1)</num>
               <text>Reviews the Department's report, the recommended salary scales, the Early Childhood Educator Pay Equity Program funding formula, and the state of the early childhood education workforce; and</text>
@@ -482,8 +527,9 @@
           </para>
           <para>
             <num>(e)</num>
-            <text>Should a vacancy occur on the Task Force after the effective date of the ECE Pay Scales Amendment Act, the Chairman, in consultation with the State Superintendent of Education, shall appoint an individual to fill the vacancy whose qualifications and experience are comparable to those of the individual who vacated the role, and whose appointment maintains the composition requirements set forth in subsection (b) of this section.</text>
+            <text>Should a vacancy occur on the Task Force after <span codify:value="[November 10, 2025]">the effective date of the ECE Pay Scales Amendment Act</span>, the Chairman, in consultation with the State Superintendent of Education, shall appoint an individual to fill the vacancy whose qualifications and experience are comparable to those of the individual who vacated the role, and whose appointment maintains the composition requirements set forth in subsection (b) of this section.</text>
           </para>
+          <annotation doc="D.C. Law 3-16" type="History" path="§15c">Sept. 19, 1979, D.C. Law 3-16, § 15c</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
@@ -492,12 +538,15 @@
   <section>
     <num>3</num>
     <text>The Early Childhood Educator Pay Equity Fund Establishment Act of 2021, effective November 13, 2021 (D.C. Law 24-45; D.C. Official Code § 1-325.431), is repealed.</text>
+    <codify:repeal path="§1-325.431"/>
   </section>
   <section>
     <num>4</num>
     <text>The Early Childhood Educator Equitable Compensation Task Force Act of 2021, effective November 13, 2021 (D.C. Law 24-45, D.C. Official Code § 38-2241 <em>et seq</em>.), is repealed.</text>
+    <codify:repeal path="38|22B"/>
   </section>
   <section>
+    <!-- already done by Act 26-196 in Law 26-55 -->
     <num>5</num>
     <text>The Early Childhood Educator Pay Equity Fund Amendment Act of 2025, enacted on September 4, 2025 (D.C. Act 26-148; 72 DCR 9825), is amended as follows:</text>
     <para>
@@ -507,9 +556,11 @@
     <para>
       <num>(b)</num>
       <text>Section 4033(b)(2) is repealed.</text>
+      <codify:repeal doc="D.C. Law 26-55" path="§4033|(b)|(2)"/>
     </para>
   </section>
   <section>
+    <!-- already expired and removed from the Code -->
     <num>6</num>
     <text>The second section 2(b)(1) of the Early Childhood Educator Pay Scales Emergency Amendment Act of 2025, passed on emergency basis on October 21, 2025 (Enrolled version of Bill 26-433), is repealed.</text>
   </section>
