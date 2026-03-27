@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-247">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-102" codify:doc="D.C. Code">
+  <num type="law">26-102</num>
   <num type="act">26-247</num>
   <num type="bill">26-233</num>
   <heading type="short">Petition Administration Clarification Amendment Act of 2026</heading>
   <heading type="long">To amend the District of Columbia Election Code of 1955 to require candidate nomination petition affidavits to state that the circulator has not altered signer information on a petition after a signer has signed the petition,  prohibit anyone from altering signer information provided by the petition signer, except in cases where the signer requests assistance in signing the petition before signing the petition, require initiative, referendum and recall petition affidavits to state that the circulator has not altered signer information on a petition after a signer has signed the petition, and prohibit anyone from altering signer information provided by the petition signer on an initiative, referendum, or recall petition, except in cases where the signer requests assistance in signing the petition before signing the petition.</heading>
   <meta>
     <introduced>2025-04-28</introduced>
-    <effective projected="true">2026-03-28</effective>
+    <effective>2026-03-24</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/57646/Signed_Act/B26-0233-Signed_Act.pdf?Id=231731">D.C. Law 26-102</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/57646/Signed_Act/B26-0233-Signed_Act.pdf?Id=231731">D.C. Act 26-247</citation>
       <citation type="register">73 DCR 1062</citation>
     </citations>
@@ -23,25 +25,34 @@
   <section>
     <num>2</num>
     <text>The District of Columbia Election Code of 1955, approved August 12, 1955 (69 Stat. 701; D.C. Official Code § 1-1001.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§1-1001.08">
       <num>(a)</num>
       <text>Section 8 (D.C. Official Code 1-1001.08) is amended as follows:</text>
-      <para>
+      <para codify:path="(b)|(3)">
         <num>(1)</num>
         <text>Subsection (b)(3) is amended as follows:</text>
-        <para>
+        <para codify:path="(B)">
           <num>(A)</num>
           <text>Subparagraph (B) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(C)">
           <num>(B)</num>
           <text>Subparagraph (C) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(C)</num>
           <text>A new subparagraph (D) is added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert after="(C)" num-value="(D)"/>
               <num>(D)</num>
               <text>Not written, altered, corrected, clarified, or obscured information on the petition about the signer of the petition after the signer affixed their signature to the petition.</text>
             </para>
@@ -54,6 +65,7 @@
         <text>A new subsection (n-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(n)" num-value="(n-1)"/>
             <num>(n-1)</num>
             <text>No person other than the petition signer may write, alter, correct, or clarify, on a nominating petition any information about the petition signer unless the signer requests assistance in writing, altering, correcting, or clarifying on the petition, any information about the signer before the signer affixes their signature. The use of correction tape or fluid is prohibited.</text>
           </para>
@@ -61,14 +73,15 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-1001.16">
       <num>(b)</num>
       <text>Section 16 (D.C. Official Code § 1-1001.16) is amended as follows:</text>
-      <para>
+      <para codify:path="(h)">
         <num>(1)</num>
         <text>Subsection (h) is amended by adding a new paragraph (3A) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(3)" num-value="(3A)"/>
             <num>(3A)</num>
             <text>That the circulator of the petition sheet has not written, altered, corrected, clarified, or obscured information on the petition about the signer of the petition after the signer affixed their signature to the petition;</text>
           </para>
@@ -80,6 +93,7 @@
         <text>A new subsection (h-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(h)" num-value="(h-1)"/>
             <num>(h-1)</num>
             <text>No person other than the petition signer may write, alter, correct, or clarify, on a petition sheet for an initiative or referendum unless the signer requests assistance in writing, altering, correcting, or clarifying on the petition, any information about the petition signer before the signer affixes their signature. The use of correction fluid or tape is prohibited.</text>
           </para>
@@ -87,14 +101,15 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§1-1001.17">
       <num>(c)</num>
       <text>Section 17 (D.C. Official Code § 1-1001.17) is amended as follows:</text>
-      <para>
+      <para codify:path="(f)">
         <num>(1)</num>
         <text>Subsection (f) is amended by adding a new paragraph (3A) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(3)" num-value="(3A)"/>
             <num>(3A)</num>
             <text>That the circulator of the petition sheet has not written, altered, corrected, clarified, or obscured information on the petition about the signer of the petition after the signer affixed their signature to the petition;</text>
           </para>
@@ -106,6 +121,7 @@
         <text>A new subsection (f-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(f)" num-value="(f-1)"/>
             <num>(f-1)</num>
             <text>No person other than the petition signer may write, alter, correct, or clarify, on a petition sheet for a recall petition unless the signer requests assistance in writing, altering, correcting, or clarifying on the petition, any information about the petition signer before the signer affixes their signature. The use of correction fluid or tape is prohibited.</text>
           </para>

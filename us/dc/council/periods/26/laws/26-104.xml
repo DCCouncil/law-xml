@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-250">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-104" codify:doc="D.C. Code">
+  <num type="law">26-104</num>
   <num type="act">26-250</num>
   <num type="bill">26-367</num>
   <heading type="short">Public Benefits Security Amendment Act of 2026</heading>
   <heading type="long">To amend the District of Columbia Public Assistance Act of 1982 to require the Department of Human Services to issue electronic benefit transfer cards with theft prevention technology and to restore stolen public benefits; and to amend section 31c of the Homeless Services Reform Act of 2005 to extend the operation of the Flexible Rent Subsidy Pilot Program by one year through Fiscal Year 2027.</heading>
   <meta>
     <introduced>2025-09-24</introduced>
-    <effective projected="true">2026-03-28</effective>
+    <effective>2026-03-24</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/60364/Signed_Act/B26-0367-Signed_Act.pdf?Id=231728">D.C. Law 26-104</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/60364/Signed_Act/B26-0367-Signed_Act.pdf?Id=231728">D.C. Act 26-250</citation>
       <citation type="register">73 DCR 1069</citation>
     </citations>
@@ -24,7 +26,7 @@
   <section>
     <num>2</num>
     <text>The District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-201.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-201.01">
       <num>(a)</num>
       <text>Section 101 (D.C. Official Code § 4-201.01) is amended as follows:</text>
       <para>
@@ -32,6 +34,7 @@
         <text>A new paragraph (1E) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1D)" num-value="(1E)"/>
             <num>(1E)</num>
             <text>"Cloning" means using data acquired by unlawful means to create a duplicate copy of a recipient's EBT card.</text>
           </para>
@@ -41,16 +44,21 @@
       <para>
         <num>(2)</num>
         <text>Paragraph (3A) is redesignated as paragraph (3C).</text>
+        <codify:replace path="(3A)|num">
+          <num>(3C)</num>
+        </codify:replace>
       </para>
       <para>
         <num>(3)</num>
         <text>New paragraphs (3A) and (3B) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(3)" num-value="(3A)"/>
             <num>(3A)</num>
             <text>"EBT card" means a method to access public assistance issued to a recipient or a recipient's authorized representative through an electronic payments system.</text>
           </para>
           <para>
+            <codify:insert after="(3A)" num-value="(3B)"/>
             <num>(3B)</num>
             <text>"EMV technology" means the integration in a method of payment of a microchip that generates a dynamic, one-time-use code for each payment transaction.</text>
           </para>
@@ -60,12 +68,16 @@
       <para>
         <num>(4)</num>
         <text>Paragraph (5D) is redesignated as paragraph (5E).</text>
+        <codify:replace path="(5D)|num">
+          <num>(5E)</num>
+        </codify:replace>
       </para>
       <para>
         <num>(5)</num>
         <text>A new paragraph (5D) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(5C)" num-value="(5D)"/>
             <num>(5D)</num>
             <text>"Phishing" means a technique for attempting to acquire sensitive data, such as EBT card information, through a solicitation in which the solicitor purports to be other than who the solicitor is.</text>
           </para>
@@ -77,6 +89,7 @@
         <text>A new paragraph (8A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(8)" num-value="(8A)"/>
             <num>(8A)</num>
             <text>"Skimming" means using technology unlawfully installed on an automated teller machine, point-of-sale terminal, or similar device to capture data associated with a recipient's EBT card.</text>
           </para>
@@ -88,29 +101,34 @@
         <text>A new paragraph (10A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(10)" num-value="(10A)"/>
             <num>(10A)</num>
-            <text>"Theft" shall have the same meaning as in section 111 of the District of Columbia Theft and White Collar Crimes Act of 1982, effective December 1, 1982 (D.C. Law 4-164; D.C. Official Code § 22-3211).</text>
+            <text>"Theft" shall have the same meaning as in <code-cite doc="D.C. Code" path="§22-3211">section 111 of the District of Columbia Theft and White Collar Crimes Act of 1982, effective December 1, 1982 (D.C. Law 4-164; D.C. Official Code § 22-3211)</code-cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Law 26-104" path="§2|(a)" applicability-path="§4" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§4-202.05">
       <num>(b)</num>
       <text>Section 205 (D.C. Official Code § 4-202.05) is amended by adding a new subsection (f) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(e)" num-value="(f)"/>
           <num>(f)</num>
-          <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), may issue rules to implement the provisions of the Public Benefits Security Amendment Act of 2026, passed on 2nd reading on January 6, 2026 (Enrolled version of Bill 26-367).</text>
+          <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, may issue rules to implement the provisions of the <cite doc="D.C. Law 26-104">Public Benefits Security Amendment Act of 2026</cite><span codify:value="">, passed on 2nd reading on January 6, 2026 (Enrolled version of Bill 26-367)</span>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Law 26-104" path="§2|(b)" applicability-path="§4" action="amendment to" display-template=""/>
     </para>
     <para>
       <num>(c)</num>
       <text>New sections 583 and 584 are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="4|2|V" after="§4-205.82" num-value="4-205.83" history-prefix="as added"/>
           <num>583</num>
           <heading proof="needed">Prevention of theft of electronically transferred benefits.</heading>
           <para>
@@ -121,8 +139,11 @@
             <num>(b)</num>
             <text>The Department shall seek reimbursement for the costs of transitioning to the use of EMV technology from the Food and Nutrition Service of the Department of Agriculture to the fullest extent permissible under federal law.</text>
           </para>
+          <annotation doc="D.C. Law 4-101" type="History" path="§583">Apr. 6, 1982, D.C. Law 4-101, § 583</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-205.83" applicability-path="§4" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="4|2|V" after="§4-205.83" num-value="4-205.84" history-prefix="as added"/>
           <num>584</num>
           <heading proof="needed">Reimbursement for theft of electronically transferred benefits.</heading>
           <para>
@@ -156,7 +177,7 @@
               </para>
               <para>
                 <num>(F)</num>
-                <text>The term "public assistance" does not include public benefits programs administered by agencies other than the Department or the minimum annual benefit  established by section 5083(c) of the Food Stamp Expansion Act of 2009, effective March 3, 2010 (D.C. Law 18-111; D.C. Official Code § 4-261.03(c)).".</text>
+                <text>The term "public assistance" does not include public benefits programs administered by agencies other than the Department or the minimum annual benefit  established by <code-cite doc="D.C. Code" path="§4-261.03|(c)">section 5083(c) of the Food Stamp Expansion Act of 2009, effective March 3, 2010 (D.C. Law 18-111; D.C. Official Code § 4-261.03(c))</code-cite>.".</text>
               </para>
             </para>
           </para>
@@ -231,14 +252,25 @@
               <text>Nothing in this section shall be construed to limit the Department's ability to restore public assistance lost due to theft before October 1, 2027.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 4-101" type="History" path="§584">Apr. 6, 1982, D.C. Law 4-101, § 584</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-205.84" applicability-path="§4" action="creation of" display-template=""/>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:path="§4-756.05|(e)">
     <num>3</num>
     <text>Section 31c(e) of the Homeless Services Reform Act of 2005, effective October 8, 2016 (D.C. Law 21-160; D.C. Official Code § 4-756.05(e)), is amended by striking the phrase "September 30, 2026" and inserting the phrase "September 30, 2027" in its place.</text>
+    <codify:find-replace count="1">
+      <find>September 30, 2026</find>
+      <replace>September 30, 2027</replace>
+    </codify:find-replace>
+    <codify:insert doc="D.C. Code" path="§4-756.05" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section will expire on September 30, 2027.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>4</num>
@@ -246,6 +278,14 @@
     <para>
       <num>(a)</num>
       <text>Section 2 shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-104" path="§2|(a)|(1)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-104" path="§2|(a)|(3)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-104" path="§2|(a)|(5)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-104" path="§2|(a)|(6)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-104" path="§2|(a)|(7)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-104" path="§2|(b)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-104" path="§2|(c)|includes|583" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-104" path="§2|(c)|includes|584" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
