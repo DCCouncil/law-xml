@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-258">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-107" codify:doc="D.C. Code">
+  <num type="law">26-107</num>
   <num type="act">26-258</num>
   <num type="bill">26-98</num>
   <heading type="short">Home Purchase Assistance for Transit Workers Amendment Act of 2026</heading>
   <heading type="long">To amend the Government Employer-Assisted Housing Amendment Act of 1999 to designate public transit employees as eligible recipients for the Government Employer-Assisted Housing Program.</heading>
   <meta>
     <introduced>2025-01-30</introduced>
-    <effective projected="true">2026-04-29</effective>
+    <effective>2026-04-14</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/57055/Signed_Act/B26-0098-Signed_Act.pdf?Id=232916">D.C. Law 26-107</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/57055/Signed_Act/B26-0098-Signed_Act.pdf?Id=232916">D.C. Act 26-258</citation>
       <citation type="register">73 DCR 2685</citation>
     </citations>
@@ -23,34 +25,40 @@
   <section>
     <num>2</num>
     <text>The Government Employer-Assisted Housing Amendment Act of 1999, effective May 9, 2000 (D.C. Law 13-96; D.C. Official Code § 42-2501 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§42-2501">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 42-2501) is amended by adding a new paragraph (11) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(10)" num-value="(11)"/>
           <num>(11)</num>
           <text>"Public transit employee" means a person employed by a publicly-owned mass transit system that is either owned or subsidized by the District.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§42-2503">
       <num>(b)</num>
       <text>Section 4 (D.C. Official Code § 42-2503) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)|(1)">
         <num>(1)</num>
         <text>Subsection (a)(1) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(1)</num>
             <text>A District of Columbia government employee, a first-responder, an educator, or a public transit employee; and</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is amended by striking the phrase "with the District of Columbia or as an educator" and inserting the phrase "with the District of Columbia, as an educator, or as a public transit employee" in its place.</text>
+        <codify:find-replace count="1">
+          <find>with the District of Columbia or as an educator</find>
+          <replace>with the District of Columbia, as an educator, or as a public transit employee</replace>
+        </codify:find-replace>
       </para>
     </para>
   </section>
