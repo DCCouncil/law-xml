@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-108">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-108" codify:doc="D.C. Code">
   <num type="law">26-108</num>
   <num type="act">26-262</num>
   <num type="bill">26-177</num>
@@ -22,22 +22,31 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Extreme Heat Eviction Protection Amendment Act of 2026".</text>
-  <section>
+  <section codify:path="§42-3505.01|(k)">
     <num>2</num>
     <text>Section 501(k) of the Rental Housing Act of 1985, effective July 17, 1985 (D.C. Law 6-10; D.C. Code § 42-3505.01(k)), is amended as follows:</text>
-    <para>
+    <para codify:path="(1)">
       <num>(a)</num>
       <text>Paragraph (1) is amended by striking the phrase "Celsius; or" and inserting the phrase "Celsius;" in its place.</text>
+      <codify:find-replace count="1">
+        <find>Celsius; or</find>
+        <replace>Celsius;</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(2)">
       <num>(b)</num>
       <text>Paragraph (2) is amended by striking the phrase "rental unit." and inserting the phrase "rental unit; or" in its place.</text>
+      <codify:find-replace count="1">
+        <find>rental unit.</find>
+        <replace>rental unit; or</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>A new paragraph (3) is added to read follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(2)" num-value="(3)"/>
           <num>(3)</num>
           <text>On any day when the National Weather Service predicts at 8:00 a.m. the temperature at the National Airport weather station will rise above 95 degrees Fahrenheit or 35 degrees Celsius.</text>
         </para>
