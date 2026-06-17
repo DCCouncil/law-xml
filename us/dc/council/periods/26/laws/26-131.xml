@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-131">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-131" codify:doc="D.C. Code">
   <num type="law">26-131</num>
   <num type="act">26-311</num>
   <num type="bill">26-407</num>
@@ -22,13 +22,14 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Strengthening Capacity and Transparency at DYRS Amendment Act of 2026".</text>
-  <section>
+  <section codify:path="§2-1515.04b">
     <num>2</num>
     <text>Section 104b of the Department of Youth Rehabilitation Services Establishment Act of 2004, effective April 4, 2017 (D.C. Law 21-238; D.C. Official Code § 2-1515.04b), is amended by adding new subsections (c) and (d) to read as follows:</text>
     <include>
       <para>
+        <codify:insert after="(b)" num-value="(c)"/>
         <num>(c)</num>
-        <text>Notwithstanding section 106, the Department shall publicly report on their website population data for youth at the Youth Services Center ("YSC") and New Beginnings Youth Development Center, which shall include:</text>
+        <text>Notwithstanding <code-cite doc="D.C. Code" path="§2-1515.06">section 106</code-cite>, the Department shall publicly report on their website population data for youth at the Youth Services Center ("YSC") and New Beginnings Youth Development Center, which shall include:</text>
         <para>
           <num>(1)</num>
           <text>Daily population counts by status at entry, race, and age;</text>
@@ -51,7 +52,7 @@
         </para>
         <para>
           <num>(4)</num>
-          <text>The monthly number of youth who are placed in instances of improper room confinement pursuant to section 203 of the Improving the Conditions of Confinement of Juveniles Act of 2016, effective April 4, 2017 (D.C. Law 21-238; D.C. Official Code § 24-912), including instances in which they are confined to their room for a period exceeding 6 hours;</text>
+          <text>The monthly number of youth who are placed in instances of improper room confinement pursuant to <code-cite doc="D.C. Code" path="§24-912">section 203 of the Improving the Conditions of Confinement of Juveniles Act of 2016, effective April 4, 2017 (D.C. Law 21-238; D.C. Official Code § 24-912)</code-cite>, including instances in which they are confined to their room for a period exceeding 6 hours;</text>
         </para>
         <para>
           <num>(5)</num>
@@ -79,11 +80,13 @@
         </para>
       </para>
       <para>
+        <codify:insert after="(c)" num-value="(d)"/>
         <num>(d)</num>
         <text>Within 120 days after the applicability date of the Strengthening Capacity and Transparency at DYRS Amendment Act of 2026, passed on 2nd reading on March 31, 2026 (Enrolled version of Bill 26-407), the Mayor shall submit to the Council a one-year action plan to address overcrowding and the awaiting placement population at the Youth Services Center.  The plan shall specify how the Department will permanently reduce the juvenile population at the Youth Services Center to at or below its maximum capacity and avoid future instances of overcrowding.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§2-1515.04b" applicability-path="§3" action="amendment to" display-template=""/>
   </section>
   <section>
     <num>3</num>
@@ -91,6 +94,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-131" path="§2" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

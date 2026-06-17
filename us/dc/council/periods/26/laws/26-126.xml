@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-126">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-126" codify:doc="D.C. Code">
   <num type="law">26-126</num>
   <num type="act">26-307</num>
   <num type="bill">26-221</num>
@@ -22,7 +22,7 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Mu Lambda Foundation, Inc. Real Property Tax Exemption Amendment Act of 2026".</text>
-  <section>
+  <section codify:path="47|10">
     <num>2</num>
     <text>Chapter 10 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
     <para>
@@ -30,6 +30,7 @@
       <text>The table of contents is amended by adding a new section designation to read as follows:</text>
       <include>
         <toc>
+          <!-- done below -->
           <section>
             <num>47-1099.17</num>
             <heading>Mu Lambda Foundation, Inc. House; Lot 157, Square 3127.</heading>
@@ -43,12 +44,13 @@
       <text>A new section 47-1099.17 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert num-value="47-1099.17"/>
           <prefix>§</prefix>
           <num>47-1099.17</num>
           <heading proof="needed">Mu Lambda Foundation, Inc. House; Lot 157, Square 3127.</heading>
           <para>
             <num>(a)</num>
-            <text>The real property and any improvements on the property, located at 2405 First Street, NW, known for tax and assessment purposes as Lot 157, Square 3127 ("Property"), shall be exempt from the tax imposed by Chapter 8 of this title, for the period beginning October 1, 2025, and ending September 30, 2055, so long as the Property is owned by Mu Lambda Foundation, Inc., is used for its charitable and educational purposes, and is not used for commercial purposes, subject to the provisions of §§ 47-1005, 47-1007, and 47-1009 as if the exemption had been granted administratively under this chapter.</text>
+            <text>The real property and any improvements on the property, located at 2405 First Street, NW, known for tax and assessment purposes as Lot 157, Square 3127 ("Property"), shall be exempt from the tax imposed by <cite doc="D.C. Code" path="47|8">Chapter 8 of this title</cite>, for the period beginning October 1, 2025, and ending September 30, 2055, so long as the Property is owned by Mu Lambda Foundation, Inc., is used for its charitable and educational purposes, and is not used for commercial purposes, subject to the provisions of §§ <cite doc="D.C. Code" path="§47-1005">47-1005</cite>, <cite doc="D.C. Code" path="§47-1007">47-1007</cite>, and <cite doc="D.C. Code" path="§47-1009">47-1009</cite> as if the exemption had been granted administratively under <cite doc="D.C. Code" path="47|10">this chapter</cite>.</text>
           </para>
           <para>
             <num>(b)</num>

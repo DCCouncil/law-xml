@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-128">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-128" codify:doc="D.C. Code">
   <num type="law">26-128</num>
   <num type="act">26-308</num>
   <num type="bill">26-398</num>
@@ -26,39 +26,54 @@
   <section>
     <num>2</num>
     <text>The Grandparent Caregivers Pilot Programs Establishment Act of 2005, effective March 8, 2006 (D.C. Law 16-69; D.C. Official Code § 4-251.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-251.03|(i)">
       <num>(a)</num>
       <text>Section 103(i) (D.C. Official Code § 4-251.03(i)) is amended by striking the phrase ", for a period of not more than 60 months, any" and inserting the word "any" in its place.</text>
+      <codify:find-replace count="1">
+        <find>, for a period of not more than 60 months, any</find>
+        <replace> any</replace>
+      </codify:find-replace>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-251.03" applicability-path="§4" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§4-251.04">
       <num>(b)</num>
       <text>Section 104 (D.C. Official Code § 4-251.04) is amended as follows:</text>
-      <para>
+      <para codify:path="(b)">
         <num>(1)</num>
         <text>Subsection (b) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(b)</num>
-            <text>Pursuant to section 106, the Mayor shall establish by rule the amount of a subsidy a grandparent or relative caregiver is eligible to receive under this act; provided, that the subsidy shall be no less than the amount of $38.00 in Fiscal Year 2027 and adjusted for inflation annually thereafter.</text>
+            <text>Pursuant to <code-cite doc="D.C. Code" path="§4-251.06">section 106</code-cite>, the Mayor shall establish by rule the amount of a subsidy a grandparent or relative caregiver is eligible to receive under <code-cite doc="D.C. Code" path="4|2A|I">this act</code-cite>; provided, that the subsidy shall be no less than the amount of $38.00 in Fiscal Year 2027 and adjusted for inflation annually thereafter.</text>
           </para>
         </include>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(2)</num>
         <text>Subsection (c) is repealed.</text>
+        <codify:repeal/>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-251.04" applicability-path="§4" action="amendment to" display-template=""/>
     </para>
   </section>
   <section>
     <num>3</num>
     <text>Title I of the Close Relative Caregiver Subsidy Pilot Program Establishment Amendment Act of 2019, effective November 26, 2019 (D.C. Law 23-32; D.C. Official Code § 4-251.21 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-251.23|(j)">
       <num>(a)</num>
       <text>Section 103(j) (D.C. Official Code § 4-251.23(j)) is amended by striking the phrase ", for a period of no more than 60 months, any" and inserting the word "any" in its place.</text>
+      <codify:find-replace count="1">
+        <find>, for a period of no more than 60 months, any</find>
+        <replace> any</replace>
+      </codify:find-replace>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-251.23" applicability-path="§4" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§4-251.24|(c)">
       <num>(b)</num>
       <text>Section 104(c) (D.C. Official Code § 4-251.24(c)) is repealed.</text>
+      <codify:repeal/>
+      <codify:not-funded-anno doc="D.C. Code" path="§4-251.24" applicability-path="§4" action="amendment to" display-template=""/>
     </para>
   </section>
   <section>
@@ -67,6 +82,10 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-128" path="§2|(a)" date="pending" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-128" path="§2|(b)" date="pending" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-128" path="§3|(a)" date="pending" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-128" path="§3|(b)" date="pending" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

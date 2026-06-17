@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-130">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-130" codify:doc="D.C. Code">
   <num type="law">26-130</num>
   <num type="act">26-310</num>
   <num type="bill">26-404</num>
@@ -27,6 +27,7 @@
     <text>Subtitle A of Title I of the Department of Youth Rehabilitation Services Establishment Act of 2004, effective April 12, 2005 (D.C. Law 15-335; D.C. Official Code § 2-1515.01 <em>et seq.</em>), is amended by adding a new section 105b to read as follows:</text>
     <include>
       <section>
+        <codify:insert doc="D.C. Code" path="2|15|I-A|A" after="§2-1515.05a" num-value="2-1515.05b" history-prefix="as added"/>
         <num>105b</num>
         <heading proof="needed">Safe and supported pregnancy and delivery for detained youth.</heading>
         <para>
@@ -46,7 +47,7 @@
           </para>
           <para>
             <num>(2)</num>
-            <text>Specialized pregnancy or postpartum healthcare, if necessary, which may be referred to external healthcare providers, in accordance with Title II of the Limitations on the Use of Restraints Amendment Act of 2014, effective July 25, 2015 (D.C. Law 20-280; D.C. Official Code 24-276.01 <em>et seq</em>.);</text>
+            <text>Specialized pregnancy or postpartum healthcare, if necessary, which may be referred to external healthcare providers, in accordance with <code-cite doc="D.C. Code" path="24|2|VIII-A">Title II of the Limitations on the Use of Restraints Amendment Act of 2014, effective July 25, 2015 (D.C. Law 20-280; D.C. Official Code 24-276.01 <em>et seq</em>.)</code-cite>;</text>
           </para>
           <para>
             <num>(3)</num>
@@ -69,7 +70,8 @@
             </para>
             <para>
               <num>(E)</num>
-              <text>Perinatal mental health conditions.</text>
+              <text>Perinatal mental health conditions[; and]</text>
+              <!-- replacing "." with "[; and]" per 4/30/26 email from J. Stolzenberg -->
             </para>
           </para>
           <para>
@@ -85,6 +87,7 @@
             </para>
           </para>
         </para>
+        <annotation doc="D.C. Law 15-335" type="History" path="§105b">Apr. 12, 2005, D.C. Law 15-335, § 105b</annotation>
       </section>
     </include>
     <aftertext>.</aftertext>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-132">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-132" codify:doc="D.C. Code">
   <num type="law">26-132</num>
   <num type="act">26-299</num>
   <num type="bill">26-408</num>
@@ -22,18 +22,19 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Promoting Parental Engagement at DYRS Amendment Act of 2026".</text>
-  <section>
+  <section codify:path="§16-2319">
     <num>2</num>
     <text>Section 16-2319 of the District of Columbia Official Code is amended by adding a new subsection (e-1) to read as follows:</text>
     <include>
       <para>
+        <codify:insert after="(e)" num-value="(e-1)"/>
         <num>(e-1)</num>
         <text>Following the date of the scheduled predisposition meeting, the Department shall make a recurring effort at least every 6 months to contact the child's parent, guardian, or custodian and inform them of the child's progress on their individualized rehabilitation plan.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
   </section>
-  <section>
+  <section codify:path="§2-1515.04">
     <num>3</num>
     <text>Section 104 of the Department of Youth Rehabilitation Services Establishment Act of 2004, effective April 12, 2005 (D.C. Law 15-335; D.C. Official Code § 2-1515.04), is amended as follows:</text>
     <para>
@@ -41,29 +42,40 @@
       <text>A new paragraph (6A) is added to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(6)" num-value="(6A)"/>
           <num>(6A)</num>
           <text>If the child is transferred to a facility other than that indicated in the individualized rehabilitation plan, making an effort to contact the child's parent, guardian, or custodian no later than 24 hours after the change has occurred;</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="(19)">
       <num>(b)</num>
       <text>Paragraph (19) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+      <codify:find-replace count="1">
+        <find>; and</find>
+        <replace>;</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="(20)">
       <num>(c)</num>
       <text>Paragraph (20) is amended by striking the period and inserting a semicolon in its place.</text>
+      <codify:find-replace count="1">
+        <find>.</find>
+        <replace>;</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(d)</num>
       <text>New paragraphs (21) and (22) are added to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(20)" num-value="(21)"/>
           <num>(21)</num>
           <text>If a child in the custody of the Department is provided with emergency medical treatment resulting from incidents, injuries, or severe illness, making an effort to contact the child's parent, guardian, or custodian within 24 hours; and</text>
         </para>
         <para>
+          <codify:insert after="(21)" num-value="(22)"/>
           <num>(22)</num>
           <text>Keeping an electronic log of all efforts made to contact the child's parent, guardian, or custodian as required by law and providing a copy of this electronic log to the child's parent, guardian, or custodian and the Chair of the Council committee with oversight of the Department upon request.</text>
         </para>
