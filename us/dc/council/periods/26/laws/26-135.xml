@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-135">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-135" codify:doc="D.C. Code">
   <num type="law">26-135</num>
   <num type="act">26-301</num>
   <num type="bill">26-426</num>
@@ -25,14 +25,18 @@
   <section>
     <num>2</num>
     <text>The Holding Company System Act of 1993, effective October 21, 1993 (D.C. Law 10-44; D.C. Official Code § 31-701 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§31-701">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 31-701) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>A new paragraph (3A-i) is added to read as follows:</text>
         <include lvl="1">
-          <text>(3A-i) "Group capital calculation instructions" means the group capital calculation instructions as adopted by the NAIC and as amended by the NAIC from time to time.</text>
+          <para>
+            <codify:insert after="(3A)" num-value="(3A-i)"/>
+            <num>(3A-i)</num>
+            <text>"Group capital calculation instructions" means the group capital calculation instructions as adopted by the NAIC and as amended by the NAIC from time to time.</text>
+          </para>
         </include>
         <aftertext>.</aftertext>
       </para>
@@ -40,8 +44,16 @@
         <num>(2)</num>
         <text>New paragraphs (5A-i) and (5A-ii) are added to read as follows:</text>
         <include lvl="1">
-          <text>(5A-i) "Lead state" means the one state that takes the lead with respect to conducting group-wide supervision of the insurance holding company system within the U.S. solvency system.</text>
-          <text>(5A-ii) "Lead state commissioner" means the commissioner of the lead state for an insurance group.</text>
+          <para>
+            <codify:insert after="(5A)" num-value="(5A-i)"/>
+            <num>(5A-i)</num>
+            <text>"Lead state" means the one state that takes the lead with respect to conducting group-wide supervision of the insurance holding company system within the U.S. solvency system.</text>
+          </para>
+          <para>
+            <codify:insert after="(5A-i)" num-value="(5A-ii)"/>
+            <num>(5A-ii)</num>
+            <text>"Lead state commissioner" means the commissioner of the lead state for an insurance group.</text>
+          </para>
         </include>
         <aftertext>.</aftertext>
       </para>
@@ -49,7 +61,11 @@
         <num>(3)</num>
         <text>A new paragraph (5C-i) is added to read as follows:</text>
         <include lvl="1">
-          <text>(5C-i) "NAIC liquidity stress test framework" means a separate NAIC publication that includes a history of the NAIC's development of regulatory liquidity stress testing, the Liquidity Stress Test instructions and reporting templates for a specific data year, and the scope criteria applicable for a specific data year as adopted by the NAIC and as amended by the NAIC from time to time.</text>
+          <para>
+            <codify:insert after="(5C)" num-value="(5C-i)"/>
+            <num>(5C-i)</num>
+            <text>"NAIC liquidity stress test framework" means a separate NAIC publication that includes a history of the NAIC's development of regulatory liquidity stress testing, the Liquidity Stress Test instructions and reporting templates for a specific data year, and the scope criteria applicable for a specific data year as adopted by the NAIC and as amended by the NAIC from time to time.</text>
+          </para>
         </include>
         <aftertext>.</aftertext>
       </para>
@@ -58,6 +74,7 @@
         <text>A new paragraph (6A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(6)" num-value="(6A)"/>
             <num>(6A)</num>
             <text>"Scope criteria" means the designated exposure bases along with minimum magnitudes thereof for the specified data year as detailed in the NAIC liquidity stress test framework, used to establish a preliminary list of insurers considered scoped into the NAIC liquidity stress test framework for that data year.</text>
           </para>
@@ -69,6 +86,7 @@
         <text>A new paragraph (8A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(8)" num-value="(8A)"/>
             <num>(8A)</num>
             <text>"Task Force" means the NAIC Financial Stability Task Force or its successor.</text>
           </para>
@@ -76,21 +94,23 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§31-705">
       <num>(b)</num>
       <text>Section 6 (D.C. Official Code § 31-705) is amended as follows:</text>
-      <para>
+      <para codify:path="(d)">
         <num>(1)</num>
         <text>Subsection (d) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The existing test is redesignated as paragraph (1).</text>
+          <codify:redesignate-para num-value="(1)"/>
         </para>
         <para>
           <num>(B)</num>
           <text>A new paragraph (2) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(1)" num-value="(2)"/>
               <num>(2)</num>
               <text>Notwithstanding paragraph (1) of this subsection, for purposes of the group capital calculation, as described in subsection (k-2) of this section, or the NAIC liquidity stress test framework, as described in subsection (k-3) of this section, sales, purchases, exchanges, loans or extensions of credit, investments, or guarantees involving one-half of 1% or less of an insurer's admitted assets as of the 31st day of December shall be material.</text>
             </para>
@@ -103,6 +123,7 @@
         <text>New subsections (k-2) and (k-3) are added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(k-1)" num-value="(k-2)"/>
             <num>(k-2)</num>
             <para>
               <num>(1)</num>
@@ -129,7 +150,7 @@
               </para>
               <para>
                 <num>(C)</num>
-                <text>An insurance holding company whose non-U.S. group-wide supervisor is located within a reciprocal jurisdiction, as defined in section 2(f-1)(11)(B) of the Law on Credit for Reinsurance Act of 1993, effective October 15, 1993 (D.C. Law 10-36; D.C. Official Code § 31-501(f-1)(11)(B)), that recognizes the U.S. state regulatory approach to group supervision and group capital; and</text>
+                <text>An insurance holding company whose non-U.S. group-wide supervisor is located within a reciprocal jurisdiction, as defined in <code-cite doc="D.C. Code" path="§31-501|(f-1)|(11)|(B)">section 2(f-1)(11)(B) of the Law on Credit for Reinsurance Act of 1993, effective October 15, 1993 (D.C. Law 10-36; D.C. Official Code § 31-501(f-1)(11)(B))</code-cite>, that recognizes the U.S. state regulatory approach to group supervision and group capital; and</text>
               </para>
               <para>
                 <num>(D)</num>
@@ -158,10 +179,11 @@
             </para>
           </para>
           <para>
+            <codify:insert after="(k-2)" num-value="(k-3)"/>
             <num>(k-3)</num>
             <para>
               <num>(1)</num>
-              <text>The ultimate controlling person of every insurer subject to registration under this act and also scoped into the NAIC liquidity stress test framework shall file the results of a specific year's liquidity stress test with the lead state commissioner, as determined by the procedures within the Financial Analysis Handbook adopted by the NAIC.</text>
+              <text>The ultimate controlling person of every insurer subject to registration under <code-cite doc="D.C. Code" path="31|7|I">this act</code-cite> and also scoped into the NAIC liquidity stress test framework shall file the results of a specific year's liquidity stress test with the lead state commissioner, as determined by the procedures within the Financial Analysis Handbook adopted by the NAIC.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -187,17 +209,18 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="§31-706">
       <num>(c)</num>
       <text>Section 7 (D.C. Official Code § 31-706) is amended by adding new subsections (e) and (f) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(d)" num-value="(e)"/>
           <num>(e)</num>
           <para>
             <num>(1)</num>
             <para>
               <num>(A)</num>
-              <text>If an insurer subject to this act is deemed by the Commissioner to be in a hazardous financial condition as provided in section 2 of the Standards to Identify Insurance Companies Deemed to Be in Hazardous Financial Condition Act of 1993, effective October 21, 1993 (D.C. Law 10-43; D.C. Official Code § 31-2101), or a condition that would be grounds for supervision, conservation, or a delinquency proceeding, the Commissioner may require the insurer to secure and maintain either a deposit, held by the Commissioner, or a bond, as determined by the insurer at the insurer's discretion, for the duration of the contractual obligations or agreements held by the insurer or the duration of the existence of the condition for which the Commissioner required the deposit or the bond.</text>
+              <text>If an insurer subject to <code-cite doc="D.C. Code" path="31|7|I">this act</code-cite> is deemed by the Commissioner to be in a hazardous financial condition as provided in <code-cite doc="D.C. Code" path="§31-2101">section 2 of the Standards to Identify Insurance Companies Deemed to Be in Hazardous Financial Condition Act of 1993, effective October 21, 1993 (D.C. Law 10-43; D.C. Official Code § 31-2101)</code-cite>, or a condition that would be grounds for supervision, conservation, or a delinquency proceeding, the Commissioner may require the insurer to secure and maintain either a deposit, held by the Commissioner, or a bond, as determined by the insurer at the insurer's discretion, for the duration of the contractual obligations or agreements held by the insurer or the duration of the existence of the condition for which the Commissioner required the deposit or the bond.</text>
             </para>
             <para>
               <num>(B)</num>
@@ -225,10 +248,11 @@
           </para>
           <para>
             <num>(3)</num>
-            <text>Premiums or other funds belonging to the insurer that are collected by or held by an affiliate are the exclusive property of the insurer and shall be subject to the control of the insurer; any right of offset in the event an insurer is placed into receivership shall be subject to the Insurers Rehabilitation Act of 1993, effective October 15, 1993 (D.C. Law 10-35; D.C. Official Code § 31-1301 <em>et seq.</em>).</text>
+            <text>Premiums or other funds belonging to the insurer that are collected by or held by an affiliate are the exclusive property of the insurer and shall be subject to the control of the insurer; any right of offset in the event an insurer is placed into receivership shall be subject to <code-cite doc="D.C. Code" path="31|13">the Insurers Rehabilitation Act of 1993, effective October 15, 1993 (D.C. Law 10-35; D.C. Official Code § 31-1301 <em>et seq.</em>)</code-cite>.</text>
           </para>
         </para>
         <para>
+          <codify:insert after="(e)" num-value="(f)"/>
           <num>(f)</num>
           <para>
             <num>(1)</num>
@@ -250,20 +274,25 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§31-708">
       <num>(d)</num>
       <text>Section 9 (D.C. Official Code § 31-708) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended by striking the phrase "shall be confidential" and inserting the phrase "are recognized by the District as being proprietary and to contain trade secrets, and shall be confidential" in its place.</text>
+        <codify:find-replace count="1">
+          <find>shall be confidential</find>
+          <replace>are recognized by the District as being proprietary and to contain trade secrets, and shall be confidential</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (a-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)" num-value="(a-1)"/>
             <num>(a-1)</num>
-            <text>Subject to the proviso in subsection (a) of this section, for purposes of the information reported and provided to the Department of Insurance, Securities, and Banking pursuant to section 6(k-2) and (k-3), the Commissioner shall maintain the confidentiality of:</text>
+            <text>Subject to the proviso in subsection (a) of this section, for purposes of the information reported and provided to the Department of Insurance, Securities, and Banking pursuant to <code-cite doc="D.C. Code" path="§31-705|(k-2)">section 6(k-2)</code-cite> and <cite doc="D.C. Code" path="§31-705|(k-3)">(k-3)</cite>, the Commissioner shall maintain the confidentiality of:</text>
             <para>
               <num>(1)</num>
               <text>The group capital calculation and group capital ratio produced within the calculation and any group capital information received from an insurance holding company supervised by the Federal Reserve Board or any U.S. group-wide supervisor; and</text>
@@ -276,75 +305,94 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(1)</num>
-              <text>May share documents, materials or other information, including the confidential and privileged documents, materials, or information described at subsection (a) of this section, and which shall include proprietary and trade secret documents and materials, with other state, federal, and international regulatory agencies, the NAIC, any third-party consultants designated by the Commissioner, and state, federal, and international law enforcement authorities, including members of any supervisory college described in section 8a; provided, that the recipient agrees in writing to maintain the confidentiality and privileged status of the document, material, or other information, and verifies in writing the legal authority to maintain confidentiality.</text>
+              <text>May share documents, materials or other information, including the confidential and privileged documents, materials, or information described at subsection (a) of this section, and which shall include proprietary and trade secret documents and materials, with other state, federal, and international regulatory agencies, the NAIC, any third-party consultants designated by the Commissioner, and state, federal, and international law enforcement authorities, including members of any supervisory college described in <code-cite doc="D.C. Code" path="§31-707.01">section 8a</code-cite>; provided, that the recipient agrees in writing to maintain the confidentiality and privileged status of the document, material, or other information, and verifies in writing the legal authority to maintain confidentiality.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(1A)">
           <num>(B)</num>
           <text>Paragraph (1A) is amended by striking the phrase "section 6" and inserting the phrase "section 6(k-1)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>
+              <cite path="§31-705">§ 31-705</cite>
+            </find>
+            <replace>
+              <code-cite doc="D.C. Code" path="§31-705|(k-1)">section 6(k-1)</code-cite>
+            </replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(C)</num>
           <text>Paragraph (2) is amended by striking the phrase "information, from the National Association of Insurance Commissioners" and inserting the phrase "information, including proprietary and trade secret information, from NAIC" in its place.</text>
+          <codify:find-replace count="1">
+            <find>information, from the National Association of Insurance Commissioners</find>
+            <replace>information, including proprietary and trade secret information, from NAIC</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(D)</num>
           <text>Paragraph (3) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(3)</num>
-              <text>Shall enter into written agreements with the NAIC and any third-party consultant designated by the Commissioner governing the sharing and use of information provided pursuant to this act and consistent with this subsection, which shall:</text>
+              <text>Shall enter into written agreements with the NAIC and any third-party consultant designated by the Commissioner governing the sharing and use of information provided pursuant to <code-cite doc="D.C. Code" path="31|7|I">this act</code-cite> and consistent with this subsection, which shall:</text>
               <para>
                 <num>(A)</num>
-                <text>Specify procedures and protocols regarding the confidentiality and security of information shared with the NAIC or a third-party consultant designated by the Commissioner pursuant to this act, including procedures and protocols for sharing by the NAIC with other state, federal or international regulators. The agreement shall provide that the recipient agrees in writing to maintain the confidentiality and privileged status of the documents, materials or other information and has verified in writing the legal authority to maintain such confidentiality;</text>
+                <text>Specify procedures and protocols regarding the confidentiality and security of information shared with the NAIC or a third-party consultant designated by the Commissioner pursuant to <code-cite doc="D.C. Code" path="31|7|I">this act</code-cite>, including procedures and protocols for sharing by the NAIC with other state, federal or international regulators. The agreement shall provide that the recipient agrees in writing to maintain the confidentiality and privileged status of the documents, materials or other information and has verified in writing the legal authority to maintain such confidentiality;</text>
               </para>
               <para>
                 <num>(B)</num>
-                <text>Specify that ownership of information shared with the NAIC or a third-party consultant pursuant to this act remains with the Commissioner and the NAIC's or a third-party consultant's use of the information is subject to the direction of the Commissioner;</text>
+                <text>Specify that ownership of information shared with the NAIC or a third-party consultant pursuant to <code-cite doc="D.C. Code" path="31|7|I">this act</code-cite> remains with the Commissioner and the NAIC's or a third-party consultant's use of the information is subject to the direction of the Commissioner;</text>
               </para>
               <para>
                 <num>(C)</num>
-                <text>Excluding documents, material, or information reported pursuant to section 6(k-3), prohibit the NAIC or third-party consultant designated by the Commissioner from storing information shared pursuant to this act in a permanent database after the underlying analysis is completed;</text>
+                <text>Excluding documents, material, or information reported pursuant to <code-cite doc="D.C. Code" path="§31-705|(k-3)">section 6(k-3)</code-cite>, prohibit the NAIC or third-party consultant designated by the Commissioner from storing information shared pursuant to <code-cite doc="D.C. Code" path="31|7|I">this act</code-cite> in a permanent database after the underlying analysis is completed;</text>
               </para>
               <para>
                 <num>(D)</num>
-                <text>Require prompt notice to be given to an insurer that the insurer's confidential information in the possession of the NAIC or a third-party consultant designated by the Commissioner pursuant to this act is subject to a request or subpoena to the NAIC or a third-party consultant for disclosure or production;</text>
+                <text>Require prompt notice to be given to an insurer that the insurer's confidential information in the possession of the NAIC or a third-party consultant designated by the Commissioner pursuant to <code-cite doc="D.C. Code" path="31|7|I">this act</code-cite> is subject to a request or subpoena to the NAIC or a third-party consultant for disclosure or production;</text>
               </para>
               <para>
                 <num>(E)</num>
-                <text>Require the NAIC or a third-party consultant designated by the Commissioner to consent to intervention by an insurer in any judicial or administrative action in which the NAIC or a third-party consultant may be required to disclose confidential information about the insurer shared with the NAIC or a third-party consultant and its affiliates and subsidiaries pursuant to this act; and</text>
+                <text>Require the NAIC or a third-party consultant designated by the Commissioner to consent to intervention by an insurer in any judicial or administrative action in which the NAIC or a third-party consultant may be required to disclose confidential information about the insurer shared with the NAIC or a third-party consultant and its affiliates and subsidiaries pursuant to <code-cite doc="D.C. Code" path="31|7|I">this act</code-cite>; and</text>
               </para>
               <para>
                 <num>(F)</num>
-                <text>For reporting of documents, material, or information pursuant to section 6(k-3), in the case of an agreement involving a third-party consultant designated by the Commissioner, provide for notification of the identity of the consultant to the applicable insurers.</text>
+                <text>For reporting of documents, material, or information pursuant to <code-cite doc="D.C. Code" path="§31-705|(k-3)">section 6(k-3)</code-cite>, in the case of an agreement involving a third-party consultant designated by the Commissioner, provide for notification of the identity of the consultant to the applicable insurers.</text>
               </para>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(d-1)">
         <num>(4)</num>
         <text>Subsection (d-1) is amended by striking the abbreviation "NAIC" and inserting the phrase "NAIC, or a third-party consultant designated by the Commissioner" in its place.</text>
+        <codify:find-replace count="1">
+          <find>NAIC</find>
+          <replace>NAIC, or a third-party consultant designated by the Commissioner</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>A new subsection (d-2) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(d-1)" num-value="(d-2)"/>
             <num>(d-2)</num>
-            <text>Except as otherwise required under this act, no insurer, broker, or other person engaged in any manner in the insurance business may make, publish, disseminate, circulate or place before the public, or cause directly or indirectly to be made, published, disseminated, circulated or placed before the public in a newspaper, magazine or other publication, or in the form of a notice, circular, pamphlet, letter or poster, or over any radio or television station or any electronic means of communication available to the public, or in any other way as an advertisement, announcement, or statement containing a representation or statement, with regard to the group capital calculation, group capital ratio, the liquidity stress test results, or supporting disclosures for the liquidity stress test of any insurer or any insurer group, or of any component derived in the calculation; provided, that if any materially false statement with respect to the group capital calculation, resulting group capital ratio, a false or misleading comparison of any amount to an insurer's or insurance group's group capital calculation or resulting group capital ratio, liquidity stress test result, supporting disclosures for the liquidity stress test, or a false or misleading comparison of any amount to an insurer's or insurance group's liquidity stress test result or supporting disclosures is published in any written publication and the insurer is able to demonstrate to the Commissioner with substantial proof the falsity of such statement or its false or misleading nature as the case may be, then the insurer may publish announcements in a written publication if the sole purpose of the announcement is to rebut the materially false or misleading statement.</text>
+            <text>Except as otherwise required under <code-cite doc="D.C. Code" path="31|7|I">this act</code-cite>, no insurer, broker, or other person engaged in any manner in the insurance business may make, publish, disseminate, circulate or place before the public, or cause directly or indirectly to be made, published, disseminated, circulated or placed before the public in a newspaper, magazine or other publication, or in the form of a notice, circular, pamphlet, letter or poster, or over any radio or television station or any electronic means of communication available to the public, or in any other way as an advertisement, announcement, or statement containing a representation or statement, with regard to the group capital calculation, group capital ratio, the liquidity stress test results, or supporting disclosures for the liquidity stress test of any insurer or any insurer group, or of any component derived in the calculation; provided, that if any materially false statement with respect to the group capital calculation, resulting group capital ratio, a false or misleading comparison of any amount to an insurer's or insurance group's group capital calculation or resulting group capital ratio, liquidity stress test result, supporting disclosures for the liquidity stress test, or a false or misleading comparison of any amount to an insurer's or insurance group's liquidity stress test result or supporting disclosures is published in any written publication and the insurer is able to demonstrate to the Commissioner with substantial proof the falsity of such statement or its false or misleading nature as the case may be, then the insurer may publish announcements in a written publication if the sole purpose of the announcement is to rebut the materially false or misleading statement.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
