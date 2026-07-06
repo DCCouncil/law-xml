@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-317">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-140" codify:doc="D.C. Code">
+  <num type="law">26-140</num>
   <num type="act">26-317</num>
   <num type="bill">26-461</num>
   <heading type="short">Youth Curfew Amendment Act of 2026</heading>
   <heading type="long">To amend the Juvenile Curfew Act of 1995 to extend the applicability of the curfew to 17-year-olds, to replace references to the word juvenile with youth, to authorize the Mayor and Chief of Police to designate extended youth curfew zones, to establish specific notice and signage requirements for extended youth curfew zones, to allow Advisory Neighborhood Commissions to petition the Chief of Police for an extended youth curfew zone, to provide guardrails on the enforcement of curfew violations in extended youth curfew zones, and to require the provision of youth programming when extended youth curfew zones are established.</heading>
   <meta>
     <introduced>2025-10-31</introduced>
-    <effective projected="true">2026-07-16</effective>
+    <effective>2026-07-02</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/60664/Signed_Act/B26-0461-Signed_Act.pdf?Id=238482">D.C. Law 26-140</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/60664/Signed_Act/B26-0461-Signed_Act.pdf?Id=238482">D.C. Act 26-317</citation>
       <citation type="register">73 DCR 7783</citation>
     </citations>
@@ -25,37 +27,48 @@
   <section>
     <num>2</num>
     <text>The Juvenile Curfew Act of 1995, effective September 20, 1995 (D.C. Law 11-48; D.C. Official Code § 2-1541 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§2-1541">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 2-1541) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the number "17" wherever it appears and insert the number "18" in its place.</text>
+        <codify:find-replace count="3">
+          <find>17</find>
+          <replace>18</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Strike the word "juvenile" wherever it appears and insert the word "youth" in its place.</text>
+        <codify:find-replace count="3">
+          <find>juvenile</find>
+          <replace>youth</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new subsection (b-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(b)" num-value="(b-1)"/>
             <num>(b-1)</num>
             <text>The Council has determined that since 2023, the District has seen a rise in endangering situations involving unaccompanied youth, such as self-described "takeovers" unsupervised by adults or planned fights, driven by social media. The far-reaching nature of social media is a novel problem that the Council must address in new ways.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:annotation history="false" path="§2-1541" type="Expiration of Law"><cite doc="D.C. Law 26-140" path="§3">Section 3 of D.C. Law 26-140</cite> provided that the amendments made to this section by <cite doc="D.C. Law 26-140" path="§2|(a)">section 2(a)</cite> of D.C. Law 26-140 shall expire on December 31, 2028.</codify:annotation>
     </para>
-    <para>
+    <para codify:path="§2-1542">
       <num>(b)</num>
       <text>Section 3 (D.C. Official Code § 2-1542) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(1)</num>
             <text>"Chief of Police" means the Chief of the Metropolitan Police Department.</text>
           </para>
@@ -67,6 +80,7 @@
         <text>A new paragraph (1A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1)" num-value="(1A)"/>
             <num>(1A)</num>
             <text>"Curfew hours" means:</text>
             <para>
@@ -75,7 +89,7 @@
             </para>
             <para>
               <num>(B)</num>
-              <text>Extended curfew hours in extended youth curfew zones established by the Mayor or the Chief of Police pursuant to section 3a.</text>
+              <text>Extended curfew hours in extended youth curfew zones established by the Mayor or the Chief of Police pursuant to <cite doc="D.C. Code" path="§2-1542.01" codify:value="2-1542.01">section 3a</cite>.</text>
             </para>
           </para>
         </include>
@@ -86,21 +100,27 @@
         <text>A new paragraph (3A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(3)" num-value="(3A)"/>
             <num>(3A)</num>
-            <text>"Extended youth curfew zone" means a geographically defined area in which extended curfew hours established pursuant to section 3a apply.</text>
+            <text>"Extended youth curfew zone" means a geographically defined area in which extended curfew hours established pursuant to <cite doc="D.C. Code" path="§2-1542.01" codify:value="2-1542.01">section 3a</cite> apply.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(5)">
         <num>(4)</num>
         <text>Paragraph (5) is amended by striking the phrase "under the age of 17 years" and inserting the phrase "under the age of 18 years" in its place.</text>
+        <codify:find-replace count="1">
+          <find>under the age of 17 years</find>
+          <replace>under the age of 18 years</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>A new paragraph (6A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(6)" num-value="(6A)"/>
             <num>(6A)</num>
             <text>"Notice of violation of curfew" means a verbal warning that informs a  minor or group of minors that they are violating the terms of a curfew and that they may be arrested if they continue to violate the curfew, and identifies reasonable steps the minor or group of minors can take to avoid arrest.</text>
           </para>
@@ -112,25 +132,28 @@
         <text>A new paragraph (12) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(11)" num-value="(12)"/>
             <num>(12)</num>
             <text>"Youth" means any person under the age of 18 years, but does not include a judicially emancipated minor or a married minor.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:annotation history="false" path="§2-1542" type="Expiration of Law"><cite doc="D.C. Law 26-140" path="§3">Section 3 of D.C. Law 26-140</cite> provided that the amendments made to this section by <cite doc="D.C. Law 26-140" path="§2|(b)">section 2(b)</cite> of D.C. Law 26-140 shall expire on December 31, 2028.</codify:annotation>
     </para>
     <para>
       <num>(c)</num>
       <text>New sections 3a and 3b are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="2|15|III" after="§2-1542" num-value="2-1542.01" history-prefix="as added"/>
           <num>3a</num>
           <heading proof="needed">Temporary extended youth curfew zones.</heading>
           <para>
             <num>(a)</num>
             <para>
               <num>(1)</num>
-              <text>By issuance of an order, the Mayor or the Chief of Police may designate any part of the District as an extended youth curfew zone after determining that such a designation is appropriate to protect public safety or public or private property. Within the extended youth curfew zone, the Mayor or the Chief of Police may extend the curfew hours in the District beyond the hours established in section 3(1A)(A).</text>
+              <text>By issuance of an order, the Mayor or the Chief of Police may designate any part of the District as an extended youth curfew zone after determining that such a designation is appropriate to protect public safety or public or private property. Within the extended youth curfew zone, the Mayor or the Chief of Police may extend the curfew hours in the District beyond the hours established in <code-cite doc="D.C. Code" path="§2-1542|(1A)|(A)">section 3(1A)(A)</code-cite>.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -160,15 +183,15 @@
                 </para>
                 <para>
                   <num>(ii)</num>
-                  <text>Police reports involving minors of disturbances of the public peace as described in section 1 of An Act To confer concurrent jurisdiction on the police court of the District of Columbia in certain cases, approved July 16, 1912 (37 Stat. 192; D.C. Official Code § 22-1301), sections 6, 3, 9, or 16 of An act for the preservation of the public peace and the protection of property within the District of Columbia, approved July 29, 1892 (27 Stat. 323; D.C. Official Code §§ 22-1307, 22-1309, 22-1312, or 22-1318), section 211 of the District of Columbia Law Enforcement Act of 1953, approved June 29, 1953 (67 Stat. 98; D.C. Official Code § 22-1321), or section 901 of An Act relating to crime and criminal procedure in the District of Columbia, approved December 27, 1967 (81 Stat. 742; D.C. Official Code § 22-1322);</text>
+                  <text>Police reports involving minors of disturbances of the public peace as described in <code-cite doc="D.C. Code" path="§22-1301" codify:value="§§ 22-1301">section 1 of An Act To confer concurrent jurisdiction on the police court of the District of Columbia in certain cases, approved July 16, 1912 (37 Stat. 192; D.C. Official Code § 22-1301)</code-cite>, <code-cite doc="D.C. Code" path="§22-1307" codify:value="22-1307">sections 6</code-cite>, <code-cite doc="D.C. Code" path="§22-1309" codify:value="22-1309">3</code-cite>, <code-cite doc="D.C. Code" path="§22-1312" codify:value="22-1312">9</code-cite>, <code-cite doc="D.C. Code" path="§22-1318" codify:value="22-1318">or 16 of An act for the preservation of the public peace and the protection of property within the District of Columbia, approved July 29, 1892 (27 Stat. 323; D.C. Official Code §§ 22-1307, 22-1309, 22-1312, or 22-1318)</code-cite>, <code-cite doc="D.C. Code" path="§22-1321" codify:value="22-1321">section 211 of the District of Columbia Law Enforcement Act of 1953, approved June 29, 1953 (67 Stat. 98; D.C. Official Code § 22-1321)</code-cite>, or <code-cite doc="D.C. Code" path="§22-1322" codify:value="22-1322">section 901 of An Act relating to crime and criminal procedure in the District of Columbia, approved December 27, 1967 (81 Stat. 742; D.C. Official Code § 22-1322)</code-cite>;</text>
                 </para>
                 <para>
                   <num>(iii)</num>
-                  <text>Police reports involving minors of dangerous crimes as that term is defined in D.C. Official Code § 23-1331(3);</text>
+                  <text>Police reports involving minors of dangerous crimes as that term is defined in <code-cite doc="D.C. Code" path="§23-1331|(3)">D.C. Official Code § 23-1331(3)</code-cite>;</text>
                 </para>
                 <para>
                   <num>(iv)</num>
-                  <text>Police reports involving minors of crimes of violence, as that term is defined in D.C. Official Code § 23-1331(4); or</text>
+                  <text>Police reports involving minors of crimes of violence, as that term is defined in <code-cite doc="D.C. Code" path="§23-1331|(4)">D.C. Official Code § 23-1331(4)</code-cite>; or</text>
                 </para>
                 <para>
                   <num>(v)</num>
@@ -214,7 +237,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>The locations, days, times, and transportation options for alternative youth events required pursuant to section 3b.</text>
+              <text>The locations, days, times, and transportation options for alternative youth events required pursuant to <code-cite doc="D.C. Code" path="§2-1542.02">section 3b</code-cite>.</text>
             </para>
           </para>
           <para>
@@ -289,19 +312,22 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>Presence in a group smaller than the threshold set forth in section 3a(a)(2)(C); or</text>
+              <text>Presence in a group smaller than the threshold set forth in <code-cite doc="D.C. Code" path="§2-1542.01|(a)|(2)|(C)">section 3a(a)(2)(C)</code-cite>; or</text>
             </para>
             <para>
               <num>(3)</num>
-              <text>Any other factor that, standing alone, does not constitute a violation of curfew under this act or any other law.</text>
+              <text>Any other factor that, standing alone, does not constitute a violation of curfew under <code-cite doc="D.C. Code" path="2|15|III">this act</code-cite> or any other law.</text>
             </para>
           </para>
           <para>
             <num>(i)</num>
             <text>Notwithstanding subsection (h) of this section, the Metropolitan Police Department may issue verbal warnings of the start of curfew hours to minors beginning not more than 30 minutes before the start of curfew hours.</text>
           </para>
+          <annotation doc="D.C. Law 11-48" type="History" path="§3a">Sept. 20, 1995, D.C. Law 11-48, § 3a</annotation>
+          <codify:annotation history="false" path="§2-1542.01" type="Expiration of Law"><cite doc="D.C. Law 26-140" path="§3">Section 3 of D.C. Law 26-140</cite> provided that the creation of this section by <cite doc="D.C. Law 26-140" path="§2|(c)">section 2(c)</cite> of D.C. Law 26-140 shall expire on December 31, 2028.</codify:annotation>
         </section>
         <section>
+          <codify:insert path="2|15|III" after="§2-1542.01" num-value="2-1542.02" history-prefix="as added"/>
           <num>3b</num>
           <heading proof="needed">Positive youth programming during extended youth curfew zones.</heading>
           <para>
@@ -334,33 +360,41 @@
           </para>
           <para>
             <num>(e)</num>
-            <text>Notwithstanding section 4(a)(1), a minor shall not be deemed in violation of curfew hours while traveling directly to or from an event held pursuant to subsection (a) of this section; provided, that the minor does not engage in any detour or stop unrelated to such activity.</text>
+            <text>Notwithstanding <code-cite doc="D.C. Code" path="§2-1543|(a)|(1)">section 4(a)(1)</code-cite>, a minor shall not be deemed in violation of curfew hours while traveling directly to or from an event held pursuant to subsection (a) of this section; provided, that the minor does not engage in any detour or stop unrelated to such activity.</text>
           </para>
+          <annotation doc="D.C. Law 11-48" type="History" path="§3b">Sept. 20, 1995, D.C. Law 11-48, § 3b</annotation>
+          <codify:annotation history="false" path="§2-1542.02" type="Expiration of Law"><cite doc="D.C. Law 26-140" path="§3">Section 3 of D.C. Law 26-140</cite> provided that the creation of this section by <cite doc="D.C. Law 26-140" path="§2|(c)">section 2(c)</cite> of D.C. Law 26-140 shall expire on December 31, 2028.</codify:annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§2-1542.02" applicability-path="§4|(a)" action="creation of" display-template=""/>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§2-1543|(c)">
       <num>(d)</num>
       <text>Section 4(c) (D.C. Official Code § 2-1543(c)) is amended as follows:</text>
-      <para>
+      <para codify:path="(2)">
         <num>(1)</num>
         <text>Paragraph (2) is amended by striking the phrase "the nearest available Police District headquarters or substation or other area designated by the Metropolitan Police Department" and inserting the phrase "a designated place by the Metropolitan Police Department; provided, that the designated place is not a police district station or a juvenile detention center" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the nearest available Police District headquarters or substation or other area designated by the Metropolitan Police Department</find>
+          <replace>a designated place by the Metropolitan Police Department; provided, that the designated place is not a police district station or a juvenile detention center</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(2)</num>
         <text>Paragraph (3) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(3)</num>
-            <text>A minor who violates this act and is subsequently detained by the Metropolitan Police Department shall be released within a reasonable time into the custody of the minor's parent, guardian, or an adult person acting in loco parentis. If such person is not immediately available, the minor may be transported to:</text>
+            <text>A minor who violates <code-cite doc="D.C. Code" path="2|15|III">this act</code-cite> and is subsequently detained by the Metropolitan Police Department shall be released within a reasonable time into the custody of the minor's parent, guardian, or an adult person acting in loco parentis. If such person is not immediately available, the minor may be transported to:</text>
             <para>
               <num>(A)</num>
               <text>The minor's residence;</text>
             </para>
             <para>
               <num>(B)</num>
-              <text>Any youth programming event established under section 3b;</text>
+              <text>Any youth programming event established under <code-cite doc="D.C. Code" path="§2-1542.02">section 3b</code-cite>;</text>
             </para>
             <para>
               <num>(C)</num>
@@ -378,6 +412,8 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:annotation history="false" path="§2-1543" type="Expiration of Law"><cite doc="D.C. Law 26-140" path="§3">Section 3 of D.C. Law 26-140</cite> provided that the amendments to this section by <cite doc="D.C. Law 26-140" path="§2|(d)">section 2(d)</cite> of D.C. Law 26-140 shall expire on December 31, 2028.</codify:annotation>
+      <codify:not-funded-anno doc="D.C. Code" path="§2-1543" applicability-path="§4|(a)" action="amendment to" display-template=""/>
     </para>
   </section>
   <section>
@@ -391,6 +427,8 @@
     <para>
       <num>(a)</num>
       <text>Amendatory section 3b within section 2(c) and section 2(d) shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-140" path="§2|(c)|includes|3b" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-140" path="§2|(d)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
