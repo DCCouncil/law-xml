@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-142">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-142" codify:doc="D.C. Code">
   <num type="law">26-142</num>
   <num type="bill">26-226</num>
   <num type="act">26-320</num>
@@ -23,19 +23,26 @@
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Place-Based Substance Use Disorder Outreach Amendment Act of 2026".</text>
   <section>
+    <codify:insert doc="D.C. Code" path="7|11C" after="II" history="false">
+      <container>
+        <prefix>Subchapter</prefix>
+        <num>III</num>
+        <heading>Place-Based Substance Use Disorder Outreach Program.</heading>
+      </container>
+    </codify:insert>
     <num>2</num>
     <text>The Department of Behavioral Health Establishment Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 7-1141.01 <em>et seq</em>.), is amended by adding a new Part C to read as follows:</text>
     <include>
       <container>
-        <prefix>PART</prefix>
-        <num>C</num>
+        <prefix>PART C</prefix>
         <heading/>
         <section>
+          <codify:insert path="III" num-value="7-1143.01" history-prefix="as added"/>
           <num>5120d</num>
           <heading proof="needed">Definitions.</heading>
           <para>
             <num undesignated="true">(a)</num>
-            <text>For the purposes of this part, the term:</text>
+            <text>For the purposes of <code-cite doc="D.C. Code" path="7|11C|III">this part</code-cite>, the term:</text>
             <para>
               <num>(1)</num>
               <text>"Direct support" means behavioral health crises assessment and intervention services.</text>
@@ -53,8 +60,11 @@
               <text>"Resource brokering" means assistance with accessing supportive services and public benefits, including housing, food, Medicaid, Social Security Income or Social Security Disability Insurance, and transportation services needed to access primary and behavioral health care.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 20-61" type="History" path="§5120d">Dec. 24, 2013, D.C. Law 20-61, § 5120d</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§7-1143.01" applicability-path="§3" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="III" after="§7-1143.01" num-value="7-1143.02" history-prefix="as added"/>
           <num>5120e</num>
           <heading proof="needed">Establishment of the Place-Based Substance Use Disorder Outreach Program.</heading>
           <para>
@@ -122,7 +132,7 @@
           </para>
           <para>
             <num>(e)</num>
-            <text>Beginning 6 months after this part is applicable, and annually thereafter, the Department shall publish program performance data, for each designated high-need area, on a publicly accessible website and report that includes:</text>
+            <text>Beginning 6 months after <code-cite doc="D.C. Code" path="7|11C|III">this part</code-cite> is applicable, and annually thereafter, the Department shall publish program performance data, for each designated high-need area, on a publicly accessible website and report that includes:</text>
             <para>
               <num>(1)</num>
               <text>Program performance metrics, broken down by location, including the:</text>
@@ -232,6 +242,8 @@
               <text>Any other agency the Department deems appropriate.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 20-61" type="History" path="§5120e">Dec. 24, 2013, D.C. Law 20-61, § 5120e</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§7-1143.02" applicability-path="§3" action="creation of" display-template=""/>
         </section>
       </container>
     </include>
@@ -243,6 +255,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-142" path="§2" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
