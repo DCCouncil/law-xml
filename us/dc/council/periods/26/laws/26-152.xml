@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-152">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-152" codify:doc="D.C. Code">
   <num type="law">26-152</num>
   <num type="bill">26-227</num>
   <num type="act">26-341</num>
@@ -25,11 +25,12 @@
   <section>
     <num>2</num>
     <text>The Construction Codes Approval and Amendments Act of 1986, effective March 21, 1987 (D.C. Law 6-216; D.C. Official Code § 6-1401 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§6-1401">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 6-1401) is amended by adding a new paragraph (10A) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(10)" num-value="(10A)"/>
           <num>(10A)</num>
           <text>"Multifamily residential building" means a building containing more than 2 dwelling units where the occupants are primarily permanent in nature.</text>
         </para>
@@ -41,7 +42,8 @@
       <text>A new section 10f is added to read as follows:</text>
       <include>
         <section>
-          <num>10f</num>
+          <codify:insert path="6|14|I" after="§6-1414" num-value="6-1415" history-prefix="as added"/>
+          <num codify:value="6-1415">10f</num>
           <heading proof="needed">Single staircase multifamily residential buildings.</heading>
           <para>
             <num>(a)</num>
@@ -78,6 +80,7 @@
             <num>(c)</num>
             <text>The considerations set forth in subsection (b) of this section shall not be construed to limit the Department's authority to promulgate or amend rules regarding multifamily residential buildings after satisfying the requirements set forth in subsection (a) of this section.</text>
           </para>
+          <annotation doc="D.C. Law 6-216" type="History" path="§10f">Mar. 21, 1987, D.C. Law 6-216, § 10f</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
