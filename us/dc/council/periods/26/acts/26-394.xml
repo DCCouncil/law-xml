@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-394">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-394" codify:doc="D.C. Code">
   <num type="act">26-394</num>
   <num type="bill">26-767</num>
   <heading type="short">Net Zero Continuity Emergency Amendment Act of 2026</heading>
@@ -22,14 +22,15 @@
   <section>
     <num>2</num>
     <text>The Green Building Act of 2006, effective March 8, 2007 (D.C. Law 16-234; D.C. Official Code § 6-1451.01 <em>et seq</em>.), is amended as follows:</text>
-    <para>
+    <para codify:path="§6-1451.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 6-1451.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(1)</num>
             <text>"Addition" shall have the meaning ascribed to it in the Building Codes.</text>
           </para>
@@ -39,12 +40,16 @@
       <para>
         <num>(2)</num>
         <text>The existing paragraph (2A) is redesignated as paragraph (2B).</text>
+        <codify:replace path="(2A)|num">
+          <num>(2B)</num>
+        </codify:replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (2A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(2)" num-value="(2A)"/>
             <num>(2A)</num>
             <text>"Aquatic center" means a structure intended for swimming or recreational bathing that contains water over 24 inches deep and includes the pool, decks, and surrounding structure, locker rooms, electrical and mechanical rooms, and IT controls that support the pool.</text>
           </para>
@@ -56,6 +61,7 @@
         <text>A new paragraph (3A) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(3)" num-value="(3A)"/>
             <num>(3A)</num>
             <text>"Building Codes" means the portions of the Construction Codes designated as the Building Code, the Energy Conservation Code, and the Existing Building Code.</text>
           </para>
@@ -67,10 +73,12 @@
         <text>Paragraphs (6) and (7) are amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace path="(6)"/>
             <num>(6)</num>
-            <text>"Construction Codes" shall have the same meaning as in section 2(2) of the Construction Codes Approval and Amendments Act of 1986, effective March 21, 1987 (D.C. Law 6-216; D.C. Official Code § 6-1401(2)).</text>
+            <text>"Construction Codes" shall have the same meaning as in <code-cite doc="D.C. Code" path="§6-1401|(2)">section 2(2) of the Construction Codes Approval and Amendments Act of 1986, effective March 21, 1987 (D.C. Law 6-216; D.C. Official Code § 6-1401(2))</code-cite>.</text>
           </para>
           <para>
+            <codify:replace path="(7)"/>
             <num>(7)</num>
             <text>"Construction documents" shall have the meaning ascribed to it in the Building Codes.</text>
           </para>
@@ -80,23 +88,26 @@
       <para>
         <num>(6)</num>
         <text>Paragraph (8) is repealed.</text>
+        <codify:repeal path="(8)"/>
       </para>
-      <para>
+      <para codify:path="(14)">
         <num>(7)</num>
         <text>Paragraph (14) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(14)</num>
             <text>"Existing building" shall have the meaning ascribed to it in the Building Codes.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(22)">
         <num>(8)</num>
         <text>Paragraph (22) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(22)</num>
             <text>"Gross floor area" shall have the meaning ascribed to it in the Building Codes.</text>
           </para>
@@ -108,6 +119,7 @@
         <text>A new paragraph (31B) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(31A)" num-value="(31B)"/>
             <num>(31B)</num>
             <text>"Level 3 alteration" shall have the meaning ascribed to it in the Building Codes.</text>
           </para>
@@ -119,17 +131,19 @@
         <text>A new paragraph (32C) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(32B)" num-value="(32C)"/>
             <num>(32C)</num>
             <text>"Natatorium" means a building or complex housing one or more indoor pools featuring HVAC and humidity controls to manage the environment.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(40A)">
         <num>(11)</num>
         <text>Paragraph (40A) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(40A)</num>
             <text>"Temporary building" means a:</text>
             <para>
@@ -144,29 +158,43 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§6-1451.01"/>
+      <codify:insert doc="D.C. Code" path="§6-1451.01" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 28, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§6-1451.01(Perm)">Past Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§6-1451.02|(a)">
       <num>(b)</num>
       <text>Section 3(a) (D.C. Official Code § 6-1451.02(a)) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>The lead-in language of paragraph (1) is amended by striking the phrase "substantial improvement" and inserting the phrase "Level 3 alterations" in its place.</text>
+        <codify:find-replace count="1">
+          <find>substantial improvement</find>
+          <replace>Level 3 alterations</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(2)</num>
         <text>Paragraph (2) is amended as follows:</text>
-        <para>
+        <para codify:path="(C)">
           <num>(A)</num>
-          <text>Subparagraph (C) is amended by striking the phrase "; and" and</text>
-          <text>inserting a semicolon in its place.</text>
+          <text>Subparagraph (C) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(D)">
           <num>(B)</num>
           <text>Subparagraph (D) is amended to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:replace/>
               <num>(D)</num>
-              <text>Be built to comply with the net-zero-energy standard, as defined in section 2(a)(3) of the Clean Energy DC Building Code Amendment Act of 2022, effective September 21, 2022 (D.C. Law 24-177; D.C. Official Code § 6-1453.01(a)(3)) ("Clean Energy DC Building Act"), unless the project is for the construction of:</text>
+              <text>Be built to comply with the net-zero-energy standard, as defined in <code-cite doc="D.C. Code" path="§6-1453.01|(a)|(3)">section 2(a)(3) of the Clean Energy DC Building Code Amendment Act of 2022, effective September 21, 2022 (D.C. Law 24-177; D.C. Official Code § 6-1453.01(a)(3)) ("Clean Energy DC Building Act")</code-cite>, unless the project is for the construction of:</text>
               <para>
                 <num>(i)</num>
                 <text>A temporary building;</text>
@@ -177,11 +205,11 @@
               </para>
               <para>
                 <num>(iii)</num>
-                <text>A police, fire, emergency response, or Office of Unified Communications facility; except, that the facility need not comply with energy conservation and obtainment standards otherwise required by section 2(a)(3)(A) and (B) of the Clean Energy DC Building Act (D.C. Official Code § 6-1453.01(a)(3)(A) and (B)), until the effective date of the final regulations issued by the Mayor pursuant to section 2(b)(1) of the Clean Energy DC Building Act (D.C. Official Code § 6-1453.01(b)(1));</text>
+                <text>A police, fire, emergency response, or Office of Unified Communications facility; except, that the facility need not comply with energy conservation and obtainment standards otherwise required by <code-cite doc="D.C. Code" path="§6-1453.01|(a)|(3)|(A)">section 2(a)(3)(A)</code-cite> and <code-cite doc="D.C. Code" path="§6-1453.01|(a)|(3)|(B)" codify:value="(B)">(B) of the Clean Energy DC Building Act (D.C. Official Code § 6-1453.01(a)(3)(A) and (B))</code-cite>, until the effective date of the final regulations issued by the Mayor pursuant to <code-cite doc="D.C. Code" path="§6-1453.01|(b)|(1)">section 2(b)(1) of the Clean Energy DC Building Act (D.C. Official Code § 6-1453.01(b)(1))</code-cite>;</text>
               </para>
               <para>
                 <num>(iv)</num>
-                <text>A natatorium; except, that the aquatics center in which the natatorium is located need not comply with energy conservation and obtainment standards otherwise required by section 2(a)(3)(A) and(B) of the Clean Energy DC Building Code Act (D.C. Official Code § 6-1453.01(a)(3)(A) and(B)), until the effective date of the final regulations issued by the Mayor pursuant to section 2(b)(1) of the Clean Energy DC Building Code Act (D.C. Official Code § 6-1453.01(b)(1)); or</text>
+                <text>A natatorium; except, that the aquatics center in which the natatorium is located need not comply with energy conservation and obtainment standards otherwise required by <code-cite doc="D.C. Code" path="§6-1453.01|(a)|(3)|(A)">section 2(a)(3)(A)</code-cite> and <code-cite doc="D.C. Code" path="§6-1453.01|(a)|(3)|(B)" codify:value="(B)">(B) of the Clean Energy DC Building Code Act (D.C. Official Code § 6-1453.01(a)(3)(A) and(B))</code-cite>, until the effective date of the final regulations issued by the Mayor pursuant to <code-cite doc="D.C. Code" path="§6-1453.01|(b)|(1)">section 2(b)(1) of the Clean Energy DC Building Code Act (D.C. Official Code § 6-1453.01(b)(1))</code-cite>; or</text>
               </para>
               <para>
                 <num>(v)</num>
@@ -196,50 +224,71 @@
           <text>A new subparagraph (E) is added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert after="(D)" num-value="(E)"/>
               <num>(E)</num>
-              <text>Be built to comply with section 2(a)(3)(D) of the Clean Energy DC Building Code Act (D.C. Official Code § 6-1453.01(a)(3)(D)).</text>
+              <text>Be built to comply with <code-cite doc="D.C. Code" path="§6-1453.01|(a)|(3)|(D)">section 2(a)(3)(D) of the Clean Energy DC Building Code Act (D.C. Official Code § 6-1453.01(a)(3)(D))</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(3)</num>
         <text>Paragraph (3) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "If a residential project includes" and inserting the phrase "If a residential project is for new construction and includes" in its place.</text>
+          <codify:find-replace count="1">
+            <find>If a residential project includes</find>
+            <replace>If a residential project is for new construction and includes</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(A)">
           <num>(B)</num>
           <text>Subparagraph (A) is amended to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:replace/>
               <num>(A)</num>
-              <text>Be built to comply with the net-zero-energy standard; except, that a project need not comply with the renewable energy requirements otherwise required by section 2(a)(3)(A), (B), and (C) of the Clean Energy DC Building Act (D.C. Official Code § 6-1453.01(a)(3)(A), (B), and (C)), until the effective date of the final regulations issued by the Mayor pursuant to section 2(b)(1) of the Clean Energy DC Building Act (D.C. Official Code § 6-1453.01(b)(1)); and</text>
+              <text>Be built to comply with the net-zero-energy standard; except, that a project need not comply with the renewable energy requirements otherwise required by <code-cite doc="D.C. Code" path="§6-1453.01|(a)|(3)|(A)">section 2(a)(3)(A)</code-cite>, <code-cite doc="D.C. Code" path="§6-1453.01|(a)|(3)|(B)" codify:value="(B)">(B)</code-cite>, and <code-cite doc="D.C. Code" path="§6-1453.01|(a)|(3)|(C)" codify:value="(C)">(C) of the Clean Energy DC Building Act (D.C. Official Code § 6-1453.01(a)(3)(A), (B), and (C))</code-cite>, until the effective date of the final regulations issued by the Mayor pursuant to <code-cite doc="D.C. Code" path="§6-1453.01|(b)|(1)">section 2(b)(1) of the Clean Energy DC Building Act (D.C. Official Code § 6-1453.01(b)(1))</code-cite>; and</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(B)">
           <num>(C)</num>
           <text>Subparagraph (B) is amended by striking the acronym "DCRA" and inserting the acronym "DOB" in its place.</text>
+          <codify:find-replace count="1">
+            <find>DCRA</find>
+            <replace>DOB</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(D)</num>
           <text>Subparagraph (C) is repealed.</text>
+          <codify:repeal path="(C)"/>
         </para>
       </para>
-      <para>
+      <para codify:path="(6)">
         <num>(4)</num>
         <text>Paragraph (6) is amended by striking the phrase "maintain net-zero-energy compliance" and inserting the phrase "shall be built to comply with the net-zero-energy-standard" in its place.</text>
+        <codify:find-replace count="1">
+          <find>maintain net zero energy compliance</find>
+          <replace>be built to comply with the net-zero-energy-standard</replace>
+        </codify:find-replace>
       </para>
+      <codify:emergency doc="D.C. Code" path="§6-1451.02"/>
+      <codify:insert doc="D.C. Code" path="§6-1451.02" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 28, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§6-1451.02(Perm)">Past Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
-  <section>
+  <section codify:path="§6-1453.01">
     <num>3</num>
     <text>Section 2 of the Clean Energy DC Building Code Amendment Act of 2022, effective September 21, 2022 (D.C. Law 24-177; D.C. Official Code § 6-1453.01), is amended as follows:</text>
-    <para>
+    <para codify:path="(a)">
       <num>(a)</num>
       <text>Subsection (a) is amended as follows:</text>
       <para>
@@ -247,24 +296,30 @@
         <text>A new paragraph (2A) is added to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:insert after="(2)" num-value="(2A)"/>
             <num>(2A)</num>
             <text>"Level 3 alteration" shall have the same meaning ascribed to it in the Building Codes.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(2)</num>
         <text>Paragraph (3) is amended as follows:</text>
-        <para>
+        <para codify:path="(A)">
           <num>(A)</num>
           <text>Subparagraph (A) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(B)">
           <num>(B)</num>
           <text>Subparagraph (B) is amended to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:replace/>
               <num>(B)</num>
               <text>A building obtains energy from renewable energy sources in the amount that would be required by the most recent version of Appendix Z;</text>
             </para>
@@ -276,10 +331,12 @@
           <text>New subparagraphs (C) and (D) are added to read as follows:</text>
           <include lvl="2">
             <para>
+              <codify:insert after="(B)" num-value="(C)"/>
               <num>(C)</num>
               <text>Renewable energy shall be generated at the building site wherever feasible; and".</text>
             </para>
             <para>
+              <codify:insert after="(C)" num-value="(D)"/>
               <num>(D)</num>
               <text>On-site fuel combustion shall not be permitted for the provision of thermal energy to the building except for backup power generation.</text>
             </para>
@@ -288,30 +345,32 @@
         </para>
       </para>
     </para>
-    <para>
+    <para codify:path="(b)">
       <num>(b)</num>
       <text>Subsection (b) is amended as follows:</text>
-      <para>
+      <para codify:path="(1)">
         <num>(1)</num>
         <text>Paragraph (1) is amended to read as follows:</text>
         <include>
           <para>
             <num>(b)</num>
             <para>
+              <codify:replace/>
               <num>(1)</num>
-              <text>By December 31, 2027, the Mayor, pursuant to pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue final regulations requiring all new construction or Level 3 alterations to covered buildings to be constructed to a net-zero-energy standard.</text>
+              <text>By December 31, 2027, the Mayor, pursuant to pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue final regulations requiring all new construction or Level 3 alterations to covered buildings to be constructed to a net-zero-energy standard.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(2)</num>
         <text>Paragraph (2) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(2)</num>
-            <text>By December 31, 2026, the Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue final regulations prohibiting the use of on-site fuel combustion for the provision of thermal energy for all new construction of covered buildings and additions greater than 10,000 square feet to covered buildings.</text>
+            <text>By December 31, 2026, the Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue final regulations prohibiting the use of on-site fuel combustion for the provision of thermal energy for all new construction of covered buildings and additions greater than 10,000 square feet to covered buildings.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
@@ -321,10 +380,12 @@
         <text>New paragraphs (3) and (4) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(2)" num-value="(3)"/>
             <num>(3)</num>
             <text>No permit application for new construction of covered buildings or an addition greater than 10,000 square feet to covered buildings submitted after December 31, 2026, shall be approved if the building or addition design provides for the use of on-site fuel combustion for the provision of thermal energy for space heating and water heating.</text>
           </para>
           <para>
+            <codify:insert after="(3)" num-value="(4)"/>
             <num>(4)</num>
             <text>Notwithstanding any other provision of law, no building permit application for new construction of covered buildings, an addition greater than 10,000 square feet to covered buildings, or Level 3 alteration to covered buildings submitted after December 31, 2026, shall be approved unless the building design is such that the building conserves an amount of energy attributable to building operation that is equal to or greater than the amount that would be conserved if such building complied with the 2024 International Energy Conservation Code.</text>
           </para>
@@ -332,10 +393,20 @@
         <aftertext>.</aftertext>
       </para>
     </para>
-    <para>
+    <para codify:path="(c)|(1)">
       <num>(c)</num>
       <text>Subsection (c)(1) is amended by striking the phrase "newly constructed or substantially improved covered buildings" and inserting the phrase "covered buildings that were newly constructed or underwent Level 3 alterations" in its place.</text>
+      <codify:find-replace count="1">
+        <find>newly constructed or substantially improved covered buildings</find>
+        <replace>covered buildings that were newly constructed or underwent Level 3 alterations</replace>
+      </codify:find-replace>
     </para>
+    <codify:emergency doc="D.C. Code" path="§6-1453.01"/>
+    <codify:insert doc="D.C. Code" path="§6-1453.01" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 28, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§6-1453.01(Perm)">Past Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>4</num>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-391">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-391" codify:doc="D.C. Code">
   <num type="act">26-391</num>
   <num type="bill">26-759</num>
   <heading type="short">Medical Cannabis Licensing and Unlicensed Establishment Enforcement Clarification Emergency Amendment Act of 2026</heading>
@@ -22,7 +22,7 @@
   <section>
     <num>2</num>
     <text>The Legalization of Marijuana for Medical Treatment Initiative of 1999, effective July 27, 2010 (D.C. Law 18-210; D.C. Official Code § 7-1671.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§7-1671.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 7-1671.01) is amended as follows:</text>
       <para>
@@ -30,6 +30,7 @@
         <text>A new paragraph (2B) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(2A)" num-value="(2B)"/>
             <num>(2B)</num>
             <text>"Cannabis product" means a product derived from or composed of cannabis, in part or in whole.</text>
           </para>
@@ -40,15 +41,20 @@
         <num>(2)</num>
         <text>A new paragraph (20B-i) is added to read as follows:</text>
         <include lvl="1">
-          <text>(20B-i) "Schedule I substance" means a controlled substance listed in section 204 of the District of Columbia Uniform Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Official Code § 48-902.04), or rules implementing that section.</text>
+          <para>
+            <codify:insert after="(20B)" num-value="(20B-i)"/>
+            <num>(20B-i)</num>
+            <text>"Schedule I substance" means a controlled substance listed in <code-cite doc="D.C. Code" path="§48-902.04">section 204 of the District of Columbia Uniform Controlled Substances Act of 1981, effective August 5, 1981 (D.C. Law 4-29; D.C. Official Code § 48-902.04)</code-cite>, or rules implementing that section.</text>
+          </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(22)">
         <num>(3)</num>
         <text>Paragraph (22) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(22)</num>
             <text>"Unlicensed establishment" means:</text>
             <para>
@@ -69,7 +75,7 @@
             </para>
             <para>
               <num>(B)</num>
-              <text>For purposes of section 9(c-1), (g), (h), and (i), a sole proprietorship, partnership, or other business entity that:</text>
+              <text>For purposes of <code-cite doc="D.C. Code" path="§7-1671.08|(c-1)">section 9(c-1)</code-cite>, <cite doc="D.C. Code" path="§7-1671.08|(g)">(g)</cite>, <cite doc="D.C. Code" path="§7-1671.08|(h)">(h)</cite>, and <cite doc="D.C. Code" path="§7-1671.08|(i)">(i)</cite>, a sole proprietorship, partnership, or other business entity that:</text>
               <para>
                 <num>(i)</num>
                 <text>Sells, exchanges as part of a commercial transaction, or delivers Schedule I substances or products that contain Schedule I substances; and</text>
@@ -83,65 +89,94 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§7-1671.01"/>
+      <codify:insert doc="D.C. Code" path="§7-1671.01" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 28, 2026. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§7-1671.01(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§7-1671.06">
       <num>(b)</num>
       <text>Section 7 (D.C. Official Code § 7-1671.06) is amended as follows:</text>
-      <para>
+      <para codify:path="(k)">
         <num>(1)</num>
         <text>Subsection (k) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended by striking the phrase "a 2-year conditional license" and inserting the phrase "a conditional license valid for up to 3 years" in its place.</text>
+          <codify:find-replace count="1">
+            <find>a 2-year conditional license</find>
+            <replace>a conditional license valid for up to 3 years</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>The lead-in language is amended by striking the phrase "shall have 2 years from the date of ABC Board approval" and inserting the phrase "shall have until the end of the term of the conditional license" in its place.</text>
+            <codify:find-replace count="1">
+              <find>shall have 2 years from the date of ABC Board approval</find>
+              <replace>shall have until the end of the term of the conditional license</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(C)">
             <num>(ii)</num>
             <text>Subparagraph (C) is amended by striking the phrase "certificate of occupancy" and inserting the phrase "zoning certificate or certificate of occupancy" in its place.</text>
+            <codify:find-replace count="1">
+              <find>certificate of occupancy</find>
+              <replace>zoning certificate or certificate of occupancy</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(C)</num>
           <text>Paragraph (3) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(3)</num>
               <text>The holder of a conditional license shall not engage in purchasing, possessing, cultivating, manufacturing, or selling of medical cannabis, cannabis products, or Schedule I substances.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(D)</num>
           <text>Paragraph (4) is amended by striking the phrase "after a period of 2 years" and inserting the phrase "before the end of the term of the conditional license" in its place.</text>
+          <codify:find-replace count="1">
+            <find>after a period of 2 years</find>
+            <replace>before the end of the term of the conditional license</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(k-1)">
         <num>(2)</num>
         <text>Subsection (k-1) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(k-1)</num>
             <text>A one-year conditional license that was in effect as of December 17, 2024, and that automatically converted to a 2-year conditional license, shall automatically convert to a 3-year conditional license, expiring 2 years after the date the original conditional license was set to expire, at no additional cost and without additional ABC Board approval.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(l)">
         <num>(3)</num>
         <text>Subsection (l) is amended by striking the phrase "A one-year conditional license" and inserting the phrase "A conditional license" in its place.</text>
+        <codify:find-replace count="1">
+          <find>A one-year conditional license</find>
+          <replace>A conditional license</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(q)">
         <num>(4)</num>
         <text>Subsection (q) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(q)</num>
             <para>
               <num>(1)</num>
@@ -151,7 +186,7 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>Notwithstanding subparagraph (A) of this paragraph, an unlicensed establishment license holder or applicant that applied for a retailer or internet retailer license during the 90-calendar-day open application period set forth in section 7a(a)(1) shall be permitted to locate within 300 feet of a preschool, primary or secondary school, or recreation center where the main entrance to the preschool, primary school or secondary school, or recreation center is actually on or occupies ground zoned commercial or industrial according to the official atlases of the Zoning Commission of the District of Columbia.</text>
+                <text>Notwithstanding subparagraph (A) of this paragraph, an unlicensed establishment license holder or applicant that applied for a retailer or internet retailer license during the 90-calendar-day open application period set forth in <code-cite doc="D.C. Code" path="§7-1671.06a|(a)|(1)">section 7a(a)(1)</code-cite> shall be permitted to locate within 300 feet of a preschool, primary or secondary school, or recreation center where the main entrance to the preschool, primary school or secondary school, or recreation center is actually on or occupies ground zoned commercial or industrial according to the official atlases of the Zoning Commission of the District of Columbia.</text>
               </para>
             </para>
             <para>
@@ -162,49 +197,77 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§7-1671.06"/>
+      <codify:insert doc="D.C. Code" path="§7-1671.06" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 28, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§7-1671.06(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§7-1671.06b">
       <num>(c)</num>
       <text>Section 7b (D.C. Official Code § 7-1671.06b) is amended by adding a new subsection (a-1) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(a)" num-value="(a-1)"/>
           <num>(a-1)</num>
-          <text>Notwithstanding any other provision of this section, an unlicensed establishment may be summarily closed and padlocked, without a prior hearing, pursuant to section 9(g) after April 1, 2025, if, after an inspection, ABCA determines that the unlicensed establishment presents an imminent danger to the health or safety of the public as described in section 9(g)(2).</text>
+          <text>Notwithstanding any other provision of this section, an unlicensed establishment may be summarily closed and padlocked, without a prior hearing, pursuant to <code-cite doc="D.C. Code" path="§7-1671.08|(g)">section 9(g)</code-cite> after April 1, 2025, if, after an inspection, ABCA determines that the unlicensed establishment presents an imminent danger to the health or safety of the public as described in <code-cite doc="D.C. Code" path="§7-1671.08|(g)|(2)">section 9(g)(2)</code-cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:emergency doc="D.C. Code" path="§7-1671.06b"/>
+      <codify:insert doc="D.C. Code" path="§7-1671.06b" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 28, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§7-1671.06b(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§7-1671.08">
       <num>(d)</num>
       <text>Section 9 (D.C. Official Code § 7-1671.08) is amended as follows:</text>
-      <para>
+      <para codify:path="(b)">
         <num>(1)</num>
         <text>Subsection (b) is amended by redesignating the second paragraph (1) as paragraph (2).</text>
+        <codify:find-replace count="1">
+          <find>[(2)]</find>
+          <replace>(2)</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>A new subsection (c-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(c)" num-value="(c-1)"/>
             <num>(c-1)</num>
-            <text>It shall be a violation of this act for a licensed establishment or an unlicensed establishment, regardless of whether the unlicensed establishment has an application pending before the ABC Board, to sell, exchange as part of a commercial transaction, or deliver Schedule I substances or products that contain Schedule I substances.</text>
+            <text>It shall be a violation of <code-cite doc="D.C. Code" path="7|16B">this act</code-cite> for a licensed establishment or an unlicensed establishment, regardless of whether the unlicensed establishment has an application pending before the ABC Board, to sell, exchange as part of a commercial transaction, or deliver Schedule I substances or products that contain Schedule I substances.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(g)">
         <num>(3)</num>
         <text>Subsection (g) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended as follows:</text>
           <para>
             <num>(i)</num>
             <text>Strike the phrase "this title" and insert the phrase "this act" in its place.</text>
+            <codify:find-replace count="1">
+              <find>this title</find>
+              <replace>
+                <code-cite doc="D.C. Code" path="7|16B">this act</code-cite>
+              </replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>Strike the phrase "cannabis and cannabis products" and insert the phrase "cannabis, cannabis products, Schedule I substances, or products that contain Schedule I substances" in its place.</text>
+            <codify:find-replace count="1">
+              <find>cannabis and cannabis products</find>
+              <replace>cannabis, cannabis products, Schedule I substances, or products that contain Schedule I substances</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -212,6 +275,7 @@
           <text>A new paragraph (6) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(5)" num-value="(6)"/>
               <num>(6)</num>
               <text>The ABC Board may continue the summary closure, padlocking of the premises, and seizure of cannabis, cannabis products, Schedule I substances, and products containing Schedule I substances until the imminent danger that triggered the summary closure is abated. Even if the imminent danger that triggered the summary closure is abated, the ABC Board may continue the summary closure, the padlocking of the premises, and the seizure of cannabis, cannabis products, Schedule I substances, and products containing Schedule I substances, if the ABC Board determines, in its reasonable judgment, the imminent danger is likely to recur.</text>
             </para>
@@ -224,6 +288,7 @@
         <text>A new subsection (g-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(g)" num-value="(g-1)"/>
             <num>(g-1)</num>
             <para>
               <num>(1)</num>
@@ -249,35 +314,41 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(h)">
         <num>(5)</num>
         <text>Subsection (h) is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(A)</num>
           <text>Paragraph (1) is amended to read as follows:</text>
           <include>
             <para>
               <num>(h)</num>
               <para>
+                <codify:replace/>
                 <num>(1)</num>
-                <text>ABCA or the Metropolitan Police Department may post signage at the site of the unlicensed establishment or licensed establishment indicating that activity that violates this act has been found to have occurred at the establishment.</text>
+                <text>ABCA or the Metropolitan Police Department may post signage at the site of the unlicensed establishment or licensed establishment indicating that activity that violates <code-cite doc="D.C. Code" path="7|16B">this act</code-cite> has been found to have occurred at the establishment.</text>
               </para>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "unlicensed establishment" and inserting the phrase "unlicensed establishment or licensed establishment" in its place.</text>
+          <codify:find-replace count="1">
+            <find>unlicensed establishment</find>
+            <replace>unlicensed establishment or licensed establishment</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(i)|(1)">
         <num>(6)</num>
         <text>Subsection (i)(1) is amended to read as follows:</text>
         <include>
           <para>
             <num>(i)</num>
             <para>
+              <codify:replace/>
               <num>(1)</num>
               <text>An ABCA investigator may test cannabis and cannabis products found at a licensed establishment or unlicensed establishment to quantify their THC content and may, to the extent the investigator has probable cause to do so, test other substances and products found at a licensed establishment or unlicensed establishment for the presence and quantity of a Schedule I substance.</text>
             </para>
@@ -285,6 +356,12 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:emergency doc="D.C. Code" path="§7-1671.08"/>
+      <codify:insert doc="D.C. Code" path="§7-1671.08" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 28, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§7-1671.08(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
   <section>

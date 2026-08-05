@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-393">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-393" codify:doc="D.C. Code">
   <num type="act">26-393</num>
   <num type="bill">26-765</num>
   <heading type="short">Restoration of Covenanted Roads and Alleys by the District Government Clarification Emergency Amendment Act of 2026</heading>
@@ -19,19 +19,27 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Restoration of Covenanted Roads and Alleys by the District Government Clarification Emergency Amendment Act of 2026".</text>
-  <section>
+  <section codify:path="§9-401.19">
     <num>2</num>
     <text>Section 2 of the Restoration of Covenanted Roads and Alleys by the District Government Act of 2024, effective March 28, 2025 (D.C. Law 25-320; D.C. Official Code § 9-401.19), is amended as follows:</text>
-    <para>
+    <para codify:path="(c)">
       <num>(a)</num>
       <text>Subsection (c) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The lead-in language is amended by striking the phrase "this section" and inserting the phrase "subsection (a) of this section" in its place.</text>
+        <codify:find-replace count="1">
+          <find>this section</find>
+          <replace>subsection (a) of this section</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(2)</num>
         <text>Paragraph (2) is amended by striking the phrase ", and impose such other conditions as the Mayor deems appropriate." and inserting the phrase "as the Mayor deems appropriate." in its place.</text>
+        <codify:find-replace count="1">
+          <find>, and impose such other conditions as the Mayor deems appropriate.</find>
+          <replace> as the Mayor deems appropriate.</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -39,6 +47,7 @@
       <text>New subsections (e) and (f) are added to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(d)" num-value="(e)"/>
           <num>(e)</num>
           <para>
             <num>(1)</num>
@@ -74,12 +83,19 @@
           </para>
         </para>
         <para>
+          <codify:insert after="(e)" num-value="(f)"/>
           <num>(f)</num>
           <text>As a condition of repairing or restoring a private right-of-way under this section, the Mayor may impose such terms and conditions as the Mayor deems appropriate.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:emergency doc="D.C. Code" path="§9-401.19"/>
+    <codify:insert doc="D.C. Code" path="§9-401.19" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on October 28, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§9-401.19(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>3</num>
