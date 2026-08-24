@@ -1,14 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-353">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-166" codify:doc="D.C. Code">
+  <num type="law">26-166</num>
   <num type="act">26-353</num>
   <num type="bill">26-682</num>
   <heading type="short">Reservoir District Tax Exemption Temporary Amendment Act of 2026</heading>
   <heading type="long">To amend, on a temporary basis, Chapter 46 of Title 47 of the District of Columba Official Code to designate the property as affordable housing for which Fair Market Rents, as calculated by the United States Department of Housing and Urban Development, apply.</heading>
   <meta>
     <introduced>2026-05-04</introduced>
-    <effective projected="true">2026-09-04</effective>
+    <effective>2026-08-14</effective>
     <temporary/>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/61797/Signed_Act/B26-0682-Signed_Act.pdf?Id=241850">D.C. Law 26-166</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/61797/Signed_Act/B26-0682-Signed_Act.pdf?Id=241850">D.C. Act 26-353</citation>
       <citation type="register">73 DCR 9220</citation>
     </citations>
@@ -27,21 +29,36 @@
     <para>
       <num>(a)</num>
       <text>Section 47-4683 is redesignated as section 47-4684.</text>
+      <codify:find-replace path="§[47-4684]|num" count="1">
+        <find>[47-4684]</find>
+        <replace>47-4684</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(b)</num>
       <text>The second section 47-4682 is redesignated as section 47-4683.</text>
+      <codify:find-replace path="§[47-4683]|num" count="1">
+        <find>[47-4683]</find>
+        <replace>47-4683</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§47-4683|(b)|(2)">
       <num>(c)</num>
       <text>Section 47-4683(b)(2) is amended to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:replace/>
           <num>(2)</num>
           <text>Set aside 1/3 of the operating rental housing units in the Property as affordable as defined by 26 U.S.C. § 42(g)(2)(A). The units designated as affordable will be available to households qualifying for the 80 Percent Income Limit Category of the Multifamily Tax Subsidy Project Income Limits for the Washington-Arlington-Alexandria, DC-VA-MD HUD Metro Fair Market Rent Area as reported annually by the U.S. Department of Housing and Urban Development and made in a manner consistent with 26 U.S.C. § 142(d)(2)(B).</text>
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:temporary doc="D.C. Code" path="§47-4683"/>
+      <codify:insert doc="D.C. Code" path="§47-4683" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by temporary legislation that will expire on March 27, 2027. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§47-4683(Perm)">Past Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
   <section>
