@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-158">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-158" codify:doc="D.C. Code">
   <num type="law">26-158</num>
   <num type="act">26-345</num>
   <num type="bill">26-249</num>
@@ -25,29 +25,32 @@
   <section>
     <num>2</num>
     <text>The Nonprofit Fair Compensation Act of 2020, effective March 16, 2021 (D.C. Law 23-185; D.C. Official Code § 2-222.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§2-222.01">
       <num>(a)</num>
       <text>Section 2 (D.C. Official Code § 2-222.01) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>New paragraphs (1A) and (1B) are added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1)" num-value="(1A)"/>
             <num>(1A)</num>
             <text>"Consumer Price Index" means the average of the Consumer Price Index for All Urban Consumers for the Washington-Arlington-Alexandria, DC-MD-VA-WV Metropolitan Statistical Area (or such successor metropolitan statistical area that includes the District), or any successor index, as of the close of the 12-month period ending on July 31 of such calendar year.</text>
           </para>
           <para>
+            <codify:insert after="(1A)" num-value="(1B)"/>
             <num>(1B)</num>
             <text>"Cost estimate" means an independent government estimate solicitation or similar solicitation cost estimate.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(2)">
         <num>(2)</num>
         <text>Paragraph (2) is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(2)</num>
             <text>"Indirect cost" means:</text>
             <para>
@@ -62,30 +65,44 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§2-222.01" applicability-path="§3" action="amendment to" display-template=""/>
     </para>
-    <para>
+    <para codify:path="§2-222.02">
       <num>(b)</num>
       <text>Section 3 (D.C. Official Code § 2-222.02) is amended as follows:</text>
-      <para>
+      <para codify:path="(a)">
         <num>(1)</num>
         <text>Subsection (a) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead in language is amended by striking the phrase "indirect costs incurred in provision of goods or performance of services" and inserting the phrase "indirect costs, in addition to direct service costs and without supplanting any portion of a grant or contract awarded, incurred for the provision of goods or performance of services, provided there is funding available," in its place.</text>
+          <codify:find-replace count="1">
+            <find>indirect costs incurred in provision of goods or performance of services</find>
+            <replace>indirect costs, in addition to direct service costs and without supplanting any portion of a grant or contract awarded, incurred for the provision of goods or performance of services, provided there is funding available,</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(1)">
           <num>(B)</num>
           <text>Paragraph (1) is amended by striking the phrase "10% of all direct costs under the grant or contract" and inserting the phrase "15%, adjusted annually to reflect adjustments to the Consumer Price Index, of all direct costs under the grant or contract; provided, that an annual CPI adjustment shall not be in excess of 3% more than the de minimis rate of the previous year" in its place.</text>
+          <codify:find-replace count="1">
+            <find>10% of all direct costs under the grant or contract</find>
+            <replace>15%, adjusted annually to reflect adjustments to the Consumer Price Index, of all direct costs under the grant or contract; provided, that an annual CPI adjustment shall not be in excess of 3% more than the de minimis rate of the previous year</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(C)</num>
           <text>Paragraph (3) is amended by striking the phrase "2 years; however nonprofit organizations may request to renegotiate indirect cost rates pursuant to subsection (c) of this section;" and inserting the phrase "3 years; however, nonprofit organizations may request to renegotiate indirect cost rates with the District pursuant to paragraphs (1), (2), or (4) of this subsection or subsection (b) of this section;" in its place.</text>
+          <codify:find-replace count="1">
+            <find>2 years; however nonprofit organizations may request to renegotiate indirect cost rates pursuant to subsection (c) [(b)] of this section;</find>
+            <replace>3 years; however, nonprofit organizations may request to renegotiate indirect cost rates with the District pursuant to paragraphs (1), (2), or (4) of this subsection or subsection (b) of this section;</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(D)</num>
           <text>Paragraph (4) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(4)</num>
               <text>As calculated with a percentage rate and base amount, as determined by:</text>
               <para>
@@ -106,6 +123,7 @@
         <text>A new subsection (a-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(a)" num-value="(a-1)"/>
             <num>(a-1)</num>
             <para>
               <num>(1)</num>
@@ -138,11 +156,12 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(c)">
         <num>(3)</num>
         <text>Subsection (c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c)</num>
             <para>
               <num>(1)</num>
@@ -157,7 +176,7 @@
               </para>
               <para>
                 <num>(C)</num>
-                <text>Provides an awarding agency point of contact, email, and phone number for a grantee or contractor to communicate with regarding indirect cost rates, negotiations, or appeal processes if an organization believes the District is in violation of this act; and</text>
+                <text>Provides an awarding agency point of contact, email, and phone number for a grantee or contractor to communicate with regarding indirect cost rates, negotiations, or appeal processes if an organization believes the District is in violation of <code-cite doc="D.C. Code" path="2|2|XI-A">this act</code-cite>; and</text>
               </para>
               <para>
                 <num>(D)</num>
@@ -168,23 +187,26 @@
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(e)">
         <num>(4)</num>
         <text>Subsection (e) is repealed.</text>
+        <codify:repeal/>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§2-222.02" applicability-path="§3" action="amendment to" display-template=""/>
     </para>
     <para>
       <num>(c)</num>
       <text>New sections 3a, 3b, and 3c are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="2|2|XI-A" after="§2-222.02" num-value="2-222.02a" history-prefix="as added"/>
           <num>3a</num>
           <heading proof="needed">Implementation.</heading>
           <para>
             <num>(a)</num>
             <para>
               <num>(1)</num>
-              <text>No later than 180 business days after the applicability date of this subsection, the Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall promulgate rules for District agencies to fairly and uniformly calculate, negotiate, award, and pay indirect cost rates for nonprofit organizations receiving District grants.</text>
+              <text>No later than 180 business days after the applicability date of this subsection, the Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, shall promulgate rules for District agencies to fairly and uniformly calculate, negotiate, award, and pay indirect cost rates for nonprofit organizations receiving District grants.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -210,7 +232,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>The Mayor shall develop training sessions for subordinate agencies regarding agency compliance with the requirements of this act, which shall include:</text>
+              <text>The Mayor shall develop training sessions for subordinate agencies regarding agency compliance with the requirements of <code-cite doc="D.C. Code" path="2|2|XI-A">this act</code-cite>, which shall include:</text>
               <para>
                 <num>(A)</num>
                 <text>Explanation of costs eligible to be classified as an indirect cost;</text>
@@ -225,16 +247,19 @@
               </para>
               <para>
                 <num>(D)</num>
-                <text>Other topics deemed appropriate to ensure accurate implementation and compliance with this act.</text>
+                <text>Other topics deemed appropriate to ensure accurate implementation and compliance with <code-cite doc="D.C. Code" path="2|2|XI-A">this act</code-cite>.</text>
               </para>
             </para>
           </para>
           <para>
             <num>(d)</num>
-            <text>No later than 120 business days after the promulgation of the rules required by subsection (b) of this section, District agencies shall include plain language clauses in all grant and contract solicitations and awards to nonprofit organizations explaining their right to payment for indirect cost rates pursuant to section 3.</text>
+            <text>No later than 120 business days after the promulgation of the rules required by subsection (b) of this section, District agencies shall include plain language clauses in all grant and contract solicitations and awards to nonprofit organizations explaining their right to payment for indirect cost rates pursuant to <code-cite doc="D.C. Code" path="§2-222.02">section 3</code-cite>.</text>
           </para>
+          <annotation doc="D.C. Law 23-185" type="History" path="§3a">Mar. 16, 2021, D.C. Law 23-185, § 3a</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§2-222.02a" applicability-path="§3" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="2|2|XI-A" after="§2-222.02a" num-value="2-222.02b" history-prefix="as added"/>
           <num>3b</num>
           <heading proof="needed">Non-profit relief grantmaking.</heading>
           <para>
@@ -280,25 +305,31 @@
             <num>(c)</num>
             <text>For the purposes of this section, the term "relief grants" shall mean a grant issued by the Mayor for the purpose of strengthening a nonprofit organization's financial viability, enabling the organization to meet indirect costs when providing services to District residents and encouraging private partnership in support of meeting nonprofit general operating expenses.</text>
           </para>
+          <annotation doc="D.C. Law 23-185" type="History" path="§3b">Mar. 16, 2021, D.C. Law 23-185, § 3b</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§2-222.02b" applicability-path="§3" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="2|2|XI-A" after="§2-222.02b" num-value="2-222.02c" history-prefix="as added"/>
           <num>3c</num>
           <heading proof="needed">Rules.</heading>
-          <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), may issue rules to implement the provisions of this act.</text>
+          <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement the provisions of <code-cite doc="D.C. Code" path="2|2|XI-A">this act</code-cite>.</text>
+          <annotation doc="D.C. Law 23-185" type="History" path="§3c">Mar. 16, 2021, D.C. Law 23-185, § 3c</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§2-222.02c" applicability-path="§3" action="creation of" display-template=""/>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§2-222.03">
       <num>(d)</num>
       <text>Section 4 (D.C. Official Code § 2-222.03) is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <num>4</num>
           <heading proof="needed">Applicability.</heading>
           <para>
             <num>(a)</num>
-            <text>Section 3(a), (a-1), and (c) shall apply:</text>
+            <text><code-cite doc="D.C. Code" path="§2-222.02|(a)">Section 3(a)</code-cite>, <cite doc="D.C. Code" path="§2-222.02|(a-1)">(a-1)</cite>, and <cite doc="D.C. Code" path="§2-222.02|(c)">(c)</cite> shall apply:</text>
             <para>
               <num>(1)</num>
               <text>For grant and contract solicitations with a cost estimate at or below $500,000, beginning in Fiscal Year 2027;</text>
@@ -326,11 +357,12 @@
           </para>
           <para>
             <num>(b)</num>
-            <text>The provisions of this act shall not apply to the disbursement of business improvement district taxes pursuant to section 16 of the Business Improvement Districts Act of 1996, effective May 29, 1996 (D.C. Law 11-134; D.C. Official Code § 2-1215.15).</text>
+            <text>The provisions of <code-cite doc="D.C. Code" path="2|2|XI-A">this act</code-cite> shall not apply to the disbursement of business improvement district taxes pursuant to <code-cite doc="D.C. Code" path="§2-1215.15">section 16 of the Business Improvement Districts Act of 1996, effective May 29, 1996 (D.C. Law 11-134; D.C. Official Code § 2-1215.15)</code-cite>.</text>
           </para>
         </section>
       </include>
       <aftertext>.</aftertext>
+      <codify:not-funded-anno doc="D.C. Code" path="§2-222.03" applicability-path="§3" action="amendment to" display-template=""/>
     </para>
   </section>
   <section>
@@ -339,6 +371,10 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-158" path="§2|(a)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-158" path="§2|(b)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-158" path="§2|(c)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-158" path="§2|(d)" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

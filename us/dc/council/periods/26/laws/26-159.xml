@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-159">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-159" codify:doc="D.C. Code">
   <num type="law">26-159</num>
   <num type="act">26-346</num>
   <num type="bill">26-399</num>
@@ -22,10 +22,18 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Support, Opportunity, Unity, Legal Relationships (SOUL) Amendment Act of 2026".</text>
+  <codify:insert doc="D.C. Code" path="16|23" after="VI" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>VII</num>
+      <heading>Support, Opportunity, Unity, Legal Relationships.</heading>
+    </container>
+  </codify:insert>
   <section>
     <num>2</num>
     <text>Chapter 23 of Title 16 of the District of Columbia Code is amended as follows:</text>
     <para>
+      <!-- done below -->
       <num>(a)</num>
       <text>The table of contents is amended by adding a new subchapter designation to read as follows:</text>
       <include>
@@ -107,28 +115,38 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§16-2323|(c)">
       <num>(b)</num>
       <text>Section 16-2323(c) is amended as follows:</text>
-      <para>
+      <para codify:path="(3)">
         <num>(1)</num>
         <text>Paragraph (3) is amended by striking the phrase "; or" and inserting a semicolon in its place.</text>
+        <codify:find-replace count="1">
+          <find>; or</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(4)">
         <num>(2)</num>
         <text>Paragraph (4) is amended by striking the period and inserting the phrase "; or" in its place.</text>
+        <codify:find-replace count="1">
+          <find>.</find>
+          <replace>; or</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>A new paragraph (5) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(4)" num-value="(5)"/>
             <num>(5)</num>
-            <text>Placed with a SOUL Family, as that term is defined in § 16-2399.21.</text>
+            <text>Placed with a SOUL Family, as that term is defined in <cite doc="D.C. Code" path="§16-2399.21">§ 16-2399.21</cite>.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§16-2323" applicability-path="§4" action="amendment to" display-template=""/>
     </para>
     <para>
       <num>(c)</num>
@@ -139,19 +157,20 @@
           <num>VII</num>
           <heading>Support, Opportunity, Unity, Legal Relationships.</heading>
           <section>
+            <codify:insert path="16|23|VII" num-value="16-2399.21"/>
             <prefix>§</prefix>
             <num>16-2399.21</num>
             <heading proof="needed">Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For purposes of this subchapter, the term:</text>
+              <text>For purposes of <cite doc="D.C. Code" path="16|23|VII">this subchapter</cite>, the term:</text>
               <para>
                 <num>(1)</num>
-                <text>"Agency" means the Child and Family Services Agency, established by § 4-1303.01a, including the Child and Family Services Agency's contracted placement and service providers.</text>
+                <text>"Agency" means the Child and Family Services Agency, established by <cite doc="D.C. Code" path="§4-1303.01a">§ 4-1303.01a</cite>, including the Child and Family Services Agency's contracted placement and service providers.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>"Parent and child relationship" shall have the same meaning as defined in § 16-2352(a)(1).</text>
+                <text>"Parent and child relationship" shall have the same meaning as defined in <cite doc="D.C. Code" path="§16-2352|(a)|(1)">§ 16-2352(a)(1)</cite>.</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -182,7 +201,7 @@
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>Has been adjudicated to be neglected pursuant to § 16-2317; and</text>
+                  <text>Has been adjudicated to be neglected pursuant to <cite doc="D.C. Code" path="§16-2317">§ 16-2317</cite>; and</text>
                 </para>
                 <para>
                   <num>(C)</num>
@@ -190,8 +209,10 @@
                 </para>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.21" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.21" num-value="16-2399.22"/>
             <prefix>§</prefix>
             <num>16-2399.22</num>
             <heading proof="needed">Selecting SOUL as a permanency plan.</heading>
@@ -219,8 +240,10 @@
               <num>(b)</num>
               <text>If the Family Court determines that changing the permanency plan to SOUL is not in the best interests of the child, the Family Court shall state its basis in writing.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.22" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.22" num-value="16-2399.23"/>
             <prefix>§</prefix>
             <num>16-2399.23</num>
             <heading proof="needed">Motion to establish a SOUL Family.</heading>
@@ -249,7 +272,7 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>A proposed SOUL Family agreement that meets the requirements of this subchapter.</text>
+                <text>A proposed SOUL Family agreement that meets the requirements of <cite doc="D.C. Code" path="16|23|VII">this subchapter</cite>.</text>
               </para>
             </para>
             <para>
@@ -260,8 +283,10 @@
               <num>(e)</num>
               <text>Any person or entity who objects or fails to sign the SOUL Family agreement may file a praecipe or opposition alerting the court to the points of disagreement, the reasoning, and the efforts to resolve the disagreement.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.23" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.23" num-value="16-2399.24"/>
             <prefix>§</prefix>
             <num>16-2399.24</num>
             <heading proof="needed">Allocation of rights and responsibilities.</heading>
@@ -345,8 +370,10 @@
               <num>(f)</num>
               <text>If a SOUL Family has more than one SOUL Caregiver, a lead SOUL Caregiver shall be designated. If there is a disagreement concerning the youth's rights and responsibilities or any other aspect related to the youth's care , the lead SOUL Caregiver shall make the final decision if the youth is less than 18 years of age.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.24" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.24" num-value="16-2399.25"/>
             <prefix>§</prefix>
             <num>16-2399.25</num>
             <heading proof="needed">SOUL Family agreement.</heading>
@@ -359,7 +386,7 @@
               <text>The SOUL Family agreement shall include:</text>
               <para>
                 <num>(1)</num>
-                <text>The allocation of rights and responsibilities among the SOUL Family as described in §16-2399.24;</text>
+                <text>The allocation of rights and responsibilities among the SOUL Family as described in <cite doc="D.C. Code" path="§16-2399.24">§16-2399.24</cite>;</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -367,7 +394,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>A statement that the SOUL Caregiver, or lead SOUL Caregiver if there is more than one SOUL Caregiver, shall make the final decision if members of the SOUL Family are in disagreement concerning the rights and responsibilities listed in § 16-2399.24, or any other aspect related to the care of the youth under the age of 18;</text>
+                <text>A statement that the SOUL Caregiver, or lead SOUL Caregiver if there is more than one SOUL Caregiver, shall make the final decision if members of the SOUL Family are in disagreement concerning the rights and responsibilities listed in <cite doc="D.C. Code" path="§16-2399.24">§ 16-2399.24</cite>, or any other aspect related to the care of the youth under the age of 18;</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -422,8 +449,10 @@
               <num>(d)</num>
               <text>At any time between the filing of this motion and the issuance of a final order establishing the SOUL family, the Family Court or any party to the SOUL Family agreement may request an amendment to the proposed SOUL Family agreement.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.25" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.25" num-value="16-2399.26"/>
             <prefix>§</prefix>
             <num>16-2399.26</num>
             <heading proof="needed">Parties to a SOUL Family proceeding.</heading>
@@ -463,8 +492,10 @@
               <num>(e)</num>
               <text>The Family Court may, at its discretion, join other parties on its own motion or in response to a motion for joinder or intervention.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.26" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.26" num-value="16-2399.27"/>
             <prefix>§</prefix>
             <num>16-2399.27</num>
             <heading proof="needed">Notice.</heading>
@@ -484,18 +515,20 @@
               <num>(d)</num>
               <text>If personal service under this section cannot be effected, notice shall be made constructively pursuant to rules of the Superior Court of the District of Columbia.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.27" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.27" num-value="16-2399.28"/>
             <prefix>§</prefix>
             <num>16-2399.28</num>
             <heading proof="needed">Conduct of hearings.</heading>
             <para>
               <num>(a)</num>
-              <text>All hearings and proceedings conducted pursuant to this subchapter shall be held by a judge, without a jury.</text>
+              <text>All hearings and proceedings conducted pursuant to <cite doc="D.C. Code" path="16|23|VII">this subchapter</cite> shall be held by a judge, without a jury.</text>
             </para>
             <para>
               <num>(b)</num>
-              <text>All hearings and proceedings conducted pursuant to this subchapter shall be recorded by appropriate means.</text>
+              <text>All hearings and proceedings conducted pursuant to <cite doc="D.C. Code" path="16|23|VII">this subchapter</cite> shall be recorded by appropriate means.</text>
             </para>
             <para>
               <num>(c)</num>
@@ -505,8 +538,10 @@
               <num>(d)</num>
               <text>To enable participation by the youth and all members of the proposed SOUL Family, the Family Court and the Agency shall work closely with the parties to schedule any hearings or proceedings.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.28" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.28" num-value="16-2399.29"/>
             <prefix>§</prefix>
             <num>16-2399.29</num>
             <heading proof="needed">Adjudicatory hearings.</heading>
@@ -609,8 +644,10 @@
               <num>(k)</num>
               <text>A youth's parent, or individual who previously held parental rights at the time the youth entered the foster care system, may object to the transfer of any rights they hold under law and have those objections duly considered by the Family Court and addressed in written findings.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.29" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.29" num-value="16-2399.30"/>
             <prefix>§</prefix>
             <num>16-2399.30</num>
             <heading proof="needed">Effect of a SOUL Family order.</heading>
@@ -648,10 +685,12 @@
             </para>
             <para>
               <num>(d)</num>
-              <text>The District government or the youth through the youth's guardian ad litem or stated interest attorney may move to terminate the parent and child relationship pursuant to § 16-2354(a).</text>
+              <text>The District government or the youth through the youth's guardian ad litem or stated interest attorney may move to terminate the parent and child relationship pursuant to <cite doc="D.C. Code" path="§16-2354|(a)">§ 16-2354(a)</cite>.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.30" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.30" num-value="16-2399.31"/>
             <prefix>§</prefix>
             <num>16-2399.31</num>
             <heading proof="needed">Jurisdiction.</heading>
@@ -663,8 +702,10 @@
               <num>(b)</num>
               <text>A youth who exits foster care to a SOUL Family may not reenter foster care after age 18.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.31" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.31" num-value="16-2399.32"/>
             <prefix>§</prefix>
             <num>16-2399.32</num>
             <heading proof="needed">SOUL Family order – finality, appeals, transcripts.</heading>
@@ -678,30 +719,36 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>In all appeals from decisions of the Family Court with respect to a SOUL Family order under this subchapter, the youth shall be identified only by initials in all transcripts, briefs, and other papers filed, and all necessary steps, as prescribed by rules of the District of Columbia Court of Appeals, shall be taken to protect the identity of the youth.</text>
+              <text>In all appeals from decisions of the Family Court with respect to a SOUL Family order under <cite doc="D.C. Code" path="16|23|VII">this subchapter</cite>, the youth shall be identified only by initials in all transcripts, briefs, and other papers filed, and all necessary steps, as prescribed by rules of the District of Columbia Court of Appeals, shall be taken to protect the identity of the youth.</text>
             </para>
             <para>
               <num>(d)</num>
-              <text>Upon the filing of a motion and supporting affidavit stating that they are financially unable to purchase a transcript, a party who has filed notice of appeal or of interlocutory appeal of an order under this subchapter shall be furnished, at no cost or at such part of cost as they are able to pay, so much of the transcript as is necessary to prepare adequately and support the appeal.</text>
+              <text>Upon the filing of a motion and supporting affidavit stating that they are financially unable to purchase a transcript, a party who has filed notice of appeal or of interlocutory appeal of an order under <cite doc="D.C. Code" path="16|23|VII">this subchapter</cite> shall be furnished, at no cost or at such part of cost as they are able to pay, so much of the transcript as is necessary to prepare adequately and support the appeal.</text>
             </para>
             <para>
               <num>(e)</num>
               <text>An appeal does not operate to stay the order, judgment, or decree appealed from, but whenever the case is properly before the District of Columbia Court of Appeals, that Court, on application and hearing, may order otherwise if suitable provision is made in the order for the care and custody of the youth.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.32" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.32" num-value="16-2399.33"/>
             <prefix>§</prefix>
             <num>16-2399.33</num>
             <heading proof="needed">Confidentiality of records.</heading>
-            <text>The provisions of §§ 16-2332 and 16-2333 shall apply to all records and files that are created pursuant to proceedings under this subchapter.</text>
+            <text>The provisions of §§ <cite doc="D.C. Code" path="§16-2332">16-2332</cite> and <cite doc="D.C. Code" path="§16-2333">16-2333</cite> shall apply to all records and files that are created pursuant to proceedings under <cite doc="D.C. Code" path="16|23|VII">this subchapter</cite>.</text>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.33" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.33" num-value="16-2399.34"/>
             <prefix>§</prefix>
             <num>16-2399.34</num>
             <heading proof="needed">Unlawful disclosure.</heading>
-            <text>Whoever willfully discloses, receives, makes use of, or knowingly permits the use of information concerning a youth or other person in violation of § 16-2399.33 shall be guilty of a misdemeanor and upon conviction thereof shall be fined no more than the amount set forth in § 22-3571.01, or incarcerated for no more than 90 days, or both. A violation of this section shall be prosecuted by the Office of the Attorney General of the District of Columbia.</text>
+            <text>Whoever willfully discloses, receives, makes use of, or knowingly permits the use of information concerning a youth or other person in violation of <cite doc="D.C. Code" path="§16-2399.33">§ 16-2399.33</cite> shall be guilty of a misdemeanor and upon conviction thereof shall be fined no more than the amount set forth in <cite doc="D.C. Code" path="§22-3571.01">§ 22-3571.01</cite>, or incarcerated for no more than 90 days, or both. A violation of this section shall be prosecuted by the Office of the Attorney General of the District of Columbia.</text>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.34" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.34" num-value="16-2399.35"/>
             <prefix>§</prefix>
             <num>16-2399.35</num>
             <heading proof="needed">Modification of a SOUL Family order.</heading>
@@ -741,8 +788,10 @@
               <num>(f)</num>
               <text>The Family Court shall hold an adjudicatory hearing before modifying a SOUL Family order and shall, at the conclusion of the hearing, enter a written order reciting the findings upon which such order is based, including findings pertaining to the Family Court's jurisdiction.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.35" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.35" num-value="16-2399.36"/>
             <prefix>§</prefix>
             <num>16-2399.36</num>
             <heading proof="needed">Subsidy.</heading>
@@ -801,28 +850,33 @@
               <num>(h)</num>
               <text>SOUL Family subsidies shall be subject to the availability of appropriations. Nothing in this section shall be construed to create an entitlement to a SOUL Family subsidy for any person.</text>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.36" applicability-path="§4" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="16|23|VII" after="§16-2399.36" num-value="16-2399.37"/>
             <prefix>§</prefix>
             <num>16-2399.37</num>
             <heading proof="needed">Rules.</heading>
-            <text>Within 120 days after the effective date of this subchapter, the Mayor, pursuant to § 2-501 <em>et seq.</em> shall issue rules to implement the provisions of this subchapter.</text>
+            <text>Within 120 days after the effective date of <cite doc="D.C. Code" path="16|23|VII">this subchapter</cite>, the Mayor, pursuant to <cite doc="D.C. Code" path="§2-501">§ 2-501</cite> <em><cite doc="D.C. Code" path="2|5|I">et seq.</cite></em> shall issue rules to implement the provisions of <cite doc="D.C. Code" path="16|23|VII">this subchapter</cite>.</text>
+            <codify:not-funded-anno doc="D.C. Code" path="§16-2399.37" applicability-path="§4" action="creation of" display-template=""/>
           </section>
         </container>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:path="§4-1305.02">
     <num>3</num>
     <text>Section 502 of the Prevention of Child Abuse and Neglect Act of 1977, effective June 27, 2000 (D.C. Law 13-136; D.C. Official Code § 4-1305.02), is amended by adding a new paragraph (3A) to read as follows:</text>
     <include lvl="1">
       <para>
+        <codify:insert after="(3)" num-value="(3A)"/>
         <num>(3A)</num>
-        <text>An individual who seeks to be approved as a SOUL Caregiver, and, if required by the Family Court, an individual who seeks to be approved as a SOUL Supporter, as those terms are defined in D.C. Official Code § 16-2399.21.</text>
+        <text>An individual who seeks to be approved as a SOUL Caregiver, and, if required by the Family Court, an individual who seeks to be approved as a SOUL Supporter, as those terms are defined in <code-cite doc="D.C. Code" path="§16-2399.21">D.C. Official Code § 16-2399.21</code-cite>.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§4-1305.02" applicability-path="§4" action="amendment to" display-template=""/>
   </section>
   <section>
     <num>4</num>
@@ -830,6 +884,9 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-159" path="§2|(b)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-159" path="§2|(c)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-159" path="§3" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-160">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-160" codify:doc="D.C. Code">
   <num type="law">26-160</num>
   <num type="act">26-347</num>
   <num type="bill">26-419</num>
@@ -25,16 +25,24 @@
   <section>
     <num>2</num>
     <text>The Criminal Background Checks for the Protection of Children Act of 2004, effective April 13, 2005 (D.C Law 15-353; D.C. Official Code § 4-1501.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§4-1501.05|(c)">
       <num>(a)</num>
       <text>Section 205(c) (D.C. Official Code § 4-1501.05(c)) is amended as follows:</text>
-      <para>
+      <para codify:path="(2)">
         <num>(1)</num>
         <text>Paragraph (2) is amended by striking the phrase "for the Mayor to conduct" and inserting the phrase "to conduct" in its place.</text>
+        <codify:find-replace count="1">
+          <find>for the Mayor to conduct</find>
+          <replace>to conduct</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(3)">
         <num>(2)</num>
         <text>Paragraph (3) is amended by striking the phrase "Mayor of the" and inserting the phrase "Mayor or the" in its place.</text>
+        <codify:find-replace count="1">
+          <find>Mayor of the</find>
+          <replace>Mayor or the</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -42,30 +50,40 @@
       <text>A new section 205b is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="4|15" after="§4-1501.05a" num-value="4-1501.05b" history-prefix="as added"/>
           <num>205b</num>
           <heading proof="needed">Private entities authorized to conduct background checks.</heading>
           <para>
             <num>(a)</num>
-            <text>The Mayor may authorize a non-governmental entity that is a covered youth services provider to perform the background check functions and procedures described in sections 203(a), 204, and 205 for the covered youth services provider's applicants, employees, and volunteers.</text>
+            <text>The Mayor may authorize a non-governmental entity that is a covered youth services provider to perform the background check functions and procedures described in <span codify:value="§§">sections </span><cite doc="D.C. Code" path="§4-1501.03|(a)" codify:value="4-1501.03(a)">203(a)</cite>, <cite doc="D.C. Code" path="§4-1501.04" codify:value="4-1501.04">204</cite>, and <cite doc="D.C. Code" path="§4-1501.05" codify:value="4-1501.05">205</cite> for the covered youth services provider's applicants, employees, and volunteers.</text>
           </para>
           <para>
             <num>(b)</num>
-            <text>A covered youth services provider authorized to perform criminal background checks pursuant to this section shall submit all records obtained pursuant to such authorization to the Mayor for uses consistent with this title.</text>
+            <text>A covered youth services provider authorized to perform criminal background checks pursuant to this section shall submit all records obtained pursuant to such authorization to the Mayor for uses consistent with <code-cite doc="D.C. Code" path="4|15">this title</code-cite>.</text>
           </para>
+          <annotation doc="D.C. Law 15-353" type="History" path="§205b">Apr. 13, 2005, D.C. Law 15-353, § 205b</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§4-1501.08">
       <num>(c)</num>
       <text>Section 208 (D.C. Official Code § 4-1501.08) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>The lead-in language is amended by striking the phrase "received by the Mayor shall" and inserting the phrase "received, pursuant to this title, by the Mayor or a private entity that is a covered child or youth services provider shall" in its place.</text>
+        <codify:find-replace count="1">
+          <find>received by the Mayor shall</find>
+          <replace>received, pursuant to <code-cite doc="D.C. Code" path="4|15">this title</code-cite>, by the Mayor or a private entity that is a covered child or youth services provider shall</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(4)">
         <num>(2)</num>
         <text>Paragraph (4) is amended by striking the phrase "; or" and inserting the phrase ", including to satisfy a criminal history or traffic records check required by another jurisdiction; or" in its place.</text>
+        <codify:find-replace count="1">
+          <find>; or</find>
+          <replace>, including to satisfy a criminal history or traffic records check required by another jurisdiction; or</replace>
+        </codify:find-replace>
       </para>
     </para>
   </section>
