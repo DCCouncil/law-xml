@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-366">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-174" codify:doc="D.C. Code">
+  <num type="law">26-174</num>
   <num type="act">26-366</num>
   <num type="bill">26-545</num>
   <heading type="short">River East at Grandview Homeownership Relief and Restoration Amendment Act of 2026</heading>
   <heading type="long">To amend the Relief for River East at Grandview Condominium Owners Act of 2024 to provide housing relief to certain owners and former owners of the River East at Grandview Condominiums by establishing eligibility for Home Purchase Assistance Program grants, converting existing Home Purchase Assistance Program loans to grants, limiting the affordability covenant period for former owners Inclusionary Zoning and Affordable Dwelling units to 15 years, and requiring the Department of Housing and Community Development to submit an annual report to the Council; and to amend Chapter 18 of Title 47 of the District of Columbia Official Code to exempt relief from District income tax.</heading>
   <meta>
     <introduced>2025-12-12</introduced>
-    <effective projected="true">2026-09-18</effective>
+    <effective>2026-08-20</effective>
     <citations>
+      <citation type="law" url="https://lims.dccouncil.gov/downloads/LIMS/60997/Signed_Act/B26-0545-Signed_Act.pdf?Id=242239">D.C. Law 26-174</citation>
       <citation type="act" url="https://lims.dccouncil.gov/downloads/LIMS/60997/Signed_Act/B26-0545-Signed_Act.pdf?Id=242239">D.C. Act 26-366</citation>
       <citation type="register">73 DCR 9414</citation>
     </citations>
@@ -24,7 +26,7 @@
   <section>
     <num>2</num>
     <text>The Relief for River East at Grandview Condominium Owners Act of 2024, effective September 18, 2024 (D.C. Law 25-217; D.C. Official Code § 42-2081 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§42-2081">
       <num>(a)</num>
       <text>Section 2132 (D.C. Official Code § 42-2081) is amended as follows:</text>
       <para>
@@ -32,33 +34,40 @@
         <text>A new subsection (c-1) is added to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(c)" num-value="(c-1)"/>
             <num>(c-1)</num>
             <text>"Former Property Owner" means an individual who purchased a condominium unit at the River East at Grandview Condominiums between July 2017 and March 2019 and who no longer owns that unit.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="(l)">
         <num>(2)</num>
         <text>Paragraph (l) is amended by striking the phrase "Property." and inserting the phrase "Property and purchased the condominium unit between July 2017 and March 2019." in its place.</text>
+        <codify:find-replace count="1">
+          <find>Property.</find>
+          <replace>Property and purchased the condominium unit between July 2017 and March 2019.</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§42-2083|(d)">
       <num>(b)</num>
       <text>Section 2134(d) (D.C. Official Code § 42-2083(d)) is repealed.</text>
+      <codify:repeal/>
     </para>
     <para>
       <num>(c)</num>
       <text>A new section 2135 is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="42|20C" after="§42-2083" num-value="42-2084" history-prefix="as added"/>
           <num>2135</num>
           <heading proof="needed">HPAP loan conversion to grant and shortening the length of IZ or ADU affordability covenant for Property Owners and Former Property Owners.</heading>
           <para>
             <num>(a)</num>
             <para>
               <num>(1)</num>
-              <text>DHCD shall make Property Owners or Former Property Owners who have not purchased another primary residence since leaving the Property eligible for HPAP assistance, pursuant to the Home Purchase Assistance Fund Act of 1978, effective September 20, 1978 (D.C. Law 2-135; D.C. Official Code § 42-2601 <em>et seq.</em>), in the form of a grant toward the purchase of a primary residence in the District, and exclude them from the HPAP program's credit requirements.</text>
+              <text>DHCD shall make Property Owners or Former Property Owners who have not purchased another primary residence since leaving the Property eligible for HPAP assistance, pursuant to <code-cite doc="D.C. Code" path="42|26|I">the Home Purchase Assistance Fund Act of 1978, effective September 20, 1978 (D.C. Law 2-135; D.C. Official Code § 42-2601 <em>et seq.</em>)</code-cite>, in the form of a grant toward the purchase of a primary residence in the District, and exclude them from the HPAP program's credit requirements.</text>
             </para>
             <para>
               <num>(2)</num>
@@ -104,25 +113,27 @@
             <num>(d)</num>
             <text>This section shall sunset after December 31, 2032.</text>
           </para>
+          <annotation doc="D.C. Law 25-217" type="History" path="§2135">Sept. 18, 2024, D.C. Law 25-217, § 2135</annotation>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
-  <section>
+  <section codify:path="§47-1803.02|(a)|(2)">
     <num>3</num>
     <text>Section 47-1803.02(a)(2) of the District of Columbia Official Code is amended by adding a new subparagraph (BBB) to reads as follows:</text>
     <include lvl="2">
       <para>
+        <codify:insert after="(AAA)" num-value="(BBB)"/>
         <num>(BBB)</num>
         <text>For tax years ending on or before December 31, 2032:</text>
         <para>
           <num>(i)</num>
-          <text>Any income realized by reason of the forgiveness of any debt or loans under § 42-2083(b) or (c); and</text>
+          <text>Any income realized by reason of the forgiveness of any debt or loans under <cite doc="D.C. Code" path="§42-2083|(b)">§ 42-2083(b)</cite> or <cite doc="D.C. Code" path="§42-2083|(c)">(c)</cite>; and</text>
         </para>
         <para>
           <num>(ii)</num>
-          <text>Any income realized by reason of the conversion or forgiveness of a Home Purchase Assistance Program loan under to section 2135 of the Relief for River East at Grandview Condominium Owners Act of 2024, passed on 2nd reading on June 2, 206 (Enrolled version of Bill 26-545).</text>
+          <text>Any income realized by reason of the conversion or forgiveness of a Home Purchase Assistance Program loan under to <code-cite doc="D.C. Code" path="§42-2084">section 2135 of the Relief for River East at Grandview Condominium Owners Act of 2024, passed on 2nd reading on June 2, 206 (Enrolled version of Bill 26-545)</code-cite>.</text>
         </para>
       </para>
     </include>
