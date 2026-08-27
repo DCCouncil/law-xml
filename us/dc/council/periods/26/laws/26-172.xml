@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-172">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-172" codify:doc="D.C. Code">
   <num type="law">26-172</num>
   <num type="act">26-365</num>
   <num type="bill">26-438</num>
@@ -22,6 +22,20 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Medical Debt Mitigation Amendment Act of 2026".</text>
+  <!-- <codify:insert doc="D.C. Code" path="44|4" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>I</num>
+      <heading>Health Services Planning Program.</heading>
+    </container>
+  </codify:insert> -->
+  <!-- <codify:insert doc="D.C. Code" path="44|4" after="I" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>II</num>
+      <heading>Financial Assistance and Medical Debt.</heading>
+    </container>
+  </codify:insert> -->
   <section>
     <num>2</num>
     <text>The Health Services Planning Program Re-establishment Act of 1996, effective April 9, 1997 (D.C. Law 11-191; D.C. Official Code § 44-401 <em>et seq.</em>), is amended as follows:</text>
@@ -32,22 +46,26 @@
     <para>
       <num>(b)</num>
       <text>Title I is amended as follows:</text>
-      <para>
+      <para codify:path="§44-401|(a)">
         <num>(1)</num>
         <text>Section 2 (D.C. Code § 44-401) is amended by adding a new paragraph (10A) to read as follows:</text>
         <include lvl="1">
           <para>
+            <!-- <codify:insert after="(10)" num-value="(10A)"/> -->
             <num>(10A)</num>
             <text>"Health care facility-FAP" means a health care facility, but excluding an intermediate care facility, skilled nursing facility, or home health agency, that is required to have a financial assistance policy under title II.</text>
+            <!-- translate title II above -->
           </para>
         </include>
         <aftertext>.</aftertext>
+        <!-- <codify:not-funded-anno doc="D.C. Code" path="§44-401" applicability-path="§6|(a)" action="amendment to" display-template=""/> -->
       </para>
-      <para>
+      <para codify:path="§44-405">
         <num>(2)</num>
         <text>Section 6 (D.C. Official Code 44-405) is amended by adding a new subsection (a-2) to read as follows:</text>
         <include>
           <para>
+            <!-- <codify:insert after="(a-1)" num-value="(a-2)"/> -->
             <num>(a-2)</num>
             <text>Beginning one year after the applicability date of this subsection, and annually thereafter, each health care facility-FAP shall provide a written report to the Department on its financial assistance policy, including:</text>
             <para>
@@ -89,17 +107,21 @@
           </para>
         </include>
         <aftertext>.</aftertext>
+        <!-- <codify:not-funded-anno doc="D.C. Code" path="§44-405" applicability-path="§6|(a)" action="amendment to" display-template=""/> -->
       </para>
-      <para>
+      <para codify:path="§44-406">
         <num>(3)</num>
         <text>Section 7 (D.C. Code 44-406) is amended by adding a new subsection (e) to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(d)" num-value="(e)"/>
             <num>(e)</num>
             <text>A health care facility-FAP shall establish a financial assistance policy in accordance with title II to remain in good standing for its certificate of need.</text>
+            <!-- translate title II above -->
           </para>
         </include>
         <aftertext>.</aftertext>
+        <!-- <codify:not-funded-anno doc="D.C. Code" path="§44-406" applicability-path="§6|(a)" action="amendment to" display-template=""/> -->
       </para>
     </para>
     <para>

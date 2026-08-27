@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-170">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-170" codify:doc="D.C. Code">
   <num type="law">26-170</num>
   <num type="bill">26-356</num>
   <num type="act">26-359</num>
@@ -22,16 +22,18 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Prenatal and Postpartum Remote Patient Monitoring Clarification Amendment Act of 2026".</text>
-  <section>
+  <section codify:path="§31-3862.01|(2)">
     <num>2</num>
     <text>Section 3a(2) of the Telehealth Reimbursement Act of 2013, effective October 20, 2020 (D.C. Law 23-132; DC Official Code § 31-3862.01(2)), is amended to read as follows:</text>
     <include lvl="1">
       <para>
+        <codify:replace/>
         <num>(2)</num>
         <text>Digital health interventions intended to remotely monitor a patient's blood pressure and blood glucose levels during a patient's pregnancy and up to 12 months postpartum.</text>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:not-funded-anno doc="D.C. Code" path="§31-3862.01" applicability-path="§3|(a)" action="amendment to" display-template=""/>
   </section>
   <section>
     <num>3</num>
@@ -39,6 +41,7 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-170" path="§2" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>

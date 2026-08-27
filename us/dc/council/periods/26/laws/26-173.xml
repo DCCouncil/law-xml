@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-173">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-173" codify:doc="D.C. Code">
   <num type="law">26-173</num>
   <num type="act">26-360</num>
   <num type="bill">26-463</num>
@@ -23,6 +23,13 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Judith Heumann Memorial Workers with Disabilities Amendment Act of 2026".</text>
+  <codify:insert doc="D.C. Code" path="4|2" after="IV" history="false">
+    <container>
+      <prefix>Subchapter</prefix>
+      <num>IV-A</num>
+      <heading>District Workers with Disabilities Program.</heading>
+    </container>
+  </codify:insert>
   <section>
     <num>2</num>
     <text>The District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-201.01 <em>passim</em>), is amended by adding a new title IV-A to read as follows:</text>
@@ -32,11 +39,12 @@
         <num>IV-A</num>
         <heading>– DISTRICT WORKERS WITH DISABILITIES PROGRAM</heading>
         <section>
+          <codify:insert path="4|2|IV-A" num-value="4-204.81" history-prefix="as added"/>
           <num>411</num>
           <heading proof="needed">Definitions.</heading>
           <para>
             <num undesignated="true">(a)</num>
-            <text>For the purposes of this title, the term:</text>
+            <text>For the purposes of <code-cite doc="D.C. Code" path="4|2|IV-A">this title</code-cite>, the term:</text>
             <para>
               <num>(1)</num>
               <text>"Certification period" means the period of enrollment for the program, which shall begin on the date of approval and end on the date by which eligibility must be redetermined.</text>
@@ -67,11 +75,14 @@
             </para>
             <para>
               <num>(6)</num>
-              <text>"Program" means the District Workers with Disabilities Program established by this title.</text>
+              <text>"Program" means the District Workers with Disabilities Program established by <code-cite doc="D.C. Code" path="4|2|IV-A">this title</code-cite>.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 4-101" type="History" path="§411">Apr. 6, 1982, D.C. Law 4-101, § 411</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-204.81" applicability-path="§3|(a)" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="4|2|IV-A" after="§4-204.81" num-value="4-204.82" history-prefix="as added"/>
           <num>412</num>
           <heading proof="needed">Establishment of the District Workers with Disabilities Program.</heading>
           <para>
@@ -82,7 +93,7 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>Within 6 months of the applicable date of this title, DHCF shall submit for approval from the Centers for Medicare and Medicaid Services an amendment to the Medicaid state plan to authorize the Medicaid payments described in this title.</text>
+              <text>Within 6 months of the applicable date of <code-cite doc="D.C. Code" path="4|2|IV-A">this title</code-cite>, DHCF shall submit for approval from the Centers for Medicare and Medicaid Services an amendment to the Medicaid state plan to authorize the Medicaid payments described in <code-cite doc="D.C. Code" path="4|2|IV-A">this title</code-cite>.</text>
             </para>
           </para>
           <para>
@@ -178,15 +189,18 @@
             </para>
             <para>
               <num>(3)</num>
-              <text>Are determined to be disabled by DHCF in accordance with this title and implementing regulations.</text>
+              <text>Are determined to be disabled by DHCF in accordance with <code-cite doc="D.C. Code" path="4|2|IV-A">this title</code-cite> and implementing regulations.</text>
             </para>
           </para>
           <para>
             <num>(d)</num>
             <text>DHCF may conduct periodically reviews of an enrollee's disability status and establish intervals for such reviews by rulemaking; provided, that the intervals are reasonable and consistent with federal law.</text>
           </para>
+          <annotation doc="D.C. Law 4-101" type="History" path="§412">Apr. 6, 1982, D.C. Law 4-101, § 412</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-204.82" applicability-path="§3|(a)" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="4|2|IV-A" after="§4-204.82" num-value="4-204.83" history-prefix="as added"/>
           <num>413</num>
           <heading proof="needed">Application process.</heading>
           <para>
@@ -350,8 +364,11 @@
               <text>Limit disclosures of information to purposes directly connected with verifying program eligibility and administration.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 4-101" type="History" path="§413">Apr. 6, 1982, D.C. Law 4-101, § 413</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-204.83" applicability-path="§3|(a)" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="4|2|IV-A" after="§4-204.83" num-value="4-204.84" history-prefix="as added"/>
           <num>414</num>
           <heading proof="needed">Premiums.</heading>
           <para>
@@ -361,7 +378,7 @@
               <text>To determine countable net income, DHCF shall subtract from the enrollee's total gross income:</text>
               <para>
                 <num>(A)</num>
-                <text>The general income exclusions and disregards and the specific income exclusions and disregards for aged, blind, or disabled coverage groups as specified under section 405; and</text>
+                <text>The general income exclusions and disregards and the specific income exclusions and disregards for aged, blind, or disabled coverage groups as specified under <code-cite doc="D.C. Code" path="§4-204.05">section 405</code-cite>; and</text>
               </para>
               <para>
                 <num>(B)</num>
@@ -462,8 +479,11 @@
               <text>An enrollee who fails to pay the required premium within 30 days of notice shall be terminated from the program and may not re-enroll until all outstanding premiums have been paid.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 4-101" type="History" path="§414">Apr. 6, 1982, D.C. Law 4-101, § 414</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-204.84" applicability-path="§3|(a)" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="4|2|IV-A" after="§4-204.84" num-value="4-204.85" history-prefix="as added"/>
           <num>415</num>
           <heading proof="needed">Recertification.</heading>
           <para>
@@ -485,15 +505,18 @@
             <num>(b)</num>
             <para>
               <num>(1)</num>
-              <text>DHCF may reject an applicant's recertification application for any reason outlined in section 413(e) or (f).</text>
+              <text>DHCF may reject an applicant's recertification application for any reason outlined in <code-cite doc="D.C. Code" path="§4-204.83|(e)">section 413(e)</code-cite> or <cite doc="D.C. Code" path="§4-204.83|(f)">(f)</cite>.</text>
             </para>
             <para>
               <num>(2)</num>
               <text>If DHCF finds that an applicant is no longer eligible, it shall issue a written notice of termination and provide its findings and reason for termination, the applicable statutory or regulatory basis for the termination, any refund of enrollment fees, and the right to appeal.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 4-101" type="History" path="§415">Apr. 6, 1982, D.C. Law 4-101, § 415</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-204.85" applicability-path="§3|(a)" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="4|2|IV-A" after="§4-204.85" num-value="4-204.86" history-prefix="as added"/>
           <num>416</num>
           <heading proof="needed">Responsibilities of the enrollee and liability.</heading>
           <para>
@@ -526,7 +549,7 @@
           </para>
           <para>
             <num>(b)</num>
-            <text>An enrollee's failure to comply with subsection (a) of this section may result in termination of benefits under this title, the recovery of improperly paid benefits, and any other remedies available under District or federal law.</text>
+            <text>An enrollee's failure to comply with subsection (a) of this section may result in termination of benefits under <code-cite doc="D.C. Code" path="4|2|IV-A">this title</code-cite>, the recovery of improperly paid benefits, and any other remedies available under District or federal law.</text>
           </para>
           <para>
             <num>(c)</num>
@@ -570,10 +593,13 @@
           </para>
           <para>
             <num>(g)</num>
-            <text>An applicant or enrollee of the program may contest a determination made by DHCF by requesting a fair hearing under the procedures set forth in section 109 of the District of Columbia Administrative Procedure Act, effective October 21, 1968 (82 Stat. 1208; D.C. Official Code § 2-509).</text>
+            <text>An applicant or enrollee of the program may contest a determination made by DHCF by requesting a fair hearing under the procedures set forth in <code-cite doc="D.C. Code" path="§2-509">section 109 of the District of Columbia Administrative Procedure Act, effective October 21, 1968 (82 Stat. 1208; D.C. Official Code § 2-509)</code-cite>.</text>
           </para>
+          <annotation doc="D.C. Law 4-101" type="History" path="§416">Apr. 6, 1982, D.C. Law 4-101, § 416</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-204.86" applicability-path="§3|(a)" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="4|2|IV-A" after="§4-204.86" num-value="4-204.87" history-prefix="as added"/>
           <num>417</num>
           <heading proof="needed">Scope of coverage.</heading>
           <para>
@@ -616,8 +642,11 @@
               <text>Coverage of long-term care facility services exceeding 30 consecutive days.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 4-101" type="History" path="§417">Apr. 6, 1982, D.C. Law 4-101, § 417</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-204.87" applicability-path="§3|(a)" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="4|2|IV-A" after="§4-204.87" num-value="4-204.88" history-prefix="as added"/>
           <num>418</num>
           <heading proof="needed">Provider participation and reimbursement.</heading>
           <para>
@@ -636,13 +665,19 @@
             <num>(b)</num>
             <text>A provider furnishing services to a recipient under this program shall seek payment from any liable third party, including an insurer, before billing DHCF.</text>
           </para>
+          <annotation doc="D.C. Law 4-101" type="History" path="§418">Apr. 6, 1982, D.C. Law 4-101, § 418</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-204.88" applicability-path="§3|(a)" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="4|2|IV-A" after="§4-204.88" num-value="4-204.89" history-prefix="as added"/>
           <num>419</num>
           <heading proof="needed">Rulemaking.</heading>
-          <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue rules to implement the provisions of this title.".</text>
+          <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue rules to implement the provisions of <code-cite doc="D.C. Code" path="4|2|IV-A">this title</code-cite>.".</text>
+          <annotation doc="D.C. Law 4-101" type="History" path="§419">Apr. 6, 1982, D.C. Law 4-101, § 419</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-204.89" applicability-path="§3|(a)" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="4|2|IV-A" after="§4-204.89" num-value="4-204.90" history-prefix="as added"/>
           <num>420</num>
           <heading proof="needed">District Workers with Disabilities Premium Fund.</heading>
           <para>
@@ -651,7 +686,7 @@
           </para>
           <para>
             <num>(b)</num>
-            <text>All premium revenue funds collected pursuant to section 414 shall be deposited in the Fund.</text>
+            <text>All premium revenue funds collected pursuant to <code-cite doc="D.C. Code" path="§4-204.84">section 414</code-cite> shall be deposited in the Fund.</text>
           </para>
           <para>
             <num>(c)</num>
@@ -676,11 +711,16 @@
               <text>Subject to authorization in an approved budget and financial plan, any funds appropriated in the Fund shall be continually available without regard to fiscal year limitation.</text>
             </para>
           </para>
+          <annotation doc="D.C. Law 4-101" type="History" path="§420">Apr. 6, 1982, D.C. Law 4-101, § 420</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-204.90" applicability-path="§3|(a)" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="4|2|IV-A" after="§4-204.90" num-value="4-204.91" history-prefix="as added"/>
           <num>421</num>
           <heading proof="needed">Investments in Medicaid-buy in software development.</heading>
-          <text>DHCF shall update the District of Columbia Access System ("DCAS"), including building a platform to collect payment for premiums, for the purpose of implementing the program established by this title.</text>
+          <text>DHCF shall update the District of Columbia Access System ("DCAS"), including building a platform to collect payment for premiums, for the purpose of implementing the program established by <code-cite doc="D.C. Code" path="4|2|IV-A">this title</code-cite>.</text>
+          <annotation doc="D.C. Law 4-101" type="History" path="§421">Apr. 6, 1982, D.C. Law 4-101, § 421</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§4-204.91" applicability-path="§3|(a)" action="creation of" display-template=""/>
         </section>
       </container>
     </include>
@@ -692,6 +732,7 @@
     <para>
       <num>(a)</num>
       <text>Section 2 shall apply upon the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-173" path="§2" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
