@@ -29,13 +29,13 @@
       <heading>Health Services Planning Program.</heading>
     </container>
   </codify:insert> -->
-  <!-- <codify:insert doc="D.C. Code" path="44|4" after="I" history="false">
+  <codify:insert doc="D.C. Code" path="44|4" history="false">
     <container>
       <prefix>Subchapter</prefix>
       <num>II</num>
-      <heading>Financial Assistance and Medical Debt.</heading>
+      <heading>Financial Assistance and Medical Debt. [Not Funded]</heading>
     </container>
-  </codify:insert> -->
+  </codify:insert>
   <section>
     <num>2</num>
     <text>The Health Services Planning Program Re-establishment Act of 1996, effective April 9, 1997 (D.C. Law 11-191; D.C. Official Code § 44-401 <em>et seq.</em>), is amended as follows:</text>
@@ -51,21 +51,21 @@
         <text>Section 2 (D.C. Code § 44-401) is amended by adding a new paragraph (10A) to read as follows:</text>
         <include lvl="1">
           <para>
-            <!-- <codify:insert after="(10)" num-value="(10A)"/> -->
+            <codify:insert after="(10)" num-value="(10A)"/>
             <num>(10A)</num>
             <text>"Health care facility-FAP" means a health care facility, but excluding an intermediate care facility, skilled nursing facility, or home health agency, that is required to have a financial assistance policy under title II.</text>
             <!-- translate title II above -->
           </para>
         </include>
         <aftertext>.</aftertext>
-        <!-- <codify:not-funded-anno doc="D.C. Code" path="§44-401" applicability-path="§6|(a)" action="amendment to" display-template=""/> -->
+        <codify:not-funded-anno doc="D.C. Code" path="§44-401" applicability-path="§6|(a)" action="amendment to" display-template=""/>
       </para>
       <para codify:path="§44-405">
         <num>(2)</num>
         <text>Section 6 (D.C. Official Code 44-405) is amended by adding a new subsection (a-2) to read as follows:</text>
         <include>
           <para>
-            <!-- <codify:insert after="(a-1)" num-value="(a-2)"/> -->
+            <codify:insert after="(a-1)" num-value="(a-2)"/>
             <num>(a-2)</num>
             <text>Beginning one year after the applicability date of this subsection, and annually thereafter, each health care facility-FAP shall provide a written report to the Department on its financial assistance policy, including:</text>
             <para>
@@ -85,7 +85,7 @@
               <text>In the past year:</text>
               <para>
                 <num>(A)</num>
-                <text>The number of instances the health care facility-FAP has sold medical debt to a collection entity, as that term is defined in section 201(1), including the business name of the collection entity;</text>
+                <text>The number of instances the health care facility-FAP has sold medical debt to a collection entity, as that term is defined in <cite doc="D.C. Code" path="§44-423|(1)" codify:value="§44-423(1)">section 201(1)</cite>, including the business name of the collection entity;</text>
               </para>
               <para>
                 <num>(B)</num>
@@ -107,7 +107,7 @@
           </para>
         </include>
         <aftertext>.</aftertext>
-        <!-- <codify:not-funded-anno doc="D.C. Code" path="§44-405" applicability-path="§6|(a)" action="amendment to" display-template=""/> -->
+        <codify:not-funded-anno doc="D.C. Code" path="§44-405" applicability-path="§6|(a)" action="amendment to" display-template=""/>
       </para>
       <para codify:path="§44-406">
         <num>(3)</num>
@@ -121,7 +121,7 @@
           </para>
         </include>
         <aftertext>.</aftertext>
-        <!-- <codify:not-funded-anno doc="D.C. Code" path="§44-406" applicability-path="§6|(a)" action="amendment to" display-template=""/> -->
+        <codify:not-funded-anno doc="D.C. Code" path="§44-406" applicability-path="§6|(a)" action="amendment to" display-template=""/>
       </para>
     </para>
     <para>
@@ -133,11 +133,12 @@
           <num>II</num>
           <heading>FINANCIAL ASSISTANCE AND MEDICAL DEBT.</heading>
           <section>
+            <codify:insert path="44|4|II" num-value="44-423" history-prefix="as added"/>
             <num>201</num>
             <heading proof="needed">Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For the purposes of this title, the term:</text>
+              <text>For the purposes of <code-cite doc="D.C. Code" path="44|4|II">this title</code-cite>, the term:</text>
               <para>
                 <num>(1)</num>
                 <text>"Collection entity" means a person that purchases medical debt or collects medical debt on behalf of another.</text>
@@ -152,7 +153,7 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>"Financial assistance policy" means the policy required by section 202.</text>
+                <text>"Financial assistance policy" means the policy required by <code-cite doc="D.C. Code" path="§44-424">section 202</code-cite>.</text>
               </para>
               <para>
                 <num>(5)</num>
@@ -171,8 +172,11 @@
                 <text>"Patient" means an individual who receives medical services, products, or devices, including an individual's parent or legal guardian if the individual is a minor, legal guardian if the individual is an adult under guardianship, or an individual's legally appointed healthcare agent.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 11-191" type="History" path="§201">Apr. 9, 1997, D.C. Law 11-191, § 201</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§44-423" applicability-path="§6|(a)" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="44|4|II" after="§44-423" num-value="44-424" history-prefix="as added"/>
             <num>202</num>
             <heading proof="needed">Financial assistance policy requirements.</heading>
             <para>
@@ -227,7 +231,7 @@
               </para>
               <para>
                 <num>(2)</num>
-                <text>Providing written notice of the policy to patients in their preferred language during the intake and registration process and discharge, which shall be available in all languages for which the Department of Health would be required to provide translation of vital documents under section 4 of the Language Access Act of 2004, effective June 19, 2004 (D.C. Law 15-167; D.C. Official Code § 2-1933);</text>
+                <text>Providing written notice of the policy to patients in their preferred language during the intake and registration process and discharge, which shall be available in all languages for which the Department of Health would be required to provide translation of vital documents under <code-cite doc="D.C. Code" path="§2-1933">section 4 of the Language Access Act of 2004, effective June 19, 2004 (D.C. Law 15-167; D.C. Official Code § 2-1933)</code-cite>;</text>
               </para>
               <para>
                 <num>(3)</num>
@@ -243,11 +247,14 @@
               </para>
               <para>
                 <num>(4)</num>
-                <text>A disclaimer in the application materials that the patient is not required to pay the medical bill until a decision on their application has been rendered, in accordance with section 203(e).</text>
+                <text>A disclaimer in the application materials that the patient is not required to pay the medical bill until a decision on their application has been rendered, in accordance with <code-cite doc="D.C. Code" path="§44-425|(e)">section 203(e)</code-cite>.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 11-191" type="History" path="§202">Apr. 9, 1997, D.C. Law 11-191, § 202</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§44-424" applicability-path="§6|(a)" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="44|4|II" after="§44-424" num-value="44-425" history-prefix="as added"/>
             <num>203</num>
             <heading proof="needed">Eligibility for financial assistance.</heading>
             <para>
@@ -277,7 +284,7 @@
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Is experiencing homelessness or is at risk of homelessness, as those terms are defined in section 2 of the Homeless Services Reform Act of 2025, effective October 22, 2005 (D.C. Law 16-35; D.C. Official Code § 4-751.01);</text>
+                  <text>Is experiencing homelessness or is at risk of homelessness, as those terms are defined in <code-cite doc="D.C. Code" path="§4-751.01">section 2 of the Homeless Services Reform Act of 2025, effective October 22, 2005 (D.C. Law 16-35; D.C. Official Code § 4-751.01)</code-cite>;</text>
                 </para>
                 <para>
                   <num>(D)</num>
@@ -389,15 +396,18 @@
                 <text>Coordinating insurance benefits with other states.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 11-191" type="History" path="§203">Apr. 9, 1997, D.C. Law 11-191, § 203</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§44-425" applicability-path="§6|(a)" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="44|4|II" after="§44-425" num-value="44-426" history-prefix="as added"/>
             <num>204</num>
             <heading proof="needed">Medical expenses payment plans.</heading>
             <para>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>For a patient who is approved for reduced-cost care financial assistance under section 203 ("eligible patient"), a health care facility-FAP shall offer a payment plan with a monthly installment payment not to exceed 3% of the patient's monthly household income and with the first payment not due until at least 30 days after the patient is discharged or finished treatment at the facility; provided, that, upon written request by the patient, or if the patient currently has a payment plan within the same health care system as the health care facility-FAP with a higher monthly installment percentage, the health care facility-FAP may offer a payment plan with a higher monthly installment payment.</text>
+                <text>For a patient who is approved for reduced-cost care financial assistance under <code-cite doc="D.C. Code" path="§44-425">section 203</code-cite> ("eligible patient"), a health care facility-FAP shall offer a payment plan with a monthly installment payment not to exceed 3% of the patient's monthly household income and with the first payment not due until at least 30 days after the patient is discharged or finished treatment at the facility; provided, that, upon written request by the patient, or if the patient currently has a payment plan within the same health care system as the health care facility-FAP with a higher monthly installment percentage, the health care facility-FAP may offer a payment plan with a higher monthly installment payment.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -467,23 +477,26 @@
               <num>(e)</num>
               <text>A health care facility-FAP or collection entity shall not commence a civil action against the patient for nonpayment until at least 90 days after the payment plan is declared in default.</text>
             </para>
+            <annotation doc="D.C. Law 11-191" type="History" path="§204">Apr. 9, 1997, D.C. Law 11-191, § 204</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§44-426" applicability-path="§6|(a)" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="44|4|II" after="§44-426" num-value="44-427" history-prefix="as added"/>
             <num>205</num>
             <heading proof="needed">Compliance and enforcement.</heading>
             <para>
               <num>(a)</num>
-              <text>A violation of this title shall be considered a violation of section 17.</text>
+              <text>A violation of <code-cite doc="D.C. Code" path="44|4|II">this title</code-cite> shall be considered a violation of <code-cite doc="D.C. Code" path="§44-416">section 17</code-cite>.</text>
             </para>
             <para>
               <num>(b)</num>
-              <text>The Department shall make the information reported by a health care facility-FAP pursuant to section 6(a-2) and any corrective action plans or fines imposed for a violation of this title publicly available.</text>
+              <text>The Department shall make the information reported by a health care facility-FAP pursuant to <code-cite doc="D.C. Code" path="§44-405|(a-2)">section 6(a-2)</code-cite> and any corrective action plans or fines imposed for a violation of <code-cite doc="D.C. Code" path="44|4|II">this title</code-cite> publicly available.</text>
             </para>
             <para>
               <num>(c)</num>
               <para>
                 <num>(1)</num>
-                <text>The Department shall create a process for patients to submit a complaint relating to a health care facility's noncompliance with this title.</text>
+                <text>The Department shall create a process for patients to submit a complaint relating to a health care facility's noncompliance with <code-cite doc="D.C. Code" path="44|4|II">this title</code-cite>.</text>
               </para>
               <para>
                 <num>(2)</num>
@@ -492,28 +505,33 @@
             </para>
             <para>
               <num>(d)</num>
-              <text>The Department shall share information obtained pursuant to this title and section 6(a-2) with the Office of the Attorney General, upon request, within 30 days after the request is made.</text>
+              <text>The Department shall share information obtained pursuant to <code-cite doc="D.C. Code" path="44|4|II">this title</code-cite> and <code-cite doc="D.C. Code" path="§44-405|(a-2)">section 6(a-2)</code-cite> with the Office of the Attorney General, upon request, within 30 days after the request is made.</text>
             </para>
+            <annotation doc="D.C. Law 11-191" type="History" path="§205">Apr. 9, 1997, D.C. Law 11-191, § 205</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§44-427" applicability-path="§6|(a)" action="creation of" display-template=""/>
           </section>
           <section>
+            <codify:insert path="44|4|II" after="§44-427" num-value="44-428" history-prefix="as added"/>
             <num>206</num>
             <heading proof="needed">Rulemaking.</heading>
             <para>
               <num>(a)</num>
-              <text>No later than the applicability date of the Medical Debt Mitigation Amendment Act of 2026, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438), the Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue rules to implement the provisions of this title, including:</text>
+              <text>No later than the applicability date of <cite doc="D.C. Law 26-172" codify:value="the Medical Debt Mitigation Amendment Act of 2026">the Medical Debt Mitigation Amendment Act of 2026, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438)</cite>, the Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue rules to implement the provisions of <code-cite doc="D.C. Code" path="44|4|II">this title</code-cite>, including:</text>
               <para>
                 <num>(1)</num>
                 <text>Minimum requirements for patient appeals regarding their eligibility for financial assistance; and</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>The process for patients to submit a complaint to the Department pursuant to section 205(c).</text>
+                <text>The process for patients to submit a complaint to the Department pursuant to <code-cite doc="D.C. Code" path="§44-427|(c)">section 205(c)</code-cite>.</text>
               </para>
             </para>
             <para>
               <num>(b)</num>
               <text>The Department shall engage with health care facilities and patient advocates in the rulemaking process in order to minimize administrative costs for health care providers and ensure a streamlined application process for patients.</text>
             </para>
+            <annotation doc="D.C. Law 11-191" type="History" path="§206">Apr. 9, 1997, D.C. Law 11-191, § 206</annotation>
+            <codify:not-funded-anno doc="D.C. Code" path="§44-428" applicability-path="§6|(a)" action="creation of" display-template=""/>
           </section>
         </container>
       </include>
@@ -526,11 +544,12 @@
     <para>
       <num>(a)</num>
       <text>Chapter 38 is amended as follows:</text>
-      <para>
+      <para codify:path="§28-3814">
         <num>(1)</num>
         <text>Section 28-3814 is amended by adding a new subsection (dd) to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(cc)" num-value="(dd)"/>
             <num>(dd)</num>
             <para>
               <num>(1)</num>
@@ -541,7 +560,7 @@
               </para>
               <para>
                 <num>(B)</num>
-                <text>Not engage in medical debt collection against a patient who is eligible for financial assistance under section 203 of the Health Services Planning Program Re-establishment Act of 1996, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438), unless the patient has refused financial assistance or is receiving discounted care under the health care facility-FAP's financial assistance policy and has defaulted on their payment plan.</text>
+                <text>Not engage in medical debt collection against a patient who is eligible for financial assistance under <code-cite doc="D.C. Code" path="§44-425">section 203 of the Health Services Planning Program Re-establishment Act of 1996, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438)</code-cite>, unless the patient has refused financial assistance or is receiving discounted care under the health care facility-FAP's financial assistance policy and has defaulted on their payment plan.</text>
               </para>
             </para>
             <para>
@@ -643,7 +662,7 @@
               </para>
               <para>
                 <num>(C)</num>
-                <text>"Medical debt" shall have the same meaning as provided in section 201(5) of the Health Services Planning Program Re-establishment Act of 1996, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438).</text>
+                <text>"Medical debt" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§44-423|(5)">section 201(5) of the Health Services Planning Program Re-establishment Act of 1996, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438)</code-cite>.</text>
               </para>
               <para>
                 <num>(D)</num>
@@ -653,22 +672,24 @@
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:not-funded-anno doc="D.C. Code" path="§28-3814" applicability-path="§6|(a)" action="amendment to" display-template=""/>
       </para>
       <para>
         <num>(2)</num>
         <text>A new section 28-3820 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="28|38|I" after="§28-3819" num-value="28-3820"/>
             <prefix>§</prefix>
             <num>28-3820</num>
             <heading proof="needed">Prohibition on certain medical lending promotion.</heading>
             <para>
               <num>(a)</num>
-              <text>For the purposes of this section, the term "medical lending product" shall have the same meaning as provided in section 201(6) of the Health Services Planning Program Re-establishment Act of 1996, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438).</text>
+              <text>For the purposes of this section, the term "medical lending product" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§44-423|(6)">section 201(6) of the Health Services Planning Program Re-establishment Act of 1996, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438)</code-cite>.</text>
             </para>
             <para>
               <num>(b)</num>
-              <text>A health care provider, as that term is defined in § 28-3814(dd)(7)(B), shall not:</text>
+              <text>A health care provider, as that term is defined in <cite doc="D.C. Code" path="§28-3814|(dd)|(7)|(B)">§ 28-3814(dd)(7)(B)</cite>, shall not:</text>
               <para>
                 <num>(1)</num>
                 <text>Complete, or assist a patient in completing, any portion of an application for a medical lending product;</text>
@@ -703,9 +724,10 @@
               </para>
               <para>
                 <num>(6)</num>
-                <text>If the services were provided at a health care facility-FAP, as defined in § 44-401(10A), offer a medical lending product or another form of credit until the health care facility-FAP has offered or conducted a financial assistance eligibility screening pursuant to section 203 of the Health Services Planning Program Re-establishment Act of 1996, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438).</text>
+                <text>If the services were provided at a health care facility-FAP, as defined in <cite doc="D.C. Code" path="§44-401|(10A)">§ 44-401(10A)</cite>, offer a medical lending product or another form of credit until the health care facility-FAP has offered or conducted a financial assistance eligibility screening pursuant to <code-cite doc="D.C. Code" path="§44-425">section 203 of the Health Services Planning Program Re-establishment Act of 1996, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438)</code-cite>.</text>
               </para>
             </para>
+            <codify:not-funded-anno doc="D.C. Code" path="§28-3820" applicability-path="§6|(a)" action="creation of" display-template=""/>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -714,20 +736,24 @@
     <para>
       <num>(b)</num>
       <text>Chapter 39 is amended as follows:</text>
-      <para>
+      <para codify:path="§28-3904">
         <num>(1)</num>
         <text>Section 28-3904 is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>Subsection (nn) is redesignated as subsection (ll).</text>
+          <codify:replace path="[(ll)]|num">
+            <num>(ll)</num>
+          </codify:replace>
         </para>
         <para>
           <num>(B)</num>
           <text>Subsection (ll) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace path="(ll)"/>
               <num>(ll)</num>
-              <text>violate any provision of Chapter 54 of this title; or</text>
+              <text>violate any provision of Chapter 54 of <cite doc="D.C. Code" path="28">this title</cite>; or</text>
             </para>
           </include>
           <aftertext>.</aftertext>
@@ -737,60 +763,77 @@
           <text>A new subsection (mm) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="[(ll)]" num-value="(mm)"/>
               <num>(mm)</num>
               <text>violate any provision of § 28-3820.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
+        <codify:not-funded-anno doc="D.C. Code" path="§28-3904" applicability-path="§6|(a)" action="amendment to" display-template=""/>
       </para>
-      <para>
+      <para codify:path="§28-3909|(a)">
         <num>(2)</num>
         <text>Section 28-3909(a) is amended by striking the phrase "28-3819, 28-3851" and inserting the phrase "28-3819, 28-3820, 28-3851" in its place.</text>
+        <codify:find-replace count="1">
+          <find><cite doc="D.C. Code" path="§28-3819">28-3819</cite>, <cite doc="D.C. Code" path="§28-3851">28-3851</cite></find>
+          <replace><cite doc="D.C. Code" path="§28-3819">28-3819</cite>, <cite doc="D.C. Code" path="§28-3820">28-3820</cite>, <cite doc="D.C. Code" path="§28-3851">28-3851</cite></replace>
+        </codify:find-replace>
+        <codify:not-funded-anno doc="D.C. Code" path="§28-3909" applicability-path="§6|(a)" action="amendment to" display-template=""/>
       </para>
     </para>
   </section>
-  <section>
+  <section codify:path="§40-201">
     <num>4</num>
     <text>Section 1 of An Act To establish a lien for moneys due hospitals for services rendered in cases caused by negligence or fault of others and providing for the recording and enforcing of such liens, approved June 30, 1939 (53 Stat. 990; D.C. Official Code § 40-201), is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>Designate the existing text as subsection (a).</text>
+      <codify:redesignate-para num-value="(a)"/>
     </para>
-    <para>
+    <para codify:path="(a)">
       <num>(b)</num>
       <text>Subsection (a) is amended by striking the phrase "have a lien upon that part going or belonging to such patient, of any recovery or sum had or collected or to be collected by such patient" and inserting the phrase "have a lien upon that part going or belonging to such patient, of any recovery or sum had or collected or to be collected by such patient; provided, that the lien shall not exceed 33% of the award" in its place.</text>
+      <codify:find-replace count="1">
+        <find>have a lien upon that part going or belonging to such patient, of any recovery or sum had or collected or to be collected by such patient</find>
+        <replace>have a lien upon that part going or belonging to such patient, of any recovery or sum had or collected or to be collected by such patient; provided, that the lien shall not exceed 33% of the award</replace>
+      </codify:find-replace>
     </para>
     <para>
       <num>(c)</num>
       <text>A new subsection (b) is added to read as follows:</text>
       <include>
         <para>
+          <codify:insert num-value="(b)"/>
           <num>(b)</num>
           <text>Notwithstanding subsection (a) of this section, a lien recorded against a patient with health insurance injured by reason of an accident shall be limited to the amount of the patient's responsibility under their health insurance policy if the insurance claim is paid or the negotiated amount with the health insurer if the claim is not paid.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§40-201" applicability-path="§6|(a)" action="amendment to" display-template=""/>
   </section>
-  <section>
+  <section codify:path="§15-103">
     <num>5</num>
     <text>Section 15-103 of the District of Columbia Official Code is amended as follows:</text>
     <para>
       <num>(a)</num>
       <text>Designate the existing text as subsection (a).</text>
+      <codify:redesignate-para num-value="(a)"/>
     </para>
     <para>
       <num>(b)</num>
       <text>A new subsection (b) is added to read as follows:</text>
       <include>
         <para>
+          <codify:insert num-value="(b)"/>
           <num>(b)</num>
-          <text>Notwithstanding subsection (a) of this section, an order of revival shall not be granted for a judgment or decree to enforce the collection of medical debt, as that term is defined in section 201(5) of the Health Services Planning Program Re-establishment Act of 1996, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438).</text>
+          <text>Notwithstanding subsection (a) of this section, an order of revival shall not be granted for a judgment or decree to enforce the collection of medical debt, as that term is defined in <cite doc="D.C. Code" path="§44-423|(5)" codify:value="§44-423(5)">section 201(5) of the Health Services Planning Program Re-establishment Act of 1996, passed on 2nd reading on June 2, 2026 (Enrolled version of Bill 26-438)</cite>.</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
+    <codify:not-funded-anno doc="D.C. Code" path="§15-103" applicability-path="§6|(a)" action="amendment to" display-template=""/>
   </section>
   <section>
     <num>6</num>
@@ -798,6 +841,10 @@
     <para>
       <num>(a)</num>
       <text>This act shall apply 6 months after the date of inclusion of its fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-172" path="§2" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-172" path="§3" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-172" path="§4" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-172" path="§5" date="notfunded" history="false" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
