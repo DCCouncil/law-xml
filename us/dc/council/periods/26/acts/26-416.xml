@@ -37,6 +37,7 @@
         <text>Title XII of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-612.01 <em>et seq.</em>), is amended by adding a new section 1202b to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="1|6|XII" after="§1-612.02a" num-value="1-612.02b" history-prefix="as added"/>
             <num>1202b</num>
             <heading proof="needed">Telework.</heading>
             <para>
@@ -61,11 +62,11 @@
             </para>
             <para>
               <num>(f)</num>
-              <text>This section shall apply to agencies and personnel authorities otherwise exempt from this act; except, that it shall not apply to the Superior Court of the District of Columbia, the District of Columbia Court of Appeals, the Office of the Attorney General for the District of Columbia, the Public Service Commission of the District of Columbia, the Office of the People's Counsel for the District of Columbia, or the Council and other agencies of the legislative branch of the District government.</text>
+              <text>This section shall apply to agencies and personnel authorities otherwise exempt from <code-cite doc="D.C. Code" path="1|6">this act</code-cite>; except, that it shall not apply to the Superior Court of the District of Columbia, the District of Columbia Court of Appeals, the Office of the Attorney General for the District of Columbia, the Public Service Commission of the District of Columbia, the Office of the People's Counsel for the District of Columbia, or the Council and other agencies of the legislative branch of the District government.</text>
             </para>
             <para>
               <num>(g)</num>
-              <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), may issue rules to implement the provisions of this section.</text>
+              <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement the provisions of this section.</text>
             </para>
             <para>
               <num>(h)</num>
@@ -90,6 +91,13 @@
                 </para>
               </para>
             </para>
+            <annotation doc="D.C. Law 2-139" type="History" path="§1202b">Mar. 3, 1979, D.C. Law 2-139, § 1202b</annotation>
+            <codify:emergency-new-sec doc="D.C. Code" path="§1-612.02b" interim-path="§1-612.02a" perm-eff="2026-08-13"/>
+            <codify:insert doc="D.C. Code" path="§1-612.02b" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on November 11, 2026.*
+      </text>
+            </codify:insert>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -107,52 +115,74 @@
       <section>
         <num>1012</num>
         <text>The Advisory Neighborhood Commissions Act of 1975, effective October 10, 1975 (D.C. Law 1-21; D.C. Official Code § 1-309.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§1-309.10|(n-1)">
           <num>(a)</num>
-          <text>Section 13(n-1) (D.C. Official Code § 1-309.10(n-1)) is amended by striking the</text>
-          <text>period and inserting the phrase ". A copy of the report or newsletter shall be filed with the Council, the Mayor, and the OANC." in its place.</text>
+          <text>Section 13(n-1) (D.C. Official Code § 1-309.10(n-1)) is amended by striking the period and inserting the phrase ". A copy of the report or newsletter shall be filed with the Council, the Mayor, and the OANC." in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>. A copy of the report or newsletter shall be filed with the Council, the Mayor, and the OANC.</replace>
+          </codify:find-replace>
+          <codify:emergency doc="D.C. Code" path="§1-309.10"/>
+          <codify:insert doc="D.C. Code" path="§1-309.10" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-309.10(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
-        <para>
+        <para codify:path="§1-309.13">
           <num>(b)</num>
           <text>Section 16 (D.C. Official Code § 1-309.13) is amended as follows:</text>
-          <para>
+          <para codify:path="(d)|(3)">
             <num>(1)</num>
             <text>Subsection (d)(3) is repealed.</text>
+            <codify:repeal/>
           </para>
-          <para>
+          <para codify:path="(f)|(2A)|(A)|(ii)">
             <num>(2)</num>
             <text>Subsection (f)(2A)(A)(ii) is amended to read as follows:</text>
             <include lvl="3">
               <para>
+                <codify:replace/>
                 <num>(ii)</num>
                 <text>Fully documented as being approved by the Commission in the meeting minutes, which shall be signed by either the Secretary or Chairperson; and</text>
               </para>
             </include>
-            <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(j)">
             <num>(3)</num>
             <text>Subsection (j) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended as follows:</text>
               <para>
                 <num>(i)</num>
                 <text>Strike the phrase "the minutes of all meetings" and insert the phrase "the signed minutes of all meetings" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>the minutes of all meetings</find>
+                  <replace>the signed minutes of all meetings</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(ii)</num>
                 <text>Strike the phrase "this section. A financial report shall" and insert the phrase "this section. In instances when an incomplete report is filed, a Commission may file an amended report within 45 days after the due date of that report as established in this paragraph. A financial report shall" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>this section. A financial report shall</find>
+                  <replace>this section. In instances when an incomplete report is filed, a Commission may file an amended report within 45 days after the due date of that report as established in this paragraph. A financial report shall</replace>
+                </codify:find-replace>
               </para>
             </para>
-            <para>
+            <para codify:path="(2)">
               <num>(B)</num>
               <text>Paragraph (2) is amended by striking the word "approved" and inserting the phrase "received and accepted" in its place.</text>
+              <codify:find-replace count="1">
+                <find>approved</find>
+                <replace>received and accepted</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(3)|(A)">
               <num>(C)</num>
               <text>Paragraph (3)(A) is amended as follows:</text>
-              <para>
+              <para codify:path="(i)">
                 <num>(i)</num>
                 <text>Sub-subparagraph (i) is amended to read as follows:</text>
                 <include lvl="1">
@@ -161,6 +191,7 @@
                     <para>
                       <num>(A)</num>
                       <para>
+                        <codify:replace/>
                         <num>(i)</num>
                         <text>If a Commission has failed to timely file 2 or more quarterly reports received and accepted by the OANC, the OANC shall recommend withholding the allotments associated with the quarterly reports until the Commission files the required reports and associated documentation.</text>
                       </para>
@@ -169,32 +200,45 @@
                 </include>
                 <aftertext>.</aftertext>
               </para>
-              <para>
+              <para codify:path="(ii)">
                 <num>(ii)</num>
                 <text>Paragraph (ii) is amended as follows:</text>
                 <para>
                   <num>(I)</num>
                   <text>Strike the word "had" and insert the word "has" in its place.</text>
+                  <codify:find-replace count="1">
+                    <find>had</find>
+                    <replace>has</replace>
+                  </codify:find-replace>
                 </para>
                 <para>
                   <num>(II)</num>
                   <text>Strike the phrase "allotment approved" and insert the phrase "report received and accepted" in its place.</text>
+                  <codify:find-replace count="1">
+                    <find>allotment approved</find>
+                    <replace>report received and accepted</replace>
+                  </codify:find-replace>
                 </para>
               </para>
             </para>
           </para>
-          <para>
+          <para codify:path="(m)|(3)">
             <num>(4)</num>
             <text>Subsection (m)(3) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>The lead-in language is amended by striking the phrase "consistent with the grant application, complete with receipts" and inserting the phrase "consistent with the grant application, which may be in the form of a close-out report or on a form supplied by the OANC, complete with receipts" in its place.</text>
+              <codify:find-replace count="1">
+                <find>consistent with the grant application, complete with receipts</find>
+                <replace>consistent with the grant application, which may be in the form of a close-out report or on a form supplied by the OANC, complete with receipts</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(A)">
               <num>(B)</num>
               <text>Subparagraph (A) is amended to read as follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:replace/>
                   <num>(A)</num>
                   <text>May prohibit all Commissions from providing a grant to any past grant recipient that:</text>
                   <para>
@@ -213,15 +257,20 @@
               </include>
               <aftertext>.</aftertext>
             </para>
-            <para>
+            <para codify:path="(B)">
               <num>(C)</num>
               <text>Subparagraph (B) is amended by striking the phrase "this paragraph." and inserting the phrase "this paragraph; and" in its place.</text>
+              <codify:find-replace count="1">
+                <find>this paragraph.</find>
+                <replace>this paragraph; and</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(D)</num>
               <text>A new subparagraph (C) is added to read as follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:insert after="(B)" num-value="(C)"/>
                   <num>(C)</num>
                   <text>May withhold from future allotments an amount equal to the amount awarded to any applicant on the list of prohibited grantees.</text>
                 </para>
@@ -229,18 +278,20 @@
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(r)">
             <num>(5)</num>
             <text>Subsection (r) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>The existing text is designated as paragraph (1).</text>
+              <codify:redesignate-para num-value="(1)"/>
             </para>
             <para>
               <num>(B)</num>
               <text>A new paragraph (2) is added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert after="(1)" num-value="(2)"/>
                   <num>(2)</num>
                   <text>When Commission funds are used to pay for the cost or use of a telephone, the contact number of that telephone shall be publicly available.</text>
                 </para>
@@ -248,37 +299,66 @@
               <aftertext>.</aftertext>
             </para>
           </para>
+          <codify:emergency doc="D.C. Code" path="§1-309.13"/>
+          <codify:insert doc="D.C. Code" path="§1-309.13" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-309.13(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
-        <para>
+        <para codify:path="§1-309.15|(c)">
           <num>(c)</num>
           <text>Section 18(c) (D.C. Official Code § 1-309.15(c)) is amended as follows:</text>
-          <para>
+          <para codify:path="(7)">
             <num>(1)</num>
             <text>Paragraph (7) is amended by striking the phrase "templates for staff payroll forms, grant applications, and" and inserting the phrase "templates for grant applications and" in its place.</text>
+            <codify:find-replace count="1">
+              <find>templates for staff payroll forms, grant applications, and</find>
+              <replace>templates for grant applications and</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(16)">
             <num>(2)</num>
             <text>Paragraph (16) is amended by striking the phrase "financial reports, and approving or disapproving" and inserting the phrase "financial reports, and recommending the approval or disapproval of" in its place.</text>
+            <codify:find-replace count="1">
+              <find>financial reports, and approving or disapproving</find>
+              <replace>financial reports, and recommending the approval or disapproval of</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(19)">
             <num>(3)</num>
             <text>Paragraph (19) is amended by striking the phrase "; and," and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and[ ]</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(20)">
             <num>(4)</num>
             <text>Paragraph (20) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace count="1">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(5)</num>
             <text>A new subparagraph (21) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(20)" num-value="(21)"/>
                 <num>(21)</num>
                 <text>Providing Commissions with official websites and the technical assistance related to maintaining and updating them by October 1, 2027.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:emergency doc="D.C. Code" path="§1-309.15"/>
+          <codify:insert doc="D.C. Code" path="§1-309.15" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-309.15(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
       </section>
     </container>
@@ -294,14 +374,15 @@
       <section>
         <num>1022</num>
         <text>The District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-601.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§1-612.04">
           <num>(a)</num>
           <text>Section 1204 (D.C. Official Code § 1-612.04) is amended as follows:</text>
-          <para>
+          <para codify:path="(4)">
             <num>(1)</num>
             <text>Paragraph (4) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace/>
                 <num>(4)</num>
                 <para>
                   <num>(A)</num>
@@ -323,31 +404,42 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(5)|(C)">
             <num>(2)</num>
             <text>Paragraph (5)(C) is amended to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:replace/>
                 <num>(C)</num>
                 <text>A spouse or domestic partner;</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:emergency doc="D.C. Code" path="§1-612.04"/>
+          <codify:insert doc="D.C. Code" path="§1-612.04" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-612.04(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
-        <para>
+        <para codify:path="§1-612.04a">
           <num>(b)</num>
           <text>Section 1204a (D.C. Official Code § 1-612.04a) is amended as follows:</text>
-          <para>
+          <para codify:path="(a)|(1)|(B)">
             <num>(1)</num>
-            <text>Subsection (a)(1)(B) is amended by striking the phrase "8 workweeks" and</text>
-            <text>inserting the phrase "2 workweeks" in its place.</text>
+            <text>Subsection (a)(1)(B) is amended by striking the phrase "8 workweeks" and inserting the phrase "2 workweeks" in its place.</text>
+            <codify:find-replace count="1">
+              <find>8 workweeks</find>
+              <replace>2 workweeks</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>A new subsection (c-1) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(c)" num-value="(c-1)"/>
                 <num>(c-1)</num>
                 <para>
                   <num>(1)</num>
@@ -381,20 +473,25 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(3)</num>
             <text>Subsection (d) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended by striking the phrase "1-year" and inserting the phrase "one-year" in its place.</text>
+              <codify:find-replace count="1">
+                <find>1-year</find>
+                <replace>one-year</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(2)">
               <num>(B)</num>
               <text>Paragraph (2) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace/>
                   <num>(2)</num>
-                  <text>If a probationary employee voluntarily separates in violation of the one-year continuation of service agreement, the individual shall be indebted to the District government for the salary paid during the leave period. Indebtedness incurred pursuant to this paragraph may be treated in whole or in part as an erroneous payment pursuant to Title XXIX.</text>
+                  <text>If a probationary employee voluntarily separates in violation of the one-year continuation of service agreement, the individual shall be indebted to the District government for the salary paid during the leave period. Indebtedness incurred pursuant to this paragraph may be treated in whole or in part as an erroneous payment pursuant to <code-cite doc="D.C. Code" path="1|6|XXIX">Title XXIX</code-cite>.</text>
                 </para>
               </include>
               <aftertext>.</aftertext>
@@ -405,6 +502,7 @@
             <text>A new subsection (d-1) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(d)" num-value="(d-1)"/>
                 <num>(d-1)</num>
                 <para>
                   <num>(1)</num>
@@ -412,12 +510,18 @@
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>If the employee voluntarily separates in violation of the continuation of service agreement, the individual shall be indebted to the District government for the salary paid during the leave period. Indebtedness incurred pursuant to this paragraph may be treated in whole or in part as an erroneous payment pursuant to Title XXIX.</text>
+                  <text>If the employee voluntarily separates in violation of the continuation of service agreement, the individual shall be indebted to the District government for the salary paid during the leave period. Indebtedness incurred pursuant to this paragraph may be treated in whole or in part as an erroneous payment pursuant to <code-cite doc="D.C. Code" path="1|6|XXIX">Title XXIX</code-cite>.</text>
                 </para>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:emergency doc="D.C. Code" path="§1-612.04a"/>
+          <codify:insert doc="D.C. Code" path="§1-612.04a" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-612.04a(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
       </section>
     </container>
@@ -433,34 +537,47 @@
       <section>
         <num>1032</num>
         <text>The Government Ethics Act of 2011, effective April 27, 2012 (D.C. Law 19-124; D.C. Official Code § 1-1162.01 <em>et seq</em>.), is amended as follows:</text>
-        <para>
+        <para codify:path="§1-1162.27">
           <num>(a)</num>
           <text>Section 227 (D.C. Official Code § 1-1162.27) is amended as follows:</text>
-          <para>
+          <para codify:path="(b)">
             <num>(1)</num>
             <text>Subsection (b) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended by striking the figure "$350" and inserting the figure "$500" in its place.</text>
+              <codify:find-replace count="1">
+                <find>$350</find>
+                <replace>$500</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(2)">
               <num>(B)</num>
               <text>Paragraph (2) is amended as follows:</text>
               <para>
                 <num>(i)</num>
                 <text>Strike the figure "$100" and insert the figure "$250" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>$100</find>
+                  <replace>$250</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(ii)</num>
                 <text>Strike the phrase "501(c)(3)" both times it appears and insert the phrase "501(c)(3) or (4)" in its place.</text>
+                <codify:find-replace count="2">
+                  <find>501(c)(3)</find>
+                  <replace>501(c)(3) or (4)</replace>
+                </codify:find-replace>
               </para>
             </para>
           </para>
-          <para>
+          <para codify:path="(c)|(3)">
             <num>(2)</num>
             <text>Subsection (c)(3) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace/>
                 <num>(3)</num>
                 <text>The funds in the Lobbyist Fund shall be used by the Board as follows:</text>
                 <para>
@@ -468,7 +585,7 @@
                   <text>The registration fee for lobbyists collected pursuant to subsection (b)(1) of this section shall be used as follows:</text>
                   <para>
                     <num>(1)</num>
-                    <text>$350 of each registration fee shall be used solely for the purpose of administering and enforcing this title; and</text>
+                    <text>$350 of each registration fee shall be used solely for the purpose of administering and enforcing <code-cite doc="D.C. Code" path="1|11A|II">this title</code-cite>; and</text>
                   </para>
                   <para>
                     <num>(2)</num>
@@ -480,7 +597,7 @@
                   <text>The registration fee for lobbyists for nonprofit organizations collected pursuant to subsection (b)(2) of this section shall be used as follows:</text>
                   <para>
                     <num>(1)</num>
-                    <text>$100 of each registration fee shall be used solely for the purpose of administering and enforcing this title; and</text>
+                    <text>$100 of each registration fee shall be used solely for the purpose of administering and enforcing <code-cite doc="D.C. Code" path="1|11A|II">this title</code-cite>; and</text>
                   </para>
                   <para>
                     <num>(2)</num>
@@ -491,30 +608,62 @@
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:emergency doc="D.C. Code" path="§1-1162.27"/>
+          <codify:insert doc="D.C. Code" path="§1-1162.27" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-1162.27(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
-        <para>
+        <para codify:path="§1-1162.28|(a)">
           <num>(b)</num>
           <text>Section 228(a) (D.C. Official Code § 1-1162.28(a)) is amended as follows:</text>
-          <para>
+          <para codify:path="(2)">
             <num>(1)</num>
             <text>Paragraph (2) is amended by striking the phrase "public;" and inserting the phrase "public; or" in its place.</text>
+            <codify:find-replace count="1">
+              <find>public;</find>
+              <replace>public; or</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(2)</num>
             <text>Paragraph (3) is amended by striking the phrase "; or" and inserting a period in its place.</text>
+            <codify:find-replace count="1">
+              <find>; or</find>
+              <replace>.</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>Paragraph (4) is repealed.</text>
+            <codify:repeal path="(4)"/>
           </para>
+          <codify:emergency doc="D.C. Code" path="§1-1162.28"/>
+          <codify:insert doc="D.C. Code" path="§1-1162.28" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-1162.28(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
-        <para>
+        <para codify:path="§1-1162.32|(c)">
           <num>(c)</num>
           <text>Section 232(c) (D.C. Official Code § 1-1162.32(c)) is amended by striking the phrase "$100 per day up to 60 days (excluding Saturdays, Sundays, and holidays)" and inserting the phrase "$200 per day up to 60 days" in its place.</text>
+          <codify:find-replace count="1">
+            <find>$100 per day up to 60 days (excluding Saturdays, Sundays, and holidays)</find>
+            <replace>$200 per day up to 60 days</replace>
+          </codify:find-replace>
+          <codify:emergency doc="D.C. Code" path="§1-1162.32"/>
+          <codify:insert doc="D.C. Code" path="§1-1162.32" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-1162.32(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
       </section>
     </container>
     <container>
+      <codify:marginalia display="Not Codified in the D.C. Code"/>
       <prefix>SUBTITLE</prefix>
       <num>E</num>
       <heading>MAYORAL TRANSITION</heading>
@@ -591,15 +740,16 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Fair Elections Program Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§1-1163.32h|(b)|(2)">
         <num>1052</num>
         <text>Section 332h(b)(2) of the Campaign Finance Act of 2011, effective May 5, 2018 (D.C. Law 22-94; D.C. Official Code § 1-1163.32h(b)(2)), is amended to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:replace/>
             <num>(2)</num>
             <para>
               <num>(A)</num>
-              <text>If a participating candidate's certification is revoked pursuant to section 332c(c)(2), (3), or (4) or, due to fraudulent activities, section 332c(c)(5), the participating candidate shall be personally liable for any expended base amount or matching payments.</text>
+              <text>If a participating candidate's certification is revoked pursuant to <code-cite doc="D.C. Code" path="§1-1163.32c|(c)|(2)">section 332c(c)(2)</code-cite>, <cite doc="D.C. Code" path="§1-1163.32c|(c)|(3)">(3)</cite>, or <cite doc="D.C. Code" path="§1-1163.32c|(c)|(4)">(4)</cite> or, due to fraudulent activities, <code-cite doc="D.C. Code" path="§1-1163.32c|(c)|(5)">section 332c(c)(5)</code-cite>, the participating candidate shall be personally liable for any expended base amount or matching payments.</text>
             </para>
             <para>
               <num>(B)</num>
@@ -612,6 +762,12 @@
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:emergency doc="D.C. Code" path="§1-1163.32h"/>
+        <codify:insert doc="D.C. Code" path="§1-1163.32h" before="heading" history="false" display-template="">
+          <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-1163.32h(Perm)">Permanent Version</cite>.*
+      </text>
+        </codify:insert>
       </section>
     </container>
     <container>
@@ -628,9 +784,17 @@
         <text>The Department of General Services Establishment Act of 2011, effective September 14, 2011 (D.C. Law 19-21; D.C. Official Code § 10-551.01 <em>et seq.</em>), is amended by adding a new section 1028j to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="10|5A" after="§10-551.07i" num-value="10-551.07j" history-prefix="as added"/>
             <num>1028j</num>
             <heading proof="needed">Public litter container replacement.</heading>
             <text>As part of the completion in Fiscal Year 2027 of a newly renovated or modernized District of Columbia Public Schools facility or Department of Parks and Recreation-managed property ("project property"), the Department shall procure publicly accessible and secure rodent-resistant trash and recycling containers and install the containers on the site of, and in the public space immediately abutting, the lot or square of the project property.</text>
+            <annotation doc="D.C. Law 19-21" type="History" path="§1028j">Sept. 14, 2011, D.C. Law 19-21, § 1028j</annotation>
+            <codify:emergency-new-sec doc="D.C. Code" path="§10-551.07j" interim-path="§10-551.07i" perm-eff="2026-08-13"/>
+            <codify:insert doc="D.C. Code" path="§10-551.07j" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on November 11, 2026.*
+      </text>
+            </codify:insert>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -648,7 +812,7 @@
       <section>
         <num>1072</num>
         <text>Title I of the Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010, effective May 27, 2010 (D.C. Law 18-160; D.C. Official Code § 1-301.81 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§1-301.86b">
           <num>(a)</num>
           <text>Section 106b (D.C. Official Code § 1-301.86b) is amended as follows:</text>
           <para>
@@ -656,41 +820,43 @@
             <text>A new subsection (a-1) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(a)" num-value="(a-1)"/>
                 <num>(a-1)</num>
                 <text>For the purposes of this section, the terms "recovery" and "recoveries" shall include funds obtained through court determinations or through the settlement of claims in which the Office of the Attorney General represents the District but shall not include funds obtained through an administrative proceeding or funds obligated to another source by federal law.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(2)</num>
             <text>Subsection (b) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace/>
                   <num>(1)</num>
                   <text>Subject to the provisions of subsection (b-1) of this section and the limitations of subsection (d)(3) of this section, and notwithstanding any other provision of District law, any recoveries from claims or litigation brought by the Office of the Attorney General on behalf of the District shall be deposited into the Fund, regardless of whether the amounts payable otherwise would have been required to be deposited into a different District fund, except, that:</text>
                   <para>
                     <num>(A)</num>
-                    <text>Recoveries under section 2(b)(2) of the Subrogation Fund Establishment Act of 2018, effective July 3, 2018 (D.C. Law 22-122; D.C. Official Code § 1-325.391(b)(2)), shall be deposited into the Subrogation Fund established by section 2(a) of the Subrogation Fund Establishment Act of 2018, effective July 3, 2018 (D.C. Law 22-122; D.C. Official Code § 1-325.391(a));</text>
+                    <text>Recoveries under <code-cite doc="D.C. Code" path="§1-325.391|(b)|(2)">section 2(b)(2) of the Subrogation Fund Establishment Act of 2018, effective July 3, 2018 (D.C. Law 22-122; D.C. Official Code § 1-325.391(b)(2))</code-cite>, shall be deposited into the Subrogation Fund established by <code-cite doc="D.C. Code" path="§1-325.391|(a)">section 2(a) of the Subrogation Fund Establishment Act of 2018, effective July 3, 2018 (D.C. Law 22-122; D.C. Official Code § 1-325.391(a))</code-cite>;</text>
                   </para>
                   <para>
                     <num>(B)</num>
-                    <text>Recoveries under section 2332 of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-623.32), shall be deposited into the Employees' Compensation Fund established by section 2342 of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-623.42(c));</text>
+                    <text>Recoveries under <code-cite doc="D.C. Code" path="§1-623.32">section 2332 of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-623.32)</code-cite>, shall be deposited into the Employees' Compensation Fund established by <code-cite doc="D.C. Code" path="§1-623.42|(c)">section 2342 of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective March 3, 1979 (D.C. Law 2-139; D.C. Official Code § 1-623.42(c))</code-cite>;</text>
                   </para>
                   <para>
                     <num>(C)</num>
-                    <text>Recoveries the Attorney General obtains as settlements or awards that include restitution, disgorgement, damages, or other monetary relief for individuals or entities for which the District is responsible for distribution, as well as any recoveries of related costs of distribution and any other recoveries in such amounts as may be necessary to distribute any monetary relief for individuals or entities for which the District is responsible for distribution, shall be deposited into the Attorney General Restitution Fund established by section 106c;</text>
+                    <text>Recoveries the Attorney General obtains as settlements or awards that include restitution, disgorgement, damages, or other monetary relief for individuals or entities for which the District is responsible for distribution, as well as any recoveries of related costs of distribution and any other recoveries in such amounts as may be necessary to distribute any monetary relief for individuals or entities for which the District is responsible for distribution, shall be deposited into the Attorney General Restitution Fund established by <code-cite doc="D.C. Code" path="§1-301.86c">section 106c</code-cite>;</text>
                   </para>
                   <para>
                     <num>(D)</num>
-                    <text>Recoveries the Attorney General obtains from owners under section 506(j)(2) of the Abatement and Condemnation of Nuisance Properties Omnibus Amendment Act of 2000, effective April 27, 2001 (D.C. Law 13-281; D.C. Official Code § 42-3651.06(j)(2)), shall be deposited into the Tenant Receivership Abatement Fund established by section 106e; except, that when the deposit of such funds into the Tenant Receivership Abatement Fund would cause that fund's balance to exceed $2 million, the excess of such funds shall be deposited in the Fund; and</text>
+                    <text>Recoveries the Attorney General obtains from owners under <code-cite doc="D.C. Code" path="§42-3651.06|(j)|(2)">section 506(j)(2) of the Abatement and Condemnation of Nuisance Properties Omnibus Amendment Act of 2000, effective April 27, 2001 (D.C. Law 13-281; D.C. Official Code § 42-3651.06(j)(2))</code-cite>, shall be deposited into the Tenant Receivership Abatement Fund established by <code-cite doc="D.C. Code" path="§1-301.86e">section 106e</code-cite>; except, that when the deposit of such funds into the Tenant Receivership Abatement Fund would cause that fund's balance to exceed $2 million, the excess of such funds shall be deposited in the Fund; and</text>
                   </para>
                   <para>
                     <num>(E)</num>
-                    <text>Recoveries under section 12a of the Drug-Related Nuisance Abatement Act of 1998, effective April 4, 2006 (D.C. Law 16-81; D.C. Official Code § 42-3111.01), shall be deposited into the Drug-, Firearm-, or Prostitution-Related Nuisance Abatement Fund established by that section.</text>
+                    <text>Recoveries under <code-cite doc="D.C. Code" path="§42-3111.01">section 12a of the Drug-Related Nuisance Abatement Act of 1998, effective April 4, 2006 (D.C. Law 16-81; D.C. Official Code § 42-3111.01)</code-cite>, shall be deposited into the Drug-, Firearm-, or Prostitution-Related Nuisance Abatement Fund established by that section.</text>
                   </para>
                 </para>
               </include>
@@ -699,10 +865,18 @@
             <para>
               <num>(B)</num>
               <text>Paragraph (5) is redesignated as paragraph (6).</text>
+              <codify:find-replace path="[(6)]|num" count="1">
+                <find>[(6)]</find>
+                <replace>(6)</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(C)</num>
               <text>The second paragraph (4) is redesignated as paragraph (5).</text>
+              <codify:find-replace path="[(5)]|num" count="1">
+                <find>[(5)]</find>
+                <replace>(5)</replace>
+              </codify:find-replace>
             </para>
           </para>
           <para>
@@ -710,6 +884,7 @@
             <text>A new subsection (b-1) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(b)" num-value="(b-1)"/>
                 <num>(b-1)</num>
                 <para>
                   <num>(1)</num>
@@ -726,7 +901,7 @@
                   <num>(2)</num>
                   <para>
                     <num>(A)</num>
-                    <text>In any matter litigated or settled by the Attorney General under section 815 of the District of Columbia Procurement Practices Act of 1985, effective May 8, 1998 (D.C. Law 12-104; D.C. Official Code § 2-381.03), involving the funds of a District of Columbia agency, 50% of any recovery shall be deposited into the Fund and the other 50% shall be deposited into the General Fund.</text>
+                    <text>In any matter litigated or settled by the Attorney General under <code-cite doc="D.C. Code" path="§2-381.03">section 815 of the District of Columbia Procurement Practices Act of 1985, effective May 8, 1998 (D.C. Law 12-104; D.C. Official Code § 2-381.03)</code-cite>, involving the funds of a District of Columbia agency, 50% of any recovery shall be deposited into the Fund and the other 50% shall be deposited into the General Fund.</text>
                   </para>
                   <para>
                     <num>(B)</num>
@@ -737,9 +912,10 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(c)|(3)">
             <num>(4)</num>
             <text>Subsection (c)(3) is repealed.</text>
+            <codify:repeal/>
           </para>
           <para>
             <num>(5)</num>
@@ -749,6 +925,7 @@
               <text>Subparagraph (C) is amended to read as follows:</text>
               <include lvl="2">
                 <para>
+                  <codify:replace path="(d)|(3)|(C)"/>
                   <num>(C)</num>
                   <text>Notwithstanding subparagraph (A) of this paragraph, amounts owed to an outside counsel contractor that are part of recoveries obtained on behalf of the District by the outside counsel contractor pursuant to a contingency fee contract shall be deposited into the Fund and may remain in the Fund until paid to the outside counsel contractor to satisfy costs and fees or transferred to another fund by the Office of the Attorney General to pay the outside counsel contractor. Money deposited into the Fund that is owed to an outside counsel contractor shall not count toward the $23.5 million limitation in subparagraph (A) of this paragraph or, to the extent separately appropriated, toward any limit on the Office of the Attorney General's annual spending authority.</text>
                 </para>
@@ -758,24 +935,40 @@
             <para>
               <num>(B)</num>
               <text>Subparagraph (D) is redesignated as subsection (d-1).</text>
+              <!-- did this by removing codify:insert and codify:replace instructions for subparagraph (D) in D.C. Law 24-167 and D.C. Law 24-315 -->
+              <para>
+                <codify:insert after="(d)" num-value="(d-1)"/>
+                <num>(d-1)</num>
+                <text>The Attorney General shall transfer to the Opioid Abatement Fund, established by <code-cite doc="D.C. Code" path="§7-3221">section 5012 of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441)</code-cite>, at least 85% of any payment received prior to October 1, 2022, in settlement of the cases and settlements, judgments, and consent decrees specified in <code-cite doc="D.C. Code" path="§7-3221|(b)|(1)">section 5012(b)(1)</code-cite> and <cite doc="D.C. Code" path="§7-3221|(b)|(1A)">(1A)</cite><span codify:value=""> of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 1-325.441(b)(1) and (1A))</span>, that was deposited into the Fund, and at least 90% of any payment received thereafter. The Attorney General may elect to retain the remainder of each such payment in the Fund by providing the Mayor, Chief Financial Officer, and Council with written notice of the amount of the election and the relevant payment. In making this election, the Attorney General shall ensure compliance with all applicable settlement terms.</text>
+              </para>
             </para>
           </para>
           <para>
             <num>(6)</num>
             <text>Subsections (e), (f), and (g) are repealed.</text>
+            <codify:repeal path="(e)"/>
+            <codify:repeal path="(f)"/>
+            <codify:repeal path="(g)"/>
           </para>
+          <codify:emergency doc="D.C. Code" path="§1-301.86b"/>
+          <codify:insert doc="D.C. Code" path="§1-301.86b" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-301.86b(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
-        <para>
+        <para codify:path="§1-301.86c">
           <num>(b)</num>
           <text>Section 106c (D.C. Official Code § 1-301.86c) is amended as follows:</text>
-          <para>
+          <para codify:path="(b)">
             <num>(1)</num>
             <text>Subsection (b) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace/>
                   <num>(1)</num>
                   <text>Recoveries the Attorney General obtains as settlements or awards that include restitution, disgorgement, damages, or other monetary relief for individuals or entities for which the District is responsible for distribution, as well as recoveries of any related costs of distribution, and any other recoveries in such amounts as may be necessary to distribute any monetary relief for individuals or entities for which the District is responsible for distribution; and</text>
                 </para>
@@ -785,66 +978,86 @@
             <para>
               <num>(B)</num>
               <text>Paragraph (2) is repealed.</text>
+              <codify:repeal path="(2)"/>
             </para>
           </para>
-          <para>
+          <para codify:path="(c)|(1)">
             <num>(2)</num>
             <text>Subsection (c)(1) is amended to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:replace/>
                 <num>(1)</num>
                 <text>The payment of awards to individuals and entities as required by court orders, judgments, or settlements in actions or investigations OAG conducts;</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(3)</num>
             <text>Subsection (d) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(d)</num>
                 <text>Before OAG authorizes any payments from the Fund in excess of $100 to an individual or entity under this section, the Office of the Chief Financial Officer shall determine whether the individual or entity owes any amount to the District and deduct the amount owed from the award to the individual or entity, if any.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(e)">
             <num>(4)</num>
             <text>Subsection (e) is amended as follows:</text>
-            <para>
+            <para codify:path="(1)">
               <num>(A)</num>
               <text>Paragraph (1) is amended as follows:</text>
-              <para>
+              <para codify:path="(A)">
                 <num>(i)</num>
                 <text>Subparagraph (A) is amended by striking the word "person" and inserting the phrase "individual or entity" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>person</find>
+                  <replace>individual or entity</replace>
+                </codify:find-replace>
               </para>
-              <para>
+              <para codify:path="(B)">
                 <num>(ii)</num>
                 <text>Subparagraph (B) is amended by striking the word "individuals" and inserting the phrase "individuals and entities" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>individuals</find>
+                  <replace>individuals and entities</replace>
+                </codify:find-replace>
               </para>
             </para>
-            <para>
+            <para codify:path="(2)">
               <num>(B)</num>
               <text>Paragraph (2) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:replace/>
                   <num>(2)</num>
                   <text>If not otherwise directed by the court order, judgment, or settlement, OAG may apply any part of the award to the costs and expenses related to maintaining the Fund and conducting the claims process under subsection (c)(2) of this section, including payments to claims administrators.</text>
                 </para>
               </include>
               <aftertext>.</aftertext>
             </para>
-            <para>
+            <para codify:path="(3)">
               <num>(C)</num>
               <text>Paragraph (3) is amended as follows:</text>
-              <para>
+              <para codify:path="(A)">
                 <num>(i)</num>
                 <text>Subparagraph (A) is amended by striking the word "individuals" and inserting the phrase "individuals or entities in the court or administrative order, judgment, or settlement" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>individuals</find>
+                  <replace>individuals or entities in the court or administrative order, judgment, or settlement</replace>
+                </codify:find-replace>
               </para>
-              <para>
+              <para codify:path="(B)">
                 <num>(ii)</num>
                 <text>Subparagraph (B) is amended by striking the figure "$500,000" and inserting the figure "$1 million" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>$500,000</find>
+                  <replace>$1 million</replace>
+                </codify:find-replace>
               </para>
             </para>
           </para>
@@ -853,48 +1066,78 @@
             <text>A new subsection (i) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(h)" num-value="(i)"/>
                 <num>(i)</num>
                 <text>All assets and liabilities of the Vulnerable Adult and Elderly Person Exploitation Restitution Fund are transferred to the Fund.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:emergency doc="D.C. Code" path="§1-301.86c"/>
+          <codify:insert doc="D.C. Code" path="§1-301.86c" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-301.86c(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
         <para>
           <num>(c)</num>
           <text>Section 106d (D.C. Official Code § 1-301.86d) is repealed.</text>
+          <codify:repeal path="§1-301.86d"/>
+          <codify:emergency doc="D.C. Code" path="§1-301.86d"/>
+          <codify:insert doc="D.C. Code" path="§1-301.86d" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-301.86d(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
       </section>
-      <section>
+      <section codify:path="§1-350.02|(a-4)">
         <num>1073</num>
         <text>Section 1043(a-4) of the Delinquent Debt Recovery Act of 2012, effective September 20, 2012 (D.C. Law 19-168; D.C. Official Code § 1-350.02(a-4)), is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(a)</num>
           <text>Paragraph (1) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(1)</num>
-              <text>Funds collected by the Central Collection Unit arising out of delinquent debts associated with settlements and judgments that are transferred or referred to the Central Collection Unit by the Office of the Attorney General for collection and that are eligible for deposit into the Litigation Support Fund pursuant to section 106b of the Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010, effective October 22, 2015 (D.C. Law 21-36; D.C. Official Code § 1-301.86b), shall be deposited into the Litigation Support Fund, net of costs and fees, within 60 days; and</text>
+              <text>Funds collected by the Central Collection Unit arising out of delinquent debts associated with settlements and judgments that are transferred or referred to the Central Collection Unit by the Office of the Attorney General for collection and that are eligible for deposit into the Litigation Support Fund pursuant to <code-cite doc="D.C. Code" path="§1-301.86b">section 106b of the Attorney General for the District of Columbia Clarification and Elected Term Amendment Act of 2010, effective October 22, 2015 (D.C. Law 21-36; D.C. Official Code § 1-301.86b)</code-cite>, shall be deposited into the Litigation Support Fund, net of costs and fees, within 60 days; and</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(b)</num>
           <text>Paragraph (2) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Strike the word "restitution" and insert the phrase "restitution, disgorgement, damages, or other monetary relief for individuals or entities for which the District is responsible for distribution" in its place.</text>
+            <codify:find-replace position="1">
+              <find>restitution</find>
+              <replace>restitution, disgorgement, damages, or other monetary relief for individuals or entities for which the District is responsible for distribution</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the phrase "; and" and insert a period in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>.</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
           <num>(c)</num>
           <text>Paragraph (3) is repealed.</text>
+          <codify:repeal path="(3)"/>
         </para>
+        <codify:emergency doc="D.C. Code" path="§1-350.02"/>
+        <codify:insert doc="D.C. Code" path="§1-350.02" before="heading" history="false" display-template="">
+          <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-350.02(Perm)">Permanent Version</cite>.*
+      </text>
+        </codify:insert>
       </section>
     </container>
     <container>
@@ -906,17 +1149,31 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Office of Inspector General Oversight Clarification Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§38-1802.14|(f)">
         <num>1082</num>
         <text>Section 2214(f) of the District of Columbia School Reform Act of 1995, approved April 26, 1996 (110 Stat. 1321-132; D.C. Official Code § 38-1802.14(f)), is amended as follows:</text>
         <para>
           <num>(a)</num>
-          <text>Strike the phrase "Audit. <strong>—</strong>" and insert the phrase "Audits, inspections, and investigations. <strong>—</strong>" in its place.</text>
+          <text>Strike the phrase "Audit.<strong> —</strong>" and insert the phrase "Audits, inspections, and investigations. <strong>—</strong>" in its place.</text>
+          <codify:find-replace path="heading" count="1">
+            <find>Audit.</find>
+            <replace>Audits, inspections, and investigations.</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>Strike the phrase "Columbia." and insert the phrase "Columbia. The Inspector General of the District of Columbia may conduct oversight of the Board and related activities, including audits, inspections, and investigations, in accordance with the authority granted by, and subject to the limitations set forth in, section 208 of the District of Columbia Procurement Practices Act of 1985, effective February 21, 1986 (D.C. Law 6-85; D.C. Official Code § 1-301.115a)." in its place.</text>
+          <codify:find-replace count="1">
+            <find>Columbia.</find>
+            <replace>Columbia. The Inspector General of the District of Columbia may conduct oversight of the Board and related activities, including audits, inspections, and investigations, in accordance with the authority granted by, and subject to the limitations set forth in, <code-cite doc="D.C. Code" path="§1-301.115a">section 208 of the District of Columbia Procurement Practices Act of 1985, effective February 21, 1986 (D.C. Law 6-85; D.C. Official Code § 1-301.115a)</code-cite>.</replace>
+          </codify:find-replace>
         </para>
+        <codify:emergency doc="D.C. Code" path="§38-1802.14"/>
+        <codify:insert doc="D.C. Code" path="§38-1802.14" before="heading" history="false" display-template="">
+          <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§38-1802.14(Perm)">Permanent Version</cite>.*
+      </text>
+        </codify:insert>
       </section>
     </container>
     <container>
@@ -931,11 +1188,12 @@
       <section>
         <num>1092</num>
         <text>The Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.), is amended as follows:</text>
-        <para>
+        <para codify:path="§1-328.11|(a)">
           <num>(a)</num>
           <text>Section 1092 (D.C. Official Code § 1-328.11) is amended by adding a new paragraph (1A) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(1)" num-value="(1A)"/>
               <num>(1A)</num>
               <text>"Confidential information" means:</text>
               <para>
@@ -949,19 +1207,27 @@
             </para>
           </include>
           <aftertext>.</aftertext>
+          <codify:emergency doc="D.C. Code" path="§1-328.11"/>
+          <codify:insert doc="D.C. Code" path="§1-328.11" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-328.11(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
-        <para>
+        <para codify:path="§1-328.14">
           <num>(b)</num>
           <text>Section 1095 (D.C. Official Code § 1-328.14) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>The existing text is designated as subsection (a).</text>
+            <codify:redesignate-para num-value="(a)"/>
           </para>
           <para>
             <num>(2)</num>
             <text>A new subsection (b) is added to read as follows:</text>
             <include>
               <para>
+                <codify:insert after="(a)" num-value="(b)"/>
                 <num>(b)</num>
                 <para>
                   <num>(1)</num>
@@ -995,6 +1261,12 @@
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:emergency doc="D.C. Code" path="§1-328.14"/>
+          <codify:insert doc="D.C. Code" path="§1-328.14" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-328.14(Perm)">Permanent Version</cite>.*
+      </text>
+          </codify:insert>
         </para>
       </section>
     </container>
@@ -1012,6 +1284,7 @@
         <text>The Office of Gay, Lesbian, Bisexual and Transgender Affairs Act of 2006, effective April 4, 2006 (D.C. Law 16-89; D.C. Official Code § 2-1381 <em>et seq.</em>), is amended by adding a new section 4c to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="2|13B" after="§2-1385" num-value="2-1386" history-prefix="as added"/>
             <num>4c</num>
             <heading proof="needed">OLGBTQ grant program.</heading>
             <para>
@@ -1027,7 +1300,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>The grantee agrees to use 90% of the  grant to award subgrants to other nonprofit organizations that provide programs for the community in accordance with the terms of this section and rules established by the Office, with the advice of the Advisory Committee, pursuant to section 3(e);</text>
+                <text>The grantee agrees to use 90% of the  grant to award subgrants to other nonprofit organizations that provide programs for the community in accordance with the terms of this section and rules established by the Office, with the advice of the Advisory Committee, pursuant to <code-cite doc="D.C. Code" path="§2-1382|(e)">section 3(e)</code-cite>;</text>
               </para>
               <para>
                 <num>(4)</num>
@@ -1066,6 +1339,13 @@
                 <text>The amount of grant funds dedicated to program costs, the amount dedicated to other expenditures, and total amount contributed by private funding.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 16-89" type="History" path="§4c">Apr. 4, 2006, D.C. Law 16-89, § 4c</annotation>
+            <codify:emergency-new-sec doc="D.C. Code" path="§2-1386" interim-path="§2-1385" perm-eff="2026-08-13"/>
+            <codify:insert doc="D.C. Code" path="§2-1386" before="heading" history="false" display-template="">
+              <text>
+      *NOTE: This section was created by emergency legislation that will expire on November 11, 2026.*
+      </text>
+            </codify:insert>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -1080,15 +1360,16 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Office of Inspector General Term Succession Clarification Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§1-301.115a|(a)|(1)|(A-i)">
         <num>1112</num>
         <text>Section 208(a)(1)(A-i) of the District of Columbia Procurement Practices Act of 1985, effective February 21, 1986, (D.C. Law 6-85; D.C. Official Code § 1-301.115a(a)(1)(A-i)), is amended to read as follows:</text>
         <include lvl="2">
           <para>
+            <codify:replace/>
             <num>(A-i)</num>
             <para>
               <num>(i)</num>
-              <text>Immediately upon the expiration of the term of the Inspector General, the Principal Deputy Inspector General (including any acting Principal Deputy Inspector General), shall serve as acting Inspector General until a new Inspector General is confirmed by the Council pursuant to section 2 of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01).</text>
+              <text>Immediately upon the expiration of the term of the Inspector General, the Principal Deputy Inspector General (including any acting Principal Deputy Inspector General), shall serve as acting Inspector General until a new Inspector General is confirmed by the Council pursuant to <code-cite doc="D.C. Code" path="§1-523.01">section 2 of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01)</code-cite>.</text>
             </para>
             <para>
               <num>(ii)</num>
@@ -1097,6 +1378,13 @@
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:annotation history="false" path="§1-301.115a" type="Applicability"><cite doc="D.C. Act 26-416" path="§1113">Section 1113 of D.C. Act 26-416</cite> provided that the amendments made to this section by <cite doc="D.C. Act 26-416" path="§1112">section 1112</cite> of D.C. Act 26-416 shall apply as of May 19, 2026.</codify:annotation>
+        <codify:emergency doc="D.C. Code" path="§1-301.115a"/>
+        <codify:insert doc="D.C. Code" path="§1-301.115a" before="heading" history="false" display-template="">
+          <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on November 11, 2026. To view the text of this section after the expiration of all emergency and temporary legislation affecting this section, click this link: <cite doc="D.C. Code" path="§1-301.115a(Perm)">Permanent Version</cite>.*
+      </text>
+        </codify:insert>
       </section>
       <section>
         <num>1113</num>
