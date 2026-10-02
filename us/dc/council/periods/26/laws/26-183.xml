@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-183">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-183" codify:doc="D.C. Code">
   <num type="law">26-183</num>
   <num type="act">26-412</num>
   <num type="bill">26-494</num>
@@ -22,11 +22,12 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Business Licensing Reform and Accountancy Practice Amendment Act of 2026".</text>
-  <section>
+  <section codify:path="§1-309.10|(q)">
     <num>2</num>
     <text>Section 13(q) of the Advisory Neighborhood Commissions Act of 1975, effective March 26, 1976 (D.C. Law 1-58; D.C. Official Code § 1-309.10(q)), is amended to read as follows:</text>
     <include>
       <para>
+        <codify:replace/>
         <num>(q)</num>
         <para>
           <num>(1)</num>
@@ -54,26 +55,32 @@
             <section>
               <num>47-2851.25</num>
               <heading>Refund of erroneously paid fees.</heading>
+              <!-- done below -->
             </section>
           </toc>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§47-2851.04">
         <num>(2)</num>
         <text>Section 47-2851.04 is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(A)</num>
           <text>Subsection (a) is amended as follows:</text>
-          <para>
+          <para codify:path="(2)">
             <num>(i)</num>
             <text>Paragraph (2) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace count="1">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(ii)</num>
             <text>A new paragraph (3) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(2)" num-value="(3)"/>
                 <num>(3)</num>
                 <text>$198 for a 4-year license.</text>
               </para>
@@ -81,22 +88,31 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(B)</num>
           <text>Subsection (b) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(i)</num>
             <text>Paragraph (1) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(2)">
             <num>(ii)</num>
             <text>Paragraph (2) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace count="1">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(iii)</num>
             <text>A new paragraph (3) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(2)" num-value="(3)"/>
                 <num>(3)</num>
                 <text>A 4-year license, a person shall pay a license fee of $198.</text>
               </para>
@@ -109,6 +125,7 @@
           <text>A new subsection (h) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(g)" num-value="(h)"/>
               <num>(h)</num>
               <para>
                 <num>(1)</num>
@@ -155,26 +172,32 @@
           <aftertext>.</aftertext>
         </para>
       </para>
-      <para>
+      <para codify:path="§47-2851.07|(c)">
         <num>(3)</num>
         <text>Section 47-2851.07(c) is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c)</num>
-            <text>Licenses issued under this subchapter shall be valid for a period of 6 months, 2 years, or 4 years.</text>
+            <text>Licenses issued under <cite doc="D.C. Code" path="47|28|I-A">this subchapter</cite> shall be valid for a period of 6 months, 2 years, or 4 years.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§47-2851.10|(b)|(3)|(B)">
         <num>(4)</num>
         <text>Section 47-2851.10(b)(3)(B) is amended by striking the phrase "months, but less than 9 months, may" and inserting the phrase "month may" in its place.</text>
+        <codify:find-replace count="1">
+          <find>months, but less than 9 months, may</find>
+          <replace>month may</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>A new section 47-2851.25 is added to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="47|28|I-A" after="§47-2851.24" num-value="47-2851.25"/>
             <prefix>§</prefix>
             <num>47-2851.25</num>
             <heading proof="needed">Refund of erroneously paid fees.</heading>
@@ -196,9 +219,10 @@
         <text>Section 47-2853.42 is amended to read as follows:</text>
         <include>
           <section>
+            <codify:replace path="§47-2853.42"/>
             <prefix>§</prefix>
             <num>47-2853.42</num>
-            <heading proof="needed">Eligibility requirements.</heading>
+            <heading>Eligibility requirements.</heading>
             <para>
               <num>(a)</num>
               <text>An applicant for licensure as a certified public accountant shall establish to the satisfaction of the Board that the applicant:</text>
@@ -251,13 +275,13 @@
             </para>
             <para>
               <num>(c)</num>
-              <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), may establish additional licensure requirements by rule to ensure that the applicant has the proper training, experience, and qualifications to practice as a certified public accountant.</text>
+              <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may establish additional licensure requirements by rule to ensure that the applicant has the proper training, experience, and qualifications to practice as a certified public accountant.</text>
             </para>
           </section>
         </include>
         <aftertext>.</aftertext>
       </para>
-      <para>
+      <para codify:path="§47-2853.49">
         <num>(3)</num>
         <text>Section 47-2853.49 is amended as follows:</text>
         <para>
@@ -268,6 +292,10 @@
               <prefix>§</prefix>
               <num>47-2853.49</num>
               <heading proof="needed">Practice privilege.</heading>
+              <codify:find-replace path="heading" count="1">
+                <find>Substantial equivalency; practice privilege.</find>
+                <replace>Practice privilege.</replace>
+              </codify:find-replace>
             </section>
           </include>
           <aftertext>.</aftertext>
@@ -277,8 +305,9 @@
           <text>Subsections (a) and (b) are amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace path="(a)"/>
               <num>(a)</num>
-              <text>An individual whose principal place of business is not in the District shall have all the privileges of a licensee of the District without the need to obtain a license under § 47-2853.42; provided, that the individual:</text>
+              <text>An individual whose principal place of business is not in the District shall have all the privileges of a licensee of the District without the need to obtain a license under <cite doc="D.C. Code" path="§47-2853.42">§ 47-2853.42</cite>; provided, that the individual:</text>
               <para>
                 <num>(1)</num>
                 <text>Holds a valid, unrestricted license as a certified public accountant ("CPA") in good standing issued by another state or territory of the United States; and</text>
@@ -292,24 +321,29 @@
                 </para>
                 <para>
                   <num>(B)</num>
-                  <text>Satisfied education requirements equivalent to those set forth in § 47-2853.42(a)(2); and</text>
+                  <text>Satisfied education requirements equivalent to those set forth in <cite doc="D.C. Code" path="§47-2853.42|(a)|(2)">§ 47-2853.42(a)(2)</cite>; and</text>
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Satisfied experience requirements equivalent to those set forth in § 47-2853.42(a)(3).".</text>
+                  <text>Satisfied experience requirements equivalent to those set forth in <cite doc="D.C. Code" path="§47-2853.42|(a)|(3)">§ 47-2853.42(a)(3)</cite>.</text>
                 </para>
               </para>
             </para>
             <para>
+              <codify:replace path="(b)"/>
               <num>(b)</num>
-              <text>An individual whose principal place of business is not in the District, who is licensed as a CPA in good standing in another state or territory of the United States, and who had practice privileges in the District under the version of this section that was in effect immediately prior to the effective date of the Business Licensing Reform and Accountancy Practice Amendment Act of 2026, passed on 2nd reading on July 14, 2026 (Enrolled version of Bill 26-494), shall continue to have all privileges of a licensee in the District without the need to obtain a license under § 47-2853.42 regardless of whether the individual meets the requirements of this section on the effective date of such legislation.</text>
+              <text>An individual whose principal place of business is not in the District, who is licensed as a CPA in good standing in another state or territory of the United States, and who had practice privileges in the District under the version of this section that was in effect immediately prior to <span codify:value="[September 25, 2026]">the effective date of the Business Licensing Reform and Accountancy Practice Amendment Act of 2026, passed on 2nd reading on July 14, 2026 (Enrolled version of Bill 26-494)</span>, shall continue to have all privileges of a licensee in the District without the need to obtain a license under § 47-2853.42 regardless of whether the individual meets the requirements of this section on <span codify:value="[September 25, 2026]">the effective date of such legislation</span>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(C)</num>
           <text>The lead-in language of subsection (d) is amended by striking the phrase "shall simultaneously consent, as a condition of the grant of the privilege" and inserting the phrase "shall be deemed to have simultaneously consented, as a condition of the exercise of the privilege" in its place.</text>
+          <codify:find-replace count="1">
+            <find>shall simultaneously consent, as a condition of the grant of the privilege</find>
+            <replace>shall be deemed to have simultaneously consented, as a condition of the exercise of the privilege</replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-182">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-182" codify:doc="D.C. Code">
   <num type="law">26-182</num>
   <num type="act">26-411</num>
   <num type="bill">26-422</num>
@@ -21,6 +21,13 @@
     </history>
   </meta>
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Glazier Licensing Standards and Certification Amendment Act of 2026".</text>
+  <codify:insert doc="D.C. Code" path="47|28|I-B" after="F-i" history="false">
+    <container>
+      <prefix>Part</prefix>
+      <num>F-ii</num>
+      <heading>Glazier Licensing and Certification.</heading>
+    </container>
+  </codify:insert>
   <section>
     <num>2</num>
     <text>Subchapter I-B of Chapter 28 of Title 47 of the District of Columbia Official Code is amended as follows:</text>
@@ -56,38 +63,53 @@
             </section>
           </toc>
         </container>
+        <!-- done below -->
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§47-2853.04|(a)">
       <num>(b)</num>
       <text>Section 47-2853.04(a) is amended by adding new paragraphs (18A) and (18B) to read as follows:</text>
       <include lvl="1">
         <para>
+          <codify:insert after="(18)" num-value="(18A)"/>
           <num>(18A)</num>
           <text>Glazier;</text>
         </para>
         <para>
+          <codify:insert after="(18A)" num-value="(18B)"/>
           <num>(18B)</num>
           <text>Glazing contractor;</text>
         </para>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§47-2853.06|(d)">
       <num>(c)</num>
       <text>Section 47-2853.06(d) is amended as follows:</text>
       <para>
         <num>(1)</num>
         <text>Strike the phrase "consisting of 15 members," and insert the phrase "consisting of 17 members," in its place.</text>
+        <codify:find-replace count="1">
+          <find>consisting of 15 members,</find>
+          <replace>consisting of 17 members,</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(2)</num>
         <text>Strike the phrase "and one shall be a consumer member" and insert the phrase "one shall be a glazier licensed in the District, one shall be a glazing contractor licensed in the District, and one shall be a consumer member" in its place.</text>
+        <codify:find-replace count="1">
+          <find>and one shall be a consumer member</find>
+          <replace>one shall be a glazier licensed in the District, one shall be a glazing contractor licensed in the District, and one shall be a consumer member</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(3)</num>
         <text>Strike the phrase "and elevator contractors." and insert the phrase "elevator contractors, glaziers, and glazing contractors." in its place.</text>
+        <codify:find-replace count="1">
+          <find>and elevator contractors.</find>
+          <replace>elevator contractors, glaziers, and glazing contractors.</replace>
+        </codify:find-replace>
       </para>
     </para>
     <para>
@@ -96,15 +118,16 @@
       <include>
         <container>
           <prefix>Part</prefix>
-          <num>F</num>
-          <heading>ii. Glazier Licensing and Certification.</heading>
+          <num>F-ii</num>
+          <heading>Glazier Licensing and Certification.</heading>
           <section>
+            <codify:insert path="47|28|I-B|F-ii" num-value="47-2853.100"/>
             <prefix>§</prefix>
             <num>47-2853.100</num>
             <heading proof="needed">Definitions.</heading>
             <para>
               <num undesignated="true">(a)</num>
-              <text>For the purposes of this part, the term:</text>
+              <text>For the purposes of <cite doc="D.C. Code" path="47|28|I-B|F-ii">this part</cite>, the term:</text>
               <para>
                 <num>(1)</num>
                 <text>"Board" means the Board of Industrial Trades.</text>
@@ -120,6 +143,7 @@
             </para>
           </section>
           <section>
+            <codify:insert path="47|28|I-B|F-ii" after="§47-2853.100" num-value="47-2853.100a"/>
             <prefix>§</prefix>
             <num>47-2853.100a</num>
             <heading proof="needed">Eligibility requirements.</heading>
@@ -195,24 +219,27 @@
             </para>
           </section>
           <section>
+            <codify:insert path="47|28|I-B|F-ii" after="§47-2853.100a" num-value="47-2853.100b"/>
             <prefix>§</prefix>
             <num>47-2853.100b</num>
             <heading proof="needed">Representations and advertising.</heading>
             <para>
               <num>(a)</num>
-              <text>Unless licensed in accordance with this part, no person shall use the words or terms "licensed glazier" or any words to imply that the person is licensed to perform the services of a glazier in the District.</text>
+              <text>Unless licensed in accordance with <cite doc="D.C. Code" path="47|28|I-B|F-ii">this part</cite>, no person shall use the words or terms "licensed glazier" or any words to imply that the person is licensed to perform the services of a glazier in the District.</text>
             </para>
           </section>
           <section>
+            <codify:insert path="47|28|I-B|F-ii" after="§47-2853.100b" num-value="47-2853.100c"/>
             <prefix>§</prefix>
             <num>47-2853.100c</num>
             <heading proof="needed">Temporary license.</heading>
             <para>
               <num>(a)</num>
-              <text>Notwithstanding § 47-2853.100a, in the event of emergency circumstances, the Board may, pursuant to rule, issue a temporary license for a period not to exceed 30 days.</text>
+              <text>Notwithstanding <cite doc="D.C. Code" path="§47-2853.100a">§ 47-2853.100a</cite>, in the event of emergency circumstances, the Board may, pursuant to rule, issue a temporary license for a period not to exceed 30 days.</text>
             </para>
           </section>
           <section>
+            <codify:insert path="47|28|I-B|F-ii" after="§47-2853.100c" num-value="47-2853.100d"/>
             <prefix>§</prefix>
             <num>47-2853.100d</num>
             <heading proof="needed">Rules.</heading>
@@ -220,11 +247,11 @@
               <num>(a)</num>
               <para>
                 <num>(1)</num>
-                <text>No later than one year after the effective date of this part, the Mayor, pursuant to § 2-501 <em>et seq</em>., shall issue rules to implement the provisions of this part; provided, that both a glazier representative and glazing contractor representative have been appointed to the Board as required by § 47-2853.06(d).</text>
+                <text>No later than one year after <span codify:value="[September 25, 2026]">the effective date of this part</span>, the Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">§ 2-501 <em>et seq</em>.</code-cite>, shall issue rules to implement the provisions of <cite doc="D.C. Code" path="47|28|I-B|F-ii">this part</cite>; provided, that both a glazier representative and glazing contractor representative have been appointed to the Board as required by <cite doc="D.C. Code" path="§47-2853.06|(d)">§ 47-2853.06(d)</cite>.</text>
               </para>
               <para>
                 <num>(2)</num>
-                <text>If a glazier representative and glazing contractor representative are not appointed within 180 days after the effective date of this part, the Mayor shall begin the rulemaking process to implement the provisions of this part, to be complete within no later than one year after the effective date.</text>
+                <text>If a glazier representative and glazing contractor representative are not appointed within 180 days after <span codify:value="[September 25, 2026]">the effective date of this part</span>, the Mayor shall begin the rulemaking process to implement the provisions of <cite doc="D.C. Code" path="47|28|I-B|F-ii">this part</cite>, to be complete within no later than one year after <span codify:value="[September 25, 2026]">the effective date</span>.</text>
               </para>
             </para>
           </section>
