@@ -5064,7 +5064,6 @@
           </para>
         </include>
         <aftertext>.</aftertext>
-        
       </section>
       <section>
         <num>2353</num>
@@ -5291,6 +5290,7 @@
           </include>
           <aftertext>.</aftertext>
         </para>
+        <codify:emergency doc="D.C. Code" path="§10-1605.04"/>
       </section>
     </container>
   </container>
@@ -5307,9 +5307,14 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Safe Passage Program Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§1-301.192|(a)|(2)">
         <num>3002</num>
         <text>Section 3023(a)(2) of the Office of Deputy Mayor for Public Safety and Justice Establishment Act of 2011, effective September 6, 2023 (D.C. Law 25-50; D.C. Official Code § 1-301.192(a)(2)), is amended by striking the phrase "shall establish" and inserting the phrase "may establish" in its place.</text>
+        <codify:find-replace count="1">
+          <find>shall establish</find>
+          <replace>may establish</replace>
+        </codify:find-replace>
+        <codify:emergency doc="D.C. Code" path="§1-301.192"/>
       </section>
     </container>
     <container>
@@ -5319,28 +5324,39 @@
       <section>
         <num>3011</num>
         <heading proof="needed">Short title.</heading>
-        <text>This subtitle may be cited as the "Homeland Security Commission Dissolution</text>
-        <text>Emergency Amendment Act of 2026".</text>
+        <text>This subtitle may be cited as the "Homeland Security Commission Dissolution Emergency Amendment Act of 2026".</text>
       </section>
       <section>
         <num>3012</num>
         <text>Title II of the Homeland Security, Risk Reduction, and Preparedness Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-262; D.C. Official Code § 7-2271.01 <em>et seq.</em>), is repealed.</text>
+        <codify:repeal path="7|22|II"/>
+        <codify:emergency doc="D.C. Code" path="7|22|II"/>
       </section>
+      <codify:insert doc="D.C. Code" path="7|22" after="II" history="false">
+        <container>
+          <prefix>Subchapter</prefix>
+          <num>III</num>
+          <heading>Homeland Security Commission Dissolution.</heading>
+        </container>
+      </codify:insert>
       <section>
+        <codify:insert path="7|22|III" num-value="7-2281.01"/>
         <num>3013</num>
-        <text>All records and information of the District of Columbia Homeland Security Commission ("Commission") shall, on October 1, 2026, become the records and information of the Homeland Security and Emergency Management Agency ("HSEMA"), and all such records and information obtained by the Commission pursuant to Title II of the Homeland Security, Risk Reduction, and Preparedness Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-262; D.C. Official Code § 7-2271.01 <em>et seq.</em>), shall be destroyed by HSEMA by September 30, 2027.</text>
+        <heading proof="needed">Commission records.</heading>
+        <text>All records and information of the District of Columbia Homeland Security Commission ("Commission") shall, on October 1, 2026, become the records and information of the Homeland Security and Emergency Management Agency ("HSEMA"), and all such records and information obtained by the Commission pursuant to <code-cite doc="D.C. Code" path="7|22|II">Title II of the Homeland Security, Risk Reduction, and Preparedness Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-262; D.C. Official Code § 7-2271.01 <em>et seq.</em>)</code-cite>, shall be destroyed by HSEMA by September 30, 2027.</text>
+        <codify:emergency-new-sec doc="D.C. Code" path="§7-2281.01" interim-path="§7-2231.11" perm-eff="2026-08-13"/>
       </section>
       <section>
+        <codify:insert path="7|22|III" after="§7-2281.01" num-value="7-2281.02"/>
         <num>3014</num>
         <heading proof="needed">Ongoing confidentiality.</heading>
         <para>
           <num>(a)</num>
-          <text>Persons other than District of Columbia Homeland Security Commission ("Commission") members who attended any Commission meeting that, pursuant to section 204 of the Homeland Security, Risk Reduction, and Preparedness Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-262; D.C. Official Code § 7-2271.04), was not open to the public, shall not disclose what occurred at the meeting to anyone who was not in attendance.</text>
+          <text>Persons other than District of Columbia Homeland Security Commission ("Commission") members who attended any Commission meeting that, pursuant to <code-cite doc="D.C. Code" path="§7-2271.04">section 204 of the Homeland Security, Risk Reduction, and Preparedness Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-262; D.C. Official Code § 7-2271.04)</code-cite>, was not open to the public, shall not disclose what occurred at the meeting to anyone who was not in attendance.</text>
         </para>
         <para>
           <num>(b)</num>
-          <text>Commission members who attended meetings not open to the public shall not disclose</text>
-          <text>what occurred with anyone who was not in attendance, except other Commission members.</text>
+          <text>Commission members who attended meetings not open to the public shall not disclose what occurred with anyone who was not in attendance, except other Commission members.</text>
         </para>
         <para>
           <num>(c)</num>
@@ -5348,16 +5364,17 @@
         </para>
         <para>
           <num>(d)</num>
-          <text>All information and records generated by the Commission, including statistical compilations and reports, and all information and records acquired by the Commission, are confidential and all such information and records in possession of the Homeland Security and Emergency Management Agency ("HSEMA") pursuant to section 3013 are confidential. Notwithstanding the foregoing, Commission information and records may be disclosed by HSEMA as necessary to carry out its duties and purposes. The information and records may be disclosed by HSEMA to another homeland security agency or a homeland security commission if the other agency or commission is governed by confidentiality provisions that afford the same or greater protections as those that were provided in Title II of the Homeland Security, Risk Reduction, and Preparedness Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-262; D.C. Official Code § 7-2271.01 <em>et seq.</em>).</text>
+          <text>All information and records generated by the Commission, including statistical compilations and reports, and all information and records acquired by the Commission, are confidential and all such information and records in possession of the Homeland Security and Emergency Management Agency ("HSEMA") pursuant to section 3013 are confidential. Notwithstanding the foregoing, Commission information and records may be disclosed by HSEMA as necessary to carry out its duties and purposes. The information and records may be disclosed by HSEMA to another homeland security agency or a homeland security commission if the other agency or commission is governed by confidentiality provisions that afford the same or greater protections as those that were provided in <code-cite doc="D.C. Code" path="7|22|II">Title II of the Homeland Security, Risk Reduction, and Preparedness Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-262; D.C. Official Code § 7-2271.01 <em>et seq.</em>)</code-cite>.</text>
         </para>
         <para>
           <num>(e)</num>
-          <text>Except as permitted by this section, information and records of the Commission shall not be disclosed voluntarily, pursuant to a subpoena, in response to a request for discovery in any adjudicative proceeding, or in response to a request made under made under the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>), nor shall they be introduced into evidence in any administrative, civil, or criminal proceeding.</text>
+          <text>Except as permitted by this section, information and records of the Commission shall not be disclosed voluntarily, pursuant to a subpoena, in response to a request for discovery in any adjudicative proceeding, or in response to a request made under made under <code-cite doc="D.C. Code" path="2|5|II">the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-531 <em>et seq.</em>)</code-cite>, nor shall they be introduced into evidence in any administrative, civil, or criminal proceeding.</text>
         </para>
         <para>
           <num>(f)</num>
           <text>Information and records that were presented to the Commission shall not be immune from subpoena or discovery, or prohibited from being introduced into evidence, solely because the information and records were made available to the Commission, if the information and records could have been obtained through other sources.</text>
         </para>
+        <codify:emergency-new-sec doc="D.C. Code" path="§7-2281.01" interim-path="§7-2231.11" perm-eff="2026-08-13"/>
       </section>
       <section>
         <num>3015</num>
@@ -5365,17 +5382,21 @@
         <para>
           <num>(a)</num>
           <text>Section 2(e)(29) of the Confirmation Act of 1978, effective March 3, 1979 (D.C. Law 2-142; D.C. Official Code § 1-523.01(e)(29)), is repealed.</text>
+          <codify:repeal path="§1-523.01|(e)|(29)"/>
+          <codify:emergency doc="D.C. Code" path="§1-523.01"/>
         </para>
-        <para>
+        <para codify:path="§2-534|(a)|(13)">
           <num>(b)</num>
           <text>Section 204(a)(13) of the Freedom of Information Act of 1976, effective March 29, 1977 (D.C. Law 1-96; D.C. Official Code § 2-534(a)(13)), is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(13)</num>
-              <text>Information exempt from disclosure by section 3014(e) of the Homeland Security Commission Dissolution Emergency Amendment Act of 2026, passed on emergency basis on July 7, 2026 (Enrolled version of Bill 26-724);</text>
+              <text>Information exempt from disclosure by <code-cite doc="D.C. Code" path="§7-2281.02|(e)">section 3014(e) of the Homeland Security Commission Dissolution Emergency Amendment Act of 2026, passed on emergency basis on July 7, 2026 (Enrolled version of Bill 26-724)</code-cite>;</text>
             </para>
           </include>
           <aftertext>.</aftertext>
+          <codify:emergency doc="D.C. Code" path="§2-534"/>
         </para>
       </section>
     </container>
@@ -5388,25 +5409,27 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Criminal Background Check and Fingerprinting Authority Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§4-1551.03">
         <num>3022</num>
         <text>Section 3043 of the Background Check Fingerprinting Authority and Rap Back Program Act of 2025, effective December 6, 2025 (D.C. Law 26-55; D.C. Official Code § 4-1551.03), is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(a)</num>
           <text>Subsection (a) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(a)</num>
               <text>When conducting the fingerprinting of an individual is required or authorized by any District or federal law or regulation for the purposes of conducting a background check of the individual, MPD, or an entity authorized by MPD for the purpose of fingerprint collection, shall fingerprint the individual and shall submit the fingerprints to the FBI for the purpose of conducting a criminal history background check. MPD shall receive the results of the criminal history check and shall disseminate the results of the criminal history check to the District agency authorized by law to receive such information and to no other entity.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(b)</num>
           <text>Subsection (b) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(b)</num>
               <text>The authority provided by this section applies to:</text>
               <para>
@@ -5426,11 +5449,11 @@
                 </para>
                 <para>
                   <num>(C)</num>
-                  <text>Title V of the Prevention of Child Abuse and Neglect Act of 1977, effective June 27, 2000 (D.C. Law 13-136; D.C. Official Code § 4-1305.01 <em>et seq.</em>), relating to individuals who seek to be approved or licensed as an adoptive parent, kinship caregiver, or legal guardian, individuals with whom a child is placed under D.C. Official Code § 16-2320(a), and adults residing in the home of such individuals, conducted by MPD;</text>
+                  <text><code-cite doc="D.C. Code" path="4|13|I|E">Title V of the Prevention of Child Abuse and Neglect Act of 1977, effective June 27, 2000 (D.C. Law 13-136; D.C. Official Code § 4-1305.01 <em>et seq.</em>)</code-cite>, relating to individuals who seek to be approved or licensed as an adoptive parent, kinship caregiver, or legal guardian, individuals with whom a child is placed under <code-cite doc="D.C. Code" path="§16-2320|(a)">D.C. Official Code § 16-2320(a)</code-cite>, and adults residing in the home of such individuals, conducted by MPD;</text>
                 </para>
                 <para>
                   <num>(D)</num>
-                  <text>The Firearms Control Regulations Act of 1975, effective September 24, 1976 (D.C. Law 1-85; D.C. Official Code § 7-2501.01 <em>et seq.</em>), relating to firearm registration applicants, conducted by MPD;</text>
+                  <text><code-cite doc="D.C. Code" path="7|25">The Firearms Control Regulations Act of 1975, effective September 24, 1976 (D.C. Law 1-85; D.C. Official Code § 7-2501.01 <em>et seq.</em>)</code-cite>, relating to firearm registration applicants, conducted by MPD;</text>
                 </para>
                 <para>
                   <num>(E)</num>
@@ -5442,32 +5465,35 @@
                 </para>
                 <para>
                   <num>(G)</num>
-                  <text>The District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01 <em>et seq.</em>) ("Health Occupations Revision Act"), relating to licensed health professionals regulated by the Department of Health and the health-licensing boards established under the Health Occupations Revision Act, conducted by the Department of Health;</text>
+                  <text><code-cite doc="D.C. Code" path="3|12">The District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01 <em>et seq.</em>)</code-cite> ("Health Occupations Revision Act"), relating to licensed health professionals regulated by the Department of Health and the health-licensing boards established under the Health Occupations Revision Act, conducted by the Department of Health;</text>
                 </para>
                 <para>
                   <num>(H)</num>
-                  <text>The Department of Corrections Criminal Background Investigation Authorization Act of 1998, effective June 19, 1998 (D.C. Law 12-126; D.C. Official Code § 24-211.41), relating to Department of Corrections employees, including non-probationary employees, conducted by the Department of Corrections; and</text>
+                  <text>T<code-cite doc="D.C. Code" path="§24-211.41">he Department of Corrections Criminal Background Investigation Authorization Act of 1998, effective June 19, 1998 (D.C. Law 12-126; D.C. Official Code § 24-211.41)</code-cite>, relating to Department of Corrections employees, including non-probationary employees, conducted by the Department of Corrections; and</text>
                 </para>
                 <para>
                   <num>(I)</num>
-                  <text>Section 305 of the Law to Legalize Lotteries, Daily Numbers Games and Bingo and Raffles for Charitable Purposes in the District of Columbia, effective May 3, 2019 (D.C. Law 22-312; D.C. Official Code § 36-621.05), relating to Office of Lottery and Gaming applicants for a license or renewal of a license, conducted by the Office of Lottery and Gaming.</text>
+                  <text><code-cite doc="D.C. Code" path="§36-621.05">Section 305 of the Law to Legalize Lotteries, Daily Numbers Games and Bingo and Raffles for Charitable Purposes in the District of Columbia, effective May 3, 2019 (D.C. Law 22-312; D.C. Official Code § 36-621.05)</code-cite>, relating to Office of Lottery and Gaming applicants for a license or renewal of a license, conducted by the Office of Lottery and Gaming.</text>
                 </para>
               </para>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
+        <codify:emergency doc="D.C. Code" path="§4-1551.03"/>
       </section>
-      <section>
+      <section codify:path="§4-1501.02">
         <num>3023</num>
         <text>Section 202 of the Criminal Background Checks for the Protection of Children Act of 2004, effective April 13, 2005 (D.C. Law 15-353; D.C. Official Code § 4-1501.02), is amended by adding a new paragraph (1A) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(1)" num-value="(1A)"/>
             <num>(1A)</num>
             <text>"Appropriate personnel authority" means a District of Columbia government agency with authority over personnel, hiring, or volunteer decisions for a covered child or youth services provider.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:emergency doc="D.C. Code" path="§4-1551.03"/>
       </section>
     </container>
     <container>
@@ -5479,17 +5505,18 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Public Safety Grants Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§1-301.192">
         <num>3032</num>
         <text>Section 3023 of the Office of the Deputy Mayor for Public Safety and Justice Establishment Act of 2011, effective September 6, 2023 (D.C. Law 25-50; D.C. Official Code § 1-301.192), is amended as follows:</text>
-        <para>
+        <para codify:path="(c)">
           <num>(a)</num>
           <text>Subsection (c) is amended as follows:</text>
-          <para>
+          <para codify:path="(4)|(J)">
             <num>(1)</num>
             <text>Paragraph (4)(J) is amended to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:replace/>
                 <num>(J)</num>
                 <text>Implementing other innovative strategies to promote public safety, such as providing youth safety services.</text>
               </para>
@@ -5501,6 +5528,7 @@
             <text>A new paragraph (8) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(7)" num-value="(8)"/>
                 <num>(8)</num>
                 <text>The Deputy Mayor shall issue no less than the following amounts in total grant awards pursuant to this subsection:</text>
                 <para>
@@ -5516,11 +5544,12 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="(d)|(6)">
           <num>(b)</num>
           <text>Subsection (d)(6) is amended to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:replace/>
               <num>(6)</num>
               <text>The Deputy Mayor shall issue no less than the following amounts in total grant awards pursuant to this subsection:</text>
               <para>
@@ -5535,6 +5564,7 @@
           </include>
           <aftertext>.</aftertext>
         </para>
+        <codify:emergency doc="D.C. Code" path="§1-301.192"/>
       </section>
       <section>
         <num>3033</num>
@@ -5559,11 +5589,16 @@
       <section>
         <num>4002</num>
         <text>The Uniform Per Student Funding Formula for Public Schools and Public Charter Schools Act of 1998, effective March 26, 1999 (D.C. Law 12-207; D.C. Official Code § 38-2901 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§38-2903|(a)">
           <num>(a)</num>
           <text>Section 104(a) (D.C. Official Code § 38-2903(a)) is amended by striking the phrase "is $15,070 per student for Fiscal Year 2026 and $14,110 for subsequent fiscal years" and inserting the phrase "is $15,648 per student for Fiscal Year 2027 and $14,632 per student for subsequent fiscal years" in its place.</text>
+          <codify:find-replace count="1">
+            <find>is $15,070 per student for Fiscal Year 2026 and $14,110 for subsequent fiscal years</find>
+            <replace>is $15,648 per student for Fiscal Year 2027 and $14,632 per student for subsequent fiscal years</replace>
+          </codify:find-replace>
+          <codify:emergency doc="D.C. Code" path="§38-2903"/>
         </para>
-        <para>
+        <para codify:path="§38-2904">
           <num>(b)</num>
           <text>Section 105 (D.C. Official Code § 38-2904) is amended by striking the tabular array and inserting the following tabular array in its place:</text>
           <include>
@@ -5625,12 +5660,46 @@
             </text>
           </include>
           <aftertext>.</aftertext>
+          <codify:find-replace count="1">
+            <find>FY 2026</find>
+            <replace>FY 2027</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$20,194</find>
+            <replace>$20,968</replace>
+          </codify:find-replace>
+          <codify:find-replace count="2">
+            <find>$19,591</find>
+            <replace>$20,342</replace>
+          </codify:find-replace>
+          <codify:find-replace count="2">
+            <find>$15,070</find>
+            <replace>$15,648</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$16,276</find>
+            <replace>$16,900</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$18,385</find>
+            <replace>$19,091</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$23,811</find>
+            <replace>$24,724</replace>
+          </codify:find-replace>
+          <codify:find-replace count="1">
+            <find>$17,632</find>
+            <replace>$18,308</replace>
+          </codify:find-replace>
+          <codify:emergency doc="D.C. Code" path="§38-2904"/>
         </para>
-        <para>
+        <para codify:path="§38-2905|(c)">
           <num>(c)</num>
           <text>Section 106(c) (D.C. Official Code § 38-2905(c)) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(c)</num>
               <text>The supplemental allocations shall be calculated by applying weightings to the foundation level as follows:</text>
               <text>Special education add-ons:</text>
@@ -5829,6 +5898,7 @@
             </para>
           </include>
           <aftertext>.</aftertext>
+          <codify:emergency doc="D.C. Code" path="§38-2905"/>
         </para>
       </section>
     </container>
@@ -5846,7 +5916,8 @@
         <text>The State Education Office Establishment Act of 2000, effective October 21, 2000 (D.C. Law 13-176; D.C. Official Code § 38-2601 <em>et seq.</em>), is amended by adding a new section 7f-2 to read as follows:</text>
         <include>
           <section>
-            <num>7f-2</num>
+            <codify:insert path="38|26" after="§38-2612.01" num-value="38-2612.02" history-prefix="as added"/>
+            <num codify:value="38-2612.02">7f-2</num>
             <heading proof="needed">Advanced Technical Centers Fund.</heading>
             <para>
               <num>(a)</num>
@@ -5866,8 +5937,10 @@
             </para>
             <para>
               <num>(e)</num>
-              <text>For the purposes of this section, the term "Advanced Technical Center" shall have the same meaning as provided in section 7f-1(d)(1).</text>
+              <text>For the purposes of this section, the term "Advanced Technical Center" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§38-2612.01|(d)|(1)">section 7f-1(d)(1)</code-cite>.</text>
             </para>
+            <annotation doc="D.C. Law 13-176" type="History" path="§7f-2">Oct. 21, 2000, D.C. Law 13-176, § 7f-2</annotation>
+            <codify:emergency-new-sec doc="D.C. Code" path="§38-2612.02" interim-path="§38-2612.01" perm-eff="2026-08-13"/>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -5882,12 +5955,13 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "District of Columbia Public Schools Food Services Fund Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§38-804">
         <num>4022</num>
         <text>Section 5 of the District of Columbia Food Services Act, approved October 8, 1951 (65 Stat. 369: D.C. Official Code § 38-804), is amended to read as follows:</text>
         <include>
           <section>
-            <num>5</num>
+            <codify:replace/>
+            <num codify:value="38-804">5</num>
             <heading proof="needed">Food Services Fund.</heading>
             <para>
               <num>(a)</num>
@@ -5915,6 +5989,7 @@
           </section>
         </include>
         <aftertext>.</aftertext>
+        <codify:emergency doc="D.C. Code" path="§38-804"/>
       </section>
     </container>
     <container>
@@ -5926,9 +6001,11 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Alternative School Breakfast Serving Model Subsidy Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§38-821.02|(c)|(4A)">
         <num>4032</num>
         <text>Section 102(c)(4A) of the Healthy Schools Act of 2010, effective July 27, 2010 (D.C. Law 18-209; D.C. Official Code § 38-821.02(c)(4A)), is repealed.</text>
+        <codify:repeal/>
+        <codify:emergency doc="D.C. Code" path="§38-821.02"/>
       </section>
     </container>
     <container>
@@ -5940,37 +6017,48 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Education Through Employment Data System Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§38-191|(b-1)">
         <num>4042</num>
         <text>Section 202(b-1) of the Department of Education Establishment Act of 2007, effective June 12, 2007 (D.C. Law 17-9; D.C. Official Code § 38-191(b-1)), is amended as follows:</text>
-        <para>
+        <para codify:path="(1)">
           <num>(a)</num>
           <text>Paragraph (1) is amended by striking the phrase "centralized data system to collect, analyze, and publish" and inserting the phrase "centralized data system in the District government to collect, analyze, share, and publish" in its place.</text>
+          <codify:find-replace count="1">
+            <find>centralized data system to collect, analyze, and publish</find>
+            <replace>centralized data system in the District government to collect, analyze, share, and publish</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(b)</num>
           <text>A new paragraph (1A) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(1)" num-value="(1A)"/>
               <num>(1A)</num>
               <text>The centralized data system may incorporate relevant data, including education data and workforce data, to the maximum extent allowed by federal law and notwithstanding the provisions of any District law otherwise limiting the sharing of such information.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(c)</num>
           <text>Paragraph (2) is amended by striking the phrase "education data for grades" and inserting the phrase "education data for early childhood and grades" in its place.</text>
+          <codify:find-replace count="1">
+            <find>education data for grades</find>
+            <replace>education data for early childhood and grades</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(d)</num>
           <text>New paragraphs (2A) and (2B) are added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(2)" num-value="(2A)"/>
               <num>(2A)</num>
               <text>Each agency of the District government, including independent agencies, may share health and human services data with the Deputy Mayor for Education to the maximum extent allowed by federal law and notwithstanding the provisions of any District law otherwise limiting the sharing of such information.</text>
             </para>
             <para>
+              <codify:insert after="(2A)" num-value="(2B)"/>
               <num>(2B)</num>
               <text>The Deputy Mayor for Education may share or redisclose otherwise confidential education data, workforce data, and health and human services data within the centralized data system with federal, state, and local governmental agencies, and the agents and contractors of such governmental agencies, to the maximum extent allowed by federal law and notwithstanding the provisions of any District law otherwise limiting the sharing of such data and information, to:</text>
               <para>
@@ -5993,23 +6081,28 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(e)</num>
           <text>Paragraph (3) is amended as follows:</text>
-          <para>
+          <para codify:path="(A)">
             <num>(1)</num>
             <text>The lead-in language of subparagraph (A) is amended by striking the phrase "individual and aggregate student performance" and inserting the phrase "individual-level information that tracks a student's academic and personal progress from early learning through postsecondary education and into employment" in its place.</text>
+            <codify:find-replace count="1">
+              <find>individual and aggregate student performance</find>
+              <replace>individual-level information that tracks a student's academic and personal progress from early learning through postsecondary education and into employment</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>A new paragraph (A-i) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert after="(A)" num-value="(A-i)"/>
                 <num>(A-i)</num>
                 <text>"Health and human services data" means:</text>
                 <para>
                   <num>(i)</num>
-                  <text>Information within the scope of section 101(3)(B) and (C) of the Data Sharing and Information Coordination Amendment Act of 2010, effective December 4, 2010 (D.C. Law 18-273; D.C. Official Code § 7-241(3)(B) and (C)); and</text>
+                  <text>Information within the scope of <code-cite doc="D.C. Code" path="§7-241|(3)|(B)">section 101(3)(B)</code-cite> and <code-cite doc="D.C. Code" path="§7-241|(3)|(C)" codify:value="(C)">(C) of the Data Sharing and Information Coordination Amendment Act of 2010, effective December 4, 2010 (D.C. Law 18-273; D.C. Official Code § 7-241(3)(B) and (C))</code-cite>; and</text>
                 </para>
                 <para>
                   <num>(ii)</num>
@@ -6019,22 +6112,31 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(B)">
             <num>(3)</num>
             <text>Subparagraph (B) is amended as follows:</text>
-            <para>
+            <para codify:path="(ii)">
               <num>(A)</num>
               <text>Sub-subparagraph (ii) is amended as striking the phrase "; and" and inserting a semicolon in its place.</text>
+              <codify:find-replace count="1">
+                <find>; and</find>
+                <replace>;</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(iii)">
               <num>(B)</num>
               <text>Sub-subparagraph (iii) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+              <codify:find-replace count="1">
+                <find>.</find>
+                <replace>; and</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(C)</num>
               <text>A new sub-subparagraph (iv) is added to read as follows:</text>
               <include lvl="3">
                 <para>
+                  <codify:insert after="(iii)" num-value="(iv)"/>
                   <num>(iv)</num>
                   <text>Confidential UC information, as that term is defined in 20 CFR § 603.2(b).</text>
                 </para>
@@ -6043,6 +6145,7 @@
             </para>
           </para>
         </para>
+        <codify:emergency doc="D.C. Code" path="§38-191"/>
       </section>
     </container>
     <container>
@@ -6057,25 +6160,35 @@
       <section>
         <num>4052</num>
         <text>Title I of the Universal Paid Leave Amendment Act of 2016, effective April 7, 2017 (D.C. Law 21-264; D.C. Official Code § 32-541.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§32-541.03|(b-1)">
           <num>(a)</num>
           <text>Section 103(b-1) (D.C. Official Code § 32-541.03(b-1)) is amended by striking the phrase "section 104a(b)(1), shall" and inserting the phrase "section 104a(b)(1) or revised certifications pursuant to section 104a(b)(5), shall" in its place.</text>
+          <codify:find-replace count="1">
+            <find><code-cite doc="D.C. Code" path="§32-541.04a|(b)|(1)">section 104a(b)(1)</code-cite>, shall</find>
+            <replace><code-cite doc="D.C. Code" path="§32-541.04a|(b)|(1)">section 104a(b)(1)</code-cite> or revised certifications pursuant to <code-cite doc="D.C. Code" path="§32-541.04a|(b)|(5)">section 104a(b)(5)</code-cite>, shall</replace>
+          </codify:find-replace>
+          <codify:emergency doc="D.C. Code" path="§32-541.03"/>
         </para>
-        <para>
+        <para codify:path="§32-541.04">
           <num>(b)</num>
           <text>Section 104 (D.C. Official Code § 32-541.04) is amended as follows:</text>
-          <para>
+          <para codify:path="(e-1)">
             <num>(1)</num>
             <text>Subsection (e-1) is amended as follows:</text>
-            <para>
+            <para codify:path="(3)">
               <num>(A)</num>
               <text>The lead-in language of paragraph (3) is amended by striking the phrase "on or after October 1, 2022" and inserting the phrase "on or after October 1, 2022, and before October 1, 2026" in its place.</text>
+              <codify:find-replace count="1">
+                <find>on or after October 1, 2022</find>
+                <replace>on or after October 1, 2022, and before October 1, 2026</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>New paragraphs (4) and (5) are added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert after="(3)" num-value="(4)"/>
                   <num>(4)</num>
                   <text>For claims filed on or after October 1, 2026, and before October 1, 2030, the maximum duration for each type of paid-leave benefits within a 52-workweek period shall be:</text>
                   <para>
@@ -6084,11 +6197,11 @@
                   </para>
                   <para>
                     <num>(B)</num>
-                    <text>6 workweeks of qualifying family leave, notwithstanding any other provision of this title;</text>
+                    <text>6 workweeks of qualifying family leave, notwithstanding any other provision of <code-cite doc="D.C. Code" path="32|5|IV">this title</code-cite>;</text>
                   </para>
                   <para>
                     <num>(C)</num>
-                    <text>10 workweeks of qualifying medical leave, notwithstanding any other provision of this title; and</text>
+                    <text>10 workweeks of qualifying medical leave, notwithstanding any other provision of <code-cite doc="D.C. Code" path="32|5|IV">this title</code-cite>; and</text>
                   </para>
                   <para>
                     <num>(D)</num>
@@ -6096,6 +6209,7 @@
                   </para>
                 </para>
                 <para>
+                  <codify:insert after="(4)" num-value="(5)"/>
                   <num>(5)</num>
                   <text>For claims filed on or after October 1, 2030, the maximum duration for each type of paid-leave benefits within a 52-week workweek period shall be:</text>
                   <para>
@@ -6119,18 +6233,23 @@
               <aftertext>.</aftertext>
             </para>
           </para>
-          <para>
+          <para codify:path="(g)">
             <num>(2)</num>
             <text>Subsection (g) is amended as follows:</text>
-            <para>
+            <para codify:path="(6)|(A)">
               <num>(A)</num>
               <text>Paragraph (6)(A) is amended by striking the phrase "On October 1, 2021, and on October 1 of each successive year," and inserting the phrase "On October 1, 2021, October 1, 2022, October 1, 2023, October 1, 2024, and October 1, 2025," in its place.</text>
+              <codify:find-replace count="1">
+                <find>On October 1, 2021, and on October 1 of each successive year,</find>
+                <replace>On October 1, 2021, October 1, 2022, October 1, 2023, October 1, 2024, and October 1, 2025,</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>A new paragraph (7) is added to read as follows:</text>
               <include lvl="1">
                 <para>
+                  <codify:insert after="(6)" num-value="(7)"/>
                   <num>(7)</num>
                   <para>
                     <num>(A)</num>
@@ -6145,33 +6264,39 @@
               <aftertext>.</aftertext>
             </para>
           </para>
+          <codify:emergency doc="D.C. Code" path="§32-541.04"/>
         </para>
-        <para>
+        <para codify:path="§32-541.04a|(b)">
           <num>(c)</num>
           <text>Section 104a(b) (D.C. Official Code § 32-541.04a(b)) is amended by adding new paragraphs (4) and (5) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(3)" num-value="(4)"/>
               <num>(4)</num>
               <text>At the request of the Mayor, the CFO shall provide a preliminary certification, consistent with the requirements of paragraph (1) of this subsection, after March 1, to account for any statutory amendments the Mayor proposes to submit with her or his annual submission of the District's budget and financial plan ("annual budget") to the Council. The amounts included in the preliminary certification may be incorporated by the Mayor into the Mayor's annual budget submission to the Council if the statutory amendments are transmitted by the Mayor to the Council with the Mayor's annual budget submission.</text>
             </para>
             <para>
+              <codify:insert after="(4)" num-value="(5)"/>
               <num>(5)</num>
               <text>Before October 1 of each year, the CFO shall issue a revised certification, consistent with the requirements of paragraph (1) of this subsection, to account for any statutory or regulatory changes affecting the revenues or expenditures of the paid-leave program or the balance of the Universal Paid Leave Fund that took effect after the issuance of the certification issued pursuant to paragraph (1) of this subsection.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
+          <codify:emergency doc="D.C. Code" path="§32-541.04a"/>
         </para>
       </section>
-      <section>
+      <section codify:path="§32-551.01|(i)">
         <num>4053</num>
         <text>Section 1152(i) of the Universal Paid Leave Implementation Fund Act of 2016, effective October 8, 2016 (D.C. Law 21-160; D.C. Official Code § 32-551.01(i)), is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(i)</num>
-            <text>The balance in the Fund shall not fall below the equivalent of 6 months of benefits provided pursuant to the Act, at any time during a fiscal year. If the Chief Financial Officer determines that the balance in the Fund will fall below the equivalent of 6 months of benefits during a fiscal year, the Chief Financial Officer shall promptly notify the Mayor and the Council and present a plan, including recommended legislative changes, if any, to address the shortfall. If the balance in the Fund falls below the equivalent of 3 months of benefits, the District shall immediately cease any further payments of benefits. If payment of benefits is ceased in accordance with this section, payment of benefits shall not resume until the Fund balance is equal to the equivalent of 9 months of benefits.</text>
+            <text>The balance in the Fund shall not fall below the equivalent of 6 months of benefits provided pursuant to <code-cite doc="D.C. Code" path="32|5|IV">the Act</code-cite>, at any time during a fiscal year. If the Chief Financial Officer determines that the balance in the Fund will fall below the equivalent of 6 months of benefits during a fiscal year, the Chief Financial Officer shall promptly notify the Mayor and the Council and present a plan, including recommended legislative changes, if any, to address the shortfall. If the balance in the Fund falls below the equivalent of 3 months of benefits, the District shall immediately cease any further payments of benefits. If payment of benefits is ceased in accordance with this section, payment of benefits shall not resume until the Fund balance is equal to the equivalent of 9 months of benefits.</text>
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:emergency doc="D.C. Code" path="§32-551.01"/>
       </section>
     </container>
     <container>
@@ -6183,24 +6308,27 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Certified Nurse Aide Workforce Support Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§38-2618|(a)">
         <num>4062</num>
         <text>Section 7l(a) of the State Education Office Establishment Act of 2000, effective December 6, 2025 (D.C. Law 26-55; D.C. Official Code § 38-2618(a)), is amended as follows:</text>
         <para>
           <num>(a)</num>
           <text>The existing text is designated as paragraph (1).</text>
+          <codify:redesignate-para num-value="(1)"/>
         </para>
         <para>
           <num>(b)</num>
           <text>A new paragraph (2) is added to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(1)" num-value="(2)"/>
               <num>(2)</num>
-              <text>By August 30, 2027, OSSE shall provide $150,000 in one time funding to the same local university referenced in paragraph (1) of this subsection to train and supervise at least 25 additional District high school students in the summer to become certified nurse aides, pursuant to section 907 of the District of Columbia Health Occupations Revision Act of 1985, effective July 7, 2009 (D.C. Law 18-18; D.C. Official Code § 3-1209.07).</text>
+              <text>By August 30, 2027, OSSE shall provide $150,000 in one time funding to the same local university referenced in paragraph (1) of this subsection to train and supervise at least 25 additional District high school students in the summer to become certified nurse aides, pursuant to <code-cite doc="D.C. Code" path="§3-1209.07">section 907 of the District of Columbia Health Occupations Revision Act of 1985, effective July 7, 2009 (D.C. Law 18-18; D.C. Official Code § 3-1209.07)</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
+        <codify:emergency doc="D.C. Code" path="§38-2618"/>
       </section>
     </container>
     <container>
@@ -6215,10 +6343,10 @@
       <section>
         <num>4072</num>
         <text>The Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; 23 D.C. Official Code § 4-401 <em>et seq</em>.), is amended as follows:</text>
-        <para>
+        <para codify:path="§4-410.02">
           <num>(a)</num>
           <text>Section 11b (D.C. Official Code § 4-410.02) is amended as follows:</text>
-          <para>
+          <para codify:path="(b-1)|(2)">
             <num>(1)</num>
             <text>The lead-in language of subsection (b-1)(2) is amended to read as follows:</text>
             <include lvl="1">
@@ -6228,30 +6356,45 @@
               </para>
             </include>
             <aftertext>.</aftertext>
+            <codify:find-replace count="1">
+              <find>From January 1, 2026, through September 30, 2026, child development facilities that enter or have entered into a contract or agreement with the Department to receive monies from the Early Childhood Educator Pay Equity Fund shall use such monies to pay, at minimum, the salaries for assistant and lead teachers listed in the following tables:</find>
+              <replace>Child development facilities that enter or have entered into a contract or agreement with the Department to receive monies from the Early Childhood Educator Pay Equity Fund shall use such monies paid to them between October 1, 2025, through September 30, 2027, to pay, at minimum, the salaries for assistant and lead teachers listed in the following tables from January 1, 2026, through December 31, 2027:</replace>
+            </codify:find-replace>
           </para>
+          <codify:emergency doc="D.C. Code" path="§4-410.02"/>
         </para>
-        <para>
+        <para codify:path="§4-410.04|(b)">
           <num>(b)</num>
           <text>Section 11d(b) (D.C. Official Code § 4-410.04(b)) is amended as follows:</text>
-          <para>
+          <para codify:path="(4)">
             <num>(1)</num>
             <text>Paragraph (4) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(5)">
             <num>(2)</num>
             <text>Paragraph (5) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+            <codify:find-replace count="1">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>A new paragraph (6) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(5)" num-value="(6)"/>
                 <num>(6)</num>
                 <text>In Fiscal Year 2027, $73,500,000 in local funds.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:emergency doc="D.C. Code" path="§4-410.04"/>
         </para>
       </section>
     </container>
@@ -6264,18 +6407,23 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Community Schools Grant Program Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§38-754.03">
         <num>4082</num>
         <text>Section 403 of the Community Schools Incentive Act of 2012, effective June 19, 2012 (D.C. Law 19-142; D.C. Official Code § 38-754.03), is amended as follows:</text>
-        <para>
+        <para codify:path="(d)|(6)">
           <num>(a)</num>
           <text>Subsection (d)(6) is amended by striking the period and inserting the phrase "; provided, that the Community Schools Advisory Committee shall not convene from the effective date of the Fiscal Year 2027 Budget Support Emergency Act of 2026, passed on emergency basis on July 7, 2026 (Enrolled version of Bill 26-724), until after the date on which the Community Schools Task Force submits the report described in subsection (i) of this section." in its place.</text>
+          <codify:find-replace count="1">
+            <find>.</find>
+            <replace>; provided, that the Community Schools Advisory Committee shall not convene from <span codify:value="August 13, 2026">the effective date of the Fiscal Year 2027 Budget Support Emergency Act of 2026, passed on emergency basis on July 7, 2026 (Enrolled version of Bill 26-724)</span>, until after the date on which the Community Schools Task Force submits the report described in subsection (i) of this section.</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(h)">
           <num>(b)</num>
           <text>Subsection (h) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(h)</num>
               <text>In Fiscal Year 2027, the Office of the State Superintendent of Education ("OSSE") shall award the Fiscal Year 2022 Community Schools Incentive Initiative Grant recipients a sixth year of grant funding and the Fiscal Year 2024 Community Schools Incentive Initiative Grant recipients a fourth year of grant funding totaling, for the 2 cohorts, the amount of $2,400,000, which shall be disbursed in equal amounts of $160,000 to each of the 15 participating partnerships in Fiscal Year 2027.</text>
             </para>
@@ -6287,6 +6435,7 @@
           <text>A new subsection (i) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(h)" num-value="(i)"/>
               <num>(i)</num>
               <para>
                 <num>(1)</num>
@@ -6404,6 +6553,7 @@
           </include>
           <aftertext>.</aftertext>
         </para>
+        <codify:emergency doc="D.C. Code" path="§38-754.03"/>
       </section>
       <section>
         <num>4083</num>
@@ -6424,6 +6574,7 @@
         <text>Title XIII-A of the District of Columbia Government Comprehensive Merit Personnel Act of 1978, effective June 10, 1998 (D.C. Law 12-124; D.C. Official Code § 1-613.51 <em>et seq.</em>), is amended by adding a new section 1352a to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="1|6|XIII-A" after="§1-613.52" num-value="1-613.52a" history-prefix="as added"/>
             <num>1352a</num>
             <heading proof="needed">DCPS Educator Evaluation and Performance Working Group.</heading>
             <para>
@@ -6501,6 +6652,8 @@
               <num>(e)</num>
               <text>For the purposes of this section, the term "educator" means a DCPS staff member required to undergo evaluation as determined by that staff member's collective bargaining unit, and includes teachers, librarians, counselors, school-based social workers and psychologists, related service providers, speech language pathologists, special education coordinators, program coordinators and deans, instructional coaches, aides, office staff, custodial staff, and school administrators.</text>
             </para>
+            <annotation doc="D.C. Law 2-139" type="History" path="§1352a">Mar. 3, 1979, D.C. Law 2-139, § 1352a</annotation>
+            <codify:emergency-new-sec doc="D.C. Code" path="§1-613.52a" interim-path="§1-613.52" perm-eff="2026-08-13"/>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -6515,7 +6668,15 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Early Childhood Education Microcenter Emergency Act of 2026".</text>
       </section>
+      <codify:insert doc="D.C. Code" path="38" after="2B" history="false">
+        <container>
+          <prefix>Chapter</prefix>
+          <num>2C</num>
+          <heading>Early Childhood Education Microcenters.</heading>
+        </container>
+      </codify:insert>
       <section>
+        <codify:insert path="38|2C" num-value="38-291"/>
         <num>4102</num>
         <heading proof="needed">Co-location of early childhood education microcenters in public school buildings.</heading>
         <para>
@@ -6653,15 +6814,15 @@
           <text>For the purposes of this section, the term:</text>
           <para>
             <num>(1)</num>
-            <text>"Child development facility" shall have the same meaning as provided in section 2(2B) of the Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-401(2B)).</text>
+            <text>"Child development facility" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§4-401|(2B)">section 2(2B) of the Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-401(2B))</code-cite>.</text>
           </para>
           <para>
             <num>(2)</num>
-            <text>"Community-based organization" shall have the same meaning as provided in section 2(3A-i) of the Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-401(3A-i)).</text>
+            <text>"Community-based organization" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§4-401|(3A-i)">section 2(3A-i) of the Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-401(3A-i))</code-cite>.</text>
           </para>
           <para>
             <num>(3)</num>
-            <text>"Infant" shall have the same meaning as provided in section 2(4D) of the Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-401(4D)).</text>
+            <text>"Infant" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§4-401|(4D)">section 2(4D) of the Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-401(4D))</code-cite>.</text>
           </para>
           <para>
             <num>(4)</num>
@@ -6673,9 +6834,10 @@
           </para>
           <para>
             <num>(6)</num>
-            <text>"Toddler" shall have the same meaning as provided in section 2(7) of the Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-401(7)).</text>
+            <text>"Toddler" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§4-401|(7)">section 2(7) of the Day Care Policy Act of 1979, effective September 19, 1979 (D.C. Law 3-16; D.C. Official Code § 4-401(7))</code-cite>.</text>
           </para>
         </para>
+        <codify:emergency-new-sec doc="D.C. Code" path="§38-291" interim-path="§38-285" perm-eff="2026-08-13"/>
       </section>
     </container>
     <container>
@@ -6701,6 +6863,7 @@
           <num>(c)</num>
           <text>OSSE shall issue the grant no later than November 2, 2026.</text>
         </para>
+        <codify:annotation history="false" path="§38-2601.01" type="Editor's Notes">For the requirement that, in Fiscal Year 2027,  the Office of the State Superintendent of Education ("OSSE") shall issue a $500,000 grant to Live It Learn It, for the purpose of supporting a microgrant and support program to enhance experiential learning at high-need schools, see <cite doc="D.C. Act 26-416" path="§4112">Section 4112 of D.C. Act 26-416</cite>.</codify:annotation>
       </section>
     </container>
     <container>
@@ -6712,31 +6875,46 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Healthy Schools Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§38-821.02|(c)">
         <num>4122</num>
         <text>Section 102(c) of the Healthy Schools Act of 2010, effective July 27, 2010 (D.C. Law 18-209; D.C. Official Code § 38-821.02(c)), is amended as follows:</text>
-        <para>
+        <para codify:path="(7)">
           <num>(a)</num>
           <text>Paragraph (7) is amended by striking the word "shall" and inserting the word "may" in its place.</text>
+          <codify:find-replace count="1">
+            <find>shall</find>
+            <replace>may</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(9)">
           <num>(b)</num>
           <text>Paragraph (9) is amended by striking the word "shall" and inserting the word "may" in its place.</text>
+          <codify:find-replace count="1">
+            <find>shall</find>
+            <replace>may</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(12)">
           <num>(c)</num>
           <text>Paragraph (12) is amended as follows:</text>
-          <para>
+          <para codify:path="(A)">
             <num>(1)</num>
-            <text>Subparagraph (A) is amended by striking the phrase "In School Year 2025-</text>
-            <text>2026," and inserting the phrase "In School Year 2026-2027," in its place.</text>
+            <text>Subparagraph (A) is amended by striking the phrase "In School Year 2025-2026," and inserting the phrase "In School Year 2026-2027," in its place.</text>
+            <codify:find-replace count="1">
+              <find>In School Year 2025-2026,</find>
+              <replace>In School Year 2026-2027,</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(B)">
             <num>(2)</num>
-            <text>Subparagraph (B) is amended by striking the date "November 26, 2025"</text>
+            <text>Subparagraph (B) is amended by striking the date "November 26, 2025" and inserting the date "November 25, 2026" in its place.</text>
+            <codify:find-replace count="1">
+              <find>November 26, 2025</find>
+              <replace>November 25, 2026</replace>
+            </codify:find-replace>
           </para>
-          <aftertext proof="needed">and inserting the date "November 25, 2026" in its place.</aftertext>
         </para>
+        <codify:emergency doc="D.C. Code" path="§38-821.02"/>
       </section>
     </container>
     <container>
@@ -6759,6 +6937,7 @@
           <num>(b)</num>
           <text>OSSE shall issue the grant described in subsection (a) of this section no later than November 2, 2026.</text>
         </para>
+        <codify:annotation history="false" path="§38-2601.01" type="Editor's Notes">For the requirement that, in Fiscal Year 2027,  the Office of the State Superintendent of Education ("OSSE") shall issue a $93,091 grant to DC Scores for the purpose of increasing enrollment capacity for a program that engages with students through sports, poetry, and service, see <cite doc="D.C. Act 26-416" path="§4132">Section 4132 of D.C. Act 26-416</cite>.</codify:annotation>
       </section>
     </container>
     <container>
@@ -6768,8 +6947,7 @@
       <section>
         <num>4141</num>
         <heading proof="needed">Short title.</heading>
-        <text>This subtitle may be cited as the "Special Needs Public Charter School Funding</text>
-        <text>Authorization Emergency Act of 2026".</text>
+        <text>This subtitle may be cited as the "Special Needs Public Charter School Funding Authorization Emergency Act of 2026".</text>
       </section>
       <section>
         <num>4142</num>
@@ -6799,6 +6977,9 @@
             <text>PCSB may consider the School's failure to submit the quarterly accounting required pursuant to paragraph (1) of this subsection as fiscal mismanagement.</text>
           </para>
         </para>
+        <codify:annotation doc="D.C. Code" path="§38-1804.01" type="Editor's Notes" history="false">
+          For a requirement that, in Fiscal Year 2027, the Public Charter School Board ("PCSB") transmit $2.7 million to St. Coletta Special Education Public Charter School, see <cite doc="D.C. Act 26-416" path="§4142">section 4142 of D.C. Act 26-416</cite>.
+        </codify:annotation>
       </section>
     </container>
     <container>
@@ -6810,11 +6991,12 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Childcare Subsidy Program Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§4-404.01">
         <num>4152</num>
         <text>Section 5a of the Day Care Policy Act of 1979, effective April 13, 1999 (D.C. Law 12-216; D.C. Official Code § 4-404.01), is amended by adding a new subsection (d) to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(c)" num-value="(d)"/>
             <num>(d)</num>
             <text>In the event that funds appropriated for the purposes of this section are insufficient to serve all eligible applicants in Fiscal Year 2027, the Department shall do the following, in order of priority:</text>
             <para>
@@ -6823,11 +7005,12 @@
             </para>
             <para>
               <num>(2)</num>
-              <text>Revise, consistent with the availability of appropriations and any rules promulgated pursuant to sections 10(h) and 11(a-1) and (b), the rates paid to child development centers, homes, and in-home caregivers for the remainder of the fiscal year.</text>
+              <text>Revise, consistent with the availability of appropriations and any rules promulgated pursuant to <span codify:value="§§">sections</span> <code-cite doc="D.C. Code" path="§4-409|(h)" codify:value="4-409(h)">10(h)</code-cite> and <code-cite doc="D.C. Code" path="§4-410|(a-1)" codify:value="4-410(a-1)">11(a-1)</code-cite> and <cite doc="D.C. Code" path="§4-410|(b)">(b)</cite>, the rates paid to child development centers, homes, and in-home caregivers for the remainder of the fiscal year.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:emergency doc="D.C. Code" path="§4-404.01"/>
       </section>
     </container>
     <container>
@@ -6839,12 +7022,20 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Math Task Force Recommendation Emergency Act of 2026".</text>
       </section>
+      <codify:insert doc="D.C. Code" path="38" after="8D" history="false">
+        <container>
+          <prefix>Chapter</prefix>
+          <num>8E</num>
+          <heading>Math Task Force Recommendations.</heading>
+        </container>
+      </codify:insert>
       <section>
+        <codify:insert path="38|8E" num-value="38-861"/>
         <num>4162</num>
         <heading proof="needed">Definitions.</heading>
         <para>
           <num undesignated="true">(a)</num>
-          <text>For the purposes of this subtitle, the term:</text>
+          <text>For the purposes of this <code-cite doc="D.C. Code" path="38|8E">subtitle</code-cite>, the term:</text>
           <para>
             <num>(1)</num>
             <text>"HQIM" means high-quality instructional materials, which are comprehensive, rigorous, and evidence-based curricular materials that are aligned with the District of Columbia content standards.</text>
@@ -6862,8 +7053,10 @@
             <text>"School" means a District of Columbia Public Schools school or public charter school in the District of Columbia serving students in grades kindergarten through 12.</text>
           </para>
         </para>
+        <codify:emergency-new-sec doc="D.C. Code" path="§38-861" interim-path="§38-851.03" perm-eff="2026-08-13"/>
       </section>
       <section>
+        <codify:insert path="38|8E" after="§38-861" num-value="38-862"/>
         <num>4163</num>
         <heading proof="needed">Requirements for high-quality instructional materials.</heading>
         <para>
@@ -6882,6 +7075,7 @@
           <num>(b)</num>
           <text>By no later than December 15, 2026, and by December 15 of each year thereafter, OSSE shall publish the Tier 1 mathematics curricula in use by each LEA on its website, disaggregated by school and grade or grade band within each school.</text>
         </para>
+        <codify:emergency-new-sec doc="D.C. Code" path="§38-862" interim-path="§38-851.03" perm-eff="2026-08-13"/>
       </section>
     </container>
     <container>
@@ -6897,6 +7091,7 @@
         <num>4172</num>
         <text>Notwithstanding the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq.</em>), in Fiscal Year 2027, the Office of the State Superintendent for Education ("OSSE") shall issue a grant of $1,400,000 to Washington Literacy Center, to provide adult foundational literacy, digital literacy, opportunity youth programming, employment retention and career advancement support, workforce training and preparation, and other related educational services.</text>
       </section>
+      <codify:annotation history="false" path="§38-2601.01" type="Editor's Notes">For the requirement that, in Fiscal Year 2027, the Office of the State Superintendent of Education ("OSSE") shall issue a grant of $1,400,000 to Washington Literacy Center, to provide adult foundational literacy, digital literacy, opportunity youth programming, employment retention and career advancement support, workforce training and preparation, and other related educational services, see <cite doc="D.C. Act 26-416" path="§4172">Section 4172 of D.C. Act 26-416</cite>.</codify:annotation>
     </container>
     <container>
       <prefix>SUBTITLE</prefix>
@@ -6912,7 +7107,8 @@
         <text>The State Education Office Establishment Act of 2000, effective October 21, 2000 (D.C. Law 13-176; D.C. Official Code § 38-2601 <em>et seq</em>.), is amended by adding a new section 7m to read as follows:</text>
         <include>
           <section>
-            <num>7m</num>
+            <codify:insert path="38|26" after="§38-2618" num-value="38-2619" history-prefix="as added"/>
+            <num codify:value="38-2619">7m</num>
             <heading proof="needed">Fifty Dollar a Week Pilot Program.</heading>
             <para>
               <num>(a)</num>
@@ -7002,6 +7198,8 @@
                 <text>"Eligible student" means a student enrolled in a participating school whose parent or guardian consents, consistent with the Family Educational Rights and Privacy Act of 1974, approved August 21, 1974 (88 Stat. 571; 20 U.S.C. § 1232g), to the student's participation in the Pilot Program.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 13-176" type="History" path="§7m">Oct. 21, 2000, D.C. Law 13-176, § 7m</annotation>
+            <codify:emergency-new-sec doc="D.C. Code" path="§38-2619" interim-path="§38-2618" perm-eff="2026-08-13"/>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -7016,19 +7214,20 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Lead Exposure Prevention in Public Charter Schools Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§38-825.01a">
         <num>4192</num>
         <text>Section 501a of the Healthy Schools Act of 2010, effective September 23, 2017 (D.C. Law 22-21; D.C. Official Code § 38-825.01a), is amended as follows:</text>
-        <para>
+        <para codify:path="(b)">
           <num>(a)</num>
           <text>Subsection (b) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(1)</num>
             <text>Paragraph (1) is amended to read as follows:</text>
             <include>
               <para>
                 <num>(b)</num>
                 <para>
+                  <codify:replace/>
                   <num>(1)</num>
                   <text>By October 1, 2026, DGS shall contract with a third-party entity to provide public charter schools with services in Fiscal Year 2027 necessary to assist each school in meeting the requirements of paragraph (2) of this subsection. DGS's contract shall require the contractor to, at minimum:</text>
                   <para>
@@ -7052,16 +7251,17 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(3)">
             <num>(2)</num>
             <text>Paragraph (3) is amended as follows:</text>
-            <para>
+            <para codify:path="(A)">
               <num>(A)</num>
               <text>Subparagraph (A) is amended to read as follows:</text>
               <include lvl="1">
                 <para>
                   <num>(3)</num>
                   <para>
+                    <codify:replace/>
                     <num>(A)</num>
                     <text>The contractor selected pursuant to paragraph (1) of this subsection shall provide DGS and each public charter school with written proof that the services the contractor performed for the public charter school complied with the requirements of paragraph (2) of this subsection.</text>
                   </para>
@@ -7069,38 +7269,53 @@
               </include>
               <aftertext>.</aftertext>
             </para>
-            <para>
+            <para codify:path="(B)">
               <num>(B)</num>
               <text>Subparagraph (B) is amended by striking the acronym "PCSB" and inserting the phrase "PCSB and DGS" in its place.</text>
+              <codify:find-replace count="1">
+                <find>PCSB</find>
+                <replace>PCSB and DGS</replace>
+              </codify:find-replace>
             </para>
           </para>
           <para>
             <num>(3)</num>
             <text>Paragraph (4) is repealed.</text>
+            <codify:repeal path="(4)"/>
           </para>
-          <para>
+          <para codify:path="(6)">
             <num>(4)</num>
             <text>Paragraph (6) is amended as follows:</text>
-            <para>
+            <para codify:path="(A)">
               <num>(A)</num>
               <text>Subparagraph (A) is amended by striking the phrase "The Mayor" and inserting the phrase "The Mayor or the Mayor's designee" in its place.</text>
+              <codify:find-replace count="1">
+                <find>The Mayor</find>
+                <replace>The Mayor or the Mayor's designee</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(B)">
               <num>(B)</num>
               <text>Subparagraph (B) is amended as follows:</text>
               <para>
                 <num>(i)</num>
                 <text>Sub-subparagraph (i) is repealed.</text>
+                <codify:repeal path="(i)"/>
               </para>
-              <para>
+              <para codify:path="(ii)">
                 <num>(ii)</num>
                 <text>Sub-subparagraph (ii) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+                <codify:find-replace position="last">
+                  <find>.</find>
+                  <replace>; and</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(iii)</num>
                 <text>A new sub-subparagraph (iii) is added to read as follows:</text>
                 <include lvl="3">
                   <para>
+                    <codify:insert after="(ii)" num-value="(iii)"/>
                     <num>(iii)</num>
                     <text>DGS shall identify the public charter school as noncompliant with the requirements of this section on the agency's website and inform PCSB, which shall post a link on its website to DGS's list of noncompliant public charter schools.</text>
                   </para>
@@ -7114,6 +7329,7 @@
             <text>A new paragraph (9) is added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(8)" num-value="(9)"/>
                 <num>(9)</num>
                 <text>The performance of services by DGS or its contractor pursuant to this subsection shall not be interpreted to modify or otherwise amend the terms of any lease agreement pursuant to which a public charter school occupies District-owned or controlled real property except to the extent consistent with this subsection.</text>
               </para>
@@ -7121,10 +7337,15 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="(d)">
           <num>(b)</num>
           <text>Subsection (d) is amended by striking the phrase "Within 120 days of the effective date of the Childhood Lead Exposure Prevention Amendment Act of 2017, passed on 2nd reading on July 11, 2017 (Enrolled version of Bill 22-29), the Mayor" and inserting the phrase "The Mayor" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Within 120 days of the September 23, 2017, the Mayor</find>
+            <replace>The Mayor</replace>
+          </codify:find-replace>
         </para>
+        <codify:emergency doc="D.C. Code" path="§38-825.01a"/>
       </section>
     </container>
   </container>
