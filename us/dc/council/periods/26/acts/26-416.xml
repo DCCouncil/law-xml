@@ -7362,19 +7362,21 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Rapid Re-Housing Continuation Clarification Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§4-754.36a-1|(d)|(1)">
         <num>5002</num>
         <text>Section 22a-1(d)(1) of the Homeless Services Reform Act of 2005, effective December 6, 2025 (D.C. Law 26-55; D.C. Official Code § 4-754.36a-1(d)(1)), is amended to read as follows:</text>
         <include>
           <para>
             <num>(d)</num>
             <para>
+              <codify:replace/>
               <num>(1)</num>
               <text>As of September 3, 2025, a client who received continuation of services due to the filing of an appeal of a notice of program exit from a Rapid Re-Housing program before September 3, 2025, when the exit was due to the end of a time limit for services to the client under the program, shall be exited from the Rapid Re-Housing program when the client's time in the program reaches 24 months or on September 30, 2025, whichever date is later; except, that if, before the later of the 2 foregoing dates, an administrative review decision is issued upholding the notice of program exit due to the end of a time limit for services to the client under the program, the client shall be exited from the Rapid Re-Housing program on the date the administrative review decision upholding the notice of program exit is issued.</text>
             </para>
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:emergency doc="D.C. Code" path="§4-754.36a-1"/>
       </section>
     </container>
     <container>
@@ -7386,7 +7388,7 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "AIDS Drug Assistance Fund Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§7-736.02">
         <num>5012</num>
         <text>Section 4907b of the Department of Health Functions Clarification Act of 2001, effective February 26, 2015 (D.C. Law 20-155; D.C. Official Code § 7-736.02), is amended as follows:</text>
         <para>
@@ -7396,19 +7398,28 @@
             <section>
               <num>4907b</num>
               <heading proof="needed">AIDS Drug Assistance Program Fund.</heading>
+              <codify:find-replace path="heading" count="1">
+                <find>Communicable and Chronic Disease Prevention and Treatment Fund.</find>
+                <replace>AIDS Drug Assistance Program Fund.</replace>
+              </codify:find-replace>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(a)">
           <num>(b)</num>
           <text>Subsection (a) is amended by striking the phrase "Communicable and Chronic Disease Prevention and Treatment Fund" and inserting the phrase "AIDS Drug Assistance Program Fund" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Communicable and Chronic Disease Prevention and Treatment Fund</find>
+            <replace>AIDS Drug Assistance Program Fund</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>Subsections (b), (c), and (d) are amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace path="(b)"/>
               <num>(b)</num>
               <text>Revenue from the following sources shall be deposited into the Fund:</text>
               <para>
@@ -7421,10 +7432,12 @@
               </para>
             </para>
             <para>
+              <codify:replace path="(c)"/>
               <num>(c)</num>
               <text>Money in the Fund shall be used to administer ADAP, including the procurement of HIV/AIDS medications and the provision of HIV care and services for eligible District residents, and for the fulfillment of federal grant-matching requirements for ADAP.</text>
             </para>
             <para>
+              <codify:replace path="(d)"/>
               <num>(d)</num>
               <para>
                 <num>(1)</num>
@@ -7438,6 +7451,7 @@
           </include>
           <aftertext>.</aftertext>
         </para>
+        <codify:emergency doc="D.C. Code" path="§7-736.02"/>
       </section>
     </container>
     <container>
@@ -7452,27 +7466,35 @@
       <section>
         <num>5022</num>
         <text>The Animal Control Act of 1979, effective October 18, 1979 (D.C. Law 3-30; D.C. Official Code § 8-1801 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§8-1801|(a)">
           <num>(a)</num>
           <text>Section 2 (D.C. Official Code § 8-1801) is amended by adding a new paragraph (19) to read as follows:</text>
           <include lvl="1">
             <para>
+              <codify:insert after="(18)" num-value="(19)"/>
               <num>(19)</num>
-              <text>"Veterinarian" shall have the same meaning as provided in section 101(16) of the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01(16)).</text>
+              <text>"Veterinarian" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§3-1201.01|(16)">section 101(16) of the District of Columbia Health Occupations Revision Act of 1985, effective March 25, 1986 (D.C. Law 6-99; D.C. Official Code § 3-1201.01(16))</code-cite>.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
+          <codify:emergency doc="D.C. Code" path="§8-1801"/>
         </para>
-        <para>
+        <para codify:path="§8-1804|(e-1)">
           <num>(b)</num>
           <text>Section 5(e-1) (D.C. Official Code § 8-1804(e-1)) is amended by striking the phrase "$2 of each fee" and inserting the phrase "25% of each fee" in its place.</text>
+          <codify:find-replace count="1">
+            <find>$2 of each fee</find>
+            <replace>25% of each fee</replace>
+          </codify:find-replace>
+          <codify:emergency doc="D.C. Code" path="§8-1804"/>
         </para>
-        <para>
+        <para codify:path="§8-1810">
           <num>(c)</num>
           <text>Section 11 (D.C. Official Code § 8-1810) is amended to read as follows:</text>
           <include>
             <section>
-              <num>11</num>
+              <codify:replace/>
+              <num codify:value="8-1810">11</num>
               <heading proof="needed">Animal population health and education program.</heading>
               <para>
                 <num>(a)</num>
@@ -7509,37 +7531,41 @@
             </section>
           </include>
           <aftertext>.</aftertext>
+          <codify:emergency doc="D.C. Code" path="§8-1810"/>
         </para>
-        <para>
+        <para codify:path="§8-1810.01">
           <num>(d)</num>
           <text>Section 11a (D.C. Official Code § 8-1810.01) is amended as follows:</text>
-          <para>
+          <para codify:path="(b)">
             <num>(1)</num>
             <text>Subsection (b) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(b)</num>
-                <text>Pursuant to section 5(e-1), 25% of the amount collected from the annual license fees for dogs pursuant to section 5(e) shall be deposited into the Fund.</text>
+                <text>Pursuant to <code-cite doc="D.C. Code" path="§8-1804|(e-1)">section 5(e-1)</code-cite>, 25% of the amount collected from the annual license fees for dogs pursuant to <code-cite doc="D.C. Code" path="§8-1804|(e)">section 5(e)</code-cite> shall be deposited into the Fund.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(2)</num>
             <text>Subsection (c) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(c)</num>
-                <text>Money in the Fund shall be used to implement the animal population health and education program established by section 11.</text>
+                <text>Money in the Fund shall be used to implement the animal population health and education program established by <code-cite doc="D.C. Code" path="§8-1810">section 11</code-cite>.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(3)</num>
             <text>Subsection (d) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(d)</num>
                 <para>
                   <num>(1)</num>
@@ -7553,23 +7579,25 @@
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:emergency doc="D.C. Code" path="§8-1810.01"/>
         </para>
       </section>
-      <section>
+      <section codify:path="§8-1821.02">
         <num>5023</num>
         <text>Section 202 of the Animal Protection Amendment Act of 2008, effective December 5, 2008 (D.C. Law 17-281; D.C. Official Code § 8-1821.02), is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(a)</num>
           <text>Subsection (a) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(a)</num>
               <para>
                 <num>(1)</num>
                 <text>No person shall own or operate a commercial pet care facility without first obtaining:</text>
                 <para>
                   <num>(A)</num>
-                  <text>A basic business license with an Inspected Sales and Service license endorsement pursuant to Title 47 of the District of Columbia Official Code; and</text>
+                  <text>A basic business license with an Inspected Sales and Service license endorsement pursuant to <code-cite doc="D.C. Code" path="47">Title 47 of the District of Columbia Official Code</code-cite>; and</text>
                 </para>
                 <para>
                   <num>(B)</num>
@@ -7592,21 +7620,28 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(b)</num>
           <text>Subsection (b) is amended by striking the phrase "an animal facility as defined in section 3(2) of the Veterinary Practice Act of 1982, effective March 9, 1983 (D.C. Law 4-171; D.C. Official Code § 3-502), or a licensed pet shop." and inserting the phrase "a licensed pet shop or a veterinary hospital, animal hospital, or fixed or mobile establishment where veterinary medicine is practiced." in its place.</text>
+          <codify:find-replace count="1">
+            <find>an animal facility as defined in <cite path="§3-502">§ 3-502</cite> [repealed] or a licensed pet shop.</find>
+            <replace>a licensed pet shop or a veterinary hospital, animal hospital, or fixed or mobile establishment where veterinary medicine is practiced.</replace>
+          </codify:find-replace>
         </para>
+        <codify:emergency doc="D.C. Code" path="§8-1821.02"/>
       </section>
-      <section>
+      <section codify:path="§7-731|(a)">
         <num>5024</num>
         <text>Section 4902(a) of the Department of Health Functions Clarification Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 7-731(a)), is amended by adding a new paragraph (4A) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(4)" num-value="(4A)"/>
             <num>(4A)</num>
-            <text>Regulate commercial pet care facilities and commercial animal breeder facilities, pursuant to Title II of the Animal Protection Amendment Act of 2008, effective December 5, 2008 (D.C. Law 17-281; D.C. Official Code § 8-1821.01 <em>et seq.</em>);</text>
+            <text>Regulate commercial pet care facilities and commercial animal breeder facilities, pursuant to <code-cite doc="D.C. Code" path="8|18|II">Title II of the Animal Protection Amendment Act of 2008, effective December 5, 2008 (D.C. Law 17-281; D.C. Official Code § 8-1821.01 <em>et seq.</em>)</code-cite>;</text>
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:emergency doc="D.C. Code" path="§7-731"/>
       </section>
     </container>
     <container>
@@ -7618,33 +7653,46 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "School-Based Behavioral Health Program Stabilization and Oversight Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§7-1131.17">
         <num>5032</num>
         <text>Section 115b of the Department of Mental Health Establishment Amendment Act of 2001, effective June 7, 2012 (D.C. Law 19-141; D.C. Official Code § 7-1131.17), is amended as follows:</text>
-        <para>
+        <para codify:path="(f)">
           <num>(a)</num>
           <text>Subsection (f) is amended as follows:</text>
-          <para>
+          <para codify:path="(1)">
             <num>(1)</num>
             <text>Paragraph (1) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Strike the phrase "Fiscal Year 2026" and insert the phrase "Fiscal Years 2026 and 2027" in its place.</text>
+              <codify:find-replace count="1">
+                <find>Fiscal Year 2026</find>
+                <replace>Fiscal Years 2026 and 2027</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Strike the phrase "shall be not less than $16,320,000" and insert the phrase "shall be not less than $16,320,000 in Fiscal Year 2026 and, except as otherwise provided in paragraph (2B) of this subsection, shall be not less than $13,200,000 in Fiscal Year 2027" in its place.</text>
+              <codify:find-replace count="1">
+                <find>shall be not less than $16,320,000</find>
+                <replace>shall be not less than $16,320,000 in Fiscal Year 2026 and, except as otherwise provided in paragraph (2B) of this subsection, shall be not less than $13,200,000 in Fiscal Year 2027</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(C)</num>
               <text>Strike the phrase "School Years 2023-2024 or 2024-2025" and insert the phrase "School Years 2024-2025 or 2025-2026" in its place.</text>
+              <codify:find-replace count="1">
+                <find>School Years 2023-2024 or 2024-2025</find>
+                <replace>School Years 2024-2025 or 2025-2026</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(2)">
             <num>(2)</num>
             <text>Paragraph (2) is amended by adding new subparagraphs (B-i) and (B-ii) to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert after="(B)" num-value="(B-i)"/>
                 <num>(B-i)</num>
                 <text>Reduce the number of participating community-based organization providers except in cases of voluntary withdrawal or substantiated and material performance deficiencies that:</text>
                 <para>
@@ -7665,6 +7713,7 @@
                 </para>
               </para>
               <para>
+                <codify:insert after="(B-i)" num-value="(B-ii)"/>
                 <num>(B-ii)</num>
                 <text>Award a grant to an entity for the exclusive provision of telehealth services at a school unless the school agrees to the telehealth model and is also assigned at least one part-time onsite clinician or the school is an adult public charter school. This subparagraph does not preclude a community-based organization from using telehealth services to supplement, but not replace, in-person programmatic services;</text>
               </para>
@@ -7676,10 +7725,12 @@
             <text>New paragraphs (2A) and (2B) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert after="(2)" num-value="(2A)"/>
                 <num>(2A)</num>
                 <text>In Fiscal Year 2027, the Department may utilize prevention specialists in not more than 25 schools.</text>
               </para>
               <para>
+                <codify:insert after="(2A)" num-value="(2B)"/>
                 <num>(2B)</num>
                 <para>
                   <num>(A)</num>
@@ -7707,6 +7758,7 @@
           <text>A new subsection (f-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(f)" num-value="(f-1)"/>
               <num>(f-1)</num>
               <text>Notwithstanding subsection (f) of this section, in Fiscal Year 2027, the Department shall permit not more than 4 public charter schools to directly hire behavioral health clinicians where the school demonstrates the capacity, willingness, and ability to support and implement behavioral health services; provided, that each clinician shall receive onsite clinical supervision and shall perform duties exclusively related to the School-Based Behavioral Health program.</text>
             </para>
@@ -7718,7 +7770,8 @@
           <text>A new subsection (g-1) is added to read as follows:</text>
           <include>
             <para>
-              <num>(g-1)</num>
+              <codify:insert after="(g)" num-value="[(h)]"/>
+              <num codify:value="[(h)]">(g-1)</num>
               <text>By March 1, 2027, the Department shall, in collaboration with at least 2 leaders from community-based organizations awarded grants under subsection (f) of this section, at least 4 program clinicians, including at least 2 clinicians employed by community-based organizations, the Strengthening Families Through Behavioral Health Coalition, and The Center for Health and Health Care in Schools at the Milken Institute School of Public Health at the George Washington University, develop, and publish on the Department's website and submit to the Council:</text>
               <para>
                 <num>(1)</num>
@@ -7736,6 +7789,7 @@
           </include>
           <aftertext>.</aftertext>
         </para>
+        <codify:emergency doc="D.C. Code" path="§7-1131.17"/>
       </section>
     </container>
     <container>
@@ -7756,6 +7810,7 @@
           <para>
             <num>(1)</num>
             <text>Strike the phrase "47-2404. Licenses." and insert the phrase "47-2404. Tobacco permits." in its place.</text>
+            <!-- done below -->
           </para>
           <para>
             <num>(2)</num>
@@ -7769,32 +7824,39 @@
               </toc>
             </include>
             <aftertext>.</aftertext>
+            <!-- done below -->
           </para>
         </para>
-        <para>
+        <para codify:path="§47-2401">
           <num>(b)</num>
           <text>Section 47-2401 is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Paragraph (3B) is redesignated as paragraph (3D).</text>
+            <codify:replace path="(3B)|num">
+              <num>(3D)</num>
+            </codify:replace>
           </para>
           <para>
             <num>(2)</num>
             <text>New paragraphs (3B) and (3C) are added to read as follows:</text>
             <include lvl="1">
               <para>
+                <codify:insert before="(3D)" num-value="[(3C)]"/>
                 <num>(3B)</num>
-                <text>The term "licensed wholesaler" means an individual who has obtained a basic business license under Chapter 28 of this title and a wholesaler's permit pursuant to § 47-2404(b)(1).</text>
+                <text>The term "licensed wholesaler" means an individual who has obtained a basic business license under <cite doc="D.C. Code" path="47|28">Chapter 28 of this title</cite> and a wholesaler's permit pursuant to <cite doc="D.C. Code" path="§47-2404|(b)|(1)">§ 47-2404(b)(1)</cite>.</text>
               </para>
               <para>
+                <codify:insert after="(3A)" num-value="[(3B)]"/>
                 <num>(3C)</num>
-                <text>The term "licensed retailer" means an individual who has obtained a basic business license under Chapter 28 of this title and a retailer's permit pursuant to § 47-2404(b)(2).</text>
+                <text>The term "licensed retailer" means an individual who has obtained a basic business license under <cite doc="D.C. Code" path="47|28">Chapter 28 of this title</cite> and a retailer's permit pursuant to <cite doc="D.C. Code" path="§47-2404|(b)|(2)">§ 47-2404(b)(2)</cite>.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
+          <codify:emergency doc="D.C. Code" path="§47-2401"/>
         </para>
-        <para>
+        <para codify:path="§47-2404">
           <num>(c)</num>
           <text>Section 47-2404 of the District of Columbia Code is amended as follows:</text>
           <para>
@@ -7805,143 +7867,239 @@
                 <prefix>§</prefix>
                 <num>47-2404</num>
                 <heading proof="needed">Tobacco permits.</heading>
+                <codify:find-replace path="heading" count="1">
+                  <find>Licenses.</find>
+                  <replace>Tobacco permits.</replace>
+                </codify:find-replace>
               </section>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(a)">
             <num>(2)</num>
             <text>Subsection (a) is amended by striking the phrase "license or licenses" and inserting the phrase "permit or permits" in its place.</text>
+            <codify:find-replace count="1">
+              <find>license or licenses</find>
+              <replace>permit or permits</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(3)</num>
             <text>Subsection (b) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>The lead-in language is amended by striking the word "licenses" and inserting the word "permits" in its place.</text>
+              <codify:find-replace position="1">
+                <find>licenses</find>
+                <replace>permits</replace>
+              </codify:find-replace>
             </para>
-            <para>
+            <para codify:path="(1)">
               <num>(B)</num>
               <text>Paragraph (1) is amended as follows:</text>
               <para>
                 <num>(i)</num>
                 <text>Strike the word "licenses" and insert the word "permits" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>licenses</find>
+                  <replace>permits</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(ii)</num>
                 <text>Strike the word "license" wherever it appears and insert the word "permit" in its place.</text>
+                <codify:find-replace count="6">
+                  <find>license </find>
+                  <replace>permit </replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(iii)</num>
                 <text>Strike the word "licensee" both times it appears and insert the word "permittee" in its place.</text>
+                <codify:find-replace count="2">
+                  <find>licensee</find>
+                  <replace>permittee</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(iv)</num>
                 <text>Strike the figure "$50" and insert the figure "$125" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>$50</find>
+                  <replace>$125</replace>
+                </codify:find-replace>
               </para>
             </para>
-            <para>
+            <para codify:path="(2)">
               <num>(C)</num>
               <text>Paragraph (2) is amended as follows:</text>
               <para>
                 <num>(i)</num>
                 <text>Strike the word "licenses" and insert the word "permits" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>licenses</find>
+                  <replace>permits</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(ii)</num>
                 <text>Strike the word "license" wherever it appears and insert the word "permit" in its place.</text>
+                <codify:find-replace count="4">
+                  <find>license </find>
+                  <replace>permit </replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(iii)</num>
                 <text>Strike the word "licensee" both times it appears and insert the word "permittee" in its place.</text>
+                <codify:find-replace count="2">
+                  <find>licensee </find>
+                  <replace>permittee </replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(iv)</num>
                 <text>Strike the word "licensees" and insert the word "permittees" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>licensees</find>
+                  <replace>permittees</replace>
+                </codify:find-replace>
               </para>
               <para>
                 <num>(v)</num>
                 <text>Strike the figure "$15" and insert the figure "$75" in its place.</text>
+                <codify:find-replace count="1">
+                  <find>$15</find>
+                  <replace>$75</replace>
+                </codify:find-replace>
               </para>
             </para>
-            <para>
+            <para codify:path="(3)">
               <num>(D)</num>
               <text>Paragraph (3) is amended as follows:</text>
               <para>
                 <num>(i)</num>
                 <text>The lead-in language is amended by striking the word "licenses" and inserting the word "permits" in its place.</text>
+                <codify:find-replace position="1">
+                  <find>licenses</find>
+                  <replace>permits</replace>
+                </codify:find-replace>
               </para>
-              <para>
+              <para codify:path="(A)">
                 <num>(ii)</num>
                 <text>Subparagraph (A) is amended by striking the word "license" and inserting the word "permit" in its place.</text>
+                <codify:find-replace position="1">
+                  <find>license </find>
+                  <replace>permit </replace>
+                </codify:find-replace>
               </para>
-              <para>
+              <para codify:path="(C)">
                 <num>(iii)</num>
                 <text>Subparagraph (C) is amended as follows:</text>
                 <para>
                   <num>(I)</num>
                   <text>Strike the word "license" and insert the word "permit" in its place.</text>
+                  <codify:find-replace count="1">
+                    <find>license </find>
+                    <replace>permit </replace>
+                  </codify:find-replace>
                 </para>
                 <para>
                   <num>(II)</num>
                   <text>Strike the figure "$15" and insert the figure "$75" in its place.</text>
+                  <codify:find-replace count="1">
+                    <find>$15</find>
+                    <replace>$75</replace>
+                  </codify:find-replace>
                 </para>
               </para>
             </para>
           </para>
-          <para>
+          <para codify:path="(c)">
             <num>(4)</num>
             <text>Subsection (c) is amended by striking the word "licenses" and inserting the word "permits" in its place.</text>
+            <codify:find-replace count="1">
+              <find>licenses</find>
+              <replace>permits</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(d)">
             <num>(5)</num>
             <text>Subsection (d) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(d)</num>
                 <text>The Mayor may, by regulation, increase the permit fees imposed by subsection (b) of this section and may establish fees for duplicate permits.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(e)">
             <num>(6)</num>
             <text>Subsection (e) is amended as follows:</text>
             <para>
               <num>(A)</num>
               <text>Strike the word "Licenses" and insert the word "Permits" in its place.</text>
+              <codify:find-replace count="1">
+                <find>Licenses</find>
+                <replace>Permits</replace>
+              </codify:find-replace>
             </para>
             <para>
               <num>(B)</num>
               <text>Strike the word "licenses" both times it appears and insert the word "permits" in its place.</text>
+              <codify:find-replace count="2">
+                <find>licenses</find>
+                <replace>permits</replace>
+              </codify:find-replace>
             </para>
           </para>
-          <para>
+          <para codify:path="(f)">
             <num>(7)</num>
             <text>Subsection (f) is amended by striking the word "license" and inserting the word "permit" in its place.</text>
+            <codify:find-replace count="1">
+              <find>license </find>
+              <replace>permit </replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(g)">
             <num>(8)</num>
             <text>Subsection (g) is amended by striking the phrase "The licenses required" and inserting the phrase "The permits required" in its place.</text>
+            <codify:find-replace count="1">
+              <find>The licenses required</find>
+              <replace>The permits required</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(h)">
             <num>(9)</num>
             <text>Subsection (h) is amended by striking the word "license" both times it appears and inserting the word "permits" in its place.</text>
+            <codify:find-replace count="2">
+              <find>license </find>
+              <replace>permits </replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(h-1)">
             <num>(10)</num>
             <text>Subsection (h-1) is amended by striking the word "license" both times it appears and inserting the word "permits" in its place.</text>
+            <codify:find-replace count="2">
+              <find>license </find>
+              <replace>permits </replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(11)</num>
             <text>Subsection (i) is repealed.</text>
+            <codify:repeal path="(i)"/>
           </para>
+          <codify:emergency doc="D.C. Code" path="§47-2404"/>
         </para>
         <para>
           <num>(d)</num>
           <text>A new section 47-2404.01 is added to read as follows:</text>
           <include>
             <section>
+              <codify:insert path="47|24" after="§47-2404" num-value="47-2404.01"/>
               <prefix>§</prefix>
               <num>47-2404.01</num>
               <heading proof="needed">Smoking Cessation Fund.</heading>
@@ -7954,7 +8112,7 @@
                 <text>There shall be deposited into the Fund:</text>
                 <para>
                   <num>(1)</num>
-                  <text>All permit-related fees and fines collected pursuant to § 47-2404; and</text>
+                  <text>All permit-related fees and fines collected pursuant to <cite doc="D.C. Code" path="§47-2404">§ 47-2404</cite>; and</text>
                 </para>
                 <para>
                   <num>(2)</num>
@@ -7970,7 +8128,7 @@
                 </para>
                 <para>
                   <num>(2)</num>
-                  <text>Costs associated with administering tobacco permits pursuant to § 47-2404.</text>
+                  <text>Costs associated with administering tobacco permits pursuant to <cite doc="D.C. Code" path="§47-2404">§ 47-2404</cite>.</text>
                 </para>
               </para>
               <para>
@@ -7984,28 +8142,43 @@
                   <text>Subject to authorization in an approved budget and financial plan, any funds appropriated in the Fund shall be continually available without regard to fiscal year limitation.</text>
                 </para>
               </para>
+              <codify:emergency-new-sec doc="D.C. Code" path="§47-2404.01" interim-path="§47-2404" perm-eff="2026-08-13"/>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§47-2409|(a)">
           <num>(e)</num>
           <text>Section 47-2409(a) is amended as follows:</text>
-          <para>
+          <para codify:path="(3)">
             <num>(1)</num>
             <text>Paragraph (3) is amended by striking the word "license" and inserting the word "permit" in its place.</text>
+            <codify:find-replace count="1">
+              <find>license </find>
+              <replace>permit </replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(6)">
             <num>(2)</num>
             <text>Paragraph (6) is amended by striking the word "license" and inserting the word "permit" in its place.</text>
+            <codify:find-replace count="1">
+              <find>license </find>
+              <replace>permit </replace>
+            </codify:find-replace>
           </para>
+          <codify:emergency doc="D.C. Code" path="§47-2409"/>
         </para>
-        <para>
+        <para codify:path="§47-2418|(a)">
           <num>(f)</num>
           <text>Section 47-2418(a) is amended by striking the word "licensed" and inserting the word "permitted" in its place.</text>
+          <codify:find-replace count="1">
+            <find>licensed</find>
+            <replace>permitted</replace>
+          </codify:find-replace>
+          <codify:emergency doc="D.C. Code" path="§47-2418"/>
         </para>
       </section>
-      <section>
+      <section codify:path="§7-736.05">
         <num>5043</num>
         <text>Section 4907e of the Department of Health Functions Clarification Act of 2001, effective September 18, 2024 (D.C. Law 25-217, D.C. Official Code § 7-736.05), is amended as follows:</text>
         <para>
@@ -8015,18 +8188,28 @@
             <section>
               <num>4907e</num>
               <heading proof="needed">JUUL Settlement Fund.</heading>
+              <codify:find-replace path="heading" count="1">
+                <find>Tobacco Use Cessation Fund.</find>
+                <replace>JUUL Settlement Fund.</replace>
+              </codify:find-replace>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(a)">
           <num>(b)</num>
           <text>Subsection (a) is amended by striking the phrase "Tobacco Use Cessation Fund" and inserting the phrase "JUUL Settlement Fund" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Tobacco Use Cessation Fund</find>
+            <replace>JUUL Settlement Fund</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>Subsection (b)(1) is repealed.</text>
+          <codify:repeal path="(b)|(1)"/>
         </para>
+        <codify:emergency doc="D.C. Code" path="§7-736.05"/>
       </section>
     </container>
     <container>
@@ -8038,7 +8221,7 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Truancy Reduction Pilot Program Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§38-208">
         <num>5052</num>
         <text>Section 7 of Article II of An Act To provide for compulsory school attendance, for the taking of a school census in the District of Columbia, and for other purposes, effective September 19, 2013 (D.C. Law 20-17; D.C. Official Code § 38-208), is amended as follows:</text>
         <para>
@@ -8046,6 +8229,7 @@
           <text>A new subsection (c-3) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(c-2)" num-value="(c-3)"/>
               <num>(c-3)</num>
               <para>
                 <num>(1)</num>
@@ -8154,10 +8338,15 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(e)|(1)">
           <num>(b)</num>
           <text>Subsection (e)(1) is amended by striking the phrase "subsections (c-1) and (c-2)" and inserting the phrase "subsections (c-1), (c-2), and (c-3)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>subsections (c-1) and (c-2)</find>
+            <replace>subsections (c-1), (c-2), and (c-3)</replace>
+          </codify:find-replace>
         </para>
+        <codify:emergency doc="D.C. Code" path="§38-208"/>
       </section>
       <section>
         <num>5053</num>
@@ -8174,13 +8363,14 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "District of Columbia Public Assistance Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§4-205.52|(c-4)">
         <num>5062</num>
         <text>Section 552(c-4) of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-205.52(c-4)), is amended to read as follows:</text>
         <include>
           <para>
+            <codify:replace/>
             <num>(c-4)</num>
-            <text>The level of District-funded TANF assistance paid to each assistance unit receiving benefits under section 511a(a-1) shall be as follows:</text>
+            <text>The level of District-funded TANF assistance paid to each assistance unit receiving benefits under <code-cite doc="D.C. Code" path="§4-205.11a|(a-1)">section 511a(a-1)</code-cite> shall be as follows:</text>
             <para>
               <num>(1)</num>
               <text>For Fiscal Year 2027, 100% of the Fiscal Year 2026 amount; and</text>
@@ -8192,12 +8382,14 @@
           </para>
         </include>
         <aftertext>.</aftertext>
+        <codify:emergency doc="D.C. Code" path="§4-205.52"/>
       </section>
       <section>
         <num>5063</num>
         <para>
           <num>(a)</num>
           <text>Section 5063 of the District of Columbia Public Assistance Amendment Act of 2025, effective December 6, 2025 (D.C. Law 26-55; 72 DCR 9825), is amended by striking the date "October 1, 2026" and inserting the date "October 1, 2027" in its place.</text>
+          <!-- done in Law 26-55 -->
         </para>
         <para>
           <num>(b)</num>
@@ -8216,9 +8408,9 @@
       </section>
       <section>
         <num>5072</num>
-        <text>Notwithstanding the Grant Administration Act of 2013, effective December</text>
-        <text>24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.), in Fiscal Year 2027, the</text>
+        <text>Notwithstanding the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq</em>.), in Fiscal Year 2027, the</text>
         <para>
+          <codify:marginalia display="Not Codified in the D.C. Code"/>
           <num undesignated="true">(a)</num>
           <text>Department of Human Services shall issue the following grants:</text>
           <para>
@@ -8248,7 +8440,7 @@
       <section>
         <num>5082</num>
         <text>The Food Policy Council and Director Establishment Act of 2014, effective March 10, 2015 (D.C. Law 20-191; D.C. Official Code § 48-311 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§48-314">
           <num>(a)</num>
           <text>Section 5 (D.C. Official Code § 48-314) is amended as follows:</text>
           <para>
@@ -8258,15 +8450,20 @@
               <section>
                 <num>5</num>
                 <heading proof="needed">Office of Food Policy.</heading>
+                <codify:find-replace path="heading" count="1">
+                  <find>Appointment and duties of Food Policy Director.</find>
+                  <replace>Office of Food Policy.</replace>
+                </codify:find-replace>
               </section>
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(a)">
             <num>(2)</num>
             <text>Subsection (a) is amended to read as follows:</text>
             <include>
               <para>
+                <codify:replace/>
                 <num>(a)</num>
                 <para>
                   <num>(1)</num>
@@ -8280,14 +8477,22 @@
             </include>
             <aftertext>.</aftertext>
           </para>
-          <para>
+          <para codify:path="(b)">
             <num>(3)</num>
             <text>Subsection (b) is amended by striking the word "Director" and inserting the word "Office" in its place.</text>
+            <codify:find-replace count="1">
+              <find>Director</find>
+              <replace>Office</replace>
+            </codify:find-replace>
           </para>
         </para>
-        <para>
+        <para codify:path="§48-314.01">
           <num>(b)</num>
           <text>Section 5a (D.C. Official Code § 48-314.01) is amended by striking the phrase "Director of the Office of Planning" and inserting the phrase "Food Policy Director" in its place.</text>
+          <codify:find-replace count="1">
+            <find>Director of the Office of Planning</find>
+            <replace>Food Policy Director</replace>
+          </codify:find-replace>
         </para>
       </section>
     </container>
@@ -8300,9 +8505,13 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Farmers Market Support Grants Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§7-742.22|(d)">
         <num>5092</num>
         <text>The lead-in language of section 4939(d) of the Department of Health Functions Clarification Act of 2001, effective August 23, 2025 (D.C. Law 26-27; D.C. Official Code § 7-742.22(d)), is amended by striking the figure "$140,000" and inserting the figure "$250,000" in its place.</text>
+        <codify:find-replace count="1">
+          <find>$140,000</find>
+          <replace>$250,000</replace>
+        </codify:find-replace>
       </section>
     </container>
     <container>
@@ -8314,12 +8523,13 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Grocery Access Pilot Program Extension Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§7-736.04">
         <num>5102</num>
         <text>Section 4907d of the Department of Health Functions Clarification Act of 2001, effective September 18, 2024 (D.C. Law 25-217; D.C. Official Code § 7-736.04), is amended to read as follows:</text>
         <include>
           <section>
-            <num>4907d</num>
+            <codify:replace/>
+            <num codify:value="7-736.04">4907d</num>
             <heading proof="needed">Establishment of the grocery store access pilot grant program.</heading>
             <para>
               <num>(a)</num>
@@ -8337,7 +8547,7 @@
               </para>
               <para>
                 <num>(3)</num>
-                <text>When selecting participants for the pilot program, the Department of Health shall give preference to applicants who live in "low food access areas," as that term is defined in section 4938(7), and enrolled in a public benefit program pursuant to paragraph (2) of this subsection.</text>
+                <text>When selecting participants for the pilot program, the Department of Health shall give preference to applicants who live in "low food access areas," as that term is defined in <code-cite doc="D.C. Code" path="§7-742.21|(7)">section 4938(7)</code-cite>, and enrolled in a public benefit program pursuant to paragraph (2) of this subsection.</text>
               </para>
             </para>
             <para>
@@ -8349,6 +8559,14 @@
         <aftertext>.</aftertext>
       </section>
     </container>
+    <!-- Part A created in Title 34 Index -->
+    <codify:insert doc="D.C. Code" path="34|18" after="A" history="false">
+      <container>
+        <prefix>Part</prefix>
+        <num>B</num>
+        <heading>988 Lifeline Support and Sustainability Fund.</heading>
+      </container>
+    </codify:insert>
     <container>
       <prefix>SUBTITLE</prefix>
       <num>L</num>
@@ -8365,11 +8583,12 @@
           <num>(a)</num>
           <text>Sections 602 through 608 are designated as Part A.</text>
         </para>
-        <para>
+        <para codify:path="§34-1801|(6C)">
           <num>(b)</num>
           <text>Section 602(6C) (D.C. Official Code § 34-1801(6C)) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(6C)</num>
               <text>"Provider" means a person that provides wireline, wireless, Voice over Internet Protocol, or prepaid telecommunications services to consumers within the District.</text>
             </para>
@@ -8385,6 +8604,7 @@
               <num>B</num>
               <heading/>
               <section>
+                <codify:insert path="34|18|B" num-value="34-1811" history-prefix="as added"/>
                 <num>611</num>
                 <heading proof="needed">Definitions.</heading>
                 <para>
@@ -8415,8 +8635,10 @@
                     <text>"Shared plan" means a telecommunications service plan offered by a provider that includes 2 or more access lines or mobile numbers.</text>
                   </para>
                 </para>
+                <annotation doc="D.C. Law 13-172" type="History" path="§611">Oct. 19, 2000, D.C. Law 13-172, § 611</annotation>
               </section>
               <section>
+                <codify:insert path="34|18|B" num-value="34-1812" history-prefix="as added"/>
                 <num>612</num>
                 <heading proof="needed">988 Lifeline and Crisis Services Fund.</heading>
                 <para>
@@ -8428,11 +8650,11 @@
                   <text>Revenue from the following sources shall be deposited into the 988 Fund:</text>
                   <para>
                     <num>(1)</num>
-                    <text>The 988 fee authorized by section 613; and</text>
+                    <text>The 988 fee authorized by <cite doc="D.C. Code" path="§34-1813" codify:value="34-1813">section 613</cite>; and</text>
                   </para>
                   <para>
                     <num>(2)</num>
-                    <text>The prepaid wireless 988 charge authorized under section 614.</text>
+                    <text>The prepaid wireless 988 charge authorized under <cite doc="D.C. Code" path="§34-1814" codify:value="34-1814">section 614</cite>.</text>
                   </para>
                 </para>
                 <para>
@@ -8446,7 +8668,7 @@
                     <text>Notwithstanding paragraph (1) of this subsection, in Fiscal Year 2027, $2.4 million from the 988 Fund shall be used for the following purposes; provided, that the funds are for services directly related to the 988 Lifeline:</text>
                     <para>
                       <num>(A)</num>
-                      <text>$600,000 for community-based crisis stabilization beds that provide a voluntary, trauma-informed, and non-coercive alternative to emergency psychiatric care established by section 5117d of the Department of Behavioral Health Establishment Act of 2013, passed on emergency basis on July 7, 2026 (Enrolled version of Bill 26-724);</text>
+                      <text>$600,000 for community-based crisis stabilization beds that provide a voluntary, trauma-informed, and non-coercive alternative to emergency psychiatric care established by <cite doc="D.C. Code" path="§7-1141.06d" codify:value="7-1141.06d">section 5117d of the Department of Behavioral Health Establishment Act of 2013, passed on emergency basis on July 7, 2026 (Enrolled version of Bill 26-724)</cite>;</text>
                     </para>
                     <para>
                       <num>(B)</num>
@@ -8481,11 +8703,13 @@
                   </para>
                   <para>
                     <num>(2)</num>
-                    <text>The audit shall include an itemized list of how funds were spent in the prior fiscal year, an assessment of whether expenditures from the 988 Fund comply with federal law, whether there exists adequate internal controls to prevent misuse, and a list of local exchange carriers required to collect and remit the 988 fee established under section 613.</text>
+                    <text>The audit shall include an itemized list of how funds were spent in the prior fiscal year, an assessment of whether expenditures from the 988 Fund comply with federal law, whether there exists adequate internal controls to prevent misuse, and a list of local exchange carriers required to collect and remit the 988 fee established under <cite doc="D.C. Code" path="§34-1813" codify:value="34-1813">section 613</cite>.</text>
                   </para>
                 </para>
+                <annotation doc="D.C. Law 13-172" type="History" path="§612">Oct. 19, 2000, D.C. Law 13-172, § 612</annotation>
               </section>
               <section>
+                <codify:insert path="34|18|B" num-value="34-1813" history-prefix="as added"/>
                 <num>613</num>
                 <heading proof="needed">988 fee assessments.</heading>
                 <para>
@@ -8522,8 +8746,10 @@
                   <num>(d)</num>
                   <text>The provisions of this section shall not apply to prepaid wireless telecommunications service, which shall be subject to the provisions of section 614.</text>
                 </para>
+                <annotation doc="D.C. Law 13-172" type="History" path="§613">Oct. 19, 2000, D.C. Law 13-172, § 613</annotation>
               </section>
               <section>
+                <codify:insert path="34|18|B" num-value="34-1814" history-prefix="as added"/>
                 <num>614</num>
                 <heading proof="needed">Collection and remittance of prepaid wireless 988 charge.</heading>
                 <para>
@@ -8538,7 +8764,7 @@
                   </para>
                   <para>
                     <num>(3)</num>
-                    <text>For purposes of this subsection, a retail transaction that is effected in person by a consumer at a business location of the seller shall be treated as occurring in the District if that business location is in the District and any other retail transaction shall be treated as occurring in the District if the retail transaction is a sale at retail described in D.C. Official Code § 47-2001(n)(1)(T) that is subject to tax pursuant to D.C. Official Code § 47-2002.</text>
+                    <text>For purposes of this subsection, a retail transaction that is effected in person by a consumer at a business location of the seller shall be treated as occurring in the District if that business location is in the District and any other retail transaction shall be treated as occurring in the District if the retail transaction is a sale at retail described in <code-cite doc="D.C. Code" path="§47-2001|(n)|(1)|(T)">D.C. Official Code § 47-2001(n)(1)(T)</code-cite> that is subject to tax pursuant to <code-cite doc="D.C. Code" path="§47-2002">D.C. Official Code § 47-2002</code-cite>.</text>
                   </para>
                 </para>
                 <para>
@@ -8574,18 +8800,23 @@
                 </para>
                 <para>
                   <num>(f)</num>
-                  <text>The Office of Tax and Revenue, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue rules governing the collection of, remittance of, and other administrative provisions related to the prepaid wireless 988 charge established by this section that are consistent with existing provisions governing the collection, remittance, and administration of the tax imposed by D.C. Official Code § 47-2002.</text>
+                  <text>The Office of Tax and Revenue, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue rules governing the collection of, remittance of, and other administrative provisions related to the prepaid wireless 988 charge established by this section that are consistent with existing provisions governing the collection, remittance, and administration of the tax imposed by <code-cite doc="D.C. Code" path="§47-2002">D.C. Official Code § 47-2002</code-cite>.</text>
                 </para>
+                <annotation doc="D.C. Law 13-172" type="History" path="§614">Oct. 19, 2000, D.C. Law 13-172, § 614</annotation>
               </section>
               <section>
+                <codify:insert path="34|18|B" num-value="34-1815" history-prefix="as added"/>
                 <num>615</num>
                 <heading proof="needed">Reporting.</heading>
                 <text>As part of the annual appropriations request required by section 612(e), the Mayor shall submit a report to the Council addressing whether the 988 fee should be adjusted above the change in Consumer Price Index or another generally applicable inflationary index adopted by the District and providing performance metrics for the 988 Lifeline and the District's behavioral health crisis response system, including call volume, answer rates, average time to answer, staffing levels supported by the Fund, and disposition outcomes, including resolution by phone, referral to mobile crisis services, or referral to emergency departments.</text>
+                <annotation doc="D.C. Law 13-172" type="History" path="§615">Oct. 19, 2000, D.C. Law 13-172, § 615</annotation>
               </section>
               <section>
+                <codify:insert path="34|18|B" num-value="34-1816" history-prefix="as added"/>
                 <num>616</num>
                 <heading proof="needed">Rules.</heading>
-                <text>Except as otherwise provided in section 614(f), the Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.), shall issue rules to implement the provisions of this part.</text>
+                <text>Except as otherwise provided in <code-cite doc="D.C. Code" path="§34-1814|(f)">section 614(f)</code-cite>, the Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq</em>.)</code-cite>, shall issue rules to implement the provisions of <code-cite doc="D.C. Code" path="34|18|B">this part</code-cite>.</text>
+                <annotation doc="D.C. Law 13-172" type="History" path="§616">Oct. 19, 2000, D.C. Law 13-172, § 616</annotation>
               </section>
             </container>
           </include>
@@ -8597,6 +8828,7 @@
         <text>The Department of Behavioral Health Establishment Act of 2013, effective December 24, 2013 (D.C. Law 20-61, D.C. Official Code § 7-1141.01 <em>et seq.</em>), is amended by adding new sections 5117d and 5117e to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="7|11C|I" after="§7-1141.06c" num-value="7-1141.06d" history-prefix="as added"/>
             <num>5117d</num>
             <heading proof="needed">Community-based crisis stabilization residential services.</heading>
             <para>
@@ -8622,7 +8854,7 @@
                 </para>
                 <para>
                   <num>(D)</num>
-                  <text>Operate in coordination with the Department's crisis response system, including the 988 Lifeline established under Part B of the Emergency and Non-Emergency Telephone Calling Systems Fund Act of 2000, passed on emergency basis on July 7, 2026 (Enrolled version of Bill 26-724), Comprehensive Psychiatric Emergency program, mobile crisis services, hospitals, and community-based behavioral health providers; and</text>
+                  <text>Operate in coordination with the Department's crisis response system, including the 988 Lifeline established under <code-cite doc="D.C. Code" path="34|18|B">Part B of the Emergency and Non-Emergency Telephone Calling Systems Fund Act of 2000, passed on emergency basis on July 7, 2026 (Enrolled version of Bill 26-724)</code-cite>, Comprehensive Psychiatric Emergency program, mobile crisis services, hospitals, and community-based behavioral health providers; and</text>
                 </para>
                 <para>
                   <num>(E)</num>
@@ -8646,8 +8878,10 @@
                 <text>Have at least 5 years of experience conducting behavioral health assessments, crisis intervention, stabilization planning, and referrals to ongoing behavioral health services and supports.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 20-61" type="History" path="§5117d">Dec. 24, 2013, D.C. Law 20-61, § 5117d</annotation>
           </section>
           <section>
+            <codify:insert path="7|11C|I" after="§7-1141.06d" num-value="7-1141.06e" history-prefix="as added"/>
             <num>5117e</num>
             <heading proof="needed">Children and Adolescent Mobile Psychiatric Services program.</heading>
             <para>
@@ -8729,6 +8963,7 @@
                 <text>Recommendations for improving coordination between schools, behavioral health providers, mobile crisis response teams, families, and the Department to ensure timely access to developmentally appropriate behavioral health crisis intervention services for children and youth.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 20-61" type="History" path="§5117e">Dec. 24, 2013, D.C. Law 20-61, § 5117e</annotation>
           </section>
         </include>
         <aftertext>.</aftertext>
@@ -8743,7 +8978,7 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "DC Health Care Alliance Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§7-1405">
         <num>5122</num>
         <text>Section 7 of the Health Care Privatization Amendment Act of 2001, effective July 12, 2001 (D.C. Law 14-18; D.C. Official Code § 7-1405), is amended as follows:</text>
         <para>
@@ -8751,18 +8986,24 @@
           <text>A new subsection (a-2) to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(a-1)" num-value="(a-2)"/>
               <num>(a-2)</num>
               <text>Notwithstanding subsection (a-1) of this section, between October 1, 2026, and September 30, 2027, the Mayor shall resume providing the medical services provided by the DC Healthcare Alliance program prior to October 1, 2025, to enrollees who are 21 or older, except for non-emergency medical transportation.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(b)</num>
           <text>Subsection (b) is amended by striking the phrase "subsection (a) or (a-1)" and inserting the phrase "subsections (a), (a-1), or (a-2)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>subsection (a) or (a-1)</find>
+            <replace>subsections (a), (a-1), or (a-2)</replace>
+          </codify:find-replace>
         </para>
       </section>
       <section>
+        <codify:marginalia display="DCMR"/>
         <num>5123</num>
         <text>Chapter 33 of Title 22-B of the District of Columbia Municipal Regulations (22-B DCMR § 3300 <em>et seq</em>.), is amended as follows:</text>
         <para>
@@ -8824,11 +9065,12 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Opioid Abatement Directed Funding Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§7-3221">
         <num>5132</num>
         <text>Section 5012 of the Opioid Abatement Fund Establishment Act of 2022, effective September 21, 2022 (D.C. Law 24-167; D.C. Official Code § 7-3221), is amended by adding a new subsection (b-7) to read as follows:</text>
         <include>
           <para>
+            <codify:insert after="(b-6)" num-value="(b-7)"/>
             <num>(b-7)</num>
             <text>Notwithstanding any other provision of this subtitle, in Fiscal Year 2027, a total of $796,000 from the Fund shall be used for the following purposes:</text>
             <para>
@@ -8846,6 +9088,7 @@
       <section>
         <num>5133</num>
         <heading proof="needed">In Fiscal Year 2027, the Department shall award a one-year grant in the amount of $396,000 to a District-based children's hospital operating an evidence-based adolescent substance use disorder treatment program that provides developmentally appropriate clinical care, peer recovery support, family-centered services, and community-based treatment for children, adolescents, and young adults with substance use disorders, particularly in underserved areas of the District.</heading>
+        <codify:annotation path="§7-3221" history="false" type="Editor's Notes">For the requirement that, in Fiscal Year 2027, the Department shall award a one-year grant in the amount of $396,000 to a District-based children's hospital operating an evidence-based adolescent substance use disorder treatment program, see <cite doc="D.C. Act 26-416" path="§5133">section 5133 of D.C. Act 26-416</cite>.</codify:annotation>
       </section>
     </container>
     <container>
@@ -8868,6 +9111,7 @@
               <section>
                 <num>47-2885.17b</num>
                 <heading>Discount drug card program.</heading>
+                <!-- done below -->
               </section>
             </toc>
           </include>
@@ -8878,6 +9122,7 @@
           <text>A new section 47-2885.17b is added to read as follows:</text>
           <include>
             <section>
+              <codify:insert path="47|28|IV|C" after="§47-2885.17a" num-value="47-2885.17b"/>
               <prefix>§</prefix>
               <num>47-2885.17b</num>
               <heading proof="needed">Discount drug card program.</heading>
@@ -8916,24 +9161,33 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§47-2885.18|(a)|(3)">
           <num>(c)</num>
           <text>Section 47-2885.18(a)(3) is amended as follows:</text>
-          <para>
+          <para codify:path="(J)">
             <num>(1)</num>
             <text>Subparagraph (J) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+            <codify:find-replace count="1">
+              <find>; and</find>
+              <replace>;</replace>
+            </codify:find-replace>
           </para>
-          <para>
+          <para codify:path="(K)">
             <num>(2)</num>
             <text>Subparagraph (K) is amended by striking the period and adding the phrase "; and" in its place.</text>
+            <codify:find-replace count="1">
+              <find>.</find>
+              <replace>; and</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(3)</num>
             <text>A new subparagraph (L) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert after="(K)" num-value="(L)"/>
                 <num>(L)</num>
-                <text>The establishment of regulations to implement § 47-2885.17b, including the designation of pharmacies as critical access pharmacies.</text>
+                <text>The establishment of regulations to implement <cite doc="D.C. Code" path="§47-2885.17b">§ 47-2885.17b</cite>, including the designation of pharmacies as critical access pharmacies.</text>
               </para>
             </include>
             <aftertext>.</aftertext>
@@ -8953,11 +9207,12 @@
       <section>
         <num>5152</num>
         <text>Title V of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-205.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§4-205.76|(c)">
           <num>(a)</num>
           <text>Section 576(c) (D.C. Official Code § 4-205.76(c)) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(c)</num>
               <text>POWER beneficiaries shall be eligible for supportive services made available to TANF beneficiaries to the same extent as TANF beneficiaries, without interruption due to beginning or ending POWER enrollment at the election of the beneficiary, including:</text>
               <para>
@@ -8984,12 +9239,13 @@
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="§4-205.82">
           <num>(b)</num>
           <text>Section 582 (D.C. Official Code § 4-205.82) is amended to read as follows:</text>
           <include>
             <section>
-              <num>582</num>
+              <codify:replace/>
+              <num codify:value="4-205.82">582</num>
               <heading proof="needed">Provision of information concerning Earned Income Tax Credits.</heading>
               <para>
                 <num>(a)</num>
@@ -9045,18 +9301,20 @@
       <section>
         <num>5162</num>
         <text>The Homeless Services Reform Act of 2005, effective October 22, 2005 (D.C. Law 16-35; D.C. Official Code § 4-751.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§4-753.08|(d)|(3)">
           <num>(a)</num>
           <text>Section 8f(d)(3) (D.C. Official Code § 4-753.08(d)(3)) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Designate the existing text as subparagraph (A).</text>
+            <codify:redesignate-para num-value="(A)"/>
           </para>
           <para>
             <num>(2)</num>
             <text>A new subparagraph (B) is added to read as follows:</text>
             <include lvl="2">
               <para>
+                <codify:insert after="(A)" num-value="(B)"/>
                 <num>(B)</num>
                 <text>Notwithstanding subparagraph (A) of this paragraph, in Fiscal Year 2027, the loss of rental assistance through the District of Columbia Housing Authority's Emergency Housing Voucher ("EHV") program due to lack of continued funding for the EHV program shall constitute an emergency situation.</text>
               </para>
@@ -9064,11 +9322,12 @@
             <aftertext>.</aftertext>
           </para>
         </para>
-        <para>
+        <para codify:path="§4-754.32">
           <num>(b)</num>
           <text>Section 18 (D.C. Official Code § 4-754.32) is amended by adding a new subsection (d) to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(c)" num-value="(d)"/>
               <num>(d)</num>
               <text>Notwithstanding any other provision of law, the Department may not require a provider that receives federal funding to support survivors of domestic violence to adopt program rules that require the provider or a client of the provider to engage in any action inconsistent with the terms of the provider's federal grant award or any term or condition of the federal grant's retention or renewal. In developing program rules for or with providers of services to survivors of domestic violence, the Department shall endeavor to avoid conflicts between program rules and federal law governing eligibility for domestic violence grants, including the Family Violence Prevention and Services Act, approved December 20, 2010 (124 Stat. 3484; 42 U.S.C. 10401 <em>et seq</em>.), and the Violence Against Women Act of 1994, approved January 5, 2006 (119 Stat. 2964; 34 U.S.C. § 12291 <em>et seq</em>.).</text>
             </para>
@@ -9080,6 +9339,7 @@
           <text>New sections 31f, 31g, and 31h are added to read as follows:</text>
           <include>
             <section>
+              <codify:insert path="4|7A|VI" after="§4-756.07" num-value="4-756.08" history-prefix="as added"/>
               <num>31f</num>
               <heading proof="needed">Deployment of District-funded housing vouchers in Fiscal Year 2027.</heading>
               <para>
@@ -9111,10 +9371,12 @@
               </para>
               <para>
                 <num>(c)</num>
-                <text>The Mayor, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), may issue rules to implement the provisions of this section.</text>
+                <text>The Mayor, pursuant to <code-cite doc="D.C. Code" path="2|5|I">Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>)</code-cite>, may issue rules to implement the provisions of this section.</text>
               </para>
+              <annotation doc="D.C. Law 16-35" type="History" path="§31f">Oct. 22, 2005, D.C. Law 16-35, §  31f</annotation>
             </section>
             <section>
+              <codify:insert path="4|7A|VI" after="§4-756.08" num-value="4-756.09" history-prefix="as added"/>
               <num>31g</num>
               <heading proof="needed">Bridge housing resources.</heading>
               <para>
@@ -9141,8 +9403,10 @@
                   <text>Decline to place individuals in housing units employed by the operator of the Aston for uses other than housing individuals as of May 1, 2026, if no alternative space at the Aston is available for those uses.</text>
                 </para>
               </para>
+              <annotation doc="D.C. Law 16-35" type="History" path="§31g">Oct. 22, 2005, D.C. Law 16-35, §  31g</annotation>
             </section>
             <section>
+              <codify:insert path="4|7A|VI" after="§4-756.09" num-value="4-756.10" history-prefix="as added"/>
               <num>31h</num>
               <heading proof="needed">Turnover of District-funded housing vouchers.</heading>
               <para>
@@ -9153,6 +9417,7 @@
                 <num>(b)</num>
                 <text>For the purposes of this section, an individual or family shall be considered to have permanently departed permanent supportive housing or targeted affordable housing when the individual or family has been terminated or otherwise exited from the program and there is no pending appeal or administrative review of the termination or exit.</text>
               </para>
+              <annotation doc="D.C. Law 16-35" type="History" path="§31h">Oct. 22, 2005, D.C. Law 16-35, §  31h</annotation>
             </section>
           </include>
           <aftertext>.</aftertext>
@@ -9163,7 +9428,8 @@
         <text>The District of Columbia Housing Authority Act of 1999, effective May 9, 2000 (D.C. Law 13-105; D.C. Official Code § 6-201 <em>et seq.</em>), is amended by adding a new section 26i to read as follows:</text>
         <include>
           <section>
-            <num>26i</num>
+            <codify:insert path="6|2|I" after="§6-232" num-value="6-232.01" history-prefix="as added"/>
+            <num codify:value="6-232.01">26i</num>
             <heading proof="needed">Emergency Housing Voucher Interim Assistance Program.</heading>
             <para>
               <num undesignated="true">(a)</num>
@@ -9217,11 +9483,13 @@
                 <text>The Authority, pursuant to Title I of the District of Columbia Administrative Procedure Act, approved October 21, 1968 (82 Stat. 1204; D.C. Official Code § 2-501 <em>et seq.</em>), shall promulgate rules implementing the provisions of this section.</text>
               </para>
             </para>
+            <annotation doc="D.C. Law 13-105" type="History" path="§[26h]">May 9, 2000, D.C. Law 13-105, § [26h]</annotation>
           </section>
         </include>
         <aftertext>.</aftertext>
       </section>
       <section>
+        <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>5164</num>
         <heading proof="needed">Domestic violence services continuation.</heading>
         <para>
@@ -9259,7 +9527,7 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Improving Maternal and Prenatal Access to Care and Timely Supports (IMPACTS) Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§4-205.43">
         <num>5172</num>
         <text>Section 543 of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-205.43), is amended as follows:</text>
         <para>
@@ -9269,15 +9537,20 @@
             <section>
               <num>543</num>
               <heading proof="needed">Eligibility of a pregnant person for TANF.</heading>
+              <codify:find-replace path="heading" count="1">
+                <find>Participation in labor dispute; pregnancy.</find>
+                <replace>Eligibility of a pregnant person for TANF.</replace>
+              </codify:find-replace>
             </section>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(b)</num>
           <text>Subsection (b) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(b)</num>
               <text>Beginning October 1, 2026, a pregnant person shall be eligible for TANF benefits if the pregnancy has been medically certified, the pregnancy is in the second or third trimester, and other generally applicable TANF eligibility requirements are met. The Mayor shall provide to the pregnant person written information and referrals regarding the availability of prenatal care services and nutrition supplements.</text>
             </para>
@@ -9298,15 +9571,20 @@
       <section>
         <num>5182</num>
         <text>Title V of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-205.01 <em>et seq.</em>), is amended as follows:</text>
-        <para>
+        <para codify:path="§4-205.83|(a)">
           <num>(a)</num>
           <text>Section 583(a) (D.C. Official Code § 4-205.83(a)) is amended by striking the date "October 1, 2027" and inserting the date "March 1, 2028" in its place.</text>
+          <codify:find-replace count="1">
+            <find>October 1, 2027</find>
+            <replace>March 1, 2028</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="§4-205.84|(d)">
           <num>(b)</num>
           <text>Section 584(d) D.C. Official Code § 4-205.84(d)) is amended to read as follows:</text>
           <include>
             <para>
+              <codify:replace/>
               <num>(d)</num>
               <para>
                 <num>(1)</num>
@@ -9328,6 +9606,15 @@
       <section>
         <num>5183</num>
         <text>Section 4 of the Public Benefits Security Amendment Act of 2026, effective March 24, 2026 (D.C. Law 26-104; 73 DCR 1069), is repealed.</text>
+        <codify:repeal doc="D.C. Law 26-104" path="§4"/>
+        <codify:annotation doc="D.C. Code" path="§4-201.01" type="Applicability" history="false"><cite doc="D.C. Act 26-416" path="§5183">Section 5183 of D.C. Act 26-416</cite> repealed the applicability provision of <cite doc="D.C. Law 26-104" path="§4">section 4 of D.C. Law 26-104</cite> that impacted this section. Therefore the amendment to this section by <cite doc="D.C. Law 26-104" path="§2|(a)">§2(a) of Law 26-104</cite> has been implemented.
+        </codify:annotation>
+        <codify:annotation doc="D.C. Code" path="§4-202.05" type="Applicability" history="false"><cite doc="D.C. Act 26-416" path="§5183">Section 5183 of D.C. Act 26-416</cite> repealed the applicability provision of <cite doc="D.C. Law 26-104" path="§4">section 4 of D.C. Law 26-104</cite> that impacted this section. Therefore the amendment to this section by <cite doc="D.C. Law 26-104" path="§2|(b)">§2(b) of Law 26-104</cite> has been implemented.
+        </codify:annotation>
+        <codify:annotation doc="D.C. Code" path="§4-205.83" type="Applicability" history="false"><cite doc="D.C. Act 26-416" path="§5183">Section 5183 of D.C. Act 26-416</cite> repealed the applicability provision of <cite doc="D.C. Law 26-104" path="§4">section 4 of D.C. Law 26-104</cite> that impacted this section. Therefore the creation of this section by <cite doc="D.C. Law 26-104" path="§2|(c)">§2(c) of Law 26-104</cite> has been implemented.
+        </codify:annotation>
+        <codify:annotation doc="D.C. Code" path="§4-205.84" type="Applicability" history="false"><cite doc="D.C. Act 26-416" path="§5183">Section 5183 of D.C. Act 26-416</cite> repealed the applicability provision of <cite doc="D.C. Law 26-104" path="§4">section 4 of D.C. Law 26-104</cite> that impacted this section. Therefore the creation of this section by <cite doc="D.C. Law 26-104" path="§2|(c)">§2(c) of Law 26-104</cite> has been implemented.
+        </codify:annotation>
       </section>
     </container>
     <container>
@@ -9339,20 +9626,29 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Child Support Improvement Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§4-205.19|(c)">
         <num>5192</num>
         <text>Section 519(c) of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-205.19(c)), is amended as follows:</text>
-        <para>
+        <para codify:path="(3)">
           <num>(a)</num>
           <text>Paragraph (3) is amended by striking the semicolon and inserting the phrase "; and" in its place.</text>
+          <codify:find-replace count="1">
+            <find>;</find>
+            <replace>; and</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)|(B)">
           <num>(b)</num>
           <text>Paragraph (4)(B) is amended by striking the phrase "; and" and inserting a period in its place.</text>
+          <codify:find-replace count="1">
+            <find>; and</find>
+            <replace>.</replace>
+          </codify:find-replace>
         </para>
         <para>
           <num>(c)</num>
           <text>Paragraph (5) is repealed.</text>
+          <codify:repeal path="(5)"/>
         </para>
       </section>
       <section>
@@ -9360,37 +9656,47 @@
         <text>The District of Columbia Child Support Enforcement Amendment Act of 1985, effective February 24, 1987 (D.C. Law 6-166; D.C. Official Code § 46-201 <em>et seq.</em>), is amended by adding a new section 4a to read as follows:</text>
         <include>
           <section>
+            <codify:insert path="46|2|I" after="§46-203" num-value="46-203.01" history-prefix="as added"/>
             <num>4a</num>
             <heading proof="needed">Pass-through of current support and arrears.</heading>
             <para>
               <num>(a)</num>
-              <text>Notwithstanding any other provision of law, the District shall pay to a family receiving TANF an amount equal to the first $200 of a current monthly child support payment made to the District for a family receiving TANF under an assignment of child support made pursuant to section 519(b) of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-205.19(b)).</text>
+              <text>Notwithstanding any other provision of law, the District shall pay to a family receiving TANF an amount equal to the first $200 of a current monthly child support payment made to the District for a family receiving TANF under an assignment of child support made pursuant to <code-cite doc="D.C. Code" path="§4-205.19|(b)">section 519(b) of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-205.19(b))</code-cite>.</text>
             </para>
             <para>
               <num>(b)</num>
-              <text>Beginning on July 1, 2027 and notwithstanding any other provision of law, the District shall pay to a family receiving TANF an amount equal to the first $200 of a child support payment that satisfies an obligation for accrued child support arrears made to the District under an assignment of child support made pursuant to section 519(b) of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-205.19(b)).</text>
+              <text>Beginning on July 1, 2027 and notwithstanding any other provision of law, the District shall pay to a family receiving TANF an amount equal to the first $200 of a child support payment that satisfies an obligation for accrued child support arrears made to the District under an assignment of child support made pursuant to <code-cite doc="D.C. Code" path="§4-205.19|(b)">section 519(b) of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-205.19(b))</code-cite>.</text>
             </para>
             <para>
               <num>(c)</num>
-              <text>Beginning on July 1, 2027 and notwithstanding any other provision of law, the District shall pay to a family that formerly received TANF an amount equal to the first $200 of a child support payment that satisfies an obligation for accrued child support arrears made to the District under an assignment of child support made pursuant to section 519(b) of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-205.19(b)).</text>
+              <text>Beginning on July 1, 2027 and notwithstanding any other provision of law, the District shall pay to a family that formerly received TANF an amount equal to the first $200 of a child support payment that satisfies an obligation for accrued child support arrears made to the District under an assignment of child support made pursuant to <code-cite doc="D.C. Code" path="§4-205.19|(b)">section 519(b) of the District of Columbia Public Assistance Act of 1982, effective April 6, 1982 (D.C. Law 4-101; D.C. Official Code § 4-205.19(b))</code-cite>.</text>
             </para>
+            <annotation doc="D.C. Law 6-166" type="History" path="§4a">Feb. 24, 1987, D.C. Law 6-166, § 4a</annotation>
           </section>
         </include>
         <aftertext>.</aftertext>
       </section>
-      <section>
+      <section codify:path="§15-101">
         <num>5194</num>
         <text>Section 15-101 of the District of Columbia Official Code is amended as follows:</text>
-        <para>
+        <para codify:path="(a)">
           <num>(a)</num>
           <text>Subsection (a) is amended as follows:</text>
           <para>
             <num>(1)</num>
             <text>Strike the phrase "subsection (b)" and insert the phrase "subsections (a-1) and (b)" in its place.</text>
+            <codify:find-replace count="1">
+              <find>subsection (b)</find>
+              <replace>subsections (a-1) and (b)</replace>
+            </codify:find-replace>
           </para>
           <para>
             <num>(2)</num>
             <text>Strike the word "twelve" and insert the number "12" in its place.</text>
+            <codify:find-replace count="1">
+              <find>twelve</find>
+              <replace>12</replace>
+            </codify:find-replace>
           </para>
         </para>
         <para>
@@ -9398,15 +9704,20 @@
           <text>A new subsection (a-1) is added to read as follows:</text>
           <include>
             <para>
+              <codify:insert after="(a)" num-value="(a-1)"/>
               <num>(a-1)</num>
-              <text>For support orders entered in cases filed 120 days after the effective date of the Child Support Improvement Emergency Amendment Act of 2026, passed on emergency basis on July 7, 2026 (Enrolled version of Bill 26-724), the 12-year period of limitation on the enforceability of a final judgment or final decree for the payment of money provided by subsection (a) of this section shall not apply to judgments or decrees for past-due child support. Child support judgments entered pursuant to these support orders shall be enforceable for a period of 5 years after the date of the emancipation of the youngest child subject to the support order. The time during which the judgment creditor is stayed from enforcing the judgment as provided in subsection (a) of this section shall not be computed as a part of the period within which the judgment is enforceable by execution.</text>
+              <text>For support orders entered in cases filed 120 days after <span codify:value="[December 11, 2026]">the effective date of the Child Support Improvement Emergency Amendment Act of 2026, passed on emergency basis on July 7, 2026 (Enrolled version of Bill 26-724)</span>, the 12-year period of limitation on the enforceability of a final judgment or final decree for the payment of money provided by subsection (a) of this section shall not apply to judgments or decrees for past-due child support. Child support judgments entered pursuant to these support orders shall be enforceable for a period of 5 years after the date of the emancipation of the youngest child subject to the support order. The time during which the judgment creditor is stayed from enforcing the judgment as provided in subsection (a) of this section shall not be computed as a part of the period within which the judgment is enforceable by execution.</text>
             </para>
           </include>
           <aftertext>.</aftertext>
         </para>
-        <para>
+        <para codify:path="(b)">
           <num>(c)</num>
           <text>Subsection (b) is amended by striking the phrase "the twelve-year period provided by subsection (a)" and inserting the phrase "the periods provided by subsections (a) and (a-1)" in its place.</text>
+          <codify:find-replace count="1">
+            <find>the twelve-year period provided by subsection (a)</find>
+            <replace>the periods provided by subsections (a) and (a-1)</replace>
+          </codify:find-replace>
         </para>
       </section>
     </container>
@@ -9434,6 +9745,7 @@
             <text>An entity that has been determined by the Health Resources and Services Administration of the United States Department of Health and Human Services to meet the definition of a FQHC, but does not receive FQHC program funding.</text>
           </para>
         </para>
+        <codify:annotation path="§7-771.07a" history="false" type="Editor's Notes">For the requirement that, in Fiscal Year 2027, by October 31, 2026, the Department of Healthcare Finance ("DHCF") shall award grants totaling $800,000 to at least 2 entities that have a patient population that is at least 20% uninsured, among other requirements, see <cite doc="D.C. Act 26-416" path="§5202">section 5202 of D.C. Act 26-416</cite>.</codify:annotation>
       </section>
     </container>
     <container>
@@ -9445,11 +9757,12 @@
         <heading proof="needed">Short title.</heading>
         <text>This subtitle may be cited as the "Health Benefit Conforming Emergency Amendment Act of 2026".</text>
       </section>
-      <section>
+      <section codify:path="§31-3834.06|(b)">
         <num>5212</num>
         <text>Section 5f(b) of the Women's Health and Cancer Rights Federal Law Conformity Act of 2000, effective September 6, 2023 (D.C. Law 25-49; D.C. Official Code § 31-3834.06(b)), is amended by adding a new paragraph (3) to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="(2)" num-value="(3)"/>
             <num>(3)</num>
             <text>This subsection shall not apply if the defrayal of the costs of the benefits described in this subsection by the District of Columbia is required for plan years starting on or after January 1, 2028.</text>
           </para>
@@ -9467,6 +9780,7 @@
         <text>This subtitle may be cited as the "Ronald McDonald House Support Grant Emergency Act of 2026".</text>
       </section>
       <section>
+        <codify:marginalia display="Not Codified in the D.C. Code"/>
         <num>5222</num>
         <text>Notwithstanding the Grant Administration Act of 2013, effective December 24, 2013 (D.C. Law 20-61; D.C. Official Code § 1-328.11 <em>et seq.</em>), in Fiscal Year 2027, the Department of Health shall issue a grant of $100,000 to the Ronald McDonald House Charities of Greater Washington, DC, Inc. for the Build for Love Impact Fund, which supports a range of services, including accommodations for families being treated at District of Columbia hospitals.</text>
       </section>
