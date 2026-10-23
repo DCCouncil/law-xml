@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-419">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-419" codify:doc="D.C. Code">
   <num type="bill">26-778</num>
   <num type="act">26-419</num>
   <heading type="short">Ballpark Bonds Loan Repayment Emergency Amendment Act of 2026</heading>
@@ -21,16 +21,17 @@
   <text>BE IT ENACTED BY THE COUNCIL OF THE DISTRICT OF COLUMBIA, That this act may be cited as the "Ballpark Bonds Loan Repayment Emergency Amendment Act of 2026".</text>
   <section>
     <num>2</num>
-    <para>
+    <para codify:path="§10-1601.02a">
       <num>(a)</num>
       <text>Section 102a of the Ballpark Omnibus Financing and Revenue Act of 2004, effective March 7, 2025 (D.C. Law 25-276; D.C. Official Code § 10-1601.02a), is amended by adding a new subsection (c-1) to read as follows:</text>
       <include>
         <para>
+          <codify:insert after="(c)" num-value="(c-1)"/>
           <num>(c-1)</num>
-          <text>Notwithstanding subsections (a), (b), and (c) of this section, in Fiscal Year 2027, pursuant to D.C. Official Code § 47-2762(d), the revenues received by the District from the sports facilities fee imposed by D.C. Official Code § 47-2762 shall be deposited in the Fund and shall be used as follows:</text>
+          <text>Notwithstanding subsections (a), (b), and (c) of this section, in Fiscal Year 2027, pursuant to <code-cite doc="D.C. Code" path="§47-2762|(d)">D.C. Official Code § 47-2762(d)</code-cite>, the revenues received by the District from the sports facilities fee imposed by <code-cite doc="D.C. Code" path="§47-2762">D.C. Official Code § 47-2762</code-cite> shall be deposited in the Fund and shall be used as follows:</text>
           <para>
             <num>(1)</num>
-            <text>All amounts up to $49,505,000 shall be used to pay the debt service on any ballpark early redemption borrowing and, as described in section 2052(c)(1) and (2) of the RFK Campus Infrastructure Fund Establishment Act of 2025, effective December 6, 2025 (D.C. Law 26-55; D.C. Official Code § 10-1605.31(c)(1) and (2)), to pay debt service on the bonds for the RFK infrastructure financing and to fund any reserves required under the indenture for the RFK infrastructure financing.</text>
+            <text>All amounts up to $49,505,000 shall be used to pay the debt service on any ballpark early redemption borrowing and, as described in <code-cite doc="D.C. Code" path="§10-1605.31|(c)|(1)">section 2052(c)(1)</code-cite> and <code-cite doc="D.C. Code" path="§10-1605.31|(c)|(2)" codify:value="(2)">(2) of the RFK Campus Infrastructure Fund Establishment Act of 2025, effective December 6, 2025 (D.C. Law 26-55; D.C. Official Code § 10-1605.31(c)(1) and (2))</code-cite>, to pay debt service on the bonds for the RFK infrastructure financing and to fund any reserves required under the indenture for the RFK infrastructure financing.</text>
           </para>
           <para>
             <num>(2)</num>
@@ -39,34 +40,67 @@
         </para>
       </include>
       <aftertext>.</aftertext>
+      <codify:emergency doc="D.C. Code" path="§10-1601.02a"/>
+      <codify:insert doc="D.C. Code" path="§10-1601.02a" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on January 6, 2027. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§10-1601.02a(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§10-1605.11|(a)|(2)">
       <num>(b)</num>
       <text>Section 12(a)(2) of the Robert F. Kennedy Campus Redevelopment Amendment Act of 2025, effective November 21, 2025 (D.C. Law 26-54; D.C. Official Code § 10-1605.11(a)(2)), is amended by striking the phrase "RFK Campus Infrastructure Fund" and inserting the phrase "RFK Campus Infrastructure Fund and, in Fiscal Year 2027, revenue from the sports facilities fee deposited in the Ballpark Preservation and Improvement Fund pursuant to D.C. Official Code § 47-2762(d)(1)" in its place.</text>
+      <codify:find-replace count="1">
+        <find>RFK Campus Infrastructure Fund</find>
+        <replace>RFK Campus Infrastructure Fund and, in Fiscal Year 2027, revenue from the sports facilities fee deposited in the Ballpark Preservation and Improvement Fund pursuant to <code-cite doc="D.C. Code" path="§47-2762|(d)|(1)">D.C. Official Code § 47-2762(d)(1)</code-cite></replace>
+      </codify:find-replace>
+      <codify:emergency doc="D.C. Code" path="§10-1605.11"/>
+      <codify:insert doc="D.C. Code" path="§10-1605.11" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on January 6, 2027. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§10-1605.11(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
-    <para>
+    <para codify:path="§10-1605.31|(d)|(1)|(A)">
       <num>(c)</num>
       <text>The lead-in language of section 2052(d)(1)(A) of the RFK Campus Infrastructure Fund Establishment Act of 2025, effective December 6, 2025 (D.C. Law 26-55; D.C. Official Code § 10-1605.31(d)(1)(A)), is amended by striking the phrase "In Fiscal Years 2026 and 2027" and inserting the phrase "In Fiscal Year 2026" in its place.</text>
+      <codify:find-replace count="1">
+        <find>In Fiscal Years 2026 and 2027</find>
+        <replace>In Fiscal Year 2026</replace>
+      </codify:find-replace>
+      <codify:emergency doc="D.C. Code" path="§10-1605.31"/>
+      <codify:insert doc="D.C. Code" path="§10-1605.31" before="heading" history="false" display-template="">
+        <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on January 6, 2027. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§10-1605.31(Perm)">Permanent Version</cite>.*
+      </text>
+      </codify:insert>
     </para>
   </section>
-  <section>
+  <section codify:path="§47-2762|(d)">
     <num>3</num>
     <text>Section 47-2762(d) of the District of Columbia Official Code is amended to read as follows:</text>
     <include>
       <para>
+        <codify:replace/>
         <num>(d)</num>
-        <text>The revenues received by the District from the sports facilities fee imposed by this section shall be deposited into the Ballpark Revenue Fund; except, that after all principal and interest on the bonds issued pursuant to § 10-1601.03 has been paid:</text>
+        <text>The revenues received by the District from the sports facilities fee imposed by this section shall be deposited into the Ballpark Revenue Fund; except, that after all principal and interest on the bonds issued pursuant to <cite doc="D.C. Code" path="§10-1601.03">§ 10-1601.03</cite> has been paid:</text>
         <para>
           <num>(1)</num>
-          <text>In Fiscal Year 2027, the revenues shall be deposited in the Ballpark Preservation and Improvement Fund, established pursuant to § 10-1601.02a; and</text>
+          <text>In Fiscal Year 2027, the revenues shall be deposited in the Ballpark Preservation and Improvement Fund, established pursuant to <cite doc="D.C. Code" path="§10-1601.02a">§ 10-1601.02a</cite>; and</text>
         </para>
         <para>
           <num>(2)</num>
-          <text>In all subsequent fiscal years, the revenues shall be deposited in the RFK Campus Infrastructure Fund established by § 10-1605.31.</text>
+          <text>In all subsequent fiscal years, the revenues shall be deposited in the RFK Campus Infrastructure Fund established by <cite doc="D.C. Code" path="§10-1605.31">§ 10-1605.31</cite>.</text>
         </para>
       </para>
     </include>
     <aftertext>.</aftertext>
+    <codify:emergency doc="D.C. Code" path="§47-2762"/>
+    <codify:insert doc="D.C. Code" path="§47-2762" before="heading" history="false" display-template="">
+      <text>
+      *NOTE: This section includes amendments by emergency legislation that will expire on January 6, 2027. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§47-2762(Perm)">Permanent Version</cite>.*
+      </text>
+    </codify:insert>
   </section>
   <section>
     <num>4</num>

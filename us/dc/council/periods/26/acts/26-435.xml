@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-435">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Act 26-435" codify:doc="D.C. Code">
   <num type="act">26-435</num>
   <num type="bill">26-782</num>
   <heading type="short">Broadband Price Transparency Regulation Emergency Amendment Act of 2026</heading>
@@ -35,6 +35,7 @@
             <num>28-3904a</num>
             <heading>Special price information standard for broadband services complying with federal rules.</heading>
           </section>
+          <!-- done below -->
         </toc>
       </include>
       <aftertext>.</aftertext>
@@ -44,10 +45,17 @@
       <text>A new section 28-3904a is added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="28|39" after="§28-3904" num-value="28-3904a"/>
           <prefix>§</prefix>
           <num>28-3904a</num>
           <heading proof="needed">Special price information standard for broadband services complying with federal rules.</heading>
-          <text>A merchant providing broadband internet access who complies with the broadband consumer label requirements of 47 C.F.R. § 8.1 as those requirements existed on January 1, 2026, shall be deemed compliant with the requirements of § 28-3904(a)(12).</text>
+          <text>A merchant providing broadband internet access who complies with the broadband consumer label requirements of 47 C.F.R. § 8.1 as those requirements existed on January 1, 2026, shall be deemed compliant with the requirements of <cite doc="D.C. Code" path="§28-3904|(a)|(12)">§ 28-3904(a)(12)</cite>.</text>
+          <codify:emergency-new-sec doc="D.C. Code" path="§28-3904a" interim-path="§28-3904" perm-eff="2026-10-20"/>
+          <codify:insert doc="D.C. Code" path="§28-3904a" before="heading" history="false" display-template="">
+            <text>
+      *NOTE: This section was created by emergency legislation that will expire on January 18, 2027.*
+      </text>
+          </codify:insert>
         </section>
       </include>
       <aftertext>.</aftertext>
