@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-188">
+<document xmlns="https://code.dccouncil.us/schemas/dc-library" xmlns:cache="https://code.dccouncil.us/schemas/cache" xmlns:codified="https://code.dccouncil.us/schemas/codified" xmlns:codify="https://code.dccouncil.us/schemas/codify" xmlns:citations="https://code.dccouncil.us/schemas/citations" xmlns:macro="https://code.dccouncil.us/schemas/macro" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" id="D.C. Law 26-188" codify:doc="D.C. Code">
   <num type="law">26-188</num>
   <num type="act">26-368</num>
   <num type="bill">26-526</num>
@@ -25,30 +25,47 @@
   <section>
     <num>2</num>
     <text>An Act To create a Department of Corrections in the District of Columbia, approved June 27, 1946 (60 Stat. 320; D.C. Official Code § 24-211.01 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§24-211.02|(b)">
       <num>(a)</num>
       <text>Section 2(b) (D.C. Official Code § 24-211.02(b)) is amended as follows:</text>
-      <para>
+      <para codify:path="(9)">
         <num>(1)</num>
         <text>Paragraph (9) is amended by striking the phrase "; and" and inserting a semicolon in its place.</text>
+        <codify:find-replace position="last">
+          <find>;</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(10)">
         <num>(2)</num>
         <text>The first paragraph (10) is amended by striking the period and inserting a semicolon in its place.</text>
+        <codify:find-replace position="last">
+          <find>[; and]</find>
+          <replace>;</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="[(11)]">
         <num>(3)</num>
         <text>The second paragraph (10) is redesignated as paragraph (11).</text>
+        <codify:find-replace count="1">
+          <find>[(11)]</find>
+          <replace>(11)</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(11)">
         <num>(4)</num>
         <text>Paragraph (11) is amended by striking the period and inserting the phrase "; and" in its place.</text>
+        <codify:find-replace count="1">
+          <find>.</find>
+          <replace>; and</replace>
+        </codify:find-replace>
       </para>
       <para>
         <num>(5)</num>
         <text>A new paragraph (12) is added to read as follows:</text>
         <include lvl="1">
           <para>
+            <codify:insert after="[(11)]" num-value="(12)"/>
             <num>(12)</num>
             <text>During each school year:</text>
             <para>
@@ -63,12 +80,14 @@
         </include>
         <aftertext>.</aftertext>
       </para>
+      <codify:not-funded-anno doc="D.C. Code" path="§24-211.02" applicability-path="§10" action="amendment to" display-template=""/>
     </para>
     <para>
       <num>(b)</num>
       <text>New sections 11a, 11b, and 11c are added to read as follows:</text>
       <include>
         <section>
+          <codify:insert path="24|2|II|A" after="§24-211.11" num-value="24-211.12" history-prefix="as added"/>
           <num>11a</num>
           <heading proof="needed">Education services.</heading>
           <para>
@@ -99,8 +118,11 @@
               <text>Be able to implement every student's individualized education program.</text>
             </para>
           </para>
+          <annotation type="History" doc="Stat. 79-2-ch507" path="§11a">June 27, 1946, 60 Stat. 320, ch. 507, § 11a</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§24-211.12" applicability-path="§10" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="24|2|II|A" after="§24-211.12" num-value="24-211.13" history-prefix="as added"/>
           <num>11b</num>
           <heading proof="needed">Grievance and service request tracking system.</heading>
           <para>
@@ -182,32 +204,38 @@
             <num>(c)</num>
             <text>Within 30 days after the launch of the tracking system pursuant to subsection (b)(1) of this section, the Department shall input into the tracking system all service requests, grievances, and complaints received by the Department in the preceding 6 months that are open.</text>
           </para>
+          <annotation type="History" doc="Stat. 79-2-ch507" path="§11b">June 27, 1946, 60 Stat. 320, ch. 507, § 11b</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§24-211.13" applicability-path="§10" action="creation of" display-template=""/>
         </section>
         <section>
+          <codify:insert path="24|2|II|A" after="§24-211.13" num-value="24-211.14" history-prefix="as added"/>
           <num>11c</num>
           <heading proof="needed">Definitions.</heading>
           <para>
             <num undesignated="true">(a)</num>
-            <text>For the purposes of this act, the term:</text>
+            <text>For the purposes of <code-cite doc="D.C. Code" path="24|2|II|A">this act</code-cite>, the term:</text>
             <para>
               <num>(1)</num>
-              <text>"Free appropriate public education" shall have the same meaning as provided in section 101(3) of the Placement of Students with Disabilities in Nonpublic Schools Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-269; D.C. Official Code § 38-2561.01(3)).</text>
+              <text>"Free appropriate public education" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§38-2561.01|(3)">section 101(3) of the Placement of Students with Disabilities in Nonpublic Schools Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-269; D.C. Official Code § 38-2561.01(3))</code-cite>.</text>
             </para>
             <para>
               <num>(2)</num>
-              <text>"IDEA" shall have the same meaning as provided in section 101(4) of the Placement of Students with Disabilities in Nonpublic Schools Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-269; D.C. Official Code § 38-2561.01(4)).</text>
+              <text>"IDEA" shall have the same meaning as provided in <code-cite doc="D.C. Code" path="§38-2561.01|(4)">section 101(4) of the Placement of Students with Disabilities in Nonpublic Schools Amendment Act of 2006, effective March 14, 2007 (D.C. Law 16-269; D.C. Official Code § 38-2561.01(4))</code-cite>.</text>
             </para>
             <para>
               <num>(3)</num>
               <text>"Individualized education program" means a written plan that specifies the special education programs and services to be provided to meet the unique educational needs of a child with a disability, as required under section 614(d) of the IDEA (20 U.S.C. § 1414(d)).</text>
             </para>
           </para>
+          <annotation type="History" doc="Stat. 79-2-ch507" path="§11c">June 27, 1946, 60 Stat. 320, ch. 507, § 11c</annotation>
+          <codify:not-funded-anno doc="D.C. Code" path="§24-211.14" applicability-path="§10" action="creation of" display-template=""/>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
   </section>
   <section>
+    <codify:marginalia display="DCMR"/>
     <num>3</num>
     <text>Section 3001 of Subtitle A of Title 5 of the District of Columbia Municipal Regulations (5-A DCMR § 3001), is amended as follows:</text>
     <para>
@@ -222,78 +250,104 @@
   <section>
     <num>4</num>
     <text>Chapter 3 of Title 14 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="§14-310|(b)|(4)">
       <num>(a)</num>
       <text>Section 14-310(b)(4) is amended as follows:</text>
-      <para>
+      <para codify:path="(B)">
         <num>(1)</num>
         <text>Subparagraph (B) is amended by striking the phrase "whom the victim has" and inserting the phrase "whom a victim under 18 years of age has" in its place.</text>
+        <codify:find-replace count="1">
+          <find>whom the victim has</find>
+          <replace>whom a victim under 18 years of age has</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(C)">
         <num>(2)</num>
         <text>Subparagraph (C) is amended by striking the phrase "the victim" and inserting the phrase "a victim who is under 18 years of age" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the victim</find>
+          <replace>a victim who is under 18 years of age</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§14-311|(b)|(4)">
       <num>(b)</num>
       <text>Section 14-311(b)(4) is amended as follows:</text>
-      <para>
+      <para codify:path="(B)">
         <num>(1)</num>
         <text>Subparagraph (B) is amended by striking the phrase "with whom the victim has" and inserting the phrase "with whom a victim under 18 years of age has" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the victim</find>
+          <replace>a victim who is under 18 years of age</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(C)">
         <num>(2)</num>
         <text>Subparagraph (C) is amended by striking the phrase "the victim" and inserting the phrase "a victim who is under 18 years of age" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the victim</find>
+          <replace>a victim who is under 18 years of age</replace>
+        </codify:find-replace>
       </para>
     </para>
-    <para>
+    <para codify:path="§14-312|(b)|(5)">
       <num>(c)</num>
       <text>Section 14-312(b)(5) is amended as follows:</text>
-      <para>
+      <para codify:path="(B)">
         <num>(1)</num>
         <text>Subparagraph (B) is amended by striking the phrase "with whom the sexual assault victim has" and inserting the phrase "with whom a sexual assault victim under 18 years of age has" in its place.</text>
+        <codify:find-replace count="1">
+          <find>with whom the sexual assault victim has</find>
+          <replace>with whom a sexual assault victim under 18 years of age has</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(C)">
         <num>(2)</num>
         <text>Subparagraph (C) is amended by striking the phrase "the sexual assault victim" and inserting the phrase "a sexual assault victim who is under 18 years of age" in its place.</text>
+        <codify:find-replace count="1">
+          <find>the sexual assault victim</find>
+          <replace>a sexual assault victim who is under 18 years of age</replace>
+        </codify:find-replace>
       </para>
     </para>
   </section>
   <section>
     <num>5</num>
     <text>Title 20 of the District of Columbia Official Code is amended as follows:</text>
-    <para>
+    <para codify:path="§20-311">
       <num>(a)</num>
       <text>Section 20-311 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>20-311</num>
           <heading proof="needed">Nature of proceeding.</heading>
           <para>
             <num>(a)</num>
-            <text>An abbreviated probate proceeding is a proceeding for probate of a will or a determination of a decedent's intestacy and for the appointment of a personal representative. This proceeding is instituted when an interested person files a petition for an abbreviated probate proceeding with the Court in accordance with the provisions of § 20-304. This proceeding may be conducted without the prior notice required for formal probate under § 20-323.</text>
+            <text>An abbreviated probate proceeding is a proceeding for probate of a will or a determination of a decedent's intestacy and for the appointment of a personal representative. This proceeding is instituted when an interested person files a petition for an abbreviated probate proceeding with the Court in accordance with the provisions of <cite doc="D.C. Code" path="§20-304">§ 20-304</cite>. This proceeding may be conducted without the prior notice required for formal probate under <cite doc="D.C. Code" path="§20-323">§ 20-323</cite>.</text>
           </para>
           <para>
             <num>(b)</num>
-            <text>The finality of abbreviated probate shall be governed by § 20-331.</text>
+            <text>The finality of abbreviated probate shall be governed by <cite doc="D.C. Code" path="§20-331">§ 20-331</cite>.</text>
           </para>
         </section>
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§20-312">
       <num>(b)</num>
       <text>Section 20-312 is amended to read as follows:</text>
       <include>
         <section>
+          <codify:replace/>
           <prefix>§</prefix>
           <num>20-312</num>
           <heading proof="needed">Action on petition.</heading>
           <para>
             <num>(a)</num>
             <heading proof="needed">General. —</heading>
-            <text>Upon a request for abbreviated probate filed in accordance § 20-304, the Court or the Register of Wills shall appoint one or more personal representatives, except as provided in § 20-322. The appointment of a personal representative shall constitute an Order for unsupervised administration, unless the Order specifically provides for supervised administration as provided in § 20-402. In no event, however, shall the appointment of a personal representative be delayed pending the Court's decision with regard to whether the administration will be supervised or unsupervised.</text>
+            <text>Upon a request for abbreviated probate filed in accordance <cite doc="D.C. Code" path="§20-304">§ 20-304</cite>, the Court or the Register of Wills shall appoint one or more personal representatives, except as provided in <cite doc="D.C. Code" path="§20-322">§ 20-322</cite>. The appointment of a personal representative shall constitute an Order for unsupervised administration, unless the Order specifically provides for supervised administration as provided in <cite doc="D.C. Code" path="§20-402">§ 20-402</cite>. In no event, however, shall the appointment of a personal representative be delayed pending the Court's decision with regard to whether the administration will be supervised or unsupervised.</text>
           </para>
           <para>
             <num>(b)</num>
@@ -317,24 +371,38 @@
       </include>
       <aftertext>.</aftertext>
     </para>
-    <para>
+    <para codify:path="§20-323|(a)">
       <num>(c)</num>
       <text>Section 20-323(a) is amended by striking the phrase "legal periodical of general circulation in the District" and inserting the phrase "legal periodical or newspaper of general circulation in the District" in its place.</text>
+      <codify:find-replace count="1">
+        <find>legal periodical of general circulation in the District</find>
+        <replace>legal periodical or newspaper of general circulation in the District</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-343|(a)">
       <num>(d)</num>
       <text>Section 20-343(a) is amended by striking the phrase "legal periodical of general circulation in the District" and inserting the phrase "legal periodical or newspaper of general circulation in the District" in its place.</text>
+      <codify:find-replace count="1">
+        <find>legal periodical of general circulation in the District</find>
+        <replace>legal periodical or newspaper of general circulation in the District</replace>
+      </codify:find-replace>
     </para>
-    <para>
+    <para codify:path="§20-361|(a)|(4)">
       <num>(e)</num>
       <text>Section 20-361(a)(4) is repealed.</text>
+      <codify:repeal/>
     </para>
-    <para>
+    <para codify:path="§20-704|(a)">
       <num>(f)</num>
       <text>Section 20-704(a) is amended by striking the phrase "legal periodical of general circulation in the District" and inserting the phrase "legal periodical or newspaper of general circulation in the District" in its place.</text>
+      <codify:find-replace count="1">
+        <find>legal periodical of general circulation in the District</find>
+        <replace>legal periodical or newspaper of general circulation in the District</replace>
+      </codify:find-replace>
     </para>
   </section>
   <section>
+    <codify:marginalia display="Not Codified in the D.C. Code"/>
     <num>6</num>
     <text>Section 7 of the Strengthening Probate Administration Amendment Act of 2024, effective March 21, 2025 (D.C. Law 25-302; 72 DCR 780), is amended by adding a new subsection (d) to read as follows:</text>
     <include>
@@ -345,85 +413,141 @@
     </include>
     <aftertext>.</aftertext>
   </section>
-  <section>
+  <section codify:path="§1-319.02">
     <num>7</num>
     <text>Section 3 of the Volunteers Services Act of 1977, effective June 28, 1977 (D.C. Law 2-12; D.C. Official Code § 1-319.02), is amended by striking the phrase "District of Columbia Board of Education" and inserting the phrase "Office of the State Superintendent of Education, Attorney General for the District of Columbia," in its place.</text>
+    <codify:find-replace count="1">
+      <find>District of Columbia Board of Education</find>
+      <replace>Office of the State Superintendent of Education, Attorney General for the District of Columbia,</replace>
+    </codify:find-replace>
   </section>
   <section>
     <num>8</num>
     <text>The Criminal Justice Coordinating Council for the District of Columbia Establishment Act of 2001, effective October 3, 2001 (D.C. Law 14-28; D.C. Official Code § 22-4231 <em>et seq.</em>), is amended as follows:</text>
-    <para>
+    <para codify:path="§22-4234">
       <num>(a)</num>
       <text>Section 1505 (D.C. Official Code § 22-4234) is amended as follows:</text>
-      <para>
+      <para codify:path="(b-9)">
         <num>(1)</num>
         <text>Subsection (b-9) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "no later than 180 days after the applicability date of section 30(f), (g), and (h) of the Secure DC Omnibus Amendment Act of 2024, passed on 2nd reading on March 5, 2024 (Enrolled version of Bill 24-345) ("Secure DC Omnibus")" and inserting the phrase "no later than September 30, 2026" in its place.</text>
+          <!-- already done in a previous law -->
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "and after the effective date of the Secure DC Omnibus" and inserting the phrase ", after the effective date of the Prioritizing Public Safety Emergency, and after the effective date of the Secure DC Omnibus" in its place.</text>
+          <codify:find-replace count="1">
+            <find> and after June 8, 2024,</find>
+            <replace>, after <span codify:value="July 20, 2023">the effective date of the Prioritizing Public Safety Emergency</span>, and after <span codify:value="June 8, 2024">the effective date of the Secure DC Omnibus</span>,</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(C)</num>
           <text>Paragraph (3) is amended by striking the phrase "and after the effective date of the Secure DC Omnibus" and inserting the phrase ", after the effective date of the Prioritizing Public Safety Emergency, and after the effective date of the Secure DC Omnibus" in its place.</text>
+          <codify:find-replace count="1">
+            <find> and after June 8, 2024,</find>
+            <replace>, after <span codify:value="July 20, 2023">the effective date of the Prioritizing Public Safety Emergency</span>, and after <span codify:value="June 8, 2024">the effective date of the Secure DC Omnibus,</span></replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(D)</num>
           <text>Paragraph (4) is amended by striking the phrase "and after the effective date of the Secure DC Omnibus" and inserting the phrase ", after the effective date of the Prioritizing Public Safety Emergency, and after the effective date of the Secure DC Omnibus" in its place.</text>
+          <codify:find-replace count="1">
+            <find> and after June 8, 2024,</find>
+            <replace>, after <span codify:value="July 20, 2023">the effective date of the Prioritizing Public Safety Emergency</span>, and after <span codify:value="June 8, 2024">the effective date of the Secure DC Omnibus</span>,</replace>
+          </codify:find-replace>
         </para>
       </para>
-      <para>
+      <para codify:path="(b-10)">
         <num>(2)</num>
         <text>Subsection (b-10) is amended as follows:</text>
         <para>
           <num>(A)</num>
           <text>The lead-in language is amended by striking the phrase "for juveniles" and inserting the phrase "for juveniles, no later than September 30, 2026" in its place.</text>
+          <codify:find-replace position="1">
+            <find>for juveniles</find>
+            <replace>for juveniles,</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(2)">
           <num>(B)</num>
           <text>Paragraph (2) is amended by striking the phrase "and after the applicability date of section 28 of the Secure DC Omnibus" and inserting the phrase "after the effective date of the Prioritizing Public Safety Emergency, and after the effective date of the Secure DC Omnibus" in its place.</text>
+          <codify:find-replace count="1">
+            <find>and after [when applicable]</find>
+            <replace>after <span codify:value="July 20, 2023">the effective date of the Prioritizing Public Safety Emergency</span>, and after <span codify:value="June 8, 2024">the effective date of the Secure DC Omnibus</span>,</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(3)">
           <num>(C)</num>
           <text>Paragraph (3) is amended by striking the phrase "and after the applicability date of section 28 of the Secure DC Omnibus" and inserting the phrase "after the effective date of the Prioritizing Public Safety Emergency, and after the effective date of the Secure DC Omnibus" in its place.</text>
+          <codify:find-replace count="1">
+            <find>and after [when applicable]</find>
+            <replace>after <span codify:value="July 20, 2023">the effective date of the Prioritizing Public Safety Emergency</span>, and after <span codify:value="June 8, 2024">the effective date of the Secure DC Omnibus</span>,</replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(4)">
           <num>(D)</num>
           <text>Paragraph (4) is amended by striking the phrase "and after the applicability date of section 28 of the Secure DC Omnibus" and inserting the phrase ", after the effective date of the Prioritizing Public Safety Emergency, and after the effective date of the Secure DC Omnibus" in its place.</text>
+          <codify:find-replace count="1">
+            <find> and after [when applicable]</find>
+            <replace>, after <span codify:value="July 20, 2023">the effective date of the Prioritizing Public Safety Emergency</span>, and after <span codify:value="June 8, 2024">the effective date of the Secure DC Omnibus</span></replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(5)">
           <num>(E)</num>
           <text>Paragraph (5) is amended by striking the phrase "and after the applicability date of section 28 of the Secure DC Omnibus" and inserting the phrase ", after the effective date of the Prioritizing Public Safety Emergency, and after the effective date of the Secure DC Omnibus" in its place.</text>
+          <codify:find-replace count="1">
+            <find> and after [when applicable]</find>
+            <replace>, after <span codify:value="July 20, 2023">the effective date of the Prioritizing Public Safety Emergency</span>, and after <span codify:value="June 8, 2024">the effective date of the Secure DC Omnibus</span></replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(6)">
           <num>(F)</num>
           <text>Paragraph (6) is amended by striking the phrase "and after the applicability date of section 28 of the Secure DC Omnibus" and inserting the phrase ", after the effective date of the Prioritizing Public Safety Emergency, and after the effective date of the Secure DC Omnibus" in its place.</text>
+          <codify:find-replace count="1">
+            <find> and after [when applicable]</find>
+            <replace>, after <span codify:value="July 20, 2023">the effective date of the Prioritizing Public Safety Emergency</span>, and after <span codify:value="June 8, 2024">the effective date of the Secure DC Omnibus</span></replace>
+          </codify:find-replace>
         </para>
-        <para>
+        <para codify:path="(7)">
           <num>(G)</num>
           <text>Paragraph (7) is amended by striking the phrase "and after the applicability date of section 28 of the Secure DC Omnibus" and inserting the phrase ", after the effective date of the Prioritizing Public Safety Emergency, and after the effective date of the Secure DC Omnibus" in its place.</text>
+          <codify:find-replace count="1">
+            <find> and after [when applicable]</find>
+            <replace>, after <span codify:value="July 20, 2023">the effective date of the Prioritizing Public Safety Emergency</span>, and after <span codify:value="June 8, 2024">the effective date of the Secure DC Omnibus</span></replace>
+          </codify:find-replace>
         </para>
       </para>
     </para>
-    <para>
+    <para codify:path="§22-4237">
       <num>(b)</num>
       <text>Section 1507 (D.C. Official Code § 22-4237) is amended as follows:</text>
-      <para>
+      <para codify:path="(g)">
         <num>(1)</num>
         <text>Subsection (g) is amended by striking the phrase "Within 3 months after the applicability date of section 29 of the Secure DC Omnibus Amendment Act of 2024, passed on 2nd reading on March 5, 2024 (Enrolled version of Bill 25-345)," and inserting the phrase "No later than June 2025," in its place.</text>
+        <codify:find-replace count="1">
+          <find>Within 3 months after the [when applicable],</find>
+          <replace>No later than June 2025,</replace>
+        </codify:find-replace>
       </para>
-      <para>
+      <para codify:path="(h)">
         <num>(2)</num>
         <text>Subsection (h) is amended by striking the phrase "Within one year after the applicability date of section 29 of the Secure DC Omnibus Amendment Act of 2024, passed on 2nd reading on March 5, 2024 (Enrolled version of Bill 25-345)," and inserting the phrase "No later than July 31, 2026," in its place.</text>
+        <codify:find-replace count="1">
+          <find>Within one year after the [when applicable],</find>
+          <replace>No later than July 31, 2026,</replace>
+        </codify:find-replace>
       </para>
     </para>
   </section>
   <section>
     <num>9</num>
     <text>Section 3 of the Safe Passage Training and School Engagement Amendment Act of 2025, effective September 10, 2025 (D.C. Law 26-40; 72 DCR 8170), is repealed.</text>
+    <codify:repeal doc="D.C. Law 26-40" path="§3"/>
+    <codify:annotation doc="D.C. Code" path="§1-301.192" type="Applicability" history="false"><cite doc="D.C. Law 26-188" path="§9">Section 9 of D.C. Law 26-188</cite> repealed <cite doc="D.C. Law 26-40" path="§3">section 3 of D.C. Law 26-40</cite>, thus removing the applicability limitation. Therefore, the amendment made to this section by <cite doc="D.C. Law 26-40" path="§2">section 2 of D.C. Law 26-40</cite> has been implemented.
+    </codify:annotation>
   </section>
   <section>
     <num>10</num>
@@ -431,6 +555,15 @@
     <para>
       <num>(a)</num>
       <text>Sections 2 and 3 shall apply upon the date of inclusion of their fiscal effect in an approved budget and financial plan.</text>
+      <codify:applicability doc="D.C. Law 26-188" path="§2|(a)" date="notfunded" history="false" display-template=""/>
+      <codify:applicability doc="D.C. Law 26-188" path="§2|(b)" date="notfunded" history="false" display-template=""/>
+      <!-- section 3 only amends DCMR -->
+      <codify:annotation doc="D.C. Code" path="§14-310" type="Applicability" history="false"><cite doc="D.C. Law 26-188" path="§4">Section 4 of the Leading Education Access for Reentry and Necessary Success ("LEARNS") Amendment Act of 2026</cite> became applicable as of October 2, 2026. Therefore, the amendments made to this section by <cite doc="D.C. Law 26-185" path="§3|(a)">section 3(a) of D.C. Law 26-185</cite> expired on October 2, 2026.
+    </codify:annotation>
+      <codify:annotation doc="D.C. Code" path="§14-311" type="Applicability" history="false"><cite doc="D.C. Law 26-188" path="§4">Section 4 of the Leading Education Access for Reentry and Necessary Success ("LEARNS") Amendment Act of 2026</cite> became applicable as of October 2, 2026. Therefore, the amendments made to this section by <cite doc="D.C. Law 26-185" path="§3|(b)">section 3(b) of D.C. Law 26-185</cite> expired on October 2, 2026.
+    </codify:annotation>
+      <codify:annotation doc="D.C. Code" path="§14-312" type="Applicability" history="false"><cite doc="D.C. Law 26-188" path="§4">Section 4 of the Leading Education Access for Reentry and Necessary Success ("LEARNS") Amendment Act of 2026</cite> became applicable as of October 2, 2026. Therefore, the amendments made to this section by <cite doc="D.C. Law 26-185" path="§3|(c)">section 3(c) of D.C. Law 26-185</cite> expired on October 2, 2026.
+    </codify:annotation>
     </para>
     <para>
       <num>(b)</num>
