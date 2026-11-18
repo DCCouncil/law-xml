@@ -27,22 +27,25 @@
     <num>2</num>
     <text>Chapter 46 of Title 47 of the District of Columbia Official Code  is amended as follows:</text>
     <para>
+      <!-- done permanently in FY '27 BSA, Law 26-189 -->
       <num>(a)</num>
       <text>Section 47-4683 is redesignated as section 47-4684.</text>
-      <codify:find-replace path="§[47-4684]|num" count="1">
+      <!-- <codify:find-replace path="§[47-4684]|num" count="1">
         <find>[47-4684]</find>
         <replace>47-4684</replace>
-      </codify:find-replace>
+      </codify:find-replace> -->
+      <codify:temporary doc="D.C. Code" path="§[47-4684]"/>
     </para>
     <para>
+      <!-- done permanently in FY '27 BSA, Law 26-189 -->
       <num>(b)</num>
       <text>The second section 47-4682 is redesignated as section 47-4683.</text>
-      <codify:find-replace path="§[47-4683]|num" count="1">
+      <!-- <codify:find-replace path="§[47-4683]|num" count="1">
         <find>[47-4683]</find>
         <replace>47-4683</replace>
-      </codify:find-replace>
+      </codify:find-replace> -->
     </para>
-    <para codify:path="§47-4683|(b)|(2)">
+    <para codify:path="§[47-4683]|(b)|(2)">
       <num>(c)</num>
       <text>Section 47-4683(b)(2) is amended to read as follows:</text>
       <include lvl="1">
@@ -53,8 +56,8 @@
         </para>
       </include>
       <aftertext>.</aftertext>
-      <codify:temporary doc="D.C. Code" path="§47-4683"/>
-      <codify:insert doc="D.C. Code" path="§47-4683" before="heading" history="false" display-template="">
+      <codify:temporary doc="D.C. Code" path="§[47-4683]"/>
+      <codify:insert doc="D.C. Code" path="§[47-4683]" before="heading" history="false" display-template="">
         <text>
       *NOTE: This section includes amendments by temporary legislation that will expire on March 27, 2027. To view the text of this section after the expiration of all emergency and temporary legislation, click this link: <cite doc="D.C. Code" path="§47-4683(Perm)">Past Permanent Version</cite>.*
       </text>
